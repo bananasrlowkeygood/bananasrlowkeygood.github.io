@@ -8,9 +8,9 @@
 
 bananasrlowkeygood is a personal website used to hose miscellaneous documents and other files publicly. 
 
-- **Website:** https://bananasrlowkeygood.github.io
-- **Source Repo:** https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io
-- **Bug Reports:** https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues
+- **Website:** [https://bananasrlowkeygood.github.io](https://bananasrlowkeygood.github.io)
+- **Source Repo:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io)
+- **Bug Reports:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues)
 
 It contains:
 - a user-friendly homepage
