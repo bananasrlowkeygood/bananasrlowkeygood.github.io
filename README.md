@@ -6,7 +6,7 @@
 
 ##### Summary 
 
-bananasrlowkeygood is a personal website used to hose miscellaneous documents and other files publicly. 
+bananasrlowkeygood is a personal website used to host miscellaneous documents and other files publicly. 
 
 - **Website:** [https://bananasrlowkeygood.github.io](https://bananasrlowkeygood.github.io)
 - **Source Repo:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io)
