@@ -16,6 +16,7 @@ It contains:
 - a user-friendly homepage
 - a multiple-access pipeline protocol for heavy viewership loads
 - an easy integration of common hosting service design environments for many types of files
+- an interesting secret message if you are familiar with cryptography and coding.
 
 ##### License
 
