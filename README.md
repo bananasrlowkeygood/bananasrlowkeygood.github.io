@@ -12,11 +12,6 @@ bananasrlowkeygood is a personal website used to host miscellaneous documents an
 - **Source Repo:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io)
 - **Bug Reports:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues)
 
-It contains:
-- a user-friendly homepage
-- a multiple-access pipeline protocol for heavy viewership loads
-- an easy integration of common hosting service design environments for many types of files
-
 ##### License
 
 bananasrlowkeygood is licensed under the `Apache 2.0 License`
