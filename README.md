@@ -1,4 +1,4 @@
-# <img alt="bananas" src="https://bananasrlowkeygood.github.io/logo.png" height="60"> bananasrlowkeygood
+# <img alt="bananas" src="http://www.davidsonian.com/wp-content/uploads/2019/02/banana-701x1024.png" height="60"> bananasrlowkeygood
 
 [![Version](https://img.shields.io/badge/version-v3.14.15-blueviolet?style=flat-square)](https://bananasrlowkeygood.github.io)
 [![Status](https://img.shields.io/badge/banana%20status-lowkey%20good-yellow?style=flat-square)](https://bananasrlowkeygood.github.io)
