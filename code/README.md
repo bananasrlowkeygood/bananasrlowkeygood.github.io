@@ -1,4 +1,4 @@
-# <img alt="code" src="https://bananasrlowkeygood.github.io/code/header.png" height="60"> code
+# <img alt="code" src="https://bananasrlowkeygood.github.io/code/header.png" height="60"> ``code``
 
 ##### About 
 
