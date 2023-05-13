@@ -1,0 +1,9 @@
+# <img alt="code" src="https://bananasrlowkeygood.github.io/code/header.png" height="60"> code
+
+##### About 
+
+code is a place where i store all of the code that i'm proud of! the password to these documents to prevent indexing is my ten-digit phone number. 
+
+- 📄 [ Palindromic Repeats.pdf](C3JH0DA2MysAVKCt%bq2ewoXIW$3ohvcJekR.pdf) [^1]
+
+[^1]: For someone's Data Structures and Algorithms course. Time limit for each of the twenty-four test cases was one second. Completed all twenty-four in 0.893 sec :smile:. 
