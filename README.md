@@ -10,7 +10,7 @@ bananasrlowkeygood is a personal website used to host miscellaneous documents an
 
 - **Website:** [https://bananasrlowkeygood.github.io](https://bananasrlowkeygood.github.io)
 - **Source Repo:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io)
-- **Bug Reports:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues/1](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues)
+- **Bug Reports:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues)
 
 ##### License
 
