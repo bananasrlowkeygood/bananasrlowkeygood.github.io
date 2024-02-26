@@ -1,4 +1,4 @@
-# <img alt="birdie" src="https://bananasrlowkeygood.github.io/ornithology/logo.png" height="34"> research: a list of all of my ornithology research
+# <img alt="birdie" src="https://bananasrlowkeygood.github.io/ornithology/logo.png" height="34"> orni: a list of all of my ornithology research
    - 📄 [ Bald Eagle \- Haliaeetus leucocephalus.pdf](%20Bald%20Eagle%20-%20Haliaeetus%20leucocephalus.pdf)
    - 📄 [ Black\-crowned Night\-Heron \- Nycticorax nycticorax.pdf](%20Black-crowned%20Night-Heron%20-%20Nycticorax%20nycticorax.pdf)
    - 📄 [ California Condor \- Gymnogyps californianus.pdf](%20California%20Condor%20-%20Gymnogyps%20californianus.pdf)
