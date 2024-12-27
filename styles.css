@@ -48,7 +48,7 @@ h1 {
 }
 
 .social-icons img {
-  width: 30px;
+  height: 10px;
   margin: 10px;
   transition: transform 0.3s;
 }
