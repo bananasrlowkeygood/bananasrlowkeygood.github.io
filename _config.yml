@@ -1,2 +1,5 @@
 name: bananasrlowkeygood
-title: null
+title: bananasrlowkeygood
+params:
+  assets:
+    favicon: "favicon.ico"
