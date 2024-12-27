@@ -3,13 +3,13 @@ body {
   font-weight: 300;
   font-style: normal;
   margin: 0;
-  background-color: #ede8d0;
-  color: #201c24;
+  background-color: #fffc5;
+  color: #7f6000;
   text-align: center;
 }
 
 header {
-  background-color: #ede8d0;
+  background-color: #fffc5;
   padding: 1rem;
 }
 
