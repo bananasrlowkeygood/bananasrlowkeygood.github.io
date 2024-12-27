@@ -25,13 +25,14 @@
       <p> </p>
       <p>all my homies hate google drive</p>
       <p> </p>
-    </div>
-    <div class="url-bar-container">
+      <div class="url-bar-container">
         <form class="url-bar" onsubmit="redirectToURL(event)">
-            <input type="text" id="input-path" placeholder="Enter path (e.g., static/assets/img.bed)" />
+            <input type="text" id="input-path" placeholder="Enter a relative path." />
             <button type="submit">Go</button>
         </form>
+      </div>
     </div>
+    
 
     <script>
         function redirectToURL(event) {
