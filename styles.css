@@ -54,7 +54,7 @@ h1 {
 }
 
 .img-shields img {
-  height: 10px;
+  height: 20px;
   margin: 10px;
   transition: transform 0.3s;
 }
