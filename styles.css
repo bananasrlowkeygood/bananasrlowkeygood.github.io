@@ -134,6 +134,7 @@ input[type="text"] {
   font-size: 16px;
   outline: none;
   color: #7f6000;
+  background-color: #7f6000;
 }
 
 input[type="text"]::placeholder {
@@ -141,7 +142,7 @@ input[type="text"]::placeholder {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #7f6000;
   color: white;
   border: none;
   padding: 12px 20px;
