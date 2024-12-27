@@ -2,7 +2,8 @@
 
 [![Status](https://img.shields.io/badge/banana%20status-lowkey%20good-yellow?style=flat-square)](https://bananasrlowkeygood.github.io)
 [![Version](https://img.shields.io/badge/version-v3.14.15-blueviolet?style=flat-square)](https://bananasrlowkeygood.github.io)
-[![License](https://img.shields.io/github/license/bananasrlowkeygood/bananasrlowkeygood.github.io?color=red&label=license&style=flat-square)](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/bananasrlowkeygood/bananasrlowkeygood?style=flat-square&color=red
+)](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/blob/main/LICENSE)
 
 ##### Summary 
 
