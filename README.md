@@ -14,5 +14,5 @@ bananasrlowkeygood is a personal website used to host miscellaneous documents an
 
 ##### License
 
-bananasrlowkeygood is licensed under the `Apache 2.0 License`
+bananasrlowkeygood is licensed under the `MIT License`
 
