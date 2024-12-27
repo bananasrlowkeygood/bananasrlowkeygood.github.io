@@ -112,6 +112,8 @@ h1 {
   padding: 20px;
   width: 100%;
   max-width: 500px;
+  align-items: center;
+  height: 150px;
 }
 
 .url-bar {
@@ -121,10 +123,6 @@ h1 {
   border: 1px solid #7f6000;
   border-radius: 8px;
   overflow: hidden;
-  display: flex
-  justify-content: center;
-  align-items: center;
-  height: 150px;
 }
 
 input[type="text"] {
