@@ -43,7 +43,7 @@ h1 {
   width: 400px;
   height: 400px;
   margin: 20px auto 0px;
-  background-image: url('img/plant.gif'); 
+  background-image: url('static/assets/logo.png'); 
   background-size: cover;
 }
 
