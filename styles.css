@@ -53,6 +53,17 @@ h1 {
   transition: transform 0.3s;
 }
 
+.img-shields img {
+  width: 30px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.img-shields img:hover {
+  transform: scale(1.2);
+}
+
+
 .social-icons img:hover {
   transform: scale(1.2);
 }
