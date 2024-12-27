@@ -161,3 +161,7 @@ button {
 button:hover {
   transform: scale(1.2);
 }
+
+button:active {
+  background-color: #004494;
+}
