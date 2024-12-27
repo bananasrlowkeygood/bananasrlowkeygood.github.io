@@ -29,6 +29,26 @@
     <div class="social-icons">
       <a href="https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/"><img src="static/assets/github.png" alt="GitHub"></a>
     </div>
+    <div class="url-bar-container">
+        <form class="url-bar" onsubmit="redirectToURL(event)">
+            <input type="text" id="input-path" placeholder="Enter path (e.g., static/assets/img.bed)" />
+            <button type="submit">Go</button>
+        </form>
+    </div>
+
+    <script>
+        function redirectToURL(event) {
+            event.preventDefault(); // Prevent form submission
+            const baseURL = "https://website.com/";
+            const inputPath = document.getElementById("input-path").value.trim();
+            if (!inputPath) {
+                alert("Please enter a valid path!");
+                return;
+            }
+            const fullURL = baseURL + inputPath;
+            window.location.href = fullURL; // Redirect to the constructed URL
+        }
+    </script>
   </main>
 </body>
 </html>
