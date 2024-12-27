@@ -13,9 +13,11 @@ body {
   margin: 0;
   background-color: #ffffe8;
   color: #7f6000;
+  display: flex; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+  height: 100vh; /* Added to ensure the body fills the viewport */
   text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 header {
