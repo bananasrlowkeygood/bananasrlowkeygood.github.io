@@ -9,6 +9,7 @@
 
 A personal website used to host files publicly.
 
+- **Website:** [https://bananasrlowkeygood.github.io](https://bananasrlowkeygood.github.io)
 - **Source Repo:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io)
 - **Bug Reports:** [https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues](https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues)
 
