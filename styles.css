@@ -40,8 +40,8 @@ h1 {
 }
 
 .graphic {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   margin: 20px auto 0px;
   background-image: url('static/assets/frontpage.png'); 
   background-size: cover;
