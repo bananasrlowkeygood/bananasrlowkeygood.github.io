@@ -1,0 +1,86 @@
+body {
+  font-family: "Gaegu", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  background-color: #ede8d0;
+  color: #201c24;
+  text-align: center;
+}
+
+header {
+  background-color: #ede8d0;
+  padding: 1rem;
+}
+
+nav a {
+  color: #201c24;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #7f6000;
+}
+
+.intro {
+  margin: 40px auto 0px;
+  padding: 0px;
+}
+
+p {
+  width: 40ch;
+  text-align: center;
+  margin: 0 auto; 
+  line-height: 1.5;
+}
+
+h1 {
+   margin-top: 0px;
+}
+
+.graphic {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto 0px;
+  background-image: url('img/plant.gif'); 
+  background-size: cover;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #7f6000;
+  color: #ede8d0;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
