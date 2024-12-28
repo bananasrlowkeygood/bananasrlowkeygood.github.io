@@ -43,7 +43,12 @@
                 alert("You didn't type anything!");
                 return;
             }
-            const fullURL = baseURL + inputPath;
+            if (!inputPath.startsWith('./')) {
+                alert("Huh? Relative paths start with ./");
+                return;
+            }
+            const sanitizedPath = inputPath.slice(2);
+            const fullURL = baseURL + sanitizedPath;
             window.location.href = fullURL; // Redirect to the constructed URL
         }
     </script>
