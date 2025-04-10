@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15" version="26.2.9">
   <diagram name="Page-1" id="RnLOujTq4UQYLH6lgoQO">
-    <mxGraphModel dx="2068" dy="1192" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="none">
+    <mxGraphModel dx="334" dy="192" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,6 +192,15 @@
             <mxPoint x="97" y="96.5" as="sourcePoint" />
             <mxPoint x="98" y="90" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIteKTEJ06sf-2_2h-s-45" value="&lt;div style=&quot;text-align: center;&quot;&gt;Screen&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;fontSize=4;" vertex="1" parent="-CjRuXy85uaz6GuDeEmA-189">
+          <mxGeometry x="28.5" y="86.5" width="18.5" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIteKTEJ06sf-2_2h-s-46" value="&lt;div style=&quot;text-align: center;&quot;&gt;Day 0&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;fontSize=4;" vertex="1" parent="-CjRuXy85uaz6GuDeEmA-189">
+          <mxGeometry x="58.5" y="86.5" width="18.5" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIteKTEJ06sf-2_2h-s-47" value="&lt;div style=&quot;&quot;&gt;Adjusted&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Week&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;fontSize=4;" vertex="1" parent="-CjRuXy85uaz6GuDeEmA-189">
+          <mxGeometry x="77.5" y="87.5" width="18.5" height="21" as="geometry" />
         </mxCell>
         <mxCell id="-CjRuXy85uaz6GuDeEmA-68" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="38" y="50" width="120" height="37" as="geometry" />
