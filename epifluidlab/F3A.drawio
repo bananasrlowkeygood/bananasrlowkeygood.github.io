@@ -1,41 +1,20 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15" version="26.2.14">
   <diagram name="Page-1" id="-q89EJRB-zZkfKFPTA8b">
-    <mxGraphModel dx="2066" dy="1192" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1068" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-9" value="k=50 Univariate Feature Selection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="u-hOhd4zWrTqsM9MsUmE-9" value="Truncated SVD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="292" y="128" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u-hOhd4zWrTqsM9MsUmE-10" value="TabPFN Model Training" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="292" y="158" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-11" value="10-fold Cross Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="292" y="188" width="250" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-15" value="DELFI&lt;div&gt;Model&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="422" y="218" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="u-hOhd4zWrTqsM9MsUmE-16" value="rMDS&lt;div&gt;Model&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="292" y="218" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-11" target="u-hOhd4zWrTqsM9MsUmE-16" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="357" y="68" as="sourcePoint" />
-            <mxPoint x="427" y="88" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-11" target="u-hOhd4zWrTqsM9MsUmE-15" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="427" y="218" as="sourcePoint" />
-            <mxPoint x="362" y="228" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-19" value="&lt;b&gt;Final Classifier:&lt;/b&gt;&amp;nbsp;&lt;div&gt;Random Forest Model&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="292" y="309" width="250" height="40" as="geometry" />
+          <mxGeometry x="357" y="220" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u-hOhd4zWrTqsM9MsUmE-21" value="10-fold Cross Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="292" y="359" width="250" height="20" as="geometry" />
+          <mxGeometry x="292" y="189" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u-hOhd4zWrTqsM9MsUmE-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" target="u-hOhd4zWrTqsM9MsUmE-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,67 +28,46 @@
             <mxPoint x="427" y="88" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-10" target="u-hOhd4zWrTqsM9MsUmE-11" edge="1">
+        <mxCell id="u-hOhd4zWrTqsM9MsUmE-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="427" y="158" as="sourcePoint" />
-            <mxPoint x="427" y="168" as="targetPoint" />
+            <mxPoint x="417" y="188" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-25" value="&lt;span style=&quot;color: rgb(95, 51, 135);&quot;&gt;Predict&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(95, 51, 135);&quot;&gt;Probability&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-16" target="u-hOhd4zWrTqsM9MsUmE-19" edge="1">
+        <mxCell id="u-hOhd4zWrTqsM9MsUmE-25" value="&lt;span style=&quot;color: rgb(95, 51, 135);&quot;&gt;Predict&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(95, 51, 135);&quot;&gt;Probability&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="357" y="68" as="sourcePoint" />
-            <mxPoint x="427" y="88" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-19" target="u-hOhd4zWrTqsM9MsUmE-21" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="357" y="109" as="sourcePoint" />
-            <mxPoint x="427" y="129" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u-hOhd4zWrTqsM9MsUmE-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-21" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="357" y="109" as="sourcePoint" />
-            <mxPoint x="417" y="389" as="targetPoint" />
+            <mxPoint x="417" y="309" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u-hOhd4zWrTqsM9MsUmE-29" value="&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot; data-end=&quot;1552&quot; data-start=&quot;1502&quot;&gt;Mean Probability Across&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot; data-end=&quot;1552&quot; data-start=&quot;1502&quot;&gt;Timepoints per Patient&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="292" y="475" width="250" height="34" as="geometry" />
+          <mxGeometry x="292" y="310" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="u-hOhd4zWrTqsM9MsUmE-32" value="Responder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D0E2ED;strokeColor=#4687B9;" parent="1" vertex="1">
-          <mxGeometry x="292" y="528" width="110" height="20" as="geometry" />
+          <mxGeometry x="292" y="363" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u-hOhd4zWrTqsM9MsUmE-33" value="Non-Responder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2E9E0;strokeColor=#C39F7C;" parent="1" vertex="1">
-          <mxGeometry x="422" y="528" width="120" height="20" as="geometry" />
+          <mxGeometry x="422" y="363" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="u-hOhd4zWrTqsM9MsUmE-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-29" target="u-hOhd4zWrTqsM9MsUmE-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="367" y="85" as="sourcePoint" />
-            <mxPoint x="437" y="105" as="targetPoint" />
+            <mxPoint x="367" y="-80" as="sourcePoint" />
+            <mxPoint x="437" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u-hOhd4zWrTqsM9MsUmE-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-29" target="u-hOhd4zWrTqsM9MsUmE-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="502" y="85" as="sourcePoint" />
-            <mxPoint x="437" y="105" as="targetPoint" />
+            <mxPoint x="502" y="-80" as="sourcePoint" />
+            <mxPoint x="437" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="saoKBA29gPFnScVLsJrS-1" value="Cross Validation Set&lt;div&gt;(rMDS and DELFI)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="292" y="77" width="250" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="MjESXEBcNiNaPKSN0CXR-8" value="Ensemble&amp;nbsp;&lt;div&gt;Model&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="357" y="390" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="MjESXEBcNiNaPKSN0CXR-15" value="&lt;span style=&quot;color: rgb(156, 115, 0);&quot;&gt;Predict&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 115, 0);&quot;&gt;Probability&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="MjESXEBcNiNaPKSN0CXR-8" target="u-hOhd4zWrTqsM9MsUmE-29" edge="1">
+        <mxCell id="cLW_rHJX1c5M9dpuAZhe-15" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="u-hOhd4zWrTqsM9MsUmE-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="362" y="268" as="sourcePoint" />
-            <mxPoint x="427" y="319" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="90awQQxGtELLUz0dgHXJ-79" value="&lt;span style=&quot;color: rgb(95, 51, 135);&quot;&gt;Predict&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(95, 51, 135);&quot;&gt;Probability&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="u-hOhd4zWrTqsM9MsUmE-15" target="u-hOhd4zWrTqsM9MsUmE-19" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="362" y="268" as="sourcePoint" />
-            <mxPoint x="427" y="319" as="targetPoint" />
+            <mxPoint x="928" y="280" as="sourcePoint" />
+            <mxPoint x="417" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
