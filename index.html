@@ -7,7 +7,6 @@
   <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -22,21 +21,36 @@
         <a href="https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/bananasrlowkeygood/bananasrlowkeygood?style=flat-square&color=red" alt="License"></a>
       </div>
       <p>personal file hosting.</p>
-      <p> </p>
       <p>all my homies hate google drive</p>
-      <p> </p>
       <div class="url-bar-container">
         <form class="url-bar" onsubmit="redirectToURL(event)">
-            <input type="text" id="input-path" placeholder="Enter a relative path." />
+            <input type="text" id="input-path" placeholder="Enter a relative path." autocomplete="off" list="path-suggestions" />
+            <datalist id="path-suggestions"></datalist>
             <button type="submit">Go</button>
         </form>
       </div>
     </div>
-    
 
     <script>
+        async function loadPaths() {
+            try {
+                const res = await fetch("https://api.github.com/repos/bananasrlowkeygood/bananasrlowkeygood.github.io/git/trees/main?recursive=1");
+                const data = await res.json();
+                const datalist = document.getElementById("path-suggestions");
+                data.tree
+                    .filter(item => item.type === "blob")
+                    .forEach(item => {
+                        const option = document.createElement("option");
+                        option.value = "./" + item.path;
+                        datalist.appendChild(option);
+                    });
+            } catch (e) {
+                // silently fail — autocomplete is a nice-to-have
+            }
+        }
+
         function redirectToURL(event) {
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault();
             const baseURL = "https://bananasrlowkeygood.github.io/";
             const inputPath = document.getElementById("input-path").value.trim();
             if (!inputPath) {
@@ -49,8 +63,10 @@
             }
             const sanitizedPath = inputPath.slice(2);
             const fullURL = baseURL + sanitizedPath;
-            window.location.href = fullURL; // Redirect to the constructed URL
+            window.location.href = fullURL;
         }
+
+        loadPaths();
     </script>
   </main>
 </body>
