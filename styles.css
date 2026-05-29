@@ -7,7 +7,6 @@
 
 
 body {
-  font-family: "Gaegu", serif;
   font-weight: 300;
   font-style: normal;
   margin: 0;
@@ -20,20 +19,6 @@ body {
   text-align: center;
 }
 
-header {
-  background-color: #ffffe8;
-  padding: 1rem;
-}
-
-nav a {
-  color: #201c24;
-  margin: 0 15px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #7f6000;
-}
 
 .intro {
   margin: 40px auto 0px;
@@ -43,7 +28,7 @@ nav a:hover {
 p {
   width: 40ch;
   text-align: center;
-  margin: 0 auto; 
+  margin: 0 auto 0.75rem;
   line-height: 1.5;
 }
 
@@ -115,9 +100,10 @@ h1 {
   width: 100%;
   max-width: 500px;
   align-items: center;
-  height: 20px;
+  height: 40px;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .url-bar {
@@ -127,7 +113,7 @@ h1 {
   border: none;
   border-radius: 8px;
   overflow: hidden;
-  height: 20px;
+  height: 40px;
   width: 100%;
 }
 
@@ -150,8 +136,8 @@ button {
   background-color: #7f6000;
   color: white;
   border: none;
-  padding: 0 5px;
-  height: 20px;
+  padding: 0 12px;
+  height: 40px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
@@ -163,5 +149,5 @@ button:hover {
 }
 
 button:active {
-  background-color: #8f7010;
+  background-color: #5a4400;
 }
