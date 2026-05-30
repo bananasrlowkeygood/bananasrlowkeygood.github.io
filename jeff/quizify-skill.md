@@ -2,16 +2,16 @@
 name: quizify
 description: >
   Generate Step 1-style USMLE questions from uploaded lecture PDFs, slides, or notes and save them
-  to the jeff question bank at bananasrlowkeygood.github.io. Trigger whenever the user uploads
-  medical study material and asks for questions, quizzes, or to "quizify" content. Also trigger
-  for "Step 1 questions", "board-style questions", "add to jeff", or "add to question bank".
-  Infers the lecture name and block (neuro, endorepro, msk) from the content, writes a JSON file
-  to the right folder, and pushes to GitHub. No manifest file needed — lectures are auto-discovered.
+  as a JSON file to Downloads. Trigger whenever the user uploads medical study material and asks
+  for questions, quizzes, or to "quizify" content. Also trigger for "Step 1 questions",
+  "board-style questions", "add to jeff", or "add to question bank".
+  Infers the lecture name and block (neuro, endorepro, msk) from the content and writes a JSON
+  file to ~/Downloads/jeff/{block}/{slug}.json — the exact path needed for manual upload to the repo.
 ---
 
 # Quizify — Jeff Question Bank
 
-Convert uploaded lecture material into Step 1 USMLE questions saved directly to the jeff question bank.
+Convert uploaded lecture material into Step 1 USMLE questions and save the JSON file to Downloads.
 
 ---
 
@@ -52,7 +52,7 @@ If ambiguous, pick the best match and proceed. If truly unclear, ask the user.
 
 ### Format
 
-Each question uses exactly **4 answer choices (A–D)**. Output as a JSON array — do not render a React component.
+Each question uses exactly **5 answer choices (A–E)**. Output as a JSON array — do not render a React component.
 
 ### The NBME Vignette Formula
 
@@ -71,13 +71,13 @@ Good: "A 58-year-old woman with T2DM starts a new medication. After 2 months her
 
 **2. Include a pivot clue.** One specific detail (lab value, timing, age, exposure) that determines the correct answer over the distractors. Not a red herring.
 
-**3. Homogeneous distractors.** All 4 choices must be the same category (all diagnoses, all drugs, all mechanisms, all next steps). Never mix.
+**3. Homogeneous distractors.** All 5 choices must be the same category (all diagnoses, all drugs, all mechanisms, all next steps). Never mix.
 
-**4. Parallel length.** All 4 choices roughly the same length. Correct answer must not be the longest.
+**4. Parallel length.** All 5 choices roughly the same length. Correct answer must not be the longest.
 
 **5. Second-order reasoning.** Prefer: "X → Y → what is Z?" over "what is X?"
 
-**6. Alphabetize A–D** by the first word of each choice.
+**6. Alphabetize A–E** by the first word of each choice.
 
 ### When to Include a Table
 
@@ -119,14 +119,16 @@ Each choice gets its own explanation:
         "A": "First choice",
         "B": "Second choice",
         "C": "Third choice",
-        "D": "Fourth choice"
+        "D": "Fourth choice",
+        "E": "Fifth choice"
       },
       "correct": "B",
       "explanations": {
         "A": "Why A is wrong...",
         "B": "Why B is correct...",
         "C": "Why C is wrong...",
-        "D": "Why D is wrong..."
+        "D": "Why D is wrong...",
+        "E": "Why E is wrong..."
       }
     }
   ]
@@ -139,53 +141,17 @@ Use today's date (`date +%Y-%m-%d`) for the `generated` field.
 
 ---
 
-## Step 5: Save File Locally to Downloads
+## Step 5: Save File to Downloads
 
-Write the assembled JSON to a temporary staging location:
-
-`~/Downloads/jeff-{slug}.json`
-
-No local repo clone is needed — this is just a staging file.
-
----
-
-## Step 6: Push the File to GitHub via API
-
-No local git clone needed. Use `gh api` to push the file directly.
-
-### Push the question file
+Create the directory and write the JSON file to the path that matches the repo structure exactly, so it can be uploaded without renaming:
 
 ```bash
-REPO="bananasrlowkeygood/bananasrlowkeygood.github.io"
-REMOTE_PATH="jeff/{block}/{slug}.json"
-LOCAL_FILE="$HOME/Downloads/jeff-{slug}.json"
-
-# Check if file already exists (need its SHA to update)
-SHA=$(/opt/homebrew/bin/gh api repos/$REPO/contents/$REMOTE_PATH --jq '.sha' 2>/dev/null || echo "")
-
-CONTENT=$(base64 < "$LOCAL_FILE")
-
-if [ -n "$SHA" ]; then
-  /opt/homebrew/bin/gh api repos/$REPO/contents/$REMOTE_PATH \
-    -X PUT \
-    -f message="Add {lecture name} questions to {block} block" \
-    -f content="$CONTENT" \
-    -f sha="$SHA"
-else
-  /opt/homebrew/bin/gh api repos/$REPO/contents/$REMOTE_PATH \
-    -X PUT \
-    -f message="Add {lecture name} questions to {block} block" \
-    -f content="$CONTENT"
-fi
+mkdir -p ~/Downloads/jeff/{block}
+# Write JSON to:
+~/Downloads/jeff/{block}/{slug}.json
 ```
 
-### Cleanup
-
-```bash
-rm ~/Downloads/jeff-{slug}.json
-```
-
-Report back: lecture name inferred, block assigned, number of questions written, GitHub path, and whether the push succeeded.
+Report back: lecture name inferred, block assigned, number of questions written, and the full file path saved.
 
 ---
 
@@ -195,11 +161,11 @@ Before saving, verify each question:
 
 - [ ] Vignette has age, sex, and at least 2 clinical details
 - [ ] Lead-in ends with a question mark
-- [ ] Exactly 4 choices, A through D
+- [ ] Exactly 5 choices, A through E
 - [ ] All choices are the same category
 - [ ] Choices are alphabetized by first word
 - [ ] Choices are roughly equal length
 - [ ] Correct answer is not systematically the longest
 - [ ] Tests reasoning, not pure recall
-- [ ] Explanation covers all 4 choices individually
+- [ ] Explanation covers all 5 choices individually
 - [ ] Table included where lab values are referenced
