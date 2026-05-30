@@ -2,23 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gaegu", serif;
+  font-family: "Klee One", cursive;
 }
-
 
 body {
   font-weight: 300;
   font-style: normal;
   margin: 0;
-  background-color: #ffffe8;
-  color: #7f6000;
+  background-color: #eae6f0;
+  color: #14111a;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   text-align: center;
 }
-
 
 .intro {
   margin: 40px auto 0px;
@@ -33,14 +31,14 @@ p {
 }
 
 h1 {
-   margin-top: 0px;
+  margin-top: 0px;
 }
 
 .graphic {
   width: 200px;
   height: 200px;
   margin: 20px auto 0px;
-  background-image: url('static/assets/frontpage.png'); 
+  background-image: url('static/assets/frontpage.png');
   background-size: cover;
 }
 
@@ -60,7 +58,6 @@ h1 {
   transform: scale(1.2);
 }
 
-
 .social-icons img:hover {
   transform: scale(1.2);
 }
@@ -74,8 +71,8 @@ h1 {
 .tooltip-text {
   visibility: hidden;
   width: 180px;
-  background-color: #7f6000;
-  color: #ede8d0;
+  background-color: #5c4f7a;
+  color: #f0ecf8;
   text-align: center;
   border-radius: 4px;
   padding: 5px 10px;
@@ -94,7 +91,7 @@ h1 {
 }
 
 .url-bar-container {
-  background: #ffffe8;
+  background: #eae6f0;
   border-radius: 8px;
   padding: 0 5px;
   width: 100%;
@@ -123,31 +120,32 @@ input[type="text"] {
   border: none;
   font-size: 16px;
   outline: none;
-  color: #7f6000;
-  background-color: #ffffe8;
+  color: #14111a;
+  background-color: #eae6f0;
   height: 40px;
 }
 
 input[type="text"]::placeholder {
-  color: #bbb;
+  color: #9b94b5;
 }
 
 button {
-  background-color: #7f6000;
-  color: white;
+  background-color: #5c4f7a;
+  color: #f0ecf8;
   border: none;
   padding: 0 12px;
   height: 40px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
+  font-family: "Klee One", cursive;
   transition: background-color 0.2s ease;
 }
 
 button:hover {
-  background-color: #8f7010;
+  background-color: #6e5f90;
 }
 
 button:active {
-  background-color: #5a4400;
+  background-color: #3e3456;
 }
