@@ -1,0 +1,92 @@
+{
+  "lecture": "Colon Cancer Screening",
+  "block": "neuro",
+  "generated": "2026-05-30",
+  "questions": [
+    {
+      "id": "neuro-colon-cancer-screening-001",
+      "question": "A 47-year-old asymptomatic woman with no personal or family history of colorectal cancer, inflammatory bowel disease, or adenomatous polyps presents for a routine physical. Her physician discusses colorectal cancer screening options. According to current ACS and USPSTF guidelines, which statement best describes the recommended approach for this patient?",
+      "answers": {
+        "A": "Begin screening at age 50 with colonoscopy every 10 years",
+        "B": "Begin screening now at age 45 with any approved modality",
+        "C": "Defer screening until age 50; she is below the threshold",
+        "D": "Screen now using FIT only; colonoscopy is reserved for high-risk patients"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Age 50 was the prior threshold; both the ACS (2018) and USPSTF (2021) lowered the start age to 45 due to rising incidence in younger adults.",
+        "B": "Current guidelines recommend initiating average-risk CRC screening at age 45, and any approved modality (colonoscopy, FIT, FIT-DNA, CT colonography, flexible sigmoidoscopy) is acceptable.",
+        "C": "Deferring to age 50 is outdated; guidelines were updated to age 45 in response to increasing early-onset CRC.",
+        "D": "FIT is a valid option but is not exclusively recommended; colonoscopy and other tests are equally acceptable for average-risk screening."
+      }
+    },
+    {
+      "id": "neuro-colon-cancer-screening-002",
+      "question": "A 52-year-old man is found to have a small adenomatous polyp on routine colonoscopy. His sister was diagnosed with colorectal cancer at age 57. He asks about his future screening interval. According to guidelines for patients with a family history of CRC in a first-degree relative aged 60 or older, which surveillance recommendation is most appropriate?",
+      "answers": {
+        "A": "Colonoscopy every 5 years starting now or 10 years before the index case",
+        "B": "Colonoscopy every 10 years beginning at age 40",
+        "C": "Routine colonoscopy interval (every 10 years) beginning at age 40",
+        "D": "Routine colonoscopy interval (every 10 years) beginning at age 45"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Colonoscopy every 5 years applies to patients with 2 or more first-degree relatives with CRC, or 1 first-degree relative diagnosed before age 60 — not the scenario described.",
+        "B": "Colonoscopy every 10 years beginning at age 40 is the correct recommendation, but this choice incorrectly pairs that start age with a non-standard screening interval.",
+        "C": "A single first-degree relative with CRC diagnosed at age 60 or older warrants routine screening (colonoscopy every 10 years) but with an earlier start at age 40, reflecting moderately elevated risk.",
+        "D": "Age 45 is the average-risk start; patients with a first-degree relative with CRC should begin at age 40, regardless of the relative's age at diagnosis."
+      }
+    },
+    {
+      "id": "neuro-colon-cancer-screening-003",
+      "question": "A 61-year-old woman presents after receiving a positive FIT result. She reports no rectal bleeding and has no prior colonoscopy. Her physician explains next steps. Which statement most accurately reflects evidence-based management following a positive fecal immunochemical test result?",
+      "answers": {
+        "A": "Colonoscopy is required regardless of how many samples tested positive",
+        "B": "Repeat FIT in 3 months to confirm the result before proceeding",
+        "C": "Repeat FIT in 6 months; colonoscopy only if two tests are positive",
+        "D": "Surgical consultation is warranted given the high specificity of FIT"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Any single positive sample on FOBT or FIT mandates colonoscopy; there is no threshold requiring multiple positive samples before proceeding.",
+        "B": "Repeating FIT before proceeding is not recommended; a positive result warrants immediate colonoscopy, not confirmatory testing.",
+        "C": "Waiting for a second positive test delays necessary evaluation and is not consistent with current guidelines.",
+        "D": "While FIT has high specificity (~95%), a positive result does not indicate cancer and does not warrant surgical consultation without colonoscopic evaluation first."
+      }
+    },
+    {
+      "id": "neuro-colon-cancer-screening-004",
+      "question": "A primary care physician is comparing screening modalities for her patient panel. She notes that one non-invasive stool test detects both fecal blood and abnormal DNA shed by colorectal neoplasms, costs approximately $600, and is recommended every 3 years. Compared to annual FIT, a key limitation of this modality is which of the following?",
+      "answers": {
+        "A": "Cannot be mailed to a laboratory and requires an in-office collection",
+        "B": "Detects only blood and has no advantage over guaiac FOBT",
+        "C": "Has lower sensitivity for colorectal cancer than standard FIT",
+        "D": "Higher false-positive rate may lead to more colonoscopies in patients without cancer"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "FIT-DNA (Cologuard) is mailed by the patient from home; in-office collection is not required, and mailability is actually listed as an advantage of FIT, not FIT-DNA.",
+        "B": "FIT-DNA detects both blood and abnormal DNA; it has significantly higher one-time sensitivity for CRC (94%) than standard FIT (~73%) — not lower.",
+        "C": "FIT-DNA has higher sensitivity than FIT (94% vs. ~73% for one-time testing); FIT has superior performance only when used consistently year over year.",
+        "D": "FIT-DNA's lower specificity (89% vs. 95% for FIT) means more false positives, leading to unnecessary colonoscopies — a recognized trade-off of the increased sensitivity."
+      }
+    },
+    {
+      "id": "neuro-colon-cancer-screening-005",
+      "question": "A pathology report returns for a 58-year-old man who underwent screening colonoscopy. He is found to have a 0.8 cm hyperplastic polyp in the rectum. The gastroenterologist is deciding on surveillance recommendations. Which statement best characterizes hyperplastic polyps of this size?",
+      "answers": {
+        "A": "Carry high malignant potential and require repeat colonoscopy in 3 years",
+        "B": "Constitute 80% of all adenomas and have a 4.8% malignant transformation rate",
+        "C": "Rarely exhibit dysplasia and carry low risk of progression to colorectal cancer",
+        "D": "Represent sessile serrated lesions and mandate early follow-up colonoscopy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hyperplastic polyps have low malignant potential and do not warrant early surveillance colonoscopy; this description better fits tubular or sessile serrated adenomas.",
+        "B": "Constituting 80% of adenomas with a 4.8% malignant transformation rate describes tubular adenomas, not hyperplastic polyps.",
+        "C": "Hyperplastic polyps are typically small (1–5 mm), sessile, and rarely show dysplasia or develop into colorectal cancer; they account for up to 50% of sigmoid and rectal polyps.",
+        "D": "Sessile serrated lesions are a distinct category that is difficult to detect on colonoscopy due to their flat appearance and adherent mucus; they do require early follow-up, unlike hyperplastic polyps."
+      }
+    }
+  ]
+}
