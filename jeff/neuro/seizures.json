@@ -1,0 +1,92 @@
+{
+  "lecture": "Seizures",
+  "block": "neuro",
+  "generated": "2026-05-29",
+  "questions": [
+    {
+      "id": "neuro-seizures-001",
+      "question": "A 25-year-old woman with a history of epilepsy presents to the ED still seizing after 10 minutes of continuous tonic-clonic activity. She received lorazepam 5 minutes ago with no effect. What is the most appropriate next step?",
+      "answers": {
+        "A": "Repeat lorazepam",
+        "B": "IV fosphenytoin",
+        "C": "Phenobarbital",
+        "D": "Propofol infusion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lorazepam was already given and failed. Repeating it is not the next step; second-line therapy should be initiated.",
+        "B": "After benzodiazepine failure, IV fosphenytoin (or levetiracetam or valproate) is the recommended second-line agent for status epilepticus per current guidelines.",
+        "C": "Phenobarbital is a third-line agent used if both benzodiazepines and second-line agents fail.",
+        "D": "Propofol is used for refractory status epilepticus requiring intubation and continuous EEG monitoring — appropriate only after first- and second-line agents have failed."
+      }
+    },
+    {
+      "id": "neuro-seizures-002",
+      "question": "A 30-year-old man describes episodes of staring blankly for 30 seconds, during which he cannot respond and makes lip-smacking movements. He has no memory of these events. What seizure type does this describe?",
+      "answers": {
+        "A": "Absence seizure",
+        "B": "Focal aware seizure",
+        "C": "Focal impaired awareness seizure",
+        "D": "Myoclonic seizure"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Absence seizures last 5–15 seconds, have abrupt onset and offset, and lack postictal confusion or automatisms. They occur in children, not typically adults.",
+        "B": "Focal aware seizures (formerly simple partial) involve preserved consciousness — this patient has impaired awareness.",
+        "C": "Focal impaired awareness seizures (formerly complex partial) involve impaired consciousness with automatisms (lip smacking, hand picking) and postictal confusion, originating from the temporal lobe.",
+        "D": "Myoclonic seizures are brief, shock-like jerks without loss of awareness or automatisms."
+      }
+    },
+    {
+      "id": "neuro-seizures-003",
+      "question": "A 19-year-old woman has had seizures since age 12 consisting of morning myoclonic jerks and occasional generalized tonic-clonic seizures. EEG shows 3–4 Hz spike-and-wave discharges. What is the most likely diagnosis?",
+      "answers": {
+        "A": "Lennox-Gastaut syndrome",
+        "B": "Juvenile myoclonic epilepsy",
+        "C": "Childhood absence epilepsy",
+        "D": "Temporal lobe epilepsy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lennox-Gastaut presents in early childhood with multiple seizure types, intellectual disability, and slow spike-and-wave on EEG — not the pattern described here.",
+        "B": "Juvenile myoclonic epilepsy (JME) classically presents in adolescence with morning myoclonic jerks, generalized tonic-clonic seizures, and 4–6 Hz polyspike-wave discharges. It is lifelong but responds well to valproate.",
+        "C": "Childhood absence epilepsy presents in younger children (4–10 years) with staring spells only, resolves in adolescence, and shows 3 Hz spike-and-wave — not myoclonic jerks.",
+        "D": "Temporal lobe epilepsy involves focal impaired awareness seizures with automatisms, not primarily myoclonic jerks."
+      }
+    },
+    {
+      "id": "neuro-seizures-004",
+      "question": "A 45-year-old man with a first-time seizure is found to have a brain tumor on MRI. Which antiepileptic drug is most appropriate for seizure prophylaxis in this setting?",
+      "answers": {
+        "A": "Phenytoin",
+        "B": "Levetiracetam",
+        "C": "Valproate",
+        "D": "Carbamazepine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Phenytoin has significant drug interactions with chemotherapy agents and a narrow therapeutic window, making it less preferred in patients with brain tumors.",
+        "B": "Levetiracetam is preferred in brain tumor patients due to minimal drug interactions, no hepatic enzyme induction, and good tolerability.",
+        "C": "Valproate is effective but has hepatotoxicity risk and interactions with chemotherapy; it is not preferred first-line in this context.",
+        "D": "Carbamazepine is a hepatic enzyme inducer that reduces efficacy of corticosteroids and chemotherapy — generally avoided in brain tumor patients."
+      }
+    },
+    {
+      "id": "neuro-seizures-005",
+      "question": "A 7-year-old boy has episodes of staring and unresponsiveness lasting 10 seconds that occur up to 50 times per day. They stop abruptly and he immediately resumes activity with no postictal confusion. EEG shows 3 Hz spike-and-wave. What is the first-line treatment?",
+      "answers": {
+        "A": "Valproate",
+        "B": "Carbamazepine",
+        "C": "Ethosuximide",
+        "D": "Levetiracetam"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Valproate is effective for absence seizures but has a worse side-effect profile (weight gain, teratogenicity, hepatotoxicity) compared to ethosuximide, making it second-line.",
+        "B": "Carbamazepine can worsen absence seizures and is contraindicated in this setting.",
+        "C": "Ethosuximide is first-line for childhood absence epilepsy. It targets T-type calcium channels in the thalamus and has a favorable safety profile in children.",
+        "D": "Levetiracetam has limited evidence for absence seizures and is not considered first-line for this syndrome."
+      }
+    }
+  ]
+}

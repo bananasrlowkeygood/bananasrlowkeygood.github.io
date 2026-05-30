@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jeff — quiz</title>
+  <link rel="icon" type="image/x-icon" href="../static/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+
+    /* Topbar keeps Klee One */
+    .topbar, .topbar * {
+      font-family: "Klee One", cursive;
+    }
+
+    /* Everything else: clean system font */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background-color: #eae6f0;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ── Topbar (unchanged) ── */
+    .topbar {
+      background: #f0ecf8;
+      border-bottom: 1px solid #c5bee0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.7rem 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      gap: 1rem;
+    }
+
+    .topbar-left { display: flex; align-items: center; gap: 1rem; }
+
+    .back-link {
+      font-size: 0.85rem;
+      color: #5c4f7a;
+      opacity: 0.7;
+      transition: opacity 0.15s;
+      white-space: nowrap;
+    }
+    .back-link:hover { opacity: 1; }
+
+    .quiz-title   { font-size: 0.95rem; color: #14111a; }
+    .quiz-subtitle { font-size: 0.75rem; color: #5c4f7a; opacity: 0.7; }
+
+    .progress-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.3rem;
+      min-width: 160px;
+    }
+
+    .progress-label { font-size: 0.75rem; color: #5c4f7a; opacity: 0.7; }
+
+    .progress-bar-bg {
+      width: 160px;
+      height: 5px;
+      background: #c5bee0;
+      border-radius: 99px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: #5c4f7a;
+      border-radius: 99px;
+      transition: width 0.3s ease;
+    }
+
+    /* ── Main ── */
+    .main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .state-msg {
+      color: #555;
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: #fff;
+      border: 1px solid #d0d0d0;
+      border-radius: 6px;
+      width: 100%;
+      max-width: 820px;
+      padding: 1.75rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .q-meta {
+      font-size: 0.72rem;
+      color: #777;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .q-text {
+      font-size: 0.97rem;
+      line-height: 1.75;
+      color: #1a1a1a;
+    }
+
+    /* ── Lab table ── */
+    .lab-table {
+      width: auto;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+      margin-top: 0.75rem;
+    }
+    .lab-table th, .lab-table td {
+      padding: 0.3rem 0.85rem;
+      border: 1px solid #bbb;
+      text-align: left;
+      color: #1a1a1a;
+    }
+    .lab-table th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+    .lab-table tr:nth-child(even) td { background: #fafafa; }
+
+    /* ── Answers ── */
+    .answers {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+
+    .answer-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      background: #fff;
+      border: 1px solid #c8c8c8;
+      border-radius: 4px;
+      padding: 0.6rem 0.9rem;
+      cursor: pointer;
+      text-align: left;
+      color: #1a1a1a;
+      font-size: 0.93rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.5;
+      transition: border-color 0.12s, background 0.12s;
+      width: 100%;
+      position: relative;
+    }
+
+    .answer-btn:not(.locked):hover {
+      border-color: #888;
+      background: #f7f7f7;
+    }
+
+    .answer-btn.selected {
+      border-color: #3a6ea8;
+      background: #edf3fb;
+    }
+
+    .answer-btn.correct {
+      border-color: #2e7d4f;
+      background: #edf7f1;
+    }
+
+    .answer-btn.incorrect {
+      border-color: #b03030;
+      background: #fdf0f0;
+    }
+
+    .answer-btn.struck .answer-text {
+      text-decoration: line-through;
+      opacity: 0.45;
+    }
+
+    .answer-letter {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: #e0e0e0;
+      color: #333;
+      font-size: 0.78rem;
+      font-weight: 700;
+      flex-shrink: 0;
+      transition: background 0.12s, color 0.12s;
+    }
+
+    .answer-btn.selected  .answer-letter { background: #3a6ea8; color: #fff; }
+    .answer-btn.correct   .answer-letter { background: #2e7d4f; color: #fff; }
+    .answer-btn.incorrect .answer-letter { background: #b03030; color: #fff; }
+
+    .strike-hint {
+      font-size: 0.68rem;
+      color: #aaa;
+      margin-left: auto;
+      flex-shrink: 0;
+      display: none;
+    }
+    .answer-btn:hover .strike-hint { display: block; }
+
+    /* ── Explanations ── */
+    .explanations {
+      display: none;
+      flex-direction: column;
+      gap: 0.4rem;
+      border-top: 1px solid #ddd;
+      padding-top: 1rem;
+    }
+    .explanations.visible { display: flex; }
+
+    .exp-title {
+      font-size: 0.72rem;
+      color: #777;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.1rem;
+    }
+
+    .exp-item {
+      display: flex;
+      gap: 0.6rem;
+      padding: 0.55rem 0.8rem;
+      border-radius: 3px;
+      font-size: 0.85rem;
+      line-height: 1.55;
+      background: #f8f8f8;
+      border: 1px solid #e0e0e0;
+      color: #1a1a1a;
+    }
+
+    .exp-item.correct-exp {
+      border-color: #2e7d4f;
+      background: #edf7f1;
+    }
+
+    .exp-letter {
+      font-weight: 700;
+      min-width: 16px;
+      color: #888;
+      flex-shrink: 0;
+    }
+    .exp-item.correct-exp .exp-letter { color: #2e7d4f; }
+
+    /* ── Actions ── */
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #e0e0e0;
+      padding-top: 0.9rem;
+    }
+
+    .score-inline { font-size: 0.82rem; color: #555; }
+    .score-inline strong { color: #2e7d4f; }
+
+    /* Circular nav button */
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 2px solid #3a6ea8;
+      background: #3a6ea8;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      line-height: 1;
+      padding: 0;
+    }
+    .nav-btn:disabled {
+      border-color: #bbb;
+      background: #e0e0e0;
+      color: #999;
+      cursor: default;
+    }
+    .nav-btn:not(:disabled):hover { background: #2a5a90; border-color: #2a5a90; }
+
+    #submitBtn        { display: inline-flex; }
+    #submitBtn.hidden { display: none; }
+    #nextBtn          { display: none; }
+    #nextBtn.visible  { display: inline-flex; }
+
+    /* ── Results ── */
+    #results {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.75rem;
+      padding: 2.5rem 1rem;
+      width: 100%;
+      max-width: 520px;
+      text-align: center;
+    }
+    #results.visible { display: flex; }
+
+    .results-title { font-size: 1.4rem; color: #1a1a1a; }
+
+    .donut-wrap {
+      position: relative;
+      width: 148px;
+      height: 148px;
+    }
+    .donut-wrap svg { transform: rotate(-90deg); }
+
+    .donut-label {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .donut-pct { font-size: 1.9rem; color: #1a1a1a; }
+    .donut-sub { font-size: 0.72rem; color: #777; margin-top: 0.1rem; }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0.75rem;
+      width: 100%;
+    }
+
+    .res-stat {
+      background: #fff;
+      border: 1px solid #d0d0d0;
+      border-radius: 6px;
+      padding: 1rem 0.75rem;
+    }
+
+    .res-stat .val { font-size: 1.5rem; color: #1a1a1a; }
+    .res-stat .lbl { font-size: 0.75rem; color: #777; margin-top: 0.15rem; }
+    .val.green { color: #2e7d4f; }
+    .val.red   { color: #b03030; }
+
+    .results-actions { display: flex; gap: 0.65rem; flex-wrap: wrap; justify-content: center; }
+
+    .res-btn {
+      padding: 0.5rem 1.25rem;
+      border-radius: 4px;
+      border: 1px solid #3a6ea8;
+      background: #3a6ea8;
+      color: #fff;
+      font-size: 0.88rem;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      transition: background 0.15s;
+    }
+    .res-btn:hover { background: #2a5a90; }
+    .res-btn.outline { background: transparent; color: #3a6ea8; }
+    .res-btn.outline:hover { background: #edf3fb; }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-left">
+    <a class="back-link" href="index.html">← jeff</a>
+    <div>
+      <div class="quiz-title" id="topTitle">loading…</div>
+      <div class="quiz-subtitle" id="topSubtitle"></div>
+    </div>
+  </div>
+  <div class="progress-wrap">
+    <div class="progress-label" id="progressLabel">0 / 0</div>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+    </div>
+  </div>
+</div>
+
+<div class="main" id="mainArea">
+  <p class="state-msg" id="stateMsg">loading questions…</p>
+
+  <div class="card" id="quizCard" style="display:none">
+    <div>
+      <div class="q-meta" id="qMeta"></div>
+      <div class="q-text" id="qText"></div>
+    </div>
+
+    <div class="answers" id="answers"></div>
+
+    <div class="explanations" id="explanations">
+      <div class="exp-title">answer explanations</div>
+      <div id="expItems"></div>
+    </div>
+
+    <div class="actions">
+      <div class="score-inline" id="scoreInline"></div>
+      <div style="display:flex;align-items:center;gap:0.5rem">
+        <button class="nav-btn" id="submitBtn" onclick="submitAnswer()" disabled title="Submit">&#10003;</button>
+        <button class="nav-btn" id="nextBtn" onclick="nextQuestion()" title="Next">&#8594;</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="results">
+    <div class="results-title" id="resultsTitle">quiz complete</div>
+    <div class="donut-wrap">
+      <svg width="148" height="148" viewBox="0 0 148 148">
+        <circle cx="74" cy="74" r="60" fill="none" stroke="#c5bee0" stroke-width="14"/>
+        <circle cx="74" cy="74" r="60" fill="none" stroke="#4a7a5c" stroke-width="14"
+          stroke-dasharray="376.99" stroke-dashoffset="376.99"
+          id="donutArc" stroke-linecap="round"/>
+      </svg>
+      <div class="donut-label">
+        <div class="donut-pct" id="donutPct">0%</div>
+        <div class="donut-sub">score</div>
+      </div>
+    </div>
+    <div class="results-grid">
+      <div class="res-stat"><div class="val green" id="rCorrect">0</div><div class="lbl">correct</div></div>
+      <div class="res-stat"><div class="val red"   id="rWrong">0</div><div class="lbl">incorrect</div></div>
+      <div class="res-stat"><div class="val"       id="rTotal">0</div><div class="lbl">total</div></div>
+    </div>
+    <div class="results-actions">
+      <button class="res-btn" onclick="restartQuiz()">Restart</button>
+      <button class="res-btn outline" onclick="location.href='index.html'">Back to jeff</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const params  = new URLSearchParams(location.search);
+  const block   = params.get('block') || '';
+  const lecture = params.get('lecture') || '';
+
+  let questions = [], current = 0, selected = null, answered = false, correct = 0, wrong = 0;
+
+  const blockNames = { neuro: 'Neurology', endorepro: 'Endo / Repro', msk: 'MSK' };
+
+  async function load() {
+    if (!block) { show('no block specified.'); return; }
+    document.getElementById('topTitle').textContent = blockNames[block] || block;
+
+    try {
+      if (lecture) {
+        const r = await fetch(`${block}/${lecture}?t=${Date.now()}`);
+        if (!r.ok) throw new Error('not found');
+        const data = await r.json();
+        questions = data.questions || [];
+        document.getElementById('topSubtitle').textContent = data.lecture || lecture;
+      } else {
+        const idx = await fetch(`${block}/index.json?t=${Date.now()}`);
+        if (!idx.ok) throw new Error('no index');
+        const manifest = await idx.json();
+        const files = manifest.lectures || [];
+        if (!files.length) { show('no questions in this block yet.'); return; }
+        const all = await Promise.all(files.map(async l => {
+          const r = await fetch(`${block}/${l.file}?t=${Date.now()}`);
+          if (!r.ok) return [];
+          const d = await r.json();
+          return (d.questions || []).map(q => ({ ...q, _lecture: d.lecture }));
+        }));
+        questions = all.flat();
+        document.getElementById('topSubtitle').textContent = 'all lectures · shuffled';
+        shuffle(questions);
+      }
+    } catch(e) {
+      show('failed to load questions: ' + e.message); return;
+    }
+
+    if (!questions.length) { show('no questions found.'); return; }
+    document.getElementById('stateMsg').style.display = 'none';
+    document.getElementById('quizCard').style.display = 'flex';
+    render();
+  }
+
+  function show(msg) { document.getElementById('stateMsg').textContent = msg; }
+
+  function shuffle(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+  }
+
+  function renderTable(rows) {
+    if (!rows || !rows.length) return '';
+    const head = rows[0];
+    const body = rows.slice(1);
+    const ths = head.map(h => `<th>${h}</th>`).join('');
+    const trs = body.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('');
+    return `<table class="lab-table"><thead><tr>${ths}</tr></thead><tbody>${trs}</tbody></table>`;
+  }
+
+  function parseMarkdownTable(text) {
+    const lines = text.split('\n');
+    const tableLines = [];
+    let inTable = false;
+    const remaining = [];
+    for (const line of lines) {
+      if (/^\|/.test(line.trim())) {
+        inTable = true;
+        if (!/^[\|\s\-:]+$/.test(line)) {
+          tableLines.push(line.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim()));
+        }
+      } else {
+        inTable = false;
+        remaining.push(line);
+      }
+    }
+    return { tableRows: tableLines, rest: remaining.join('\n').trim() };
+  }
+
+  function render() {
+    const q = questions[current];
+    answered = false; selected = null;
+
+    document.getElementById('qMeta').textContent = `question ${current + 1} of ${questions.length}`;
+
+    const qTextEl = document.getElementById('qText');
+    qTextEl.innerHTML = '';
+
+    const { tableRows, rest } = parseMarkdownTable(q.question);
+    const questionText = tableRows.length ? rest : q.question;
+
+    // Question text first
+    const p = document.createElement('p');
+    p.style.cssText = 'line-height:1.75;white-space:pre-wrap;';
+    p.textContent = questionText;
+    qTextEl.appendChild(p);
+
+    // Table below (structured field takes priority, then markdown)
+    if (q.table) {
+      qTextEl.innerHTML += renderTable(q.table);
+    } else if (tableRows.length) {
+      qTextEl.innerHTML += renderTable(tableRows);
+    }
+
+    const answersEl = document.getElementById('answers');
+    answersEl.innerHTML = '';
+    Object.entries(q.answers).forEach(([letter, text]) => {
+      const btn = document.createElement('button');
+      btn.className = 'answer-btn';
+      btn.dataset.letter = letter;
+      btn.innerHTML = `<span class="answer-letter">${letter}</span><span class="answer-text">${text}</span><span class="strike-hint">right-click to strike</span>`;
+      btn.onclick = () => selectAnswer(letter);
+      btn.oncontextmenu = (e) => {
+        e.preventDefault();
+        if (!answered) btn.classList.toggle('struck');
+      };
+      answersEl.appendChild(btn);
+    });
+
+    document.getElementById('explanations').classList.remove('visible');
+    document.getElementById('expItems').innerHTML = '';
+
+    const submitBtn = document.getElementById('submitBtn');
+    const nextBtn   = document.getElementById('nextBtn');
+    submitBtn.disabled = true;
+    submitBtn.classList.remove('hidden');
+    nextBtn.classList.remove('visible');
+
+    updateScore();
+
+    const pct = (current / questions.length * 100).toFixed(1);
+    document.getElementById('progressLabel').textContent = `${current} / ${questions.length}`;
+    document.getElementById('progressFill').style.width = pct + '%';
+  }
+
+  function updateScore() {
+    const total = correct + wrong;
+    const si = document.getElementById('scoreInline');
+    if (total === 0) { si.innerHTML = ''; return; }
+    const pct = Math.round(correct / total * 100);
+    si.innerHTML = `score: <strong>${correct}/${total} (${pct}%)</strong>`;
+  }
+
+  function selectAnswer(letter) {
+    if (answered) return;
+    selected = letter;
+    document.querySelectorAll('.answer-btn').forEach(btn =>
+      btn.classList.toggle('selected', btn.dataset.letter === letter));
+    document.getElementById('submitBtn').disabled = false;
+  }
+
+  function submitAnswer() {
+    if (!selected || answered) return;
+    answered = true;
+    const q = questions[current];
+    const isCorrect = selected === q.correct;
+    isCorrect ? correct++ : wrong++;
+
+    document.querySelectorAll('.answer-btn').forEach(btn => {
+      btn.classList.add('locked');
+      btn.classList.remove('selected');
+      if (btn.dataset.letter === q.correct)    btn.classList.add('correct');
+      else if (btn.dataset.letter === selected) btn.classList.add('incorrect');
+    });
+
+    const expItems = document.getElementById('expItems');
+    expItems.innerHTML = '';
+    Object.entries(q.explanations || {}).forEach(([letter, text]) => {
+      const div = document.createElement('div');
+      div.className = 'exp-item' + (letter === q.correct ? ' correct-exp' : '');
+      div.innerHTML = `<span class="exp-letter">${letter}.</span><span>${text}</span>`;
+      expItems.appendChild(div);
+    });
+    document.getElementById('explanations').classList.add('visible');
+
+    const submitBtn = document.getElementById('submitBtn');
+    const nextBtn   = document.getElementById('nextBtn');
+    submitBtn.classList.add('hidden');
+    nextBtn.classList.add('visible');
+    nextBtn.innerHTML = current + 1 < questions.length ? '&#8594;' : '&#10003;';
+    updateScore();
+  }
+
+  function nextQuestion() {
+    current++;
+    if (current >= questions.length) showResults();
+    else render();
+  }
+
+  function showResults() {
+    document.getElementById('quizCard').style.display = 'none';
+    document.getElementById('progressLabel').textContent = `${questions.length} / ${questions.length}`;
+    document.getElementById('progressFill').style.width = '100%';
+
+    const total = correct + wrong;
+    const pct = total ? Math.round(correct / total * 100) : 0;
+
+    document.getElementById('rCorrect').textContent = correct;
+    document.getElementById('rWrong').textContent   = wrong;
+    document.getElementById('rTotal').textContent   = total;
+    document.getElementById('donutPct').textContent = pct + '%';
+
+    const circ = 2 * Math.PI * 60;
+    const arc = document.getElementById('donutArc');
+    arc.style.transition = 'stroke-dashoffset 0.8s ease';
+    arc.style.strokeDashoffset = circ * (1 - pct / 100);
+
+    document.getElementById('resultsTitle').textContent = 'quiz complete';
+    document.getElementById('results').classList.add('visible');
+  }
+
+  function restartQuiz() {
+    current = 0; correct = 0; wrong = 0;
+    shuffle(questions);
+    document.getElementById('results').classList.remove('visible');
+    document.getElementById('quizCard').style.display = 'flex';
+    render();
+  }
+
+  load();
+</script>
+</body>
+</html>
