@@ -161,18 +161,18 @@ REMOTE_PATH="jeff/{block}/{slug}.json"
 LOCAL_FILE="$HOME/Downloads/jeff-{slug}.json"
 
 # Check if file already exists (need its SHA to update)
-SHA=$(gh api repos/$REPO/contents/$REMOTE_PATH --jq '.sha' 2>/dev/null || echo "")
+SHA=$(/opt/homebrew/bin/gh api repos/$REPO/contents/$REMOTE_PATH --jq '.sha' 2>/dev/null || echo "")
 
 CONTENT=$(base64 < "$LOCAL_FILE")
 
 if [ -n "$SHA" ]; then
-  gh api repos/$REPO/contents/$REMOTE_PATH \
+  /opt/homebrew/bin/gh api repos/$REPO/contents/$REMOTE_PATH \
     -X PUT \
     -f message="Add {lecture name} questions to {block} block" \
     -f content="$CONTENT" \
     -f sha="$SHA"
 else
-  gh api repos/$REPO/contents/$REMOTE_PATH \
+  /opt/homebrew/bin/gh api repos/$REPO/contents/$REMOTE_PATH \
     -X PUT \
     -f message="Add {lecture name} questions to {block} block" \
     -f content="$CONTENT"
