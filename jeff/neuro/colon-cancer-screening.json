@@ -1,0 +1,26 @@
+{
+  "lecture": "Colon Cancer Screening",
+  "block": "neuro",
+  "generated": "2026-05-29",
+  "questions": [
+    {
+      "id": "neuro-colon-cancer-screening-001",
+      "question": "A 47-year-old asymptomatic woman presents for a routine visit. She has no personal history of inflammatory bowel disease, adenomatous polyps, or colorectal cancer. Her mother was diagnosed with colon cancer at age 65. She asks about colorectal cancer screening. According to American Cancer Society guidelines, which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Begin colonoscopy every 10 years starting now, as she meets average-risk criteria at age 45",
+        "B": "Begin colonoscopy every 5 years starting now due to her family history in a first-degree relative over age 60",
+        "C": "Defer all screening until age 50, as she is below the threshold for any guideline recommendation",
+        "D": "Order annual FIT testing only, as colonoscopy is contraindicated given her family history",
+        "E": "Refer for genetic counseling prior to initiating any colorectal cancer screening"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Average-risk guidelines do begin at age 45, but this patient has a first-degree relative with CRC diagnosed at age 65, which elevates her risk and changes the recommended interval and modality.",
+        "B": "A first-degree relative diagnosed with CRC or adenoma at age 60 or older warrants colonoscopy every 5 years beginning at age 40 or 10 years before the earliest index case — making colonoscopy now appropriate for this 47-year-old.",
+        "C": "Current ACS and USPSTF guidelines recommend initiating screening at age 45 for average-risk individuals; this patient is 47 and is therefore already past the threshold, and her family history further supports starting now.",
+        "D": "Annual FIT is an appropriate alternative for average-risk individuals, but it is not contraindicated with family history; moreover, this patient's elevated risk specifically calls for colonoscopy rather than stool-based testing alone.",
+        "E": "Genetic counseling is indicated when a hereditary syndrome such as Lynch syndrome or FAP is suspected based on pattern of family history; a single first-degree relative with CRC at age 65 does not meet criteria for that referral before screening."
+      }
+    }
+  ]
+}
