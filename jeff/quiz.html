@@ -440,10 +440,6 @@
       <div class="res-stat"><div class="val red"   id="rWrong">0</div><div class="lbl">incorrect</div></div>
       <div class="res-stat"><div class="val"       id="rTotal">0</div><div class="lbl">total</div></div>
     </div>
-    <div class="results-actions">
-      <button class="res-btn" onclick="restartQuiz()">Restart</button>
-      <button class="res-btn outline" onclick="location.href='index.html'">Back to jeff</button>
-    </div>
   </div>
 </div>
 
@@ -468,13 +464,14 @@
         questions = data.questions || [];
         document.getElementById('topSubtitle').textContent = data.lecture || lecture;
       } else {
-        const idx = await fetch(`${block}/index.json?t=${Date.now()}`);
-        if (!idx.ok) throw new Error('no index');
-        const manifest = await idx.json();
-        const files = manifest.lectures || [];
+        const apiUrl = `https://api.github.com/repos/bananasrlowkeygood/bananasrlowkeygood.github.io/contents/jeff/${block}`;
+        const dirRes = await fetch(apiUrl);
+        if (!dirRes.ok) throw new Error('could not list block');
+        const entries = await dirRes.json();
+        const files = entries.filter(e => e.type === 'file' && e.name.endsWith('.json') && e.name !== 'index.json').map(e => e.name);
         if (!files.length) { show('no questions in this block yet.'); return; }
-        const all = await Promise.all(files.map(async l => {
-          const r = await fetch(`${block}/${l.file}?t=${Date.now()}`);
+        const all = await Promise.all(files.map(async name => {
+          const r = await fetch(`${block}/${name}?t=${Date.now()}`);
           if (!r.ok) return [];
           const d = await r.json();
           return (d.questions || []).map(q => ({ ...q, _lecture: d.lecture }));

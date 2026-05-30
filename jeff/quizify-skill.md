@@ -6,7 +6,7 @@ description: >
   medical study material and asks for questions, quizzes, or to "quizify" content. Also trigger
   for "Step 1 questions", "board-style questions", "add to jeff", or "add to question bank".
   Infers the lecture name and block (neuro, endorepro, msk) from the content, writes a JSON file
-  to the right folder, updates the block manifest, and pushes to GitHub.
+  to the right folder, and pushes to GitHub. No manifest file needed — lectures are auto-discovered.
 ---
 
 # Quizify — Jeff Question Bank
@@ -139,44 +139,19 @@ Use today's date (`date +%Y-%m-%d`) for the `generated` field.
 
 ---
 
-## Step 5: Save Files Locally to Downloads
+## Step 5: Save File Locally to Downloads
 
 Write the assembled JSON to a temporary staging location:
 
 `~/Downloads/jeff-{slug}.json`
 
-Also write the updated manifest to:
-
-`~/Downloads/jeff-{slug}-index.json`
-
-For the manifest: first fetch the current live version from GitHub (see Step 6), merge your entry in, then write the merged result to the staging path.
-
-No local repo clone is needed — these are just staging files.
+No local repo clone is needed — this is just a staging file.
 
 ---
 
-## Step 6: Fetch and Update the Block Manifest
+## Step 6: Push the File to GitHub via API
 
-Fetch the current manifest directly from GitHub:
-
-```bash
-gh api repos/bananasrlowkeygood/bananasrlowkeygood.github.io/contents/jeff/{block}/index.json \
-  --jq '.content' | base64 -d
-```
-
-Parse the JSON, add or update the entry for this lecture (match on `"file"` field), preserve all other entries:
-
-```json
-{ "name": "Lecture Name", "file": "slug.json", "count": 20 }
-```
-
-Write the merged manifest to `~/Downloads/jeff-{slug}-index.json`.
-
----
-
-## Step 7: Push Both Files to GitHub via API
-
-No local git clone needed. Use `gh api` to push each file directly.
+No local git clone needed. Use `gh api` to push the file directly.
 
 ### Push the question file
 
@@ -204,36 +179,13 @@ else
 fi
 ```
 
-### Push the updated manifest
-
-```bash
-MANIFEST_PATH="jeff/{block}/index.json"
-MANIFEST_FILE="$HOME/Downloads/jeff-{slug}-index.json"
-
-SHA=$(gh api repos/$REPO/contents/$MANIFEST_PATH --jq '.sha' 2>/dev/null || echo "")
-CONTENT=$(base64 < "$MANIFEST_FILE")
-
-if [ -n "$SHA" ]; then
-  gh api repos/$REPO/contents/$MANIFEST_PATH \
-    -X PUT \
-    -f message="Update {block} manifest for {lecture name}" \
-    -f content="$CONTENT" \
-    -f sha="$SHA"
-else
-  gh api repos/$REPO/contents/$MANIFEST_PATH \
-    -X PUT \
-    -f message="Update {block} manifest for {lecture name}" \
-    -f content="$CONTENT"
-fi
-```
-
 ### Cleanup
 
 ```bash
-rm ~/Downloads/jeff-{slug}.json ~/Downloads/jeff-{slug}-index.json
+rm ~/Downloads/jeff-{slug}.json
 ```
 
-Report back: lecture name inferred, block assigned, number of questions written, GitHub path, and whether both API pushes succeeded.
+Report back: lecture name inferred, block assigned, number of questions written, GitHub path, and whether the push succeeded.
 
 ---
 

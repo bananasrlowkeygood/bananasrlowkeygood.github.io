@@ -177,8 +177,18 @@
 
     async function loadBlock(block) {
       try {
-        const r = await fetch(`${block.id}/index.json?t=${Date.now()}`);
-        return (await r.json()).lectures || [];
+        const apiUrl = `https://api.github.com/repos/bananasrlowkeygood/bananasrlowkeygood.github.io/contents/jeff/${block.id}`;
+        const res = await fetch(apiUrl);
+        if (!res.ok) return [];
+        const entries = await res.json();
+        const files = entries.filter(e => e.type === 'file' && e.name.endsWith('.json') && e.name !== 'index.json').map(e => e.name);
+        const lectures = await Promise.all(files.map(async name => {
+          const r = await fetch(`${block.id}/${name}?t=${Date.now()}`);
+          if (!r.ok) return null;
+          const d = await r.json();
+          return { file: name, name: d.lecture || name, count: (d.questions || []).length };
+        }));
+        return lectures.filter(Boolean);
       } catch { return []; }
     }
 
