@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jeff — bananasrlowkeygood</title>
+  <link rel="icon" type="image/x-icon" href="../static/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: "Klee One", cursive;
+    }
+
+    body {
+      background-color: #eae6f0;
+      color: #14111a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1.5rem 4rem;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .back {
+      align-self: flex-start;
+      font-size: 0.9rem;
+      color: #5c4f7a;
+      opacity: 0.7;
+      margin-bottom: 2rem;
+      transition: opacity 0.15s;
+    }
+    .back:hover { opacity: 1; }
+
+    .blocks {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      width: 100%;
+      max-width: 720px;
+    }
+
+    .block-card {
+      border: 1px solid #c5bee0;
+      border-radius: 10px;
+      padding: 0.65rem 1rem;
+      background: #f0ecf8;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .block-card:hover {
+      border-color: #5c4f7a;
+      box-shadow: 0 4px 16px rgba(92,79,122,0.1);
+    }
+
+    .block-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .block-left {
+      display: flex;
+      align-items: baseline;
+      gap: 0.6rem;
+    }
+
+    .block-name { font-size: 1rem; color: #14111a; }
+
+    .block-count { font-size: 0.78rem; color: #5c4f7a; opacity: 0.7; }
+
+    .block-actions {
+      display: flex;
+      gap: 0.4rem;
+      flex-shrink: 0;
+    }
+
+    button {
+      background-color: #5c4f7a;
+      color: #f0ecf8;
+      border: none;
+      padding: 0 12px;
+      height: 30px;
+      font-size: 0.78rem;
+      cursor: pointer;
+      border-radius: 6px;
+      font-family: "Klee One", cursive;
+      transition: background-color 0.2s ease;
+    }
+    button:hover  { background-color: #6e5f90; }
+    button:active { background-color: #3e3456; }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid #c5bee0;
+      color: #5c4f7a;
+    }
+    .btn-outline:hover { border-color: #5c4f7a; background: rgba(92,79,122,0.06); }
+
+    .lecture-list {
+      display: none;
+      flex-direction: column;
+      gap: 0.25rem;
+      margin-top: 0.5rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid #c5bee0;
+    }
+    .lecture-list.open { display: flex; }
+
+    .lecture-link {
+      font-size: 0.82rem;
+      color: #5c4f7a;
+      padding: 0.3rem 0.5rem;
+      border-radius: 5px;
+      background: rgba(92,79,122,0.06);
+      transition: background 0.15s;
+    }
+    .lecture-link:hover { background: rgba(92,79,122,0.14); }
+
+    .empty-msg {
+      font-size: 0.8rem;
+      opacity: 0.45;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <a class="back" href="../index.html">← bananasrlowkeygood</a>
+
+  <div class="blocks" id="blocks"></div>
+
+  <script>
+    const BLOCKS = [
+      { id: 'neuro',     name: 'Neurology'   },
+      { id: 'endorepro', name: 'Endo / Repro' },
+      { id: 'msk',       name: 'MSK'          },
+    ];
+
+    async function loadBlock(block) {
+      try {
+        const r = await fetch(`${block.id}/index.json?t=${Date.now()}`);
+        return (await r.json()).lectures || [];
+      } catch { return []; }
+    }
+
+    async function init() {
+      const container = document.getElementById('blocks');
+      for (const block of BLOCKS) {
+        const lectures = await loadBlock(block);
+        const total = lectures.reduce((s, l) => s + (l.count || 0), 0);
+
+        const card = document.createElement('div');
+        card.className = 'block-card';
+        card.innerHTML = `
+          <div class="block-row">
+            <div class="block-left">
+              <div class="block-name">${block.name}</div>
+              <div class="block-count">${total} q · ${lectures.length} lecture${lectures.length !== 1 ? 's' : ''}</div>
+            </div>
+            <div class="block-actions">
+              ${lectures.length ? `<button class="btn-outline" onclick="toggleLectures(this)">By Lecture ▾</button>` : ''}
+              <button onclick="location.href='quiz.html?block=${block.id}'">Shuffle All</button>
+            </div>
+          </div>
+          <div class="lecture-list">
+            ${lectures.length
+              ? lectures.map(l => `<a class="lecture-link" href="quiz.html?block=${block.id}&lecture=${encodeURIComponent(l.file)}">${l.name} (${l.count || 0} Qs)</a>`).join('')
+              : '<span class="empty-msg">no lectures yet</span>'
+            }
+          </div>
+        `;
+        container.appendChild(card);
+      }
+    }
+
+    function toggleLectures(btn) {
+      const list = btn.closest('.block-card').querySelector('.lecture-list');
+      list.classList.toggle('open');
+      btn.textContent = list.classList.contains('open') ? 'By Lecture ▴' : 'By Lecture ▾';
+    }
+
+    init();
+  </script>
+</body>
+</html>

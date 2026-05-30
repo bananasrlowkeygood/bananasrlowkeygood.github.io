@@ -1,0 +1,99 @@
+{
+  "lecture": "Stroke",
+  "block": "neuro",
+  "generated": "2026-05-29",
+  "questions": [
+    {
+      "id": "neuro-stroke-001",
+      "table": [
+        ["Lab", "Value", "Reference Range"],
+        ["Na+", "138 mEq/L", "135–145"],
+        ["Glucose", "210 mg/dL", "70–100"],
+        ["Platelets", "224,000/µL", "150–400k"],
+        ["INR", "1.1", "0.8–1.2"]
+      ],
+      "question": "A 68-year-old man with hypertension and atrial fibrillation presents with sudden onset of right-sided weakness and aphasia that began 2 hours ago. CT head shows no hemorrhage. Labs are shown above. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "IV tissue plasminogen activator (tPA)",
+        "B": "Aspirin 325 mg",
+        "C": "Heparin infusion",
+        "D": "Mechanical thrombectomy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "IV tPA is indicated within 4.5 hours of symptom onset in ischemic stroke with no hemorrhage on CT and no contraindications. This patient is within the window and should receive tPA immediately.",
+        "B": "Aspirin is used for secondary prevention but is not the preferred acute treatment when tPA is indicated and available within the time window.",
+        "C": "Heparin is not recommended for acute ischemic stroke management due to risk of hemorrhagic transformation without proven benefit.",
+        "D": "Mechanical thrombectomy is considered for large vessel occlusion, typically after or alongside tPA, and requires imaging confirmation of LVO first."
+      }
+    },
+    {
+      "id": "neuro-stroke-002",
+      "question": "A 55-year-old woman presents with sudden onset of the worst headache of her life, nausea, and a stiff neck. CT head is negative. Her LP results are shown below. What is the most likely diagnosis?\n\n| Tube | RBCs | Color |\n|------|------|-------|\n| Tube 1 | 95,000 | bloody |\n| Tube 4 | 90,000 | xanthochromic |",
+      "answers": {
+        "A": "Hypertensive encephalopathy",
+        "B": "Subarachnoid hemorrhage",
+        "C": "Tension headache",
+        "D": "Bacterial meningitis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hypertensive encephalopathy presents with confusion, visual changes, and elevated BP but not typically a thunderclap headache with meningismus.",
+        "B": "Subarachnoid hemorrhage classically presents as the worst headache of one's life (thunderclap headache) with meningismus. A negative CT does not rule it out — LP is required to detect xanthochromia.",
+        "C": "Tension headaches are bilateral, pressure-like, and gradual in onset — not sudden and severe.",
+        "D": "Bacterial meningitis can cause headache and stiff neck but typically develops over hours to days with fever and photophobia, not as a sudden thunderclap event."
+      }
+    },
+    {
+      "id": "neuro-stroke-003",
+      "question": "A 72-year-old man develops sudden left-sided weakness and left facial droop. MRI shows an infarct in the right middle cerebral artery territory. Which vessel is most likely occluded?",
+      "answers": {
+        "A": "Right posterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Right middle cerebral artery",
+        "D": "Right anterior cerebral artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The posterior cerebral artery supplies the occipital lobe and thalamus; occlusion causes visual field defects and sensory loss, not contralateral hemiplegia.",
+        "B": "The left MCA supplies the right side of the body; left-sided weakness indicates a right hemisphere lesion.",
+        "C": "The right MCA supplies motor and sensory cortex for the contralateral (left) face and upper extremity. Right MCA occlusion causes left-sided weakness and facial droop, as seen here.",
+        "D": "The anterior cerebral artery supplies the medial hemisphere; occlusion causes contralateral leg weakness predominantly, not face and arm."
+      }
+    },
+    {
+      "id": "neuro-stroke-004",
+      "question": "A patient with a lacunar infarct presents with pure motor hemiplegia involving the face, arm, and leg equally. Where is the most likely location of the infarct?",
+      "answers": {
+        "A": "Internal capsule (posterior limb)",
+        "B": "Parietal cortex",
+        "C": "Frontal lobe",
+        "D": "Cerebellum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The posterior limb of the internal capsule contains the corticospinal and corticobulbar tracts in a compact bundle. A small lacunar infarct here causes a classic pure motor hemiplegia affecting face, arm, and leg equally.",
+        "B": "Parietal cortex lesions cause sensory deficits and neglect, not pure motor hemiplegia.",
+        "C": "Frontal lobe lesions cause motor deficits but typically spare the leg (leg is represented medially) and are associated with cognitive changes.",
+        "D": "Cerebellar infarcts cause ipsilateral ataxia, dysmetria, and nystagmus — not pure motor hemiplegia."
+      }
+    },
+    {
+      "id": "neuro-stroke-005",
+      "question": "A 60-year-old man with hyperlipidemia experiences a 15-minute episode of right-hand weakness and slurred speech that fully resolved. CT and MRI are normal. What is the most appropriate long-term prevention strategy?",
+      "answers": {
+        "A": "Warfarin anticoagulation",
+        "B": "Antiplatelet therapy and statin",
+        "C": "IV heparin for 48 hours",
+        "D": "Carotid endarterectomy immediately"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Warfarin is reserved for cardioembolic sources such as atrial fibrillation. This patient has no identified cardiac source, so anticoagulation is not first-line.",
+        "B": "Following a TIA with no identified cardioembolic source, dual antiplatelet therapy (aspirin + clopidogrel short-term) and a high-intensity statin are first-line for secondary prevention.",
+        "C": "IV heparin has no proven role in TIA management and carries hemorrhagic risk without benefit.",
+        "D": "Carotid endarterectomy is indicated for symptomatic carotid stenosis >70%, which must first be confirmed by imaging — it is not performed immediately without workup."
+      }
+    }
+  ]
+}
