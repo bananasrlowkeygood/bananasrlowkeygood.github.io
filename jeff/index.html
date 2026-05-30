@@ -21,20 +21,44 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 3rem 1.5rem 4rem;
     }
 
     a { color: inherit; text-decoration: none; }
 
-    .back {
-      align-self: flex-start;
-      font-size: 0.9rem;
+    .topbar {
+      background: #f0ecf8;
+      border-bottom: 1px solid #c5bee0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.7rem 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .topbar-left { display: flex; align-items: center; gap: 1rem; }
+
+    .back-link {
+      font-size: 0.85rem;
       color: #5c4f7a;
       opacity: 0.7;
-      margin-bottom: 2rem;
       transition: opacity 0.15s;
+      white-space: nowrap;
     }
-    .back:hover { opacity: 1; }
+    .back-link:hover { opacity: 1; }
+
+    .topbar-title { font-size: 0.95rem; color: #14111a; }
+
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1.5rem 4rem;
+    }
 
     .blocks {
       display: flex;
@@ -133,9 +157,16 @@
   </style>
 </head>
 <body>
-  <a class="back" href="../index.html">← bananasrlowkeygood</a>
+  <div class="topbar">
+    <div class="topbar-left">
+      <a class="back-link" href="../index.html">← bananasrlowkeygood</a>
+      <div class="topbar-title">jeff</div>
+    </div>
+  </div>
 
-  <div class="blocks" id="blocks"></div>
+  <div class="content">
+    <div class="blocks" id="blocks"></div>
+  </div>
 
   <script>
     const BLOCKS = [
