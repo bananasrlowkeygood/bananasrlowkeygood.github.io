@@ -7,66 +7,110 @@
   <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main id="home">
     <div class="intro">
-      <div class="graphic"></div>
+      <div class="graphic" role="img" aria-label="two sloths hanging on a banana"></div>
       <h1>bananasrlowkeygood</h1>
-      <div class="img-shields">
-        <a href="https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues"><img src="https://img.shields.io/badge/banana%20status-lowkey%20good-yellow?style=flat-square" alt="Status"></a>
-        <a href="https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/"><img src="https://img.shields.io/badge/version-v3.14.15-blueviolet?style=flat-square" alt="Version"></a>
-        <a href="https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/bananasrlowkeygood/bananasrlowkeygood?style=flat-square&color=red" alt="License"></a>
+
+      <div class="badges">
+        <a class="badge" href="https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/issues">
+          <span class="badge-k">banana status</span><span class="badge-v v-amber">lowkey good</span>
+        </a>
+        <a class="badge" href="https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/">
+          <span class="badge-k">version</span><span class="badge-v v-violet">v3.14.15</span>
+        </a>
+        <a class="badge" href="https://github.com/bananasrlowkeygood/bananasrlowkeygood.github.io/blob/main/LICENSE">
+          <span class="badge-k">license</span><span class="badge-v v-rose">MIT</span>
+        </a>
       </div>
+
       <p>personal file hosting.</p>
-<div class="url-bar-container">
-        <form class="url-bar" onsubmit="redirectToURL(event)">
-            <input type="text" id="input-path" placeholder="Enter a relative path." autocomplete="off" list="path-suggestions" />
-            <datalist id="path-suggestions"></datalist>
-            <button type="submit">Go</button>
-        </form>
-      </div>
+
+      <form class="cmd" onsubmit="redirectToURL(event)" autocomplete="off">
+        <span class="cmd-prompt">bananas:~$</span>
+        <div class="cmd-field">
+          <input type="text" id="input-path" placeholder="" autocomplete="off" spellcheck="false" />
+          <span class="cmd-cursor" id="cmdCursor">▌</span>
+        </div>
+        <button type="submit" aria-label="go">go</button>
+        <div class="cmd-suggest" id="suggest" hidden></div>
+      </form>
+      <div class="cmd-msg" id="cmdMsg" aria-live="polite"></div>
     </div>
-
-    <script>
-        async function loadPaths() {
-            try {
-                const res = await fetch("https://api.github.com/repos/bananasrlowkeygood/bananasrlowkeygood.github.io/git/trees/main?recursive=1");
-                const data = await res.json();
-                const datalist = document.getElementById("path-suggestions");
-                data.tree
-                    .filter(item => item.type === "blob")
-                    .forEach(item => {
-                        const option = document.createElement("option");
-                        option.value = "./" + item.path;
-                        datalist.appendChild(option);
-                    });
-            } catch (e) {
-                // silently fail — autocomplete is a nice-to-have
-            }
-        }
-
-        function redirectToURL(event) {
-            event.preventDefault();
-            const baseURL = "https://bananasrlowkeygood.github.io/";
-            const inputPath = document.getElementById("input-path").value.trim();
-            if (!inputPath) {
-                alert("You didn't type anything!");
-                return;
-            }
-            if (!inputPath.startsWith('./')) {
-                alert("Huh? Relative paths start with ./");
-                return;
-            }
-            const sanitizedPath = inputPath.slice(2);
-            const fullURL = baseURL + sanitizedPath;
-            window.location.href = fullURL;
-        }
-
-        loadPaths();
-    </script>
   </main>
+
+  <script>
+    const REPO = "bananasrlowkeygood/bananasrlowkeygood.github.io";
+    const baseURL = "https://bananasrlowkeygood.github.io/";
+    let allPaths = [];
+
+    const input = document.getElementById("input-path");
+    const suggest = document.getElementById("suggest");
+    const cmdMsg = document.getElementById("cmdMsg");
+    const cmdCursor = document.getElementById("cmdCursor");
+
+    async function loadTree() {
+      try {
+        const res = await fetch(`https://api.github.com/repos/${REPO}/git/trees/main?recursive=1`);
+        const data = await res.json();
+        allPaths = data.tree
+          .filter(i => i.type === "blob")
+          .map(i => i.path)
+          .filter(p => !p.split("/").some(seg => seg.startsWith("."))); // skip dotfiles/dirs
+      } catch (e) { /* autocomplete is a nice-to-have */ }
+    }
+
+    input.addEventListener("input", () => {
+      updateCursor();
+      const v = input.value.trim().replace(/^\.\//, "").toLowerCase();
+      if (!v) { suggest.hidden = true; return; }
+      const matches = allPaths.filter(p => p.toLowerCase().includes(v)).slice(0, 7);
+      if (!matches.length) { suggest.hidden = true; return; }
+      suggest.innerHTML = matches.map(p => `<button type="button" class="sg" data-p="./${p}">./${p}</button>`).join("");
+      suggest.hidden = false;
+    });
+
+    suggest.addEventListener("click", e => {
+      const b = e.target.closest(".sg");
+      if (!b) return;
+      input.value = b.dataset.p;
+      suggest.hidden = true;
+      updateCursor();
+      input.focus();
+    });
+
+    document.addEventListener("click", e => {
+      if (!e.target.closest(".cmd")) suggest.hidden = true;
+    });
+
+    function say(text) {
+      cmdMsg.textContent = text;
+      cmdMsg.classList.remove("wiggle");
+      void cmdMsg.offsetWidth;
+      cmdMsg.classList.add("wiggle");
+    }
+
+    function redirectToURL(event) {
+      event.preventDefault();
+      suggest.hidden = true;
+      const inputPath = input.value.trim();
+      if (!inputPath) { say("you didn't type anything, silly \u{1F34C}"); return; }
+      if (!inputPath.startsWith("./")) { say("psst — relative paths start with ./"); return; }
+      window.location.href = baseURL + inputPath.slice(2);
+    }
+
+    function updateCursor() {
+      cmdCursor.hidden = (document.activeElement === input || !!input.value);
+    }
+    input.addEventListener("focus", updateCursor);
+    input.addEventListener("blur", updateCursor);
+    updateCursor();
+
+    loadTree();
+  </script>
 </body>
 </html>
