@@ -1,0 +1,408 @@
+{
+  "lecture": "Synapses and Amino Acid Neurotransmitters: Glutamate, GABA, and Glycine",
+  "block": "neuro",
+  "generated": "2026-08-04",
+  "questions": [
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-001",
+      "question": "A 13-year-old boy is brought to the hospital after repeated falls that have caused serious injuries. Since infancy he has exhibited generalized body stiffening in response to sudden sounds, lights, or touch, which sometimes causes him to fall; he does not lose consciousness. Examination shows a cautious wide-based gait and a positive nose-tapping test with exaggerated head retraction. EEG is normal. A hereditary channelopathy causing synaptic disinhibition in the spinal cord is suspected. A loss-of-function mutation in which of the following is most likely responsible?",
+      "answers": {
+        "A": "GABA-A receptor",
+        "B": "Glycine receptor",
+        "C": "Kainate receptor",
+        "D": "Nicotinic acetylcholine receptor",
+        "E": "NMDA receptor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "GABA-A receptor loss can cause hereditary epilepsy syndromes, but the startle phenotype with normal EEG and spinal disinhibition points specifically to the glycine receptor.",
+        "B": "Hyperekplexia (startle disease) results from loss-of-function mutations in the ionotropic glycine receptor (GLRA1), the major inhibitory postsynaptic receptor in the spinal cord, producing disinhibition and exaggerated startle.",
+        "C": "The kainate receptor is an excitatory ionotropic glutamate receptor; its loss would not produce a disinhibition/hyperexcitability syndrome.",
+        "D": "Nicotinic acetylcholine receptor mutations are linked to autosomal dominant nocturnal frontal lobe epilepsy, which would show EEG abnormalities rather than a pure startle phenotype.",
+        "E": "The NMDA receptor is excitatory; loss of function would reduce excitation, the opposite of the hyperexcitable startle response seen here."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-002",
+      "question": "A 21-year-old previously healthy woman is admitted with auditory hallucinations, agitation, and suicidal ideation. Over several days she develops orofacial dyskinesias, involuntary movements, and tonic-clonic seizures. She has no history of drug use and no meningeal signs. Serum and CSF studies are shown below. Pelvic imaging reveals a 2.9-cm ovarian teratoma. Autoantibodies directed against which target are most likely responsible?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["CSF opening pressure", "Normal", "Normal"],
+        ["CSF glucose", "62 mg/dL", "45-80 mg/dL"],
+        ["CSF protein", "38 mg/dL", "15-45 mg/dL"],
+        ["CSF WBC", "3 /uL", "0-5 /uL"]
+      ],
+      "answers": {
+        "A": "AMPA receptor",
+        "B": "GABA-A receptor",
+        "C": "Nicotinic acetylcholine receptor",
+        "D": "NMDA receptor",
+        "E": "Voltage-gated calcium channel"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "AMPA receptor antibodies cause limbic encephalitis with memory loss, but the psychiatric-then-dyskinesia course with an ovarian teratoma is the classic anti-NMDA receptor presentation.",
+        "B": "GABA-A receptor encephalitis presents with refractory seizures and is associated with thymoma, not an ovarian teratoma.",
+        "C": "Nicotinic acetylcholine receptor antibodies cause myasthenia gravis (fatigable weakness), not a psychiatric-plus-seizure encephalopathy.",
+        "D": "Anti-NMDA receptor encephalitis classically presents in young women with psychosis, dyskinesias, and seizures, is triggered by autoantibodies from an ovarian teratoma, and has a bland CSF as shown, excluding infection.",
+        "E": "Presynaptic voltage-gated calcium channel antibodies cause Lambert-Eaton syndrome (weakness with incremental response), not this neuropsychiatric picture."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-003",
+      "question": "A 40-year-old man reports a 10-year history of progressively worsening hand tremor and imbalance. He can no longer write legibly or use common utensils, and he denies alcohol or drug use. On examination he has difficulty rising from a seated position and walks with a slow ataxic gait. Suspecting a hereditary calcium channelopathy (spinocerebellar ataxia), the neurologist orders genetic testing. Dysfunction of which channel most likely underlies this presentation?",
+      "answers": {
+        "A": "Cav1.2 (L-type calcium channel)",
+        "B": "Cav2.1 (P/Q-type calcium channel)",
+        "C": "Kv3.3 (potassium channel)",
+        "D": "Nav1.1 (sodium channel)",
+        "E": "Nav1.7 (sodium channel)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cav1.2 (L-type) channels mediate cardiac and smooth muscle contraction and are not the presynaptic channel implicated in spinocerebellar ataxia type 6.",
+        "B": "Spinocerebellar ataxia type 6 results from a CAG repeat expansion in CACNA1A encoding the presynaptic voltage-gated Cav2.1 (P/Q-type) channel that mediates calcium-dependent neurotransmitter release in the cerebellum.",
+        "C": "Kv3.3 mutations are also linked to spinocerebellar ataxia (SCA13) by altering presynaptic action potential duration, but the calcium channelopathy suspected here points to Cav2.1.",
+        "D": "Nav1.1 mutations cause epilepsy syndromes such as Dravet syndrome, not a progressive cerebellar ataxia.",
+        "E": "Nav1.7 mutations cause pain disorders (erythromelalgia, insensitivity to pain), not cerebellar ataxia."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-004",
+      "question": "During the workup of a patient with cerebellar ataxia, the differential initially included reduced glutamate synthesis at excitatory presynaptic terminals as a cause of hypo-excitability. Within the glutamatergic terminal, which enzyme is directly responsible for producing the releasable neurotransmitter from its precursor?",
+      "answers": {
+        "A": "Glutamate decarboxylase",
+        "B": "Glutaminase",
+        "C": "Glutamine synthetase",
+        "D": "Serine hydroxymethyltransferase",
+        "E": "Tyrosine hydroxylase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Glutamate decarboxylase converts glutamate to GABA in inhibitory terminals, not glutamate for excitatory transmission.",
+        "B": "Glutaminase converts glutamine (supplied by astrocytes) into glutamate inside the presynaptic terminal, generating the neurotransmitter that is then loaded into vesicles by VGLUT.",
+        "C": "Glutamine synthetase acts in astrocytes to convert glutamate back into glutamine for recycling, the reverse of the neuronal synthetic step.",
+        "D": "Serine hydroxymethyltransferase converts serine to glycine in glycinergic terminals, not glutamate.",
+        "E": "Tyrosine hydroxylase is the rate-limiting enzyme for catecholamine synthesis, unrelated to glutamate production."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-005",
+      "question": "A 5-month-old infant develops constipation, poor feeding, a weak cry, and progressive descending flaccid weakness with hypotonia after being fed honey. The responsible bacterial toxin impairs neurotransmitter release at the neuromuscular junction by cleaving which target?",
+      "answers": {
+        "A": "Neurexin",
+        "B": "Postsynaptic density protein 95",
+        "C": "SNARE complex proteins",
+        "D": "Synaptotagmin calcium sensor",
+        "E": "Voltage-gated calcium channel"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Neurexin is a trans-synaptic adhesion protein and the target of alpha-latrotoxin, not botulinum toxin.",
+        "B": "PSD-95 is a postsynaptic scaffolding protein and is not the site of action of clostridial toxins.",
+        "C": "Botulinum toxin causes flaccid paralysis by cleaving SNARE proteins (SNAP-25, syntaxin, synaptobrevin), blocking calcium-dependent acetylcholine release at the cholinergic neuromuscular junction.",
+        "D": "Synaptotagmin is the vesicular calcium sensor but is not the substrate cleaved by botulinum toxin.",
+        "E": "Voltage-gated calcium channels are inhibited in Lambert-Eaton syndrome; botulinum toxin acts downstream on the SNARE complex."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-006",
+      "question": "An unvaccinated 55-year-old farmer sustains a deep puncture wound and several days later develops trismus, risus sardonicus, and painful generalized muscle rigidity with spasms. The responsible toxin produces this spastic phenotype primarily by blocking neurotransmitter release from which neurons?",
+      "answers": {
+        "A": "Cholinergic motor neurons at the neuromuscular junction",
+        "B": "Dopaminergic neurons of the substantia nigra",
+        "C": "Glutamatergic pyramidal neurons of the cortex",
+        "D": "Inhibitory glycinergic and GABAergic spinal interneurons",
+        "E": "Noradrenergic neurons of the locus coeruleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Blocking cholinergic motor neurons produces flaccid paralysis (the mechanism of botulinum toxin), the opposite of the spastic picture here.",
+        "B": "Loss of nigral dopaminergic transmission causes parkinsonism, not spastic paralysis from a wound.",
+        "C": "Blocking cortical glutamatergic output would reduce excitation and would not cause the rigidity of tetanus.",
+        "D": "Tetanus toxin cleaves synaptobrevin in inhibitory (glycinergic and GABAergic) spinal interneurons, removing inhibition and producing spastic paralysis with sustained muscle contraction.",
+        "E": "Noradrenergic locus coeruleus neurons modulate arousal; their blockade does not explain tetanic rigidity."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-007",
+      "question": "In a hippocampal slice, high-frequency (tetanic) stimulation of a glutamatergic synapse produces AMPA receptor-mediated depolarization, after which NMDA receptors begin to conduct current and long-term potentiation develops. Which event most directly allows the NMDA receptor to open during this process?",
+      "answers": {
+        "A": "Binding of glycine to the AMPA receptor",
+        "B": "Expulsion of Mg2+ from the NMDA receptor pore",
+        "C": "Hydrolysis of glutamate by acetylcholinesterase",
+        "D": "Phosphorylation of the AMPA receptor by protein kinase A",
+        "E": "Reuptake of glutamate by astrocytic transporters"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Glycine acts as a co-agonist at the NMDA receptor, not the AMPA receptor, and does not remove the voltage-dependent block.",
+        "B": "At rest the NMDA pore is blocked by Mg2+; AMPA-driven depolarization electrostatically expels Mg2+, allowing Na+ and Ca2+ to flow through the NMDA receptor.",
+        "C": "Acetylcholinesterase hydrolyzes acetylcholine, not glutamate, and would terminate rather than enable transmission.",
+        "D": "PKA phosphorylation can modulate AMPA receptors but is not the direct step relieving the NMDA Mg2+ block.",
+        "E": "Astrocytic glutamate reuptake terminates signaling and would reduce, not enable, NMDA receptor activation."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-008",
+      "question": "Following NMDA receptor opening during long-term potentiation, calcium enters the postsynaptic dendritic spine and the excitatory synapse is strengthened. Which immediate downstream event best explains this potentiation?",
+      "answers": {
+        "A": "Activation of CaMKII and AMPA receptor insertion",
+        "B": "Cleavage of SNAP-25 in the presynaptic terminal",
+        "C": "Internalization of postsynaptic AMPA receptors",
+        "D": "Opening of chloride-selective glycine receptors",
+        "E": "Release of cytochrome c from the mitochondria"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Calcium entry activates CaMKII, which drives recruitment and insertion of additional AMPA receptors into the postsynaptic membrane, strengthening the synapse.",
+        "B": "SNAP-25 cleavage is the toxic action of botulinum toxin and would impair, not potentiate, transmission.",
+        "C": "AMPA receptor internalization underlies long-term depression, the opposite of potentiation.",
+        "D": "Glycine receptor opening produces inhibitory hyperpolarization and is unrelated to glutamatergic potentiation.",
+        "E": "Cytochrome c release triggers apoptosis in excitotoxicity, not synaptic strengthening."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-009",
+      "question": "A 68-year-old man suffers an acute ischemic stroke, and neurons in the surrounding penumbra subsequently undergo delayed cell death from excitotoxicity. Which sequence best explains this excitotoxic neuronal death?",
+      "answers": {
+        "A": "AMPA receptor internalization causing long-term depression",
+        "B": "Chloride influx causing membrane hyperpolarization",
+        "C": "Excess glutamate causing NMDA-mediated calcium overload",
+        "D": "GABA release causing sustained membrane hyperpolarization",
+        "E": "SNARE cleavage causing failed synaptic vesicle fusion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "AMPA receptor internalization weakens synapses (long-term depression) and does not drive the calcium-mediated death of excitotoxicity.",
+        "B": "Chloride influx is inhibitory and protective, not the cause of excitotoxic injury.",
+        "C": "Excess synaptic glutamate overactivates calcium-permeable NMDA receptors, causing calcium overload, mitochondrial dysfunction, reactive oxygen species, and apoptotic cell death.",
+        "D": "GABA-mediated hyperpolarization dampens excitability and would be protective against excitotoxicity.",
+        "E": "SNARE cleavage blocks neurotransmitter release (clostridial toxins) and would reduce rather than cause excitotoxic injury."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-010",
+      "question": "In glutamate excitotoxicity, intracellular calcium overload inactivates a mitochondria-associated protein that normally promotes cell survival, leading to release of a molecule that activates the caspase cascade. Which pair correctly matches the inactivated protein with the released molecule?",
+      "answers": {
+        "A": "Bcl-2 inactivated; cytochrome c released",
+        "B": "Caspase-3 inactivated; Bcl-2 released",
+        "C": "Cytochrome c inactivated; caspase-9 released",
+        "D": "FMRP inactivated; glutamate released",
+        "E": "Synaptotagmin inactivated; calcium released"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Calcium overload inactivates Bcl-2, which normally inhibits pro-apoptotic proteins; the mitochondria then release cytochrome c, activating caspase-9 and caspase-3 to drive apoptosis.",
+        "B": "Caspase-3 is an effector caspase activated late in the cascade, not an inactivated survival protein, and Bcl-2 is not released.",
+        "C": "Cytochrome c is the released trigger, not an inactivated protein; caspase-9 is activated by cytochrome c rather than released by mitochondria.",
+        "D": "FMRP loss underlies Fragile X syndrome and is unrelated to the acute excitotoxic apoptotic pathway.",
+        "E": "Synaptotagmin is a presynaptic calcium sensor for exocytosis and is not part of the postsynaptic apoptotic cascade."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-011",
+      "question": "A 45-year-old man taking isoniazid for latent tuberculosis presents after a generalized tonic-clonic seizure. He takes no other medications. Laboratory studies are shown below. The seizures are best explained by reduced activity of which enzyme?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Sodium", "139 mEq/L", "135-145 mEq/L"],
+        ["Glucose", "92 mg/dL", "70-110 mg/dL"],
+        ["Calcium", "9.4 mg/dL", "8.5-10.5 mg/dL"],
+        ["Vitamin B6 (pyridoxine)", "Low", "Normal"]
+      ],
+      "answers": {
+        "A": "Glutamate decarboxylase",
+        "B": "Glutaminase",
+        "C": "Glutamine synthetase",
+        "D": "Monoamine oxidase",
+        "E": "Serine hydroxymethyltransferase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Isoniazid depletes pyridoxal phosphate (vitamin B6), the cofactor for glutamate decarboxylase; reduced GABA synthesis lowers inhibitory tone and lowers seizure threshold.",
+        "B": "Glutaminase produces excitatory glutamate; its reduced activity would decrease, not increase, excitability.",
+        "C": "Glutamine synthetase recycles glutamate in astrocytes and is not the B6-dependent step generating inhibitory transmitter.",
+        "D": "Monoamine oxidase degrades monoamines; its inhibition does not explain B6-dependent seizures.",
+        "E": "Serine hydroxymethyltransferase makes glycine and is not the enzyme whose B6-dependent deficiency causes this seizure pattern."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-012",
+      "question": "In a cortical neuron, glutamate release evokes a fast excitatory postsynaptic potential lasting only a few milliseconds and localized to the postsynaptic density. Compared with metabotropic receptors, the receptor responsible for this fast response is best characterized by which feature?",
+      "answers": {
+        "A": "Coupling to a G protein and second messengers",
+        "B": "Direct opening of an integral ion channel by ligand binding",
+        "C": "Localization mainly outside the postsynaptic density",
+        "D": "Production of cyclic AMP upon activation",
+        "E": "Slow onset over hundreds of milliseconds"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "G-protein coupling with second messengers describes metabotropic receptors, which mediate slow responses, not the fast EPSP here.",
+        "B": "Ionotropic receptors are ligand-gated ion channels in which neurotransmitter binding directly opens the integral pore, producing fast synaptic responses within the postsynaptic density.",
+        "C": "Extrasynaptic localization outside the postsynaptic density is typical of metabotropic receptors, not the fast ionotropic receptor described.",
+        "D": "Cyclic AMP production is a metabotropic second-messenger event, not a feature of direct ionotropic gating.",
+        "E": "Slow onset over hundreds of milliseconds characterizes metabotropic signaling, the opposite of this millisecond response."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-013",
+      "question": "In an experimental glutamatergic synapse, glutamate is bound to the NMDA receptor and the postsynaptic membrane is depolarized, yet no current flows until an additional condition is met. Besides depolarization, what requirement must be satisfied for the NMDA receptor channel to open?",
+      "answers": {
+        "A": "Binding of glycine as a co-agonist",
+        "B": "Cleavage of synaptobrevin by the receptor",
+        "C": "Hydrolysis of ATP by the receptor",
+        "D": "Phosphorylation of the receptor by CaMKII",
+        "E": "Removal of extracellular calcium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The NMDA receptor requires glycine (or D-serine) as an obligatory co-agonist in addition to glutamate binding and membrane depolarization to conduct.",
+        "B": "Synaptobrevin cleavage is a presynaptic toxin effect and has no role in postsynaptic NMDA gating.",
+        "C": "The NMDA receptor is a ligand-gated channel and does not require ATP hydrolysis to open.",
+        "D": "CaMKII acts downstream of NMDA-mediated calcium entry to strengthen synapses; it is not required for channel opening.",
+        "E": "Extracellular calcium permeates the NMDA channel and contributes to its function; removing it is not a requirement for opening."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-014",
+      "question": "At a tripartite excitatory synapse, glutamate released into the cleft must be rapidly cleared to terminate signaling, and the surrounding astrocyte plays the dominant role. Which astrocytic process is most directly responsible for terminating glutamate action in the synaptic cleft?",
+      "answers": {
+        "A": "Acetylcholinesterase hydrolysis of glutamate",
+        "B": "EAAT-mediated uptake of glutamate into the astrocyte",
+        "C": "Glutamate decarboxylase conversion of glutamate to GABA",
+        "D": "Glycine release as an NMDA co-agonist",
+        "E": "VGLUT loading of glutamate into vesicles"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Acetylcholinesterase degrades acetylcholine, not glutamate; glutamate signaling is terminated by transporter uptake rather than enzymatic hydrolysis in the cleft.",
+        "B": "Excitatory amino acid transporters (EAATs) on astrocytes take up glutamate from the cleft, terminating its action; the glutamate is then converted to glutamine for recycling.",
+        "C": "Glutamate decarboxylase converts glutamate to GABA within inhibitory neurons and does not clear glutamate from an excitatory cleft.",
+        "D": "Glycine release is a co-agonist function and does not remove glutamate from the synapse.",
+        "E": "VGLUT loads glutamate into presynaptic vesicles for release, the opposite of clearance from the cleft."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-015",
+      "question": "A 30-year-old hiker is bitten by a black widow spider and develops severe muscle pain, abdominal rigidity mimicking an acute abdomen, cramping, nausea, and diaphoresis. The venom component responsible acts at the presynaptic terminal to produce which effect?",
+      "answers": {
+        "A": "Blockade of postsynaptic acetylcholine receptors",
+        "B": "Cleavage of SNARE proteins preventing vesicle fusion",
+        "C": "Inhibition of acetylcholinesterase in the cleft",
+        "D": "Massive calcium-dependent neurotransmitter release",
+        "E": "Selective blockade of voltage-gated sodium channels"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Postsynaptic acetylcholine receptor blockade describes curare-like agents, not the presynaptic action of alpha-latrotoxin.",
+        "B": "SNARE cleavage is the mechanism of clostridial toxins, which prevent release; latrotoxin does the opposite.",
+        "C": "Acetylcholinesterase inhibition prolongs acetylcholine action but is not how black widow venom acts.",
+        "D": "Alpha-latrotoxin binds presynaptic neurexin and forms pores that allow massive calcium influx, potentiating exocytosis and causing an overwhelming discharge of neurotransmitter with pain and cramping.",
+        "E": "Sodium channel blockade (e.g., tetrodotoxin) reduces excitability, unlike the excitatory latrodectism syndrome."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-016",
+      "question": "A 32-year-old woman reports several months of fluctuating ptosis and diplopia that worsen through the day and with sustained activity, along with fatigable proximal limb weakness. Symptoms transiently improve after edrophonium administration. Chest CT reveals an anterior mediastinal mass. Autoantibodies against which target are most likely responsible?",
+      "answers": {
+        "A": "GABA-A receptor",
+        "B": "Muscle nicotinic acetylcholine receptor",
+        "C": "NMDA receptor",
+        "D": "Presynaptic voltage-gated calcium channel",
+        "E": "Voltage-gated potassium channel"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "GABA-A receptor antibodies cause a seizure-predominant encephalitis, not fatigable neuromuscular weakness.",
+        "B": "Myasthenia gravis is caused by autoantibodies against the postsynaptic muscle nicotinic acetylcholine receptor at the neuromuscular junction, producing fatigable weakness, edrophonium responsiveness, and frequent association with thymoma.",
+        "C": "NMDA receptor antibodies cause a psychiatric-plus-seizure encephalitis, not fatigable weakness.",
+        "D": "Presynaptic voltage-gated calcium channel antibodies cause Lambert-Eaton syndrome, in which strength improves with repetitive activity, the opposite of the fatigability here.",
+        "E": "Voltage-gated potassium channel antibodies cause neuromyotonia or limbic encephalitis, not fatigable ocular and proximal weakness."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-017",
+      "question": "A 60-year-old man presents with new refractory focal seizures progressing to status epilepticus. MRI shows multifocal cortical-subcortical FLAIR hyperintensities, and chest imaging reveals a thymoma. CSF studies are shown below and an autoimmune encephalitis is diagnosed. Antibodies against which receptor best fit this seizure-predominant syndrome associated with thymoma?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["CSF glucose", "58 mg/dL", "45-80 mg/dL"],
+        ["CSF protein", "42 mg/dL", "15-45 mg/dL"],
+        ["CSF WBC", "8 /uL", "0-5 /uL"],
+        ["Gram stain", "Negative", "Negative"]
+      ],
+      "answers": {
+        "A": "AMPA receptor",
+        "B": "GABA-A receptor",
+        "C": "Glycine receptor",
+        "D": "Nicotinic acetylcholine receptor",
+        "E": "NMDA receptor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "AMPA receptor encephalitis typically causes limbic encephalitis with memory and behavioral changes rather than a refractory status epilepticus picture linked to thymoma.",
+        "B": "Anti-GABA-A receptor encephalitis classically presents with refractory seizures and status epilepticus with multifocal MRI lesions and is associated with thymoma.",
+        "C": "Glycine receptor antibodies cause stiff-person spectrum disorders and progressive encephalomyelitis with rigidity, not a pure refractory seizure syndrome.",
+        "D": "Nicotinic acetylcholine receptor antibodies cause myasthenia gravis, a neuromuscular disorder, not encephalitis with seizures.",
+        "E": "Anti-NMDA receptor encephalitis is linked to ovarian teratoma and a psychiatric-then-dyskinesia course rather than thymoma-associated refractory seizures."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-018",
+      "question": "A patient is given a benzodiazepine, which enhances fast inhibitory neurotransmission in the CNS by potentiating a ligand-gated ion channel. When this receptor is activated, which ionic event underlies the resulting inhibitory postsynaptic potential?",
+      "answers": {
+        "A": "Calcium influx causing depolarization",
+        "B": "Chloride influx causing hyperpolarization",
+        "C": "Potassium influx causing depolarization",
+        "D": "Sodium efflux causing hyperpolarization",
+        "E": "Sodium influx causing depolarization"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Calcium influx depolarizes the membrane and would be excitatory, not the basis of an IPSP.",
+        "B": "Benzodiazepines enhance the GABA-A receptor, a chloride-selective ionotropic channel; chloride influx hyperpolarizes the membrane, producing a fast IPSP.",
+        "C": "Potassium influx is not physiologic at rest, and potassium flux does not cause depolarizing inhibition here.",
+        "D": "Sodium efflux is not the mechanism of GABA-A receptor inhibition, which depends on chloride movement.",
+        "E": "Sodium influx depolarizes the membrane, producing an EPSP rather than the inhibitory response of GABA-A activation."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-019",
+      "question": "A 7-year-old boy has intellectual disability, a long narrow face with a prominent jaw, large protruding ears, and macroorchidism. Genetic testing reveals a CGG trinucleotide repeat expansion that silences a gene encoding a translational repressor, and neuronal dendritic spines appear long, thin, and immature. Loss of which protein best explains these findings?",
+      "answers": {
+        "A": "Amyloid precursor protein",
+        "B": "Fragile X mental retardation protein",
+        "C": "Huntingtin",
+        "D": "Neurexin",
+        "E": "Neuroligin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Amyloid precursor protein cleavage products are implicated in Alzheimer disease, not this pediatric trinucleotide repeat syndrome.",
+        "B": "Fragile X syndrome results from CGG repeat expansion silencing FMR1; loss of FMRP, a translational repressor, causes unregulated synaptic protein synthesis and abnormal immature dendritic spines.",
+        "C": "Huntingtin with CAG expansion causes Huntington disease with chorea and dementia in adults, not this phenotype.",
+        "D": "Neurexin variants are linked to autism and schizophrenia but are not caused by a CGG repeat expansion silencing a translational repressor.",
+        "E": "Neuroligin mutations contribute to autism spectrum disorders but do not produce the Fragile X repeat-expansion syndrome described."
+      }
+    },
+    {
+      "id": "neuro-synapses-amino-acid-neurotransmitters-020",
+      "question": "In Alzheimer disease, a peptide generated from cleavage of the amyloid precursor protein progressively weakens excitatory synapses and causes loss of dendritic spines. Which synaptic change best characterizes this peptide-induced weakening?",
+      "answers": {
+        "A": "AMPA receptor internalization producing long-term depression",
+        "B": "Enhanced NMDA-dependent long-term potentiation",
+        "C": "Increased presynaptic calcium influx via Cav2.1",
+        "D": "Insertion of additional AMPA receptors via CaMKII",
+        "E": "Massive presynaptic neurotransmitter release"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Amyloid-beta promotes long-term depression by driving internalization of postsynaptic AMPA receptors and loss of dendritic spines, weakening excitatory transmission.",
+        "B": "Enhanced long-term potentiation strengthens synapses and is the opposite of the synaptic depression seen with amyloid-beta.",
+        "C": "Increased presynaptic Cav2.1 calcium influx would augment release, not weaken synapses.",
+        "D": "CaMKII-driven AMPA receptor insertion underlies potentiation, the opposite of amyloid-beta-induced depression.",
+        "E": "Massive neurotransmitter release describes latrotoxin action, not the synaptic weakening of Alzheimer disease."
+      }
+    }
+  ]
+}
