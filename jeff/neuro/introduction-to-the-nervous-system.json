@@ -1,0 +1,410 @@
+{
+  "lecture": "Introduction to the Nervous System",
+  "block": "neuro",
+  "generated": "2026-08-04",
+  "questions": [
+    {
+      "id": "neuro-introduction-to-the-nervous-system-001",
+      "question": "A 28-year-old man is brought to the emergency department after a knife wound to the back. On examination he has complete loss of sensation in a horizontal band of skin on the right side of his trunk, but strength in the trunk and both legs is fully preserved and reflexes are normal. Injury to which structure best explains these findings?",
+      "answers": {
+        "A": "Anterior white commissure",
+        "B": "Dorsal root",
+        "C": "Intermediate zone",
+        "D": "Ventral horn",
+        "E": "Ventral root"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior white commissure carries crossing pain and temperature fibers, so a lesion there produces bilateral rather than unilateral dermatomal loss.",
+        "B": "Dorsal roots carry only sensory (afferent) fibers into the cord, so isolated section causes dermatomal sensory loss with preserved motor function.",
+        "C": "The intermediate zone contains interneurons, and isolated damage would not produce a clean dermatomal sensory band.",
+        "D": "The ventral horn houses motor neuron cell bodies, so a lesion there would cause weakness rather than pure sensory loss.",
+        "E": "Ventral roots carry only motor (efferent) fibers, so damage would cause weakness with intact sensation."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-002",
+      "question": "A 4-year-old unvaccinated child develops fever followed by rapidly progressive weakness of the right leg. On examination the limb is flaccid and areflexic, but light touch, pinprick, and vibration sensation are entirely normal. The responsible pathogen selectively destroys which structure?",
+      "answers": {
+        "A": "Dorsal horn",
+        "B": "Dorsal root ganglion",
+        "C": "Lateral funiculus",
+        "D": "Ventral horn",
+        "E": "Ventral root"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal horn processes incoming sensory information, so its destruction would impair sensation, which is intact here.",
+        "B": "The dorsal root ganglion contains sensory neuron cell bodies, so loss would produce sensory deficits rather than pure weakness.",
+        "C": "The lateral funiculus carries descending motor tracts, but the viral tropism in this disease targets motor cell bodies, not white matter.",
+        "D": "Anterior (ventral) horn motor neuron cell bodies are selectively destroyed, producing flaccid, areflexic weakness with preserved sensation.",
+        "E": "The ventral root carries motor axons, but the pathogen destroys the neuron cell bodies within the cord rather than the roots."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-003",
+      "question": "A surgeon planning a midline approach to the lumbar spine wants to avoid denervating the deep intrinsic muscles that extend the vertebral column. These muscles, along with the skin overlying them, are supplied by which structure?",
+      "answers": {
+        "A": "Dorsal ramus",
+        "B": "Dorsal root",
+        "C": "Gray ramus communicans",
+        "D": "Ventral ramus",
+        "E": "Ventral root"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Dorsal (posterior) rami supply motor fibers to the intrinsic back muscles and sensory fibers to the overlying dermatomes.",
+        "B": "The dorsal root carries only sensory fibers and cannot supply motor innervation to muscle.",
+        "C": "The gray ramus communicans carries postganglionic sympathetic fibers, not somatic motor supply to back muscles.",
+        "D": "Ventral rami supply the limbs, body wall, and viscera rather than the intrinsic muscles of the back.",
+        "E": "The ventral root carries only motor fibers and does not independently supply a dermatome."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-004",
+      "question": "A 67-year-old woman suddenly develops weakness of her right hand and arm. Sensation is intact, and there is no visual or language deficit. Her vital signs are shown, and imaging reveals a small infarct. The lesion is most likely located in which region?",
+      "table": [
+        ["Vital", "Value", "Reference Range"],
+        ["Blood pressure", "186/104 mm Hg", "~120/80 mm Hg"],
+        ["Heart rate", "88/min", "60-100/min"]
+      ],
+      "answers": {
+        "A": "Left postcentral gyrus",
+        "B": "Left precentral gyrus",
+        "C": "Right precentral gyrus",
+        "D": "Right prefrontal cortex",
+        "E": "Right primary visual cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The postcentral gyrus mediates somatosensation, so a lesion would cause sensory loss, which is absent here.",
+        "B": "The primary motor cortex of the precentral gyrus controls the contralateral body, so right-arm weakness localizes to the left precentral gyrus.",
+        "C": "The right precentral gyrus controls the left side of the body, not the right.",
+        "D": "The prefrontal cortex governs personality and executive function, not primary motor control of the hand.",
+        "E": "The primary visual cortex processes vision, so a lesion would cause a visual field defect, not weakness."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-005",
+      "question": "A 42-year-old railway worker survives a penetrating injury to the anterior part of his frontal lobes. His strength, sensation, coordination, and language are unchanged, but his family reports that he has become impulsive, socially inappropriate, and unable to plan ahead. Damage to which region best accounts for this change?",
+      "answers": {
+        "A": "Hippocampus",
+        "B": "Precentral gyrus",
+        "C": "Prefrontal cortex",
+        "D": "Primary somatosensory cortex",
+        "E": "Supplementary motor area"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The hippocampus supports memory formation, so damage causes amnesia rather than personality change.",
+        "B": "The precentral gyrus initiates movement, so a lesion would produce contralateral weakness.",
+        "C": "The prefrontal cortex governs personality, behavior, decision-making, and working memory, matching the described change.",
+        "D": "The primary somatosensory cortex mediates sensation, so damage would cause a sensory deficit.",
+        "E": "The supplementary motor area helps plan movement, so a lesion affects motor sequencing, not social behavior."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-006",
+      "question": "A 59-year-old man reports that he cannot feel objects placed in his left hand and has trouble localizing touch on the left side of his body. Strength is normal and he has no visual field defect. The responsible lesion is most likely in which structure?",
+      "answers": {
+        "A": "Left postcentral gyrus",
+        "B": "Left precentral gyrus",
+        "C": "Right postcentral gyrus",
+        "D": "Right precentral gyrus",
+        "E": "Right superior temporal gyrus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The left postcentral gyrus processes sensation from the right body, not the left.",
+        "B": "The left precentral gyrus controls right-sided movement and would cause weakness, not sensory loss.",
+        "C": "The primary somatosensory cortex in the right postcentral gyrus receives input from the contralateral (left) body, explaining left-sided sensory loss.",
+        "D": "The right precentral gyrus controls left-sided movement, so a lesion would cause weakness rather than numbness.",
+        "E": "The superior temporal gyrus houses auditory cortex, so a lesion would affect hearing, not somatic sensation."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-007",
+      "question": "A 71-year-old right-handed man has a stroke that leaves him unable to understand spoken language or produce meaningful speech, though he can still recognize faces and interpret the emotional tone of music. According to the hemispheric division of function, the infarct most likely involves which structure?",
+      "answers": {
+        "A": "Left cerebellar hemisphere",
+        "B": "Left parietal and temporal cortex",
+        "C": "Right occipital cortex",
+        "D": "Right parietal and temporal cortex",
+        "E": "Right prefrontal cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The cerebellum coordinates movement and is not the seat of language comprehension.",
+        "B": "In most people the left hemisphere handles language and fine detail, so left temporoparietal injury impairs language.",
+        "C": "The right occipital cortex processes vision, so a lesion would cause a visual field defect.",
+        "D": "The right hemisphere specializes in abstract and emotional processing, not the language deficits described.",
+        "E": "The right prefrontal cortex mediates behavior and emotion rather than language comprehension."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-008",
+      "question": "A 68-year-old woman develops sudden weakness and sensory loss that are much more severe in her right leg than in her right arm or face. Language and vision are intact. Occlusion of which artery best explains this pattern?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Left posterior cerebral artery",
+        "D": "Right anterior cerebral artery",
+        "E": "Right middle cerebral artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial hemisphere, where the leg is represented on the homunculus, so occlusion causes contralateral leg-predominant deficits.",
+        "B": "The middle cerebral artery supplies the lateral surface, producing face- and arm-predominant deficits.",
+        "C": "The posterior cerebral artery supplies the occipital lobe, causing visual field loss rather than leg weakness.",
+        "D": "The right anterior cerebral artery would cause left-sided leg weakness, not right.",
+        "E": "The right middle cerebral artery would affect the left face and arm, not the right leg."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-009",
+      "question": "A 74-year-old man suddenly develops weakness of the right side of his face and right arm, with the leg relatively spared, along with difficulty producing speech. Occlusion of which artery is most likely responsible?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Right anterior cerebral artery",
+        "D": "Right middle cerebral artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial surface and would cause leg-predominant weakness.",
+        "B": "The middle cerebral artery supplies the lateral convexity (face and arm somatotopy) and the language areas, matching the deficits.",
+        "C": "The right anterior cerebral artery would cause left leg weakness, not right face and arm.",
+        "D": "The right middle cerebral artery would affect the left face and arm, opposite to the findings.",
+        "E": "The posterior cerebral artery supplies visual cortex, causing field defects rather than face and arm weakness."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-010",
+      "question": "After a surgical procedure that removed medial structures of both temporal lobes, a patient is left unable to form any new long-term memories, although his older memories, intelligence, and motor skills are preserved. Bilateral loss of which structure explains this outcome?",
+      "answers": {
+        "A": "Amygdala",
+        "B": "Calcarine cortex",
+        "C": "Hippocampus",
+        "D": "Precentral gyrus",
+        "E": "Thalamus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The amygdala processes emotional salience, so bilateral loss affects fear responses more than new memory formation.",
+        "B": "The calcarine cortex processes vision, so damage causes visual field loss, not amnesia.",
+        "C": "The hippocampus, in the medial temporal lobe, is essential for forming new declarative memories, so bilateral loss prevents new learning.",
+        "D": "The precentral gyrus initiates movement, so damage causes weakness, not memory loss.",
+        "E": "The thalamus relays sensory information, and the described selective anterograde amnesia points to the hippocampus."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-011",
+      "question": "A 55-year-old woman has a small infarct destroying the primary auditory cortex in her left superior temporal gyrus. Testing shows only a subtle change in hearing, with no significant deafness in either ear. Which feature of this cortex best explains the preserved hearing?",
+      "answers": {
+        "A": "It decussates completely in the spinal cord",
+        "B": "It is supplied only by the anterior cerebral artery",
+        "C": "It projects directly to the hippocampus",
+        "D": "It receives input from both ears",
+        "E": "It relays through the hypothalamus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Auditory pathways do not decussate in the spinal cord, and complete crossing would not preserve hearing after a cortical lesion.",
+        "B": "The temporal lobe is supplied largely by the middle cerebral artery, and blood supply does not explain preserved hearing.",
+        "C": "Auditory cortex does connect with limbic structures, but hippocampal projection does not account for spared hearing.",
+        "D": "The primary auditory cortex receives bilateral input, so a unilateral lesion leaves hearing largely intact.",
+        "E": "Auditory information does not relay through the hypothalamus."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-012",
+      "question": "A 63-year-old man awakens with loss of the right half of his visual field in both eyes. Strength, sensation, and language are normal. The lesion most likely involves the calcarine cortex supplied by which artery?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Left posterior cerebral artery",
+        "D": "Right middle cerebral artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial frontal and parietal cortex, not the visual cortex.",
+        "B": "The middle cerebral artery supplies the lateral surface and would cause face and arm deficits, not an isolated field cut.",
+        "C": "The left calcarine (primary visual) cortex processes the right visual field of both eyes, so left posterior cerebral occlusion causes a right homonymous field loss.",
+        "D": "The right middle cerebral artery would affect the left face and arm rather than vision.",
+        "E": "The right posterior cerebral artery supplies the right visual cortex, producing a left-sided field defect."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-013",
+      "question": "A patient has a lesion of the thalamus that disrupts relay of several sensory modalities to the cerebral cortex. Which sensation is least likely to be affected because it does not relay in the thalamus?",
+      "answers": {
+        "A": "Hearing",
+        "B": "Pain",
+        "C": "Smell",
+        "D": "Touch",
+        "E": "Vision"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Auditory information relays through the medial geniculate nucleus of the thalamus and would be affected.",
+        "B": "Pain ascends to the cortex via thalamic relay nuclei and would be affected.",
+        "C": "Olfaction is the only major sensory modality that reaches the cortex without a thalamic relay, so it is spared.",
+        "D": "Somatosensory (touch) information relays through the ventral posterior thalamus and would be affected.",
+        "E": "Vision relays through the lateral geniculate nucleus of the thalamus and would be affected."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-014",
+      "question": "A 30-year-old man with a tumor at the base of the brain has lost the ability to maintain a stable body temperature, has a disrupted sleep-wake cycle, and shows abnormal thirst and appetite. His vital signs fluctuate widely, as shown. Dysfunction of which structure best explains this constellation?",
+      "table": [
+        ["Parameter", "Value", "Reference Range"],
+        ["Temperature", "34.8-39.5 C (fluctuating)", "36.5-37.5 C"],
+        ["Heart rate", "48-120/min (variable)", "60-100/min"],
+        ["Blood pressure", "labile", "~120/80 mm Hg"]
+      ],
+      "answers": {
+        "A": "Cerebellum",
+        "B": "Hippocampus",
+        "C": "Hypothalamus",
+        "D": "Pineal gland",
+        "E": "Precentral gyrus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cerebellum coordinates movement and does not regulate temperature or circadian rhythm.",
+        "B": "The hippocampus supports memory and is not responsible for autonomic or thermal homeostasis.",
+        "C": "The hypothalamus controls endocrine output, autonomic tone, temperature, circadian rhythm, and drives such as thirst and hunger.",
+        "D": "The pineal gland secretes melatonin but does not govern temperature or autonomic vital signs.",
+        "E": "The precentral gyrus initiates movement and has no homeostatic role."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-015",
+      "question": "A 46-year-old man with chronic alcohol use develops a staggering gait and, on examination, past-pointing and clumsiness of the left arm on finger-to-nose testing. Strength and sensation are normal. The lesion causing his ipsilateral incoordination is in which structure?",
+      "answers": {
+        "A": "Left cerebellar hemisphere",
+        "B": "Left precentral gyrus",
+        "C": "Right cerebellar hemisphere",
+        "D": "Right postcentral gyrus",
+        "E": "Right thalamus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The cerebellum coordinates and corrects movement for the ipsilateral body, so left-arm incoordination localizes to the left cerebellar hemisphere.",
+        "B": "The left precentral gyrus controls the contralateral (right) body and would cause weakness, not ataxia.",
+        "C": "The right cerebellar hemisphere would cause right-sided incoordination, not left.",
+        "D": "The right postcentral gyrus mediates left-sided sensation, so a lesion would cause numbness rather than ataxia.",
+        "E": "The right thalamus relays sensation to the cortex and would not selectively cause ipsilateral limb ataxia."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-016",
+      "question": "A neurosurgeon divides a large midline white matter structure to reduce the spread of intractable seizures between the two cerebral hemispheres. Which structure is being severed?",
+      "answers": {
+        "A": "Anterior commissure",
+        "B": "Corpus callosum",
+        "C": "Fornix",
+        "D": "Internal capsule",
+        "E": "Posterior commissure"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior commissure connects the two temporal lobes and carries only a small fraction of interhemispheric traffic.",
+        "B": "The corpus callosum is the largest commissure and the major connection between the hemispheres.",
+        "C": "The fornix is a limbic output tract of the hippocampus, not the main interhemispheric connection.",
+        "D": "The internal capsule carries projection fibers to and from one hemisphere, not commissural fibers between them.",
+        "E": "The posterior commissure is small and coordinates pupillary reflexes rather than large-scale interhemispheric transfer."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-017",
+      "question": "A student learns that the brainstem houses the nuclei for 9 of the 12 cranial nerves. Which cranial nerve has no nucleus located within the brainstem?",
+      "answers": {
+        "A": "Abducens",
+        "B": "Facial",
+        "C": "Optic",
+        "D": "Trigeminal",
+        "E": "Vagus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The abducens nucleus lies in the pons, within the brainstem.",
+        "B": "The facial nerve nucleus is located in the pons.",
+        "C": "The optic nerve (CN II) is a tract of the diencephalon and has no brainstem nucleus, as is also true for CN I and CN XI.",
+        "D": "The trigeminal nuclei extend through the midbrain, pons, and medulla.",
+        "E": "The vagus nerve nuclei are located in the medulla."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-018",
+      "question": "A 22-year-old man is struck at the base of the skull and, before losing consciousness, develops irregular breathing followed by cardiovascular collapse. His vital signs on arrival are shown. Injury to which region most directly threatens these vital functions?",
+      "table": [
+        ["Parameter", "Value", "Reference Range"],
+        ["Respiratory rate", "irregular, 6/min", "12-20/min"],
+        ["Heart rate", "38/min", "60-100/min"],
+        ["Blood pressure", "72/40 mm Hg", "~120/80 mm Hg"]
+      ],
+      "answers": {
+        "A": "Cerebellum",
+        "B": "Corpus callosum",
+        "C": "Frontal lobe",
+        "D": "Medulla",
+        "E": "Thalamus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The cerebellum coordinates movement and does not house cardiorespiratory control centers.",
+        "B": "The corpus callosum connects the hemispheres and has no autonomic vital function.",
+        "C": "The frontal lobe governs movement and behavior, not breathing or blood pressure regulation.",
+        "D": "The medulla contains the vital cardiac, vasomotor, and respiratory centers, so injury causes cardiorespiratory failure.",
+        "E": "The thalamus relays sensory information and does not control vital autonomic functions."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-019",
+      "question": "A 60-year-old woman has a lesion confined to the dorsal (posterior) funiculus of the spinal cord on the left at the mid-thoracic level. Which deficit would be expected below the level of the lesion?",
+      "answers": {
+        "A": "Bilateral flaccid paralysis of both legs",
+        "B": "Contralateral loss of motor control",
+        "C": "Contralateral loss of pain and temperature",
+        "D": "Ipsilateral loss of ascending sensory information",
+        "E": "Ipsilateral loss of descending motor control"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal funiculus carries sensory, not motor, fibers, so bilateral paralysis would not result.",
+        "B": "Descending motor tracts travel mainly in the lateral funiculus, not the dorsal funiculus.",
+        "C": "Crossing pain and temperature fibers travel in the ventral/anterolateral cord, so a dorsal funiculus lesion spares them.",
+        "D": "The dorsal funiculus carries ascending sensory tracts that remain ipsilateral within the cord, so its lesion causes ipsilateral sensory loss below the level.",
+        "E": "Descending motor control travels in the lateral and ventral funiculi, not the dorsal funiculus."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-020",
+      "question": "A 6-month-old infant has a rapidly enlarging head. Imaging shows markedly dilated lateral ventricles and third ventricle, but a normal-sized fourth ventricle. Lumbar puncture findings are shown. The obstruction is most likely located at which site?",
+      "table": [
+        ["Study", "Value", "Reference"],
+        ["CSF opening pressure", "elevated", "10-20 cm H2O"],
+        ["CSF protein", "normal", "15-45 mg/dL"],
+        ["CSF white cells", "normal", "0-5/uL"]
+      ],
+      "answers": {
+        "A": "Cerebral aqueduct",
+        "B": "Choroid plexus of the lateral ventricle",
+        "C": "Interventricular foramen (of Monro)",
+        "D": "Median aperture (of Magendie)",
+        "E": "Superior sagittal sinus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The cerebral aqueduct connects the third and fourth ventricles, so a block there dilates the lateral and third ventricles while sparing the fourth.",
+        "B": "The choroid plexus produces CSF, and blockage there would not selectively spare the fourth ventricle.",
+        "C": "A blocked interventricular foramen would dilate only the lateral ventricle(s), leaving the third ventricle normal.",
+        "D": "A blocked median aperture would also dilate the fourth ventricle, which is normal here.",
+        "E": "The superior sagittal sinus is a site of CSF resorption, so obstruction causes communicating hydrocephalus with all ventricles enlarged."
+      }
+    }
+  ]
+}
