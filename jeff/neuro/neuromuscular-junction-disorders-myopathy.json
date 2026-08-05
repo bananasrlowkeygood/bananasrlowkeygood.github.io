@@ -1,0 +1,428 @@
+{
+  "lecture": "Neuromuscular Junction Disorders & Myopathy",
+  "block": "neuro",
+  "generated": "2026-08-04",
+  "questions": [
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-001",
+      "question": "A 61-year-old man with a 40 pack-year smoking history presents with 8 months of progressive difficulty rising from a chair and, more recently, trouble lifting his arms overhead. He also reports dry mouth and constipation. On examination, patellar reflexes are absent at rest but become elicitable immediately after 10 seconds of sustained quadriceps contraction. High-frequency repetitive nerve stimulation demonstrates marked post-exercise facilitation. Which serum antibody is most likely to be positive?",
+      "answers": {
+        "A": "Antibodies against acetylcholine receptors",
+        "B": "Antibodies against agrin",
+        "C": "Antibodies against LRP4",
+        "D": "Antibodies against MuSK",
+        "E": "Antibodies against P/Q-type calcium channels"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Postsynaptic acetylcholine receptor antibodies define myasthenia gravis, which produces a decremental rather than incremental response and preserves reflexes and autonomic function.",
+        "B": "Agrin antibodies are a rare cause of postsynaptic myasthenia gravis and would not explain autonomic symptoms or post-exercise facilitation.",
+        "C": "LRP4 antibodies are found in a small subset of seronegative myasthenia gravis and cause postsynaptic, not presynaptic, dysfunction.",
+        "D": "MuSK antibodies cause a postsynaptic myasthenia gravis phenotype with prominent bulbar weakness and decrement on slow repetitive stimulation.",
+        "E": "Antibodies against the presynaptic P/Q-type voltage-gated calcium channel cause Lambert-Eaton myasthenic syndrome, in which reduced calcium influx impairs acetylcholine release, producing proximal weakness, autonomic symptoms, hyporeflexia, and post-exercise facilitation."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-002",
+      "question": "A 45-year-old woman reports 6 weeks of drooping eyelids and double vision that are minimal on waking and worsen through the day and with exertion. Examination shows fatigable bilateral ptosis and variable ophthalmoparesis with normal pupils, and she also has mild neck flexor and proximal arm weakness. Acetylcholine receptor antibody testing is positive, and 3-Hz repetitive nerve stimulation shows a significant decremental response. Which radiologic study is most appropriate at this time?",
+      "answers": {
+        "A": "CT of the abdomen with contrast",
+        "B": "CT of the chest with contrast",
+        "C": "CT of the head without contrast",
+        "D": "MRI of the brain with contrast",
+        "E": "MRI of the orbits with contrast"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Abdominal imaging has no role in myasthenia gravis, as the associated tumor arises in the anterior mediastinum rather than the abdomen.",
+        "B": "All patients with newly diagnosed myasthenia gravis need chest imaging to evaluate the thymus, since thymoma occurs in 10 to 15 percent and thymectomy is recommended for acetylcholine receptor antibody positive generalized disease.",
+        "C": "Noncontrast head CT screens for hemorrhage or mass effect and would not change management in serologically confirmed myasthenia gravis.",
+        "D": "Brain MRI is used when a central lesion is suspected, but fatigable weakness with a positive antibody and decrement already localizes the disease to the neuromuscular junction.",
+        "E": "Orbital MRI evaluates structural causes of ophthalmoparesis such as thyroid eye disease or a mass, which are not suggested by fatigable, antibody-positive disease."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-003",
+      "question": "A 30-year-old man with known acetylcholine receptor antibody positive myasthenia gravis presents with several weeks of diplopia and difficulty climbing stairs. Over the past 3 days he has developed progressive dyspnea and now requires assistance to stand. His forced vital capacity has fallen from 3.2 L to 0.9 L over 12 hours, and he is intubated in the emergency department. Which treatment is most appropriate now?",
+      "answers": {
+        "A": "Azathioprine",
+        "B": "Methotrexate",
+        "C": "Mycophenolate mofetil",
+        "D": "Plasma exchange",
+        "E": "Pyridostigmine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Azathioprine is a steroid-sparing agent whose benefit emerges over many months and cannot stabilize a patient in crisis.",
+        "B": "Methotrexate is a chronic immunomodulating agent with a delayed onset and no role in acute respiratory failure.",
+        "C": "Mycophenolate is used chronically to spare corticosteroids and takes months to produce clinical benefit.",
+        "D": "This is a myasthenic crisis, which requires a rapid immunomodulating therapy such as plasma exchange or IVIG that works over days rather than weeks.",
+        "E": "Pyridostigmine is symptomatic therapy, is insufficient for crisis, and increased secretions can worsen airway management."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-004",
+      "question": "A 59-year-old woman with small cell lung carcinoma develops progressive proximal leg weakness, dry eyes, and erectile-type autonomic complaints. Electrodiagnostic testing shows a low baseline compound muscle action potential amplitude that more than doubles after brief maximal exercise. Which step in neuromuscular transmission is most directly impaired?",
+      "answers": {
+        "A": "Binding of acetylcholine to postsynaptic receptors",
+        "B": "Calcium influx through presynaptic voltage-gated channels",
+        "C": "Degradation of acetylcholine within the synaptic cleft",
+        "D": "Propagation of the muscle fiber action potential",
+        "E": "Sodium influx across the postsynaptic membrane"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Impaired acetylcholine binding at the postsynaptic receptor characterizes myasthenia gravis and produces decrement rather than facilitation.",
+        "B": "Antibodies against presynaptic P/Q-type voltage-gated calcium channels reduce calcium entry, limiting acetylcholine vesicle release; rapid stimulation allows calcium to accumulate and transiently restores transmission.",
+        "C": "Reduced acetylcholinesterase activity is the effect of anticholinesterase drugs and organophosphates, which increase rather than decrease synaptic acetylcholine.",
+        "D": "A primary defect in muscle fiber action potential propagation describes channelopathies and myotonic disorders, which do not show post-exercise facilitation.",
+        "E": "Postsynaptic sodium influx is the downstream consequence of receptor activation and is not the primary antibody target in this paraneoplastic syndrome."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-005",
+      "question": "A 4-month-old previously healthy infant is brought in for 5 days of constipation followed by poor feeding with a weak suck, decreasing spontaneous movement, and a weak cry. Examination shows bilateral ptosis, sluggishly reactive pupils, diffuse hypotonia, and diminished reflexes, with no fever and a normal fontanelle. The parents mention giving the infant a pacifier dipped in raw honey. Which treatment is most appropriate?",
+      "answers": {
+        "A": "Equine heptavalent botulism antitoxin",
+        "B": "Human-derived botulism immune globulin",
+        "C": "Intravenous immunoglobulin",
+        "D": "Oral pyridostigmine therapy",
+        "E": "Plasma exchange with central access"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Equine heptavalent antitoxin is reserved for adults and children older than 1 year because of the risk of hypersensitivity and serum sickness in infants.",
+        "B": "Infant botulism is treated with human-derived botulism immune globulin, which is given presumptively on clinical grounds without waiting for toxin confirmation.",
+        "C": "Standard IVIG contains no specific antitoxin activity and is used for antibody-mediated disorders such as myasthenic crisis or Guillain-Barré syndrome.",
+        "D": "Pyridostigmine increases synaptic acetylcholine but does not neutralize circulating toxin and is not the treatment for botulism.",
+        "E": "Plasma exchange removes pathogenic antibodies in autoimmune neuromuscular disease and has no established role in toxin-mediated botulism."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-006",
+      "question": "A 34-year-old man who injects black tar heroin presents with 2 days of blurred vision, dysarthria, and dysphagia followed by symmetric weakness that began in the shoulders and has descended to the legs. He is alert and oriented with no headache or neck stiffness, sensation is intact, and pupils are dilated and poorly reactive. There is an indurated ulcer on his forearm. Lumbar puncture results are shown. Which is the most appropriate next step in management?",
+      "table": [
+        ["CSF Study", "Value", "Reference Range"],
+        ["Opening pressure", "14 cm H2O", "6–20 cm H2O"],
+        ["WBC", "1/mm3", "0–5/mm3"],
+        ["Protein", "34 mg/dL", "15–45 mg/dL"],
+        ["Glucose", "62 mg/dL", "45–80 mg/dL"]
+      ],
+      "correct": "A",
+      "answers": {
+        "A": "Administer botulism antitoxin now",
+        "B": "Await serum and stool toxin assays",
+        "C": "Obtain MRI of the brain and spine",
+        "D": "Perform repetitive nerve stimulation testing",
+        "E": "Start intravenous immunoglobulin therapy"
+      },
+      "explanations": {
+        "A": "Wound botulism produces acute cranial neuropathies with symmetric descending flaccid paralysis, a normal sensorium, and normal CSF; antitoxin must be given on presumptive clinical diagnosis because it only neutralizes toxin not yet bound to nerve terminals.",
+        "B": "Toxin detection in serum, stool, or wound material confirms the diagnosis but takes days, and waiting allows irreversible toxin binding and respiratory failure.",
+        "C": "Neuraxial imaging would be pursued for a myelopathy or brainstem lesion, but the normal sensorium, symmetric descending pattern, and intact sensation argue against a central lesion.",
+        "D": "Electrodiagnostic testing can support the diagnosis with an incremental response at high stimulation rates, but it should not delay antitoxin administration.",
+        "E": "IVIG is used for Guillain-Barré syndrome, which typically causes ascending weakness with elevated CSF protein and spares the pupils."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-007",
+      "question": "A 28-year-old woman has 3 months of fatigable ptosis, nasal-sounding speech after prolonged conversation, and difficulty holding her arms overhead while drying her hair. Sensation and reflexes are normal. Repetitive nerve stimulation at 3 Hz shows a 28 percent decrement in compound muscle action potential amplitude that partially repairs after brief rest. Which mechanism best explains her weakness?",
+      "answers": {
+        "A": "Autoantibody destruction of postsynaptic ACh receptors",
+        "B": "Demyelination of peripheral motor nerve axons",
+        "C": "Impaired presynaptic release of acetylcholine",
+        "D": "Inhibition of acetylcholinesterase in the synaptic cleft",
+        "E": "Toxin-mediated cleavage of presynaptic SNARE proteins"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Myasthenia gravis is a T-cell dependent autoimmune disease in which antibodies against the postsynaptic acetylcholine receptor, together with complement-mediated membrane attack complex formation and receptor degradation, reduce the endplate potential and produce fatigable weakness with decrement.",
+        "B": "Demyelinating neuropathy causes sensory loss and areflexia with conduction slowing, none of which are present here.",
+        "C": "Reduced presynaptic acetylcholine release occurs in Lambert-Eaton syndrome and produces facilitation after exercise rather than a decrement.",
+        "D": "Acetylcholinesterase inhibition increases synaptic acetylcholine and is the therapeutic mechanism of pyridostigmine, not a cause of myasthenia.",
+        "E": "SNARE protein cleavage is the mechanism of botulinum toxin, which causes acute descending paralysis with autonomic and pupillary involvement."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-008",
+      "question": "A 64-year-old man with a long smoking history has 9 months of progressive difficulty climbing stairs, dry mouth, and constipation. Strength in the hip flexors briefly improves after sustained effort, and reflexes are diminished. Sensation is intact. Electrodiagnostic results are shown. Which is the most likely diagnosis?",
+      "table": [
+        ["Study", "Result", "Normal"],
+        ["Resting CMAP amplitude", "1.4 mV", ">4 mV"],
+        ["3-Hz repetitive stimulation", "22% decrement", "<10% decrement"],
+        ["50-Hz stimulation", "260% increment", "<60% increment"],
+        ["Sensory conduction", "Normal", "Normal"]
+      ],
+      "correct": "D",
+      "answers": {
+        "A": "Botulism",
+        "B": "Guillain-Barré syndrome",
+        "C": "Inflammatory myopathy",
+        "D": "Lambert-Eaton myasthenic syndrome",
+        "E": "Myasthenia gravis"
+      },
+      "explanations": {
+        "A": "Botulism can also show an incremental response but presents acutely over hours to days with cranial neuropathies and pupillary involvement, not a 9-month course with a smoking history.",
+        "B": "Guillain-Barré syndrome causes subacute ascending weakness with areflexia and abnormal sensory studies rather than facilitation on high-frequency stimulation.",
+        "C": "Inflammatory myopathy produces proximal weakness with elevated CK and myopathic motor units, but repetitive stimulation is normal without marked facilitation.",
+        "D": "A low baseline CMAP with more than 100 percent increment after high-frequency stimulation is characteristic of Lambert-Eaton myasthenic syndrome, which fits the chronic proximal weakness, autonomic features, hyporeflexia, and smoking history.",
+        "E": "Myasthenia gravis shows decrement on slow stimulation with a normal baseline CMAP and no significant facilitation, and autonomic symptoms are absent."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-009",
+      "question": "A 62-year-old man with a 45 pack-year smoking history is found to have serum antibodies against the P/Q-type voltage-gated calcium channel after presenting with proximal leg weakness, dry mouth, and hyporeflexia. His chest radiograph is unremarkable. Which malignancy should be prioritized in his screening evaluation?",
+      "answers": {
+        "A": "Adenocarcinoma of the lung",
+        "B": "Non-Hodgkin lymphoma",
+        "C": "Small cell lung carcinoma",
+        "D": "Squamous cell carcinoma of the lung",
+        "E": "Thymoma of the mediastinum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Pulmonary adenocarcinoma is common in smokers and nonsmokers but is not the classic tumor associated with calcium channel antibodies.",
+        "B": "Lymphoma is associated with several paraneoplastic syndromes but not with the presynaptic calcium channel antibody phenotype.",
+        "C": "Roughly half of Lambert-Eaton cases are paraneoplastic and small cell lung carcinoma is the tumor overwhelmingly implicated, so dedicated chest imaging and periodic surveillance are required even when the radiograph is normal.",
+        "D": "Squamous cell lung carcinoma is smoking-related and classically causes hypercalcemia from PTHrP rather than a neuromuscular junction syndrome.",
+        "E": "Thymoma is the tumor linked to myasthenia gravis, which involves postsynaptic acetylcholine receptor antibodies instead."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-010",
+      "question": "A 39-year-old woman with newly diagnosed ocular myasthenia gravis is started on a medication that produces noticeable improvement in her ptosis within 30 minutes of dosing but wears off after several hours. She also develops abdominal cramping, increased salivation, and loose stools. Which mechanism explains the therapeutic effect of this drug?",
+      "answers": {
+        "A": "Blockade of presynaptic potassium channels",
+        "B": "Inhibition of acetylcholinesterase in the synaptic cleft",
+        "C": "Inhibition of complement protein C5 cleavage",
+        "D": "Inhibition of the neonatal Fc receptor",
+        "E": "Suppression of purine synthesis in lymphocytes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Presynaptic potassium channel blockade describes 3,4-diaminopyridine, which prolongs depolarization to enhance calcium entry and is used in Lambert-Eaton syndrome.",
+        "B": "Pyridostigmine inhibits acetylcholinesterase, increasing acetylcholine available at surviving receptors; the rapid onset, short duration, and muscarinic side effects are characteristic.",
+        "C": "C5 inhibition describes eculizumab and ravulizumab, which act over weeks and do not cause cholinergic gastrointestinal side effects.",
+        "D": "Neonatal Fc receptor inhibition describes efgartigimod, which lowers circulating IgG over days to weeks rather than producing dose-by-dose fluctuation.",
+        "E": "Purine synthesis suppression describes azathioprine and mycophenolate, chronic agents that require months for benefit."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-011",
+      "question": "A 54-year-old woman with generalized myasthenia gravis has been maintained on prednisone 40 mg daily for 10 months with good symptom control. She has gained 11 kg, developed new hyperglycemia, and a DEXA scan shows osteopenia. Her laboratory results are shown. Which medication is most appropriate to add so that her prednisone can be tapered?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Fasting glucose", "148 mg/dL", "70–99 mg/dL"],
+        ["HbA1c", "7.2%", "<5.7%"],
+        ["Lumbar spine T-score", "-1.9", "> -1.0"]
+      ],
+      "correct": "A",
+      "answers": {
+        "A": "Azathioprine",
+        "B": "Efgartigimod",
+        "C": "Intravenous immunoglobulin",
+        "D": "Plasma exchange",
+        "E": "Pyridostigmine"
+      },
+      "explanations": {
+        "A": "Azathioprine and mycophenolate are the standard steroid-sparing immunosuppressants in myasthenia gravis, allowing prednisone taper although their benefit takes several months to appear.",
+        "B": "Efgartigimod is a newer FcRn inhibitor used in refractory antibody-positive disease rather than as first-line steroid-sparing therapy in a well-controlled patient.",
+        "C": "IVIG is a rapid rescue therapy for crisis or preoperative stabilization and is not a maintenance strategy for chronic steroid reduction.",
+        "D": "Plasma exchange requires central venous access and is reserved for acute deterioration, not for routine long-term steroid sparing.",
+        "E": "Pyridostigmine treats symptoms and has no immunomodulating effect, so it cannot substitute for corticosteroid immunosuppression."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-012",
+      "question": "A 47-year-old man with myasthenia gravis is admitted with worsening bulbar and respiratory weakness and receives a rapid immunomodulating infusion over 5 days. Approximately 24 hours after the second infusion he develops a severe headache, photophobia, and neck stiffness without fever. Lumbar puncture results are shown, and Gram stain and cultures are negative. Which is the most likely explanation?",
+      "table": [
+        ["CSF Study", "Value", "Reference Range"],
+        ["WBC", "180/mm3", "0–5/mm3"],
+        ["Differential", "72% neutrophils", "—"],
+        ["Protein", "88 mg/dL", "15–45 mg/dL"],
+        ["Glucose", "58 mg/dL", "45–80 mg/dL"]
+      ],
+      "correct": "A",
+      "answers": {
+        "A": "Aseptic meningitis from IVIG",
+        "B": "Bacterial meningitis from aspiration",
+        "C": "Cerebral venous sinus thrombosis",
+        "D": "Serum sickness from equine antitoxin",
+        "E": "Transfusion-related acute lung injury"
+      },
+      "explanations": {
+        "A": "Aseptic meningitis is a recognized adverse effect of IVIG, typically appearing within 1 to 2 days of infusion with a pleocytosis, elevated protein, normal glucose, and sterile cultures.",
+        "B": "Bacterial meningitis would be expected to produce fever, markedly low CSF glucose, and positive Gram stain or cultures.",
+        "C": "IVIG does increase thrombotic risk, but sinus thrombosis typically produces papilledema and focal deficits or seizures rather than a sterile neutrophilic pleocytosis.",
+        "D": "Serum sickness follows equine-derived products such as botulism antitoxin and presents with fever, rash, and arthralgias rather than isolated meningeal signs.",
+        "E": "TRALI causes acute hypoxemia with bilateral pulmonary infiltrates within hours of a blood product and does not explain the CSF findings."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-013",
+      "question": "A 58-year-old woman in myasthenic crisis is treated with plasma exchange through a newly placed internal jugular catheter. During her third session, the nurse asks about anticipated complications of this specific therapy. Which complication is most directly associated with this treatment modality?",
+      "answers": {
+        "A": "Aseptic meningitis after each session",
+        "B": "Hypotension during and after exchange",
+        "C": "Increased risk of venous thromboembolism",
+        "D": "Progressive multifocal leukoencephalopathy",
+        "E": "Renal dysfunction from osmotic tubular injury"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Aseptic meningitis is characteristically associated with IVIG rather than with plasma exchange.",
+        "B": "Plasma exchange requires large-bore central access and causes intravascular volume and electrolyte shifts, so hypotension, bleeding from coagulation factor removal, and arrhythmias are the expected risks.",
+        "C": "Increased thrombosis risk is an IVIG effect related to increased serum viscosity and immunoglobulin load.",
+        "D": "PML is associated with prolonged B-cell depleting or broadly immunosuppressive agents, not with a mechanical plasma removal procedure.",
+        "E": "Renal dysfunction from osmotic tubular injury relates to sucrose-containing IVIG preparations rather than to apheresis."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-014",
+      "question": "A 52-year-old woman with acetylcholine receptor antibody positive generalized myasthenia gravis remains symptomatic despite prednisone, mycophenolate, and repeated IVIG courses. She is started on a monoclonal antibody that requires meningococcal vaccination before initiation. Which mechanism best explains this drug's benefit at the neuromuscular junction?",
+      "answers": {
+        "A": "Blockade of the neonatal Fc receptor",
+        "B": "Depletion of circulating CD20-positive B cells",
+        "C": "Inhibition of acetylcholinesterase activity",
+        "D": "Inhibition of complement protein C5",
+        "E": "Inhibition of inosine monophosphate dehydrogenase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "FcRn blockade describes efgartigimod, which accelerates IgG catabolism and does not increase encapsulated organism risk requiring meningococcal vaccination.",
+        "B": "CD20-directed B-cell depletion describes rituximab, which reduces antibody production over months rather than acting on the terminal complement pathway.",
+        "C": "Acetylcholinesterase inhibition is the mechanism of pyridostigmine, an oral symptomatic agent rather than a monoclonal antibody.",
+        "D": "Eculizumab and ravulizumab block cleavage of C5, preventing membrane attack complex formation and postsynaptic membrane destruction; loss of terminal complement mandates meningococcal vaccination.",
+        "E": "IMPDH inhibition describes mycophenolate, an oral steroid-sparing agent this patient is already taking."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-015",
+      "question": "A 41-year-old man with refractory acetylcholine receptor antibody positive myasthenia gravis begins a new infusion therapy. Four weeks later his ptosis and dysphagia have substantially improved, and laboratory results are shown. Which mechanism best explains this pattern?",
+      "table": [
+        ["Test", "Baseline", "Week 4"],
+        ["Total serum IgG", "1180 mg/dL", "410 mg/dL"],
+        ["AChR antibody titer", "18.2 nmol/L", "6.4 nmol/L"],
+        ["Serum albumin", "4.1 g/dL", "4.0 g/dL"],
+        ["Absolute lymphocyte count", "2100/mm3", "1980/mm3"]
+      ],
+      "correct": "A",
+      "answers": {
+        "A": "Accelerated catabolism of circulating IgG",
+        "B": "Blockade of C5 cleavage in the complement cascade",
+        "C": "Depletion of CD20-positive B lymphocytes",
+        "D": "Inhibition of acetylcholinesterase at the endplate",
+        "E": "Suppression of T-cell purine nucleotide synthesis"
+      },
+      "explanations": {
+        "A": "Efgartigimod blocks the neonatal Fc receptor that normally recycles IgG, so pathogenic IgG including acetylcholine receptor antibody is degraded; albumin and lymphocyte counts are unaffected because they are not FcRn-recycled in the same manner.",
+        "B": "C5 inhibition prevents membrane attack complex formation but does not lower total IgG or antibody titers.",
+        "C": "B-cell depletion would reduce lymphocyte counts and lower antibody titers only gradually over months, not within 4 weeks with preserved lymphocytes.",
+        "D": "Acetylcholinesterase inhibition improves symptoms within minutes to hours and has no effect on immunoglobulin levels.",
+        "E": "Purine synthesis suppression by azathioprine or mycophenolate acts on proliferating lymphocytes over months and would not cause an abrupt 65 percent fall in total IgG."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-016",
+      "question": "A 47-year-old woman reports 3 months of progressively worsening difficulty climbing stairs, rising from a chair, and lifting groceries onto a shelf. She denies numbness, tingling, diplopia, dry mouth, or fluctuation of symptoms through the day. Examination shows symmetric shoulder and hip girdle weakness with intact sensation and normal reflexes. Laboratory results are shown. Which is the most likely diagnosis?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Creatine kinase", "4,200 U/L", "30–200 U/L"],
+        ["Aldolase", "22 U/L", "1–7 U/L"],
+        ["AST", "96 U/L", "10–40 U/L"],
+        ["TSH", "1.8 mIU/L", "0.4–4.0 mIU/L"]
+      ],
+      "correct": "C",
+      "answers": {
+        "A": "Amyotrophic lateral sclerosis",
+        "B": "Chronic inflammatory demyelinating polyneuropathy",
+        "C": "Inflammatory myopathy",
+        "D": "Lambert-Eaton myasthenic syndrome",
+        "E": "Myasthenia gravis"
+      },
+      "explanations": {
+        "A": "ALS produces mixed upper and lower motor neuron findings with asymmetric weakness, atrophy, and fasciculations, and CK is only mildly elevated at most.",
+        "B": "CIDP causes sensory involvement with areflexia and often distal as well as proximal weakness, and does not elevate CK into the thousands.",
+        "C": "A subacute, symmetric, purely motor proximal syndrome sparing sensory and autonomic function with markedly elevated muscle enzymes is the classic presentation of an acquired inflammatory myopathy, which is confirmed with EMG and muscle biopsy.",
+        "D": "Lambert-Eaton causes proximal weakness but includes autonomic symptoms and hyporeflexia with post-exercise facilitation and a normal CK.",
+        "E": "Myasthenia gravis produces fatigable weakness with ocular or bulbar involvement and a normal creatine kinase."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-017",
+      "question": "A 32-year-old woman has generalized myasthenia gravis with positive acetylcholine receptor antibodies and moderate limb and bulbar weakness controlled on pyridostigmine and prednisone. CT of the chest shows a normal-appearing thymus with no mediastinal mass. Which recommendation regarding thymectomy is most appropriate?",
+      "answers": {
+        "A": "Avoid thymectomy because no thymoma is present",
+        "B": "Proceed with thymectomy to improve long-term control",
+        "C": "Repeat chest CT yearly until a thymoma appears",
+        "D": "Reserve thymectomy for episodes of myasthenic crisis",
+        "E": "Treat with pyridostigmine alone and defer surgery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Thymectomy benefit is not limited to thymoma; it improves disease stability in acetylcholine receptor antibody positive generalized disease even when the gland appears normal.",
+        "B": "Thymectomy is recommended for generalized, acetylcholine receptor antibody positive myasthenia gravis because it provides greater long-term stability and reduces immunosuppressant requirements regardless of whether thymoma is present.",
+        "C": "Surveillance imaging alone forgoes the demonstrated disease-modifying benefit of thymectomy in this population.",
+        "D": "Thymectomy is an elective, disease-modifying operation and is not the intervention used during acute crisis, when rapid immunomodulation is required.",
+        "E": "Pyridostigmine is symptomatic only and does not alter the immunologic course of generalized disease."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-018",
+      "question": "A 52-year-old man develops blurred vision, dysphagia, and dysarthria about 20 hours after eating home-canned green beans, followed by symmetric weakness that started in the neck and shoulders and has progressed downward to the legs. He is alert with a normal mental status, no headache or meningismus, intact sensation, and dilated pupils with sluggish reactivity. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Botulism",
+        "B": "Guillain-Barré syndrome",
+        "C": "Lambert-Eaton myasthenic syndrome",
+        "D": "Myasthenia gravis",
+        "E": "Organophosphate poisoning"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Clostridium botulinum neurotoxin from improperly home-canned food disrupts presynaptic cholinergic transmission, producing acute multiple cranial neuropathies followed by symmetric descending flaccid paralysis with autonomic features and a clear sensorium.",
+        "B": "Guillain-Barré syndrome classically causes ascending weakness with early areflexia and sensory symptoms, and pupils are typically spared.",
+        "C": "Lambert-Eaton develops over months with proximal leg weakness and hyporeflexia rather than over a single day with cranial nerve onset.",
+        "D": "Myasthenia gravis causes fluctuating fatigable weakness without pupillary involvement, since the iris sphincter uses muscarinic rather than nicotinic receptors.",
+        "E": "Organophosphate poisoning causes excess cholinergic activity with miosis, bronchorrhea, salivation, and diarrhea, the opposite autonomic profile."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-019",
+      "question": "A 36-year-old woman has 4 months of fatigable chewing, nasal speech, and neck extensor weakness with relatively little limb involvement. Repetitive nerve stimulation of a facial muscle shows a significant decrement, but acetylcholine receptor antibody testing is negative on two occasions. Which serologic test is most likely to establish the diagnosis?",
+      "answers": {
+        "A": "Antibodies against acetylcholinesterase",
+        "B": "Antibodies against ganglioside GQ1b",
+        "C": "Antibodies against muscle-specific kinase",
+        "D": "Antibodies against P/Q-type calcium channels",
+        "E": "Antibodies against signal recognition particle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Acetylcholinesterase is the enzymatic target of pyridostigmine, not a recognized autoantibody target in myasthenia gravis.",
+        "B": "GQ1b antibodies characterize Miller Fisher syndrome, which presents with ophthalmoplegia, ataxia, and areflexia rather than fatigable bulbar weakness with decrement.",
+        "C": "MuSK antibodies account for a substantial share of acetylcholine receptor antibody negative myasthenia gravis and characteristically produce prominent bulbar, facial, and neck weakness.",
+        "D": "P/Q-type calcium channel antibodies indicate Lambert-Eaton syndrome, which shows facilitation on high-frequency stimulation rather than a marked decrement with fatigable bulbar signs.",
+        "E": "Anti-SRP antibodies are associated with an immune-mediated necrotizing myopathy, which causes proximal weakness with elevated CK and normal repetitive stimulation."
+      }
+    },
+    {
+      "id": "neuro-neuromuscular-junction-disorders-myopathy-020",
+      "question": "A 60-year-old man with proximal leg weakness has absent Achilles reflexes at rest. After he performs 10 seconds of maximal voluntary plantar flexion, the reflexes become briefly elicitable and his hip flexor strength transiently improves before declining again. Which mechanism best explains this finding?",
+      "answers": {
+        "A": "Accumulation of calcium in the presynaptic terminal",
+        "B": "Antibody blockade of postsynaptic acetylcholine receptors",
+        "C": "Depletion of acetylcholine vesicles from the terminal",
+        "D": "Increased acetylcholinesterase activity in the cleft",
+        "E": "Transient conduction block in demyelinated motor axons"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In Lambert-Eaton syndrome, antibodies reduce calcium entry through P/Q-type channels; sustained or rapid activity allows presynaptic calcium to accumulate faster than it is cleared, transiently boosting acetylcholine release and producing post-exercise facilitation.",
+        "B": "Postsynaptic receptor blockade produces fatigable weakness that worsens with exertion, the opposite of facilitation.",
+        "C": "Vesicle depletion would cause progressive weakening with sustained activity rather than transient improvement.",
+        "D": "Increased acetylcholinesterase activity would reduce synaptic acetylcholine and worsen transmission after exercise.",
+        "E": "Conduction block in demyelinated axons produces weakness with sensory involvement and does not reverse with brief exercise."
+      }
+    }
+  ]
+}
