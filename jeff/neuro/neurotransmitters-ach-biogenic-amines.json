@@ -1,0 +1,413 @@
+{
+  "lecture": "Neurotransmitters: Acetylcholine and Biogenic Amines",
+  "block": "neuro",
+  "generated": "2026-08-04",
+  "questions": [
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-001",
+      "question": "A 34-year-old woman has a 4-month history of eyelid drooping and double vision that are absent on waking but pronounced by evening. She also reports difficulty chewing partway through meals and proximal arm weakness that improves after rest. Sensation, deep tendon reflexes, and pupillary responses are normal. Serologic and laboratory studies are shown. Which structure is the primary target of her antibodies?",
+      "table": [
+        ["Test", "Result", "Reference Range"],
+        ["Anti-acetylcholine receptor (binding) antibody", "8.4 nmol/L", "<0.02 nmol/L"],
+        ["Anti-voltage-gated Ca2+ channel antibody", "Negative", "Negative"],
+        ["Creatine kinase", "98 U/L", "30-170 U/L"],
+        ["TSH", "1.8 uU/mL", "0.4-4.0 uU/mL"]
+      ],
+      "answers": {
+        "A": "Muscarinic acetylcholine receptors on cardiac myocytes",
+        "B": "Nicotinic acetylcholine receptors on the postsynaptic muscle membrane",
+        "C": "Presynaptic voltage-gated calcium channels at motor nerve terminals",
+        "D": "Vesicular acetylcholine transporter within motor nerve terminals",
+        "E": "Voltage-gated sodium channels on the skeletal muscle sarcolemma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Muscarinic receptors are G protein-coupled receptors on parasympathetically innervated organs; blocking them produces autonomic signs such as bradycardia or dry secretions, not fatigable skeletal weakness.",
+        "B": "In myasthenia gravis, the patient's own antibodies destroy nicotinic acetylcholine receptors at the neuromuscular junction, reducing end-plate depolarization and producing fatigable weakness of skeletal muscle.",
+        "C": "Antibodies against presynaptic voltage-gated calcium channels reduce acetylcholine release and cause Lambert-Eaton syndrome, but that antibody is negative here and her weakness worsens rather than improves with activity.",
+        "D": "The vesicular acetylcholine transporter loads acetylcholine into vesicles using a proton gradient and is intracellular, so it is inaccessible to circulating antibodies.",
+        "E": "Sarcolemmal sodium channel dysfunction causes myotonia or periodic paralysis with episodic, not fatigable, weakness and would not produce acetylcholine receptor antibodies."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-002",
+      "question": "A 41-year-old woman with fatigable ptosis, dysphagia, and proximal limb weakness is found to have antibodies directed against nicotinic receptors at the neuromuscular junction. She is started on a reversible acetylcholinesterase inhibitor and reports marked improvement in strength within one hour of the first dose. Which mechanism best explains her improvement?",
+      "answers": {
+        "A": "Blockade of presynaptic muscarinic autoreceptors on the motor terminal",
+        "B": "Decreased hydrolysis of acetylcholine within the synaptic cleft",
+        "C": "Increased synthesis of acetylcholine by choline acetyltransferase",
+        "D": "Increased vesicular loading of acetylcholine by the VAChT",
+        "E": "Irreversible antagonism of nicotinic receptors on the muscle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Muscarinic autoreceptor blockade would alter transmitter release in autonomic tissue but does not raise cleft acetylcholine at the neuromuscular junction, where the deficit is postsynaptic receptor loss.",
+        "B": "Acetylcholinesterase normally hydrolyzes acetylcholine in the extracellular space; inhibiting it prolongs the lifetime and concentration of acetylcholine in the cleft so the remaining nicotinic receptors are activated more effectively.",
+        "C": "Choline acetyltransferase activity is not the limiting problem in myasthenia gravis, and these drugs act extracellularly on the degradative enzyme rather than on synthesis.",
+        "D": "Vesicular loading depends on the proton gradient driving VAChT and is unaffected by esterase inhibitors; presynaptic release is already normal in this disease.",
+        "E": "Irreversible nicotinic antagonism describes agents such as curare-type compounds and would worsen weakness rather than relieve it."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-003",
+      "question": "A 58-year-old man develops blurred vision, ptosis, dry mouth, and symmetric descending weakness approximately 24 hours after eating home-canned green beans. Deep tendon reflexes are diminished, sensation is intact, and he ultimately requires intubation for respiratory failure. Which step in cholinergic transmission is blocked by the responsible toxin?",
+      "answers": {
+        "A": "Binding of acetylcholine to postsynaptic nicotinic receptors",
+        "B": "Hydrolysis of acetylcholine by extracellular acetylcholinesterase",
+        "C": "Reuptake of choline into the presynaptic nerve terminal",
+        "D": "Synthesis of acetylcholine by choline acetyltransferase",
+        "E": "Vesicular release of acetylcholine from the nerve terminal"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Receptor blockade describes curare-type agents; botulinum toxin acts presynaptically and leaves the postsynaptic receptor intact.",
+        "B": "Inhibiting acetylcholinesterase would increase cleft acetylcholine and cause cholinergic excess, the opposite of this patient's flaccid paralysis and dry mouth.",
+        "C": "Blocking choline reuptake would slowly deplete transmitter stores with repetitive firing rather than cause acute descending paralysis within a day.",
+        "D": "Choline acetyltransferase catalyzes the single-step synthesis of acetylcholine and is not the target of this toxin.",
+        "E": "Botulinum toxin from Clostridium botulinum blocks acetylcholine release from the nerve terminal, producing flaccid paralysis of skeletal muscle plus parasympathetic failure such as dry mouth and blurred vision."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-004",
+      "question": "A pharmacologist studies tubocurarine, the active alkaloid of a vine used to tip hunting arrows. Applied to an isolated nerve-muscle preparation, it produces long-lasting flaccid paralysis. Nerve conduction is preserved, acetylcholine measured in the synaptic cleft is unchanged or increased, and the muscle contracts normally to direct electrical stimulation. Which mechanism best explains the paralysis?",
+      "answers": {
+        "A": "Agonism of muscarinic receptors on vascular smooth muscle",
+        "B": "Antagonism of nicotinic receptors at the motor end plate",
+        "C": "Blockade of acetylcholine release from the nerve terminal",
+        "D": "Inhibition of acetylcholinesterase in the synaptic cleft",
+        "E": "Inhibition of choline acetyltransferase in the nerve terminal"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Muscarinic agonism affects glands, cardiac, and smooth muscle and cannot paralyze skeletal muscle, which is driven by nicotinic receptors.",
+        "B": "Tubocurarine is a long-lasting nicotinic acetylcholine receptor antagonist, so released acetylcholine cannot depolarize the end plate even though presynaptic release and muscle contractility are intact.",
+        "C": "A release blocker such as botulinum toxin would reduce, not preserve, acetylcholine measured in the cleft.",
+        "D": "Esterase inhibition raises cleft acetylcholine and enhances transmission; it would tend to reverse this blockade rather than cause it.",
+        "E": "Blocking synthesis would deplete acetylcholine stores over time and lower cleft acetylcholine, which is not observed here."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-005",
+      "question": "An investigator applies a compound that selectively blocks the Na+/choline cotransporter on cholinergic nerve terminals. With repetitive stimulation, the acetylcholine content of the terminals falls progressively even though mitochondrial function and vesicle number are unchanged. Which is the most direct consequence of this drug?",
+      "answers": {
+        "A": "Accumulation of acetylcholine within the synaptic cleft",
+        "B": "Decreased substrate availability for choline acetyltransferase",
+        "C": "Increased hydrolysis of acetylcholine by acetylcholinesterase",
+        "D": "Increased proton exchange by the vesicular ACh transporter",
+        "E": "Reduced conversion of dopamine to norepinephrine in the terminal"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cleft acetylcholine falls rather than accumulates, because less transmitter is synthesized and released as stores run down.",
+        "B": "Choline recovered from the extracellular space after acetylcholine hydrolysis is a major source of substrate; blocking its uptake limits the choline available to choline acetyltransferase, whose single-step reaction combines choline with acetyl-CoA.",
+        "C": "Acetylcholinesterase activity is unchanged by this drug, and less substrate reaches it as terminal stores decline.",
+        "D": "The vesicular transporter exchanges protons for acetylcholine, but with less cytosolic acetylcholine available its net loading decreases rather than increases.",
+        "E": "Dopamine beta hydroxylase converts dopamine to norepinephrine in noradrenergic vesicles and is unrelated to choline uptake in cholinergic terminals."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-006",
+      "question": "A 67-year-old woman with Sjogren syndrome is prescribed an oral muscarinic agonist for severe dry mouth. Two hours after the first dose she becomes lightheaded, sweaty, and nauseated. Her findings are shown. Her heart rate and blood pressure normalize after administration of atropine. Which mechanism best explains her bradycardia?",
+      "table": [
+        ["Vital Sign", "Value", "Reference Range"],
+        ["Heart rate", "46/min", "60-100/min"],
+        ["Blood pressure", "94/56 mm Hg", "<120/80 mm Hg"],
+        ["Respiratory rate", "14/min", "12-20/min"],
+        ["Temperature", "37.0 C", "36.5-37.5 C"]
+      ],
+      "answers": {
+        "A": "Activation of a G protein-coupled receptor that reduces cAMP",
+        "B": "Activation of a ligand-gated cation channel causing Na+ influx",
+        "C": "Antagonism of a G protein-coupled receptor that increases cAMP",
+        "D": "Blockade of a ligand-gated channel at the neuromuscular junction",
+        "E": "Inhibition of acetylcholinesterase within the synaptic cleft"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Muscarinic receptors are G protein-coupled and couple to Gi, which reduces cAMP, producing slow and prolonged inhibitory effects such as slowing of the heart; atropine reverses this by blocking the receptor.",
+        "B": "Ligand-gated cation channels are nicotinic receptors, which mediate fast, brief excitation and are not blocked by atropine.",
+        "C": "The drug is an agonist, not an antagonist, and the clinical picture reflects increased rather than decreased cholinergic tone.",
+        "D": "Neuromuscular junction blockade would cause skeletal muscle weakness, and this patient has autonomic effects with normal strength.",
+        "E": "An esterase inhibitor would raise endogenous acetylcholine everywhere, but the offending agent here binds the receptor directly as an exogenous agonist."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-007",
+      "question": "An investigator records from a neuron in the superior cervical ganglion of an anesthetized animal. Stimulation of its preganglionic input produces a fast excitatory postsynaptic potential that is abolished by a nicotinic receptor antagonist. The axon of the recorded ganglionic neuron is then traced to a cutaneous arteriole. Which transmitter and receptor pair mediates signaling at that arteriole?",
+      "answers": {
+        "A": "Acetylcholine acting on muscarinic receptors",
+        "B": "Acetylcholine acting on nicotinic receptors",
+        "C": "Dopamine acting on D1 receptors",
+        "D": "Norepinephrine acting on adrenergic receptors",
+        "E": "Serotonin acting on 5-HT2 receptors"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Acetylcholine acting on muscarinic receptors is used by postganglionic parasympathetic neurons at their target organs, not by sympathetic postganglionic neurons at arterioles.",
+        "B": "Nicotinic transmission occurs at the ganglionic synapse itself, which is the input to this neuron rather than its output onto the vessel.",
+        "C": "Dopaminergic projections are largely central, with cell bodies clustered in midbrain nuclei, and do not constitute the sympathetic postganglionic output.",
+        "D": "The recorded cell is a postganglionic sympathetic neuron, and postganglionic sympathetic neurons release norepinephrine onto adrenergic receptors of the target tissue.",
+        "E": "Serotonergic cell bodies are located in brainstem clusters and project within the central nervous system rather than to peripheral arterioles via sympathetic ganglia."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-008",
+      "question": "A 76-year-old man is evaluated for 4 years of progressive memory loss, word-finding difficulty, and impaired executive function. At autopsy, acetylcholine levels in the cortex and caudate nucleus are markedly reduced, and there is severe loss of cholinergic neurons in a basal forebrain nucleus that normally projects to the neocortex and associated limbic structures. Degeneration of which structure best accounts for these findings?",
+      "answers": {
+        "A": "Locus coeruleus",
+        "B": "Nucleus basalis of Meynert",
+        "C": "Raphe nuclei of the rostral medulla",
+        "D": "Substantia nigra pars compacta",
+        "E": "Ventral tegmental area"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The locus coeruleus is the major noradrenergic nucleus of the pons and its loss would reduce cortical norepinephrine rather than acetylcholine.",
+        "B": "Cholinergic neurons of the nucleus basalis of Meynert in the basal forebrain project to neocortex and limbic structures, and their degeneration underlies the cortical acetylcholine deficit associated with Alzheimer disease.",
+        "C": "Raphe neurons are serotonergic and project widely, so their loss would lower 5-HT and its metabolites rather than acetylcholine.",
+        "D": "Substantia nigra pars compacta neurons are dopaminergic and project to striatum; their loss causes parkinsonian motor deficits.",
+        "E": "Ventral tegmental area neurons are dopaminergic and innervate the nucleus accumbens, contributing to reward rather than cortical cholinergic tone."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-009",
+      "question": "An investigator administers alpha-methyltyrosine to rats and measures brain neurotransmitter content 6 hours later. Tissue levels of both dopamine and norepinephrine fall markedly, whereas serotonin and acetylcholine concentrations are unchanged. Which reaction is inhibited by this compound?",
+      "answers": {
+        "A": "Conversion of DOPA to dopamine",
+        "B": "Conversion of dopamine to norepinephrine",
+        "C": "Conversion of norepinephrine to epinephrine",
+        "D": "Conversion of tryptophan to 5-hydroxytryptophan",
+        "E": "Conversion of tyrosine to DOPA"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Blocking the decarboxylation of DOPA would also lower both catecholamines, but alpha-methyltyrosine is a tyrosine analog that acts at the preceding hydroxylation step, which is rate limiting.",
+        "B": "Inhibiting dopamine beta hydroxylase would lower norepinephrine while dopamine accumulated, which is not the observed pattern.",
+        "C": "Conversion of norepinephrine to epinephrine occurs in a limited population of cells and would not deplete dopamine or norepinephrine in brain tissue.",
+        "D": "Tryptophan hydroxylation begins serotonin synthesis, yet serotonin levels are unchanged in this experiment.",
+        "E": "Tyrosine hydroxylase converts dietary-derived tyrosine to DOPA and is the rate-limiting step for both dopamine and norepinephrine, so its inhibition depletes both catecholamines selectively."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-010",
+      "question": "A 26-year-old man is brought to the emergency department after insufflating a white powder at a party. He is agitated and euphoric, with a heart rate of 128/min, blood pressure of 176/102 mm Hg, and dilated pupils. In animal studies, this drug increases extracellular dopamine in the nucleus accumbens without increasing vesicular release or transmitter synthesis. Which mechanism best explains the rise in synaptic dopamine?",
+      "answers": {
+        "A": "Blockade of the dopamine transporter on the presynaptic terminal",
+        "B": "Inhibition of monoamine oxidase within the presynaptic terminal",
+        "C": "Inhibition of the vesicular monoamine transporter on vesicles",
+        "D": "Reversal of the dopamine transporter, causing dopamine efflux",
+        "E": "Stimulation of postsynaptic D1 receptors as a direct agonist"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cocaine inhibits reuptake by the dopamine transporter, so released dopamine persists in the synaptic cleft and overstimulates the ventral mesostriatal reward pathway.",
+        "B": "Monoamine oxidase converts dopamine to DOPAC after reuptake into the terminal; inhibiting it raises intracellular dopamine but is not the mechanism of this drug.",
+        "C": "Blocking the vesicular monoamine transporter would prevent vesicular loading and ultimately deplete releasable dopamine rather than increase extracellular levels.",
+        "D": "Transporter reversal describes amphetamine, which drives dopamine efflux from the cytosol rather than simply preventing reuptake.",
+        "E": "Direct receptor agonism would increase postsynaptic signaling without raising measured extracellular dopamine concentrations."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-011",
+      "question": "A 19-year-old student takes a stimulant obtained from a classmate and reports increased alertness and euphoria. In animal models, the compound raises extracellular dopamine even when action potentials are blocked with tetrodotoxin, and the effect is abolished in animals lacking the dopamine transporter. Which mechanism best explains these findings?",
+      "answers": {
+        "A": "Blockade of the dopamine transporter, preventing reuptake",
+        "B": "Blockade of presynaptic D2 autoreceptors on the terminal",
+        "C": "Inhibition of monoamine oxidase within the presynaptic terminal",
+        "D": "Reversal of the dopamine transporter, causing dopamine efflux",
+        "E": "Stimulation of postsynaptic D1 receptors as a direct agonist"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Simple reuptake blockade, as with cocaine, requires ongoing vesicular release to raise extracellular dopamine and would therefore be abolished by tetrodotoxin.",
+        "B": "Loss of D2 autoreceptor inhibition would enhance action potential-dependent release, which is eliminated when sodium channels are blocked.",
+        "C": "Monoamine oxidase inhibition raises cytosolic dopamine but requires a transport mechanism to move it into the cleft and does not depend on the transporter for its primary action.",
+        "D": "Amphetamine enhances dopamine release by reversing the direction of the dopamine transporter, so dopamine exits the terminal independently of action potentials and the effect disappears without the transporter.",
+        "E": "A direct receptor agonist would produce behavioral effects without changing measured extracellular dopamine concentrations."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-012",
+      "question": "An investigator administers a monoamine oxidase inhibitor to rats and measures striatal tissue content of dopamine and its major metabolite 24 hours later. Results are shown. Tyrosine hydroxylase activity and dopamine transporter expression are unchanged. Which process is most directly inhibited by this drug?",
+      "table": [
+        ["Measure", "Treated", "Control"],
+        ["Striatal dopamine", "168 ng/mg protein", "100 ng/mg protein"],
+        ["Striatal DOPAC", "17 ng/mg protein", "94 ng/mg protein"],
+        ["Tyrosine hydroxylase activity", "Unchanged", "Baseline"]
+      ],
+      "answers": {
+        "A": "Conversion of DOPA to dopamine by aromatic amino acid decarboxylase",
+        "B": "Conversion of dopamine to DOPAC after reuptake into the terminal",
+        "C": "Packaging of dopamine into vesicles by the monoamine transporter",
+        "D": "Reuptake of dopamine from the cleft by the dopamine transporter",
+        "E": "Synthesis of DOPA from tyrosine by the enzyme tyrosine hydroxylase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Blocking decarboxylation of DOPA would lower dopamine content, but dopamine is increased in this experiment.",
+        "B": "Monoamine oxidase converts dopamine to dihydroxyphenylacetic acid after dopamine is taken back up into the terminal, so its inhibition raises tissue dopamine while DOPAC falls sharply.",
+        "C": "Impaired vesicular packaging would leave cytosolic dopamine exposed to monoamine oxidase and tend to increase, not decrease, DOPAC.",
+        "D": "Transporter expression is unchanged, and blocking reuptake would reduce intraterminal dopamine available for metabolism rather than increase tissue dopamine.",
+        "E": "Tyrosine hydroxylase activity is explicitly unchanged, and inhibiting the rate-limiting step would lower both dopamine and its metabolite."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-013",
+      "question": "A 23-year-old man with schizophrenia is started on haloperidol. Over 3 weeks his auditory hallucinations improve substantially, but he develops bradykinesia, cogwheel rigidity, and a resting tremor. Which receptor and signaling mechanism is the principal target of this drug?",
+      "answers": {
+        "A": "D1 receptors coupled to Gs, increasing cAMP",
+        "B": "D2 receptors coupled to Gi, decreasing cAMP",
+        "C": "Muscarinic receptors coupled to Gq, increasing IP3",
+        "D": "Nicotinic receptors forming a cation-permeable channel",
+        "E": "beta-1 adrenergic receptors coupled to Gs, increasing cAMP"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "D1 and D5 receptors stimulate adenylyl cyclase through Gs and increase excitability, but antipsychotic drugs have their highest affinity for the D2 family.",
+        "B": "D2 family receptors are G protein-coupled and typically inhibit adenylyl cyclase through Gi; they have high affinity for antipsychotic drugs, and their blockade in the dorsal mesostriatal pathway produces parkinsonian motor effects.",
+        "C": "Muscarinic receptors are cholinergic G protein-coupled receptors; blocking them would cause anticholinergic effects rather than antipsychotic efficacy.",
+        "D": "Nicotinic receptors are ligand-gated cation channels mediating fast excitation and are not the target of antipsychotic drugs.",
+        "E": "Adrenergic beta-1 receptors act through Gs to increase cAMP and mediate cardiovascular responses to norepinephrine, not psychotic symptoms."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-014",
+      "question": "A researcher generates a mouse model of Parkinson disease with selective loss of midbrain dopaminergic neurons and transplants dopaminergic neuronal progenitors into the brain in an attempt to restore motor function. For the graft to reconstitute the pathway that is lost in this disease, the transplant-derived neurons must extend axons to which structure?",
+      "answers": {
+        "A": "Cerebellar cortex",
+        "B": "Nucleus accumbens",
+        "C": "Prefrontal cortex",
+        "D": "Spinal cord ventral horn",
+        "E": "Striatum"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The cerebellum receives noradrenergic input from the locus coeruleus dorsally, not dopaminergic projections from the midbrain.",
+        "B": "The nucleus accumbens is the target of the ventral mesostriatal pathway from the ventral tegmental area, which mediates reward rather than the motor deficits of Parkinson disease.",
+        "C": "Cortical dopaminergic innervation exists but is not the pathway whose degeneration produces the rigidity and bradykinesia of this disease.",
+        "D": "Descending projections to the ventral horn arise from other systems; midbrain dopaminergic neurons of the nigrostriatal pathway do not terminate there.",
+        "E": "The dorsal mesostriatal (nigrostriatal) pathway runs from substantia nigra pars compacta to the striatum, and restoring striatal dopamine innervation is the rationale for grafting midbrain dopaminergic progenitors."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-015",
+      "question": "A 71-year-old man with a 12-year history of Parkinson disease initially had excellent motor benefit from levodopa. Over the past year his response has become minimal despite escalating doses, and imaging shows profound depigmentation of the substantia nigra. Which best explains the loss of drug efficacy?",
+      "answers": {
+        "A": "Antibodies against striatal dopamine receptors have developed",
+        "B": "Loss of the neurons that convert levodopa into dopamine",
+        "C": "Monoamine oxidase activity in the striatum has been lost",
+        "D": "Striatal D2 receptors have been irreversibly antagonized",
+        "E": "Tyrosine hydroxylase activity in the striatum has increased"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Parkinson disease is a degenerative disorder of nigral dopaminergic neurons, not an antibody-mediated receptor disease such as myasthenia gravis.",
+        "B": "Levodopa works by being taken up and decarboxylated to dopamine within surviving dopaminergic terminals, so once enough nigrostriatal neurons are lost the precursor can no longer be converted and stored effectively.",
+        "C": "Loss of monoamine oxidase would slow dopamine breakdown and prolong rather than shorten the drug's effect.",
+        "D": "Irreversible D2 blockade describes drug-induced parkinsonism from antipsychotics, and this patient is not receiving such an agent.",
+        "E": "Increased tyrosine hydroxylase activity would raise endogenous dopamine synthesis and improve, not impair, motor function."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-016",
+      "question": "An investigator studying noradrenergic neurons finds that dopamine beta hydroxylase is expressed in these cells but not in dopaminergic neurons. When radiolabeled dopamine is applied to isolated noradrenergic nerve terminals, conversion to norepinephrine occurs only if the vesicles remain intact and their proton gradient is preserved. In which compartment does this conversion occur?",
+      "answers": {
+        "A": "Cytosol of the presynaptic nerve terminal",
+        "B": "Extracellular space of the synaptic cleft",
+        "C": "Lumen of the synaptic vesicle",
+        "D": "Mitochondrial matrix of the presynaptic terminal",
+        "E": "Postsynaptic dendritic spine cytoplasm"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Dopamine is synthesized in the cytosol, but it must first be transported into the vesicle before the beta hydroxylation step occurs.",
+        "B": "Extracellular enzymes such as acetylcholinesterase and COMT act outside the cell, whereas dopamine beta hydroxylase acts on transmitter already loaded into vesicles.",
+        "C": "The vesicular monoamine transporter exchanges protons for dopamine to load the vesicle, and dopamine beta hydroxylase then converts dopamine to norepinephrine inside the vesicle lumen, which explains the dependence on intact vesicles.",
+        "D": "The mitochondrion houses monoamine oxidase, which degrades monoamines rather than synthesizing norepinephrine.",
+        "E": "Transmitter synthesis occurs presynaptically; the postsynaptic cell contains receptors rather than the biosynthetic enzymes that define neurochemical identity."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-017",
+      "question": "A 52-year-old man with hypertension is started on clonidine and his blood pressure falls. Microdialysis studies of this drug in animals show reduced norepinephrine concentrations in the synaptic cleft, and the effect is lost when the presynaptic autoreceptors on noradrenergic terminals are genetically deleted. Which receptor and signaling mechanism mediates this action?",
+      "answers": {
+        "A": "Nicotinic receptor forming a ligand-gated cation channel",
+        "B": "alpha-1 receptor coupled to Gq, increasing IP3 production",
+        "C": "alpha-2 receptor coupled to Gi, decreasing cAMP production",
+        "D": "beta-1 receptor coupled to Gs, increasing cAMP production",
+        "E": "beta-2 receptor coupled to Gs, increasing cAMP production"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Nicotinic receptors are cholinergic ligand-gated channels and do not regulate norepinephrine release from noradrenergic terminals.",
+        "B": "The alpha-1 receptor acts through Gq and IP3 to produce slow depolarization of postsynaptic targets rather than presynaptic autoinhibition.",
+        "C": "alpha-2 autoreceptors on the noradrenergic nerve terminal couple to Gi, decreasing cAMP and producing slow hyperpolarization, and their activation reduces further norepinephrine release.",
+        "D": "beta-1 receptors couple to Gs and increase cAMP and excitability in postsynaptic tissue such as cardiac muscle.",
+        "E": "beta-2 receptors also act through Gs to increase cAMP and excitability and are not the presynaptic autoreceptor for norepinephrine."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-018",
+      "question": "An investigator records from a pontine nucleus whose neurons fire in response to novel or salient stimuli. Anatomic tracing shows that a single axon from this nucleus may branch as many as 100,000 times, that its terminals often lack conventional synaptic specializations, and that the released transmitter diffuses to influence many adjacent cells simultaneously. Lesioning this nucleus impairs arousal and attention across broad regions of cortex. Which nucleus and transmitter are being studied?",
+      "answers": {
+        "A": "Locus coeruleus releasing norepinephrine",
+        "B": "Nucleus basalis releasing acetylcholine",
+        "C": "Raphe nuclei releasing serotonin",
+        "D": "Substantia nigra releasing dopamine",
+        "E": "Ventral tegmental area releasing dopamine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The locus coeruleus is the most prominent noradrenergic nucleus, projects rostrally throughout telencephalon and diencephalon as well as to cerebellum and spinal cord, and releases norepinephrine by volume transmission to synchronously modulate attention and arousal.",
+        "B": "The nucleus basalis is a basal forebrain cholinergic nucleus rather than a pontine nucleus, and its degeneration is linked to cortical acetylcholine loss in dementia.",
+        "C": "Serotonergic raphe neurons also project widely, but the described nucleus is the classic noradrenergic source whose loss impairs arousal and attention.",
+        "D": "Substantia nigra dopaminergic neurons are located in the midbrain and have a restricted projection to the striatum for motor control.",
+        "E": "Ventral tegmental area neurons are midbrain dopaminergic cells projecting mainly to the nucleus accumbens for reward-related behavior."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-019",
+      "question": "A 29-year-old woman has 8 months of depressed mood, anhedonia, and insomnia. As part of a research protocol, cerebrospinal fluid monoamine metabolites are measured before treatment and are shown. She is started on fluoxetine and improves over 6 weeks. Which mechanism best explains the action of this drug?",
+      "table": [
+        ["CSF Analyte", "Patient", "Reference Range"],
+        ["5-HIAA (serotonin metabolite)", "41 nmol/L", "80-140 nmol/L"],
+        ["HVA (dopamine metabolite)", "215 nmol/L", "150-350 nmol/L"],
+        ["MHPG (norepinephrine metabolite)", "39 nmol/L", "30-60 nmol/L"]
+      ],
+      "answers": {
+        "A": "Blockade of postsynaptic 5-HT2 receptors on cortical neurons",
+        "B": "Blockade of the presynaptic serotonin transporter (SERT)",
+        "C": "Inhibition of monoamine oxidase within the presynaptic terminal",
+        "D": "Inhibition of tryptophan hydroxylase in serotonergic neurons",
+        "E": "Stimulation of 5-HT3 ligand-gated cation channels postsynaptically"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "5-HT2 receptor blockade is a property of some other psychotropic agents; hallucinogens such as LSD act as agonists at this receptor.",
+        "B": "Serotonin action is terminated by reuptake into the presynaptic terminal via SERT, and selective serotonin reuptake inhibitors block this transporter to raise serotonin in the cleft, consistent with her low CSF 5-HIAA.",
+        "C": "Monoamine oxidase inhibitors are a distinct antidepressant class that block intraneuronal degradation of monoamines rather than reuptake.",
+        "D": "Tryptophan hydroxylase is a synthetic enzyme for serotonin, and inhibiting it would further lower serotonin and worsen symptoms.",
+        "E": "The 5-HT3 receptor is the only serotonin receptor that is a ligand-gated cation channel, and stimulating it is associated with nausea rather than antidepressant effect."
+      }
+    },
+    {
+      "id": "neuro-neurotransmitters-ach-biogenic-amines-020",
+      "question": "A 20-year-old man is brought to the emergency department by friends 3 hours after ingesting a substance from a small square of blotter paper. He describes vivid visual imagery, distorted perception of time, and sounds that appear to have color. He is alert, fully oriented, and has dilated pupils with stable vital signs. Which mechanism best accounts for the hallucinogenic effects of this substance?",
+      "answers": {
+        "A": "Agonism at 5-HT2 receptors, which are G protein-coupled",
+        "B": "Agonism at 5-HT3 receptors, which are ligand-gated channels",
+        "C": "Antagonism at D2 receptors, which are G protein-coupled",
+        "D": "Antagonism at muscarinic receptors, which are G protein-coupled",
+        "E": "Blockade of the serotonin transporter on presynaptic terminals"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "LSD produces its hallucinogenic effects through agonism at 5-HT2 receptors, which belong to the G protein-coupled family that includes serotonin receptor types 1, 2, 4, 5, 6, and 7.",
+        "B": "The 5-HT3 receptor is the sole serotonin receptor that is a ligand-gated cation channel and is associated with emesis rather than hallucinations.",
+        "C": "D2 antagonism describes antipsychotic drugs, which reduce rather than produce hallucinations and can cause parkinsonian side effects.",
+        "D": "Muscarinic antagonism produces an anticholinergic delirium with confusion, dry skin, and disorientation, whereas this patient remains alert and oriented.",
+        "E": "Transporter blockade raises synaptic serotonin and underlies antidepressant action, but it does not produce the perceptual distortions seen here."
+      }
+    }
+  ]
+}
