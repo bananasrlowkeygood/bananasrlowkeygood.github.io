@@ -1,0 +1,433 @@
+{
+  "lecture": "CNS Pharmacology I: Antidepressants and Cholinomimetics",
+  "block": "neuro",
+  "generated": "2026-08-10",
+  "questions": [
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-001",
+      "question": "A 29-year-old woman with a first episode of major depressive disorder begins sertraline. She returns 5 days later reporting perfect adherence but no change in mood, appetite, or energy. Her physician explains that synaptic serotonin concentrations rise within hours of the very first dose, yet symptomatic benefit typically requires 4 to 6 weeks. Which of the following best explains this delay?",
+      "answers": {
+        "A": "Gradual synaptic strengthening, dendritic branching, and neurogenesis",
+        "B": "Hepatic CYP450 induction that delays attainment of steady state",
+        "C": "Progressive depletion of presynaptic serotonin vesicular stores",
+        "D": "Sertraline requires weeks to fully occupy the serotonin transporter",
+        "E": "Slow accumulation of a more potent active hepatic metabolite"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The rise in synaptic monoamines is only the trigger; downstream changes in protein expression producing synaptic strengthening, dendritic growth, new synapse formation, and regional neurogenesis unfold over weeks, matching the observed clinical lag.",
+        "B": "CYP450 handles antidepressant metabolism, but steady state for a drug with a roughly 24-hour half-life is reached in under a week, far shorter than the therapeutic lag.",
+        "C": "Reuptake inhibition keeps serotonin in the cleft longer rather than depleting vesicular stores, and depletion would worsen rather than eventually improve mood.",
+        "D": "Transporter occupancy by SSRIs is essentially maximal within hours to days of dosing, which is precisely why the monoamine hypothesis alone cannot explain the delay.",
+        "E": "Fluoxetine has a long-lived active metabolite, but metabolite accumulation does not account for the uniform multi-week lag seen across all antidepressant classes."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-002",
+      "question": "A 48-year-old man with treatment-resistant depression has been taking phenelzine for 4 months. Two hours after a dinner of aged cheddar, cured salami, and two glasses of red wine, he develops a severe occipital headache, palpitations, and diaphoresis. He is alert, and neurologic examination is nonfocal. Which of the following best explains his presentation?",
+      "table": [
+        ["Parameter", "Value", "Reference Range"],
+        ["Blood pressure", "218/126 mm Hg", "<120/80 mm Hg"],
+        ["Heart rate", "112/min", "60-100/min"],
+        ["Temperature", "37.1 C", "36.5-37.5 C"]
+      ],
+      "answers": {
+        "A": "Blockade of alpha-1 adrenergic receptors on vascular smooth muscle",
+        "B": "Direct agonism at postsynaptic serotonin 2A receptors in arterioles",
+        "C": "Excess peripheral catecholamine release driven by dietary tyramine",
+        "D": "Inhibition of catechol-O-methyltransferase within the hepatic circulation",
+        "E": "Reduced dopamine reuptake at renal vascular dopamine receptors"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alpha-1 blockade is an actual side effect of MAO inhibitors, but it produces orthostatic hypotension rather than a hypertensive emergency.",
+        "B": "Serotonin excess produces the neuromuscular and autonomic features of serotonin syndrome, and this patient has no clonus, hyperreflexia, or altered mental status.",
+        "C": "MAO-A in the gut normally degrades dietary tyramine; with irreversible inhibition, absorbed tyramine displaces stored catecholamines from peripheral sympathetic nerve terminals, producing the hypertensive crisis known as the cheese reaction.",
+        "D": "COMT is a separate degradative enzyme that phenelzine does not inhibit, and COMT inhibitors are used in Parkinson disease without causing tyramine reactions.",
+        "E": "MAO inhibitors block monoamine breakdown rather than reuptake, and renal dopamine receptor activation would promote vasodilation and natriuresis."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-003",
+      "question": "A 67-year-old man with severe recurrent major depressive disorder has failed adequate trials of sertraline, venlafaxine, and bupropion. He has an esophageal stricture from prior radiation and cannot reliably swallow tablets or capsules, and he declines feeding tube placement. His psychiatrist wants an agent from a class known to help when other antidepressants have not. Which of the following is the most appropriate agent?",
+      "answers": {
+        "A": "Amitriptyline",
+        "B": "Duloxetine",
+        "C": "Mirtazapine",
+        "D": "Phenelzine",
+        "E": "Selegiline"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Amitriptyline is available only orally, and its anticholinergic and cardiac toxicity make it a poor choice in an older adult.",
+        "B": "Duloxetine is an oral capsule only and belongs to the SNRI class, which is closely related to the venlafaxine he already failed.",
+        "C": "Mirtazapine comes as an orally disintegrating tablet but still requires swallowing the dissolved drug and is not the class reserved for refractory cases.",
+        "D": "Phenelzine is an MAO inhibitor but is supplied only as an oral tablet, so it does not solve the swallowing problem.",
+        "E": "Selegiline is available as the transdermal Emsam patch, making it the only antidepressant that can be given when oral administration is impossible, and MAO inhibitors are specifically useful when other agents have failed."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-004",
+      "question": "A 34-year-old woman has taken fluoxetine 60 mg daily for 3 years with inadequate response. Her psychiatrist plans to switch her to tranylcypromine. She is otherwise healthy and takes no other medications. To minimize the risk of a life-threatening drug interaction, how long should fluoxetine be discontinued before the first dose of tranylcypromine?",
+      "answers": {
+        "A": "1 day",
+        "B": "3 days",
+        "C": "1 week",
+        "D": "6 weeks",
+        "E": "6 months"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A single day leaves nearly full serotonergic activity in place, creating a high risk of serotonin syndrome once MAO is irreversibly inhibited.",
+        "B": "Three days is far shorter than five half-lives of fluoxetine and its active metabolite norfluoxetine.",
+        "C": "One week is inadequate for fluoxetine specifically, even though shorter washouts are used for other serotonergic agents.",
+        "D": "The standard washout before starting an MAO inhibitor is 2 weeks, but fluoxetine's exceptionally long half-life extends this requirement to 6 weeks.",
+        "E": "Six months far exceeds the time needed for drug elimination and would leave severe depression untreated without added safety benefit."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-005",
+      "question": "A 41-year-old man taking sertraline for depression was started on tramadol 2 days ago after a back injury. He is brought to the emergency department with agitation and confusion. Examination shows diaphoresis, mydriasis, tremor, and hyperreflexia with inducible ankle clonus that is more pronounced in the lower extremities than the upper extremities. Both offending drugs are stopped and supportive care is begun in the intensive care unit. Which of the following agents is most appropriate to add?",
+      "table": [
+        ["Parameter", "Value", "Reference Range"],
+        ["Temperature", "39.1 C", "36.5-37.5 C"],
+        ["Heart rate", "124/min", "60-100/min"],
+        ["Blood pressure", "164/98 mm Hg", "<120/80 mm Hg"],
+        ["Creatine kinase", "1,850 U/L", "30-200 U/L"]
+      ],
+      "answers": {
+        "A": "Atropine",
+        "B": "Bromocriptine",
+        "C": "Cyproheptadine",
+        "D": "Dantrolene",
+        "E": "Physostigmine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Atropine is the antidote for cholinergic toxicity, which presents with bradycardia, miosis, and secretions rather than hyperreflexia and clonus.",
+        "B": "Bromocriptine is a dopamine agonist used in neuroleptic malignant syndrome, which features lead-pipe rigidity and hyporeflexia rather than clonus.",
+        "C": "Hyperreflexia with clonus, agitation, and autonomic instability after adding a second serotonergic drug indicates serotonin syndrome, and cyproheptadine, a serotonin receptor antagonist, has evidence supporting its use alongside supportive care.",
+        "D": "Dantrolene inhibits ryanodine receptor calcium release and is used for malignant hyperthermia, not for excess serotonergic tone.",
+        "E": "Physostigmine increases acetylcholine and is used for anticholinergic delirium, which presents with dry skin, absent bowel sounds, and urinary retention."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-006",
+      "question": "A 22-year-old woman is brought to the emergency department 90 minutes after ingesting an entire month's supply of amitriptyline. She is obtunded with dry mucous membranes and dilated pupils. Cardiac monitoring shows progressive widening of the QRS complex followed by a run of ventricular tachycardia. Which of the following best explains her cardiac findings?",
+      "table": [
+        ["Parameter", "Value", "Reference Range"],
+        ["QRS duration", "148 ms", "<120 ms"],
+        ["QTc interval", "512 ms", "<440 ms"],
+        ["Heart rate", "136/min", "60-100/min"],
+        ["Serum bicarbonate", "16 mEq/L", "22-28 mEq/L"]
+      ],
+      "answers": {
+        "A": "Blockade of fast sodium channels in cardiac myocytes",
+        "B": "Chelation of extracellular calcium at the cardiac sarcolemma",
+        "C": "Inhibition of the sodium-potassium ATPase in Purkinje fibers",
+        "D": "Irreversible inhibition of myocardial monoamine oxidase B",
+        "E": "Selective blockade of L-type calcium channels in the AV node"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Tricyclics behave as Type 1 quinidine-like antiarrhythmics, blocking fast sodium channels to slow phase 0 depolarization, which widens the QRS, prolongs the QT interval, and can produce fatal ventricular arrhythmias.",
+        "B": "Calcium chelation is the mechanism of citrate toxicity from massive transfusion and prolongs the QT without the characteristic QRS widening of sodium channel blockade.",
+        "C": "Sodium-potassium ATPase inhibition describes digoxin toxicity, which classically causes bradyarrhythmias and scooped ST segments rather than QRS widening.",
+        "D": "Monoamine oxidase inhibition is the mechanism of phenelzine and related drugs and is not responsible for tricyclic cardiotoxicity.",
+        "E": "L-type calcium channel blockade slows AV nodal conduction and causes bradycardia with hypotension, not a wide-complex tachycardia."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-007",
+      "question": "A 74-year-old man has major depressive disorder and painful diabetic neuropathy. He also has benign prostatic hyperplasia with urinary hesitancy. A prior trial of amitriptyline was stopped after he developed confusion, severe dry mouth, constipation, and near-complete urinary retention. His psychiatrist still wishes to use a tricyclic antidepressant for the dual benefit on mood and pain. Which of the following agents is most appropriate?",
+      "answers": {
+        "A": "Clomipramine",
+        "B": "Desipramine",
+        "C": "Doxepin",
+        "D": "Imipramine",
+        "E": "Nortriptyline"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Clomipramine is the most serotonergic tricyclic and is favored for obsessive-compulsive symptoms, but it remains substantially anticholinergic.",
+        "B": "Desipramine, the metabolite of imipramine, is the least sedating and least anticholinergic tricyclic, making it the best fit for an older man with cognitive vulnerability and bladder outlet obstruction.",
+        "C": "Doxepin is heavily antihistaminic and sedating and is used at low doses for insomnia, which would worsen his confusion.",
+        "D": "Imipramine is the prototypical tricyclic with substantial muscarinic blockade and would likely reproduce his prior adverse effects.",
+        "E": "Nortriptyline is a reasonable pain agent and better tolerated than amitriptyline, but desipramine has the lowest anticholinergic burden of the group."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-008",
+      "question": "An 81-year-old woman with major depressive disorder started sertraline 3 weeks ago. Her daughter reports 4 days of worsening confusion, lethargy, and unsteady gait. She takes no diuretics. On examination she is euvolemic with moist mucous membranes and no edema. Thyroid and morning cortisol studies are within normal limits. Which of the following best explains her laboratory abnormalities?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Serum Na+", "121 mEq/L", "135-145 mEq/L"],
+        ["Serum osmolality", "252 mOsm/kg", "275-295 mOsm/kg"],
+        ["Urine osmolality", "486 mOsm/kg", "Varies"],
+        ["Urine Na+", "62 mEq/L", "Varies"]
+      ],
+      "answers": {
+        "A": "Adrenal insufficiency with impaired free water excretion",
+        "B": "Cerebral salt wasting from an occult intracranial process",
+        "C": "Primary polydipsia with excessive free water intake",
+        "D": "Syndrome of inappropriate antidiuretic hormone secretion",
+        "E": "Thiazide-induced hypovolemic hypotonic hyponatremia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Adrenal insufficiency can cause hyponatremia, but her morning cortisol is normal and she lacks hyperkalemia and hypotension.",
+        "B": "Cerebral salt wasting produces hypovolemia with orthostasis and weight loss, whereas this patient is clinically euvolemic.",
+        "C": "Primary polydipsia suppresses ADH and yields maximally dilute urine, typically under 100 mOsm/kg, not the concentrated urine seen here.",
+        "D": "Euvolemic hypotonic hyponatremia with inappropriately concentrated urine and elevated urine sodium after starting an SRI is classic SIADH, a well-described risk of these agents in older adults.",
+        "E": "She takes no diuretics, and thiazide-induced hyponatremia is accompanied by volume depletion and low urine sodium."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-009",
+      "question": "A 58-year-old man with major depressive disorder and opioid use disorder is maintained on methadone. He has no prior antidepressant trials. A baseline electrocardiogram and metabolic panel are obtained before selecting therapy. Which of the following selective serotonin reuptake inhibitors carries a specific labeled warning that makes it the least appropriate choice for this patient?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["QTc interval", "468 ms", "<440 ms"],
+        ["Serum K+", "3.4 mEq/L", "3.5-5.0 mEq/L"],
+        ["Serum Mg2+", "1.6 mg/dL", "1.7-2.2 mg/dL"]
+      ],
+      "answers": {
+        "A": "Citalopram",
+        "B": "Escitalopram",
+        "C": "Fluoxetine",
+        "D": "Fluvoxamine",
+        "E": "Sertraline"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Citalopram carries a boxed warning for dose-dependent QT prolongation, which is additive with methadone, hypokalemia, and hypomagnesemia and creates substantial torsades risk.",
+        "B": "Escitalopram is the S-enantiomer of citalopram and is generally the best-tolerated SSRI, without the same magnitude of labeled QT concern.",
+        "C": "Fluoxetine's distinguishing feature is its long half-life, which protects against discontinuation syndrome rather than affecting repolarization.",
+        "D": "Fluvoxamine's main drawback is extensive CYP-mediated drug interactions rather than QT prolongation.",
+        "E": "Sertraline is associated with more early gastrointestinal upset but is among the preferred agents in patients with cardiac risk."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-010",
+      "question": "A 26-year-old woman started a selective serotonin reuptake inhibitor 6 months ago for panic disorder with comorbid depression. Her mood and panic attacks have improved substantially, but she has gained 8 kg and reports persistent daytime sedation and dry mouth. She has made no changes to diet or activity, and thyroid studies are normal. Which of the following agents is she most likely taking?",
+      "answers": {
+        "A": "Citalopram",
+        "B": "Escitalopram",
+        "C": "Fluoxetine",
+        "D": "Paroxetine",
+        "E": "Sertraline"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Citalopram is weight-neutral for most patients, and its notable liability is QT prolongation rather than antihistaminic effects.",
+        "B": "Escitalopram is considered the best-tolerated SSRI and does not carry meaningful antihistaminic burden.",
+        "C": "Fluoxetine tends to be mildly activating and is not associated with significant sedation or weight gain.",
+        "D": "Paroxetine is markedly more antihistaminic than other SSRIs, and histamine H1 blockade accounts for the weight gain and sedation, with anticholinergic effects explaining the dry mouth.",
+        "E": "Sertraline more often causes early gastrointestinal side effects that resolve within a week and is not notably sedating."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-011",
+      "question": "A 15-year-old girl with moderate major depressive disorder is starting escitalopram. Her parents have read the package insert and ask specifically about the boxed warning that appears on the labeling of every antidepressant. The psychiatrist explains that the pooled trial data showed no increase in completed suicides and that population prescribing declines after the warning were followed by rising adolescent suicide rates. Which of the following effects does this boxed warning describe?",
+      "answers": {
+        "A": "Aplastic anemia occurring within the first month of therapy",
+        "B": "Fulminant hepatic failure requiring liver transplantation",
+        "C": "Increased suicidal ideation in adolescents and young adults",
+        "D": "Prolongation of the QT interval leading to torsades de pointes",
+        "E": "Serotonin syndrome occurring even with monotherapy dosing"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Aplastic anemia is not an antidepressant class effect and is not the subject of any antidepressant boxed warning.",
+        "B": "Hepatotoxicity led to withdrawal of tacrine, an acetylcholinesterase inhibitor, and is not the basis of the antidepressant boxed warning.",
+        "C": "Pooled datasets showed a small excess of suicidal thoughts relative to placebo in youth, likely reflecting early symptom improvement, with no increase in actual suicides; talk therapy can produce the same early effect.",
+        "D": "QT prolongation is a drug-specific warning for citalopram rather than a class-wide boxed warning.",
+        "E": "Serotonin syndrome typically requires combination of serotonergic agents or an MAO inhibitor and is not the class boxed warning."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-012",
+      "question": "A 31-year-old man is diagnosed with major depressive disorder characterized by low energy and anhedonia. He denies anxiety symptoms. He smokes one pack of cigarettes daily and would like to quit. He states emphatically that he will stop any medication that causes sexual dysfunction or weight gain. He has no seizure history and drinks alcohol rarely. Which of the following is the most appropriate initial agent?",
+      "answers": {
+        "A": "Bupropion",
+        "B": "Mirtazapine",
+        "C": "Paroxetine",
+        "D": "Sertraline",
+        "E": "Venlafaxine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Bupropion inhibits norepinephrine and dopamine reuptake, avoids both sexual dysfunction and weight gain, has stimulant-like activation useful for low energy, and is FDA approved for smoking cessation as Zyban.",
+        "B": "Mirtazapine spares sexual function but is strongly antihistaminic and causes significant appetite increase and weight gain.",
+        "C": "Paroxetine is the SSRI most likely to cause both weight gain and sexual dysfunction, making it the worst fit for his priorities.",
+        "D": "Sertraline is well tolerated overall but carries the class risk of decreased libido and delayed orgasm and offers no benefit for nicotine cessation.",
+        "E": "Venlafaxine shares SSRI-type sexual side effects, can raise blood pressure, and has a short half-life with withdrawal risk."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-013",
+      "question": "An 84-year-old man is admitted for failure to thrive. Over 4 months he has lost 7 kg, sleeps 3 hours nightly, and endorses pervasive sadness and hopelessness. Workup for malignancy and endocrine disease is unrevealing. His geriatric psychiatrist selects an agent that should improve his appetite and sleep while carrying no risk of hyponatremia. Through which of the following mechanisms does this agent primarily act?",
+      "answers": {
+        "A": "Inhibition of dopamine and norepinephrine reuptake transporters",
+        "B": "Inhibition of monoamine oxidase A and monoamine oxidase B",
+        "C": "Partial agonism at the presynaptic serotonin 1A receptor",
+        "D": "Presynaptic alpha-2 blockade with serotonin receptor antagonism",
+        "E": "Selective inhibition of the presynaptic serotonin transporter"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This describes bupropion, which is activating and carries no risk of weight gain or sedation, the opposite of what this patient needs.",
+        "B": "MAO inhibition would require a restrictive tyramine diet and carries hypertensive crisis and overdose risk, a poor choice in a frail older adult.",
+        "C": "5-HT1A partial agonism describes agents such as gepirone and buspirone, which do not reliably increase appetite or promote sleep.",
+        "D": "Mirtazapine, the only tetracyclic antidepressant, is a centrally acting alpha-2 antagonist with serotonin receptor antagonism; its strong antihistaminic effect drives the appetite stimulation and sedation that are therapeutic here, and unlike SRIs it does not cause SIADH.",
+        "E": "SRIs are the class specifically associated with SIADH in older adults and do not stimulate appetite."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-014",
+      "question": "A 55-year-old woman with type 2 diabetes mellitus has major depressive disorder and burning, stocking-distribution foot pain that has limited her sleep for a year. Her hemoglobin A1c is 7.4% and creatinine is 0.9 mg/dL. She wishes to avoid taking two separate medications and is worried about the sedation and dry mouth a friend experienced on amitriptyline. Which of the following is the most appropriate antidepressant?",
+      "answers": {
+        "A": "Bupropion",
+        "B": "Duloxetine",
+        "C": "Fluoxetine",
+        "D": "Mirtazapine",
+        "E": "Trazodone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bupropion treats depression and low energy but has no established role in neuropathic pain.",
+        "B": "Duloxetine is an SNRI whose combined serotonergic and noradrenergic action makes it the most commonly chosen agent for coexisting depression and chronic or neuropathic pain, without the anticholinergic burden of tricyclics.",
+        "C": "Fluoxetine is a pure SSRI, and selective serotonergic activity alone provides little analgesic benefit in neuropathy.",
+        "D": "Mirtazapine improves sleep and appetite but is not an analgesic and would add weight gain in a patient with diabetes.",
+        "E": "Trazodone is not used as a primary antidepressant and is prescribed at low doses for insomnia rather than for neuropathic pain."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-015",
+      "question": "A 38-year-old man taking immediate-release venlafaxine ran out of his prescription while traveling and missed 3 consecutive days of doses. He describes dizziness, nausea, irritability, insomnia, and brief electrical shock sensations in his head and arms. His symptoms resolve within hours of resuming the medication. He asks which antidepressant would be least likely to cause this problem if he ever misses doses again. Which of the following agents is the most appropriate answer?",
+      "answers": {
+        "A": "Desvenlafaxine",
+        "B": "Duloxetine",
+        "C": "Fluoxetine",
+        "D": "Paroxetine",
+        "E": "Sertraline"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Desvenlafaxine is better tolerated than venlafaxine but shares a comparable half-life and discontinuation risk.",
+        "B": "Duloxetine has a half-life on the order of a day and is a recognized cause of discontinuation symptoms when stopped abruptly.",
+        "C": "Fluoxetine's half-life is on the order of days, so plasma levels fall gradually and the drug effectively tapers itself; this is why it is the standard exception to antidepressant discontinuation syndrome and is sometimes substituted to help patients stop other agents.",
+        "D": "Paroxetine has one of the shortest half-lives among SSRIs and is notorious for withdrawal symptoms.",
+        "E": "Sertraline has a roughly daily half-life and can readily produce discontinuation symptoms after missed doses."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-016",
+      "question": "A 63-year-old man presents to the emergency department with a painful erection that has persisted for 5 hours and is unrelated to sexual activity. He has no history of sickle cell disease and takes no phosphodiesterase inhibitors. His only new medication is a drug started 3 weeks ago at a low nightly dose for insomnia, which his physician noted acts as a serotonin antagonist and reuptake inhibitor. Which of the following drugs is he most likely taking?",
+      "answers": {
+        "A": "Amitriptyline",
+        "B": "Doxepin",
+        "C": "Mirtazapine",
+        "D": "Trazodone",
+        "E": "Zolpidem"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Amitriptyline is sedating and used for pain, but its characteristic toxicities are anticholinergic and cardiac rather than priapism.",
+        "B": "Doxepin is prescribed at low doses for sleep because of antihistaminic effects and is not associated with priapism.",
+        "C": "Mirtazapine causes sedation and weight gain through histamine blockade and is notable for the absence of sexual side effects.",
+        "D": "Trazodone is the serotonin antagonist and reuptake inhibitor used almost exclusively for sleep rather than as an antidepressant, and priapism is its rare but characteristic adverse effect.",
+        "E": "Zolpidem is a nonbenzodiazepine GABA-A modulator with no serotonergic activity and no association with priapism."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-017",
+      "question": "A 47-year-old woman has major depressive disorder that has not responded to four adequate antidepressant trials, and she now reports active suicidal ideation. She receives an intranasal agent in a monitored setting and reports marked improvement in mood within 2 hours, accompanied by transient dissociation, dizziness, and a feeling of being outside her body. The benefit wanes over the following week. Which of the following best describes the mechanism of this agent?",
+      "answers": {
+        "A": "Irreversible inhibition of monoamine oxidase A and B",
+        "B": "Noncompetitive antagonism at NMDA glutamate receptors",
+        "C": "Partial agonism at the serotonin 1A receptor subtype",
+        "D": "Positive allosteric modulation of the GABA-A receptor",
+        "E": "Simultaneous blockade of the SERT and NET transporters"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "MAO inhibition produces benefit only over weeks and carries dietary and washout requirements rather than acute dissociation.",
+        "B": "Esketamine, the more potent enantiomer of ketamine, is a noncompetitive NMDA receptor antagonist approved for treatment-resistant depression; its hallmarks are onset within minutes to hours, dissociative effects, and a benefit that does not last long.",
+        "C": "5-HT1A partial agonism describes gepirone, which shares the weeks-long onset of other serotonergic antidepressants.",
+        "D": "GABA-A modulation is the mechanism of zuranolone, which is approved specifically for postpartum depression and is taken orally.",
+        "E": "Combined SERT and NET blockade describes the SNRIs, which require weeks for effect and do not cause dissociation."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-018",
+      "question": "A 29-year-old woman is 5 weeks postpartum with severe depressed mood, anhedonia, and intrusive thoughts of inadequacy as a mother. She is started on an oral agent approved specifically for postpartum depression and given as a short defined course rather than indefinitely, and she reports meaningful improvement within 3 days. The drug is described as mimicking a metabolite of progesterone. Which of the following best describes its mechanism?",
+      "answers": {
+        "A": "Antagonism of NMDA glutamate receptor channel opening",
+        "B": "Inhibition of norepinephrine and dopamine reuptake",
+        "C": "Irreversible inhibition of gut and brain monoamine oxidase",
+        "D": "Positive allosteric modulation of the GABA-A receptor",
+        "E": "Selective agonism at the serotonin 1A receptor subtype"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "NMDA antagonism describes ketamine and esketamine, which are given parenterally or intranasally and cause dissociation.",
+        "B": "Norepinephrine and dopamine reuptake inhibition describes bupropion, which is not specifically indicated for postpartum depression.",
+        "C": "MAO inhibition requires a tyramine-restricted diet and takes weeks to work, which does not match a 3-day response.",
+        "D": "Zuranolone mimics allopregnanolone, a progesterone metabolite, enhancing GABA activity at GABA-A receptors; it is fast-acting and approved as a short course for postpartum depression but was not effective for major depressive disorder generally.",
+        "E": "5-HT1A agonism describes gepirone, whose risk-benefit profile resembles the SRIs and which is not indicated for postpartum depression."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-019",
+      "question": "A 79-year-old man with mild Alzheimer dementia is to begin an acetylcholinesterase inhibitor. He has advanced chronic kidney disease and, because of a prior stroke, cannot reliably swallow tablets, capsules, or liquids without aspirating. His resting heart rate is 74/min with a normal electrocardiogram. Which of the following agents is the most appropriate choice?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Creatinine", "2.9 mg/dL", "0.6-1.2 mg/dL"],
+        ["eGFR", "21 mL/min/1.73 m2", ">60 mL/min/1.73 m2"],
+        ["AST", "28 U/L", "10-40 U/L"]
+      ],
+      "answers": {
+        "A": "Donepezil",
+        "B": "Galantamine",
+        "C": "Neostigmine",
+        "D": "Rivastigmine",
+        "E": "Tacrine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Donepezil is first line and has the fewest side effects with once-daily dosing, but it is a pill and therefore unusable in a patient who cannot swallow safely.",
+        "B": "Galantamine is available as a liquid but requires twice-daily dosing, has worse gastrointestinal effects, and is contraindicated with significant renal impairment.",
+        "C": "Neostigmine is a peripherally acting agent used for myasthenia gravis and urinary retention and does not treat dementia.",
+        "D": "Rivastigmine is available as a transdermal patch, making it the option for patients who cannot swallow; the trade-off is that it has the worst gastrointestinal side effects of the central agents.",
+        "E": "Tacrine was the first anti-dementia agent but was withdrawn because of hepatotoxicity."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-i-antidepressants-020",
+      "question": "A 44-year-old farm worker is brought in 40 minutes after an organophosphate insecticide spill soaked through his clothing. He is confused with copious salivation, lacrimation, and diaphoresis. He has had several episodes of vomiting and diarrhea and has been incontinent of urine. Pupils are pinpoint and he has diffuse fasciculations. After decontamination, which of the following is the most appropriate initial pharmacotherapy?",
+      "table": [
+        ["Parameter", "Value", "Reference Range"],
+        ["Heart rate", "42/min", "60-100/min"],
+        ["Blood pressure", "88/54 mm Hg", "<120/80 mm Hg"],
+        ["Respiratory rate", "28/min", "12-20/min"],
+        ["Oxygen saturation", "89% on room air", ">94%"]
+      ],
+      "answers": {
+        "A": "Atropine",
+        "B": "Cyproheptadine",
+        "C": "Edrophonium",
+        "D": "Neostigmine",
+        "E": "Pyridostigmine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Organophosphates are potent acetylcholinesterase inhibitors, and the resulting cholinergic excess is reversed with the antimuscarinic agent atropine, which dries secretions and restores heart rate.",
+        "B": "Cyproheptadine blocks peripheral serotonin receptors and is used in serotonin syndrome, which features hyperreflexia, clonus, and mydriasis rather than miosis and bradycardia.",
+        "C": "Edrophonium is a very short-acting acetylcholinesterase inhibitor used to diagnose myasthenia gravis and would worsen this patient's cholinergic crisis.",
+        "D": "Neostigmine is an acetylcholinesterase inhibitor used in myasthenia gravis and urinary retention, so giving it here would compound the toxicity.",
+        "E": "Pyridostigmine is another acetylcholinesterase inhibitor used in myasthenia gravis and is contraindicated in cholinergic poisoning."
+      }
+    }
+  ]
+}
