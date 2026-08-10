@@ -1,0 +1,414 @@
+{
+  "lecture": "Peripheral Neuropathy",
+  "block": "neuro",
+  "generated": "2026-08-10",
+  "questions": [
+    {
+      "id": "neuro-peripheral-neuropathy-001",
+      "question": "A 62-year-old man with a 12-year history of type 2 diabetes mellitus reports 2 years of numbness and burning that began in both great toes and has gradually ascended to the mid-calves. On examination, pinprick and temperature sensation are reduced symmetrically to the ankles, vibration is reduced at the toes, ankle reflexes are absent, and strength is normal except for mild weakness of toe extension bilaterally. Which of the following patterns of peripheral nerve injury does this presentation represent?",
+      "answers": {
+        "A": "Mononeuritis multiplex",
+        "B": "Mononeuropathy",
+        "C": "Plexopathy",
+        "D": "Polyneuropathy",
+        "E": "Radiculopathy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Mononeuritis multiplex reflects damage to two or more individual named nerves and produces a stepwise, asymmetric deficit rather than a graded symmetric one.",
+        "B": "A mononeuropathy involves one named nerve and would produce deficits confined to that nerve's motor and sensory territory in one limb.",
+        "C": "A plexopathy involves the brachial or lumbosacral plexus and causes deficits spanning several nerves in one limb, not symmetric distal loss in both legs.",
+        "D": "Symmetric, distal, length-dependent loss beginning in the toes and ascending with distally predominant reflex loss is the signature of a polyneuropathy affecting the terminal branches of multiple nerves.",
+        "E": "A radiculopathy follows a single dermatomal and myotomal distribution from nerve root damage and would not produce symmetric stocking-pattern loss."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-002",
+      "question": "A 52-year-old man has a 3-year history of slowly progressive numbness and tingling that started in the toes and now reaches the mid-shins. Examination shows reduced vibration sense at the ankles, absent ankle reflexes, and normal strength. Over the past 2 weeks he has also developed bilateral facial weakness with incomplete eye closure. Which of the following features of his presentation most strongly suggests an atypical neuropathy warranting expanded evaluation?",
+      "answers": {
+        "A": "Absent ankle reflexes",
+        "B": "Bilateral facial weakness",
+        "C": "Burning paresthesias of the toes",
+        "D": "Reduced vibration sense at the ankles",
+        "E": "Symmetric distal sensory loss"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Distally predominant reflex loss is expected in a length-dependent neuropathy because the longest reflex arcs are affected first.",
+        "B": "Cranial nerve involvement is a red flag, since a length-dependent process should not reach the short cranial nerves while the distal legs are only mildly affected.",
+        "C": "Paresthesias such as burning, pins and needles, or electric shock sensations are among the most common presenting symptoms of typical neuropathy.",
+        "D": "Loss of large-fiber modalities at the ankles is a standard examination finding in typical distal symmetric polyneuropathy.",
+        "E": "A symmetric stocking distribution is the defining pattern of a typical, length-dependent neuropathy rather than a red flag."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-003",
+      "question": "A 64-year-old woman with type 2 diabetes mellitus has 6 months of progressive numbness and burning in both feet. Her neurologic examination and nerve conduction studies are consistent with a typical distal symmetric polyneuropathy. Laboratory results are shown. Which of the following is the most appropriate additional test to order?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Hemoglobin A1c", "7.9%", "<5.7%"],
+        ["Fasting glucose", "148 mg/dL", "70-99 mg/dL"],
+        ["Creatinine", "0.9 mg/dL", "0.6-1.2 mg/dL"]
+      ],
+      "answers": {
+        "A": "Copper level",
+        "B": "Magnetic resonance imaging of the thoracic spine",
+        "C": "Paraneoplastic antibody panel",
+        "D": "Serum vitamin B12 level",
+        "E": "Sural nerve biopsy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Copper deficiency is a rare cause of myeloneuropathy and is not part of the focused screen for a typical neuropathy.",
+        "B": "Spinal imaging is reserved for presentations suggesting a central or compressive lesion, such as a sensory level or upper motor neuron signs.",
+        "C": "Paraneoplastic testing is reserved for atypical features such as rapid progression or non-length-dependent, sensory-predominant loss.",
+        "D": "More than half of patients with diabetic neuropathy have an additional treatable cause, so B12 should be checked in every patient alongside A1c and serum protein electrophoresis.",
+        "E": "Nerve biopsy is invasive and reserved for suspected vasculitis or amyloidosis, not for a clinically typical diabetic neuropathy."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-004",
+      "question": "A 58-year-old man reports 18 months of symmetric numbness in both feet with mild burning at night. Examination shows reduced pinprick to the ankles and absent ankle reflexes with normal strength. Initial laboratory results are shown. Which of the following studies remains to be completed as part of the standard focused workup?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Hemoglobin A1c", "5.4%", "<5.7%"],
+        ["Vitamin B12", "620 pg/mL", "200-900 pg/mL"],
+        ["Creatinine", "1.0 mg/dL", "0.6-1.2 mg/dL"]
+      ],
+      "answers": {
+        "A": "Cerebrospinal fluid analysis",
+        "B": "Genetic testing for PMP22 duplication",
+        "C": "Magnetic resonance imaging of the lumbar spine",
+        "D": "Serum protein electrophoresis",
+        "E": "Sural nerve biopsy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Lumbar puncture is used when an acute immune-mediated process such as Guillain-Barré syndrome is suspected, not in an indolent length-dependent neuropathy.",
+        "B": "Genetic testing is considered for hereditary neuropathies suggested by childhood onset, foot deformity, or family history.",
+        "C": "Lumbar imaging evaluates radiculopathy or stenosis, which would produce a dermatomal rather than a stocking distribution.",
+        "D": "The focused screen for a typical neuropathy consists of A1c, vitamin B12, and serum protein electrophoresis, the last of which has not yet been sent.",
+        "E": "Biopsy is not part of the routine screen and does not identify the common reversible causes being sought here."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-005",
+      "question": "A 32-year-old man presents to the emergency department with profound weakness. He had several days of diarrhea 1 week before symptom onset. Two days ago he noted mild bilateral leg weakness; the weakness has since spread to both arms, and he now requires a wheelchair and cannot stand. He reports mild tingling in the hands and feet. Cranial nerve examination is normal, strength is 2/5 in all four extremities, and reflexes are absent throughout. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Acute inflammatory demyelinating polyradiculoneuropathy",
+        "B": "Botulism",
+        "C": "Chronic inflammatory demyelinating polyneuropathy",
+        "D": "Diabetic polyneuropathy",
+        "E": "Myasthenia gravis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Rapidly ascending symmetric weakness with areflexia following a preceding infectious illness is the classic presentation of AIDP, the most common subtype of Guillain-Barré syndrome.",
+        "B": "Botulism produces descending weakness that begins with cranial nerve findings such as ptosis, diplopia, and dysphagia.",
+        "C": "CIDP is defined by a chronic course, with progression continuing well beyond the 4-week nadir seen in acute forms.",
+        "D": "Diabetic polyneuropathy evolves over years in a distal symmetric sensory-predominant pattern, not over days with quadriparesis.",
+        "E": "Myasthenia gravis causes fatigable ocular and bulbar weakness with preserved reflexes and no sensory symptoms."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-006",
+      "question": "A 29-year-old woman develops ascending weakness and areflexia over 5 days following a respiratory illness. Guillain-Barré syndrome is suspected, and the neurology team plans a lumbar puncture. Which of the following best describes the primary rationale for performing this test in her evaluation?",
+      "answers": {
+        "A": "To determine whether the process is axonal or demyelinating",
+        "B": "To evaluate for oligoclonal bands",
+        "C": "To exclude other infectious and inflammatory causes",
+        "D": "To measure the cerebrospinal fluid opening pressure",
+        "E": "To predict the need for mechanical ventilation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Distinguishing axonal from demyelinating physiology is the role of nerve conduction studies, not cerebrospinal fluid analysis.",
+        "B": "Oligoclonal bands are sought in suspected multiple sclerosis, a central demyelinating disease, not in Guillain-Barré syndrome.",
+        "C": "Lumbar puncture is performed mainly to rule out mimics such as infectious or inflammatory processes, since albuminocytologic dissociation may be absent and a normal result does not exclude the diagnosis.",
+        "D": "Opening pressure is relevant to conditions such as idiopathic intracranial hypertension and does not guide management here.",
+        "E": "Respiratory risk is assessed by serial bedside pulmonary function testing and clinical monitoring, not by cerebrospinal fluid findings."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-007",
+      "question": "A 28-year-old man has 6 days of progressive symmetric weakness that began in the legs and now involves the arms and neck flexors. Reflexes are absent throughout, and he has mild distal paresthesias. Cerebrospinal fluid results are shown, and a meningitis and encephalitis panel is negative. Which of the following is the most appropriate next step in management?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Opening pressure", "16 cm H2O", "10-20 cm H2O"],
+        ["White blood cells", "0/mm3", "0-5/mm3"],
+        ["Red blood cells", "7/mm3", "0/mm3"],
+        ["Glucose", "66 mg/dL", "45-80 mg/dL"],
+        ["Protein", "82 mg/dL", "15-45 mg/dL"]
+      ],
+      "answers": {
+        "A": "Administer intravenous immunoglobulin",
+        "B": "Begin high-dose intravenous methylprednisolone",
+        "C": "Initiate gabapentin for neuropathic pain",
+        "D": "Obtain magnetic resonance imaging of the brain",
+        "E": "Start empiric intravenous acyclovir"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Elevated protein with essentially no white cells is albuminocytologic dissociation, supporting Guillain-Barré syndrome, which is treated with intravenous immunoglobulin or plasmapheresis.",
+        "B": "Corticosteroids have not been shown to improve outcomes in Guillain-Barré syndrome and are not used as monotherapy.",
+        "C": "Gabapentin addresses neuropathic pain but does nothing for the immune-mediated attack driving his progressive quadriparesis.",
+        "D": "Brain imaging would be pursued for a central localization, which is inconsistent with diffuse areflexia and symmetric flaccid weakness.",
+        "E": "Acyclovir treats herpes encephalitis, effectively excluded by the negative panel, normal glucose, and absence of pleocytosis."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-008",
+      "question": "A 41-year-old woman admitted with Guillain-Barré syndrome has progressive weakness now involving the neck flexors, and she reports a weak cough. Her blood pressure has fluctuated between 88/54 and 172/96 mm Hg over the past few hours. Which of the following monitoring strategies is most important during her hospitalization?",
+      "answers": {
+        "A": "Continuous electroencephalography",
+        "B": "Daily hemoglobin A1c measurement",
+        "C": "Serial forced vital capacity measurement",
+        "D": "Serial lumbar punctures for protein trends",
+        "E": "Weekly nerve conduction studies"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Continuous EEG detects seizures, which are not a feature of this peripheral nervous system disorder.",
+        "B": "Glycemic monitoring is unrelated to the acute risk in an immune-mediated demyelinating neuropathy.",
+        "C": "Neck flexor weakness and a weak cough signal impending respiratory failure, so bedside vital capacity is followed closely and some patients require intubation.",
+        "D": "Cerebrospinal fluid protein does not track clinical severity and repeat sampling would not change management.",
+        "E": "Electrodiagnostic testing supports diagnosis but is far too infrequent and insensitive to detect the hour-to-hour decline that threatens the airway."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-009",
+      "question": "A 55-year-old man reports 6 months of steadily worsening weakness affecting both the proximal and distal muscles of all four limbs, along with numbness in the hands and feet. Reflexes are absent throughout. Nerve conduction studies show markedly slowed conduction velocities with prolonged distal latencies. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Amyotrophic lateral sclerosis",
+        "B": "Chronic inflammatory demyelinating polyneuropathy",
+        "C": "Diabetic distal symmetric polyneuropathy",
+        "D": "Guillain-Barré syndrome",
+        "E": "Lumbosacral radiculopathy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Motor neuron disease spares sensation and typically produces mixed upper and lower motor neuron signs with brisk rather than absent reflexes.",
+        "B": "Progression well beyond 4 weeks with both proximal and distal weakness, areflexia, and demyelinating physiology defines CIDP, the most common chronic demyelinating neuropathy.",
+        "C": "Diabetic neuropathy is axonal and length-dependent, causing distal sensory loss rather than prominent proximal weakness with marked conduction slowing.",
+        "D": "Guillain-Barré syndrome is acute by definition and reaches its nadir within 4 weeks of onset.",
+        "E": "A radiculopathy produces deficits limited to specific roots rather than diffuse four-limb weakness with generalized areflexia."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-010",
+      "question": "A 60-year-old woman develops a right wrist drop over 2 days, and 3 weeks later develops a left foot drop. She also reports weight loss, arthralgias, and a purpuric rash on the lower extremities. Examination confirms deficits confined to the right radial and left common peroneal nerve territories with normal sensation elsewhere. Which of the following underlying conditions is the most likely cause of her neuropathy?",
+      "answers": {
+        "A": "Alcohol use disorder",
+        "B": "Chronic kidney disease",
+        "C": "Diabetes mellitus",
+        "D": "Systemic vasculitis",
+        "E": "Vitamin B12 deficiency"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alcohol-related neuropathy is a length-dependent axonal polyneuropathy that presents symmetrically in the feet.",
+        "B": "Uremic neuropathy also follows a symmetric distal pattern and would be accompanied by markers of advanced renal failure.",
+        "C": "Diabetes is the most common cause of neuropathy in the United States but typically produces a symmetric stocking-glove pattern.",
+        "D": "Sequential, asymmetric involvement of individual named nerves is mononeuritis multiplex, which alongside rash and systemic symptoms points to a vasculitic process.",
+        "E": "B12 deficiency causes symmetric large-fiber sensory loss, often with dorsal column signs, rather than discrete named nerve palsies."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-011",
+      "question": "A 48-year-old woman reports several months of numbness and tingling in the right thumb, index, and middle fingers that wakes her at night and worsens while driving. Examination shows reduced pinprick over those digits and the lateral half of the ring finger, but sensation over the thenar eminence is normal. Which of the following best explains the preserved sensation over the thenar eminence?",
+      "answers": {
+        "A": "The palmar cutaneous branch arises proximal to the carpal tunnel",
+        "B": "The radial nerve supplies all skin overlying the thenar eminence",
+        "C": "The recurrent motor branch carries no accompanying sensory fibers",
+        "D": "The thenar eminence is innervated entirely by the ulnar nerve",
+        "E": "Thenar sensory fibers are the most compression-resistant fibers"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The palmar cutaneous sensory branch leaves the median nerve just proximal to the wrist and bypasses the tunnel, so thenar sensation is spared in carpal tunnel syndrome.",
+        "B": "The superficial radial nerve supplies the dorsolateral hand, not the palmar thenar skin in question.",
+        "C": "The recurrent motor branch does supply thenar muscles, but motor innervation has no bearing on why overlying skin sensation is preserved.",
+        "D": "The ulnar nerve supplies the hypothenar eminence and the medial hand, not the thenar surface.",
+        "E": "Sparing here is anatomic rather than a matter of differential fiber susceptibility to compression."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-012",
+      "question": "A 55-year-old man who leans on his elbows at work reports 8 months of numbness in the fourth and fifth digits and the medial palm and dorsum of the hand, ending sharply at the wrist. He has dropped objects and cannot open jars. Examination shows hypothenar atrophy, clawing of the fourth and fifth digits, and a persistently abducted little finger. Which of the following is the most likely localization?",
+      "answers": {
+        "A": "C8 radiculopathy",
+        "B": "Lower trunk brachial plexopathy",
+        "C": "Median neuropathy at the wrist",
+        "D": "Radial neuropathy at the spiral groove",
+        "E": "Ulnar neuropathy at the elbow"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A C8 radiculopathy causes sensory loss extending proximally into the medial forearm and is usually accompanied by neck pain.",
+        "B": "Lower trunk plexopathy also involves median-innervated C8-T1 muscles and produces medial forearm sensory loss beyond the wrist.",
+        "C": "Median neuropathy at the wrist affects the thumb through the lateral ring finger and causes thenar, not hypothenar, atrophy.",
+        "D": "Radial neuropathy causes wrist and finger drop with dorsal sensory loss, without clawing or intrinsic hand atrophy in this distribution.",
+        "E": "Sensory loss confined to the ulnar digits and not extending beyond the wrist, with hypothenar atrophy, clawing, and Wartenberg's sign from palmar interosseous weakness, localizes to the ulnar nerve at the elbow."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-013",
+      "question": "A 34-year-old man wakes after a night of heavy drinking having fallen asleep with his right arm draped over the back of a chair. He cannot extend the right wrist or fingers. Elbow extension is 5/5, and there is decreased sensation over the dorsum of the first web space. Which of the following is the most likely site of the lesion?",
+      "answers": {
+        "A": "C7 nerve root",
+        "B": "Posterior cord of the brachial plexus",
+        "C": "Posterior interosseous nerve in the forearm",
+        "D": "Radial nerve at the spiral groove",
+        "E": "Radial nerve in the axilla"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A C7 radiculopathy would typically cause neck pain with triceps weakness and a diminished triceps reflex.",
+        "B": "A posterior cord lesion would additionally weaken deltoid and latissimus dorsi through the axillary and thoracodorsal nerves.",
+        "C": "Posterior interosseous neuropathy is purely motor and would not produce the sensory loss described.",
+        "D": "Compression where the radial nerve lies against the humerus produces wrist and finger drop with superficial radial sensory loss while sparing the triceps, which is innervated above the groove.",
+        "E": "An axillary-level radial lesion, such as from crutch compression, would also weaken elbow extension."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-014",
+      "question": "A 40-year-old carpenter reports 3 months of difficulty extending his fingers. Examination shows weak extension of the fingers and thumb with weak supination, but sensation is normal throughout the hand and forearm, and elbow extension is full. Imaging suggests compression at the arcade of Frohse. Which of the following findings best distinguishes his condition from a radial neuropathy at the spiral groove?",
+      "answers": {
+        "A": "Absence of sensory loss over the dorsal hand",
+        "B": "Presence of finger extension weakness",
+        "C": "Preserved elbow extension strength",
+        "D": "Sparing of the intrinsic hand muscles",
+        "E": "Weakness of forearm supination"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The posterior interosseous nerve is purely motor, so a normal sensory examination separates it from a spiral groove lesion, which causes superficial radial sensory loss.",
+        "B": "Finger drop occurs in both lesions and therefore cannot distinguish between them.",
+        "C": "Elbow extension is preserved in both, since triceps innervation arises above the spiral groove.",
+        "D": "Intrinsic hand muscles are median and ulnar innervated and are spared in any radial nerve lesion.",
+        "E": "The supinator is innervated in the region of the arcade of Frohse and may be affected in either lesion, so this does not separate them."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-015",
+      "question": "A 58-year-old man who lost 15 kg over 4 months and habitually sits with his legs crossed develops a painless right foot drop over several days. He lifts the right knee high while walking and slaps the foot on the floor. Sensation is reduced over the lower lateral calf and dorsum of the foot. Which of the following additional examination findings is most likely?",
+      "answers": {
+        "A": "Weakness of ankle eversion with preserved inversion",
+        "B": "Weakness of ankle inversion with preserved eversion",
+        "C": "Weakness of hip abduction with preserved eversion",
+        "D": "Weakness of knee flexion with preserved plantarflexion",
+        "E": "Weakness of plantarflexion with preserved dorsiflexion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A common peroneal lesion at the fibular neck affects both branches, so dorsiflexion and eversion are weak while tibial-innervated inversion and plantarflexion are spared.",
+        "B": "Weak inversion with intact eversion would suggest an L5 radiculopathy or tibial involvement rather than peroneal compression.",
+        "C": "Hip abduction is supplied by the superior gluteal nerve, well proximal to the fibular neck.",
+        "D": "Knee flexion depends on the sciatic nerve above the peroneal division and is unaffected here.",
+        "E": "Plantarflexion is tibial-innervated and is preserved; its involvement would point to a sciatic or more proximal lesion."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-016",
+      "question": "A 45-year-old woman develops weakness of ankle and toe dorsiflexion on the left after prolonged squatting during a home renovation. Ankle eversion, inversion, and plantarflexion are normal. Sensory loss is limited to the web space between the first and second toes. Which of the following nerves is most likely affected?",
+      "answers": {
+        "A": "Common peroneal nerve",
+        "B": "Deep peroneal nerve",
+        "C": "Superficial peroneal nerve",
+        "D": "Sural nerve",
+        "E": "Tibial nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A common peroneal lesion would also weaken eversion and cause broader sensory loss over the lateral calf and foot dorsum.",
+        "B": "The deep peroneal nerve supplies ankle and toe dorsiflexion and a small sensory patch in the first web space, matching this restricted deficit.",
+        "C": "The superficial peroneal nerve mediates eversion and supplies the lateral calf and dorsum of the foot, both of which are normal here.",
+        "D": "The sural nerve is purely sensory to the lateral foot and heel and would not cause weakness.",
+        "E": "The tibial nerve controls plantarflexion and inversion with sensation to the sole, all of which are intact."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-017",
+      "question": "A 34-year-old woman has 3 weeks of progressive right leg weakness and stiffness. Examination shows 4/5 strength in right hip flexion and ankle dorsiflexion, hyperreflexia at the right knee and ankle, and an extensor plantar response on the right. Nerve conduction studies and needle electromyography of both lower extremities are normal. Which of the following conditions best explains these findings?",
+      "answers": {
+        "A": "Common peroneal neuropathy",
+        "B": "Guillain-Barré syndrome",
+        "C": "Lumbosacral radiculopathy",
+        "D": "Motor neuron disease",
+        "E": "Multiple sclerosis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A peroneal neuropathy would produce abnormal nerve conduction studies and would not cause hyperreflexia or an extensor plantar response.",
+        "B": "Guillain-Barré syndrome causes areflexia with abnormal electrodiagnostic findings, the opposite of this pattern.",
+        "C": "A radiculopathy would show denervation on needle examination in a myotomal distribution and would depress rather than heighten reflexes.",
+        "D": "Motor neuron disease produces widespread denervation on needle electromyography despite its upper motor neuron features.",
+        "E": "Electrodiagnostic testing assesses only the peripheral nervous system and is normal in central lesions, and the upper motor neuron signs here point to a central demyelinating process."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-018",
+      "question": "A 66-year-old woman with type 2 diabetes mellitus has burning pain in both feet that keeps her awake most nights. Her examination is consistent with a typical distal symmetric polyneuropathy, and her A1c is 7.2%. She has taken scheduled acetaminophen for 6 weeks with no relief. Which of the following is the most appropriate next pharmacologic therapy?",
+      "answers": {
+        "A": "Hydrocodone",
+        "B": "Ibuprofen",
+        "C": "Meloxicam",
+        "D": "Oxycodone",
+        "E": "Pregabalin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Opioids are not first-line for chronic neuropathic pain and carry substantial risks of tolerance and dependence.",
+        "B": "Nonsteroidal anti-inflammatory drugs target nociceptive and inflammatory pain and have little effect on neuropathic pain.",
+        "C": "Meloxicam shares the limited neuropathic efficacy of other nonsteroidal agents while adding renal and gastrointestinal risk.",
+        "D": "Oxycodone, like other opioids, is reserved for refractory cases after first-line agents have failed.",
+        "E": "First-line symptomatic options include the older anticonvulsants such as gabapentin and pregabalin, along with tricyclics, SNRIs, and topical agents."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-019",
+      "question": "A 30-year-old man hospitalized with Guillain-Barré syndrome is examined daily. Today, with the examiner not applying any force, he can lift his right leg fully off the bed and hold it briefly. When the examiner presses down even lightly on the thigh, the leg immediately gives way. Which of the following MRC grades best describes his right hip flexion strength?",
+      "answers": {
+        "A": "1/5",
+        "B": "2/5",
+        "C": "3/5",
+        "D": "4/5",
+        "E": "5/5"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A grade of 1/5 denotes only a flicker of contraction without any movement across the joint.",
+        "B": "A grade of 2/5 means the limb moves through its range only when gravity is eliminated, such as sliding sideways on the bed.",
+        "C": "Full range of motion against gravity but no ability to sustain any added resistance is the definition of 3/5.",
+        "D": "A grade of 4/5 requires the muscle to move the limb against at least some applied resistance.",
+        "E": "A grade of 5/5 indicates full strength against maximal resistance."
+      }
+    },
+    {
+      "id": "neuro-peripheral-neuropathy-020",
+      "question": "A 68-year-old man who underwent gastric bypass surgery 6 years ago reports 8 months of numbness in both feet and, more recently, the fingertips. He is unsteady in the dark. Examination shows markedly reduced vibration and proprioception at the toes, absent ankle reflexes, and a positive Romberg test. Laboratory results are shown. Which of the following is the most likely cause of his neuropathy?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Vitamin B12", "112 pg/mL", "200-900 pg/mL"],
+        ["Mean corpuscular volume", "108 fL", "80-100 fL"],
+        ["Hemoglobin A1c", "5.3%", "<5.7%"],
+        ["Creatinine", "0.9 mg/dL", "0.6-1.2 mg/dL"]
+      ],
+      "answers": {
+        "A": "Alcohol use disorder",
+        "B": "Chronic kidney disease",
+        "C": "Diabetes mellitus",
+        "D": "Monoclonal gammopathy",
+        "E": "Vitamin B12 deficiency"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alcohol-related neuropathy is plausible clinically but would not explain the low B12 level with macrocytosis.",
+        "B": "Uremic neuropathy requires advanced renal impairment, and his creatinine is normal.",
+        "C": "Diabetes is the most common cause of neuropathy overall, but his A1c is in the normal range.",
+        "D": "A paraproteinemic neuropathy is screened for with serum protein electrophoresis and is not supported by these results.",
+        "E": "Malabsorption after bariatric surgery causes B12 deficiency, and the low level with macrocytosis and prominent large-fiber sensory loss fits this reversible cause."
+      }
+    }
+  ]
+}
