@@ -1,0 +1,495 @@
+{
+  "lecture": "Depression: A Disorder of Multiple Systems",
+  "block": "neuro",
+  "generated": "2026-08-10",
+  "questions": [
+    {
+      "id": "neuro-depression-001",
+      "question": "A 25-year-old woman is evaluated for a 3-week history of loss of interest in nearly all activities, present most of the day and nearly every day, representing a clear change from her baseline. She also reports initial insomnia and daytime fatigue. She denies alcohol or drug use, and thyroid studies are normal. Which of the following additional symptoms would count toward the DSM-5 symptom criteria for a major depressive episode?",
+      "answers": {
+        "A": "Emotional numbness lasting several hours each day",
+        "B": "Increased irritability directed at family members",
+        "C": "Intermittent bitemporal tension headaches",
+        "D": "Persistent worry about her finances",
+        "E": "Recurrent thoughts of death"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Feeling numb is a common patient description but is not one of the listed DSM-5 symptom criteria for major depression.",
+        "B": "Irritability substitutes for depressed mood only in children and adolescents; it is not one of the seven additional adult criterion symptoms.",
+        "C": "Somatic pain complaints frequently accompany depression but are not DSM-5 criterion symptoms.",
+        "D": "Anxious worry is common in depression and may qualify for an anxious distress specifier, but it is not a criterion symptom.",
+        "E": "Recurrent thoughts of death or suicidal ideation is one of the seven additional criterion symptoms, along with appetite/weight change, sleep change, psychomotor change, fatigue, worthlessness/guilt, and impaired concentration."
+      }
+    },
+    {
+      "id": "neuro-depression-002",
+      "question": "A 23-year-old woman presents with her fourth depressive episode since age 18. Each episode has lasted 3 to 4 weeks. She sleeps 12 hours nightly, craves carbohydrates, and describes a heavy sensation in her arms and legs. Her mother was hospitalized for a mood disorder at age 30. Two years ago she developed severe irritability and agitation within 10 days of starting fluoxetine, which was discontinued. Which of the following is the most appropriate next step in evaluation?",
+      "answers": {
+        "A": "Begin bupropion at a low dose and titrate weekly",
+        "B": "Begin sertraline and reassess her mood in 4 weeks",
+        "C": "Obtain a history of periods of decreased need for sleep",
+        "D": "Order an overnight low-dose dexamethasone suppression test",
+        "E": "Refer her for a course of electroconvulsive therapy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Starting any antidepressant before excluding bipolar disorder risks inducing mania or a mixed state in a patient with multiple red flags.",
+        "B": "She already developed antidepressant-induced irritability, one of the strongest signals that an underlying bipolar diathesis has not been excluded.",
+        "C": "Onset before 25, brief highly recurrent episodes, family history, atypical features, and antidepressant-induced irritability all raise bipolar risk; the diagnosis hinges on documenting a prior manic or hypomanic period, of which decreased need for sleep is the most discriminating feature.",
+        "D": "Cortisol non-suppression is seen in depression and chronic pain but does not distinguish unipolar from bipolar depression.",
+        "E": "Electroconvulsive therapy is effective but is reserved for severe, refractory, psychotic, or catatonic presentations, not for initial diagnostic clarification."
+      }
+    },
+    {
+      "id": "neuro-depression-003",
+      "question": "A 21-year-old man is brought to the emergency department by his roommate after 9 days of unusual behavior. He has slept about 2 hours per night yet reports feeling energetic, has spent $8,000 on recording equipment, speaks rapidly and is difficult to interrupt, and states that he has been chosen to rewrite modern music. He has had two prior episodes of low mood, anhedonia, and hypersomnia lasting about 2 months each. Urine toxicology is negative. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Bipolar I disorder",
+        "B": "Bipolar II disorder",
+        "C": "Cyclothymic disorder",
+        "D": "Major depressive disorder with psychotic features",
+        "E": "Persistent depressive disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "He meets criteria for mania: at least 1 week of persistently elevated or expansive mood with three or more symptoms including grandiosity, decreased need for sleep, pressured speech, and excessive indulgence in pleasurable activity.",
+        "B": "Bipolar II requires hypomania without a full manic episode; his 9-day episode with marked functional disruption and grandiosity exceeds hypomania.",
+        "C": "Cyclothymia involves chronic subthreshold hypomanic and depressive symptoms over 2 years without full episodes of either.",
+        "D": "His grandiose beliefs occur in the context of elevated mood and decreased need for sleep, not during a depressive episode.",
+        "E": "Persistent depressive disorder describes chronic low-grade depression over at least 2 years and does not include manic symptoms."
+      }
+    },
+    {
+      "id": "neuro-depression-004",
+      "question": "A 34-year-old woman reports feeling down on most days for the past 3 years. She has never gone longer than about 3 weeks without symptoms during that period. She describes overeating, low self-esteem, difficulty making decisions, and a persistent sense of hopelessness. She continues to work full time and has never had 2 consecutive weeks in which she met full criteria for a major depressive episode. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Cyclothymic disorder",
+        "B": "Major depressive disorder, recurrent",
+        "C": "Persistent depressive disorder",
+        "D": "Premenstrual dysphoric disorder",
+        "E": "Substance-induced depressive disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cyclothymia requires alternating subthreshold hypomanic and depressive symptoms; she has never had a hypomanic period.",
+        "B": "She has never met the full symptom threshold for a major depressive episode; when both disorders are present simultaneously the term double depression is used.",
+        "C": "Depressed mood on most days for at least 2 years with no more than 2 symptom-free months, plus at least two of appetite change, sleep change, low energy, low self-esteem, poor concentration, or hopelessness, defines persistent depressive disorder.",
+        "D": "PMDD symptoms are confined to the week before menses and remit within days of bleeding, rather than persisting for years.",
+        "E": "No substance or medication is implicated in her chronic symptoms."
+      }
+    },
+    {
+      "id": "neuro-depression-005",
+      "question": "A 29-year-old woman reports that during most menstrual cycles over the past year she becomes markedly irritable and tearful, with anxiety, difficulty concentrating, breast tenderness, and intense food cravings. Symptoms begin during the week before menses, start to improve within a few days after bleeding begins, and are absent during the week after menses. Between episodes she functions well at work and at home. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Cyclothymic disorder",
+        "B": "Major depressive disorder with seasonal pattern",
+        "C": "Persistent depressive disorder",
+        "D": "Premenstrual dysphoric disorder",
+        "E": "Substance/medication-induced depressive disorder"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cyclothymia requires 2 years of fluctuating subthreshold hypomanic and depressive symptoms unrelated to the menstrual cycle.",
+        "B": "A seasonal pattern peaks in October and November and tracks the calendar rather than the menstrual cycle.",
+        "C": "Persistent depressive disorder requires symptoms on most days for at least 2 years, whereas she is entirely well post-menses.",
+        "D": "At least five symptoms drawn from the affective cluster (lability, irritability, depressed mood, anxiety) plus additional symptoms such as poor concentration, food cravings, and breast tenderness, occurring in the final premenstrual week and remitting after menses across most cycles for a year, defines PMDD.",
+        "E": "There is no implicated substance or medication, and the timing follows an endogenous hormonal cycle."
+      }
+    },
+    {
+      "id": "neuro-depression-006",
+      "question": "An 8-year-old boy is evaluated for a 14-month history of angry, irritable mood present most of the day nearly every day, punctuated by severe verbal and physical outbursts occurring about four times per week. The outbursts are grossly out of proportion to the provocation and to his developmental level, and occur at home, at school, and with peers. Symptoms began at age 7. There are no discrete periods of elevated mood or decreased need for sleep. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Attention-deficit/hyperactivity disorder",
+        "B": "Bipolar I disorder",
+        "C": "Disruptive mood dysregulation disorder",
+        "D": "Oppositional defiant disorder",
+        "E": "Persistent depressive disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "ADHD is highly comorbid with this presentation but is defined by inattention and hyperactivity, not by persistent irritable mood with severe outbursts.",
+        "B": "Pediatric bipolar disorder is episodic, with discrete periods of elevated mood and decreased need for sleep, which he lacks.",
+        "C": "Onset after age 6 and before age 10, with chronic irritable or angry mood plus severe temper outbursts three or more times per week in at least two settings for 12 or more months, defines DMDD; the mood disturbance is non-episodic.",
+        "D": "Oppositional defiant disorder features defiance and argumentativeness without the persistent between-outburst mood disturbance.",
+        "E": "Persistent depressive disorder in youth requires irritable or depressed mood for at least 1 year but not the severe recurrent temper outbursts that define DMDD."
+      }
+    },
+    {
+      "id": "neuro-depression-007",
+      "question": "A 64-year-old man has a 3-month history of depression. He derives no pleasure from any activity, including visits from his grandchildren, and his mood does not lift even when he receives good news. He has lost 9 kg and has little appetite. He ruminates with intense guilt over a business decision made 20 years ago. Twelve weeks of cognitive behavioral therapy produced no improvement. Which of the following findings would best support melancholic rather than atypical features?",
+      "answers": {
+        "A": "Heavy, leaden sensation in the arms and legs",
+        "B": "Hypersomnia with persistent daytime fatigue",
+        "C": "Increased appetite with carbohydrate craving",
+        "D": "Longstanding sensitivity to interpersonal rejection and criticism",
+        "E": "Waking 2 hours early and being unable to return to sleep"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Leaden paralysis is one of the reversed vegetative features that characterizes atypical depression.",
+        "B": "Hypersomnia is an atypical feature; melancholic depression is marked by early morning awakening and reduced sleep.",
+        "C": "Hyperphagia with carbohydrate craving is an atypical feature, whereas melancholic depression involves anorexia and weight loss.",
+        "D": "Rejection sensitivity that persists beyond the mood episode is a hallmark of the atypical subtype.",
+        "E": "Terminal insomnia with awakening about 2 hours early, pervasive anhedonia without mood reactivity, anorexia with weight loss, and excessive guilt define melancholic features, which respond poorly to psychotherapy and well to antidepressants or ECT."
+      }
+    },
+    {
+      "id": "neuro-depression-008",
+      "question": "A 27-year-old woman has a 6-month history of depressed mood that briefly lifts when she receives good news. She sleeps 11 hours nightly yet remains fatigued, has gained 7 kg, and describes her limbs as feeling weighted down. She has been highly sensitive to criticism since adolescence, including during periods when her mood was normal. She had no benefit from an 8-week trial of sertraline at maximum tolerated dose. Which of the following is the most appropriate next pharmacologic agent?",
+      "answers": {
+        "A": "Amitriptyline",
+        "B": "Bupropion",
+        "C": "Lithium",
+        "D": "Phenelzine",
+        "E": "Quetiapine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A tricyclic carries substantial anticholinergic, weight gain, and cardiac conduction risk and is not the preferred next agent for atypical features.",
+        "B": "In atypical depression, a more noradrenergic or dopaminergic agent such as bupropion is a reasonable next choice and avoids the dietary and interaction burden of an irreversible MAOI.",
+        "C": "Lithium treats bipolar disorder or augments antidepressants, but she has no history of hypomania or mania.",
+        "D": "Irreversible MAOIs are slightly more effective in atypical depression, but tyramine restrictions and interaction risk usually outweigh that modest advantage.",
+        "E": "Antipsychotic augmentation is generally reserved for later treatment steps or for psychotic features, which she does not have."
+      }
+    },
+    {
+      "id": "neuro-depression-009",
+      "question": "A 45-year-old woman reports 4 months of low mood, fatigue, poor concentration, and a 5-kg weight gain. She also notes constipation, cold intolerance, and dry skin. On examination her deep tendon reflexes show delayed relaxation. Laboratory results are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "14.2 microIU/mL",
+          "0.4-4.0 microIU/mL"
+        ],
+        [
+          "Free T4",
+          "0.5 ng/dL",
+          "0.8-1.8 ng/dL"
+        ],
+        [
+          "Hemoglobin",
+          "12.6 g/dL",
+          "12.0-16.0 g/dL"
+        ],
+        [
+          "Sodium",
+          "138 mEq/L",
+          "135-145 mEq/L"
+        ]
+      ],
+      "correct": "B",
+      "answers": {
+        "A": "Adjustment disorder with depressed mood, acute",
+        "B": "Depressive disorder due to another medical condition",
+        "C": "Major depressive disorder with atypical features",
+        "D": "Major depressive disorder with melancholic features",
+        "E": "Substance/medication-induced depressive disorder"
+      },
+      "explanations": {
+        "A": "Adjustment disorder follows an identifiable psychosocial stressor; here the depressive syndrome is physiologically driven by thyroid disease.",
+        "B": "Overt hypothyroidism can physiologically produce the full depressive syndrome; this diagnosis requires that the medical condition plausibly cause the symptoms directly, not merely that the patient is psychologically distressed by being ill.",
+        "C": "Although weight gain and fatigue superficially resemble atypical features, the laboratory findings identify a direct physiologic cause that must be addressed first.",
+        "D": "Melancholic depression features anorexia, weight loss, and early morning awakening, and would not explain the thyroid abnormalities.",
+        "E": "No substance or medication is implicated; the abnormality is endogenous endocrine disease."
+      }
+    },
+    {
+      "id": "neuro-depression-010",
+      "question": "A 39-year-old woman has a 6-month history of depressed mood, insomnia, and poor concentration. She has gained 12 kg with central distribution, and examination shows facial rounding, purple abdominal striae, and proximal muscle weakness. Blood pressure is 158/96 mm Hg. Laboratory results are shown. Which of the following mechanisms best explains her depressive symptoms?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Cortisol, 8 AM",
+          "26 mcg/dL",
+          "5-23 mcg/dL"
+        ],
+        [
+          "Cortisol after 1-mg dexamethasone",
+          "18 mcg/dL",
+          "<1.8 mcg/dL"
+        ],
+        [
+          "Fasting glucose",
+          "162 mg/dL",
+          "70-99 mg/dL"
+        ],
+        [
+          "Potassium",
+          "3.2 mEq/L",
+          "3.5-5.0 mEq/L"
+        ]
+      ],
+      "correct": "D",
+      "answers": {
+        "A": "Impaired hepatic conversion of dietary tryptophan to niacin",
+        "B": "Irreversible inhibition of monoamine oxidase in the brainstem",
+        "C": "Reduced dopaminergic transmission in the nigrostriatal pathway",
+        "D": "Sustained activation of the hypothalamic-pituitary-adrenal axis",
+        "E": "Sustained elevation of circulating free thyroxine levels"
+      },
+      "explanations": {
+        "A": "Niacin deficiency causes pellagra with dermatitis and diarrhea, and is not suggested by these findings.",
+        "B": "MAO inhibition raises synaptic monoamines and would be expected to improve rather than cause depression.",
+        "C": "Nigrostriatal dopamine loss underlies parkinsonism, which presents with bradykinesia, rigidity, and tremor rather than striae and hypokalemia.",
+        "D": "Hypercortisolism with failure of dexamethasone suppression reflects excessive HPA axis activation, which impairs hippocampal neuroplasticity and BDNF signaling and produces depressive symptoms.",
+        "E": "Thyrotoxicosis is associated with depression but would not produce cortisol non-suppression, purple striae, or this pattern of proximal myopathy."
+      }
+    },
+    {
+      "id": "neuro-depression-011",
+      "question": "A 51-year-old man with obesity and hypertension reports 2 months of low mood, anhedonia, poor concentration, and intense carbohydrate craving. His waist circumference is 112 cm and blood pressure is 146/90 mm Hg. Laboratory results are shown. Which of the following best links his metabolic findings to his depressive symptoms?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting glucose",
+          "118 mg/dL",
+          "70-99 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.2%",
+          "<5.7%"
+        ],
+        [
+          "Triglycerides",
+          "240 mg/dL",
+          "<150 mg/dL"
+        ],
+        [
+          "HDL cholesterol",
+          "32 mg/dL",
+          ">40 mg/dL"
+        ]
+      ],
+      "correct": "C",
+      "answers": {
+        "A": "Enhanced hippocampal neurogenesis driven by chronic hyperinsulinemia",
+        "B": "Increased brain-derived neurotrophic factor from sustained hyperglycemia",
+        "C": "Limited tryptophan availability for central serotonin synthesis",
+        "D": "Reduced adrenal cortisol output caused by peripheral insulin resistance",
+        "E": "Selective blockade of presynaptic norepinephrine reuptake transporters"
+      },
+      "explanations": {
+        "A": "Chronic hyperinsulinemia and hypercortisolism reduce, rather than enhance, hippocampal neurogenesis.",
+        "B": "Chronic metabolic stress is associated with decreased BDNF-dependent plasticity, not increased BDNF.",
+        "C": "Insulin resistance and metabolic syndrome are associated with elevated cortisol and reduced tryptophan availability, lowering central serotonin synthesis; the relationship is bidirectional, since depression also raises the risk of developing type 2 diabetes.",
+        "D": "Insulin resistance and metabolic syndrome are associated with elevated, not suppressed, cortisol.",
+        "E": "Norepinephrine reuptake blockade is a pharmacologic mechanism of antidepressants, not a consequence of metabolic disease."
+      }
+    },
+    {
+      "id": "neuro-depression-012",
+      "question": "A 58-year-old man treated with reserpine for hypertension develops 6 weeks of depressed mood, psychomotor slowing, and anhedonia. Investigators of that era demonstrated that reserpine depletes brain serotonin and increases urinary serotonin metabolites, and that animals given the drug become sedated and motorically retarded. Which additional observation provided the strongest experimental support for the monoamine hypothesis of depression?",
+      "answers": {
+        "A": "Chronic antidepressant treatment increases hippocampal neurogenesis in rodents",
+        "B": "Dopamine precursor administration reversed reserpine-induced motor retardation",
+        "C": "Ketamine produces antidepressant effects within hours of a single dose",
+        "D": "Repeated SSRI dosing desensitizes 5-HT1A autoreceptors over several weeks",
+        "E": "Tryptophan hydroxylase converts tryptophan into 5-hydroxytryptophan"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Neurogenesis findings emerged decades later and support the neuroplasticity model, which arose partly because the monoamine hypothesis could not explain the therapeutic delay.",
+        "B": "Administering DOPA, a norepinephrine precursor, reversed reserpine-induced sedation and motor retardation in animals and depressive symptoms in humans; reversing an experimentally induced depressive state by restoring monoamines completed the core argument of the monoamine hypothesis.",
+        "C": "Ketamine acts through glutamatergic and BDNF-dependent mechanisms and is evidence against a purely monoaminergic account.",
+        "D": "Autoreceptor desensitization was proposed much later to explain delayed SSRI onset, and 5-HT1A autoreceptor blockers have not proven clinically useful.",
+        "E": "This is a biosynthetic step in serotonin production, not evidence linking monoamine levels to mood states."
+      }
+    },
+    {
+      "id": "neuro-depression-013",
+      "question": "A 36-year-old woman is started on sertraline for a first major depressive episode. She calls 6 days later, stating she feels slightly better but is still depressed, and asks why the drug has not worked given that she read it blocks serotonin reuptake immediately. Which of the following best explains the gap between the initial neurochemical effect and clinical improvement?",
+      "answers": {
+        "A": "Hepatic enzyme autoinduction delays attainment of therapeutic drug concentrations",
+        "B": "Monoamine oxidase must be irreversibly inhibited before mood begins to improve",
+        "C": "Serotonin transporter occupancy rises gradually over the first several weeks",
+        "D": "Slow adaptive changes in autoreceptor sensitivity and synaptic plasticity",
+        "E": "Tryptophan stores must be repleted before serotonin synthesis can increase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Sertraline does not require autoinduction, and steady state is reached within about a week.",
+        "B": "MAO inhibition is not the mechanism of an SSRI, and MAOIs also inhibit the enzyme rapidly while still taking weeks to work.",
+        "C": "Transporter occupancy is substantial within days of the first dose, which is precisely why the clinical delay is paradoxical under the monoamine hypothesis.",
+        "D": "All antidepressants change neurotransmitter levels from the first dose, so the delay reflects slower downstream adaptations, including 5-HT1A autoreceptor desensitization and BDNF-dependent synaptic remodeling that take weeks to develop.",
+        "E": "Experimental tryptophan depletion can lower mood, but ordinary SSRI treatment does not require repletion of tryptophan stores."
+      }
+    },
+    {
+      "id": "neuro-depression-014",
+      "question": "A 32-year-old woman with major depressive disorder begins escitalopram. On day 3, laboratory testing shows she now identifies ambiguous facial expressions as happy more often than she did before treatment. She reports no change in her mood and continues to describe herself as a failure. Her clinician plans to continue the medication. Which of the following best explains this dissociation?",
+      "answers": {
+        "A": "Emotional processing shifts early, but benefit is perceived after feedback",
+        "B": "Escitalopram has not yet reached therapeutic plasma concentrations",
+        "C": "Facial recognition improvement reflects a practice effect, not drug action",
+        "D": "Hippocampal neurogenesis must be complete before processing can change",
+        "E": "She meets criteria for treatment resistance and requires augmentation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Antidepressants reverse the negative affective processing bias from the first dose, but these non-conscious changes translate into subjective improvement only after the patient interacts with the environment and accumulates positive feedback, which is why the patient is often the last to notice improvement.",
+        "B": "Steady-state concentrations are approached within days and do not explain early perceptual change without mood change.",
+        "C": "The shift toward positive interpretation of affect-laden stimuli is a reproducible early drug effect that predicts later remission.",
+        "D": "Early changes in emotional processing precede, rather than require, structural neuroplastic changes such as neurogenesis.",
+        "E": "Treatment resistance cannot be declared on day 3; an adequate trial requires weeks at a therapeutic dose."
+      }
+    },
+    {
+      "id": "neuro-depression-015",
+      "question": "A 41-year-old man with recurrent major depressive disorder has been taking venlafaxine for 8 weeks with substantial improvement in mood, sleep, and concentration. He is enrolled in a study examining brain-derived neurotrophic factor as a biomarker of treatment response. Which of the following statements about BDNF is correct?",
+      "answers": {
+        "A": "BDNF is elevated in animal models of chronic stress and depression",
+        "B": "BDNF signaling is required for monoamine synthesis in the raphe nuclei",
+        "C": "Chronic antidepressant use increases BDNF expression and plasticity",
+        "D": "Chronic stress increases BDNF in the prefrontal cortex and hippocampus",
+        "E": "The Val66Met variant increases activity-dependent secretion of BDNF"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Chronic stress and depression models show decreased BDNF, along with reduced hippocampal neurogenesis and synapse loss.",
+        "B": "BDNF regulates neuronal growth, survival, and synaptic plasticity; it is not required for monoamine biosynthesis.",
+        "C": "Chronic antidepressant administration increases downstream cAMP and calcium signaling, raises BDNF expression, blocks stress-induced synaptic deficits, and induces hippocampal neurogenesis.",
+        "D": "Chronic stress causes atrophy and synapse loss in the prefrontal cortex and hippocampus with decreased BDNF, while producing hypertrophy of the amygdala and nucleus accumbens.",
+        "E": "The Met allele is associated with lower secretion and intracellular mobility of BDNF, reduced hippocampal volume, and increased susceptibility to depression."
+      }
+    },
+    {
+      "id": "neuro-depression-016",
+      "question": "A 34-year-old woman with treatment-resistant major depressive disorder is being considered for intravenous ketamine after failing three adequate antidepressant trials. As part of a research protocol, genotyping shows that she carries the BDNF Val66Met (Met) allele. Compared with Val/Val patients, which of the following outcomes is most likely?",
+      "answers": {
+        "A": "Greater hippocampal volume on structural neuroimaging studies",
+        "B": "Higher activity-dependent secretion of BDNF from her neurons",
+        "C": "Improved performance on standardized executive function testing",
+        "D": "Increased remission rate when treated with fluoxetine monotherapy",
+        "E": "Markedly lower antidepressant response to a ketamine infusion"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The Met allele is associated with reduced, not increased, hippocampal volume.",
+        "B": "The Met variant reduces the secretion and intracellular mobility of BDNF.",
+        "C": "Met carriers show poorer performance on executive function testing.",
+        "D": "Met carriers have shown lower remission rates with SSRIs and comparatively higher remission with SNRIs or TCAs, though results across studies are inconsistent.",
+        "E": "Ketamine's antidepressant actions are BDNF-dependent and are abolished in BDNF knockout mice; Val/Met patients show roughly 50% lower response than Val/Val patients."
+      }
+    },
+    {
+      "id": "neuro-depression-017",
+      "question": "A 47-year-old man with severe major depressive disorder and active suicidal ideation receives a single intravenous infusion of ketamine. Within 4 hours his suicidal thoughts have resolved and his mood is markedly improved. In rodent models, this agent rapidly increases synapse number and function in the medial prefrontal cortex, and its behavioral effects are absent in BDNF knockout animals. Which of the following mechanisms best explains the rapid response?",
+      "answers": {
+        "A": "Direct agonism at postsynaptic 5-HT1A receptors within the raphe nuclei",
+        "B": "Inhibition of monoamine oxidase raising synaptic norepinephrine acutely",
+        "C": "Irreversible blockade of the serotonin transporter in the prefrontal cortex",
+        "D": "NMDA receptor antagonism causing a glutamate burst with BDNF release",
+        "E": "Upregulation of glucocorticoid receptor transcription in the hippocampus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Direct 5-HT1A agonism does not produce rapid synaptogenesis and has not yielded a rapid-acting antidepressant.",
+        "B": "MAO inhibition alters monoamine levels quickly but still requires weeks for clinical benefit.",
+        "C": "Transporter blockade is the mechanism of typical antidepressants, which increase BDNF expression but not BDNF release, and act slowly.",
+        "D": "Ketamine is a non-competitive NMDA antagonist that produces an activity-dependent glutamate burst, driving BDNF release, mTORC1 signaling, and rapid synaptogenesis in the medial prefrontal cortex, reversing the synaptic deficits of chronic stress.",
+        "E": "Increased glucocorticoid signaling is associated with the synaptic deficits of chronic stress rather than their rapid reversal."
+      }
+    },
+    {
+      "id": "neuro-depression-018",
+      "question": "A 44-year-old woman with major depressive disorder enrolls in a phase 1b trial of an investigational oral agent. After a placebo run-in, she receives one dose and shows significant improvement in depression ratings at 4 and 12 hours, without psychotomimetic effects. Preclinical data show that the drug increases dendritic spine density in the medial prefrontal cortex one day after dosing and that its antidepressant actions are abolished by pretreatment with rapamycin. Which of the following mechanisms best explains its action?",
+      "answers": {
+        "A": "Irreversible inhibition of monoamine oxidase type B in the brainstem",
+        "B": "Non-competitive antagonism at the glutamatergic NMDA receptor",
+        "C": "Partial agonism at presynaptic 5-HT1A somatodendritic autoreceptors",
+        "D": "Selective inhibition of norepinephrine and dopamine reuptake",
+        "E": "Sestrin-mediated activation of mTORC1 causing BDNF release"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "MAO-B inhibition would not produce effects within hours and would not be blocked by rapamycin.",
+        "B": "NMDA antagonism is ketamine's mechanism; this agent's defining feature is that it bypasses the NMDA pathway and therefore lacks psychotomimetic effects.",
+        "C": "Autoreceptor modulation is invoked to explain the delayed onset of SSRIs, not effects occurring within 4 hours.",
+        "D": "Reuptake inhibition increases BDNF expression but not release, and requires weeks to produce clinical benefit.",
+        "E": "NV-5138 (mefluleucine) acts through the sestrin pathway to stimulate mTORC1 directly, bypassing the NMDA receptor and producing BDNF release and synaptogenesis; blockade by the mTORC1 inhibitor rapamycin confirms this dependence."
+      }
+    },
+    {
+      "id": "neuro-depression-019",
+      "question": "A 55-year-old woman has a 4-year history of major depressive disorder with a severe, unremitting course that has responded poorly to three adequate antidepressant trials. She has no autoimmune disease, no recent infection, and no fever. Laboratory results are shown. Which of the following mechanisms best explains how these findings contribute to her depressive symptoms?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "hs-CRP",
+          "8.4 mg/L",
+          "<3.0 mg/L"
+        ],
+        [
+          "Interleukin-6",
+          "12 pg/mL",
+          "<5 pg/mL"
+        ],
+        [
+          "TNF-alpha",
+          "18 pg/mL",
+          "<8.1 pg/mL"
+        ],
+        [
+          "Leukocyte count",
+          "7,200/mm3",
+          "4,500-11,000/mm3"
+        ]
+      ],
+      "correct": "B",
+      "answers": {
+        "A": "Direct stimulation of hippocampal neurogenesis by circulating interleukin-6",
+        "B": "Diversion of tryptophan metabolism toward neurotoxic kynurenine metabolites",
+        "C": "Increased blood-brain barrier integrity limiting peripheral immune signaling",
+        "D": "Microglial release of BDNF producing rapid cortical synaptogenesis",
+        "E": "Suppression of the hypothalamic-pituitary-adrenal axis by tumor necrosis factor"
+      },
+      "explanations": {
+        "A": "Pro-inflammatory cytokines reduce neurogenesis and impair synaptic plasticity rather than stimulating them.",
+        "B": "Neuroinflammation affects up to about 27% of patients with MDD and predicts a more severe, chronic course; elevated IL-1 beta, IL-6, and TNF-alpha disrupt the blood-brain barrier, activate microglia, shunt tryptophan toward neurotoxic kynurenine metabolites, and impair BDNF-dependent neuroplasticity.",
+        "C": "Inflammation disrupts blood-brain barrier integrity, allowing peripheral immune signals to reach the CNS.",
+        "D": "Activated microglia promote a neurotoxic inflammatory milieu rather than delivering a burst of BDNF that reverses depression.",
+        "E": "Inflammation is associated with HPA axis activation and hypercortisolism, not suppression."
+      }
+    },
+    {
+      "id": "neuro-depression-020",
+      "question": "A 38-year-old woman with a first major depressive episode has taken escitalopram at the maximum tolerated dose for 4 weeks with no change whatsoever in her symptoms. She previously completed an 8-week trial of sertraline at maximum dose without benefit. She attends weekly psychotherapy, denies suicidal ideation, and has normal thyroid studies and metabolic panel. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Continue the current dose unchanged and reassess in 8 more weeks",
+        "B": "Discontinue psychotherapy and rely on pharmacotherapy alone",
+        "C": "Reduce the dose to improve tolerability and reassess in 4 weeks",
+        "D": "Refer to psychiatry for further evaluation and management",
+        "E": "Stop all treatment and observe for spontaneous remission"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The yield of continued waiting is low once there has been no response whatsoever at 4 weeks in the therapeutic dose range, and she has already failed a second agent.",
+        "B": "Combined medication and psychotherapy outperforms either alone, so psychotherapy should be continued.",
+        "C": "Lowering the dose below the therapeutic range in a non-responder is not indicated; she is tolerating the medication.",
+        "D": "Referral is warranted when there is no response after 4 weeks at maximum dose, after two agents have been tried, or when only partial remission is achieved by 8 weeks.",
+        "E": "Untreated episodes average about 4 months and carry a 2% lifetime risk of suicide completion, so withdrawing treatment is inappropriate."
+      }
+    }
+  ]
+}
