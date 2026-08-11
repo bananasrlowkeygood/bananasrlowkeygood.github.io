@@ -1,0 +1,413 @@
+{
+  "lecture": "The Neurological Exam, Part 1",
+  "block": "neuro",
+  "generated": "2026-08-10",
+  "questions": [
+    {
+      "id": "neuro-neurological-exam-part-1-001",
+      "question": "A 62-year-old man is brought in by his wife for 8 months of progressive apathy, poor judgment, and social disinhibition. On cranial nerve testing he correctly identifies ground coffee and vanilla when each vial is presented to the right nostril, but he cannot identify either odor when they are presented to the left nostril. Nasal examination shows no congestion, discharge, or mucosal edema. The remainder of the cranial nerve examination is normal. Which of the following is the most likely site of the lesion?",
+      "answers": {
+        "A": "Bilateral olfactory epithelium",
+        "B": "Left frontal lobe",
+        "C": "Left temporal lobe",
+        "D": "Nasal mucosa on the left",
+        "E": "Right frontal lobe"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bilateral epithelial injury, such as viral rhinitis, causes a symmetric overall reduction in smell rather than a strictly one-sided deficit.",
+        "B": "A unilateral frontal lobe tumor compresses the olfactory tract on the same side, producing ipsilateral anosmia, and the frontal location also accounts for his personality change.",
+        "C": "Temporal lobe lesions typically cause memory deficits or olfactory hallucinations during seizures, not loss of odor detection through one nostril.",
+        "D": "Local nasal disease would be apparent on examination as congestion or mucosal edema, and his nasal examination is normal.",
+        "E": "The olfactory pathway does not decussate before reaching the tract, so a right-sided lesion would impair smell in the right nostril."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-002",
+      "question": "A 34-year-old woman reports 6 months of amenorrhea, milky nipple discharge, and headaches. She has twice sideswiped cars while merging on the highway. Confrontation testing shows loss of vision in the temporal half of the field in each eye. Pupils are equal and briskly reactive, and funduscopic examination shows sharp optic disc margins bilaterally. Compression of which of the following structures best explains her visual findings?",
+      "answers": {
+        "A": "Left optic tract",
+        "B": "Optic chiasm",
+        "C": "Optic radiation in the temporal lobe",
+        "D": "Right optic nerve",
+        "E": "Superior colliculus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An optic tract lesion produces a homonymous hemianopsia affecting the same side of the visual field in both eyes, not both temporal fields.",
+        "B": "Crossing nasal retinal fibers at the chiasm carry the temporal fields, so external compression, classically by a pituitary tumor as her galactorrhea suggests, causes bitemporal hemianopsia.",
+        "C": "A temporal radiation lesion causes a contralateral superior quadrant defect confined to one side of the visual field.",
+        "D": "A single optic nerve lesion causes monocular vision loss with a reduced direct pupillary response in that eye.",
+        "E": "The superior colliculus mediates reflex eye movements, and its injury does not produce a visual field cut."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-003",
+      "question": "A 47-year-old man is evaluated 3 days after a fall in which he struck his forehead. He reports double vision that is worst when he walks down stairs and improves when he tilts his head toward the right shoulder. On examination the left eye fails to move downward and medially, while abduction and elevation are intact. Pupils are equal and reactive and there is no ptosis. Weakness of which of the following muscles best accounts for these findings?",
+      "answers": {
+        "A": "Inferior oblique",
+        "B": "Inferior rectus",
+        "C": "Lateral rectus",
+        "D": "Medial rectus",
+        "E": "Superior oblique"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The inferior oblique moves the eye upward, so its weakness limits elevation rather than depression of the adducted eye.",
+        "B": "The inferior rectus depresses the abducted eye, and its weakness would occur with other oculomotor deficits such as ptosis and a dilated pupil.",
+        "C": "Lateral rectus weakness produces failure of abduction with horizontal diplopia that worsens on gaze toward that side.",
+        "D": "Medial rectus weakness produces failure of adduction, whereas this patient adducts but cannot depress the adducted eye.",
+        "E": "The superior oblique, supplied by the trochlear nerve, moves the eye down and in, so its weakness causes vertical diplopia on downgaze relieved by head tilt away from the lesion."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-004",
+      "question": "A 71-year-old man with atrial fibrillation develops sudden right arm weakness and facial droop. The right corner of his mouth does not elevate when he smiles or bares his teeth. He wrinkles his forehead symmetrically on eyebrow elevation and closes both eyes tightly against resistance. Strength is 3/5 in the right arm and tone is increased at the right elbow. Which of the following is the most likely site of the lesion?",
+      "answers": {
+        "A": "Left facial nerve at the stylomastoid foramen",
+        "B": "Left motor cortex",
+        "C": "Right facial nerve at the stylomastoid foramen",
+        "D": "Right motor cortex",
+        "E": "Right pons at the facial nucleus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A lesion of the facial nerve after it exits the skull also weakens the forehead and eye closure, both of which are preserved here.",
+        "B": "The forehead receives bilateral cortical input while the lower face does not, so an upper motor neuron lesion causes contralateral lower facial droop with forehead sparing, and the right arm weakness with increased tone localizes to the left hemisphere.",
+        "C": "A right peripheral facial palsy would cause ipsilateral loss of brow wrinkling and inability to close the right eye.",
+        "D": "A right cortical lesion would weaken the left side of the face and the left arm.",
+        "E": "A lesion at the facial nucleus behaves like a peripheral palsy and involves the entire ipsilateral half of the face."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-005",
+      "question": "A 29-year-old woman awakens with left-sided facial weakness that progressed over 2 days. She cannot close her left eye completely and liquids dribble from the left corner of her mouth. The left nasolabial fold is flattened, brow wrinkling is markedly reduced on the left with eyebrow elevation, and taste is diminished on the left anterior tongue. Strength is 5/5 in all extremities and the remainder of the neurologic examination is normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Bell palsy",
+        "B": "Left trigeminal neuropathy",
+        "C": "Myasthenia gravis",
+        "D": "Right internal capsule infarct",
+        "E": "Right motor cortex infarct"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Acute unilateral peripheral facial palsy involving the forehead, eye closure, and ipsilateral anterior taste buds is Bell palsy, which has causes including herpes simplex virus and Lyme disease.",
+        "B": "The trigeminal nerve supplies facial sensation and the muscles of mastication, so its injury causes numbness and a weak bite rather than facial droop.",
+        "C": "Myasthenia gravis produces fatigable, usually bilateral ptosis and ocular weakness that fluctuates through the day.",
+        "D": "A capsular infarct spares the forehead and produces contralateral limb weakness, which she does not have.",
+        "E": "A cortical infarct also spares the forehead because of bilateral innervation and would not alter taste."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-006",
+      "question": "A 34-year-old man reports 3 days of fullness and decreased hearing in the left ear that began during a scuba dive. He denies vertigo, tinnitus, and ototoxic medication use. Tuning fork testing with a 512 Hz fork gives the results shown. Which of the following best explains his findings?",
+      "table": [
+        ["Test", "Result"],
+        ["Weber (512 Hz)", "Lateralizes to the left ear"],
+        ["Rinne, right ear", "Air conduction > bone conduction"],
+        ["Rinne, left ear", "Bone conduction > air conduction"]
+      ],
+      "answers": {
+        "A": "Left conductive hearing loss",
+        "B": "Left sensorineural hearing loss",
+        "C": "Normal hearing bilaterally",
+        "D": "Right conductive hearing loss",
+        "E": "Right sensorineural hearing loss"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Weber lateralizing to the symptomatic ear with bone conduction exceeding air conduction on that side indicates conductive loss, consistent with barotrauma to the tympanic membrane.",
+        "B": "Sensorineural loss lateralizes the Weber to the better ear and preserves air conduction greater than bone conduction on both sides.",
+        "C": "Normal testing gives a midline Weber with air conduction greater than bone conduction bilaterally.",
+        "D": "A right conductive loss would lateralize the Weber to the right and reverse the Rinne on the right.",
+        "E": "A right sensorineural loss would lateralize the Weber to the left but leave air conduction greater than bone conduction in both ears."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-007",
+      "question": "A 62-year-old woman completing a 3-week course of intravenous gentamicin for endocarditis reports difficulty hearing conversation on her right side. She has no ear pain, drainage, or trauma. Otoscopy shows intact, mobile tympanic membranes bilaterally. Tuning fork testing with a 512 Hz fork gives the results shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        ["Test", "Result"],
+        ["Weber (512 Hz)", "Lateralizes to the left ear"],
+        ["Rinne, right ear", "Air conduction > bone conduction"],
+        ["Rinne, left ear", "Air conduction > bone conduction"]
+      ],
+      "answers": {
+        "A": "Left conductive hearing loss",
+        "B": "Left sensorineural hearing loss",
+        "C": "Right conductive hearing loss",
+        "D": "Right sensorineural hearing loss",
+        "E": "Right tympanic membrane perforation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left conductive loss would lateralize the Weber to the left but would show bone conduction greater than air conduction on that side.",
+        "B": "The Weber lateralizes toward the better ear in sensorineural loss, so lateralization to the left points away from a left-sided lesion.",
+        "C": "A right conductive loss would lateralize the Weber to the right and reverse the Rinne on the right.",
+        "D": "Aminoglycosides are ototoxic, and sensorineural loss lateralizes the Weber to the good ear while preserving air conduction greater than bone conduction bilaterally.",
+        "E": "A perforation is a conductive lesion and would be visible on otoscopy, which is normal here."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-008",
+      "question": "A 67-year-old man is evaluated 3 weeks after resection of a right-sided neck mass. He reports that his voice sounds nasal and that he chokes on thin liquids, with particular difficulty producing the hard 'c' and 'k' sounds. The uvula deviates to the left when he phonates, and the gag reflex is diminished on the right. Tongue protrusion is midline and shoulder shrug is symmetric. Injury to which of the following is most likely?",
+      "answers": {
+        "A": "Facial and vestibulocochlear nerves",
+        "B": "Glossopharyngeal and vagus nerves",
+        "C": "Spinal accessory and hypoglossal nerves",
+        "D": "Trigeminal and facial nerves",
+        "E": "Vagus and hypoglossal nerves"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "These nerves govern facial movement and hearing, and their injury does not affect the palate or swallowing.",
+        "B": "The glossopharyngeal and vagus nerves are assessed together, and their injury causes uvular deviation, a diminished gag, soft palate dysfunction with hyponasal speech, and dysphagia.",
+        "C": "Accessory and hypoglossal injury would cause shoulder shrug weakness and tongue deviation, both absent here.",
+        "D": "Trigeminal and facial injury would cause facial numbness and facial droop rather than palatal weakness.",
+        "E": "Hypoglossal involvement would make the tongue deviate on protrusion, but his tongue is midline."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-009",
+      "question": "A 44-year-old man returns 1 week after excisional biopsy of a lymph node in the posterior triangle of the right neck. He reports aching in the right shoulder and difficulty lifting objects overhead. Shrug of the right shoulder is weak against resistance, the right scapula wings, and strength is reduced on head rotation against resistance. Sensation over the shoulder and lateral arm is intact. Injury to which of the following nerves is most likely?",
+      "answers": {
+        "A": "Left spinal accessory nerve",
+        "B": "Right axillary nerve",
+        "C": "Right long thoracic nerve",
+        "D": "Right spinal accessory nerve",
+        "E": "Right thoracodorsal nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left-sided injury would weaken the left trapezius and sternocleidomastoid rather than the right.",
+        "B": "Axillary injury causes deltoid weakness with numbness over the lateral shoulder, and sensation is intact here.",
+        "C": "Long thoracic injury causes scapular winging but does not weaken shoulder shrug or head rotation.",
+        "D": "The spinal accessory nerve runs superficially in the posterior triangle and supplies the trapezius and sternocleidomastoid, so injury causes weak shrug, winging, and reduced head rotation strength.",
+        "E": "Thoracodorsal injury weakens the latissimus dorsi, affecting arm adduction and extension rather than shrug."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-010",
+      "question": "A 59-year-old woman has 4 months of slurred speech with particular trouble producing 'la-la' and 'lu-lu' sounds. The right side of her tongue appears wasted and furrowed, and the tongue deviates toward the right on protrusion. Palate elevation is symmetric, the gag reflex is intact, and facial movement and shoulder shrug are normal. Which of the following is most likely affected?",
+      "answers": {
+        "A": "Left hypoglossal nerve",
+        "B": "Left vagus nerve",
+        "C": "Right glossopharyngeal nerve",
+        "D": "Right hypoglossal nerve",
+        "E": "Right vagus nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left hypoglossal lesion would cause deviation toward the left with left-sided tongue atrophy.",
+        "B": "Vagal injury affects the palate and voice, producing uvular deviation and hyponasal speech rather than tongue wasting.",
+        "C": "The glossopharyngeal nerve mediates the afferent limb of the gag and posterior tongue sensation, both intact here.",
+        "D": "The hypoglossal nerve supplies the tongue musculature, and the tongue deviates toward the side of damage with ipsilateral atrophy and lingual dysarthria.",
+        "E": "A right vagal lesion would cause uvular deviation and voice change without tongue atrophy."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-011",
+      "question": "A 58-year-old man is examined 2 weeks after an ischemic stroke. Testing of the right-sided muscle groups gives the findings shown. Using the 0 to 5 grading system, which of the following grades best describes the strength of his right deltoid?",
+      "table": [
+        ["Muscle group", "Finding on examination"],
+        ["Right deltoid", "Full abduction against gravity; collapses with any added resistance"],
+        ["Right biceps", "Flexion against gravity and a full hand of resistance"],
+        ["Right quadriceps", "Movement only when the limb is supported horizontally"],
+        ["Right gastrocnemius", "Visible muscle twitch without limb movement"]
+      ],
+      "answers": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A grade of 0 means no movement of any kind is produced.",
+        "B": "A grade of 1 describes a visible or palpable twitch without limb movement, as seen in his gastrocnemius.",
+        "C": "A grade of 2 means the limb moves only when gravity is eliminated, as seen in his quadriceps.",
+        "D": "A grade of 3 is full movement against gravity with no ability to hold against added resistance, which matches the deltoid finding.",
+        "E": "A grade of 4 requires the muscle to hold against two fingers of resistance, which the deltoid cannot do."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-012",
+      "question": "A 24-year-old man is evaluated after a motor vehicle collision, and imaging shows a T10 vertebral fracture. Strength is 5/5 in both upper extremities and 3/5 in both lower extremities; he lifts each leg off the bed but cannot hold it against resistance. The anal wink is present but diminished. Which of the following terms best describes his motor deficit?",
+      "answers": {
+        "A": "Hemiparesis",
+        "B": "Hemiplegia",
+        "C": "Paraparesis",
+        "D": "Paraplegia",
+        "E": "Quadriparesis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hemiparesis is weakness of the arm and leg on one side, usually from a contralateral cerebrovascular accident.",
+        "B": "Hemiplegia is complete paralysis of one side of the body rather than partial bilateral leg weakness.",
+        "C": "Paraparesis is weakness of both lower extremities and follows incomplete cord injury at the thoracic or lumbar level, with a diminished rather than absent anal wink.",
+        "D": "Paraplegia implies complete paralysis from a complete transection and is accompanied by an absent anal wink.",
+        "E": "Quadriparesis involves all four limbs and follows cervical rather than thoracic injury."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-013",
+      "question": "A 74-year-old woman with hypertension is found unable to move her left arm and leg. There is no movement in the left extremities even with gravity eliminated, tone at the left elbow and ankle is markedly increased, the left plantar response is extensor, and sustained clonus is elicited at the left ankle. Sensation is diminished on the left. Which of the following is the most likely site of the lesion?",
+      "answers": {
+        "A": "Left cerebral hemisphere",
+        "B": "Left peripheral nerves of the arm and leg",
+        "C": "Lumbar spinal cord",
+        "D": "Right cerebral hemisphere",
+        "E": "Thoracic spinal cord"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left hemispheric lesion produces right-sided findings because the corticospinal tract decussates in the brainstem.",
+        "B": "Peripheral nerve disease produces decreased tone, hyporeflexia, and a flexor plantar response.",
+        "C": "A lumbar cord lesion would affect the leg alone and spare the arm.",
+        "D": "Increased tone, an extensor plantar response, and clonus indicate upper motor neuron damage, and hemiplegia with these features localizes to the contralateral hemisphere, as in a cerebrovascular accident.",
+        "E": "A thoracic cord lesion would cause bilateral leg findings with normal upper extremities."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-014",
+      "question": "A 68-year-old man is evaluated for 1 year of slowness and a tremor of the right hand that is most noticeable when the hand rests in his lap. On passive flexion and extension of the right elbow the examiner feels a repeated ratcheting catch and release throughout the range of motion, and the resistance does not diminish as movement continues. His handwriting has become small and his face is expressionless. Which of the following best describes this tone abnormality?",
+      "answers": {
+        "A": "Clonus",
+        "B": "Cogwheel rigidity",
+        "C": "Contracture",
+        "D": "Hypotonia",
+        "E": "Spasticity"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Clonus is a rhythmic alternation of movement about a joint elicited by sudden passive stretch, not sustained ratcheting resistance.",
+        "B": "Cogwheel rigidity is a ratchety increase in tone felt throughout passive movement and is characteristic of basal ganglia disease such as Parkinson disease.",
+        "C": "Contracture is permanent tightening of muscle and surrounding tissue that shortens the joint and limits its range of motion.",
+        "D": "Hypotonia is inappropriately loose or floppy resistance about the joint and is typical of cerebellar disease.",
+        "E": "Spasticity begins with severe resistance that dramatically decreases as passive movement continues, a pattern absent here."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-015",
+      "question": "A 52-year-old man with a long history of heavy alcohol use is evaluated for clumsiness. Finger-to-nose testing on the left overshoots the target and a tremor increases as his finger approaches his nose. Rapid alternating hand movements are irregular on the left. Passive movement at the left wrist and elbow feels unusually loose, and the left arm swings excessively when the examiner rocks his shoulders. Which of the following is the most likely site of the lesion?",
+      "answers": {
+        "A": "Left cerebellar hemisphere",
+        "B": "Left internal capsule",
+        "C": "Left motor cortex",
+        "D": "Right cerebellar hemisphere",
+        "E": "Right motor cortex"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cerebellar lesions produce dysmetria, dysdiadochokinesis, intention tremor, and decreased tone all ipsilateral to the damage, matching his left-sided findings.",
+        "B": "Internal capsule lesions cause contralateral weakness with increased tone rather than hypotonia.",
+        "C": "A left motor cortex lesion would produce right-sided spastic weakness.",
+        "D": "Cerebellar signs do not cross, so a right-sided lesion would cause right-sided dysmetria and hypotonia.",
+        "E": "A right motor cortex lesion would cause left-sided weakness with increased tone and hyperreflexia, not loose tone with intention tremor."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-016",
+      "question": "A 66-year-old woman is evaluated 4 weeks after a right-sided cerebral infarct. Reflex testing gives the results shown, and eliciting the left patellar reflex also produces contraction of the right quadriceps. Tone is increased at the left elbow and the left plantar response is extensor. Which of the following best explains this reflex pattern?",
+      "table": [
+        ["Reflex", "Right", "Left"],
+        ["Biceps", "2+", "4+"],
+        ["Triceps", "2+", "4+"],
+        ["Quadriceps", "2+", "4+"],
+        ["Achilles", "2+", "4+ with clonus"]
+      ],
+      "answers": {
+        "A": "Cerebellar lesion",
+        "B": "Lower motor neuron lesion",
+        "C": "Peripheral polyneuropathy",
+        "D": "Primary muscle disease",
+        "E": "Upper motor neuron lesion"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cerebellar disease produces hypotonia and pendular reflexes without clonus or an extensor plantar response.",
+        "B": "Lower motor neuron injury produces hyporeflexia graded 1+ or 0 that persists even after the Jendrassik maneuver.",
+        "C": "Polyneuropathy causes symmetric distal loss of reflexes, typically beginning with absent ankle jerks.",
+        "D": "Primary muscle disease causes weakness with reflexes that are normal or reduced rather than brisk with clonus.",
+        "E": "Reflexes graded 4+ with clonus and cross-over to the opposite side, together with increased tone and an extensor plantar response, are hallmarks of upper motor neuron damage contralateral to the lesion."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-017",
+      "question": "A 58-year-old woman with hypothyroidism is evaluated for fatigue. On initial testing the patellar reflex cannot be elicited on either side. The examiner asks her to clasp her hands together and pull them apart while the tendon is struck again, and a minimal contraction of the quadriceps without any movement of the knee is now seen bilaterally. Which of the following grades should be documented for her patellar reflexes?",
+      "answers": {
+        "A": "0",
+        "B": "1+",
+        "C": "2+",
+        "D": "3+",
+        "E": "4+"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A grade of 0 is reserved for a reflex that remains absent even after reinforcement, and hers appeared.",
+        "B": "The Jendrassik maneuver reinforces the reflex, and when a response then appears the reflex is truly 1+, defined as minimal muscle contraction without joint movement.",
+        "C": "A grade of 2+ requires muscle contraction with mild movement of the joint, which did not occur.",
+        "D": "A grade of 3+ requires significant contraction with brisk joint movement.",
+        "E": "A grade of 4+ requires brisk movement with clonus or cross-over to the contralateral side."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-018",
+      "question": "A 41-year-old man reports 6 weeks of buttock pain radiating down the right leg and, more recently, tripping on rugs. When he walks he lifts the right knee unusually high and the right foot slaps the floor on contact, and he cannot walk on his right heel. Strength is reduced in right ankle dorsiflexion and toe extension, and sensation is diminished over the dorsum of the right foot. Which of the following nerves is most likely involved?",
+      "answers": {
+        "A": "Common peroneal nerve",
+        "B": "Femoral nerve",
+        "C": "Obturator nerve",
+        "D": "Sural nerve",
+        "E": "Tibial nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The common peroneal nerve supplies the tibialis anterior and toe extensors, and its injury causes foot drop with the high-stepping, foot-slapping steppage gait described.",
+        "B": "Femoral nerve injury weakens knee extension and reduces the patellar reflex, causing the knee to buckle rather than the foot to drop.",
+        "C": "Obturator nerve injury weakens thigh adduction and causes the leg to swing outward during walking.",
+        "D": "The sural nerve is purely sensory to the lateral foot, so its injury produces no weakness.",
+        "E": "Tibial nerve injury weakens plantarflexion and inversion, so the patient cannot walk on the toes rather than the heels."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-019",
+      "question": "A 22-year-old man with spastic cerebral palsy walks slowly and stiffly, advancing each leg with effort so that his thighs cross in front of one another with each step and his knees rub together. His steps are short and he appears to be wading through water. Tone is increased in both lower extremities with prominent adductor spasm, and both plantar responses are extensor. Which of the following best describes his gait?",
+      "answers": {
+        "A": "Ataxic gait",
+        "B": "Parkinsonian gait",
+        "C": "Scissors gait",
+        "D": "Spastic hemiparetic gait",
+        "E": "Steppage gait"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ataxic gait is wide based and staggering with exaggerated difficulty on turns, the opposite of this narrow crossing pattern.",
+        "B": "Parkinsonian gait is stooped and shuffling with short hastening steps and decreased arm swing, without adductor crossing.",
+        "C": "Bilateral lower extremity spasticity with adductor spasm makes the thighs cross forward with each step, producing the scissors gait seen most commonly in cerebral palsy.",
+        "D": "Spastic hemiparesis affects one side, with the arm flexed and held close to the body and the affected leg circumducted.",
+        "E": "Steppage gait involves lifting the knee high and slapping the foot because of foot drop, not crossing of the thighs."
+      }
+    },
+    {
+      "id": "neuro-neurological-exam-part-1-020",
+      "question": "A 70-year-old man with long-standing diabetes reports 1 year of unsteadiness that is much worse in dim light and when he showers with his eyes closed. He walks with his feet wide apart, throwing them forward and outward and bringing them down heels first with a double tapping sound while watching the ground. Vibration sense tested with a 256 Hz tuning fork is absent at both great toes and position sense is impaired. With his feet together and eyes closed he sways and nearly falls. Finger-to-nose testing is accurate and there is no nystagmus. Which of the following best explains his gait?",
+      "answers": {
+        "A": "Cerebellar ataxia from degeneration of the cerebellum",
+        "B": "Parkinsonian gait from basal ganglia degeneration",
+        "C": "Scissors gait from bilateral corticospinal spasticity",
+        "D": "Sensory ataxia from dorsal column dysfunction",
+        "E": "Steppage gait from bilateral peroneal nerve palsy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cerebellar ataxia does not improve with visual cues and is accompanied by dysmetria, nystagmus, and intention tremor, all absent here.",
+        "B": "Parkinsonian gait is narrow based with shuffling hastening steps rather than a wide-based, foot-slapping pattern.",
+        "C": "Scissors gait shows stiff crossing legs from increased tone, not loss of vibration and position sense.",
+        "D": "Loss of proprioception and vibration from dorsal column dysfunction gives a wide-based gait that depends on vision, so it worsens markedly with the eyes closed, producing a positive Romberg sign.",
+        "E": "Peroneal palsy causes foot drop with the toes striking first, whereas this patient strikes heel first with preserved dorsiflexion."
+      }
+    }
+  ]
+}

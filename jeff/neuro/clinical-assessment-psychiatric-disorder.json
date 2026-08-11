@@ -1,0 +1,417 @@
+{
+  "lecture": "Clinical Assessment of a Patient with a Psychiatric Disorder",
+  "block": "neuro",
+  "generated": "2026-08-10",
+  "questions": [
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-001",
+      "question": "A 26-year-old professional violinist enrolls in an imaging study of cortical organization. She began daily practice at age 5 and now practices 4 hours per day. Functional imaging shows that the somatosensory cortical representation of the digits of her left (fingering) hand is substantially larger than that of age-matched non-musician controls, whereas the representation of her right (bowing) hand is comparable to controls. Neurologic examination is normal. Which of the following best explains this asymmetric finding?",
+      "answers": {
+        "A": "Activity-dependent reorganization of existing cortical connections",
+        "B": "Apoptosis of underused cortical neurons within the right hemisphere",
+        "C": "Genetically programmed expansion of the sensory homunculus",
+        "D": "Migration of neural crest cells into the somatosensory cortex",
+        "E": "Postnatal proliferation of neurons within primary motor cortex"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Neuroplasticity is the brain's ability to make or reorganize connections in response to learning, practice, and experience, which is why only the hand receiving repeated fine-motor and sensory input shows cortical expansion.",
+        "B": "Cell death in the contralateral hemisphere would predict a smaller-than-control representation of the bowing hand, but that hand's representation is equal to controls.",
+        "C": "Genetic programming establishes the basic somatotopic map but cannot anticipate an individual's instrument-specific practice history, which is precisely the point of plasticity.",
+        "D": "Neural crest cells give rise to peripheral structures such as dorsal root ganglia and Schwann cells, not to cortical neurons, and this migration occurs only in embryogenesis.",
+        "E": "Cortical map expansion in adults reflects synaptic and dendritic reorganization rather than large-scale generation of new cortical neurons."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-002",
+      "question": "An 8-year-old boy is evaluated for declining school performance one year after being removed from a home characterized by chronic neglect and repeated exposure to domestic violence. Teachers report he cannot follow multi-step instructions and does not retain material learned the previous day. He is well nourished, and physical and neurologic examinations are normal. MRI of the brain shows reduced hippocampal volume without focal lesions. Which of the following best explains his memory difficulties?",
+      "answers": {
+        "A": "Demyelination of the fornix due to thiamine deficiency",
+        "B": "Dopaminergic hyperactivity within the mesolimbic pathway",
+        "C": "Failure of neural tube closure in the fourth week of gestation",
+        "D": "Loss of cholinergic neurons in the nucleus basalis of Meynert",
+        "E": "Sustained glucocorticoid excess altering hippocampal structure"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Thiamine deficiency can damage mammillary bodies and the fornix, but this well-nourished child has no dietary or malabsorptive risk factor.",
+        "B": "Mesolimbic dopaminergic hyperactivity is associated with positive psychotic symptoms, not with isolated impairment of learning and memory.",
+        "C": "Neural tube closure defects produce structural malformations such as spina bifida or anencephaly, not selective hippocampal volume loss appearing years later.",
+        "D": "Cholinergic loss in the nucleus basalis is characteristic of Alzheimer disease in older adults and is not a consequence of childhood adversity.",
+        "E": "Adverse childhood events dysregulate the neurobiological stress response, and excess stress hormones produce hippocampal changes that impair learning and memory."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-003",
+      "question": "A 6-year-old girl is brought to the pediatrician by her mother, who reports that she and the child's father have separated and are divorcing. Over the past month the child has begun wetting the bed, refuses to sleep alone, and cries at school drop-off. Her 10-year-old brother, exposed to the same events, has had no change in behavior or school performance. Physical examination and urinalysis are normal. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Defer any intervention until symptoms persist beyond twelve months",
+        "B": "Obtain MRI of the brain to assess for reduced hippocampal volume",
+        "C": "Provide supportive counseling now and coordinate school-based support",
+        "D": "Reassure the mother that childhood stress rarely affects development",
+        "E": "Start a low-dose selective serotonin reuptake inhibitor at today's visit"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Delaying support allows ongoing stress to act on a developing brain; the key principle is to treat or anticipate trauma as early as possible.",
+        "B": "Imaging would not change management in a child with a normal examination and a clear psychosocial precipitant.",
+        "C": "Early support systems for a child undergoing a stressful event such as parental divorce are the intervention that best mitigates the developmental effects of adversity.",
+        "D": "Childhood adversity demonstrably alters stress-response circuitry and brain development, so this reassurance is inaccurate.",
+        "E": "Pharmacotherapy is not first-line for an age-appropriate adjustment reaction with an identifiable stressor and no depressive or anxiety disorder."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-004",
+      "question": "A 34-year-old man establishes care with a 60-year-old male internist for hypertension. At the second visit, the physician calmly suggests changing his antihypertensive, and the patient becomes irritable, raises his voice, and says, \"You always think you know what's best for me.\" Afterward he tells the nurse that the physician reminds him of his father, with whom he argued constantly throughout childhood. The physician has been neutral and unhurried throughout both visits. Which of the following best describes the patient's reaction?",
+      "answers": {
+        "A": "Conversion",
+        "B": "Countertransference",
+        "C": "Displacement",
+        "D": "Sublimation",
+        "E": "Transference"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Conversion refers to an unconscious conflict expressed as a physical symptom such as paralysis or blindness, which is absent here.",
+        "B": "Countertransference describes the clinician's unconscious reaction to the patient; here the physician's behavior has been neutral.",
+        "C": "Displacement redirects feelings from their true object onto a substitute target, but here the feelings toward the physician derive specifically from a formative early relationship.",
+        "D": "Sublimation channels unacceptable impulses into socially productive activity, which is not what is occurring.",
+        "E": "Transference is the unconscious redirection of feelings, expectations, and reactions from an important figure in one's past onto a person in the present, classically the treating physician."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-005",
+      "question": "A third-year medical student is caring for a 19-year-old woman with an opioid use disorder. The student notices she feels unusually protective of this patient, extends her visits well beyond the allotted time, omits the patient's missed appointments from her notes, and feels irritated with the attending physician who sets limits. The student's younger sister has a similar substance use history. Which of the following best describes the student's reaction?",
+      "answers": {
+        "A": "Countertransference",
+        "B": "Displacement",
+        "C": "Projection",
+        "D": "Sublimation",
+        "E": "Transference"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Countertransference is the clinician's own unconscious feelings and reactions toward a patient, shaped by the clinician's past relationships, and it is affecting her documentation and boundaries.",
+        "B": "Displacement would involve shifting an emotion onto a substitute target rather than experiencing feelings from a past relationship within the treatment relationship itself.",
+        "C": "Projection attributes one's own unacceptable feelings to another person, which does not describe her protectiveness and boundary loosening.",
+        "D": "Sublimation converts unacceptable impulses into constructive activity; here the reaction is degrading rather than improving clinical care.",
+        "E": "Transference denotes the patient's reaction toward the clinician; the reaction under discussion belongs to the student."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-006",
+      "question": "A psychiatry resident recognizes that he consistently ends sessions early with a 45-year-old man whose speech and manner remind him of a former employer he resented. He has begun screening the patient's phone calls and feels tense before each appointment. The patient's depressive symptoms have not improved over eight weeks of treatment. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Disclose to the patient that he dislikes him and offer an apology",
+        "B": "Discuss the reaction in supervision and continue treating the patient",
+        "C": "Refer the patient elsewhere without examining his own reaction",
+        "D": "Suppress the reaction and lengthen visits without further reflection",
+        "E": "Terminate treatment and document the patient as nonadherent to his care"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Unfiltered disclosure of the clinician's negative feelings burdens the patient and does not address the unconscious origin of the reaction.",
+        "B": "Supervision is the standard mechanism for making countertransference conscious, so that it informs rather than distorts care and treatment can continue effectively.",
+        "C": "Referral without reflection leaves the pattern unexamined and likely to recur with future patients.",
+        "D": "Suppressing the reaction keeps it unconscious, where it will continue to direct behavior such as early session endings and call avoidance.",
+        "E": "Mislabeling the patient as nonadherent attributes the clinician's difficulty to the patient and creates an inaccurate record."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-007",
+      "question": "A 32-year-old woman's uncle, who raised her after her parents died, dies suddenly of a coronary embolism. She and her uncle had shared a passion for distance running. Over the following six months she trains for and completes a half-marathon that raises money for coronary embolism research. She describes periods of sadness and misses her uncle, but sleeps well, works full time, and maintains her friendships. Which of the following defense mechanisms is she using?",
+      "answers": {
+        "A": "Denial",
+        "B": "Displacement",
+        "C": "Projection",
+        "D": "Reaction formation",
+        "E": "Sublimation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Denial would involve refusing to accept that her uncle died; she acknowledges the loss and describes sadness.",
+        "B": "Displacement would redirect her grief or anger onto an unrelated target such as the treating medical team.",
+        "C": "Projection would mean attributing her own unacceptable feelings to someone else, which she is not doing.",
+        "D": "Reaction formation transforms an impulse into its opposite, such as expressing exaggerated affection for someone she resents.",
+        "E": "Sublimation substitutes a socially acceptable and productive action for a painful or unacceptable impulse, and is among the most adaptive defenses."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-008",
+      "question": "A 40-year-old man's uncle dies during a hospitalization for pneumonia. Two days later the man telephones the intensive care unit repeatedly, screams at the charge nurse, and threatens to sue for negligent care. Chart review by an independent reviewer shows that care met the standard at every stage. When asked about his uncle, the man states that he is \"not upset\" and \"doesn't have time to be sad.\" Which of the following defense mechanisms best explains his behavior?",
+      "answers": {
+        "A": "Denial",
+        "B": "Displacement",
+        "C": "Humor",
+        "D": "Identification",
+        "E": "Sublimation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Denial alone would mean disavowing the death itself rather than directing intense affect at a substitute target.",
+        "B": "Displacement shifts unacceptable feelings, here grief and helpless rage about the loss, onto a less threatening target such as the treating team.",
+        "C": "Humor would use comedy to tolerate the painful affect and is generally an adaptive defense.",
+        "D": "Identification would involve unconsciously taking on characteristics of the deceased, such as adopting his mannerisms or occupation.",
+        "E": "Sublimation would channel the grief into a constructive act such as fundraising or volunteering, not into unfounded accusations."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-009",
+      "question": "A 23-year-old medical student works for three hours on a difficult physiology problem without success. She stops, goes for a walk, and sleeps a full night without thinking about the material. The next morning, while making breakfast, the solution comes to her fully formed. She reports no deliberate effort to work on the problem during that interval. Which of the following best explains her experience?",
+      "answers": {
+        "A": "Automatic processing outside awareness during an incubation period",
+        "B": "Explicit verbal rehearsal of the material during focused study time",
+        "C": "Regression to an earlier stage of cognitive and emotional function",
+        "D": "Retrograde amnesia for her initial attempts at solving the problem",
+        "E": "Voluntary suppression of the problem from her conscious awareness"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The unconscious includes mental activity occurring without any awareness; creative solutions frequently emerge after an incubation period involving sleep or a different, non-demanding task.",
+        "B": "She specifically did not rehearse the material, and conscious rehearsal was the strategy that had already failed.",
+        "C": "Regression describes a retreat to earlier developmental behavior under stress, not the emergence of a solution.",
+        "D": "She recalls her prior attempts, so there is no amnesia for the earlier period.",
+        "E": "Suppression is a conscious, deliberate act of putting something out of mind; the processing here occurred without her awareness or intent."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-010",
+      "question": "A 29-year-old woman is brought to the emergency department by her partner because of sudden inability to move her right arm, which began during an argument between them. She appears calm and is not distressed by the deficit. On examination the arm is flaccid, but the pattern of weakness does not conform to any peripheral nerve or nerve root distribution; reflexes are symmetric, tone is normal, and there is no muscle atrophy. Laboratory studies and imaging are shown. On further history she recalls a fleeting wish to strike her partner during the argument. Which of the following is the most likely diagnosis?",
+      "table": [
+        ["Study", "Result", "Reference Range"],
+        ["Hemoglobin", "13.4 g/dL", "12.0-16.0 g/dL"],
+        ["Leukocyte count", "7,200/mm3", "4,500-11,000/mm3"],
+        ["Sodium", "139 mEq/L", "135-145 mEq/L"],
+        ["Creatinine", "0.8 mg/dL", "0.6-1.2 mg/dL"],
+        ["Creatine kinase", "88 U/L", "30-170 U/L"],
+        ["CT of the head", "No acute abnormality", "-"]
+      ],
+      "answers": {
+        "A": "Factitious disorder imposed on self",
+        "B": "Functional neurological symptom disorder",
+        "C": "Guillain-Barre syndrome",
+        "D": "Malingering",
+        "E": "Transient ischemic attack"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Factitious disorder requires intentional falsification of symptoms to assume the sick role; here the symptom is not consciously produced.",
+        "B": "Conversion presents as a neurologic deficit that is incompatible with known anatomy and arises when an unacceptable unconscious wish is expressed as a physical symptom, which the paralysis conveniently prevents her from enacting.",
+        "C": "Guillain-Barre syndrome causes ascending, symmetric weakness with diminished or absent reflexes, not an isolated unilateral arm deficit with normal reflexes.",
+        "D": "Malingering requires conscious symptom production for an identifiable external incentive such as money, medication, or avoidance of duty.",
+        "E": "A transient ischemic attack produces a deficit in a vascular territory with a corresponding upper motor neuron pattern and typically resolves within an hour."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-011",
+      "question": "A 55-year-old man is seen in clinic and reports two weeks of substernal chest pressure that occurs when he climbs stairs and resolves with rest. He also says he has been \"on edge\" since losing his job last month. On examination his heart sounds are regular without murmurs and his lungs are clear to auscultation bilaterally. A medical student is drafting the visit note. In which section of the SOAP note should the chest pressure be documented?",
+      "answers": {
+        "A": "Assessment",
+        "B": "Objective",
+        "C": "Past medical history",
+        "D": "Plan",
+        "E": "Subjective"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The assessment contains the clinician's synthesis, including the differential diagnosis, rather than the raw symptom as reported.",
+        "B": "The objective section contains findings the clinician elicits or measures, such as the normal cardiac and pulmonary examination in this encounter.",
+        "C": "Past medical history captures established prior diagnoses, not a new two-week symptom bringing him in today.",
+        "D": "The plan describes what will be done for each problem, such as ordering an ECG or stress testing.",
+        "E": "Symptoms reported by the patient, including chest pain and how he is feeling mentally or physically, belong in the subjective section."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-012",
+      "question": "A 47-year-old woman presents for follow-up. She states that she has felt \"hopeless\" for three weeks, reports poor sleep for the past month, says she feels like a burden to her family, and mentions that she is worried about the cost of her medication. During the 30-minute interview she makes minimal eye contact, speaks slowly with long latencies, and her facial expression varies little. Her vital signs are shown. Which of the following belongs in the Objective section of the note?",
+      "table": [
+        ["Vital Sign", "Value", "Reference Range"],
+        ["Temperature", "36.8 C", "36.5-37.5 C"],
+        ["Heart rate", "72/min", "60-100/min"],
+        ["Blood pressure", "118/74 mm Hg", "<120/80 mm Hg"],
+        ["Respiratory rate", "14/min", "12-20/min"]
+      ],
+      "answers": {
+        "A": "Complaint of poor sleep over the past month",
+        "B": "Observed restricted affect and psychomotor slowing",
+        "C": "Patient's stated concern about the cost of her medication",
+        "D": "Reported feeling of hopelessness over the past three weeks",
+        "E": "Statement that she feels like a burden at home"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Sleep difficulty as reported by the patient is subjective data even though it carries diagnostic weight.",
+        "B": "The mental status examination is a subset of the physical examination, so findings the clinician directly observes, such as affect and psychomotor activity, are documented as objective data alongside vital signs.",
+        "C": "A concern voiced by the patient, including medication-related issues, is reported information and therefore subjective.",
+        "D": "Hopelessness is the patient's stated internal experience, which is recorded as her stated mood in the subjective section.",
+        "E": "A statement about feeling like a burden is something the patient reports rather than something the examiner observes."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-013",
+      "question": "A 38-year-old man is evaluated after his wife expressed concern about his behavior. When asked how he has been feeling, he replies, \"I feel fine, doc, nothing's wrong.\" Throughout the 30-minute interview his facial expression does not change, he does not smile even while describing his daughter's wedding last month, and his voice remains monotone. Which of the following is the most accurate way to document these findings?",
+      "answers": {
+        "A": "Mood: dysphoric; Affect: labile and rapidly shifting",
+        "B": "Mood: euthymic; Affect: full range and reactive",
+        "C": "Mood: \"fine\"; Affect: constricted and monotone",
+        "D": "Mood: flat; Affect: reported as \"fine\" by patient",
+        "E": "Mood: irritable; Affect: expansive and elevated"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Dysphoric mood would require the patient to state that he feels low, and labile affect implies rapid observable shifts, which are absent.",
+        "B": "Euthymic mood is a clinician inference rather than his stated mood, and his affect is clearly not full or reactive.",
+        "C": "Mood is documented as the patient's own stated emotional state, ideally in quotation marks, whereas affect is the examiner's description of the observed emotional expression.",
+        "D": "This reverses the two terms: flatness describes observed expression, and \"fine\" is what the patient reported.",
+        "E": "Irritability and expansive affect would be evidenced by anger or heightened emotional display, neither of which is described."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-014",
+      "question": "A 62-year-old woman is asked during an interview where she currently lives. She responds with a detailed account of the house she grew up in, her move after marriage, the names of several former neighbors, and the grocery store on her old block, and then, after several minutes and without prompting, states her current address correctly. She is not distractible and her speech is normal in rate and volume. Which of the following best describes her thought process?",
+      "answers": {
+        "A": "Blocking",
+        "B": "Circumstantial",
+        "C": "Flight of ideas",
+        "D": "Loose associations",
+        "E": "Tangential"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Blocking is an abrupt interruption of the train of thought mid-sentence, after which the patient cannot recover the thought.",
+        "B": "Circumstantial thought includes excessive and unnecessary detail but eventually reaches the intended goal, which is exactly what occurred.",
+        "C": "Flight of ideas involves rapid shifts between loosely connected topics, usually with pressured speech, which is absent here.",
+        "D": "Loose associations involve shifts between ideas with no discernible logical connection, and she never returns to the point.",
+        "E": "Tangential speech veers away from the question and never arrives at the answer, whereas she ultimately provided her address."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-015",
+      "question": "A 24-year-old man is evaluated in the emergency department after his roommate reported five days of unusual behavior. He has slept about two hours per night, talks rapidly and continuously about several business ventures, and cannot be interrupted even when the examiner attempts to redirect him. The attending asks the medical student to document the speech finding in plain descriptive language. Which of the following is the most appropriate documentation?",
+      "answers": {
+        "A": "\"Manic speech pattern consistent with underlying bipolar disorder\"",
+        "B": "\"Patient exhibits marked logorrhea with psychomotor acceleration\"",
+        "C": "\"Patient has pressured speech throughout the entire evaluation\"",
+        "D": "\"Patient speaks rapidly and loudly and is difficult to interrupt\"",
+        "E": "\"Speech is bizarre and abnormal in a way that is hard to describe\""
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This states a diagnosis rather than an observation and belongs in the assessment, not in the description of the examination finding.",
+        "B": "Layered technical terms obscure what was actually observed and make the note less useful to the next reader.",
+        "C": "\"Pressured speech\" is correct jargon and should be understood, but the preferred documentation describes the finding in ordinary words.",
+        "D": "Describing findings in plain, specific language allows any reader to picture the patient in that moment, which is the goal of the mental status examination.",
+        "E": "\"Bizarre\" is a vague, judgment-laden label that conveys no observable detail."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-016",
+      "question": "A 58-year-old man with a long history of schizophrenia is interviewed on the inpatient unit. He states that he has never had a mental illness, that his hospitalizations were arranged by his family for their own reasons, and that he does not need medication. When asked what he would do if he smelled smoke in a crowded theater, he replies that he would tell the people around him and leave through the nearest exit. He denies suicidal and homicidal ideation. Which of the following best characterizes these findings?",
+      "answers": {
+        "A": "Insight and judgment cannot be assessed in this setting",
+        "B": "Insight good; judgment good",
+        "C": "Insight good; judgment poor",
+        "D": "Insight poor; judgment intact",
+        "E": "Insight poor; judgment poor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Both domains were assessed directly: he commented on his illness and answered a hypothetical safety scenario.",
+        "B": "Insight is not good, because he does not recognize that he has an illness or that treatment affects his functioning.",
+        "C": "This reverses the findings, since his hypothetical decision-making was appropriate.",
+        "D": "Insight refers to the patient's understanding of his own illness and functioning, which is impaired, while judgment refers to the capacity to make sound decisions for self and others, which he demonstrated.",
+        "E": "Judgment is not poor; his response to the safety scenario was appropriate and protective of himself and others."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-017",
+      "question": "A 71-year-old man is brought to clinic by his daughter because of concerns about his thinking. He is alert and cooperative. Bedside testing results are shown. He recalls three of three words after five minutes, correctly names the current president, and states his own name, the hospital, and the date without error. Which component of the mental status examination is most clearly impaired?",
+      "table": [
+        ["Task", "Patient's Response"],
+        ["Spell \"world\" backward", "D-R-O-W-L (two errors)"],
+        ["Serial 7s from 100", "93, 85, 79, 71 (multiple errors)"],
+        ["Recall of three words at 5 minutes", "3 of 3 correct"],
+        ["Orientation to person, place, and date", "Fully oriented"]
+      ],
+      "answers": {
+        "A": "Insight",
+        "B": "Orientation",
+        "C": "Recent memory",
+        "D": "Sustained attention and concentration",
+        "E": "Thought content"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Insight concerns the patient's awareness of his own illness and is not tested by serial subtraction or reverse spelling.",
+        "B": "Orientation to person, place, and date is intact based on his accurate responses.",
+        "C": "Recent memory is intact, demonstrated by recall of all three words at five minutes.",
+        "D": "Reverse spelling of \"world\" and serial 7s are the standard bedside tests of attention and concentration, and errors on both localize the deficit to this domain.",
+        "E": "Thought content refers to what the patient is thinking about, including suicidal or homicidal ideation and delusions, which was not the subject of these tasks."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-018",
+      "question": "A 45-year-old man is admitted after his last alcoholic drink approximately 48 hours ago. He reports seeing insects crawling across the wall of his room and states that he can feel them moving on his forearms, although the nurse and physician see nothing. He is tremulous and diaphoretic. Vital signs are shown. Which of the following best describes his perceptual disturbances?",
+      "table": [
+        ["Vital Sign", "Value", "Reference Range"],
+        ["Temperature", "38.1 C", "36.5-37.5 C"],
+        ["Heart rate", "118/min", "60-100/min"],
+        ["Blood pressure", "168/98 mm Hg", "<120/80 mm Hg"],
+        ["Respiratory rate", "22/min", "12-20/min"]
+      ],
+      "answers": {
+        "A": "Auditory and tactile hallucinations",
+        "B": "Illusions and depersonalization",
+        "C": "Olfactory and gustatory hallucinations",
+        "D": "Visual and olfactory hallucinations",
+        "E": "Visual and tactile hallucinations"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "There is no report of hearing voices or sounds, so the auditory modality is not involved.",
+        "B": "An illusion is a misperception of a real external stimulus, and depersonalization is a sense of detachment from oneself; neither is described.",
+        "C": "No abnormal smells or tastes are reported by the patient.",
+        "D": "Although the visual component is correct, the olfactory modality is not involved in this presentation.",
+        "E": "Seeing insects that are not present is a visual hallucination and feeling them on the skin is a tactile hallucination, a combination classically seen in alcohol withdrawal."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-019",
+      "question": "A medical student evaluates a 52-year-old immigrant house painter in the emergency department. The patient is wearing a religious head covering and work clothes marked with dried paint, and his hair is braided in a style unfamiliar to the student. There is no malodor, his hands and nails are clean, and he states he came directly from a job site. The student's draft note begins by describing the patient as \"disheveled.\" Which of the following is the most appropriate documentation of appearance?",
+      "answers": {
+        "A": "\"Appears disheveled and poorly groomed throughout the entire interview\"",
+        "B": "\"Appears unkempt, consistent with self-neglect and possible depression\"",
+        "C": "\"Bizarre appearance with culturally atypical dress and unusual hairstyle\"",
+        "D": "\"Wearing paint-stained work clothing and a head covering; hair braided\"",
+        "E": "\"Well-groomed and appropriately dressed for a professional office setting\""
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "\"Disheveled\" is a conclusion rather than an observation, and it is contradicted by the absence of malodor and the clean hands and nails.",
+        "B": "This compounds a judgment about grooming with an unsupported inference about a psychiatric diagnosis.",
+        "C": "Labeling dress as bizarre because it differs from the examiner's expectations communicates bias rather than clinical information.",
+        "D": "Documentation of appearance should record what was actually seen in specific, neutral terms, so that another clinician could recognize the patient without inheriting the writer's assumptions.",
+        "E": "This substitutes a favorable conclusion for an observation and still fails to describe anything the next reader could verify."
+      }
+    },
+    {
+      "id": "neuro-clinical-assessment-psychiatric-disorder-020",
+      "question": "A 35-year-old man presents because three long-term relationships have ended in the same way. He reports that when a partner takes care of him he feels weak and \"less of a man,\" and he then becomes distant and provokes arguments until the relationship ends. He cannot explain why this happens and says he genuinely wants to be close to someone. He has no phobias, compulsions, or discrete panic attacks, and he wishes to understand the pattern rather than simply reduce a symptom. Which of the following treatments is most appropriate?",
+      "answers": {
+        "A": "Behavioral activation with structured activity scheduling",
+        "B": "Exposure and response prevention therapy sessions",
+        "C": "Insight-oriented psychodynamic psychotherapy",
+        "D": "Motivational interviewing for ambivalence",
+        "E": "Systematic desensitization with relaxation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Behavioral activation targets withdrawal and inactivity in depression by scheduling rewarding activities, not conflicting beliefs outside of awareness.",
+        "B": "Exposure and response prevention is the treatment of obsessive-compulsive disorder, and he has no obsessions or compulsions.",
+        "C": "Insight-oriented therapy explores unconscious material, such as the conflict between wanting to feel cared for and needing to feel self-sufficient, so that the patient can recognize and relinquish a self-defeating pattern; this learning within a therapeutic relationship itself produces change through neuroplasticity.",
+        "D": "Motivational interviewing addresses ambivalence about changing a specific behavior, typically substance use, and he is already motivated.",
+        "E": "Systematic desensitization treats phobic anxiety through graded exposure paired with relaxation, which does not apply to this presentation."
+      }
+    }
+  ]
+}
