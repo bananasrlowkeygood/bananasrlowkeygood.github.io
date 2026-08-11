@@ -1,0 +1,418 @@
+{
+  "lecture": "Motor Pathways",
+  "block": "neuro",
+  "generated": "2026-08-10",
+  "questions": [
+    {
+      "id": "neuro-motor-pathways-001",
+      "question": "A 68-year-old man with atrial fibrillation develops sudden weakness of the left lower face and left arm. Strength in the left leg is nearly normal. Deep tendon reflexes are brisk in the left biceps and triceps, and pinprick sensation is intact throughout. CT angiography shows an abrupt cutoff of a single cortical branch vessel coursing over the lateral convexity of the right hemisphere near the central sulcus. Occlusion of which vessel best explains this presentation?",
+      "answers": {
+        "A": "Anterior spinal artery",
+        "B": "Callosomarginal branch of the right anterior cerebral artery",
+        "C": "Lenticulostriate branches of the right middle cerebral artery",
+        "D": "Recurrent artery of Heubner on the right",
+        "E": "Rolandic branch of the right middle cerebral artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior spinal artery supplies the medulla and the anterior two-thirds of the spinal cord; occlusion would cause bilateral limb weakness with loss of pain and temperature, not isolated face and arm involvement.",
+        "B": "The callosomarginal branch supplies the medial precentral gyrus, so occlusion produces contralateral lower limb and trunk weakness with sparing of the face and hand.",
+        "C": "Lenticulostriate occlusion infarcts the internal capsule and basal nuclei, producing a dense contralateral face, arm, and leg pure motor hemiparesis rather than leg sparing.",
+        "D": "The recurrent artery of Heubner supplies the anterior striatum and much of the nucleus accumbens, not the lateral precentral gyrus.",
+        "E": "Correct: the Rolandic branch of the MCA supplies the lateral precentral gyrus, where face and upper limb are represented on the motor homunculus, while the medially represented leg is perfused by the ACA and is spared."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-002",
+      "question": "A 72-year-old woman with hyperlipidemia is brought in after her family noticed she was dragging her right leg. On examination she has 3/5 strength in the right hip and knee, 5/5 strength in the right arm and face, brisk right patellar and Achilles reflexes, and fluent speech. Damage to which region best accounts for these findings?",
+      "answers": {
+        "A": "Lateral precentral gyrus of the left hemisphere",
+        "B": "Lateral precentral gyrus of the right hemisphere",
+        "C": "Medial precentral gyrus of the left hemisphere",
+        "D": "Medial precentral gyrus of the right hemisphere",
+        "E": "Postcentral gyrus of the left hemisphere"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The lateral precentral gyrus represents face and upper limb, so a left-sided lesion here would weaken the right face and arm rather than the leg.",
+        "B": "This region controls the left face and arm, which are unaffected in this patient.",
+        "C": "Correct: the leg and genitalia occupy the medial surface of the precentral gyrus in ACA territory, and descending fibers control the contralateral body, so a left medial lesion causes right leg and trunk weakness with hyperreflexia.",
+        "D": "A right medial precentral lesion would produce left leg weakness, the opposite side from this patient's deficit.",
+        "E": "The postcentral gyrus is primary somatosensory cortex, so damage would cause contralateral sensory loss rather than weakness with hyperreflexia."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-003",
+      "question": "A 64-year-old man undergoes prolonged coronary artery bypass grafting complicated by sustained hypotension; intraoperative pressures are shown. On postoperative day 1 he has symmetric 3/5 strength at both shoulders and both hips, with 5/5 grip strength and normal foot strength. Sensation and language are intact. Hypoperfusion of which region best explains this pattern of weakness?",
+      "table": [
+        ["Time point", "Mean arterial pressure", "Reference range"],
+        ["Induction", "78 mm Hg", "70-100 mm Hg"],
+        ["Bypass, 40 min", "44 mm Hg", "70-100 mm Hg"],
+        ["Bypass, 90 min", "41 mm Hg", "70-100 mm Hg"],
+        ["Postoperative", "82 mm Hg", "70-100 mm Hg"]
+      ],
+      "correct": "B",
+      "answers": {
+        "A": "Anterior spinal artery territory of the cervical cord",
+        "B": "Border zone between the anterior and middle cerebral arteries",
+        "C": "Lenticulostriate territory of the internal capsule",
+        "D": "Perforating branches of the basilar artery to the pons",
+        "E": "Superior cerebellar artery territory of the cerebellum"
+      },
+      "explanations": {
+        "A": "Cervical cord infarction would spare the shoulders selectively only rarely and would produce sensory loss for pain and temperature along with sphincter dysfunction.",
+        "B": "Correct: the ACA and MCA cortical branches anastomose along the superior convexity, where the proximal limb is represented, so systemic hypotension hypoperfuses this watershed and weakens shoulders and hips while sparing distal muscles.",
+        "C": "A lenticulostriate infarct is a focal, unilateral lesion producing dense contralateral hemiparesis of face, arm, and leg, not symmetric proximal weakness.",
+        "D": "Basal pontine ischemia interrupts corticospinal fibers and causes contralateral hemiparesis or, if bilateral, quadriparesis involving distal muscles as well.",
+        "E": "Superior cerebellar artery infarction produces limb ataxia and dysmetria rather than proximal weakness with normal coordination."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-004",
+      "question": "A 61-year-old man with poorly controlled hypertension and type 2 diabetes wakes with weakness of the left face, arm, and leg. Examination findings are shown, and speech and visual fields are normal. MRI shows a single 12-mm infarct deep in the right hemisphere between the thalamus and the lenticular nuclei. Which structure is most likely involved?",
+      "table": [
+        ["Examination", "Left side", "Right side"],
+        ["Lower face strength", "Weak", "Normal"],
+        ["Arm strength", "2/5", "5/5"],
+        ["Leg strength", "2/5", "5/5"],
+        ["Patellar reflex", "3+", "2+"],
+        ["Pinprick sensation", "Intact", "Intact"]
+      ],
+      "answers": {
+        "A": "Anterior limb of the right internal capsule",
+        "B": "Genu of the right internal capsule",
+        "C": "Posterior limb of the right internal capsule",
+        "D": "Retrolenticular limb of the right internal capsule",
+        "E": "Sublenticular limb of the right internal capsule"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior limb carries corticopontine fibers, so damage there disrupts motor planning input to the cerebellum rather than producing dense hemiparesis.",
+        "B": "The genu also carries corticopontine fibers and lies anterior to the descending corticobulbar and corticospinal bundles.",
+        "C": "Correct: the posterior limb carries corticobulbar and corticospinal upper motor neurons in a densely packed topography, so a tiny lesion causes contralateral face, arm, and leg weakness with hyperreflexia and no sensory loss, the classic pure motor lacunar stroke.",
+        "D": "The retrolenticular limb carries visual radiations, so damage would cause a contralateral visual field defect.",
+        "E": "The sublenticular limb carries auditory fibers and would not produce hemiparesis."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-005",
+      "question": "A 57-year-old woman with hypertension is found to have a small infarct restricted to the genu and adjacent anterior limb of the left internal capsule. Strength, reflexes, and sensation are normal on both sides, but she is clumsy when performing a rapid learned sequence with the right hand. Interruption of which fiber population best explains this finding?",
+      "answers": {
+        "A": "Corticobulbar fibers",
+        "B": "Corticopontine fibers",
+        "C": "Corticospinal fibers",
+        "D": "Corticostriatal fibers",
+        "E": "Thalamocortical fibers"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Corticobulbar fibers occupy the posterior limb and control brainstem motor nuclei, so damage would produce contralateral lower facial weakness.",
+        "B": "Correct: the anterior limb and genu carry corticopontine fibers that deliver the motor plan to the pontine nuclei for relay to the cerebellum, so their loss degrades smooth sequencing without causing weakness.",
+        "C": "Corticospinal fibers lie in the posterior limb and their interruption would cause frank contralateral weakness with hyperreflexia.",
+        "D": "Corticostriatal fibers project directly from cortex to caudate and putamen and do not descend through the internal capsule to the brainstem.",
+        "E": "Thalamocortical fibers ascend in the anterior part of the posterior limb, and their loss would produce sensory or thalamic relay deficits rather than motor sequencing problems."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-006",
+      "question": "A 45-year-old man sustains a penetrating injury that destroys the left cerebral peduncle on the ventral surface of the midbrain. He develops dense right-sided weakness with right hyperreflexia. Which cortical efferent pathway is spared because its fibers never enter the cerebral peduncle?",
+      "answers": {
+        "A": "Corticobulbar fibers to medullary nuclei",
+        "B": "Corticobulbar fibers to pontine nuclei",
+        "C": "Corticopontine fibers",
+        "D": "Corticospinal fibers",
+        "E": "Corticostriatal fibers"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Corticobulbar fibers bound for medullary motor nuclei descend in the peduncle and leave the bundle only as they approach their targets.",
+        "B": "Corticobulbar fibers to pontine cranial nerve nuclei also traverse the peduncle before exiting in the pons.",
+        "C": "Corticopontine fibers descend through the peduncle and synapse on the pontine nuclei in the basal pons.",
+        "D": "Corticospinal fibers pass through the peduncle, the basal pons, and re-form as the pyramids in the medulla.",
+        "E": "Correct: corticostriatal fibers terminate on the caudate and putamen within the hemisphere, so they are the only major cortical efferent group that never reaches the cerebral peduncle."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-007",
+      "question": "A 22-year-old woman with a Chiari malformation reports progressive clumsiness of both hands and a stiff-legged gait over 6 months. MRI shows a lesion at the cervicomedullary junction centered on the decussation of the pyramids. Which pattern of motor findings is most likely?",
+      "answers": {
+        "A": "Bilateral weakness with hyperreflexia below the lesion",
+        "B": "Left hemiparesis with sparing of the face",
+        "C": "Loss of pain and temperature below the lesion",
+        "D": "Right hemiparesis with flaccid areflexia",
+        "E": "Weakness confined to the left lower limb"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: both pyramids cross at this point, so a midline lesion at the decussation interrupts descending upper motor neurons destined for both sides, producing bilateral weakness with hyperreflexia.",
+        "B": "A unilateral hemiparesis would require a lesion rostral to the decussation on one side, such as in the peduncle or capsule.",
+        "C": "Pain and temperature are carried by the anterolateral system, which is not part of the pyramidal decussation.",
+        "D": "Areflexia indicates lower motor neuron injury in the ventral horn or peripheral nerve, whereas decussation fibers are upper motor neurons and produce hyperreflexia.",
+        "E": "Isolated leg weakness suggests a medial cortical or focal cord lesion rather than injury at the crossing of both pyramids."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-008",
+      "question": "A 34-year-old man is struck in the neck by debris, and imaging shows injury limited to the right anterior funiculus of the cervical spinal cord. The interrupted fibers of the right anterior corticospinal tract had not yet crossed the midline. At their target levels, these fibers were destined to cross through which structure to reach lower motor neurons?",
+      "answers": {
+        "A": "Anterior white commissure",
+        "B": "Dorsal root entry zone",
+        "C": "Medial lemniscus",
+        "D": "Posterior gray commissure",
+        "E": "Pyramidal decussation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the roughly 15% of pyramidal fibers that remain uncrossed at the medulla descend as the anterior corticospinal tract and cross in the anterior white commissure at their target level to reach contralateral ventral horn motor neurons.",
+        "B": "The dorsal root entry zone is where primary sensory afferents enter the cord and carries no descending motor fibers.",
+        "C": "The medial lemniscus is the ascending second-order dorsal column pathway in the brainstem, not a site of corticospinal crossing.",
+        "D": "The posterior gray commissure surrounds the central canal and is not the crossing route for corticospinal axons.",
+        "E": "The pyramidal decussation is where the other 85% of fibers crossed in the caudal medulla to form the lateral corticospinal tract."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-009",
+      "question": "A 27-year-old man is stabbed in the back and sustains a clean transverse wound of the left half of the spinal cord at the T2 level. Two weeks later he has increased tone and brisk reflexes in one limb. Which pattern of motor weakness is most likely?",
+      "answers": {
+        "A": "Bilateral lower limb weakness below T2",
+        "B": "Left lower limb weakness below T2",
+        "C": "Left upper and lower limb weakness",
+        "D": "Right lower limb weakness below T2",
+        "E": "Right upper and lower limb weakness"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A hemisection interrupts only one lateral corticospinal tract, so the opposite tract continues to supply the other leg.",
+        "B": "Correct: the lateral corticospinal tract has already crossed in the medulla and runs ipsilateral to the limbs it controls, so a left T2 hemisection weakens the left lower limb below the lesion with upper motor neuron signs.",
+        "C": "The upper limb is supplied by cervical segments above T2 and is therefore unaffected by a T2 lesion.",
+        "D": "Right-sided weakness would require damage to the right lateral corticospinal tract, which is intact here.",
+        "E": "Neither the right upper limb nor the right lower limb loses its ipsilateral lateral corticospinal supply in a left-sided lesion."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-010",
+      "question": "The same 27-year-old man with a transverse wound of the left hemicord at T2 is evaluated for proprioceptive deficits. Testing suggests that unconscious proprioceptive information arising from the RIGHT lower limb is no longer reaching the cerebellum. Injury to which tract best explains this finding?",
+      "answers": {
+        "A": "Left anterior spinocerebellar tract",
+        "B": "Left cuneocerebellar tract",
+        "C": "Left fasciculus gracilis",
+        "D": "Left posterior spinocerebellar tract",
+        "E": "Right posterior spinocerebellar tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: anterior spinocerebellar fibers from the right lower limb synapse in the right intermediate gray, cross in the anterior white commissure to ascend on the left, and cross again at the superior cerebellar peduncle, so the left tract carries right lower limb information.",
+        "B": "The cuneocerebellar tract carries upper limb information and enters the cord above T2, so it is unaffected by this lesion.",
+        "C": "The fasciculus gracilis carries conscious proprioception, and the left column carries information from the left leg.",
+        "D": "The posterior spinocerebellar tract never decussates, so the left tract carries information from the left lower limb and trunk.",
+        "E": "The right posterior spinocerebellar tract lies on the intact side of the cord and continues to relay right lower limb information."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-011",
+      "question": "A 45-year-old woman with a demyelinating lesion of the left dorsal funiculus at T10 has loss of joint position sense and vibration in the left great toe with preserved strength. The first-order neurons carrying this information ascend in the fasciculus gracilis without synapsing in the cord. Where do these axons first synapse?",
+      "answers": {
+        "A": "Dorsal horn at the level of entry",
+        "B": "Dorsal nucleus of Clarke in the thoracic cord",
+        "C": "Lateral cuneate nucleus in the medulla",
+        "D": "Nucleus gracilis in the caudal medulla",
+        "E": "Ventral posterolateral nucleus of the thalamus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dorsal column afferents pass through the dorsal horn and enter the dorsal funiculus without synapsing there.",
+        "B": "Clarke's nucleus is the relay for the posterior spinocerebellar tract carrying unconscious proprioception, not for the dorsal columns.",
+        "C": "The lateral cuneate nucleus relays unconscious proprioception from the upper limb into the cuneocerebellar tract.",
+        "D": "Correct: first-order fibers from the lower limb ascend the fasciculus gracilis and synapse on the nucleus gracilis in the caudal medulla, and the second-order axons then decussate as internal arcuate fibers to form the medial lemniscus.",
+        "E": "The ventral posterolateral nucleus receives the third-order relay, meaning it is the site of the second synapse, not the first."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-012",
+      "question": "A 52-year-old man with a small right-sided medullary infarct has clumsy, poorly coordinated movements of the right arm that are out of proportion to his mild weakness. His clinician suspects loss of unconscious proprioceptive input from the right upper limb. This information is relayed through which structure before entering the cerebellum?",
+      "answers": {
+        "A": "Dorsal nucleus of Clarke, right side",
+        "B": "Lateral cuneate nucleus, right side",
+        "C": "Nucleus cuneatus, right side",
+        "D": "Nucleus gracilis, right side",
+        "E": "Pontine nuclei, right side"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Clarke's nucleus receives lower limb and lower trunk afferents and gives rise to the posterior spinocerebellar tract.",
+        "B": "Correct: upper limb first-order fibers ascend uncrossed to the medulla and synapse in the lateral cuneate nucleus, whose axons form the cuneocerebellar tract entering the ipsilateral cerebellum through the inferior cerebellar peduncle.",
+        "C": "The nucleus cuneatus relays conscious proprioception and discriminative touch from the upper limb toward the thalamus, not to the cerebellum.",
+        "D": "The nucleus gracilis relays conscious proprioception from the lower limb.",
+        "E": "The pontine nuclei relay cortical motor planning information to the contralateral cerebellum, not peripheral proprioceptive input."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-013",
+      "question": "A 38-year-old woman with a hereditary ataxia is found on imaging to have selective degeneration of the posterior spinocerebellar tract on the right side of the thoracic cord. These second-order axons arose from the dorsal nucleus of Clarke. By which route do the surviving fibers of this tract normally reach the cerebellum?",
+      "answers": {
+        "A": "Inferior cerebellar peduncle, contralateral to the limb",
+        "B": "Inferior cerebellar peduncle, ipsilateral to the limb",
+        "C": "Middle cerebellar peduncle, contralateral to the limb",
+        "D": "Middle cerebellar peduncle, ipsilateral to the limb",
+        "E": "Superior cerebellar peduncle, contralateral to the limb"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The posterior spinocerebellar tract has no decussation, so its fibers never reach the opposite cerebellar hemisphere.",
+        "B": "Correct: fibers leaving Clarke's nucleus ascend uncrossed along the edge of the lateral funiculus and enter the ipsilateral cerebellum through the inferior cerebellar peduncle.",
+        "C": "The middle cerebellar peduncle carries pontocerebellar mossy fibers from the contralateral pontine nuclei.",
+        "D": "The middle cerebellar peduncle receives crossed pontine input rather than direct spinal input.",
+        "E": "The superior cerebellar peduncle is the entry route for the anterior spinocerebellar tract, which decussates a second time there."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-014",
+      "question": "A 40-year-old woman with relapsing neurologic symptoms has a demyelinating plaque confined to the left basal pons that damages the left pontine nuclei and their emerging axons. These axons had been relaying descending cortical motor planning information to which target?",
+      "answers": {
+        "A": "Contralateral cerebellar cortex via the middle cerebellar peduncle",
+        "B": "Contralateral thalamus via the superior cerebellar peduncle",
+        "C": "Ipsilateral cerebellar cortex via the inferior cerebellar peduncle",
+        "D": "Ipsilateral cerebellar cortex via the middle cerebellar peduncle",
+        "E": "Ipsilateral thalamus via the superior cerebellar peduncle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: corticopontine fibers synapse on ipsilateral pontine nuclei, whose pontocerebellar axons decussate and enter the opposite cerebellum through the middle cerebellar peduncle, ending as mossy fibers.",
+        "B": "Superior cerebellar peduncle fibers arise from the deep cerebellar nuclei, not the pontine nuclei.",
+        "C": "The inferior cerebellar peduncle carries spinocerebellar and cuneocerebellar input from the cord and medulla.",
+        "D": "Pontocerebellar fibers cross the midline before entering the middle cerebellar peduncle, so the projection is contralateral.",
+        "E": "The pontine nuclei project to cerebellar cortex; thalamic projections come later in the loop from the deep cerebellar nuclei."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-015",
+      "question": "A 31-year-old woman has 4 days of progressive limb weakness and reports an episode of painful monocular vision loss 2 years ago. MRI shows a large demyelinating lesion spanning the left basal pons. Cerebrospinal fluid studies are shown. Which set of examination findings is most likely?",
+      "table": [
+        ["Study", "Result", "Reference range"],
+        ["Opening pressure", "14 cm H2O", "6-20 cm H2O"],
+        ["Leukocytes", "6/mm3", "0-5/mm3"],
+        ["Protein", "48 mg/dL", "15-45 mg/dL"],
+        ["Glucose", "62 mg/dL", "45-80 mg/dL"],
+        ["Oligoclonal bands", "5 unique bands", "None"]
+      ],
+      "answers": {
+        "A": "Bilateral lower limb weakness with spasticity",
+        "B": "Left face and left limb weakness",
+        "C": "Left limb ataxia with normal strength",
+        "D": "Right hemibody loss of pain and temperature",
+        "E": "Right hemibody weakness with hyperreflexia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Bilateral leg weakness would require a lesion affecting both descending tracts, such as a midline cord lesion or bilateral medial cortical injury.",
+        "B": "Corticospinal fibers in the left pons have not yet crossed and therefore control the right side of the body, not the left.",
+        "C": "Ataxia may occur from disrupted pontocerebellar fibers, but a large basal pontine plaque also destroys the corticospinal bundle, so strength cannot be normal.",
+        "D": "Pain and temperature are carried by the anterolateral system in the lateral tegmentum, which is spared by a lesion confined to the basal pons.",
+        "E": "Correct: corticospinal fibers descending through the left basal pons cross below in the medulla, so their loss produces contralateral right-sided weakness with upper motor neuron hyperreflexia."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-016",
+      "question": "A 58-year-old man with a 30-year history of heavy alcohol use has a wide-based gait and dysmetria of the lower limbs. Autopsy shows severe dropout of Purkinje cells in the anterior vermis with preserved deep cerebellar nuclei. Which functional consequence best explains the loss of cerebellar output regulation?",
+      "answers": {
+        "A": "Loss of dopaminergic input to the striatum",
+        "B": "Loss of excitatory glutamatergic input to the thalamus",
+        "C": "Loss of GABAergic inhibition of the deep cerebellar nuclei",
+        "D": "Loss of GABAergic inhibition of the subthalamic nucleus",
+        "E": "Loss of mossy fiber excitation of the pontine nuclei"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Dopaminergic projections to the striatum arise from the substantia nigra pars compacta and are unrelated to Purkinje cells.",
+        "B": "Cerebellar cortical output is inhibitory rather than excitatory, and the cortex does not project directly to the thalamus.",
+        "C": "Correct: Purkinje cells are the sole outflow of cerebellar cortex and inhibit the deep nuclei using GABA, so their loss removes the moment-to-moment regulation of deep nuclear output to the thalamus and cortex.",
+        "D": "The subthalamic nucleus is regulated by the globus pallidus externus within the basal nuclei circuitry, not by Purkinje cells.",
+        "E": "Mossy fibers arise from the pontine nuclei and terminate in cerebellar cortex, so the direction of this projection is reversed."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-017",
+      "question": "A 66-year-old woman with a coagulopathy has a hemorrhage that destroys the deep cerebellar nuclei on the right, and she develops dysmetria and intention tremor of the right arm. The axons leaving these nuclei were projecting to which structure to influence motor output?",
+      "answers": {
+        "A": "Lateral geniculate nucleus of the thalamus",
+        "B": "Medial geniculate nucleus of the thalamus",
+        "C": "Ventral anterior and ventral lateral nuclei of the thalamus",
+        "D": "Ventral posterolateral nucleus of the thalamus",
+        "E": "Ventral posteromedial nucleus of the thalamus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The lateral geniculate nucleus is the visual relay to the occipital cortex.",
+        "B": "The medial geniculate nucleus is the auditory relay to the temporal cortex.",
+        "C": "Correct: the deep cerebellar nuclei project to the motor nuclei of the thalamus, VA and VL, which in turn project back to the motor cortices to refine speed and accuracy of movement.",
+        "D": "The ventral posterolateral nucleus relays body somatosensory information from the medial lemniscus and anterolateral system.",
+        "E": "The ventral posteromedial nucleus relays facial somatosensory and taste information."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-018",
+      "question": "A 59-year-old man with untreated hypertension develops sudden left hemiplegia and a decreased level of consciousness. Noncontrast CT shows an acute hemorrhage centered in the right putamen with extension toward the adjacent internal capsule. Rupture of which vessel is the most likely source?",
+      "answers": {
+        "A": "Anterior choroidal artery",
+        "B": "Callosomarginal branch of the anterior cerebral artery",
+        "C": "Lenticulostriate branches of the middle cerebral artery",
+        "D": "Posterior cerebral artery branches",
+        "E": "Recurrent artery of Heubner"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior choroidal artery supplies portions of the posterior limb and choroid plexus, but it is not the classic vessel for hypertensive putaminal hemorrhage.",
+        "B": "The callosomarginal branch is a cortical vessel supplying the medial frontal and paracentral cortex.",
+        "C": "Correct: the lenticulostriate branches arise from the first segment of the MCA to supply the putamen, globus pallidus, and much of the internal capsule, and they are the classic vessels ruptured in hypertensive basal nuclei hemorrhage.",
+        "D": "Posterior cerebral artery branches supply the midbrain, thalamus, and occipital cortex.",
+        "E": "The recurrent artery of Heubner supplies the anterior striatum and nucleus accumbens rather than the main body of the putamen."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-019",
+      "question": "A 68-year-old man undergoes repair of a thoracoabdominal aortic aneurysm with prolonged cross-clamping of the aorta. On emergence he cannot move his legs, and examination findings are shown. Which structure is most likely to have been spared by this vascular injury?",
+      "table": [
+        ["Examination", "Finding"],
+        ["Lower limb strength", "0/5 bilaterally"],
+        ["Pinprick below T10", "Absent bilaterally"],
+        ["Vibration at great toe", "Intact bilaterally"],
+        ["Joint position sense, toes", "Intact bilaterally"],
+        ["Rectal tone", "Decreased"]
+      ],
+      "answers": {
+        "A": "Anterior corticospinal tracts",
+        "B": "Dorsal columns",
+        "C": "Lateral corticospinal tracts",
+        "D": "Spinothalamic tracts",
+        "E": "Ventral horn motor neurons"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior corticospinal tracts lie in the anterior funiculus and are supplied by perforating branches of the anterior spinal artery, so they are infarcted.",
+        "B": "Correct: the anterior spinal artery supplies the anterior two-thirds of the cord, so hypoperfusion spares the dorsal columns in the posterior third, preserving vibration and joint position sense while motor and pain pathways are lost.",
+        "C": "Most of the lateral corticospinal tract is fed by the anterior spinal artery, which explains the dense bilateral leg paralysis.",
+        "D": "The spinothalamic fibers of the anterolateral system lie within the anterior two-thirds and their loss explains the absent pinprick sensation.",
+        "E": "Ventral horn motor neurons are supplied by sulcal branches of the anterior spinal artery and are injured, contributing to the paralysis and sphincter dysfunction."
+      }
+    },
+    {
+      "id": "neuro-motor-pathways-020",
+      "question": "A 71-year-old man has 2 years of progressive slowness of movement, a 4-Hz resting tremor of the right hand, and cogwheel rigidity. There is no weakness, and reflexes are normal. Degeneration of which structure, and its associated neurotransmitter, best explains this loss of basal nuclei modulation of movement?",
+      "answers": {
+        "A": "Caudate nucleus, GABA",
+        "B": "Globus pallidus externus, GABA",
+        "C": "Substantia nigra pars compacta, dopamine",
+        "D": "Substantia nigra pars reticulata, GABA",
+        "E": "Subthalamic nucleus, glutamate"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Caudate degeneration with GABAergic loss is characteristic of Huntington disease, which produces excess movement rather than bradykinesia.",
+        "B": "Loss of the GABAergic globus pallidus externus disinhibits the subthalamic nucleus and is not the primary lesion in this syndrome.",
+        "C": "Correct: dopaminergic neurons of the substantia nigra pars compacta modulate the caudate and putamen, and their loss increases net inhibitory output through the GPi and SNr to the VA and VL thalamus, producing bradykinesia, rigidity, and resting tremor.",
+        "D": "The substantia nigra pars reticulata is a GABAergic output nucleus to the thalamus, and its degeneration is not the cause of this classic presentation.",
+        "E": "Damage to the glutamatergic subthalamic nucleus reduces excitatory drive on output nuclei and classically causes contralateral hemiballismus."
+      }
+    }
+  ]
+}
