@@ -1,0 +1,515 @@
+{
+  "lecture": "One-Carbon Metabolism",
+  "block": "neuro",
+  "generated": "2026-08-11",
+  "questions": [
+    {
+      "id": "neuro-one-carbon-metabolism-001",
+      "question": "A 26-year-old woman at 31 weeks' gestation comes to the office because of 1 month of progressive fatigue and dyspnea on exertion. At 11 weeks' gestation she was hospitalized for viral gastroenteritis; her nausea resolved but her appetite never returned, and she has eaten very little since. She takes no prenatal vitamins. Neurologic examination is normal, with intact vibratory and position sense. Renal function, liver function, and coagulation studies are normal. A deficiency of which of the following is the most likely cause of her findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "72 g/L",
+          "115-165 g/L"
+        ],
+        [
+          "Mean cellular volume",
+          "105 fL",
+          "80-100 fL"
+        ],
+        [
+          "Platelets",
+          "15 x 10^9/L",
+          "150-400 x 10^9/L"
+        ],
+        [
+          "Neutrophils",
+          "0.5 x 10^9/L",
+          "1.7-7.5 x 10^9/L"
+        ],
+        [
+          "Reticulocytes",
+          "8 x 10^9/L",
+          "20-80 x 10^9/L"
+        ]
+      ],
+      "answers": {
+        "A": "Cobalamin",
+        "B": "Folate",
+        "C": "Iron",
+        "D": "Pyridoxine",
+        "E": "Thiamine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cobalamin body stores exceed 1.5 mg and last years, so a 5-month period of poor intake cannot deplete them; her normal proprioception and vibratory sense also argue against cobalamin deficiency.",
+        "B": "Folate stores are only about 20 mg and are exhausted within weeks of inadequate intake, and pregnancy sharply increases demand, so impaired dTMP synthesis produces macrocytosis and pancytopenia in this timeframe.",
+        "C": "Iron deficiency produces a microcytic, hypochromic anemia with a low MCV rather than the macrocytosis and pancytopenia seen here.",
+        "D": "Pyridoxine deficiency causes a sideroblastic (microcytic) anemia from impaired heme synthesis, not macrocytosis with hypoproliferative pancytopenia.",
+        "E": "Thiamine deficiency causes Wernicke encephalopathy or high-output cardiac failure and does not produce megaloblastic changes in the marrow."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-002",
+      "question": "A 6-year-old boy is brought to the emergency department 4 hours after ingesting the contents of a bottle of perfume. He has vomiting, abdominal pain, tachypnea, and psychomotor agitation, and he reports that his vision is blurred. Blood pressure is 80/60 mm Hg, respiratory rate is 32/min, and pulse is 148/min. Arterial blood gas analysis shows pH 6.9, PaCO2 26 mm Hg, and HCO3- 3 mEq/L, with an elevated anion gap. Which of the following best explains this patient's visual symptoms?",
+      "answers": {
+        "A": "Accumulation of formate, which is directly toxic to the retina and optic nerve",
+        "B": "Accumulation of oxalate crystals within the retinal and choroidal capillaries",
+        "C": "Conversion of the toxin to acetate, which uncouples oxidative phosphorylation",
+        "D": "Depletion of tetrahydrofolate, which halts purine synthesis in photoreceptors",
+        "E": "Osmotic swelling of the lens caused by intracellular accumulation of alcohol"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Methanol is oxidized by alcohol dehydrogenase to formaldehyde and then to formic acid, which is cleared slowly by tetrahydrofolate-dependent metabolism and is acutely toxic to the retina and optic nerve, causing potentially permanent blindness.",
+        "B": "Calcium oxalate crystal deposition is a feature of ethylene glycol poisoning and injures renal tubules rather than the eye.",
+        "C": "Acetate is the product of ethanol oxidation; it is rapidly converted to acetyl-CoA and oxidized, which is why ethanol does not cause a comparable acidosis or visual injury.",
+        "D": "Tetrahydrofolate is consumed in formate clearance, but the visual loss results from direct formate toxicity, not from arrest of purine synthesis in the retina.",
+        "E": "Lens swelling from osmotic shifts occurs in hyperglycemia and does not explain acidosis with fixed visual loss after methanol ingestion."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-003",
+      "question": "A 37-year-old woman is brought to the emergency department unresponsive after drinking windshield wiper fluid. Serum ethanol, salicylate, and acetaminophen levels are undetectable. Arterial pH is 6.72 and serum bicarbonate is 4.8 mEq/L, with an anion gap of 29 mEq/L that is out of proportion to her lactate and ketone concentrations. Fomepizole, intravenous bicarbonate, and hemodialysis are begun. Administration of which of the following would most directly accelerate conversion of the accumulated toxic metabolite to carbon dioxide?",
+      "answers": {
+        "A": "Cyanocobalamin",
+        "B": "Folinic acid",
+        "C": "Hydroxocobalamin",
+        "D": "Pyridoxine",
+        "E": "Thiamine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cyanocobalamin corrects cobalamin deficiency and supports methionine synthase and methylmalonyl-CoA mutase; it plays no role in formate clearance.",
+        "B": "Formate is detoxified by combining with tetrahydrofolate to form N10-formyl-THF, which is then oxidized to CO2, so giving folinic acid (leucovorin) expands the folate pool and speeds formate elimination.",
+        "C": "Hydroxocobalamin binds cyanide and is the antidote for cyanide poisoning, not for formic acidosis.",
+        "D": "Pyridoxine is the cofactor for cystathionine synthase and is used in homocystinuria and isoniazid toxicity, not in methanol poisoning.",
+        "E": "Thiamine supports pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase and would address lactic acidosis, not formate accumulation."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-004",
+      "question": "A 45-year-old man is brought to the emergency department after intentionally drinking antifreeze. He has slurred speech, vomiting, and flank pain. Arterial pH is 7.10 with a bicarbonate of 6 mEq/L and an elevated anion gap. Serum creatinine has risen from 1.0 to 2.8 mg/dL over 12 hours. Visual acuity and pupillary responses are normal. Which of the following findings is most likely in this patient but would not be expected in methanol intoxication?",
+      "answers": {
+        "A": "Bilateral fixed dilated pupils with optic disc edema",
+        "B": "Calcium oxalate crystals on urine microscopy",
+        "C": "Elevated serum formate with a normal creatinine",
+        "D": "Hypersegmented neutrophils on the peripheral smear",
+        "E": "Normal serum anion gap with a normal osmolal gap"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Fixed dilated pupils and optic nerve injury are hallmarks of methanol poisoning caused by formate toxicity, not of ethylene glycol.",
+        "B": "Ethylene glycol is oxidized to glycolate and glyoxylate and finally to oxalate, which binds calcium and forms crystals that obstruct and damage renal tubules, producing the acute kidney injury seen here.",
+        "C": "Formate is the toxic metabolite of methanol, and the rising creatinine in this patient indicates renal rather than retinal injury.",
+        "D": "Hypersegmented neutrophils reflect impaired dTMP synthesis in folate or cobalamin deficiency and are unrelated to acute toxic alcohol ingestion.",
+        "E": "Both ethylene glycol and methanol poisoning produce a high anion gap acidosis with an elevated osmolal gap, so normal gaps would argue against either diagnosis."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-005",
+      "question": "A 60-year-old man comes to the office because of 4 months of weakness, tingling of the hands and feet, irritability, and forgetfulness. Examination shows pallor, spasticity, hyperreflexia, and absent vibratory sensation in the lower extremities. He has a history of gastric bypass surgery and takes no supplements. Impaired activity of which of the following enzymes best accounts for his neurologic findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "9.8 g/dL",
+          "13.5-17.5 g/dL"
+        ],
+        [
+          "Mean corpuscular volume",
+          "114 fL",
+          "80-100 fL"
+        ],
+        [
+          "Serum cobalamin",
+          "94 pg/mL",
+          "200-900 pg/mL"
+        ],
+        [
+          "Serum methylmalonic acid",
+          "1.9 umol/L",
+          "<0.4 umol/L"
+        ],
+        [
+          "Total homocysteine",
+          "48 umol/L",
+          "5-15 umol/L"
+        ],
+        [
+          "Serum folate",
+          "9 ng/mL",
+          "3-17 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Cystathionine synthase",
+        "B": "Dihydrofolate reductase",
+        "C": "Methionine synthase",
+        "D": "Methylenetetrahydrofolate reductase",
+        "E": "Methylmalonyl-CoA mutase"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cystathionine synthase deficiency raises homocysteine but also raises methionine and causes ectopia lentis and thrombosis rather than subacute combined degeneration.",
+        "B": "Dihydrofolate reductase is inhibited by methotrexate and its impairment causes megaloblastic anemia without elevating methylmalonic acid.",
+        "C": "Methionine synthase does require methylcobalamin and its impairment explains the elevated homocysteine, but blocking it alone does not raise methylmalonic acid or account for the myelin injury.",
+        "D": "Methylenetetrahydrofolate reductase deficiency lowers 5-methyl-THF and raises homocysteine, but methylmalonic acid would remain normal.",
+        "E": "Methylmalonyl-CoA mutase requires deoxyadenosylcobalamin, so cobalamin deficiency after bypass surgery causes methylmalonic acid accumulation, and defects in this amino acid pathway drive the demyelination of the dorsal and lateral columns."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-006",
+      "question": "A 68-year-old woman with pernicious anemia has a hemoglobin of 8.9 g/dL and a mean corpuscular volume of 118 fL. Serum folate is at the upper limit of normal, but bone marrow examination shows megaloblastic erythroid precursors. Which of the following best explains why her marrow behaves as though folate were deficient despite adequate dietary folic acid intake?",
+      "answers": {
+        "A": "Accumulation of methylmalonyl-CoA directly inhibits DNA polymerase in erythroid precursors",
+        "B": "Failure to demethylate N5-methyl-THF traps cellular folate in a metabolically unusable form",
+        "C": "Impaired absorption of dietary folate occurs across the proximal jejunal brush border",
+        "D": "Increased urinary excretion of folate polyglutamates depletes intracellular folate stores",
+        "E": "Inhibition of dihydrofolate reductase by excess homocysteine prevents tetrahydrofolate regeneration"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Methylmalonyl-CoA accumulation contributes to demyelination through disordered amino acid and fatty acid metabolism, but it does not inhibit DNA polymerase or cause the megaloblastic change.",
+        "B": "Without methylcobalamin, methionine synthase cannot transfer the methyl group off N5-methyl-THF, and low SAM fails to inhibit MTHFR, so folate is progressively trapped as N5-methyl-THF and is unavailable for dTMP synthesis.",
+        "C": "Folate absorption through the proton-coupled folate transporter is intact in pernicious anemia, which impairs cobalamin rather than folate uptake.",
+        "D": "Polyglutamation by folylpolyglutamate synthase promotes cellular retention of folate rather than urinary loss, and increased excretion is not the mechanism here.",
+        "E": "Homocysteine does not inhibit dihydrofolate reductase; the block in this patient lies at the cobalamin-dependent methionine synthase step."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-007",
+      "question": "A 17-year-old boy is brought to the emergency department because of sudden severe chest pain. He is tall with long, thin digits and has a history of intellectual disability. On ophthalmologic examination the lenses are displaced downward and inward bilaterally. Dual-energy x-ray absorptiometry performed 6 months ago showed osteopenia. CT angiography shows an acute aortic dissection. A deficiency of which of the following enzymes is the most likely cause of this presentation?",
+      "answers": {
+        "A": "Cystathionine gamma-lyase",
+        "B": "Cystathionine synthase",
+        "C": "Methylmalonyl-CoA mutase",
+        "D": "Ornithine transcarbamylase",
+        "E": "Phenylalanine hydroxylase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cystathionine gamma-lyase deficiency causes cystathioninuria with accumulation of cystathionine rather than homocysteine and is generally clinically benign.",
+        "B": "Cystathionine synthase deficiency is the classical, autosomal recessive form of homocystinuria; markedly elevated homocysteine causes downward lens dislocation, marfanoid habitus, early osteoporosis, and thromboembolic events.",
+        "C": "Methylmalonyl-CoA mutase deficiency causes methylmalonic acidemia with metabolic decompensation and demyelination in infancy, not ectopia lentis.",
+        "D": "Ornithine transcarbamylase deficiency is X-linked and presents with hyperammonemia and encephalopathy, without lens or skeletal findings.",
+        "E": "Phenylalanine hydroxylase deficiency causes phenylketonuria with intellectual disability, eczema, and a musty odor, but not lens dislocation or thrombosis."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-008",
+      "question": "A 4-year-old girl with newly diagnosed classical homocystinuria has a plasma total homocysteine of 190 umol/L. Genetic testing identifies a missense variant in the cystathionine synthase gene that yields a full-length but poorly folded enzyme with reduced cofactor affinity. Supplementation with which of the following is most likely to lower her homocysteine by increasing the residual activity of the mutant enzyme itself?",
+      "answers": {
+        "A": "Betaine",
+        "B": "Cyanocobalamin",
+        "C": "Folic acid",
+        "D": "Niacin",
+        "E": "Pyridoxine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Betaine does lower homocysteine, but it does so by activating an alternative remethylation route rather than by increasing cystathionine synthase activity.",
+        "B": "Cobalamin supports methionine synthase and helps consume homocysteine, but it is not a cofactor for cystathionine synthase.",
+        "C": "Folic acid supplies the methyl donor for remethylation and should be replete, but it does not act on the mutant enzyme.",
+        "D": "Niacin is a precursor of NAD and NADP and has no role in the trans-sulfuration pathway.",
+        "E": "Cystathionine synthase uses pyridoxal phosphate, so pharmacologic doses of pyridoxine can stabilize and increase the activity of certain mutant enzymes; a subset of patients are pyridoxine responsive."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-009",
+      "question": "A 12-year-old boy with homocystinuria has a plasma total homocysteine of 140 umol/L despite high-dose pyridoxine, folic acid, cobalamin, and a low-methionine diet. Betaine is added and his homocysteine falls to 55 umol/L over 8 weeks. Which of the following best explains the effect of this therapy?",
+      "answers": {
+        "A": "Betaine chelates circulating homocysteine and promotes its renal excretion",
+        "B": "Betaine donates a methyl group that converts homocysteine back to methionine",
+        "C": "Betaine increases hepatic transcription of the cystathionine synthase gene",
+        "D": "Betaine inhibits intestinal absorption of dietary methionine and cysteine",
+        "E": "Betaine restores methionine synthase activity by supplying methylcobalamin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Betaine is not a chelator, and homocysteine lowering is achieved by metabolic conversion rather than by enhanced urinary loss.",
+        "B": "Betaine serves as a methyl donor for betaine-homocysteine methyltransferase, providing an alternative remethylation pathway that consumes homocysteine and regenerates methionine.",
+        "C": "Betaine does not upregulate cystathionine synthase expression, and in this patient the enzyme is genetically defective regardless of transcript level.",
+        "D": "Restricting dietary methionine is a separate treatment already in use here, and betaine does not block intestinal amino acid uptake.",
+        "E": "Betaine acts independently of cobalamin; the patient is already receiving cobalamin, and betaine does not supply the methylcobalamin cofactor."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-010",
+      "question": "A 31-year-old woman comes to the office for preconception counseling after two pregnancies complicated by neural tube defects. Serum cobalamin, methylmalonic acid, and a complete blood count are normal, but plasma total homocysteine is 21 umol/L. After 8 weeks of high-dose folic acid supplementation her homocysteine normalizes. Reduced activity of which of the following enzymes is the most likely explanation for her findings?",
+      "answers": {
+        "A": "Cystathionine synthase",
+        "B": "Dihydrofolate reductase",
+        "C": "Methionine synthase",
+        "D": "Methylenetetrahydrofolate reductase",
+        "E": "Thymidylate synthase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cystathionine synthase deficiency elevates homocysteine but also raises methionine and is not corrected by folic acid supplementation.",
+        "B": "Dihydrofolate reductase deficiency is rare and would produce megaloblastic anemia, which is absent given her normal blood count.",
+        "C": "Methionine synthase defects raise homocysteine but respond to cobalamin rather than folate, and 5-methyl-THF would accumulate rather than be limiting.",
+        "D": "Common MTHFR polymorphisms destabilize the enzyme and raise the KM for N5,N10-methylene-THF, so 5-methyl-THF production falls and homocysteine rises; increasing substrate with extra folic acid compensates and reduces neural tube defect risk.",
+        "E": "Thymidylate synthase impairment would compromise dTMP synthesis and produce megaloblastic changes rather than isolated hyperhomocysteinemia."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-011",
+      "question": "A 7-year-old boy has had developmental delay since 18 months of age and recurrent prolonged tonic-clonic seizures since age 2. Whole exome sequencing identifies a homozygous missense variant in FOLR1, which encodes folate receptor alpha. His serum folate is near the lower limit of normal, but cerebrospinal fluid 5-methyltetrahydrofolate is nearly undetectable. Which of the following is the most appropriate treatment?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum total folate",
+          "2.2 ug/L",
+          ">3 ug/L"
+        ],
+        [
+          "Erythrocyte folate",
+          "83 ug/L",
+          ">93 ug/L"
+        ],
+        [
+          "CSF 5-methyl-THF",
+          "1.4 nmol/L",
+          "60-210 nmol/L"
+        ],
+        [
+          "Serum cobalamin",
+          "480 pg/mL",
+          "200-900 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Cyanocobalamin, intramuscular monthly",
+        "B": "Folic acid, standard oral daily dose",
+        "C": "Folinic acid, oral and injected",
+        "D": "Pyridoxine, high-dose oral daily",
+        "E": "Thiamine, intravenous infusion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cobalamin is normal in this patient, and replacing it would not raise cerebrospinal fluid folate concentrations.",
+        "B": "Standard-dose folic acid relies on the defective folate receptor for transport into cerebrospinal fluid and does not correct cerebral folate deficiency.",
+        "C": "Folinic acid (leucovorin, N5-formyl-THF) is a reduced folate that equilibrates with the one-carbon-loaded folate pool and can reach the central nervous system at high doses despite defective folate receptor alpha, restoring CSF 5-methyl-THF and improving seizures and gait.",
+        "D": "Pyridoxine treats pyridoxine-dependent epilepsy and cystathionine synthase deficiency, neither of which is present here.",
+        "E": "Thiamine addresses Wernicke encephalopathy and certain organic acidemias, not defective folate transport across the choroid plexus."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-012",
+      "question": "A 9-year-old girl with osteosarcoma receives high-dose methotrexate. Twenty-four hours after the infusion she is given leucovorin to prevent mucositis and myelosuppression. Which of the following best explains how leucovorin protects normal proliferating tissue?",
+      "answers": {
+        "A": "It bypasses the blocked step by supplying an already reduced, carbon-loaded folate",
+        "B": "It competitively displaces methotrexate from the active site of thymidylate synthase",
+        "C": "It enhances renal clearance of methotrexate by alkalinizing the tubular filtrate",
+        "D": "It inhibits folylpolyglutamate synthase and prevents intracellular methotrexate retention",
+        "E": "It restores dihydrofolate reductase activity through covalent modification of the enzyme"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Leucovorin is N5-formyl-THF, a fully reduced folate that equilibrates with the interchangeable one-carbon-THF pool downstream of the dihydrofolate reductase step that methotrexate blocks.",
+        "B": "Methotrexate inhibits dihydrofolate reductase rather than thymidylate synthase, and leucovorin does not act by displacing it from an enzyme.",
+        "C": "Urinary alkalinization with bicarbonate does speed methotrexate excretion, but this is a separate intervention and not the mechanism of leucovorin.",
+        "D": "Reduced folylpolyglutamate synthase expression is a tumor resistance mechanism, and leucovorin is itself a substrate for polyglutamation rather than an inhibitor.",
+        "E": "Leucovorin does not reactivate dihydrofolate reductase; the enzyme remains inhibited while the reduced folate pool is replenished from another direction."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-013",
+      "question": "A 62-year-old woman comes to the office because of 6 months of fatigue and numbness of the feet. Mean corpuscular volume is 112 fL and serum cobalamin is 110 pg/mL. Testing is positive for antibodies against gastric parietal cells, and endoscopy shows atrophic gastritis of the body and fundus. Which of the following steps in cobalamin absorption is most directly impaired?",
+      "answers": {
+        "A": "Binding of cobalamin to intrinsic factor within the small intestine",
+        "B": "Endocytosis of the cobalamin-intrinsic factor complex by cubam in the ileum",
+        "C": "Passive diffusion of unbound cobalamin across the jejunal epithelium",
+        "D": "Secretion of intrinsic factor by parietal cells of the gastric mucosa",
+        "E": "Transport of cobalamin into peripheral cells by the reduced folate carrier"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Binding of cobalamin to intrinsic factor in the small intestine is normal if intrinsic factor is present; here the problem lies upstream in its production.",
+        "B": "Cubam-mediated endocytosis in the ileum is the step lost after ileal resection or Crohn disease, and the ileum is intact in this patient.",
+        "C": "A small fraction of a large oral dose is absorbed by an intrinsic factor-independent route, and this pathway remains available, which is why high-dose oral cobalamin can treat her.",
+        "D": "Autoimmune destruction of parietal cells in pernicious anemia eliminates intrinsic factor secretion, so dietary cobalamin cannot be delivered to cubam receptors in the ileum.",
+        "E": "The reduced folate carrier transports folates, not cobalamin, and is unrelated to this patient's disease."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-014",
+      "question": "A 22-year-old man comes to the office because of 3 weeks of tingling and unsteadiness. He reports inhaling nitrous oxide from whipped-cream chargers most evenings for the past 6 months. He eats a mixed diet including meat and dairy. Examination shows diminished vibratory sensation to the knees and a positive Romberg sign. Serum cobalamin is 220 pg/mL, methylmalonic acid is 1.4 umol/L (reference <0.4), and total homocysteine is 40 umol/L. Which of the following best explains his findings?",
+      "answers": {
+        "A": "Autoimmune destruction of gastric parietal cells reduces intrinsic factor secretion",
+        "B": "Competitive blockade of the proton-coupled folate transporter reduces folate uptake",
+        "C": "Increased renal excretion of transcobalamin-bound cobalamin depletes body stores",
+        "D": "Irreversible oxidation of the cobalt center of cobalamin inactivates the vitamin",
+        "E": "Suppression of folylpolyglutamate synthase reduces retention of folate in marrow cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Pernicious anemia would produce similar laboratory findings, but this patient's exposure history and normal diet point to an acquired functional deficiency rather than autoimmunity.",
+        "B": "The proton-coupled folate transporter handles folate absorption and is not affected by nitrous oxide; his elevated methylmalonic acid indicates a cobalamin problem.",
+        "C": "Cobalamin is not lost through increased renal excretion in this setting; the vitamin is chemically inactivated rather than eliminated.",
+        "D": "Nitrous oxide oxidizes the cobalt of cobalamin and renders it unusable, so both methionine synthase and methylmalonyl-CoA mutase fail, raising homocysteine and methylmalonic acid and causing subacute combined degeneration even when serum cobalamin appears near normal.",
+        "E": "Folylpolyglutamate synthase affects intracellular folate retention and would not elevate methylmalonic acid."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-015",
+      "question": "A 35-year-old woman with a 10-year history of intermittent fever, diarrhea, and right lower quadrant pain comes to the office because of fatigue. She has undergone two prior small bowel resections for stricturing disease of the terminal ileum. Examination shows 4/5 strength in the extremities and diminished vibratory sensation in the feet. Leukocyte count is 12,000/mm3, hemoglobin is 9 g/dL, and mean corpuscular volume is 112 fL. Which of the following is most likely to be found on further evaluation?",
+      "answers": {
+        "A": "Decreased serum methylmalonic acid concentration",
+        "B": "Elevated serum methylmalonic acid concentration",
+        "C": "Increased hemoglobin A2 on electrophoresis",
+        "D": "Markedly hypocellular bone marrow on biopsy",
+        "E": "Positive direct antiglobulin (Coombs) test"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Methylmalonic acid rises rather than falls when cobalamin is deficient, because methylmalonyl-CoA mutase requires deoxyadenosylcobalamin.",
+        "B": "Loss of the terminal ileum removes the cubam receptors needed to internalize the cobalamin-intrinsic factor complex, producing cobalamin deficiency with macrocytic anemia, posterior column signs, and accumulation of methylmalonic acid.",
+        "C": "An elevated hemoglobin A2 indicates beta-thalassemia trait, which causes microcytosis rather than a mean corpuscular volume of 112 fL.",
+        "D": "Aplastic anemia produces pancytopenia with a hypocellular marrow, not the megaloblastic hypercellular marrow expected here, and it would not explain her neurologic signs.",
+        "E": "A positive Coombs test indicates autoimmune hemolysis, which typically causes reticulocytosis and indirect hyperbilirubinemia rather than posterior column dysfunction."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-016",
+      "question": "A 58-year-old man with untreated pernicious anemia has a markedly reduced intracellular concentration of S-adenosylmethionine on tissue analysis. His physician notes that a single biosynthetic pathway accounts for the largest share of methyl groups normally donated by S-adenosylmethionine, and that impairment of this pathway may contribute to fatigue and reduced central nervous system energy buffering. Synthesis of which of the following is most affected?",
+      "answers": {
+        "A": "Carnitine",
+        "B": "Creatine",
+        "C": "Glutathione",
+        "D": "Heme",
+        "E": "Taurine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Carnitine arises from trimethyllysine released during protein degradation, so it depends on methylation only indirectly and accounts for a small fraction of methyl group use.",
+        "B": "Creatine synthesis is the single largest metabolic consumer of S-adenosylmethionine, and continuous replacement is required because phosphocreatine is steadily lost as creatinine.",
+        "C": "Glutathione is assembled from glutamate, cysteine, and glycine by ligases that require ATP rather than methyl groups.",
+        "D": "Heme is synthesized from succinyl-CoA and glycine through the porphyrin pathway and requires no S-adenosylmethionine-dependent methylation.",
+        "E": "Taurine is formed by oxidation and decarboxylation of cysteine and does not consume activated methyl groups."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-017",
+      "question": "A 45-year-old man with chronic alcohol use disorder and dietary folate deficiency is enrolled in a study of methyl group utilization. Investigators infuse labeled methionine and track incorporation of the labeled methyl group into downstream products. Transfer of a methyl group from S-adenosylmethionine is required for which of the following conversions?",
+      "answers": {
+        "A": "Dopamine to norepinephrine",
+        "B": "Glycine to serine",
+        "C": "Homocysteine to cystathionine",
+        "D": "Norepinephrine to epinephrine",
+        "E": "Tyrosine to dihydroxyphenylalanine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dopamine beta-hydroxylase adds a hydroxyl group using ascorbate and copper, not a methyl group.",
+        "B": "Serine hydroxymethyltransferase transfers a one-carbon unit between serine and tetrahydrofolate; it uses folate directly rather than S-adenosylmethionine.",
+        "C": "Cystathionine synthase condenses homocysteine with serine using pyridoxal phosphate and consumes homocysteine rather than methylating it.",
+        "D": "Phenylethanolamine N-methyltransferase uses S-adenosylmethionine as the methyl donor to convert norepinephrine to epinephrine, one of the classic SAM-dependent biosynthetic reactions.",
+        "E": "Tyrosine hydroxylase performs a tetrahydrobiopterin-dependent hydroxylation and involves no methyl transfer."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-018",
+      "question": "A 29-year-old woman with myelodysplastic syndrome is receiving azacitidine when she discovers she is 6 weeks pregnant. Animal studies show that both azacitidine exposure and targeted mutation of DNA methyltransferases increase the incidence of neural tube closure defects. Which of the following best explains the teratogenic mechanism suggested by these studies?",
+      "answers": {
+        "A": "Azacitidine blocks methionine synthase and traps folate as N5-methyltetrahydrofolate",
+        "B": "Azacitidine depletes maternal folate stores by irreversibly inhibiting dihydrofolate reductase",
+        "C": "Azacitidine inhibits DNA methyltransferases and reduces cytosine methylation during development",
+        "D": "Azacitidine is incorporated into transfer RNA and prevents translation of neural crest genes",
+        "E": "Azacitidine prevents S-adenosylmethionine synthesis by inhibiting methionine adenosyltransferase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Methionine synthase inhibition creates a folate trap, but azacitidine acts on DNA methyltransferases rather than on the cobalamin-dependent transfer step.",
+        "B": "Dihydrofolate reductase is the target of methotrexate; azacitidine does not deplete folate stores by that route.",
+        "C": "Azacitidine is a DNA methyltransferase inhibitor, and because these enzymes use S-adenosylmethionine to methylate cytosine, the convergence of drug inhibition and genetic loss of DNMT activity implicates reduced methylation, and therefore reduced SAM availability in folate deficiency, in neural tube closure defects.",
+        "D": "Azacitidine is a ribonucleoside and can be incorporated into RNA, but the teratogenicity described in these studies parallels DNMT loss-of-function mutations, pointing to the methylation defect.",
+        "E": "Methionine adenosyltransferase is not the drug target; azacitidine acts downstream at the methyltransferase step."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-019",
+      "question": "A 44-year-old man with chronic alcohol use disorder and a diet of bar snacks and fast food is evaluated for anemia. Hemoglobin is 11 g/dL, leukocyte count is 4000/mm3, and platelet count is 150,000/mm3. The peripheral smear shows macro-ovalocytes and neutrophils with six-lobed nuclei. Serum cobalamin and methylmalonic acid are normal, and serum folate is low. Impaired synthesis of which of the following nucleotides most directly accounts for the changes seen on his smear?",
+      "answers": {
+        "A": "Adenosine monophosphate",
+        "B": "Cytidine monophosphate",
+        "C": "Deoxythymidine monophosphate",
+        "D": "Guanosine monophosphate",
+        "E": "Uridine monophosphate"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Purine synthesis does consume N10-formyl-THF and is the largest metabolic use of carbon-loaded folate, but salvage pathways buffer purine supply, and purine limitation is not what produces megaloblastic change.",
+        "B": "Cytidine nucleotides are made from uridine nucleotides without a folate-dependent one-carbon transfer.",
+        "C": "Thymidylate synthase uses N5,N10-methylene-THF to methylate dUMP to dTMP, and this step is the most sensitive to folate deficiency in rapidly dividing cells, producing megaloblastic erythropoiesis and hypersegmented neutrophils.",
+        "D": "Guanosine monophosphate derives from the same purine pathway as adenosine monophosphate and is likewise not the limiting lesion in megaloblastic anemia.",
+        "E": "Uridine monophosphate is synthesized de novo from carbamoyl phosphate and aspartate and requires no folate-derived one-carbon unit."
+      }
+    },
+    {
+      "id": "neuro-one-carbon-metabolism-020",
+      "question": "A 3-month-old boy is evaluated for poor feeding, hypotonia, and seizures. Newborn screening for hypermethioninemia was negative. Urine organic acids show homocystinuria. Erythrocyte 5-methyltetrahydrofolate is markedly decreased, and there is no clinical or biochemical evidence of cobalamin deficiency. A deficiency of which of the following enzymes best explains these findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Plasma total homocysteine",
+          "125 umol/L",
+          "5-15 umol/L"
+        ],
+        [
+          "Plasma methionine",
+          "9 umol/L",
+          "15-40 umol/L"
+        ],
+        [
+          "Serum cobalamin",
+          "560 pg/mL",
+          "200-900 pg/mL"
+        ],
+        [
+          "Serum methylmalonic acid",
+          "0.2 umol/L",
+          "<0.4 umol/L"
+        ],
+        [
+          "Erythrocyte 5-methyl-THF",
+          "Markedly low",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "Cystathionine gamma-lyase",
+        "B": "Cystathionine synthase",
+        "C": "Methylenetetrahydrofolate reductase",
+        "D": "Methylmalonyl-CoA mutase",
+        "E": "S-adenosylhomocysteine hydrolase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cystathionine gamma-lyase deficiency causes cystathionine to accumulate upstream of cysteine and does not raise homocysteine.",
+        "B": "Cystathionine synthase deficiency raises homocysteine but also raises methionine, which is why newborn screening targets hypermethioninemia; this infant has low methionine and a negative screen.",
+        "C": "Severe methylenetetrahydrofolate reductase deficiency prevents formation of N5-methyl-THF, so homocysteine cannot be remethylated; homocysteine rises while methionine and 5-methyl-THF both fall, with normal cobalamin and methylmalonic acid.",
+        "D": "Methylmalonyl-CoA mutase deficiency causes methylmalonic acidemia with a markedly elevated methylmalonic acid, which is normal here.",
+        "E": "S-adenosylhomocysteine hydrolase deficiency blocks the production of homocysteine and therefore causes S-adenosylhomocysteine accumulation rather than homocystinuria."
+      }
+    }
+  ]
+}
