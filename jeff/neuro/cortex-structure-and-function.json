@@ -1,0 +1,422 @@
+{
+  "lecture": "Cortex: Structure and Function",
+  "block": "neuro",
+  "generated": "2026-08-12",
+  "questions": [
+    {
+      "id": "neuro-cortex-structure-and-function-001",
+      "question": "A 62-year-old right-handed man is brought to the emergency department 90 minutes after his wife noticed he was struggling to speak. He produces short, effortful phrases made up almost entirely of nouns and verbs, with long pauses between words, and he becomes visibly frustrated during the interview. He follows three-step commands and correctly points to named body parts. Strength is 4/5 in the right arm with mild right lower facial weakness. Bedside language testing is shown below. Damage to which of the following Brodmann areas best accounts for this presentation?",
+      "table": [
+        ["Language domain", "Finding"],
+        ["Fluency", "Nonfluent, effortful, agrammatic"],
+        ["Comprehension", "Intact"],
+        ["Repetition", "Impaired"],
+        ["Naming", "Impaired"]
+      ],
+      "answers": {
+        "A": "Areas 1, 2, and 3",
+        "B": "Areas 17 and 18",
+        "C": "Areas 22, 39, and 40",
+        "D": "Areas 41 and 42",
+        "E": "Areas 44 and 45"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Areas 1, 2, and 3 are primary somatosensory cortex on the postcentral gyrus, and damage produces loss of discriminative touch rather than any disturbance of speech output.",
+        "B": "Areas 17 and 18 are primary and secondary visual cortex, and damage produces contralateral visual field loss with intact language.",
+        "C": "Areas 22, 39, and 40 map to Wernicke area, and damage produces fluent paraphasic speech with impaired comprehension, the opposite of this pattern.",
+        "D": "Areas 41 and 42 are auditory cortex on the superior temporal gyrus, and unilateral damage impairs contralateral sound localization without producing agrammatic output.",
+        "E": "Areas 44 and 45 are pars opercularis and pars triangularis of the inferior frontal gyrus of the dominant hemisphere, and the adjacent face and arm motor strip explains the accompanying right-sided weakness."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-002",
+      "question": "A 71-year-old right-handed woman is evaluated for acute onset of abnormal speech. She speaks in long sentences at a normal rate and with normal effort, but her output contains invented words and semantic substitutions and conveys little meaning. She cannot follow simple commands and cannot repeat a phrase. She appears unconcerned and denies that anything is wrong with her speech. Strength is 5/5 throughout and there is no facial asymmetry. A lesion in which of the following structures best explains her findings?",
+      "answers": {
+        "A": "Inferior frontal gyrus of the dominant hemisphere",
+        "B": "Middle frontal gyrus of the dominant hemisphere",
+        "C": "Postcentral gyrus of the dominant hemisphere",
+        "D": "Superior temporal gyrus of the dominant hemisphere",
+        "E": "Supramarginal gyrus of the nondominant hemisphere"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The inferior frontal gyrus houses Broca area, and damage produces halting nonfluent output with preserved comprehension and obvious patient frustration.",
+        "B": "The middle frontal gyrus contains the frontal eye field and dorsolateral prefrontal cortex, and damage causes gaze preference or executive dysfunction rather than paraphasic speech.",
+        "C": "The postcentral gyrus is primary somatosensory cortex, and damage causes contralateral cortical sensory loss without affecting language.",
+        "D": "The posterior superior temporal gyrus is the core of Wernicke area, and damage produces fluent paraphasic speech, impaired comprehension and repetition, and characteristic lack of awareness of the deficit.",
+        "E": "A nondominant supramarginal gyrus lesion produces contralateral neglect and visuospatial deficits, and language is preserved because language is housed in the dominant hemisphere."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-003",
+      "question": "A 58-year-old right-handed man is evaluated after an embolic stroke. His speech is fluent with normal rate and prosody, and he follows multistep spoken and written commands accurately. When asked to repeat phrases he produces frequent sound substitutions and repeatedly attempts to self-correct. He is aware of the errors and is frustrated by them. Strength and sensation are normal. Damage to which of the following fiber bundles best accounts for these findings?",
+      "table": [
+        ["Language domain", "Finding"],
+        ["Fluency", "Fluent, normal prosody"],
+        ["Comprehension", "Intact"],
+        ["Repetition", "Markedly impaired"],
+        ["Awareness of deficit", "Preserved"]
+      ],
+      "answers": {
+        "A": "Anterior commissure",
+        "B": "Cingulum",
+        "C": "Splenium of the corpus callosum",
+        "D": "Superior longitudinal fasciculus",
+        "E": "Uncinate fasciculus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior commissure links the temporal and olfactory cortices between hemispheres and has no role in transferring phonological information for repetition.",
+        "B": "The cingulum runs within the cingulate gyrus toward the parahippocampal gyrus and serves limbic and memory circuitry rather than language repetition.",
+        "C": "Splenial damage disconnects the visual cortices from language areas and causes alexia without agraphia, not a selective repetition deficit.",
+        "D": "The superior longitudinal (arcuate) fasciculus connects Wernicke area to Broca area, so interrupting it leaves comprehension and fluency intact while selectively destroying repetition.",
+        "E": "The uncinate fasciculus links orbital frontal cortex to the anterior temporal lobe and is associated with social, emotional, and semantic changes rather than repetition failure."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-004",
+      "question": "A 74-year-old woman is evaluated 5 days after resuscitation from cardiac arrest complicated by prolonged hypotension. MRI shows infarction in the posterior watershed territory of the dominant hemisphere, sparing the cortex immediately surrounding the lateral sulcus. Her speech is fluent but empty and paraphasic, she cannot name common objects, and she cannot follow simple commands. When the examiner asks a question, she repeats the entire question back verbatim. Which of the following is the most likely diagnosis?",
+      "table": [
+        ["Language domain", "Finding"],
+        ["Fluency", "Fluent"],
+        ["Comprehension", "Impaired"],
+        ["Repetition", "Intact"],
+        ["Naming", "Impaired"]
+      ],
+      "answers": {
+        "A": "Broca aphasia",
+        "B": "Conduction aphasia",
+        "C": "Global aphasia",
+        "D": "Transcortical motor aphasia",
+        "E": "Transcortical sensory aphasia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Broca aphasia is nonfluent with preserved comprehension and impaired repetition, which does not match fluent output with echolalia.",
+        "B": "Conduction aphasia spares comprehension and selectively destroys repetition, the reverse of this patient's profile.",
+        "C": "Global aphasia impairs fluency, comprehension, and repetition together, but this patient repeats long sentences perfectly.",
+        "D": "Transcortical motor aphasia also preserves repetition but produces sparse nonfluent output with intact comprehension.",
+        "E": "A watershed lesion isolates Wernicke area from the surrounding association cortex while sparing the perisylvian arc, so comprehension and naming fail while repetition remains intact."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-005",
+      "question": "A 66-year-old man presents with sudden inability to read. On examination he has a right homonymous hemianopia. He writes a full paragraph to dictation without difficulty, but minutes later he cannot read back what he has written. He spells words aloud correctly and identifies letters traced on his palm. Comprehension of spoken language, fluency, and repetition are all normal. Damage to which of the following structures best explains his findings?",
+      "answers": {
+        "A": "Angular gyrus of the dominant hemisphere",
+        "B": "Anterior commissure",
+        "C": "Arcuate fasciculus of the dominant hemisphere",
+        "D": "Genu of the corpus callosum",
+        "E": "Splenium of the corpus callosum"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "An angular gyrus lesion causes alexia accompanied by agraphia, so this patient's normal writing argues against it.",
+        "B": "The anterior commissure connects temporal and olfactory cortices and does not carry visual information to the language areas.",
+        "C": "Arcuate fasciculus damage impairs repetition while leaving reading intact.",
+        "D": "The genu interconnects the frontal lobes, so lesions there produce frontal disconnection signs rather than a reading deficit.",
+        "E": "A dominant posterior cerebral artery infarct destroys the left visual cortex and the splenium, disconnecting the intact right visual cortex from the language areas and producing pure word blindness with preserved writing."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-006",
+      "question": "A 68-year-old right-handed woman is evaluated after an ischemic stroke. She cannot perform simple subtraction, her writing is illegible and full of omissions, she confuses her left and right hands when asked to move them, and she cannot name individual fingers when they are touched. Speech is fluent, comprehension is intact, and strength is 5/5 in all extremities. A lesion in which of the following structures best explains this constellation?",
+      "answers": {
+        "A": "Angular gyrus of the dominant hemisphere",
+        "B": "Cingulate gyrus of the dominant hemisphere",
+        "C": "Fusiform gyrus of the nondominant hemisphere",
+        "D": "Superior parietal lobule of the nondominant hemisphere",
+        "E": "Supramarginal gyrus of the nondominant hemisphere"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Finger agnosia, acalculia, agraphia, and left-right confusion together constitute Gerstmann syndrome, which localizes to the angular gyrus of the dominant inferior parietal lobule.",
+        "B": "Cingulate gyrus lesions produce akinetic mutism and altered affective responses to pain rather than this tetrad.",
+        "C": "Fusiform gyrus damage impairs recognition of faces and complex visual forms, which is not described here.",
+        "D": "Nondominant superior parietal lobule lesions cause visuospatial and constructional deficits without acalculia or finger agnosia.",
+        "E": "A nondominant supramarginal lesion produces contralateral neglect, and the Gerstmann tetrad specifically requires a dominant hemisphere lesion."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-007",
+      "question": "A 77-year-old right-handed man is evaluated 4 days after a stroke. He shaves only the right side of his face, eats only from the right half of his tray, and bisects horizontal lines well to the right of midline. He denies that anything is wrong. When touched on either hand individually he reports the stimulus accurately, but when both hands are touched simultaneously he reports only the right. Language is normal. Which of the following is the most likely site of the lesion?",
+      "answers": {
+        "A": "Left inferior parietal lobule",
+        "B": "Left superior temporal gyrus",
+        "C": "Right inferior parietal lobule",
+        "D": "Right medial occipital cortex",
+        "E": "Right ventromedial prefrontal cortex"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Left parietal lesions rarely cause lasting neglect because the right hemisphere attends to both hemifields, and such lesions typically produce aphasia or Gerstmann features instead.",
+        "B": "A left superior temporal lesion would produce a fluent aphasia with impaired comprehension, but this patient's language is normal.",
+        "C": "The nondominant inferior parietal lobule directs spatial attention to both sides, so damage produces contralateral neglect with extinction to double simultaneous stimulation and lack of insight.",
+        "D": "A right medial occipital lesion causes a left homonymous hemianopia, but this patient detects left-sided stimuli normally when tested alone.",
+        "E": "Right ventromedial prefrontal damage causes disinhibition and impaired emotional regulation rather than hemispatial inattention."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-008",
+      "question": "A 70-year-old woman is evaluated after bilateral posterior cerebral artery infarcts. She cannot recognize her husband or her adult children by sight and does not recognize her own face in a mirror, but she identifies each of them immediately when they speak. She describes eyes, noses, and mouths accurately when shown photographs and names common household objects without difficulty. Visual acuity is 20/25 bilaterally. Damage to which of the following structures best explains her deficit?",
+      "answers": {
+        "A": "Angular gyri",
+        "B": "Cingulate gyri",
+        "C": "Fusiform gyri",
+        "D": "Precentral gyri",
+        "E": "Transverse temporal gyri"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Angular gyrus damage produces alexia, agraphia, and the Gerstmann tetrad rather than selective failure of face recognition.",
+        "B": "Cingulate gyrus damage alters motivation and the affective response to pain and does not disrupt visual recognition.",
+        "C": "The fusiform (occipitotemporal) gyri on the ventromedial surface support face recognition, so bilateral damage produces prosopagnosia with preserved recognition by voice.",
+        "D": "Precentral gyrus damage produces contralateral upper motor neuron weakness with no effect on recognition.",
+        "E": "The transverse temporal gyri house primary auditory cortex, and damage would affect sound processing rather than visual identification of faces."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-009",
+      "question": "A 68-year-old man with atrial fibrillation develops sudden loss of vision in the right visual field of both eyes. MRI shows infarction restricted to the cortex along the upper and lower banks of the calcarine sulcus on the left. Visual acuity, pupillary responses, and extraocular movements are normal. The cortical region destroyed in this patient normally receives its direct sensory input from which of the following structures?",
+      "answers": {
+        "A": "Lateral geniculate nucleus",
+        "B": "Medial geniculate nucleus",
+        "C": "Pulvinar",
+        "D": "Ventral posterolateral nucleus",
+        "E": "Ventral posteromedial nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The lateral geniculate nucleus is the thalamic relay for vision and projects to primary visual cortex in Brodmann area 17 along the banks of the calcarine sulcus.",
+        "B": "The medial geniculate nucleus relays auditory information to Brodmann area 41 on the transverse temporal gyri.",
+        "C": "The pulvinar projects to the visual association areas 18 and 19 rather than supplying primary input to striate cortex.",
+        "D": "The ventral posterolateral nucleus relays somatosensory information from the body to the postcentral gyrus.",
+        "E": "The ventral posteromedial nucleus relays facial somatosensory and taste information to the postcentral gyrus and insular-opercular cortex."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-010",
+      "question": "A 63-year-old man develops sudden difficulty telling where sounds are coming from. MRI shows an embolic infarct confined to the transverse temporal gyri of the left hemisphere. He converses normally, follows complex spoken commands, and reports that his hearing seems unchanged. Audiometry is shown below. Which of the following findings is most likely on further examination?",
+      "table": [
+        ["Test", "Right ear", "Left ear"],
+        ["Pure-tone average", "15 dB", "20 dB"],
+        ["Speech discrimination score", "94%", "92%"],
+        ["Tympanometry", "Normal", "Normal"]
+      ],
+      "answers": {
+        "A": "Bilateral profound sensorineural hearing loss",
+        "B": "Impaired localization of sounds on the right",
+        "C": "Inability to comprehend spoken language",
+        "D": "Left-sided conductive hearing loss",
+        "E": "Loss of the acoustic startle reflex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Each primary auditory cortex receives bilateral input, so a unilateral cortical lesion cannot abolish hearing, and audiometry here is normal.",
+        "B": "Because the contralateral ear dominates the input to each auditory cortex, a unilateral lesion leaves sound detection intact but impairs localization of sounds in the contralateral hemifield.",
+        "C": "Comprehension failure requires damage to Wernicke area in the posterior superior temporal gyrus, which is spared in this patient.",
+        "D": "Conductive loss reflects external or middle ear pathology and would produce abnormal tympanometry and an air-bone gap.",
+        "E": "The acoustic startle reflex is mediated by brainstem circuitry and does not depend on the integrity of auditory cortex."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-011",
+      "question": "An investigator studying cortical connectivity injects an anterograde tracer into the ventral posterolateral nucleus of the thalamus in a primate and later examines sections through the postcentral gyrus. Labeled axon terminals form a dense horizontal band within the cortex. This band of terminals is most likely located in which of the following cortical layers?",
+      "answers": {
+        "A": "Layer I",
+        "B": "Layer II",
+        "C": "Layer III",
+        "D": "Layer IV",
+        "E": "Layer VI"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Layer I is the molecular layer, composed mostly of apical dendrites and horizontal fibers with very few neurons and no dense thalamic terminal field.",
+        "B": "Layer II receives inputs arriving from other cortical regions rather than from the thalamus.",
+        "C": "Layer III both receives corticocortical inputs and sends association efferents to other cortical regions.",
+        "D": "Layer IV, the internal granular layer and outer band of Baillarger, is the principal target of thalamocortical afferents and is expanded in granular sensory cortex.",
+        "E": "Layer VI is the source of corticothalamic feedback projections rather than a recipient of thalamic input."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-012",
+      "question": "An investigator injects a retrograde tracer into the corticospinal tract at the level of the medullary pyramid in a primate and examines the precentral gyrus several days later. Labeled cell bodies of large pyramidal neurons are found concentrated in a single cortical layer. The same layer also gives rise to projections to the striatum and brainstem. Labeled neurons are most likely concentrated in which of the following layers?",
+      "answers": {
+        "A": "Layer II",
+        "B": "Layer III",
+        "C": "Layer IV",
+        "D": "Layer V",
+        "E": "Layer VI"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Layer II receives corticocortical afferents and does not project to subcortical motor targets.",
+        "B": "Layer III sends association efferents to other cortical regions rather than to the spinal cord.",
+        "C": "Layer IV is the thalamic recipient layer and is nearly absent in agranular motor cortex.",
+        "D": "Layer V, the inner band of Baillarger, contains the large pyramidal neurons that project to the striatum, brainstem, and spinal cord.",
+        "E": "Layer VI projects back to the thalamus and would be labeled only by injections into thalamic nuclei."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-013",
+      "question": "A pathologist examines a section of cerebral cortex taken at autopsy. The specimen shows six layers, but the internal granular layer is nearly absent, and there are numerous unusually large pyramidal neurons in the layer immediately deep to it. Nonpyramidal cells are sparse throughout the specimen. This tissue was most likely sampled from which of the following regions?",
+      "answers": {
+        "A": "Banks of the calcarine sulcus",
+        "B": "Postcentral gyrus",
+        "C": "Precentral gyrus",
+        "D": "Superior temporal gyrus",
+        "E": "Transverse temporal gyrus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Striate cortex along the calcarine sulcus is the most granular cortex in the brain, with a prominent and subdivided layer IV.",
+        "B": "The postcentral gyrus is granular sensory cortex with a thick layer IV receiving VPM and VPL input.",
+        "C": "Primary motor cortex on the precentral gyrus is agranular, with a vestigial layer IV and a high ratio of pyramidal to nonpyramidal cells including giant layer V neurons.",
+        "D": "The superior temporal gyrus is granular association and sensory cortex and would show a well-developed layer IV.",
+        "E": "The transverse temporal gyrus houses primary auditory cortex, which is granular because it receives heavy medial geniculate input."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-014",
+      "question": "A 59-year-old woman is evaluated 3 weeks after an ischemic stroke. With her eyes closed she reports feeling light touch and pinprick applied to the right hand and correctly states when she is touched, but she cannot identify a key placed in that hand and cannot identify numbers traced on the palm. She misjudges the position of her right fingers when they are passively moved. Strength and deep tendon reflexes are normal. Examination findings are shown below. Which of the following is the most likely site of the lesion?",
+      "table": [
+        ["Modality tested (right hand)", "Result"],
+        ["Light touch detection", "Intact"],
+        ["Pinprick detection", "Intact"],
+        ["Stereognosis", "Impaired"],
+        ["Graphesthesia", "Impaired"],
+        ["Joint position sense", "Impaired"]
+      ],
+      "answers": {
+        "A": "Contralateral postcentral gyrus",
+        "B": "Contralateral precentral gyrus",
+        "C": "Dorsal columns of the cervical spinal cord",
+        "D": "Ipsilateral ventral posterolateral thalamic nucleus",
+        "E": "Peripheral median and ulnar nerves"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Damage to primary somatosensory cortex does not abolish sensation but destroys localization and higher order discrimination, producing astereognosis, loss of graphesthesia, and impaired proprioception.",
+        "B": "A precentral gyrus lesion produces contralateral upper motor neuron weakness with normal sensory testing.",
+        "C": "A cervical dorsal column lesion abolishes vibration and proprioception and degrades light touch itself on the same side below the lesion, rather than sparing basic detection.",
+        "D": "A thalamic VPL lesion causes contralateral loss of all primary sensory modalities, often with a burning pain syndrome, and the ipsilateral nucleus relays the opposite side of the body.",
+        "E": "A peripheral nerve lesion produces sensory loss confined to nerve territories with reduced detection of touch and pinprick and often accompanying motor findings."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-015",
+      "question": "A 54-year-old man with intractable pain from metastatic disease undergoes a stereotactic ablative procedure. Postoperatively he continues to report pain in the same distribution and grades its intensity the same as before the procedure, and he still localizes the painful area accurately. However, he states that the pain no longer bothers him and he no longer feels distressed by it. The procedure most likely targeted which of the following regions?",
+      "answers": {
+        "A": "Anterior cingulate cortex and insula",
+        "B": "Banks of the calcarine sulcus",
+        "C": "Dorsolateral prefrontal cortex",
+        "D": "Postcentral gyrus, areas 3, 1, and 2",
+        "E": "Precentral gyrus, area 4"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The cingulate gyrus and insula mediate the perceived unpleasantness of pain, so ablation dissociates the affective component from preserved localization and intensity coding.",
+        "B": "The calcarine cortex processes vision and has no role in nociception.",
+        "C": "Dorsolateral prefrontal lesions cause apathy and impaired working memory and planning rather than a selective loss of pain unpleasantness.",
+        "D": "Primary somatosensory cortex encodes localization and intensity of pain, both of which remain intact in this patient.",
+        "E": "Area 4 is primary motor cortex and its ablation would cause contralateral weakness without altering pain perception."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-016",
+      "question": "A 47-year-old woman with a parasagittal meningioma is found to have compression of the medial frontal cortex just rostral to the leg representation of the precentral gyrus. Strength is 5/5 in all extremities and reflexes are normal. She has difficulty initiating movement, cannot carry out learned bimanual sequences such as buttoning a shirt in the correct order, and loses her balance when reaching because she fails to shift her weight in advance. Compression of which of the following areas best explains her findings?",
+      "answers": {
+        "A": "Area 4, primary motor cortex",
+        "B": "Area 6, supplementary motor area",
+        "C": "Area 17, primary visual cortex",
+        "D": "Area 41, primary auditory cortex",
+        "E": "Areas 3, 1, and 2, primary somatosensory cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Area 4 damage produces contralateral upper motor neuron weakness, but this patient has full strength.",
+        "B": "The supplementary motor area within area 6 lies on the medial surface rostral to primary motor cortex and organizes postural adjustments and complex sequenced movements.",
+        "C": "Area 17 damage produces contralateral visual field loss and would not affect movement sequencing.",
+        "D": "Area 41 damage impairs contralateral sound localization and has no motor consequences.",
+        "E": "Damage to areas 3, 1, and 2 causes cortical sensory loss, but sensation is not described as abnormal here."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-017",
+      "question": "A 60-year-old man is evaluated 6 months after resection of a large falx meningioma that required bilateral frontal retraction. His family reports that he sits for hours without initiating activity, speaks only when spoken to, and no longer plans household tasks. He cannot hold a phone number in mind long enough to dial it and perseverates on a card sorting task after the rule changes. He remains socially appropriate and is not disinhibited. Strength, sensation, and language are intact. Damage to which of the following regions best explains his presentation?",
+      "answers": {
+        "A": "Bilateral dorsolateral prefrontal cortex",
+        "B": "Bilateral orbitofrontal cortex",
+        "C": "Bilateral parahippocampal gyri",
+        "D": "Bilateral precentral gyri",
+        "E": "Bilateral superior parietal lobules"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The dorsolateral prefrontal cortex supports working memory, attention, long range planning, and problem solving, and bilateral lesions characteristically produce apathy with preserved social conduct.",
+        "B": "Orbitofrontal and ventromedial lesions produce disinhibition and impaired emotional regulation, which this patient specifically lacks.",
+        "C": "Parahippocampal damage impairs declarative memory encoding rather than initiation and set shifting.",
+        "D": "Precentral gyrus damage would produce marked bilateral weakness, but strength is normal.",
+        "E": "Superior parietal lesions cause somatosensory and visuospatial deficits without apathy or executive failure."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-018",
+      "question": "A 35-year-old man is evaluated 4 months after a frontal traumatic brain injury sustained in a motorcycle crash. Previously a reserved accountant, he now makes crude sexual remarks to clinic staff, gambled a large portion of his savings last month, and laughs during discussions of his mother's recent death. He recalls the day's events accurately, names objects without error, and has full strength and normal gait. Damage to which of the following regions best explains this change?",
+      "answers": {
+        "A": "Dorsolateral prefrontal cortex",
+        "B": "Inferior parietal lobule",
+        "C": "Superior temporal gyrus",
+        "D": "Transverse temporal gyrus",
+        "E": "Ventromedial prefrontal cortex"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Dorsolateral prefrontal lesions produce apathy, poor planning, and impaired working memory rather than impulsivity and coarse social behavior.",
+        "B": "Inferior parietal lesions cause neglect on the nondominant side or the Gerstmann tetrad on the dominant side, neither of which is present.",
+        "C": "Superior temporal gyrus damage in the dominant hemisphere causes fluent aphasia, but this patient's language is intact.",
+        "D": "The transverse temporal gyrus is primary auditory cortex, and damage affects sound localization rather than behavior.",
+        "E": "The ventromedial prefrontal region regulates emotion through its limbic connections, and bilateral damage produces disinhibition, impulsivity, and blunted or inappropriate emotional responses."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-019",
+      "question": "A 29-year-old woman with medically refractory epilepsy is scheduled for anterior temporal lobectomy. Preoperative tractography is performed to map the white matter bundle that hooks around the lateral fissure and connects the orbital cortex of the frontal lobe with the anterior temporal lobe within the same hemisphere. Which of the following bundles is being mapped?",
+      "answers": {
+        "A": "Arcuate fasciculus",
+        "B": "Cingulum",
+        "C": "Inferior longitudinal fasciculus",
+        "D": "Superior occipitofrontal fasciculus",
+        "E": "Uncinate fasciculus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The arcuate fasciculus connects Wernicke area with Broca area and completes the perisylvian language network.",
+        "B": "The cingulum runs within the cingulate gyrus and extends to the parahippocampal gyrus rather than reaching orbital frontal cortex.",
+        "C": "The inferior longitudinal fasciculus is a subdivision of the inferior occipitofrontal system that connects occipital with temporal cortex.",
+        "D": "The superior occipitofrontal fasciculus links frontal cortex with posterior parietal and occipital regions deep in the hemisphere.",
+        "E": "The uncinate fasciculus is the association bundle running between the orbital frontal cortex and the anterior temporal lobe."
+      }
+    },
+    {
+      "id": "neuro-cortex-structure-and-function-020",
+      "question": "A 66-year-old woman with severe hypertension sustains bilateral thalamic infarcts that destroy the geniculate nuclei and the ventral posterior nuclei on both sides. She survives with severe multimodal sensory deficits. Transmission to primary cortex is most likely preserved for which of the following sensory modalities?",
+      "answers": {
+        "A": "Audition",
+        "B": "Olfaction",
+        "C": "Pain sensation from the face",
+        "D": "Taste",
+        "E": "Vision"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Auditory information reaches Brodmann area 41 by way of the medial geniculate nucleus, which is destroyed here.",
+        "B": "The olfactory pathway projects directly to paleocortex in the frontal and temporal lobes without a thalamic relay, so it is spared by thalamic destruction.",
+        "C": "Facial pain and touch are relayed through the ventral posteromedial nucleus to the postcentral gyrus.",
+        "D": "Gustatory information is relayed through the thalamus to the frontal operculum and anterior insula.",
+        "E": "Visual information reaches area 17 by way of the lateral geniculate nucleus, which is destroyed here."
+      }
+    }
+  ]
+}
