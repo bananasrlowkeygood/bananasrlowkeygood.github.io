@@ -1,0 +1,413 @@
+{
+  "lecture": "Sensory Pathways Part 1: Dorsal Column-Medial Lemniscus and Spinocerebellar Tracts",
+  "block": "neuro",
+  "generated": "2026-08-12",
+  "questions": [
+    {
+      "id": "neuro-sensory-pathways-dcml-001",
+      "question": "A 26-year-old man is evaluated 3 weeks after a diving accident. MRI shows a contusion confined to the dorsal white matter of the spinal cord at C6 bilaterally, with sparing of the anterolateral and lateral funiculi. Strength is 5/5 throughout, and he withdraws briskly from pinprick applied to all four limbs. Which of the following findings is most likely on examination of his hands?",
+      "answers": {
+        "A": "Absent pinprick sensation over both palms",
+        "B": "Inability to identify a coin placed in the palm",
+        "C": "Inability to perceive an ice cube on the palm",
+        "D": "Spastic weakness of the intrinsic hand muscles",
+        "E": "Vasomotor instability with mottling of both hands"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Pinprick is carried by the anterolateral (spinothalamic) system, which is spared here, and the vignette already documents intact brisk withdrawal to pinprick.",
+        "B": "Astereognosis, the inability to identify an object by touch alone, results from loss of discriminative touch and conscious proprioception carried in the dorsal columns, which at C6 travel in the fasciculus cuneatus for the upper limb.",
+        "C": "Cold perception travels in the anterolateral system with pain, so temperature sensation is preserved when the lesion is restricted to the dorsal columns.",
+        "D": "Spastic weakness requires damage to the lateral corticospinal tract in the lateral funiculus, which is explicitly spared, and strength is documented as normal.",
+        "E": "Vasomotor changes reflect sympathetic outflow from the intermediolateral cell column in the gray matter, not the dorsal column white matter."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-002",
+      "question": "A 54-year-old woman develops a slowly enlarging intramedullary tumor that on imaging is confined to the fasciculus gracilis bilaterally at the T10 level. Motor examination and pinprick testing are normal throughout. Which of the following deficits is most likely present?",
+      "answers": {
+        "A": "Impaired vibration sense in both hands",
+        "B": "Loss of pain sensation in both feet",
+        "C": "Loss of pain sensation in both hands",
+        "D": "Loss of temperature sensation in both feet",
+        "E": "Reduced vibration sense in both feet"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Upper limb afferents enter at or above T6 and ascend in the fasciculus cuneatus, which lies lateral to the gracile fasciculus and is uninvolved.",
+        "B": "Pain from the feet ascends in the contralateral spinothalamic tract in the anterolateral funiculus, not in the dorsal columns.",
+        "C": "Pain from the hands also travels in the anterolateral system, and in addition upper limb fibers do not occupy the fasciculus gracilis.",
+        "D": "Temperature, like pain, is conveyed by the anterolateral system and is preserved with an isolated dorsal column lesion.",
+        "E": "Axons entering below T6 ascend in the fasciculus gracilis, so a bilateral gracile lesion at T10 removes vibration and conscious proprioception from both lower limbs."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-003",
+      "question": "A 31-year-old woman is found to have a small syrinx that begins in the midline of the dorsal columns at the C5 level and expands slowly outward over several years. Pinprick and temperature sensation remain intact. Sensory loss for vibration is expected to appear first in which of the following regions?",
+      "answers": {
+        "A": "Coccygeal and sacral dermatomes",
+        "B": "Lower cervical dermatomes",
+        "C": "Mid-thoracic dermatomes",
+        "D": "Upper cervical dermatomes",
+        "E": "Upper thoracic dermatomes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Dorsal column somatotopy follows a lower equals medial rule, so the most medial fibers at any level arise from the coccygeal and sacral roots and are the first to be interrupted by a midline lesion.",
+        "B": "Lower cervical fibers enter most recently at C5 and therefore occupy the most lateral position within the fasciculus cuneatus, the last territory a midline syrinx would reach.",
+        "C": "Mid-thoracic fibers lie in the lateral portion of the fasciculus gracilis, intermediate between sacral and cervical fibers, so they are affected later than sacral fibers.",
+        "D": "Upper cervical afferents from C2 to C4 are the most laterally placed fibers in the cuneate fasciculus and are spared until the lesion is very large.",
+        "E": "Upper thoracic fibers travel in the medial portion of the fasciculus cuneatus, lateral to all gracile fibers, and are not the earliest affected."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-004",
+      "question": "A 71-year-old man has an acute infarct in the dorsal portion of the caudal medulla. Imaging shows the lesion is limited to the right cuneate tubercle and underlying nucleus. Pain and temperature sensation are intact throughout, and strength is normal. Which of the following deficits is most likely?",
+      "answers": {
+        "A": "Left lower limb loss of proprioception",
+        "B": "Left upper limb loss of proprioception",
+        "C": "Right lower limb loss of proprioception",
+        "D": "Right upper limb loss of pain sensation",
+        "E": "Right upper limb loss of proprioception"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Deficits would be left sided only if the lesion were rostral to the decussation of the internal arcuate fibers, and lower limb fibers relay in the gracile rather than the cuneate nucleus.",
+        "B": "Left-sided deficits require a lesion above the medullary decussation, whereas the dorsal column nuclei receive strictly uncrossed input.",
+        "C": "Lower limb conscious proprioception relays in the nucleus gracilis, which lies medial to the cuneate nucleus and is not involved here.",
+        "D": "Pain sensation is carried by the spinothalamic tract in the lateral medulla and is unaffected by a dorsal medullary lesion.",
+        "E": "Dorsal column axons ascend without crossing and synapse in the ipsilateral dorsal column nuclei, so a right nucleus cuneatus lesion produces right upper limb loss of vibration and conscious proprioception."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-005",
+      "question": "A 66-year-old man reports that objects feel strange in his left hand and that he cannot tell where his left foot is without looking. Examination shows absent vibration and joint position sense over the entire left half of the body below the head, with completely preserved pinprick and temperature sensation and normal strength. Which of the following is the most likely lesion site?",
+      "answers": {
+        "A": "Left dorsal column at C2",
+        "B": "Left medial lemniscus in the rostral pons",
+        "C": "Right dorsal column at C2",
+        "D": "Right medial lemniscus in the rostral pons",
+        "E": "Right nucleus gracilis in the caudal medulla"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left dorsal column lesion produces ipsilateral left-sided loss, but it would not be positioned to cause deficits of both limbs while sparing the spinothalamic tract as cleanly as a lemniscal lesion, and this option is on the wrong side relative to the crossing.",
+        "B": "The medial lemniscus carries already-decussated fibers, so a left lemniscal lesion would cause right-sided, not left-sided, deficits.",
+        "C": "A right dorsal column lesion would produce right-sided deficits because these axons have not yet crossed at the cervical level.",
+        "D": "Second-order axons decussate as internal arcuate fibers in the caudal medulla and ascend as the medial lemniscus, so a right pontine lemniscal lesion produces contralateral left-sided loss of vibration and proprioception with sparing of pain and temperature.",
+        "E": "A right nucleus gracilis lesion lies below the decussation and would affect only the right lower limb, not the entire left side of the body."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-006",
+      "question": "A 74-year-old woman with hypertension has sudden numbness of the right arm, trunk, and leg. Examination shows markedly decreased vibration, joint position sense, and two-point discrimination over the right hemibody, with normal strength. Sensation over the face, including the cornea, is entirely normal bilaterally. Infarction of which of the following structures best explains these findings?",
+      "answers": {
+        "A": "Lateral geniculate nucleus",
+        "B": "Medial geniculate nucleus",
+        "C": "Ventral anterior nucleus",
+        "D": "Ventral posterolateral nucleus",
+        "E": "Ventral posteromedial nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The lateral geniculate nucleus is the thalamic relay for vision, and its infarction produces a visual field cut rather than somatosensory loss.",
+        "B": "The medial geniculate nucleus relays auditory information and has no somatosensory role.",
+        "C": "The ventral anterior nucleus participates in basal ganglia motor circuits and does not carry lemniscal sensory input.",
+        "D": "The medial lemniscus terminates in the ventral posterolateral nucleus, which relays body sensation to the contralateral postcentral gyrus, so a left VPL infarct produces right hemibody sensory loss with facial sparing.",
+        "E": "The ventral posteromedial nucleus relays trigeminal input from the head, so its involvement would produce facial sensory loss, which is absent here."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-007",
+      "question": "A 68-year-old man has a small lacunar infarct that interrupts third-order thalamocortical axons traveling from the ventral posterolateral nucleus to the postcentral gyrus. He has dense contralateral loss of vibration, position sense, and two-point discrimination with no weakness, no visual field defect, and no aphasia. The infarct is most likely located in which of the following structures?",
+      "answers": {
+        "A": "Anterior limb of the internal capsule",
+        "B": "Corpus callosum genu",
+        "C": "Genu of the internal capsule",
+        "D": "Posterior limb of the internal capsule",
+        "E": "Retrolenticular internal capsule"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior limb carries frontopontine and thalamic projections to prefrontal cortex, and lesions there cause behavioral rather than somatosensory deficits.",
+        "B": "The genu of the corpus callosum contains commissural fibers connecting the two frontal lobes and carries no thalamocortical sensory projections.",
+        "C": "The genu of the internal capsule carries corticobulbar fibers, so lesions produce contralateral lower facial weakness rather than isolated sensory loss.",
+        "D": "Axons of third-order VPL neurons ascend in the posterior limb of the internal capsule on their way to the primary somatosensory cortex, and a lacune there can produce a pure sensory stroke.",
+        "E": "The retrolenticular portion carries optic radiations, so a lesion there produces a contralateral visual field defect, which this patient does not have."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-008",
+      "question": "A 59-year-old woman is unable to feel a vibrating tuning fork or identify toe position on the right foot and lower leg. Sensation in the right hand, arm, and face is normal, and pinprick is preserved throughout. MRI shows a small cortical infarct on the medial surface of the left hemisphere just behind the central sulcus. Which of the following cortical regions was most likely infarcted?",
+      "answers": {
+        "A": "Lateral postcentral gyrus",
+        "B": "Posterior paracentral lobule",
+        "C": "Superior bank of the lateral sulcus",
+        "D": "Superior temporal gyrus",
+        "E": "Supramarginal gyrus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The lateral convexity of the postcentral gyrus represents the upper limb, face, and mouth, so a lesion there would spare the foot.",
+        "B": "Somatotopy in primary somatosensory cortex places the lower body most medially, in the posterior paracentral lobule on the medial surface, which corresponds to this patient's isolated foot and leg deficit.",
+        "C": "The superior bank of the lateral sulcus houses secondary somatosensory cortex, whose lesions do not cause discrete contralateral loss of vibration and position sense in one limb.",
+        "D": "The superior temporal gyrus contains auditory cortex and is unrelated to somatosensory representation of the leg.",
+        "E": "The supramarginal gyrus is association cortex of the inferior parietal lobule, and lesions cause higher-order deficits rather than a focal foot sensory loss."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-009",
+      "question": "A 68-year-old woman reports 6 months of unsteadiness that is much worse in the dark and in the shower. She stands steadily with her feet together and eyes open, but sways and nearly falls within seconds of closing her eyes. Vibration sense is absent at both ankles, and joint position sense at the great toes is impaired. Vestibular testing and visual acuity are normal. Laboratory studies are shown. Which of the following best explains her positive Romberg sign?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Hemoglobin", "10.2 g/dL", "12.0-16.0 g/dL"],
+        ["Mean corpuscular volume", "112 fL", "80-100 fL"],
+        ["Vitamin B12", "94 pg/mL", "200-900 pg/mL"],
+        ["Methylmalonic acid", "1.8 umol/L", "<0.4 umol/L"]
+      ],
+      "answers": {
+        "A": "Cerebellar vermis degeneration",
+        "B": "Impaired proprioceptive input from the lower limbs",
+        "C": "Impaired vestibular input from the semicircular canals",
+        "D": "Loss of central visual acuity in both eyes",
+        "E": "Weakness of the ankle dorsiflexor muscles"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cerebellar disease causes unsteadiness that is present with the eyes open and does not worsen dramatically on eye closure, so the Romberg test is not the discriminating finding.",
+        "B": "Upright stance requires two of three inputs among vision, vestibular function, and dorsal column proprioception, so when B12 deficiency degrades the dorsal columns, removing vision leaves only one intact channel and the patient sways.",
+        "C": "Vestibular testing is documented as normal, and vestibular loss alone with intact proprioception would not produce this pattern.",
+        "D": "Visual acuity is normal, and the deficit is revealed by removing vision rather than caused by losing it.",
+        "E": "Dorsiflexor weakness causes foot drop and tripping, not a stance that is stable with eyes open and unstable with eyes closed."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-010",
+      "question": "A 48-year-old man has a 2-year history of a wide-based, high-stepping gait in which he lifts his feet excessively and slaps them onto the floor while watching them. He also describes brief stabbing pains in the legs. Pupils constrict to accommodation but not to light. Vibration sense is absent below the knees, and ankle reflexes are absent. Cerebrospinal fluid studies are shown. Degeneration of which of the following structures best accounts for his gait?",
+      "table": [
+        ["Study", "Result", "Reference Range"],
+        ["CSF leukocytes", "38/mm3 (lymphocytic)", "0-5/mm3"],
+        ["CSF protein", "78 mg/dL", "15-45 mg/dL"],
+        ["CSF glucose", "58 mg/dL", "40-70 mg/dL"],
+        ["CSF VDRL", "Reactive", "Nonreactive"]
+      ],
+      "answers": {
+        "A": "Anterior horn cells",
+        "B": "Dorsal columns",
+        "C": "Lateral corticospinal tracts",
+        "D": "Lateral spinothalamic tracts",
+        "E": "Ventral spinocerebellar tracts"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anterior horn cell loss produces atrophy, fasciculations, and weakness, which would not be compensated by visual guidance of the feet.",
+        "B": "Tabes dorsalis is slow demyelinating degeneration of dorsal column axons secondary to untreated syphilis, and the resulting loss of conscious proprioception produces the classic high-stepping tabetic gait with foot slap.",
+        "C": "Corticospinal tract degeneration causes spastic paraparesis with hyperreflexia and extensor plantar responses, the opposite of this patient's absent ankle reflexes.",
+        "D": "Spinothalamic degeneration causes loss of pain and temperature sensation rather than the sensory ataxia and preserved visual compensation seen here.",
+        "E": "The ventral spinocerebellar tract conveys unconscious proprioception to the cerebellum, and its isolated loss would not produce a gait that improves markedly when the patient watches his feet."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-011",
+      "question": "A 34-year-old woman with relapsing-remitting multiple sclerosis develops clumsiness of the right hand over 4 days. Two-point discrimination on the right fingertips is 12 mm compared with 3 mm on the left, and vibration sense is reduced at the right wrist. Pinprick and temperature sensation are normal in both hands, and strength is 5/5. MRI shows a single new plaque in the cervical spinal cord. The plaque is most likely located in which of the following structures?",
+      "answers": {
+        "A": "Left fasciculus cuneatus",
+        "B": "Left fasciculus gracilis",
+        "C": "Left lateral spinothalamic tract",
+        "D": "Right fasciculus cuneatus",
+        "E": "Right lateral spinothalamic tract"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left-sided dorsal column lesion would affect the left hand, because these fibers have not yet decussated at the cervical level.",
+        "B": "The fasciculus gracilis carries fibers entering below T6 from the lower body and does not contain hand afferents.",
+        "C": "This tract conveys crossed pain and temperature fibers, but those modalities are intact on examination.",
+        "D": "Upper limb primary afferents ascend uncrossed in the ipsilateral fasciculus cuneatus until they reach the caudal medulla, so a right-hand deficit from a cervical cord plaque localizes to the right cuneate fasciculus.",
+        "E": "The lateral spinothalamic tract carries pain and temperature, which are documented as normal in this patient."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-012",
+      "question": "A 45-year-old man has an isolated ischemic lesion of the intermediate gray matter at the L2 level on the left. He has a wide-based ataxic gait with poor coordination of the left leg, but joint position sense at the left great toe, vibration at the left ankle, pinprick, and strength are all normal. Interruption of neurons in which of the following structures best explains his findings?",
+      "answers": {
+        "A": "Clarke's nucleus at L2 on the left",
+        "B": "Clarke's nucleus at L2 on the right",
+        "C": "Lateral cuneate nucleus on the left",
+        "D": "Nucleus cuneatus on the left",
+        "E": "Nucleus gracilis on the left"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Collaterals of large-diameter lower limb afferents synapse on Clarke's nucleus, which extends from T1 to L2/L3, and its second-order axons ascend in the ipsilateral dorsolateral funiculus to the ipsilateral cerebellum, so a left L2 lesion produces left leg incoordination with intact conscious sensation.",
+        "B": "The dorsal spinocerebellar pathway is uncrossed throughout, so a right-sided Clarke's nucleus lesion would cause right leg rather than left leg incoordination.",
+        "C": "The lateral cuneate nucleus is the medullary relay for the cuneocerebellar tract serving the upper limb and neck, not the leg.",
+        "D": "The nucleus cuneatus relays conscious proprioception and discriminative touch from the upper limb to the thalamus and lies in the medulla, far from the L2 cord.",
+        "E": "The nucleus gracilis relays conscious lower limb proprioception, and its loss would impair vibration and position sense, which are preserved here."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-013",
+      "question": "A researcher traces a large-diameter muscle spindle afferent that enters the spinal cord through the right S1 dorsal root and ultimately reaches the right cerebellum by way of the dorsal spinocerebellar tract. Before synapsing on its second-order neuron, the central process of this afferent must first ascend within which of the following structures?",
+      "answers": {
+        "A": "Anterior white commissure at S1",
+        "B": "Fasciculus cuneatus",
+        "C": "Fasciculus gracilis",
+        "D": "Lateral cuneate nucleus",
+        "E": "Ventral spinocerebellar tract at S1"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior white commissure is the crossing point for spinothalamic and ventral spinocerebellar axons, and the dorsal spinocerebellar pathway does not cross at all.",
+        "B": "The fasciculus cuneatus carries afferents entering at or above T6 from the upper body, so an S1 afferent never enters it.",
+        "C": "Clarke's nucleus extends only from T1 to about L2/L3, so afferents entering below that level ascend rostrally in the fasciculus gracilis before synapsing on Clarke's nucleus at L2/L3.",
+        "D": "The lateral cuneate nucleus serves upper limb afferents traveling in the fasciculus cuneatus and is reached only after ascent to the medulla.",
+        "E": "The ventral spinocerebellar tract originates from spinal border cells in the ventral horn and is not a route taken by the primary afferent itself."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-014",
+      "question": "A 52-year-old woman has an infarct restricted to the dorsolateral caudal medulla that spares the nucleus gracilis, nucleus cuneatus, and medial lemniscus. She has intact vibration and joint position sense but marked incoordination of the right arm on finger-to-nose testing, without weakness. Loss of relay neurons in which of the following structures best explains this finding?",
+      "answers": {
+        "A": "Clarke's nucleus at T1",
+        "B": "Lateral cuneate nucleus on the left",
+        "C": "Lateral cuneate nucleus on the right",
+        "D": "Nucleus cuneatus on the right",
+        "E": "Nucleus gracilis on the right"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Clarke's nucleus lies in the spinal cord from T1 to L2/L3 and serves the lower limb, not the arm, and it is not located in the medulla.",
+        "B": "Cuneocerebellar axons project to the ipsilateral cerebellum without crossing, so a left-sided lesion would affect the left arm.",
+        "C": "Upper limb proprioceptive afferents ascend ipsilaterally in the fasciculus cuneatus to the lateral cuneate nucleus, whose cuneocerebellar axons project to the ipsilateral cerebellum, so a right-sided lesion causes right arm incoordination.",
+        "D": "The nucleus cuneatus serves conscious proprioception and is explicitly spared, consistent with the preserved vibration and position sense.",
+        "E": "The nucleus gracilis relays lower limb conscious proprioception and is also spared in this lesion."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-015",
+      "question": "A 39-year-old man has a demyelinating lesion that selectively involves the ventral spinocerebellar tract in the right anterolateral funiculus at the T6 level. Strength, pinprick, vibration, and joint position sense are normal throughout. Unconscious proprioceptive information from which of the following regions is most likely disrupted?",
+      "answers": {
+        "A": "Left lower limb",
+        "B": "Left upper limb",
+        "C": "Right lower limb",
+        "D": "Right upper limb",
+        "E": "Trunk musculature bilaterally"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Axons of spinal border cells cross in the anterior white commissure at the segmental level and ascend in the contralateral ventral spinocerebellar tract, so fibers in the right tract at T6 carry information originating from the left lower limb.",
+        "B": "The ventral spinocerebellar tract conveys information from the lower body only; upper limb unconscious proprioception travels by the cuneocerebellar route.",
+        "C": "Right lower limb information crosses at the cord and would be found in the left ventral spinocerebellar tract, not the right.",
+        "D": "Upper limb input reaches the cerebellum through the fasciculus cuneatus and lateral cuneate nucleus, bypassing this tract entirely.",
+        "E": "Trunk representation is not the principal content of this tract, and a unilateral lesion would not produce a symmetric bilateral deficit."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-016",
+      "question": "A 22-year-old man has a hereditary disorder causing selective degeneration of the spinocerebellar tracts. He has a wide-based gait, dysmetria on heel-to-shin testing, and difficulty maintaining posture. However, he correctly reports the position of his toes with his eyes closed, perceives a 128-Hz tuning fork at both ankles, and identifies keys placed in his hand without looking. Which of the following pathways is most likely intact in this patient?",
+      "answers": {
+        "A": "Cuneocerebellar tract",
+        "B": "Dorsal column-medial lemniscus pathway",
+        "C": "Dorsal spinocerebellar tract",
+        "D": "Lateral spinothalamic tract",
+        "E": "Ventral spinocerebellar tract"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The cuneocerebellar tract is the upper body spinocerebellar pathway and is part of the degenerating system in this disorder.",
+        "B": "Conscious proprioception, vibration, and stereognosis are functions of the dorsal column-medial lemniscus system, and their preservation indicates that this pathway is spared while the unconscious proprioceptive spinocerebellar pathways degenerate.",
+        "C": "The dorsal spinocerebellar tract carries unconscious lower limb proprioception used for balance, posture, and gait, which are the impaired functions here.",
+        "D": "The lateral spinothalamic tract carries pain and temperature, modalities that are not assessed by any of the intact findings described.",
+        "E": "The ventral spinocerebellar tract is also a spinocerebellar pathway affected by this degeneration and contributes to the gait and coordination deficits."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-017",
+      "question": "A 63-year-old woman with a newly diagnosed small cell lung carcinoma develops progressive numbness of all four limbs and severe gait instability over 6 weeks. Examination shows profound loss of vibration and joint position sense in the arms and legs with writhing movements of the outstretched fingers when the eyes are closed. Strength is normal and deep tendon reflexes are absent. Studies are shown. This disorder most likely results from immune-mediated destruction of neurons in which of the following structures?",
+      "table": [
+        ["Study", "Result", "Reference Range"],
+        ["Serum anti-Hu (ANNA-1) antibody", "Positive, 1:15,360", "Negative"],
+        ["CSF leukocytes", "12/mm3 (lymphocytic)", "0-5/mm3"],
+        ["CSF protein", "68 mg/dL", "15-45 mg/dL"]
+      ],
+      "answers": {
+        "A": "Anterior horn of the spinal cord",
+        "B": "Dorsal root entry zone",
+        "C": "Dorsal root ganglion",
+        "D": "Nucleus gracilis",
+        "E": "Ventral posterolateral thalamus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anterior horn destruction produces flaccid weakness and atrophy, but this patient has normal strength with a purely sensory syndrome.",
+        "B": "The dorsal root entry zone is a short segment of central axon, and its selective destruction would not explain a diffuse process affecting all four limbs symmetrically.",
+        "C": "The first-order neuron of the dorsal column-medial lemniscus system is a pseudounipolar cell body in the dorsal root ganglion, and immune-mediated loss of these neurons removes both peripheral and central processes, causing widespread loss of proprioception and areflexia with preserved strength.",
+        "D": "A nucleus gracilis lesion would spare the upper limbs, since arm afferents relay in the nucleus cuneatus.",
+        "E": "Bilateral simultaneous VPL involvement is anatomically implausible and would not abolish deep tendon reflexes, which depend on the peripheral afferent limb."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-018",
+      "question": "A 44-year-old woman has a schwannoma that compresses and functionally transects the right T10 dorsal root at its junction with the spinal cord. The lesion does not extend into the spinal cord itself, and the ventral root is spared. Which of the following findings is most likely on examination?",
+      "answers": {
+        "A": "Impaired vibration sense over the right lower limb",
+        "B": "Impaired vibration sense over the right T10 dermatome",
+        "C": "Loss of all sensory modalities over the right T10 dermatome",
+        "D": "Loss of motor function in the right lower limb",
+        "E": "Loss of vibration sense below T10 on the right"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The right lower limb receives innervation from lumbosacral roots, which are far below the compressed T10 root.",
+        "B": "A dorsal root carries the central processes of all sensory neurons of that ganglion, so the deficit is not limited to dorsal column modalities such as vibration.",
+        "C": "A dermatome is the area of skin innervated by the peripheral axons of neurons in a single dorsal root ganglion, so transecting one dorsal root interrupts all sensory modalities from that dermatomal band.",
+        "D": "Motor axons exit in the ventral root, which is explicitly spared, and T10 motor innervation supplies trunk rather than limb muscles.",
+        "E": "Loss extending below the level would require interruption of ascending fibers within the dorsal column itself, and the lesion does not enter the spinal cord."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-019",
+      "question": "A 57-year-old man has 3 months of progressive numbness and unsteadiness. Examination shows absent vibration sense at the ankles and wrists and severely impaired joint position sense, while pinprick and temperature sensation are normal in all limbs. Nerve conduction studies are shown. Which of the following best explains the dissociation between the impaired and preserved modalities?",
+      "table": [
+        ["Nerve study", "Result", "Reference Range"],
+        ["Sural sensory conduction velocity", "18 m/sec", "40-60 m/sec"],
+        ["Median sensory conduction velocity", "21 m/sec", "45-70 m/sec"],
+        ["Median distal motor latency", "9.2 msec", "<4.2 msec"]
+      ],
+      "answers": {
+        "A": "Pain fibers regenerate more rapidly than touch fibers",
+        "B": "Small unmyelinated fibers have faster conduction velocities",
+        "C": "Spinothalamic axons decussate at the level of cord entry",
+        "D": "Unmyelinated fibers are shielded by the blood-nerve barrier",
+        "E": "Vibration afferents are large, heavily myelinated fibers"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Regeneration rate is irrelevant to a subacute demyelinating process and does not explain the modality dissociation.",
+        "B": "Conduction velocity increases with axon diameter and myelination, so small unmyelinated fibers conduct far more slowly, not faster.",
+        "C": "Spinothalamic decussation is a central anatomic feature and has no bearing on which peripheral fiber classes are damaged.",
+        "D": "The blood-nerve barrier does not selectively shield unmyelinated axons, and the sparing reflects the absence of substantial myelin in those fibers.",
+        "E": "The dorsal column-medial lemniscus system uses large, heavily myelinated, rapidly conducting axons, so a demyelinating process that markedly slows conduction velocity strikes these fibers first while sparing the thin and unmyelinated fibers carrying pain and temperature."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-dcml-020",
+      "question": "During a neurologic examination, a 40-year-old healthy volunteer can reliably distinguish two simultaneously applied points separated by 3 mm on the fingertip, but requires a separation of nearly 50 mm to distinguish two points on the mid-back. Both regions relay through the dorsal column-medial lemniscus system. Which of the following best explains this difference?",
+      "answers": {
+        "A": "Cortical receptive fields for the fingertips are smaller",
+        "B": "Fingertip afferents decussate at a more rostral brainstem level",
+        "C": "Fingertip afferents travel within the fasciculus gracilis",
+        "D": "Trunk afferents conduct action potentials more rapidly",
+        "E": "Trunk sensation is relayed through the VPM thalamic nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cortical receptive field size varies inversely with the density of receptor innervation in the periphery, so fingertip fields measure only a few millimeters while trunk fields span hundreds of millimeters, and the densely innervated fingertip also occupies a disproportionately large area of the sensory homunculus.",
+        "B": "All dorsal column second-order axons decussate as internal arcuate fibers in the caudal medulla, regardless of body region.",
+        "C": "Fingertip afferents enter above T6 and ascend in the fasciculus cuneatus, and in any case the fasciculus used does not determine two-point thresholds.",
+        "D": "Both fingertip and trunk discriminative touch afferents are large myelinated fibers with comparable conduction velocities, and speed does not set spatial resolution.",
+        "E": "The VPM nucleus relays trigeminal input from the head, whereas trunk and limb sensation relays through the VPL nucleus."
+      }
+    }
+  ]
+}
