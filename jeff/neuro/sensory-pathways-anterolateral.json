@@ -1,0 +1,522 @@
+{
+  "lecture": "Sensory Pathways Part 2: Anterolateral Ascending and Descending Pathways",
+  "block": "neuro",
+  "generated": "2026-08-12",
+  "questions": [
+    {
+      "id": "neuro-sensory-pathways-anterolateral-001",
+      "question": "A 34-year-old man falls onto an outstretched hand while skateboarding and presents 1 day later with pain, swelling, and bruising of the right wrist. Radiographs show a nondisplaced distal radius fracture. Which of the following events occurred first in the transmission of his pain at the moment of the fall?",
+      "answers": {
+        "A": "Decussation of second-order axons through the anterior white commissure",
+        "B": "Depolarization of third-order neurons in the ventral posterolateral nucleus",
+        "C": "Release of substance P from central terminals within the dorsal horn",
+        "D": "Sensitization of peripheral terminals by locally produced prostaglandins",
+        "E": "Transduction of mechanical deformation by high-threshold free nerve endings"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Decussation in the anterior white commissure occurs only after the second-order dorsal horn neuron has already been activated, so it is a later step.",
+        "B": "Third-order thalamic neurons in the ventral posterolateral nucleus are the final relay before cortex and are activated last, not first.",
+        "C": "Substance P release in the dorsal horn requires an action potential that has already traveled centrally along the primary afferent, so it follows nociceptor activation.",
+        "D": "Prostaglandin-mediated sensitization develops over hours as inflammation evolves and explains the ongoing tenderness a day later, not the pain generated at the instant of injury.",
+        "E": "Nociceptors are high-threshold free nerve endings on the peripheral terminals of primary afferent neurons, and their transduction of the noxious mechanical stimulus is the initiating event in the entire pathway."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-002",
+      "question": "A 24-year-old woman grasps a hot cast-iron handle and immediately feels a sharp, well-localized stab of pain in her palm, followed 1 to 2 seconds later by a diffuse burning ache that persists for several minutes. Which property of the fibers responsible for the immediate sharp sensation best explains its rapid arrival?",
+      "answers": {
+        "A": "Encapsulated corpuscular endings located within the dermal papillae",
+        "B": "Medium axon diameter with myelination permitting saltatory conduction",
+        "C": "Polymodal responsiveness to chemical, thermal, and mechanical stimuli",
+        "D": "Small axon diameter without myelination, conducting continuously",
+        "E": "Termination on wide-dynamic-range neurons located in Rexed lamina V"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Encapsulated corpuscular endings belong to A-beta mechanoreceptors that signal discriminative touch through the dorsal columns, not first pain.",
+        "B": "First pain is carried by A-delta fibers, which are medium-diameter and myelinated, so saltatory conduction delivers the sharp, well-localized signal well before the C-fiber volley.",
+        "C": "Polymodal responsiveness is the defining feature of C fibers, which mediate the delayed burning second pain described later in the vignette.",
+        "D": "Small unmyelinated axons conducting continuously describes C fibers, and their slow conduction is precisely why their pain arrives seconds later.",
+        "E": "Lamina V wide-dynamic-range neurons receive convergent input and underlie referred pain, but the site of termination does not determine conduction speed."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-003",
+      "question": "A 47-year-old man has had a constant dull, burning, poorly localized ache in his left forearm for 14 months after a crush injury. The soft tissue injury healed within 6 weeks, and current imaging and nerve conduction studies are normal. Which of the following fiber types is most likely responsible for his present pain?",
+      "answers": {
+        "A": "A-alpha fibers arising from muscle spindle primary endings",
+        "B": "A-beta fibers arising from Meissner corpuscles in glabrous skin",
+        "C": "A-delta fibers arising from high-threshold mechanoreceptors",
+        "D": "B fibers arising from preganglionic autonomic cell bodies",
+        "E": "C fibers arising from polymodal free nerve endings"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A-alpha fibers convey proprioceptive information from muscle spindles and are not nociceptive.",
+        "B": "A-beta fibers signal light touch and actually modulate pain by driving inhibitory interneurons in the dorsal horn.",
+        "C": "A-delta fibers mediate the sharp, well-localized first pain of acute injury rather than a persistent diffuse ache.",
+        "D": "B fibers are preganglionic autonomic efferents and carry no sensory information.",
+        "E": "Unmyelinated polymodal C fibers produce slow second pain that is dull, burning, and poorly localized, and they are the fibers implicated in chronic and neuropathic pain states."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-004",
+      "question": "A 58-year-old woman with chronic low back pain reports that rubbing the skin over the painful region and applying a low-intensity transcutaneous electrical nerve stimulation unit reliably reduces her pain within minutes. Which of the following best explains this effect?",
+      "answers": {
+        "A": "Blockade of voltage-gated sodium channels on nociceptive afferent terminals",
+        "B": "Direct inhibition of third-order neurons within the ventral posterolateral nucleus",
+        "C": "Increased release of substance P from central terminals of C fibers",
+        "D": "Recruitment of dorsal horn inhibitory interneurons by large-diameter afferents",
+        "E": "Reversal of conduction along second-order spinothalamic axons after decussation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Sodium channel blockade is the mechanism of local anesthetics, not of cutaneous stimulation, which depolarizes rather than silences afferents.",
+        "B": "Surface stimulation cannot reach thalamic relay neurons directly; gating occurs at the first synapse in the dorsal horn.",
+        "C": "Increased substance P release would enhance excitation of the second-order neuron and worsen pain rather than relieve it.",
+        "D": "This is the gate control mechanism of Melzack and Wall: large-diameter A-beta input recruits inhibitory interneurons in the dorsal horn that close the gate on nociceptive transmission to the projection neuron.",
+        "E": "Action potentials in spinothalamic axons propagate orthodromically toward the thalamus, and reversed conduction is not a physiologic mechanism of analgesia."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-005",
+      "question": "A 27-year-old man reports repeated painless burns on his fingertips and difficulty sensing hot water over his shoulders and arms. Examination findings are shown. MRI reveals a fluid-filled cavity expanding the central spinal cord from C4 to T2. Which of the following structures is most likely interrupted?",
+      "table": [
+        [
+          "Region tested",
+          "Pinprick",
+          "Vibration"
+        ],
+        [
+          "Shoulders and upper arms, bilateral",
+          "Absent",
+          "Intact"
+        ],
+        [
+          "Hands, bilateral",
+          "Absent",
+          "Intact"
+        ],
+        [
+          "Trunk below T4",
+          "Intact",
+          "Intact"
+        ],
+        [
+          "Both legs",
+          "Intact",
+          "Intact"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior white commissure at the cervical levels",
+        "B": "Dorsal columns at the cervical levels",
+        "C": "Gracile fasciculus within the caudal medulla",
+        "D": "Lateral corticospinal tracts bilaterally",
+        "E": "Posterior limb of the internal capsule"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A central cavity expands outward and first interrupts second-order spinothalamic axons as they decussate in the anterior white commissure, producing bilateral loss of pain and temperature confined to the affected segments with sparing of the dorsal columns.",
+        "B": "Dorsal column injury would abolish vibration and joint position sense, which are explicitly preserved here.",
+        "C": "A medullary gracile lesion would impair vibration in the legs, not produce a bilateral cape-like loss of pinprick in the arms.",
+        "D": "Corticospinal involvement causes spastic weakness rather than an isolated dissociated sensory loss.",
+        "E": "An internal capsule lesion produces contralateral hemisensory loss of all modalities, not a bilateral segmental pattern."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-006",
+      "question": "A 22-year-old man is stabbed in the back and sustains a hemisection of the spinal cord on the right at T10. Three days later he has right leg weakness with an extensor right plantar response and loss of vibration and joint position sense in the right leg. Which of the following best describes the expected distribution of his loss of pain and temperature sensation?",
+      "answers": {
+        "A": "Bilateral loss beginning at the level of the lesion",
+        "B": "Left-sided loss beginning a few segments below the lesion",
+        "C": "Left-sided loss beginning at the level of the lesion",
+        "D": "Right-sided loss beginning a few segments below the lesion",
+        "E": "Right-sided loss confined to the T10 dermatome only"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bilateral loss would require interruption of decussating fibers in the central cord, as in syringomyelia, rather than a unilateral hemisection.",
+        "B": "Spinothalamic fibers cross within the cord and ascend as they decussate, so a right hemisection produces contralateral left-sided loss of pain and temperature beginning one to two segments below the lesion.",
+        "C": "The loss is contralateral but does not begin exactly at the lesion level, because fibers entering at T10 and just below have not yet crossed.",
+        "D": "Right-sided loss would occur only if the spinothalamic tract were uncrossed, which is the pattern of the dorsal columns, not the anterolateral system.",
+        "E": "A narrow band of ipsilateral loss can occur at the level of entry, but the predominant and clinically expected deficit is a contralateral loss extending caudally."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-007",
+      "question": "A 19-year-old woman sustains a hemisection of the spinal cord on the left at T6. Examination findings 1 week later are shown. Her impaired pinprick level on the right begins at T8 rather than at T6. Which of the following best explains this discrepancy?",
+      "table": [
+        [
+          "Modality",
+          "Right side",
+          "Left side"
+        ],
+        [
+          "Vibration",
+          "Intact",
+          "Absent below T6"
+        ],
+        [
+          "Joint position sense",
+          "Intact",
+          "Absent below T6"
+        ],
+        [
+          "Pinprick",
+          "Absent below T8",
+          "Intact"
+        ],
+        [
+          "Temperature",
+          "Absent below T8",
+          "Intact"
+        ]
+      ],
+      "answers": {
+        "A": "Second-order axons synapse again in the nucleus gracilis before crossing the midline",
+        "B": "Spinothalamic axons cross the midline in the medulla rather than in the spinal cord",
+        "C": "Terminals of entering afferents ascend one to two segments in the tract of Lissauer",
+        "D": "Thalamic neurons of the ventral posterolateral nucleus project bilaterally to the cortex",
+        "E": "Third-order neurons receive convergent input from several adjacent dermatomes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The nucleus gracilis is a relay for the dorsal column system and has no role in spinothalamic transmission.",
+        "B": "Crossing in the medulla is characteristic of the dorsal column-medial lemniscus system; spinothalamic fibers cross in the cord, which is why the deficit is contralateral at all.",
+        "C": "Incoming nociceptive afferents branch and travel one to two segments rostrally in Lissauer tract before synapsing, and the crossing second-order axons also ascend obliquely, so the contralateral sensory level falls below the anatomic level of the lesion.",
+        "D": "Ventral posterolateral projections to somatosensory cortex are essentially unilateral and would not shift a spinal sensory level.",
+        "E": "Convergence at the thalamic level would blur localization generally rather than produce a reproducible two-segment offset."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-008",
+      "question": "A 61-year-old man with metastatic prostate cancer has pain refractory to systemic opioids. His team plans an intrathecal infusion aimed at the spinal gray matter region containing the largest population of second-order nociceptive projection neurons. Which of the following regions is being targeted?",
+      "answers": {
+        "A": "Rexed lamina I and II",
+        "B": "Rexed lamina III and IV",
+        "C": "Rexed lamina VI",
+        "D": "Rexed lamina VII",
+        "E": "Rexed lamina IX"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The marginal zone (lamina I) and substantia gelatinosa (lamina II) receive A-delta and C fiber input and contain the single largest source of pain projection neurons feeding the spinothalamic tract.",
+        "B": "Lamina III and IV receive predominantly large-fiber, non-nociceptive mechanoreceptive input.",
+        "C": "Lamina VI lies at the base of the dorsal horn and processes primarily proprioceptive input from muscle afferents.",
+        "D": "Lamina VII contains interneurons and the intermediolateral cell column, serving autonomic and motor integration.",
+        "E": "Lamina IX contains alpha motor neurons in the ventral horn and has no sensory projection role."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-009",
+      "question": "A 63-year-old man with an inferior wall myocardial infarction reports aching pain in his left shoulder and the medial aspect of his left arm without chest discomfort. Laboratory and vital sign data are shown. Which of the following best accounts for the location of his pain?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Troponin I",
+          "8.4 ng/mL",
+          "less than 0.04 ng/mL"
+        ],
+        [
+          "Creatine kinase-MB",
+          "42 U/L",
+          "0-5 U/L"
+        ],
+        [
+          "Blood pressure",
+          "148/86 mm Hg",
+          "less than 120/80 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "96/min",
+          "60-100/min"
+        ]
+      ],
+      "answers": {
+        "A": "Lamina II interneurons receiving exclusively cutaneous C-fiber input",
+        "B": "Lamina V wide-dynamic-range neurons receiving convergent visceral and somatic input",
+        "C": "Locus coeruleus neurons releasing norepinephrine into the dorsal horn",
+        "D": "Medial thalamic neurons projecting diffusely to the anterior cingulate cortex",
+        "E": "Ventral posterolateral neurons projecting to the postcentral gyrus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lamina II interneurons modulate transmission and receive cutaneous input, but they are not the site of visceral and somatic convergence.",
+        "B": "Lamina V neurons are polymodal and receive convergent input from viscera and from somatic dermatomes sharing the same spinal segments, so cortex misattributes cardiac afferent traffic to the shoulder and medial arm.",
+        "C": "Locus coeruleus neurons are descending and noradrenergic; they inhibit pain rather than determine where it is perceived.",
+        "D": "Medial thalamic projections to cingulate cortex mediate the unpleasantness of pain, not its somatotopic mislocalization.",
+        "E": "Ventral posterolateral neurons faithfully preserve somatotopy and merely relay the already-mislocalized signal generated at the spinal level."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-010",
+      "question": "A 29-year-old man with chronic pain enrolls in a trial of a drug that antagonizes the neurokinin-1 receptor on dorsal horn projection neurons. The endogenous ligand for this receptor is a peptide released from the central terminals of A-delta and C fibers along with glutamate. Which of the following is this ligand?",
+      "answers": {
+        "A": "Calcitonin gene-related peptide",
+        "B": "Enkephalin",
+        "C": "Gamma-aminobutyric acid",
+        "D": "Serotonin",
+        "E": "Substance P"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Calcitonin gene-related peptide is co-released from nociceptive terminals but acts at its own CGRP receptor, not at neurokinin-1.",
+        "B": "Enkephalin is released by inhibitory dorsal horn interneurons and acts at opioid receptors to dampen nociceptive transmission.",
+        "C": "Gamma-aminobutyric acid is an inhibitory transmitter of dorsal horn interneurons and acts at GABA receptors.",
+        "D": "Serotonin is delivered by descending fibers from the raphe magnus and acts on 5-HT receptors on interneurons.",
+        "E": "Substance P is the endogenous agonist at neurokinin-1 receptors and is released with glutamate and CGRP from A-delta and C fiber terminals to excite second-order neurons."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-011",
+      "question": "A 71-year-old woman receives intrathecal morphine after hip arthroplasty. The drug binds opioid receptors at the same synapse where endogenous enkephalin acts. Which of the following best describes its action at the first synapse of the pain pathway?",
+      "answers": {
+        "A": "Blockade of serotonin reuptake at descending raphe terminals",
+        "B": "Enhanced release of substance P from nociceptive afferent terminals",
+        "C": "Excitation of wide-dynamic-range neurons within Rexed lamina V",
+        "D": "Inhibition of excitatory transmitter release from primary afferent terminals",
+        "E": "Stimulation of glutamatergic output neurons of the periaqueductal gray"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Serotonin reuptake blockade is the mechanism of antidepressant analgesics and occurs upstream of the opioid receptor itself.",
+        "B": "Opioid receptor activation reduces rather than enhances substance P release from afferent terminals.",
+        "C": "Exciting lamina V projection neurons would increase nociceptive output; opioids inhibit these neurons postsynaptically.",
+        "D": "Enkephalin and morphine act on presynaptic opioid receptors on nociceptive afferent terminals to suppress release of glutamate, substance P, and CGRP, and on postsynaptic receptors to hyperpolarize dorsal horn neurons.",
+        "E": "Opioids do disinhibit periaqueductal gray output supraspinally, but that is a brainstem action and not what occurs at the first spinal synapse."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-012",
+      "question": "A 54-year-old woman with a 12-year history of type 2 diabetes reports burning pain in both feet that is worse at night. Laboratory results are shown. She is started on duloxetine, a serotonin-norepinephrine reuptake inhibitor, and reports substantial pain relief after 6 weeks. At which site does the increased availability of these transmitters most directly reduce her pain?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin A1c",
+          "9.2 %",
+          "4.0-5.6 %"
+        ],
+        [
+          "Fasting glucose",
+          "198 mg/dL",
+          "70-99 mg/dL"
+        ],
+        [
+          "Creatinine",
+          "1.0 mg/dL",
+          "0.6-1.2 mg/dL"
+        ],
+        [
+          "Vitamin B12",
+          "540 pg/mL",
+          "200-900 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Dorsal root ganglion",
+        "B": "Locus coeruleus",
+        "C": "Periaqueductal gray",
+        "D": "Posterior horn of the spinal cord",
+        "E": "Raphe magnus nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal root ganglion houses primary afferent cell bodies and is not a monoaminergic synapse.",
+        "B": "The locus coeruleus contains the noradrenergic cell bodies, but the analgesic synapse is at their distal terminals in the cord.",
+        "C": "The periaqueductal gray drives the circuit using glutamate, so monoamine reuptake inhibition is not its principal site of action.",
+        "D": "Descending raphe and locus coeruleus axons terminate in the posterior (dorsal) horn, so blocking reuptake there raises synaptic serotonin and norepinephrine, which activate enkephalinergic inhibitory interneurons and suppress nociceptive transmission.",
+        "E": "The raphe magnus supplies the serotonergic neurons, but again the relevant synapse is where those axons terminate in the dorsal horn."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-013",
+      "question": "A 49-year-old man with intractable pain from a brachial plexus avulsion undergoes deep brain stimulation, and electrical stimulation of the periaqueductal gray produces profound analgesia. The glutamatergic neurons activated by this stimulation project most directly to which of the following structures?",
+      "answers": {
+        "A": "Intralaminar nuclei of the thalamus",
+        "B": "Nucleus gracilis of the caudal medulla",
+        "C": "Nucleus raphe magnus of the rostral medulla",
+        "D": "Substantia gelatinosa of the lumbar cord",
+        "E": "Ventral posterolateral nucleus of the thalamus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Intralaminar nuclei are ascending relays of the medial spinothalamic system and are not the target of descending periaqueductal gray output.",
+        "B": "The nucleus gracilis is a dorsal column relay for vibration and proprioception and has no role in descending pain control.",
+        "C": "Glutamatergic periaqueductal gray neurons excite serotonergic neurons of the nucleus raphe magnus in the rostral ventromedial medulla, which then project to the dorsal horn to inhibit nociception.",
+        "D": "The periaqueductal gray influences the substantia gelatinosa indirectly, only after relaying through medullary and pontine nuclei.",
+        "E": "The ventral posterolateral nucleus is a third-order ascending sensory relay, not a component of the descending modulatory circuit."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-014",
+      "question": "A 58-year-old man is given an experimental agent that selectively depletes norepinephrine from descending axons terminating in the spinal dorsal horn, and his pain threshold subsequently falls. The cell bodies of the depleted neurons are located in which of the following structures?",
+      "answers": {
+        "A": "Locus coeruleus of the pons",
+        "B": "Nucleus raphe magnus of the medulla",
+        "C": "Periaqueductal gray of the midbrain",
+        "D": "Substantia gelatinosa of the spinal cord",
+        "E": "Ventral posteromedial nucleus of the thalamus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The locus coeruleus in the pons contains the noradrenergic neurons whose descending axons synapse on inhibitory interneurons in the dorsal horn, so depleting them removes tonic descending inhibition.",
+        "B": "The raphe magnus supplies serotonin rather than norepinephrine to the dorsal horn.",
+        "C": "Periaqueductal gray projection neurons in this circuit are glutamatergic.",
+        "D": "The substantia gelatinosa contains local enkephalinergic and GABAergic interneurons, not descending monoaminergic cell bodies.",
+        "E": "The ventral posteromedial nucleus relays facial sensation to cortex and sends no descending projection to the spinal cord."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-015",
+      "question": "A 68-year-old man with hypertension awakens with numbness of the right hand and the right corner of his mouth. Pinprick and light touch are reduced in both areas, while strength, coordination, and language are normal. Vital signs and laboratory data are shown. MRI shows a small lacunar infarct. Which of the following locations best explains his findings?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Blood pressure",
+          "178/98 mm Hg",
+          "less than 120/80 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "78/min",
+          "60-100/min"
+        ],
+        [
+          "Hemoglobin A1c",
+          "7.9 %",
+          "4.0-5.6 %"
+        ],
+        [
+          "LDL cholesterol",
+          "162 mg/dL",
+          "less than 100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Left medial lemniscus in the rostral pons",
+        "B": "Left thalamic ventral posterior nuclei",
+        "C": "Right anterior cingulate cortex",
+        "D": "Right dorsal columns at the C5 level",
+        "E": "Right thalamic ventral posterior nuclei"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A medial lemniscus lesion would spare pain and temperature, whereas this patient has reduced pinprick along with impaired touch.",
+        "B": "The hand area of the ventral posterolateral nucleus lies adjacent to the perioral area of the ventral posteromedial nucleus, so a small left thalamic infarct produces the contralateral cheiro-oral pattern seen here.",
+        "C": "Anterior cingulate lesions alter the affective response to pain rather than causing discrete contralateral sensory loss, and this lesion is on the wrong side.",
+        "D": "A right cervical dorsal column lesion would cause ipsilateral right-sided loss of vibration and proprioception and would never involve the face.",
+        "E": "A right-sided thalamic lesion would produce left-sided rather than right-sided sensory loss, since thalamocortical projections serve the contralateral body."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-016",
+      "question": "A 57-year-old woman with a glioblastoma involving the left thalamus reports episodic burning pain that she cannot localize and that seems to migrate between her trunk and limbs. She also has markedly disrupted sleep and prominent mood changes. Pain and temperature sensation are reduced in the right leg and foot. Involvement of which of the following thalamic nuclei best explains the poorly localized and emotionally distressing quality of her pain?",
+      "answers": {
+        "A": "Anterior nuclear group",
+        "B": "Central lateral and intralaminar nuclei",
+        "C": "Lateral geniculate nucleus",
+        "D": "Medial geniculate nucleus",
+        "E": "Ventral posterolateral nucleus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior nuclear group participates in the Papez circuit for memory and has no direct spinothalamic input.",
+        "B": "The medial (paleo) spinothalamic division terminates in central lateral and intralaminar nuclei, which lack somatotopic organization and project to limbic and association areas, explaining diffuse migratory pain along with disturbed arousal and mood.",
+        "C": "The lateral geniculate nucleus is the visual relay and lesions there produce visual field defects.",
+        "D": "The medial geniculate nucleus is the auditory relay and its involvement would affect hearing.",
+        "E": "The ventral posterolateral nucleus is somatotopically organized and accounts for her discrete right leg sensory loss, not the poorly localized affective component."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-017",
+      "question": "A 66-year-old woman had a right thalamic infarct 4 months ago with initially dense loss of sensation on the left. She now reports that light touch on the left side of her face is perceived as burning and that the weight of a bedsheet on her left arm is painful. Which of the following best explains her current symptoms?",
+      "answers": {
+        "A": "Demyelination of large-diameter afferents within the left trigeminal nerve",
+        "B": "Ectopic action potential generation within the left dorsal root ganglion",
+        "C": "Loss of nociceptive free nerve endings within the affected areas of skin",
+        "D": "Peripheral sensitization of nociceptors by locally released prostaglandins",
+        "E": "Reduced activation thresholds of surviving neurons within the central nervous system"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Trigeminal demyelination would not explain simultaneous involvement of the arm and would not follow a central infarct.",
+        "B": "Ectopic dorsal root ganglion discharge is a peripheral neuropathic mechanism, but her lesion and deficits are unambiguously central.",
+        "C": "Loss of free nerve endings would reduce rather than amplify sensation and would not convert touch into burning pain.",
+        "D": "Peripheral sensitization requires ongoing tissue inflammation, which is absent months after a stroke with no local injury.",
+        "E": "This is central sensitization: after a thalamic stroke, surviving central neurons fire at reduced thresholds with increased firing rates and enhanced synaptic efficacy, so innocuous input is perceived as burning pain."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-018",
+      "question": "A 72-year-old man has sudden loss of pain, temperature, light touch, and vibration over the entire left half of his body with no weakness. Imaging shows a small hemorrhage interrupting axons traveling from the thalamus toward the postcentral gyrus. Through which of the following structures were the interrupted axons passing?",
+      "answers": {
+        "A": "Anterior limb of the internal capsule",
+        "B": "Genu of the internal capsule",
+        "C": "Medial lemniscus of the pons",
+        "D": "Posterior limb of the internal capsule",
+        "E": "Superior cerebellar peduncle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior limb carries frontopontine and thalamic fibers to prefrontal cortex and is not the somatosensory relay route.",
+        "B": "The genu carries corticobulbar fibers, so a lesion there would produce contralateral lower facial weakness rather than pure sensory loss.",
+        "C": "The medial lemniscus carries second-order dorsal column fibers below the thalamus and would spare pain and temperature.",
+        "D": "Third-order axons from the ventral posterior nuclei travel in the posterior limb of the internal capsule and corona radiata to reach primary somatosensory cortex, so a lesion there abolishes all modalities contralaterally without weakness.",
+        "E": "The superior cerebellar peduncle carries cerebellar output and its interruption causes ataxia and tremor."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-019",
+      "question": "A 45-year-old man has a right-sided C6 disc herniation causing sharp pain and tingling radiating into the right thumb, with a diminished right biceps reflex. Where are the cell bodies of the first-order neurons carrying this painful sensation toward the spinal cord?",
+      "answers": {
+        "A": "Intermediolateral cell column of the thoracic cord",
+        "B": "Nucleus cuneatus of the caudal medulla",
+        "C": "Posterior root ganglion at the C6 level",
+        "D": "Rexed lamina II of the cervical dorsal horn",
+        "E": "Ventral horn lamina IX at C6"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The intermediolateral cell column contains preganglionic sympathetic motor neurons, not sensory cell bodies.",
+        "B": "The nucleus cuneatus contains second-order dorsal column neurons for the upper limb, not first-order cells.",
+        "C": "Primary afferent neurons are pseudounipolar cells whose somata sit in the posterior (dorsal) root ganglion, with a peripheral axon reaching the receptor and a central axon entering the dorsal horn.",
+        "D": "Lamina II houses second-order neurons and interneurons that the primary afferent synapses upon after entering the cord.",
+        "E": "Lamina IX contains alpha motor neurons supplying skeletal muscle."
+      }
+    },
+    {
+      "id": "neuro-sensory-pathways-anterolateral-020",
+      "question": "A 59-year-old woman with intractable pain from pancreatic cancer undergoes bilateral anterior cingulotomy. Afterward she reports that she still feels the pain and can localize it precisely, but that it no longer distresses or preoccupies her. Interruption of which of the following projections best explains this outcome?",
+      "answers": {
+        "A": "Dorsal column projection to the ventral posterolateral nucleus",
+        "B": "Lateral spinothalamic projection to the primary somatosensory cortex",
+        "C": "Medial spinothalamic projection through intralaminar nuclei to limbic cortex",
+        "D": "Spinocerebellar projection to the anterior lobe of the cerebellum",
+        "E": "Trigeminothalamic projection to the ventral posteromedial nucleus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The dorsal column system conveys discriminative touch and proprioception and is unrelated to the emotional dimension of pain.",
+        "B": "The lateral spinothalamic projection to primary somatosensory cortex mediates intensity and localization, which are explicitly preserved in this patient.",
+        "C": "The medial (paleo) spinothalamic division relays through intralaminar and central lateral nuclei to the anterior cingulate cortex, insula, and other limbic areas that generate the affective-motivational suffering component of pain.",
+        "D": "Spinocerebellar pathways carry unconscious proprioception and do not reach conscious perception at all.",
+        "E": "The trigeminothalamic pathway serves facial sensation and would alter localization on the face rather than the emotional response to visceral pain."
+      }
+    }
+  ]
+}
