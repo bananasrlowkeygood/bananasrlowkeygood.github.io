@@ -1,0 +1,422 @@
+{
+  "lecture": "Disaster Medicine: Individual, Community, and Systems Perspectives",
+  "block": "neuro",
+  "generated": "2026-08-15",
+  "questions": [
+    {
+      "id": "neuro-disaster-medicine-001",
+      "question": "Emergency medical services respond to a commuter train derailment with approximately 40 injured passengers. A 24-year-old man walked away from the wreckage under his own power and follows all commands appropriately. He has a deep laceration of the left thigh; a bystander applied a commercial tourniquet and the bleeding is now controlled. He denies chest pain and has no respiratory distress. His vital signs are shown. According to the Modified START algorithm, which triage tag is most appropriate for this patient?",
+      "table": [
+        ["Parameter", "Value"],
+        ["Respiratory rate", "22/min"],
+        ["Heart rate", "112/min"],
+        ["Blood pressure", "118/74 mm Hg"],
+        ["Oxygen saturation", "98% on room air"]
+      ],
+      "answers": {
+        "A": "Black tag (deceased)",
+        "B": "Green tag (minor)",
+        "C": "Orange tag (urgent)",
+        "D": "Red tag (immediate)",
+        "E": "Yellow tag (delayed)"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Black tags are reserved for patients with no spontaneous or effective respirations after one attempt at airway repositioning, which does not apply to an ambulatory, conversant patient.",
+        "B": "Ambulatory patients normally receive a green tag, but Modified START upgrades an ambulatory patient to Orange when a tourniquet or hemostatic dressing has been applied.",
+        "C": "Modified START adds the Orange (urgent) category specifically for patients such as this one, with bleeding controlled by tourniquet or hemostatic dressing, chest pain, respiratory distress, or infancy.",
+        "D": "Red tags require respirations only after airway repositioning, respiratory rate above 30 or below 10, absent radial pulse, or failure to follow commands, none of which is present here.",
+        "E": "Yellow is assigned to non-ambulatory patients who meet neither Red nor Orange criteria; this patient is ambulatory and meets an Orange criterion."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-002",
+      "question": "Paramedics performing field triage after a school bus collision reach a 3-year-old girl lying motionless in the aisle. She is unresponsive and has no spontaneous respirations. A responder repositions her airway using a jaw-thrust maneuver, and she still makes no respiratory effort. Additional casualties are awaiting triage. According to the Modified START algorithm, which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Apply a black tag and proceed to the next patient",
+        "B": "Begin chest compressions and request a cardiac monitor",
+        "C": "Deliver five breaths with a bag-valve mask and reassess",
+        "D": "Perform a second jaw-thrust and reassess in 60 seconds",
+        "E": "Transport immediately to the nearest pediatric trauma center"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A black tag is applied to a pediatric patient only after five bag-valve-mask breaths fail to produce spontaneous or effective respirations; applying it now is premature.",
+        "B": "Compressions consume time and personnel that field triage cannot spare, and Modified START does not include resuscitative CPR as a triage step.",
+        "C": "Modified START directs a trial of five bag-valve-mask breaths in apneic children; if respirations resume the patient is tagged Red, and if not the patient is tagged Black.",
+        "D": "Only one airway repositioning attempt is permitted before advancing in the algorithm, since triage of each patient is limited to roughly 60 seconds total.",
+        "E": "Triage designation must precede transport decisions, and transporting an untriaged apneic child would divert resources from salvageable casualties."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-003",
+      "question": "A 46-year-old man is extricated from a partially collapsed warehouse after an industrial explosion. He is unable to walk because of a deformed lower leg. He is breathing spontaneously without airway repositioning, has a palpable radial pulse, and follows simple commands. His vital signs are shown. According to the Modified START algorithm, which triage tag is most appropriate?",
+      "table": [
+        ["Parameter", "Value"],
+        ["Respiratory rate", "36/min"],
+        ["Heart rate", "118/min"],
+        ["Blood pressure", "124/78 mm Hg"],
+        ["Radial pulse", "Present"]
+      ],
+      "answers": {
+        "A": "Black tag (deceased)",
+        "B": "Green tag (minor)",
+        "C": "Orange tag (urgent)",
+        "D": "Red tag (immediate)",
+        "E": "Yellow tag (delayed)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Black is assigned only when no spontaneous or effective respirations are present after airway repositioning; this patient is breathing on his own.",
+        "B": "Green is reserved for ambulatory walking wounded who can be directed to a safe area, and this patient cannot walk.",
+        "C": "Orange applies to respiratory distress without tachypnea beyond threshold, chest pain, tourniquet use, or infancy; a respiratory rate above 30 supersedes these and mandates Red.",
+        "D": "A respiratory rate greater than 30 breaths/min is an explicit Red tag criterion in Modified START regardless of pulse or mental status.",
+        "E": "Yellow is for non-ambulatory patients who meet neither Red nor Orange criteria; his respiratory rate meets a Red criterion."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-004",
+      "question": "A 7-month-old boy is carried out of a burning apartment building by a firefighter during a mass casualty incident. He is crying vigorously, has a strong brachial pulse, and has no burns, external bleeding, or evidence of airway compromise. His vital signs are shown. Under the original START algorithm he would be categorized as delayed. According to the Modified START algorithm, which triage tag is most appropriate?",
+      "table": [
+        ["Parameter", "Value"],
+        ["Respiratory rate", "38/min"],
+        ["Heart rate", "148/min"],
+        ["Brachial pulse", "Strong"],
+        ["Capillary refill", "2 seconds"]
+      ],
+      "answers": {
+        "A": "Black tag (deceased)",
+        "B": "Green tag (minor)",
+        "C": "Orange tag (urgent)",
+        "D": "Red tag (immediate)",
+        "E": "Yellow tag (delayed)"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Black requires absent respirations after airway repositioning and, in children, after five bag-valve-mask breaths; this infant is breathing and crying.",
+        "B": "Green requires an ambulatory patient who can follow commands and walk to a safe area, which an infant cannot do.",
+        "C": "Modified START assigns Orange to infants under 1 year of age who do not meet Red or Black criteria, recognizing their limited physiologic reserve and the need for early transport.",
+        "D": "Red criteria include respirations only after repositioning, absent radial pulse, or failure to follow commands; a vigorous, well-perfused infant meets none of these.",
+        "E": "Yellow would be the original START result, and the Orange category was created precisely to move patients like this ahead of the delayed group."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-005",
+      "question": "A 39-year-old emergency physician hears a radio report of a building collapse three miles from her home. She drives to the scene, parks near the outer perimeter, walks past the staging area without checking in, and begins treating injured people in the rubble field. No one at the incident command post is aware that she is on site or what she is doing. Which term best describes her behavior?",
+      "answers": {
+        "A": "Convergent volunteerism",
+        "B": "Freelancing",
+        "C": "Mutual aid response",
+        "D": "Surge capacity activation",
+        "E": "Unified command"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Convergent volunteerism refers broadly to the spontaneous movement of people, messages, and supplies toward a disaster area rather than to unsanctioned operations at the scene itself.",
+        "B": "Freelancing is defined as operating at an emergency incident without the knowledge of or direction by the on-scene command authority, which is exactly what she is doing.",
+        "C": "Mutual aid response systems are formal pre-established agreements through which agencies request and credential outside personnel.",
+        "D": "Surge capacity activation refers to a facility expanding its ability to absorb patients, not to individuals self-deploying to a scene.",
+        "E": "Unified command describes multiple agencies sharing a single command structure with agreed objectives, the opposite of unsanctioned individual action."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-006",
+      "question": "A 24-year-old third-year medical student is on rotation at a hospital two miles from an active mass shooting scene. Posts circulating on social media urge anyone with medical training to come help at the scene. The hospital has activated its mass casualty incident plan, and the emergency department expects a large influx of patients over the next several hours. Which of the following is the most appropriate action for this student?",
+      "answers": {
+        "A": "Drive to the scene and report to the nearest ambulance crew",
+        "B": "Post an offer to volunteer in response to the social media appeal",
+        "C": "Remain at the hospital and rest to be available for the next shift",
+        "D": "Respond to the scene with a personal trauma kit and gloves",
+        "E": "Travel to the scene to assist responders with patient tracking"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Self-deploying bypasses staging, adds an untracked person to a hazardous scene, and leads incident command to request additional resources for tasks that appear unstaffed.",
+        "B": "Responding to unverified broadcast appeals is a recognized credibility failure; legitimate requests come through established mutual aid response systems.",
+        "C": "The best places for a hospital tech, nurse, student, or physician during a mass casualty incident are at the hospital or resting for the next shift, since disasters generate sustained rather than momentary demand.",
+        "D": "Most clinicians, including those trained in emergency medicine, are not qualified to deliver on-scene disaster care, and personal equipment does not confer scene competence.",
+        "E": "Patient tracking is an incident command function assigned to credentialed personnel; an unassigned volunteer would fragment rather than support it."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-007",
+      "question": "A 47-year-old hospitalist watches a televised statement in which a local elected official urges every licensed clinician in the region to come to the site of a chemical plant explosion. The hospitalist calls the hospital's disaster preparedness officer to ask whether she should go. Which of the following statements provides the most appropriate basis for her decision?",
+      "answers": {
+        "A": "Any licensed clinician may self-deploy once a disaster has been declared",
+        "B": "Broadcast appeals by elected officials constitute adequate authorization",
+        "C": "Clinicians should deploy only through an established mutual aid response system",
+        "D": "On-scene volunteer physicians may authorize additional arriving clinicians",
+        "E": "Social media requests from verified accounts serve as adequate credentialing"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A disaster declaration does not create credentialing, assignment, medical oversight, or liability protection for individual clinicians.",
+        "B": "Unsolicited broadcasts from politicians, reporters, and social media personalities are classic examples of requests whose credibility cannot be assumed.",
+        "C": "Deployment should occur through established mutual aid response systems, which provide credentialing, assignment, medical oversight, tracking, and liability coverage.",
+        "D": "Volunteers already at the scene, including physicians, have no authority to credential or assign others and may themselves be freelancing.",
+        "E": "Account verification speaks to identity on a platform, not to whether the request reflects an actual resource need identified by incident command."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-008",
+      "question": "A 41-year-old public health physician is assigned to the incident command post during a multi-agency response to a tanker fire involving fire, police, EMS, and sanitation departments. She asks what the command post is responsible for. Which of the following best describes the primary function of incident command?",
+      "answers": {
+        "A": "Defining objectives, making decisions, and determining resource needs",
+        "B": "Delivering definitive medical care to the most critically injured casualties",
+        "C": "Performing secondary triage of arriving patients at receiving hospitals",
+        "D": "Providing psychological first aid to bystanders and affected families",
+        "E": "Transporting ambulatory casualties to designated safe assembly areas"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Incident command exists to make decisions, define objectives, and determine resources in service of rescue of life, community and environmental safety, and protection or recovery of property and the deceased.",
+        "B": "Definitive care is delivered at receiving facilities; command allocates the personnel who provide field care rather than providing it.",
+        "C": "Secondary triage occurs at hospitals under their own emergency operations plans, separate from on-scene incident command.",
+        "D": "Psychological first aid is an individual-level intervention delivered by trained responders, not the organizing function of command.",
+        "E": "Movement of the walking wounded is a task executed by assigned field personnel under command direction."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-009",
+      "question": "Eight months after a hurricane destroyed much of a coastal town, a 52-year-old woman who volunteered daily at the emergency shelter in the first weeks now says she has stopped attending community meetings. She is angry that promised federal assistance has not arrived, states that neighbors are fighting over contractor payments, and describes feeling abandoned by outside agencies that have left. Which phase of the disaster response cycle best characterizes this community?",
+      "answers": {
+        "A": "Disillusionment",
+        "B": "Heroic",
+        "C": "Honeymoon",
+        "D": "Impact",
+        "E": "Reconstruction"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The disillusionment phase follows the honeymoon period and is marked by unmet expectations, anger at authorities, fraying of community cohesion, and a sense of abandonment as outside attention withdraws.",
+        "B": "The heroic phase occurs immediately after impact and features high energy, altruism, and rescue activity.",
+        "C": "The honeymoon phase is characterized by strong community cohesion and optimism generated by shared experience and incoming aid, which this community has lost.",
+        "D": "The impact phase is the event itself, marked by magnified arousal and fight, flight, or freeze responses.",
+        "E": "Reconstruction represents a new beginning in which grief is worked through and rebuilding proceeds, typically after the anniversary and following disillusionment."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-010",
+      "question": "A tornado passes directly through a small town, and the period of destruction lasts roughly 90 seconds. A disaster mental health team interviews residents about what they and others did during those 90 seconds in order to plan community education. Which of the following best describes typical human behavior during the impact phase of a disaster?",
+      "answers": {
+        "A": "Community cohesion and shared optimism about rebuilding efforts",
+        "B": "Heightened arousal with fight, flight, or freeze responses and little panic",
+        "C": "Mass panic with widespread selfish flight and abandonment of others",
+        "D": "Preparation and initiation of coping mechanisms in response to warnings",
+        "E": "Widespread anger at relief agencies with withdrawal from neighbors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Community cohesion and optimism characterize the honeymoon phase, which follows the heroic phase rather than the moment of impact.",
+        "B": "During impact, arousal levels are magnified and fight, flight, or freeze responses predominate, while frank panic is uncommon; behavior in this phase correlates with later recovery.",
+        "C": "Mass panic is a persistent myth about disasters; organized and prosocial behavior is far more typical than selfish flight.",
+        "D": "Preparation and mobilization of coping mechanisms occur in the pre-impact phase when warnings are available.",
+        "E": "Anger toward relief agencies and social withdrawal characterize the disillusionment phase months later."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-011",
+      "question": "In a survey of Manhattan residents conducted 5 to 8 weeks after the September 11 attacks, the prevalence of PTSD rose from 3.6% to 7.5% and the prevalence of major depression rose from 4.9% to 9.7%. A 40-year-old woman who lives in Midtown was not physically injured and lost no possessions, but she lost her job when her employer closed and has few local friends or family. Which factor was most specifically associated with new-onset major depression rather than with PTSD in this population?",
+      "answers": {
+        "A": "Loss of possessions during the attack",
+        "B": "Low levels of social support",
+        "C": "Panic attack at the time of the event",
+        "D": "Residence closest to the World Trade Center site",
+        "E": "Witnessing the collapse of the towers in person"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Loss of possessions was among the exposures most strongly linked to PTSD rather than to depression.",
+        "B": "Depression after the attacks was predicted by grief from loss of a family member, loss of job, and low social support, distinguishing it from the exposure-driven pattern of PTSD.",
+        "C": "Panic at the time of the event was a predictor common to both PTSD and depression and therefore does not distinguish between them.",
+        "D": "Proximity to the World Trade Center site was one of the strongest predictors of PTSD specifically.",
+        "E": "Direct exposure to the event, including witnessing it, tracks with PTSD rather than differentiating depression."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-012",
+      "question": "A 35-year-old woman whose sister survived a terrorist bombing asks a psychiatrist whether her sister is more likely to develop PTSD than she would have been after a comparable earthquake. Which of the following statements most accurately reflects the epidemiology of PTSD after disasters?",
+      "answers": {
+        "A": "About 20% develop PTSD, roughly four times the U.S. background rate",
+        "B": "About 5% develop PTSD, essentially the U.S. background population rate",
+        "C": "About 60% develop PTSD after most large-scale disaster exposures",
+        "D": "Terrorist events confer lower PTSD rates because of rapid public response",
+        "E": "Terrorist events confer substantially higher PTSD rates than natural events"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "PTSD prevalence after disasters is approximately 20% compared with roughly 5% in the general U.S. population, and it can reach about 35% in disasters of greatest scope and magnitude.",
+        "B": "This describes the general population baseline, not the elevated post-disaster prevalence.",
+        "C": "Rates near 60% exceed even the peak figures reported for the largest-magnitude disasters.",
+        "D": "There is no evidence that terrorist events are protective, and framing them as such misstates the comparative data.",
+        "E": "Terrorist disasters have not been shown to differ from other disaster types in PTSD prevalence; scope and magnitude of the event matter more than its cause."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-013",
+      "question": "A 58-year-old woman is evaluated in a mobile clinic three weeks after a wildfire destroyed her neighborhood. The clinic's mental health team is designing a screening protocol to identify survivors at highest risk for PTSD so that limited counseling resources can be targeted. Which of the following has been most consistently demonstrated to predict PTSD after a disaster?",
+      "answers": {
+        "A": "Lack of social support in the months after the event",
+        "B": "Lower socioeconomic status at the time of the event",
+        "C": "Minority group membership in the affected community",
+        "D": "Preexisting psychiatric illness before the disaster",
+        "E": "Younger age at the time of the disaster occurred"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Lack of social support is a plausible and frequently cited risk factor, but findings are inconsistent and confounded across studies.",
+        "B": "Lower socioeconomic status appears in the possible or confounded category rather than among consistently replicated predictors.",
+        "C": "Minority group membership is reported variably and is confounded by exposure severity, socioeconomic status, and access to resources.",
+        "D": "Preexisting psychopathology and female gender are the two risk factors consistently demonstrated across post-disaster PTSD studies.",
+        "E": "Younger age is among the possible or confounded predictors rather than a consistently replicated one."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-014",
+      "question": "A 44-year-old man is evaluated eight months after a tornado destroyed his town. He was not injured, but his brother's home was destroyed, and he was diagnosed with disaster-related PTSD four months ago. He was treated for major depressive disorder for two years in his thirties. Investigators studying this population reported the adjusted odds ratios shown for post-disaster major depression. Which factor in his history confers the greatest risk for major depression?",
+      "table": [
+        ["Risk factor", "Odds ratio (95% CI)", "P value"],
+        ["Predisaster major depression", "21.04 (12.17-36.39)", "<.001"],
+        ["Disaster-related PTSD", "7.60 (4.66-12.41)", "<.001"],
+        ["Terrorism as disaster type", "4.36 (1.28-14.89)", ".019"],
+        ["Indirect exposure through family or friend", "2.36 (1.39-4.01)", ".002"]
+      ],
+      "answers": {
+        "A": "Disaster-related posttraumatic stress disorder",
+        "B": "Indirect exposure through a family member",
+        "C": "Lack of social support after the disaster",
+        "D": "Predisaster major depressive disorder",
+        "E": "Terrorism as the type of disaster experienced"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Disaster-related PTSD carries a substantial odds ratio of 7.60, but this is well below the risk conferred by a prior depressive episode.",
+        "B": "Indirect exposure through a family member or friend carries the smallest odds ratio in this analysis at 2.36.",
+        "C": "Lack of social support is a recognized correlate of post-disaster distress but was not among the risk factors quantified in this analysis.",
+        "D": "Predisaster major depression carries by far the largest odds ratio at 21.04, consistent with the general principle that preexisting psychopathology is the strongest predictor of post-disaster psychiatric illness.",
+        "E": "Terrorism as the disaster type carries an odds ratio of 4.36 with a wide confidence interval, and it does not apply to a tornado."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-015",
+      "question": "Two days after a shooting in a hospital emergency department, a 50-year-old administrator proposes a mandatory single-session group meeting in which every staff member present that day must describe what they saw and felt. She notes that participants in similar sessions after other events rated them highly. Which of the following is the strongest objection to this plan?",
+      "answers": {
+        "A": "Debriefing satisfaction ratings reliably predict later symptom reduction",
+        "B": "Group debriefing may increase PTSD risk in participants not ready to share",
+        "C": "Single-session interventions work only if delivered within six hours",
+        "D": "Staff should instead begin trauma-focused therapy within 48 hours",
+        "E": "Such sessions should be delayed until six months after the incident"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "High participant satisfaction with critical incident stress debriefing does not preclude poor outcomes, and satisfaction is a poor proxy for efficacy.",
+        "B": "Critical incident stress debriefing may increase PTSD risk because combining victims willing to share with victims not ready to share can cause new traumatization, and it is no longer a recommended intervention; current principles also require that participation be voluntary.",
+        "C": "No evidence supports a six-hour window; the problem is the intervention itself, not its timing.",
+        "D": "Trauma-focused cognitive-behavioral therapy is a tier 3 intensive intervention for identified patients, not a universal early intervention for all exposed staff.",
+        "E": "Delaying the same harmful intervention does not correct its risk of retraumatization or its mandatory nature."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-016",
+      "question": "Two days after catastrophic flooding, a 30-year-old man is seen by a disaster mental health worker at a community shelter. He is tearful and startles at loud noises, has slept poorly, and is preoccupied with locating his elderly mother. He has no psychiatric history, no suicidal ideation, and is oriented and coherent. Which of the following is the most appropriate initial intervention?",
+      "answers": {
+        "A": "Critical incident stress debriefing in a group format",
+        "B": "Initiation of trauma-focused cognitive-behavioral therapy",
+        "C": "Prescription of a benzodiazepine for acute anxiety symptoms",
+        "D": "Psychological first aid with attention to safety and reunification",
+        "E": "Referral for voluntary inpatient psychiatric hospitalization"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Critical incident stress debriefing is no longer recommended and may increase PTSD risk when participants are pushed to disclose before they are ready.",
+        "B": "Trauma-focused cognitive-behavioral therapy occupies the intensive tier of the intervention pyramid and is reserved for persistent, impairing symptoms rather than normative acute distress.",
+        "C": "Pharmacologic sedation does not address safety, arousal, information needs, or reunification, and it is not a first-line universal intervention.",
+        "D": "Psychological first aid is the tier 1 universal intervention and directly addresses his needs by protecting survivors from further harm, reducing physiologic arousal, providing information, and facilitating family reunification.",
+        "E": "His presentation reflects expected acute reactions without dangerousness or loss of function, so hospitalization would be excessive and would consume scarce resources."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-017",
+      "question": "A 55-year-old public health director is preparing a regional disaster mental health plan built around psychological first aid and asks a consulting psychiatrist how strong the supporting evidence is. Which of the following statements best reflects the current evidence base for psychological first aid?",
+      "answers": {
+        "A": "Evidence is limited, with few controlled trials and high risk of bias",
+        "B": "Multiple randomized trials have shown that it prevents incident PTSD",
+        "C": "PFA has been shown to increase PTSD risk in vulnerable participants",
+        "D": "PFA is contraindicated during the first month following a disaster",
+        "E": "Systematic reviews show it is equivalent to trauma-focused therapy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A review of 12 studies with 1,437 participants included only one randomized controlled trial, found high risk of bias, inconsistent intervention components, and insufficient evaluation methodology, so evidence that PFA prevents PTSD remains insufficient despite reported improvements in anxiety, mood, connectedness, and sense of control.",
+        "B": "Only one of the studies in that review was a randomized controlled trial, so multiple confirmatory trials do not exist.",
+        "C": "Increased PTSD risk has been described for critical incident stress debriefing, not for psychological first aid.",
+        "D": "PFA is designed specifically for the acute post-disaster period and is the recommended universal early intervention.",
+        "E": "PFA has never been shown equivalent to trauma-focused cognitive-behavioral therapy, which remains the intensive-tier treatment for established PTSD."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-018",
+      "question": "A 38-year-old paramedic worked 12-hour shifts at a disaster recovery site for 14 consecutive weeks. The site closed six weeks ago and she has returned to her usual schedule. She reports persistent fatigue, poor concentration, and low energy but denies mood disturbance, weight loss, hyperpigmentation, or use of glucocorticoids. Physical examination and electrolytes are normal, and her laboratory results are shown. Which of the following best explains her findings?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Cortisol, 8 AM", "4.1 mcg/dL", "6-19 mcg/dL"],
+        ["ACTH", "8 pg/mL", "10-60 pg/mL"],
+        ["Sodium", "139 mEq/L", "135-145 mEq/L"],
+        ["Potassium", "4.1 mEq/L", "3.5-5.0 mEq/L"]
+      ],
+      "answers": {
+        "A": "Adrenal hemorrhage sustained during acute physical stress",
+        "B": "Autoimmune destruction of the adrenal cortex",
+        "C": "Exogenous glucocorticoid suppression of the axis",
+        "D": "Gland-mass dynamics of the HPA axis after prolonged stress",
+        "E": "Pituitary macroadenoma compressing normal corticotrophs"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Adrenal hemorrhage presents acutely with pain, hemodynamic instability, and hyperkalemia with hyponatremia rather than an indolent course with normal electrolytes.",
+        "B": "Primary adrenal insufficiency from autoimmune adrenalitis produces low cortisol with markedly elevated ACTH, along with hyperpigmentation and electrolyte derangement.",
+        "C": "She denies glucocorticoid use, and exogenous steroid withdrawal would not follow the described trajectory of prolonged occupational stress.",
+        "D": "The HPA axis exhibits gland-mass dynamics in which corticotroph and adrenal functional mass expand during sustained stress and then undershoot after the stressor ends, leaving CRH, ACTH, and cortisol below baseline and the axis dysfunctional for weeks.",
+        "E": "A macroadenoma would typically produce additional pituitary hormone deficiencies, headache, or visual field defects rather than isolated transient hypocortisolism."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-019",
+      "question": "A 61-year-old man worked on debris removal at the World Trade Center site for nine months beginning in September 2001. He now has a chronic cough, exertional dyspnea, and depressed mood with intrusive memories. He is uninsured and states he cannot afford evaluation. Which of the following resources most appropriately addresses his long-term medical and mental health needs?",
+      "answers": {
+        "A": "A single session of critical incident stress debriefing",
+        "B": "Enrollment in the World Trade Center Health Program",
+        "C": "Project Liberty crisis counseling as deployed in 2002",
+        "D": "Referral to an emergency department for acute evaluation",
+        "E": "Short-term worksite counseling through his current employer"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Single-session debriefing is not a recommended intervention and addresses none of his chronic respiratory or psychiatric needs.",
+        "B": "The 2010 Zadroga Act created the World Trade Center Health Program, a limited-benefit plan with no out-of-pocket costs providing multidisciplinary care at Clinical Centers of Excellence, annual comprehensive examinations, cancer screening, medical and mental health treatment, and benefits counseling.",
+        "C": "Project Liberty was a time-limited post-acute crisis counseling program from 2002 that reached under 5% of those surveyed and no longer serves this population.",
+        "D": "Emergency evaluation does not address chronic symptoms, longitudinal monitoring, or the cost barrier he describes.",
+        "E": "Brief worksite counseling cannot deliver pulmonary evaluation, cancer screening, or sustained psychiatric treatment."
+      }
+    },
+    {
+      "id": "neuro-disaster-medicine-020",
+      "question": "A 55-year-old woman enrolled in the World Trade Center Health Registry is interviewed at 14-year follow-up. Investigators are examining which factors predict lower PTSD symptom burden a decade or more after exposure so that community-level programs can be designed for future disasters. Which of the following factors has been associated with lower long-term PTSD symptoms in this cohort?",
+      "answers": {
+        "A": "Attendance at a single debriefing session shortly after the attacks",
+        "B": "Higher levels of social participation and regular physical exercise",
+        "C": "Living within one mile of the World Trade Center disaster site",
+        "D": "Receiving a brief benzodiazepine prescription during late 2001",
+        "E": "Remaining in the affected neighborhood rather than evacuating it"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Single-session debriefing has no demonstrated long-term benefit and may increase PTSD risk in participants not ready to disclose.",
+        "B": "Registry follow-up showed that greater socializing and physical exercise predicted lower PTSD symptoms 14 or more years later, consistent with social capital and social networks as core elements of community disaster resilience.",
+        "C": "Residential proximity to the site predicted higher PTSD prevalence and more persistent symptoms over time.",
+        "D": "Benzodiazepine exposure in the acute period has no established protective effect on long-term PTSD outcomes.",
+        "E": "Failure to evacuate was associated with lower socioeconomic status and non-white race and is a marker of vulnerability, not of resilience."
+      }
+    }
+  ]
+}
