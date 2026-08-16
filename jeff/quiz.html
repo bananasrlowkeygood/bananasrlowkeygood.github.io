@@ -303,6 +303,11 @@
     }
     .nav-btn:not(:disabled):hover { background: #2a5a90; border-color: #2a5a90; }
 
+    /* Secondary (back) nav button */
+    .nav-btn.outline { background: transparent; color: #3a6ea8; }
+    .nav-btn.outline:not(:disabled):hover { background: #edf3fb; border-color: #3a6ea8; color: #3a6ea8; }
+    .nav-btn.outline:disabled { background: transparent; border-color: #d0d0d0; color: #bbb; }
+
     #submitBtn        { display: inline-flex; }
     #submitBtn.hidden { display: none; }
     #nextBtn          { display: none; }
@@ -415,6 +420,7 @@
     <div class="actions">
       <div class="score-inline" id="scoreInline"></div>
       <div style="display:flex;align-items:center;gap:0.5rem">
+        <button class="nav-btn outline" id="backBtn" onclick="prevQuestion()" disabled title="Previous">&#8592;</button>
         <button class="nav-btn" id="submitBtn" onclick="submitAnswer()" disabled title="Submit">&#10003;</button>
         <button class="nav-btn" id="nextBtn" onclick="nextQuestion()" title="Next">&#8594;</button>
       </div>
@@ -440,6 +446,10 @@
       <div class="res-stat"><div class="val red"   id="rWrong">0</div><div class="lbl">incorrect</div></div>
       <div class="res-stat"><div class="val"       id="rTotal">0</div><div class="lbl">total</div></div>
     </div>
+    <div class="results-actions">
+      <button class="res-btn outline" onclick="reviewAnswers()">← review answers</button>
+      <button class="res-btn" onclick="restartQuiz()">restart</button>
+    </div>
   </div>
 </div>
 
@@ -448,7 +458,92 @@
   const block   = params.get('block') || '';
   const lecture = params.get('lecture') || '';
 
-  let questions = [], current = 0, selected = null, answered = false, correct = 0, wrong = 0;
+  let questions = [], current = 0;
+
+  // One record per question, kept for the whole session so you can walk back
+  // and forward without losing what you picked. { selected, answered, struck }
+  let responses = [];
+
+  function response(i) {
+    if (!responses[i]) responses[i] = { selected: null, answered: false, struck: [] };
+    return responses[i];
+  }
+
+  // ── Session persistence ──
+  // Kept in sessionStorage so a refresh (or an accidental navigation) resumes
+  // where you left off. Per tab, per quiz, and gone when the tab closes.
+  const STORE_KEY = `jeff-quiz:${block}:${lecture || '*'}`;
+
+  function qKey(q) {
+    return q.id || `${q._lecture || lecture || block}|${(q.question || '').slice(0, 120)}`;
+  }
+
+  function saveSession() {
+    try {
+      const byKey = {};
+      responses.forEach((r, i) => {
+        if (r && (r.selected || r.struck.length)) byKey[qKey(questions[i])] = r;
+      });
+      sessionStorage.setItem(STORE_KEY, JSON.stringify({
+        v: 1,
+        current,
+        order: questions.map(qKey),
+        responses: byKey
+      }));
+    } catch (e) { /* storage full or blocked — carry on without persistence */ }
+  }
+
+  function readSession() {
+    try {
+      const saved = JSON.parse(sessionStorage.getItem(STORE_KEY) || 'null');
+      return saved && saved.v === 1 && Array.isArray(saved.order) ? saved : null;
+    } catch (e) { return null; }
+  }
+
+  // Put the questions back in their saved order and reattach the saved answers.
+  // Questions added to the block since the session started are kept at the end
+  // rather than throwing the whole session away.
+  function restoreSession() {
+    const saved = readSession();
+    if (!saved) return false;
+
+    const pos = new Map(saved.order.map((k, i) => [k, i]));
+    const known = [], fresh = [];
+    questions.forEach(q => (pos.has(qKey(q)) ? known : fresh).push(q));
+    if (!known.length) return false;
+
+    known.sort((a, b) => pos.get(qKey(a)) - pos.get(qKey(b)));
+    questions = known.concat(fresh);
+
+    responses = questions.map(q => {
+      const r = saved.responses && saved.responses[qKey(q)];
+      if (!r) return null;
+      return {
+        selected: r.selected || null,
+        answered: !!r.answered,
+        struck: Array.isArray(r.struck) ? r.struck : []
+      };
+    });
+
+    current = Math.min(Math.max(parseInt(saved.current, 10) || 0, 0), questions.length);
+
+    // If the session had finished but new questions showed up, resume on the
+    // first one still unanswered instead of dropping straight to results.
+    if (current >= questions.length) {
+      const firstOpen = responses.findIndex(r => !r || !r.answered);
+      if (firstOpen !== -1) current = firstOpen;
+    }
+    return true;
+  }
+
+  function tally() {
+    let correct = 0, wrong = 0;
+    responses.forEach((r, i) => {
+      if (!r || !r.answered) return;
+      r.selected === questions[i].correct ? correct++ : wrong++;
+    });
+    return { correct, wrong, total: correct + wrong };
+  }
 
   const blockNames = { neuro: 'Neurology', endorepro: 'Endo / Repro', msk: 'MSK' };
 
@@ -478,14 +573,21 @@
         }));
         questions = all.flat();
         document.getElementById('topSubtitle').textContent = 'all lectures · shuffled';
-        shuffle(questions);
       }
     } catch(e) {
       show('failed to load questions: ' + e.message); return;
     }
 
     if (!questions.length) { show('no questions found.'); return; }
+
+    const resumed = restoreSession();
+    if (!lecture && !resumed) shuffle(questions);
+
     document.getElementById('stateMsg').style.display = 'none';
+
+    // A session that had already finished comes back on the results screen
+    if (resumed && current >= questions.length) { showResults(); return; }
+
     document.getElementById('quizCard').style.display = 'flex';
     render();
   }
@@ -529,7 +631,7 @@
 
   function render() {
     const q = questions[current];
-    answered = false; selected = null;
+    const resp = response(current);
 
     document.getElementById('qMeta').textContent = `question ${current + 1} of ${questions.length}`;
 
@@ -559,10 +661,16 @@
       btn.className = 'answer-btn';
       btn.dataset.letter = letter;
       btn.innerHTML = `<span class="answer-letter">${letter}</span><span class="answer-text">${text}</span><span class="strike-hint">right-click to strike</span>`;
+      btn.classList.toggle('struck', resp.struck.includes(letter));
       btn.onclick = () => selectAnswer(letter);
       btn.oncontextmenu = (e) => {
         e.preventDefault();
-        if (!answered) btn.classList.toggle('struck');
+        if (response(current).answered) return;
+        btn.classList.toggle('struck');
+        const s = resp.struck.filter(l => l !== letter);
+        if (btn.classList.contains('struck')) s.push(letter);
+        resp.struck = s;
+        saveSession();
       };
       answersEl.appendChild(btn);
     });
@@ -572,19 +680,34 @@
 
     const submitBtn = document.getElementById('submitBtn');
     const nextBtn   = document.getElementById('nextBtn');
-    submitBtn.disabled = true;
+    submitBtn.disabled = !resp.selected;
     submitBtn.classList.remove('hidden');
     nextBtn.classList.remove('visible');
 
-    updateScore();
+    // Restore whatever this question already had this session
+    if (resp.answered) {
+      reveal();
+    } else if (resp.selected) {
+      document.querySelectorAll('.answer-btn').forEach(btn =>
+        btn.classList.toggle('selected', btn.dataset.letter === resp.selected));
+    }
 
-    const pct = (current / questions.length * 100).toFixed(1);
-    document.getElementById('progressLabel').textContent = `${current} / ${questions.length}`;
+    document.getElementById('backBtn').disabled = current === 0;
+
+    updateScore();
+    updateProgress();
+    saveSession();
+  }
+
+  function updateProgress() {
+    const done = tally().total;
+    const pct = questions.length ? (done / questions.length * 100).toFixed(1) : 0;
+    document.getElementById('progressLabel').textContent = `${done} / ${questions.length}`;
     document.getElementById('progressFill').style.width = pct + '%';
   }
 
   function updateScore() {
-    const total = correct + wrong;
+    const { correct, total } = tally();
     const si = document.getElementById('scoreInline');
     if (total === 0) { si.innerHTML = ''; return; }
     const pct = Math.round(correct / total * 100);
@@ -592,25 +715,26 @@
   }
 
   function selectAnswer(letter) {
-    if (answered) return;
-    selected = letter;
+    const resp = response(current);
+    if (resp.answered) return;
+    resp.selected = letter;
     document.querySelectorAll('.answer-btn').forEach(btn =>
       btn.classList.toggle('selected', btn.dataset.letter === letter));
     document.getElementById('submitBtn').disabled = false;
+    saveSession();
   }
 
-  function submitAnswer() {
-    if (!selected || answered) return;
-    answered = true;
+  // Lock the choices, mark right/wrong and show the explanations for the
+  // current question. Used both on submit and when revisiting via back.
+  function reveal() {
     const q = questions[current];
-    const isCorrect = selected === q.correct;
-    isCorrect ? correct++ : wrong++;
+    const resp = response(current);
 
     document.querySelectorAll('.answer-btn').forEach(btn => {
       btn.classList.add('locked');
       btn.classList.remove('selected');
-      if (btn.dataset.letter === q.correct)    btn.classList.add('correct');
-      else if (btn.dataset.letter === selected) btn.classList.add('incorrect');
+      if (btn.dataset.letter === q.correct)          btn.classList.add('correct');
+      else if (btn.dataset.letter === resp.selected) btn.classList.add('incorrect');
     });
 
     const expItems = document.getElementById('expItems');
@@ -628,7 +752,16 @@
     submitBtn.classList.add('hidden');
     nextBtn.classList.add('visible');
     nextBtn.innerHTML = current + 1 < questions.length ? '&#8594;' : '&#10003;';
+  }
+
+  function submitAnswer() {
+    const resp = response(current);
+    if (!resp.selected || resp.answered) return;
+    resp.answered = true;
+    reveal();
     updateScore();
+    updateProgress();
+    saveSession();
   }
 
   function nextQuestion() {
@@ -637,12 +770,17 @@
     else render();
   }
 
+  function prevQuestion() {
+    if (current === 0) return;
+    current--;
+    render();
+  }
+
   function showResults() {
     document.getElementById('quizCard').style.display = 'none';
-    document.getElementById('progressLabel').textContent = `${questions.length} / ${questions.length}`;
-    document.getElementById('progressFill').style.width = '100%';
+    updateProgress();
 
-    const total = correct + wrong;
+    const { correct, wrong, total } = tally();
     const pct = total ? Math.round(correct / total * 100) : 0;
 
     document.getElementById('rCorrect').textContent = correct;
@@ -657,13 +795,23 @@
 
     document.getElementById('resultsTitle').textContent = 'quiz complete';
     document.getElementById('results').classList.add('visible');
+    saveSession();
   }
 
   function restartQuiz() {
-    current = 0; correct = 0; wrong = 0;
+    current = 0;
+    responses = [];
     shuffle(questions);
     document.getElementById('results').classList.remove('visible');
     document.getElementById('quizCard').style.display = 'flex';
+    render();
+  }
+
+  // Leave the results screen and go back to the last question, answers intact.
+  function reviewAnswers() {
+    document.getElementById('results').classList.remove('visible');
+    document.getElementById('quizCard').style.display = 'flex';
+    current = questions.length - 1;
     render();
   }
 
