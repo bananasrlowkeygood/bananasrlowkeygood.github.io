@@ -1,0 +1,510 @@
+{
+  "lecture": "Neuroanatomy Lab: Introduction to the CNS",
+  "block": "neuro",
+  "generated": "2026-08-30",
+  "questions": [
+    {
+      "id": "neuro-intro-to-the-cns-001",
+      "question": "A 68-year-old man is brought to the emergency department after the sudden onset of weakness while eating breakfast. Examination shows marked weakness of the right hip flexors, knee extensors, and ankle dorsiflexors. Strength in the right face and hand is preserved, and speech is fluent and appropriate. Light touch is diminished over the right foot. MRI shows an acute infarct involving the medial surface of the left precentral gyrus along the longitudinal fissure. Occlusion of which of the following arteries best explains this presentation?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Anterior spinal artery",
+        "C": "Middle cerebral artery, inferior division",
+        "D": "Middle cerebral artery, superior division",
+        "E": "Posterior cerebral artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The lower limb is mapped along the medial surface of the precentral gyrus within the longitudinal fissure, which is territory of the anterior cerebral artery.",
+        "B": "The anterior spinal artery supplies the ventral two-thirds of the spinal cord and would cause bilateral deficits below a cord level rather than isolated contralateral leg weakness.",
+        "C": "The inferior division of the middle cerebral artery supplies temporal cortex including auditory and comprehension areas, producing language deficits rather than pure leg weakness.",
+        "D": "The superior division of the middle cerebral artery supplies the lateral precentral gyrus, which maps face, upper limb, and trunk with relative sparing of the leg.",
+        "E": "The posterior cerebral artery supplies the occipital lobe and calcarine cortex, producing a contralateral visual field defect rather than weakness."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-002",
+      "question": "A 54-year-old woman is evaluated for 6 months of progressive fatigue and an unsteady gait that is markedly worse in the dark. She underwent partial gastrectomy 8 years ago for a nonhealing gastric ulcer. Examination shows a smooth, shiny, erythematous tongue and pale palmar creases. Vibration sense is decreased at both ankles and wrists, and the Romberg sign is positive. There is mild symmetric weakness of the proximal lower extremity muscles with brisk patellar reflexes and bilateral extensor plantar responses. Stool testing for occult blood is repeatedly negative. Laboratory results are shown. Degeneration of which of the following combinations of spinal cord regions best accounts for her neurologic findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "7.2 g/dL",
+          "12.0-15.5 g/dL"
+        ],
+        [
+          "Mean corpuscular volume",
+          "112 fL",
+          "80-100 fL"
+        ],
+        [
+          "Leukocyte count",
+          "3,600/mm3",
+          "4,500-11,000/mm3"
+        ],
+        [
+          "Vitamin B12",
+          "88 pg/mL",
+          "200-900 pg/mL"
+        ],
+        [
+          "Methylmalonic acid",
+          "1.8 umol/L",
+          "0.0-0.4 umol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior white commissure and ventral horns",
+        "B": "Dorsal columns and lateral corticospinal tracts",
+        "C": "Dorsal columns and spinothalamic tracts",
+        "D": "Lateral corticospinal tracts and ventral horn cells",
+        "E": "Spinothalamic tracts and Lissauer's tract"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Damage here produces bilateral segmental pain and temperature loss with flaccid weakness, as in syringomyelia, and does not explain the loss of vibration sense.",
+        "B": "Elevated methylmalonic acid in B12 deficiency destabilizes myelin in the dorsal columns and lateral corticospinal tracts, giving sensory ataxia with a positive Romberg sign plus spastic paresis.",
+        "C": "Spinothalamic involvement would cause loss of pain and temperature, which is absent here, and the tract is characteristically spared in subacute combined degeneration.",
+        "D": "This combination would produce mixed upper and lower motor neuron weakness without any sensory loss, which does not fit the impaired vibration sense and ataxia.",
+        "E": "These pathways carry pain and temperature only and would not produce vibratory loss, ataxia, or hyperreflexia."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-003",
+      "question": "A 71-year-old man undergoes open repair of an abdominal aortic aneurysm. Intraoperatively, a clot occludes the great radicular artery, producing ischemia in the territory of the anterior spinal artery at the L3 cord level. Three weeks later, examination shows atrophy and flaccid weakness of the L3 myotome bilaterally. Vibration sense and proprioception in both feet are intact. Which of the following findings is most likely present in the muscles innervated by spinal segments below L3?",
+      "answers": {
+        "A": "Flaccid paralysis with fasciculations and muscle atrophy",
+        "B": "Intact strength with isolated loss of vibration sense",
+        "C": "Normal tone with fully preserved voluntary control",
+        "D": "Spastic paresis with hyperreflexia and increased tone",
+        "E": "Weakness restricted to the left side of the body"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Lower motor neuron signs occur at the level of the lesion where ventral horn cells are destroyed, but ventral horns below L3 remain intact.",
+        "B": "The dorsal columns are supplied by the posterior spinal arteries and are spared, which is why proprioception and vibration are preserved.",
+        "C": "The descending corticospinal tracts are interrupted at L3, so voluntary control of all muscles below that level is lost.",
+        "D": "Surviving lower motor neurons below the lesion lose descending upper motor neuron modulation, producing hypertonia, hyperreflexia, and spastic paresis.",
+        "E": "The anterior spinal artery is a single midline vessel, so its occlusion produces bilateral rather than unilateral deficits."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-004",
+      "question": "A 29-year-old woman reports that over the past 2 years she has repeatedly burned her fingers on the stove without noticing. Examination shows bilateral loss of pain and temperature sensation over the shoulders and both upper limbs in a cape-like distribution. Vibration sense and proprioception are intact throughout, and there is mild atrophy of the intrinsic hand muscles. MRI shows a fluid-filled cavity expanding outward from the central canal of the cervical spinal cord. Damage to which of the following structures best explains her sensory findings?",
+      "answers": {
+        "A": "Anterior white commissure",
+        "B": "Dorsal columns bilaterally",
+        "C": "Fasciculus cuneatus bilaterally",
+        "D": "Lateral corticospinal tracts",
+        "E": "Ventral horn alpha motor neurons"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Second-order spinothalamic fibers decussate in the anterior white commissure just ventral to the central canal, so a central cavity interrupts pain and temperature bilaterally at the affected segments.",
+        "B": "Dorsal column injury would abolish vibration and proprioception, both of which are preserved in this patient.",
+        "C": "The fasciculus cuneatus carries fine touch and vibration from the upper limb, not pain and temperature.",
+        "D": "Lateral corticospinal tract damage causes spastic weakness below the lesion without any sensory loss.",
+        "E": "Loss of ventral horn cells explains the hand atrophy but produces motor deficits only, not the cape-like sensory loss."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-005",
+      "question": "A 46-year-old man with a demyelinating disorder is found on MRI to have a small, sharply circumscribed lesion at the T8 cord level that destroys the nucleus dorsalis (Clarke's nucleus) on the left side only. The remainder of the gray and white matter appears normal. Which of the following deficits is most likely to result from this lesion?",
+      "answers": {
+        "A": "Loss of conscious proprioception from the left lower limb",
+        "B": "Loss of pain and temperature sensation from the right lower limb",
+        "C": "Loss of unconscious proprioceptive input to the left cerebellum",
+        "D": "Loss of unconscious proprioceptive input to the right cerebellum",
+        "E": "Loss of voluntary motor control of the left lower limb"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Conscious proprioception ascends in the fasciculus gracilis without synapsing in the cord, so it bypasses Clarke's nucleus entirely and is unaffected.",
+        "B": "Pain and temperature fibers synapse in the substantia gelatinosa of the dorsal horn and cross in the anterior white commissure, a pathway independent of the nucleus dorsalis.",
+        "C": "Clarke's nucleus receives unconscious proprioception from the lower limb and gives rise to the posterior spinocerebellar tract, which ascends ipsilaterally to the cerebellum.",
+        "D": "Posterior spinocerebellar fibers do not decussate, so the right cerebellum continues to receive its input from the right Clarke's nucleus.",
+        "E": "Motor control depends on the lateral corticospinal tract and ventral horn cells, neither of which is involved in this lesion."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-006",
+      "question": "During the autopsy of a 62-year-old man, transverse sections are taken at four different levels of the spinal cord and stained for myelin. One section is small and oval with a strikingly high ratio of white matter to gray matter, slender dorsal and ventral horns, and a distinct triangular protrusion of gray matter projecting laterally between the dorsal and ventral horns. A rounded cluster of neurons is also visible at the medial base of each dorsal horn. This section was most likely taken from which of the following cord levels?",
+      "answers": {
+        "A": "Cervical",
+        "B": "Coccygeal",
+        "C": "Lumbar",
+        "D": "Sacral",
+        "E": "Thoracic"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The cervical cord is large and oval with abundant white matter, but the horns are broad for upper limb innervation and no lateral horn is present.",
+        "B": "The coccygeal cord is tiny with minimal white matter and lacks both a lateral horn and Clarke's nucleus.",
+        "C": "The lumbar cord has prominent horns supplying the lower limb, and the intermediolateral column is visible only in its most rostral segments.",
+        "D": "The sacral cord is round with a high proportion of gray matter and no distinct lateral horn.",
+        "E": "The thoracic cord has the greatest white-to-gray ratio because few motor and sensory nuclei serve the trunk, and both the intermediolateral cell column and Clarke's nucleus are most prominent here."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-007",
+      "question": "A 34-year-old woman sustains a stab wound to the posterior neck. Imaging shows that the blade transected the most medial portion of the right posterior funiculus at the C5 level, sparing all other tracts and the gray matter. Which of the following deficits is most likely on examination?",
+      "answers": {
+        "A": "Loss of pain sensation in the left arm",
+        "B": "Loss of vibration sense in the left leg",
+        "C": "Loss of vibration sense in the right arm",
+        "D": "Loss of vibration sense in the right leg",
+        "E": "Loss of voluntary movement of the right arm"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Pain travels in the contralateral spinothalamic tract of the lateral and anterior funiculi, which was not injured.",
+        "B": "Dorsal column fibers ascend ipsilaterally in the cord and do not cross until the medulla, so a right-sided lesion spares the left leg.",
+        "C": "Upper limb fine touch and vibration travel in the fasciculus cuneatus, which lies lateral to the fasciculus gracilis and was spared.",
+        "D": "The fasciculus gracilis is the most medial dorsal column tract and carries first-order fibers from the ipsilateral lower limb.",
+        "E": "Voluntary movement depends on the lateral corticospinal tract in the lateral funiculus, which was not transected."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-008",
+      "question": "A 58-year-old man develops urinary retention and constipation after a tumor infiltrates the intermediate gray matter of the S3 spinal cord segment bilaterally. Strength in both lower limbs is 5/5, reflexes are normal, and sensation to pinprick and vibration is intact in the legs. Loss of which of the following neuronal populations best explains his symptoms?",
+      "answers": {
+        "A": "Alpha motor neurons of the ventral horn",
+        "B": "Neurons of Clarke's nucleus",
+        "C": "Preganglionic parasympathetic neurons of the intermediate gray",
+        "D": "Preganglionic sympathetic neurons of the intermediolateral column",
+        "E": "Second-order neurons of the substantia gelatinosa"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alpha motor neurons innervate skeletal muscle, and their loss would produce flaccid weakness rather than isolated visceral dysfunction.",
+        "B": "Clarke's nucleus extends only from C8 to L2/L3 and relays unconscious proprioception, not autonomic output.",
+        "C": "The intermediate gray of segments S2-S4 houses the preganglionic parasympathetic neurons of the pelvic splanchnic nerves that drive bladder and bowel emptying.",
+        "D": "The intermediolateral cell column carrying preganglionic sympathetic neurons is present only from T1 to L2/L3 and is absent at S3.",
+        "E": "The substantia gelatinosa processes incoming pain and temperature information, and its loss would produce sensory rather than autonomic deficits."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-009",
+      "question": "A 33-year-old woman is evaluated after a cervical spine injury. She reports that images blur and jump whenever she turns her head, although visual acuity is normal when she holds her head still. MRI shows a discrete lesion in the anterior funiculus immediately adjacent to the anterior median fissure at the C2 level. Which of the following tracts is most likely damaged?",
+      "answers": {
+        "A": "Anterior corticospinal tract",
+        "B": "Anterior spinocerebellar tract",
+        "C": "Fasciculus gracilis",
+        "D": "Lateral corticospinal tract",
+        "E": "Medial longitudinal fasciculus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior corticospinal tract carries uncrossed descending motor fibers to axial musculature and does not coordinate gaze.",
+        "B": "The anterior spinocerebellar tract lies in the lateral funiculus and relays unconscious proprioception from the lower limb.",
+        "C": "The fasciculus gracilis lies in the posterior funiculus and carries vibration and conscious proprioception.",
+        "D": "The lateral corticospinal tract lies in the lateral funiculus and carries upper motor neurons for limb movement.",
+        "E": "The medial longitudinal fasciculus is most prominent in the cervical anterior funiculus, where it coordinates head, neck, and eye movements."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-010",
+      "question": "A 24-year-old man sustains a stab wound to the back. MRI shows a clean hemisection confined to the left half of the spinal cord at the T10 level. He is examined 6 weeks later, after the acute phase has resolved. Which of the following findings is most likely?",
+      "answers": {
+        "A": "Complete flaccid paralysis of both lower limbs with areflexia",
+        "B": "Loss of pain and temperature sensation on the left below T10",
+        "C": "Loss of pain and temperature sensation on the right below T10",
+        "D": "Loss of vibration sense on the right below T10",
+        "E": "Spastic weakness of the right lower limb"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A hemisection spares the contralateral half of the cord, so paralysis is unilateral, and chronic upper motor neuron injury produces spasticity rather than flaccidity.",
+        "B": "Spinothalamic fibers decussate in the anterior white commissure within one or two segments of entry, so ipsilateral pain and temperature remain largely intact.",
+        "C": "Second-order pain and temperature fibers from the right side cross to ascend in the left spinothalamic tract, so a left hemisection abolishes these modalities on the right.",
+        "D": "Dorsal column fibers ascend ipsilaterally, so vibratory loss occurs on the left, not the right.",
+        "E": "The lateral corticospinal tract has already decussated in the medulla, so weakness appears on the same side as the cord lesion, the left."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-011",
+      "question": "A 45-year-old woman with intractable cancer pain in the right chest wall undergoes a dorsal root entry zone lesioning procedure. The surgeon destroys the lightly myelinated and unmyelinated afferents that travel in a small bundle at the tip of the dorsal horn before they terminate. The neurons on which these fibers principally synapse are located in which of the following structures?",
+      "answers": {
+        "A": "Clarke's nucleus",
+        "B": "Dorsal root ganglion",
+        "C": "Intermediolateral cell column",
+        "D": "Nucleus proprius",
+        "E": "Substantia gelatinosa"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Clarke's nucleus receives heavily myelinated proprioceptive afferents from the lower limb and projects to the cerebellum.",
+        "B": "The dorsal root ganglion houses the pseudounipolar cell bodies of the afferents themselves, not the neurons they synapse upon.",
+        "C": "The intermediolateral cell column contains preganglionic sympathetic motor neurons rather than sensory relay cells.",
+        "D": "The nucleus proprius receives collaterals from large-diameter fibers destined for the dorsal columns and projects to other cord levels.",
+        "E": "Fibers in the dorsolateral tract of Lissauer carry pain and temperature and synapse on the densely packed neurons of the substantia gelatinosa, which then project to the contralateral spinothalamic tract."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-012",
+      "question": "A 27-year-old woman with fever, headache, and neck stiffness requires a lumbar puncture. She is placed in the lateral decubitus position, and the physician plans the entry site to obtain cerebrospinal fluid while minimizing the risk of injuring the spinal cord itself. At which of the following interspaces should the needle be introduced?",
+      "answers": {
+        "A": "L1-L2",
+        "B": "L2-L3",
+        "C": "L4-L5",
+        "D": "S1-S2",
+        "E": "T12-L1"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The conus medullaris typically terminates at the L1-L2 disc space, so a needle here risks direct cord injury.",
+        "B": "Considerable anatomic variation exists and the conus may extend to this level, making it a less reliable choice than a more caudal interspace.",
+        "C": "The cord ends near the L1-L2 disc while the dural sac continues to S2, so a needle at L4-L5 enters cerebrospinal fluid among the roots of the cauda equina, which are displaced rather than injured.",
+        "D": "The dural sac terminates around S2 and the fused sacral laminae make this approach impractical for routine access.",
+        "E": "This interspace lies above the conus medullaris in nearly all adults and carries a high risk of cord puncture."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-013",
+      "question": "A 51-year-old man is evaluated for 1 year of brief lancinating pains in both legs and a broad-based, stamping gait. Examination shows absent ankle reflexes, a positive Romberg sign, and markedly impaired vibration and position sense in the feet. Muscle tone and strength are normal, plantar responses are flexor, and the pupils are small and irregular and constrict to accommodation but not to light. Complete blood count is normal. Laboratory results are shown. Degeneration of which of the following regions best explains these findings?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference"
+        ],
+        [
+          "Serum RPR",
+          "Reactive, 1:64",
+          "Nonreactive"
+        ],
+        [
+          "Serum FTA-ABS",
+          "Reactive",
+          "Nonreactive"
+        ],
+        [
+          "CSF leukocytes",
+          "12/mm3 (lymphocytes)",
+          "0-5/mm3"
+        ],
+        [
+          "CSF protein",
+          "68 mg/dL",
+          "15-45 mg/dL"
+        ],
+        [
+          "CSF VDRL",
+          "Reactive",
+          "Nonreactive"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior white commissure and central canal",
+        "B": "Dorsal columns and dorsal root ganglia",
+        "C": "Dorsal columns and lateral corticospinal tracts",
+        "D": "Lateral corticospinal tracts and ventral horns",
+        "E": "Ventral horns and anterior funiculi"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Central cavitation about the canal interrupts crossing spinothalamic fibers and causes segmental pain and temperature loss, which this patient does not have.",
+        "B": "Tabes dorsalis in tertiary neurosyphilis degenerates the dorsal root ganglia and dorsal columns, producing sensory ataxia, areflexia, lancinating pains, and Argyll Robertson pupils.",
+        "C": "This is the pattern of subacute combined degeneration from B12 deficiency, but the normal tone, flexor plantar responses, and normal blood count argue against corticospinal involvement.",
+        "D": "This combination would produce mixed spastic and flaccid weakness, whereas strength and tone are normal here.",
+        "E": "Isolated motor pathway degeneration would not explain the profound loss of vibration and position sense."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-014",
+      "question": "A 32-year-old unvaccinated man develops fever, sore throat, and diarrhea, followed 5 days later by rapidly progressive asymmetric weakness of the right leg. Examination shows flaccid weakness with absent patellar and Achilles reflexes on the right, visible fasciculations in the quadriceps, and normal sensation to pinprick, light touch, and vibration throughout. Cerebrospinal fluid analysis is shown. Injury to which of the following spinal cord regions best explains his deficits?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Leukocytes",
+          "45/mm3 (85% lymphocytes)",
+          "0-5/mm3"
+        ],
+        [
+          "Protein",
+          "62 mg/dL",
+          "15-45 mg/dL"
+        ],
+        [
+          "Glucose",
+          "58 mg/dL",
+          "40-70 mg/dL"
+        ],
+        [
+          "Opening pressure",
+          "16 cm H2O",
+          "6-20 cm H2O"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior white commissure",
+        "B": "Dorsal columns",
+        "C": "Dorsal horns",
+        "D": "Lateral corticospinal tracts",
+        "E": "Ventral horns"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Destruction here causes bilateral segmental loss of pain and temperature, and this patient's sensation is entirely normal.",
+        "B": "Dorsal column injury produces loss of vibration and proprioception with sensory ataxia rather than flaccid weakness.",
+        "C": "The dorsal horns process incoming sensory information, so their destruction would cause sensory loss, not areflexic paralysis.",
+        "D": "Corticospinal tract damage produces upper motor neuron findings such as hyperreflexia and spasticity, the opposite of what is seen.",
+        "E": "Poliovirus destroys the alpha motor neurons of the ventral horn, which are the lower motor neurons, producing asymmetric flaccid paralysis with areflexia, fasciculations, and preserved sensation."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-015",
+      "question": "A 28-year-old woman reports 2 weeks of numbness and weakness in the right leg. One year ago she had painful vision loss in the left eye that resolved over several weeks. MRI of the brain and spine shows multiple ovoid white matter lesions in the periventricular region and cervical cord, some enhancing and others not. Cerebrospinal fluid results are shown. Which of the following best describes the expected pattern of spinal cord white matter involvement in this disorder?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Leukocytes",
+          "6/mm3",
+          "0-5/mm3"
+        ],
+        [
+          "Protein",
+          "48 mg/dL",
+          "15-45 mg/dL"
+        ],
+        [
+          "Glucose",
+          "62 mg/dL",
+          "40-70 mg/dL"
+        ],
+        [
+          "Oligoclonal bands",
+          "6 bands, CSF only",
+          "None"
+        ],
+        [
+          "IgG index",
+          "1.2",
+          "<0.7"
+        ]
+      ],
+      "answers": {
+        "A": "Bilateral symmetric degeneration of the dorsal columns",
+        "B": "Central cavitation surrounding the central canal",
+        "C": "Random asymmetric demyelination of white matter",
+        "D": "Selective loss of ventral horn motor neurons",
+        "E": "Symmetric ischemia of the ventral two-thirds"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Symmetric dorsal column degeneration characterizes B12 deficiency and tabes dorsalis, not an inflammatory demyelinating disorder.",
+        "B": "Central cavitation describes syringomyelia, which produces a segmental cape-like sensory loss rather than lesions disseminated in space and time.",
+        "C": "Multiple sclerosis is an inflammatory demyelinating disorder that attacks central nervous system white matter in a random, asymmetric pattern, yielding deficits separated in space and time.",
+        "D": "Selective anterior horn cell loss occurs in poliomyelitis and spinal muscular atrophy and affects gray matter, not white matter.",
+        "E": "Symmetric ventral ischemia describes anterior spinal artery infarction, which occurs abruptly rather than in discrete relapsing episodes."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-016",
+      "question": "A 44-year-old man undergoes resection of a low-grade glioma. To reach the tumor, the neurosurgeon separates and retracts the folds of frontal, parietal, and temporal cortex that form the lips of the lateral sulcus, exposing an area of cortex that was buried when the hemisphere folded in on itself during development. Which of the following regions is being exposed?",
+      "answers": {
+        "A": "Cingulate cortex",
+        "B": "Insular cortex",
+        "C": "Parahippocampal cortex",
+        "D": "Precuneus",
+        "E": "Prefrontal cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The cingulate cortex lies on the medial surface above the corpus callosum and is reached through the longitudinal fissure.",
+        "B": "The insula lies deep to the lateral sulcus and is covered by the frontal, parietal, and temporal opercula, which must be retracted to expose it.",
+        "C": "The parahippocampal gyrus lies on the medial temporal surface and is part of the limbic lobe.",
+        "D": "The precuneus is a medial parietal region anterior to the parieto-occipital sulcus.",
+        "E": "The prefrontal cortex occupies the most rostral frontal lobe on the lateral and orbital surfaces and is not buried within a sulcus."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-017",
+      "question": "A 66-year-old woman with atrial fibrillation develops sudden painless visual loss. She is alert, speech is fluent, and she has no weakness or sensory loss. MRI shows an acute infarct restricted to the cortex lining both banks of the calcarine sulcus in the left hemisphere. Which of the following visual findings is most likely?",
+      "answers": {
+        "A": "Left homonymous hemianopia",
+        "B": "Loss of color discrimination only",
+        "C": "Right homonymous hemianopia",
+        "D": "Right superior quadrantanopia only",
+        "E": "Total blindness of the left eye"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A left homonymous field defect would follow damage to the right occipital cortex or right optic tract.",
+        "B": "Isolated achromatopsia reflects damage to ventral occipitotemporal association cortex, not the entirety of the primary visual cortex.",
+        "C": "The primary visual cortex lies along the walls of the calcarine sulcus and represents the contralateral visual field, so a left-sided infarct produces a right homonymous hemianopia.",
+        "D": "A superior quadrantanopia results from involvement of the inferior calcarine bank alone, whereas both banks are infarcted here.",
+        "E": "Monocular blindness requires a lesion anterior to the optic chiasm, such as of the optic nerve itself."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-018",
+      "question": "A 61-year-old man with hypertension develops sudden difficulty reading. He can write a normal paragraph but cannot read back what he has just written, and he names objects and converses normally. MRI shows an infarct of the left occipital lobe extending into the most posterior and thickest portion of the great commissure that arches over the diencephalon. Which of the following parts of that commissure is involved?",
+      "answers": {
+        "A": "Body",
+        "B": "Genu",
+        "C": "Isthmus of the cingulate gyrus",
+        "D": "Rostrum",
+        "E": "Splenium"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The body is the long middle segment of the corpus callosum lying above the lateral ventricles and diencephalon.",
+        "B": "The genu is the anterior bend of the corpus callosum connecting the frontal lobes.",
+        "C": "The isthmus is a narrow extension of the cingulate gyrus, not a subdivision of the corpus callosum.",
+        "D": "The rostrum, or beak, is the thin anteroinferior continuation of the genu.",
+        "E": "The splenium is the thick posterior end of the corpus callosum carrying occipital interhemispheric fibers, and its infarction disconnects the intact right visual cortex from left hemisphere language areas."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-019",
+      "question": "A 34-year-old man has 3 months of progressively worsening morning headaches, nausea, and blurred vision. Funduscopy shows bilateral papilledema. MRI demonstrates markedly dilated lateral ventricles and a dilated third ventricle, while the fourth ventricle is normal in size. Obstruction at which of the following sites best explains this pattern?",
+      "answers": {
+        "A": "Central canal of the spinal cord",
+        "B": "Cerebral aqueduct",
+        "C": "Foramen magnum",
+        "D": "Interventricular foramen of Monro",
+        "E": "Median aperture of Magendie"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The central canal is the narrow caudal continuation of the fourth ventricle in the medulla and cord, and its obstruction does not cause supratentorial ventricular dilation.",
+        "B": "The cerebral aqueduct bisects the midbrain and connects the third and fourth ventricles, so blocking it dilates everything upstream while leaving the fourth ventricle normal.",
+        "C": "Obstruction at the foramen magnum impedes flow within the subarachnoid space and would tend to enlarge all four ventricles.",
+        "D": "Blockage of a single interventricular foramen dilates only that lateral ventricle and spares the third ventricle.",
+        "E": "The median aperture drains the fourth ventricle into the subarachnoid space, so its obstruction would dilate the fourth ventricle as well."
+      }
+    },
+    {
+      "id": "neuro-intro-to-the-cns-020",
+      "question": "A 38-year-old woman has a discrete demyelinating plaque that destroys the anterior spinocerebellar tract in the right lateral funiculus at the T6 level. All other tracts and the spinal gray matter are intact. Assuming the fibers in this tract follow their typical course, input to which of the following structures is most likely reduced?",
+      "answers": {
+        "A": "Both cerebellar hemispheres equally",
+        "B": "Left cerebellar hemisphere only",
+        "C": "Neither hemisphere, because the fibers terminate in the thalamus",
+        "D": "Right cerebellar hemisphere only",
+        "E": "Right cerebral hemisphere only"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The tract is not a bilateral projection, so a unilateral lesion does not reduce input to both cerebellar hemispheres.",
+        "B": "Anterior spinocerebellar fibers arise from intermediate gray, cross within the cord, ascend, and then decussate a second time in the midbrain, so fibers in the right lateral funiculus originate on the left and ultimately reach the left cerebellum.",
+        "C": "Spinocerebellar tracts carry unconscious proprioception directly to the cerebellum and do not relay in the thalamus.",
+        "D": "Ipsilateral cerebellar termination is the pattern of the posterior spinocerebellar tract, which arises from Clarke's nucleus and does not cross at all.",
+        "E": "The cerebral hemispheres receive conscious proprioception through the dorsal columns and medial lemniscus, not through spinocerebellar pathways."
+      }
+    }
+  ]
+}
