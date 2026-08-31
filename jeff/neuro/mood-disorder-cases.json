@@ -1,0 +1,415 @@
+{
+  "lecture": "Mood Disorder Cases (TBL)",
+  "block": "neuro",
+  "generated": "2026-08-31",
+  "questions": [
+    {
+      "id": "neuro-mood-disorder-cases-001",
+      "question": "A 41-year-old man is brought to the clinic by his wife for evaluation of persistent sadness. Four months ago he sustained a lumbar spine injury in a motor vehicle collision and was placed on medical leave from his job as a mail carrier 3 months ago. Since then he has spent most of each day lying on the couch, bathes only every 2 to 3 days, and has stopped golfing and seeing friends. He reports low energy, poor appetite, guilt about being a burden to his wife, and awakening at 3 AM most nights without returning to sleep. He states, \"I'm just useless now, what's the point of anything anymore?\" He has no prior psychiatric history. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Adjustment disorder with depressed mood",
+        "B": "Depressive disorder due to another medical condition",
+        "C": "Major depressive disorder, single episode",
+        "D": "Medication-induced depressive disorder",
+        "E": "Persistent depressive disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Adjustment disorder is diagnosed only when stressor-related symptoms fail to meet criteria for another psychiatric disorder, so meeting full criteria for a major depressive episode supersedes it.",
+        "B": "No medical illness or laboratory abnormality has been identified as a direct physiologic cause; chronic pain is a psychosocial stressor rather than a mediating pathophysiology.",
+        "C": "He has depressed mood plus diminished interest, fatigue, appetite loss, worthlessness and guilt, and terminal insomnia persisting far beyond 2 weeks, exceeding the 5 of 9 symptoms required.",
+        "D": "Medication-induced depression is favored when neurovegetative symptoms and anhedonia dominate without the pervasive worthlessness and hopelessness this patient describes.",
+        "E": "Persistent depressive disorder requires depressed mood for at least 2 years, whereas his symptoms have lasted roughly 3 months."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-002",
+      "question": "A 41-year-old man with a 3-month history of depressed mood, anhedonia, and fatigue takes metoprolol ER 50 mg daily for hypertension. His blood pressure today is 125/88 mm Hg and he has no history of coronary disease or arrhythmia. His psychiatrist suspects the antihypertensive may be contributing to his mood symptoms and considers substituting another agent. Which of the following alternatives is least likely to worsen his depressive symptoms?",
+      "answers": {
+        "A": "Amlodipine",
+        "B": "Atenolol",
+        "C": "Clonidine",
+        "D": "Methyldopa",
+        "E": "Reserpine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Dihydropyridine calcium channel blockers act on vascular smooth muscle, do not cross into the central nervous system appreciably, and have no established association with depressed mood.",
+        "B": "Atenolol is another beta-adrenergic antagonist and would carry the same concern for fatigue and mood symptoms that prompted the switch.",
+        "C": "Clonidine is a central alpha-2 agonist associated with sedation, fatigue, and depressed mood.",
+        "D": "Methyldopa acts centrally through a false neurotransmitter and is classically linked to drug-induced depression.",
+        "E": "Reserpine depletes presynaptic monoamine vesicles and is the historical prototype for medication-induced depression."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-003",
+      "question": "A 41-year-old man taking oxycodone for chronic lumbar pain and metoprolol for hypertension reports 3 months of low mood, fatigue, decreased appetite, and disrupted sleep. His father was treated for depression late in life. His physician is deciding whether this represents a primary major depressive disorder or a medication-induced depressive disorder. Which of the following findings would most strongly support a primary major depressive disorder?",
+      "answers": {
+        "A": "Anhedonia that improves within days of dose reduction",
+        "B": "Ego-dystonic irritability the patient cannot explain",
+        "C": "Neurovegetative symptoms without cognitive change",
+        "D": "Pervasive worthlessness and guilt about the self",
+        "E": "Symptom onset within days of a dose increase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Improvement that tracks closely with dose reduction demonstrates a direct pharmacologic effect and argues for a medication-induced disorder.",
+        "B": "Patients with medication-induced mood symptoms often describe affective changes as ego-dystonic and unexplained, which argues against a primary disorder.",
+        "C": "Isolated neurovegetative symptoms with intact self-concept reflect the pattern typical of medication-induced depressive states.",
+        "D": "Pervasive worthlessness, guilt, hopelessness, and negative cognitions about the self are the psychological hallmarks that distinguish a primary depressive episode from a medication effect.",
+        "E": "A close temporal relationship between dose changes and symptom onset is a defining feature of a medication-induced depressive disorder."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-004",
+      "question": "A 41-year-old man has taken oxycodone 10 mg every 8 hours for 4 months following a lumbar spine injury. He also takes metoprolol for hypertension. He reports 3 months of low mood, fatigue, decreased libido, and erectile dysfunction. He does not use alcohol heavily and takes no other new medications. Laboratory studies are shown. Which of the following best explains this patient's laboratory abnormality?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["TSH", "2.1 uIU/mL", "0.4-4.0 uIU/mL"],
+        ["Free T4", "1.2 ng/dL", "0.8-1.8 ng/dL"],
+        ["Vitamin B12", "480 pg/mL", "200-900 pg/mL"],
+        ["25-OH vitamin D", "36 ng/mL", "30-100 ng/mL"],
+        ["Total testosterone", "148 ng/dL", "300-1000 ng/dL"]
+      ],
+      "answers": {
+        "A": "Autoimmune destruction of testicular Leydig cells",
+        "B": "Metoprolol-induced suppression of gonadal steroids",
+        "C": "Opioid suppression of hypothalamic GnRH release",
+        "D": "Pituitary adenoma causing marked hyperprolactinemia",
+        "E": "Primary testicular failure from unrecognized trauma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Autoimmune orchitis is rare and would not be expected to coincide with the initiation of chronic opioid therapy.",
+        "B": "Beta blockers can contribute to fatigue and erectile dysfunction through peripheral mechanisms but do not suppress the hypothalamic-pituitary-gonadal axis or lower testosterone.",
+        "C": "Chronic opioid use suppresses hypothalamic GnRH pulsatility, producing hypogonadotropic hypogonadism with low libido, fatigue, and erectile dysfunction that can mimic or compound depression.",
+        "D": "A prolactinoma would usually cause headache, visual field deficits, or galactorrhea, none of which are described here.",
+        "E": "Primary testicular failure produces elevated LH and FSH, whereas opioid-induced hypogonadism features low or inappropriately normal gonadotropins."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-005",
+      "question": "A 47-year-old woman presents with 2 months of low mood, fatigue, weight gain, constipation, and cold intolerance. She has no prior psychiatric history and takes no medications. Her mother has hypothyroidism. On examination her skin is dry and the relaxation phase of her deep tendon reflexes is delayed. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["TSH", "18.4 uIU/mL", "0.4-4.0 uIU/mL"],
+        ["Free T4", "0.5 ng/dL", "0.8-1.8 ng/dL"],
+        ["Hemoglobin", "12.9 g/dL", "12.0-16.0 g/dL"],
+        ["Vitamin B12", "520 pg/mL", "200-900 pg/mL"]
+      ],
+      "answers": {
+        "A": "Depressive disorder due to another medical condition",
+        "B": "Major depressive disorder with anxious distress",
+        "C": "Major depressive disorder with melancholic features",
+        "D": "Medication-induced depressive disorder",
+        "E": "Persistent depressive disorder with pure dysthymia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "An elevated TSH with low free T4 establishes overt hypothyroidism as the direct physiologic cause of her depressive syndrome, which is why screening thyroid studies separate secondary from primary mood disorders.",
+        "B": "Anxious distress is a specifier applied only after a primary major depressive episode is established and medical causes are excluded.",
+        "C": "Melancholic features would likewise be specified only for a primary episode, and her physical findings point to a medical etiology.",
+        "D": "She takes no medications, so a medication-induced depressive disorder cannot be diagnosed.",
+        "E": "Persistent depressive disorder requires at least 2 years of symptoms, far longer than her 2-month course."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-006",
+      "question": "A 41-year-old man with newly diagnosed major depressive disorder describes his late father, who was told he had depression by his family physician at age 65 shortly after retiring. According to the patient, his father \"was able to do everything he needed to do, he was just more mopey all the time, had low energy, and kinda felt like his life was over.\" The father refused treatment and remained this way until he died of a myocardial infarction at age 72. Which of the following is the most likely diagnosis for the father?",
+      "answers": {
+        "A": "Adjustment disorder with depressed mood",
+        "B": "Bipolar II disorder, current episode depressed",
+        "C": "Cyclothymic disorder",
+        "D": "Major depressive disorder with psychotic features",
+        "E": "Persistent depressive disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Adjustment disorder resolves within 6 months of the stressor ending, whereas the father's symptoms persisted for roughly 7 years.",
+        "B": "Nothing in the history suggests hypomanic periods, which are required for bipolar II disorder.",
+        "C": "Cyclothymic disorder requires alternating hypomanic and depressive symptoms, and only chronic low mood is described.",
+        "D": "No delusions or hallucinations are reported, so psychotic features cannot be specified.",
+        "E": "Chronic low-grade depressed mood with low energy and hopelessness lasting well beyond 2 years, without loss of functional capacity, fits persistent depressive disorder and illustrates that the son's more severe episode is a distinct entity requiring treatment."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-007",
+      "question": "A 41-year-old man with major depressive disorder following a disabling spinal injury tells his physician, \"I'm just useless now, what's the point of anything anymore?\" The physician wants to open the screening for suicidal ideation in a way that maximizes the likelihood of an honest disclosure, before going on to assess thoughts, plan, and intent. Which of the following is the most appropriate opening question?",
+      "answers": {
+        "A": "\"Do you have a plan to end your life this week?\"",
+        "B": "\"Many patients in pain feel life is not worth living; do you?\"",
+        "C": "\"Would you agree to hospitalization if things get worse?\"",
+        "D": "\"You aren't thinking of hurting yourself, are you?\"",
+        "E": "\"Your wife is worried; have you had any dark thoughts?\""
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Asking about a plan first skips the graded sequence of thoughts, then plan, then intent, and may feel abrupt to a patient who has not yet acknowledged any ideation.",
+        "B": "Normalizing the experience before asking reduces shame and stigma and makes disclosure of passive or active suicidal ideation more likely, after which thoughts, plan, and intent can be explored.",
+        "C": "Raising hospitalization before ideation is established is coercive and gives the patient a strong incentive to withhold information.",
+        "D": "A negatively phrased leading question signals the expected answer and encourages the patient to deny symptoms.",
+        "E": "Framing the question around the spouse's concern shifts responsibility away from the patient and does not directly assess his own thoughts."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-008",
+      "question": "A physician is counseling the wife of a 41-year-old man newly diagnosed with major depressive disorder about factors that increased his risk. The patient completed high school, worked at the post office in his hometown for over 20 years, drinks whiskey 2 to 3 days per month, and had a father who was diagnosed with and lived with depression in his 60s. Which of the following features from his history is a recognized risk factor for major depressive disorder?",
+      "answers": {
+        "A": "Completion of a high school education only",
+        "B": "Lifelong residence in the same local community",
+        "C": "Occasional alcohol use two to three days per month",
+        "D": "Onset of symptoms in middle rather than early adulthood",
+        "E": "Paternal history of a treated depressive illness"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Educational attainment and social class show no consistent relationship with risk of major depressive disorder.",
+        "B": "Geographic stability is not a risk factor; the relevant social variable is a relative lack of interpersonal relationships.",
+        "C": "Light, infrequent alcohol use confers no meaningful risk, unlike a personal or family history of alcohol use disorder.",
+        "D": "Age of onset in midlife is not itself a risk factor, and depression can present at any point across the lifespan.",
+        "E": "Risk is substantially elevated in families with a history of depression, roughly 7 percent, or alcoholism, roughly 8 percent, and this patient's father carried a depressive diagnosis."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-009",
+      "question": "A 41-year-old man with major depressive disorder tells his physician, \"We were never like this, my wife and I were a team. Now she just takes care of me. She must think I'm a loser.\" His wife has repeatedly told him she is not resentful and wants him to recover. Which of the following cognitive distortions does this statement best illustrate?",
+      "answers": {
+        "A": "Catastrophizing",
+        "B": "Mind reading",
+        "C": "Overgeneralization",
+        "D": "Personalization",
+        "E": "Should statements"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Catastrophizing involves assuming the worst possible outcome of an event rather than assigning specific unspoken judgments to another person.",
+        "B": "Assuming he knows what his wife is thinking, without evidence and against her stated position, is mind reading, a form of jumping to conclusions.",
+        "C": "Overgeneralization draws a sweeping global rule from a single event, such as concluding that one setback ruins everything.",
+        "D": "Personalization involves taking blame for events one did not cause, rather than inferring another person's private judgments.",
+        "E": "Should statements impose rigid rules about how things ought to be and typically generate guilt or frustration rather than inferred judgments."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-010",
+      "question": "The same 41-year-old man goes on to say about his back injury, \"This is how it's going to be from now on and I hate it. I think I have every right to be sad.\" His physiatrist has told him that meaningful functional improvement is expected with a course of physical therapy. Which of the following cognitive distortions does this statement best illustrate?",
+      "answers": {
+        "A": "Emotional reasoning",
+        "B": "Labeling",
+        "C": "Mental filtering",
+        "D": "Predicting the future",
+        "E": "Should statements"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Emotional reasoning uses a current feeling as evidence about reality rather than making a fixed forecast about what is to come.",
+        "B": "Labeling attaches a global negative identity to oneself or others, such as calling oneself a loser.",
+        "C": "Mental filtering means attending only to negative details while discounting positive information that is also present.",
+        "D": "Asserting a permanently unchanged future despite contrary medical information is predicting the future, a form of jumping to conclusions and a common target of cognitive restructuring.",
+        "E": "Should statements impose rigid rules about how things ought to be and are not a prediction about outcome."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-011",
+      "question": "A 41-year-old man with major depressive disorder repeatedly voices automatic negative thoughts, including mind reading, overgeneralization, and predictions of a permanently bleak future. His physician wants to refer him for a structured, time-limited psychotherapy that explicitly teaches patients to identify these thoughts and test them against objective evidence. Which of the following is the most appropriate referral?",
+      "answers": {
+        "A": "Cognitive behavioral therapy",
+        "B": "Dialectical behavior therapy",
+        "C": "Interpersonal psychotherapy",
+        "D": "Motivational interviewing",
+        "E": "Psychodynamic psychotherapy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cognitive behavioral therapy follows directly from the cognitive theory of depression and trains patients to recognize automatic negative thoughts and evaluate them against evidence.",
+        "B": "Dialectical behavior therapy emphasizes distress tolerance and emotion regulation and is used primarily for chronic self-harm and borderline personality disorder.",
+        "C": "Interpersonal psychotherapy targets role transitions, grief, and interpersonal disputes rather than the content of individual cognitions.",
+        "D": "Motivational interviewing is designed to resolve ambivalence about behavior change, most often in substance use disorders.",
+        "E": "Psychodynamic psychotherapy explores unconscious conflict and early relationships rather than systematically restructuring specific thoughts."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-012",
+      "question": "A 20-year-old college student is brought to the emergency department by her father. Six months ago she was treated for a depressive episode and stopped the medication 3 months ago. Since then she has slept only a few hours nightly with abundant energy, spoken rapidly in long monologues, taken on multiple new projects, had several casual sexual encounters, and applied for a mortgage on a house in a state she has never visited. For the past 2 weeks she has believed that the earth goddess Gaya sends her personal messages through birds and wind and that she is the planet's only hope. She denies hearing voices. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Urine toxicology", "Negative", "Negative"],
+        ["Blood alcohol", "Not detected", "Not detected"],
+        ["TSH", "1.8 uIU/mL", "0.4-4.0 uIU/mL"]
+      ],
+      "answers": {
+        "A": "Bipolar I disorder, current episode manic, with psychotic features",
+        "B": "Bipolar II disorder, current episode hypomanic, with anxious distress",
+        "C": "Brief psychotic disorder with a marked identifiable stressor",
+        "D": "Schizoaffective disorder, bipolar type, with acute exacerbation",
+        "E": "Substance-induced bipolar disorder with onset during withdrawal"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "She has a sustained elevated-energy episode with decreased need for sleep, pressured speech, grandiosity, indiscretion, and increased goal-directed activity, now accompanied by delusions and marked functional impairment, which defines a manic episode with psychotic features.",
+        "B": "Hypomania by definition excludes psychosis and marked impairment, so although her earliest symptoms may have qualified, the current severity does not.",
+        "C": "Brief psychotic disorder requires psychosis lasting less than 1 month in the absence of a mood episode, and her psychosis arose within a prolonged manic episode.",
+        "D": "Schizoaffective disorder requires psychotic symptoms for at least 2 weeks in the absence of a major mood episode, which she has never experienced.",
+        "E": "A negative toxicology screen and persistence of symptoms 3 months after stopping her medication argue against a substance-induced etiology."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-013",
+      "question": "A 20-year-old woman in a manic episode was treated for depression 6 months ago with a medication started by her primary care physician and self-discontinued it 3 months ago. Her manic symptoms began during treatment and have continued unabated since she stopped the drug. Her treatment team debates whether to code this as a substance or medication-induced bipolar and related disorder. Which of the following best explains why that diagnosis does not apply?",
+      "answers": {
+        "A": "Antidepressants do not precipitate mania in bipolar patients",
+        "B": "Her prior depressive episode responded fully to the medication",
+        "C": "She was never prescribed a dose high enough to induce mania",
+        "D": "Substance-induced mania requires a positive toxicology screen",
+        "E": "Symptoms have continued 3 months after the drug was stopped"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Antidepressant monotherapy is a well-recognized precipitant of mania in patients with underlying bipolar depression, which is likely what happened here.",
+        "B": "A rapid and dramatic antidepressant response actually raises suspicion for bipolarity and does not exclude the induced diagnosis.",
+        "C": "Antidepressant-induced mania is idiosyncratic rather than strictly dose-dependent, so dose alone would not settle the question.",
+        "D": "The diagnosis rests on the temporal relationship to the agent, and a prescribed antidepressant would not appear on a routine toxicology panel.",
+        "E": "The medication-induced diagnosis requires symptoms to remit within a reasonable interval after the agent is withdrawn, so ongoing mania 3 months later unmasks an underlying bipolar I disorder."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-014",
+      "question": "A 20-year-old woman is diagnosed with bipolar I disorder, current episode manic. Six months ago she saw her primary care physician for tearfulness, insomnia, poor concentration, and passive thoughts that life was not worth living, and was started on a single medication that she says \"cured\" her. Neither she nor her father can recall its name. Which of the following medication classes most likely precipitated her current episode?",
+      "answers": {
+        "A": "Atypical antipsychotic agent",
+        "B": "Benzodiazepine anxiolytic agent",
+        "C": "Mood stabilizing anticonvulsant",
+        "D": "Selective serotonin reuptake inhibitor",
+        "E": "Stimulant such as methylphenidate"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Atypical antipsychotics are used to treat mania and would be expected to suppress rather than provoke manic symptoms.",
+        "B": "Benzodiazepines cause sedation and can produce transient disinhibition but do not induce a sustained manic syndrome.",
+        "C": "Anticonvulsant mood stabilizers such as valproate are prophylactic against mood episodes rather than causes of mania.",
+        "D": "An SSRI is the agent a primary care physician would most likely prescribe for apparently unipolar depression, and antidepressant monotherapy can unmask mania in patients with underlying bipolar disorder.",
+        "E": "A stimulant can produce manic-like symptoms but would not have been prescribed for her depressive presentation and would not explain symptoms persisting months after discontinuation."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-015",
+      "question": "A 20-year-old woman with a suspected manic episode is asked to describe her current symptoms. She replies with increased rate and volume of speech: \"I think I've just finally opened my eyes, including my third eye, to see the things in life that are missed by those who can't look inside themselves and see clearly, like they're clairvoyant, and to be truly clairvoyant one must make sure the water they drink is clear and fresh. That freshness will help you freshen your mind because that's the only true way to-\" The examiner must interrupt and switch to closed-ended questions. Which of the following best describes her thought process?",
+      "answers": {
+        "A": "Circumstantiality",
+        "B": "Clang associations",
+        "C": "Flight of ideas",
+        "D": "Tangentiality",
+        "E": "Thought blocking"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Circumstantial speech wanders through excessive detail but eventually returns to and reaches the intended point.",
+        "B": "Clang associations are driven purely by rhyme or sound rather than by meaning, whereas her shifts still follow loose semantic links.",
+        "C": "Rapid, pressured shifting between loosely connected ideas linked by superficial associations, without returning to the original topic, defines flight of ideas and is characteristic of mania.",
+        "D": "Tangential speech drifts away from the topic and never returns, but it lacks the accelerated pace and chained associations seen here.",
+        "E": "Thought blocking is an abrupt cessation of speech mid-thought, the opposite of this patient's accelerated output."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-016",
+      "question": "A 20-year-old woman in a manic episode states, \"I sometimes feel like Gaya, the earth mother, is talking to me. She sends me messages through nature, the trees, the wind, the animals. The day I called that lawyer, a bird landed on my window sill, I knew it was her telling me I needed to do this.\" She explicitly denies ever hearing Gaya's voice and says she interprets signs. These experiences began 2 weeks ago. Which of the following best characterizes this phenomenon on the mental status examination?",
+      "answers": {
+        "A": "Auditory hallucination",
+        "B": "Command hallucination",
+        "C": "Delusion of reference",
+        "D": "Thought insertion",
+        "E": "Visual illusion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A hallucination is a percept arising without an external stimulus, and she specifically denies hearing any voice.",
+        "B": "A command hallucination is a voice instructing the patient to act, which she also denies experiencing.",
+        "C": "She assigns fixed, personal, unshakeable meaning to ordinary external events such as a bird landing on the sill, which is a delusion of reference rather than a perceptual disturbance.",
+        "D": "Thought insertion is the belief that thoughts are being placed into one's mind by an outside force, not the interpretation of real events as signs.",
+        "E": "An illusion is a misperception of a real stimulus, but the bird itself is perceived accurately and only its meaning is distorted."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-017",
+      "question": "A 20-year-old woman has had 3 months of decreased need for sleep, pressured speech, grandiosity, and impulsive spending, with delusions of receiving messages from an earth goddess that began 2 weeks ago. She has never had psychotic symptoms at any other point in her life. A student asks why schizoaffective disorder is not the appropriate diagnosis. Which of the following is the best explanation?",
+      "answers": {
+        "A": "Her psychotic symptoms are mood-congruent rather than bizarre",
+        "B": "She has never required inpatient psychiatric hospitalization",
+        "C": "She has no first-degree relative with a psychotic disorder",
+        "D": "She reports delusions but denies auditory hallucinations",
+        "E": "The psychosis has occurred only within the mood episode"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Mood congruence is a specifier and does not distinguish schizoaffective disorder from a mood disorder with psychotic features.",
+        "B": "Hospitalization history reflects severity and access to care rather than diagnostic criteria.",
+        "C": "Family history informs risk but is neither required for nor exclusionary of a psychotic disorder diagnosis.",
+        "D": "Either delusions or hallucinations satisfy the psychosis criterion, so the absence of hallucinations does not rule out schizoaffective disorder.",
+        "E": "Schizoaffective disorder requires at least 2 weeks of delusions or hallucinations in the absence of a major mood episode, and all of her psychosis has occurred inside the manic episode."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-018",
+      "question": "The father of a 20-year-old woman newly diagnosed with bipolar I disorder asks why lifelong medication adherence matters when she \"felt great and got her best grades ever\" early in the episode. Her physician explains the kindling model of recurrent mood episodes. Which of the following statements best describes this model?",
+      "answers": {
+        "A": "Each episode increases the stress required to trigger the next",
+        "B": "Manic episodes become briefer and rarer as the illness advances",
+        "C": "Mood stabilizers lose all efficacy after a third manic episode",
+        "D": "Successive episodes occur more easily, more often, and last longer",
+        "E": "Untreated mania converts into schizophrenia over repeated episodes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The model predicts the opposite, namely that progressively less environmental stress is needed to precipitate each subsequent episode.",
+        "B": "Episodes are expected to lengthen and recur more frequently, which is part of why interrupting the current episode matters.",
+        "C": "Kindling describes the natural course of untreated illness rather than pharmacologic tolerance to mood stabilizers.",
+        "D": "With each successive manic or depressive episode the threshold for triggering the next falls, recurrences become more frequent, and episodes last longer, which is the central argument for early treatment and sustained adherence.",
+        "E": "Recurrent mood episodes do not transform bipolar disorder into schizophrenia; the two diagnoses remain distinct."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-019",
+      "question": "A 75-year-old woman is evaluated several weeks after her husband died of a stroke. She has had depressed mood, insomnia, and weight loss, and has become convinced that she accidentally poisoned her husband's food and caused his death. She refuses to eat or drink because she believes she deserves punishment. She has no prior psychiatric history and had no cognitive complaints before this episode. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Bipolar I disorder, current episode depressed",
+        "B": "Major depressive disorder with psychotic features",
+        "C": "Major neurocognitive disorder with behavioral disturbance",
+        "D": "Persistent depressive disorder with anxious distress",
+        "E": "Schizophrenia, late onset with negative symptoms"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "There is no history of a manic or hypomanic episode, which is required for bipolar I disorder.",
+        "B": "A major depressive episode accompanied by mood-congruent delusions of guilt and deserved punishment defines major depressive disorder with psychotic features.",
+        "C": "A neurocognitive disorder would show progressive memory and executive decline preceding the mood change, which is explicitly absent here.",
+        "D": "Persistent depressive disorder requires 2 years of symptoms and by definition does not include psychotic features.",
+        "E": "Late-onset schizophrenia would involve psychosis independent of mood episodes along with negative symptoms and functional decline over time."
+      }
+    },
+    {
+      "id": "neuro-mood-disorder-cases-020",
+      "question": "A 75-year-old woman with major depressive disorder with psychotic features has refused all food and fluids for 6 days because she believes she poisoned her husband and deserves to die. She is somnolent with dry mucous membranes and poor skin turgor. Laboratory studies are shown and intravenous fluids are started. Which of the following is the most appropriate definitive treatment?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Sodium", "149 mEq/L", "135-145 mEq/L"],
+        ["BUN", "42 mg/dL", "7-20 mg/dL"],
+        ["Creatinine", "1.6 mg/dL", "0.6-1.2 mg/dL"],
+        ["Potassium", "3.4 mEq/L", "3.5-5.0 mEq/L"]
+      ],
+      "answers": {
+        "A": "Arrange weekly outpatient psychiatry follow-up",
+        "B": "Begin electroconvulsive therapy",
+        "C": "Begin supportive psychotherapy alone",
+        "D": "Start fluoxetine monotherapy",
+        "E": "Start lorazepam as needed for agitation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Outpatient management is unsafe in a somnolent, dehydrated patient with life-threatening refusal of food and fluids.",
+        "B": "Electroconvulsive therapy has high response rates in psychotic depression and acts within days to weeks, making it the treatment of choice when refusal of intake has become medically dangerous.",
+        "C": "Psychotherapy alone cannot address fixed delusions in a dehydrated, somnolent patient and would work far too slowly to reverse the emergency.",
+        "D": "Antidepressant monotherapy is inadequate for psychotic depression and would take several weeks to produce benefit.",
+        "E": "Benzodiazepines offer no antidepressant or antipsychotic effect and add delirium risk in an elderly, dehydrated patient."
+      }
+    }
+  ]
+}
