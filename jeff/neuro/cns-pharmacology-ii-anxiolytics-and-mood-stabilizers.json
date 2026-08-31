@@ -1,0 +1,432 @@
+{
+  "lecture": "CNS Pharmacology II: Anxiolytics and Mood Stabilizers",
+  "block": "neuro",
+  "generated": "2026-08-31",
+  "questions": [
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-001",
+      "question": "A 26-year-old man with generalized tonic-clonic status epilepticus continues to seize despite two doses of IV lorazepam and a loading dose of levetiracetam. The team administers IV phenobarbital and the seizure terminates within 3 minutes. His respiratory rate falls to 8/min and he is intubated. Which of the following best describes the action of the agent that terminated the seizure at its target receptor?",
+      "answers": {
+        "A": "Blockade of postsynaptic AMPA receptor currents",
+        "B": "Increased duration of chloride channel opening",
+        "C": "Increased frequency of chloride channel opening",
+        "D": "Inhibition of thalamic T-type calcium channels",
+        "E": "Prolonged inactivation of voltage-gated sodium channels"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Noncompetitive AMPA receptor blockade is the mechanism of perampanel, which is not used for status epilepticus and does not act on GABA-A.",
+        "B": "Barbiturates bind their own site on the GABA-A receptor and potentiate GABA by prolonging how long the chloride channel stays open, increasing inhibitory tone.",
+        "C": "Increasing the frequency of channel opening by making the receptor more sensitive to GABA is the benzodiazepine mechanism, which describes the lorazepam he already failed.",
+        "D": "T-type calcium channel inhibition is the mechanism of ethosuximide, effective for absence seizures and of little use in tonic-clonic seizures.",
+        "E": "Prolonged sodium channel inactivation describes phenytoin, carbamazepine, and lamotrigine rather than a barbiturate."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-002",
+      "question": "A 23-year-old woman ingests an entire bottle of alprazolam. On arrival she is drowsy but arousable, with a respiratory rate of 15/min and oxygen saturation of 98% on room air, and she is observed and discharged. Later the same night a 24-year-old man who ingested a comparable multiple of the therapeutic dose of phenobarbital arrives obtunded with a respiratory rate of 5/min and requires intubation. Which of the following best explains the difference in severity between these two ingestions?",
+      "answers": {
+        "A": "Barbiturates act as direct GABA-A agonists at high concentrations",
+        "B": "Barbiturates are cleared by glucuronidation rather than by CYP450",
+        "C": "Benzodiazepines bind the same GABA-A site that GABA itself occupies",
+        "D": "Benzodiazepines block voltage-gated sodium channels at high doses",
+        "E": "Benzodiazepines undergo saturable first-pass metabolism in the gut"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Once the barbiturate binding site saturates, additional drug opens the chloride channel directly without GABA, so the dose-response curve keeps climbing and the therapeutic index can be as narrow as 3x.",
+        "B": "Barbiturates are metabolized by CYP450 enzymes and chronically induce them; the glucuronidated agents are the LOT benzodiazepines, and metabolic route does not explain the lethality difference.",
+        "C": "Neither class binds the GABA orthosteric site; both are allosteric modulators at distinct sites, which is precisely why benzodiazepine effect plateaus.",
+        "D": "Benzodiazepines have no meaningful sodium channel activity; their entire effect is allosteric modulation of GABA-A.",
+        "E": "Benzodiazepine absorption is not saturable, and altered absorption would not protect against respiratory depression."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-003",
+      "question": "A 58-year-old man with decompensated alcohol-related cirrhosis is admitted 14 hours after his last drink with tremor, diaphoresis, blood pressure 168/96 mm Hg, and pulse 112/min. He is oriented but anxious and requests something for the shakes. Laboratory studies are shown. Which of the following agents is most appropriate for managing his withdrawal?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Total bilirubin", "4.8 mg/dL", "0.2-1.2 mg/dL"],
+        ["Albumin", "2.4 g/dL", "3.5-5.5 g/dL"],
+        ["INR", "1.9", "0.9-1.1"],
+        ["AST", "96 U/L", "10-40 U/L"]
+      ],
+      "answers": {
+        "A": "Alprazolam",
+        "B": "Chlordiazepoxide",
+        "C": "Diazepam",
+        "D": "Lorazepam",
+        "E": "Midazolam"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alprazolam requires phase 1 oxidation and is short-acting, giving it the highest rebound and misuse risk of the group; it is a poor choice for withdrawal in any patient.",
+        "B": "Chlordiazepoxide is a standard withdrawal agent but requires CYP450 phase 1 metabolism and is very long acting, so it accumulates dangerously in cirrhosis.",
+        "C": "Diazepam is also very long acting with active metabolites generated by phase 1 metabolism, risking oversedation in a patient with an INR of 1.9 and albumin of 2.4.",
+        "D": "Lorazepam is one of the LOT benzodiazepines (lorazepam, oxazepam, temazepam) that skip phase 1 and are cleared by glucuronidation, which is preserved even in end-stage liver disease.",
+        "E": "Midazolam is very short acting and reserved for procedural or ICU sedation; it is unsuitable for a multi-day withdrawal taper."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-004",
+      "question": "A 47-year-old woman who has taken clonazepam 2 mg three times daily for six years is brought in after taking an extra handful of tablets during an argument. She is somnolent but arousable and protecting her airway, with a respiratory rate of 12/min and normal oxygen saturation. A resident proposes giving flumazenil to reverse the sedation. Which of the following is the strongest reason to avoid this?",
+      "answers": {
+        "A": "It can precipitate withdrawal seizures in a dependent patient",
+        "B": "It has no measurable affinity for the benzodiazepine binding site",
+        "C": "It potentiates barbiturate toxicity by inhibiting CYP450 enzymes",
+        "D": "It reverses ethanol effects and worsens respiratory depression",
+        "E": "It upregulates GABA-A receptors and prolongs her sedation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Chronic benzodiazepine exposure downregulates GABA-A signaling; abruptly stripping the drug off the receptor with an antagonist produces a state of CNS overexcitement with seizures, which is why flumazenil is almost never used.",
+        "B": "Flumazenil is a competitive antagonist at the benzodiazepine site, so it has high affinity; that affinity is exactly what makes it dangerous here.",
+        "C": "Flumazenil does not inhibit CYP450 or interact with barbiturates, which have no antidote at all.",
+        "D": "Flumazenil has no effect at the ethanol site on GABA-A, and reversal would if anything lighten sedation rather than deepen it.",
+        "E": "Receptor upregulation occurs over days to weeks after withdrawal of an agonist and is not an acute drug effect of flumazenil."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-005",
+      "question": "A 54-year-old man who drinks a liter of vodka daily is admitted for an elective hernia repair and has had no alcohol for 48 hours. He develops tremor, diaphoresis, blood pressure 178/104 mm Hg, and pulse 124/min, and then has a generalized tonic-clonic seizure. He has no history of epilepsy and head CT is normal. Which of the following best explains the seizure?",
+      "answers": {
+        "A": "Downregulated GABA-A receptors with unopposed glutamatergic tone",
+        "B": "Excess presynaptic GABA release throughout the cerebral cortex",
+        "C": "Increased chloride conductance producing cortical hyperpolarization",
+        "D": "Inhibition of NMDA receptors by residual ethanol metabolites",
+        "E": "Upregulated GABA-A receptors with reduced glutamate signaling"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Chronic ethanol potentiates GABA-A, so the system compensates by downregulating GABA signaling; removing ethanol abruptly leaves too little inhibition against normal glutamate drive, producing autonomic hyperactivity and seizures.",
+        "B": "Excess GABA would be sedating and anticonvulsant, the opposite of the withdrawal state.",
+        "C": "Increased chloride conductance hyperpolarizes neurons and makes action potentials less likely, which describes intoxication rather than withdrawal.",
+        "D": "NMDA inhibition is an acute effect of ethanol itself; in withdrawal glutamatergic signaling is relatively unopposed, not inhibited.",
+        "E": "This is the reverse of what happens; tolerance produces fewer, not more, functional GABA-A receptors."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-006",
+      "question": "A 31-year-old woman started on alprazolam 0.5 mg three times daily for panic disorder six months ago reports that each dose relieves her anxiety within 30 minutes, but that about four hours later she becomes intensely anxious and shaky, prompting her to take the next dose early. She now needs 1 mg for the same relief and has stopped attending cognitive behavioral therapy. Which of the following properties of this agent best accounts for this pattern?",
+      "answers": {
+        "A": "Its exclusive elimination by unchanged renal excretion",
+        "B": "Its irreversible antagonism of the GABA-A receptor",
+        "C": "Its long half-life with accumulation of active metabolites",
+        "D": "Its metabolism solely by hepatic glucuronidation",
+        "E": "Its rapid onset with a short duration of action"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alprazolam is hepatically metabolized; renal excretion of unchanged drug describes agents such as levetiracetam and gabapentin.",
+        "B": "Benzodiazepines are positive allosteric modulators, not antagonists, and their binding is reversible.",
+        "C": "Long-acting agents such as diazepam and chlordiazepoxide accumulate and cause sustained sedation, not the four-hour crash described here.",
+        "D": "Glucuronidation without phase 1 metabolism characterizes the LOT benzodiazepines and speaks to liver safety, not to rebound.",
+        "E": "Fast onset with rapid offset produces reinforcing relief followed by rebound anxiety, which drives escalating use and gives short-acting agents the highest misuse and addiction risk."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-007",
+      "question": "A 34-year-old woman is started on phenobarbital after a new diagnosis of epilepsy. Five days later she develops severe crampy abdominal pain, vomiting, confusion, and dark-colored urine. Her abdomen is soft without tenderness or peritoneal signs, and abdominal CT is unremarkable. Which of the following mechanisms best explains her presentation?",
+      "answers": {
+        "A": "Induction of ALA synthase precipitating an acute porphyria attack",
+        "B": "Induction of CYP3A4 lowering serum estrogen concentrations",
+        "C": "Inhibition of hepatic glucuronidation causing hyperbilirubinemia",
+        "D": "Prolonged inactivation of neuronal voltage-gated sodium channels",
+        "E": "Saturation of the barbiturate site producing direct GABA agonism"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Barbiturates interact with ALA synthase and can severely exacerbate the intermittent porphyrias, producing the classic triad of abdominal pain, neurologic symptoms, and dark urine.",
+        "B": "Barbiturates do induce CYP3A4 and can cause oral contraceptive failure, but reduced estrogen levels do not cause abdominal pain with dark urine.",
+        "C": "Barbiturates induce rather than inhibit hepatic metabolism, and hyperbilirubinemia would present with jaundice rather than colicky pain and confusion.",
+        "D": "Sodium channel inactivation is the mechanism of phenytoin and would not produce a systemic metabolic syndrome.",
+        "E": "Saturation with direct GABA agonism explains fatal overdose with sedation and respiratory depression, not abdominal pain in a therapeutically dosed patient."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-008",
+      "question": "A 42-year-old man with focal epilepsy has been maintained on phenytoin 300 mg daily with a steady serum level of 12 mcg/mL but continues to have breakthrough seizures. His dose is increased to 400 mg daily. Two weeks later he reports diplopia, unsteady gait, and slurred speech. Laboratory studies are shown. Which of the following best explains this finding?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Phenytoin level", "29 mcg/mL", "10-20 mcg/mL"],
+        ["Albumin", "4.2 g/dL", "3.5-5.5 g/dL"],
+        ["Creatinine", "0.9 mg/dL", "0.6-1.2 mg/dL"],
+        ["AST", "31 U/L", "10-40 U/L"]
+      ],
+      "answers": {
+        "A": "Autoinduction of hepatic CYP3A4-mediated metabolism",
+        "B": "Conversion from first-order to zero-order elimination kinetics",
+        "C": "Displacement from albumin binding by a second agent",
+        "D": "Reduced renal clearance from a falling glomerular filtration rate",
+        "E": "Saturation of intestinal L-amino acid transport absorption"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Autoinduction would accelerate clearance and lower the level, and it does not explain a 33% dose increase more than doubling the concentration.",
+        "B": "Phenytoin follows first-order kinetics at low doses but saturates its metabolizing enzymes at higher doses and shifts to zero-order, so small dose increases cause disproportionate rises in level and neurotoxicity.",
+        "C": "Displacement from albumin raises free drug without raising total measured level, and his albumin is normal with no interacting drug listed.",
+        "D": "Phenytoin is hepatically cleared and his creatinine is normal, so renal function is not the issue.",
+        "E": "Saturable absorption by the L-amino acid transporter describes gabapentin, and saturating absorption would lower, not raise, drug exposure."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-009",
+      "question": "A 24-year-old woman with focal epilepsy that has been well controlled for two years presents with a positive urine pregnancy test. She reports taking her combined oral contraceptive pill daily without missed doses and has had no vomiting or diarrhea. Her seizure regimen is reviewed. Which of the following medications most likely contributed to contraceptive failure?",
+      "answers": {
+        "A": "Ethosuximide",
+        "B": "Gabapentin",
+        "C": "Lamotrigine",
+        "D": "Levetiracetam",
+        "E": "Phenytoin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Ethosuximide is hepatically metabolized but has no significant medication interactions and does not induce CYP3A4.",
+        "B": "Gabapentin is absorbed by the L-amino acid transporter and eliminated unchanged in urine, bypassing hepatic enzymes entirely.",
+        "C": "Lamotrigine is cleared by glucuronidation with no CYP450 involvement; the interaction runs the other way, since estrogen lowers lamotrigine levels.",
+        "D": "Levetiracetam is excreted in the urine and bypasses the liver, which is why it has essentially no drug-drug interactions.",
+        "E": "Phenytoin is a potent CYP3A4 inducer that accelerates estrogen metabolism and lowers oral contraceptive concentrations enough to cause failure."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-010",
+      "question": "A 7-year-old girl is brought in for episodes in which she abruptly stops mid-sentence and stares blankly for about 10 seconds, several times daily, with no postictal confusion. EEG shows generalized 3-Hz spike-and-wave discharges. She is started on ethosuximide and the episodes resolve completely. Which of the following mechanisms best explains her response?",
+      "answers": {
+        "A": "Antagonism of postsynaptic NMDA receptor currents",
+        "B": "Binding to the synaptic vesicle protein SV2A",
+        "C": "Inhibition of T-type calcium channels in thalamic neurons",
+        "D": "Potentiation of GABA-A chloride channel opening duration",
+        "E": "Prolongation of voltage-gated sodium channel inactivation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "NMDA receptor antagonism reduces postsynaptic glutamate response but is not the mechanism of ethosuximide.",
+        "B": "SV2A binding reduces presynaptic glutamate release and is the mechanism of levetiracetam and brivaracetam.",
+        "C": "Only certain neurons carry T-type calcium channels, and those thalamic circuits generate the rhythmic discharges of absence seizures, which is why ethosuximide works here and has little role in other seizure types.",
+        "D": "Prolonged chloride channel opening is the barbiturate mechanism and would cause substantial sedation in a child.",
+        "E": "Prolonged sodium channel inactivation describes phenytoin and carbamazepine, which are not first-line for absence seizures."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-011",
+      "question": "A 33-year-old woman with focal epilepsy and end-stage liver disease requires a new antiseizure medication. Her neurologist selects an agent that is excreted unchanged in the urine, bypasses hepatic metabolism, and is currently among the most frequently prescribed antiseizure drugs. Which of the following best describes the mechanism of this agent?",
+      "answers": {
+        "A": "Binding to synaptic vesicle protein SV2A, reducing glutamate release",
+        "B": "Inhibition of GAT-1 transporters, raising extracellular GABA levels",
+        "C": "Noncompetitive antagonism of postsynaptic AMPA receptor currents",
+        "D": "Positive modulation of neuronal KCNQ potassium channel opening",
+        "E": "Prolongation of voltage-gated sodium channel inactivated states"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Levetiracetam binds SV2A on presynaptic vesicles and decreases glutamate release; it is renally excreted, bypasses the liver, and is the most frequently used antiseizure medication.",
+        "B": "GAT-1 inhibition describes tiagabine, which undergoes CYP3A hepatic metabolism and would be a poor choice in liver failure.",
+        "C": "Noncompetitive AMPA antagonism describes perampanel, which is metabolized by CYP3A4 in the liver.",
+        "D": "Positive modulation of KCNQ potassium channels describes ezogabine or retigabine, which is not among the commonly used agents.",
+        "E": "Prolonged sodium channel inactivation describes lacosamide, phenytoin, and carbamazepine rather than a renally cleared SV2A ligand."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-012",
+      "question": "A 19-year-old man with refractory focal epilepsy has one medication added to his regimen. Over the next six weeks his seizure frequency falls by half, but his parents report he has become verbally aggressive, hostile, and easily enraged, which is entirely new for him. He is taking no other new medications and denies substance use. Which of the following agents is most likely responsible?",
+      "answers": {
+        "A": "Ethosuximide",
+        "B": "Gabapentin",
+        "C": "Lacosamide",
+        "D": "Perampanel",
+        "E": "Valproic acid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Ethosuximide can affect mood and concentration but is used for absence seizures and would not be added for refractory focal epilepsy.",
+        "B": "Gabapentin is generally well tolerated, with dizziness, somnolence, and ataxia as its typical adverse effects.",
+        "C": "Lacosamide characteristically causes dizziness, headache, nausea, and diplopia rather than behavioral change.",
+        "D": "Perampanel, a noncompetitive AMPA antagonist, is specifically associated with aggression, hostility, irritability, and anger.",
+        "E": "Valproic acid causes alopecia, weight gain, tremor, thrombocytopenia, and hyperammonemia rather than a hostility syndrome."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-013",
+      "question": "A 29-year-old woman admitted for a manic episode is started on valproic acid and titrated to a therapeutic level over five days. On hospital day 7 she is lethargic and disoriented with asterixis on examination. She has no history of liver disease, no jaundice, and no fever. Laboratory studies are shown. Which of the following best explains her presentation?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Ammonia", "132 mcmol/L", "11-35 mcmol/L"],
+        ["AST", "28 U/L", "10-40 U/L"],
+        ["ALT", "24 U/L", "7-56 U/L"],
+        ["Total bilirubin", "0.8 mg/dL", "0.2-1.2 mg/dL"],
+        ["Platelets", "168,000/mm3", "150,000-400,000/mm3"],
+        ["Valproate level", "92 mcg/mL", "50-100 mcg/mL"]
+      ],
+      "answers": {
+        "A": "Hepatic failure from valproate-induced fulminant hepatitis",
+        "B": "Hyperammonemic encephalopathy from urea cycle interference",
+        "C": "Lithium toxicity resulting from a drug-drug interaction",
+        "D": "Serotonin syndrome from valproate-induced serotonin release",
+        "E": "Thrombocytopenia with occult intracranial hemorrhage"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Fulminant hepatitis would show markedly elevated transaminases and bilirubin, whereas her liver enzymes and bilirubin are normal.",
+        "B": "Valproate can raise ammonia and cause encephalopathy even at a therapeutic drug level and with normal liver enzymes, producing lethargy, confusion, and asterixis.",
+        "C": "She is not on lithium, and lithium toxicity presents with coarse tremor, ataxia, and myoclonus alongside an elevated lithium level.",
+        "D": "Serotonin syndrome features clonus, hyperreflexia, hyperthermia, and autonomic instability, and it is lithium rather than valproate that increases serotonin release.",
+        "E": "Valproate does cause thrombocytopenia, but her platelet count is normal and hemorrhage would produce focal deficits rather than asterixis."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-014",
+      "question": "A 27-year-old woman with bipolar I disorder maintained on valproic acid 1000 mg daily for three years presents at 6 weeks' gestation with an unplanned pregnancy. She has taken no folate supplementation and is otherwise healthy. Which of the following fetal malformations is she at greatest risk of?",
+      "answers": {
+        "A": "Cleft lip and palate",
+        "B": "Ebstein anomaly of the tricuspid valve",
+        "C": "Limb reduction defects",
+        "D": "Neural tube defects",
+        "E": "Renal agenesis with oligohydramnios"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cleft lip and palate is the controversial association with benzodiazepines and also appears in fetal hydantoin syndrome from phenytoin.",
+        "B": "Ebstein anomaly is the classic lithium association, with a relative risk near 20 but an absolute risk of roughly 1 in 1000.",
+        "C": "Limb reduction defects are not an established consequence of valproate or the other mood stabilizers.",
+        "D": "Valproic acid and carbamazepine are both major teratogens specifically linked to neural tube defects, a risk compounded by absent folate supplementation.",
+        "E": "Renal agenesis with oligohydramnios is characteristic of second- and third-trimester ACE inhibitor exposure."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-015",
+      "question": "A 24-year-old woman with bipolar II disorder started a new maintenance medication two weeks ago. Because she was eager for relief, her dose was increased every three days rather than following the recommended schedule. She now has a confluent erythematous rash over the trunk with oral mucosal erosions and a temperature of 38.6 C. Which of the following medications is most likely responsible?",
+      "answers": {
+        "A": "Gabapentin",
+        "B": "Lamotrigine",
+        "C": "Levetiracetam",
+        "D": "Lithium",
+        "E": "Topiramate"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Gabapentin is well tolerated with dizziness and somnolence as typical effects and is not associated with severe cutaneous reactions.",
+        "B": "Lamotrigine is the FDA-approved mood stabilizer for bipolar maintenance whose rash risk, including Stevens-Johnson syndrome, is driven by rapid titration, which is why it must be increased slowly.",
+        "C": "Levetiracetam causes somnolence, asthenia, and mood changes rather than mucocutaneous reactions.",
+        "D": "Lithium causes tremor, polyuria, weight gain, and acne, and its serious toxicity is neurologic and renal rather than dermatologic.",
+        "E": "Topiramate produces weight loss and cognitive slowing and is not linked to Stevens-Johnson syndrome."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-016",
+      "question": "A 46-year-old man with bipolar I disorder has been taking a mood stabilizer for two months. He presents with confusion, unsteady gait, and double vision, and his wife reports two days of sore throat and fever. He takes no other medications. Laboratory studies are shown. Which of the following medications best accounts for these findings?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Na+", "121 mEq/L", "135-145 mEq/L"],
+        ["Leukocyte count", "2,100/mm3", "4,500-11,000/mm3"],
+        ["Absolute neutrophil count", "800/mm3", "1,500-8,000/mm3"],
+        ["Platelets", "212,000/mm3", "150,000-400,000/mm3"],
+        ["Creatinine", "0.9 mg/dL", "0.6-1.2 mg/dL"]
+      ],
+      "answers": {
+        "A": "Carbamazepine",
+        "B": "Gabapentin",
+        "C": "Lamotrigine",
+        "D": "Lithium",
+        "E": "Valproic acid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Carbamazepine classically causes hyponatremia, neutropenia, diplopia, and ataxia, and it is a potent CYP3A4 and 2B6 inducer with many additional interactions.",
+        "B": "Gabapentin is renally eliminated and well tolerated, without hematologic toxicity or hyponatremia.",
+        "C": "Lamotrigine's signature adverse effect is rash including Stevens-Johnson syndrome, with dyscrasias being rare.",
+        "D": "Lithium causes tremor, polyuria, and hypothyroidism, and it typically produces leukocytosis rather than neutropenia; his creatinine is also normal.",
+        "E": "Valproic acid causes thrombocytopenia rather than isolated neutropenia, and his platelet count is normal."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-017",
+      "question": "A 62-year-old man with painful diabetic neuropathy is started on gabapentin with good relief. A student notes that the drug's name resembles GABA and assumes it must be a sedative-hypnotic like a benzodiazepine. Which of the following best describes the actual mechanism of this agent?",
+      "answers": {
+        "A": "Agonism at postsynaptic G protein-coupled GABA-B receptors",
+        "B": "Binding to the alpha-2-delta subunit of calcium channels",
+        "C": "Direct agonism at the GABA-A gated chloride channel pore",
+        "D": "Inhibition of GABA reuptake by presynaptic GAT-1 transporters",
+        "E": "Inhibition of GABA transaminase within presynaptic terminals"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Gabapentin does not meaningfully activate GABA-B receptors despite its name; baclofen is the prototypical GABA-B agonist.",
+        "B": "Gabapentin and pregabalin bind the alpha-2-delta subunit of presynaptic calcium channels and reduce glutamate release, with no action at GABA receptors at all.",
+        "C": "Direct GABA-A agonism occurs only with saturating barbiturate concentrations and is not a gabapentin effect.",
+        "D": "GAT-1 reuptake inhibition describes tiagabine, which does raise extracellular GABA.",
+        "E": "GABA transaminase inhibition describes vigabatrin and is not how gabapentin works."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-018",
+      "question": "A 44-year-old woman with bipolar I disorder maintained on a stable lithium dose for four years is started on hydrochlorothiazide for newly diagnosed hypertension and has been taking ibuprofen daily for low back pain. Three weeks later she develops a coarse tremor, muscle twitching, slurred speech, and an unsteady gait. Laboratory studies are shown. Which of the following best explains her elevated lithium concentration?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Lithium level", "2.3 mmol/L", "0.4-1.2 mmol/L"],
+        ["Creatinine", "1.5 mg/dL", "0.6-1.2 mg/dL"],
+        ["Na+", "134 mEq/L", "135-145 mEq/L"],
+        ["TSH", "2.1 mIU/L", "0.4-4.0 mIU/L"]
+      ],
+      "answers": {
+        "A": "Decreased renal clearance with enhanced tubular reabsorption",
+        "B": "Displacement of lithium from plasma protein binding sites",
+        "C": "Inhibition of hepatic CYP3A4-mediated lithium metabolism",
+        "D": "Reduced first-pass glucuronidation of lithium in the liver",
+        "E": "Saturation of intestinal transporters increasing absorption"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Lithium is cleared almost entirely by the kidney and competes with sodium for tubular reabsorption; NSAIDs, thiazides, and ACE inhibitors lower GFR and increase reabsorption, pushing levels into the toxic range.",
+        "B": "Lithium is an unbound ion with negligible protein binding, so displacement interactions do not occur.",
+        "C": "Lithium undergoes no hepatic metabolism, so CYP450 inhibitors do not affect its level.",
+        "D": "Glucuronidation is relevant to the LOT benzodiazepines and lamotrigine, not to lithium.",
+        "E": "Saturable intestinal transport describes gabapentin absorption and would not raise a lithium level."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-019",
+      "question": "A 36-year-old woman who has taken lithium for 10 months with excellent mood control reports six weeks of fatigue, cold intolerance, constipation, and a 4-kg weight gain. She denies sadness, anhedonia, or hopelessness and continues to work full time. Examination shows dry skin and a delayed relaxation phase of the deep tendon reflexes. Laboratory studies are shown. Which of the following is the most likely explanation?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["TSH", "14.2 mIU/L", "0.4-4.0 mIU/L"],
+        ["Free T4", "0.6 ng/dL", "0.8-1.8 ng/dL"],
+        ["Lithium level", "0.8 mmol/L", "0.4-1.2 mmol/L"],
+        ["Creatinine", "1.0 mg/dL", "0.6-1.2 mg/dL"]
+      ],
+      "answers": {
+        "A": "Bipolar depressive episode breaking through maintenance therapy",
+        "B": "Chronic lithium toxicity from an elevated serum concentration",
+        "C": "Hypothyroidism induced by chronic lithium therapy",
+        "D": "Nephrogenic diabetes insipidus caused by lithium",
+        "E": "Subclinical hyperthyroidism from excess thyroid hormone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A depressive episode would include mood symptoms such as sadness or anhedonia, which she explicitly denies, and would not raise TSH with a low free T4.",
+        "B": "Her lithium level sits in the therapeutic range and she has no tremor, ataxia, or confusion to suggest toxicity.",
+        "C": "Roughly 8% of patients on chronic lithium become clinically hypothyroid, a more than sixfold increase in risk, which is why TSH is monitored at baseline and every six months.",
+        "D": "Nephrogenic diabetes insipidus presents with polyuria and polydipsia rather than cold intolerance and thyroid function abnormalities.",
+        "E": "Hyperthyroidism would show a suppressed TSH with heat intolerance and weight loss, the opposite of her findings."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-ii-anxiolytics-and-mood-stabilizers-020",
+      "question": "A 30-year-old man with bipolar I disorder has had three manic episodes requiring hospitalization in five years despite documented adherence to quetiapine and valproic acid. His psychiatrist recommends switching to lithium. He objects that lithium requires periodic blood draws and can affect his kidneys and thyroid, and asks why he should accept those burdens. Which of the following best justifies the recommendation?",
+      "answers": {
+        "A": "It has the widest therapeutic index among the mood stabilizers",
+        "B": "It is hepatically metabolized and spares renal function entirely",
+        "C": "It is superior to other agents at preventing future mood episodes",
+        "D": "It reliably terminates acute mania faster than antipsychotics do",
+        "E": "It requires no laboratory monitoring once a dose is established"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Lithium has one of the narrowest therapeutic indices in psychiatry, roughly 2:1 to 3:1, which is precisely why levels must be checked.",
+        "B": "Lithium is excreted almost entirely by the kidney and can cause renal damage with long-term use, so creatinine must be monitored.",
+        "C": "Despite newer and better-tolerated agents, lithium remains the most effective medication for bipolar maintenance, meaning prevention of future episodes, which is exactly this patient's problem.",
+        "D": "Atypical antipsychotics have largely displaced lithium for acute mania because they work faster.",
+        "E": "Lithium level, creatinine, and TSH must be checked at steady state and then at least every six months indefinitely."
+      }
+    }
+  ]
+}
