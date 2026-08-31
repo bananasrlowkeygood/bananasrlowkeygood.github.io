@@ -310,8 +310,121 @@
 
     #submitBtn        { display: inline-flex; }
     #submitBtn.hidden { display: none; }
-    #nextBtn          { display: none; }
-    #nextBtn.visible  { display: inline-flex; }
+    #nextBtn          { display: inline-flex; }
+
+    /* Flag-for-review toggle */
+    .nav-btn.flag {
+      background: transparent;
+      border-color: #c98a00;
+      color: #c98a00;
+      font-size: 1.05rem;
+    }
+    .nav-btn.flag:not(:disabled):hover { background: #fff7e6; border-color: #c98a00; color: #c98a00; }
+    .nav-btn.flag.on { background: #c98a00; border-color: #c98a00; color: #fff; }
+
+    /* ── Question navigator ── */
+    .navigator {
+      width: 100%;
+      max-width: 820px;
+      margin-top: 0.9rem;
+      display: none;
+    }
+    .navigator.visible { display: block; }
+
+    .nav-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .nav-toggle {
+      background: none;
+      border: none;
+      padding: 0.2rem 0;
+      color: #3a6ea8;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .nav-toggle:hover { text-decoration: underline; }
+
+    .nav-legend {
+      display: flex;
+      gap: 0.7rem;
+      flex-wrap: wrap;
+      font-size: 0.7rem;
+      color: #888;
+    }
+    .nav-legend span { display: inline-flex; align-items: center; gap: 0.28rem; }
+
+    .swatch {
+      width: 10px; height: 10px;
+      border-radius: 2px;
+      border: 1px solid #c8c8c8;
+      background: #fff;
+      display: inline-block;
+    }
+    .swatch.correct   { background: #edf7f1; border-color: #2e7d4f; }
+    .swatch.incorrect { background: #fdf0f0; border-color: #b03030; }
+    .swatch.skipped   { background: #fff7e6; border-color: #c98a00; }
+
+    .nav-grid {
+      display: none;
+      grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+      gap: 0.35rem;
+      margin-top: 0.55rem;
+      padding: 0.65rem;
+      max-height: 220px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid #d0d0d0;
+      border-radius: 6px;
+    }
+    .nav-grid.open { display: grid; }
+
+    .qchip {
+      position: relative;
+      height: 34px;
+      border: 1px solid #c8c8c8;
+      border-radius: 4px;
+      background: #fff;
+      color: #555;
+      font-size: 0.78rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: border-color 0.12s, background 0.12s;
+    }
+    .qchip:hover { border-color: #888; background: #f7f7f7; }
+    .qchip.correct   { background: #edf7f1; border-color: #2e7d4f; color: #2e7d4f; }
+    .qchip.incorrect { background: #fdf0f0; border-color: #b03030; color: #b03030; }
+    .qchip.skipped   { background: #fff7e6; border-color: #c98a00; color: #8a6100; }
+    .qchip.current   { border-color: #3a6ea8; box-shadow: 0 0 0 2px rgba(58,110,168,0.35); }
+    .qchip.flagged::after {
+      content: "\2691";
+      position: absolute;
+      top: 1px; right: 3px;
+      font-size: 0.7rem;
+      line-height: 1;
+      color: #c98a00;
+    }
+
+    .kbd-hint {
+      margin-top: 0.7rem;
+      text-align: center;
+      font-size: 0.7rem;
+      color: #999;
+    }
+    .kbd-hint kbd {
+      background: #f2f2f2;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      padding: 0 4px;
+      font-family: inherit;
+      font-size: 0.68rem;
+      color: #666;
+    }
 
     /* ── Results ── */
     #results {
@@ -348,8 +461,8 @@
 
     .results-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 0.75rem;
+      grid-template-columns: repeat(auto-fit, minmax(84px, 1fr));
+      gap: 0.6rem;
       width: 100%;
     }
 
@@ -357,10 +470,10 @@
       background: #fff;
       border: 1px solid #d0d0d0;
       border-radius: 6px;
-      padding: 1rem 0.75rem;
+      padding: 0.85rem 0.5rem;
     }
 
-    .res-stat .val { font-size: 1.5rem; color: #1a1a1a; }
+    .res-stat .val { font-size: 1.35rem; color: #1a1a1a; }
     .res-stat .lbl { font-size: 0.75rem; color: #777; margin-top: 0.15rem; }
     .val.green { color: #2e7d4f; }
     .val.red   { color: #b03030; }
@@ -420,9 +533,10 @@
     <div class="actions">
       <div class="score-inline" id="scoreInline"></div>
       <div style="display:flex;align-items:center;gap:0.5rem">
-        <button class="nav-btn outline" id="backBtn" onclick="prevQuestion()" disabled title="Previous">&#8592;</button>
-        <button class="nav-btn" id="submitBtn" onclick="submitAnswer()" disabled title="Submit">&#10003;</button>
-        <button class="nav-btn" id="nextBtn" onclick="nextQuestion()" title="Next">&#8594;</button>
+        <button class="nav-btn flag" id="flagBtn" onclick="toggleFlag()" title="Flag for review (F)" aria-pressed="false">&#9873;</button>
+        <button class="nav-btn outline" id="backBtn" onclick="prevQuestion()" disabled title="Previous (&#8592;)">&#8592;</button>
+        <button class="nav-btn" id="submitBtn" onclick="submitAnswer()" disabled title="Submit (Enter)">&#10003;</button>
+        <button class="nav-btn" id="nextBtn" onclick="nextQuestion()" title="Next (&#8594;)">&#8594;</button>
       </div>
     </div>
   </div>
@@ -444,13 +558,36 @@
     <div class="results-grid">
       <div class="res-stat"><div class="val green" id="rCorrect">0</div><div class="lbl">correct</div></div>
       <div class="res-stat"><div class="val red"   id="rWrong">0</div><div class="lbl">incorrect</div></div>
-      <div class="res-stat"><div class="val"       id="rTotal">0</div><div class="lbl">total</div></div>
+      <div class="res-stat"><div class="val"       id="rSkipped">0</div><div class="lbl">skipped</div></div>
+      <div class="res-stat"><div class="val"       id="rFlagged">0</div><div class="lbl">flagged</div></div>
+      <div class="res-stat"><div class="val"       id="rTotal">0</div><div class="lbl">answered</div></div>
     </div>
     <div class="results-actions">
       <button class="res-btn outline" onclick="reviewAnswers()">← review answers</button>
+      <button class="res-btn outline" id="reviewFlaggedBtn" onclick="reviewFlagged()" style="display:none">&#9873; review flagged</button>
+      <button class="res-btn outline" id="reviewSkippedBtn" onclick="reviewSkipped()" style="display:none">→ first skipped</button>
       <button class="res-btn" onclick="restartQuiz()">restart</button>
     </div>
   </div>
+
+  <div class="navigator" id="navigator">
+    <div class="nav-head">
+      <button class="nav-toggle" id="navToggle" onclick="toggleNavigator()">&#9662; all questions</button>
+      <div class="nav-legend">
+        <span><i class="swatch correct"></i>correct</span>
+        <span><i class="swatch incorrect"></i>incorrect</span>
+        <span><i class="swatch skipped"></i>skipped</span>
+        <span>&#9873; flagged</span>
+      </div>
+    </div>
+    <div class="nav-grid" id="navGrid"></div>
+    <div class="kbd-hint" id="kbdHint">
+      <kbd>A</kbd>&ndash;<kbd>E</kbd> pick &middot; <kbd>Enter</kbd> submit / next &middot;
+      <kbd>&#8592;</kbd><kbd>&#8594;</kbd> move &middot; <kbd>S</kbd> skip &middot;
+      <kbd>F</kbd> flag &middot; <kbd>N</kbd> question list
+    </div>
+  </div>
+
 </div>
 
 <script>
@@ -461,11 +598,15 @@
   let questions = [], current = 0;
 
   // One record per question, kept for the whole session so you can walk back
-  // and forward without losing what you picked. { selected, answered, struck }
+  // and forward without losing what you picked.
+  // { selected, answered, struck, flagged, skipped }
   let responses = [];
 
+  // True while the results screen is up, so navigation knows to leave it.
+  let resultsOpen = false;
+
   function response(i) {
-    if (!responses[i]) responses[i] = { selected: null, answered: false, struck: [] };
+    if (!responses[i]) responses[i] = { selected: null, answered: false, struck: [], flagged: false, skipped: false };
     return responses[i];
   }
 
@@ -482,7 +623,7 @@
     try {
       const byKey = {};
       responses.forEach((r, i) => {
-        if (r && (r.selected || r.struck.length)) byKey[qKey(questions[i])] = r;
+        if (r && (r.selected || r.answered || r.flagged || r.skipped || r.struck.length)) byKey[qKey(questions[i])] = r;
       });
       sessionStorage.setItem(STORE_KEY, JSON.stringify({
         v: 1,
@@ -521,7 +662,9 @@
       return {
         selected: r.selected || null,
         answered: !!r.answered,
-        struck: Array.isArray(r.struck) ? r.struck : []
+        struck: Array.isArray(r.struck) ? r.struck : [],
+        flagged: !!r.flagged,
+        skipped: !!r.skipped
       };
     });
 
@@ -537,12 +680,14 @@
   }
 
   function tally() {
-    let correct = 0, wrong = 0;
+    let correct = 0, wrong = 0, flagged = 0, skipped = 0;
     responses.forEach((r, i) => {
-      if (!r || !r.answered) return;
-      r.selected === questions[i].correct ? correct++ : wrong++;
+      if (!r) return;
+      if (r.flagged) flagged++;
+      if (r.answered) r.selected === questions[i].correct ? correct++ : wrong++;
+      else if (r.skipped) skipped++;
     });
-    return { correct, wrong, total: correct + wrong };
+    return { correct, wrong, total: correct + wrong, flagged, skipped };
   }
 
   const blockNames = { neuro: 'Neurology', endorepro: 'Endo / Repro', msk: 'MSK' };
@@ -678,12 +823,6 @@
     document.getElementById('explanations').classList.remove('visible');
     document.getElementById('expItems').innerHTML = '';
 
-    const submitBtn = document.getElementById('submitBtn');
-    const nextBtn   = document.getElementById('nextBtn');
-    submitBtn.disabled = !resp.selected;
-    submitBtn.classList.remove('hidden');
-    nextBtn.classList.remove('visible');
-
     // Restore whatever this question already had this session
     if (resp.answered) {
       reveal();
@@ -692,11 +831,37 @@
         btn.classList.toggle('selected', btn.dataset.letter === resp.selected));
     }
 
-    document.getElementById('backBtn').disabled = current === 0;
-
+    updateActionButtons();
     updateScore();
     updateProgress();
+    renderNavigator();
     saveSession();
+  }
+
+  // Submit / next / back / flag all reflect the current question's state.
+  // Before it is answered the arrow is a skip: it moves on and leaves the
+  // question marked unanswered so you can come back to it.
+  function updateActionButtons() {
+    const resp = response(current);
+    const last = current + 1 >= questions.length;
+    const submitBtn = document.getElementById('submitBtn');
+    const nextBtn   = document.getElementById('nextBtn');
+    const flagBtn   = document.getElementById('flagBtn');
+
+    submitBtn.classList.toggle('hidden', resp.answered);
+    submitBtn.disabled = resp.answered || !resp.selected;
+
+    nextBtn.classList.toggle('outline', !resp.answered);
+    nextBtn.innerHTML = (resp.answered && last) ? '&#10003;' : '&#8594;';
+    nextBtn.title = resp.answered
+      ? (last ? 'Finish' : 'Next question (\u2192)')
+      : (last ? 'Skip to results (S)' : 'Skip this question (S)');
+
+    flagBtn.classList.toggle('on', !!resp.flagged);
+    flagBtn.setAttribute('aria-pressed', resp.flagged ? 'true' : 'false');
+    flagBtn.title = resp.flagged ? 'Unflag (F)' : 'Flag for review (F)';
+
+    document.getElementById('backBtn').disabled = current === 0 && !resultsOpen;
   }
 
   function updateProgress() {
@@ -720,7 +885,7 @@
     resp.selected = letter;
     document.querySelectorAll('.answer-btn').forEach(btn =>
       btn.classList.toggle('selected', btn.dataset.letter === letter));
-    document.getElementById('submitBtn').disabled = false;
+    updateActionButtons();
     saveSession();
   }
 
@@ -747,46 +912,130 @@
     });
     document.getElementById('explanations').classList.add('visible');
 
-    const submitBtn = document.getElementById('submitBtn');
-    const nextBtn   = document.getElementById('nextBtn');
-    submitBtn.classList.add('hidden');
-    nextBtn.classList.add('visible');
-    nextBtn.innerHTML = current + 1 < questions.length ? '&#8594;' : '&#10003;';
+    updateActionButtons();
   }
 
   function submitAnswer() {
     const resp = response(current);
     if (!resp.selected || resp.answered) return;
     resp.answered = true;
+    resp.skipped = false;
     reveal();
     updateScore();
     updateProgress();
+    renderNavigator();
     saveSession();
   }
 
   function nextQuestion() {
+    if (resultsOpen) return;
+    const resp = response(current);
+    if (!resp.answered) resp.skipped = true;   // moved past without answering
     current++;
-    if (current >= questions.length) showResults();
+    if (current >= questions.length) { saveSession(); showResults(); }
     else render();
   }
 
   function prevQuestion() {
+    if (resultsOpen) { reviewAnswers(); return; }
     if (current === 0) return;
     current--;
     render();
+  }
+
+  // Jump straight to any question from the navigator (or from the results screen).
+  function goTo(i) {
+    if (i < 0 || i >= questions.length) return;
+    if (i === current && !resultsOpen) return;
+    if (!resultsOpen) {
+      const resp = response(current);
+      if (!resp.answered && i > current) resp.skipped = true;
+    }
+    resultsOpen = false;
+    current = i;
+    document.getElementById('results').classList.remove('visible');
+    document.getElementById('quizCard').style.display = 'flex';
+    render();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function toggleFlag() {
+    if (resultsOpen || !questions.length) return;
+    const resp = response(current);
+    resp.flagged = !resp.flagged;
+    updateActionButtons();
+    renderNavigator();
+    saveSession();
+  }
+
+  // ── Question navigator ──
+  // A chip per question: colour is what happened to it, the corner flag is
+  // yours. Click one to go there, answered or not.
+  function renderNavigator() {
+    const nav = document.getElementById('navigator');
+    if (!questions.length) { nav.classList.remove('visible'); return; }
+    nav.classList.add('visible');
+    document.getElementById('kbdHint').style.display = resultsOpen ? 'none' : '';
+
+    const grid = document.getElementById('navGrid');
+    grid.innerHTML = '';
+    questions.forEach((q, i) => {
+      const r = responses[i];
+      const chip = document.createElement('button');
+      chip.className = 'qchip';
+      chip.textContent = i + 1;
+      const bits = [];
+      if (r && r.answered) {
+        const ok = r.selected === q.correct;
+        chip.classList.add(ok ? 'correct' : 'incorrect');
+        bits.push(ok ? 'correct' : 'incorrect');
+      } else if (r && r.skipped) {
+        chip.classList.add('skipped');
+        bits.push('skipped');
+      } else {
+        bits.push('not seen yet');
+      }
+      if (r && r.flagged) { chip.classList.add('flagged'); bits.push('flagged'); }
+      if (i === current && !resultsOpen) chip.classList.add('current');
+      chip.title = `question ${i + 1} — ${bits.join(', ')}`;
+      chip.onclick = () => goTo(i);
+      grid.appendChild(chip);
+    });
+
+    updateNavSummary();
+  }
+
+  function updateNavSummary() {
+    const { flagged, skipped } = tally();
+    const open = document.getElementById('navGrid').classList.contains('open');
+    const bits = [`${questions.length} questions`];
+    if (skipped) bits.push(`${skipped} skipped`);
+    if (flagged) bits.push(`${flagged} flagged`);
+    document.getElementById('navToggle').innerHTML =
+      `${open ? '&#9652;' : '&#9662;'} ${bits.join(' &middot; ')}`;
+  }
+
+  function toggleNavigator() {
+    document.getElementById('navGrid').classList.toggle('open');
+    updateNavSummary();
   }
 
   function showResults() {
     document.getElementById('quizCard').style.display = 'none';
     updateProgress();
 
-    const { correct, wrong, total } = tally();
+    const { correct, wrong, total, flagged, skipped } = tally();
     const pct = total ? Math.round(correct / total * 100) : 0;
 
     document.getElementById('rCorrect').textContent = correct;
     document.getElementById('rWrong').textContent   = wrong;
+    document.getElementById('rSkipped').textContent = skipped;
+    document.getElementById('rFlagged').textContent = flagged;
     document.getElementById('rTotal').textContent   = total;
     document.getElementById('donutPct').textContent = pct + '%';
+
+    document.getElementById('reviewFlaggedBtn').style.display = flagged ? 'inline-block' : 'none';
+    document.getElementById('reviewSkippedBtn').style.display = skipped ? 'inline-block' : 'none';
 
     const circ = 2 * Math.PI * 60;
     const arc = document.getElementById('donutArc');
@@ -795,25 +1044,70 @@
 
     document.getElementById('resultsTitle').textContent = 'quiz complete';
     document.getElementById('results').classList.add('visible');
+    resultsOpen = true;
+    renderNavigator();
     saveSession();
   }
 
   function restartQuiz() {
     current = 0;
     responses = [];
+    resultsOpen = false;
     shuffle(questions);
     document.getElementById('results').classList.remove('visible');
     document.getElementById('quizCard').style.display = 'flex';
     render();
   }
 
+  // Straight to the first question you flagged / skipped, from the results screen.
+  function reviewFlagged() { const i = responses.findIndex(r => r && r.flagged); if (i !== -1) goTo(i); }
+  function reviewSkipped() { const i = responses.findIndex(r => r && r.skipped && !r.answered); if (i !== -1) goTo(i); }
+
   // Leave the results screen and go back to the last question, answers intact.
   function reviewAnswers() {
     document.getElementById('results').classList.remove('visible');
     document.getElementById('quizCard').style.display = 'flex';
+    resultsOpen = false;
     current = questions.length - 1;
     render();
   }
+
+  // ── Keyboard ──
+  // A–E (or 1–5) picks, Enter submits then advances, arrows move, S skips,
+  // F flags, N opens the question list.
+  document.addEventListener('keydown', e => {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    const t = e.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    if (!questions.length) return;
+
+    const key = e.key;
+    const k = key.length === 1 ? key.toLowerCase() : key;
+
+    if (key === 'ArrowLeft')  { e.preventDefault(); prevQuestion(); return; }
+    if (key === 'ArrowRight') { e.preventDefault(); nextQuestion(); return; }
+    if (k === 'n') { e.preventDefault(); toggleNavigator(); return; }
+
+    if (resultsOpen) {
+      if (k === 'f') { e.preventDefault(); reviewFlagged(); }
+      return;
+    }
+
+    if (k === 'f') { e.preventDefault(); toggleFlag(); return; }
+    if (k === 's') { e.preventDefault(); nextQuestion(); return; }
+
+    if (key === 'Enter' || key === ' ') {
+      e.preventDefault();
+      const resp = response(current);
+      if (resp.answered) nextQuestion();
+      else if (resp.selected) submitAnswer();
+      return;
+    }
+
+    const letters = Object.keys(questions[current].answers || {});
+    const idx = /^[1-9]$/.test(key) ? parseInt(key, 10) - 1 : letters.indexOf(key.toUpperCase());
+    if (idx >= 0 && idx < letters.length) { e.preventDefault(); selectAnswer(letters[idx]); }
+  });
 
   load();
 </script>
