@@ -1,0 +1,416 @@
+{
+  "lecture": "Blood Supply and Cerebrospinal Fluid",
+  "block": "neuro",
+  "generated": "2026-08-31",
+  "questions": [
+    {
+      "id": "neuro-blood-supply-and-csf-001",
+      "question": "A 53-year-old woman is brought to the emergency department 90 minutes after the sudden onset of right-sided weakness and difficulty speaking. Examination shows dense weakness and loss of light touch in the right face and right arm, with only mild weakness of the right leg. Her speech is effortful and nonfluent, though she follows commands normally. CT of the head shows a large hemorrhage involving the lateral aspect of the left cerebral hemisphere above and below the lateral sulcus. Branches of which artery are most likely involved?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Anterior choroidal artery",
+        "C": "Middle cerebral artery",
+        "D": "Posterior cerebral artery",
+        "E": "Recurrent artery of Heubner"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the anteromedial surface, so its occlusion produces contralateral deficits weighted toward the lower limb rather than the face and arm.",
+        "B": "The anterior choroidal artery supplies the optic tract, internal capsule, and hippocampus deep to the surface, and would not produce a large lateral convexity hemorrhage with aphasia.",
+        "C": "The middle cerebral artery supplies the cortex above and below the lateral sulcus, including the face and upper limb portions of the pre- and postcentral gyri and the perisylvian language areas of the dominant hemisphere.",
+        "D": "The posterior cerebral artery supplies the medial occipital and inferomedial temporal cortex, so occlusion causes visual field loss rather than face and arm hemiparesis.",
+        "E": "The recurrent artery of Heubner is a small branch of the proximal anterior cerebral artery supplying the anterior striatum, and its territory is deep rather than on the lateral convexity."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-002",
+      "question": "A 68-year-old man is evaluated for weakness that began abruptly this morning. Examination shows marked weakness and sensory loss of the left leg and foot with only mild involvement of the left arm and complete sparing of the face. He has been incontinent of urine twice since arrival and appears apathetic with reduced spontaneous speech. Occlusion of which artery best explains these findings?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Anterior inferior cerebellar artery",
+        "C": "Middle cerebral artery",
+        "D": "Posterior cerebral artery",
+        "E": "Posterior inferior cerebellar artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial sensorimotor cortex, where the homunculus represents the lower limb and the paracentral lobule controlling micturition, producing leg-predominant deficits with incontinence.",
+        "B": "The anterior inferior cerebellar artery supplies the lateral caudal pons and would cause vertigo, facial paralysis, and ipsilateral ataxia rather than isolated leg weakness.",
+        "C": "The middle cerebral artery territory contains the face and upper limb representation, so occlusion produces arm and face deficits far exceeding those of the leg.",
+        "D": "The posterior cerebral artery supplies visual cortex, so occlusion produces contralateral hemianopia rather than motor and sensory loss of the leg.",
+        "E": "The posterior inferior cerebellar artery supplies the lateral medulla and inferior cerebellum, producing crossed sensory loss, dysphagia, and ataxia without limb weakness."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-003",
+      "question": "A 62-year-old man with a 20-year history of poorly controlled hypertension develops sudden left-sided weakness. Examination shows dense weakness of the left face, arm, and leg of equal severity with decreased sensation on the left. Speech is fluent, comprehension is intact, and there is no visual field cut and no evidence of neglect. Noncontrast CT shows an acute hemorrhage centered in the right putamen extending into the adjacent internal capsule. Rupture of which vessel is most likely responsible?",
+      "table": [
+        ["Study", "Value", "Reference range"],
+        ["Blood pressure", "212/118 mm Hg", "<120/80 mm Hg"],
+        ["Heart rate", "92/min", "60-100/min"],
+        ["Platelet count", "245,000/mm3", "150,000-400,000/mm3"],
+        ["INR", "1.0", "0.9-1.1"]
+      ],
+      "answers": {
+        "A": "Anterior choroidal artery",
+        "B": "Lenticulostriate branches of the middle cerebral artery",
+        "C": "Medial striate (recurrent) artery of Heubner",
+        "D": "Superficial cortical branches of the middle cerebral artery",
+        "E": "Thalamogeniculate branches of the posterior cerebral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior choroidal artery supplies the optic tract and posterior limb of the internal capsule, and its infarction characteristically adds a visual field deficit, which this patient does not have.",
+        "B": "Lenticulostriate arteries arise from the M1 segment and supply the putamen, caudate, and internal capsule; chronic hypertension causes lipohyalinosis of these small penetrators, and their rupture produces a purely subcortical deficit without cortical signs.",
+        "C": "The recurrent artery of Heubner arises from the proximal anterior cerebral artery and supplies the anterior caudate, anterior internal capsule, and nucleus accumbens rather than the putamen.",
+        "D": "Superficial cortical branches supply the convexity, so their rupture would produce aphasia, neglect, or a visual field cut in addition to hemiparesis.",
+        "E": "Thalamogeniculate branches supply the ventral posterior thalamus, and their rupture causes predominantly sensory loss rather than a dense equal-severity hemiplegia centered in the putamen."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-004",
+      "question": "A 70-year-old woman with atrial fibrillation develops sudden left hemiplegia. Examination shows dense weakness and hemisensory loss on the left plus a left homonymous hemianopia, but speech is fluent, comprehension is intact, and there is no neglect or anosognosia. MRI shows a small infarct involving the posterior limb of the right internal capsule extending back along the right optic tract. Occlusion of which artery best accounts for this combination?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Anterior choroidal artery",
+        "C": "Lenticulostriate arteries",
+        "D": "Posterior cerebral artery",
+        "E": "Recurrent artery of Heubner"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial frontal and parietal cortex and would cause leg-predominant weakness without a visual field defect.",
+        "B": "The anterior choroidal artery arises from the internal carotid before its bifurcation and follows the optic tract, supplying the tract, posterior limb of the internal capsule, and hippocampus, producing the triad of contralateral hemiplegia, hemisensory loss, and hemianopia.",
+        "C": "Lenticulostriate occlusion produces a lacunar syndrome confined to the capsule and basal ganglia and characteristically spares the visual pathway.",
+        "D": "Posterior cerebral artery occlusion would produce hemianopia from occipital infarction but would not cause dense hemiplegia from capsular involvement.",
+        "E": "The recurrent artery of Heubner supplies the anterior limb of the internal capsule and anterior striatum, well away from the optic tract."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-005",
+      "question": "A 66-year-old man describes three episodes over two weeks in which a curtain descended painlessly over the vision of his right eye, lasting several minutes before clearing completely. He has hypertension and a 40-pack-year smoking history. A bruit is audible over the right carotid bifurcation, and duplex ultrasonography shows 80% stenosis of the right internal carotid artery. Emboli traveling into which branch best explain his episodes?",
+      "answers": {
+        "A": "Anterior choroidal artery",
+        "B": "Middle meningeal artery",
+        "C": "Ophthalmic artery",
+        "D": "Posterior communicating artery",
+        "E": "Superficial temporal artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior choroidal artery supplies the optic tract, so its occlusion causes a contralateral homonymous field defect rather than transient loss in one eye.",
+        "B": "The middle meningeal artery is a branch of the maxillary artery supplying dura in the epidural space and has no role in retinal perfusion.",
+        "C": "The ophthalmic artery is the first intracranial branch of the internal carotid and gives rise to the central retinal artery, so emboli from a carotid plaque produce transient monocular blindness.",
+        "D": "The posterior communicating artery links the carotid to the posterior circulation and supplies deep structures, not the retina.",
+        "E": "The superficial temporal artery is a terminal branch of the external carotid supplying the scalp and does not perfuse the retina."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-006",
+      "question": "A 58-year-old man with hypertension develops sudden vertigo, vomiting, and intractable hiccups. Examination shows hoarseness, a diminished gag reflex, and difficulty swallowing. There is ptosis and miosis of the right eye, dysmetria of the right arm, loss of pain and temperature sensation on the right side of the face, and loss of pain and temperature sensation on the left side of the body. Strength is preserved throughout. Occlusion of which artery is most likely?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Basilar artery",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior inferior cerebellar artery supplies the lateral caudal pons, and its occlusion adds ipsilateral facial paralysis and deafness, neither of which is present here.",
+        "B": "The anterior spinal artery supplies the medial medulla, producing contralateral limb weakness, tongue deviation, and loss of vibration rather than dysphagia and crossed spinothalamic loss.",
+        "C": "Basilar occlusion produces bilateral ventral pontine infarction with quadriplegia and anarthria rather than a unilateral lateral medullary syndrome.",
+        "D": "The posterior inferior cerebellar artery supplies the lateral medulla and inferior cerebellum, damaging nucleus ambiguus, vestibular nuclei, descending sympathetics, spinal trigeminal nucleus, spinothalamic tract, and inferior cerebellar peduncle.",
+        "E": "The superior cerebellar artery supplies the superior cerebellum, rostral pons, and caudal midbrain, causing ipsilateral ataxia without dysphagia or hoarseness."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-007",
+      "question": "A 61-year-old woman develops abrupt vertigo, nausea, and vomiting. Examination shows complete weakness of the entire right side of the face including the forehead, profound hearing loss in the right ear, ptosis and miosis on the right, and dysmetria of the right arm. Pain and temperature sensation is decreased on the left side of the body. MRI shows infarction of the lateral caudal pons and the adjacent middle cerebellar peduncle. Occlusion of which artery best explains these findings?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Basilar artery",
+        "C": "Posterior cerebral artery",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior inferior cerebellar artery supplies the lateral caudal pons, the middle and inferior cerebellar peduncles, and gives off the labyrinthine artery, so infarction produces facial nerve palsy, ipsilateral deafness, vertigo, Horner syndrome, and ataxia.",
+        "B": "Occlusion of the basilar trunk causes bilateral ventral pontine infarction with quadriplegia and preserved consciousness, not a unilateral lateral pontine syndrome.",
+        "C": "The posterior cerebral artery supplies occipital and medial temporal cortex and does not perfuse the pons or inner ear.",
+        "D": "The posterior inferior cerebellar artery supplies the lateral medulla, so the facial weakness would be spared and dysphagia with hoarseness would predominate.",
+        "E": "The superior cerebellar artery supplies the rostral pons and superior cerebellum, causing ataxia and possible intention tremor without deafness or facial paralysis."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-008",
+      "question": "A 55-year-old man with atrial fibrillation is found unresponsive at home. On examination he does not move his limbs and cannot speak or move his lower face, but he opens his eyes to command and answers yes-or-no questions reliably by looking up and down. He appears alert and tracks the examiner with vertical gaze. MRI shows extensive infarction of the ventral pons bilaterally. Occlusion of which vessel is most likely responsible?",
+      "answers": {
+        "A": "Anterior spinal artery",
+        "B": "Basilar artery",
+        "C": "Internal carotid artery",
+        "D": "Middle cerebral artery",
+        "E": "Vertebral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior spinal artery supplies the medial medulla and anterior spinal cord and cannot account for bilateral ventral pontine infarction.",
+        "B": "The basilar artery supplies the pons through its pontine branches, and thrombosis of the trunk destroys the descending corticospinal and corticobulbar fibers bilaterally while sparing the tegmental reticular activating system and midbrain vertical gaze centers, producing locked-in syndrome.",
+        "C": "Internal carotid occlusion produces large hemispheric infarction with contralateral deficits and often depressed consciousness, not a bilateral pontine syndrome with intact awareness.",
+        "D": "The middle cerebral artery supplies the cerebral convexity and has no brainstem territory.",
+        "E": "Unilateral vertebral occlusion typically causes a lateral medullary syndrome, and the pons is supplied after the vertebral arteries fuse into the basilar."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-009",
+      "question": "A 72-year-old right-handed man develops sudden visual difficulty. Examination shows a right homonymous hemianopia with sparing of central vision. He writes a sentence to dictation normally but cannot read back what he has just written or read a printed page, and color naming is impaired. Strength, sensation, and repetition are normal. Occlusion of which artery best explains this presentation?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Anterior choroidal artery",
+        "C": "Basilar artery",
+        "D": "Middle cerebral artery",
+        "E": "Posterior cerebral artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial frontal and parietal cortex, producing leg weakness and abulia rather than visual and reading deficits.",
+        "B": "The anterior choroidal artery can cause hemianopia but characteristically does so alongside dense hemiplegia and hemisensory loss from capsular damage.",
+        "C": "Occlusion at the basilar apex compromises both posterior cerebral arteries and causes bilateral visual loss with depressed consciousness rather than a single homonymous field defect.",
+        "D": "Middle cerebral artery occlusion in the dominant hemisphere causes aphasia with impaired repetition and writing, whereas this patient writes normally.",
+        "E": "The posterior cerebral artery supplies the medial occipital cortex and the splenium of the corpus callosum, so left-sided occlusion produces right hemianopia with macular sparing plus alexia without agraphia."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-010",
+      "question": "A 55-year-old man comes to the emergency department because of severe throbbing right-sided headache and double vision that began two days ago. His history includes poorly controlled hypertension and chronic tobacco use. He is awake, alert, oriented, and follows commands, and visual fields and optic fundi are normal. The right eye rests in a down-and-out position with ipsilateral ptosis, and the right pupil is dilated and nonreactive to both light and accommodation. The left eye examination is normal. CT angiography is most likely to reveal an aneurysm at which location?",
+      "answers": {
+        "A": "Junction of the anterior communicating artery with the anterior cerebral artery",
+        "B": "Junction of the internal carotid artery with the posterior communicating artery",
+        "C": "Junction of the two vertebral arteries forming the basilar artery",
+        "D": "Origin of the anterior inferior cerebellar artery from the basilar artery",
+        "E": "Trifurcation of the middle cerebral artery within the lateral sulcus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An anterior communicating artery aneurysm sits above the optic chiasm and typically produces visual field defects or, on rupture, subarachnoid hemorrhage rather than an isolated third nerve palsy.",
+        "B": "The oculomotor nerve passes immediately lateral to the junction of the internal carotid and posterior communicating arteries, so an aneurysm here compresses the superficial parasympathetic fibers first and causes a painful pupil-involving third nerve palsy.",
+        "C": "A vertebrobasilar junction aneurysm compresses the medulla and lower cranial nerves, producing dysphagia or long-tract signs rather than a pupil-involving third nerve palsy.",
+        "D": "An aneurysm at the anterior inferior cerebellar artery origin lies at the level of the caudal pons and would affect the facial and vestibulocochlear nerves.",
+        "E": "A middle cerebral trifurcation aneurysm lies in the lateral sulcus and produces hemiparesis or aphasia when it ruptures, not oculomotor compression."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-011",
+      "question": "A 65-year-old man undergoes open repair of a thoracoabdominal aortic aneurysm with prolonged aortic cross-clamping. On postoperative day 1 he has flaccid paralysis of both legs and cannot perceive pinprick or temperature below the umbilicus. Vibration sense and proprioception in both legs are intact, and he is in urinary retention. Interruption of flow in which vessel best explains these findings?",
+      "answers": {
+        "A": "Anterior spinal artery",
+        "B": "Basilar artery",
+        "C": "Posterior inferior cerebellar artery",
+        "D": "Posterior spinal arteries",
+        "E": "Vertebral arteries bilaterally"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior spinal artery supplies the anterior two-thirds of the cord, including corticospinal and spinothalamic tracts, and below the cervical region depends on radicular feeders such as the artery of Adamkiewicz that are sacrificed during aortic surgery.",
+        "B": "The basilar artery supplies the pons and has no territory in the thoracolumbar spinal cord.",
+        "C": "The posterior inferior cerebellar artery supplies the lateral medulla and inferior cerebellum, far above the level of these deficits.",
+        "D": "The posterior spinal arteries supply the posterior one-third of the cord, so their occlusion abolishes vibration and proprioception, which are preserved here.",
+        "E": "Bilateral vertebral occlusion would produce brainstem infarction with cranial nerve findings rather than an isolated thoracic cord syndrome."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-012",
+      "question": "A 74-year-old woman is resuscitated after 12 minutes of cardiac arrest with prolonged systemic hypotension. Two days later she is awake and follows commands. She cannot abduct either shoulder or flex either elbow against gravity, but grip strength in both hands is normal and she moves both legs well. MRI shows bilateral wedge-shaped areas of restricted diffusion in the dorsolateral frontal cortex between two major vascular territories. Which region has most likely been infarcted?",
+      "answers": {
+        "A": "Anterior cerebral-middle cerebral border zone",
+        "B": "Bilateral lenticulostriate artery territories",
+        "C": "Distribution of the posterior inferior cerebellar artery",
+        "D": "Middle cerebral-posterior cerebral border zone",
+        "E": "Territory of the anterior choroidal artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The border zone between anterior and middle cerebral terminal branches lies where the shoulder and proximal arm are represented on the homunculus, so hypoperfusion produces proximal upper limb weakness with sparing of hand and leg.",
+        "B": "Lenticulostriate infarction produces a dense contralateral hemiplegia affecting face, arm, and leg equally, not a proximal-only pattern.",
+        "C": "Posterior inferior cerebellar artery infarction causes vertigo, dysphagia, and ataxia rather than symmetric proximal arm weakness.",
+        "D": "The middle cerebral-posterior cerebral border zone lies in the parieto-occipital region and produces higher-order visual dysfunction and partial field loss.",
+        "E": "The anterior choroidal territory is deep and unilateral, producing hemiplegia with hemianopia rather than bilateral proximal arm weakness."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-013",
+      "question": "A 22-year-old man is struck in the left temple by a baseball. He briefly loses consciousness, awakens and converses normally for 40 minutes, then becomes progressively drowsy. Examination now shows a dilated, poorly reactive left pupil and right-sided weakness. CT shows a biconvex, lens-shaped hyperdensity over the left temporal convexity that does not cross the coronal suture. Blood is accumulating in which space?",
+      "answers": {
+        "A": "Epidural space, between the skull and the periosteal dura",
+        "B": "Subarachnoid space, between the arachnoid and the pia mater",
+        "C": "Subdural space, between the meningeal dura and the arachnoid",
+        "D": "Subpial space, between the pia mater and the cortical surface",
+        "E": "Ventricular space, within the body of the lateral ventricle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The epidural space lies between the skull and the periosteal layer of dura and contains the middle meningeal artery; because the periosteal dura is anchored at sutures, arterial bleeding produces a lens-shaped collection that does not cross suture lines.",
+        "B": "Subarachnoid blood from ruptured cerebral arteries layers into sulci and basal cisterns and produces thunderclap headache with meningismus rather than a lens-shaped convexity mass.",
+        "C": "Subdural hematomas arise from torn bridging veins, are crescentic, and cross sutures because the space is not limited by them.",
+        "D": "There is no clinically significant subpial space; the pia adheres directly to the cortical surface.",
+        "E": "Intraventricular blood would appear layered within the ventricular system rather than as an extra-axial convexity collection."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-014",
+      "question": "A 48-year-old woman with type 1 diabetes mellitus is admitted with fever and a spreading infection of the central face. Over 24 hours she develops proptosis and periorbital edema of the right eye, complete ophthalmoplegia with ptosis on the right, and decreased sensation over the right forehead and right cheek. Sensation over the right jaw is normal, and jaw strength is preserved. Laboratory studies are shown. Involvement of which structure best explains this constellation of deficits?",
+      "table": [
+        ["Study", "Value", "Reference range"],
+        ["Leukocyte count", "19,800/mm3", "4,500-11,000/mm3"],
+        ["Glucose, serum", "428 mg/dL", "70-100 mg/dL"],
+        ["Bicarbonate", "14 mEq/L", "22-28 mEq/L"],
+        ["Blood cultures", "Staphylococcus aureus", "No growth"]
+      ],
+      "answers": {
+        "A": "Cavernous sinus",
+        "B": "Jugular foramen",
+        "C": "Orbital apex",
+        "D": "Petrous part of the temporal bone",
+        "E": "Superior orbital fissure"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The cavernous sinus transmits cranial nerves III, IV, V1, V2, and VI along with the internal carotid artery and its sympathetic plexus, and involvement of both V1 and V2 with sparing of V3 localizes the lesion here.",
+        "B": "The jugular foramen transmits cranial nerves IX, X, and XI, so a lesion there causes dysphagia and hoarseness rather than ophthalmoplegia.",
+        "C": "The orbital apex includes the optic nerve and the nerves of the superior orbital fissure but not V2, so maxillary sensory loss would not occur and vision would typically be affected.",
+        "D": "The petrous temporal bone transmits the internal carotid through the carotid canal and houses the inner ear; lesions here cause hearing loss and abducens palsy without V2 involvement.",
+        "E": "The superior orbital fissure transmits cranial nerves III, IV, V1, and VI but not V2, so cheek numbness would be absent."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-015",
+      "question": "A 34-year-old woman taking combined oral contraceptives presents with a 3-day history of worsening headache, drowsiness, and difficulty looking upward. MR venography shows thrombosis of the midline vessel formed by the union of the paired internal cerebral veins, with venous congestion of both thalami. Blood carried by this vessel normally drains directly into which structure?",
+      "answers": {
+        "A": "Cavernous sinus",
+        "B": "Confluence of the sinuses",
+        "C": "Sigmoid sinus",
+        "D": "Straight sinus",
+        "E": "Superior sagittal sinus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The cavernous sinus receives the superficial middle cerebral vein and ophthalmic veins, not the deep venous system of the thalami and basal ganglia.",
+        "B": "The confluence of sinuses is reached only after the great cerebral vein has already joined the inferior sagittal sinus to form the straight sinus.",
+        "C": "The sigmoid sinus is downstream of the transverse sinus and continues as the internal jugular vein, several steps beyond the great cerebral vein.",
+        "D": "The paired internal cerebral veins fuse to form the great cerebral vein of Galen, which unites with the inferior sagittal sinus to form the straight sinus.",
+        "E": "The superior sagittal sinus drains the superficial cerebral veins over the convexity rather than the deep venous system."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-016",
+      "question": "A 9-month-old boy is evaluated because his head circumference has crossed from the 50th to the 97th percentile over 3 months. He is irritable and feeds poorly, and examination shows a bulging anterior fontanelle and impaired upgaze. MRI shows a lobulated, avidly enhancing mass filling the atrium of the left lateral ventricle, with symmetric enlargement of all four ventricles and no discrete point of obstruction along the ventricular pathway. Which mechanism best explains the ventricular enlargement?",
+      "answers": {
+        "A": "Congenital absence of the arachnoid granulations",
+        "B": "Elevated venous pressure within the superior sagittal sinus",
+        "C": "Mechanical obstruction of the cerebral aqueduct",
+        "D": "Meningeal scarring of the subarachnoid space",
+        "E": "Overproduction of cerebrospinal fluid by the tumor"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Congenital absence of arachnoid granulations causes a communicating hydrocephalus, but it would not be accompanied by an enhancing intraventricular mass.",
+        "B": "High venous sinus pressure impairs reabsorption, but there is no venous thrombosis or sinus obstruction described in this case.",
+        "C": "Aqueductal obstruction would dilate the lateral and third ventricles while leaving the fourth ventricle normal in size.",
+        "D": "Meningeal adhesions follow meningitis or subarachnoid hemorrhage, neither of which is present, and would not produce an enhancing ventricular mass.",
+        "E": "Choroid plexus papillomas secrete cerebrospinal fluid at rates far above the normal 500 mL per day, overwhelming reabsorption and dilating all ventricles without a focal blockage."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-017",
+      "question": "A 3-year-old boy is brought in with a 6-week history of morning headaches, vomiting, and difficulty looking upward. His head circumference is above the 97th percentile. MRI shows marked dilation of both lateral ventricles and the third ventricle. The fourth ventricle is normal in size, and the cisterna magna and cortical subarachnoid spaces are not enlarged. Obstruction at which site best explains this pattern?",
+      "answers": {
+        "A": "Arachnoid granulations of the superior sagittal sinus",
+        "B": "Cerebral aqueduct of the midbrain",
+        "C": "Foramen of Magendie in the fourth ventricle",
+        "D": "Foramina of Luschka at the lateral recesses",
+        "E": "Interventricular foramen of Monro"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Blockage at the arachnoid granulations produces a communicating hydrocephalus in which all four ventricles and often the subarachnoid spaces enlarge.",
+        "B": "The cerebral aqueduct connects the third and fourth ventricles through the midbrain, so stenosis dilates everything upstream while leaving the fourth ventricle normal.",
+        "C": "Obstruction of the median aperture blocks outflow from the fourth ventricle, so the fourth ventricle would also be dilated.",
+        "D": "Obstruction of the lateral apertures likewise traps fluid within the fourth ventricle, which would therefore be enlarged.",
+        "E": "Blockage at the interventricular foramen dilates the lateral ventricles alone and spares the third ventricle."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-018",
+      "question": "A 58-year-old man is recovering from an aneurysmal subarachnoid hemorrhage that occurred 3 weeks ago. Over the past 5 days he has become progressively confused and unsteady, with a shuffling wide-based gait and new urinary incontinence. CT shows symmetric enlargement of the lateral, third, and fourth ventricles with no mass lesion and a patent cerebral aqueduct. Lumbar puncture results are shown. Which mechanism best explains his deterioration?",
+      "table": [
+        ["Study", "Value", "Reference range"],
+        ["Opening pressure", "28 cm H2O", "6-20 cm H2O"],
+        ["Appearance", "Xanthochromic", "Clear"],
+        ["Erythrocytes", "1,850/mm3", "0-5/mm3"],
+        ["Protein", "124 mg/dL", "15-45 mg/dL"],
+        ["Glucose", "62 mg/dL", "45-80 mg/dL"]
+      ],
+      "answers": {
+        "A": "Compression of the interventricular foramen of Monro",
+        "B": "Excess secretion of cerebrospinal fluid by the choroid plexus",
+        "C": "Impaired absorption of fluid at the arachnoid granulations",
+        "D": "Obstruction of the cerebral aqueduct by intraventricular clot",
+        "E": "Occlusion of the foramina of Luschka and Magendie"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Foramen of Monro compression would dilate the lateral ventricles selectively and spare the third and fourth ventricles.",
+        "B": "Excess secretion is characteristic of choroid plexus papilloma, and no mass is present on imaging.",
+        "C": "Blood products and inflammatory scarring plug the arachnoid villi so that cerebrospinal fluid cannot drain into the superior sagittal sinus, producing a communicating hydrocephalus in which all ventricles dilate together.",
+        "D": "The aqueduct is patent on imaging, and aqueductal obstruction would leave the fourth ventricle normal in size.",
+        "E": "Outflow obstruction at the fourth ventricular apertures would trap fluid proximally and would not allow blood-stained fluid to be sampled at high pressure from the lumbar sac."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-019",
+      "question": "A 76-year-old man is brought in by his daughter because of a 9-month decline. He walks slowly with short shuffling steps and appears stuck to the floor when turning, has become forgetful and inattentive, and has had urinary incontinence for 4 months. Strength, tone, and cerebellar testing are normal, and there is no resting tremor. CT shows enlargement of all four ventricles out of proportion to the degree of cortical atrophy. Lumbar puncture results are shown, and his gait improves markedly after removal of 40 mL of cerebrospinal fluid. Which is the most likely diagnosis?",
+      "table": [
+        ["Study", "Value", "Reference range"],
+        ["Opening pressure", "15 cm H2O", "6-20 cm H2O"],
+        ["Leukocytes", "2/mm3", "0-5/mm3"],
+        ["Protein", "38 mg/dL", "15-45 mg/dL"],
+        ["Glucose", "64 mg/dL", "45-80 mg/dL"]
+      ],
+      "answers": {
+        "A": "Alzheimer disease with hydrocephalus ex vacuo",
+        "B": "Idiopathic Parkinson disease",
+        "C": "Noncommunicating hydrocephalus from aqueductal stenosis",
+        "D": "Normal pressure hydrocephalus",
+        "E": "Vascular dementia from small-vessel disease"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "In Alzheimer disease the ventricles enlarge passively to fill space lost to cortical atrophy, and gait and continence are preserved until late.",
+        "B": "Parkinson disease produces resting tremor, rigidity, and bradykinesia with normal ventricular size and no response to fluid removal.",
+        "C": "Aqueductal stenosis is a noncommunicating form in which the fourth ventricle remains normal in size and pressure is typically elevated.",
+        "D": "Normal pressure hydrocephalus is a communicating hydrocephalus of older adults in which pressure rises only episodically, producing the triad of gait apraxia, cognitive dysfunction, and urinary incontinence with a normal opening pressure and improvement after large-volume drainage.",
+        "E": "Vascular dementia produces stepwise decline with focal deficits and white matter infarcts rather than symmetric ventriculomegaly reversible with fluid removal."
+      }
+    },
+    {
+      "id": "neuro-blood-supply-and-csf-020",
+      "question": "A male newborn delivered at 38 weeks has a head circumference above the 97th percentile, a tense fontanelle, and downward deviation of both eyes. MRI shows dilation of the lateral and third ventricles with a normal-sized fourth ventricle and focal narrowing of the cerebral aqueduct. The cavity that becomes this narrowed channel is derived from which embryonic vesicle?",
+      "answers": {
+        "A": "Diencephalon",
+        "B": "Mesencephalon",
+        "C": "Metencephalon",
+        "D": "Myelencephalon",
+        "E": "Telencephalon"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The cavity of the diencephalon becomes the third ventricle, which is dilated upstream of the obstruction rather than forming it.",
+        "B": "The cerebral aqueduct is the persistent narrow cavity of the mesencephalon, whose walls become the midbrain.",
+        "C": "The metencephalon gives rise to the pons and cerebellum and contributes the upper part of the fourth ventricle.",
+        "D": "The myelencephalon becomes the medulla and contributes the lower part of the fourth ventricle.",
+        "E": "The telencephalon gives rise to the cerebral hemispheres and its cavities become the lateral ventricles."
+      }
+    }
+  ]
+}
