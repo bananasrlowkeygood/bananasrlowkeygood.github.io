@@ -322,76 +322,89 @@
     .nav-btn.flag:not(:disabled):hover { background: #fff7e6; border-color: #c98a00; color: #c98a00; }
     .nav-btn.flag.on { background: #c98a00; border-color: #c98a00; color: #fff; }
 
-    /* ── Question navigator ── */
-    .navigator {
-      width: 100%;
-      max-width: 820px;
-      margin-top: 0.9rem;
-      display: none;
-    }
-    .navigator.visible { display: block; }
-
-    .nav-head {
+    /* ── Question navigator ──
+       A persistent rail down the left: every question, always in reach. */
+    .layout {
+      flex: 1;
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 0.75rem;
-      flex-wrap: wrap;
+      align-items: flex-start;
+      width: 100%;
+      min-height: 0;
     }
 
-    .nav-toggle {
-      background: none;
-      border: none;
-      padding: 0.2rem 0;
-      color: #3a6ea8;
-      font-size: 0.8rem;
-      cursor: pointer;
-      font-family: inherit;
+    .navigator {
+      display: none;
+      position: sticky;
+      top: var(--topbar-h, 58px);
+      align-self: flex-start;
+      flex: 0 0 150px;
+      width: 150px;
+      height: calc(100vh - var(--topbar-h, 58px));
+      flex-direction: column;
+      gap: 0.55rem;
+      padding: 0.9rem 0.75rem 1rem;
+      background: #f0ecf8;
+      border-right: 1px solid #c5bee0;
     }
-    .nav-toggle:hover { text-decoration: underline; }
+    .navigator.visible { display: flex; }
+
+    .nav-title {
+      font-family: "Klee One", cursive;
+      font-size: 0.78rem;
+      color: #5c4f7a;
+    }
+
+    .nav-counts {
+      font-size: 0.66rem;
+      line-height: 1.6;
+      color: #7b7488;
+    }
+    .nav-counts b { font-weight: 600; color: #4a4356; }
+
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+      grid-auto-rows: 30px;
+      align-content: start;
+      gap: 0.28rem;
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-y: auto;
+      padding: 0.15rem 0.15rem 0.15rem 0;
+    }
 
     .nav-legend {
       display: flex;
-      gap: 0.7rem;
-      flex-wrap: wrap;
-      font-size: 0.7rem;
-      color: #888;
+      flex-direction: column;
+      gap: 0.22rem;
+      font-size: 0.62rem;
+      color: #8a8496;
+      border-top: 1px solid #d8d2e8;
+      padding-top: 0.5rem;
     }
-    .nav-legend span { display: inline-flex; align-items: center; gap: 0.28rem; }
+    .nav-legend span { display: inline-flex; align-items: center; gap: 0.3rem; }
+    .nav-legend .flag-key { color: #c98a00; }
 
     .swatch {
-      width: 10px; height: 10px;
+      width: 9px; height: 9px;
       border-radius: 2px;
       border: 1px solid #c8c8c8;
       background: #fff;
       display: inline-block;
+      flex-shrink: 0;
     }
     .swatch.correct   { background: #edf7f1; border-color: #2e7d4f; }
     .swatch.incorrect { background: #fdf0f0; border-color: #b03030; }
     .swatch.skipped   { background: #fff7e6; border-color: #c98a00; }
 
-    .nav-grid {
-      display: none;
-      grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
-      gap: 0.35rem;
-      margin-top: 0.55rem;
-      padding: 0.65rem;
-      max-height: 220px;
-      overflow-y: auto;
-      background: #fff;
-      border: 1px solid #d0d0d0;
-      border-radius: 6px;
-    }
-    .nav-grid.open { display: grid; }
-
     .qchip {
       position: relative;
-      height: 34px;
+      height: 30px;
       border: 1px solid #c8c8c8;
       border-radius: 4px;
       background: #fff;
       color: #555;
-      font-size: 0.78rem;
+      font-size: 0.72rem;
       font-family: inherit;
       cursor: pointer;
       transition: border-color 0.12s, background 0.12s;
@@ -404,26 +417,37 @@
     .qchip.flagged::after {
       content: "\2691";
       position: absolute;
-      top: 1px; right: 3px;
-      font-size: 0.7rem;
+      top: 1px; right: 2px;
+      font-size: 0.62rem;
       line-height: 1;
       color: #c98a00;
     }
 
-    .kbd-hint {
-      margin-top: 0.7rem;
-      text-align: center;
-      font-size: 0.7rem;
-      color: #999;
-    }
-    .kbd-hint kbd {
-      background: #f2f2f2;
-      border: 1px solid #ddd;
-      border-radius: 3px;
-      padding: 0 4px;
-      font-family: inherit;
-      font-size: 0.68rem;
-      color: #666;
+    /* Narrow screens: the rail lies down across the top and scrolls sideways */
+    @media (max-width: 760px) {
+      .layout { flex-direction: column; }
+      .navigator {
+        position: static;
+        flex: 0 0 auto;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.55rem 0.9rem;
+        border-right: none;
+        border-bottom: 1px solid #c5bee0;
+      }
+      .nav-title { display: none; }
+      .nav-counts { flex-shrink: 0; }
+      .nav-grid {
+        grid-template-columns: none;
+        grid-auto-flow: column;
+        grid-auto-columns: 30px;
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+      .nav-legend { display: none; }
     }
 
     /* ── Results ── */
@@ -514,6 +538,20 @@
   </div>
 </div>
 
+<div class="layout">
+
+<aside class="navigator" id="navigator">
+  <div class="nav-title">questions</div>
+  <div class="nav-counts" id="navCounts"></div>
+  <div class="nav-grid" id="navGrid"></div>
+  <div class="nav-legend">
+    <span><i class="swatch correct"></i>correct</span>
+    <span><i class="swatch incorrect"></i>incorrect</span>
+    <span><i class="swatch skipped"></i>skipped</span>
+    <span><i class="flag-key">&#9873;</i>flagged</span>
+  </div>
+</aside>
+
 <div class="main" id="mainArea">
   <p class="state-msg" id="stateMsg">loading questions…</p>
 
@@ -570,23 +608,7 @@
     </div>
   </div>
 
-  <div class="navigator" id="navigator">
-    <div class="nav-head">
-      <button class="nav-toggle" id="navToggle" onclick="toggleNavigator()">&#9662; all questions</button>
-      <div class="nav-legend">
-        <span><i class="swatch correct"></i>correct</span>
-        <span><i class="swatch incorrect"></i>incorrect</span>
-        <span><i class="swatch skipped"></i>skipped</span>
-        <span>&#9873; flagged</span>
-      </div>
-    </div>
-    <div class="nav-grid" id="navGrid"></div>
-    <div class="kbd-hint" id="kbdHint">
-      <kbd>A</kbd>&ndash;<kbd>E</kbd> pick &middot; <kbd>Enter</kbd> submit / next &middot;
-      <kbd>&#8592;</kbd><kbd>&#8594;</kbd> move &middot; <kbd>S</kbd> skip &middot;
-      <kbd>F</kbd> flag &middot; <kbd>N</kbd> question list
-    </div>
-  </div>
+</div>
 
 </div>
 
@@ -729,6 +751,7 @@
     if (!lecture && !resumed) shuffle(questions);
 
     document.getElementById('stateMsg').style.display = 'none';
+    syncTopbarHeight();
 
     // A session that had already finished comes back on the results screen
     if (resumed && current >= questions.length) { showResults(); return; }
@@ -975,7 +998,6 @@
     const nav = document.getElementById('navigator');
     if (!questions.length) { nav.classList.remove('visible'); return; }
     nav.classList.add('visible');
-    document.getElementById('kbdHint').style.display = resultsOpen ? 'none' : '';
 
     const grid = document.getElementById('navGrid');
     grid.innerHTML = '';
@@ -1002,23 +1024,46 @@
       grid.appendChild(chip);
     });
 
-    updateNavSummary();
+    updateNavCounts();
+    keepCurrentChipInView();
   }
 
-  function updateNavSummary() {
-    const { flagged, skipped } = tally();
-    const open = document.getElementById('navGrid').classList.contains('open');
-    const bits = [`${questions.length} questions`];
-    if (skipped) bits.push(`${skipped} skipped`);
-    if (flagged) bits.push(`${flagged} flagged`);
-    document.getElementById('navToggle').innerHTML =
-      `${open ? '&#9652;' : '&#9662;'} ${bits.join(' &middot; ')}`;
+  function updateNavCounts() {
+    const { total, flagged, skipped } = tally();
+    const bits = [`<b>${questions.length}</b> total`, `<b>${total}</b> answered`];
+    if (skipped) bits.push(`<b>${skipped}</b> skipped`);
+    if (flagged) bits.push(`<b>${flagged}</b> flagged`);
+    document.getElementById('navCounts').innerHTML = bits.join('<br>');
   }
 
-  function toggleNavigator() {
-    document.getElementById('navGrid').classList.toggle('open');
-    updateNavSummary();
+  // Scroll the rail itself — never the page — so the question you are on stays
+  // visible even in a 400-question shuffle.
+  function keepCurrentChipInView() {
+    const grid = document.getElementById('navGrid');
+    const chip = grid.querySelector('.qchip.current');
+    if (!chip) return;
+    if (grid.scrollHeight > grid.clientHeight) {
+      const top = chip.offsetTop, bottom = top + chip.offsetHeight;
+      if (top < grid.scrollTop || bottom > grid.scrollTop + grid.clientHeight) {
+        grid.scrollTop = top - grid.clientHeight / 2 + chip.offsetHeight / 2;
+      }
+    }
+    // Narrow screens lay the rail out sideways, so it scrolls that way instead
+    if (grid.scrollWidth > grid.clientWidth) {
+      const left = chip.offsetLeft, right = left + chip.offsetWidth;
+      if (left < grid.scrollLeft || right > grid.scrollLeft + grid.clientWidth) {
+        grid.scrollLeft = left - grid.clientWidth / 2 + chip.offsetWidth / 2;
+      }
+    }
   }
+
+  // The rail hangs off the sticky topbar, whose height depends on the title.
+  function syncTopbarHeight() {
+    const bar = document.querySelector('.topbar');
+    if (bar) document.documentElement.style.setProperty('--topbar-h', bar.offsetHeight + 'px');
+  }
+  window.addEventListener('resize', syncTopbarHeight);
+  syncTopbarHeight();
 
   function showResults() {
     document.getElementById('quizCard').style.display = 'none';
@@ -1086,8 +1131,6 @@
 
     if (key === 'ArrowLeft')  { e.preventDefault(); prevQuestion(); return; }
     if (key === 'ArrowRight') { e.preventDefault(); nextQuestion(); return; }
-    if (k === 'n') { e.preventDefault(); toggleNavigator(); return; }
-
     if (resultsOpen) {
       if (k === 'f') { e.preventDefault(); reviewFlagged(); }
       return;
