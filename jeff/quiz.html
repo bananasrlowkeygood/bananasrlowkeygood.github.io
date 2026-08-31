@@ -413,7 +413,9 @@
     .qchip.correct   { background: #edf7f1; border-color: #2e7d4f; color: #2e7d4f; }
     .qchip.incorrect { background: #fdf0f0; border-color: #b03030; color: #b03030; }
     .qchip.skipped   { background: #fff7e6; border-color: #c98a00; color: #8a6100; }
-    .qchip.current   { border-color: #3a6ea8; box-shadow: 0 0 0 2px rgba(58,110,168,0.35); }
+    /* Ring only — the border keeps saying correct / incorrect / skipped */
+    .qchip.current   { box-shadow: 0 0 0 2px rgba(58,110,168,0.5); }
+    .qchip.current:not(.correct):not(.incorrect):not(.skipped) { border-color: #3a6ea8; }
     .qchip.flagged::after {
       content: "\2691";
       position: absolute;
