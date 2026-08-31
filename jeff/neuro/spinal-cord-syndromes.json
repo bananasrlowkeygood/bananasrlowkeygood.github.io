@@ -1,0 +1,418 @@
+{
+  "lecture": "Approach to Spinal Cord Injury and Disease via Clinical Vignettes",
+  "block": "neuro",
+  "generated": "2026-08-31",
+  "questions": [
+    {
+      "id": "neuro-spinal-cord-syndromes-001",
+      "question": "A 24-year-old man is brought to the emergency department after being stabbed in the back during an altercation. The wound is 2 cm to the right of midline at the level of the umbilicus. Neurologic examination shows weakness and increased tone in the right lower extremity, with absent vibratory sensation and joint position sense in the right leg below the wound. Which of the following best describes the expected pain and temperature findings in this patient?",
+      "answers": {
+        "A": "Bilateral loss of pain and temperature at the level of the lesion only",
+        "B": "Loss of pain and temperature in both legs several segments below the lesion",
+        "C": "Loss of pain and temperature in the left leg beginning a few segments below the lesion",
+        "D": "Loss of pain and temperature in the right leg beginning a few segments below the lesion",
+        "E": "Preserved pain and temperature sensation in both lower extremities"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A suspended, bilateral band of thermoanesthesia at the level of the lesion reflects interruption of decussating fibers in the anterior white commissure, as in syringomyelia, not a hemisection.",
+        "B": "Bilateral spinothalamic loss below a level requires damage to both halves of the cord, as in complete transection or anterior spinal artery infarction.",
+        "C": "Correct. First-order pain and temperature fibers ascend one to two segments in Lissauer tract before synapsing and crossing, so a right hemisection produces contralateral (left) loss beginning a few segments below the lesion.",
+        "D": "Ipsilateral pain and temperature loss would require damage to fibers before decussation, which occurs only at the entry level and not for several segments below.",
+        "E": "The lateral spinothalamic tract lies within the hemisected territory, so pain and temperature sensation cannot be entirely spared."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-002",
+      "question": "A 55-year-old man develops severe low back pain followed over several hours by difficulty walking and inability to void. Examination shows symmetric 3/5 weakness of ankle dorsiflexion and plantar flexion, symmetric saddle anesthesia over the perineum and buttocks, and brisk Achilles reflexes. Rectal tone and the bulbocavernosus reflex are intact. Radicular pain is mild. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Anterior spinal artery infarction",
+        "B": "Brown-Sequard syndrome",
+        "C": "Cauda equina syndrome",
+        "D": "Central cord syndrome",
+        "E": "Conus medullaris syndrome"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Anterior cord infarction produces loss of pain and temperature below a sensory level with preserved vibration and proprioception, not isolated saddle anesthesia with intact sacral reflexes.",
+        "B": "Hemisection produces ipsilateral weakness and proprioceptive loss with contralateral pain and temperature loss; this patient's deficits are symmetric.",
+        "C": "Cauda equina compression injures lumbosacral roots and produces a lower motor neuron picture with severe asymmetric radicular pain, depressed reflexes, and loss of the bulbocavernosus reflex.",
+        "D": "Central cord syndrome preferentially affects the upper extremities with a cape-like sensory loss; the legs are disproportionately involved here.",
+        "E": "Correct. Conus medullaris syndrome is an upper motor neuron lesion of the terminal cord producing symmetric distal leg weakness, saddle anesthesia, early bladder dysfunction, and preserved sacral reflex arcs."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-003",
+      "question": "A 58-year-old woman with poorly controlled hypertension presents with sudden tearing chest and interscapular back pain followed within minutes by inability to move her legs. Blood pressure is 178/96 mm Hg in the right arm and 132/70 mm Hg in the left arm. Examination shows flaccid paraplegia, urinary retention, and a sensory level at T6. Which of the following is the most likely pattern of sensory findings on detailed examination?",
+      "answers": {
+        "A": "Absent vibration sense with preserved pinprick below the lesion",
+        "B": "Bilateral loss of pinprick with preserved proprioception",
+        "C": "Ipsilateral weakness with contralateral loss of pinprick sensation",
+        "D": "Loss of all sensory modalities below a discrete sensory level",
+        "E": "Suspended cape-like loss of pinprick over the shoulders and back"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Selective dorsal column loss with preserved pinprick characterizes posterior column syndromes such as tabes dorsalis or B12 deficiency.",
+        "B": "Correct. Anterior spinal artery territory supplies the anterior two-thirds of the cord, so the corticospinal and spinothalamic tracts infarct while the dorsal columns, supplied by the posterior spinal arteries, are preserved.",
+        "C": "This dissociated ipsilateral-contralateral pattern defines Brown-Sequard syndrome from cord hemisection.",
+        "D": "Loss of every modality below a level indicates complete transection or transverse myelopathy involving the entire cord cross-section.",
+        "E": "A suspended cape or vest distribution reflects damage to decussating spinothalamic fibers in the central cord, as in syringomyelia."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-004",
+      "question": "A 50-year-old woman with a history of obesity and Roux-en-Y gastric bypass 6 years ago presents with 8 months of progressive gait unsteadiness, numbness and tingling in the hands and feet, and several falls. Examination shows loss of vibration and joint position sense in both feet, a positive Romberg sign, 4+ patellar reflexes, and bilateral extensor plantar responses. Laboratory studies are shown. Degeneration of which of the following structures best accounts for her findings?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Hemoglobin", "10.1 g/dL", "12.0-16.0 g/dL"],
+        ["Mean corpuscular volume", "112 fL", "80-100 fL"],
+        ["Methylmalonic acid", "1.8 umol/L", "less than 0.4 umol/L"],
+        ["Homocysteine", "38 umol/L", "5-15 umol/L"]
+      ],
+      "answers": {
+        "A": "Anterior horn cells and lateral corticospinal tracts",
+        "B": "Anterior white commissure and central gray matter",
+        "C": "Dorsal columns and lateral corticospinal tracts",
+        "D": "Dorsal roots and dorsal columns",
+        "E": "Spinothalamic tracts and anterior horn cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Combined anterior horn cell and pyramidal tract degeneration defines amyotrophic lateral sclerosis, which spares sensation entirely.",
+        "B": "Central gray and anterior white commissure involvement produces the dissociated suspended sensory loss of syringomyelia, not sensory ataxia with hyperreflexia.",
+        "C": "Correct. Malabsorption after gastric bypass causes B12 deficiency and subacute combined degeneration, with early dorsal column loss and later lateral corticospinal tract involvement producing hyperreflexia and Babinski signs.",
+        "D": "Dorsal root inflammation with secondary dorsal column destruction is the lesion of tabes dorsalis, which produces areflexia rather than hyperreflexia.",
+        "E": "Pain and temperature pathways are characteristically spared in B12 deficiency, and there is no anterior horn cell involvement."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-005",
+      "question": "A 68-year-old man with cervical spondylosis falls forward and strikes his chin, hyperextending his neck. He is alert with no loss of consciousness. Examination shows 2/5 strength in both hands and 3/5 in both arms, with 5/5 strength in both legs and diminished pinprick over the shoulders. CT shows degenerative changes without fracture. Which of the following anatomic features best explains why his upper extremities are more severely affected than his lower extremities?",
+      "answers": {
+        "A": "Cervical fibers of the lateral corticospinal tract lie medial to lumbosacral fibers",
+        "B": "Cervical fibers of the spinothalamic tract lie lateral to sacral fibers",
+        "C": "Decussating fibers in the anterior white commissure are damaged before long tracts",
+        "D": "Sacral fibers of the dorsal columns lie medial to cervical fibers in the cord",
+        "E": "Upper extremity anterior horn cells lie lateral to lower extremity anterior horn cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Corticospinal tract somatotopy places cervical fibers most medially and sacral fibers most laterally, so the poorly vascularized central cord injured by momentary hyperextension compression preferentially affects arm fibers.",
+        "B": "Spinothalamic somatotopy is the reverse, with cervical fibers medial and sacral fibers lateral, and it would not explain the motor findings.",
+        "C": "Damage to decussating fibers explains the suspended sensory loss of chronic syringomyelia but not the disproportionate upper extremity weakness.",
+        "D": "Dorsal column somatotopy places sacral fibers medially in the gracile fasciculus, but this pathway is largely spared and carries no motor output.",
+        "E": "Anterior horn somatotopy separates proximal from distal muscles within a segment, not upper limb from lower limb across the length of the cord."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-006",
+      "question": "A 28-year-old woman reports 2 years of painless burns on her fingertips from handling hot cookware. Examination shows bilateral loss of pinprick and temperature sensation over the shoulders, upper back, and arms, with intact light touch, vibration, and proprioception. Strength and reflexes are normal. MRI shows a fluid-filled cavity in the central cervical cord and cerebellar tonsils extending below the foramen magnum. Injury to which of the following structures accounts for her earliest symptoms?",
+      "answers": {
+        "A": "Anterior horn cells",
+        "B": "Anterior white commissure",
+        "C": "Dorsal columns",
+        "D": "Lateral corticospinal tracts",
+        "E": "Lissauer tract"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anterior horn cells are involved only as the cavity expands ventrolaterally, producing segmental atrophy, weakness, and areflexia later in the course.",
+        "B": "Correct. A central cavity first interrupts second-order spinothalamic fibers decussating in the anterior white commissure, producing bilateral suspended cape-like or vest-like loss of pain and temperature with preserved dorsal column function.",
+        "C": "Dorsal column dysfunction occurs only with dorsal extension of the syrinx, and this patient's vibration and proprioception are intact.",
+        "D": "Corticospinal involvement produces spasticity and hyperreflexia below the lesion and appears later with ventrolateral extension.",
+        "E": "Lissauer tract carries incoming fibers ascending one to two segments before entering the dorsal horn; it lies peripherally and is not damaged by a central cavity."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-007",
+      "question": "A 58-year-old man reports 1 year of progressive weakness that began with difficulty turning keys and buttoning his shirt. Examination shows atrophy of the intrinsic hand muscles with visible fasciculations, decreased strength in all four extremities, 4+ deep tendon reflexes throughout, and bilateral extensor plantar responses. Sensation is intact to all modalities. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Amyotrophic lateral sclerosis",
+        "B": "Central cord syndrome",
+        "C": "Spinal muscular atrophy",
+        "D": "Subacute combined degeneration",
+        "E": "Tabes dorsalis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Simultaneous upper motor neuron signs (hyperreflexia, Babinski) and lower motor neuron signs (atrophy, fasciculations) with entirely normal sensation is the hallmark of combined anterior horn cell and pyramidal tract degeneration.",
+        "B": "Central cord syndrome follows hyperextension trauma and produces dissociated sensory loss over the shoulders rather than a chronic progressive course with normal sensation.",
+        "C": "Spinal muscular atrophy is an autosomal recessive pure lower motor neuron disorder of infancy and childhood without hyperreflexia or Babinski signs.",
+        "D": "Subacute combined degeneration causes loss of vibration and proprioception with sensory ataxia; sensation is preserved in this patient.",
+        "E": "Tabes dorsalis causes lightning pains, sensory ataxia, areflexia, and Argyll-Robertson pupils without muscle atrophy or fasciculations."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-008",
+      "question": "A 55-year-old man with a history of untreated genital ulcer disease 18 years ago reports episodic sharp shooting pains in his legs and progressive unsteadiness. He walks with a wide-based, high-stepping gait, slapping his feet, and watches the ground constantly. Romberg testing is grossly positive. Patellar and Achilles reflexes are absent. His pupils constrict with accommodation but not to light. Degeneration of which of the following best explains his findings?",
+      "answers": {
+        "A": "Anterior horn cells",
+        "B": "Anterior spinal artery territory",
+        "C": "Central gray matter",
+        "D": "Dorsal roots and dorsal columns",
+        "E": "Lateral corticospinal tracts"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anterior horn cell degeneration produces atrophy, fasciculations, and weakness, as in poliomyelitis or spinal muscular atrophy, without sensory ataxia.",
+        "B": "Anterior spinal artery infarction abolishes pain and temperature while preserving proprioception, the opposite of this patient's pattern.",
+        "C": "Central gray involvement produces a suspended dissociated sensory loss, as in syringomyelia, not a positive Romberg with lightning pains.",
+        "D": "Correct. Tabetic neurosyphilis develops 10 to 20 years after infection, with inflammation of the dorsal roots and secondary destruction of the dorsal columns causing lightning pains, stomping gait, areflexia, and Argyll-Robertson pupils.",
+        "E": "Corticospinal degeneration produces spasticity, hyperreflexia, and extensor plantar responses rather than areflexia."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-009",
+      "question": "A 62-year-old man with a history of gastric bypass surgery reports 6 months of gait unsteadiness and numb feet. He has been taking high-dose over-the-counter zinc lozenges daily for the past 2 years for recurrent colds. Examination shows a spastic, ataxic gait, loss of vibration and joint position sense in the feet, 3+ knee reflexes, and extensor plantar responses. Laboratory studies are shown. Which of the following deficiencies best explains his presentation?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Hemoglobin", "9.4 g/dL", "13.5-17.5 g/dL"],
+        ["Mean corpuscular volume", "88 fL", "80-100 fL"],
+        ["Absolute neutrophil count", "1,100/mm3", "1,800-7,700/mm3"],
+        ["Vitamin B12", "480 pg/mL", "200-900 pg/mL"],
+        ["Serum zinc", "198 mcg/dL", "70-120 mcg/dL"]
+      ],
+      "answers": {
+        "A": "Copper deficiency",
+        "B": "Folate deficiency",
+        "C": "Thiamine deficiency",
+        "D": "Vitamin B12 deficiency",
+        "E": "Vitamin E deficiency"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Excess zinc induces enterocyte metallothionein and blocks copper absorption, and bariatric surgery compounds malabsorption; copper deficiency myeloneuropathy mimics subacute combined degeneration and is accompanied by anemia and neutropenia.",
+        "B": "Folate deficiency causes megaloblastic anemia with an elevated MCV but does not produce a dorsal column myelopathy or neutropenia with elevated zinc.",
+        "C": "Thiamine deficiency causes Wernicke encephalopathy or a distal peripheral neuropathy, not dorsal column and corticospinal degeneration with cytopenias.",
+        "D": "The clinical picture is identical to subacute combined degeneration, but the B12 level is normal and the elevated zinc identifies the true culprit.",
+        "E": "Vitamin E deficiency causes spinocerebellar and dorsal column degeneration but is not associated with anemia, neutropenia, or zinc excess."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-010",
+      "question": "A 44-year-old woman who emigrated from Jamaica reports 3 years of gradually worsening stiffness and weakness in both legs, low back ache, leg paresthesias, and urinary frequency. She was breastfed as an infant. Examination shows spastic paraparesis with sustained ankle clonus, 4+ knee reflexes, and mildly reduced vibration sense in the feet. Serum B12 and folate are normal, and CSF shows elevated protein with a lymphocytic pleocytosis. Which of the following is the most likely causative agent?",
+      "answers": {
+        "A": "Human immunodeficiency virus",
+        "B": "Human T-lymphotropic virus type 1",
+        "C": "Poliovirus",
+        "D": "Treponema pallidum",
+        "E": "Varicella zoster virus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "HIV vacuolar myelopathy causes a similar spastic paraparesis but occurs late in advanced disease with profound immunosuppression and is frequently accompanied by dementia.",
+        "B": "Correct. HTLV-1 associated myelopathy, or tropical spastic paraparesis, is endemic to the Caribbean and Japan, is transmitted vertically through breastfeeding or sexually, and causes slowly progressive paraparesis with back pain, paresthesias, and urinary frequency.",
+        "C": "Poliovirus destroys anterior horn cells, producing acute asymmetric flaccid paralysis with areflexia and no sensory or upper motor neuron findings.",
+        "D": "Tabetic neurosyphilis causes sensory ataxia, lightning pains, areflexia, and Argyll-Robertson pupils rather than spastic paraparesis.",
+        "E": "Varicella zoster myelitis is acute or subacute and typically follows a dermatomal vesicular rash."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-011",
+      "question": "A 41-year-old man with untreated HIV infection and a CD4 count of 60/mm3 reports 5 months of progressive leg stiffness and difficulty walking, along with word-finding difficulty noted by his partner. Examination shows spastic paraparesis, impaired vibration and position sense in both feet, and extensor plantar responses. MRI of the entire spine is normal. Additional studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["CSF protein", "88 mg/dL", "15-45 mg/dL"],
+        ["CSF leukocytes", "12/mm3, lymphocytes", "0-5/mm3"],
+        ["CSF glucose", "58 mg/dL", "40-70 mg/dL"],
+        ["Serum vitamin B12", "610 pg/mL", "200-900 pg/mL"],
+        ["Serum folate", "9.2 ng/mL", "greater than 5.4 ng/mL"]
+      ],
+      "answers": {
+        "A": "HIV-associated vacuolar myelopathy",
+        "B": "Neurosyphilis with tabes dorsalis",
+        "C": "Spinal epidural abscess",
+        "D": "Subacute combined degeneration",
+        "E": "Transverse myelitis due to multiple sclerosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Vacuolar myelopathy appears late in HIV infection with slowly progressive spastic paraparesis, sensory ataxia, normal B12 and folate, a normal cord MRI, elevated CSF protein with pleocytosis, and frequently associated dementia.",
+        "B": "Tabes dorsalis produces lancinating pains, areflexia, and Argyll-Robertson pupils; spasticity and extensor plantar responses would be atypical.",
+        "C": "An epidural abscess presents acutely with fever, focal spinal tenderness, and an obvious compressive collection on MRI.",
+        "D": "Subacute combined degeneration is excluded by the normal serum B12, and it would typically show dorsal column signal change on MRI.",
+        "E": "Demyelinating transverse myelitis produces a discrete T2-hyperintense cord lesion on MRI, which is normal here."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-012",
+      "question": "A 47-year-old man reports 3 weeks of worsening severe shooting pain down the right leg, followed by right foot drop and difficulty initiating urination. Examination shows asymmetric weakness greater on the right, absent right patellar and Achilles reflexes with preserved reflexes on the left, patchy numbness over the right perineum and posterior thigh, and an absent bulbocavernosus reflex. Compared with a lesion of the conus medullaris, this patient's syndrome is more likely to be characterized by which of the following?",
+      "answers": {
+        "A": "Early symmetric urinary and fecal incontinence",
+        "B": "Hyperactive Achilles reflexes bilaterally",
+        "C": "Preserved anal wink and bulbocavernosus reflexes",
+        "D": "Severe asymmetric radicular pain in one limb",
+        "E": "Symmetric distal paresis with upper motor neuron signs"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Early symmetric sphincter dysfunction is characteristic of conus lesions; sphincter involvement in cauda equina syndrome tends to appear later.",
+        "B": "Hyperactive reflexes reflect the upper motor neuron nature of a conus lesion, whereas root compression abolishes reflex arcs.",
+        "C": "Preservation of sacral reflex arcs favors a conus lesion, particularly a high one; these reflexes are typically lost when the roots are compressed.",
+        "D": "Correct. Cauda equina syndrome compresses lumbosacral nerve roots, producing severe asymmetric radicular pain, a lower motor neuron pattern with lost reflexes, and asymmetric saddle sensory loss, with better recovery potential than conus lesions.",
+        "E": "Symmetric distal paresis with upper motor neuron signs describes conus medullaris involvement of the sacral cord segments."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-013",
+      "question": "A 30-year-old man is brought in after a motor vehicle collision with a burst fracture of T6. Examination 2 hours after injury shows complete loss of motor function and all sensory modalities below T6, flaccid tone, and absent deep tendon reflexes in both legs. Over the following weeks, which of the following changes is most likely on serial examination?",
+      "answers": {
+        "A": "Development of flaccid paralysis with fasciculations below the lesion",
+        "B": "Development of hyperreflexia and spasticity below the lesion",
+        "C": "Persistent areflexia with recovery of sensation below the lesion",
+        "D": "Recovery of pinprick with continued loss of vibration sensation",
+        "E": "Return of voluntary movement in both lower extremities"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lower motor neuron findings such as atrophy and fasciculations occur at the level of the lesion from segmental anterior horn cell destruction, not diffusely below it.",
+        "B": "Correct. Acute cord injury produces spinal shock with flaccidity and areflexia, and as this resolves the loss of descending inhibition produces upper motor neuron signs including hyperreflexia and spasticity below the lesion.",
+        "C": "Areflexia is the transient acute state rather than the chronic one, and sensation does not return in a complete transection.",
+        "D": "Sparing of vibration with loss of pinprick is the dissociated pattern of anterior spinal artery infarction, not complete transection.",
+        "E": "By definition a complete transection interrupts all descending corticospinal fibers, so voluntary movement does not return."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-014",
+      "question": "A 22-year-old man is evaluated for 6 weeks of numbness and tingling in the hands and feet and worsening balance. He reports inhaling nitrous oxide from whipped cream chargers at parties several times weekly for the past year. Examination shows loss of vibration sense at the ankles, a positive Romberg sign, and 3+ knee reflexes. Serum vitamin B12 is 310 pg/mL, methylmalonic acid is markedly elevated, and homocysteine is elevated. Which of the following best explains his laboratory and neurologic findings?",
+      "answers": {
+        "A": "Autoimmune destruction of gastric parietal cells",
+        "B": "Competitive inhibition of intestinal folate absorption",
+        "C": "Impaired hepatic storage of fat-soluble vitamins",
+        "D": "Inactivation of cobalamin by irreversible oxidation",
+        "E": "Malabsorption from terminal ileal inflammation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Pernicious anemia produces functional B12 deficiency but would typically lower the measured serum B12 and does not fit the exposure history.",
+        "B": "Folate deficiency does not cause myelopathy or an elevated methylmalonic acid, which requires impaired cobalamin-dependent methylmalonyl-CoA mutase activity.",
+        "C": "Fat-soluble vitamin handling is unrelated to methylmalonic acid metabolism and would not produce this biochemical profile.",
+        "D": "Correct. Nitrous oxide irreversibly oxidizes the cobalt core of cobalamin, inactivating methionine synthase and methylmalonyl-CoA mutase, so metabolites rise even when the measured serum B12 is normal, producing subacute combined degeneration.",
+        "E": "Ileal disease such as Crohn disease impairs B12 absorption but would be expected to lower serum B12 and cause gastrointestinal symptoms."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-015",
+      "question": "An 8-month-old boy is evaluated for poor head control and failure to sit unsupported. His parents are first cousins. Examination shows a frog-leg posture, profound symmetric hypotonia, absent deep tendon reflexes, and visible fasciculations of the tongue. He withdraws briskly from painful stimuli and is alert with normal social interaction. Which of the following is the most likely site of the lesion?",
+      "answers": {
+        "A": "Anterior horn cells",
+        "B": "Dorsal root ganglia",
+        "C": "Lateral corticospinal tracts",
+        "D": "Neuromuscular junction",
+        "E": "Peripheral nerve myelin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Spinal muscular atrophy is an autosomal recessive degeneration of anterior horn cells producing a diffuse lower motor neuron syndrome with hypotonia, areflexia, tongue fasciculations, and preserved sensation and cognition.",
+        "B": "Dorsal root ganglion disease produces sensory loss and sensory ataxia, but this infant's responses to pain are intact.",
+        "C": "Corticospinal involvement causes spasticity, hyperreflexia, and extensor plantar responses, the opposite of this presentation.",
+        "D": "Neuromuscular junction disorders such as infant botulism cause fatigable weakness with constipation and pupillary involvement, without fasciculations.",
+        "E": "Demyelinating neuropathy causes weakness with sensory loss and slowed conduction velocities rather than tongue fasciculations."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-016",
+      "question": "A 62-year-old woman with metastatic breast cancer reports 2 weeks of progressive leg weakness and a tight band-like sensation around her trunk, and today she cannot void. Examination shows symmetric 3/5 weakness of both legs, increased tone, and bilateral extensor plantar responses. MRI is pending. Which of the following examination findings is most useful for determining the level of her lesion?",
+      "answers": {
+        "A": "Absent ankle jerk reflexes bilaterally",
+        "B": "Level below which pinprick sensation is diminished",
+        "C": "Presence of bilateral extensor plantar responses",
+        "D": "Symmetric weakness of hip flexion and knee extension",
+        "E": "Vibratory sensation loss at both medial malleoli"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Reflexes may be depressed acutely in an upper motor neuron lesion, but their loss at the ankles does not identify the segmental level of cord compression.",
+        "B": "Correct. Pinprick loss below a segmental level, the sensory level, is the single most valuable localizing sign in a compressive myelopathy.",
+        "C": "Extensor plantar responses confirm an upper motor neuron lesion somewhere above the lumbosacral cord but carry no localizing value.",
+        "D": "Symmetric proximal leg weakness indicates involvement of descending motor pathways without specifying the segmental level.",
+        "E": "Distal vibratory loss reflects dorsal column dysfunction and localizes poorly, since these fibers ascend uncrossed over many segments."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-017",
+      "question": "A 33-year-old woman sustains a penetrating injury producing a functional hemisection of the right side of the spinal cord at T10. On examination her left-sided loss of pain and temperature sensation begins at approximately the T12 dermatome rather than at T10. Which of the following best explains this discrepancy?",
+      "answers": {
+        "A": "First-order fibers ascend one to two segments before synapsing",
+        "B": "Sacral spinothalamic fibers are positioned most medially within the tract",
+        "C": "Second-order fibers descend two segments before crossing the midline",
+        "D": "Spinothalamic fibers cross the midline immediately at their level of entry",
+        "E": "Third-order fibers decussate within the caudal medulla before ascending"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Incoming pain and temperature fibers travel rostrally one to two segments in Lissauer tract before synapsing in the dorsal horn and crossing in the anterior white commissure, so fibers from dermatomes just below the lesion have already crossed above it and are spared.",
+        "B": "Sacral fibers are located most laterally in the spinothalamic tract, which explains sacral sparing in central lesions rather than a shifted sensory level.",
+        "C": "Second-order fibers ascend rather than descend before decussating, so a downward shift of the sensory level cannot be explained this way.",
+        "D": "If crossing occurred at the entry level, the contralateral deficit would begin precisely at the level of the lesion.",
+        "E": "Decussation in the caudal medulla applies to the dorsal column pathway at the internal arcuate fibers, not to spinothalamic fibers."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-018",
+      "question": "A 61-year-old man with amyotrophic lateral sclerosis diagnosed 3 years ago has progressive generalized weakness, dysarthria, and dyspnea on minimal exertion. He now requires nocturnal noninvasive ventilation. Which of the following functions is most likely to remain relatively preserved as his disease progresses?",
+      "answers": {
+        "A": "Diaphragmatic strength and respiratory effort",
+        "B": "External anal sphincter and pelvic floor tone",
+        "C": "Intrinsic hand muscle bulk and strength",
+        "D": "Swallowing and articulation of speech",
+        "E": "Tongue mobility without visible fasciculations"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Respiratory muscle involvement is common in ALS and is the usual cause of death.",
+        "B": "Correct. Onuf nucleus in the sacral cord, which innervates the pelvic floor and external sphincters, is characteristically spared in ALS despite otherwise widespread motor neuron loss.",
+        "C": "Atrophy and weakness of the intrinsic hand muscles are among the earliest and most typical findings.",
+        "D": "Bulbar involvement with dysarthria, dysphagia, and emotional incontinence is common and already present in this patient.",
+        "E": "Tongue weakness and fasciculations are classic manifestations of bulbar motor neuron degeneration."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-019",
+      "question": "A 26-year-old man dove into shallow water and is brought in on a backboard with a C6 burst fracture. He has flaccid tetraplegia with a sensory level at C6. There is no external bleeding, the abdomen is soft, breath sounds are equal, and his extremities are warm and dry. Vital signs are shown. Which of the following best explains his hemodynamic findings?",
+      "table": [
+        ["Vital sign", "Value"],
+        ["Temperature", "36.6 C (97.9 F)"],
+        ["Heart rate", "46/min"],
+        ["Blood pressure", "78/44 mm Hg"],
+        ["Respirations", "18/min"],
+        ["Oxygen saturation", "98% on room air"]
+      ],
+      "answers": {
+        "A": "Blood loss from an occult intra-abdominal injury",
+        "B": "Cardiac tamponade from blunt chest trauma",
+        "C": "Loss of sympathetic tone below the level of injury",
+        "D": "Systemic vasodilation from an anaphylactic reaction",
+        "E": "Tension pneumothorax with impaired venous return"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hemorrhagic shock produces compensatory tachycardia with cool, clammy skin, whereas this patient is bradycardic with warm extremities.",
+        "B": "Tamponade causes distended neck veins, muffled heart sounds, and tachycardia rather than bradycardia.",
+        "C": "Correct. A cervical injury interrupts sympathetic outflow from the thoracolumbar cord, leaving unopposed vagal tone, so neurogenic shock presents with hypotension, bradycardia, and warm well-perfused skin.",
+        "D": "Anaphylaxis would be accompanied by urticaria, bronchospasm, and tachycardia, and has no precipitant here.",
+        "E": "Tension pneumothorax causes hypoxia, unequal breath sounds, and tachycardia, none of which are present."
+      }
+    },
+    {
+      "id": "neuro-spinal-cord-syndromes-020",
+      "question": "A 68-year-old man undergoes open repair of a thoracoabdominal aortic aneurysm requiring prolonged aortic cross-clamping. On emergence from anesthesia he cannot move his legs and is in urinary retention. Examination shows flaccid paraplegia, absent pinprick and temperature sensation below T10, and preserved vibration and joint position sense in both feet. Compromise of which of the following vessels best explains his deficit?",
+      "answers": {
+        "A": "Anterior spinal artery via the artery of Adamkiewicz",
+        "B": "Circumflex pial arteries supplying the lateral cord",
+        "C": "Left posterior spinal artery in the cervical cord",
+        "D": "Paired posterior spinal arteries in the thoracic cord",
+        "E": "Posterior radicular arteries at the lumbar enlargement"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The artery of Adamkiewicz is the dominant radicular feeder to the anterior spinal artery in the lower thoracic cord, and cross-clamping interrupts flow, infarcting the anterior two-thirds of the cord while sparing the dorsal columns.",
+        "B": "Circumflex pial vessels supply a thin peripheral rim of cord and their occlusion does not produce a complete anterior two-thirds syndrome.",
+        "C": "A cervical posterior spinal artery lesion would impair vibration and proprioception in the upper limbs, not cause thoracic-level paraplegia.",
+        "D": "Posterior spinal artery territory infarction abolishes vibration and proprioception while sparing pain, temperature, and strength, the reverse of this pattern.",
+        "E": "Posterior radicular arteries feed the posterior spinal arteries and therefore the dorsal columns, which are clinically intact in this patient."
+      }
+    }
+  ]
+}
