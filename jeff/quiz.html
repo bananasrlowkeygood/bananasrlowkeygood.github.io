@@ -1030,12 +1030,16 @@
     keepCurrentChipInView();
   }
 
+  // Total and answered already live in the topbar progress, so the rail only
+  // mentions the two things it alone tracks — and only when there are any.
   function updateNavCounts() {
-    const { total, flagged, skipped } = tally();
-    const bits = [`<b>${questions.length}</b> total`, `<b>${total}</b> answered`];
+    const { flagged, skipped } = tally();
+    const bits = [];
     if (skipped) bits.push(`<b>${skipped}</b> skipped`);
     if (flagged) bits.push(`<b>${flagged}</b> flagged`);
-    document.getElementById('navCounts').innerHTML = bits.join('<br>');
+    const el = document.getElementById('navCounts');
+    el.innerHTML = bits.join('<br>');
+    el.style.display = bits.length ? '' : 'none';
   }
 
   // Scroll the rail itself — never the page — so the question you are on stays
