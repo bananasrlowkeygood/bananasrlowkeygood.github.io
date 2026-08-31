@@ -33,7 +33,7 @@
       <form class="cmd" onsubmit="redirectToURL(event)" autocomplete="off">
         <span class="cmd-prompt">bananas:~$</span>
         <div class="cmd-field">
-          <input type="text" id="input-path" placeholder="" autocomplete="off" spellcheck="false" />
+          <input type="text" id="input-path" placeholder="" autocomplete="off" autocapitalize="off" spellcheck="false" autofocus />
           <span class="cmd-cursor" id="cmdCursor">▌</span>
         </div>
         <button type="submit" aria-label="go">go</button>
@@ -109,6 +109,32 @@
     input.addEventListener("focus", updateCursor);
     input.addEventListener("blur", updateCursor);
     updateCursor();
+
+    // The prompt should behave like a real terminal: land on the page and type.
+    function focusInput() {
+      try { input.focus({ preventScroll: true }); } catch (e) { input.focus(); }
+      updateCursor();
+    }
+    focusInput();
+    window.addEventListener("pageshow", focusInput);
+
+    // ...and if focus wandered off (a click on the background, a badge), the
+    // next keystroke pulls it back. The character that triggered this is
+    // appended by hand — refocusing mid-keydown does not reliably carry it.
+    document.addEventListener("keydown", e => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (document.activeElement === input) return;
+      const t = e.target;
+      if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+
+      if (e.key === "Backspace") { e.preventDefault(); focusInput(); return; }
+      if (e.key.length !== 1) return;
+
+      e.preventDefault();
+      focusInput();
+      input.value += e.key;
+      input.dispatchEvent(new Event("input", { bubbles: true }));
+    });
 
     loadTree();
   </script>
