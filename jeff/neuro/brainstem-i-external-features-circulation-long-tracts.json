@@ -1,0 +1,495 @@
+{
+  "lecture": "Brainstem I: External Features, Circulation + Long Tracts",
+  "block": "neuro",
+  "generated": "2026-09-01",
+  "questions": [
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-001",
+      "question": "A 68-year-old man with hypertension and atrial fibrillation presents 90 minutes after the abrupt onset of right-sided weakness. On examination he has 2/5 strength in the right arm and leg with an extensor right plantar response, and vibration and joint position sense are diminished in the right arm and leg. Pinprick and temperature sensation are intact throughout, and there is no facial weakness. His tongue deviates to the left on protrusion. Vital signs and laboratory studies are shown. Occlusion of which of the following vessels best explains this constellation of findings?",
+      "table": [
+        [
+          "Study",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "184/98 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "92/min, irregular",
+          "60-100/min"
+        ],
+        [
+          "Glucose",
+          "104 mg/dL",
+          "70-100 mg/dL"
+        ],
+        [
+          "INR",
+          "1.1",
+          "0.9-1.1"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior spinal artery",
+        "B": "Paramedian branches of the basilar artery",
+        "C": "Posterior cerebral artery",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior spinal artery supplies the medial medulla, so infarction there strikes the pyramid, medial lemniscus, and hypoglossal nucleus together, producing contralateral hemiparesis, contralateral loss of vibration and proprioception, and ipsilateral tongue deviation.",
+        "B": "Paramedian basilar branches supply the medial pons, which would add an abducens or facial nerve deficit rather than tongue deviation.",
+        "C": "The posterior cerebral artery and its paramedian branches supply the medial midbrain, where infarction produces an ipsilateral oculomotor palsy with contralateral hemiparesis.",
+        "D": "The posterior inferior cerebellar artery supplies the dorsolateral medulla, sparing the pyramid and medial lemniscus and instead causing crossed pain and temperature loss with dysphagia and vertigo.",
+        "E": "The superior cerebellar artery supplies the dorsolateral pons and rostral cerebellum, producing ataxia and crossed sensory findings rather than tongue weakness."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-002",
+      "question": "A 54-year-old man with a 30-pack-year smoking history develops sudden vertigo, hoarseness, and difficulty swallowing. Examination shows decreased pain and temperature sensation over the left side of the face and the right side of the trunk and limbs, left-sided limb ataxia, and an absent gag reflex on the left. Vibration sense, proprioception, and strength are normal in all extremities. Involvement of which of the following structures best accounts for his facial sensory findings?",
+      "answers": {
+        "A": "Left medial lemniscus",
+        "B": "Left nucleus ambiguus",
+        "C": "Left spinal trigeminal nucleus",
+        "D": "Left vestibular nuclei",
+        "E": "Right spinothalamic tract"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The medial lemniscus carries fine touch, vibration, and proprioception from the contralateral body, all of which are preserved in this patient.",
+        "B": "The nucleus ambiguus supplies pharyngeal and laryngeal muscles, which explains his hoarseness, dysphagia, and absent gag but not facial sensory loss.",
+        "C": "The spinal trigeminal tract and nucleus carry uncrossed pain and temperature input from the ipsilateral face, so a dorsolateral medullary infarct produces facial loss on the same side as the lesion and body loss on the opposite side.",
+        "D": "The vestibular nuclei generate his vertigo and nystagmus but carry no somatosensory information from the face.",
+        "E": "The spinothalamic tract carries already-crossed pain and temperature fibers from the body, accounting for the contralateral trunk and limb findings rather than the face."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-003",
+      "question": "A 71-year-old woman with poorly controlled diabetes awakens with double vision and weakness. On examination her left eye is deviated down and out with complete ptosis and a dilated, nonreactive pupil. She has 3/5 strength in the right arm and leg with hyperreflexia, and the right lower face is weak while forehead movement is symmetric. Sensation is intact. A lesion at which of the following sites best explains these findings?",
+      "answers": {
+        "A": "Left dorsolateral medulla",
+        "B": "Left dorsolateral midbrain tegmentum",
+        "C": "Left medial midbrain at the cerebral peduncle",
+        "D": "Left paramedian basal pons",
+        "E": "Right medial midbrain at the cerebral peduncle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A dorsolateral medullary lesion spares the corticospinal fibers and oculomotor nerve entirely, producing crossed pain and temperature loss instead.",
+        "B": "The dorsolateral midbrain tegmentum contains the superior cerebellar peduncle and spinothalamic fibers, so a lesion here yields ataxia and sensory loss rather than a third nerve palsy with hemiparesis.",
+        "C": "Weber syndrome follows occlusion of paramedian branches at the midbrain, damaging the exiting oculomotor fibers in the interpeduncular fossa and the corticospinal and corticobulbar fibers in the cerebral peduncle above their decussations.",
+        "D": "A paramedian pontine lesion would injure abducens or facial fibers rather than the oculomotor nerve, giving a lateral rectus palsy or complete facial weakness.",
+        "E": "A right-sided midbrain lesion would produce a right third nerve palsy with left hemiparesis, the mirror image of this patient's findings."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-004",
+      "question": "A 44-year-old woman is evaluated for a small brainstem infarct after 2 days of numbness. She cannot detect vibration from a 128-Hz tuning fork or identify toe position on the right, and she has trouble buttoning her shirt with her right hand. Pinprick and temperature sensation, strength, and cranial nerve function are normal. At which of the following sites do the axons carrying the impaired modality cross the midline?",
+      "answers": {
+        "A": "Anterior white commissure of the spinal cord",
+        "B": "Caudal medulla, as the internal arcuate fibers",
+        "C": "Caudal medulla, at the pyramidal decussation",
+        "D": "Mid-pons, within the trapezoid body",
+        "E": "Midbrain, at the superior cerebellar peduncle decussation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior white commissure is where second-order spinothalamic fibers cross, which is why pain and temperature loss begins a few segments above a cord lesion.",
+        "B": "Second-order dorsal column neurons arising in the nucleus gracilis and cuneatus sweep across the midline as the internal arcuate fibers, forming the sensory decussation and the medial lemniscus.",
+        "C": "The pyramidal decussation carries descending corticospinal fibers, so a lesion there causes weakness rather than loss of vibration and proprioception.",
+        "D": "The trapezoid body carries crossing auditory fibers in the pons and has no somatosensory function.",
+        "E": "The superior cerebellar peduncles decussate in the midbrain and carry cerebellar efferents to the thalamus, not conscious proprioceptive input."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-005",
+      "question": "A 59-year-old man with longstanding hypertension notes clumsiness of the right hand and unsteadiness in the dark. MRI demonstrates a small lacunar infarct confined to the left medial lemniscus at the level of the rostral medulla, with sparing of the pyramid. Which of the following findings is most likely on examination?",
+      "answers": {
+        "A": "Loss of fine touch and vibration in the left arm and leg",
+        "B": "Loss of fine touch and vibration in the right arm and leg",
+        "C": "Loss of pain and temperature in the left arm and leg",
+        "D": "Loss of pain and temperature in the right arm and leg",
+        "E": "Loss of unconscious proprioception in the right leg alone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ipsilateral loss would require a lesion below the sensory decussation, such as in the dorsal columns of the spinal cord.",
+        "B": "The medial lemniscus contains second-order fibers that have already crossed in the caudal medulla, so a lesion above the decussation produces contralateral loss of fine touch, vibration, pressure, and proprioception.",
+        "C": "Pain and temperature travel in the laterally placed spinothalamic tract, which is far from the medial lemniscus in the medulla and would be spared.",
+        "D": "Contralateral pain and temperature loss would follow a lateral rather than medial medullary lesion.",
+        "E": "Unconscious proprioception from the leg travels in the spinocerebellar tracts at the lateral edge of the medulla and does not reach conscious awareness."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-006",
+      "question": "A 63-year-old man has the sudden onset of vertigo, tinnitus, and left-sided limb clumsiness. Examination shows loss of pain and temperature sensation over the right trunk and limbs with preserved vibration sense, and MRI confirms an infarct at the lateral margin of the left pons in the territory of a long circumferential branch of the basilar artery. Which of the following tracts lies immediately lateral to the pain and temperature pathway at this level?",
+      "answers": {
+        "A": "Anterior spinocerebellar tract",
+        "B": "Corticospinal tract",
+        "C": "Cuneocerebellar tract",
+        "D": "Medial lemniscus",
+        "E": "Posterior spinocerebellar tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "After the posterior spinocerebellar tract leaves the medulla through the inferior cerebellar peduncle, the anterior spinocerebellar tract continues at the surface of the pons immediately lateral to the spinothalamic tract before swinging over the superior cerebellar peduncle.",
+        "B": "In the pons the corticospinal fibers are ventral and paramedian, scattered among the pontine nuclei, far from the lateral surface.",
+        "C": "The cuneocerebellar tract arises in the accessory cuneate nucleus and enters the cerebellum through the inferior cerebellar peduncle, so it is not present in the pons.",
+        "D": "The medial lemniscus is a flattened band in the ventral pontine tegmentum that only rotates laterally by the midbrain.",
+        "E": "The posterior spinocerebellar tract traverses only the caudalmost medulla before entering the inferior cerebellar peduncle."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-007",
+      "question": "A 27-year-old man is struck by a car and sustains a penetrating injury to the left dorsolateral medulla at the level of the inferior cerebellar peduncle. He develops marked incoordination of the left leg with a wide-based, stamping gait, but strength, vibration sense, and pain and temperature sensation are normal in all four limbs. The second-order neurons of the interrupted lower limb pathway have their cell bodies in which of the following structures?",
+      "answers": {
+        "A": "Accessory (lateral) cuneate nucleus",
+        "B": "Clarke's nucleus (nucleus dorsalis)",
+        "C": "Dorsal root ganglion",
+        "D": "Nucleus gracilis",
+        "E": "Spinal border cells of the ventral horn"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The accessory cuneate nucleus gives rise to the cuneocerebellar tract, which relays unconscious proprioception from the upper limb rather than the leg.",
+        "B": "The posterior spinocerebellar tract begins in Clarke's nucleus at roughly C8-L3 and ascends uncrossed into the ipsilateral cerebellum through the inferior cerebellar peduncle, so a lesion there causes ipsilateral lower limb incoordination.",
+        "C": "The dorsal root ganglion houses the first-order neuron of every somatosensory pathway, not the second-order cell.",
+        "D": "The nucleus gracilis relays conscious fine touch and proprioception from the lower body into the medial lemniscus, and his vibration sense is intact.",
+        "E": "Spinal border cells give rise to the anterior spinocerebellar tract, which crosses in the cord and enters the cerebellum by way of the superior cerebellar peduncle."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-008",
+      "question": "A neuroanatomy instructor points out that the anterior spinocerebellar tract decussates in the spinal cord, yet each cerebellar hemisphere still receives unconscious proprioceptive information from the limb on its own side. Which of the following best explains this apparent paradox?",
+      "answers": {
+        "A": "Fibers cross a second time inside the cerebellum after the superior peduncle",
+        "B": "Fibers cross a second time inside the medulla before entering the inferior peduncle",
+        "C": "Fibers never actually cross, ascending in the lateral funiculus of the cord",
+        "D": "Fibers synapse in the accessory cuneate nucleus and then recross in the pons",
+        "E": "Fibers travel with the medial lemniscus and recross at the sensory decussation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Anterior spinocerebellar axons cross in the cord, ascend contralaterally to the pons, swing over the superior cerebellar peduncle, and then recross inside the cerebellum, so the double crossing returns the information to the side of origin.",
+        "B": "No decussation of this tract occurs in the medulla, and the anterior spinocerebellar tract bypasses the inferior cerebellar peduncle entirely.",
+        "C": "Uncrossed ascent in the lateral funiculus describes the posterior spinocerebellar tract, not the anterior one.",
+        "D": "The accessory cuneate nucleus belongs to the cuneocerebellar pathway from the upper limb and is uncrossed throughout.",
+        "E": "The sensory decussation is formed by internal arcuate fibers of the dorsal column pathway, which carries conscious rather than unconscious proprioception."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-009",
+      "question": "A 36-year-old woman with multiple sclerosis develops a new plaque involving the accessory (lateral) cuneate nucleus on the right side of the medulla. Her strength is 5/5 throughout, and pinprick, temperature, and vibration sensation are normal in all four limbs. Which of the following deficits is most likely to result from this lesion?",
+      "answers": {
+        "A": "Impaired unconscious proprioception from the contralateral upper limb",
+        "B": "Impaired unconscious proprioception from the ipsilateral lower limb",
+        "C": "Impaired unconscious proprioception from the ipsilateral upper limb",
+        "D": "Loss of conscious vibration sense from the contralateral upper limb",
+        "E": "Loss of conscious vibration sense from the ipsilateral upper limb"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cuneocerebellar tract is uncrossed from beginning to end, so contralateral upper limb input is unaffected.",
+        "B": "Unconscious proprioception from the leg is relayed by Clarke's nucleus through the posterior spinocerebellar tract, which lies more ventrally in the cord and medulla.",
+        "C": "The accessory cuneate nucleus is the upper limb equivalent of Clarke's nucleus, sending uncrossed fibers through the inferior cerebellar peduncle to the ipsilateral cerebellum.",
+        "D": "Conscious vibration from the arm is relayed by the nucleus cuneatus proper, whose fibers cross as internal arcuate fibers, and her vibration sense is intact.",
+        "E": "Ipsilateral vibration loss would require a lesion of the fasciculus cuneatus below the sensory decussation rather than of the accessory nucleus."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-010",
+      "question": "A 34-year-old woman is thrown forward in a motor vehicle collision and sustains a contusion of the dorsal surface of the midbrain just caudal to the inferior colliculi. She subsequently reports vertical diplopia that worsens when she reads or walks down stairs, and she habitually tilts her head to one side to fuse images. Injury to which of the following nerves best accounts for these findings?",
+      "answers": {
+        "A": "Abducens nerve (CN VI)",
+        "B": "Facial nerve (CN VII)",
+        "C": "Oculomotor nerve (CN III)",
+        "D": "Trigeminal nerve (CN V)",
+        "E": "Trochlear nerve (CN IV)"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The abducens nerve emerges medially at the pontomedullary junction and produces horizontal, not vertical, diplopia when injured.",
+        "B": "The facial nerve exits laterally at the pontomedullary junction and is motor to the muscles of facial expression, with no ocular motor role.",
+        "C": "The oculomotor nerve exits ventrally into the interpeduncular fossa and would cause ptosis, a dilated pupil, and a down-and-out eye.",
+        "D": "The trigeminal nerve emerges from the anterolateral pons through the middle cerebellar peduncle and is chiefly sensory to the face.",
+        "E": "The trochlear nerve is the only cranial nerve to exit the dorsal brainstem, emerging just below the inferior colliculi, so a dorsal midbrain contusion produces superior oblique weakness with vertical diplopia and a compensatory head tilt."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-011",
+      "question": "A 61-year-old woman with a 6-month history of hoarseness and coughing while drinking liquids is found to have a slowly enlarging extra-axial mass compressing the surface of the right medulla. Examination shows a right vocal cord paralysis, absent gag reflex on the right, and loss of the pharyngeal reflex, with normal tongue protrusion and normal shoulder shrug. The mass most likely lies in which of the following locations?",
+      "answers": {
+        "A": "Interpeduncular fossa",
+        "B": "Middle cerebellar peduncle",
+        "C": "Pontomedullary junction, medially",
+        "D": "Post-olivary sulcus",
+        "E": "Pre-olivary sulcus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The interpeduncular fossa lies between the cerebral peduncles and transmits the oculomotor nerve, which is unaffected here.",
+        "B": "The middle cerebellar peduncle is traversed by the trigeminal nerve, so a mass there would cause facial numbness and jaw weakness.",
+        "C": "The medial pontomedullary junction transmits the abducens nerve, and compression would cause a lateral rectus palsy.",
+        "D": "The glossopharyngeal and vagus nerves enter and exit the medulla in the post-olivary sulcus, lateral to the olive, and their compression yields dysphagia, hoarseness, and an absent gag reflex.",
+        "E": "The pre-olivary sulcus transmits the hypoglossal nerve, and injury there would cause tongue deviation toward the lesioned side."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-012",
+      "question": "A 57-year-old man with diabetes and hypertension develops sudden horizontal double vision and right-sided weakness. His left eye fails to abduct past the midline, and the diplopia worsens on left gaze. He has 3/5 strength in the right arm and leg with an extensor plantar response, and sensation is intact. MRI shows a small infarct in the left paramedian basal pons and adjacent tegmentum. Which of the following cranial nerves is most likely involved?",
+      "answers": {
+        "A": "Abducens nerve (CN VI)",
+        "B": "Facial nerve (CN VII)",
+        "C": "Oculomotor nerve (CN III)",
+        "D": "Trigeminal nerve (CN V)",
+        "E": "Vestibulocochlear nerve (CN VIII)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The abducens nucleus and its fibers lie medially in the caudal pons alongside the descending corticospinal fibers, so a paramedian infarct yields an ipsilateral lateral rectus palsy with contralateral hemiparesis.",
+        "B": "The facial nerve exits laterally at the pontomedullary junction and would cause weakness of the entire ipsilateral face rather than failure of abduction.",
+        "C": "The oculomotor nerve arises in the midbrain and would cause ptosis with a down-and-out eye, not isolated failure of abduction.",
+        "D": "The trigeminal nerve enters the mid-pons laterally through the middle cerebellar peduncle and mediates facial sensation and mastication.",
+        "E": "The vestibulocochlear nerve enters laterally next to the facial nerve and mediates hearing and balance, with no ocular motor function."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-013",
+      "question": "A 24-year-old man presents with 3 weeks of morning headaches, nausea, and blurred vision. Fundoscopy shows bilateral papilledema. MRI demonstrates markedly dilated lateral and third ventricles with a normal-caliber fourth ventricle and no abnormality of the basal cisterns. A ventricular catheter is placed and cerebrospinal fluid studies are obtained, as shown. Obstruction at which of the following sites best explains these findings?",
+      "table": [
+        [
+          "Study",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Opening pressure",
+          "31 cm H2O",
+          "6-20 cm H2O"
+        ],
+        [
+          "Leukocytes",
+          "2/mm3",
+          "0-5/mm3"
+        ],
+        [
+          "Protein",
+          "38 mg/dL",
+          "15-45 mg/dL"
+        ],
+        [
+          "Glucose",
+          "62 mg/dL",
+          "40-70 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Arachnoid granulations",
+        "B": "Cerebral aqueduct",
+        "C": "Foramen of Magendie",
+        "D": "Foramina of Luschka",
+        "E": "Interventricular foramina of Monro"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Impaired absorption at the arachnoid granulations produces a communicating hydrocephalus in which all four ventricles, including the fourth, enlarge.",
+        "B": "The cerebral aqueduct runs through the midbrain between the tectum and tegmentum and connects the third and fourth ventricles, so obstruction here dilates the lateral and third ventricles while leaving the fourth normal.",
+        "C": "The median aperture drains the fourth ventricle into the cisterna magna, and its obstruction would enlarge the fourth ventricle as well.",
+        "D": "The lateral apertures also drain the fourth ventricle, so blockage would be accompanied by fourth ventricular dilation.",
+        "E": "Obstruction at the foramina of Monro dilates the lateral ventricles alone and leaves the third ventricle normal in size."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-014",
+      "question": "A 70-year-old man with severe cervical spondylosis develops weakness after a hyperextension injury. Examination findings are shown below. Cranial nerve function, including tongue protrusion, palate elevation, and facial sensation, is entirely normal, and imaging shows a focal lesion at the ventral surface of the cervicomedullary junction. This pattern of weakness is best explained by a lesion at which of the following levels?",
+      "table": [
+        [
+          "Region",
+          "Strength",
+          "Reflexes"
+        ],
+        [
+          "Right upper limb",
+          "2/5",
+          "Hyperreflexic"
+        ],
+        [
+          "Left upper limb",
+          "5/5",
+          "Normal"
+        ],
+        [
+          "Right lower limb",
+          "5/5",
+          "Normal"
+        ],
+        [
+          "Left lower limb",
+          "2/5",
+          "Hyperreflexic"
+        ]
+      ],
+      "answers": {
+        "A": "Caudal (closed) medulla at the pyramidal decussation",
+        "B": "Caudal midbrain at the inferior colliculus",
+        "C": "Mid-pons at the level of the trigeminal nuclei",
+        "D": "Rostral (open) medulla at the hypoglossal nucleus",
+        "E": "Rostral midbrain at the superior colliculus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Corticospinal fibers destined for the arm decussate slightly rostral to those destined for the leg, so a midline lesion at the pyramidal decussation can catch crossed arm fibers on one side and still-uncrossed leg fibers on the other, producing hemiplegia cruciata without cranial nerve signs.",
+        "B": "A caudal midbrain lesion is far above the decussation and would produce a purely contralateral hemiparesis, often with a trochlear or oculomotor deficit.",
+        "C": "A mid-pontine lesion would produce contralateral hemiparesis accompanied by ipsilateral trigeminal sensory loss.",
+        "D": "At the level of the hypoglossal nucleus all corticospinal fibers are still uncrossed, so a lesion would give contralateral hemiparesis plus ipsilateral tongue weakness.",
+        "E": "A rostral midbrain lesion also lies above every motor decussation and would spare one entire side of the body."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-015",
+      "question": "A 66-year-old woman with atrial fibrillation is found to have a small infarct involving only the dorsolateral portion of the medial lemniscus in the left caudal midbrain. Her strength is full, cranial nerve examination is normal, and pain and temperature sensation are preserved. Loss of vibration and joint position sense is most likely to be found in which of the following regions?",
+      "answers": {
+        "A": "Contralateral face",
+        "B": "Contralateral lower limb",
+        "C": "Contralateral upper limb",
+        "D": "Ipsilateral lower limb",
+        "E": "Ipsilateral upper limb"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Facial somatosensory information travels with the trigeminothalamic fibers rather than in the medial lemniscus proper.",
+        "B": "By the midbrain the medial lemniscus has rotated laterally into an oblique orientation with sacral and lumbar fibers positioned dorsolaterally, so a dorsolateral lesion selectively impairs the contralateral leg.",
+        "C": "Cervical fibers occupy the anteromedial portion of the medial lemniscus at this level and would be spared by a dorsolateral lesion.",
+        "D": "Ipsilateral loss requires a lesion caudal to the sensory decussation in the medulla or in the dorsal columns.",
+        "E": "This answer is wrong on both counts, since the arm fibers lie anteromedially and the deficit would be contralateral."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-016",
+      "question": "A 74-year-old man with hypertension is found to have a small infarct confined to the lateral portion of the left medullary pyramid, several millimeters rostral to the pyramidal decussation. Sensation and cranial nerve function are normal. Which of the following patterns of weakness is most likely on examination?",
+      "answers": {
+        "A": "Left leg weakness greater than left arm weakness",
+        "B": "Right arm weakness greater than right leg weakness",
+        "C": "Right leg weakness greater than right arm weakness",
+        "D": "Weakness of the left arm and left leg to an equal degree",
+        "E": "Weakness of the right arm and right leg to an equal degree"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Left-sided weakness would require a lesion caudal to the pyramidal decussation, and this infarct lies above it.",
+        "B": "Arm-predominant weakness would follow a medially placed pyramidal lesion, since cervical fibers sit closest to the midline.",
+        "C": "Within the pyramid the corticospinal fibers are somatotopically arranged with cervical fibers medial and lumbosacral fibers lateral, and because these fibers cross just below, a lateral left-sided lesion causes right leg-predominant weakness.",
+        "D": "Equal involvement of both limbs on the left would require a lesion below the decussation and would still be somatotopically nonselective.",
+        "E": "Equal right-sided involvement would require damage to the entire cross-section of the pyramid rather than only its lateral portion."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-017",
+      "question": "A 48-year-old man undergoes autopsy after a fatal medullary hemorrhage, and the pathologist notes that a minority of descending corticospinal axons pass through the caudal medulla without crossing at the pyramidal decussation. These uncrossed fibers constitute approximately 15% of the tract. Which of the following best describes their subsequent course?",
+      "answers": {
+        "A": "Anterior corticospinal tract, crossing at the target spinal level",
+        "B": "Anterior corticospinal tract, remaining uncrossed to their target",
+        "C": "Lateral corticospinal tract, crossing at the target spinal level",
+        "D": "Lateral corticospinal tract, remaining uncrossed to their target",
+        "E": "Rubrospinal tract, crossing within the midbrain tegmentum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The roughly 15% of fibers that bypass the pyramidal decussation descend ipsilaterally as the anterior (ventral) corticospinal tract and cross near the segment where they synapse on ventral horn motor neurons.",
+        "B": "Fibers of the anterior corticospinal tract do ultimately cross, so an entirely uncrossed course is incorrect.",
+        "C": "The lateral corticospinal tract is formed by the roughly 85% of fibers that have already crossed at the pyramidal decussation.",
+        "D": "An uncrossed lateral corticospinal tract does not exist, since crossing at the medulla is what defines that tract.",
+        "E": "The rubrospinal tract arises from the red nucleus and crosses in the ventral tegmental decussation, entirely separate from the corticospinal system."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-018",
+      "question": "A 60-year-old man with diabetes has the abrupt onset of weakness and facial droop. His examination findings are summarized below, and he is unable to close the left eye or wrinkle the left forehead. Sensation to pinprick and vibration is intact throughout. Which of the following is the most likely location of the lesion?",
+      "table": [
+        [
+          "Finding",
+          "Right",
+          "Left"
+        ],
+        [
+          "Limb strength",
+          "2/5",
+          "5/5"
+        ],
+        [
+          "Upper facial movement",
+          "Normal",
+          "Absent"
+        ],
+        [
+          "Lower facial movement",
+          "Normal",
+          "Absent"
+        ],
+        [
+          "Lateral gaze",
+          "Full",
+          "Incomplete"
+        ]
+      ],
+      "answers": {
+        "A": "Left caudal pons",
+        "B": "Left medial medulla",
+        "C": "Left midbrain",
+        "D": "Right caudal pons",
+        "E": "Right medial medulla"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A crossed syndrome with complete ipsilateral facial paralysis and impaired ipsilateral abduction alongside contralateral hemiparesis localizes to the caudal pons on the side of the cranial nerve findings, where facial and abducens fibers are lower motor neurons and corticospinal fibers have not yet crossed.",
+        "B": "A medial medullary lesion would produce ipsilateral tongue deviation and contralateral loss of vibration rather than facial and abducens palsies.",
+        "C": "A midbrain lesion would produce an oculomotor palsy and would spare the forehead, since corticobulbar input to the upper face is bilateral.",
+        "D": "A right-sided pontine lesion would give right facial and abducens palsies with left hemiparesis, the opposite of these findings.",
+        "E": "A right medial medullary lesion would cause left hemiparesis with right tongue weakness and no facial paralysis."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-019",
+      "question": "A 39-year-old woman with 4 months of headache and vomiting is found to have an ependymoma arising from the floor of the fourth ventricle. The surgeon notes that the tumor lies entirely medial to the sulcus limitans on the right side and does not extend laterally. Nuclei located in the compartment involved by this tumor are best characterized as which of the following?",
+      "answers": {
+        "A": "Ascending sensory relay nuclei of the long tracts",
+        "B": "Motor nuclei of the cranial nerves",
+        "C": "Reticular formation nuclei governing arousal",
+        "D": "Sensory nuclei of the cranial nerves",
+        "E": "Sympathetic premotor nuclei of the hypothalamus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Sensory relay nuclei such as the gracile and cuneate nuclei sit in the dorsal medulla well caudal to this part of the ventricular floor.",
+        "B": "The sulcus limitans separates the developmentally basal plate derivatives medially from alar plate derivatives laterally, so cranial nerve motor nuclei lie medial to the groove and sensory nuclei lie lateral to it.",
+        "C": "The reticular formation occupies the central tegmentum rather than the immediate subependymal floor of the fourth ventricle.",
+        "D": "Sensory cranial nerve nuclei, including the vestibular and solitary nuclei, are found lateral to the sulcus limitans.",
+        "E": "Sympathetic premotor neurons reside in the hypothalamus, and their descending fibers run laterally through the brainstem tegmentum."
+      }
+    },
+    {
+      "id": "neuro-brainstem-i-external-features-circulation-long-tracts-020",
+      "question": "A 45-year-old woman develops shoulder droop and difficulty raising her right arm above her head after a radical neck dissection for lymph node biopsy. Examination shows atrophy of the right trapezius with scapular winging that worsens on abduction, while tongue movement, palatal elevation, and extraocular movements are normal. The lower motor neurons of the injured nerve arise from cell bodies located outside the brainstem, in contrast to those of the other nerves listed. Which nerve was injured?",
+      "answers": {
+        "A": "Abducens nerve (CN VI)",
+        "B": "Accessory nerve (CN XI)",
+        "C": "Hypoglossal nerve (CN XII)",
+        "D": "Oculomotor nerve (CN III)",
+        "E": "Trochlear nerve (CN IV)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The abducens nucleus lies in the medial caudal pons beneath the facial colliculus, well within the brainstem.",
+        "B": "The spinal accessory nucleus resides in the ventral horn of the upper cervical spinal cord and sends fibers up through the foramen magnum, which is why CN XI, along with CN I and CN II, is excluded from the nine cranial nerves with brainstem nuclei.",
+        "C": "The hypoglossal nucleus lies near the midline of the medulla and gives rise to fibers that exit in the pre-olivary sulcus.",
+        "D": "The oculomotor nucleus sits in the midbrain tegmentum at the level of the superior colliculus, ventral to the cerebral aqueduct.",
+        "E": "The trochlear nucleus lies in the midbrain at the level of the inferior colliculus and supplies the contralateral superior oblique."
+      }
+    }
+  ]
+}
