@@ -1,0 +1,522 @@
+{
+  "lecture": "Head via the Cranial Nerves",
+  "block": "neuro",
+  "generated": "2026-09-01",
+  "questions": [
+    {
+      "id": "neuro-head-via-cranial-nerves-001",
+      "question": "A 47-year-old woman is brought to the emergency department by her partner because of drooping of the left eyelid that she first noticed 2 days ago. She has smoked one pack of cigarettes daily for 30 years and has lost 6 kg over 4 months. On examination the left pupil is 2 mm and the right is 4 mm; both react to light. There is mild drooping of the left upper eyelid, and the left side of her face is dry and flushed compared with the right. Extraocular movements are full. Chest imaging shows a mass at the left lung apex. Which of the following interruptions best explains her findings?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "36.9 C",
+          "36.5-37.5 C"
+        ],
+        [
+          "Heart rate",
+          "88/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "132/78 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Respiratory rate",
+          "16/min",
+          "12-20/min"
+        ]
+      ],
+      "answers": {
+        "A": "Edinger-Westphal fibers traveling in the oculomotor nerve",
+        "B": "Parasympathetic cell bodies within the ciliary ganglion",
+        "C": "Postsynaptic parasympathetic fibers in the short ciliary nerves",
+        "D": "Presynaptic sympathetic fibers of the cervical sympathetic chain",
+        "E": "Sensory fibers of the nasociliary branch of the ophthalmic nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Loss of oculomotor parasympathetic outflow produces a dilated, poorly reactive pupil and marked ptosis from levator palpebrae superioris paralysis, the opposite of this presentation.",
+        "B": "Damage to the ciliary ganglion would impair pupillary constriction and accommodation, producing mydriasis rather than miosis, and would not affect sweating.",
+        "C": "Short ciliary nerves carry postsynaptic parasympathetic fibers to the sphincter pupillae and ciliary muscle; their loss causes a dilated pupil and loss of accommodation.",
+        "D": "An apical lung mass interrupts presynaptic sympathetic fibers from the T1-T3 intermediolateral cell column before they synapse in the superior cervical ganglion, causing Horner syndrome with miosis from unopposed sphincter pupillae, mild ptosis from superior tarsal muscle paralysis, and anhidrosis with flushing from loss of sudomotor and vasoconstrictor tone.",
+        "E": "The nasociliary nerve conveys general sensation from the cornea and iris, so its loss would blunt the corneal blink reflex without altering pupil size, lid position, or sweating."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-002",
+      "question": "A 14-year-old boy is brought to the office because of 4 days of right ear pain and fever. Otoscopy shows a bulging, erythematous right tympanic membrane. He also reports that food has tasted bland on the right front portion of his tongue and that the floor of his mouth feels dry on that side. Facial movements are symmetric, hearing is grossly intact, and touch sensation of the tongue is preserved. Involvement of which of the following structures best explains his taste and salivary complaints?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "38.9 C",
+          "36.5-37.5 C"
+        ],
+        [
+          "Heart rate",
+          "104/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "108/66 mm Hg",
+          "90-120/60-80 mm Hg"
+        ],
+        [
+          "Leukocyte count",
+          "14,200/mm3",
+          "4,500-11,000/mm3"
+        ]
+      ],
+      "answers": {
+        "A": "Auriculotemporal nerve",
+        "B": "Chorda tympani",
+        "C": "Greater petrosal nerve",
+        "D": "Lesser petrosal nerve",
+        "E": "Lingual nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The auriculotemporal nerve runs in the infratemporal fossa and delivers postsynaptic parasympathetic fibers to the parotid gland, so its injury would reduce parotid rather than submandibular and sublingual secretion.",
+        "B": "The chorda tympani crosses the middle ear cavity, carrying taste from the anterior two thirds of the tongue and presynaptic parasympathetic fibers destined for the submandibular ganglion, so middle ear inflammation impairs both taste and submandibular and sublingual secretion.",
+        "C": "The greater petrosal nerve leaves the facial nerve within the temporal bone but travels toward the pterygoid canal rather than through the middle ear cavity, and it supplies the lacrimal gland and nasal mucosa.",
+        "D": "The lesser petrosal nerve does traverse the middle ear as part of the tympanic plexus, but it carries parasympathetic fibers to the otic ganglion for the parotid gland and conveys no taste fibers.",
+        "E": "The lingual nerve supplies general sensation to the anterior two thirds of the tongue and lies in the infratemporal fossa, so an isolated lesion would cause numbness rather than isolated loss of taste."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-003",
+      "question": "A 37-year-old man underwent excision of a small tumor from his left parotid gland 3 weeks ago. Since surgery the left side of his face sags, he is unable to whistle, and tears spill from the left eye onto his cheek. When he eats, food collects between his left cheek and his teeth and saliva drips from the left corner of his mouth. Facial sensation and jaw strength are normal. Paralysis of which of the following muscles best explains the accumulation of food in his left oral vestibule?",
+      "answers": {
+        "A": "Buccinator",
+        "B": "Lateral pterygoid",
+        "C": "Masseter",
+        "D": "Orbicularis oculi",
+        "E": "Temporalis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The buccinator is a muscle of facial expression innervated by the facial nerve, and it presses the cheek against the teeth to keep food on the occlusal surfaces during chewing and to permit whistling.",
+        "B": "The lateral pterygoid protrudes the mandible and is innervated by the mandibular division of the trigeminal nerve, which is spared given his normal jaw strength.",
+        "C": "The masseter elevates the mandible and is supplied by the mandibular division of the trigeminal nerve, so its paralysis would produce weak biting rather than food pocketing.",
+        "D": "Orbicularis oculi weakness explains the eversion of his lower lid and overflow of tears, but it has no role in keeping food between the teeth.",
+        "E": "The temporalis elevates and retracts the mandible under trigeminal control and does not act on the cheek."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-004",
+      "question": "A 52-year-old woman with poorly controlled diabetes mellitus develops fever, severe headache, and right periorbital swelling several days after squeezing a furuncle on her upper lip. She has horizontal diplopia that is worst on right lateral gaze, and the right eye does not abduct past the midline. Pupils are equal and reactive, facial sensation is intact, and the remaining extraocular movements are full. MRI shows thrombosis of the right cavernous sinus. The vulnerability of which of the following nerves best explains her isolated deficit?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "39.2 C",
+          "36.5-37.5 C"
+        ],
+        [
+          "Heart rate",
+          "112/min",
+          "60-100/min"
+        ],
+        [
+          "Leukocyte count",
+          "18,600/mm3",
+          "4,500-11,000/mm3"
+        ],
+        [
+          "Glucose",
+          "312 mg/dL",
+          "70-100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Abducens nerve (CN VI)",
+        "B": "Maxillary nerve (CN V2)",
+        "C": "Oculomotor nerve (CN III)",
+        "D": "Ophthalmic nerve (CN V1)",
+        "E": "Trochlear nerve (CN IV)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The abducens nerve is the only cranial nerve that courses within the cavernous sinus itself alongside the internal carotid artery, leaving it unprotected by dura and therefore affected earliest by thrombus or infection, with resulting lateral rectus palsy.",
+        "B": "The maxillary division runs in the dural lateral wall of the sinus, and its involvement would cause numbness over the cheek and upper lip rather than a gaze deficit.",
+        "C": "The oculomotor nerve is embedded in the lateral wall and is relatively shielded; its involvement would cause ptosis, a dilated pupil, and a down-and-out eye.",
+        "D": "The ophthalmic division also lies in the lateral wall, and its involvement would produce forehead and corneal sensory loss, which she does not have.",
+        "E": "The trochlear nerve travels in the lateral wall as well, and a lesion would cause vertical rather than purely horizontal diplopia."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-005",
+      "question": "A 24-year-old man is evaluated 1 week after striking the back of his head in a fall from a bicycle. He reports vertical double vision that is worst when he looks downward and to the right, and he has particular difficulty descending stairs. He habitually tilts his head toward the right shoulder, which relieves the diplopia. Pupils are equal and reactive, the eyelids are symmetric, and abduction and adduction are full bilaterally. Which of the following muscles is most likely paralyzed?",
+      "answers": {
+        "A": "Left inferior oblique",
+        "B": "Left inferior rectus",
+        "C": "Left superior oblique",
+        "D": "Right inferior rectus",
+        "E": "Right superior oblique"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The inferior oblique elevates the adducted eye, so its paralysis causes diplopia on upward gaze rather than on downward gaze.",
+        "B": "The inferior rectus depresses the eye most effectively when the eye is abducted, so a left inferior rectus palsy would be worst on downgaze to the left.",
+        "C": "The superior oblique, supplied by the trochlear nerve, depresses and intorts the eye and is the principal depressor when the eye is adducted, so a left-sided palsy produces vertical diplopia worst on downgaze to the right with compensatory head tilt away from the lesion.",
+        "D": "A right inferior rectus palsy would impair depression when the right eye is abducted, producing diplopia worst on downgaze to the right side but with the deviation in the right eye on abduction.",
+        "E": "A right superior oblique palsy would cause diplopia worst on downgaze to the left with head tilt toward the left shoulder."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-006",
+      "question": "A 44-year-old woman is evaluated for 6 months of amenorrhea and milky nipple discharge. She has also noticed that while driving she is startled by cars that suddenly appear from either side. Visual acuity is 20/20 in both eyes and the pupils are reactive. MRI shows a sellar mass extending superiorly and compressing the midline structure lying immediately anterior to the pituitary stalk. Which of the following visual field defects is most likely present?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Prolactin",
+          "218 ng/mL",
+          "4-23 ng/mL"
+        ],
+        [
+          "TSH",
+          "1.8 microU/mL",
+          "0.5-5.0 microU/mL"
+        ],
+        [
+          "Free T4",
+          "1.1 ng/dL",
+          "0.9-1.7 ng/dL"
+        ],
+        [
+          "Cortisol, morning",
+          "14 mcg/dL",
+          "5-23 mcg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Binasal hemianopsia",
+        "B": "Bitemporal hemianopsia",
+        "C": "Left homonymous hemianopsia",
+        "D": "Right homonymous hemianopsia",
+        "E": "Right monocular blindness"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Binasal defects require bilateral compression of the uncrossed lateral fibers, an uncommon pattern not produced by a midline sellar mass.",
+        "B": "The mass compresses the optic chiasm, which lies just anterior to the pituitary stalk, interrupting the decussating fibers that carry information from both temporal visual fields and producing loss of peripheral vision on both sides.",
+        "C": "A left homonymous hemianopsia results from a lesion of the right optic tract or more posterior pathway, each of which carries fibers for the opposite visual field.",
+        "D": "A right homonymous hemianopsia reflects a left retrochiasmal lesion and would not arise from midline chiasmal compression.",
+        "E": "Section of a single optic nerve anterior to the chiasm causes blindness confined to that eye, which is inconsistent with her preserved acuity and bilateral symptoms."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-007",
+      "question": "A 61-year-old man is evaluated for 5 months of right facial fullness and epistaxis. Imaging shows a slowly enlarging mass filling the right pterygopalatine fossa. He reports that his right eye feels persistently dry and requires artificial tears, and that his right nasal passage no longer produces mucus. Corneal sensation, facial movement, and taste are intact. Presynaptic parasympathetic fibers destined for the affected glands normally synapse in which of the following ganglia?",
+      "answers": {
+        "A": "Ciliary ganglion",
+        "B": "Geniculate ganglion",
+        "C": "Otic ganglion",
+        "D": "Pterygopalatine ganglion",
+        "E": "Submandibular ganglion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The ciliary ganglion sits in the posterior orbit and relays oculomotor parasympathetic fibers to the sphincter pupillae and ciliary muscle, not to glands.",
+        "B": "The geniculate ganglion within the temporal bone houses the cell bodies of taste neurons carried in the chorda tympani and contains no parasympathetic synapse.",
+        "C": "The otic ganglion lies medial to the mandibular division in the infratemporal fossa and relays glossopharyngeal fibers to the parotid gland.",
+        "D": "Presynaptic parasympathetic fibers leave the facial nerve as the greater petrosal nerve, join the deep petrosal nerve to form the nerve of the pterygoid canal, and synapse in the pterygopalatine ganglion, from which postsynaptic secretomotor fibers reach the lacrimal gland via the zygomatic branch of V2 and the nasal mucosa via palatine and nasal branches.",
+        "E": "The submandibular ganglion hangs from the lingual nerve and supplies the submandibular and sublingual glands, so its loss would cause oral dryness rather than dry eye."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-008",
+      "question": "A 29-year-old woman undergoes tympanoplasty for chronic middle ear disease. Several weeks later she reports that the operated side of her mouth stays noticeably dry when she eats, and she has become dependent on sips of water with meals. Taste over the tongue is normal, tongue sensation is intact, facial movements are symmetric, and lacrimation is normal. Injury to which of the following nerves best explains her decreased salivation?",
+      "answers": {
+        "A": "Auriculotemporal nerve",
+        "B": "Chorda tympani",
+        "C": "Deep petrosal nerve",
+        "D": "Greater petrosal nerve",
+        "E": "Lesser petrosal nerve"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The auriculotemporal nerve carries the postsynaptic fibers to the parotid gland but lies in the infratemporal fossa and is not at risk during middle ear surgery.",
+        "B": "Chorda tympani injury would be expected to blunt taste over the anterior two thirds of the tongue, which is preserved here.",
+        "C": "The deep petrosal nerve carries postsynaptic sympathetic fibers from the carotid plexus and does not traverse the middle ear cavity.",
+        "D": "The greater petrosal nerve carries presynaptic parasympathetic fibers for the lacrimal gland and nasal mucosa, and her lacrimation is normal.",
+        "E": "Presynaptic parasympathetic fibers of the glossopharyngeal nerve enter the middle ear as the tympanic plexus and leave it as the lesser petrosal nerve to synapse in the otic ganglion, so surgical injury there reduces parotid secretion while sparing taste."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-009",
+      "question": "A 66-year-old man has 2 months of progressively slurred speech and difficulty manipulating food within his mouth. On protrusion the tongue deviates to the left, and the left half of the tongue is atrophic with visible fasciculations. The palate elevates symmetrically, the gag reflex is present bilaterally, taste is normal, and shoulder shrug is strong. A lesion at which of the following sites best explains his findings?",
+      "answers": {
+        "A": "Left foramen ovale",
+        "B": "Left hypoglossal canal",
+        "C": "Left jugular foramen",
+        "D": "Right hypoglossal canal",
+        "E": "Right jugular foramen"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The foramen ovale transmits the mandibular division of the trigeminal nerve, so a lesion there would weaken the muscles of mastication and numb the lower face.",
+        "B": "The hypoglossal nerve exits the posterior cranial fossa through the hypoglossal canal to supply the intrinsic and extrinsic tongue muscles except palatoglossus, and a unilateral lesion causes atrophy with deviation of the protruded tongue toward the side of the lesion.",
+        "C": "A left jugular foramen lesion would affect the glossopharyngeal, vagus, and accessory nerves, producing an absent gag, uvular deviation, and trapezius weakness, none of which are present.",
+        "D": "A right hypoglossal lesion would cause deviation of the tongue to the right rather than to the left.",
+        "E": "A right jugular foramen lesion would spare the tongue muscles entirely and instead impair palatal elevation and shoulder elevation on the right."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-010",
+      "question": "A 58-year-old woman is evaluated for 4 months of hoarseness, difficulty swallowing liquids, and right shoulder heaviness. Examination shows an absent gag reflex when the right posterior pharynx is touched, deviation of the uvula toward the left on phonation, and weakness of right head turning to the left and of right shoulder elevation. Hearing, facial movement, and tongue protrusion are normal. A mass at which of the following openings best explains her findings?",
+      "answers": {
+        "A": "Foramen ovale",
+        "B": "Hypoglossal canal",
+        "C": "Internal acoustic meatus",
+        "D": "Jugular foramen",
+        "E": "Stylomastoid foramen"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The foramen ovale transmits the mandibular division of the trigeminal nerve, and a mass there would cause jaw weakness and lower facial numbness.",
+        "B": "The hypoglossal canal transmits only the hypoglossal nerve, and her tongue protrudes in the midline.",
+        "C": "The internal acoustic meatus transmits the facial and vestibulocochlear nerves, so a mass there would cause hearing loss and facial weakness.",
+        "D": "The glossopharyngeal, vagus, and accessory nerves all exit the posterior cranial fossa through the jugular foramen, so a mass there produces an absent gag with uvular deviation away from the lesion, hoarseness and dysphagia from vagal involvement, and sternocleidomastoid and trapezius weakness.",
+        "E": "The stylomastoid foramen transmits the terminal trunk of the facial nerve, and a lesion there would paralyze the muscles of facial expression."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-011",
+      "question": "A 55-year-old man reports 1 year of progressive hearing loss in the right ear with intermittent unsteadiness, and over the past 2 months weakness of the right side of his face including the forehead. The right corneal blink response is diminished. MRI shows a mass at the right cerebellopontine angle extending into a bony canal within the petrous portion of the temporal bone. Which of the following pairs of nerves normally traverses this canal together?",
+      "answers": {
+        "A": "Facial and vestibulocochlear nerves",
+        "B": "Glossopharyngeal and vagus nerves",
+        "C": "Oculomotor and trochlear nerves",
+        "D": "Trigeminal and abducens nerves",
+        "E": "Vagus and accessory nerves"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The facial and vestibulocochlear nerves arise adjacent to one another at the pontomedullary junction and enter the internal acoustic meatus together, so a mass expanding within that canal causes sensorineural hearing loss, imbalance, and lower motor neuron facial weakness.",
+        "B": "The glossopharyngeal and vagus nerves leave through the jugular foramen, and their involvement would cause dysphagia and an absent gag reflex.",
+        "C": "The oculomotor and trochlear nerves travel in the lateral wall of the cavernous sinus and reach the orbit through the superior orbital fissure.",
+        "D": "The trigeminal nerve exits through three separate openings of the middle cranial fossa and the abducens nerve passes through the cavernous sinus and superior orbital fissure.",
+        "E": "The vagus and accessory nerves exit through the jugular foramen and would produce hoarseness and trapezius weakness rather than hearing loss."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-012",
+      "question": "A 63-year-old woman describes 8 months of brief paroxysms of excruciating, lightning-like pain over her right cheek and upper lip. Attacks are triggered by chewing, shaving of the area, or a light breeze, and last seconds. Neurologic examination including facial sensation and corneal reflexes is normal between attacks. MRI shows a vascular loop contacting the trigeminal nerve root. The division most commonly affected in this condition leaves the middle cranial fossa through which of the following openings?",
+      "answers": {
+        "A": "Foramen ovale",
+        "B": "Foramen rotundum",
+        "C": "Foramen spinosum",
+        "D": "Optic canal",
+        "E": "Superior orbital fissure"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The foramen ovale transmits the mandibular division, which is the second most commonly involved division and would cause pain over the jaw and lower lip.",
+        "B": "Her pain follows the maxillary division, the division most often affected in trigeminal neuralgia, and V2 leaves the middle cranial fossa through the foramen rotundum to enter the pterygopalatine fossa.",
+        "C": "The foramen spinosum transmits the middle meningeal artery and carries no division of the trigeminal nerve.",
+        "D": "The optic canal transmits the optic nerve and ophthalmic artery and is unrelated to facial pain.",
+        "E": "The superior orbital fissure transmits the ophthalmic division, which is the least commonly involved division and supplies the forehead and cornea."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-013",
+      "question": "A 70-year-old man receives a retrobulbar anesthetic injection placed within the common tendinous ring before cataract surgery. Shortly afterward the globe is immobile in nearly all directions and the pupil is dilated, but one extraocular movement remains partially intact because the nerve supplying that muscle enters the orbit outside the ring. Which of the following nerves was spared?",
+      "answers": {
+        "A": "Abducens nerve",
+        "B": "Inferior division of the oculomotor nerve",
+        "C": "Nasociliary nerve",
+        "D": "Superior division of the oculomotor nerve",
+        "E": "Trochlear nerve"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The abducens nerve passes through the superior orbital fissure inside the common tendinous ring on its way to the lateral rectus.",
+        "B": "The inferior division of the oculomotor nerve enters within the ring and supplies the medial rectus, inferior rectus, and inferior oblique along with parasympathetic fibers to the ciliary ganglion.",
+        "C": "The nasociliary nerve is a sensory branch of V1 that also enters within the ring, and it supplies no extraocular muscle.",
+        "D": "The superior division of the oculomotor nerve enters within the ring and supplies the superior rectus and levator palpebrae superioris.",
+        "E": "The trochlear nerve enters the orbit through the superior orbital fissure outside the common tendinous ring, so anesthetic deposited within the ring spares it and the superior oblique retains some function."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-014",
+      "question": "A 31-year-old woman sustains a penetrating injury to the posterior right orbit from a metal fragment. Two days later the right pupil is 7 mm and does not constrict to light or to a near target, and she cannot bring print into focus with that eye. The upper eyelid is at a normal height, extraocular movements are full, and corneal sensation is preserved. Postsynaptic fibers mediating the lost functions normally reach the eyeball in which of the following nerves?",
+      "answers": {
+        "A": "Deep petrosal nerve",
+        "B": "Long ciliary nerves",
+        "C": "Nasociliary nerve",
+        "D": "Short ciliary nerves",
+        "E": "Zygomatic nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The deep petrosal nerve carries postsynaptic sympathetic fibers from the internal carotid plexus toward the pterygoid canal and never enters the orbit.",
+        "B": "The long ciliary nerves are branches of the nasociliary nerve that convey corneal sensation and postsynaptic sympathetic fibers to the dilator pupillae, so they mediate dilation rather than constriction.",
+        "C": "The nasociliary nerve is the sensory trunk from which the long ciliary nerves arise and carries no parasympathetic fibers to the eyeball.",
+        "D": "Presynaptic parasympathetic fibers travel in the inferior division of the oculomotor nerve and synapse in the ciliary ganglion, and the postsynaptic fibers pass in the short ciliary nerves to the sphincter pupillae and ciliary muscle for pupillary constriction and accommodation.",
+        "E": "The zygomatic branch of V2 conveys postsynaptic parasympathetic fibers to the lacrimal gland and has no role in pupillary function."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-015",
+      "question": "A 40-year-old woman is evaluated after a temporal bone fracture sustained in a motor vehicle collision. She reports that food is tasteless over the front portion of the right side of her tongue. Light touch and pinprick sensation of the tongue are normal bilaterally, tongue protrusion is midline, and facial movements are symmetric. The fibers that have been lost belong to which of the following functional components?",
+      "answers": {
+        "A": "General somatic afferent",
+        "B": "General visceral afferent",
+        "C": "General visceral efferent",
+        "D": "Special visceral afferent",
+        "E": "Special visceral efferent"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "General somatic afferent fibers convey touch, temperature, and pain from nonvisceral structures such as the tongue mucosa, and these are carried by the lingual nerve and are intact here.",
+        "B": "General visceral afferent fibers transmit sensation such as distention and pain from viscera and structures like the carotid sinus, not taste.",
+        "C": "General visceral efferent fibers are the autonomic motor supply to smooth muscle and glands, so their loss would reduce salivation rather than taste.",
+        "D": "Taste and olfaction are carried by special visceral afferent fibers, and taste from the anterior two thirds of the tongue travels in the chorda tympani, which is vulnerable within the fractured temporal bone.",
+        "E": "Special visceral efferent fibers innervate striated muscles derived from the pharyngeal arches, such as the muscles of facial expression, which are working normally."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-016",
+      "question": "A 57-year-old man has a mass filling the right infratemporal fossa. Examination shows weakness of jaw closure with deviation of the mandible to the right on opening, numbness of the right lower lip and chin, and markedly reduced right parotid secretion measured during a salivary flow study. Taste, facial expression, hearing, and tongue movement are normal. The motor fibers to the weakened muscles and the parasympathetic fibers to the affected gland both reach this region through which of the following openings?",
+      "answers": {
+        "A": "Foramen ovale",
+        "B": "Foramen rotundum",
+        "C": "Internal acoustic meatus",
+        "D": "Jugular foramen",
+        "E": "Stylomastoid foramen"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The mandibular division carries the motor fibers to the muscles of mastication through the foramen ovale, and the lesser petrosal nerve also passes through the foramen ovale to synapse in the otic ganglion before postsynaptic fibers join the auriculotemporal nerve to the parotid gland.",
+        "B": "The foramen rotundum transmits the maxillary division into the pterygopalatine fossa, and this division is purely sensory.",
+        "C": "The internal acoustic meatus transmits the facial and vestibulocochlear nerves, and his hearing and facial movements are normal.",
+        "D": "The jugular foramen transmits the glossopharyngeal, vagus, and accessory nerves, and involvement would cause dysphagia and shoulder weakness.",
+        "E": "The stylomastoid foramen transmits the facial nerve trunk to the muscles of facial expression, which are unaffected."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-017",
+      "question": "A 68-year-old man is having impacted cerumen removed from the left external acoustic meatus. Each time the curette contacts the posterior wall of the canal he begins to cough forcefully, and the coughing stops as soon as the instrument is withdrawn. He has no respiratory symptoms, and examination of the chest is normal. Stimulation of which of the following nerves best explains this reflex?",
+      "answers": {
+        "A": "Auricular branch of the vagus nerve",
+        "B": "Auriculotemporal nerve of V3",
+        "C": "Facial nerve sensory branch",
+        "D": "Greater auricular nerve (C2, C3)",
+        "E": "Lesser occipital nerve (C2)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The vagus nerve supplies general somatic afferent fibers to part of the external acoustic meatus and auricle, and stimulating this branch activates the same nerve that mediates the cough reflex from the larynx and airway.",
+        "B": "The auriculotemporal branch of V3 supplies the anterior canal wall and the external surface of the tympanic membrane but does not trigger cough.",
+        "C": "The facial nerve contributes small general somatic afferent fibers to the ear canal and auricle, yet it has no role in the cough reflex arc.",
+        "D": "The greater auricular nerve from the cervical plexus supplies the skin over the lower auricle and the angle of the jaw.",
+        "E": "The lesser occipital nerve from the cervical plexus supplies the skin behind the ear and the upper auricle."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-018",
+      "question": "A 45-year-old woman is evaluated for a slowly growing lesion in the right cavernous sinus region. When the examiner touches the right cornea with a wisp of cotton, neither eye blinks. When the left cornea is touched, both eyes blink briskly. She can close both eyes forcefully on command, and her facial movements are symmetric. Loss of conduction in which of the following nerves best explains this pattern?",
+      "answers": {
+        "A": "Auriculotemporal nerve",
+        "B": "Frontal nerve",
+        "C": "Lacrimal nerve",
+        "D": "Nasociliary nerve",
+        "E": "Zygomatic nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The auriculotemporal nerve supplies the temporal and parotid regions and the anterior ear canal, and it takes no part in corneal sensation.",
+        "B": "The frontal nerve is a branch of V1 that supplies the forehead and upper eyelid skin rather than the cornea.",
+        "C": "The lacrimal nerve is a branch of V1 that supplies the lateral upper eyelid and conveys secretomotor fibers to the lacrimal gland.",
+        "D": "The long ciliary branches of the nasociliary nerve carry general sensation from the cornea and form the afferent limb of the corneal blink reflex, so a right-sided lesion abolishes the blink from both eyes when the right cornea is touched while the efferent facial pathway remains intact.",
+        "E": "The zygomatic nerve is a branch of V2 supplying the skin over the zygomatic arch and delivering parasympathetic fibers toward the lacrimal gland."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-019",
+      "question": "A 39-year-old man is struck on the side of the head in a fall. CT shows a fracture extending through the right carotid canal with presumed injury to the periarterial plexus surrounding the internal carotid artery. He has a constricted right pupil, mild right upper lid droop, and reduced sweating over the right forehead. Tearing, taste, and facial movements are normal. Postsynaptic sympathetic fibers from the injured plexus normally reach the pterygopalatine ganglion by way of which of the following nerves?",
+      "answers": {
+        "A": "Chorda tympani",
+        "B": "Deep petrosal nerve",
+        "C": "Greater petrosal nerve",
+        "D": "Lesser petrosal nerve",
+        "E": "Zygomatic nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The chorda tympani carries taste fibers and presynaptic parasympathetic fibers from the facial nerve toward the submandibular ganglion and conveys no sympathetic fibers.",
+        "B": "The deep petrosal nerve arises from the internal carotid plexus and joins the greater petrosal nerve to form the nerve of the pterygoid canal, delivering postsynaptic sympathetic fibers that pass through the pterygopalatine ganglion without synapsing.",
+        "C": "The greater petrosal nerve carries presynaptic parasympathetic fibers from the facial nerve and is the parasympathetic rather than sympathetic contribution to the Vidian nerve.",
+        "D": "The lesser petrosal nerve carries presynaptic parasympathetic fibers from the glossopharyngeal nerve to the otic ganglion.",
+        "E": "The zygomatic nerve conveys postsynaptic fibers away from the pterygopalatine ganglion toward the lacrimal gland rather than delivering fibers to it."
+      }
+    },
+    {
+      "id": "neuro-head-via-cranial-nerves-020",
+      "question": "A 55-year-old woman comes to the emergency department with the sudden onset of the worst headache of her life. The right upper eyelid is completely closed, and when it is elevated the right eye rests in a downward and outward position. The right pupil measures 6 mm and does not react to light. The left eye is normal in all respects. CT angiography shows an aneurysm of the right posterior communicating artery. Which of the following muscles of the right eye remain functional?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "37.1 C",
+          "36.5-37.5 C"
+        ],
+        [
+          "Heart rate",
+          "96/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "168/94 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Respiratory rate",
+          "18/min",
+          "12-20/min"
+        ]
+      ],
+      "answers": {
+        "A": "Inferior oblique and lateral rectus",
+        "B": "Lateral rectus and superior oblique",
+        "C": "Medial rectus and inferior rectus",
+        "D": "Superior oblique and superior rectus",
+        "E": "Superior rectus and medial rectus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The inferior oblique is supplied by the inferior division of the oculomotor nerve and would be paralyzed along with the rest of the oculomotor musculature.",
+        "B": "The oculomotor nerve supplies all extraocular muscles except the lateral rectus, which is supplied by the abducens nerve, and the superior oblique, which is supplied by the trochlear nerve, so unopposed action of these two muscles leaves the eye abducted and depressed.",
+        "C": "Both the medial rectus and the inferior rectus receive fibers from the inferior division of the oculomotor nerve and are paralyzed in this lesion.",
+        "D": "The superior oblique is spared, but the superior rectus is supplied by the superior division of the oculomotor nerve and is paralyzed.",
+        "E": "The superior rectus and medial rectus are both oculomotor targets, and their weakness contributes to the down-and-out resting position."
+      }
+    }
+  ]
+}
