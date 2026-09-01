@@ -1,0 +1,475 @@
+{
+  "lecture": "Child & Adolescent Psychiatry",
+  "block": "neuro",
+  "generated": "2026-09-01",
+  "questions": [
+    {
+      "id": "neuro-child-adolescent-psychiatry-001",
+      "question": "A 9-year-old boy is brought to the clinic because his third-grade teacher reports that he is easily distracted by noises in the hallway, makes careless mistakes on written work, fails to finish assignments, frequently loses his pencils and folders, avoids tasks requiring sustained concentration, and rarely follows multistep instructions. These behaviors have been present for the past 10 months, and his report card grades have fallen from B's to D's. His parents state that at home he completes his chores, plays board games with his sister for 45 minutes at a time, and organizes his belongings without difficulty. Developmental milestones were met on time, and hearing and vision screening are normal. Which of the following diagnostic requirements for attention-deficit/hyperactivity disorder is NOT met in this patient?",
+      "answers": {
+        "A": "Impairment in academic or social functioning",
+        "B": "Onset of symptoms before 12 years of age",
+        "C": "Presence of at least six inattentive symptoms",
+        "D": "Symptom duration of at least six months",
+        "E": "Symptoms present in two or more settings"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This requirement is satisfied, since his grades have declined from B's to D's, which demonstrates clear academic impairment.",
+        "B": "This requirement is satisfied, since symptoms began at approximately age 8, well before the age-12 cutoff.",
+        "C": "This requirement is satisfied, since six inattentive symptoms are described: distractibility, careless mistakes, incomplete work, losing items, avoidance of sustained effort, and failure to follow instructions.",
+        "D": "This requirement is satisfied, since the 10-month history exceeds the required 6-month duration.",
+        "E": "Correct. ADHD requires symptoms in two or more settings; this boy is symptomatic only at school and functions well at home, which should prompt evaluation for a school-specific problem such as a learning disorder or classroom stressor."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-002",
+      "question": "A 7-year-old boy is evaluated for one year of fidgeting, blurting out answers, interrupting classmates, difficulty remaining seated, losing homework, and inability to sustain attention. Symptoms occur at school, at home, and at his after-school program, and he has been suspended twice for disruptive behavior. He meets DSM-5 criteria for attention-deficit/hyperactivity disorder, combined presentation. He takes no medications, cardiac examination is normal, and there is no family history of sudden cardiac death. Based on the largest randomized trial of ADHD treatment to date, which of the following is the most appropriate initial therapy?",
+      "answers": {
+        "A": "Atomoxetine once daily",
+        "B": "Behavioral parent training alone",
+        "C": "Bupropion extended release",
+        "D": "Guanfacine extended release",
+        "E": "Methylphenidate extended release"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Atomoxetine is a nonstimulant that behaves like a norepinephrine reuptake inhibitor; it is reserved for patients who cannot tolerate or should not receive stimulants and requires weeks of daily dosing for effect.",
+        "B": "Behavioral therapy is a valuable adjunct and was less effective than stimulant medication as monotherapy at one year in the MTA trial.",
+        "C": "Bupropion has dopaminergic and noradrenergic activity and can improve concentration, but it is an off-label second-line option rather than initial therapy.",
+        "D": "Guanfacine is a central alpha-2 agonist that is most useful for impulsivity and hyperactivity, typically as an adjunct or when stimulants are contraindicated.",
+        "E": "Correct. Stimulants (methylphenidates and amphetamines) are first-line per the MTA trial, with roughly 70% of children responding to the first stimulant class tried."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-003",
+      "question": "A 9-year-old girl meets criteria for attention-deficit/hyperactivity disorder, predominantly inattentive presentation, with symptoms at home and school for 18 months and failing grades in reading. Her father died suddenly at age 32 of an undiagnosed cardiomyopathy, and a paternal uncle died unexpectedly in his 20s. Her cardiac examination is normal, and screening studies are shown below. Which of the following is the most appropriate pharmacologic therapy?",
+      "table": [
+        [
+          "Parameter",
+          "Patient value",
+          "Reference range"
+        ],
+        [
+          "Heart rate",
+          "88/min",
+          "70-110/min"
+        ],
+        [
+          "Blood pressure",
+          "104/64 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "QTc interval",
+          "412 ms",
+          "<440 ms"
+        ]
+      ],
+      "answers": {
+        "A": "Atomoxetine",
+        "B": "Dexmethylphenidate",
+        "C": "Lisdexamfetamine",
+        "D": "Methylphenidate",
+        "E": "Mixed amphetamine salts"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A family history of sudden cardiac death is a relative contraindication to stimulants, and atomoxetine is a reasonable nonstimulant alternative that improves concentration and focus with daily dosing.",
+        "B": "Dexmethylphenidate is a methylphenidate-class stimulant and carries the same cardiovascular precautions as other stimulants in this family history.",
+        "C": "Lisdexamfetamine is an amphetamine prodrug and is subject to the same sudden-cardiac-death precaution.",
+        "D": "Methylphenidate would ordinarily be first line, but the family history of unexplained sudden death makes a nonstimulant preferable here.",
+        "E": "Mixed amphetamine salts raise heart rate and blood pressure and would be avoided for the same reason."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-004",
+      "question": "A 10-year-old boy with attention-deficit/hyperactivity disorder has been taking extended-release methylphenidate for 6 months. His teacher reports that he now completes his assignments and stays on task, but he continues to leave his seat, interrupt classmates, and blurt out answers. Guanfacine is added as an adjunct. Over the next several weeks his impulsivity improves and his blood pressure decreases from 110/70 mm Hg to 98/60 mm Hg. Which of the following best explains the mechanism of the added medication?",
+      "answers": {
+        "A": "Agonism at central alpha-2 adrenergic receptors",
+        "B": "Blockade of postsynaptic dopamine D2 receptors",
+        "C": "Inhibition of presynaptic norepinephrine reuptake",
+        "D": "Promotion of presynaptic catecholamine release",
+        "E": "Selective inhibition of serotonin reuptake"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Guanfacine and clonidine are centrally acting alpha-2 agonists originally developed as antihypertensives; in ADHD they are most useful for hyperactive and impulsive symptoms, and the modest fall in blood pressure reflects this mechanism.",
+        "B": "D2 blockade describes antipsychotics such as risperidone, which are used for irritability and mania rather than as ADHD adjuncts.",
+        "C": "Norepinephrine reuptake inhibition describes atomoxetine and viloxazine, which do not typically lower blood pressure.",
+        "D": "Promotion of catecholamine release describes the amphetamines, which tend to raise rather than lower blood pressure.",
+        "E": "Selective serotonin reuptake inhibition describes SSRIs, which treat depression and anxiety and have no role in impulsivity of ADHD."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-005",
+      "question": "An 8-year-old boy is brought in because of 9 months of escalating behavior problems. He loses his temper almost daily, is described as touchy and easily annoyed, argues with his parents and teachers, refuses to comply with rules, and blames his younger sister for his own mistakes. On two occasions in the past 6 months he has deliberately broken her toys to get back at her. He has never been physically cruel to people or animals, has not stolen or damaged others' property, attends school regularly, and has never run away. His mood is not persistently irritable between episodes. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Attention-deficit/hyperactivity disorder",
+        "B": "Conduct disorder",
+        "C": "Disruptive mood dysregulation disorder",
+        "D": "Intermittent explosive disorder",
+        "E": "Oppositional defiant disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "ADHD requires inattentive or hyperactive-impulsive symptoms, which are not described here, although it is the most common comorbidity of ODD.",
+        "B": "Conduct disorder requires behaviors that violate the basic rights of others, such as physical cruelty, theft, property destruction, or serious rule violations, none of which are present.",
+        "C": "DMDD requires severe temper outbursts at least three times weekly with persistently angry or irritable mood between outbursts, and it cannot be diagnosed alongside ODD.",
+        "D": "Intermittent explosive disorder is characterized by discrete outbursts of aggression grossly out of proportion to provocation, not the pervasive argumentative and defiant pattern seen here.",
+        "E": "Correct. He has angry/irritable mood, argumentative/defiant behavior, and vindictiveness on two occasions in 6 months, exceeding the four-symptom, six-month threshold for oppositional defiant disorder."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-006",
+      "question": "An 8-year-old boy meets criteria for oppositional defiant disorder after a year of temper outbursts, defiance toward teachers, and blaming others for his misbehavior. His mother asks whether he is likely to have any other psychiatric condition. Which of the following comorbid diagnoses is most likely to be present in this patient?",
+      "answers": {
+        "A": "Attention-deficit/hyperactivity disorder",
+        "B": "Bipolar disorder",
+        "C": "Conduct disorder",
+        "D": "Separation anxiety disorder",
+        "E": "Substance use disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. ADHD is by far the most common comorbidity of ODD, occurring in roughly 50% to 65% of cases, and untreated ADHD is thought to contribute to the development of oppositional behavior.",
+        "B": "Pediatric bipolar disorder is rare, with a childhood prevalence estimate of about 0.1% to 1%, and mania is not described.",
+        "C": "Conduct disorder is a later complication in about 30% to 40% of boys with severe ODD rather than the most likely concurrent comorbidity at this age.",
+        "D": "Anxiety and mood disorders together occur in roughly 35% of children with ODD, less often than ADHD, and separation anxiety alone is less common still.",
+        "E": "Substance use disorder is a downstream risk in adolescence, not a typical comorbidity in an 8-year-old."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-007",
+      "question": "A 7-year-old boy with oppositional defiant disorder is also inattentive, fidgety, and impulsive at both home and school, and he meets criteria for attention-deficit/hyperactivity disorder, combined presentation. His parents have enrolled in parent-child interaction therapy and now ask whether medication could help his defiant behavior. Which of the following is the most appropriate pharmacotherapy?",
+      "answers": {
+        "A": "Aripiprazole",
+        "B": "Fluoxetine",
+        "C": "Lithium",
+        "D": "Methylphenidate",
+        "E": "Risperidone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Aripiprazole is FDA approved for acute manic and mixed episodes in ages 10 to 17 and carries metabolic risk; it is not indicated for uncomplicated ODD.",
+        "B": "Fluoxetine is used for pediatric depression and anxiety, neither of which is described in this patient.",
+        "C": "Lithium is approved for acute mania and maintenance therapy from age 12 and has no role in treating oppositional behavior.",
+        "D": "Correct. No medication is indicated for ODD itself, so treatment targets the underlying comorbidity, and a stimulant is first line for his comorbid ADHD.",
+        "E": "Risperidone is used for irritability in autism spectrum disorder and for pediatric mania, not as first-line treatment of ODD with comorbid ADHD."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-008",
+      "question": "A 14-year-old boy is evaluated after being suspended from school. Over the past 12 months he set fire to a neighbor's shed, was seen kicking a stray cat, was caught shoplifting from two stores, and broke into a parked car. He has been truant since age 12 and has stayed out overnight against his mother's rules on several occasions. He shows little remorse and blames his victims. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Antisocial personality disorder",
+        "B": "Attention-deficit/hyperactivity disorder",
+        "C": "Conduct disorder",
+        "D": "Disruptive mood dysregulation disorder",
+        "E": "Oppositional defiant disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Antisocial personality disorder cannot be diagnosed before age 18, although this pattern places him at substantial risk for it.",
+        "B": "ADHD involves inattention and hyperactivity-impulsivity rather than deliberate violation of others' rights and legal norms.",
+        "C": "Correct. He exceeds the threshold of at least three of fifteen criteria in the past 12 months across aggression to animals, property destruction, deceitfulness or theft, and serious rule violations.",
+        "D": "DMDD is defined by severe recurrent temper outbursts with persistently irritable mood, not by premeditated aggression, theft, and truancy.",
+        "E": "ODD involves argumentativeness, defiance, and vindictiveness without violating the basic rights of others; his behaviors are far more severe."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-009",
+      "question": "A 16-year-old boy was diagnosed with severe oppositional defiant disorder at age 7 and with conduct disorder at age 12. He also has attention-deficit/hyperactivity disorder that has been inconsistently treated. He continues to initiate physical fights, steals from family members, and has been arrested twice for property destruction. His parents ask what he is most likely to face as an adult. Which of the following outcomes is he at greatest risk of developing?",
+      "answers": {
+        "A": "Antisocial personality disorder",
+        "B": "Bipolar I disorder",
+        "C": "Borderline personality disorder",
+        "D": "Obsessive-compulsive disorder",
+        "E": "Schizophrenia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Among boys with severe ODD, 30% to 40% progress to conduct disorder, and 40% to 50% of those develop antisocial personality disorder; comorbid ADHD further worsens this trajectory.",
+        "B": "Bipolar I disorder has a general population prevalence of about 1.6% and is driven largely by genetic loading rather than by a disruptive behavior trajectory.",
+        "C": "Borderline personality disorder is not the characteristic outcome of the ODD-to-conduct disorder pathway.",
+        "D": "Obsessive-compulsive disorder is unrelated to the disruptive behavior disorders described here.",
+        "E": "Schizophrenia risk is not increased by conduct disorder; substance use disorder and antisocial personality disorder are the expected complications."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-010",
+      "question": "A 14-year-old girl was hospitalized 3 months ago for an acute manic episode of bipolar I disorder and was discharged on a single medication with good control of her symptoms. She now reports bilateral breast tenderness, milky nipple discharge, and absence of menses for 2 months. She has gained 4 kg since discharge. She is not sexually active. Laboratory results are shown. Which of the following medications is she most likely taking?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Prolactin",
+          "82 ng/mL",
+          "4-23 ng/mL"
+        ],
+        [
+          "TSH",
+          "1.8 microU/mL",
+          "0.5-5.0 microU/mL"
+        ],
+        [
+          "Beta-hCG",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Carbamazepine",
+        "B": "Lithium",
+        "C": "Risperidone",
+        "D": "Topiramate",
+        "E": "Valproic acid"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Carbamazepine causes hyponatremia, rash including Stevens-Johnson syndrome, and agranulocytosis, not hyperprolactinemia.",
+        "B": "Lithium causes tremor, hypothyroidism, and nephrogenic diabetes insipidus; her TSH is normal and lithium does not raise prolactin.",
+        "C": "Correct. Risperidone is approved for acute manic and mixed episodes in ages 10 to 17 and produces the greatest prolactin elevation of the second-generation antipsychotics through tuberoinfundibular D2 blockade, causing galactorrhea, breast tenderness, and amenorrhea.",
+        "D": "Topiramate causes weight loss, paresthesias, kidney stones, and word-finding difficulty rather than galactorrhea.",
+        "E": "Valproic acid causes weight gain, hepatotoxicity, thrombocytopenia, and polycystic ovarian features, but it does not typically cause galactorrhea with markedly elevated prolactin."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-011",
+      "question": "A 13-year-old boy with bipolar I disorder was hospitalized for a manic episode characterized by 10 days of elevated mood, sleeping 2 hours nightly, grandiosity, and pressured speech. His symptoms have now remitted. His mother, who has bipolar disorder herself, asks about a long-term medication to prevent recurrence. Which of the following agents carries FDA approval in this age group for both acute mania and maintenance therapy?",
+      "answers": {
+        "A": "Carbamazepine",
+        "B": "Fluoxetine",
+        "C": "Lamotrigine",
+        "D": "Lithium",
+        "E": "Sertraline"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Carbamazepine is used off-label for mood stabilization in youth and lacks pediatric FDA approval for bipolar disorder.",
+        "B": "Fluoxetine is approved for pediatric depression and obsessive-compulsive disorder, and antidepressant monotherapy risks precipitating mania in bipolar disorder.",
+        "C": "Lamotrigine is used for maintenance in adults with bipolar disorder but is not FDA approved for this indication in children.",
+        "D": "Correct. Lithium is FDA approved from age 12 for both acute mania and maintenance therapy, making it appropriate for this 13-year-old.",
+        "E": "Sertraline is an SSRI approved in children for obsessive-compulsive disorder and carries the same risk of destabilizing bipolar disorder if used alone."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-012",
+      "question": "A 17-year-old girl is brought in by her mother, who describes a 5-day period last month during which the patient slept 3 hours a night, spoke rapidly, jumped between topics, redecorated the entire house, and seemed unusually cheerful and self-confident. She continued to attend school and work, was not hospitalized, and had no hallucinations or delusions. Six months earlier she had a 4-week period of depressed mood, anhedonia, hypersomnia, guilt, and poor concentration. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Bipolar I disorder",
+        "B": "Bipolar II disorder",
+        "C": "Cyclothymic disorder",
+        "D": "Disruptive mood dysregulation disorder",
+        "E": "Major depressive disorder"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bipolar I requires a manic episode lasting at least 1 week with marked impairment, psychosis, or hospitalization; her episode lasted 5 days without functional impairment.",
+        "B": "Correct. A hypomanic episode requires at least 4 consecutive days of elevated or irritable mood with associated symptoms but without marked impairment, and the prior major depressive episode completes the picture of bipolar II disorder.",
+        "C": "Cyclothymic disorder requires at least 1 year in youth of fluctuating subthreshold hypomanic and depressive symptoms without a full major depressive episode.",
+        "D": "DMDD is diagnosed only between ages 6 and 18 with onset before age 10 and is defined by frequent temper outbursts and persistent irritability, which are absent here.",
+        "E": "Major depressive disorder would be the diagnosis only if no hypomanic episode had ever occurred."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-013",
+      "question": "An 8-year-old boy is brought in by parents who are exhausted by his behavior. Since age 5 he has had severe temper outbursts approximately five times per week, during which he screams for 30 minutes, throws furniture, and punches walls, often triggered by minor frustrations such as a slow internet connection. Between outbursts he is described as constantly cranky and irritable. The same behavior occurs at home and in his special school program, and it has never remitted for more than a few days. He has no episodes of elevated mood or decreased need for sleep. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Attention-deficit/hyperactivity disorder",
+        "B": "Bipolar I disorder",
+        "C": "Disruptive mood dysregulation disorder",
+        "D": "Intermittent explosive disorder",
+        "E": "Oppositional defiant disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "ADHD is defined by inattention and hyperactivity-impulsivity, not by severe recurrent outbursts with persistently irritable baseline mood, though the two are frequently comorbid.",
+        "B": "Bipolar I requires discrete episodes of elevated or expansive mood with decreased need for sleep and grandiosity; his irritability is chronic rather than episodic.",
+        "C": "Correct. Severe outbursts out of proportion to provocation at least three times weekly, persistent irritability between outbursts, duration over 12 months, and presence in at least two settings with onset before age 10 define DMDD.",
+        "D": "Intermittent explosive disorder involves discrete aggressive outbursts with a normal mood between episodes, whereas this boy is persistently irritable, and IED cannot be diagnosed concurrently with DMDD.",
+        "E": "ODD features argumentativeness, defiance, and vindictiveness without the persistent angry mood and outburst severity described, and it cannot be diagnosed alongside DMDD."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-014",
+      "question": "A 5-year-old boy is brought in for 14 months of severe temper outbursts occurring nearly every day, during which he screams, bites, and throws objects in response to minor requests. His preschool teacher reports identical behavior in the classroom, and his parents describe him as angry and irritable between outbursts. His pediatrician considers disruptive mood dysregulation disorder. Which of the following features precludes this diagnosis at present?",
+      "answers": {
+        "A": "Onset of symptoms occurred before 10 years of age",
+        "B": "Outbursts occur fewer than three times per week",
+        "C": "Symptoms are present in only one setting",
+        "D": "Symptoms have been present for less than 12 months",
+        "E": "The patient is younger than 6 years of age"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Onset before age 10 is a required feature of DMDD rather than an exclusion, so this does not preclude the diagnosis.",
+        "B": "His outbursts occur nearly daily, which exceeds the required average of three or more per week.",
+        "C": "Symptoms occur both at home and in preschool, satisfying the requirement for at least two settings.",
+        "D": "The 14-month history exceeds the required minimum duration of 12 months.",
+        "E": "Correct. DMDD can only be diagnosed between ages 6 and 18, so the diagnosis must wait even though onset before age 10 is required."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-015",
+      "question": "A 9-year-old girl is evaluated for academic and social difficulties. She spends hours arranging her dinosaur figurines in identical rows and becomes severely distressed if the family route to school changes. She did not speak intelligibly until age 6 and now repeats verbatim segments of the previous evening's news broadcast. She avoids interactive play with peers, prefers the company of adults, and makes little eye contact. She attends special education classes and performs two grade levels below expectation in language and math. Formal audiologic testing is normal, and screening laboratory results are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Blood lead",
+          "1.8 mcg/dL",
+          "<3.5 mcg/dL"
+        ],
+        [
+          "TSH",
+          "2.2 microU/mL",
+          "0.5-5.0 microU/mL"
+        ],
+        [
+          "Hemoglobin",
+          "12.6 g/dL",
+          "11.5-15.5 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Attention-deficit/hyperactivity disorder",
+        "B": "Autism spectrum disorder",
+        "C": "Intellectual disability",
+        "D": "Social anxiety disorder",
+        "E": "Specific learning disorder"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "ADHD involves inattention and hyperactivity-impulsivity and does not explain echolalia, insistence on sameness, or the lack of social reciprocity.",
+        "B": "Correct. She has deficits in social-emotional reciprocity and relationships along with restricted repetitive behaviors including lining up toys, echolalia, and extreme distress at small changes, which together define autism spectrum disorder.",
+        "C": "Intellectual disability co-occurs in roughly half of children with ASD and may contribute here, but alone it does not account for the echolalia and insistence on sameness.",
+        "D": "Social anxiety involves avoidance driven by fear of embarrassment with otherwise intact social communication skills, which is not the pattern described.",
+        "E": "Specific learning disorder would produce isolated academic underachievement without the social communication deficits and repetitive behaviors seen here."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-016",
+      "question": "A 3-year-old boy is evaluated for absent speech, lack of eye contact, hand flapping, and severe distress when his routine is altered. He was born to a 29-year-old woman with epilepsy who continued a single antiseizure medication throughout the first trimester. He underwent surgical repair of a lumbosacral myelomeningocele shortly after birth. Family history is negative for developmental disorders, and he received all routine childhood vaccinations on schedule. Exposure to which of the following medications during the first 8 weeks of gestation best explains this presentation?",
+      "answers": {
+        "A": "Carbamazepine",
+        "B": "Lamotrigine",
+        "C": "Levetiracetam",
+        "D": "Phenobarbital",
+        "E": "Valproic acid"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Carbamazepine carries some neural tube defect risk through folate antagonism, but it is not associated with the marked autism risk seen with valproate.",
+        "B": "Lamotrigine is among the safer antiseizure medications in pregnancy and is not linked to autism or neural tube defects.",
+        "C": "Levetiracetam has one of the most favorable teratogenic profiles and does not cause neural tube defects.",
+        "D": "Phenobarbital in utero is associated with cognitive impairment and cardiac defects rather than the combination of autism and a neural tube defect.",
+        "E": "Correct. First-trimester valproic acid exposure confers roughly an 11% risk of autism spectrum disorder in addition to neural tube defects, matching both features in this child."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-017",
+      "question": "The parents of a 3-year-old boy newly diagnosed with autism spectrum disorder note that the diagnosis seems far more common than when they were children. He was screened with the M-CHAT at his 20-month visit, which prompted referral and diagnostic evaluation. They ask what accounts for the rising reported prevalence. Which of the following best explains this trend?",
+      "answers": {
+        "A": "Broadened diagnostic criteria and earlier screening",
+        "B": "Higher childhood vaccination coverage rates",
+        "C": "Increased dietary gluten and casein intake",
+        "D": "Reduced parental engagement during infancy",
+        "E": "Thimerosal preservative exposure during infancy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Folding previously separate diagnoses such as Asperger disorder into a single spectrum, routine M-CHAT screening at 18 to 24 months, greater awareness, and rising parental age together explain the increase.",
+        "B": "There is no causal evidence linking vaccines to autism spectrum disorder.",
+        "C": "There is no evidence that dietary gluten or casein contributes to autism spectrum disorder.",
+        "D": "No psychosocial or parenting risk factor has been shown to cause autism, and the condition is not associated with higher-income families.",
+        "E": "Mercury-containing preservatives in vaccines have been studied and show no causal link to autism spectrum disorder."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-018",
+      "question": "A 7-year-old boy is brought to the clinic because for the past year he hides in a closet, becomes irritable and agitated, and refuses to leave the house whenever a thunderstorm occurs or is forecast. He has begun checking the weather repeatedly and cries when rain is predicted on a school day. Otherwise he does well academically, has several close friends, sleeps normally, and separates from his parents without difficulty. Which of the following is the most appropriate initial treatment?",
+      "answers": {
+        "A": "Cognitive behavioral therapy",
+        "B": "Fluoxetine",
+        "C": "Group psychotherapy",
+        "D": "Reassurance alone",
+        "E": "Valerian root supplementation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. He has a specific phobia, the most common anxiety disorder of school-aged children, and cognitive behavioral therapy with graded exposure is first-line treatment.",
+        "B": "SSRIs such as fluoxetine are second line for pediatric anxiety and are typically added when therapy alone is insufficient or symptoms are severe.",
+        "C": "Group therapy is more useful for social anxiety, where peer interaction is the therapeutic target.",
+        "D": "Reassurance alone is inadequate given a year of avoidance behavior that is impairing his functioning, and accommodating avoidance tends to reinforce anxiety.",
+        "E": "Herbal supplements such as valerian root lack evidence in pediatric anxiety disorders and are not regulated for potency or purity."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-019",
+      "question": "A 15-year-old girl is brought in by her mother for 8 weeks of irritability, frequent complaints of being bored, recurrent headaches and stomachaches without identifiable cause, refusal to attend school on most mornings, and withdrawal from her soccer team and friends. She has not gained the weight expected for her growth curve. She denies thoughts of harming herself and has no history of elevated mood or decreased need for sleep. Physical examination is unremarkable, and laboratory results are shown. Which of the following is the most appropriate initial management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "TSH",
+          "2.1 microU/mL",
+          "0.5-5.0 microU/mL"
+        ],
+        [
+          "Hemoglobin",
+          "13.0 g/dL",
+          "11.5-15.5 g/dL"
+        ],
+        [
+          "Ferritin",
+          "42 ng/mL",
+          "12-150 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Aripiprazole",
+        "B": "Bupropion",
+        "C": "Cognitive behavioral therapy",
+        "D": "Paroxetine",
+        "E": "Reassurance and observation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Aripiprazole is an antipsychotic used for pediatric mania and irritability in autism, not for uncomplicated adolescent depression.",
+        "B": "Bupropion lacks pediatric FDA approval for depression and is not a first-line agent in adolescents.",
+        "C": "Correct. Adolescent depression often presents with irritability, boredom, somatic complaints, school refusal, and social withdrawal rather than classic SIGECAPS symptoms, and cognitive behavioral therapy is first-line treatment with an SSRI added if needed.",
+        "D": "Paroxetine is not among the SSRIs with pediatric approval; fluoxetine, sertraline, and escitalopram are the agents with FDA approval in this population.",
+        "E": "Observation alone is inappropriate for 8 weeks of impairing symptoms including school refusal and inadequate weight gain."
+      }
+    },
+    {
+      "id": "neuro-child-adolescent-psychiatry-020",
+      "question": "A 15-year-old girl is brought to a rural clinic at 8 PM by her mother after telling her school counselor earlier that day that she no longer wants to be alive. She has withdrawn from friends over the past 3 months and her grades have fallen. She confirms ongoing thoughts of wanting to die. There is no crisis response center in the county, and the nearest child psychiatry appointment is 6 weeks away. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Advise the family to call 988 in the morning",
+        "B": "Prescribe fluoxetine and follow up in one week",
+        "C": "Refer to outpatient psychiatry within two weeks",
+        "D": "Schedule a return clinic visit in 48 hours",
+        "E": "Send the patient to the emergency department"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The 988 line is a valuable 24-hour resource by call, text, or chat, but delaying any evaluation until morning is unsafe for an adolescent with active suicidal thoughts.",
+        "B": "Starting an antidepressant without an immediate safety evaluation does not address acute risk, and any benefit would take weeks.",
+        "C": "A two-week outpatient referral leaves an acutely at-risk adolescent without evaluation and is inappropriate.",
+        "D": "A 48-hour follow-up interval does not provide the immediate assessment that active suicidal ideation requires.",
+        "E": "Correct. A child in mental health crisis should be evaluated immediately at a crisis response center, and where none exists the local emergency department is the appropriate destination for urgent psychiatric evaluation."
+      }
+    }
+  ]
+}
