@@ -1,0 +1,420 @@
+{
+  "lecture": "Outer & Middle Ear Auditory System",
+  "block": "neuro",
+  "generated": "2026-09-01",
+  "questions": [
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-001",
+      "question": "A 45-year-old man sustains a temporal bone fracture in a motor vehicle collision. Audiometry 6 weeks later shows a 30-dB air-bone gap on the injured side with normal bone conduction thresholds, and exploratory tympanotomy reveals incudostapedial joint dislocation. His surgeon explains that the middle ear normally recovers nearly all of the energy that would otherwise be lost as sound passes from the air-filled middle ear into the fluid-filled cochlea. Which mechanism accounts for the largest share of this recovered energy?",
+      "answers": {
+        "A": "Catenary buckling motion of the tympanic membrane",
+        "B": "Lever action of the malleus and incus",
+        "C": "Ratio of tympanic membrane area to stapes footplate area",
+        "D": "Reflex contraction of the stapedius and tensor tympani",
+        "E": "Resonance of the external auditory canal"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The catenary effect of the tympanic membrane contributes only about 3 dB of the roughly 30 dB total recovery.",
+        "B": "The ossicular lever ratio is only 1.3:1, worth approximately 2.5 dB of gain.",
+        "C": "The 17:1 area ratio between the tympanic membrane and the stapes footplate provides about 25 dB of the 27.5 dB middle ear gain, the dominant component of impedance matching.",
+        "D": "Middle ear muscle contraction attenuates rather than amplifies sound and serves a protective role.",
+        "E": "External canal resonance adds only about 5-10 dB and occurs before sound reaches the middle ear, so it does not address the air-fluid impedance mismatch."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-002",
+      "question": "A 24-year-old woman presents with hearing loss in the left ear that she noticed on waking. She had tympanostomy tubes placed before age 10 and swam competitively through college, after which water frequently lingered in her canals, so she habitually dries her ears with cotton-tipped swabs. She reports mild humming tinnitus on the left but denies otalgia, otorrhea, vertigo, and noise exposure. Otoscopy shows the right tympanic membrane to be normal and the left canal to be completely obstructed by firm brown material. Which set of tuning fork findings is most likely?",
+      "answers": {
+        "A": "Weber lateralizes to the left ear; Rinne shows AC > BC bilaterally",
+        "B": "Weber lateralizes to the left ear; Rinne shows BC > AC on the left",
+        "C": "Weber lateralizes to the right ear; Rinne shows AC > BC bilaterally",
+        "D": "Weber lateralizes to the right ear; Rinne shows BC > AC on the left",
+        "E": "Weber remains midline; Rinne shows BC > AC bilaterally"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Weber lateralization to the obstructed ear is correct, but AC > BC bilaterally would indicate no conductive element on the left.",
+        "B": "Cerumen impaction produces a conductive loss, so Weber lateralizes toward the affected left ear and Rinne on that side shows bone conduction greater than air conduction.",
+        "C": "Lateralization away from the left would indicate a sensorineural loss on the left, which is not consistent with an obstructing canal lesion.",
+        "D": "Weber lateralizing away from an ear that has a conductive loss is internally contradictory.",
+        "E": "A midline Weber implies symmetric hearing, and bilateral BC > AC would require a conductive loss in both ears, but the right ear is normal."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-003",
+      "question": "A 32-year-old woman reports 3 years of slowly progressive hearing loss in the right ear that is worse in quiet settings. She has no history of ear infections, otorrhea, otalgia, or noise exposure, and her mother required ear surgery in her thirties. Otoscopy is entirely normal bilaterally, and pneumatic insufflation shows a mobile tympanic membrane on both sides. Testing results are shown. Which diagnosis best explains these findings?",
+      "table": [
+        ["Measure", "Right ear", "Left ear"],
+        ["Air conduction PTA", "48 dB HL", "8 dB HL"],
+        ["Bone conduction PTA", "12 dB HL", "5 dB HL"],
+        ["Word recognition score", "100%", "100%"],
+        ["Tympanogram", "Type A (normal)", "Type A (normal)"]
+      ],
+      "correct": "C",
+      "answers": {
+        "A": "Cholesteatoma of the epitympanum",
+        "B": "Otitis media with effusion",
+        "C": "Otosclerosis with stapes fixation",
+        "D": "Presbycusis of the right cochlea",
+        "E": "Tympanic membrane perforation"
+      },
+      "explanations": {
+        "A": "Cholesteatoma would produce visible retraction, keratin debris, or drainage on otoscopy rather than a completely normal examination.",
+        "B": "Middle ear effusion would give a flat type B tympanogram and visible fluid, not a normal type A tracing.",
+        "C": "Fixation of the stapes footplate at the oval window causes a conductive loss with a normal examination and normal tympanogram, and it typically begins in the twenties to forties.",
+        "D": "Presbycusis produces a bilateral sensorineural loss with no air-bone gap, whereas this patient has a 36-dB gap on the right.",
+        "E": "A perforation would be visible on otoscopy and would produce a flat tympanogram with an elevated ear canal volume."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-004",
+      "question": "A 6-year-old boy is brought in because he turns the television volume up and does not respond when called from another room. He had an upper respiratory infection 6 weeks ago but has had no fever or ear pain since. Otoscopy shows amber fluid with a visible air-fluid level behind an intact, retracted tympanic membrane that does not move on insufflation, and tympanometry shows a flat tracing with normal ear canal volume. Which mechanism best explains the fluid in his middle ear?",
+      "answers": {
+        "A": "Bacterial invasion generating a purulent middle ear exudate",
+        "B": "Erosion of the ossicular chain by accumulated keratin debris",
+        "C": "Fixation of the stapes footplate within the oval window",
+        "D": "Transudate formation from negative middle ear pressure",
+        "E": "Traumatic disruption of the pars tensa with bleeding"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Purulent fluid characterizes acute otitis media and would be accompanied by otalgia, fever, and a bulging erythematous membrane.",
+        "B": "Keratin accumulation describes cholesteatoma, which presents with a retraction pocket filled with white debris rather than clear amber fluid.",
+        "C": "Stapes fixation causes a conductive loss with a normal tympanogram and no middle ear fluid.",
+        "D": "Eustachian tube dysfunction lowers middle ear pressure relative to atmospheric pressure, and the resulting transudate produces a non-purulent effusion with a flat tympanogram.",
+        "E": "Traumatic disruption would show a visible perforation and an elevated ear canal volume on tympanometry."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-005",
+      "question": "A 2-year-old girl is brought to clinic with 2 days of fever to 38.9 C (102 F), irritability, and tugging at her right ear following a week of nasal congestion. Otoscopy shows a bulging, erythematous, opaque right tympanic membrane with no movement on pneumatic insufflation. Her mother asks what organism is most likely responsible. Which pathogen is the most common cause of this condition?",
+      "answers": {
+        "A": "Haemophilus influenzae",
+        "B": "Moraxella catarrhalis",
+        "C": "Pseudomonas aeruginosa",
+        "D": "Staphylococcus aureus",
+        "E": "Streptococcus pneumoniae"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "H. influenzae is the second most frequent cause of acute otitis media, not the most common.",
+        "B": "M. catarrhalis ranks third in frequency among middle ear pathogens.",
+        "C": "Pseudomonas colonizes the external canal and causes otitis externa, not typical acute otitis media.",
+        "D": "S. aureus is a common external canal pathogen and is far less frequent behind an intact tympanic membrane.",
+        "E": "S. pneumoniae is the most frequent organism in acute otitis media, followed by H. influenzae and then M. catarrhalis."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-006",
+      "question": "A 17-year-old competitive swimmer presents with 3 days of right ear pain, itching, and foul-smelling drainage. He has no fever and no significant medical history. Manipulation of the tragus reproduces the pain, the canal is edematous with white-yellow exudate, and the tympanic membrane appears intact where it can be visualized. Which is the most appropriate initial management?",
+      "answers": {
+        "A": "Canal debridement with acidifying antibiotic-steroid drops",
+        "B": "High-volume irrigation of the canal with warm tap water",
+        "C": "Intravenous antipseudomonal therapy after urgent imaging",
+        "D": "Myringotomy with placement of a tympanostomy tube",
+        "E": "Oral amoxicillin-clavulanate for 10 days as monotherapy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Otitis externa is treated by clearing debris and restoring the acidic environment of the canal with topical antibiotic-steroid preparations, with a wick placed if the canal is too swollen for drops to penetrate.",
+        "B": "Irrigation introduces water into an already macerated canal and can worsen the infection or cause trauma.",
+        "C": "Aggressive systemic therapy and imaging are reserved for necrotizing otitis externa in immunocompromised patients, not an uncomplicated case in a healthy teenager.",
+        "D": "Tympanostomy tubes address middle ear effusion and have no role in an infection confined to the canal skin.",
+        "E": "Oral antibiotics are added only for surrounding cellulitis or immunocompromise, and they penetrate canal skin poorly compared with topical therapy."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-007",
+      "question": "A 68-year-old man with poorly controlled type 2 diabetes mellitus has had 6 weeks of severe left ear pain and drainage that has not improved despite two courses of topical drops. Examination shows granulation tissue at the bony-cartilaginous junction of the canal, and he has developed a new left-sided facial droop involving the forehead. Laboratory results are shown. Which diagnosis best explains this presentation?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Glucose, serum", "312 mg/dL", "70-110 mg/dL"],
+        ["Hemoglobin A1c", "11.2%", "<5.7%"],
+        ["Erythrocyte sedimentation rate", "98 mm/h", "0-20 mm/h"],
+        ["Leukocyte count", "11,400/mm3", "4,500-11,000/mm3"]
+      ],
+      "correct": "D",
+      "answers": {
+        "A": "Acute coalescent mastoiditis",
+        "B": "Bell palsy with coincidental otitis externa",
+        "C": "Congenital cholesteatoma of the middle ear",
+        "D": "Necrotizing (malignant) otitis externa",
+        "E": "Ramsay Hunt syndrome"
+      },
+      "explanations": {
+        "A": "Mastoiditis follows middle ear infection and presents with postauricular swelling and a protruding auricle rather than canal granulation tissue.",
+        "B": "Bell palsy is a diagnosis of exclusion and does not explain refractory otorrhea, canal granulation tissue, or a markedly elevated sedimentation rate.",
+        "C": "Cholesteatoma is typically painless and produces a retraction pocket with keratin debris rather than granulation tissue with systemic inflammation.",
+        "D": "Skull base osteomyelitis arising from otitis externa occurs in poorly controlled diabetics, resists topical therapy, produces canal granulation tissue with a high sedimentation rate, and causes cranial nerve palsies as it spreads along the skull base.",
+        "E": "Ramsay Hunt syndrome causes facial paralysis with vesicles in the canal or concha, not chronic granulation tissue and refractory drainage."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-008",
+      "question": "A 27-year-old man with a long history of eustachian tube dysfunction and childhood ear infections presents with painless, foul-smelling drainage from the left ear and progressive hearing loss. Otoscopy shows a deep retraction pocket in the superior portion of the tympanic membrane filled with white, flaky debris; the inferior portion of the membrane appears normal. Which anatomic feature best explains why this lesion arose in that specific region?",
+      "answers": {
+        "A": "Absence of the middle fibrous layer present in the pars tensa",
+        "B": "Constant exposure to positive pressure from the eustachian tube",
+        "C": "Direct contact of that region with the stapes footplate",
+        "D": "Lack of squamous epithelium on the lateral surface there",
+        "E": "Proximity of that region to the umbo and cone of light"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The pars flaccida has only two layers and lacks the fibrous middle layer of the three-layered pars tensa, making it prone to retraction under the chronic negative pressure of eustachian tube dysfunction.",
+        "B": "Eustachian tube dysfunction produces chronically negative rather than positive middle ear pressure.",
+        "C": "The stapes footplate sits in the oval window on the medial wall of the middle ear and does not contact the tympanic membrane.",
+        "D": "The lateral surface of the entire tympanic membrane is squamous epithelium, and it is that migrating keratinizing epithelium that fills the pocket.",
+        "E": "The umbo and cone of light are located in the pars tensa inferiorly, away from the vulnerable pars flaccida."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-009",
+      "question": "A 34-year-old man has had 2 years of intermittent malodorous right ear drainage and hearing loss. Over the past month he has had brief episodes of vertigo when he presses on the tragus or blows his nose. Otoscopy shows white debris eroding into the attic, and CT of the temporal bones demonstrates a soft tissue mass in the epitympanum with erosion of the lateral semicircular canal. Which is the most appropriate management?",
+      "answers": {
+        "A": "Middle ear and mastoid surgery to remove the lesion",
+        "B": "Observation with serial audiograms every 6 months",
+        "C": "Oral corticosteroids with vestibular suppressant therapy",
+        "D": "Placement of a pressure equalization tube in the right ear",
+        "E": "Topical antibiotic drops with dry ear precautions alone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cholesteatoma is a locally destructive epithelial cyst that will continue to erode bone, and surgical removal is the only definitive treatment, particularly once a labyrinthine fistula has developed.",
+        "B": "Observation permits continued erosion toward the facial nerve, labyrinth, and intracranial cavity.",
+        "C": "Steroids and vestibular suppressants treat symptoms of inner ear disorders and do nothing to remove the eroding keratin mass.",
+        "D": "Tubes ventilate the middle ear but cannot address an established cholesteatoma with bony erosion.",
+        "E": "Topical therapy may temporarily reduce drainage but leaves the underlying lesion and its expansion untreated."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-010",
+      "question": "A 3-year-old boy completed a course of oral antibiotics for acute otitis media 10 days ago. He now has a temperature of 39.2 C (102.6 F), postauricular erythema and fluctuant swelling, and his right auricle is displaced forward and downward. CT shows opacification of the mastoid air cells with loss of the bony septations. Which is the most appropriate next step in management?",
+      "answers": {
+        "A": "Intravenous antibiotics with surgical drainage",
+        "B": "Observation with reassessment in 48 hours",
+        "C": "Oral amoxicillin with warm compresses",
+        "D": "Topical ciprofloxacin-dexamethasone drops",
+        "E": "Tympanostomy tube alone under local anesthesia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Coalescent mastoiditis is a surgical emergency because necrosis of the bony septae has formed an abscess that can extend intracranially, so intravenous antibiotics plus drainage are required.",
+        "B": "Delay risks meningitis, brain abscess, and facial nerve paralysis from continued bony destruction.",
+        "C": "Oral therapy has already failed and cannot penetrate an established abscess cavity.",
+        "D": "Topical drops treat canal skin infection and cannot reach the mastoid air cells.",
+        "E": "A tube may drain the middle ear but does not evacuate a coalescent mastoid abscess."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-011",
+      "question": "A 58-year-old woman is evaluated for difficulty determining which direction sounds are coming from, although her pure-tone thresholds are normal in both ears. MRI shows a small infarct in the caudal pons involving the first nucleus in the ascending auditory pathway that receives input from both cochlear nuclei. Which structure was most likely damaged?",
+      "answers": {
+        "A": "Cochlear nucleus",
+        "B": "Inferior colliculus",
+        "C": "Lateral lemniscus",
+        "D": "Medial geniculate body",
+        "E": "Superior olivary nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The cochlear nucleus receives input from only the ipsilateral cochlear nerve and is therefore monaural.",
+        "B": "The inferior colliculus lies in the midbrain and is a later relay, well downstream of the first binaural convergence.",
+        "C": "The lateral lemniscus is the ascending fiber tract between the olivary complex and the inferior colliculus rather than the first binaural nucleus.",
+        "D": "The medial geniculate body is the thalamic relay that projects to auditory cortex, the final subcortical station.",
+        "E": "The superior olivary complex in the pons is the first site receiving bilateral input, which is why it mediates interaural timing and intensity comparisons used for sound localization."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-012",
+      "question": "A 52-year-old woman reports 1 year of progressive left hearing loss with constant left-sided tinnitus, and she can no longer use the telephone on that side. She has no ear pain, drainage, or infection history, and otoscopy is normal bilaterally. Audiometric results are shown. Which is the most appropriate next step?",
+      "table": [
+        ["Measure", "Right ear", "Left ear"],
+        ["Air conduction PTA", "10 dB HL", "50 dB HL"],
+        ["Bone conduction PTA", "8 dB HL", "51 dB HL"],
+        ["Word recognition score", "100%", "48%"],
+        ["Tympanogram", "Type A (normal)", "Type A (normal)"]
+      ],
+      "correct": "B",
+      "answers": {
+        "A": "Bone-anchored hearing device evaluation",
+        "B": "Gadolinium-enhanced MRI of the internal auditory canals",
+        "C": "Myringotomy with tympanostomy tube placement",
+        "D": "Reassurance with a repeat audiogram in 1 year",
+        "E": "Stapedectomy with prosthesis placement on the left"
+      },
+      "explanations": {
+        "A": "Amplification may eventually be discussed, but a device would be offered only after the cause of the asymmetry has been identified.",
+        "B": "Asymmetric sensorineural hearing loss with disproportionately poor word recognition requires imaging to exclude retrocochlear pathology such as a vestibular schwannoma.",
+        "C": "There is no air-bone gap or effusion, so a tube would treat a problem she does not have.",
+        "D": "Deferring evaluation risks missing a growing cerebellopontine angle tumor.",
+        "E": "Stapedectomy treats conductive loss from stapes fixation, and her bone and air conduction thresholds are equal."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-013",
+      "question": "A 77-year-old man has worn bilateral hearing aids for 10 years for hearing loss present for 15 years. His current aids are 18 months old and correctly programmed, yet over the past year he has found conversation increasingly unintelligible and has begun declining social invitations. He denies otalgia, otorrhea, and prior ear infections, and otoscopy is normal. His audiogram is shown. Which is the most appropriate next step?",
+      "table": [
+        ["Measure", "Right ear", "Left ear"],
+        ["Pure-tone average (500, 1000, 2000, 3000 Hz)", "68 dB HL", "71 dB HL"],
+        ["Word recognition score", "40%", "36%"],
+        ["Tympanogram", "Type A (normal)", "Type A (normal)"]
+      ],
+      "correct": "C",
+      "answers": {
+        "A": "Bone-anchored hearing device placement",
+        "B": "MRI of the internal auditory canals",
+        "C": "Referral for cochlear implant evaluation",
+        "D": "Repeat audiometry in 12 months",
+        "E": "Trial of higher-output digital hearing aids"
+      },
+      "explanations": {
+        "A": "Bone conduction devices are for conductive or mixed losses with good bone thresholds, not for bilateral severe sensorineural loss.",
+        "B": "Imaging is indicated for asymmetric loss, whereas his thresholds and word scores are symmetric.",
+        "C": "A pure-tone average above 60 dB HL with word recognition below 60% meets the threshold for referral for aided speech perception testing and cochlear implant candidacy.",
+        "D": "Waiting another year prolongs auditory deprivation and social withdrawal when a definitive option exists.",
+        "E": "He is already appropriately aided and still losing word understanding, which signals that amplification alone has reached its limit."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-014",
+      "question": "A 4-year-old boy has a right ear with only a small rudiment of soft tissue and no external auditory canal; the left ear and canal are normal. CT shows an atretic bony canal with a malformed but present ossicular mass and a normal cochlea on the right. Audiometry shows right-sided air conduction thresholds of 60 dB HL with bone conduction thresholds of 10 dB HL, and normal hearing on the left. Which intervention will best restore hearing on the affected side?",
+      "answers": {
+        "A": "Bone-conduction (bone-anchored) hearing device",
+        "B": "Cochlear implantation of the right ear",
+        "C": "Conventional air-conduction hearing aid on the right",
+        "D": "No intervention until adolescence",
+        "E": "Tympanostomy tube placement on the right"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Aural atresia produces a purely conductive loss with preserved bone conduction thresholds, which is precisely the situation a bone-anchored device is designed to bypass.",
+        "B": "Cochlear implantation is for severe-to-profound sensorineural loss, and his cochlea and bone conduction thresholds are normal.",
+        "C": "An air-conduction aid requires a patent canal to deliver amplified sound to the tympanic membrane, which he does not have.",
+        "D": "Leaving a unilateral conductive loss untreated impairs sound localization and hearing in background noise during critical developmental years.",
+        "E": "A tube treats middle ear effusion and cannot be placed or benefit an ear with no canal."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-015",
+      "question": "An 81-year-old man with bilateral hearing aids reports 2 months of worsening hearing and aural fullness. He cleans his ears daily with cotton-tipped swabs. Examination shows both canals completely occluded by firm cerumen; neither tympanic membrane can be visualized, and tuning fork testing shows Weber that does not lateralize with bone conduction greater than air conduction bilaterally. Which is the most appropriate management?",
+      "answers": {
+        "A": "Cerumenolytic drops followed by removal under direct visualization",
+        "B": "Ear candling performed weekly until the canals are clear",
+        "C": "High-pressure irrigation of both canals with warm water",
+        "D": "Referral for tympanoplasty and ossicular reconstruction",
+        "E": "Twice-daily cleaning of both canals with cotton swabs"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Softening the wax with a cerumenolytic such as hydrogen peroxide, mineral oil, or carbamide peroxide and then removing it with suction or microinstruments under direct visualization is both effective and atraumatic.",
+        "B": "Ear candling carries substantial risk of burns and canal injury and does not remove cerumen.",
+        "C": "Irrigation risks canal trauma and predisposes to otitis externa, and it is unsafe when the tympanic membrane cannot be seen.",
+        "D": "There is no evidence of a membrane or ossicular problem, since the air-bone gap is fully explained by canal obstruction.",
+        "E": "Cotton swabs push cerumen deeper and abrade the canal skin, which is what created the impaction in the first place."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-016",
+      "question": "A 19-year-old man is struck on the left side of the head with an open hand. He had immediate sharp pain, a small amount of bleeding from the canal, and muffled hearing on that side. He denies vertigo and nystagmus is absent. Otoscopy shows a 20% perforation of the left pars tensa with clotted blood at the edges and no drainage. Tympanometry results are shown. Which is the most appropriate management?",
+      "table": [
+        ["Measure", "Right ear", "Left ear"],
+        ["Ear canal volume", "1.2 mL", "4.4 mL"],
+        ["Static compliance", "0.7 mmho", "No measurable peak"],
+        ["Tympanogram type", "A", "B"]
+      ],
+      "correct": "A",
+      "answers": {
+        "A": "Dry ear precautions with observation and repeat examination",
+        "B": "Immediate tympanoplasty with temporalis fascia graft",
+        "C": "Oral antibiotics with daily saline irrigation of the canal",
+        "D": "Placement of a pressure equalization tube on the left",
+        "E": "Urgent CT of the temporal bones and inner ear testing"
+      },
+      "explanations": {
+        "A": "Most small traumatic perforations close spontaneously, so keeping the ear dry and re-examining is the standard approach, with surgery reserved for those that fail to heal.",
+        "B": "Immediate repair is unnecessary when the perforation is small and likely to close on its own.",
+        "C": "Irrigating a perforated ear introduces fluid into the middle ear and may cause infection, and antibiotics are not needed without signs of infection.",
+        "D": "A tube ventilates the middle ear, which is already open to the canal through the perforation.",
+        "E": "The absence of vertigo, nystagmus, and sensorineural loss makes inner ear injury unlikely and does not warrant urgent imaging."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-017",
+      "question": "A 20-year-old collegiate wrestler presents 12 hours after a match with a tense, fluctuant, purple swelling over the antihelix and scaphoid fossa of the right auricle. The overlying skin is intact and the ear canal and tympanic membrane are normal. He asks how to avoid the permanent deformity he has seen in teammates. Which is the most appropriate management?",
+      "answers": {
+        "A": "Ice packs with observation until the swelling resorbs",
+        "B": "Incision and drainage with a compressive bolster dressing",
+        "C": "Intralesional corticosteroid injection into the swelling",
+        "D": "Oral antibiotics alone for a 10-day course",
+        "E": "Reconstructive otoplasty scheduled in 6 weeks"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An organizing hematoma will not resorb quickly enough to prevent cartilage injury.",
+        "B": "Shearing separates the skin and perichondrium from cartilage, and the collected blood cuts the cartilage off from its blood supply, so prompt evacuation with a bolster to prevent reaccumulation preserves the cartilage.",
+        "C": "Steroid injection does not evacuate the collection and leaves the cartilage devascularized.",
+        "D": "Antibiotics do not address the mechanical separation of perichondrium from cartilage that causes necrosis and fibrosis.",
+        "E": "Delayed reconstruction accepts the cauliflower deformity rather than preventing it."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-018",
+      "question": "A 45-year-old man reports several years of worsening hearing. He says his wife and children mumble and that he cannot follow conversation unless he sees the speaker's face, and he has bilateral high-pitched tinnitus. He has worked for 20 years in a plant requiring hearing protection, which he wears inconsistently. He denies otalgia, otorrhea, vertigo, and prior ear surgery. Which combination of findings is most likely on examination?",
+      "answers": {
+        "A": "Normal otoscopy; Weber midline, Rinne AC > BC bilaterally",
+        "B": "Normal otoscopy; Weber to the right, Rinne BC > AC on the right",
+        "C": "Retracted membranes; Weber midline, Rinne BC > AC bilaterally",
+        "D": "Serous effusions; Weber to the left, Rinne BC > AC on the left",
+        "E": "Tympanic perforation; Weber to the left, Rinne AC > BC bilaterally"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Occupational noise-induced hearing loss is a symmetric cochlear loss, so the ears look normal, the Weber does not lateralize, and air conduction remains greater than bone conduction on both sides.",
+        "B": "Lateralization to one ear with a conductive pattern implies unilateral middle or external ear pathology, which his history does not suggest.",
+        "C": "Retracted membranes with bilateral conductive findings point to eustachian tube dysfunction rather than noise exposure.",
+        "D": "Effusions cause aural fullness and a conductive loss and would be visible on otoscopy.",
+        "E": "A perforation would cause a conductive loss with BC > AC in that ear, and Weber would lateralize toward it, not produce AC > BC bilaterally."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-019",
+      "question": "A 55-year-old woman with a symmetric sensorineural hearing loss says her thresholds sound fine at home but she cannot follow conversation in restaurants and misses consonants at the ends of words. Her audiologist explains that her deficit falls in the frequency band that carries most of the information in human speech and where the normal ear is most sensitive. Which frequency range is being described?",
+      "answers": {
+        "A": "20 to 200 Hz",
+        "B": "200 to 400 Hz",
+        "C": "500 to 3000 Hz",
+        "D": "4000 to 6000 Hz",
+        "E": "8000 to 20,000 Hz"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This is at the very bottom of the 20 to 20,000 Hz human range and contributes little to speech intelligibility.",
+        "B": "These low frequencies carry voicing and fundamental pitch but not the bulk of speech information.",
+        "C": "Thresholds are lowest between roughly 500 Hz and 3 kHz, and this band carries approximately 95% of the information in human speech.",
+        "D": "Loss here is typical of early noise-induced damage but sits above the region of peak sensitivity for speech.",
+        "E": "The upper octaves contribute minimally to speech understanding and are often the first lost with aging."
+      }
+    },
+    {
+      "id": "neuro-outer-middle-ear-auditory-system-020",
+      "question": "A 4-year-old girl has had bilateral middle ear effusions documented at three visits over the past 4 months without fever or ear pain. Her preschool teacher notes she frequently says 'what?' and her speech is behind that of her peers. Otoscopy shows immobile tympanic membranes with visible fluid, tympanometry is flat bilaterally with normal ear canal volumes, and audiometry shows a 30-dB conductive loss in both ears. Which is the most appropriate next step?",
+      "answers": {
+        "A": "Adenoidectomy without any middle ear procedure",
+        "B": "Continued observation with recheck in 6 months",
+        "C": "Myringotomy with pressure equalization tube placement",
+        "D": "Oral amoxicillin at high dose for 10 days",
+        "E": "Systemic decongestants with oral antihistamines"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Adenoidectomy may be added in selected children but does not by itself drain the existing effusions or restore hearing.",
+        "B": "Observation is appropriate early, but effusions persisting beyond 3 months with hearing loss and speech delay warrant intervention.",
+        "C": "Chronic effusion lasting 3 or more months with conductive hearing loss is the indication for tubes, which ventilate the middle ear and prevent further loss until the eustachian tubes mature.",
+        "D": "Antibiotics target acute purulent infection, and this is a non-purulent effusion without signs of acute infection.",
+        "E": "Decongestants and antihistamines have not been shown to clear middle ear effusions."
+      }
+    }
+  ]
+}
