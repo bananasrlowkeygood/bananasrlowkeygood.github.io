@@ -1,0 +1,510 @@
+{
+  "lecture": "Infections of the Ear, Nose, & Throat",
+  "block": "neuro",
+  "generated": "2026-09-02",
+  "questions": [
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-001",
+      "question": "A 16-year-old competitive swimmer has 3 days of right ear pain and itching. He is afebrile. Pulling on the pinna and pressing on the tragus reproduce his pain. The external auditory canal is edematous and erythematous with purulent debris; after the debris is cleared, the tympanic membrane appears normal and moves well on insufflation. Which of the following is the most likely causative organism?",
+      "answers": {
+        "A": "Haemophilus influenzae",
+        "B": "Moraxella catarrhalis",
+        "C": "Pseudomonas aeruginosa",
+        "D": "Staphylococcus epidermidis",
+        "E": "Streptococcus pneumoniae"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Nontypeable Haemophilus influenzae colonizes the nasopharynx and causes middle ear and sinus infection rather than canal infection.",
+        "B": "Moraxella catarrhalis is a middle ear and sinus pathogen and is not associated with moisture-related external canal infection.",
+        "C": "Correct. Persistent canal moisture favors Pseudomonas aeruginosa, an oxidase-positive, biofilm-forming organism that is the classic cause of swimmer's ear; tragal tenderness with a normal tympanic membrane localizes disease to the canal.",
+        "D": "Staphylococcus epidermidis is usually a skin contaminant and is far less likely than Pseudomonas or Staphylococcus aureus in this setting.",
+        "E": "Streptococcus pneumoniae causes middle ear disease behind an intact membrane and would produce a bulging, immobile tympanic membrane."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-002",
+      "question": "A 2-year-old boy is brought to the pediatrician for 2 days of fever, irritability, and tugging at his right ear. He attends daycare and had rhinorrhea and cough the previous week. His temperature is 38.5°C (101.3°F). Otoscopy shows a bulging, erythematous right tympanic membrane with decreased mobility on insufflation and loss of the normal light reflex; the left ear is normal. Which of the following is the most likely causative pathogen?",
+      "answers": {
+        "A": "Haemophilus influenzae type b",
+        "B": "Moraxella catarrhalis",
+        "C": "Pseudomonas aeruginosa",
+        "D": "Staphylococcus aureus",
+        "E": "Streptococcus pneumoniae"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Encapsulated type b strains cause invasive disease such as epiglottitis and meningitis; the strains implicated in otitis media are nontypeable and lack the capsule.",
+        "B": "Moraxella catarrhalis is a recognized cause of otitis media but ranks behind pneumococcus in frequency and nearly always produces beta-lactamase.",
+        "C": "Pseudomonas aeruginosa is associated with otitis externa in swimmers and with malignant otitis externa in diabetics, not with middle ear infection after a viral URI.",
+        "D": "Staphylococcus aureus is an uncommon middle ear pathogen and is more typical of otitis externa or infection following tympanostomy tube placement.",
+        "E": "Correct. Streptococcus pneumoniae is the leading cause of acute otitis media following eustachian tube dysfunction from a viral URI, and its polysaccharide capsule is the key virulence factor."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-003",
+      "question": "A 45-year-old man with poor dental hygiene has a slowly enlarging, minimally tender mass over the left mandible that has been growing for 4 weeks. He underwent a molar extraction 2 months ago. Over the past week the mass began draining thick yellowish material through several small openings in the overlying skin, and the drainage contains visible yellow granules. He is afebrile and has no regional lymphadenopathy. Which of the following is the most likely causative organism?",
+      "answers": {
+        "A": "Actinomyces israelii",
+        "B": "Mycobacterium tuberculosis",
+        "C": "Nocardia asteroides",
+        "D": "Staphylococcus aureus",
+        "E": "Streptococcus pyogenes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Actinomyces israelii is an anaerobic gram-positive branching rod of normal oral flora that invades after mucosal disruption such as dental extraction, producing an indolent cervicofacial mass with draining sinus tracts and sulfur granules.",
+        "B": "Scrofula from mycobacterial infection produces painless cervical lymph node enlargement with caseating granulomas, not sulfur granules after dental work.",
+        "C": "Nocardia is an aerobic, weakly acid-fast organism found in soil that causes pulmonary and CNS disease in immunocompromised hosts rather than cervicofacial sinus tracts.",
+        "D": "Staphylococcus aureus produces an acutely painful, erythematous, fluctuant abscess over days rather than an indolent mass with chronic fistulae.",
+        "E": "Streptococcus pyogenes causes rapidly spreading cellulitis or erysipelas with fever and sharply demarcated erythema."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-004",
+      "question": "A 19-year-old college student has 5 days of fever, severe sore throat, and profound fatigue. He shared drinks with friends at a party about 5 weeks ago. His temperature is 38.3°C (100.9°F). He has bilateral posterior cervical lymphadenopathy, pharyngeal erythema with tonsillar enlargement and white exudates, and a spleen tip palpable 3 cm below the left costal margin. Laboratory studies are shown. Which of the following is the most likely causative agent?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Leukocyte count",
+          "14,200/mm3",
+          "4,500-11,000/mm3"
+        ],
+        [
+          "Lymphocytes",
+          "62%, many atypical forms",
+          "20-40%"
+        ],
+        [
+          "AST",
+          "78 U/L",
+          "10-40 U/L"
+        ],
+        [
+          "ALT",
+          "92 U/L",
+          "10-40 U/L"
+        ],
+        [
+          "Heterophile antibody test",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "Rapid streptococcal antigen",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Cytomegalovirus produces a nearly identical mononucleosis syndrome but characteristically has a negative heterophile antibody test and less prominent pharyngitis.",
+        "B": "Correct. Fever, posterior cervical lymphadenopathy, exudative pharyngitis, splenomegaly, atypical lymphocytes, transaminitis, and a positive heterophile test define Epstein-Barr virus mononucleosis.",
+        "C": "Acute retroviral syndrome can mimic mononucleosis but typically includes a maculopapular rash and mucocutaneous ulcers and does not produce heterophile antibodies.",
+        "D": "Group A Streptococcus causes anterior cervical adenopathy without splenomegaly or atypical lymphocytosis, and the rapid antigen test here is negative.",
+        "E": "Toxoplasma gondii causes isolated painless lymphadenopathy in immunocompetent hosts without exudative pharyngitis or a positive heterophile test."
+      },
+      "answers": {
+        "A": "Cytomegalovirus",
+        "B": "Epstein-Barr virus",
+        "C": "Human immunodeficiency virus",
+        "D": "Streptococcus pyogenes",
+        "E": "Toxoplasma gondii"
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-005",
+      "question": "A 35-year-old man reports 12 days of nasal congestion, thick purulent nasal discharge, and pressure over both cheeks. His illness began as a typical cold that improved after 5 days before worsening again despite decongestants. His temperature is 38.0°C (100.4°F), there is tenderness over the maxillary sinuses, and anterior rhinoscopy shows erythematous mucosa with thick yellow-green discharge. He has no vision changes and his lungs are clear. Which of the following best explains the pathophysiology of his current symptoms?",
+      "answers": {
+        "A": "Allergic inflammation with eosinophilic infiltration of the mucosa",
+        "B": "Angioinvasion of mucosal vessels by broad nonseptate hyphae",
+        "C": "Autoimmune destruction of nasal mucosa by cytotoxic T cells",
+        "D": "Endotoxin-driven systemic vasodilation and capillary leak",
+        "E": "Viral injury to ciliated epithelium impairing sinus drainage"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Allergic rhinosinusitis produces clear discharge, sneezing, and itching with seasonal triggers rather than a biphasic febrile illness with purulent drainage.",
+        "B": "Angioinvasive mold disease occurs in diabetic ketoacidosis or immunosuppression and produces black eschar, cranial neuropathy, and rapid progression.",
+        "C": "Cytotoxic autoimmune destruction of the mucosa suggests granulomatous vasculitis, which causes crusting, septal perforation, and renal involvement over months.",
+        "D": "Endotoxin-mediated vasodilation describes gram-negative sepsis physiology and does not explain localized sinus obstruction.",
+        "E": "Correct. A preceding viral URI damages respiratory epithelium and impairs mucociliary clearance, obstructing the sinus ostia and allowing mucus stasis with bacterial superinfection, classically presenting as symptoms beyond 10 days or a double worsening."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-006",
+      "question": "A 2-year-old girl is brought to the emergency department with 3 days of rhinorrhea and low-grade fever, followed by a harsh barking cough and noisy breathing that is worse at night. She is afebrile on arrival, has inspiratory stridor only when agitated, is drinking fluids without difficulty, and is not drooling. A frontal neck radiograph shows tapered subglottic narrowing. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Bacterial tracheitis",
+        "B": "Epiglottitis",
+        "C": "Foreign body aspiration",
+        "D": "Peritonsillar abscess",
+        "E": "Viral laryngotracheobronchitis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Bacterial tracheitis presents with high fever, a toxic appearance, and copious purulent tracheal secretions rather than a gradual coryzal prodrome with a barking cough.",
+        "B": "Epiglottitis is abrupt in onset with high fever, drooling, dysphagia, and a thumbprint sign, none of which are present here.",
+        "C": "Foreign body aspiration begins suddenly with choking in a previously well child and produces unilateral findings, not a several-day viral prodrome.",
+        "D": "Peritonsillar abscess causes a muffled voice, trismus, and uvular deviation in older children and adolescents, without subglottic narrowing.",
+        "E": "Correct. Gradual onset after a coryzal prodrome with a barking cough and a steeple sign from subglottic edema is classic for viral croup."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-007",
+      "question": "A 4-year-old boy is brought to the emergency department 6 hours after developing a high fever and refusing to swallow. His family recently immigrated and cannot confirm which childhood vaccines he received. His temperature is 39.5°C (103.1°F). He is sitting upright, leaning forward with his neck extended and chin thrust out, drooling, and speaking in a muffled voice. Inspiratory stridor is audible at rest. A lateral neck radiograph shows an enlarged, rounded epiglottis. Which of the following organisms is the most likely cause of his condition?",
+      "answers": {
+        "A": "Corynebacterium diphtheriae",
+        "B": "Haemophilus influenzae type b",
+        "C": "Moraxella catarrhalis",
+        "D": "Staphylococcus aureus",
+        "E": "Streptococcus pyogenes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Diphtheria produces an adherent gray pseudomembrane and bull neck over several days rather than isolated epiglottic swelling with abrupt stridor within hours.",
+        "B": "Correct. The triad of dysphagia, drooling, and respiratory distress with a thumbprint sign in an incompletely vaccinated child is classic for epiglottitis caused by the encapsulated type b strain.",
+        "C": "Moraxella catarrhalis causes otitis media, sinusitis, and lower respiratory infection in chronic lung disease, not acute supraglottic obstruction.",
+        "D": "Staphylococcus aureus is an uncommon cause of epiglottitis and more typically produces bacterial tracheitis with thick purulent tracheal secretions and a preceding viral prodrome.",
+        "E": "Streptococcus pyogenes causes exudative pharyngitis with tender anterior cervical nodes and a scarlatiniform rash, not rapidly progressive epiglottic edema."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-008",
+      "question": "A 61-year-old woman with poorly controlled type 1 diabetes is admitted in ketoacidosis with 3 days of left facial pain and unilateral bloody nasal discharge. Examination shows a black necrotic eschar on the left hard palate, proptosis, and limited extraocular movement of the left eye. Nasal endoscopic biopsy shows wide, ribbon-like nonseptate hyphae branching at right angles and invading vessel walls. Which of the following is the most appropriate management?",
+      "answers": {
+        "A": "Intravenous ceftriaxone plus vancomycin, no surgery",
+        "B": "Oral fluconazole with outpatient otolaryngology follow-up",
+        "C": "Oral voriconazole monotherapy for six weeks",
+        "D": "Topical antifungal nasal irrigation and observation",
+        "E": "Urgent surgical debridement plus IV amphotericin B"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Antibacterial therapy has no activity against molds and would allow ongoing angioinvasion toward the orbit and cavernous sinus.",
+        "B": "Fluconazole lacks activity against the Mucorales, and outpatient management of an angioinvasive necrotizing infection risks death.",
+        "C": "Voriconazole covers Aspergillus but not Mucor or Rhizopus, and medical therapy alone cannot penetrate necrotic, thrombosed tissue.",
+        "D": "Topical therapy cannot reach angioinvasive disease beyond the mucosal surface, and observation is unsafe in a rapidly progressive infection.",
+        "E": "Correct. Invasive mucormycosis requires emergent surgical debridement of necrotic tissue, intravenous amphotericin B, and aggressive correction of the underlying ketoacidosis."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-009",
+      "question": "A 62-year-old kidney transplant recipient maintained on prednisone and tacrolimus has 3 weeks of cough, weight loss, and new confusion. CT of the chest shows a cavitary right upper lobe lesion, and brain MRI shows two ring-enhancing lesions. Sputum staining reveals gram-positive branching filamentous rods that are weakly acid-fast, and the organism grows aerobically in culture. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Amphotericin B",
+        "B": "High-dose penicillin G",
+        "C": "Isoniazid, rifampin, pyrazinamide, and ethambutol",
+        "D": "Trimethoprim-sulfamethoxazole",
+        "E": "Vancomycin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Amphotericin B treats invasive mold infection, which would show hyphae rather than gram-positive filamentous bacteria.",
+        "B": "High-dose penicillin treats Actinomyces, which is anaerobic, not acid-fast, and causes cervicofacial disease with sulfur granules rather than pulmonary cavities with brain abscesses.",
+        "C": "Four-drug antituberculous therapy targets strongly acid-fast mycobacteria; Nocardia is only weakly acid-fast and is not covered by this regimen.",
+        "D": "Correct. An aerobic, weakly acid-fast branching filamentous rod causing pulmonary cavities and CNS abscesses in an immunosuppressed host is Nocardia, for which TMP-SMX is first-line.",
+        "E": "Vancomycin targets resistant gram-positive cocci and has no reliable activity against Nocardia."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-010",
+      "question": "A 10-year-old boy has 2 days of sore throat, fever, and painful swallowing without cough or rhinorrhea. His temperature is 38.9°C (102.0°F), heart rate is 100/min, and blood pressure is 110/70 mm Hg. His pharynx is erythematous with bilateral tonsillar exudates, he has tender anterior cervical lymphadenopathy, and a fine sandpaper-like rash is present on his trunk. A rapid antigen detection test is positive for group A Streptococcus. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Intravenous ceftriaxone for ten days",
+        "B": "Observation with symptomatic care only",
+        "C": "Oral amoxicillin for ten days",
+        "D": "Oral azithromycin for five days",
+        "E": "Throat culture before starting antibiotics"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Parenteral therapy is reserved for patients unable to tolerate oral intake or with suppurative complications, neither of which is present.",
+        "B": "Withholding antibiotics after a positive test forgoes the reduction in symptom duration and transmission and leaves the patient at risk for rheumatic fever.",
+        "C": "Correct. Oral penicillin or amoxicillin is first-line after a positive test and prevents acute rheumatic fever when started promptly.",
+        "D": "Azithromycin is reserved for significant penicillin allergy and carries higher rates of streptococcal resistance.",
+        "E": "Confirmatory culture is used when the rapid test is negative in a child with a suggestive presentation; a positive test needs no confirmation and treatment should not be delayed."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-011",
+      "question": "A 58-year-old man with type 2 diabetes mellitus presents with 2 days of right facial pain, fever, and swelling around the right eye. He was discharged 4 days ago after treatment for diabetic ketoacidosis. His temperature is 38.9°C (102.0°F). He has right ptosis, ophthalmoplegia, and decreased sensation over the right maxilla, and a black eschar is visible on the right middle turbinate. Laboratory studies are shown. A biopsy of the eschar is most likely to show which of the following?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Serum glucose",
+          "620 mg/dL",
+          "70-100 mg/dL"
+        ],
+        [
+          "Bicarbonate",
+          "12 mEq/L",
+          "22-28 mEq/L"
+        ],
+        [
+          "Anion gap",
+          "24 mEq/L",
+          "8-12 mEq/L"
+        ],
+        [
+          "Arterial pH",
+          "7.24",
+          "7.35-7.45"
+        ]
+      ],
+      "answers": {
+        "A": "Budding yeast with pseudohyphae and germ tube formation",
+        "B": "Septate hyphae branching at acute 45-degree angles",
+        "C": "Spherules filled with endospores within tissue",
+        "D": "Wide, nonseptate hyphae branching at right angles",
+        "E": "Yeast with broad-based budding and thick cell walls"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Pseudohyphae with germ tubes indicate Candida albicans, which causes mucosal thrush or candidemia rather than an angioinvasive necrotic eschar.",
+        "B": "Septate hyphae with acute-angle branching indicate Aspergillus, which causes invasive disease chiefly in neutropenic patients and less often produces palatal or turbinate eschar in ketoacidosis.",
+        "C": "Spherules with endospores indicate Coccidioides, acquired by inhalation in the southwestern United States and causing pulmonary and disseminated disease.",
+        "D": "Correct. Rhino-orbital mucormycosis from Mucor or Rhizopus shows wide, ribbon-like nonseptate hyphae branching at right angles, and ketoacidosis promotes growth by increasing free iron availability.",
+        "E": "Broad-based budding yeast indicates Blastomyces, which causes pulmonary and verrucous skin disease rather than acute orbital invasion."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-012",
+      "question": "An 8-year-old boy living in equatorial Africa is evaluated for a mass of the left mandible that has doubled in size over 3 weeks and is now distorting his dentition. Biopsy shows sheets of intermediate-sized lymphocytes with scattered pale macrophages producing a starry sky appearance, and in situ hybridization for Epstein-Barr virus is positive. Which of the following genetic abnormalities is most characteristic of this tumor?",
+      "answers": {
+        "A": "BCL-2 overexpression arising from t(14;18)",
+        "B": "BCR-ABL fusion protein arising from t(9;22)",
+        "C": "c-MYC activation arising from t(8;14)",
+        "D": "Cyclin D1 overexpression arising from t(11;14)",
+        "E": "PML-RARA fusion protein arising from t(15;17)"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "BCL-2 overexpression from t(14;18) defines follicular lymphoma, an indolent nodal disease of adults rather than a rapidly growing jaw mass.",
+        "B": "BCR-ABL from t(9;22) defines chronic myeloid leukemia, which presents with leukocytosis and splenomegaly.",
+        "C": "Correct. Endemic Burkitt lymphoma is strongly EBV associated, presents as a jaw or facial mass in African children, and is driven by c-MYC activation through t(8;14).",
+        "D": "Cyclin D1 overexpression from t(11;14) defines mantle cell lymphoma, typically seen in older adults with widespread nodal disease.",
+        "E": "PML-RARA from t(15;17) defines acute promyelocytic leukemia, which presents with pancytopenia and disseminated intravascular coagulation."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-013",
+      "question": "A 24-year-old man squeezed an inflamed pustule on his upper lip 4 days ago. He now has fever, severe headache, and progressive swelling around both eyes. Examination shows bilateral periorbital edema, proptosis, and inability to abduct the right eye. Which of the following venous routes best explains the intracranial spread of his infection?",
+      "answers": {
+        "A": "External jugular vein to subclavian vein to superior vena cava",
+        "B": "Facial vein to angular vein to superior ophthalmic vein",
+        "C": "Inferior thyroid vein to brachiocephalic vein to vena cava",
+        "D": "Retromandibular vein to internal jugular vein to sigmoid sinus",
+        "E": "Superficial temporal vein to retromandibular vein to facial vein"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The external jugular system drains scalp and superficial neck structures into the systemic circulation and has no direct connection to the dural sinuses.",
+        "B": "Correct. Infection in the danger triangle between the nasal bridge and the corners of the mouth travels through valveless facial and angular veins into the superior ophthalmic vein and reaches the cavernous sinus, producing proptosis and cranial nerve VI palsy.",
+        "C": "The inferior thyroid vein drains the thyroid gland into the brachiocephalic vein and is anatomically remote from the upper lip.",
+        "D": "The retromandibular vein drains the parotid region into the internal jugular vein rather than carrying upper lip infection intracranially.",
+        "E": "This route describes normal drainage of the temporal scalp and moves away from, not toward, the cavernous sinus."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-014",
+      "question": "A 20-year-old woman has 2 weeks of fever, sore throat, and fatigue. She has posterior cervical lymphadenopathy, tonsillar exudates, and splenomegaly, and her heterophile antibody test is positive. The responsible virus establishes lifelong latency within the cells it initially infects. Which of the following surface molecules does this virus bind in order to enter those cells?",
+      "answers": {
+        "A": "CD4 glycoprotein on helper T lymphocytes",
+        "B": "Complement receptor 2 (CD21) on B lymphocytes",
+        "C": "ICAM-1 receptors on respiratory epithelial cells",
+        "D": "Nectin-1 adhesion molecules on oral keratinocytes",
+        "E": "Sialic acid residues on erythrocyte membranes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "CD4 is the entry receptor for HIV, which causes a heterophile-negative illness and progressive immunodeficiency.",
+        "B": "Correct. Epstein-Barr virus binds CD21 (complement receptor 2) on B lymphocytes and establishes latency there, while the atypical lymphocytes on smear are reactive CD8+ T cells responding to the infection.",
+        "C": "ICAM-1 is the receptor used by most rhinoviruses, which cause the common cold rather than a mononucleosis syndrome.",
+        "D": "Nectin-1 mediates herpes simplex virus entry, which produces vesicular gingivostomatitis rather than posterior adenopathy and splenomegaly.",
+        "E": "Sialic acid binding describes influenza virus hemagglutinin and does not lead to lifelong lymphocyte latency."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-015",
+      "question": "A 7-year-old boy is brought to the clinic for 2 days of dark brown urine and puffy eyelids that are worst in the morning. Twelve days ago he completed a full course of amoxicillin for culture-confirmed streptococcal pharyngitis. His blood pressure is 138/88 mm Hg and he has periorbital edema. Laboratory studies are shown. Renal biopsy would most likely demonstrate which of the following?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Urine blood",
+          "3+ with red cell casts",
+          "Negative"
+        ],
+        [
+          "Urine protein",
+          "1+",
+          "Negative"
+        ],
+        [
+          "Serum creatinine",
+          "1.1 mg/dL",
+          "0.3-0.7 mg/dL"
+        ],
+        [
+          "Serum C3",
+          "42 mg/dL",
+          "80-160 mg/dL"
+        ],
+        [
+          "Antistreptolysin O titer",
+          "Elevated",
+          "Not elevated"
+        ]
+      ],
+      "answers": {
+        "A": "Linear IgG deposits along the glomerular basement membrane",
+        "B": "Lumpy-bumpy granular deposits of IgG, IgM, and C3",
+        "C": "Mesangial IgA deposits with mesangial hypercellularity",
+        "D": "No immune deposits with diffuse foot process effacement",
+        "E": "Subepithelial IgG deposits producing basement membrane spikes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Linear basement membrane staining indicates anti-glomerular basement membrane disease, which typically presents with pulmonary hemorrhage and rapidly progressive renal failure.",
+        "B": "Correct. Post-streptococcal glomerulonephritis is a type III hypersensitivity reaction with granular lumpy-bumpy immune complex deposits and hypercellular glomeruli; it follows pharyngitis or impetigo by 1 to 3 weeks and is not prevented by treating the original infection.",
+        "C": "Mesangial IgA deposition describes IgA nephropathy, in which hematuria appears within 1 to 2 days of a mucosal infection and complement levels remain normal.",
+        "D": "Absent deposits with foot process effacement describes minimal change disease, which causes nephrotic-range proteinuria and edema without hematuria or hypocomplementemia.",
+        "E": "Subepithelial deposits with basement membrane spikes describe membranous nephropathy, a nephrotic syndrome of adults with normal complement levels."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-016",
+      "question": "A 9-year-old girl develops migratory pain and swelling of the knees and ankles 3 weeks after an untreated sore throat. She has a new holosystolic murmur heard best at the apex and firm, painless nodules over both elbows. Her throat culture is now negative. Laboratory studies are shown. Which of the following best explains her cardiac findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Erythrocyte sedimentation rate",
+          "68 mm/h",
+          "0-20 mm/h"
+        ],
+        [
+          "C-reactive protein",
+          "9.2 mg/dL",
+          "<0.5 mg/dL"
+        ],
+        [
+          "Antistreptolysin O titer",
+          "Markedly elevated",
+          "Not elevated"
+        ],
+        [
+          "Leukocyte count",
+          "12,800/mm3",
+          "4,500-11,000/mm3"
+        ]
+      ],
+      "answers": {
+        "A": "Antibody cross-reaction with cardiac myosin (molecular mimicry)",
+        "B": "Direct bacterial invasion of the endocardium and mitral valve leaflets",
+        "C": "Granulomatous response to persistent intracellular organisms",
+        "D": "IgE-mediated mast cell degranulation with histamine release",
+        "E": "Immune complex deposition within the glomerular capillaries"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Acute rheumatic fever is a type II hypersensitivity reaction in which antibodies against streptococcal M protein cross-react with cardiac myosin and valve tissue, producing pancarditis with mitral involvement 2 to 4 weeks after untreated pharyngitis.",
+        "B": "Direct valve invasion describes infective endocarditis, which would cause persistent bacteremia and positive blood cultures rather than migratory arthritis and subcutaneous nodules.",
+        "C": "Granulomatous inflammation from persistent intracellular organisms characterizes tuberculosis or fungal disease, not post-streptococcal valvular injury.",
+        "D": "IgE-mediated degranulation causes urticaria, bronchospasm, and anaphylaxis within minutes of exposure.",
+        "E": "Immune complex deposition describes post-streptococcal glomerulonephritis, which causes hematuria and edema rather than carditis and arthritis."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-017",
+      "question": "A 9-year-old boy whose parents declined all childhood immunizations is brought to the emergency department with 3 days of low-grade fever, malaise, and sore throat, plus 24 hours of worsening neck swelling. His temperature is 38.2°C (100.8°F). His voice is muffled but there is no inspiratory stridor. He has tender cervical lymphadenopathy with diffuse bilateral neck edema and an adherent gray-white membrane covering both tonsils that bleeds when the examiner attempts to scrape it. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Epiglottitis",
+        "B": "Group A streptococcal pharyngitis",
+        "C": "Infectious mononucleosis",
+        "D": "Peritonsillar abscess",
+        "E": "Pharyngeal diphtheria"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Epiglottitis causes stridor, drooling, and tripod positioning without a tonsillar membrane, and the supraglottis rather than the tonsils is involved.",
+        "B": "Streptococcal exudates are patchy, easily wiped away, and confined to the tonsils without diffuse neck edema.",
+        "C": "Mononucleosis produces posterior cervical lymphadenopathy, splenomegaly, and removable tonsillar exudates rather than an adherent bleeding membrane.",
+        "D": "Peritonsillar abscess causes unilateral tonsillar bulging with uvular deviation and trismus, not a bilateral membrane with bull neck.",
+        "E": "Correct. An adherent gray-white pseudomembrane that bleeds when disturbed, together with bull neck and lack of immunization, is characteristic of respiratory diphtheria."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-018",
+      "question": "A 4-year-old boy is intubated for acute epiglottitis. Blood cultures grow small gram-negative coccobacilli. The isolate fails to grow on sheep blood agar alone but forms colonies immediately adjacent to a streak of Staphylococcus aureus on the same plate, and it grows well on chocolate agar. Which of the following best explains this growth pattern?",
+      "answers": {
+        "A": "Cysteine and cystine supplementation of the culture medium",
+        "B": "Elevated carbon dioxide tension during plate incubation",
+        "C": "Factor V (NAD+) alone, without a factor X requirement",
+        "D": "Factor V (NAD+) and factor X (hemin) from lysed red cells",
+        "E": "Factor X (hemin) alone, without a factor V requirement"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A cysteine requirement characterizes Francisella tularensis and Legionella species, which do not exhibit satellitism around staphylococci.",
+        "B": "Capnophilic growth describes Neisseria species; increased CO2 would not explain colonies clustering along a Staphylococcus streak.",
+        "C": "Requiring factor V alone describes Haemophilus parainfluenzae, which grows on blood agar without a satellite phenomenon.",
+        "D": "Correct. Haemophilus influenzae requires both factor V and factor X, which staphylococcal hemolysis liberates from erythrocytes and which chocolate agar supplies directly through gentle red cell lysis.",
+        "E": "Requiring factor X alone describes Haemophilus ducreyi, which causes painful genital chancroid rather than epiglottitis."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-019",
+      "question": "An 18-month-old girl diagnosed with acute otitis media has completed 3 days of high-dose amoxicillin but continues to have fever and ear pain, and her right tympanic membrane remains bulging and immobile. Tympanocentesis fluid grows a gram-negative diplococcus that produces beta-lactamase. Which of the following is the most appropriate next step in pharmacotherapy?",
+      "answers": {
+        "A": "Continue high-dose amoxicillin without change",
+        "B": "Intravenous vancomycin plus ceftriaxone",
+        "C": "Oral amoxicillin-clavulanate",
+        "D": "Oral azithromycin for five days",
+        "E": "Topical ciprofloxacin-dexamethasone drops"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Continuing amoxicillin alone leaves the beta-lactamase intact, so the drug will continue to be hydrolyzed and clinical failure will persist.",
+        "B": "Parenteral broad-spectrum therapy is reserved for complications such as mastoiditis or intracranial extension, not uncomplicated treatment failure.",
+        "C": "Correct. Adding clavulanate inhibits the beta-lactamase produced by Moraxella catarrhalis and many nontypeable Haemophilus strains, restoring amoxicillin activity.",
+        "D": "Macrolides are reserved for severe penicillin allergy and have unreliable activity against pneumococcus and Haemophilus.",
+        "E": "Topical drops treat otitis externa and do not reach the middle ear across an intact tympanic membrane."
+      }
+    },
+    {
+      "id": "neuro-infections-of-the-ear-nose-throat-020",
+      "question": "A 7-year-old unimmunized boy admitted with a gray pharyngeal membrane and marked neck swelling develops a new gallop rhythm, hypotension, and frequent ventricular ectopy on hospital day 4. The exotoxin responsible for his cardiac dysfunction acts through which of the following mechanisms?",
+      "answers": {
+        "A": "Binding of MHC class II to the T-cell receptor",
+        "B": "Cleavage of host cell 28S ribosomal RNA",
+        "C": "Inactivation of elongation factor-2 by ADP-ribosylation",
+        "D": "Increased intracellular cAMP via Gs protein stimulation",
+        "E": "Inhibition of acetylcholine release at presynaptic terminals"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Superantigen bridging of MHC II and the T-cell receptor describes streptococcal and staphylococcal toxic shock toxins, which cause diffuse erythroderma and shock rather than a pharyngeal membrane.",
+        "B": "Cleavage of 28S rRNA describes Shiga and Shiga-like toxins, which produce dysentery and hemolytic uremic syndrome.",
+        "C": "Correct. Diphtheria toxin ADP-ribosylates elongation factor-2, halting protein synthesis in cardiac and neural tissue and producing myocarditis and neuropathy.",
+        "D": "Increased cAMP through Gs stimulation describes cholera toxin and heat-labile E. coli toxin, which cause secretory diarrhea.",
+        "E": "Blockade of acetylcholine release describes botulinum toxin, which causes descending flaccid paralysis without a membrane or myocarditis."
+      }
+    }
+  ]
+}
