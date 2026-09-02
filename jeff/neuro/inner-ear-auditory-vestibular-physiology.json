@@ -1,0 +1,425 @@
+{
+  "lecture": "Inner Ear Auditory & Vestibular Physiology",
+  "block": "neuro",
+  "generated": "2026-09-01",
+  "questions": [
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-001",
+      "question": "A 47-year-old man who has worked in a metal stamping plant for 22 years without hearing protection reports increasing difficulty understanding conversation in noisy restaurants and constant high-pitched ringing in both ears. Otoscopy shows normal tympanic membranes and tympanometry is normal bilaterally. His audiogram is shown. Injury to hair cells in which region of the cochlea best accounts for this audiometric pattern?",
+      "table": [
+        ["Frequency", "Right ear (dB HL)", "Left ear (dB HL)"],
+        ["500 Hz", "15", "15"],
+        ["1000 Hz", "20", "15"],
+        ["2000 Hz", "25", "20"],
+        ["4000 Hz", "55", "60"],
+        ["8000 Hz", "30", "25"]
+      ],
+      "answers": {
+        "A": "Apex, where the basilar membrane is widest",
+        "B": "Base, in the turn nearest the oval window",
+        "C": "Helicotrema, where the perilymph spaces communicate",
+        "D": "Middle turn, at the 1000 Hz characteristic place",
+        "E": "Modiolus, containing the spiral ganglion cell bodies"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The apex is tuned to low frequencies (roughly 200-600 Hz), which are preserved at 15-20 dB on this audiogram.",
+        "B": "The basilar membrane is narrow and stiff at the base, giving it a high characteristic frequency; noise energy and shearing forces are greatest here, producing the classic 4 kHz notch with recovery at 8 kHz.",
+        "C": "The helicotrema is the apical opening connecting scala vestibuli and scala tympani and contains no sensory hair cells to injure.",
+        "D": "Damage confined to the 1000 Hz place would produce a mid-frequency loss, not an isolated 4 kHz notch with normal thresholds on either side of it.",
+        "E": "The modiolus houses spiral ganglion neuron cell bodies; their loss is a retrocochlear/neural process and would not produce a frequency-specific notch."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-002",
+      "question": "A 4-year-old boy with congenital profound deafness is found to carry a mutation in a gene encoding a protein of the stereociliary tip link. His parents are counseled that the tip link normally acts as a gating spring. In a healthy cochlear hair cell, deflection of the stereociliary bundle toward the kinocilium produces which of the following?",
+      "answers": {
+        "A": "Closure of the transduction channels, hyperpolarizing the cell",
+        "B": "Increased tip-link tension that opens cation channels, depolarizing the cell",
+        "C": "Influx of chloride across the cuticular plate, hyperpolarizing the cell",
+        "D": "Reduced tip-link tension that closes cation channels, silencing the cell",
+        "E": "Release of potassium into the scala media, repolarizing the cell"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Channel closure with hyperpolarization is what occurs with deflection away from the kinocilium, the inhibitory direction.",
+        "B": "Deflection toward the kinocilium stretches the tip links, opening mechanotransduction channels and allowing potassium-rich endolymph cations to enter, which depolarizes the cell and triggers transmitter release onto spiral ganglion dendrites.",
+        "C": "Transduction is mediated by cation entry through apical mechanically gated channels, not by chloride flux across the cuticular plate.",
+        "D": "Slackening of the tip links occurs with deflection away from the kinocilium and reduces the resting transduction current rather than increasing it.",
+        "E": "Potassium moves from endolymph into the hair cell during excitation; efflux occurs basolaterally toward perilymph, not back into scala media."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-003",
+      "question": "A 3-year-old girl with congenital profound sensorineural hearing loss undergoes cochlear implantation, which bypasses the sensory epithelium and stimulates spiral ganglion neurons directly. Her parents ask how sound is normally transmitted to those neurons. Which of the following best describes the afferent innervation of the cells that ordinarily perform this task?",
+      "answers": {
+        "A": "A single afferent fiber branches to supply many inner hair cells",
+        "B": "Each inner hair cell is contacted by roughly ten afferent fibers",
+        "C": "Inner and outer hair cells have identical afferent fiber density",
+        "D": "Outer hair cells receive the great majority of afferent fibers",
+        "E": "Spiral ganglion neurons synapse exclusively on outer hair cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This describes outer hair cells, where one cochlear nerve fiber branches to innervate many cells; inner hair cells have the opposite arrangement.",
+        "B": "The roughly 3,500 inner hair cells in a single row are the true sound detectors and each is innervated by about ten cochlear nerve fibers, giving them far denser afferent innervation than outer hair cells.",
+        "C": "Innervation density differs markedly: inner hair cells are richly innervated while the roughly 12,000 outer hair cells share comparatively few afferent fibers.",
+        "D": "Outer hair cells serve tuning and amplification and receive prominent efferent input from the superior olivary complex, not the bulk of afferent fibers.",
+        "E": "Spiral ganglion neurons synapse on both cell types, but the overwhelming majority of afferent synapses are on inner hair cells."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-004",
+      "question": "A 71-year-old woman with a 15-year history of progressive bilateral hearing loss and a remote history of cisplatin chemotherapy dies of unrelated causes, and her temporal bones are examined histologically. In more than 95% of individuals with sensorineural hearing loss, the deficit is attributable to damage or loss of which structure?",
+      "answers": {
+        "A": "Inner hair cells of the organ of Corti",
+        "B": "Ossicular chain within the middle ear space",
+        "C": "Outer hair cells of the basal turn only",
+        "D": "Stria vascularis lining the cochlear duct",
+        "E": "Tectorial membrane overlying the hair bundles"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Sensorineural hearing loss localizes to the inner hair cells in over 95% of affected individuals, which is why these cells are the common final pathway for noise, aging, and ototoxic injury.",
+        "B": "Ossicular pathology produces conductive, not sensorineural, hearing loss.",
+        "C": "Outer hair cell loss contributes to reduced amplification and tuning, but it is not the predominant anatomic lesion in sensorineural hearing loss, and it is not confined to the basal turn.",
+        "D": "Stria vascularis atrophy can alter the endocochlear potential but accounts for only a minority of cases.",
+        "E": "The tectorial membrane is an acellular gelatinous structure that is rarely the primary site of injury."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-005",
+      "question": "A 24-year-old man sustains a temporal bone fracture in a motorcycle collision that transects the right cochlear nerve at the porus acusticus. He has complete right-sided deafness but normal hearing on the left. Impulses carried by this nerve would normally have made their first synapse within the central nervous system at which structure?",
+      "answers": {
+        "A": "Cochlear nucleus",
+        "B": "Inferior colliculus",
+        "C": "Lateral lemniscus",
+        "D": "Spiral ganglion",
+        "E": "Superior olivary complex"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The ascending auditory pathway follows the ECOLI sequence, and the cochlear nucleus in the brainstem is the first central relay after the eighth cranial nerve.",
+        "B": "The inferior colliculus is the fourth relay in the sequence and receives input only after the cochlear nucleus, superior olive, and lateral lemniscus.",
+        "C": "The lateral lemniscus is the ascending fiber tract (with its own nuclei) situated after the superior olive, not the first synapse.",
+        "D": "The spiral ganglion contains the peripheral bipolar cell bodies of the cochlear nerve itself and lies in the modiolus, outside the central nervous system.",
+        "E": "The superior olivary complex is the site of the first major binaural convergence but is one relay beyond the cochlear nucleus."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-006",
+      "question": "A 74-year-old man is brought in by his wife because he turns the television volume up and asks people to repeat themselves in restaurants. He has hypertension, type 2 diabetes, hyperlipidemia, and a 30-pack-year smoking history. His father developed similar difficulty in his 60s. He has no occupational noise exposure, no vertigo, and no ear pain. Otoscopy and tympanometry are normal. His audiogram is shown. What is the most likely diagnosis?",
+      "table": [
+        ["Frequency", "Right ear (dB HL)", "Left ear (dB HL)"],
+        ["500 Hz", "20", "20"],
+        ["1000 Hz", "25", "30"],
+        ["2000 Hz", "40", "40"],
+        ["4000 Hz", "55", "55"],
+        ["8000 Hz", "70", "65"]
+      ],
+      "answers": {
+        "A": "Acoustic neuroma of the right cerebellopontine angle",
+        "B": "Meniere disease of the left ear",
+        "C": "Noise-induced sensorineural hearing loss",
+        "D": "Otosclerosis with stapes fixation",
+        "E": "Presbycusis with contributing vascular risk factors"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Vestibular schwannoma characteristically causes asymmetric hearing loss or unilateral tinnitus, whereas this loss is symmetric within 5 dB at every frequency.",
+        "B": "Meniere disease produces fluctuating unilateral low-frequency loss with episodic vertigo, tinnitus, and aural fullness, none of which are present here.",
+        "C": "Noise-induced loss produces a notch at 4000 Hz with partial recovery at 8000 Hz, and he denies significant noise exposure.",
+        "D": "Otosclerosis causes a conductive or mixed loss with an air-bone gap and abnormal tympanometric findings, not this pure sensorineural pattern.",
+        "E": "Presbycusis is the most common cause of hearing loss and the most common disorder associated with aging, producing gradual, symmetric, bilateral high-frequency sensorineural loss that is influenced by genetics and by comorbidities such as hypertension, diabetes, hyperlipidemia, and smoking."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-007",
+      "question": "A 63-year-old man is hospitalized for gram-negative bacteremia. His inpatient medications are intravenous gentamicin, acetaminophen, subcutaneous heparin, metoprolol, and pantoprazole. On hospital day 12 he reports new bilateral tinnitus and difficulty hearing the nurses. Audiometry shows a new symmetric high-frequency sensorineural hearing loss. Which of his medications is most likely responsible?",
+      "answers": {
+        "A": "Acetaminophen",
+        "B": "Gentamicin",
+        "C": "Heparin",
+        "D": "Metoprolol",
+        "E": "Pantoprazole"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Acetaminophen is not a recognized cochleotoxic agent at therapeutic doses.",
+        "B": "Intravenous aminoglycosides are classic ototoxins that preferentially destroy hair cells in the basal turn, producing symmetric high-frequency sensorineural loss and tinnitus that is typically permanent.",
+        "C": "Heparin causes bleeding complications and thrombocytopenia but has no cochlear toxicity.",
+        "D": "Beta blockers are not associated with hair cell injury.",
+        "E": "Proton pump inhibitors are not ototoxic; the other well-recognized intravenous culprits are loop diuretics and platinum chemotherapy."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-008",
+      "question": "A 68-year-old woman developed bilateral profound sensorineural hearing loss following pneumococcal meningitis two years ago. She wears bilateral high-power hearing aids but scores 8% on open-set sentence recognition in the best-aided condition and relies on lipreading. Her audiogram is shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        ["Frequency", "Right ear (dB HL)", "Left ear (dB HL)"],
+        ["500 Hz", "95", "90"],
+        ["1000 Hz", "105", "100"],
+        ["2000 Hz", "110", "110"],
+        ["4000 Hz", "No response", "110"]
+      ],
+      "answers": {
+        "A": "Bone-anchored hearing aid placement",
+        "B": "Cochlear implantation",
+        "C": "Higher-gain behind-the-ear hearing aids",
+        "D": "Intratympanic dexamethasone injections",
+        "E": "Stapedotomy with prosthesis placement"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bone-anchored devices route sound to the contralateral cochlea and are used for conductive loss or single-sided deafness, neither of which applies to bilateral profound loss.",
+        "B": "Cochlear implantation is indicated for severe-to-profound sensorineural hearing loss with inadequate benefit from hearing aids; there is no upper age limit, and although it does not restore normal hearing, more than half of implanted adults can use the telephone.",
+        "C": "She already has minimal benefit from high-power amplification, so additional gain will not improve open-set speech understanding.",
+        "D": "Intratympanic steroids are used for sudden sensorineural hearing loss and Meniere disease, not for stable profound loss two years after meningitis.",
+        "E": "Stapes surgery treats conductive loss from otosclerosis and has no role in sensorineural loss."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-009",
+      "question": "A 26-year-old male live-sound engineer reports high-pitched ringing in both ears for several hours after every show, which then resolves. He has no vertigo or aural fullness. Audiometry shows thresholds of 25 dB at 4000 Hz bilaterally with normal thresholds elsewhere. He asks which intervention will most effectively keep his tinnitus from becoming permanent. Which of the following is the most appropriate recommendation?",
+      "answers": {
+        "A": "Cognitive behavioral therapy for tinnitus distress",
+        "B": "Consistent use of hearing protection at work",
+        "C": "Daily ginkgo biloba and zinc supplementation",
+        "D": "Nightly use of a bedside sound-masking device",
+        "E": "Tinnitus retraining therapy with a licensed audiologist"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cognitive behavioral therapy reduces the distress caused by established tinnitus but does nothing to protect the cochlea from further noise injury.",
+        "B": "Noise-induced hearing loss is the most common cause of tinnitus, and roughly 90% of people with tinnitus have it; because noise damage is cumulative and largely irreversible once threshold shift becomes permanent, prevention through noise avoidance and protection is the single best treatment.",
+        "C": "Supplements have no proven benefit for preventing or treating tinnitus.",
+        "D": "Masking can make existing tinnitus less noticeable but does not prevent progressive hair cell loss.",
+        "E": "Tinnitus retraining therapy targets habituation to an existing symptom rather than preventing the underlying cochlear injury."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-010",
+      "question": "A 34-year-old woman rides an express elevator from the lobby to the 40th floor of an office tower. During the initial upward acceleration she clearly perceives the vertical motion even with her eyes closed, and the sensation fades once the elevator reaches constant speed. Stimulation of which structure is most responsible for this perception?",
+      "answers": {
+        "A": "Crista ampullaris of the posterior semicircular canal",
+        "B": "Cupula of the horizontal semicircular canal",
+        "C": "Macula of the saccule",
+        "D": "Macula of the utricle",
+        "E": "Organ of Corti within the cochlear basal turn"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The crista ampullaris of a semicircular canal senses angular rotation, not linear translation.",
+        "B": "The cupula responds to endolymph movement produced by angular head rotation in the plane of that canal.",
+        "C": "The saccular macula is oriented in the vertical plane and detects vertical linear acceleration and changes relative to gravity, which is exactly the stimulus produced by an accelerating elevator.",
+        "D": "The utricular macula lies in the horizontal plane and detects horizontal linear acceleration, such as a car accelerating forward.",
+        "E": "The organ of Corti transduces sound and has no role in detecting head motion."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-011",
+      "question": "A 29-year-old woman with intermittent unsteadiness undergoes head impulse testing. The examiner rapidly rotates her head in the horizontal plane toward the left. Which of the following best describes the events occurring in her left horizontal semicircular canal during this maneuver?",
+      "answers": {
+        "A": "Ampullofugal endolymph flow producing hair cell depolarization",
+        "B": "Ampullofugal endolymph flow producing hair cell hyperpolarization",
+        "C": "Ampullopetal endolymph flow producing hair cell depolarization",
+        "D": "Ampullopetal endolymph flow producing hair cell hyperpolarization",
+        "E": "No relative endolymph movement because the canals are paired"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Flow away from the ampulla is the excitatory direction for the posterior and superior canals, not the horizontal canal.",
+        "B": "Ampullofugal flow does occur in the right horizontal canal during a leftward turn and inhibits it, but the question asks about the left canal.",
+        "C": "Because endolymph lags behind the accelerating head, a leftward head turn drives endolymph toward the left ampulla; in the horizontal canal ampullopetal flow deflects the cupula and hair bundles toward the kinocilium, depolarizing the cells and increasing firing in the superior vestibular nerve.",
+        "D": "Ampullopetal flow in the horizontal canal is excitatory rather than inhibitory, which is the reciprocal arrangement that lets the paired canals signal direction.",
+        "E": "Pairing means the two horizontal canals respond reciprocally to the same rotation; it does not abolish endolymph movement."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-012",
+      "question": "A 59-year-old man completed six weeks of intravenous gentamicin for vertebral osteomyelitis. He now reports that the world appears to bounce when he walks and that he is markedly unsteady in dim light, such as walking to his car at dusk. He denies discrete vertigo attacks, tinnitus, and hearing change, and his audiogram is normal. Which test is most appropriate to confirm bilateral vestibular hypofunction?",
+      "answers": {
+        "A": "Computerized dynamic posturography",
+        "B": "Dix-Hallpike positional testing",
+        "C": "Electrocochleography",
+        "D": "Rotary chair testing",
+        "E": "Vestibular evoked myogenic potentials"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Posturography quantifies how well a patient maintains upright balance but does not localize the deficit or establish that both labyrinths are involved.",
+        "B": "Dix-Hallpike testing detects benign paroxysmal positional vertigo, which causes brief positional spells rather than continuous oscillopsia.",
+        "C": "Electrocochleography is used in the evaluation of suspected endolymphatic hydrops, and his hearing is normal.",
+        "D": "Rotary chair testing assesses the vestibulo-ocular reflex across a range of frequencies and is the best test for detecting bilateral vestibular loss, which caloric testing can miss because it compares one ear against the other.",
+        "E": "Vestibular evoked myogenic potentials are used chiefly to detect superior semicircular canal dehiscence and assess otolith function."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-013",
+      "question": "A 52-year-old woman wakes and, as she rolls to her right to get out of bed, experiences an intense spinning sensation with nausea and one episode of vomiting. The spinning lasts about a minute and stops once she sits upright. It recurs when she lies back down and again that night when she lies flat. She reports no hearing change, no aural fullness, and no history of severe headaches. Neurologic examination between episodes is normal. What is the most likely diagnosis?",
+      "answers": {
+        "A": "Benign paroxysmal positional vertigo",
+        "B": "Labyrinthitis following a viral illness",
+        "C": "Meniere disease with endolymphatic hydrops",
+        "D": "Vestibular migraine without headache",
+        "E": "Vestibular neuritis of viral origin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Brief spells of vertigo lasting seconds to a minute that are reliably triggered by a change in head position, with normal hearing and a normal examination between spells, is the classic presentation of benign paroxysmal positional vertigo.",
+        "B": "Labyrinthitis causes constant, non-positional vertigo lasting days to weeks accompanied by significant hearing loss.",
+        "C": "Meniere disease produces spontaneous vertigo lasting 20 minutes to several hours with unilateral fluctuating hearing loss, tinnitus, and aural fullness.",
+        "D": "Vestibular migraine is suggested by a personal or family history of migraine with photophobia or visual aura, which she explicitly lacks.",
+        "E": "Vestibular neuritis causes a single prolonged attack of continuous vertigo lasting hours to days that is not provoked by position change."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-014",
+      "question": "A 61-year-old woman has a three-week history of brief spinning episodes lasting under a minute, provoked by rolling over in bed, tipping her head back at the shampoo sink, and bending forward to tie her shoes. She fell down three stairs one month ago. Hearing is normal and there are no neurologic deficits. Which of the following best explains her symptoms?",
+      "answers": {
+        "A": "Demyelinating plaque involving the brainstem vestibular nuclei",
+        "B": "Displaced otoconia moving within the posterior semicircular canal",
+        "C": "Distension of the endolymphatic compartment of the labyrinth",
+        "D": "Inflammation of the membranous labyrinth following a viral illness",
+        "E": "Schwannoma arising from the superior vestibular nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A demyelinating brainstem lesion produces persistent central signs such as internuclear ophthalmoplegia and does not cause brief, fatigable, position-triggered spells.",
+        "B": "Calcium carbonate otoconia normally embedded in the utricular gelatinous matrix become dislodged, often after head trauma, and enter a semicircular canal (usually the posterior); with head position changes they migrate under gravity and deflect the cupula, generating nerve signals incongruous with actual head movement and therefore vertigo.",
+        "C": "Endolymphatic hydrops is the mechanism of Meniere disease and produces longer spells with hearing loss, tinnitus, and fullness.",
+        "D": "Labyrinthitis causes continuous vertigo over days to weeks with hearing loss, not brief positional spells with normal hearing.",
+        "E": "A vestibular schwannoma typically presents with asymmetric sensorineural hearing loss or unilateral tinnitus and gradual imbalance rather than positional vertigo."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-015",
+      "question": "A 57-year-old man reports brief spinning spells when he looks up at a high shelf and when he rolls over in bed. Hearing is normal. The examiner turns his head 45 degrees to the right and rapidly lowers him from sitting to supine with the head extended below the level of the table. Which finding would best support the suspected diagnosis?",
+      "answers": {
+        "A": "Downbeating nystagmus present in every head position tested",
+        "B": "No nystagmus despite reproduction of intense vertigo",
+        "C": "Purely horizontal nystagmus that persists without fatiguing",
+        "D": "Rotary nystagmus with brief latency that fatigues on repetition",
+        "E": "Vertical nystagmus that reverses direction with change in gaze"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Persistent direction-fixed downbeating nystagmus in all positions suggests a central lesion such as a craniocervical junction abnormality.",
+        "B": "Vertigo without observable nystagmus during a properly performed Dix-Hallpike maneuver argues against posterior canal benign paroxysmal positional vertigo.",
+        "C": "Non-fatiguing purely horizontal nystagmus is more consistent with horizontal canal involvement or a central cause.",
+        "D": "The Dix-Hallpike maneuver in posterior canal benign paroxysmal positional vertigo produces a highly specific rotary (torsional) nystagmus that begins after a short latency, lasts under a minute, and fatigues on repeated testing.",
+        "E": "Gaze-evoked direction-changing nystagmus is a central sign and is not expected in a peripheral canalithiasis."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-016",
+      "question": "A 48-year-old woman has a two-week history of 30-second spinning episodes triggered by lying down and rolling in bed. Dix-Hallpike testing to the left reproduces vertigo with rotary nystagmus after a two-second latency. Her audiogram is normal and neurologic examination is unremarkable. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Endolymphatic sac decompression surgery",
+        "B": "Epley particle repositioning maneuver",
+        "C": "Intratympanic gentamicin injection",
+        "D": "Meclizine three times daily for six weeks",
+        "E": "Vestibular nerve section via a retrosigmoid approach"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Endolymphatic sac surgery is a treatment option for medically refractory Meniere disease, not for canalithiasis.",
+        "B": "The Epley maneuver is the most commonly used particle repositioning maneuver; it rolls the displaced otoconia out of the affected canal and back into the utricle and cures roughly 80% of patients after a single treatment.",
+        "C": "Intratympanic gentamicin is an ablative therapy reserved for disabling Meniere disease and would needlessly destroy vestibular function.",
+        "D": "Vestibular suppressants provide only symptomatic relief, do not address the displaced otoconia, and prolonged use impairs central compensation.",
+        "E": "Vestibular nerve section is a destructive procedure reserved for intractable vertigo from other causes."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-017",
+      "question": "A 41-year-old man has sudden left-sided hearing loss, tinnitus, and aural fullness accompanied by vertigo with nausea and vomiting. The attack lasts 30 minutes, after which he is off balance for several hours before his hearing returns to baseline. Three months later he has an identical attack a few hours after a salty meal. Attacks continue over the following two years and his hearing no longer fully recovers. His audiogram during a symptom-free interval is shown. What is the most likely diagnosis?",
+      "table": [
+        ["Frequency", "Right ear (dB HL)", "Left ear (dB HL)"],
+        ["250 Hz", "10", "50"],
+        ["500 Hz", "10", "45"],
+        ["1000 Hz", "15", "40"],
+        ["2000 Hz", "15", "30"],
+        ["4000 Hz", "20", "25"]
+      ],
+      "answers": {
+        "A": "Acoustic neuroma of the left internal auditory canal",
+        "B": "Benign paroxysmal positional vertigo of the left posterior canal",
+        "C": "Labyrinthitis of the left ear",
+        "D": "Meniere disease of the left ear",
+        "E": "Vestibular migraine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Vestibular schwannoma causes gradually progressive asymmetric hearing loss, typically worse at high frequencies, and rarely produces discrete episodic vertigo with full recovery between spells.",
+        "B": "Benign paroxysmal positional vertigo lasts seconds to a minute, is triggered by position change, and never causes hearing loss, tinnitus, or fullness.",
+        "C": "Labyrinthitis is a single prolonged illness with continuous vertigo over days to weeks and hearing loss that usually does not recover, not recurrent discrete attacks.",
+        "D": "The tetrad of episodic vertigo lasting 20 minutes to several hours, fluctuating unilateral sensorineural hearing loss that is worst at low frequencies, unilateral tinnitus, and aural fullness, with salt as a recognized trigger, defines Meniere disease from endolymphatic hydrops.",
+        "E": "Vestibular migraine causes similar vertigo spells but characteristically without auditory symptoms and with a migraine history."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-018",
+      "question": "A 44-year-old man with newly diagnosed Meniere disease of the right ear has two to three vertigo attacks per month, each lasting about an hour, with fluctuating right-sided hearing loss and tinnitus. He has had no falls and his word recognition remains 88% on the right. Which of the following is the most appropriate initial management?",
+      "answers": {
+        "A": "Betahistine combined with scheduled daily lorazepam",
+        "B": "Immediate labyrinthectomy of the affected right ear",
+        "C": "Intratympanic gentamicin ablation of the right labyrinth",
+        "D": "Sodium restriction to 2,000 mg daily with a mild diuretic",
+        "E": "Vestibular nerve section through a middle fossa approach"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Scheduled benzodiazepines sedate the patient and blunt central compensation; vestibular suppressants such as meclizine are used only for symptomatic relief during attacks.",
+        "B": "Labyrinthectomy destroys residual hearing and vestibular function and is reserved for intractable disease in an ear with no useful hearing.",
+        "C": "Intratympanic gentamicin carries a risk of further hearing loss and is a second-line option after conservative measures fail.",
+        "D": "First-line management of Meniere disease is dietary and medical: a low-sodium diet of about 2,000 mg daily with caffeine restriction, plus a mild diuretic, with steroids added as needed; the disease is manageable but not curable.",
+        "E": "Vestibular nerve section is an ablative surgical option reserved for refractory vertigo in patients with serviceable hearing after medical therapy fails."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-019",
+      "question": "A 42-year-old man notices mild dizziness at his desk that escalates over 20 minutes into severe vertigo with nausea and vomiting. He is bedbound for three days, then improves gradually over six weeks. He had an upper respiratory infection the week before onset. His symptoms were constant rather than triggered by position, and he reports no change in hearing, tinnitus, or fullness. His audiogram is shown. What is the most likely diagnosis?",
+      "table": [
+        ["Frequency", "Right ear (dB HL)", "Left ear (dB HL)"],
+        ["500 Hz", "10", "10"],
+        ["1000 Hz", "10", "15"],
+        ["2000 Hz", "15", "15"],
+        ["4000 Hz", "15", "10"]
+      ],
+      "answers": {
+        "A": "Benign paroxysmal positional vertigo",
+        "B": "Labyrinthitis",
+        "C": "Meniere disease",
+        "D": "Vertebrobasilar territory infarction",
+        "E": "Vestibular neuritis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Benign paroxysmal positional vertigo produces brief spells lasting seconds that are provoked by head position, not a single multiday illness.",
+        "B": "Labyrinthitis is essentially vestibular neuritis with associated hearing loss; his audiogram is normal and symmetric, which excludes it.",
+        "C": "Meniere disease causes recurrent discrete attacks of 20 minutes to several hours with unilateral hearing loss, tinnitus, and fullness.",
+        "D": "A posterior circulation stroke usually begins abruptly and is accompanied by other brainstem or cerebellar findings, and it would not follow this stereotyped six-week course of steady improvement.",
+        "E": "Vestibular neuritis is inflammation of the vestibular nerve, presumed viral or vascular, causing sudden non-positional vertigo lasting hours to days with normal hearing; central compensation drives gradual recovery over weeks and the prognosis is good, though mild imbalance may persist in low-light conditions."
+      }
+    },
+    {
+      "id": "neuro-inner-ear-auditory-vestibular-physiology-020",
+      "question": "A 22-year-old woman has acute attacks of vertigo without nausea that last two to three minutes, and she notices persistent mild imbalance between attacks. As a teenager she had severe headaches that forced her to lie down in a dark room, and her mother and maternal grandmother had similar headaches. She occasionally sees flashing lights in her visual field. She reports no hearing loss, tinnitus, or aural fullness, and her audiogram is normal. What is the most likely diagnosis?",
+      "answers": {
+        "A": "Benign paroxysmal positional vertigo",
+        "B": "Labyrinthitis",
+        "C": "Meniere disease",
+        "D": "Vestibular migraine",
+        "E": "Vestibular schwannoma"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Benign paroxysmal positional vertigo is triggered by specific head position changes and produces no interictal imbalance or visual aura.",
+        "B": "Labyrinthitis causes a single prolonged episode of continuous vertigo with significant hearing loss rather than recurrent brief attacks.",
+        "C": "Meniere disease requires auditory symptoms, and the absence of hearing loss, tinnitus, and fullness argues strongly against it.",
+        "D": "Recurrent brief vertigo with interictal imbalance in a patient with a personal and strong family history of migraine, photophobia, and visual aura, and with no auditory symptoms, is vestibular migraine, a diagnosis of exclusion managed with trigger and dietary modification plus abortive or daily preventive medication.",
+        "E": "Vestibular schwannoma presents with unilateral asymmetric sensorineural hearing loss or tinnitus preceding any vestibular complaints."
+      }
+    }
+  ]
+}
