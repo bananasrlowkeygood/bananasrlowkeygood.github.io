@@ -1,0 +1,413 @@
+{
+  "lecture": "Brainstem II: Cranial Nerve Nuclei and Integrative Pathways",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-brainstem-ii-001",
+      "question": "A 29-year-old woman presents with 3 days of horizontal double vision that is worst when she looks to the left. Two years ago she had an episode of painful vision loss in the right eye that resolved spontaneously. On examination, the left eye abducts fully with nystagmus, but the right eye fails to adduct past the midline. Convergence is intact and pupillary responses are normal. Cerebrospinal fluid results are shown. Which of the following structures is most likely damaged?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Opening pressure", "14 cm H2O", "10-20 cm H2O"],
+        ["Protein", "44 mg/dL", "15-45 mg/dL"],
+        ["Glucose", "62 mg/dL", "45-80 mg/dL"],
+        ["Leukocytes", "6/mm3", "0-5/mm3"],
+        ["Oligoclonal bands", "5 unique bands", "0-1 bands"]
+      ],
+      "answers": {
+        "A": "Left abducens nucleus",
+        "B": "Left medial longitudinal fasciculus",
+        "C": "Right medial longitudinal fasciculus",
+        "D": "Right oculomotor nucleus",
+        "E": "Right paramedian pontine reticular formation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A left abducens nuclear lesion would abolish leftward gaze in both eyes, including abduction of the left eye, which is preserved here.",
+        "B": "The left medial longitudinal fasciculus links the right abducens nucleus to the left oculomotor nucleus, so its injury would impair left eye adduction during rightward gaze.",
+        "C": "During left gaze the left abducens nucleus sends its internuclear signal across the midline and up the right medial longitudinal fasciculus to the right oculomotor nucleus; interrupting it unyokes the right medial rectus while sparing convergence, the classic internuclear ophthalmoplegia of multiple sclerosis.",
+        "D": "A right oculomotor nuclear lesion would also produce ptosis, a dilated pupil, and impaired convergence, none of which are present.",
+        "E": "A right paramedian pontine reticular formation lesion causes a conjugate gaze palsy toward the right, not isolated adduction failure on left gaze."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-002",
+      "question": "A 64-year-old man with hypertension develops sudden diplopia. On examination the left eye remains in midposition and moves neither laterally nor medially during horizontal gaze in either direction. The right eye abducts fully with nystagmus but does not adduct when he attempts to look to the left. Vertical gaze and convergence are preserved. Which combination of structures is most likely infarcted?",
+      "answers": {
+        "A": "Left abducens nucleus and left medial longitudinal fasciculus",
+        "B": "Left abducens nucleus and right medial longitudinal fasciculus",
+        "C": "Left oculomotor nucleus and left medial longitudinal fasciculus",
+        "D": "Right abducens nucleus and left medial longitudinal fasciculus",
+        "E": "Right abducens nucleus and right medial longitudinal fasciculus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "This is one-and-a-half syndrome: the damaged left abducens nucleus prevents left eye abduction and cannot recruit the right medial rectus for left gaze, while the damaged left medial longitudinal fasciculus prevents the left eye from adducting when the right eye abducts.",
+        "B": "Injuring the right medial longitudinal fasciculus would block right eye adduction during left gaze, but the right eye would still be pulled by an intact left tract during right gaze.",
+        "C": "An oculomotor nuclear lesion would add ptosis, pupillary dilation, and vertical gaze deficits, which are absent.",
+        "D": "This pairing would abolish rightward gaze and impair left eye adduction, the mirror image of the findings described.",
+        "E": "This is right-sided one-and-a-half syndrome, in which the right eye would be immobile horizontally rather than the left."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-003",
+      "question": "A 58-year-old woman is struck on the back of the head during a fall. She now reports vertical double vision that worsens when she reads and when she descends stairs, and she tilts her head to the right to compensate. MRI shows a discrete lesion confined to the right trochlear nucleus in the caudal midbrain. Weakness of which muscle best explains her findings?",
+      "answers": {
+        "A": "Left inferior oblique",
+        "B": "Left superior oblique",
+        "C": "Right inferior oblique",
+        "D": "Right lateral rectus",
+        "E": "Right superior oblique"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The inferior oblique elevates and extorts the eye and is supplied by the oculomotor nerve, not the trochlear nucleus.",
+        "B": "Trochlear fibers decussate within the midbrain before exiting dorsally, so the right trochlear nucleus gives rise to the left trochlear nerve and controls the left superior oblique.",
+        "C": "This muscle is also oculomotor-innervated, and its weakness would impair elevation in adduction rather than depression.",
+        "D": "The lateral rectus abducts the eye and is supplied by the abducens nerve, which is unaffected.",
+        "E": "The right superior oblique would be weak with a right trochlear nerve lesion distal to the decussation, not with a nuclear lesion."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-004",
+      "question": "A 71-year-old man with atrial fibrillation develops sudden vertigo, hoarseness, and difficulty swallowing. Examination shows loss of pain and temperature sensation on the left side of the face and over the right arm and leg, left-sided limb dysmetria, and left ptosis with miosis. Strength is normal in all four extremities. Vital signs are shown. Occlusion of which artery best explains these findings?",
+      "table": [
+        ["Vital Sign", "Value", "Reference Range"],
+        ["Temperature", "37.0 C", "36.5-37.5 C"],
+        ["Heart rate", "112/min, irregularly irregular", "60-100/min"],
+        ["Blood pressure", "168/94 mm Hg", "less than 120/80 mm Hg"],
+        ["Respiratory rate", "16/min", "12-20/min"],
+        ["Oxygen saturation", "97%", "95-100%"]
+      ],
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Basilar artery",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This vessel supplies the lateral pons, producing ipsilateral hearing loss and facial weakness alongside crossed sensory findings.",
+        "B": "This vessel supplies the medial medulla, producing contralateral hemiparesis, contralateral loss of vibration sense, and ipsilateral tongue deviation.",
+        "C": "Basilar occlusion causes bilateral long tract signs and often a locked-in state rather than a discrete crossed syndrome.",
+        "D": "These findings constitute lateral medullary (Wallenberg) syndrome, reflecting damage to the nucleus ambiguus, spinal trigeminal nucleus and tract, spinothalamic tract, inferior cerebellar peduncle, and descending sympathetic fibers.",
+        "E": "This vessel supplies the rostral cerebellum and upper pons, causing prominent ataxia without hoarseness or dysphagia."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-005",
+      "question": "A 34-year-old woman reports 5 days of dim, washed-out vision in the right eye accompanied by pain on eye movement. Both pupils are equal in size in dim light, and both eyes move fully in all directions without ptosis. Findings from swinging-flashlight testing are shown. Which structure is most likely injured?",
+      "table": [
+        ["Stimulus", "Right pupil", "Left pupil"],
+        ["Light in right eye", "No constriction", "No constriction"],
+        ["Light in left eye", "Constricts", "Constricts"]
+      ],
+      "answers": {
+        "A": "Left oculomotor nerve",
+        "B": "Left optic nerve",
+        "C": "Right oculomotor nerve",
+        "D": "Right optic nerve",
+        "E": "Right pretectal nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This would leave the left pupil dilated and unreactive no matter which eye is illuminated, and would usually cause ptosis.",
+        "B": "A left optic nerve lesion would abolish both pupillary responses when light is shined in the left eye, the opposite of what is observed.",
+        "C": "An efferent lesion on the right would prevent right pupillary constriction even when the left eye is illuminated.",
+        "D": "An afferent defect blocks light information from reaching the pretectal nuclei, so neither pupil constricts when the affected eye is lit, while intact efferent limbs allow direct and consensual constriction from the normal eye.",
+        "E": "Pretectal projections reach both Edinger-Westphal nuclei, so a unilateral pretectal lesion does not abolish the reflex in this pattern."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-006",
+      "question": "A 47-year-old man reports numbness of the right forehead and scalp after a motor vehicle collision. Facial strength is symmetric and he closes both eyes forcefully on command. Extraocular movements and hearing are normal. Results of corneal stimulation with a wisp of cotton are shown. Which nerve is most likely injured?",
+      "table": [
+        ["Stimulus", "Right eye blink", "Left eye blink"],
+        ["Touch right cornea", "Absent", "Absent"],
+        ["Touch left cornea", "Present", "Present"]
+      ],
+      "answers": {
+        "A": "Left facial nerve",
+        "B": "Left trigeminal nerve",
+        "C": "Right facial nerve",
+        "D": "Right trigeminal nerve",
+        "E": "Right vestibulocochlear nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left facial nerve lesion would abolish left eye closure regardless of which cornea is stimulated.",
+        "B": "A left trigeminal lesion would abolish both blinks when the left cornea is touched, which is not the pattern shown.",
+        "C": "A right facial nerve lesion would abolish right eye blink even when the left cornea is stimulated, but that response is present.",
+        "D": "The nasociliary branch of V1 is the afferent limb to the spinal trigeminal nucleus, which projects bilaterally to both facial nuclei, so loss of afferent input abolishes both the direct and consensual blink.",
+        "E": "The vestibulocochlear nerve carries hearing and balance information and takes no part in the corneal blink reflex."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-007",
+      "question": "A 66-year-old woman has a 2-month history of a hoarse, breathy voice and coughing when she drinks liquids. Touching either side of the oropharynx makes her feel like gagging, but on phonation the soft palate elevates only on the left and the uvula deviates to the left. Tongue protrusion is midline and shoulder shrug is symmetric. Which structure is most likely damaged?",
+      "answers": {
+        "A": "Left glossopharyngeal nerve",
+        "B": "Left vagus nerve",
+        "C": "Right glossopharyngeal nerve",
+        "D": "Right hypoglossal nerve",
+        "E": "Right vagus nerve"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This nerve forms the afferent limb, so its loss would abolish the sensation of gagging on left-sided stimulation, which is preserved.",
+        "B": "A left vagal lesion would leave only the right palate elevating and would draw the uvula to the right.",
+        "C": "A right glossopharyngeal lesion would abolish gag sensation from the right oropharynx, but sensation is intact bilaterally.",
+        "D": "The hypoglossal nerve supplies tongue musculature and would cause tongue deviation rather than palatal asymmetry.",
+        "E": "Nucleus ambiguus fibers travelling in the right vagus supply the right levator veli palatini and laryngeal muscles, so unopposed left elevation pulls the uvula toward the intact side while the paralyzed cord causes hoarseness."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-008",
+      "question": "A 68-year-old man with diabetes awakens with a drooping right corner of the mouth and drooling. He wrinkles his forehead symmetrically and closes both eyes tightly without difficulty. He also has mild clumsiness of the right hand. Taste, hearing, and lacrimation are normal. Which site of injury best explains his findings?",
+      "answers": {
+        "A": "Left corticobulbar fibers in the internal capsule",
+        "B": "Left facial nucleus in the caudal pons",
+        "C": "Right corticobulbar fibers in the internal capsule",
+        "D": "Right facial nerve at the stylomastoid foramen",
+        "E": "Right facial nucleus in the caudal pons"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Upper motor neuron input to the upper face is bilateral while input to the lower face is predominantly crossed, so a left-sided corticobulbar lesion weakens the right lower face and spares the forehead, and neighboring corticospinal fibers explain the hand clumsiness.",
+        "B": "A lesion here is a lower motor neuron lesion and would paralyze the entire left half of the face.",
+        "C": "A right-sided corticobulbar lesion would weaken the left lower face, opposite to the findings.",
+        "D": "This peripheral lesion produces the Bell palsy pattern, weakening the whole right face including the forehead.",
+        "E": "This pontine lower motor neuron lesion would paralyze the entire right face and often impair ipsilateral eye abduction."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-009",
+      "question": "A 59-year-old man with poorly controlled hypertension develops sudden weakness of the left arm and leg. Examination shows decreased vibration and position sense in the left limbs with preserved pain and temperature sensation, and the tongue deviates to the right on protrusion. Facial sensation and facial strength are normal. Which structure accounts for the tongue finding?",
+      "answers": {
+        "A": "Left hypoglossal nucleus",
+        "B": "Left nucleus ambiguus",
+        "C": "Right hypoglossal nucleus",
+        "D": "Right nucleus ambiguus",
+        "E": "Right spinal accessory nucleus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A left-sided lesion would weaken the left genioglossus and deviate the tongue toward the left.",
+        "B": "The nucleus ambiguus supplies pharyngeal and laryngeal muscles, producing hoarseness and dysphagia rather than tongue deviation.",
+        "C": "The genioglossus protrudes the tongue toward the opposite side, so unopposed left genioglossus action pushes the tongue toward the weak right side; the nucleus sits in the medial medulla next to the pyramid and medial lemniscus, explaining the crossed limb findings.",
+        "D": "This nucleus governs palate, pharynx, and larynx, and its injury would not alter tongue protrusion.",
+        "E": "The accessory nucleus supplies sternocleidomastoid and trapezius, causing shoulder droop and weak head turning."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-010",
+      "question": "A 73-year-old man undergoes right carotid endarterectomy. Postoperatively he has wide swings in blood pressure and heart rate, and gentle pressure over the right carotid bulb no longer produces the bradycardia that was elicited before surgery. The afferent fibers carrying this information travel in the glossopharyngeal nerve and terminate in which structure?",
+      "answers": {
+        "A": "Dorsal motor nucleus of the vagus",
+        "B": "Main sensory nucleus of the trigeminal",
+        "C": "Nucleus ambiguus",
+        "D": "Solitary nucleus",
+        "E": "Spinal trigeminal nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This is a parasympathetic efferent nucleus supplying thoracic and abdominal viscera through terminal ganglia, not a sensory terminus.",
+        "B": "This nucleus receives light touch, pressure, and vibration from the head and neck rather than visceral afferents.",
+        "C": "This branchial motor nucleus supplies pharyngeal and laryngeal muscles and contributes the cardiac parasympathetic efferents.",
+        "D": "The caudal portion of the solitary nucleus is the visceral sensory terminus for baroreceptor and chemoreceptor input from the carotid sinus and body via CN IX and from the aortic arch via CN X.",
+        "E": "This nucleus receives pain and temperature information from the head and neck, including some CN IX territory, but not baroreceptor input."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-011",
+      "question": "A 52-year-old woman undergoes resection of a tumor in the right infratemporal fossa. Afterward her mouth stays dry when she eats, and salivary flow from the right parotid duct is markedly reduced on stimulation. Facial strength, taste over the anterior tongue, and tear production are unaffected. Preganglionic fibers of the disrupted pathway arise from which nucleus?",
+      "answers": {
+        "A": "Dorsal motor nucleus of the vagus",
+        "B": "Edinger-Westphal nucleus",
+        "C": "Inferior salivatory nucleus",
+        "D": "Nucleus ambiguus",
+        "E": "Superior salivatory nucleus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This nucleus supplies smooth muscle and glands of the thorax and part of the abdomen via terminal ganglia.",
+        "B": "This nucleus supplies the sphincter pupillae and ciliary muscle through the ciliary ganglion.",
+        "C": "Its preganglionic fibers travel in CN IX, leave as the lesser petrosal nerve, synapse in the otic ganglion, and reach the parotid gland on the auriculotemporal nerve.",
+        "D": "This is a branchial motor nucleus for palate, pharynx, and larynx and is not secretomotor to the parotid.",
+        "E": "This nucleus supplies the submandibular, sublingual, and lacrimal glands, all of which are spared here."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-012",
+      "question": "A 41-year-old man has a schwannoma compressing the facial nerve within the right internal acoustic meatus. He has complete right facial paralysis including the forehead, loss of taste over the anterior two-thirds of the tongue, and a dry, gritty right eye with absent tearing. Interruption of which nerve best accounts for the decreased tearing?",
+      "answers": {
+        "A": "Auriculotemporal nerve",
+        "B": "Chorda tympani",
+        "C": "Greater petrosal nerve",
+        "D": "Lesser petrosal nerve",
+        "E": "Nasociliary nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This branch of V3 carries postganglionic fibers from the otic ganglion to the parotid gland.",
+        "B": "This branch carries taste from the anterior tongue and secretomotor fibers to the submandibular and sublingual glands.",
+        "C": "It carries preganglionic fibers from the superior salivatory nucleus to the pterygopalatine ganglion, whose postganglionic fibers reach the lacrimal gland by way of the zygomatic and lacrimal nerves.",
+        "D": "This nerve carries CN IX preganglionic fibers to the otic ganglion for parotid secretion.",
+        "E": "This branch of V1 provides the afferent limb of the corneal reflex and carries no secretomotor fibers."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-013",
+      "question": "A 55-year-old woman has an ischemic lesion in the central tegmentum of the mid-pons. Audiometry shows normal pure-tone thresholds in both ears, but she cannot tell whether a sound comes from her right or her left and has difficulty following conversation in crowded rooms. Dysfunction of which structure best explains her deficit?",
+      "answers": {
+        "A": "Cochlear nuclei",
+        "B": "Inferior colliculus",
+        "C": "Lateral geniculate nucleus",
+        "D": "Medial geniculate nucleus",
+        "E": "Superior olivary complex"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A cochlear nuclear lesion would cause unilateral hearing loss, but her thresholds are normal.",
+        "B": "This midbrain relay projects to the medial geniculate nucleus and mediates startle, and it lies well above the mid-pons.",
+        "C": "This is a visual relay nucleus of the thalamus with no auditory function.",
+        "D": "This thalamic auditory relay projects to auditory cortex, and its injury would degrade conscious perception rather than localization alone.",
+        "E": "It receives bilateral input from the ventral cochlear nuclei by way of the trapezoid body and computes interaural time differences used to localize sound in the horizontal plane."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-014",
+      "question": "A 60-year-old man has an infarct at the lateral pontomedullary junction. He has severe vertigo, nystagmus, and truncal instability with a tendency to fall toward the side of the lesion. Fibers carrying vestibular information from the vestibular nuclei to the cerebellum are interrupted as they traverse which structure?",
+      "answers": {
+        "A": "Cerebral peduncle",
+        "B": "Inferior cerebellar peduncle",
+        "C": "Lateral lemniscus",
+        "D": "Middle cerebellar peduncle",
+        "E": "Superior cerebellar peduncle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This midbrain structure carries descending corticospinal and corticobulbar fibers toward the pons and cord.",
+        "B": "The vestibulocerebellar tract travels in the juxtarestiform body, a bundle sandwiched between the vestibular nuclei that runs within the inferior cerebellar peduncle.",
+        "C": "This tract carries ascending auditory fibers to the inferior colliculus.",
+        "D": "This peduncle carries pontocerebellar fibers from the basal pontine nuclei to the contralateral cerebellum.",
+        "E": "This peduncle carries cerebellar output, such as the dentatorubral tract, out toward the red nucleus and thalamus."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-015",
+      "question": "A 63-year-old man had a hemorrhage in the dorsal pons 8 months ago. He now has rhythmic 2-Hz contractions of the soft palate that persist during sleep. MRI shows enlargement and increased T2 signal of the right inferior olive without new infarction. Interruption of which tract best explains this delayed finding?",
+      "answers": {
+        "A": "Central tegmental tract",
+        "B": "Corticospinal tract",
+        "C": "Lateral lemniscus",
+        "D": "Medial longitudinal fasciculus",
+        "E": "Spinothalamic tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "It carries rubro-olivary fibers from the red nucleus to the inferior olive within the dentato-rubro-olivary circuit, and deafferentation produces hypertrophic olivary degeneration with palatal tremor.",
+        "B": "This descending tract drives spinal lower motor neurons, and its injury causes spastic weakness rather than rhythmic palatal movement.",
+        "C": "This is the ascending auditory pathway to the inferior colliculus.",
+        "D": "This tract yokes the extraocular motor nuclei, and its injury causes internuclear ophthalmoplegia.",
+        "E": "This tract carries pain and temperature information and its injury causes contralateral sensory loss."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-016",
+      "question": "A 68-year-old man has a 3-year history of a resting tremor of the right hand, a slow shuffling gait, and stiffness. Examination shows cogwheel rigidity and reduced arm swing on the right. Autopsy studies in similar patients show loss of pigmented cells in the rostral midbrain. Degeneration of which cell population best explains his motor findings?",
+      "answers": {
+        "A": "Locus ceruleus neurons projecting to the cerebral cortex",
+        "B": "Pars compacta neurons projecting to the striatum",
+        "C": "Pars reticulata neurons projecting to the thalamus",
+        "D": "Raphe neurons projecting to the spinal dorsal horn",
+        "E": "Red nucleus neurons projecting to the inferior olive"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "These noradrenergic cells govern arousal and vigilance, and their loss contributes to sleep and mood changes rather than the core motor triad.",
+        "B": "These dopaminergic neurons contain neuromelanin, which gives the substantia nigra its dark color, and project to the caudate and putamen to modulate voluntary movement.",
+        "C": "These GABAergic output neurons inhibit the thalamus and are not the pigmented population lost in this disease.",
+        "D": "These serotonergic cells modulate nociception and mood through descending and ascending projections.",
+        "E": "These neurons participate in the dentato-rubro-olivary circuit for motor learning rather than dopaminergic modulation of the striatum."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-017",
+      "question": "A 57-year-old woman develops a sudden right pontine infarct. Her eyes rest deviated to the left, and neither eye moves past the midline toward the right, although both eyes move fully to the left. She also has weakness of the entire right side of the face including the forehead. Vertical gaze and convergence are intact. Which structure is most likely involved?",
+      "answers": {
+        "A": "Left frontal eye field",
+        "B": "Left paramedian pontine reticular formation",
+        "C": "Right frontal eye field",
+        "D": "Right paramedian pontine reticular formation",
+        "E": "Right superior colliculus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A destructive frontal eye field lesion drives the eyes toward the lesioned side and would not produce a peripheral facial palsy.",
+        "B": "A left-sided lesion would abolish leftward gaze, but leftward gaze is fully preserved.",
+        "C": "This lesion would deviate the eyes toward the right, the opposite of what is observed.",
+        "D": "The paramedian pontine reticular formation drives the ipsilateral abducens nucleus and, through the contralateral medial longitudinal fasciculus, the opposite oculomotor nucleus, so its loss abolishes conjugate gaze toward the lesion; the neighboring facial nucleus explains the peripheral facial weakness.",
+        "E": "The superior colliculus coordinates orienting movements of the head and eyes, and its injury does not cause a complete horizontal gaze palsy."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-018",
+      "question": "A 45-year-old woman is evaluated for facial numbness of unclear cause. The examiner rests a finger on her chin and taps it with a reflex hammer, which stretches the masseter and produces brisk jaw closure. The cell bodies of the first-order neurons carrying this stretch information are located in which structure?",
+      "answers": {
+        "A": "Main sensory nucleus of the trigeminal",
+        "B": "Mesencephalic nucleus of the trigeminal",
+        "C": "Spinal trigeminal nucleus",
+        "D": "Trigeminal ganglion",
+        "E": "Ventral posteromedial nucleus of the thalamus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This nucleus receives light touch, pressure, and vibration from the head and neck and gives rise to second-order fibers of the trigeminal lemniscus.",
+        "B": "It is a unique collection of primary sensory cell bodies located inside the central nervous system; muscle spindle afferents from the muscles of mastication have their somata here and project directly to the motor trigeminal nucleus without an intervening synapse.",
+        "C": "This nucleus receives pain and temperature from the head and neck and supplies the afferent limb of the corneal reflex.",
+        "D": "This ganglion houses first-order cell bodies for other trigeminal sensation but not for masticatory muscle spindles.",
+        "E": "This is the third-order thalamic relay projecting to the postcentral gyrus."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-019",
+      "question": "A 32-year-old man with a syrinx extending into the medulla has lost pain and temperature sensation over his forehead, the lateral cheeks, and the regions in front of both ears, while sensation around the mouth and nose remains intact. Light touch and vibration on the face are preserved, as is the jaw-jerk reflex. Which structure is most likely affected?",
+      "answers": {
+        "A": "Main sensory nucleus of the trigeminal",
+        "B": "Mesencephalic nucleus of the trigeminal",
+        "C": "Pars caudalis of the spinal trigeminal nucleus",
+        "D": "Pars interpolaris of the spinal trigeminal nucleus",
+        "E": "Pars oralis of the spinal trigeminal nucleus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This nucleus mediates light touch, pressure, and vibration from the face, all of which are preserved.",
+        "B": "This nucleus carries proprioception from the muscles of mastication, and its loss would blunt the jaw-jerk reflex.",
+        "C": "The spinal trigeminal nucleus is somatotopically arranged in concentric onion-skin bands, with the most peripheral facial zones represented in its caudal-most portion near the cervical cord.",
+        "D": "This intermediate segment represents the midface and mentum, which are spared in this patient.",
+        "E": "This rostral segment represents the perioral region, oral cavity, and teeth, which remain intact."
+      }
+    },
+    {
+      "id": "neuro-brainstem-ii-020",
+      "question": "A 39-year-old woman has a cavernous malformation in the floor of the fourth ventricle. She has complete weakness of the left side of the face including the forehead, inability to abduct the left eye, and inability to move either eye to the left. Facial sensation is intact, hearing is normal, and her limbs are strong. Which site best accounts for these findings?",
+      "answers": {
+        "A": "Left caudal pons, dorsal tegmentum",
+        "B": "Left lateral medulla",
+        "C": "Left rostral midbrain",
+        "D": "Right caudal pons, dorsal tegmentum",
+        "E": "Right cerebellopontine angle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Facial nerve fibers loop around the abducens nucleus as the internal genu to form the facial colliculus, so a single small dorsal lesion produces an ipsilateral peripheral facial palsy together with an ipsilateral horizontal gaze palsy.",
+        "B": "A lateral medullary lesion causes Horner syndrome, crossed pain and temperature loss, hoarseness, and ataxia rather than combined facial and abducens findings.",
+        "C": "A rostral midbrain lesion involves the oculomotor and Edinger-Westphal nuclei, producing ptosis, a dilated pupil, and a down-and-out eye.",
+        "D": "A right-sided lesion at this level would weaken the right face and impair rightward gaze.",
+        "E": "Compression at the cerebellopontine angle typically causes hearing loss and vertigo with variable facial weakness, but not a conjugate gaze palsy."
+      }
+    }
+  ]
+}
