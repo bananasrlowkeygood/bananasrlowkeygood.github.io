@@ -678,9 +678,13 @@
 </div>
 
 <script>
+  // Files in a block folder that describe it rather than hold questions.
+  const MANIFESTS = ['index.json', 'weeks.json'];
+
   const params  = new URLSearchParams(location.search);
   const block   = params.get('block') || '';
   const lecture = params.get('lecture') || '';
+  const week    = params.get('week') || '';
 
   let questions = [], current = 0;
 
@@ -701,7 +705,7 @@
   // ── Session persistence ──
   // Kept in sessionStorage so a refresh (or an accidental navigation) resumes
   // where you left off. Per tab, per quiz, and gone when the tab closes.
-  const STORE_KEY = `jeff-quiz:${block}:${lecture || '*'}`;
+  const STORE_KEY = `jeff-quiz:${block}:${lecture || (week ? 'week-' + week : '*')}`;
 
   function qKey(q) {
     return q.id || `${q._lecture || lecture || block}|${(q.question || '').slice(0, 120)}`;
@@ -799,12 +803,27 @@
         questions = data.questions || [];
         document.getElementById('topSubtitle').textContent = data.lecture || lecture;
       } else {
-        const apiUrl = `https://api.github.com/repos/bananasrlowkeygood/bananasrlowkeygood.github.io/contents/jeff/${block}`;
-        const dirRes = await fetch(apiUrl);
-        if (!dirRes.ok) throw new Error('could not list block');
-        const entries = await dirRes.json();
-        const files = entries.filter(e => e.type === 'file' && e.name.endsWith('.json') && e.name !== 'index.json').map(e => e.name);
-        if (!files.length) { show('no questions in this block yet.'); return; }
+        let files, label;
+
+        if (week) {
+          // A week names its own lectures, so this path skips the GitHub API.
+          const wr = await fetch(`${block}/weeks.json?t=${Date.now()}`);
+          if (!wr.ok) throw new Error('this block has no weeks');
+          const wd = await wr.json();
+          const w = (wd.weeks || []).find(x => String(x.id) === week);
+          if (!w) throw new Error(`no week "${week}" in this block`);
+          files = w.lectures || [];
+          label = `${w.name}${w.dates ? ' · ' + w.dates : ''} · shuffled`;
+        } else {
+          const apiUrl = `https://api.github.com/repos/bananasrlowkeygood/bananasrlowkeygood.github.io/contents/jeff/${block}`;
+          const dirRes = await fetch(apiUrl);
+          if (!dirRes.ok) throw new Error('could not list block');
+          const entries = await dirRes.json();
+          files = entries.filter(e => e.type === 'file' && e.name.endsWith('.json') && !MANIFESTS.includes(e.name)).map(e => e.name);
+          label = 'all lectures · shuffled';
+        }
+
+        if (!files.length) { show(`no questions in this ${week ? 'week' : 'block'} yet.`); return; }
         const all = await Promise.all(files.map(async name => {
           const r = await fetch(`${block}/${name}?t=${Date.now()}`);
           if (!r.ok) return [];
@@ -812,7 +831,7 @@
           return (d.questions || []).map(q => ({ ...q, _lecture: d.lecture }));
         }));
         questions = all.flat();
-        document.getElementById('topSubtitle').textContent = 'all lectures · shuffled';
+        document.getElementById('topSubtitle').textContent = label;
       }
     } catch(e) {
       show('failed to load questions: ' + e.message); return;

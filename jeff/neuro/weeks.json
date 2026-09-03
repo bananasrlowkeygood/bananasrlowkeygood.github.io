@@ -1,0 +1,53 @@
+{
+  "block": "neuro",
+  "weeks": [
+    {
+      "id": "1",
+      "name": "Week 1",
+      "dates": "8/3 – 8/7",
+      "lectures": [
+        "introduction-to-the-nervous-system.json",
+        "synapses-amino-acid-neurotransmitters.json",
+        "neurotransmitters-ach-biogenic-amines.json",
+        "neuromuscular-junction-disorders-myopathy.json",
+        "clinical-assessment-psychiatric-disorder.json",
+        "motor-pathways.json",
+        "cns-pharmacology-i-antidepressants.json",
+        "peripheral-neuropathy.json",
+        "depression.json",
+        "neurological-exam-part-1.json",
+        "one-carbon-metabolism.json"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Week 2",
+      "dates": "8/10 – 8/14",
+      "lectures": [
+        "intro-to-the-cns.json",
+        "sensory-pathways-dcml.json",
+        "sensory-pathways-anterolateral.json",
+        "trauma-stressor-related-disorders.json",
+        "cortex-structure-and-function.json",
+        "mood-disorder-cases.json",
+        "blood-supply-and-csf.json",
+        "spinal-cord-syndromes.json",
+        "disaster-medicine.json",
+        "cns-pharmacology-ii-anxiolytics-and-mood-stabilizers.json"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Week 3",
+      "dates": "8/17 – 8/21",
+      "lectures": [
+        "head-via-cranial-nerves.json",
+        "brainstem-i-external-features-circulation-long-tracts.json",
+        "child-adolescent-psychiatry.json",
+        "outer-middle-ear-auditory-system.json",
+        "inner-ear-auditory-vestibular-physiology.json",
+        "infections-of-the-ear-nose-throat.json"
+      ]
+    }
+  ]
+}
