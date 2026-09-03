@@ -578,6 +578,86 @@
     .res-btn:hover { background: #2a5a90; }
     .res-btn.outline { background: transparent; color: #3a6ea8; }
     .res-btn.outline:hover { background: #edf3fb; }
+
+    .res-btn.refine { border-color: #2b8ca6; color: #2b8ca6; }
+    .res-btn.refine:hover { background: #ecf6f9; }
+
+    /* ── Refinement ──
+       The chips lift off the navigator rail and get filed into the tray; the
+       ones you missed refuse to go, and become the next run. */
+    .refine-veil {
+      position: fixed; inset: 0; z-index: 200;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 1.5rem; padding: 2rem 1.5rem;
+      background: #eae6f0;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      cursor: pointer;
+    }
+    .refine-veil.on { opacity: 1; }
+
+    .refine-head {
+      font-family: "Klee One", cursive;
+      font-size: 0.95rem;
+      color: #5c4f7a;
+    }
+
+    .refine-grid {
+      --chip: 30px;
+      display: flex; flex-wrap: wrap;
+      justify-content: center; align-content: center;
+      gap: 0.28rem;
+      width: 100%; max-width: 560px; max-height: 50vh;
+      overflow: hidden;
+    }
+
+    /* Each cell is a navigator chip, lifted off the rail. */
+    .rnum {
+      transition: transform 0.55s cubic-bezier(0.45, 0, 0.7, 0.25),
+                  opacity 0.55s ease;
+      will-change: transform, opacity;
+    }
+    .rnum > i {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: var(--chip); height: var(--chip);
+      border: 1px solid #c8c8c8; border-radius: 4px;
+      background: #fff; color: #555;
+      font-size: 0.72rem; font-style: normal;
+    }
+    .rnum.ok  > i { background: #edf7f1; border-color: #2e7d4f; color: #2e7d4f; }
+    .rnum.bad > i { background: #fdf0f0; border-color: #b03030; color: #b03030; }
+
+    .rnum > i.wiggle { animation: rwiggle 1.15s ease-in-out infinite; }
+    @keyframes rwiggle {
+      0%, 100% { transform: translate(0, 0)     rotate(0deg); }
+      25%      { transform: translate(0, -1.5px) rotate(-1.5deg); }
+      50%      { transform: translate(0, 1px)    rotate(1deg); }
+      75%      { transform: translate(0, -1px)   rotate(1.5deg); }
+    }
+
+    .refine-bin {
+      position: relative;
+      width: min(300px, 74vw); height: 40px;
+      border: 1px solid #c5bee0; border-radius: 6px;
+      background: #f0ecf8;
+      overflow: hidden;
+    }
+    .refine-bin-fill {
+      position: absolute; top: 0; bottom: 0; left: 0; width: 0%;
+      background: #c5bee0;
+      transition: width 0.25s linear;
+    }
+    .refine-bin-label {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; color: #5c4f7a;
+    }
+
+    .refine-note {
+      font-size: 0.78rem; color: #5c4f7a; opacity: 0.75;
+      min-height: 1em;
+    }
   </style>
 </head>
 <body>
@@ -664,6 +744,7 @@
       <button class="res-btn outline" onclick="reviewAnswers()">← review answers</button>
       <button class="res-btn outline" id="reviewFlaggedBtn" onclick="reviewFlagged()" style="display:none">&#9873; review flagged</button>
       <button class="res-btn outline" id="reviewSkippedBtn" onclick="reviewSkipped()" style="display:none">→ first skipped</button>
+      <button class="res-btn outline refine" id="refineBtn" onclick="refine()" style="display:none">refine</button>
       <button class="res-btn" onclick="restartQuiz()">restart</button>
     </div>
   </div>
@@ -697,6 +778,10 @@
   // True while the results screen is up, so navigation knows to leave it.
   let resultsOpen = false;
 
+  // True once a refinement has cut the run down to the questions you missed,
+  // so restoring it in another tab doesn't hand the filed-away ones back.
+  let subsetRun = false;
+
   function response(i) {
     if (!responses[i]) responses[i] = { selected: null, answered: false, struck: [], flagged: false, skipped: false, highlights: {} };
     if (!responses[i].highlights) responses[i].highlights = {};
@@ -704,8 +789,9 @@
   }
 
   // ── Session persistence ──
-  // Kept in sessionStorage so a refresh (or an accidental navigation) resumes
-  // where you left off. Per tab, per quiz, and gone when the tab closes.
+  // Kept in localStorage so a refresh, a new tab, or coming back tomorrow all
+  // resume where you left off. One saved run per quiz, so two tabs open on the
+  // same quiz share it rather than each keeping half the story.
   const STORE_KEY = `jeff-quiz:${block}:${lecture || (week ? 'week-' + week : '*')}`;
 
   function qKey(q) {
@@ -724,9 +810,10 @@
       responses.forEach((r, i) => {
         if (hasWork(r)) byKey[qKey(questions[i])] = r;
       });
-      sessionStorage.setItem(STORE_KEY, JSON.stringify({
+      localStorage.setItem(STORE_KEY, JSON.stringify({
         v: 1,
         current,
+        subset: subsetRun,
         order: questions.map(qKey),
         responses: byKey
       }));
@@ -735,7 +822,7 @@
 
   function readSession() {
     try {
-      const saved = JSON.parse(sessionStorage.getItem(STORE_KEY) || 'null');
+      const saved = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
       return saved && saved.v === 1 && Array.isArray(saved.order) ? saved : null;
     } catch (e) { return null; }
   }
@@ -753,7 +840,11 @@
     if (!known.length) return false;
 
     known.sort((a, b) => pos.get(qKey(a)) - pos.get(qKey(b)));
-    questions = known.concat(fresh);
+
+    // A refined run is a deliberate subset, so it keeps exactly what it kept.
+    // Any other run absorbs questions the lecture has gained since it started.
+    subsetRun = !!saved.subset;
+    questions = subsetRun ? known : known.concat(fresh);
 
     responses = questions.map(q => {
       const r = saved.responses && saved.responses[qKey(q)];
@@ -1405,6 +1496,7 @@
 
     document.getElementById('reviewFlaggedBtn').style.display = flagged ? 'inline-block' : 'none';
     document.getElementById('reviewSkippedBtn').style.display = skipped ? 'inline-block' : 'none';
+    document.getElementById('refineBtn').style.display = wrong ? 'inline-block' : 'none';
 
     const circ = 2 * Math.PI * 60;
     const arc = document.getElementById('donutArc');
@@ -1418,14 +1510,122 @@
     saveSession();
   }
 
-  function restartQuiz() {
-    current = 0;
+  // ── Refinement ──
+  // Severance's macrodata refinement, borrowed. Every question you answered
+  // goes up on the wall; the ones you got right are filed into the bin, and
+  // whatever refuses to go becomes the next run — unanswered, so you meet them
+  // cold. Click anywhere to cut it short.
+  function refine() {
+    const wrong = questions.filter((q, i) => {
+      const r = responses[i];
+      return r && r.answered && r.selected !== q.correct;
+    });
+    if (!wrong.length) return;
+
+    const veil = document.createElement('div');
+    veil.className = 'refine-veil';
+    veil.innerHTML =
+      '<div class="refine-head">refining</div>' +
+      '<div class="refine-grid"></div>' +
+      '<div class="refine-bin"><div class="refine-bin-fill"></div>' +
+      '<div class="refine-bin-label">0%</div></div>' +
+      '<div class="refine-note"></div>';
+    document.body.appendChild(veil);
+
+    const grid  = veil.querySelector('.refine-grid');
+    const bin   = veil.querySelector('.refine-bin');
+    const fill  = veil.querySelector('.refine-bin-fill');
+    const label = veil.querySelector('.refine-bin-label');
+    const note  = veil.querySelector('.refine-note');
+
+    // A long shuffle would spill off the screen at full chip size.
+    grid.style.setProperty('--chip', questions.length > 150 ? '20px'
+                                   : questions.length > 80  ? '25px' : '30px');
+
+    const cells = questions.map((q, i) => {
+      const r  = responses[i];
+      const ok = !!(r && r.answered && r.selected === q.correct);
+      const el = document.createElement('span');
+      el.className = 'rnum ' + (ok ? 'ok' : 'bad');
+      el.innerHTML = '<i>' + (i + 1) + '</i>';
+      grid.appendChild(el);
+      return { el, ok };
+    });
+
+    // Everything twitches, out of step with itself.
+    cells.forEach(c => {
+      const inner = c.el.firstChild;
+      inner.classList.add('wiggle');
+      inner.style.animationDelay = (-Math.random() * 1.15).toFixed(2) + 's';
+    });
+    void veil.offsetHeight;      // settle the start of the transition — rAF
+    veil.classList.add('on');    // never fires while the tab is hidden
+
+    const keep = cells.filter(c => c.ok);
+    const step = keep.length ? Math.min(30, 1500 / keep.length) : 0;
+    const timers = [];
+    let filed = 0, ended = false;
+
+    function file(c) {
+      const from = c.el.getBoundingClientRect();
+      const to   = bin.getBoundingClientRect();
+      c.el.firstChild.classList.remove('wiggle');
+      c.el.style.transform =
+        'translate(' + (to.left + to.width  / 2 - (from.left + from.width  / 2)) + 'px,' +
+                       (to.top  + to.height / 2 - (from.top  + from.height / 2)) + 'px) scale(0.25)';
+      c.el.style.opacity = '0';
+
+      filed++;
+      const pct = Math.round(filed / keep.length * 100);
+      fill.style.width = pct + '%';
+      label.textContent = pct + '%';
+    }
+
+    function after(ms, fn) { timers.push(setTimeout(fn, ms)); }
+
+    function finish() {
+      if (ended) return;
+      ended = true;
+      timers.forEach(clearTimeout);
+
+      // Anything not yet filed belongs to the next run — settle it and stop.
+      cells.forEach(c => {
+        if (c.ok && c.el.style.opacity !== '0') file(c);
+        c.el.firstChild.classList.remove('wiggle');
+      });
+      if (keep.length) { fill.style.width = '100%'; label.textContent = '100%'; }
+      note.textContent = wrong.length + ' left to redo';
+
+      setTimeout(() => {
+        veil.classList.remove('on');
+        setTimeout(() => { veil.remove(); restartWith(wrong, true); }, 450);
+      }, 1100);
+    }
+
+    veil.addEventListener('click', finish);
+
+    after(850, () => {
+      keep.forEach((c, n) => after(n * step, () => file(c)));
+      after(keep.length * step + 850, finish);
+    });
+  }
+
+  // Begin a fresh run over just these questions, with nothing answered.
+  function restartWith(list, subset) {
+    subsetRun = !!subset;
+    questions = list;
     responses = [];
+    current = 0;
     resultsOpen = false;
     shuffle(questions);
     document.getElementById('results').classList.remove('visible');
     document.getElementById('quizCard').style.display = 'flex';
     render();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function restartQuiz() {
+    restartWith(questions, subsetRun);
   }
 
   // Straight to the first question you flagged / skipped, from the results screen.
