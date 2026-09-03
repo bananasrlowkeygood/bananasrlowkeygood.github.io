@@ -1,0 +1,1044 @@
+{
+  "lecture": "CBL W5 LOs",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-cbl-w5-los-001",
+      "question": "A 68-year-old man is brought to the emergency department 90 minutes after the abrupt onset of weakness. On examination he is apathetic and slow to initiate speech. Strength is 2/5 in the right leg and 4+/5 in the right arm, with the face fully spared. Sensation is diminished over the right leg. He has been incontinent of urine since arrival. Noncontrast CT shows no hemorrhage. Occlusion of which of the following arteries best explains this pattern of deficits?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Anterior choroidal artery",
+        "C": "Lenticulostriate arteries",
+        "D": "Middle cerebral artery",
+        "E": "Posterior cerebral artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The ACA supplies the medial frontal and parietal cortex, where the leg lies on the homunculus, producing contralateral leg > arm weakness with sparing of the face plus abulia and urinary incontinence from medial frontal involvement.",
+        "B": "Anterior choroidal artery occlusion damages the posterior limb of the internal capsule and optic tract, producing hemiparesis with hemisensory loss and a homonymous hemianopia rather than leg-predominant weakness.",
+        "C": "Lenticulostriate occlusion causes a pure motor lacunar stroke affecting face, arm, and leg equally without cortical features such as abulia.",
+        "D": "MCA occlusion produces contralateral face and arm weakness greater than leg, usually with aphasia or hemineglect.",
+        "E": "PCA occlusion affects the occipital lobe and produces a contralateral homonymous hemianopia rather than motor weakness."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-002",
+      "question": "A 72-year-old woman presents with sudden painless loss of vision on the right. Visual field testing shows a right homonymous hemianopia, but central vision is preserved on both confrontation and formal perimetry. Strength, sensation, and language are normal. MRI shows an acute infarct of the left occipital lobe in the posterior cerebral artery territory. Collateral flow from which of the following arteries best explains her preserved central vision?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Anterior choroidal artery",
+        "C": "Basilar artery",
+        "D": "Middle cerebral artery",
+        "E": "Posterior communicating artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The ACA supplies medial frontal and parietal cortex and does not reach the occipital pole that represents the macula.",
+        "B": "The anterior choroidal artery supplies the optic tract and lateral geniculate body, so its involvement worsens rather than spares the visual field.",
+        "C": "The basilar artery is the proximal parent vessel of the PCAs; occlusion there produces a larger posterior circulation stroke, not selective macular sparing.",
+        "D": "Leptomeningeal collaterals from the MCA perfuse the occipital pole where the macula is represented, so the macula is spared when the PCA occludes.",
+        "E": "The posterior communicating artery links the internal carotid to the PCA proximally and does not directly perfuse the occipital cortex."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-003",
+      "question": "A 66-year-old man with long-standing hypertension and type 2 diabetes develops sudden left-sided weakness. Examination shows equal 3/5 weakness of the left face, arm, and leg with normal sensation. Language, attention, and visual fields are intact, and there is no neglect. MRI shows a 9-mm infarct restricted to the posterior limb of the right internal capsule. Occlusion of which of the following vessels is most likely responsible?",
+      "answers": {
+        "A": "Anterior choroidal artery",
+        "B": "Basilar paramedian perforating arteries",
+        "C": "Lenticulostriate arteries",
+        "D": "Middle cerebral artery superior division",
+        "E": "Thalamogeniculate arteries"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anterior choroidal occlusion also strikes the posterior limb but classically adds hemisensory loss and a homonymous hemianopia, which are absent here.",
+        "B": "Paramedian basilar perforators infarct the ventral pons and typically add dysarthria or cranial nerve findings not seen in this patient.",
+        "C": "Lenticulostriate branches of the MCA supply the internal capsule and produce a pure motor lacunar stroke affecting face, arm, and leg equally without cortical signs.",
+        "D": "Superior division MCA occlusion is a cortical stroke with face and arm predominant weakness plus expressive aphasia or neglect.",
+        "E": "Thalamogeniculate branches supply the thalamus and cause a pure sensory stroke rather than isolated weakness."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-004",
+      "question": "A 62-year-old man is resuscitated after an out-of-hospital cardiac arrest during which his systolic blood pressure remained below 60 mm Hg for roughly 25 minutes. Two days later he is awake and follows commands. He cannot abduct either shoulder or flex either elbow, but grip strength is 5/5 bilaterally and he moves both legs normally. Sensation and language are intact. Infarction of which of the following regions best explains these findings?",
+      "answers": {
+        "A": "Bilateral medial temporal lobes",
+        "B": "Border zone between the anterior and middle cerebral arteries",
+        "C": "Border zone between the middle and posterior cerebral arteries",
+        "D": "Posterior limb of the internal capsule bilaterally",
+        "E": "Ventral pons bilaterally"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bilateral medial temporal injury produces anterograde amnesia, not selective proximal arm weakness.",
+        "B": "The ACA-MCA watershed is the most distal field of both arteries and is first to infarct with global hypoperfusion; it contains the proximal arm homunculus, producing man-in-a-barrel syndrome.",
+        "C": "The MCA-PCA watershed causes visual and higher-order visual processing deficits rather than proximal limb weakness.",
+        "D": "Capsular infarcts produce dense hemiparesis involving the whole hemibody, including the hand and leg.",
+        "E": "Bilateral ventral pontine infarction causes quadriplegia with preserved consciousness, not isolated proximal arm weakness."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-005",
+      "question": "A 55-year-old man develops abrupt vertigo, hoarseness, and difficulty swallowing after a chiropractic neck manipulation. Examination shows decreased pain and temperature sensation over the right side of the face and the left side of the body, right-sided ptosis with a small pupil, absent right gag reflex, and right limb ataxia. Strength is normal in all four limbs. Occlusion of which of the following arteries best accounts for this syndrome?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Basilar artery",
+        "D": "Posterior cerebral artery",
+        "E": "Posterior inferior cerebellar artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "AICA occlusion produces a lateral pontine syndrome with ipsilateral facial weakness and hearing loss from labyrinthine artery involvement.",
+        "B": "Anterior spinal artery occlusion causes a medial medullary syndrome with contralateral hemiparesis and tongue deviation toward the lesion.",
+        "C": "Basilar occlusion causes quadriplegia and anarthria with preserved consciousness (locked-in syndrome).",
+        "D": "PCA occlusion produces contralateral homonymous hemianopia with macular sparing rather than crossed sensory findings.",
+        "E": "PICA supplies the lateral medulla, so occlusion gives Wallenberg syndrome: crossed spinothalamic loss, dysphagia and hoarseness, ipsilateral Horner syndrome, and ipsilateral ataxia with preserved strength."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-006",
+      "question": "A 29-year-old woman presents 3 weeks postpartum with 5 days of progressively worsening headache, followed by a witnessed generalized seizure. Examination shows papilledema and weakness of both legs greater than the arms. Noncontrast CT shows bilateral parasagittal hypodensities with small areas of hemorrhage that do not conform to an arterial territory. MR venography demonstrates absent flow in the superior sagittal sinus. Which of the following best explains the mechanism of her parenchymal injury?",
+      "answers": {
+        "A": "Cortical spreading wave of neuronal depolarization",
+        "B": "Embolic occlusion of a cortical arterial branch",
+        "C": "Impaired venous outflow with elevated capillary pressure",
+        "D": "Rupture of a saccular aneurysm into the subarachnoid space",
+        "E": "Vasospasm of leptomeningeal arterioles"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cortical spreading depression underlies migraine aura and produces transient reversible symptoms without hemorrhage or edema.",
+        "B": "Arterial embolism produces infarction confined to a single arterial territory, whereas this injury crosses territories in a parasagittal distribution.",
+        "C": "Sinus thrombosis blocks venous drainage, raising capillary and interstitial pressure, which causes vasogenic edema, decreased perfusion, and hemorrhagic transformation, presenting with headache, seizure, and focal deficits.",
+        "D": "Aneurysmal rupture produces thunderclap headache with blood in the basal cisterns rather than parasagittal edema.",
+        "E": "Leptomeningeal vasospasm follows subarachnoid hemorrhage and causes delayed arterial-territory ischemia."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-007",
+      "question": "A 30-year-old woman has recurrent unilateral throbbing headaches. Investigators studying her condition find that stimulation of dural nociceptive fibers releases a neuropeptide that dilates meningeal vessels and sensitizes perivascular nociceptors, and that a drug blocking this peptide's receptor aborts her attacks. Which of the following best describes the mechanism responsible for this vasodilation and sensitization?",
+      "answers": {
+        "A": "Calcitonin gene-related peptide release from trigeminal fibers",
+        "B": "Cortical spreading depression in the occipital cortex",
+        "C": "Dopamine D2 receptor blockade in the chemoreceptor trigger zone",
+        "D": "Glutamate release within the nucleus accumbens",
+        "E": "Serotonin 5-HT1B receptor activation on cranial vessels"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Activated trigeminal V1 endings innervating the dura release CGRP, which dilates meningeal vessels and sensitizes nociceptors, initiating and sustaining migraine pain.",
+        "B": "Cortical spreading depression is the substrate of aura and occurs in cortex rather than at meningeal vessels.",
+        "C": "D2 blockade in the chemoreceptor trigger zone is the antiemetic mechanism of metoclopramide, not a cause of vasodilation.",
+        "D": "Glutamate signaling in the nucleus accumbens relates to reward and addiction circuitry, not meningeal nociception.",
+        "E": "5-HT1B receptor activation constricts cranial vessels and is the therapeutic action of triptans, the opposite of this effect."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-008",
+      "question": "A 32-year-old man with migraine undergoes functional imaging during an attack. Nociceptive signals arising from the meninges travel through peripheral trigeminal fibers to the trigeminal ganglion, and second-order neurons then project to the thalamus and on to the cortex, where the pain becomes conscious. Activation of which of the following structures is required between the trigeminal ganglion and the thalamus?",
+      "answers": {
+        "A": "Locus ceruleus",
+        "B": "Nucleus accumbens",
+        "C": "Periaqueductal gray of the midbrain",
+        "D": "Superior colliculus",
+        "E": "Trigeminal nucleus caudalis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The locus ceruleus is a noradrenergic modulatory nucleus and is not the obligatory relay for trigeminal nociception.",
+        "B": "The nucleus accumbens is the terminus of the mesolimbic reward pathway and has no role in trigeminal pain relay.",
+        "C": "The periaqueductal gray provides descending modulation of pain rather than serving as the ascending second-order relay.",
+        "D": "The superior colliculus mediates visual orienting reflexes and does not carry nociceptive input.",
+        "E": "First-order trigeminal fibers synapse in the trigeminal nucleus caudalis, whose second-order neurons project to the thalamus and then cortex to produce conscious headache pain."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-009",
+      "question": "A 24-year-old woman describes a shimmering zigzag of light that begins near the center of her vision and slowly enlarges toward the periphery over 25 minutes, leaving a blind spot behind it. As the visual disturbance resolves, a unilateral throbbing headache begins. Her neurologic examination between episodes is normal. Which of the following events best explains the visual symptoms?",
+      "answers": {
+        "A": "Blockade of neuronal voltage-gated sodium channels",
+        "B": "Chloride influx through postsynaptic GABA-A receptors",
+        "C": "Dopamine release from ventral tegmental projections",
+        "D": "Glutamate release with rising extracellular potassium",
+        "E": "Sustained hyperpolarization of thalamic relay neurons"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Sodium channel blockade underlies local anesthetic action and would not produce a slowly marching cortical phenomenon.",
+        "B": "GABA-A mediated chloride influx is inhibitory neurotransmission and is the mechanism of benzodiazepines, not aura.",
+        "C": "Mesolimbic dopamine release mediates reward signaling and has no role in visual aura.",
+        "D": "Cortical spreading depression is a slowly propagating wave of neuronal and glial depolarization sustained by glutamate release and rising extracellular potassium, beginning in occipital cortex and followed by transient suppression that produces the marching scotoma.",
+        "E": "Thalamic hyperpolarization generates absence-type rhythms rather than a gradually spreading cortical visual disturbance."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-010",
+      "question": "A 34-year-old man reports that for the past 6 weeks he has been awakened nightly by excruciating right retro-orbital pain that peaks within minutes and lasts about an hour. During attacks his right eye tears and the right nostril runs, and he paces the room because he cannot sit still. He is asymptomatic between attacks and had a similar 2-month period 2 years ago. Which of the following is the risk factor most strongly associated with this headache syndrome?",
+      "answers": {
+        "A": "Female sex",
+        "B": "Obesity",
+        "C": "Recent lumbar puncture",
+        "D": "Tobacco use",
+        "E": "Vitamin A excess"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Female sex is a major risk factor for migraine and pseudotumor cerebri, whereas cluster headache is more common in men.",
+        "B": "Obesity, particularly with recent weight gain, is a risk factor for idiopathic intracranial hypertension.",
+        "C": "Recent lumbar puncture predisposes to intracranial hypotension with a positional headache.",
+        "D": "Tobacco use is the classic association for cluster headache, which typically affects men aged 20 to 40 and presents with short, severe, strictly unilateral orbital attacks with autonomic features and agitation.",
+        "E": "Excess vitamin A or retinoids is associated with pseudotumor cerebri rather than cluster headache."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-011",
+      "question": "A 27-year-old woman with a BMI of 36 kg/m2 reports 3 months of daily headache with brief episodes of graying vision when she stands, plus pulsatile tinnitus. She has gained 20 kg over the past year. Funduscopy shows bilateral papilledema, and formal perimetry reveals enlarged blind spots. MRI and MR venography of the brain are normal. Which of the following additional risk factors is most associated with her condition?",
+      "answers": {
+        "A": "Chronic tobacco use",
+        "B": "Family history of cluster headache",
+        "C": "Male sex",
+        "D": "Recent lumbar puncture",
+        "E": "Vitamin A supplementation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Tobacco use is the classic risk factor for cluster headache, which does not cause papilledema.",
+        "B": "A family history of cluster headache does not predispose to raised intracranial pressure in an obese young woman.",
+        "C": "Male sex is associated with cluster headache; idiopathic intracranial hypertension overwhelmingly affects reproductive-age women.",
+        "D": "Lumbar puncture causes CSF leak and intracranial hypotension, which produces a positional headache without papilledema.",
+        "E": "Excess vitamin A or retinoid intake is a recognized precipitant of pseudotumor cerebri, along with female sex, tetracyclines, obesity, and danazol."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-012",
+      "question": "A 45-year-old accountant reports 6 months of headaches occurring several times per week, especially on long workdays at his computer. The pain is bilateral, described as a tight band around the head, lasts 4 to 6 hours, and is mild to moderate. He continues working through the episodes and notes that climbing stairs does not worsen the pain. He denies nausea, and light and sound do not bother him. Neurologic examination is normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Cluster headache",
+        "B": "Giant cell arteritis",
+        "C": "Migraine without aura",
+        "D": "Tension-type headache",
+        "E": "Trigeminal neuralgia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cluster headache is strictly unilateral and orbital, peaks within minutes, lasts 15 to 180 minutes, and is accompanied by autonomic features and restlessness.",
+        "B": "Giant cell arteritis presents in patients older than 50 with scalp tenderness, jaw claudication, and elevated inflammatory markers.",
+        "C": "Migraine is typically unilateral and throbbing, lasts 4 to 72 hours, worsens with physical activity, and is accompanied by nausea and photophobia.",
+        "D": "Bilateral band-like pressure of mild to moderate severity lasting 30 minutes to 7 days, unaffected by activity and without nausea or prominent photophobia, with a normal examination, defines tension-type headache.",
+        "E": "Trigeminal neuralgia produces brief electric-shock facial pains triggered by touch or chewing rather than sustained band-like pressure."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-013",
+      "question": "A 28-year-old woman describes headaches occurring twice monthly for the past 3 years. Each episode builds over an hour, is left-sided and pulsating, and lasts about 12 hours. She becomes nauseated, cannot tolerate light or sound, and must lie in a dark room because walking up stairs intensifies the pain. She has no visual or sensory symptoms preceding the pain. Her mother has similar headaches, and her neurologic examination is normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Cluster headache",
+        "B": "Idiopathic intracranial hypertension",
+        "C": "Migraine without aura",
+        "D": "Tension-type headache",
+        "E": "Trigeminal neuralgia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cluster attacks last 15 to 180 minutes, occur in daily bouts, and cause agitation with ipsilateral autonomic signs rather than a 12-hour episode.",
+        "B": "Idiopathic intracranial hypertension causes daily headache with papilledema and visual obscurations, not episodic unilateral throbbing with a normal examination.",
+        "C": "Unilateral pulsating pain lasting 4 to 72 hours, aggravated by routine activity and accompanied by nausea, photophobia, and phonophobia, with a family history and normal examination, is migraine without aura.",
+        "D": "Tension-type headache is bilateral and pressure-like, mild to moderate, and is not worsened by activity or accompanied by nausea.",
+        "E": "Trigeminal neuralgia consists of paroxysmal seconds-long shocks in a trigeminal distribution."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-014",
+      "question": "A 47-year-old woman presents with a headache that reached maximal intensity within seconds while she was gardening 8 hours ago. She describes it as the worst headache of her life and has vomited twice. Blood pressure is 162/88 mm Hg and she has mild neck stiffness; there are no focal neurologic deficits and no papilledema. A noncontrast CT of the head performed on arrival is interpreted as normal. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Begin high-dose glucocorticoids",
+        "B": "Lumbar puncture to evaluate for xanthochromia",
+        "C": "MRI of the brain without contrast",
+        "D": "Reassurance with outpatient neurology follow-up",
+        "E": "Trial of subcutaneous sumatriptan"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Empiric glucocorticoids are indicated for suspected giant cell arteritis, which occurs in older patients with jaw claudication and elevated inflammatory markers.",
+        "B": "CT sensitivity for subarachnoid hemorrhage falls with time from onset, so a thunderclap headache with a negative CT requires lumbar puncture looking for xanthochromia and red blood cells.",
+        "C": "MRI is useful for focal deficits or suspected mass lesions but does not reliably exclude subarachnoid blood after a negative CT.",
+        "D": "Thunderclap onset is a 2SNOOP4 red flag; discharging her without excluding subarachnoid hemorrhage risks fatal rebleeding.",
+        "E": "Triptans treat migraine and would delay diagnosis of a potentially lethal secondary headache."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-015",
+      "question": "A 74-year-old woman reports 3 weeks of a new left-sided headache. Brushing her hair over the left temple hurts, and her jaw aches after a few minutes of chewing. This morning she had 10 minutes of painless vision loss in the left eye that resolved completely. The left temporal artery is tender and nodular. Laboratory results are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Erythrocyte sedimentation rate",
+          "92 mm/h",
+          "0-30 mm/h"
+        ],
+        [
+          "C-reactive protein",
+          "6.8 mg/dL",
+          "<0.5 mg/dL"
+        ],
+        [
+          "Hemoglobin",
+          "10.2 g/dL",
+          "12.0-16.0 g/dL"
+        ],
+        [
+          "Platelet count",
+          "478,000/mm3",
+          "150,000-400,000/mm3"
+        ]
+      ],
+      "correct": "A",
+      "answers": {
+        "A": "Begin high-dose glucocorticoids now",
+        "B": "Obtain CT angiography of the head",
+        "C": "Obtain temporal artery biopsy before any treatment",
+        "D": "Perform lumbar puncture with opening pressure",
+        "E": "Start prophylactic propranolol"
+      },
+      "explanations": {
+        "A": "Transient monocular vision loss with a new headache after age 50, jaw claudication, scalp tenderness, and markedly elevated inflammatory markers indicates giant cell arteritis; steroids must start immediately to prevent permanent bilateral blindness.",
+        "B": "CT angiography evaluates aneurysms and large-vessel occlusion and would delay sight-saving therapy.",
+        "C": "Biopsy confirms the diagnosis and remains positive for days to weeks after steroids are begun, so treatment must never be delayed for it.",
+        "D": "Lumbar puncture with opening pressure is used for suspected infection or abnormal intracranial pressure, neither of which is suggested here.",
+        "E": "Propranolol is a migraine preventive and has no role in an inflammatory arteritis threatening vision."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-016",
+      "question": "A 26-year-old woman with a BMI of 38 kg/m2 has 2 months of daily headache, transient visual obscurations, and pulsatile tinnitus. Funduscopy shows bilateral papilledema, and her only focal finding is a partial left abducens palsy. MRI and MR venography of the brain are normal. A lumbar puncture is performed in the lateral decubitus position, with results shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Study",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Opening pressure",
+          "34 cm H2O",
+          "6-20 cm H2O"
+        ],
+        [
+          "Leukocytes",
+          "1/mm3",
+          "0-5/mm3"
+        ],
+        [
+          "Erythrocytes",
+          "0/mm3",
+          "0/mm3"
+        ],
+        [
+          "Protein",
+          "22 mg/dL",
+          "15-45 mg/dL"
+        ],
+        [
+          "Glucose",
+          "62 mg/dL",
+          "40-70 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Bacterial meningitis",
+        "B": "Idiopathic intracranial hypertension",
+        "C": "Intracranial hypotension",
+        "D": "Subarachnoid hemorrhage from aneurysm rupture",
+        "E": "Viral encephalitis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bacterial meningitis produces neutrophilic pleocytosis with high protein and low glucose, none of which are present.",
+        "B": "Markedly elevated opening pressure with entirely normal CSF composition and normal neuroimaging in an obese young woman with papilledema defines pseudotumor cerebri; the abducens palsy is a false localizing sign of raised pressure.",
+        "C": "Intracranial hypotension produces a low opening pressure with a positional headache and no papilledema.",
+        "D": "Subarachnoid hemorrhage yields xanthochromia with many red blood cells that do not clear across tubes.",
+        "E": "Viral encephalitis causes lymphocytic pleocytosis with mildly elevated protein and altered mental status."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-017",
+      "question": "A 33-year-old woman develops a headache 2 days after an uncomplicated labor epidural. The pain is severe and occipital within 5 minutes of standing and resolves almost completely within minutes of lying flat. She has no fever, and neck is supple. Neurologic examination, including funduscopy, is normal, and she has no focal deficits. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Cerebral venous sinus thrombosis",
+        "B": "Cluster headache",
+        "C": "Idiopathic intracranial hypertension",
+        "D": "Intracranial hypotension",
+        "E": "Meningitis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Postpartum sinus thrombosis is an important mimic but produces a progressive nonpositional headache often with seizures, papilledema, or focal deficits.",
+        "B": "Cluster headache causes brief strictly unilateral orbital attacks with autonomic features unrelated to posture.",
+        "C": "Idiopathic intracranial hypertension causes headache worse when recumbent, accompanied by papilledema and visual obscurations.",
+        "D": "Headache that appears upright and resolves recumbent after a neuraxial procedure is the classic pattern of low CSF pressure from a dural puncture leak.",
+        "E": "Meningitis produces fever, photophobia, and nuchal rigidity rather than a strictly positional headache."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-018",
+      "question": "A 42-year-old man is referred to occupational health after a routine workplace urine immunoassay returns positive for opiates. He is asymptomatic, has no track marks or sedation, takes no prescription medications, and denies any drug use. He recalls eating two poppy seed bagels the morning of the test. A positive result will result in termination of employment. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Confirmatory gas chromatography-mass spectrometry",
+        "B": "Hair analysis for chronic drug exposure",
+        "C": "Repeat the identical urine immunoassay",
+        "D": "Report the screening result as a definitive positive",
+        "E": "Send a serum ethanol concentration"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Immunoassays are rapid, qualitative, cutoff-based screens prone to false positives from foods and medications, so any high-stakes positive must be confirmed with a sensitive, specific, quantitative method such as GC-MS or LC-MS/MS.",
+        "B": "Hair testing assesses remote, chronic exposure and would not resolve whether this single screen was a false positive.",
+        "C": "Repeating the same assay reproduces the same cross-reactivity and adds no diagnostic information.",
+        "D": "Screening immunoassay results are presumptive only and should never be treated as definitive when consequences are serious.",
+        "E": "Serum ethanol assesses recent alcohol use and is unrelated to an opiate screen."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-019",
+      "question": "A 34-year-old woman is brought in after a witnessed ingestion of her roommate's clonazepam roughly 2 hours ago. She is drowsy with slurred speech and ataxia but arousable, with normal pupils and no respiratory compromise. The empty pill bottle is confirmed by the roommate. Urine toxicology results are shown. Which of the following best explains the toxicology finding?",
+      "table": [
+        [
+          "Assay",
+          "Result"
+        ],
+        [
+          "Benzodiazepine immunoassay",
+          "Negative"
+        ],
+        [
+          "Opiate immunoassay",
+          "Negative"
+        ],
+        [
+          "Cocaine metabolite immunoassay",
+          "Negative"
+        ],
+        [
+          "Amphetamine immunoassay",
+          "Negative"
+        ],
+        [
+          "Urine creatinine",
+          "112 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Cross-reactivity of the assay with sertraline",
+        "B": "Delayed renal clearance of the parent compound",
+        "C": "Poor assay detection of some benzodiazepines",
+        "D": "Specimen collection too soon after the ingestion",
+        "E": "Urine dilution below the assay creatinine cutoff"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Sertraline causes false-positive benzodiazepine screens, which is the opposite of the discrepancy seen here.",
+        "B": "Delayed clearance would keep drug in the body longer and make detection more likely, not less.",
+        "C": "Benzodiazepine immunoassays are built around oxazepam-type metabolites, so agents such as clonazepam and lorazepam are frequently missed, giving high false-negative rates.",
+        "D": "Two hours is ample time for urinary excretion of a benzodiazepine to reach detectable levels in most assays.",
+        "E": "The normal urine creatinine excludes a dilute specimen as the explanation."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-020",
+      "question": "A 31-year-old man presents to a substance use clinic stating that he used cocaine heavily 3 days ago but has used nothing since. He is asymptomatic with normal vital signs and a normal examination. His counselor wants objective confirmation of recent use before enrolling him in a contingency management program. Which of the following tests is most likely to detect his reported use?",
+      "answers": {
+        "A": "Blood ethanol concentration",
+        "B": "Breath analysis",
+        "C": "Hair analysis for chronic drug exposure",
+        "D": "Serum cocaine concentration",
+        "E": "Urine immunoassay for benzoylecgonine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Blood ethanol detects alcohol only and remains positive for roughly 12 hours after drinking.",
+        "B": "Breath testing is used for alcohol and has no application to cocaine.",
+        "C": "Hair testing documents chronic long-term exposure, mainly to alcohol and THC, and is poorly suited to confirming a single recent binge.",
+        "D": "Serum cocaine has a very short detection window and reflects acute intoxication, not use 3 days earlier.",
+        "E": "Urine immunoassay detects the metabolite benzoylecgonine for roughly 1 to 3 days after use, matching this timeframe."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-021",
+      "question": "A 26-year-old man is found unresponsive on a floor after a 2-day binge of cocaine and amphetamines and is thought to have been down for at least 12 hours. He is now awake, agitated, and diffusely tender over his thighs and back. His urine is dark brown; dipstick is strongly positive for blood, but microscopy shows no red blood cells. Laboratory results are shown. Which of the following best explains his renal findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Creatine kinase",
+          "48,200 U/L",
+          "30-200 U/L"
+        ],
+        [
+          "Creatinine",
+          "2.6 mg/dL",
+          "0.7-1.3 mg/dL"
+        ],
+        [
+          "K+",
+          "6.0 mEq/L",
+          "3.5-5.0 mEq/L"
+        ],
+        [
+          "Ca2+",
+          "7.1 mg/dL",
+          "8.5-10.2 mg/dL"
+        ],
+        [
+          "Phosphorus",
+          "6.4 mg/dL",
+          "2.5-4.5 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Acute interstitial nephritis from NSAIDs",
+        "B": "Contrast-induced nephropathy",
+        "C": "Myoglobinuric acute kidney injury",
+        "D": "Prerenal azotemia from dehydration",
+        "E": "Thrombotic microangiopathy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Interstitial nephritis follows drug exposure with pyuria and white cell casts, not a creatine kinase of nearly 50,000 U/L.",
+        "B": "No contrast has been administered, and contrast nephropathy does not cause massive creatine kinase elevation.",
+        "C": "Stimulant intoxication with prolonged immobility causes rhabdomyolysis; myoglobin turns the dipstick positive for blood without red cells and injures tubules, with hyperkalemia, hyperphosphatemia, and hypocalcemia.",
+        "D": "Volume depletion raises creatinine with concentrated urine but does not produce pigmenturia or extreme creatine kinase elevation.",
+        "E": "Thrombotic microangiopathy causes anemia, schistocytes, and thrombocytopenia rather than muscle tenderness with pigmenturia."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-022",
+      "question": "A 58-year-old man with coronary artery disease, stable angina, and prior drug-eluting stent placement has two to three migraine attacks per month that leave him unable to work. Ibuprofen and acetaminophen have been ineffective. His blood pressure is 138/84 mm Hg and he takes aspirin, atorvastatin, and metoprolol. Which of the following is the most appropriate abortive therapy?",
+      "answers": {
+        "A": "Dihydroergotamine",
+        "B": "Ergotamine tartrate",
+        "C": "Rizatriptan",
+        "D": "Sumatriptan",
+        "E": "Ubrogepant"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Dihydroergotamine is a potent vasoconstrictor and is contraindicated in coronary artery disease.",
+        "B": "Ergotamine produces widespread arterial vasoconstriction and carries the same ischemic risk as other ergots.",
+        "C": "Rizatriptan is a 5-HT1B/1D agonist that constricts cranial and coronary vessels and is contraindicated with known coronary disease.",
+        "D": "Sumatriptan shares the same vasoconstrictive class effect and can precipitate coronary vasospasm and ischemia.",
+        "E": "Gepants such as ubrogepant block the CGRP receptor without causing vasoconstriction, making them the preferred abortive in patients with cardiovascular disease."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-023",
+      "question": "A 30-year-old woman with migraine without aura takes subcutaneous sumatriptan at the onset of an attack and obtains relief within 30 minutes. She notes transient chest tightness and tingling in her fingers afterward, and her physician cautions her about combining the drug with her prescribed serotonergic antidepressant. Which of the following best describes this drug's mechanism of action?",
+      "answers": {
+        "A": "Agonism at 5-HT1B/1D receptors",
+        "B": "Agonism at 5-HT1F receptors on trigeminal neurons",
+        "C": "Antagonism at CGRP receptors on trigeminal afferents",
+        "D": "Antagonism at dopamine D2 receptors centrally",
+        "E": "Inhibition of cyclooxygenase-1 and cyclooxygenase-2"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Triptans are selective 5-HT1B/1D agonists that constrict dilated cranial vessels and inhibit trigeminal nociception and CGRP release, which also explains the chest pressure and paresthesias.",
+        "B": "5-HT1F agonism is the mechanism of lasmiditan, which relieves migraine without vasoconstriction.",
+        "C": "CGRP receptor antagonism is the mechanism of the gepants, which lack vasoconstrictive effects.",
+        "D": "Central D2 antagonism is how metoclopramide and prochlorperazine relieve migraine and nausea.",
+        "E": "COX inhibition is the mechanism of NSAIDs, which reduce prostaglandin-mediated neurogenic inflammation."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-024",
+      "question": "A 24-year-old woman is treated in the emergency department for a prolonged migraine with intravenous fluids and intravenous metoclopramide. Three hours later she returns with her neck involuntarily twisted to the left and her jaw clenched; she is fully alert, afebrile, and has no rigidity or clonus. Blockade of which of the following receptors is most likely responsible for her new symptoms?",
+      "answers": {
+        "A": "Agonism at 5-HT4 receptors in the gut",
+        "B": "Blockade of central dopamine D2 receptors",
+        "C": "Blockade of peripheral muscarinic receptors",
+        "D": "Inhibition of central acetylcholinesterase",
+        "E": "Stimulation of nicotinic receptors at the endplate"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "5-HT4 agonism accounts for metoclopramide's prokinetic effect and diarrhea, not dystonia.",
+        "B": "Antidopaminergic antiemetics block D2 receptors in the nigrostriatal pathway, producing extrapyramidal effects such as acute dystonia, akathisia, and parkinsonism.",
+        "C": "Muscarinic blockade produces dry mouth, urinary retention, and blurred vision, and anticholinergics actually treat acute dystonia.",
+        "D": "Cholinesterase inhibition produces cholinergic excess with salivation, bronchorrhea, and fasciculations.",
+        "E": "Nicotinic stimulation at the endplate causes fasciculations and weakness rather than sustained focal dystonic posturing."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-025",
+      "question": "A 44-year-old woman has migraine on 6 days per month despite adequate abortive therapy and wants preventive treatment. She has moderate persistent asthma requiring an inhaled corticosteroid, a BMI of 33 kg/m2, and states she will not take a medication that causes weight gain. She uses reliable contraception, has no history of nephrolithiasis, and her liver enzymes are normal. Which of the following is the most appropriate prophylactic agent?",
+      "answers": {
+        "A": "Amitriptyline",
+        "B": "Divalproex sodium",
+        "C": "Onabotulinumtoxin A",
+        "D": "Propranolol",
+        "E": "Topiramate"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Amitriptyline is effective but causes weight gain, sedation, and anticholinergic effects that she has declined.",
+        "B": "Divalproex causes weight gain, tremor, and hepatotoxicity, and is highly teratogenic.",
+        "C": "Onabotulinumtoxin A is reserved for chronic migraine with headache on 15 or more days per month.",
+        "D": "Propranolol is a first-line preventive but causes bronchospasm and must be avoided in moderate persistent asthma.",
+        "E": "Topiramate is an effective preventive that reduces cortical spreading depression and typically causes weight loss, though it carries risks of paresthesias, cognitive slowing, and kidney stones."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-026",
+      "question": "A 27-year-old woman with 10 migraine days per month is discussing preventive options. She has stopped her oral contraceptive and intends to conceive within the next 6 months. She has no asthma, no cardiac disease, and normal liver function. Which of the following agents should be specifically avoided given her plans?",
+      "answers": {
+        "A": "Amitriptyline hydrochloride",
+        "B": "Divalproex sodium",
+        "C": "Magnesium",
+        "D": "Propranolol",
+        "E": "Riboflavin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Amitriptyline causes sedation, weight gain, and anticholinergic effects but is not a major neural tube teratogen.",
+        "B": "Valproate causes neural tube defects and fetal valproate syndrome and must be avoided in anyone who may become pregnant.",
+        "C": "Magnesium is used for migraine prevention, particularly menstrual migraine, and is considered safe in pregnancy.",
+        "D": "Propranolol lowers cortical excitability and sympathetic tone and is one of the safer preventives around conception.",
+        "E": "Riboflavin supports mitochondrial energy production and is generally well tolerated, causing only urine discoloration."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-027",
+      "question": "A 68-year-old man with diabetes has a gangrenous foot with ascending cellulitis and is becoming septic. Surgery recommends below-knee amputation. He consistently refuses, states his decision clearly each time he is asked, and accurately paraphrases the risks, benefits, and alternatives that were explained to him. However, he maintains that his foot is perfectly healthy and that the surgeons want to remove it in order to sell the limb. He is afebrile and alert with no evidence of delirium. Which of the following abilities is he most clearly lacking?",
+      "answers": {
+        "A": "Ability to appreciate the situation and its consequences",
+        "B": "Ability to communicate a choice",
+        "C": "Ability to reason about treatment options",
+        "D": "Ability to understand the relevant information",
+        "E": "Absence of an underlying psychiatric or cognitive diagnosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Appreciation requires applying the disclosed facts to one's own situation; his delusional denial that the foot is diseased shows failure of this criterion despite intact understanding.",
+        "B": "He communicates a stable, consistent choice each time he is asked, so this ability is intact.",
+        "C": "Reasoning is the ability to manipulate information comparatively, and his failure lies upstream in denying the medical reality itself.",
+        "D": "He accurately paraphrases the disclosed information, demonstrating factual understanding.",
+        "E": "Having or lacking a psychiatric diagnosis is not a capacity criterion; diagnosis does not equal incapacity."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-028",
+      "question": "A 45-year-old woman with schizophrenia stable on antipsychotics declines elective repair of an asymptomatic inguinal hernia. On assessment she states her decision consistently, accurately describes the proposed operation and its risks and benefits, acknowledges she has a hernia that could enlarge, and explains that she is refusing because she dislikes anesthesia and prefers watchful waiting. Her surgeon believes the refusal is unwise. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Consult the hospital ethics committee",
+        "B": "Declare her incapacitated and seek surrogate consent",
+        "C": "Document capacity and honor her refusal",
+        "D": "Obtain a court order to proceed with surgery",
+        "E": "Repeat the Mini-Mental State Examination and treat if low"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ethics consultation is helpful when capacity is genuinely in doubt, but here all four criteria are demonstrably met.",
+        "B": "Surrogate decision making is appropriate only when the patient lacks capacity; a psychiatric diagnosis alone does not establish incapacity.",
+        "C": "She demonstrates all four elements: communicating a choice, understanding, appreciation, and reasoning, so she has capacity and may make what others consider an unwise choice.",
+        "D": "Court intervention is reserved for incapacitated patients without a surrogate or for disputed surrogate decisions.",
+        "E": "The MMSE screens cognition and is not a capacity instrument; a low score would not by itself override a demonstrated capacity assessment."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-029",
+      "question": "A hospitalist reviews national all-payer data on adult admissions in which approximately 1.5% of discharges occurred against medical advice (AMA). Patients leaving AMA were younger, more often male, and more often Medicaid-insured or uninsured, and their admissions were commonly related to alcohol use, substance use, and skin and soft tissue infections. Selected outcomes are shown. Which of the following best describes the association observed for patients discharged AMA?",
+      "table": [
+        [
+          "Outcome",
+          "AMA discharge",
+          "Routine discharge",
+          "Adjusted OR"
+        ],
+        [
+          "30-day readmission",
+          "21.0%",
+          "11.9%",
+          "2.01"
+        ],
+        [
+          "In-hospital mortality",
+          "2.5%",
+          "5.6%",
+          "0.80"
+        ],
+        [
+          "Readmitted to a different hospital",
+          "43%",
+          "24%",
+          "-"
+        ],
+        [
+          "Readmission within 1 day",
+          "19%",
+          "6%",
+          "-"
+        ]
+      ],
+      "answers": {
+        "A": "Higher readmission rate and higher in-hospital mortality",
+        "B": "Higher readmission rate and lower in-hospital mortality",
+        "C": "Lower readmission rate and higher in-hospital mortality",
+        "D": "Lower readmission rate and lower in-hospital mortality",
+        "E": "No difference in readmission or in-hospital mortality"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Readmission was indeed higher, but measured in-hospital mortality was lower, not higher.",
+        "B": "AMA discharge roughly doubled the odds of 30-day readmission, often within a day and frequently at a different hospital, while measured in-hospital mortality was lower, a finding that likely reflects unmeasured out-of-hospital deaths rather than true benefit.",
+        "C": "Both components are reversed; readmission was substantially higher after AMA discharge.",
+        "D": "Readmission was markedly higher, not lower, after AMA discharge.",
+        "E": "Both outcomes differed significantly, with an adjusted odds ratio of 2.01 for readmission."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-030",
+      "question": "A 25-year-old man is brought to the emergency department 45 minutes after insufflating a white powder at a party. He is euphoric and talkative with dilated pupils, heart rate 126/min, blood pressure 180/100 mm Hg, and temperature 38.2 C (100.8 F). He is diaphoretic and reports chest tightness. Which of the following best describes the primary mechanism of the substance he used?",
+      "answers": {
+        "A": "Blockade of dopamine, norepinephrine, and serotonin reuptake",
+        "B": "Direct agonism at postsynaptic alpha and beta adrenergic receptors",
+        "C": "Displacement of catecholamines from vesicles via VMAT2",
+        "D": "Inhibition of monoamine oxidase in nerve terminals",
+        "E": "Irreversible inhibition of catechol-O-methyltransferase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cocaine binds DAT, NET, and SERT and blocks reuptake, so dopamine, norepinephrine, and serotonin accumulate in the synapse, producing euphoria, sympathomimetic vital signs, and hyperthermia.",
+        "B": "Direct agonists such as phenylephrine act on postsynaptic receptors themselves; cocaine is an indirect sympathomimetic.",
+        "C": "Vesicular displacement through VMAT2 is the mechanism of amphetamines, which act presynaptically rather than at the reuptake transporter.",
+        "D": "MAO inhibition contributes to amphetamine's effect and defines the MAOI antidepressants, not cocaine.",
+        "E": "COMT inhibitors such as entacapone are used in Parkinson disease and do not cause a sympathomimetic toxidrome."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-031",
+      "question": "A researcher studies the acute reinforcing effects of several drugs of abuse in rodents. Each drug, regardless of its molecular target, converges on a common midbrain-to-forebrain projection carried in the medial forebrain bundle; lesioning this projection abolishes self-administration behavior. Which of the following projections is being described?",
+      "answers": {
+        "A": "Cholinergic fibers from the basal forebrain to the frontal cortex",
+        "B": "Dopaminergic fibers from the ventral tegmentum to the accumbens",
+        "C": "Glutamatergic fibers from the hippocampus to the central amygdala",
+        "D": "Noradrenergic fibers from the locus ceruleus to the frontal cortex",
+        "E": "Serotonergic fibers from the raphe nuclei to the dorsal striatum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Basal forebrain cholinergic projections support attention and memory and degenerate in Alzheimer disease.",
+        "B": "The mesolimbic pathway carries dopaminergic fibers from the VTA through the medial forebrain bundle to the nucleus accumbens and is the final common reward pathway activated by drugs of abuse.",
+        "C": "Hippocampal-amygdala glutamatergic connections encode contextual and emotional memory that supports cue-induced craving but are not the core reward projection.",
+        "D": "Locus ceruleus noradrenergic projections mediate arousal and are prominent in opioid withdrawal rather than acute reward.",
+        "E": "Raphe serotonergic projections modulate mood and impulsivity but do not constitute the medial forebrain bundle reward pathway."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-032",
+      "question": "A 38-year-old man with a 10-year history of daily stimulant use reports that activities he once enjoyed, such as eating favorite foods and spending time with family, now feel flat and unrewarding, and that he needs escalating drug doses to feel anything at all. Imaging studies in similar patients show reduced striatal receptor binding. Which of the following best explains his anhedonia?",
+      "answers": {
+        "A": "Cortical spreading depression across the prefrontal cortex",
+        "B": "Degeneration of nigrostriatal dopaminergic neurons",
+        "C": "Downregulation of D2 receptors in the nucleus accumbens",
+        "D": "Increased serotonin reuptake in the raphe nuclei",
+        "E": "Upregulation of NMDA receptors in the hippocampus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cortical spreading depression is the aura mechanism in migraine and has no role in reward tolerance.",
+        "B": "Nigrostriatal degeneration causes parkinsonism with bradykinesia and rigidity, which he does not have.",
+        "C": "Chronic drug intake downregulates D2 receptors and blunts dopamine function in the nucleus accumbens, so normally rewarding stimuli no longer elicit adequate dopamine signaling.",
+        "D": "Increased serotonin reuptake would lower synaptic serotonin, a mechanism linked to mood symptoms rather than to reward-circuit tolerance.",
+        "E": "Hippocampal NMDA upregulation is characteristic of chronic alcohol adaptation and underlies withdrawal excitability."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-033",
+      "question": "A 19-year-old college student is brought in after taking a friend's dextroamphetamine to study. He is agitated with dilated pupils, heart rate 122/min, blood pressure 168/96 mm Hg, and temperature 38.0 C (100.4 F). His toxidrome closely resembles that of cocaine, though the two drugs act at different presynaptic sites. Which of the following best characterizes amphetamine's action on the autonomic nervous system?",
+      "answers": {
+        "A": "Direct parasympatholytic action at muscarinic receptors",
+        "B": "Direct sympathomimetic action at postsynaptic receptors",
+        "C": "Indirect parasympathomimetic action at cholinergic synapses",
+        "D": "Indirect sympathomimetic action at presynaptic vesicles",
+        "E": "Sympatholytic action blocking norepinephrine release"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Antimuscarinic agents cause dry skin, urinary retention, and absent bowel sounds, unlike this diaphoretic sympathomimetic picture.",
+        "B": "Direct sympathomimetics such as phenylephrine bind postsynaptic alpha and beta receptors themselves; amphetamine does not.",
+        "C": "Cholinesterase inhibition produces cholinergic excess with miosis, salivation, and bronchorrhea.",
+        "D": "Amphetamines enter the presynaptic terminal through monoamine transporters, inhibit VMAT2 to displace stored neurotransmitter, and inhibit MAO, acting as indirect sympathomimetics at the vesicle rather than at the reuptake transporter as cocaine does.",
+        "E": "A sympatholytic would blunt adrenergic transmission and lower heart rate and blood pressure, the opposite of his presentation."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-034",
+      "question": "A 28-year-old man presents with crushing substernal chest pain that began 1 hour after smoking crack cocaine. He is diaphoretic and agitated. Vital signs and electrocardiographic measurements are shown, and there are no ischemic ST-segment changes. Which of the following mechanisms best explains the widened QRS complex?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Heart rate",
+          "124/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "178/104 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Temperature",
+          "38.1 C",
+          "36.5-37.5 C"
+        ],
+        [
+          "QRS duration",
+          "132 ms",
+          "<120 ms"
+        ],
+        [
+          "QTc interval",
+          "486 ms",
+          "<440 ms"
+        ]
+      ],
+      "answers": {
+        "A": "Blockade of cardiac fast sodium channels",
+        "B": "Blockade of cardiac potassium efflux channels",
+        "C": "Enhanced calcium entry through L-type channels",
+        "D": "Increased beta-1 adrenergic stimulation",
+        "E": "Vagally mediated slowing of atrioventricular conduction"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cocaine has local anesthetic activity, blocking fast sodium channels in cardiomyocytes and slowing phase 0 depolarization, which widens the QRS and predisposes to arrhythmia; sodium bicarbonate is the antidote.",
+        "B": "Blocking potassium efflux impairs repolarization and prolongs the QT interval, which explains his QTc but not the QRS.",
+        "C": "Increased L-type calcium current affects nodal conduction and contractility rather than ventricular QRS duration.",
+        "D": "Beta-1 stimulation from blocked norepinephrine reuptake raises heart rate and contractility but does not widen the QRS.",
+        "E": "Vagal slowing prolongs the PR interval and slows the rate rather than widening the ventricular complex."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-035",
+      "question": "A 52-year-old man who drinks a pint of vodka daily is admitted for elective hernia repair. Twenty hours after his last drink he is anxious and tremulous with the vital signs shown. Shortly afterward he has a single 60-second generalized tonic-clonic seizure with rapid return to his baseline alertness, and he is oriented and coherent immediately afterward. He has no history of epilepsy or head trauma. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Heart rate",
+          "112/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "158/94 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Temperature",
+          "37.6 C",
+          "36.5-37.5 C"
+        ],
+        [
+          "Glucose",
+          "104 mg/dL",
+          "70-100 mg/dL"
+        ],
+        [
+          "Na+",
+          "138 mEq/L",
+          "135-145 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Alcoholic hallucinosis",
+        "B": "Delirium tremens",
+        "C": "Wernicke encephalopathy",
+        "D": "Withdrawal seizure",
+        "E": "Withdrawal-related tremulousness alone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alcoholic hallucinosis appears roughly 12 to 24 hours after the last drink with auditory or visual hallucinations but a clear sensorium and no seizure.",
+        "B": "Delirium tremens develops 72 to 96 hours after the last drink with clouded consciousness, disorientation, and severe autonomic instability.",
+        "C": "Wernicke encephalopathy presents with the triad of confusion, ophthalmoplegia, and ataxia rather than a self-limited convulsion.",
+        "D": "Withdrawal seizures typically occur 8 to 48 hours after the last drink as brief, single, generalized tonic-clonic events with rapid recovery, reflecting relative GABA deficit and glutamate excess.",
+        "E": "Isolated tremulousness would not include a convulsion; the seizure defines a distinct withdrawal syndrome."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-036",
+      "question": "A 58-year-old man is on hospital day 3 following an emergency appendectomy. His wife notes he drinks heavily every evening, with his last drink about 72 hours ago. He is now disoriented to place and time, brushing insects off his sheets, and pulling at his intravenous lines. He is markedly diaphoretic with the vital signs shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Heart rate",
+          "134/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "176/98 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Temperature",
+          "38.4 C",
+          "36.5-37.5 C"
+        ],
+        [
+          "Respiratory rate",
+          "26/min",
+          "12-20/min"
+        ],
+        [
+          "Glucose",
+          "118 mg/dL",
+          "70-100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Alcoholic hallucinosis",
+        "B": "Cocaine intoxication",
+        "C": "Delirium tremens",
+        "D": "Serotonin syndrome",
+        "E": "Withdrawal seizure"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "In alcoholic hallucinosis the patient hallucinates but remains oriented with an intact sensorium and only mild autonomic findings.",
+        "B": "Cocaine intoxication produces a sympathomimetic picture with mydriasis and euphoria within hours of use, not 3 days into an admission after alcohol cessation.",
+        "C": "Delirium tremens appears 72 to 96 hours after the last drink with impaired consciousness, disorientation, visual and tactile hallucinations such as formication, and severe autonomic instability.",
+        "D": "Serotonin syndrome requires serotonergic drug exposure and features clonus, hyperreflexia, and rigidity.",
+        "E": "A withdrawal seizure is a discrete convulsion occurring 8 to 48 hours after the last drink with rapid return to baseline."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-037",
+      "question": "A 22-year-old woman is brought to the emergency department by her roommate, who reports she swallowed a handful of alprazolam tablets about an hour ago. The roommate is confident that no alcohol, opioids, or other substances were taken, and the pill bottle is confirmed. Which of the following sets of findings is most likely on examination?",
+      "answers": {
+        "A": "Agitation with hypertension and dilated pupils",
+        "B": "Diaphoresis with hyperthermia and muscle rigidity",
+        "C": "Fever with nuchal rigidity and photophobia",
+        "D": "Restlessness with tremor and auditory hallucinations",
+        "E": "Somnolence with hypotension and hyporeflexia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Agitation, hypertension, and mydriasis characterize stimulant intoxication such as cocaine or amphetamines.",
+        "B": "Hyperthermia with rigidity and diaphoresis suggests serotonin syndrome or neuroleptic malignant syndrome.",
+        "C": "Fever with meningismus and photophobia indicates meningitis, not a sedative ingestion.",
+        "D": "Tremor, restlessness, and hallucinations describe withdrawal from a depressant rather than acute intoxication.",
+        "E": "Benzodiazepines are CNS depressants, producing sedation, slurred speech, ataxia, hyporeflexia, hypotension, and bradycardia with pupils that are usually normal; significant respiratory depression typically requires a co-ingested depressant."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-038",
+      "question": "A 30-year-old man presents 12 hours after the end of a 2-day cocaine binge. He describes profound sadness, no interest in anything, and passive thoughts that he would be better off dead. He has slept 14 hours and eaten voraciously since stopping. Heart rate is 68/min, blood pressure is 118/74 mm Hg, temperature is 36.8 C (98.2 F), and pupils are 3 mm and reactive. Which of the following best explains his presentation?",
+      "answers": {
+        "A": "Alcohol withdrawal",
+        "B": "Benzodiazepine withdrawal",
+        "C": "Cocaine intoxication",
+        "D": "Opioid withdrawal",
+        "E": "Stimulant withdrawal"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alcohol withdrawal produces tremor, tachycardia, hypertension, and low-grade fever rather than hypersomnia with normal vital signs.",
+        "B": "Benzodiazepine withdrawal causes anxiety, insomnia, tremor, and autonomic rebound with risk of seizure.",
+        "C": "Cocaine intoxication causes euphoria, mydriasis, tachycardia, and hypertension, the opposite of his current findings.",
+        "D": "Opioid withdrawal produces mydriasis, yawning, rhinorrhea, piloerection, diarrhea, and myalgias.",
+        "E": "The stimulant crash is characterized by dysphoria, anhedonia, hypersomnia, increased appetite, and fatigue with normal vital signs, and carries real suicide risk."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-039",
+      "question": "A 58-year-old man with alcohol-associated cirrhosis is admitted with tremor, tachycardia, and diaphoresis 18 hours after his last drink, and a symptom-triggered protocol is started. He has mild asterixis and a history of hepatic encephalopathy. Laboratory results are shown. Which of the following benzodiazepines is the most appropriate choice for managing his withdrawal?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "AST",
+          "142 U/L",
+          "10-40 U/L"
+        ],
+        [
+          "ALT",
+          "58 U/L",
+          "10-40 U/L"
+        ],
+        [
+          "Total bilirubin",
+          "3.4 mg/dL",
+          "0.1-1.2 mg/dL"
+        ],
+        [
+          "Albumin",
+          "2.5 g/dL",
+          "3.5-5.5 g/dL"
+        ],
+        [
+          "INR",
+          "1.9",
+          "0.8-1.2"
+        ]
+      ],
+      "answers": {
+        "A": "Chlordiazepoxide",
+        "B": "Clonazepam",
+        "C": "Diazepam",
+        "D": "Lorazepam",
+        "E": "Midazolam"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Chlordiazepoxide is long-acting and depends on hepatic oxidative metabolism, so it accumulates in cirrhosis and risks oversedation.",
+        "B": "Clonazepam also undergoes hepatic oxidation and is not the standard agent for symptom-triggered withdrawal protocols.",
+        "C": "Diazepam has long-acting active metabolites cleared by CYP450 oxidation and accumulates dangerously with hepatic dysfunction.",
+        "D": "Lorazepam, like oxazepam and temazepam, undergoes phase II glucuronidation with no active metabolites, so its clearance is preserved in liver disease and in the elderly.",
+        "E": "Midazolam is a short-acting agent used for procedural sedation and requires oxidative metabolism, making it unsuitable for withdrawal management."
+      }
+    },
+    {
+      "id": "neuro-cbl-w5-los-040",
+      "question": "A 47-year-old woman who has consumed a liter of wine daily for 15 years abruptly stops drinking and 24 hours later develops tremor, tachycardia, hypertension, and anxiety. She is treated with a benzodiazepine, which increases the frequency of chloride channel opening at the GABA-A receptor and rapidly controls her symptoms. Which of the following receptor adaptations from chronic alcohol use best explains her withdrawal state?",
+      "answers": {
+        "A": "Downregulated GABA-A receptors and downregulated NMDA receptors",
+        "B": "Downregulated GABA-A receptors and upregulated NMDA receptors",
+        "C": "Unchanged GABA-A receptors with upregulated NMDA receptors",
+        "D": "Upregulated GABA-A receptors and downregulated NMDA receptors",
+        "E": "Upregulated GABA-A receptors and upregulated NMDA receptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "If both systems were downregulated, removing alcohol would not produce the glutamatergic hyperexcitability that drives seizures and delirium.",
+        "B": "Chronic alcohol enhances GABA-A signaling and inhibits NMDA receptors, so the brain compensates by downregulating GABA-A and upregulating NMDA receptors; stopping alcohol unmasks a relative GABA deficit with glutamate excess, causing autonomic hyperactivity, tremor, seizures, and delirium.",
+        "C": "Glutamatergic upregulation alone does not account for the loss of inhibitory tone that benzodiazepines specifically restore.",
+        "D": "This is the reverse of the adaptation to a chronic GABA-A agonist and would predict sedation rather than withdrawal.",
+        "E": "Upregulated GABA-A receptors would render benzodiazepine therapy unnecessary and would not produce a hyperexcitable state."
+      }
+    }
+  ]
+}
