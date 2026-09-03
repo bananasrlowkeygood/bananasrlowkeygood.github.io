@@ -60,6 +60,15 @@
       padding: 2rem 1.5rem 4rem;
     }
 
+    .lock-btn {
+      height: 26px;
+      padding: 0 10px;
+      font-size: 0.72rem;
+      opacity: 0.55;
+      transition: opacity 0.15s, border-color 0.15s, background 0.15s;
+    }
+    .lock-btn:hover { opacity: 1; }
+
     .blocks {
       display: flex;
       flex-direction: column;
@@ -272,15 +281,17 @@
       <a class="back-link" href="../index.html">← bananasrlowkeygood</a>
       <div class="topbar-title">jeff</div>
     </div>
+    <button class="btn-outline lock-btn" onclick="GATE.forget()" title="Forget this browser — ask the puzzle again">lock</button>
   </div>
 
   <div class="content">
     <div class="blocks" id="blocks"></div>
   </div>
 
+  <script src="gate.js"></script>
   <script>
     // Files in a block folder that describe it rather than hold questions.
-    const MANIFESTS = ['index.json', 'weeks.json'];
+    const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
 
     const BLOCKS = [
       { id: 'neuro',     name: 'Neurology'   },
@@ -296,9 +307,8 @@
         const entries = await res.json();
         const files = entries.filter(e => e.type === 'file' && e.name.endsWith('.json') && !MANIFESTS.includes(e.name)).map(e => e.name);
         const lectures = await Promise.all(files.map(async name => {
-          const r = await fetch(`${block.id}/${name}?t=${Date.now()}`);
-          if (!r.ok) return null;
-          const d = await r.json();
+          const d = await GATE.getJSON(`${block.id}/${name}?t=${Date.now()}`);
+          if (!d) return null;
           return { file: name, name: d.lecture || name, count: (d.questions || []).length };
         }));
         return lectures.filter(Boolean);
@@ -309,10 +319,8 @@
     // no weeks.json just shows a flat list of its lectures.
     async function loadWeeks(block) {
       try {
-        const r = await fetch(`${block.id}/weeks.json?t=${Date.now()}`);
-        if (!r.ok) return [];
-        const d = await r.json();
-        return Array.isArray(d.weeks) ? d.weeks : [];
+        const d = await GATE.getJSON(`${block.id}/weeks.json?t=${Date.now()}`);
+        return d && Array.isArray(d.weeks) ? d.weeks : [];
       } catch { return []; }
     }
 
@@ -407,7 +415,9 @@
       btn.textContent = list.classList.contains('open') ? 'By Lecture ▴' : 'By Lecture ▾';
     }
 
-    init();
+    // Nothing is fetched until the puzzle is answered — and nothing that comes
+    // back is readable without the key it produces.
+    GATE.ready().then(init);
   </script>
 </body>
 </html>
