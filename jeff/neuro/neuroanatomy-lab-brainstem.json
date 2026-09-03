@@ -1,0 +1,407 @@
+{
+  "lecture": "Neuroanatomy Lab: Brainstem",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-001",
+      "question": "A 34-year-old woman with relapsing-remitting multiple sclerosis develops new symptoms over 3 days. MRI shows an enhancing plaque in the right rostral medulla, immediately medial to the inferior olivary nucleus and just dorsal to the pyramid. On examination her protruded tongue deviates to the right, and strength is normal in all four limbs. Which additional finding is most likely on her examination?",
+      "answers": {
+        "A": "Loss of pain and temperature sensation over the right face",
+        "B": "Loss of vibration and position sense in the left arm and leg",
+        "C": "Nystagmus with the fast phase beating to the right",
+        "D": "Paralysis of the right vocal cord with hoarseness",
+        "E": "Weakness of the right sternocleidomastoid muscle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Facial pain and temperature travel in the spinal trigeminal tract and nucleus, which lie far dorsolaterally in the medulla rather than medial to the olive.",
+        "B": "The medial lemniscus runs parallel to the midline just medial to the inferior olive, and because dorsal column fibers have already decussated in the caudal medulla a right-sided lesion produces contralateral loss of vibration and proprioception.",
+        "C": "Nystagmus reflects vestibular nuclear or peduncular involvement in the dorsolateral medulla, well away from the paramedian territory described.",
+        "D": "Vocal cord paralysis follows injury to the nucleus ambiguus, which sits in the tegmentum dorsal to the inferior olive rather than medial to it.",
+        "E": "Sternocleidomastoid weakness reflects spinal accessory injury, and those rootlets emerge laterally from the post-olivary sulcus."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-002",
+      "question": "A 47-year-old man is found to have an ependymoma growing from the floor of the fourth ventricle in the open medulla. The tumor is confined to the two paired swellings that lie immediately medial to the sulcus limitans on both sides. Which pair of functions is most likely to be impaired?",
+      "answers": {
+        "A": "Facial expression and lacrimation",
+        "B": "Hearing and postural balance",
+        "C": "Taste and facial sensation",
+        "D": "Tongue movement and gastric motility",
+        "E": "Vocal cord adduction and shoulder elevation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Facial expression and lacrimation depend on the facial nucleus and superior salivatory nucleus, which lie in the pontine tegmentum rather than the medullary ventricular floor.",
+        "B": "Hearing and balance require the cochlear and vestibular nuclei, which are lateral to the sulcus limitans in the sensory column.",
+        "C": "Taste and facial sensation are handled by the solitary and spinal trigeminal nuclei, both of which are sensory structures lateral to the sulcus limitans.",
+        "D": "The swellings medial to the sulcus limitans are the hypoglossal and vagal trigones, marking the hypoglossal nucleus for tongue movement and the dorsal motor nucleus of the vagus for parasympathetic control of the gut.",
+        "E": "Vocal cord adduction and shoulder elevation depend on the nucleus ambiguus and spinal accessory nucleus, neither of which lies in the ventricular floor."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-003",
+      "question": "A 24-year-old woman has a cavernous malformation that bleeds into the discrete rounded elevation in the floor of the fourth ventricle on the left side of the caudal pons. She cannot abduct the left eye, and she has complete weakness of the left face including the forehead. Imaging confirms the hemorrhage does not extend into the ventrolateral tegmentum. Which structure best accounts for her facial weakness?",
+      "answers": {
+        "A": "Corticobulbar fibers descending in the left basal pons",
+        "B": "Facial nerve fibers looping around the abducens nucleus",
+        "C": "Facial nucleus buried in the ventrolateral pontine tegmentum",
+        "D": "Nucleus ambiguus in the rostral medullary tegmentum",
+        "E": "Spinal trigeminal nucleus medial to the middle cerebellar peduncle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Corticobulbar injury would spare the forehead because the upper face receives bilateral cortical input, and these fibers lie ventrally in the basal pons rather than in the ventricular floor.",
+        "B": "The facial colliculus is raised by the internal genu of the facial nerve as it wraps over the abducens nucleus, so a lesion there simultaneously interrupts abduction and the entire ipsilateral facial nerve.",
+        "C": "The facial nucleus itself would produce the same weakness, but the stem specifies that the ventrolateral tegmentum where it sits is spared.",
+        "D": "The nucleus ambiguus governs pharyngeal and laryngeal muscles and lies in the medulla, not the caudal pontine ventricular floor.",
+        "E": "The spinal trigeminal nucleus carries facial sensation rather than facial motor output and lies laterally near the middle cerebellar peduncle."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-004",
+      "question": "A 40-year-old man with neurofibromatosis type 2 has a mass at the pontomedullary junction that engulfs the gray matter wrapping around the lateral aspect of the inferior cerebellar peduncle, the tissue that forms the floor of the lateral aperture of the fourth ventricle. Which deficit is most likely to appear first?",
+      "answers": {
+        "A": "Impaired hearing in the ipsilateral ear",
+        "B": "Impaired taste on the ipsilateral tongue",
+        "C": "Loss of pain sensation on the ipsilateral face",
+        "D": "Loss of the gag reflex on the ipsilateral side",
+        "E": "Weakness of the ipsilateral soft palate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The dorsal and ventral cochlear nuclei drape around the lateral surface of the inferior cerebellar peduncle and form the floor of the lateral aperture, so destroying them produces ipsilateral hearing loss.",
+        "B": "Taste is relayed by the solitary nucleus, which lies medial to the inferior cerebellar peduncle near the ventricular floor.",
+        "C": "Facial pain sensation depends on the spinal trigeminal nucleus, situated deep and medial to the peduncle beneath the tuberculum cinereum.",
+        "D": "The afferent limb of the gag reflex is carried by glossopharyngeal fibers to the solitary and spinal trigeminal nuclei, not by the cochlear nuclei.",
+        "E": "Palatal weakness follows nucleus ambiguus injury in the medullary tegmentum well ventral to the cochlear nuclei."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-005",
+      "question": "A 58-year-old man with metastatic melanoma has a small deposit that destroys the fiber bundle running along the dorsolateral surface of the midbrain from the inferior colliculus toward the diencephalon. Audiologic testing shows a central auditory processing deficit. Which structure has been deprived of its principal ascending input?",
+      "answers": {
+        "A": "Lateral geniculate nucleus",
+        "B": "Medial geniculate nucleus",
+        "C": "Pulvinar",
+        "D": "Superior colliculus",
+        "E": "Ventral posterolateral nucleus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The lateral geniculate nucleus receives retinal input through the optic tract and is unrelated to the inferior colliculus.",
+        "B": "The inferior brachium carries auditory information from the inferior colliculus to the ipsilateral medial geniculate nucleus, the thalamic auditory relay.",
+        "C": "The pulvinar receives association and visual input and is not the target of the inferior brachium.",
+        "D": "The superior colliculus receives visual fibers by way of the superior brachium, which travels over rather than from the inferior colliculus.",
+        "E": "The ventral posterolateral nucleus receives the medial lemniscus and spinothalamic tract, both of which ascend through the tegmentum rather than the tectal surface."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-006",
+      "question": "A 61-year-old woman has a slowly enlarging tumor centered in the left medial geniculate nucleus. Audiometry shows only mild difficulty with speech discrimination, but she has a sluggish pupillary light reflex and impaired smooth pursuit and saccades. Which finding best explains the visual abnormalities?",
+      "answers": {
+        "A": "Compression of the optic tract as it sweeps around the midbrain",
+        "B": "Compression of the superior brachium coursing over the nucleus",
+        "C": "Infiltration of the lateral geniculate nucleus by the tumor",
+        "D": "Interruption of the inferior brachium entering the nucleus",
+        "E": "Involvement of the Meyer loop within the temporal lobe"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Optic tract compression would produce a contralateral homonymous hemianopia rather than isolated reflex and eye movement problems.",
+        "B": "The superior brachium travels over the medial geniculate nucleus on its way to the superior colliculus and pretectal region, so a mass there disrupts the pupillary light reflex, saccades, and tracking.",
+        "C": "Lateral geniculate involvement would cause a visual field defect, and the stem localizes the tumor to the medial geniculate.",
+        "D": "Interrupting the inferior brachium would worsen central hearing, which is the function that is comparatively preserved here.",
+        "E": "Meyer loop injury produces a superior quadrantanopia and lies far anterior in the temporal lobe, away from the geniculate bodies."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-007",
+      "question": "A 67-year-old man with poorly controlled hypertension develops sudden diplopia. On attempted leftward gaze his right eye fails to adduct while the abducting left eye shows nystagmus; convergence is preserved. The lesion is localized to a small paramedian bundle in the pontine tegmentum. Which vessel is most likely responsible?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Paramedian branches of the basilar artery",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior inferior cerebellar artery supplies the lateral caudal pons and would cause facial, auditory, and vestibular signs rather than an isolated internuclear ophthalmoplegia.",
+        "B": "The anterior spinal artery supplies the paramedian medulla and upper cord, caudal to the medial longitudinal fasciculus segment involved in gaze coordination.",
+        "C": "The medial longitudinal fasciculus straddles the midline, so it is fed along its length by paramedian perforators from the basilar artery as that vessel ascends the ventral pons.",
+        "D": "The posterior inferior cerebellar artery serves the dorsolateral medulla and produces the lateral medullary syndrome.",
+        "E": "The superior cerebellar artery supplies the dorsolateral rostral pons, which is lateral to the paramedian bundle described."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-008",
+      "question": "A 29-year-old man sustains a small hemorrhage in the midbrain at the level of the inferior colliculus. Imaging shows blood confined to a nucleus embedded within the medial longitudinal fasciculus just ventral to the periaqueductal gray on the left. His pupils are equal and reactive and his eyelids are symmetric. Which finding is most likely?",
+      "answers": {
+        "A": "Diplopia that worsens on downgaze, with the right eye deviated upward",
+        "B": "Diplopia that worsens on upgaze, with the left eye deviated downward",
+        "C": "Inability to abduct the left eye on lateral gaze",
+        "D": "Ptosis with a fixed and dilated pupil on the left",
+        "E": "Weakness of adduction of the left eye with preserved convergence"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The trochlear nucleus sits embedded in the medial longitudinal fasciculus at the inferior collicular level and its axons decussate before exiting dorsally, so a left nuclear lesion weakens the right superior oblique and produces vertical diplopia worst on downgaze.",
+        "B": "Weakness of depression, not elevation, follows superior oblique palsy, and the affected eye is contralateral to a nuclear lesion.",
+        "C": "Failure of abduction implicates the abducens nucleus or nerve in the caudal pons, not the midbrain at the inferior colliculus.",
+        "D": "Ptosis with a dilated pupil indicates oculomotor involvement, which would require a lesion one level rostral at the superior colliculus with pupillary fibers affected.",
+        "E": "Isolated adduction failure with preserved convergence is internuclear ophthalmoplegia from interruption of medial longitudinal fasciculus fibers rather than destruction of the trochlear nucleus."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-009",
+      "question": "A 70-year-old man has an infarct in the midbrain tegmentum at the level of the superior colliculus. He has right ptosis with a dilated pupil and the right eye rests down and out. He also has coarse left-sided limb ataxia and a tremor. Which structure, traversed by the exiting nerve fibers, best explains the limb findings?",
+      "answers": {
+        "A": "Cerebral peduncle",
+        "B": "Medial lemniscus",
+        "C": "Red nucleus",
+        "D": "Substantia nigra pars compacta",
+        "E": "Superior colliculus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cerebral peduncle carries descending corticospinal fibers, so its involvement would produce contralateral weakness rather than ataxia and tremor.",
+        "B": "Medial lemniscus injury causes contralateral loss of vibration and proprioception without a tremor.",
+        "C": "Large myelinated oculomotor fibers pass through the red nucleus on their way to the interpeduncular fossa, and the red nucleus receives crossed cerebellar output, so damage there yields contralateral ataxia and tremor with an ipsilateral third nerve palsy.",
+        "D": "Pars compacta degeneration produces parkinsonism over years, not an acute ataxic tremor, and its fibers project to the striatum.",
+        "E": "The superior colliculus lies in the tectum dorsal to the aqueduct and coordinates visual orienting rather than limb coordination."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-010",
+      "question": "A 68-year-old man has 4 years of progressive resting tremor, rigidity, and bradykinesia that improve with levodopa. At autopsy the region lying immediately dorsal to the cerebral peduncle has lost its normal dark pigmentation. Which neuronal population is preferentially lost in this patient?",
+      "answers": {
+        "A": "Locus coeruleus neurons",
+        "B": "Pars compacta of the substantia nigra",
+        "C": "Pars reticulata of the substantia nigra",
+        "D": "Red nucleus magnocellular neurons",
+        "E": "Subthalamic nucleus neurons"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Locus coeruleus neurons are noradrenergic and are affected later in the disease; they lie in the rostral pontine tegmentum, not dorsal to the cerebral peduncle.",
+        "B": "The pars compacta contains the pigmented dopaminergic neurons that project to the striatum, and their loss produces the levodopa-responsive parkinsonian triad.",
+        "C": "The pars reticulata is the major outflow of the basal nuclei to the thalamus and is not pigmented or preferentially lost.",
+        "D": "Red nucleus neurons lie dorsal to the substantia nigra and are not the source of striatal dopamine.",
+        "E": "The subthalamic nucleus becomes overactive in parkinsonism rather than degenerating, which is why it is a deep brain stimulation target."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-011",
+      "question": "A 55-year-old woman with a demyelinating illness has a large plaque confined to the right middle cerebellar peduncle. She has right-sided limb dysmetria and an intention tremor. Which fiber population has been interrupted?",
+      "answers": {
+        "A": "Climbing fibers arising in the contralateral inferior olivary nucleus",
+        "B": "Efferent fibers projecting to the contralateral red nucleus",
+        "C": "Fibers of the anterior spinocerebellar tract",
+        "D": "Mossy fibers arising in the contralateral pontine nuclei",
+        "E": "Posterior spinocerebellar fibers from the ipsilateral Clarke nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Climbing fibers from the contralateral inferior olive reach the cerebellum through the inferior cerebellar peduncle.",
+        "B": "Cerebellar output to the contralateral red nucleus leaves by way of the superior cerebellar peduncle.",
+        "C": "The anterior spinocerebellar tract ascends through the brainstem and enters the cerebellum with the superior cerebellar peduncle.",
+        "D": "The middle cerebellar peduncle is the largest peduncle and carries mossy fibers from the contralateral pontine nuclei, relaying corticopontine information to the cerebellum.",
+        "E": "Posterior spinocerebellar fibers from Clarke nucleus travel in the ipsilateral inferior cerebellar peduncle."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-012",
+      "question": "A 58-year-old man with a 40-pack-year smoking history has abrupt vertigo, hoarseness, and difficulty swallowing. His examination findings are shown. MRI shows a wedge-shaped infarct in the dorsolateral medulla. Which vessel is most likely occluded?",
+      "table": [
+        ["Examination", "Finding"],
+        ["Face, pain/temperature", "Reduced on the left"],
+        ["Trunk and limbs, pain/temperature", "Reduced on the right"],
+        ["Pupil and eyelid", "Left miosis and mild ptosis"],
+        ["Palate elevation", "Left palate droops"],
+        ["Limb coordination", "Left-sided dysmetria"]
+      ],
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Basilar paramedian perforating branches",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior inferior cerebellar artery supplies the lateral caudal pons, so occlusion adds ipsilateral deafness and facial paralysis to the picture.",
+        "B": "The anterior spinal artery supplies the paramedian medulla and produces tongue deviation with contralateral loss of vibration and weakness.",
+        "C": "Paramedian basilar perforators supply midline pontine structures and cause internuclear ophthalmoplegia or pure motor deficits.",
+        "D": "The posterior inferior cerebellar artery branches from the vertebral artery and courses over the accessory nerve to supply the dorsolateral medulla, where the spinal trigeminal complex, spinothalamic tract, descending sympathetics, nucleus ambiguus, and inferior cerebellar peduncle are packed together.",
+        "E": "The superior cerebellar artery supplies the dorsolateral rostral pons and superior cerebellum, producing ataxia without lower cranial nerve involvement."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-013",
+      "question": "A 63-year-old woman has a tiny lacunar infarct at mid-pons that on high-resolution MRI involves only the most lateral portion of the left medial lemniscus, which at this level lies horizontally between the basal pons and the tegmentum. Which deficit is most likely?",
+      "answers": {
+        "A": "Loss of vibration sense in the left arm",
+        "B": "Loss of vibration sense in the left leg",
+        "C": "Loss of vibration sense in the right arm",
+        "D": "Loss of vibration sense in the right leg",
+        "E": "Loss of vibration sense over the right side of the face"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Fibers from the arm occupy the medial part of the pontine medial lemniscus, and the pathway is already crossed so left-sided symptoms would not occur.",
+        "B": "Leg fibers are indeed lateral at this level, but the decussation has already occurred in the caudal medulla so the deficit is contralateral.",
+        "C": "Arm fibers lie medially within the horizontally oriented pontine medial lemniscus and would be spared by a strictly lateral lesion.",
+        "D": "As the medial lemniscus rotates to a horizontal orientation in the pons, the lower limb representation shifts laterally and the upper limb medially, so a lateral left-sided lesion causes right leg deficits.",
+        "E": "Facial discriminative touch travels in the trigeminal lemniscus, which is a separate bundle from the medial lemniscus."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-014",
+      "question": "A 62-year-old woman has an infarct in the lateral medulla centered on the longitudinal surface swelling that lies just dorsal to the post-olivary sulcus and extends caudally toward the spinal cord. Which finding is most directly attributable to the structures deep to this landmark?",
+      "answers": {
+        "A": "Ipsilateral loss of facial pain and temperature sensation",
+        "B": "Ipsilateral loss of taste on the anterior tongue",
+        "C": "Ipsilateral tongue deviation on protrusion",
+        "D": "Ipsilateral weakness of the masseter muscle",
+        "E": "Loss of the corneal reflex in both eyes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The tuberculum cinereum overlies the spinal tract and nucleus of the trigeminal nerve, which carry pain and temperature from the ipsilateral face and neck.",
+        "B": "Taste from the anterior tongue is relayed through the solitary nucleus, which lies deep in the tegmentum near the ventricular floor.",
+        "C": "Tongue deviation reflects hypoglossal involvement, and those rootlets exit ventrally at the pre-olivary sulcus.",
+        "D": "Masseter weakness requires the trigeminal motor nucleus, which is located in the mid-pons rather than the medulla.",
+        "E": "A unilateral spinal trigeminal lesion abolishes the corneal reflex only when the affected eye is stimulated, since the contralateral pathway is intact."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-015",
+      "question": "During a posterior fossa operation on a 45-year-old man, the surgeon identifies rootlets emerging from the shallow groove that separates the pyramid from the olive on the ventral surface of the medulla. Traction injury to these rootlets is most likely to produce which finding?",
+      "answers": {
+        "A": "Deviation of the protruded tongue toward the injured side",
+        "B": "Hoarseness with an ipsilateral paralyzed vocal cord",
+        "C": "Loss of the gag reflex on the ipsilateral side",
+        "D": "Numbness of the skin of the ipsilateral external ear",
+        "E": "Weakness of the ipsilateral trapezius muscle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The pre-olivary sulcus transmits the hypoglossal rootlets, and a lower motor neuron hypoglossal lesion causes the tongue to deviate toward the weak side on protrusion.",
+        "B": "Vocal cord paralysis follows vagal injury, and those rootlets emerge from the post-olivary sulcus dorsal to the olive.",
+        "C": "The gag reflex depends on glossopharyngeal fibers, which are the most rostral rootlets of the post-olivary sulcus.",
+        "D": "Sensation of the external ear is carried by branches of the vagus and glossopharyngeal nerves that exit dorsal to the olive.",
+        "E": "Trapezius weakness reflects accessory nerve injury, whose rootlets are the most caudal group in the post-olivary sulcus."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-016",
+      "question": "A 52-year-old woman reports 2 years of progressive right-sided hearing loss and tinnitus, followed recently by right facial weakness. MRI shows a mass filling the recess bounded by the pons, the upper medulla, and the cerebellum, abutting the flocculus and the middle cerebellar peduncle. Which pair of cranial nerves is most likely involved earliest by a mass in this location?",
+      "answers": {
+        "A": "Abducens and facial",
+        "B": "Facial and vestibulocochlear",
+        "C": "Glossopharyngeal and vagus",
+        "D": "Trigeminal and abducens",
+        "E": "Vagus and accessory"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The abducens nerve emerges medially just above the pyramids at the pontomedullary junction, well away from the described recess.",
+        "B": "The cerebellopontine angle is where the facial and vestibulocochlear nerves exit together adjacent to the flocculus and middle cerebellar peduncle, so masses there classically cause hearing loss followed by facial weakness.",
+        "C": "The glossopharyngeal and vagus nerves leave through the post-olivary sulcus of the medulla and are affected only by larger, more caudal lesions.",
+        "D": "The trigeminal nerve enters the pons at the middle cerebellar peduncle above the angle and is compressed later as the tumor grows.",
+        "E": "The vagus and accessory nerves exit caudally along the medulla and are not the first structures encountered at this angle."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-017",
+      "question": "An 8-year-old boy with a Chiari malformation undergoes decompression. The surgeon exposes the dorsal medulla and identifies the two paired swellings that sit just caudal to the opening of the fourth ventricle at the rostral end of the dorsal columns. Postoperatively the more medial swelling on the right is found to be injured. Which deficit is expected?",
+      "answers": {
+        "A": "Loss of pain sensation in the right leg",
+        "B": "Loss of proprioception in the left leg",
+        "C": "Loss of proprioception in the right arm",
+        "D": "Loss of proprioception in the right leg",
+        "E": "Loss of vibration sense in the left arm"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Pain sensation ascends in the spinothalamic tract, which is located ventrolaterally and already crossed, so the dorsal column nuclei are irrelevant to it.",
+        "B": "A contralateral leg deficit would require a lesion above the sensory decussation, and the nucleus gracilis lies below it.",
+        "C": "Arm proprioception is relayed by the nucleus cuneatus, which forms the more lateral of the two tubercles.",
+        "D": "The tuberculum gracilis marks the nucleus gracilis, which relays lower limb proprioception and lies caudal to the sensory decussation, so injury produces an ipsilateral leg deficit.",
+        "E": "Vibration from the arm is handled by the nucleus cuneatus on the same side, not by the medial tubercle on the opposite side."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-018",
+      "question": "A 55-year-old woman presents with the sudden onset of the worst headache of her life. Examination shows right ptosis, a dilated and nonreactive right pupil, and the right eye resting down and out. CT angiography shows a 7-mm saccular aneurysm at the tip of the basilar artery pointing posteriorly and slightly left of midline. Which anatomic relationship best explains her ocular findings?",
+      "answers": {
+        "A": "The nerve emerges dorsally and wraps laterally around the cerebral peduncle",
+        "B": "The nerve exits into the interpeduncular fossa between the terminal basilar branches",
+        "C": "The nerve pierces the dura at the petrous apex beneath the petroclinoid ligament",
+        "D": "The nerve runs at the cerebellopontine angle beside the vestibulocochlear nerve",
+        "E": "The nerve travels within the lateral wall of the cavernous sinus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A dorsally emerging nerve that curves around the peduncle describes the trochlear nerve, which does not carry pupillary fibers.",
+        "B": "The oculomotor nerve exits the midbrain into the interpeduncular fossa immediately at the basilar bifurcation, so a basilar tip aneurysm compresses it and, because pupillomotor fibers run superficially, causes an early dilated pupil.",
+        "C": "Passage beneath the petroclinoid ligament describes the abducens nerve at Dorello canal, injury to which causes isolated abduction failure.",
+        "D": "The cerebellopontine angle transmits the facial and vestibulocochlear nerves, producing hearing loss and facial weakness rather than a third nerve palsy.",
+        "E": "The oculomotor nerve does traverse the cavernous sinus wall more distally, but that segment is remote from a basilar tip aneurysm."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-019",
+      "question": "An 80-year-old man has 2 years of progressive gait instability with backward falls, slowed vertical eye movements, dysarthria, and cognitive slowing. He has had no response to levodopa. Midsagittal MRI measurements are shown, and axial images show lateral concavity of the midbrain with thinning of the superior cerebellar peduncles. Which diagnosis best fits?",
+      "table": [
+        ["Measure", "Patient", "Typical value"],
+        ["Midbrain-to-pons area ratio", "0.13", "~0.24"],
+        ["Superior midbrain margin", "Concave", "Convex or flat"],
+        ["Superior cerebellar peduncles", "Thinned", "Normal caliber"],
+        ["Pontine volume", "Preserved", "Preserved"]
+      ],
+      "answers": {
+        "A": "Corticobasal degeneration",
+        "B": "Idiopathic Parkinson disease",
+        "C": "Multiple system atrophy",
+        "D": "Normal pressure hydrocephalus",
+        "E": "Progressive supranuclear palsy"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Corticobasal degeneration causes asymmetric limb apraxia and alien limb with focal cortical atrophy rather than selective midbrain thinning.",
+        "B": "Idiopathic Parkinson disease responds to levodopa and shows no measurable midbrain atrophy on structural imaging.",
+        "C": "Multiple system atrophy produces pontine and cerebellar atrophy with a cruciform pontine hyperintensity, the opposite pattern of what is described.",
+        "D": "Normal pressure hydrocephalus produces ventriculomegaly with a magnetic gait and incontinence, not disproportionate midbrain atrophy.",
+        "E": "Selective midbrain atrophy with a concave upper margin, a reduced midbrain-to-pons ratio, and thinned superior cerebellar peduncles is the classic hummingbird appearance of progressive supranuclear palsy, matching the vertical gaze palsy and early falls."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-brainstem-020",
+      "question": "A 70-year-old man has 3 years of worsening gait ataxia and lower limb spasticity, and he now faints when standing. His orthostatic measurements are shown. MRI shows a small pons with a prominent prepontine cistern, a cruciform T2 hyperintensity within the basal pons, thinned middle cerebellar peduncles, and diffuse cerebellar folial atrophy. Which diagnosis best fits?",
+      "table": [
+        ["Position", "Blood pressure", "Heart rate"],
+        ["Supine", "142/84 mm Hg", "68/min"],
+        ["Standing, 3 min", "96/58 mm Hg", "71/min"]
+      ],
+      "answers": {
+        "A": "Friedreich ataxia",
+        "B": "Multiple sclerosis",
+        "C": "Multiple system atrophy",
+        "D": "Pontine glioma",
+        "E": "Progressive supranuclear palsy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Friedreich ataxia begins in adolescence with cardiomyopathy and areflexia, and imaging shows cervical cord rather than pontine atrophy.",
+        "B": "Multiple sclerosis produces discrete ovoid demyelinating plaques with relapses, not symmetric pontocerebellar atrophy in a 70-year-old.",
+        "C": "Pontine atrophy with the hot cross bun sign, thinned middle cerebellar peduncles, and cerebellar atrophy together with neurogenic orthostatic hypotension, indicated here by a large blood pressure drop without a compensatory rise in heart rate, is characteristic of multiple system atrophy.",
+        "D": "A pontine glioma expands rather than shrinks the pons and produces cranial nerve palsies with mass effect.",
+        "E": "Progressive supranuclear palsy causes midbrain rather than pontine atrophy and is dominated by vertical gaze palsy and early falls."
+      }
+    }
+  ]
+}

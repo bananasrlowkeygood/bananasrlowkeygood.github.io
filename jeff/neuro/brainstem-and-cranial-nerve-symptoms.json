@@ -1,0 +1,402 @@
+{
+  "lecture": "Brainstem and Cranial Nerve Symptoms",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-001",
+      "question": "A 66-year-old man with untreated hypertension is brought in unresponsive 40 minutes after collapsing. He is quadriplegic with extensor posturing. His pupils are 1 mm bilaterally and constrict further to bright light when viewed through a magnifier. He has no eye movement to head turning. Blood glucose is 118 mg/dL and a urine drug screen is negative. Where is the lesion most likely located?",
+      "table": [
+        ["Examination", "Finding"],
+        ["Pupil size", "1 mm bilaterally"],
+        ["Pupil reactivity", "Present on magnified view"],
+        ["Oculocephalic response", "Absent"],
+        ["Motor response", "Extensor posturing"],
+        ["Blood glucose", "118 mg/dL"]
+      ],
+      "answers": {
+        "A": "Bilateral cerebral hemispheres",
+        "B": "Lateral medulla",
+        "C": "Midbrain tegmentum",
+        "D": "Pons",
+        "E": "Tectum of the midbrain"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Diffuse hemispheric injury leaves the brainstem reflexes intact, so oculocephalic responses would be preserved.",
+        "B": "A lateral medullary lesion produces vertigo, dysphagia, and crossed sensory loss in an awake patient rather than coma with quadriplegia.",
+        "C": "Midbrain lesions produce midposition pupils that are typically fixed rather than true pinpoint reactive pupils.",
+        "D": "Pontine hemorrhage destroys descending sympathetic fibers while leaving parasympathetic outflow unopposed, producing true pinpoint but reactive pupils along with quadriplegia and loss of horizontal eye movements.",
+        "E": "Tectal lesions cause large, fixed, sometimes irregular pupils, usually as a consequence of severe downward herniation."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-002",
+      "question": "A 58-year-old woman with a large right temporal lobe hemorrhage becomes progressively less responsive over 2 hours. Her right pupil is now 7 mm and does not react to light, while her left pupil is 3 mm and briskly reactive. Her right eyelid is completely closed and the right eye rests deviated laterally. Which conclusion is best supported?",
+      "answers": {
+        "A": "A pontine hemorrhage has interrupted descending sympathetic fibers",
+        "B": "Compression of the right oculomotor nerve indicates herniation",
+        "C": "Loss of sympathetic input has produced a right Horner syndrome",
+        "D": "Sedating medication has produced small symmetric reactive pupils",
+        "E": "The tectum has been compressed, producing fixed irregular pupils"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Pontine injury produces bilateral pinpoint reactive pupils, not a unilateral dilated fixed pupil with ptosis.",
+        "B": "A unilateral fixed dilated pupil with complete ptosis and a laterally deviated eye reflects oculomotor compression, an ominous sign of transtentorial herniation from the expanding hemispheric mass.",
+        "C": "Horner syndrome causes miosis with only mild ptosis because the sympathetic supply is limited to the tarsal muscle.",
+        "D": "Medication effect produces small pupils that remain symmetric and reactive, and it would not cause ptosis or eye deviation.",
+        "E": "Tectal compression produces bilaterally large, fixed, often irregular pupils rather than a strictly unilateral finding."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-003",
+      "question": "A 61-year-old man with a 45-pack-year smoking history has 3 months of right shoulder and medial arm pain. On examination the right pupil is 2 mm and the left is 4 mm, both reactive; the right upper lid droops slightly, covering the top of the iris. The right side of his face does not sweat. Extraocular movements are full. Which structure is most likely involved by his disease?",
+      "answers": {
+        "A": "Ciliary ganglion within the orbit",
+        "B": "Edinger-Westphal nucleus in the midbrain",
+        "C": "Levator palpebrae superioris muscle",
+        "D": "Optic nerve on the right side",
+        "E": "Sympathetic chain at the lung apex"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Ciliary ganglion injury produces a tonic dilated pupil with poor light reaction rather than miosis with anhidrosis.",
+        "B": "Edinger-Westphal involvement would impair pupillary constriction and produce a large pupil, the opposite of the finding here.",
+        "C": "Direct levator involvement causes ptosis without any pupillary asymmetry or loss of sweating.",
+        "D": "An optic nerve lesion causes an afferent pupillary defect with visual loss and no ptosis or anhidrosis.",
+        "E": "The oculosympathetic fibers descend from the hypothalamus through the brainstem, exit at T1-T2, and ascend the sympathetic chain over the lung apex, so an apical tumor produces miosis, mild ptosis, and anhidrosis with arm pain."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-004",
+      "question": "Two patients each present with a drooping eyelid. Patient 1 has complete closure of the right lid, and when the lid is elevated the eye is deviated laterally with a 6-mm nonreactive pupil. Patient 2 has slight narrowing of the left palpebral fissure with a 2-mm reactive pupil and full extraocular movements. Which explanation best accounts for the difference in the severity of the ptosis?",
+      "answers": {
+        "A": "Only one patient has weakness of the orbicularis oculi muscle",
+        "B": "Sympathetic fibers supply the levator, while the third nerve supplies the tarsal muscle",
+        "C": "The third nerve supplies the levator, while sympathetics supply only the tarsal muscle",
+        "D": "The third nerve supplies both lid elevators, so its lesions are always complete",
+        "E": "The trigeminal nerve provides accessory innervation to the levator palpebrae"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Orbicularis oculi is a facial nerve muscle that closes the lid, and its weakness causes failure of eye closure rather than ptosis.",
+        "B": "This reverses the actual arrangement of innervation of the two lid elevators.",
+        "C": "The oculomotor nerve innervates the powerful levator palpebrae superioris so its lesions produce complete ptosis, whereas sympathetic denervation affects only the small tarsal muscle and produces mild ptosis.",
+        "D": "Third nerve lesions may be partial, and the statement fails to explain why the second patient has any ptosis at all.",
+        "E": "The trigeminal nerve is sensory to the lid and supplies the muscles of mastication, not the levator."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-005",
+      "question": "A 25-year-old man is comatose after a motor vehicle collision and does not respond to voice or pain. Ice water is irrigated into the left external auditory canal with the head elevated 30 degrees. Both eyes slowly deviate conjugately toward the left and remain there, with no fast corrective phase. Which conclusion is best supported by this response?",
+      "answers": {
+        "A": "Both the brainstem pathways and the cortex are functioning",
+        "B": "The brainstem pathways are intact but cortical function is impaired",
+        "C": "The left labyrinth has been destroyed by a temporal bone fracture",
+        "D": "The medial longitudinal fasciculus has been interrupted bilaterally",
+        "E": "There has been near total transection of the pons"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An intact cortex would generate a corrective fast phase beating away from the irrigated ear, which is absent here.",
+        "B": "Cold irrigation reduces firing in the ipsilateral semicircular canal, and an intact vestibulo-ocular pathway drives slow conjugate deviation toward the irrigated ear, while the absent fast phase indicates loss of cortical input.",
+        "C": "Labyrinthine destruction would abolish the response on that side entirely rather than produce a normal tonic deviation.",
+        "D": "A bilateral medial longitudinal fasciculus lesion would prevent the adducting eye from crossing the midline, so the eyes would not move conjugately.",
+        "E": "Near total pontine transection abolishes the vestibulo-ocular reflex, leaving the eyes immobile."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-006",
+      "question": "A 72-year-old man has the abrupt onset of double vision and clumsiness. Examination shows a right eye that rests down and out with complete ptosis and a fixed dilated right pupil. His left arm and leg have marked dysmetria and a coarse tremor with reaching, but strength is normal in all four limbs and reflexes are symmetric. Which syndrome best describes this presentation?",
+      "answers": {
+        "A": "Benedikt syndrome",
+        "B": "Claude syndrome",
+        "C": "Locked-in syndrome",
+        "D": "Wallenberg syndrome",
+        "E": "Weber syndrome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Benedikt syndrome combines the corticospinal and cerebellar features, so hemiparesis would accompany the ataxia.",
+        "B": "Claude syndrome pairs an ipsilateral third nerve palsy with contralateral ataxia and tremor from tegmental involvement, without weakness because the cerebral peduncle is spared.",
+        "C": "Locked-in syndrome follows near total pontine transection and leaves the patient quadriplegic and mute with preserved vertical eye movement.",
+        "D": "Wallenberg syndrome arises in the lateral medulla and produces crossed sensory loss, Horner syndrome, and dysphagia without a third nerve palsy.",
+        "E": "Weber syndrome pairs an ipsilateral third nerve palsy with contralateral hemiparesis from cerebral peduncle involvement, and this patient has full strength."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-007",
+      "question": "A 30-year-old woman is unresponsive after a brainstem hemorrhage. Ice water is irrigated into her left ear. The left eye slowly abducts fully toward the left, but the right eye remains fixed in the midline and does not adduct. Pupils are equal and reactive. Which structure is most likely damaged?",
+      "answers": {
+        "A": "Left abducens nucleus",
+        "B": "Left vestibular nerve",
+        "C": "Right medial longitudinal fasciculus",
+        "D": "Right oculomotor nerve in the subarachnoid space",
+        "E": "Right paramedian pontine reticular formation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A left abducens nuclear lesion would prevent the left eye from abducting, and that movement is intact.",
+        "B": "Left vestibular nerve injury would abolish the entire response, so neither eye would move.",
+        "C": "Signals for leftward gaze reach the right oculomotor nucleus by crossing in the medial longitudinal fasciculus, so a right medial longitudinal fasciculus lesion selectively prevents right eye adduction while abduction of the left eye is preserved.",
+        "D": "A third nerve lesion in the subarachnoid space would produce ptosis and a dilated pupil, which are absent.",
+        "E": "A right paramedian pontine reticular formation lesion impairs gaze to the right, whereas this patient's deficit appears on leftward deviation."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-008",
+      "question": "A 28-year-old woman reports 5 days of horizontal double vision. On rightward gaze her left eye fails to adduct past the midline while her right eye abducts fully but develops nystagmus. Convergence is normal. She had an episode of painful monocular vision loss 2 years ago. Which structure is most likely affected?",
+      "answers": {
+        "A": "Left abducens nucleus",
+        "B": "Left medial longitudinal fasciculus",
+        "C": "Left oculomotor nerve",
+        "D": "Right medial longitudinal fasciculus",
+        "E": "Right paramedian pontine reticular formation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An abducens nuclear lesion causes a conjugate gaze palsy toward that side rather than an isolated adduction failure.",
+        "B": "Internuclear ophthalmoplegia reflects a lesion of the medial longitudinal fasciculus ipsilateral to the eye that fails to adduct, and preserved convergence plus a prior optic neuritis points to multiple sclerosis.",
+        "C": "A third nerve lesion would also impair elevation, depression, and lid position and would abolish convergence.",
+        "D": "A right-sided lesion would impair adduction of the right eye, not the left.",
+        "E": "A right paramedian pontine reticular formation lesion would prevent both eyes from moving to the right, and here the right eye abducts fully."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-009",
+      "question": "A 34-year-old woman reports double vision. When she is asked to look to the right, her left eye cannot adduct and her right eye cannot abduct. When she looks to the left, both eyes move fully and normally. Pupils are equal and reactive and there is no ptosis. Where is the lesion?",
+      "answers": {
+        "A": "Left frontal eye field",
+        "B": "Left medial longitudinal fasciculus",
+        "C": "Right oculomotor nucleus",
+        "D": "Right paramedian pontine reticular formation",
+        "E": "Right superior colliculus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A frontal eye field lesion causes a transient gaze preference toward the side of the lesion but not a fixed inability of both eyes to move in one direction.",
+        "B": "A medial longitudinal fasciculus lesion would spare abduction, so the right eye would still move laterally.",
+        "C": "An oculomotor nuclear lesion would impair adduction, elevation, and lid elevation on the affected side rather than produce a directional gaze palsy.",
+        "D": "The paramedian pontine reticular formation drives conjugate gaze toward its own side by projecting to the adjacent abducens nucleus and, through the medial longitudinal fasciculus, to the contralateral oculomotor nucleus, so a right-sided lesion abolishes all rightward gaze.",
+        "E": "The superior colliculus contributes to visual orienting and saccade initiation but its lesions do not abolish conjugate horizontal gaze."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-010",
+      "question": "A 45-year-old man reports vertical double vision that is worst when he reads and when he walks down stairs. He tilts his head toward the left shoulder, and the images separate further when he tilts it toward the right. The right eye is slightly higher than the left in primary position. Pupils are equal, and lid position is normal. Which nerve is affected?",
+      "answers": {
+        "A": "Left abducens nerve",
+        "B": "Left trochlear nerve",
+        "C": "Right abducens nerve",
+        "D": "Right oculomotor nerve",
+        "E": "Right trochlear nerve"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "An abducens palsy produces horizontal diplopia that is worst on lateral gaze rather than vertical diplopia on downgaze.",
+        "B": "A left trochlear palsy would elevate the left eye and cause the patient to tilt toward the right shoulder.",
+        "C": "Abduction failure would not explain hypertropia, head tilt, or worsening with reading.",
+        "D": "A third nerve palsy would produce ptosis, a dilated pupil, and an eye resting down and out.",
+        "E": "The superior oblique depresses and intorts the adducted eye, so a right trochlear palsy causes a right hypertropia with vertical diplopia worst on downgaze and a compensatory head tilt away from the affected side."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-011",
+      "question": "A 24-year-old obese woman has 6 weeks of daily headache worst on waking, pulsatile tinnitus, and transient graying of vision when she stands. Examination shows bilateral papilledema and inability to abduct either eye; all other cranial nerve findings are normal. Opening pressure on lumbar puncture is 38 cm H2O with normal cerebrospinal fluid composition. Which explanation best accounts for her eye findings?",
+      "table": [
+        ["Cerebrospinal fluid study", "Value", "Reference range"],
+        ["Opening pressure", "38 cm H2O", "6–25 cm H2O"],
+        ["White blood cells", "1/mm3", "0–5/mm3"],
+        ["Protein", "24 mg/dL", "15–45 mg/dL"],
+        ["Glucose", "62 mg/dL", "45–80 mg/dL"]
+      ],
+      "answers": {
+        "A": "Bilateral abducens palsies caused by raised intracranial pressure",
+        "B": "Bilateral internuclear ophthalmoplegia from a demyelinating lesion",
+        "C": "Bilateral oculomotor palsies from uncal herniation",
+        "D": "Brainstem infiltration by a pontine glioma",
+        "E": "Ocular myasthenia gravis with fatigable weakness"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The abducens nerve has a long intracranial course that makes it vulnerable to stretch when intracranial pressure rises, so bilateral abduction failure is a classic false localizing sign in idiopathic intracranial hypertension.",
+        "B": "Internuclear ophthalmoplegia impairs adduction rather than abduction and would not explain papilledema.",
+        "C": "Oculomotor palsies would produce ptosis and dilated pupils, and herniation would depress the level of consciousness.",
+        "D": "A pontine glioma would produce additional long tract and facial findings and would not raise pressure with a normal cerebrospinal fluid profile.",
+        "E": "Myasthenia causes variable, fatigable ophthalmoparesis without papilledema or elevated opening pressure."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-012",
+      "question": "A 55-year-old woman has 4 months of progressive difficulty chewing tough foods. On examination, when she opens her mouth the jaw deviates to the right. The right masseter and temporalis are noticeably wasted and feel soft when she clenches. Facial sensation, facial expression, and hearing are normal. Which conclusion is best supported?",
+      "answers": {
+        "A": "The left trigeminal motor nucleus is involved",
+        "B": "The right facial nerve has been injured peripherally",
+        "C": "The right hypoglossal nucleus has degenerated",
+        "D": "The right trigeminal motor division is involved",
+        "E": "Upper motor neuron input to both motor nuclei is lost"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left-sided lesion would allow the intact right pterygoids to push the jaw toward the left.",
+        "B": "The facial nerve supplies expression rather than mastication, and facial movement is preserved here.",
+        "C": "Hypoglossal degeneration causes tongue deviation and atrophy, not jaw deviation or masseter wasting.",
+        "D": "The lateral pterygoid protrudes and deviates the jaw to the opposite side, so weakness of the right muscles of mastication lets the intact left side push the jaw toward the weak right side, and the wasting confirms a lower motor neuron lesion.",
+        "E": "Bilateral upper motor neuron loss produces a brisk jaw jerk with spastic weakness rather than unilateral atrophy and deviation."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-013",
+      "question": "A 48-year-old man has a syrinx that extends from the high cervical cord into the caudal medulla on the left. He has lost pain and temperature sensation over the left side of his face while light touch on the face is preserved, and he has lost pain and temperature sensation on the right side of his trunk and limbs. Which pathway feature explains why the facial loss is ipsilateral to the lesion?",
+      "answers": {
+        "A": "Facial pain fibers ascend uncrossed to the ventral posteromedial nucleus",
+        "B": "Facial pain fibers cross within the pons before reaching the thalamus",
+        "C": "Facial pain fibers descend uncrossed in the spinal trigeminal tract before synapsing",
+        "D": "Facial pain fibers synapse in the main sensory nucleus of the mid-pons",
+        "E": "Facial pain fibers travel with the spinothalamic tract from the point of entry"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Second order trigeminal fibers do cross before reaching the ventral posteromedial nucleus, so an uncrossed ascent would not fit the anatomy.",
+        "B": "Crossing occurs after the synapse in the spinal trigeminal nucleus, which extends well below the pons.",
+        "C": "Pain and temperature fibers from the face descend uncrossed in the spinal trigeminal tract as far as the upper cervical cord before synapsing, so a lesion of that tract or nucleus causes ipsilateral facial loss, while the already crossed spinothalamic tract accounts for contralateral body loss.",
+        "D": "The main sensory nucleus handles discriminative touch, which is preserved in this patient.",
+        "E": "Facial afferents run in their own tract and only join the ascending trigeminothalamic pathway after synapsing and crossing."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-014",
+      "question": "A 63-year-old woman describes recurrent attacks of severe, stabbing right-sided facial pain lasting seconds, triggered reliably by brushing her teeth or by a breeze on her cheek. She is pain free between attacks. Facial sensation, corneal reflexes, masseter bulk, and facial movement are all normal. Which diagnosis best fits?",
+      "answers": {
+        "A": "Bell palsy of the right facial nerve",
+        "B": "Cluster headache involving the right orbit",
+        "C": "Herpes zoster of the ophthalmic division",
+        "D": "Temporomandibular joint dysfunction",
+        "E": "Trigeminal neuralgia of the right side"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Bell palsy produces weakness of the entire half of the face rather than paroxysmal pain with a normal examination.",
+        "B": "Cluster headache causes attacks lasting from 15 minutes to 3 hours with prominent autonomic features such as tearing and nasal congestion.",
+        "C": "Zoster produces a vesicular dermatomal rash with continuous burning pain rather than seconds-long triggered paroxysms.",
+        "D": "Temporomandibular dysfunction produces dull preauricular pain related to jaw movement with joint tenderness and clicking.",
+        "E": "Paroxysmal, lancinating unilateral facial pain provoked by a cutaneous trigger zone with an otherwise normal examination defines trigeminal neuralgia."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-015",
+      "question": "A 57-year-old man is evaluated after a skull base operation. When a wisp of cotton touches his right cornea, neither eye blinks. When the left cornea is touched, both eyes blink briskly and symmetrically. He can close both eyes forcefully and smile symmetrically. Which nerve is most likely injured?",
+      "answers": {
+        "A": "Left facial nerve",
+        "B": "Left trigeminal nerve",
+        "C": "Right facial nerve",
+        "D": "Right trigeminal nerve",
+        "E": "Right vestibulocochlear nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left facial lesion would prevent the left eye from blinking regardless of which cornea was stimulated, and forceful closure would be weak.",
+        "B": "A left trigeminal lesion would abolish the response when the left cornea is touched, which is the side that responds normally.",
+        "C": "A right facial lesion would abolish blinking of the right eye with either stimulus and would weaken eye closure.",
+        "D": "The trigeminal nerve is the afferent limb, so a right trigeminal lesion abolishes the bilateral blink when the right cornea is stimulated while an intact facial efferent allows a full response from the other side.",
+        "E": "The vestibulocochlear nerve has no role in the corneal reflex arc."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-016",
+      "question": "A 40-year-old man wakes with left facial droop involving the forehead and lower face equally. He cannot close the left eye. He reports that ordinary sounds seem uncomfortably loud in the left ear and that food tastes bland on the left side of his tongue. Tearing is normal. Which conclusion about the level of the lesion is best supported?",
+      "answers": {
+        "A": "It is distal to the chorda tympani branch",
+        "B": "It is proximal to the greater superficial petrosal nerve",
+        "C": "It is proximal to the nerve to the stapedius",
+        "D": "It is within the corticobulbar fibers of the internal capsule",
+        "E": "It is within the facial nucleus of the caudal pons"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A lesion distal to the chorda tympani would spare taste, and this patient has lost taste.",
+        "B": "A lesion proximal to the greater superficial petrosal nerve would impair lacrimation, and tearing is normal.",
+        "C": "Hyperacusis indicates loss of the stapedius, and preserved lacrimation places the lesion distal to the greater superficial petrosal branch but proximal to the branch to the stapedius and the chorda tympani.",
+        "D": "A capsular lesion is supranuclear and would spare the forehead while producing no taste or hearing symptoms.",
+        "E": "A nuclear lesion would typically be accompanied by abducens or long tract signs given the packed anatomy of the caudal pons."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-017",
+      "question": "A 46-year-old woman had a complete peripheral facial palsy 8 months ago that has slowly improved. She now notices that her right eye tears profusely whenever she begins to eat, and that the corner of her mouth twitches when she blinks. Which mechanism best explains these new symptoms?",
+      "answers": {
+        "A": "Aberrant regeneration of facial axons to incorrect targets",
+        "B": "Compensatory hypertrophy of the contralateral facial muscles",
+        "C": "Formation of an ectopic synapse within the geniculate ganglion",
+        "D": "Reactivation of latent herpes simplex within the nerve sheath",
+        "E": "Segmental demyelination with conduction block in the nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Axons regrow about 1 mm per day and may reach the wrong end organ, so salivatory fibers reaching the lacrimal gland produce gustatory tearing and mismatched motor reinnervation produces synkinesis.",
+        "B": "Contralateral hypertrophy would not create involuntary linkage between blinking and mouth movement on the affected side.",
+        "C": "The geniculate ganglion houses sensory cell bodies and does not form new synapses that could redirect secretomotor output.",
+        "D": "Viral reactivation would cause a new episode of weakness rather than a gradual pattern of misdirected function.",
+        "E": "Demyelination with conduction block resolves with complete recovery and does not misroute axons."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-018",
+      "question": "A 71-year-old man with atrial fibrillation has the sudden onset of right arm and leg weakness and slurred speech. The right lower face droops, but he wrinkles his forehead symmetrically and closes both eyes fully. Taste and hearing are normal. Which conclusion is best supported?",
+      "answers": {
+        "A": "The lesion is a peripheral seventh nerve palsy on the right",
+        "B": "The lesion is a supranuclear seventh lesion in the left hemisphere",
+        "C": "The lesion is in the left facial nucleus in the caudal pons",
+        "D": "The lesion is in the right cerebellar hemisphere",
+        "E": "The lesion is in the right geniculate ganglion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A peripheral lesion weakens the entire half of the face, including the forehead, and would not cause limb weakness.",
+        "B": "Corticobulbar fibers to the upper face are bilateral while those to the lower face are crossed, so a left hemispheric lesion produces right lower facial weakness with forehead sparing and accompanying right hemiparesis.",
+        "C": "A facial nucleus lesion produces complete ipsilateral facial weakness, which would be on the left in this scenario and would not spare the forehead.",
+        "D": "A cerebellar lesion produces ataxia rather than weakness with facial droop.",
+        "E": "A geniculate ganglion lesion produces complete facial weakness with taste and often auditory symptoms, none of which are present."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-019",
+      "question": "A 74-year-old man has the sudden onset of left arm and leg weakness with an upgoing left plantar response and increased tone on the left. His right eyelid is completely ptotic, the right pupil is dilated and unreactive, and the right eye rests laterally and cannot elevate, depress, or adduct. Which structures are involved together?",
+      "answers": {
+        "A": "Cerebral peduncle and exiting oculomotor fibers",
+        "B": "Inferior cerebellar peduncle and nucleus ambiguus",
+        "C": "Medial lemniscus and the hypoglossal nucleus",
+        "D": "Red nucleus and exiting oculomotor fibers",
+        "E": "Spinal trigeminal nucleus and the spinothalamic tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Weber syndrome results from a ventral midbrain lesion that damages the corticospinal fibers within the cerebral peduncle, producing contralateral spastic hemiparesis, along with the oculomotor fibers as they exit into the interpeduncular fossa.",
+        "B": "That combination defines the lateral medullary syndrome with ataxia and dysphagia rather than hemiparesis with a third nerve palsy.",
+        "C": "Medial lemniscus and hypoglossal involvement produce the medial medullary syndrome with tongue deviation and loss of proprioception.",
+        "D": "Red nucleus involvement with a third nerve palsy defines Claude syndrome, in which the contralateral finding is ataxia rather than weakness.",
+        "E": "Those two structures lie in the lateral medulla and produce crossed sensory loss without eye findings."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-cranial-nerve-symptoms-020",
+      "question": "A 59-year-old man has sudden vertigo, vomiting, hoarseness, and choking on liquids. Examination shows reduced pain and temperature sensation over the left face and over the right arm and leg, a small left pupil with mild left ptosis, and left-sided limb ataxia. Strength is full in all limbs and the tongue protrudes midline. Which additional feature of this syndrome is explained by involvement of the inferior cerebellar peduncle?",
+      "answers": {
+        "A": "Contralateral loss of pain and temperature in the limbs",
+        "B": "Hoarseness with difficulty swallowing",
+        "C": "Ipsilateral dysmetria on finger-to-nose testing",
+        "D": "Ipsilateral loss of facial pain and temperature",
+        "E": "Ipsilateral miosis with mild ptosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Contralateral limb sensory loss reflects the already crossed spinothalamic tract in the lateral medulla.",
+        "B": "Hoarseness and dysphagia arise from involvement of the nucleus ambiguus and the ninth and tenth nerve fibers.",
+        "C": "The inferior cerebellar peduncle carries spinocerebellar and olivocerebellar input into the cerebellum, so its interruption in a lateral medullary infarct produces ipsilateral limb dysmetria and ataxia.",
+        "D": "Ipsilateral facial sensory loss reflects the spinal trigeminal tract and nucleus.",
+        "E": "Miosis and ptosis result from interruption of the descending sympathetic fibers coursing through the lateral tegmentum."
+      }
+    }
+  ]
+}

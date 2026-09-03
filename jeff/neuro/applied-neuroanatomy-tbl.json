@@ -1,0 +1,419 @@
+{
+  "lecture": "TBL: Applied Neuroanatomy",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-001",
+      "question": "A 25-year-old woman was stabbed in the back during a mugging and is evaluated 2 months later. Her findings are shown. Where would you expect to find her deficit in pain and temperature sensation?",
+      "table": [
+        ["Examination", "Finding"],
+        ["Voluntary movement, right lower limb", "Absent at every joint"],
+        ["Tone and deep tendon reflexes, right leg", "Increased, with clonus"],
+        ["Plantar response, right", "Extensor"],
+        ["Vibration and two-point discrimination", "Absent below T10 on the right"],
+        ["Upper limbs", "Normal throughout"]
+      ],
+      "answers": {
+        "A": "Bilaterally below the level of the lesion",
+        "B": "On the left, one to two segments below the lesion",
+        "C": "On the left, one to two segments above the lesion",
+        "D": "On the right, at the level of the lesion only",
+        "E": "On the right, one to two segments below the lesion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A hemisection spares the intact half of the cord, so pain and temperature loss cannot be bilateral.",
+        "B": "Anterolateral fibers ascend one to two segments in Lissauer tract before crossing in the anterior white commissure, so a right hemisection removes crossed fibers carrying left-sided pain and temperature beginning one to two segments below the lesion.",
+        "C": "Fibers entering above the lesion cross above it and are unaffected, so the deficit lies below rather than above.",
+        "D": "A right-sided deficit at a single level would reflect damage to entering dorsal rootlets rather than the crossed ascending tract.",
+        "E": "Pain and temperature loss is contralateral because the pathway has already decussated within the cord."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-002",
+      "question": "The same patient has stroking of the lateral sole of the right foot produce dorsiflexion of the great toe with fanning of the other toes. Her right patellar reflex is 4+ with sustained clonus at the ankle. What does this combination of findings establish about the lesion?",
+      "answers": {
+        "A": "It involves the descending corticospinal pathway",
+        "B": "It involves the dorsal root ganglion at that level",
+        "C": "It involves the peripheral nerves of the lumbosacral plexus",
+        "D": "It involves the spinocerebellar pathways to the cerebellum",
+        "E": "It involves the ventral horn motor neurons at that level"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "An extensor plantar response with hyperreflexia and clonus is an upper motor neuron pattern, which localizes the injury to the descending corticospinal pathway rather than to the final common pathway.",
+        "B": "Dorsal root ganglion injury produces sensory loss without altering reflex responses in this pattern.",
+        "C": "Peripheral nerve injury causes flaccid weakness with reduced reflexes and a flexor or absent plantar response.",
+        "D": "Spinocerebellar injury causes incoordination without spasticity or a Babinski sign.",
+        "E": "Ventral horn destruction produces lower motor neuron findings of atrophy, fasciculations, and hyporeflexia."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-003",
+      "question": "A pathologist examines the spinal cord of a patient who died 2 years after a traumatic hemisection at T10. Sections are taken from the cord well caudal to the injury and stained for myelin degeneration. Which tract is most likely to show degeneration at this caudal site?",
+      "answers": {
+        "A": "Cuneocerebellar tract",
+        "B": "Fasciculus gracilis",
+        "C": "Lateral corticospinal tract",
+        "D": "Posterior spinocerebellar tract",
+        "E": "Spinothalamic tract"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cuneocerebellar tract carries information upward from the upper body and would degenerate above rather than below a lesion.",
+        "B": "The fasciculus gracilis conveys information rostrally, so its axons degenerate cranial to the transection.",
+        "C": "Axons degenerate distal to the point of severance from their cell bodies, and because corticospinal axons descend from the cortex, they degenerate below the lesion.",
+        "D": "The posterior spinocerebellar tract ascends and therefore degenerates above the lesion.",
+        "E": "The spinothalamic tract also ascends toward the thalamus and degenerates cranial to the injury."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-004",
+      "question": "A 41-year-old construction worker has weakness of the entire left lower extremity with loss of vibration and discriminative touch throughout that limb, and loss of pain and thermal sensation throughout the right lower extremity. The upper limbs and trunk above the umbilicus are normal. At approximately what level is the lesion?",
+      "answers": {
+        "A": "C5-C6 on the left",
+        "B": "L4-L5 on the left",
+        "C": "T4-T5 on the right",
+        "D": "T11-T12 on the left",
+        "E": "T11-T12 on the right"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A cervical lesion would also produce upper limb findings, which are absent.",
+        "B": "A lesion at L4-L5 would spare the proximal thigh, whereas the entire lower limb is affected.",
+        "C": "A right-sided lesion would produce left-sided pain and temperature loss with right-sided weakness, the reverse of this pattern.",
+        "D": "Ipsilateral weakness and dorsal column loss place the lesion on the left, and because the whole limb is involved the lesion must be above L2, while the one to two segment ascent of crossing pain fibers places it near T11-T12.",
+        "E": "Weakness and dorsal column loss are ipsilateral to the lesion, so a right-sided lesion cannot explain left leg findings."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-005",
+      "question": "A 57-year-old woman spilled boiling liquid on her right hand and felt no pain; months earlier she sewed through a finger painlessly. Her findings are shown. Which structure is most likely damaged?",
+      "table": [
+        ["Examination", "Finding"],
+        ["Pain and temperature, forearms and hands", "Absent bilaterally"],
+        ["Pain and temperature, lower limbs", "Normal"],
+        ["Vibration and two-point discrimination", "Normal throughout"],
+        ["Intrinsic hand muscles, right", "Severely atrophic"],
+        ["Cranial nerve examination", "Normal"]
+      ],
+      "answers": {
+        "A": "Anterior white commissure of the cervical cord",
+        "B": "Bilateral dorsal columns of the cervical cord",
+        "C": "Bilateral lateral corticospinal tracts",
+        "D": "Left spinothalamic tract in the lateral funiculus",
+        "E": "Spinal trigeminal tract in the medulla"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A central cavity expanding into the anterior white commissure interrupts decussating pain and temperature fibers from both sides at those segments, producing a bilateral suspended cape-like sensory loss with preserved dorsal column function.",
+        "B": "Dorsal column injury would abolish vibration and two-point discrimination, which are intact.",
+        "C": "Corticospinal injury produces spastic weakness rather than segmental sensory loss.",
+        "D": "A single lateral spinothalamic lesion would produce contralateral loss extending below the lesion, including the leg.",
+        "E": "A spinal trigeminal lesion causes facial sensory loss, and the cranial nerve examination is normal."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-006",
+      "question": "The same 57-year-old woman has normal pain and temperature sensation in both lower limbs. What does this finding establish about the extent of her lesion?",
+      "answers": {
+        "A": "The dorsal columns are intact above the lesion",
+        "B": "The lesion has not damaged the ascending spinothalamic tracts in the lateral funiculi",
+        "C": "The lesion involves only the dorsal horns bilaterally",
+        "D": "The lesion lies above the level of the medulla",
+        "E": "The lesion spares the ventral horn motor neurons"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The dorsal columns are indeed intact, but that is demonstrated by preserved vibration rather than by normal leg pain sensation.",
+        "B": "Fibers from the legs have already crossed at lumbar and sacral levels and are ascending in the lateral funiculi as they pass the cervical cord, so their preservation shows that the cavity has not extended laterally into the established tracts.",
+        "C": "Dorsal horn involvement would not be excluded by normal leg sensation, and the crossing fibers rather than the horns explain the pattern.",
+        "D": "A lesion above the medulla would produce cranial nerve or long tract findings and would not spare the legs selectively.",
+        "E": "Ventral horn involvement is actually present, as shown by the atrophy of the intrinsic hand muscles."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-007",
+      "question": "The same 57-year-old woman has severe atrophy of the intrinsic muscles of the right hand with visible loss of bulk in the first dorsal interosseous, while strength in the shoulder and elbow is preserved. Which structure best accounts for this finding?",
+      "answers": {
+        "A": "Anterior white commissure at C6",
+        "B": "Dorsal root ganglion at C8",
+        "C": "Lateral corticospinal tract at C5",
+        "D": "Ventral horn motor neurons at C8-T1",
+        "E": "Ventral spinocerebellar tract at T1"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior white commissure carries crossing sensory fibers and its damage causes sensory loss, not muscle atrophy.",
+        "B": "Dorsal root ganglion damage causes sensory loss without denervation atrophy of muscle.",
+        "C": "A corticospinal lesion causes spastic weakness with preserved bulk rather than severe focal wasting.",
+        "D": "The intrinsic hand muscles are supplied by lower motor neurons in the C8-T1 ventral horn, and an expanding central cord lesion that reaches the ventral horn at those segments produces this focal denervation atrophy.",
+        "E": "The ventral spinocerebellar tract carries proprioceptive information to the cerebellum and has no role in muscle bulk."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-008",
+      "question": "A 75-year-old man wakes unable to move the right side of his body. His examination findings are shown. Where is the lesion?",
+      "table": [
+        ["Examination", "Finding"],
+        ["Strength", "Right hemiplegia"],
+        ["Deep tendon reflexes and plantar response", "Increased on right, right extensor plantar"],
+        ["Vibration, light touch, proprioception", "Absent in right limbs and trunk"],
+        ["Pain and temperature", "Normal throughout body and face"],
+        ["Tongue", "Fasciculations on the left, deviates left on protrusion"]
+      ],
+      "answers": {
+        "A": "Left internal capsule, posterior limb",
+        "B": "Left medial medulla",
+        "C": "Left medial pons",
+        "D": "Right lateral medulla",
+        "E": "Right medial cerebral cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A capsular lesion would produce contralateral weakness and sensory loss but could not cause lower motor neuron tongue findings.",
+        "B": "The combination of contralateral hemiplegia from the pyramid, contralateral dorsal column loss from the medial lemniscus, and ipsilateral tongue deviation with fasciculations from the hypoglossal nucleus localizes to the left paramedian medulla, and preserved pain and temperature confirms the laterally placed spinothalamic tract is spared.",
+        "C": "A medial pontine lesion is above the hypoglossal nucleus and would produce abducens or facial findings instead of tongue weakness.",
+        "D": "A right lateral medullary lesion would cause crossed pain and temperature loss with Horner syndrome and no hemiplegia.",
+        "E": "A cortical lesion could not produce a lower motor neuron tongue palsy, and pain sensation would also be affected."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-009",
+      "question": "The same 75-year-old man is found to have an infarct that involves the pyramid, the medial lemniscus, and the hypoglossal nucleus on one side of the rostral medulla. Branches of which vessel supply this territory?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Posterior inferior cerebellar artery",
+        "D": "Posterior spinal artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior inferior cerebellar artery supplies the lateral caudal pons and the inner ear.",
+        "B": "The anterior spinal artery arises near the confluence of the vertebral arteries and descends in the anterior median fissure between the pyramids, supplying the paramedian medulla containing the pyramid, medial lemniscus, and hypoglossal nucleus.",
+        "C": "The posterior inferior cerebellar artery supplies the dorsolateral medulla and produces the lateral medullary syndrome.",
+        "D": "The posterior spinal arteries serve the dorsal medulla and dorsal columns and their nuclei.",
+        "E": "The superior cerebellar artery supplies the dorsolateral rostral pons and superior cerebellum."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-010",
+      "question": "Before the tongue findings were noted, the team considered a left hemispheric cortical stroke to explain the same 75-year-old man's right hemiplegia and right-sided loss of vibration and proprioception. Which observation most strongly argues against a cortical location?",
+      "answers": {
+        "A": "His deep tendon reflexes are increased on the right",
+        "B": "His pain and temperature sensation is entirely normal",
+        "C": "His plantar response is extensor on the right",
+        "D": "His symptoms began during sleep rather than on exertion",
+        "E": "His weakness involves the arm and the leg equally"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hyperreflexia occurs with any upper motor neuron lesion and does not distinguish cortex from brainstem.",
+        "B": "The primary somatosensory cortex sits beside the primary motor cortex and is supplied by the same vessels, so a cortical infarct large enough to cause hemiplegia would also abolish pain and temperature perception on that side, whereas his pain sensation is fully intact.",
+        "C": "An extensor plantar response is also nonspecific for level within the corticospinal pathway.",
+        "D": "Onset during sleep is common in ischemic stroke of any location.",
+        "E": "Equal arm and leg involvement narrows the cortical territory but does not exclude a cortical lesion."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-011",
+      "question": "A 45-year-old man has 18 months of progressive weakness, several falls, difficulty swallowing with an aspiration pneumonia 6 months ago, and a newly nasal voice. He has a transverse smile and cannot raise his eyebrows or forcibly close his eyes. Examination shows weakness in all four limbs, brisk reflexes throughout, bilateral extensor plantar responses, and fasciculations in all four limbs. All sensory testing is normal throughout the body and head. Which conclusion is best supported?",
+      "answers": {
+        "A": "A single lesion in the cervicomedullary junction explains all findings",
+        "B": "A single lesion in the internal capsule explains all findings",
+        "C": "A single lesion of the basal nuclei explains all findings",
+        "D": "No single lesion explains the findings, which reflect diffuse motor neuron degeneration",
+        "E": "No single lesion explains the findings, which reflect a demyelinating process"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A cervicomedullary lesion could not spare all sensory pathways while producing bilateral facial and bulbar lower motor neuron signs together with diffuse limb fasciculations.",
+        "B": "A capsular lesion produces contralateral upper motor neuron findings only and never causes fasciculations.",
+        "C": "Basal nuclei disease produces rigidity, tremor, or chorea rather than mixed upper and lower motor neuron signs.",
+        "D": "The simultaneous presence of upper motor neuron signs and lower motor neuron signs in the limbs and in bulbar and facial musculature, with entirely normal sensation, cannot be produced by any one focal lesion and indicates a diffuse degenerative disease of motor neurons.",
+        "E": "A demyelinating process would produce sensory abnormalities and discrete relapsing deficits rather than pure progressive motor loss with fasciculations."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-012",
+      "question": "The same 45-year-old man has a nasal quality to his voice, chokes on thin liquids, and had an aspiration pneumonia. Degeneration of which brainstem structure best accounts for this cluster of bulbar symptoms?",
+      "answers": {
+        "A": "Dorsal motor nucleus of the vagus",
+        "B": "Facial nucleus in the caudal pons",
+        "C": "Nucleus ambiguus in the medullary tegmentum",
+        "D": "Solitary nucleus and tract",
+        "E": "Spinal trigeminal nucleus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The dorsal motor nucleus supplies preganglionic parasympathetic fibers to the viscera and does not control the palate or larynx.",
+        "B": "Facial nucleus degeneration explains his transverse smile and inability to close the eyes but not his palatal and laryngeal weakness.",
+        "C": "The nucleus ambiguus provides branchial motor innervation through the ninth and tenth nerves to the pharynx, palate, and larynx, so its degeneration produces nasal speech, dysphagia, and aspiration.",
+        "D": "The solitary nucleus receives visceral and taste afferents and is sensory rather than motor.",
+        "E": "The spinal trigeminal nucleus carries facial pain and temperature, and his sensation is normal."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-013",
+      "question": "A 22-year-old graduate student has 1 week of a poorly controlled left leg and incoordination of the left arm, and this morning she woke with numbness of the left face and trouble chewing. Four years ago her right leg was weak for a few weeks and recovered without treatment. Examination shows an absent left corneal reflex, decreased sensation to all modalities over the left face, and inability to move the jaw to the right, with full eye movements, normal pupils, and normal sensation over the body. Where is the lesion?",
+      "answers": {
+        "A": "Left cerebral peduncle in the midbrain",
+        "B": "Left lateral medulla near the inferior cerebellar peduncle",
+        "C": "Left middle cerebellar peduncle at the trigeminal root entry",
+        "D": "Left posterior limb of the internal capsule",
+        "E": "Right paramedian pons at the abducens nucleus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A peduncular lesion would produce contralateral hemiparesis with a third nerve palsy, and her eye movements are normal.",
+        "B": "A lateral medullary lesion would cause crossed pain and temperature loss and Horner syndrome, and would not weaken the muscles of mastication.",
+        "C": "Loss of all sensory modalities on the left face with an absent corneal reflex and weakness of the left pterygoids localizes to the trigeminal nerve where it enters the pons through the middle cerebellar peduncle, and involvement of that peduncle also explains the left limb incoordination.",
+        "D": "A capsular lesion produces contralateral hemiparesis and hemisensory loss without selective facial sensory loss.",
+        "E": "A lesion at the abducens nucleus would produce a horizontal gaze palsy, and her eye movements are full."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-014",
+      "question": "The same 22-year-old woman is convinced she is having a stroke. Which feature of her presentation argues most strongly against a vascular cause?",
+      "answers": {
+        "A": "Her deficits are confined to one side of the body",
+        "B": "Her corneal reflex is absent on the affected side",
+        "C": "Her jaw deviates when she attempts lateral movement",
+        "D": "Her sensory examination of the trunk and limbs is normal",
+        "E": "Her symptoms began over the course of a single week"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Unilateral deficits are entirely compatible with a vascular lesion.",
+        "B": "An absent corneal reflex localizes the trigeminal pathway but says nothing about mechanism.",
+        "C": "Jaw deviation likewise localizes the lesion rather than establishing its cause.",
+        "D": "A vascular lesion large enough to destroy the trigeminal root entry zone in the pons would be supplied by long circumferential or anterior inferior cerebellar branches and would necessarily also damage the adjacent spinothalamic tract and medial lemniscus, producing contralateral body sensory loss, which she does not have.",
+        "E": "Subacute worsening over a week is atypical for stroke but the decisive argument is the anatomic mismatch with any vascular territory."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-015",
+      "question": "A 75-year-old woman wakes from a nap with paralysis of the left foot and leg and tingling and numbness of the left foot. Both arms have normal sensation, normal reflexes, and no weakness or incoordination. Which arterial territory best explains this pattern?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Right anterior cerebral artery",
+        "D": "Right middle cerebral artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A left-sided lesion would produce right-sided findings because both motor and sensory pathways are crossed.",
+        "B": "The middle cerebral artery supplies the lateral convexity representing the face and arm, so its occlusion spares the leg relatively.",
+        "C": "The anterior cerebral artery supplies the medial surface of the hemisphere where the lower limb is represented in both the motor and somatosensory strips, so a right-sided occlusion produces contralateral leg weakness and sensory loss with an unaffected arm.",
+        "D": "A right middle cerebral occlusion would produce predominantly left face and arm findings.",
+        "E": "The posterior cerebral artery supplies the occipital lobe and would produce a visual field defect."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-016",
+      "question": "The same 75-year-old woman is asked to salute, catch a ball, and wave goodbye. She performs all tasks correctly with the right arm but cannot complete them with the left, even though the left arm has full strength, normal reflexes, and normal coordination on testing. She reports that her left hand sometimes seems to act on its own. Which structure is most likely involved?",
+      "answers": {
+        "A": "Corpus callosum",
+        "B": "Left premotor cortex",
+        "C": "Left primary motor cortex",
+        "D": "Right primary motor cortex",
+        "E": "Right superior parietal lobule"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Verbal commands are comprehended in the left hemisphere, and executing them with the left arm requires that the instruction cross to the right premotor and motor cortex, so callosal disconnection produces left limb apraxia and a sense that the hand acts autonomously despite normal strength.",
+        "B": "Left premotor damage would impair planning for the right arm, which performs normally.",
+        "C": "Left primary motor damage would weaken the right arm rather than disrupt the left.",
+        "D": "Right primary motor damage would produce true weakness of the left arm, and her strength is full.",
+        "E": "Parietal injury would produce sensory or spatial deficits and typically neglect rather than a selective disconnection for verbal commands."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-017",
+      "question": "A 65-year-old man wakes with numbness of the right face and right hand and states that he cannot see anything on his right side. There is no weakness initially. He later has intermittent anomic aphasia, and over several days most deficits resolve except for persistent right facial and hand numbness and a right homonymous hemianopia. Which single location best explains the convergence of these findings?",
+      "table": [
+        ["Examination", "Finding"],
+        ["Sensation, right face and hand", "Reduced to all modalities"],
+        ["Visual fields", "Right homonymous hemianopia"],
+        ["Strength", "Full in all limbs at follow-up"],
+        ["Language", "Intermittent word-finding difficulty"],
+        ["Pupils", "Equal and reactive"]
+      ],
+      "answers": {
+        "A": "Left internal capsule, posterior limb",
+        "B": "Left occipital cortex",
+        "C": "Left parietal cortex",
+        "D": "Left thalamus",
+        "E": "Left temporal lobe"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A capsular lesion of this size would produce dense hemiparesis, and his strength is preserved.",
+        "B": "An occipital lesion explains the hemianopia but cannot account for hemisensory loss of the face and hand.",
+        "C": "A parietal lesion could cause sensory loss and a field defect but would produce cortical sensory signs and typically neglect rather than this resolving pattern.",
+        "D": "The thalamus is the one site where somatosensory relay in the ventral posterior nuclei and visual relay in the lateral geniculate nucleus lie together, and this territory is supplied by thalamogeniculate and posterior choroidal branches of the posterior cerebral artery.",
+        "E": "A temporal lesion would produce a superior quadrantanopia and language disturbance without facial and hand sensory loss."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-018",
+      "question": "The same 65-year-old man is found to have an infarct involving both the ventral posterior nuclei and the lateral geniculate nucleus. Which vessels most likely supplied the infarcted territory?",
+      "answers": {
+        "A": "Anterior choroidal and recurrent artery of Heubner",
+        "B": "Basilar paramedian perforating branches",
+        "C": "Lenticulostriate branches of the middle cerebral artery",
+        "D": "Pericallosal and callosomarginal branches",
+        "E": "Thalamogeniculate and posterior choroidal branches"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior choroidal artery supplies the optic tract and part of the internal capsule, and the recurrent artery of Heubner supplies the caudate head.",
+        "B": "Paramedian basilar branches supply the pons and cause brainstem rather than thalamic syndromes.",
+        "C": "Lenticulostriate branches supply the basal nuclei and internal capsule and cause pure motor deficits.",
+        "D": "Pericallosal and callosomarginal branches are anterior cerebral artery vessels supplying the medial hemisphere.",
+        "E": "The thalamus is supplied chiefly by branches of the posterior cerebral artery, including thalamogeniculate and posterior choroidal vessels, which together perfuse the ventral posterior nuclei and the geniculate bodies."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-019",
+      "question": "A neurologist sees two patients on the same evening. The first is a 12-year-old boy with an ependymoma of the fourth ventricle impinging on the facial colliculus. The second is a 72-year-old man with an infarct in the territory of the paramedian branches of the basilar artery at the pontomedullary junction. Which symptom are both patients most likely to share, and what structure is responsible in each?",
+      "answers": {
+        "A": "Diplopia, from involvement of abducens nucleus and abducens nerve",
+        "B": "Facial numbness, from involvement of the spinal trigeminal tract in each",
+        "C": "Hearing loss, from involvement of the cochlear nuclei in each",
+        "D": "Tongue deviation, from involvement of hypoglossal nucleus and nerve",
+        "E": "Vertigo, from involvement of the vestibular nuclei in each"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The facial colliculus is raised by the facial nerve genu looping over the abducens nucleus, and the abducens nerve exits at the pontomedullary junction in the paramedian territory, so both patients lose lateral rectus function and develop medial strabismus with horizontal diplopia.",
+        "B": "The spinal trigeminal tract lies far laterally and is not in either the ventricular floor or the paramedian vascular territory.",
+        "C": "The cochlear nuclei sit laterally around the inferior cerebellar peduncle, outside both regions described.",
+        "D": "The hypoglossal nucleus lies in the medulla well caudal to the facial colliculus.",
+        "E": "The vestibular nuclei lie lateral to the sulcus limitans and outside the paramedian perforator territory."
+      }
+    },
+    {
+      "id": "neuro-applied-neuroanatomy-tbl-020",
+      "question": "A 30-year-old man has an intramedullary tumor centered exactly at the anterior white commissure of the sacral cord. Which presentation is most likely?",
+      "answers": {
+        "A": "Bilateral loss of pain and temperature in sacral dermatomes with mild motor findings",
+        "B": "Bilateral loss of vibration and proprioception in both lower limbs",
+        "C": "Flaccid paralysis of both lower limbs with absent reflexes",
+        "D": "Unilateral loss of pain and temperature with contralateral weakness",
+        "E": "Unilateral loss of vibration with contralateral loss of pain and temperature"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior white commissure is where anterolateral fibers from both sides cross at that segment, so a midline lesion abolishes pain and temperature bilaterally in the dermatomes one to two levels below, while the adjacent crossing anterior corticospinal fibers may cause only mild weakness with slight hypertonia and hyperreflexia.",
+        "B": "Vibration and proprioception ascend uncrossed in the dorsal columns far from the commissure.",
+        "C": "Flaccid paralysis with areflexia would require destruction of the ventral horns or roots.",
+        "D": "A crossed motor and sensory pattern describes a hemisection rather than a midline commissural lesion.",
+        "E": "Dissociated unilateral findings again describe a hemisection, which this midline lesion is not."
+      }
+    }
+  ]
+}
