@@ -241,6 +241,13 @@
       background: #fdf0f0;
     }
 
+    /* Buttons are user-select:none in WebKit — the choice text opts back in
+       so it can be highlighted like the stem. */
+    .answer-text {
+      -webkit-user-select: text;
+      user-select: text;
+    }
+
     .answer-btn.struck .answer-text {
       text-decoration: line-through;
       opacity: 0.45;
@@ -950,22 +957,29 @@
     return total;
   }
 
-  // The live selection as block-relative offsets, or null when it is collapsed,
-  // outside a highlightable block, or spread across two of them.
+  // The live selection as block-relative offsets, or null when it is collapsed
+  // or touches no highlightable block at all.
+  //
+  // A drag rarely stops neatly at a block's edge — it starts on an answer's
+  // letter circle, or runs off the end of the stem into the choices below. So
+  // the rule is: take the first highlightable block the selection touches, and
+  // highlight the part of the selection that lands inside it.
   function selectionRange() {
     const sel = window.getSelection();
     if (!sel || sel.isCollapsed || !sel.rangeCount) return null;
 
     const range = sel.getRangeAt(0);
-    const block = hlBlock(range.startContainer);
-    if (!block || block !== hlBlock(range.endContainer)) return null;
+    const block = hlBlock(range.startContainer) || hlBlock(range.endContainer);
+    if (!block) return null;
 
     const key  = block.dataset.hlKey;
     const text = hlSources[key];
     if (text == null) return null;
 
-    let start = offsetIn(block, range.startContainer, range.startOffset);
-    let end   = offsetIn(block, range.endContainer, range.endOffset);
+    let start = block.contains(range.startContainer)
+      ? offsetIn(block, range.startContainer, range.startOffset) : 0;
+    let end = block.contains(range.endContainer)
+      ? offsetIn(block, range.endContainer, range.endOffset) : text.length;
     if (end < start) { const t = start; start = end; end = t; }
 
     // Trailing whitespace picked up by a drag shouldn't get a yellow tail.
@@ -1084,9 +1098,32 @@
       const btn = document.createElement('button');
       btn.className = 'answer-btn';
       btn.dataset.letter = letter;
-      btn.innerHTML = `<span class="answer-letter">${letter}</span><span class="answer-text">${text}</span><span class="strike-hint">right-click to strike</span>`;
+
+      const tag = document.createElement('span');
+      tag.className = 'answer-letter';
+      tag.textContent = letter;
+
+      const body = document.createElement('span');
+      body.className = 'answer-text';
+      paint(body, text, 'ans:' + letter);
+
+      const hint = document.createElement('span');
+      hint.className = 'strike-hint';
+      hint.textContent = 'right-click to strike';
+
+      btn.appendChild(tag);
+      btn.appendChild(body);
+      btn.appendChild(hint);
       btn.classList.toggle('struck', resp.struck.includes(letter));
-      btn.onclick = () => selectAnswer(letter);
+
+      // Dragging across the words is a highlight gesture, not a pick — so is
+      // the second click of a double-click. Anything else picks the choice.
+      btn.onclick = (e) => {
+        if (e.detail >= 2) return;
+        const sel = window.getSelection();
+        if (sel && !sel.isCollapsed && btn.contains(sel.anchorNode)) return;
+        selectAnswer(letter);
+      };
       btn.oncontextmenu = (e) => {
         e.preventDefault();
         if (response(current).answered) return;
