@@ -1,0 +1,408 @@
+{
+  "lecture": "Energy Metabolism in the Brain",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-001",
+      "question": "A researcher injects a fluorescent tracer into the carotid circulation of a mouse and finds that it remains confined to the capillary lumen in the cortex but leaks freely into tissue in the liver. Electron microscopy of the cortical capillary shows a continuous endothelium with occluding junctions, a basement membrane, a surrounding cellular network, and a further layer of glial extensions. Which structure forms the outermost cellular layer of this barrier?",
+      "answers": {
+        "A": "Astrocyte foot processes",
+        "B": "Endothelial tight junctions",
+        "C": "Microglial processes",
+        "D": "Oligodendrocyte processes",
+        "E": "Pericytes on the basement membrane"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Astrocyte end-feet surround the pericytes and any remaining uncovered basement membrane, forming the outermost cellular component of the blood-brain barrier.",
+        "B": "Tight junctions between endothelial cells form the innermost seal facing the capillary lumen.",
+        "C": "Microglia are resident immune cells and are not a structural component of the barrier.",
+        "D": "Oligodendrocytes myelinate central axons and do not contribute to the capillary barrier.",
+        "E": "Pericytes lie on the basement membrane but are themselves covered by astrocyte processes."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-002",
+      "question": "A 22-year-old man completes a 36-hour fast for a research study. Investigators measure arteriovenous differences across his brain and find substantial extraction of three circulating substrates, while a fourth abundant energy-rich substrate class shows essentially no extraction. Which substrate class is not extracted, and why?",
+      "answers": {
+        "A": "Free fatty acids, because they cannot cross the blood-brain barrier",
+        "B": "Free fatty acids, because neurons lack carnitine palmitoyltransferase",
+        "C": "Glucose, because transporters are saturated during fasting",
+        "D": "Ketone bodies, because their acidity prevents transport",
+        "E": "Lactate, because monocarboxylate transporters are absent in brain"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The blood-brain barrier is essentially impermeable to circulating free fatty acids, which is why glucose, ketone bodies, and lactate are the three quantitatively important brain fuels and why vertebrates evolved glycogenolysis and gluconeogenesis to defend plasma glucose.",
+        "B": "Brain cells retain the machinery to oxidize endogenous fatty acids arising from membrane turnover; the limitation is delivery across the barrier.",
+        "C": "Glucose is extracted avidly and is the primary brain fuel.",
+        "D": "Ketone bodies do cross the barrier and become an important supplemental fuel during fasting.",
+        "E": "Monocarboxylate transporters are abundant in brain and carry lactate across membranes."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-003",
+      "question": "A 6-year-old girl has recurrent seizures and developmental delay. She is not hypoglycemic. Paired plasma and cerebrospinal fluid samples are drawn after an overnight fast, with results shown. Which conclusion about normal physiology does the plasma-to-cerebrospinal fluid relationship illustrate?",
+      "table": [
+        ["Compartment", "Glucose concentration", "Typical value"],
+        ["Plasma", "92 mg/dL", "70–100 mg/dL"],
+        ["Cerebrospinal fluid", "26 mg/dL", "~60 mg/dL at this plasma level"],
+        ["Cerebrospinal fluid to plasma ratio", "0.28", "~0.65"]
+      ],
+      "answers": {
+        "A": "Cerebrospinal fluid glucose exceeds plasma glucose because of active secretion",
+        "B": "Cerebrospinal fluid glucose is lower than plasma, and brain extracellular fluid is lower still",
+        "C": "Cerebrospinal fluid glucose is normally equal to plasma glucose",
+        "D": "Cerebrospinal fluid glucose is unrelated to plasma glucose in health",
+        "E": "Brain extracellular fluid glucose normally exceeds cerebrospinal fluid glucose"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "There is no active secretion raising cerebrospinal fluid glucose above plasma levels.",
+        "B": "At a plasma glucose of about 90 mg/dL the cerebrospinal fluid normally contains roughly 60 mg/dL and brain extracellular fluid only about 20 mg/dL, so this patient's ratio of 0.28 is abnormally low and suggests defective glucose transport across the barrier.",
+        "C": "Equality would ignore the transport step imposed by the barrier.",
+        "D": "The two are tightly linked, which is why the ratio is diagnostically useful.",
+        "E": "Extracellular fluid glucose is the lowest of the three compartments, not the highest."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-004",
+      "question": "A physiologist compares glycogen content in three tissues of a healthy fed adult. She finds roughly 400 g in one tissue, roughly 100 g in another, and only about 2 g in the third. Which assignment is correct?",
+      "answers": {
+        "A": "Astrocytes 400 g, liver 100 g, skeletal muscle 2 g",
+        "B": "Liver 400 g, astrocytes 100 g, skeletal muscle 2 g",
+        "C": "Liver 400 g, skeletal muscle 100 g, astrocytes 2 g",
+        "D": "Skeletal muscle 400 g, astrocytes 100 g, liver 2 g",
+        "E": "Skeletal muscle 400 g, liver 100 g, astrocytes 2 g"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Astrocytes hold only a trace amount of glycogen, far less than either liver or muscle.",
+        "B": "The liver stores about 100 g rather than 400 g, and astrocytes store far less than 100 g.",
+        "C": "This reverses the relative stores of liver and skeletal muscle.",
+        "D": "The liver is a major glycogen depot and does not contain the smallest store.",
+        "E": "Skeletal muscle collectively stores the largest amount at about 400 g, the liver about 100 g, and astrocytes only about 2 g."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-005",
+      "question": "A biochemist labels muscle glycogen with a carbon tracer in a fasting volunteer and finds that label appears in muscle lactate and in exhaled carbon dioxide but never in circulating glucose. In a parallel experiment, labeled liver glycogen readily appears in circulating glucose. Which enzymatic difference accounts for this?",
+      "answers": {
+        "A": "Muscle lacks glucokinase",
+        "B": "Muscle lacks glucose 6-phosphatase",
+        "C": "Muscle lacks glycogen phosphorylase",
+        "D": "Muscle lacks the debranching enzyme",
+        "E": "Muscle lacks phosphoglucomutase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Glucokinase phosphorylates incoming glucose and its absence would not prevent glucose export.",
+        "B": "Only the liver and kidney express glucose 6-phosphatase, so muscle and astrocytes cannot dephosphorylate glucose 6-phosphate and therefore cannot release free glucose into the blood; muscle uses it internally and astrocytes export lactate instead.",
+        "C": "Muscle glycogen phosphorylase is abundant and is what liberates glucose 1-phosphate during exercise.",
+        "D": "Debranching enzyme is present in muscle, and its deficiency causes a distinct glycogen storage disease.",
+        "E": "Phosphoglucomutase is present and interconverts glucose 1-phosphate and glucose 6-phosphate in both tissues."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-006",
+      "question": "After a carbohydrate-rich meal, portal vein glucose rises well above peripheral levels and hepatic glycogen synthesis accelerates sharply. Which feature of hepatic glucose handling best explains why the liver can raise its glucose 6-phosphate concentration enough to drive this response?",
+      "answers": {
+        "A": "Glucokinase is not inhibited by glucose 6-phosphate",
+        "B": "Glucokinase has a lower Km for glucose than hexokinase",
+        "C": "Glycogen phosphorylase is activated by insulin in the liver",
+        "D": "Hepatic GLUT4 transporters are inserted in response to insulin",
+        "E": "Hepatic glucose 6-phosphatase is stimulated by insulin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The liver isoform glucokinase escapes feedback inhibition by its product, so hepatic glucose 6-phosphate can accumulate after a meal, and that glucose 6-phosphate allosterically stimulates glycogen synthase while insulin further activates it.",
+        "B": "Glucokinase has a higher, not lower, Km, which is why it responds to the elevated portal glucose concentrations.",
+        "C": "Insulin inhibits rather than activates glycogen phosphorylase.",
+        "D": "GLUT4 is the insulin-responsive transporter of muscle and adipose tissue, not liver.",
+        "E": "Glucose 6-phosphatase releases glucose during fasting and is not stimulated by insulin."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-007",
+      "question": "A sprinter performs repeated maximal efforts. Muscle biopsies show rapid activation of glycogen phosphorylase within seconds of contraction onset, before circulating hormone levels change appreciably. Which intracellular signals most directly account for this immediate activation?",
+      "answers": {
+        "A": "Calcium and adenosine monophosphate",
+        "B": "Citrate and adenosine triphosphate",
+        "C": "Glucose 6-phosphate and uridine diphosphate glucose",
+        "D": "Insulin and glucose 6-phosphate",
+        "E": "Nicotinamide adenine dinucleotide and pyruvate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Calcium released with excitation-contraction coupling and adenosine monophosphate generated as adenosine triphosphate is consumed are the chief intracellular stimuli of muscle glycogen phosphorylase, with epinephrine acting later through adrenergic receptors.",
+        "B": "Citrate and adenosine triphosphate signal energy sufficiency and inhibit rather than stimulate fuel mobilization.",
+        "C": "Glucose 6-phosphate and uridine diphosphate glucose drive glycogen synthesis, not degradation.",
+        "D": "Insulin promotes glycogen storage and would oppose phosphorylase activation.",
+        "E": "These are glycolytic intermediates and cofactors without a direct regulatory role on phosphorylase."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-008",
+      "question": "Healthy volunteers eating weight-maintaining mixed meals undergo serial carbon-13 magnetic resonance imaging of the liver. Hepatic glycogen rises across the day and then falls steeply between the evening meal and the following morning, reaching near zero after about 24 hours without food. Which conclusion is best supported?",
+      "answers": {
+        "A": "Hepatic glycogen is depleted between each of the day's main meals",
+        "B": "Hepatic glycogen is the sole glucose source throughout a 3-day fast",
+        "C": "Hepatic glycogen is mostly consumed during the overnight fast",
+        "D": "Hepatic glycogen is replenished chiefly during the overnight period",
+        "E": "Hepatic glycogen synthesis requires gluconeogenic substrate exclusively"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The data specifically refute the common claim that glycogen bridges the gaps between daytime meals, since stores rise rather than fall across the day.",
+        "B": "Once glycogen is exhausted at roughly 24 hours, gluconeogenesis becomes the only source of glucose and continues until starvation.",
+        "C": "Glycogen accumulates with daytime feeding and is drawn down almost entirely during the overnight fast, with exhaustion by about 24 hours without food.",
+        "D": "Replenishment occurs with feeding during the day, not overnight.",
+        "E": "Dietary glucose entering the liver through glucokinase is the main precursor after a meal."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-009",
+      "question": "A 30-year-old woman completes a 4-day water-only fast under supervision. Isotope studies show that essentially all of her circulating glucose is now newly synthesized. Which set of precursors and which organs account for this glucose production?",
+      "answers": {
+        "A": "Acetyl-CoA and acetoacetate; liver and skeletal muscle",
+        "B": "Fatty acids and acetyl-CoA; liver only",
+        "C": "Lactate, alanine, and glycerol; liver and kidney",
+        "D": "Lactate, leucine, and lysine; liver and kidney",
+        "E": "Palmitate, glycerol, and ketone bodies; liver and adipose tissue"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Acetyl-CoA cannot yield net glucose because the pyruvate dehydrogenase reaction is irreversible, and muscle lacks glucose 6-phosphatase.",
+        "B": "Fatty acids supply the adenosine triphosphate that powers gluconeogenesis but cannot serve as carbon skeletons for net glucose synthesis.",
+        "C": "Gluconeogenesis uses lactate from red cells and glycolytic tissues, alanine from muscle protein breakdown, and glycerol from adipose triglyceride hydrolysis, and it occurs in the liver and the kidney, both of which express glucose 6-phosphatase.",
+        "D": "Leucine and lysine are strictly ketogenic and cannot contribute carbon to glucose.",
+        "E": "Adipose tissue supplies glycerol but does not perform gluconeogenesis."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-010",
+      "question": "A researcher infuses individual uniformly labeled amino acids into fasting subjects and measures the appearance of label in plasma glucose. Two amino acids yield no labeled glucose at all, although label does appear in ketone bodies. Which two amino acids are these?",
+      "answers": {
+        "A": "Alanine and glutamine",
+        "B": "Glycine and serine",
+        "C": "Isoleucine and phenylalanine",
+        "D": "Leucine and lysine",
+        "E": "Tyrosine and tryptophan"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alanine is the principal gluconeogenic amino acid delivered from muscle, and glutamine is also glucogenic.",
+        "B": "Glycine and serine both feed into pyruvate and are glucogenic.",
+        "C": "Isoleucine and phenylalanine are both glucogenic and ketogenic, so labeled glucose would appear.",
+        "D": "Leucine and lysine are the only strictly ketogenic amino acids, yielding acetyl-CoA and acetoacetate but no carbon that can be converted to glucose.",
+        "E": "Tyrosine and tryptophan are also mixed glucogenic and ketogenic amino acids."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-011",
+      "question": "A 58-year-old woman with type 2 diabetes is started on metformin, and her fasting plasma glucose falls from 168 to 122 mg/dL over 8 weeks without any increase in insulin secretion or any episode of hypoglycemia. Which mechanism best accounts for this effect?",
+      "answers": {
+        "A": "Blockade of intestinal alpha-glucosidase, slowing carbohydrate absorption",
+        "B": "Inhibition of hepatic gluconeogenesis, likely through raised adenosine monophosphate and kinase activation",
+        "C": "Inhibition of renal sodium-glucose cotransport, increasing urinary glucose loss",
+        "D": "Stimulation of glycogen synthase in skeletal muscle by direct binding",
+        "E": "Stimulation of pancreatic beta cells to release stored insulin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Alpha-glucosidase inhibition describes acarbose and would mainly blunt postprandial rather than fasting glucose.",
+        "B": "Metformin suppresses hepatic glucose output by inhibiting gluconeogenesis, an effect attributed to a rise in adenosine monophosphate and activation of adenosine monophosphate-dependent protein kinase, and because it does not stimulate insulin release it does not cause hypoglycemia on its own.",
+        "C": "Blocking renal glucose reabsorption describes the sodium-glucose cotransporter 2 inhibitors.",
+        "D": "Metformin does not directly bind or activate glycogen synthase.",
+        "E": "Insulin secretagogues raise insulin levels and can cause hypoglycemia, neither of which occurred here."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-012",
+      "question": "A previously well 3-year-old boy is brought to the emergency department lethargic and then unresponsive on the second day of a febrile gastroenteritis during which he ate almost nothing. His laboratory values are shown. He improves rapidly with intravenous dextrose. Which enzymatic defect best explains this presentation?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Plasma glucose", "28 mg/dL", "70–100 mg/dL"],
+        ["Serum ketones", "Minimally elevated", "Markedly elevated when fasting"],
+        ["Plasma free fatty acids", "Markedly elevated", "Elevated when fasting"],
+        ["Ammonia", "128 mcg/dL", "15–45 mcg/dL"],
+        ["Urine organic acids", "Medium-chain dicarboxylic acids", "None"]
+      ],
+      "answers": {
+        "A": "Deficiency of glucose 6-phosphatase",
+        "B": "Deficiency of medium-chain acyl-CoA dehydrogenase",
+        "C": "Deficiency of muscle glycogen phosphorylase",
+        "D": "Deficiency of phosphoenolpyruvate carboxykinase",
+        "E": "Deficiency of pyruvate kinase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Glucose 6-phosphatase deficiency causes hepatomegaly with lactic acidosis and hyperuricemia from infancy, not an isolated fasting crisis with dicarboxylic aciduria.",
+        "B": "Blocked medium-chain fatty acid oxidation prevents ketone body formation and also deprives the liver of the adenosine triphosphate needed to run gluconeogenesis, so a fasting illness produces hypoketotic hypoglycemia with elevated free fatty acids and medium-chain dicarboxylic acids in urine.",
+        "C": "Muscle phosphorylase deficiency causes exercise intolerance with cramps and myoglobinuria, not fasting hypoglycemia.",
+        "D": "Phosphoenolpyruvate carboxykinase deficiency is exceedingly rare and would not produce dicarboxylic aciduria with high free fatty acids.",
+        "E": "Pyruvate kinase deficiency causes hemolytic anemia rather than fasting hypoglycemia."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-013",
+      "question": "A researcher injects a large protein-bound dye that cannot cross the blood-brain barrier and finds that a few discrete regions at the midline base of the brain, including the median eminence, stain intensely while the surrounding hypothalamus does not. What is the functional significance of this anatomic feature?",
+      "answers": {
+        "A": "It allows cerebrospinal fluid to be produced at these sites",
+        "B": "It allows circulating signals such as glucose to be sensed directly",
+        "C": "It concentrates lipid-soluble anesthetics in these regions",
+        "D": "It permits direct arterial supply to the pituitary stalk",
+        "E": "It protects these regions from circulating neurotoxins"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cerebrospinal fluid is produced by the choroid plexus, which has its own specialized barrier at the epithelium.",
+        "B": "The circumventricular organs, including the median eminence, lack a blood-brain barrier, which allows neurons there to sample circulating signals directly and contributes to central glucose sensing that helps regulate plasma glucose.",
+        "C": "Lipid-soluble agents cross the intact barrier readily and do not require these windows.",
+        "D": "Vascular anatomy of the stalk is separate from the question of barrier permeability.",
+        "E": "The absence of a barrier exposes rather than protects these regions."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-014",
+      "question": "A 9-year-old boy with drug-resistant epilepsy and no identifiable surgical focus is admitted to begin a classic ketogenic diet. His dietitian calculates the prescription using the standard ratio. Which composition best describes this diet?",
+      "answers": {
+        "A": "A 1:1 ratio of fat to combined protein and carbohydrate, with 50% of calories from fat",
+        "B": "A 4:1 ratio of carbohydrate to combined fat and protein, with 90% of calories from carbohydrate",
+        "C": "A 4:1 ratio of fat to combined protein and carbohydrate, with about 90% of calories from fat",
+        "D": "A 4:1 ratio of protein to combined fat and carbohydrate, with 90% of calories from protein",
+        "E": "An equal distribution of calories among fat, protein, and carbohydrate"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A 1:1 ratio provides far too little fat to sustain ketosis.",
+        "B": "Loading carbohydrate would suppress ketogenesis entirely and defeat the purpose of the diet.",
+        "C": "The classic ketogenic diet uses a weight ratio of 4 parts fat to 1 part combined protein and carbohydrate, meaning about 90 percent of calories come from fat, with the remainder devoted mainly to meeting protein needs and virtually no carbohydrate.",
+        "D": "Excess protein supplies glucogenic amino acids and would blunt ketosis.",
+        "E": "A balanced distribution is an ordinary diet and produces no ketosis."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-015",
+      "question": "The same 9-year-old boy finds the classic ketogenic diet intolerable because of poor palatability, constipation, and abdominal pain. His neurologist offers a modified Atkins diet instead. Which feature distinguishes this alternative?",
+      "answers": {
+        "A": "Carbohydrate is limited to about 10 to 20 g per day",
+        "B": "Carbohydrate is limited to about 100 g per day",
+        "C": "Fat is restricted while protein is liberalized",
+        "D": "Medium-chain triglycerides replace all dietary protein",
+        "E": "Total calories are restricted to induce weight loss"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The modified Atkins diet still derives most calories from fat but permits roughly 10 to 20 g of carbohydrate daily, which makes it more palatable and easier to sustain while often proving as effective as the classic diet.",
+        "B": "One hundred grams of carbohydrate daily would abolish ketosis.",
+        "C": "Fat remains the dominant macronutrient; it is not restricted.",
+        "D": "Protein is retained to meet requirements and is not replaced by fat.",
+        "E": "Caloric restriction for weight loss is not the mechanism or goal of the diet."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-016",
+      "question": "Before starting a ketogenic diet, a metabolic screen is performed on a 5-year-old with refractory seizures. Which finding would make the diet dangerous and should prompt the team to choose another therapy?",
+      "answers": {
+        "A": "A partial defect in long-chain fatty acid transport and oxidation",
+        "B": "A partial deficiency of glucose 6-phosphate dehydrogenase",
+        "C": "Heterozygous carriage of a hemoglobin variant",
+        "D": "Mild iron deficiency anemia from poor intake",
+        "E": "Well-controlled asthma requiring inhaled corticosteroids"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A ketogenic diet forces reliance on fatty acid oxidation to generate both ketone bodies and the adenosine triphosphate needed for gluconeogenesis, so a defect in fatty acid transport or oxidation converts the diet into a fasting stress that can precipitate hypoketotic hypoglycemia; pyruvate carboxylase deficiency and acute intermittent porphyria are similarly contraindicated.",
+        "B": "Glucose 6-phosphate dehydrogenase deficiency creates risk with oxidant drugs and infections rather than with dietary fat.",
+        "C": "Hemoglobin trait states have no bearing on tolerance of a high-fat diet.",
+        "D": "Iron deficiency warrants treatment but is not a contraindication to the diet.",
+        "E": "Controlled asthma is unrelated to ketone metabolism."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-017",
+      "question": "A laboratory studies how beta-hydroxybutyrate might reduce seizure activity. They find that treated neurons show broad changes in chromatin accessibility and gene expression, with increased histone acetylation at many promoters, independent of any change in cellular adenosine triphosphate content. Which proposed mechanism does this observation support?",
+      "answers": {
+        "A": "Direct agonism at gamma-aminobutyric acid type A receptors",
+        "B": "Inhibition of histone deacetylases by beta-hydroxybutyrate",
+        "C": "Inhibition of the sodium-potassium adenosine triphosphatase",
+        "D": "Replacement of glucose as an oxidizable fuel for the neuron",
+        "E": "Uncoupling of oxidative phosphorylation in neuronal mitochondria"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Direct receptor agonism would alter chloride currents rather than histone acetylation and chromatin state.",
+        "B": "Beta-hydroxybutyrate can inhibit histone deacetylases, which increases histone acetylation and alters gene expression, one of several proposed and probably complementary mechanisms by which ketogenic diets reduce seizures.",
+        "C": "Pump inhibition would depolarize neurons and worsen excitability.",
+        "D": "Fuel replacement is another proposed mechanism but would act through adenosine triphosphate availability, which was explicitly unchanged in this experiment.",
+        "E": "Uncoupling would reduce adenosine triphosphate production rather than remodel chromatin."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-018",
+      "question": "During intense glutamatergic activity in the cortex, astrocytes take up glucose and release lactate, which is then oxidized by neighboring neurons. Which transporter property best explains why lactate flows from astrocyte to neuron rather than the reverse?",
+      "answers": {
+        "A": "Astrocyte transporters have high affinity and neuronal transporters have low affinity for lactate",
+        "B": "Astrocyte transporters have low affinity and neuronal transporters have high affinity for lactate",
+        "C": "Astrocytes use sodium-coupled transporters while neurons use passive diffusion",
+        "D": "Neurons express glucose transporter 1 while astrocytes express glucose transporter 3",
+        "E": "Neurons lack monocarboxylate transporters entirely, forcing lactate uptake by endocytosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This reverses the actual affinities and would trap lactate inside astrocytes.",
+        "B": "Astrocytic monocarboxylate transporters 1 and 4 have weak affinity for lactate, which favors export, while neuronal monocarboxylate transporter 2 has high affinity, which favors uptake, so the gradient of transporter affinity directs lactate from producer to consumer.",
+        "C": "Both cell types use monocarboxylate transporters, which are proton-coupled rather than sodium-coupled.",
+        "D": "Glucose transporter subtypes govern glucose entry and do not explain the direction of lactate flow.",
+        "E": "Neurons express monocarboxylate transporter 2 abundantly, and endocytosis is not involved."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-019",
+      "question": "A patient has a middle cerebral artery occlusion. Tissue in the ischemic core is irreversibly lost, but the surrounding penumbra retains partial collateral perfusion. Given the arterial concentrations shown and the stoichiometry of glucose oxidation, which factor becomes limiting first in the underperfused penumbra?",
+      "table": [
+        ["Substrate", "Arterial concentration", "Requirement"],
+        ["Glucose", "5 mM", "1 mol per 6 mol oxygen"],
+        ["Oxygen", "9 mM", "6 mol per mol glucose"],
+        ["Ketone bodies (overnight fast)", "~0.3 mM", "Minor supplemental fuel"],
+        ["Free fatty acids", "Not extracted", "Cannot cross the barrier"]
+      ],
+      "answers": {
+        "A": "Free fatty acids, because they cannot cross the barrier",
+        "B": "Glucose, because the brain extracts only a fraction of delivered glucose",
+        "C": "Ketone bodies, because their concentration is very low",
+        "D": "Lactate, because astrocytic production ceases first",
+        "E": "Oxygen, because six moles are needed per mole of glucose"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Fatty acids are never a brain fuel, so their absence does not change during ischemia.",
+        "B": "The brain can extract virtually all delivered glucose, and glucose concentration rarely falls below about 3 mM, so it is not the first limiting substrate.",
+        "C": "Ketone bodies are only a supplemental fuel and their scarcity is not what defines the penumbra.",
+        "D": "Lactate shuttling continues and is not the limiting variable.",
+        "E": "Complete oxidation of one mole of glucose requires six moles of oxygen, and because the brain can extract only part of the delivered oxygen while it can extract nearly all the glucose, oxygen becomes limiting well before glucose does in underperfused tissue."
+      }
+    },
+    {
+      "id": "neuro-energy-metabolism-in-the-brain-020",
+      "question": "After reperfusion of ischemic brain tissue, nitric oxide synthase and reduced nicotinamide adenine dinucleotide phosphate oxidase generate reactive species that damage cellular macromolecules. Cells defend themselves using reduced glutathione, which becomes oxidized in the process. Which pathway is most important for regenerating the reduced form, and why does hyperglycemia worsen penumbral injury?",
+      "answers": {
+        "A": "Glycolysis regenerates it; hyperglycemia raises lactate and pH",
+        "B": "Gluconeogenesis regenerates it; hyperglycemia suppresses the pathway",
+        "C": "The citric acid cycle regenerates it; hyperglycemia depletes oxaloacetate",
+        "D": "The pentose phosphate pathway supplies reduced nicotinamide adenine dinucleotide phosphate; hyperglycemia favors damage over repair",
+        "E": "The urea cycle supplies reducing equivalents; hyperglycemia raises ammonia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Glycolysis yields reduced nicotinamide adenine dinucleotide rather than the phosphorylated form needed by glutathione reductase, and excess glucose lowers rather than raises pH.",
+        "B": "Gluconeogenesis consumes energy and does not regenerate glutathione.",
+        "C": "The citric acid cycle produces reducing equivalents for oxidative phosphorylation, not for glutathione reduction.",
+        "D": "Oxidized glutathione is reduced at the expense of reduced nicotinamide adenine dinucleotide phosphate generated by the oxidative pentose phosphate pathway, and excess glucose in the penumbra promotes lactic acidosis and shifts the balance toward reactive oxygen species damage rather than repair, which is why hyperglycemia enlarges the injury.",
+        "E": "The urea cycle disposes of nitrogen and supplies no reducing equivalents for antioxidant defense."
+      }
+    }
+  ]
+}

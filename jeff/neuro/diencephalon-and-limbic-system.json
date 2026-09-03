@@ -1,0 +1,407 @@
+{
+  "lecture": "Diencephalon and Limbic System",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-diencephalon-and-limbic-system-001",
+      "question": "A 44-year-old woman undergoes resection of a large tumor that destroys the left thalamus almost entirely while sparing the cortex and the internal capsule. Postoperatively she has profound contralateral sensory loss and visual field loss. One sensory modality, however, is tested and found to be entirely normal. Which modality is preserved and why?",
+      "answers": {
+        "A": "Auditory perception, because it is relayed in the inferior colliculus",
+        "B": "Discriminative touch, because it is relayed in the dorsal column nuclei",
+        "C": "Olfaction, because its pathway reaches cortex without a thalamic relay",
+        "D": "Pain perception, because it is relayed in the periaqueductal gray",
+        "E": "Vision, because it is relayed in the superior colliculus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Auditory information passes from the inferior colliculus to the medial geniculate nucleus of the thalamus before reaching cortex, so it would be affected.",
+        "B": "Dorsal column fibers synapse in the medulla but then must relay again in the ventral posterolateral nucleus of the thalamus.",
+        "C": "Olfaction is the sole sensory modality that projects directly from the olfactory bulb to olfactory cortex without an obligatory thalamic relay, which is why it survives thalamic destruction.",
+        "D": "Pain reaches consciousness through the spinothalamic tract and the ventral posterior nuclei, so thalamic destruction impairs it.",
+        "E": "Only a minority of optic tract fibers reach the superior colliculus, and conscious vision requires the lateral geniculate nucleus."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-002",
+      "question": "A 69-year-old man has the sudden onset of numbness restricted to the right side of his face, including the lips and tongue, and the right hand. Strength, reflexes, visual fields, and coordination are normal, and there is no facial weakness. MRI shows a small lacunar infarct in the left thalamus. Which nucleus is most likely involved?",
+      "answers": {
+        "A": "Anterior nucleus",
+        "B": "Dorsomedial nucleus",
+        "C": "Lateral geniculate nucleus",
+        "D": "Ventral posterolateral nucleus",
+        "E": "Ventral posteromedial nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior nucleus is a limbic relay for the mammillothalamic tract and its injury produces memory impairment, not focal sensory loss.",
+        "B": "The dorsomedial nucleus connects limbic structures with prefrontal cortex and its lesions cause behavioral and executive changes.",
+        "C": "The lateral geniculate nucleus is the visual relay, and this patient's visual fields are normal.",
+        "D": "The ventral posterolateral nucleus relays medial lemniscus and spinothalamic input from the trunk and limbs, which would spare the face.",
+        "E": "The ventral posteromedial nucleus receives the trigeminothalamic pathway and relays sensation from the head, and its medial position adjacent to the hand representation explains the cheiro-oral pattern."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-003",
+      "question": "A 58-year-old man undergoes deep brain surgery for a disabling intention tremor that appeared after a cerebellar stroke. The target is the ventral tier thalamic nucleus that receives its principal input from the deep cerebellar nuclei and projects to motor cortex. Which nucleus is being targeted?",
+      "answers": {
+        "A": "Centromedian nucleus",
+        "B": "Reticular nucleus",
+        "C": "Ventral anterior nucleus",
+        "D": "Ventral lateral nucleus",
+        "E": "Ventral posterolateral nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The centromedian nucleus lies within the internal medullary lamina and has diffuse striatal and cortical connections rather than a focused cerebellar input.",
+        "B": "The reticular nucleus forms a shell around the thalamus and modulates other thalamic nuclei without projecting to cortex.",
+        "C": "The ventral anterior nucleus is the ventral tier motor nucleus whose primary input comes from the basal nuclei.",
+        "D": "The ventral lateral nucleus receives cerebellar output and relays it to motor cortex, making it the classic target for cerebellar outflow tremor.",
+        "E": "The ventral posterolateral nucleus is a somatosensory relay and stimulating it would produce paresthesias rather than tremor control."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-004",
+      "question": "A 63-year-old man with a long history of alcohol use disorder is unable to form new memories and confabulates freely. At autopsy there is symmetric atrophy and hemorrhagic discoloration of the mammillary bodies. Which thalamic nucleus is most likely to show downstream degeneration because it is the direct target of the tract leaving these structures?",
+      "answers": {
+        "A": "Anterior nucleus",
+        "B": "Dorsomedial nucleus",
+        "C": "Medial geniculate nucleus",
+        "D": "Pulvinar",
+        "E": "Ventral anterior nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The mammillothalamic tract carries mammillary output directly to the anterior nucleus of the thalamus, which then projects to the cingulate gyrus as part of the Papez circuit.",
+        "B": "The dorsomedial nucleus receives amygdalar and other limbic input and is often affected in this disease, but it is not the direct target of the mammillothalamic tract.",
+        "C": "The medial geniculate nucleus is the auditory relay and receives the brachium of the inferior colliculus.",
+        "D": "The pulvinar receives association cortex and intralaminar input and participates in attention and sensory binding.",
+        "E": "The ventral anterior nucleus is a motor relay receiving basal nuclei output."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-005",
+      "question": "A 51-year-old woman becomes apathetic, disinhibited, and unable to plan or organize after a hemorrhage confined to the medial compartment of the thalamus, medial to the internal medullary lamina. Sensation, vision, and strength are intact. Which connection is most likely disrupted?",
+      "answers": {
+        "A": "Amygdala to prefrontal cortex by way of the dorsomedial nucleus",
+        "B": "Basal nuclei to motor cortex by way of the ventral anterior nucleus",
+        "C": "Cerebellum to motor cortex by way of the ventral lateral nucleus",
+        "D": "Mammillary bodies to cingulate gyrus by way of the anterior nucleus",
+        "E": "Optic tract to occipital cortex by way of the lateral geniculate nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The internal medullary lamina separates the medial compartment, which consists of the dorsomedial nucleus, and that nucleus links limbic structures such as the amygdala to prefrontal cortex, so its loss produces apathy, disinhibition, and executive failure.",
+        "B": "The ventral anterior nucleus lies in the lateral compartment and its lesions would produce movement abnormalities.",
+        "C": "The ventral lateral nucleus is also in the lateral compartment and mediates cerebellar outflow.",
+        "D": "The anterior nucleus is enclosed by the bifurcation of the lamina anteriorly and its damage produces amnesia rather than an executive syndrome.",
+        "E": "The lateral geniculate nucleus lies in the ventral tier and its injury would produce a homonymous field defect."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-006",
+      "question": "A 60-year-old man has difficulty localizing sounds and understanding speech in noisy rooms after a small right-sided infarct. Pure tone thresholds are only mildly reduced bilaterally, and his visual fields, sensation, and strength are normal. The infarct sits in the caudoventral thalamus at the site receiving the brachium of the inferior colliculus. Which structure is involved?",
+      "answers": {
+        "A": "Lateral geniculate nucleus",
+        "B": "Lateral posterior nucleus",
+        "C": "Medial geniculate nucleus",
+        "D": "Pulvinar",
+        "E": "Ventral posteromedial nucleus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The lateral geniculate nucleus receives the optic tract, and a lesion there would cause a homonymous visual field defect.",
+        "B": "The lateral posterior nucleus is a dorsal tier association nucleus linked with the pulvinar and has no auditory role.",
+        "C": "The medial geniculate nucleus is the thalamic auditory relay receiving the brachium of the inferior colliculus and projecting to auditory cortex, so unilateral injury degrades sound localization and speech in noise without producing deafness.",
+        "D": "The pulvinar mediates attention and sensory binding and its lesions cause neglect rather than auditory difficulty.",
+        "E": "The ventral posteromedial nucleus relays facial somatosensation."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-007",
+      "question": "A 72-year-old woman has a right posterior thalamic infarct. She reads only the right half of a page, leaves food on the left half of her plate, and does not orient to people approaching from the left. Visual field testing by confrontation with each eye separately shows no field cut, and strength and sensation are normal. Which thalamic structure is most likely involved?",
+      "answers": {
+        "A": "Anterior nucleus",
+        "B": "Centromedian nucleus",
+        "C": "Lateral geniculate nucleus",
+        "D": "Pulvinar",
+        "E": "Ventral posterolateral nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anterior nucleus injury produces an amnestic syndrome, not spatial inattention.",
+        "B": "Centromedian lesions affect arousal and striatal modulation rather than producing a lateralized neglect.",
+        "C": "A lateral geniculate lesion would produce a demonstrable homonymous hemianopia on field testing, which is absent here.",
+        "D": "The pulvinar is reciprocally connected with parietal, temporal, and occipital association cortex and functions in binding sensory information and orienting toward relevant stimuli, so its damage produces neglect and attention deficits without a primary field defect.",
+        "E": "Ventral posterolateral injury causes contralateral hemisensory loss rather than inattention."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-008",
+      "question": "A 65-year-old man has a small lacunar infarct located precisely at the bend of the internal capsule where the anterior and posterior limbs meet. He has marked dysarthria, contralateral lower facial weakness, and deviation of the tongue on protrusion, with only trivial limb weakness. Which fiber population accounts for these findings?",
+      "answers": {
+        "A": "Auditory radiations to the temporal cortex",
+        "B": "Corticobulbar projections to brainstem motor nuclei",
+        "C": "Corticopontine projections from the frontal lobe",
+        "D": "Corticospinal projections to the spinal cord",
+        "E": "Optic radiations to the occipital cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Auditory radiations occupy the sublenticular portion and their injury would cause subtle hearing changes rather than dysarthria.",
+        "B": "The genu of the internal capsule carries corticobulbar fibers to the brainstem motor nuclei, so a lesion there produces prominent dysarthria with contralateral lower facial and tongue weakness while sparing the limbs.",
+        "C": "Frontopontine fibers run in the anterior limb and their interruption causes subtle gait and coordination changes.",
+        "D": "Corticospinal fibers traverse the posterior limb, and their involvement would produce a dense contralateral hemiparesis.",
+        "E": "Optic radiations run in the retrolenticular portion and their injury causes a homonymous field defect."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-009",
+      "question": "A 70-year-old woman has an infarct in the portion of the internal capsule that lies behind the lenticular nucleus. She has a dense contralateral homonymous hemianopia. Strength, sensation, speech, and hearing are all normal. Which portion of the internal capsule is involved?",
+      "answers": {
+        "A": "Anterior limb",
+        "B": "Genu",
+        "C": "Posterior limb",
+        "D": "Retrolenticular portion",
+        "E": "Sublenticular portion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior limb carries frontopontine and thalamofrontal fibers and lies in front of the lenticular nucleus.",
+        "B": "The genu carries corticobulbar fibers and its lesions produce dysarthria and facial weakness.",
+        "C": "The posterior limb carries corticospinal and sensory thalamocortical fibers, so a lesion there would cause hemiparesis and hemisensory loss.",
+        "D": "The retrolenticular portion lies posterior to the lenticular nucleus and carries the optic radiations toward the occipital cortex, so its isolated interruption produces a pure hemianopia.",
+        "E": "The sublenticular portion carries auditory radiations to the temporal cortex and portions of the optic radiation, but hearing is normal here and the lesion is described as behind rather than beneath the nucleus."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-010",
+      "question": "A 68-year-old man had a left thalamic infarct 6 weeks ago that initially caused dense right-sided numbness. The numbness has improved, but he now has severe, spontaneous burning pain over the entire right side of his body, and light touch from bedsheets is unbearably painful. Which vessel and target best explain this syndrome?",
+      "answers": {
+        "A": "Anterior choroidal artery supplying the optic tract",
+        "B": "Lenticulostriate branches supplying the internal capsule",
+        "C": "Recurrent artery of Heubner supplying the caudate head",
+        "D": "Thalamogeniculate branches supplying the ventral posterior nuclei",
+        "E": "Uncal branches of M1 supplying the amygdala"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior choroidal artery supplies the optic tract and its occlusion produces visual field loss rather than a pain syndrome.",
+        "B": "Lenticulostriate infarcts produce pure motor hemiparesis without central pain.",
+        "C": "The recurrent artery of Heubner supplies the caudate head and causes behavioral and motor changes.",
+        "D": "Central post-stroke pain follows infarction of the ventral posterior sensory nuclei, which are supplied by thalamogeniculate branches of the posterior cerebral artery, and produces severe contralateral hemibody pain with painful misinterpretation of innocuous stimuli.",
+        "E": "Uncal branches supply the amygdala, whose injury alters emotional processing rather than somatic sensation."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-011",
+      "question": "A 9-year-old boy has gained 22 kg over 10 months since resection of a suprasellar tumor. He eats continuously and becomes enraged when food is withheld. Thyroid studies and cortisol are normal on replacement, and he is growing along his curve. MRI shows postoperative injury to the medial hypothalamus bilaterally at the tuberal level. Which nucleus is most likely damaged?",
+      "answers": {
+        "A": "Lateral hypothalamic nucleus",
+        "B": "Posterior hypothalamic nucleus",
+        "C": "Supraoptic nucleus",
+        "D": "Suprachiasmatic nucleus",
+        "E": "Ventromedial nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The lateral nucleus drives hunger, so its destruction causes anorexia and weight loss rather than hyperphagia.",
+        "B": "The posterior nucleus drives sympathetic output and heat conservation, and its loss causes poikilothermia.",
+        "C": "The supraoptic nucleus makes antidiuretic hormone and oxytocin, so its injury causes diabetes insipidus.",
+        "D": "The suprachiasmatic nucleus sets circadian rhythm and its damage disrupts the sleep-wake cycle.",
+        "E": "The ventromedial nucleus is the satiety center stimulated by leptin, so bilateral destruction removes the brake on feeding and produces hyperphagia, marked weight gain, and irritability."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-012",
+      "question": "A 34-year-old woman has lost 15 kg over 5 months and reports no appetite at all, eating only when reminded. She denies body image concerns and is not depressed by screening. MRI shows an infiltrating glioma centered in the far lateral hypothalamus bilaterally. Which mechanism best explains her weight loss?",
+      "answers": {
+        "A": "Destruction of the nucleus stimulated by ghrelin and inhibited by leptin",
+        "B": "Destruction of the nucleus that generates circadian feeding rhythms",
+        "C": "Destruction of the nucleus that releases gonadotropin releasing hormone",
+        "D": "Destruction of the nucleus that synthesizes antidiuretic hormone",
+        "E": "Destruction of the satiety nucleus stimulated by leptin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The lateral hypothalamic nucleus is the hunger center, stimulated by ghrelin and inhibited by leptin, so losing it makes the patient lean and anorexic.",
+        "B": "The suprachiasmatic nucleus organizes daily rhythms, and its loss disorganizes sleep rather than abolishing appetite.",
+        "C": "The medial preoptic nucleus releases gonadotropin releasing hormone and governs sexual behavior and thermoregulation.",
+        "D": "Antidiuretic hormone is made in the supraoptic and paraventricular nuclei, and its loss produces polyuria rather than anorexia.",
+        "E": "Loss of the ventromedial satiety nucleus produces the opposite picture of hyperphagia and obesity."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-013",
+      "question": "A 28-year-old man is admitted after a basilar skull fracture. Over 2 days he passes 9 L of dilute urine and becomes intensely thirsty. His laboratory values are shown. Urine osmolality rises to 640 mOsm/kg after desmopressin. MRI shows hemorrhage in the hypothalamus just above the optic chiasm. Which nuclei are most likely damaged?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Serum sodium", "154 mEq/L", "135–145 mEq/L"],
+        ["Serum osmolality", "312 mOsm/kg", "275–295 mOsm/kg"],
+        ["Urine osmolality", "88 mOsm/kg", "300–900 mOsm/kg"],
+        ["Urine output", "9.1 L/24 h", "1–2 L/24 h"]
+      ],
+      "answers": {
+        "A": "Arcuate and dorsomedial nuclei",
+        "B": "Lateral and ventromedial nuclei",
+        "C": "Mammillary and posterior nuclei",
+        "D": "Suprachiasmatic and medial preoptic nuclei",
+        "E": "Supraoptic and paraventricular nuclei"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The arcuate nucleus governs hypophysiotropic hormone release into the portal system and the dorsomedial nucleus modulates feeding and emotional behavior, neither of which controls water balance.",
+        "B": "The lateral and ventromedial nuclei set hunger and satiety and their loss changes weight rather than urine output.",
+        "C": "The mammillary nuclei are limbic relays for memory, and the posterior nucleus controls sympathetic outflow.",
+        "D": "The suprachiasmatic nucleus sets circadian rhythm and the medial preoptic nucleus governs thermoregulation and reproductive behavior.",
+        "E": "The supraoptic and paraventricular nuclei synthesize antidiuretic hormone and oxytocin and send them to the posterior pituitary through the supraopticohypophysial tract, so their destruction produces central diabetes insipidus that corrects with desmopressin."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-014",
+      "question": "A 47-year-old man has an infiltrating tumor immediately above the optic chiasm. He now falls asleep at unpredictable times through the day and night, sleeping in fragmented 3-hour blocks with no relation to darkness. Total sleep time is normal and he has no visual field defect, weight change, or endocrine abnormality. Which nucleus is most likely involved?",
+      "answers": {
+        "A": "Arcuate nucleus",
+        "B": "Lateral hypothalamic nucleus",
+        "C": "Posterior hypothalamic nucleus",
+        "D": "Suprachiasmatic nucleus",
+        "E": "Ventromedial nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The arcuate nucleus releases hypophysiotropic hormones into the portal circulation and its injury would produce endocrine abnormalities.",
+        "B": "Lateral hypothalamic injury causes anorexia and weight loss rather than a rhythm disorder.",
+        "C": "The posterior nucleus governs sympathetic outflow and thermoregulatory heat conservation.",
+        "D": "The suprachiasmatic nucleus sits just above the optic chiasm, receives direct retinal input, and entrains other hypothalamic nuclei to the light-dark cycle, so its loss dissociates sleep from environmental time.",
+        "E": "The ventromedial nucleus controls satiety and its destruction produces hyperphagia and obesity."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-015",
+      "question": "A 6-year-old girl has developed breasts and pubic hair over the past year, and her bone age is advanced by 3 years. Laboratory testing shows pubertal luteinizing hormone and estradiol levels that rise further after gonadotropin releasing hormone stimulation. MRI shows a nonenhancing mass in the region of the tuber cinereum near the medial preoptic area. Which mechanism best explains her presentation?",
+      "answers": {
+        "A": "Autonomous estrogen secretion by an ovarian tumor",
+        "B": "Ectopic secretion of human chorionic gonadotropin by the mass",
+        "C": "Early activation of hypothalamic gonadotropin releasing hormone output",
+        "D": "Failure of leptin signaling to the ventromedial satiety nucleus",
+        "E": "Loss of dopaminergic inhibition of anterior pituitary lactotrophs"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "An autonomous ovarian source would suppress rather than raise gonadotropins and would not respond to stimulation testing.",
+        "B": "Ectopic human chorionic gonadotropin drives gonadal steroid production independently of the hypothalamic axis and would not show a brisk gonadotropin response.",
+        "C": "The medial preoptic region releases gonadotropin releasing hormone that drives pituitary gonadotropins, so a lesion there can trigger premature pulsatile release and central precocious puberty with a pubertal response to stimulation.",
+        "D": "Leptin signaling to the ventromedial nucleus regulates satiety and body weight rather than the timing of puberty.",
+        "E": "Loss of dopaminergic inhibition raises prolactin and typically delays rather than accelerates puberty."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-016",
+      "question": "A 55-year-old man has a hemorrhage in the posterior hypothalamus. Since the event, his core temperature has drifted with the temperature of his room, as shown. He shivers very little in a cold room and does not vasoconstrict. Which function has been lost?",
+      "table": [
+        ["Ambient temperature", "Core temperature", "Shivering"],
+        ["18°C room", "34.6°C", "Minimal"],
+        ["24°C room", "36.4°C", "None"],
+        ["31°C room", "38.9°C", "None"]
+      ],
+      "answers": {
+        "A": "Circadian entrainment of body temperature to the light-dark cycle",
+        "B": "Parasympathetic outflow driving heat dissipation and sweating",
+        "C": "Pituitary release of thyroid stimulating hormone",
+        "D": "Sensing of core blood temperature by preoptic thermoreceptors",
+        "E": "Sympathetic outflow driving heat conservation and generation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Circadian entrainment is a suprachiasmatic function and would produce a shifted rhythm rather than temperature that tracks the room.",
+        "B": "Loss of parasympathetic and heat dissipating mechanisms from anterior hypothalamic injury causes hyperthermia in warm settings but would not abolish shivering in the cold.",
+        "C": "Thyroid stimulating hormone deficiency causes chronic hypothermia and myxedema features rather than an inability to defend temperature in either direction.",
+        "D": "Failure of thermoreception would still permit shivering to be evoked, and the preoptic sensors lie anteriorly rather than posteriorly.",
+        "E": "Stimulation of the posterior hypothalamus excites sympathetic pathways that produce cutaneous vasoconstriction and shivering, so its destruction leaves the patient poikilothermic."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-017",
+      "question": "A 62-year-old woman with a lateral medullary infarct has miosis, mild ptosis, and loss of sweating on the left side of the face. Her pupil still constricts to light and her extraocular movements are full. Which descending pathway has been interrupted?",
+      "answers": {
+        "A": "Corticobulbar fibers to the facial nucleus",
+        "B": "Dorsal longitudinal fasciculus to the salivatory nuclei",
+        "C": "Hypothalamomedullary fibers to the dorsal motor nucleus of the vagus",
+        "D": "Hypothalamospinal fibers to the intermediolateral cell column",
+        "E": "Mammillotegmental fibers to the midbrain reticular formation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Corticobulbar fibers control voluntary facial movement and their loss would produce facial weakness, not pupillary or sudomotor changes.",
+        "B": "The dorsal longitudinal fasciculus carries hypothalamic influence to brainstem parasympathetic nuclei, whose loss would affect secretion rather than cause miosis and ptosis.",
+        "C": "Hypothalamomedullary fibers modulate parasympathetic outflow to viscera through the solitary and vagal nuclei.",
+        "D": "Hypothalamospinal fibers descend through the lateral brainstem tegmentum to reach the intermediolateral cell column at T1-T2, and their interruption in the lateral medulla removes sympathetic supply to the eye and face, producing Horner syndrome.",
+        "E": "The mammillotegmental tract is a limbic projection to the midbrain tegmental nuclei with no autonomic ocular role."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-018",
+      "question": "A researcher stimulates the pyramidal cells of the entorhinal cortex in an experimental preparation and records sequential field potentials at four downstream sites within the hippocampal formation. Which sequence correctly reflects the flow of information through this circuit?",
+      "answers": {
+        "A": "CA3 pyramidal cells, dentate granule cells, subiculum, entorhinal cortex",
+        "B": "Dentate granule cells, CA3 pyramidal cells, subiculum, entorhinal cortex",
+        "C": "Subiculum, CA3 pyramidal cells, dentate granule cells, entorhinal cortex",
+        "D": "Subiculum, dentate granule cells, CA3 pyramidal cells, entorhinal cortex",
+        "E": "Subiculum, entorhinal cortex, dentate granule cells, CA3 pyramidal cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This inverts the first two stations, since granule cells of the dentate gyrus receive entorhinal input before CA3.",
+        "B": "Entorhinal pyramidal cells project first to dentate granule cells, which drive CA3 and CA4 pyramidal cells, which project to the subiculum, the major output station that returns to entorhinal cortex and gives rise to the fornix.",
+        "C": "The subiculum is the output rather than the first recipient of entorhinal input.",
+        "D": "Placing the subiculum first again reverses the direction of flow through the formation.",
+        "E": "Entorhinal cortex is the entry point of the loop and cannot follow the subiculum in a forward sequence beginning with entorhinal stimulation."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-019",
+      "question": "A 38-year-old man with severe temporal lobe epilepsy undergoes bilateral resection of the structures deep to the uncus. Postoperatively he is placid and no longer becomes angry, he makes indiscriminate sexual advances, he puts inedible objects in his mouth, and he cannot recognize familiar faces or objects visually although his acuity is normal. Which structure was removed bilaterally?",
+      "answers": {
+        "A": "Amygdala",
+        "B": "Cingulate gyrus",
+        "C": "Dentate gyrus",
+        "D": "Mammillary bodies",
+        "E": "Septal nuclei"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The amygdala lies deep to the uncus and assigns emotional significance to faces, places, and situations, so bilateral loss produces the Kluver-Bucy pattern of placidity, hypersexuality, oral exploration, and visual agnosia.",
+        "B": "Bilateral cingulate injury produces akinetic mutism and apathy rather than hyperorality and hypersexuality.",
+        "C": "The dentate gyrus is a component of the hippocampal formation and its loss produces anterograde amnesia.",
+        "D": "Mammillary body damage produces the amnestic syndrome seen with thiamine deficiency.",
+        "E": "Septal lesions are associated with rage rather than placidity."
+      }
+    },
+    {
+      "id": "neuro-diencephalon-and-limbic-system-020",
+      "question": "A 58-year-old man is admitted confused after weeks of poor intake. He has horizontal nystagmus, bilateral abduction weakness, and a wide-based ataxic gait. His laboratory values are shown, and he improves partially after intravenous thiamine, but 3 months later he still cannot recall events from day to day and fills gaps with invented stories. Which anatomic circuit best explains the persistent memory deficit?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Serum thiamine", "42 nmol/L", "70–180 nmol/L"],
+        ["Serum magnesium", "1.4 mg/dL", "1.7–2.2 mg/dL"],
+        ["Serum sodium", "137 mEq/L", "135–145 mEq/L"],
+        ["Mean corpuscular volume", "104 fL", "80–100 fL"]
+      ],
+      "answers": {
+        "A": "Amygdala to hypothalamus by way of the stria terminalis",
+        "B": "Basal nuclei to motor cortex by way of the ventral anterior nucleus",
+        "C": "Hippocampus to mammillary bodies to anterior thalamus to cingulate gyrus",
+        "D": "Inferior colliculus to medial geniculate to auditory cortex",
+        "E": "Superior colliculus to pulvinar to parietal association cortex"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The stria terminalis carries amygdalar output to the hypothalamus and septal region and mediates autonomic responses to emotion rather than declarative memory.",
+        "B": "The ventral anterior nucleus relays basal nuclei output for motor control.",
+        "C": "Thiamine deficiency damages the mammillary bodies and medial thalamus, interrupting the Papez circuit in which the hippocampus projects through the fornix to the mammillary bodies, which project through the mammillothalamic tract to the anterior nucleus and then to cingulate cortex, producing amnesia with confabulation.",
+        "D": "The auditory relay has no role in the formation of new declarative memories.",
+        "E": "The pulvinar pathway supports attention and orienting rather than episodic memory."
+      }
+    }
+  ]
+}

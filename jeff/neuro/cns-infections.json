@@ -1,0 +1,408 @@
+{
+  "lecture": "CNS Infections",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-cns-infections-001",
+      "question": "A 37-year-old man with diabetes mellitus and alcohol use disorder presents with 2 days of nasal congestion and cheek pain followed by severe headache, neck stiffness, fever, vomiting, and photophobia. Lumbar puncture results are shown, and the Gram stain is negative. Which pattern do these results represent?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Opening pressure", "310 mm H2O", "60–250 mm H2O"],
+        ["White blood cells", "600/microL (90% neutrophils)", "0–5/microL"],
+        ["Protein", "105 mg/dL", "15–45 mg/dL"],
+        ["Glucose", "35 mg/dL", "40–70 mg/dL"]
+      ],
+      "answers": {
+        "A": "High white blood cell count, high neutrophils, high protein, low glucose",
+        "B": "High white blood cell count, low neutrophils, high protein, low glucose",
+        "C": "High white blood cell count, low neutrophils, low protein, low glucose",
+        "D": "Low white blood cell count, high neutrophils, low protein, high glucose",
+        "E": "Low white blood cell count, low neutrophils, low protein, high glucose"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Bacterial meningitis produces a markedly elevated cell count with neutrophil predominance, elevated protein from a disrupted blood-brain barrier, and low glucose from consumption by organisms and inflammatory cells.",
+        "B": "A lymphocyte-predominant pleocytosis with low glucose suggests tuberculous or fungal meningitis rather than acute pyogenic infection.",
+        "C": "Low protein with a pleocytosis would be inconsistent with the barrier disruption of bacterial meningitis.",
+        "D": "A low total cell count with a normal glucose does not fit any pyogenic pattern.",
+        "E": "Essentially normal fluid would argue against meningitis altogether."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-002",
+      "question": "The same 37-year-old man is febrile, tachycardic, confused, and has an altered level of consciousness in the emergency department. The team suspects bacterial meningitis. Blood cultures have been drawn. Which sequence of actions is most appropriate?",
+      "answers": {
+        "A": "Dexamethasone and antibiotics now, then CT head, then lumbar puncture",
+        "B": "Lumbar puncture now, then dexamethasone and antibiotics after results",
+        "C": "CT head first, then lumbar puncture, then dexamethasone and antibiotics",
+        "D": "Electroencephalography first, then antibiotics if seizure activity is seen",
+        "E": "Neurosurgical consultation first, then antibiotics after drain placement"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Because his altered consciousness is an indication for imaging before lumbar puncture, the puncture will be delayed, so empiric antibiotics with dexamethasone must be given immediately after blood cultures to avoid any delay in treatment.",
+        "B": "Performing the puncture first is unsafe here given the altered consciousness and the risk of herniation.",
+        "C": "Waiting for imaging and the puncture before treating delays antibiotics, which worsens outcome in bacterial meningitis.",
+        "D": "Electroencephalography has no role in the initial management of suspected bacterial meningitis.",
+        "E": "There is no indication for a drain, and consultation would further delay definitive therapy."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-003",
+      "question": "A 45-year-old woman with HIV infection and a CD4 count of 90/microL presents with fever, headache, and neck stiffness. She is alert and has no focal deficits, no papilledema, and no seizure history. The resident asks whether imaging is needed before lumbar puncture. What is the principal reason for obtaining a CT head before the procedure in patients who meet criteria?",
+      "answers": {
+        "A": "To confirm the diagnosis of meningitis before treatment begins",
+        "B": "To determine the correct interspace for needle insertion",
+        "C": "To exclude a mass lesion and reduce the risk of herniation",
+        "D": "To identify sinus disease as the portal of bacterial entry",
+        "E": "To measure ventricular size for later comparison"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Imaging cannot confirm meningitis, which is diagnosed by cerebrospinal fluid analysis.",
+        "B": "The interspace is chosen by surface landmarks, not by imaging.",
+        "C": "Removing fluid below an unrecognized mass or region of raised pressure can precipitate downward herniation, so imaging is obtained in patients with features that raise that concern, including her immunocompromised state.",
+        "D": "Identifying a sinus source may be useful later but is not the reason to image before the puncture.",
+        "E": "Baseline ventricular measurement is not a purpose of pre-procedure imaging."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-004",
+      "question": "A 68-year-old man presents with fever, headache, and confusion. Cerebrospinal fluid shows a neutrophilic pleocytosis with elevated protein and low glucose, and the Gram stain is pending. Which empiric regimen is most appropriate for his age group?",
+      "answers": {
+        "A": "Ampicillin plus an aminoglycoside",
+        "B": "Ceftriaxone alone",
+        "C": "Vancomycin plus ceftriaxone",
+        "D": "Vancomycin plus ceftriaxone plus ampicillin",
+        "E": "Vancomycin plus chloramphenicol"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Ampicillin with an aminoglycoside is the neonatal regimen for infants under 1 month of age.",
+        "B": "Ceftriaxone alone omits coverage for resistant pneumococcus and for Listeria.",
+        "C": "Vancomycin plus ceftriaxone is correct for patients between 2 and 50 years but does not cover Listeria.",
+        "D": "Adults older than 50 are at added risk for Listeria monocytogenes and aerobic gram-negative rods, so ampicillin is added to vancomycin and a third-generation cephalosporin.",
+        "E": "Chloramphenicol is not part of standard empiric therapy and carries marrow toxicity."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-005",
+      "question": "A 30-year-old woman with bacterial meningitis is started on vancomycin and ceftriaxone. A student asks why a second agent is needed when the cephalosporin already covers the most likely organism. Which mechanism best justifies the addition of vancomycin?",
+      "answers": {
+        "A": "Beta-lactamase production by pneumococcal isolates",
+        "B": "Efflux pump upregulation limiting cephalosporin entry",
+        "C": "Methylation of the ribosomal binding site",
+        "D": "Porin channel loss preventing drug penetration",
+        "E": "Structural alterations in penicillin-binding proteins"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Pneumococci do not produce beta-lactamase, which is why beta-lactamase inhibitors are not useful against them.",
+        "B": "Efflux is a mechanism of resistance in other organisms and drug classes, not the basis of pneumococcal beta-lactam resistance.",
+        "C": "Ribosomal methylation confers macrolide resistance and is irrelevant to cell wall agents.",
+        "D": "Porin loss is a gram-negative mechanism, and pneumococcus is gram positive.",
+        "E": "Streptococcus pneumoniae becomes resistant to beta-lactams by altering its penicillin-binding proteins so that the drugs bind poorly, which is why vancomycin is added empirically until susceptibilities return."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-006",
+      "question": "A 55-year-old man with suspected bacterial meningitis is about to receive empiric antibiotics. The team plans to give adjunctive dexamethasone. When should the first dose be administered?",
+      "answers": {
+        "A": "Concomitantly with or 10 to 20 minutes before the first antibiotic dose",
+        "B": "One full day after the first antibiotic dose",
+        "C": "Only after cerebrospinal fluid culture results return",
+        "D": "Two days after antibiotics if fever persists",
+        "E": "Two hours before the first antibiotic dose"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Dexamethasone blunts the inflammatory surge triggered by antibiotic-induced bacterial lysis, so it must be present when killing begins and is given 10 to 20 minutes before or at the same time as the first antibiotic dose.",
+        "B": "Giving it a day later misses the window of maximal inflammation and provides no benefit.",
+        "C": "Waiting for cultures delays the steroid past the point of usefulness.",
+        "D": "Steroids started days later do not improve outcome.",
+        "E": "A 2-hour delay before antibiotics would unacceptably postpone definitive therapy."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-007",
+      "question": "A 62-year-old woman received dexamethasone with her first dose of vancomycin and ceftriaxone for suspected bacterial meningitis. On hospital day 2, the cerebrospinal fluid Gram stain and both cerebrospinal fluid and blood cultures grow Neisseria meningitidis. She is clinically improving. What should be done with the dexamethasone?",
+      "answers": {
+        "A": "Continue it and complete the full 4-day course",
+        "B": "Discontinue it because the benefit is established only for pneumococcus",
+        "C": "Double the dose because meningococcus causes greater inflammation",
+        "D": "Extend it to 10 days to prevent hearing loss",
+        "E": "Switch it to oral prednisone for a prolonged taper"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Completing the course is appropriate only when the pathogen is confirmed to be Streptococcus pneumoniae.",
+        "B": "Adjunctive dexamethasone should be continued only if the Gram stain or cultures reveal Streptococcus pneumoniae, since the mortality benefit in the randomized trial was confined to that subgroup.",
+        "C": "There is no evidence supporting dose escalation for meningococcal disease.",
+        "D": "Prolonging steroids beyond 4 days is not supported and adds immunosuppressive risk.",
+        "E": "An oral taper is not part of the regimen studied or recommended."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-008",
+      "question": "A 42-year-old man presents with fever and headache. Cerebrospinal fluid Gram stain shows gram-positive cocci in pairs that are round to lancet shaped. The organism is catalase negative, alpha-hemolytic on blood agar, bile soluble, and inhibited by optochin. Which organism is most likely?",
+      "answers": {
+        "A": "Haemophilus influenzae",
+        "B": "Listeria monocytogenes",
+        "C": "Neisseria meningitidis",
+        "D": "Staphylococcus aureus",
+        "E": "Streptococcus pneumoniae"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Haemophilus influenzae is a small gram-negative coccobacillus requiring factors V and X for growth.",
+        "B": "Listeria is a gram-positive rod with tumbling motility and is catalase positive.",
+        "C": "Neisseria meningitidis appears as gram-negative diplococci and is oxidase positive.",
+        "D": "Staphylococcus aureus forms gram-positive cocci in clusters and is catalase positive and beta-hemolytic.",
+        "E": "Lancet-shaped gram-positive diplococci that are catalase negative, alpha-hemolytic, bile soluble, and optochin sensitive define Streptococcus pneumoniae."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-009",
+      "question": "A researcher generates two isogenic strains of Streptococcus pneumoniae, one wild type and one with the capsular biosynthesis operon deleted. Both are instilled intranasally into mice at identical inocula. The wild-type strain produces bacteremia and lethal meningitis, while the mutant is cleared without illness. Which conclusion is best supported?",
+      "answers": {
+        "A": "The capsule is required for adherence to respiratory epithelium",
+        "B": "The capsule is the principal virulence factor for invasive disease",
+        "C": "The capsule mediates cleavage of secretory immunoglobulin A",
+        "D": "The capsule provides resistance to beta-lactam antibiotics",
+        "E": "The capsule triggers the endotoxin-mediated shock cascade"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Adherence depends on surface adhesins, and the unencapsulated strain still colonized before being cleared.",
+        "B": "Pneumococcus has essentially no virulence without its polysaccharide capsule, which prevents opsonophagocytosis and allows survival in blood and cerebrospinal fluid, and the capsule is the basis of both vaccine formulations.",
+        "C": "Cleavage of secretory immunoglobulin A is performed by IgA protease, a separate virulence factor shared with the other encapsulated respiratory pathogens.",
+        "D": "Beta-lactam resistance results from altered penicillin-binding proteins rather than the capsule.",
+        "E": "Endotoxin is a lipopolysaccharide of gram-negative organisms and is absent in pneumococcus."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-010",
+      "question": "A 20-year-old university student living in a dormitory presents with fever, headache, and neck stiffness. CT head shows no mass or shift. Cerebrospinal fluid results are shown, and Gram stain shows gram-negative diplococci. The isolate grows on chocolate and Thayer-Martin agar and ferments both glucose and maltose. Which organism is most likely?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["White blood cells", "800/microL (85% neutrophils)", "0–5/microL"],
+        ["Protein", "109 mg/dL", "15–45 mg/dL"],
+        ["Glucose", "30 mg/dL", "40–70 mg/dL"],
+        ["Gram stain", "Gram-negative diplococci", "No organisms"]
+      ],
+      "answers": {
+        "A": "Haemophilus influenzae",
+        "B": "Listeria monocytogenes",
+        "C": "Moraxella catarrhalis",
+        "D": "Neisseria gonorrhoeae",
+        "E": "Neisseria meningitidis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Haemophilus influenzae is a coccobacillus that requires both factor V and factor X and does not ferment maltose.",
+        "B": "Listeria is a gram-positive rod and would not appear as gram-negative diplococci.",
+        "C": "Moraxella catarrhalis is an upper respiratory pathogen that does not ferment glucose or maltose.",
+        "D": "Neisseria gonorrhoeae ferments glucose but not maltose and rarely causes meningitis.",
+        "E": "Gram-negative diplococci growing on Thayer-Martin agar that ferment both glucose and maltose identify Neisseria meningitidis, and dormitory residence is a classic risk factor."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-011",
+      "question": "A 19-year-old man with meningococcal disease deteriorates over hours with widespread petechiae that coalesce into purpura, hypotension unresponsive to fluids, and a serum sodium of 122 mEq/L with a potassium of 6.0 mEq/L and a low random cortisol. Which complication best explains the endocrine findings?",
+      "answers": {
+        "A": "Disseminated intravascular coagulation with fibrin consumption",
+        "B": "Endotoxin-mediated capillary leak with third spacing",
+        "C": "Syndrome of inappropriate antidiuretic hormone secretion",
+        "D": "Waterhouse-Friderichsen syndrome from adrenal hemorrhage",
+        "E": "Withdrawal of adjunctive dexamethasone therapy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Disseminated intravascular coagulation explains the purpura but not hyponatremia with hyperkalemia and a low cortisol.",
+        "B": "Capillary leak contributes to shock but does not cause mineralocorticoid deficiency.",
+        "C": "Inappropriate antidiuretic hormone secretion causes hyponatremia but with a normal or low potassium and normal cortisol.",
+        "D": "Bilateral adrenal hemorrhage during fulminant meningococcemia destroys the adrenal cortex, producing hyponatremia, hyperkalemia, a low cortisol, and refractory shock.",
+        "E": "Four days of adjunctive dexamethasone does not suppress the axis enough to cause adrenal crisis."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-012",
+      "question": "A 24-year-old woman has had three separate episodes of culture-proven Neisseria meningitidis bacteremia over 5 years. She is otherwise healthy, has normal immunoglobulin levels, and has a normal neutrophil count and function. Which laboratory abnormality is most likely to be found?",
+      "answers": {
+        "A": "Absent CD40 ligand expression on activated T cells",
+        "B": "Absent respiratory burst on dihydrorhodamine testing",
+        "C": "Deficiency of a terminal complement component",
+        "D": "Deficiency of adenosine deaminase in lymphocytes",
+        "E": "Deficiency of the leukocyte integrin CD18"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Absent CD40 ligand causes hyper-IgM syndrome with sinopulmonary and opportunistic infections and abnormal immunoglobulin levels.",
+        "B": "An absent respiratory burst indicates chronic granulomatous disease, which causes catalase-positive organism abscesses.",
+        "C": "Killing of Neisseria species depends on assembly of the membrane attack complex, so deficiency of terminal components C5 through C9, or pharmacologic blockade with eculizumab, causes recurrent neisserial infection in an otherwise healthy person.",
+        "D": "Adenosine deaminase deficiency causes severe combined immunodeficiency presenting in infancy.",
+        "E": "CD18 deficiency causes leukocyte adhesion deficiency with delayed cord separation and poor pus formation."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-013",
+      "question": "A student with meningococcal meningitis is awaiting admission. A nurse taking over his care realizes she rode the same bus as the patient earlier that day, seated about three rows away for roughly 1 hour. She had no contact with his oral secretions and is asymptomatic. What is the most appropriate next step for the nurse?",
+      "answers": {
+        "A": "Administer a single dose of ceftriaxone as prophylaxis",
+        "B": "Begin a 4-day course of rifampin prophylaxis",
+        "C": "Give ciprofloxacin and furlough her for 48 hours",
+        "D": "Provide reassurance, since she does not meet close contact criteria",
+        "E": "Vaccinate her immediately with MenACWY and MenB"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Ceftriaxone is an acceptable prophylactic agent but is indicated only for true close contacts.",
+        "B": "Rifampin prophylaxis carries drug interactions and adverse effects and is not warranted for a non-qualifying exposure.",
+        "C": "Furlough is unnecessary and ciprofloxacin is not indicated without qualifying contact.",
+        "D": "Prophylaxis is reserved for contacts with more than 8 hours within 3 feet or direct exposure to oral secretions, and sitting three rows apart for 1 hour meets neither criterion, so reassurance is appropriate.",
+        "E": "Vaccination does not protect against an exposure that has already occurred and is targeted to ongoing risk groups."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-014",
+      "question": "A 72-year-old man who works on a dairy farm and regularly drinks unpasteurized milk presents with fever, headache, and confusion. Cerebrospinal fluid shows 300 white blood cells/microL with elevated protein and low glucose, and the Gram stain shows small gram-positive rods. Which antibiotic must be included in his regimen?",
+      "answers": {
+        "A": "Ampicillin",
+        "B": "Ceftriaxone",
+        "C": "Ciprofloxacin",
+        "D": "Metronidazole",
+        "E": "Vancomycin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Gram-positive rods in an older adult with a foodborne exposure indicate Listeria monocytogenes, which is intrinsically resistant to cephalosporins and requires ampicillin.",
+        "B": "Cephalosporins have no activity against Listeria, which is precisely why ampicillin is added empirically in this age group.",
+        "C": "Fluoroquinolones are used for meningococcal prophylaxis rather than treatment of listerial meningitis.",
+        "D": "Metronidazole covers anaerobes and has no role here.",
+        "E": "Vancomycin covers resistant pneumococcus but is not the treatment of choice for Listeria."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-015",
+      "question": "A laboratory receives a cerebrospinal fluid isolate from a pregnant woman with fever and headache. The organism is a small gram-positive rod that is catalase positive, shows tumbling motility in broth at 25°C, grows on plates held at refrigerator temperature, and is seen spreading directly between adjacent cells in tissue culture using host actin. Which organism is this?",
+      "answers": {
+        "A": "Bacillus cereus",
+        "B": "Corynebacterium diphtheriae",
+        "C": "Listeria monocytogenes",
+        "D": "Nocardia asteroides",
+        "E": "Streptococcus agalactiae"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Bacillus cereus is a large spore-forming rod associated with food poisoning and does not show tumbling motility or cold enrichment.",
+        "B": "Corynebacterium diphtheriae is a nonmotile club-shaped rod that causes pharyngeal disease through exotoxin.",
+        "C": "Tumbling motility at room temperature, catalase positivity, growth at refrigeration temperatures, and actin-based cell-to-cell spread are the defining features of Listeria monocytogenes, which has a particular predilection for pregnant women, neonates, and older adults.",
+        "D": "Nocardia is a branching filamentous partially acid-fast organism.",
+        "E": "Streptococcus agalactiae is a gram-positive coccus in chains, not a rod."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-016",
+      "question": "A 34-year-old woman with systemic lupus erythematosus on methotrexate presents with acute severe headache, photophobia, neck stiffness, and fever. She has no focal deficits and no rash. CT head is unremarkable. Her cerebrospinal fluid results are shown and a multiplex polymerase chain reaction panel is positive for herpes simplex virus. What is the most appropriate treatment?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["White blood cells", "400/microL (80% lymphocytes)", "0–5/microL"],
+        ["Protein", "70 mg/dL", "15–45 mg/dL"],
+        ["Glucose", "50 mg/dL", "40–70 mg/dL"],
+        ["Gram stain", "No organisms", "No organisms"]
+      ],
+      "answers": {
+        "A": "Ganciclovir intravenously",
+        "B": "Acyclovir intravenously",
+        "C": "Acyclovir orally",
+        "D": "Foscarnet intravenously",
+        "E": "Valacyclovir orally"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ganciclovir is directed at cytomegalovirus and carries substantial marrow toxicity.",
+        "B": "A lymphocyte-predominant pleocytosis with mildly elevated protein and normal glucose is the classic viral profile, and central nervous system herpes simplex infection is treated with intravenous acyclovir, with transition to oral valacyclovir later.",
+        "C": "Oral acyclovir has inadequate bioavailability for central nervous system infection.",
+        "D": "Foscarnet is reserved for acyclovir-resistant disease and is nephrotoxic.",
+        "E": "Valacyclovir is used only as step-down therapy after intravenous treatment."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-017",
+      "question": "A 58-year-old man is brought in with 3 days of fever, worsening confusion, a generalized seizure, and difficulty producing speech. MRI shows asymmetric hyperintensity and swelling of the left medial temporal lobe and insula. Cerebrospinal fluid shows a lymphocytic pleocytosis with red blood cells and normal glucose. Which agent is most likely responsible?",
+      "answers": {
+        "A": "Coxsackievirus",
+        "B": "Herpes simplex virus type 1",
+        "C": "Herpes simplex virus type 2",
+        "D": "Varicella zoster virus",
+        "E": "West Nile virus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Coxsackievirus is an enterovirus causing aseptic meningitis without focal temporal lobe encephalitis.",
+        "B": "Herpes simplex virus type 1 is the most common cause of sporadic encephalitis and characteristically involves the temporal lobes, producing altered mental status, seizures, and aphasia.",
+        "C": "Herpes simplex virus type 2 more often causes meningitis, particularly recurrent aseptic meningitis, rather than temporal lobe encephalitis in adults.",
+        "D": "Varicella zoster virus can cause encephalitis and vasculopathy but typically with a rash and multifocal ischemic lesions.",
+        "E": "West Nile virus causes meningoencephalitis with acute asymmetric flaccid paralysis rather than focal temporal lobe involvement."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-018",
+      "question": "A 25-year-old avid caver is hospitalized with insomnia, headaches, periodic agitation, and difficulty swallowing. One month earlier he explored a cave inhabited by a large colony of bats but recalls no bite. He develops painful pharyngeal spasms with attempts to drink, progressive paralysis, and coma, and dies. Which intervention would most likely have prevented this illness?",
+      "answers": {
+        "A": "A cellular receptor inhibitor drug",
+        "B": "A live attenuated vaccine",
+        "C": "A toxoid vaccine",
+        "D": "A viral enzyme inhibitor drug",
+        "E": "An inactivated vaccine with immune globulin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "No receptor inhibitor exists for this virus and none is used clinically.",
+        "B": "The rabies vaccine is an inactivated preparation, not a live attenuated one.",
+        "C": "Toxoid vaccines are used for toxin-mediated bacterial diseases such as tetanus and diphtheria.",
+        "D": "There is no effective antiviral once infection is established, and rabies is essentially uniformly fatal after symptoms appear.",
+        "E": "Post-exposure prophylaxis with wound care, rabies immune globulin infiltrated around the wound on day 0, and the inactivated vaccine on days 0, 3, 7, and 14 prevents disease if given before symptoms begin, and unrecognized bat exposure is the most common United States source."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-019",
+      "question": "A patient dies of rabies encephalitis after a raccoon bite to the hand. At autopsy, neurons in the hippocampus contain eosinophilic cytoplasmic inclusions. Which sequence best describes how the virus reached the brain from the inoculation site?",
+      "answers": {
+        "A": "Direct invasion of the choroid plexus from cerebrospinal fluid",
+        "B": "Hematogenous spread from a primary lymph node focus",
+        "C": "Replication in muscle then retrograde transport along peripheral nerves",
+        "D": "Replication in the salivary gland then anterograde neural spread",
+        "E": "Transport within infected monocytes crossing the blood-brain barrier"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Rabies does not seed the cerebrospinal fluid before reaching neurons.",
+        "B": "Viremia is not the route of central nervous system entry for rabies.",
+        "C": "The virus first replicates in muscle at the bite site, then binds receptors at the neuromuscular junction and travels retrogradely along peripheral nerves to the central nervous system, after which it spreads centrifugally to the salivary glands and skin, leaving Negri bodies in neurons.",
+        "D": "Salivary gland involvement occurs after brain infection rather than before it.",
+        "E": "Monocyte-mediated transport describes the mechanism used by some other neurotropic pathogens, not rabies."
+      }
+    },
+    {
+      "id": "neuro-cns-infections-020",
+      "question": "A 30-year-old woman is bitten on the forearm by a stray dog while traveling abroad. She has never received rabies vaccine. She presents 6 hours later with a deep puncture wound and no symptoms. Which management plan is most appropriate?",
+      "answers": {
+        "A": "Immune globulin infiltrated around the wound plus vaccine on days 0, 3, 7, and 14",
+        "B": "Immune globulin only, with vaccine reserved if symptoms develop",
+        "C": "Primary suturing of the wound and vaccine on days 0 and 3 only",
+        "D": "Vaccine on days 0, 3, 7, and 14 without immune globulin",
+        "E": "Wound irrigation alone with observation of the animal for 10 days"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "For a previously unvaccinated person, prophylaxis consists of thorough wound washing, rabies immune globulin at 20 IU/kg infiltrated as fully as anatomically feasible into and around the wound on day 0, and the vaccine series on days 0, 3, 7, and 14.",
+        "B": "Waiting for symptoms is fatal, since prophylaxis works only before clinical onset.",
+        "C": "Primary suturing should be avoided where possible, and the abbreviated two-dose schedule applies only to previously vaccinated patients.",
+        "D": "Omitting immune globulin removes immediate passive protection during the weeks before the vaccine generates antibody.",
+        "E": "Observation is not an option when the biting animal is a stray that cannot be reliably quarantined."
+      }
+    }
+  ]
+}

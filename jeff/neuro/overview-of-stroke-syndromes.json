@@ -1,0 +1,402 @@
+{
+  "lecture": "Overview of Stroke Syndromes",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-overview-of-stroke-syndromes-001",
+      "question": "A 68-year-old right-handed man has the sudden onset of right-sided weakness that is worse in the arm and face than in the leg, right-sided sensory loss, and a right homonymous hemianopia. He speaks in short effortful phrases and cannot repeat. His eyes rest deviated to the left. Which vessel is most likely occluded?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Left posterior cerebral artery",
+        "D": "Right middle cerebral artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anterior cerebral artery occlusion produces contralateral weakness that is worse in the leg than the arm and face, the opposite of this pattern.",
+        "B": "The left middle cerebral artery supplies the lateral convexity representing the face and arm, the language areas, and the optic radiations, so its occlusion causes right face and arm predominant weakness, aphasia, right hemianopia, and leftward gaze deviation toward the lesion.",
+        "C": "Posterior cerebral artery occlusion causes an isolated homonymous hemianopia without dense hemiparesis or aphasia.",
+        "D": "A right-sided lesion would produce left-sided deficits and neglect rather than aphasia.",
+        "E": "A right posterior cerebral artery occlusion would cause a left visual field defect without weakness."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-002",
+      "question": "A 74-year-old woman has sudden left-sided weakness. She does not look toward the left side of the room, eats food only from the right half of her plate, and when asked to lift her left arm insists that the arm belongs to someone else and that nothing is wrong with her. Her speech is fluent and grammatical but flat and monotone. Which combination of findings does she have?",
+      "answers": {
+        "A": "Alexia and acalculia from a dominant parietal lesion",
+        "B": "Aprosody, anosognosia, and hemispatial neglect from a nondominant lesion",
+        "C": "Broca aphasia and apraxia from a dominant frontal lesion",
+        "D": "Color anomia and hemiataxia from a posterior circulation lesion",
+        "E": "Wernicke aphasia and paraphasic errors from a dominant temporal lesion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Alexia and acalculia follow dominant hemisphere parietal injury and would be accompanied by language disturbance.",
+        "B": "Nondominant middle cerebral artery strokes produce contralateral spatial neglect, anosognosia with denial of the deficit, and loss of the emotional intonation of speech.",
+        "C": "Broca aphasia produces nonfluent effortful speech, whereas her speech is fluent.",
+        "D": "Color anomia and hemiataxia point to posterior cerebral artery territory rather than a hemispheric neglect syndrome.",
+        "E": "Wernicke aphasia produces fluent but meaningless speech with impaired comprehension, and her grammar and content are intact."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-003",
+      "question": "A 79-year-old man has the sudden onset of weakness and numbness of the left leg. His left arm is only slightly weak at the shoulder and his face is spared. He is apathetic and slow to initiate speech but is not aphasic, and his visual fields are full. Which vessel is most likely occluded?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Right anterior cerebral artery",
+        "D": "Right middle cerebral artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A left-sided lesion would produce right-sided deficits because the motor and sensory pathways are crossed.",
+        "B": "Middle cerebral artery occlusion causes face and arm predominant weakness with cortical signs such as aphasia or neglect.",
+        "C": "The anterior cerebral artery supplies the medial hemisphere where the lower limb is represented, so a right-sided occlusion causes left leg predominant weakness and sensory loss, often with abulia from medial frontal involvement.",
+        "D": "A right middle cerebral artery stroke would weaken the left face and arm more than the leg and would produce neglect.",
+        "E": "Posterior cerebral artery occlusion produces a visual field defect rather than leg weakness."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-004",
+      "question": "A 66-year-old woman with atrial fibrillation notices she keeps bumping into objects on her right side. Examination shows a right homonymous hemianopia in which a small central island of vision is preserved in both eyes. Strength, sensation, and language are normal. Which vessel is most likely occluded, and why is central vision spared?",
+      "answers": {
+        "A": "Left middle cerebral artery, because the macula is represented anteriorly",
+        "B": "Left posterior cerebral artery, because the occipital pole has dual supply",
+        "C": "Right anterior cerebral artery, because the macula projects bilaterally",
+        "D": "Right posterior cerebral artery, because the macula is spared by collaterals",
+        "E": "Right middle cerebral artery, because the optic radiations are duplicated"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A middle cerebral artery stroke large enough to cause a field cut would also produce hemiparesis and cortical signs.",
+        "B": "A left posterior cerebral artery occlusion produces a right homonymous hemianopia, and the macular representation at the occipital pole receives collateral supply from middle cerebral artery branches, which preserves central vision.",
+        "C": "The anterior cerebral artery does not supply visual cortex, and macular projections are not bilateral in the way described.",
+        "D": "A right-sided occlusion would produce a left rather than a right field defect.",
+        "E": "The optic radiations are not duplicated, and a right middle cerebral lesion would cause left-sided findings."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-005",
+      "question": "A 70-year-old man is brought to the emergency department with left hemiplegia. His eyes rest deviated to the right and he cannot voluntarily look to the left, although the eyes move fully to the left with the oculocephalic maneuver. Which explanation best accounts for the gaze finding?",
+      "answers": {
+        "A": "The left frontal eye field is damaged, leaving the right unopposed",
+        "B": "The left paramedian pontine reticular formation is damaged",
+        "C": "The right frontal eye field is damaged, leaving the left unopposed",
+        "D": "The right medial longitudinal fasciculus is interrupted",
+        "E": "The right paramedian pontine reticular formation is damaged"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Loss of the left frontal eye field would produce a leftward gaze preference and right-sided weakness.",
+        "B": "A pontine gaze center lesion drives the eyes away from the lesion and toward the weak side, and it is not overcome by the oculocephalic maneuver.",
+        "C": "Each frontal eye field drives conjugate gaze to the opposite side, so destruction of the right field leaves the left field unopposed and the eyes deviate to the right, toward the lesion and away from the hemiplegic side, a supranuclear palsy that the brainstem reflex can overcome.",
+        "D": "A medial longitudinal fasciculus lesion produces internuclear ophthalmoplegia with failure of adduction rather than a conjugate deviation.",
+        "E": "A right pontine lesion would deviate the eyes to the left, toward the weak side."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-006",
+      "question": "A 44-year-old woman wakes with drooping of the left side of her face. She cannot raise the left eyebrow or close the left eye, and she cannot smile on the left. Her limbs are strong, her speech is clear, and sensation is normal. Which conclusion is best supported?",
+      "answers": {
+        "A": "A cortical stroke, because facial weakness is unilateral",
+        "B": "A cortical stroke, because the deficit began during sleep",
+        "C": "A peripheral facial nerve lesion, because the forehead is involved",
+        "D": "A peripheral facial nerve lesion, because the limbs are spared",
+        "E": "A thalamic stroke, because sensation is preserved"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Unilateral facial weakness occurs in both conditions and does not discriminate between them.",
+        "B": "Symptom onset during sleep is common in stroke but does not establish it here.",
+        "C": "The frontalis receives upper motor neuron input from both hemispheres, so a supranuclear lesion spares the forehead while a peripheral seventh nerve lesion weakens the whole half of the face, including eyebrow elevation and eye closure.",
+        "D": "Limb sparing raises suspicion but does not exclude a small cortical lesion, whereas forehead involvement is decisive.",
+        "E": "A thalamic stroke would cause sensory loss rather than isolated facial weakness."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-007",
+      "question": "A 64-year-old smoker develops aphasia and right arm weakness that resolve completely after 5 minutes. He arrives at the hospital neurologically intact. MRI diffusion-weighted imaging shows a small area of restricted diffusion in the left frontal operculum. Which diagnosis is most accurate?",
+      "answers": {
+        "A": "Acute ischemic stroke",
+        "B": "Complicated migraine with aura",
+        "C": "Focal seizure with postictal deficit",
+        "D": "Reversible cerebral vasoconstriction syndrome",
+        "E": "Transient ischemic attack"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Transient ischemic attack has become a radiologic diagnosis, so demonstration of infarction on diffusion-weighted imaging makes this an acute ischemic stroke regardless of how brief the symptoms were.",
+        "B": "Migraine aura evolves gradually over minutes and does not produce restricted diffusion.",
+        "C": "A postictal deficit would not be accompanied by an acute infarct on imaging.",
+        "D": "Reversible cerebral vasoconstriction presents with thunderclap headache and segmental arterial narrowing.",
+        "E": "The diagnosis of transient ischemic attack requires the absence of infarction on imaging, which is not the case here."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-008",
+      "question": "A 61-year-old man is admitted with an acute ischemic stroke. MRI shows small acute infarcts in the right frontal cortex, the left occipital lobe, and the left cerebellar hemisphere. Carotid imaging is unremarkable and there is no intracranial stenosis. Which stroke etiology is most likely?",
+      "answers": {
+        "A": "Cardioembolism",
+        "B": "Cryptogenic stroke",
+        "C": "Large artery atherosclerosis",
+        "D": "Small vessel disease",
+        "E": "Vasculitis of the central nervous system"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Emboli originating in the heart travel to whichever vessel they reach, so infarcts appearing simultaneously in multiple noncontiguous vascular territories point strongly to a cardiac source such as atrial fibrillation.",
+        "B": "Cryptogenic stroke is a diagnosis of exclusion assigned only after a complete workup fails to reveal a cause.",
+        "C": "Atherosclerotic strokes arise from a single culprit plaque and therefore produce infarcts within one vascular territory.",
+        "D": "Small vessel disease produces small deep subcortical infarcts rather than scattered cortical lesions.",
+        "E": "Vasculitis is rare and would typically show vessel wall irregularity and inflammatory markers."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-009",
+      "question": "A 69-year-old man with the risk factor profile shown has the sudden onset of complete weakness of the right face, arm, and leg. His speech is dysarthric but his language, comprehension, visual fields, and gaze are entirely normal, and there is no neglect. MRI shows a 9-mm infarct in the left posterior limb of the internal capsule. Which vessels are most likely involved?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Blood pressure", "168/96 mm Hg", "<130/80 mm Hg"],
+        ["Hemoglobin A1c", "8.9%", "<5.7%"],
+        ["Low-density lipoprotein", "164 mg/dL", "<100 mg/dL"],
+        ["High-density lipoprotein", "31 mg/dL", ">40 mg/dL"]
+      ],
+      "answers": {
+        "A": "Anterior choroidal artery trunk",
+        "B": "Basilar tip perforating branches",
+        "C": "Internal carotid artery at the bifurcation",
+        "D": "Lenticulostriate penetrating branches",
+        "E": "Middle cerebral artery main stem"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anterior choroidal territory infarcts typically add a visual field defect from optic tract involvement.",
+        "B": "Basilar perforators supply the pons and midbrain and would produce brainstem signs.",
+        "C": "Carotid occlusion produces a large hemispheric infarct with prominent cortical signs.",
+        "D": "The complete absence of cortical signs with a small deep infarct defines a lacunar stroke from occlusion of a single lenticulostriate penetrating artery, which is the small vessel subtype most strongly associated with hypertension, diabetes, and hyperlipidemia.",
+        "E": "Main stem occlusion causes a large cortical infarct with aphasia, hemianopia, and gaze deviation."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-010",
+      "question": "A 58-year-old man has abrupt vertigo, vomiting, hoarseness, and hiccups. His examination findings are shown. Which artery is most likely occluded?",
+      "table": [
+        ["Examination", "Finding"],
+        ["Facial pain and temperature", "Reduced on the right"],
+        ["Limb pain and temperature", "Reduced on the left"],
+        ["Eyelid and pupil", "Right ptosis and miosis"],
+        ["Palate and voice", "Right palatal droop, hoarse"],
+        ["Limb coordination", "Right-sided dysmetria"]
+      ],
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Basilar artery",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior inferior cerebellar artery supplies the lateral caudal pons, so occlusion adds ipsilateral deafness and peripheral facial paralysis.",
+        "B": "Anterior spinal artery occlusion produces the medial medullary syndrome with contralateral hemiparesis and tongue deviation.",
+        "C": "Basilar occlusion causes bilateral findings and depressed consciousness rather than a crossed sensory syndrome.",
+        "D": "The posterior inferior cerebellar artery supplies the dorsolateral medulla, and its occlusion produces the lateral medullary syndrome with ipsilateral facial sensory loss, contralateral body sensory loss, Horner syndrome, dysphagia and hoarseness, and ipsilateral ataxia.",
+        "E": "The superior cerebellar artery produces ataxia and dysarthria without lower cranial nerve or crossed sensory findings."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-011",
+      "question": "A 73-year-old woman has the sudden onset of left arm and leg weakness with hyperreflexia and an extensor plantar response on the left. Her right eyelid droops completely, the right pupil is dilated and unreactive, and the right eye rests down and out. Sensation is normal throughout. Which syndrome does she have?",
+      "answers": {
+        "A": "Benedikt syndrome",
+        "B": "Lateral medullary syndrome",
+        "C": "Locked-in syndrome",
+        "D": "Medial medullary syndrome",
+        "E": "Weber syndrome"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Benedikt syndrome adds contralateral tremor and ataxia from red nucleus involvement.",
+        "B": "The lateral medullary syndrome causes crossed sensory loss and dysphagia without hemiparesis.",
+        "C": "Locked-in syndrome causes quadriplegia with preserved vertical eye movement and consciousness.",
+        "D": "The medial medullary syndrome pairs contralateral hemiparesis with ipsilateral tongue weakness and contralateral dorsal column loss.",
+        "E": "Weber syndrome results from a ventral midbrain infarct that damages the cerebral peduncle and the exiting oculomotor fibers, producing contralateral hemiparesis with an ipsilateral third nerve palsy and normal sensation."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-012",
+      "question": "A 60-year-old man collapses and is found quadriplegic and unable to speak or move his face. He cannot move his eyes horizontally, but he opens his eyes and looks up and down on command and answers yes or no questions accurately by blinking. Which lesion best explains this presentation?",
+      "answers": {
+        "A": "Bilateral thalamic infarction from a top-of-the-basilar embolus",
+        "B": "Bilateral ventral pontine infarction from basilar thrombosis",
+        "C": "Diffuse cortical anoxic injury after cardiac arrest",
+        "D": "Large left hemispheric infarction with midline shift",
+        "E": "Lateral medullary infarction from vertebral dissection"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bilateral thalamic infarction causes depressed consciousness rather than a fully aware patient communicating by eye movement.",
+        "B": "Basilar thrombosis infarcting the ventral pons destroys the descending corticospinal and corticobulbar tracts and the horizontal gaze centers while sparing the dorsal tegmentum with its reticular activating system and the midbrain vertical gaze pathways, so the patient is conscious and can communicate only through vertical eye movements and blinking.",
+        "C": "Anoxic cortical injury leaves the patient unaware and unable to follow commands.",
+        "D": "A large hemispheric infarct produces hemiplegia with depressed consciousness, not quadriplegia with intact awareness.",
+        "E": "The lateral medullary syndrome does not cause quadriplegia or loss of speech."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-013",
+      "question": "A 67-year-old woman has abrupt onset of vertigo, vomiting, and inability to stand. Examination shows nystagmus, and she consistently past-points and overshoots with the right hand on finger-to-nose testing. Strength, sensation, and language are normal. Which statement about her lesion is most accurate?",
+      "answers": {
+        "A": "It is in the left cerebellar hemisphere, because cerebellar signs are crossed",
+        "B": "It is in the left thalamus, because it produces contralateral incoordination",
+        "C": "It is in the right cerebellar hemisphere, because cerebellar signs are ipsilateral",
+        "D": "It is in the right frontal lobe, because gait is disproportionately affected",
+        "E": "It is in the right internal capsule, because ataxia accompanies weakness"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cerebellar output crosses twice, so its clinical effects appear on the same side as the lesion.",
+        "B": "Thalamic lesions cause sensory loss rather than isolated limb ataxia with nystagmus.",
+        "C": "Cerebellar hemispheric infarction from posterior inferior, anterior inferior, or superior cerebellar artery occlusion produces ipsilateral limb ataxia along with nystagmus and vertigo, so right-sided dysmetria localizes to the right cerebellar hemisphere.",
+        "D": "A frontal lesion would produce weakness or apraxia of gait rather than limb dysmetria with nystagmus.",
+        "E": "A capsular lesion would produce weakness, and this patient has full strength."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-014",
+      "question": "A 72-year-old woman is brought in by a mobile stroke unit with sudden headache and left-sided weakness. Her blood pressure is 240/120 mm Hg and her Glasgow Coma Scale score is 6. Noncontrast CT of the head is performed. Which finding is most likely, and what is the principal goal of initial treatment?",
+      "answers": {
+        "A": "Hyperdense parenchymal blood; the goal is controlled blood pressure lowering",
+        "B": "Hyperdense parenchymal blood; the goal is immediate thrombolysis",
+        "C": "Normal scan; the goal is immediate anticoagulation",
+        "D": "Normal scan; the goal is immediate thrombolysis",
+        "E": "Subtle loss of gray-white differentiation; the goal is blood pressure elevation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Severe hypertension with headache and profoundly depressed consciousness at 1 hour from onset indicates intracerebral hemorrhage, which appears immediately as hyperdense blood on noncontrast CT, and initial management centers on controlled lowering of blood pressure.",
+        "B": "Thrombolysis in the presence of hemorrhage would be catastrophic.",
+        "C": "Anticoagulation is contraindicated and the scan is not expected to be normal.",
+        "D": "An ischemic infarct would generally not be visible this early, but her presentation and pressure point to hemorrhage rather than ischemia.",
+        "E": "Raising blood pressure further in a hypertensive hemorrhage would enlarge the hematoma."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-015",
+      "question": "A 58-year-old man was last known well 2 hours ago and now has right hemiparesis and global aphasia. Noncontrast CT shows no hemorrhage, and CT angiography shows occlusion of the right middle cerebral artery M1 segment. His platelet count, coagulation studies, and glucose are normal, and he takes no anticoagulants. Which management is most appropriate?",
+      "answers": {
+        "A": "Aspirin alone",
+        "B": "Thrombectomy alone",
+        "C": "Thrombolytic alone",
+        "D": "Thrombolytic followed by thrombectomy",
+        "E": "Therapeutic heparin infusion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Antiplatelet therapy alone forfeits reperfusion in a patient who is eligible for both proven acute treatments.",
+        "B": "Thrombectomy alone would omit a thrombolytic for which he qualifies within the treatment window.",
+        "C": "Intravenous lysis alone has limited recanalization rates for a proximal large vessel occlusion.",
+        "D": "He is within the 4.5-hour window from last known well with a normal noncontrast CT, so he should receive a thrombolytic, and because he has a documented large vessel occlusion he should also proceed to mechanical thrombectomy.",
+        "E": "Therapeutic heparin has no role in acute reperfusion and increases hemorrhagic risk."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-016",
+      "question": "A 65-year-old woman is found with left hemiplegia and neglect. She was last seen normal 14 hours earlier. CT shows no hemorrhage and only a small established core, CT angiography shows a right middle cerebral artery occlusion, and CT perfusion demonstrates a large region of delayed perfusion surrounding the small core. Which intervention is most appropriate?",
+      "answers": {
+        "A": "Aspirin and permissive hypertension only",
+        "B": "Immediate craniectomy for decompression",
+        "C": "Mechanical thrombectomy",
+        "D": "Therapeutic anticoagulation with heparin",
+        "E": "Thrombolytic therapy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Medical therapy alone abandons salvageable tissue in a patient with a demonstrated large vessel occlusion.",
+        "B": "Craniectomy is reserved for malignant edema after a completed large infarct, not for acute reperfusion.",
+        "C": "Perfusion imaging showing a small core with a large surrounding penumbra identifies salvageable tissue, and mechanical thrombectomy can be offered for large vessel occlusion up to 24 hours from last known well in selected patients.",
+        "D": "Anticoagulation does not reopen an occluded vessel acutely and increases bleeding risk.",
+        "E": "Thrombolysis is limited to 4.5 hours from last known well, and she is well beyond that window."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-017",
+      "question": "A public health team is designing a stroke prevention campaign and wants to target the single factor with the greatest modifiable contribution to both ischemic and hemorrhagic stroke. Which factor should they choose?",
+      "answers": {
+        "A": "Advanced age",
+        "B": "Family history of stroke",
+        "C": "Hypertension",
+        "D": "Obesity",
+        "E": "Oral contraceptive use"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Age is a powerful risk factor, with risk doubling each decade after 55, but it cannot be modified.",
+        "B": "Family history raises risk substantially but is likewise non-modifiable.",
+        "C": "Hypertension is the leading modifiable risk factor for both ischemic and hemorrhagic stroke, because chronically elevated pressure both accelerates atherosclerosis and weakens small penetrating vessels.",
+        "D": "Obesity is modifiable and important, but it acts largely by raising blood pressure, glucose, and lipids.",
+        "E": "Oral contraceptive use raises risk modestly, mainly in women over 35 who smoke, and affects a limited population."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-018",
+      "question": "A 90-year-old woman presents with right-sided weakness and aphasia. MRI shows a large left middle cerebral artery infarct, and telemetry shows an irregularly irregular rhythm with no discernible P waves. Which conclusion about her stroke mechanism and secondary prevention is best supported?",
+      "answers": {
+        "A": "Cardioembolic mechanism; anticoagulation is generally indicated",
+        "B": "Cardioembolic mechanism; dual antiplatelet therapy is preferred",
+        "C": "Large artery atherosclerosis; carotid endarterectomy is indicated",
+        "D": "Small vessel disease; blood pressure control is the only measure",
+        "E": "Small vessel disease; statin therapy alone is sufficient"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "An irregularly irregular rhythm without P waves is atrial fibrillation, the most common condition associated with embolic stroke, and secondary prevention centers on anticoagulation rather than antiplatelet therapy.",
+        "B": "Dual antiplatelet therapy is used for atherosclerotic mechanisms and is inferior to anticoagulation for cardioembolism.",
+        "C": "There is no evidence of carotid stenosis, and the rhythm identifies a cardiac source.",
+        "D": "Small vessel disease produces small deep infarcts, not a large cortical territory infarct with aphasia.",
+        "E": "A statin is appropriate adjunctive therapy but does not address the cardioembolic source."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-019",
+      "question": "A 55-year-old man is brought in with acute right-sided weakness and slurred speech. The team is deciding whether to give a thrombolytic. He was last seen normal 3 hours ago. Which mechanism explains how the drug works, and which prerequisite must be satisfied first?",
+      "answers": {
+        "A": "It activates plasminogen to plasmin; a noncontrast CT must show no hemorrhage",
+        "B": "It blocks glycoprotein IIb/IIIa receptors; an echocardiogram must be normal",
+        "C": "It directly inhibits thrombin; carotid imaging must show no stenosis",
+        "D": "It inhibits cyclooxygenase in platelets; the platelet count must be normal",
+        "E": "It inhibits factor Xa; MRI must show a diffusion-perfusion mismatch"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Alteplase and tenecteplase convert plasminogen to plasmin, which degrades the fibrin clot, and because lysing a hemorrhage would be catastrophic a noncontrast CT excluding blood is required before administration within the 4.5-hour window.",
+        "B": "Glycoprotein IIb/IIIa inhibitors are antiplatelet agents and are not used for acute stroke lysis.",
+        "C": "Direct thrombin inhibitors are anticoagulants that do not dissolve established clot.",
+        "D": "Cyclooxygenase inhibition describes aspirin, which prevents platelet aggregation rather than lysing clot.",
+        "E": "Factor Xa inhibitors are oral anticoagulants used for prevention, and perfusion mismatch is used to select thrombectomy candidates in later windows."
+      }
+    },
+    {
+      "id": "neuro-overview-of-stroke-syndromes-020",
+      "question": "A 48-year-old woman presents with 30 minutes of right arm numbness followed by a throbbing left-sided headache with nausea and light sensitivity. The numbness spread gradually from her fingers up the arm over about 15 minutes and has now resolved. She has had similar episodes twice before, each followed by headache. Which consideration is most important in her evaluation?",
+      "answers": {
+        "A": "Stroke mimics such as migraine spread gradually rather than abruptly",
+        "B": "Stroke mimics such as seizure always produce postictal hemiparesis",
+        "C": "Stroke should be excluded because deficits never resolve in 30 minutes",
+        "D": "Thrombolysis should be given because the deficit was focal and sudden",
+        "E": "Transient ischemic attack is confirmed because the symptoms resolved"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Common stroke mimics include migraine, seizure, metabolic derangement, and Bell palsy, and the gradual march of sensory symptoms over minutes followed by a typical headache with photophobia and nausea, in a recurring stereotyped pattern, is characteristic of migraine aura rather than ischemia.",
+        "B": "Postictal weakness occurs in some seizures but is not universal, and this evolution is not seizure-like.",
+        "C": "Ischemic deficits can resolve quickly, so brevity does not exclude ischemia.",
+        "D": "Giving a thrombolytic to a patient whose deficit has fully resolved and whose history suggests migraine exposes her to hemorrhage without benefit.",
+        "E": "Resolution alone does not establish a transient ischemic attack, which requires exclusion of mimics and absence of infarction on imaging."
+      }
+    }
+  ]
+}

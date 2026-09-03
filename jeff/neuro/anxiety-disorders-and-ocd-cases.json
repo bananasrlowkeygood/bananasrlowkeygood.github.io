@@ -1,0 +1,408 @@
+{
+  "lecture": "Case Vignettes: Anxiety Disorders and Obsessive Compulsive Disorder",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-001",
+      "question": "A 29-year-old male school counselor is referred for lifelong anxiety that has worsened over the past year. He worries most days about being late, about making errors at work with catastrophic consequences, and about being judged by colleagues. He wakes daily with a knot in his stomach, is irritable, is easily fatigued, and wakes repeatedly at night thinking about the next day's tasks. His laboratory studies are shown. Which diagnosis best fits?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Thyroid stimulating hormone", "2.1 microU/mL", "0.5–5.0 microU/mL"],
+        ["Free thyroxine", "1.2 ng/dL", "0.8–1.8 ng/dL"],
+        ["Hemoglobin", "14.1 g/dL", "13.5–17.5 g/dL"],
+        ["Urine toxicology", "Negative", "Negative"]
+      ],
+      "answers": {
+        "A": "Generalized anxiety disorder",
+        "B": "Illness anxiety disorder",
+        "C": "Obsessive compulsive disorder",
+        "D": "Panic disorder",
+        "E": "Social anxiety disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Excessive anxiety and worry about a number of different events occurring more days than not for at least 6 months, with irritability, fatigue, and sleep disturbance causing functional impairment and no medical or substance cause, defines generalized anxiety disorder.",
+        "B": "Illness anxiety disorder centers on preoccupation with having a serious disease, and his worries span work, punctuality, and social evaluation.",
+        "C": "Obsessive compulsive disorder requires time-consuming obsessions and compulsions, and his brief nightly checking is neither extensive nor his predominant problem.",
+        "D": "Panic disorder requires recurrent unexpected panic attacks, which he does not describe.",
+        "E": "Fear of negative judgment is only one of many worry themes here rather than a pervasive fear of scrutiny in social situations."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-002",
+      "question": "The same 29-year-old man checks his front door and the knobs on his stove exactly twice before bed each night. After doing so, he feels satisfied that the door is locked and the gas is off, and he denies any other rituals. He spends less than 2 minutes on this each night. Why do these behaviors fail to support a diagnosis of obsessive compulsive disorder?",
+      "answers": {
+        "A": "Checking behaviors are never counted as compulsions in the criteria",
+        "B": "He performs them nightly rather than at unpredictable intervals",
+        "C": "He recognizes that the behaviors are excessive and unnecessary",
+        "D": "The behavior is brief, is reassuring, and does not consume his day",
+        "E": "The behaviors are directed at real rather than imagined dangers"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Checking is one of the most common compulsions, so its presence alone does not exclude the diagnosis.",
+        "B": "Regularity of timing is not a diagnostic feature either way.",
+        "C": "Most patients with obsessive compulsive disorder retain insight that their rituals are excessive, so insight does not distinguish them.",
+        "D": "The criteria require obsessions or compulsions that are time consuming, typically more than an hour per day, and that cause distress or impairment; his ritual is brief and leaves him genuinely reassured, so it does not meet that threshold.",
+        "E": "A locked door and a gas knob are ordinary concerns, but the reason the criteria are unmet is the absence of time consumption and impairment."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-003",
+      "question": "The same 29-year-old man reports intermittent low mood that never lasts longer than a few hours and always follows periods when he feels most anxious and overwhelmed. His appetite is normal, and he denies current or past suicidal ideation and anhedonia. Which conclusion about a comorbid mood disorder is best supported?",
+      "answers": {
+        "A": "He has bipolar II disorder given the brief mood shifts",
+        "B": "He has major depressive disorder with anxious distress",
+        "C": "He has persistent depressive disorder given the chronic course",
+        "D": "He has no mood disorder because the low mood is not sustained",
+        "E": "He has premorbid depression that is masked by the anxiety"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Bipolar II requires a discrete hypomanic episode lasting at least 4 days plus a major depressive episode, neither of which is described.",
+        "B": "Major depressive disorder requires depressed mood or anhedonia present most of the day, nearly every day, for at least 2 weeks.",
+        "C": "Persistent depressive disorder requires depressed mood on most days for at least 2 years, and his mood is low only for hours at a time.",
+        "D": "Because his low mood lasts only hours and is tied to feeling overwhelmed, it represents demoralization from disabling anxiety rather than a mood disorder, which would require a sustained 2-week episode.",
+        "E": "Invoking a masked depression is not supported by the history and would not change the fact that no episode criteria are met."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-004",
+      "question": "The same 29-year-old man believes that if he handled his responsibilities more flexibly, tasks would be done incorrectly or left incomplete, and the resulting poor outcome would reflect badly on him. His psychiatrist recommends cognitive behavioral therapy. Which cognitive target is most appropriate for this belief?",
+      "answers": {
+        "A": "Behavioral activation to increase pleasurable daily activity",
+        "B": "Challenging overestimation of risk and catastrophic thinking",
+        "C": "Habit reversal training to replace a repetitive motor behavior",
+        "D": "Interoceptive exposure to bodily sensations of arousal",
+        "E": "Motivational interviewing to resolve ambivalence about sobriety"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Behavioral activation treats depression by rebuilding rewarding activity and does not address exaggerated appraisal of risk.",
+        "B": "His worry rests on overestimating both the likelihood and the severity of a bad outcome, which is exactly the distortion that cognitive therapy for generalized anxiety disorder targets.",
+        "C": "Habit reversal is used for tics and body-focused repetitive behaviors, not for worry.",
+        "D": "Interoceptive exposure is used in panic disorder to disconfirm catastrophic interpretation of physical sensations.",
+        "E": "Motivational interviewing addresses ambivalence about behavior change in substance use, which is not his problem."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-005",
+      "question": "The same 29-year-old man declines a selective serotonin reuptake inhibitor after extensive internet research about possible side effects, even though his sister responded well to sertraline. He is not opposed to therapy. Which response by the psychiatrist best reflects the formulation of his case?",
+      "answers": {
+        "A": "Accept the refusal and offer therapy alone indefinitely",
+        "B": "Frame the medication fear as another target for challenging risk overestimation",
+        "C": "Prescribe scheduled lorazepam instead to avoid the feared side effects",
+        "D": "Refer him for a second opinion to confirm the diagnosis",
+        "E": "Warn him that untreated anxiety will progress to major depression"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Passively accepting the refusal treats the fear as separate from his illness and forfeits an effective treatment.",
+        "B": "His fear of medication is itself an instance of the overestimation of risk and catastrophic thinking that characterizes his disorder, so normalizing it and subjecting it to the same cognitive work is both therapeutic and consistent.",
+        "C": "Scheduled benzodiazepines are not first-line maintenance therapy and carry dependence risk, particularly with a family history of opioid use disorder.",
+        "D": "The diagnosis is clear and a second opinion would reinforce his need for certainty rather than address it.",
+        "E": "Predicting a dire outcome uses fear as leverage and models the very catastrophizing being treated."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-006",
+      "question": "A 39-year-old surgical technician has 3 months of daily episodes of chest tightness, shortness of breath, tachycardia, lightheadedness, and tremulousness that begin abruptly, last 15 to 30 minutes, and resolve on their own. During episodes he is convinced he is having a heart attack. Between episodes he worries about when the next one will occur. His emergency department evaluation is shown, and he exercises without symptoms. Which diagnosis best fits?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Troponin I", "<0.01 ng/mL", "<0.04 ng/mL"],
+        ["Electrocardiogram", "Normal sinus rhythm", "Normal"],
+        ["Blood pressure", "142/88 mm Hg", "<130/80 mm Hg"],
+        ["Thyroid stimulating hormone", "1.8 microU/mL", "0.5–5.0 microU/mL"]
+      ],
+      "answers": {
+        "A": "Generalized anxiety disorder",
+        "B": "Illness anxiety disorder",
+        "C": "Panic disorder",
+        "D": "Somatic symptom disorder",
+        "E": "Unstable angina"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Generalized anxiety disorder involves persistent worry across many life domains, and he denies worrying about anything other than the attacks themselves.",
+        "B": "Illness anxiety disorder features preoccupation with having a disease with minimal somatic symptoms, whereas his symptoms are intense and episodic.",
+        "C": "Recurrent unexpected attacks that peak quickly with more than four physical and cognitive symptoms, followed by persistent worry about further attacks and their consequences, and with a negative cardiac evaluation, defines panic disorder.",
+        "D": "Somatic symptom disorder involves persistent distressing physical symptoms with disproportionate thoughts, not discrete self-limited attacks.",
+        "E": "Unstable angina would produce exertional symptoms and is excluded by normal troponins, a normal electrocardiogram, and full exercise tolerance."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-007",
+      "question": "The same 39-year-old man has begun avoiding malls and other crowded places because he fears that if an attack occurred there he could not get out quickly enough to reach medical help. He is comfortable at home and at work. Which term best describes this pattern of avoidance?",
+      "answers": {
+        "A": "Agoraphobia",
+        "B": "Anticipatory anxiety",
+        "C": "Derealization",
+        "D": "Social anxiety",
+        "E": "Specific phobia, situational type"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Agoraphobia is fear and avoidance of situations such as crowds or open spaces where escape might be difficult or help unavailable should panic-like symptoms occur, which is exactly his stated reason.",
+        "B": "Anticipatory anxiety describes worry between attacks about having another one, which he also has, but it does not name the avoidance behavior.",
+        "C": "Derealization is a feeling of unreality that can occur during an attack rather than a pattern of avoidance.",
+        "D": "Social anxiety would mean fearing scrutiny or humiliation by others, and he fears being unable to obtain medical care.",
+        "E": "A situational specific phobia involves fear of a circumscribed object or situation itself, not fear of the consequences of a panic attack."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-008",
+      "question": "The same 39-year-old man responded well to escitalopram 4 years ago but stopped it 2 years ago when he felt well. After his recent emergency department visit, his primary care physician restarted escitalopram 10 mg daily. At his psychiatric evaluation 2 weeks later, his attacks are unchanged in frequency and severity. Which action is most appropriate?",
+      "answers": {
+        "A": "Add an atypical antipsychotic for augmentation",
+        "B": "Continue the current dose and reassess after several more weeks",
+        "C": "Discontinue escitalopram and start scheduled lorazepam",
+        "D": "Repeat the cardiac evaluation to exclude an occult lesion",
+        "E": "Switch to a different selective serotonin reuptake inhibitor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Augmentation is premature before an adequate trial and adds metabolic risk without evidence of treatment resistance.",
+        "B": "Selective serotonin reuptake inhibitors require roughly 4 to 6 weeks at an adequate dose before response can be judged, so 2 weeks is simply too early to call this a failure.",
+        "C": "Replacing the antidepressant with a scheduled benzodiazepine abandons the definitive treatment and risks dependence.",
+        "D": "The cardiac evaluation was already negative and repeating it reinforces reassurance seeking.",
+        "E": "Switching agents discards a medication that previously worked for him before it has had time to act."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-009",
+      "question": "The same 39-year-old man asks about the lorazepam he was given previously. He recalls that it worked within minutes when an attack started, and he stopped needing it about a month after the escitalopram took effect. Which statement best describes the role of the benzodiazepine in his treatment plan?",
+      "answers": {
+        "A": "It abolishes anticipatory worry between attacks over the long term",
+        "B": "It aborts attacks in progress and is usually needed only early on",
+        "C": "It is the definitive maintenance therapy for panic disorder",
+        "D": "It prevents the emergence of agoraphobic avoidance behavior",
+        "E": "It shortens the time to onset of action of the antidepressant"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Benzodiazepines do not durably resolve anticipatory worry, and chronic use creates tolerance and dependence.",
+        "B": "Lorazepam acts quickly enough to terminate an attack that is already underway, which is useful as a bridge until the antidepressant reaches effect, after which it can typically be discontinued.",
+        "C": "Definitive maintenance treatment consists of a serotonergic antidepressant and cognitive behavioral therapy.",
+        "D": "Reliance on an as-needed medication can actually function as a safety behavior that maintains avoidance.",
+        "E": "Benzodiazepines provide symptomatic relief but do not accelerate the pharmacologic onset of a selective serotonin reuptake inhibitor."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-010",
+      "question": "The same 39-year-old man begins cognitive behavioral therapy. His therapist has him run in place and breathe rapidly through a straw in session until his heart pounds and he feels lightheaded, then has him sit with the sensations without leaving the room or checking his pulse. Which principle underlies this technique?",
+      "answers": {
+        "A": "Disconfirming the belief that bodily sensations lead to catastrophe",
+        "B": "Extinguishing conditioned avoidance of specific external places",
+        "C": "Increasing tolerance of uncertainty about future life events",
+        "D": "Replacing a compulsive ritual with an incompatible motor response",
+        "E": "Strengthening social skills through graded real-world practice"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Interoceptive exposure deliberately reproduces the feared physical sensations so the patient learns that palpitations and breathlessness are unpleasant but not dangerous, directly disconfirming the catastrophic appraisal that drives panic.",
+        "B": "Extinguishing avoidance of places is in vivo exposure, which addresses the agoraphobic component rather than the sensations themselves.",
+        "C": "Tolerating uncertainty is a target in generalized anxiety disorder and obsessive compulsive disorder.",
+        "D": "Substituting an incompatible response describes habit reversal for tics.",
+        "E": "Social skills practice is used for social anxiety disorder."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-011",
+      "question": "A 36-year-old woman requests evaluation for attention deficit disorder because she is frequently distracted at work and in social settings. She is extremely uncomfortable in public, believes people are judging her and do not want to be around her, and is certain that others notice she looks fidgety and odd. She avoids most social situations, feels calm alone and with immediate family, and has few friends. Which diagnosis best fits?",
+      "answers": {
+        "A": "Attention-deficit/hyperactivity disorder, inattentive type",
+        "B": "Avoidant personality disorder",
+        "C": "Panic disorder with agoraphobia",
+        "D": "Schizoid personality disorder",
+        "E": "Social anxiety disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Attention-deficit/hyperactivity disorder requires symptoms before age 12 across settings, and she had no childhood difficulty and focuses well when alone.",
+        "B": "Avoidant personality disorder is a pervasive lifelong pattern, and the vignette describes discrete situational fear of scrutiny with clear onset and impairment better captured as an anxiety disorder.",
+        "C": "There are no unexpected panic attacks, and her avoidance is driven by fear of judgment rather than fear of being unable to escape.",
+        "D": "Schizoid personality disorder involves genuine indifference to relationships, whereas she is distressed by her isolation.",
+        "E": "Persistent fear of social situations involving possible scrutiny, fear of showing anxiety symptoms that will be judged negatively, avoidance out of proportion to actual threat, and resulting impairment define social anxiety disorder."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-012",
+      "question": "The same 36-year-old woman reports that she can focus without any difficulty when she is home alone, that she had no academic or behavioral problems as a child or in early adolescence, and that at work she is distracted by mental images of a client complaining to her manager. Which feature of the history most strongly argues against attention-deficit/hyperactivity disorder?",
+      "answers": {
+        "A": "Her distractibility is confined to anxiety-provoking situations",
+        "B": "Her errors at work are careless rather than deliberate",
+        "C": "She improved on methylphenidate when it was prescribed",
+        "D": "She ruminates about mistakes after they have occurred",
+        "E": "She works in a technically demanding information technology role"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Attention-deficit/hyperactivity disorder requires pervasive inattention across settings beginning in childhood, whereas her concentration is intact whenever she is not anxious, showing the anxiety to be primary.",
+        "B": "Careless errors are a feature of both conditions and do not discriminate between them.",
+        "C": "Improvement on a stimulant is non-diagnostic because stimulants improve concentration in anyone.",
+        "D": "Rumination after mistakes reflects anxiety, but the decisive point is the situational confinement of the inattention.",
+        "E": "Job complexity has no bearing on the diagnosis."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-013",
+      "question": "The same 36-year-old woman was prescribed methylphenidate in college after complaining of poor concentration. Her concentration improved, but she also became more irritable and noticed her heart racing, so she stopped it. Which interpretation of this trial is most accurate?",
+      "answers": {
+        "A": "Her adverse effects prove she metabolizes stimulants abnormally",
+        "B": "Her improvement confirms an underlying attention-deficit disorder",
+        "C": "Her improvement is non-diagnostic and stimulants can worsen anxiety",
+        "D": "Her response indicates she should be retried at a lower dose",
+        "E": "Her response suggests a comorbid mood disorder was unmasked"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Irritability and palpitations are expected pharmacologic effects rather than evidence of an unusual metabolic phenotype.",
+        "B": "A therapeutic response cannot establish the diagnosis, since stimulants enhance concentration in people with and without the disorder.",
+        "C": "Improvement on a stimulant carries no diagnostic weight, and stimulants frequently aggravate irritability and autonomic arousal in patients whose primary problem is an anxiety disorder.",
+        "D": "Retrying a stimulant would target the wrong illness and risks worsening the underlying anxiety.",
+        "E": "Irritability and tachycardia on a stimulant are direct drug effects and do not indicate a latent mood disorder."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-014",
+      "question": "The same 36-year-old woman begins therapy in addition to a selective serotonin reuptake inhibitor. Her therapist assigns her to attend a departmental lunch and to speak with two colleagues without rehearsing lines in advance, without checking her reflection, and without leaving early. Which mechanism best explains how this assignment is expected to help?",
+      "answers": {
+        "A": "It builds distress tolerance for physical symptoms of arousal",
+        "B": "It provides disconfirming evidence against distorted social expectations",
+        "C": "It reduces rumination by scheduling worry to a fixed time",
+        "D": "It replaces maladaptive thoughts through thought stopping",
+        "E": "It teaches relaxation that suppresses the autonomic response"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Tolerating physical sensations is the aim of interoceptive exposure in panic disorder.",
+        "B": "Social anxiety is maintained by biased processing of evaluative information and by avoidance and safety behaviors that prevent learning, so entering the situation without those behaviors supplies evidence that contradicts the feared outcome.",
+        "C": "Scheduled worry time is a technique used in generalized anxiety disorder.",
+        "D": "Thought stopping is a discredited technique and is not the basis of exposure therapy.",
+        "E": "Relaxation may reduce arousal but does not correct the underlying appraisal, and it can itself function as a safety behavior."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-015",
+      "question": "A 42-year-old woman with amphetamine and alcohol use disorders in full remission for 1 year reports several months of worsening anxiety. She moves around the room at meetings to avoid standing near thin members because she believes they may transmit HIV, carries hand sanitizer and rubs it over her hands repeatedly, rechecks her iron and toaster 10 to 15 times before leaving, and returns home after walking several blocks to check again. She repeatedly asks her husband for reassurance that she has not committed insurance fraud. Which diagnosis best fits?",
+      "answers": {
+        "A": "Delusional disorder, persecutory type",
+        "B": "Generalized anxiety disorder",
+        "C": "Illness anxiety disorder",
+        "D": "Obsessive compulsive disorder",
+        "E": "Obsessive compulsive personality disorder"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Delusional disorder requires fixed false beliefs held without insight, and she recognizes her fears as excessive.",
+        "B": "Generalized anxiety disorder involves realistic worry about everyday problems without ritualized behaviors performed to neutralize the worry.",
+        "C": "Illness anxiety disorder centers on the fear of already having a disease and does not feature checking rituals or reassurance seeking of this kind.",
+        "D": "She has intrusive unwanted thoughts causing marked distress and repetitive behaviors she feels driven to perform in response, which are excessive, consume more than an hour daily, and impair her functioning and her marriage.",
+        "E": "Obsessive compulsive personality disorder is an ego-syntonic pattern of perfectionism and rigidity without true obsessions and compulsions."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-016",
+      "question": "The same 42-year-old woman states that she knows her fears of contracting HIV by holding hands and of being accused of insurance fraud are excessive, that they are irritating the people around her, and that she nonetheless cannot stop acting on them. Which conclusion about the nature of her beliefs is best supported?",
+      "answers": {
+        "A": "The beliefs are delusions because they are objectively false",
+        "B": "The beliefs are delusions because she acts on them repeatedly",
+        "C": "The beliefs are not psychotic because insight is preserved",
+        "D": "The beliefs are overvalued ideas indicating incipient psychosis",
+        "E": "The beliefs represent the residue of her prior hallucinations"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Falsity alone does not make a belief delusional; the defining feature is fixity in the face of contrary evidence.",
+        "B": "Acting on a belief reflects the strength of the associated anxiety rather than a loss of reality testing.",
+        "C": "She recognizes her fears as unrealistic and excessive, and this preserved insight is what distinguishes obsessions from delusions, in which such recognition is absent.",
+        "D": "Overvalued ideas are held with poor insight, which is precisely what she does not show.",
+        "E": "Her earlier auditory hallucinations occurred during heavy substance use and are a separate phenomenon from her current obsessions."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-017",
+      "question": "The same 42-year-old woman was hospitalized 1 year ago for auditory hallucinations telling her to jump off a bridge, occurring during daily heavy alcohol use and dextroamphetamine up to 150 mg daily. She has had no hallucinations in the year since achieving sobriety, and her current symptoms have worsened during that year. Her current studies are shown. Which conclusion is best supported?",
+      "table": [
+        ["Test", "Value", "Reference range"],
+        ["Urine amphetamines", "Negative", "Negative"],
+        ["Urine ethanol metabolites", "Negative", "Negative"],
+        ["Aspartate aminotransferase", "22 U/L", "10–40 U/L"],
+        ["Mean corpuscular volume", "89 fL", "80–100 fL"]
+      ],
+      "answers": {
+        "A": "Her current symptoms represent a primary independent disorder",
+        "B": "Her current symptoms represent protracted stimulant withdrawal",
+        "C": "Her current symptoms represent a substance induced anxiety disorder",
+        "D": "Her past hallucinations indicate an underlying schizophrenia spectrum illness",
+        "E": "Her past hallucinations and current symptoms are two phases of one illness"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Symptoms that persist and worsen during a year of documented sustained sobriety cannot be attributed to substance effects, so they represent an independent primary disorder, in this case obsessive compulsive disorder.",
+        "B": "Protracted withdrawal would be expected to improve rather than intensify over 12 abstinent months.",
+        "C": "A substance induced disorder requires that symptoms arise during or shortly after intoxication or withdrawal and remit with abstinence.",
+        "D": "She has never experienced psychotic symptoms while sober, which argues against a primary psychotic illness.",
+        "E": "The hallucinations were substance related and the current obsessions are phenomenologically distinct, so they reflect separate processes."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-018",
+      "question": "The same 42-year-old woman rubs hand sanitizer over her hands repeatedly after meetings, and she asks her husband over and over whether she has committed insurance fraud. She is briefly reassured each time and then thinks of a new reason she might be suspected. Which term best characterizes both of these behaviors?",
+      "answers": {
+        "A": "Compulsions functioning as safety behaviors",
+        "B": "Dissociative responses to overwhelming affect",
+        "C": "Negative reinforcement of an unrelated habit",
+        "D": "Obsessions experienced as intrusive thoughts",
+        "E": "Somatic manifestations of autonomic arousal"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Both are repetitive acts performed in response to an obsession in order to prevent a feared outcome or gain reassurance, which is the definition of a compulsion, and both operate as safety behaviors that preserve the link between the obsession and the feared consequence.",
+        "B": "Dissociation involves disruption of consciousness, memory, or identity and is not described here.",
+        "C": "Although relief does negatively reinforce the behaviors, the habits are not unrelated but are tied directly to specific obsessions.",
+        "D": "Obsessions are the intrusive thoughts themselves, while these are the behaviors performed in response.",
+        "E": "Palpitations and sweating would be somatic manifestations of arousal, whereas sanitizing and asking for reassurance are volitional acts."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-019",
+      "question": "The same 42-year-old woman begins therapy. For her contamination fears she touches faucets in a public restroom and then refrains from sanitizing. For her fear of the consequences of contracting HIV, an in vivo exposure is not feasible, so the therapist has her repeatedly describe and dwell on the feared scenario in detail without seeking reassurance. What is the purpose of this second technique?",
+      "answers": {
+        "A": "To desensitize her to the physical sensations of anxiety",
+        "B": "To disconfirm the expectation that the thought itself leads to harm",
+        "C": "To identify childhood experiences that generated the fear",
+        "D": "To provide a distraction that competes with the obsession",
+        "E": "To reinforce her use of reassurance from a trusted therapist"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Desensitizing physical sensations describes interoceptive exposure used in panic disorder.",
+        "B": "Imaginal exposure lets the patient confront a feared scenario that cannot be staged in reality and allows anxiety to fall on its own without a compulsion, disconfirming the belief that thinking the thought without ritualizing will bring about the dreaded outcome.",
+        "C": "Exposure and response prevention is behavioral rather than an exploration of childhood origins.",
+        "D": "Distraction is a safety behavior that undermines exposure by preventing full engagement with the feared content.",
+        "E": "Reassurance is itself a compulsion, and the technique explicitly withholds it."
+      }
+    },
+    {
+      "id": "neuro-anxiety-disorders-and-ocd-cases-020",
+      "question": "The same 42-year-old woman previously responded to sertraline 200 mg daily for several years before stopping it during her period of substance use. Her psychiatrist plans to restart a selective serotonin reuptake inhibitor. Which statement about the expected pharmacologic course is most accurate?",
+      "answers": {
+        "A": "A benzodiazepine should be added indefinitely to sustain response",
+        "B": "A higher dose and up to 3 months may be needed to judge response",
+        "C": "Response should be evident within 1 week at a low starting dose",
+        "D": "Selective serotonin reuptake inhibitors are ineffective in this disorder",
+        "E": "The dose should be kept low because of her substance use history"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Benzodiazepines have no established role in maintenance treatment of obsessive compulsive disorder and are especially unwise given her substance use history.",
+        "B": "Obsessive compulsive disorder typically requires higher serotonergic doses than depression and a longer trial, often up to about 3 months, before response can be fairly assessed, and her prior response was at 200 mg of sertraline.",
+        "C": "One week is far too short for any meaningful antidepressant effect.",
+        "D": "Serotonergic antidepressants are in fact first-line pharmacotherapy for this disorder.",
+        "E": "Selective serotonin reuptake inhibitors are not drugs of abuse, and underdosing would predictably lead to treatment failure."
+      }
+    }
+  ]
+}

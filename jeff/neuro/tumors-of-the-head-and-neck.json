@@ -1,0 +1,436 @@
+{
+  "lecture": "Tumors of the Head and Neck",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-001",
+      "question": "A 67-year-old man has a 3-month history of a nonhealing ulcer on the lateral border of his tongue and now has otalgia and a firm neck node. He has smoked one pack daily for 45 years and drinks about a pint of whiskey daily. Biopsy shows invasive nests of cells with glassy eosinophilic cytoplasm and whorled nodules of anucleate keratin. Which statement about his risk factors is most accurate?",
+      "answers": {
+        "A": "Alcohol acts only as a solvent and adds no independent risk",
+        "B": "Smoking and alcohol act synergistically to multiply his risk",
+        "C": "Smoking and alcohol each raise risk but the effects are subtractive",
+        "D": "Smoking is relevant only for laryngeal rather than oral tumors",
+        "E": "Tobacco risk applies only to smokeless forms of tobacco"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Alcohol is an independent risk factor for mucosal squamous cell carcinoma of the head and neck.",
+        "B": "Smoking and alcohol are the two most significant risk factors for head and neck squamous cell carcinoma, and in patients with heavy exposure to both the combined risk is synergistic rather than merely additive.",
+        "C": "Risks from these exposures compound rather than offset one another.",
+        "D": "Smoking predisposes to squamous cell carcinoma throughout the mucosa-lined spaces, including the oral tongue.",
+        "E": "Both smoked and smokeless tobacco carry risk, and this patient's exposure is to cigarettes."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-002",
+      "question": "A 46-year-old man who has never smoked and drinks rarely presents with a painless enlarging left neck mass. Examination shows a fullness of the left tonsil, and biopsy of the tonsillar mass shows nonkeratinizing squamous cell carcinoma. Which associated factor is most likely to be identified?",
+      "answers": {
+        "A": "Betel nut chewing",
+        "B": "Epstein-Barr virus",
+        "C": "Human papillomavirus type 16",
+        "D": "Human papillomavirus type 6",
+        "E": "Occupational wood dust exposure"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Betel nut chewing is a risk factor in South and Southeast Asia and Oceania and typically affects the buccal mucosa in users with that exposure.",
+        "B": "Epstein-Barr virus is characteristically associated with nasopharyngeal carcinoma rather than tonsillar squamous cell carcinoma.",
+        "C": "Squamous cell carcinoma arising in the oropharynx, particularly the tonsil and tongue base, is strongly associated with human papillomavirus type 16, and these tumors often occur in younger patients without heavy tobacco or alcohol exposure.",
+        "D": "Human papillomavirus type 6 is a low-risk type causing condylomas and recurrent respiratory papillomatosis.",
+        "E": "Wood dust exposure is linked to sinonasal adenocarcinoma rather than oropharyngeal squamous cell carcinoma."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-003",
+      "question": "Two patients are seen in an oral medicine clinic. Patient 1 has a solitary white plaque on the buccal mucosa that cannot be scraped off; biopsy shows hyperkeratosis over epithelial hyperplasia with mild dysplasia. Patient 2 has a solitary red velvety plaque on the floor of the mouth. Which statement comparing these lesions is most accurate?",
+      "answers": {
+        "A": "The red lesion carries roughly a 50% risk of carcinoma, far higher than the white lesion",
+        "B": "The red lesion is benign inflammation while the white lesion is premalignant",
+        "C": "The white lesion carries roughly a 50% risk of carcinoma, far higher than the red lesion",
+        "D": "The white lesion is red because of angiogenesis within the plaque",
+        "E": "The two lesions carry equal risk and are managed identically"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Erythroplakia harbors more severe dysplasia and carries roughly a 50 percent risk of carcinoma in situ or invasive carcinoma, whereas leukoplakia carries only about a 5 percent risk.",
+        "B": "Erythroplakia is decidedly premalignant and is the more worrisome of the two lesions.",
+        "C": "This reverses the risks associated with the two clinical appearances.",
+        "D": "The white lesion appears white because of hyperkeratosis; angiogenesis explains the red color of erythroplakia.",
+        "E": "The marked difference in malignant potential means they are not managed the same way."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-004",
+      "question": "A 70-year-old woman with alcohol use disorder has a nonhealing reddish ulcer on the tongue. Biopsy shows abnormal maturation of squamous cells with hyperchromasia, pleomorphism, and high nuclear-to-cytoplasmic ratios extending through the full thickness of the epithelium. The basement membrane is intact and the submucosa is unremarkable. Which diagnosis is most accurate?",
+      "answers": {
+        "A": "Hyperkeratosis without dysplasia",
+        "B": "Invasive squamous cell carcinoma",
+        "C": "Mild squamous dysplasia",
+        "D": "Reactive atypia from chronic irritation",
+        "E": "Squamous cell carcinoma in situ"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Hyperkeratosis alone lacks the cytologic atypia and disordered maturation described.",
+        "B": "Invasion requires breach of the basement membrane with tumor nests in the submucosa, and both are explicitly absent.",
+        "C": "Mild dysplasia involves only the lower third of the epithelium rather than its full thickness.",
+        "D": "Reactive atypia retains surface maturation and lacks marked pleomorphism throughout the epithelium.",
+        "E": "Full-thickness disordered maturation with cytologic atypia and an intact basement membrane defines carcinoma in situ, and progression to invasive squamous cell carcinoma is the principal concern."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-005",
+      "question": "A pathologist examines a resection specimen from the larynx of a 64-year-old smoker. Which combination of microscopic findings would best support a diagnosis of well-differentiated squamous cell carcinoma?",
+      "answers": {
+        "A": "Glandular structures with intracytoplasmic mucin and signet ring cells",
+        "B": "Keratin pearls with intercellular bridges and a dense inflammatory infiltrate",
+        "C": "Nests of small blue cells with rosettes and scant cytoplasm",
+        "D": "Spindled cells in fascicles with abundant intercellular collagen",
+        "E": "Syncytial sheets of undifferentiated cells with abundant lymphocytes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Mucin production and signet ring morphology indicate adenocarcinoma rather than squamous differentiation.",
+        "B": "Invasive nests of cells with glassy eosinophilic cytoplasm forming whorled keratin pearls, with visible intercellular bridges corresponding to desmosomes, and a brisk stromal inflammatory response are the hallmark features of squamous cell carcinoma.",
+        "C": "Small blue cells with rosettes suggest a neuroendocrine or neuroectodermal tumor.",
+        "D": "Fascicles of spindle cells suggest a mesenchymal neoplasm.",
+        "E": "Syncytial undifferentiated cells with a lymphoid infiltrate describe nonkeratinizing undifferentiated nasopharyngeal carcinoma."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-006",
+      "question": "A 61-year-old man has a T2 squamous cell carcinoma of the oral tongue with a single ipsilateral cervical node and no distant metastasis. He is medically fit and the tumor is resectable. Which management approach is most appropriate as first-line therapy?",
+      "answers": {
+        "A": "Chemotherapy alone as the standard first-line modality",
+        "B": "Immunotherapy alone with checkpoint blockade",
+        "C": "Observation with serial imaging until progression",
+        "D": "Resection of the primary with cervical lymph node dissection",
+        "E": "Systemic chemotherapy followed by observation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Chemotherapy is not a routine first-line treatment for head and neck squamous cell carcinoma.",
+        "B": "Checkpoint inhibitors are reserved for recurrent or metastatic disease rather than resectable primary tumors.",
+        "C": "Observation forfeits the chance for cure in a resectable cancer with nodal disease.",
+        "D": "When feasible, surgery is the primary treatment and includes resection of the primary tumor together with a cervical lymph node dissection, with radiation used when surgery is not feasible or sometimes as the preferred first modality.",
+        "E": "Chemotherapy followed by observation omits definitive local therapy."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-007",
+      "question": "A 48-year-old man who emigrated from southern China presents with 4 months of nasal obstruction, epistaxis, and a firm posterior cervical node. His audiologic evaluation is shown. Nasopharyngoscopy reveals a mass in the nasopharynx. Which virus is most strongly associated with this tumor?",
+      "table": [
+        [
+          "Study",
+          "Right ear",
+          "Left ear"
+        ],
+        [
+          "Air conduction threshold",
+          "15 dB",
+          "40 dB"
+        ],
+        [
+          "Bone conduction threshold",
+          "12 dB",
+          "12 dB"
+        ],
+        [
+          "Tympanogram",
+          "Type A",
+          "Type B, flat"
+        ],
+        [
+          "Otoscopy",
+          "Normal",
+          "Amber fluid behind drum"
+        ]
+      ],
+      "answers": {
+        "A": "Cytomegalovirus",
+        "B": "Epstein-Barr virus",
+        "C": "Human herpesvirus 8",
+        "D": "Human papillomavirus type 16",
+        "E": "Merkel cell polyomavirus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cytomegalovirus causes congenital infection and disease in immunocompromised hosts rather than nasopharyngeal carcinoma.",
+        "B": "Nasopharyngeal carcinoma is strongly associated with Epstein-Barr virus and is endemic in southern China, Southeast Asia, North Africa, and the Arctic, with additional risk from smoking, dietary nitrosamines in cured and preserved foods, and certain HLA types.",
+        "C": "Human herpesvirus 8 causes Kaposi sarcoma and primary effusion lymphoma.",
+        "D": "Human papillomavirus type 16 is associated with oropharyngeal rather than nasopharyngeal carcinoma.",
+        "E": "Merkel cell polyomavirus causes Merkel cell carcinoma of the skin."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-008",
+      "question": "The same 48-year-old man is found to have a unilateral serous middle ear effusion with a conductive hearing loss on the side of his nasopharyngeal tumor. Which anatomic relationship explains this finding?",
+      "answers": {
+        "A": "The facial nerve traverses the middle ear and is compressed by the tumor",
+        "B": "The eustachian tube opens on the lateral wall of the nasopharynx",
+        "C": "The internal carotid artery transmits tumor emboli to the cochlea",
+        "D": "The maxillary sinus drains through the middle ear cleft",
+        "E": "The pharyngobasilar fascia connects the tympanic cavity to the palate"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The facial nerve does course through the temporal bone, but its compression would cause facial weakness rather than an effusion.",
+        "B": "The eustachian tube connects the middle ear cavity to the lateral wall of the nasopharynx, so a nasopharyngeal mass obstructing the tube prevents middle ear ventilation and drainage, producing a unilateral serous effusion with conductive loss.",
+        "C": "The carotid does not seed the cochlea, and this mechanism would produce sensorineural rather than conductive loss.",
+        "D": "The maxillary sinus drains into the middle meatus of the nasal cavity, not through the middle ear.",
+        "E": "The pharyngobasilar fascia is a supporting layer of the pharyngeal wall and does not create a conduit for effusion."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-009",
+      "question": "A 14-year-old boy has 6 months of progressive left nasal obstruction and recurrent, often profuse epistaxis. Nasopharyngoscopy shows a large lobulated vascular mass filling the nasopharynx, and imaging shows bowing of the posterior maxillary wall with extension into the pterygopalatine fossa. Which diagnosis is most likely?",
+      "answers": {
+        "A": "Esthesioneuroblastoma",
+        "B": "Inverted papilloma",
+        "C": "Nasopharyngeal angiofibroma",
+        "D": "Nasopharyngeal carcinoma",
+        "E": "Rhabdomyosarcoma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Esthesioneuroblastoma arises from olfactory epithelium high in the nasal vault and typically causes anosmia.",
+        "B": "Inverted papilloma occurs in middle-aged adults on the lateral nasal wall and is not markedly vascular.",
+        "C": "Juvenile nasopharyngeal angiofibroma occurs almost exclusively in adolescent males and presents with nasal obstruction and heavy epistaxis, and although benign it is locally aggressive, extending into the paranasal sinuses, pterygopalatine fossa, orbit, or middle cranial fossa.",
+        "D": "Nasopharyngeal carcinoma occurs in older patients and typically presents with a neck node and middle ear effusion rather than torrential epistaxis in a teenager.",
+        "E": "Rhabdomyosarcoma is a pediatric sarcoma that is not characteristically hypervascular with recurrent epistaxis."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-010",
+      "question": "The tumor in the same 14-year-old boy is found to express androgen receptor by immunohistochemistry, and angiography shows a dominant feeding vessel arising from a branch of the external carotid artery. Which vessel is most likely to be the feeder, and which additional association should prompt further evaluation?",
+      "answers": {
+        "A": "Facial artery; association with neurofibromatosis type 1",
+        "B": "Internal carotid artery; association with von Hippel-Lindau disease",
+        "C": "Maxillary artery; association with familial adenomatous polyposis",
+        "D": "Ophthalmic artery; association with Peutz-Jeghers syndrome",
+        "E": "Superior thyroid artery; association with multiple endocrine neoplasia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The facial artery supplies the face and is not the typical dominant feeder, and neurofibromatosis is not associated with this tumor.",
+        "B": "The internal carotid supplies these lesions only occasionally, and von Hippel-Lindau disease is associated with hemangioblastomas and renal cell carcinoma.",
+        "C": "The maxillary artery is the usual feeding vessel, and patients with familial adenomatous polyposis due to APC mutations have an increased risk of juvenile nasopharyngeal angiofibroma, which warrants attention to family and colonic history.",
+        "D": "The ophthalmic artery arises from the internal carotid and supplies the orbit, and Peutz-Jeghers syndrome is unrelated.",
+        "E": "The superior thyroid artery supplies the thyroid and larynx, and multiple endocrine neoplasia is unrelated to this tumor."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-011",
+      "question": "A head and neck surgeon reviews a series of salivary gland tumors from her practice. Which statement about the distribution and behavior of these tumors is most accurate?",
+      "answers": {
+        "A": "Most arise in the parotid, and most parotid tumors are benign",
+        "B": "Most arise in the parotid, and most parotid tumors are malignant",
+        "C": "Most arise in the sublingual gland, where most are benign",
+        "D": "Most arise in the submandibular gland, where most are malignant",
+        "E": "Tumors are distributed equally among the major and minor glands"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "About 65 to 80 percent of salivary gland tumors arise in the parotid, and only a minority of those, roughly 15 to 30 percent, are malignant, whereas tumors of the smaller glands are less common but proportionally more often malignant.",
+        "B": "Malignancy is the exception rather than the rule in the parotid.",
+        "C": "The sublingual gland is an uncommon site, and tumors there are more often malignant.",
+        "D": "The submandibular gland is a less common site than the parotid, though malignancy is proportionally more frequent there.",
+        "E": "The distribution is heavily weighted toward the parotid."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-012",
+      "question": "A 49-year-old woman has a painless, firm, slightly lumpy 4-cm mass anterior to the left ear that has enlarged slowly over 3 years. Facial movement is symmetric and there is no lymphadenopathy. Which diagnosis is most likely?",
+      "answers": {
+        "A": "Adenoid cystic carcinoma",
+        "B": "Mucoepidermoid carcinoma",
+        "C": "Pleomorphic adenoma",
+        "D": "Sialolithiasis with chronic sialadenitis",
+        "E": "Warthin tumor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Adenoid cystic carcinoma classically causes pain from perineural invasion and often facial nerve dysfunction.",
+        "B": "Mucoepidermoid carcinoma is the most common salivary malignancy but is less common overall than pleomorphic adenoma and more often produces infiltrative or symptomatic disease.",
+        "C": "Pleomorphic adenoma is the most common salivary gland tumor overall, usually arises in the parotid in middle age, and presents as a slowly growing painless bosselated mass with an intact facial nerve.",
+        "D": "Sialolithiasis produces painful postprandial swelling rather than a persistent firm mass.",
+        "E": "Warthin tumor is more common in older male smokers and is characteristically cystic and often bilateral."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-013",
+      "question": "The mass from the same 49-year-old woman is excised. Grossly it is a well-circumscribed bosselated nodule with a capsule that is thin or absent in a few focal areas. Which consequence does this gross finding predict?",
+      "answers": {
+        "A": "A high likelihood of cervical nodal metastasis",
+        "B": "A high likelihood of distant metastasis to lung",
+        "C": "A significant risk of local recurrence, especially after enucleation",
+        "D": "An excellent prognosis with no risk of recurrence after any excision",
+        "E": "Certain transformation to carcinoma within 5 years"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Nodal metastasis is a feature of malignant tumors and would not be expected from a benign mixed tumor.",
+        "B": "Distant metastasis is not characteristic of pleomorphic adenoma.",
+        "C": "Focal areas of thin or absent capsule allow small tumor extensions to be left behind, which is why enucleation carries a substantial recurrence risk compared with a more generous resection.",
+        "D": "Recurrence is in fact a well-recognized problem with this tumor, particularly with limited excision.",
+        "E": "Malignant transformation can occur but is uncommon and is certainly not inevitable."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-014",
+      "question": "Microscopic examination of the same parotid tumor shows a mixture of tubular structures lined by cells with abundant eosinophilic cytoplasm, smaller spindled cells scattered through the stroma and surrounding the tubules, and a background matrix that is variably fibrillary, myxoid, and cartilage-like. Which cell type accounts for the spindled component?",
+      "answers": {
+        "A": "Chondrocytes entrapped from adjacent cartilage",
+        "B": "Ductal epithelial cells undergoing squamous metaplasia",
+        "C": "Fibroblasts recruited by the tumor from surrounding stroma",
+        "D": "Lymphocytes infiltrating the tumor stroma",
+        "E": "Myoepithelial cells derived from the neoplastic proliferation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The chondroid appearance is produced by tumor-derived matrix rather than by entrapped native cartilage.",
+        "B": "Squamous metaplasia may occasionally occur but does not account for the spindled stromal population.",
+        "C": "The spindled cells are part of the neoplasm rather than reactive host fibroblasts.",
+        "D": "A prominent lymphoid population characterizes Warthin tumor, not pleomorphic adenoma.",
+        "E": "Pleomorphic adenoma is a biphasic tumor of epithelial ductal cells and neoplastic myoepithelial cells, and the myoepithelial component produces the characteristic fibrillary, myxoid, and chondroid stroma."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-015",
+      "question": "A molecular laboratory profiles a series of benign parotid tumors and finds recurrent chromosomal rearrangements that place a transcription factor gene under a strong promoter, resulting in its overexpression and upregulation of growth pathways. Which genes are most likely involved?",
+      "answers": {
+        "A": "APC and CTNNB1",
+        "B": "BRAF and NRAS",
+        "C": "MECT1 and MAML2",
+        "D": "PLAG1 and HMGA2",
+        "E": "RB1 and TP53"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "APC mutation is associated with familial adenomatous polyposis and with juvenile nasopharyngeal angiofibroma rather than with pleomorphic adenoma.",
+        "B": "BRAF and NRAS mutations characterize melanoma and thyroid carcinoma.",
+        "C": "The MECT1-MAML2 fusion characterizes mucoepidermoid carcinoma, which is malignant.",
+        "D": "Pleomorphic adenoma is associated with rearrangements involving PLAG1 or HMGA2, transcription factors that become overexpressed and drive cell growth pathways.",
+        "E": "RB1 and TP53 are tumor suppressors inactivated in many cancers but are not the defining lesions here."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-016",
+      "question": "A 58-year-old man with a 40-pack-year smoking history has painless enlargement of both parotid glands. He is afebrile and well, and his measles-mumps-rubella vaccination is documented. Imaging shows well-circumscribed masses in both glands containing multiple cystic spaces. Fine-needle aspiration findings are shown. Which diagnosis is most likely?",
+      "table": [
+        [
+          "Aspirate finding",
+          "Description"
+        ],
+        [
+          "Gross fluid",
+          "Turbid brown, with cholesterol crystals"
+        ],
+        [
+          "Epithelial cells",
+          "Sheets covering fibrovascular cores"
+        ],
+        [
+          "Epithelial arrangement",
+          "Superficial columnar over basal cuboidal layer"
+        ],
+        [
+          "Background",
+          "Abundant lymphocytes with germinal center fragments"
+        ]
+      ],
+      "answers": {
+        "A": "Acute suppurative parotitis",
+        "B": "Mucoepidermoid carcinoma",
+        "C": "Mumps parotitis",
+        "D": "Pleomorphic adenoma",
+        "E": "Warthin tumor"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Suppurative parotitis produces a tender, erythematous, febrile presentation with purulent drainage.",
+        "B": "Mucoepidermoid carcinoma shows epidermoid, mucous, and intermediate cells rather than a double-layered oncocytic epithelium on lymphoid stroma.",
+        "C": "Mumps causes acute painful bilateral swelling in an ill patient and would not produce discrete cystic masses on imaging, and he is vaccinated.",
+        "D": "Pleomorphic adenoma is solid with chondromyxoid stroma and is rarely bilateral or cystic.",
+        "E": "Warthin tumor is strongly associated with smoking, occurs in older men, is frequently multifocal or bilateral, and shows papillae of two-layered oncocytic epithelium over fibrovascular cores set in a lymphoid stroma with germinal centers and cystic fluid containing cholesterol crystals."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-017",
+      "question": "A 44-year-old woman has a 2-cm parotid mass. Excision shows a partly circumscribed lesion with invasive foci and cystic spaces filled with mucus. Microscopically there are nests of stratified squamous-appearing cells, cells with bubbly basophilic cytoplasm lining the cysts, and smaller round cells with central nuclei. Which diagnosis is most likely?",
+      "answers": {
+        "A": "Acinic cell carcinoma",
+        "B": "Adenoid cystic carcinoma",
+        "C": "Mucoepidermoid carcinoma",
+        "D": "Pleomorphic adenoma",
+        "E": "Warthin tumor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Acinic cell carcinoma consists of cells resembling serous acinar cells with granular basophilic cytoplasm and lacks a distinct epidermoid component.",
+        "B": "Adenoid cystic carcinoma shows a cribriform pattern of basaloid cells with pseudocysts and prominent perineural invasion.",
+        "C": "The triad of epidermoid cells, mucus-producing cells lining cystic spaces, and intermediate cells defines mucoepidermoid carcinoma, the most common salivary gland malignancy.",
+        "D": "Pleomorphic adenoma has ductal and myoepithelial cells in chondromyxoid stroma without mucus cells or invasion.",
+        "E": "Warthin tumor has oncocytic papillae on lymphoid stroma and is benign."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-018",
+      "question": "Molecular testing on the tumor from the same 44-year-old woman identifies a balanced translocation between chromosomes 11 and 19 that creates a fusion gene. Which pathways are dysregulated by this fusion?",
+      "answers": {
+        "A": "Hedgehog and patched receptor signaling",
+        "B": "Notch and cyclic adenosine monophosphate-dependent signaling",
+        "C": "Receptor tyrosine kinase and RAS-MAPK signaling",
+        "D": "Transforming growth factor beta and SMAD signaling",
+        "E": "Wnt and beta-catenin signaling"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hedgehog pathway activation characterizes basal cell carcinoma and medulloblastoma.",
+        "B": "The t(11;19) translocation in mucoepidermoid carcinoma generates the MECT1-MAML2 fusion, which perturbs Notch and cyclic adenosine monophosphate-dependent signaling and thereby alters proliferation and differentiation.",
+        "C": "RAS-MAPK activation is central to many carcinomas but is not the consequence of this specific fusion.",
+        "D": "Transforming growth factor beta signaling defects are seen in pancreatic and colorectal cancers.",
+        "E": "Wnt pathway activation follows APC or CTNNB1 mutation in colorectal neoplasia."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-019",
+      "question": "A 60-year-old man with a parotid mass develops complete weakness of the right side of his face, including inability to raise the right eyebrow and to close the right eye, along with drooping of the right corner of the mouth. Which conclusion is best supported?",
+      "answers": {
+        "A": "The mass has involved the facial nerve as it passes through the parotid gland",
+        "B": "The mass has invaded the internal capsule through perineural spread",
+        "C": "The mass has produced a supranuclear lesion of the corticobulbar tract",
+        "D": "The weakness is unrelated to the mass and reflects a hemispheric stroke",
+        "E": "The weakness reflects trigeminal motor involvement by the tumor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The branches of the facial nerve pass directly through the substance of the parotid gland, so a tumor there can compress or invade them, and involvement of the entire ipsilateral half of the face, including the forehead, marks this as a lower motor neuron lesion rather than a central process.",
+        "B": "Perineural spread does not reach the internal capsule, and a capsular lesion would spare the forehead.",
+        "C": "A supranuclear lesion produces contralateral lower facial weakness with forehead sparing.",
+        "D": "Attributing the deficit to a coincidental stroke ignores both the mass and the forehead involvement.",
+        "E": "The trigeminal nerve supplies the muscles of mastication, not facial expression."
+      }
+    },
+    {
+      "id": "neuro-tumors-of-the-head-and-neck-020",
+      "question": "A 52-year-old woman presents with a nonhealing ulcerated nodule on the hard palate that has been present for 4 months and does not respond to antibiotics. She has never smoked. Which principle should guide the surgeon's expectation about this lesion compared with a similar-sized parotid mass?",
+      "answers": {
+        "A": "Minor salivary gland tumors are less common but more often malignant",
+        "B": "Minor salivary gland tumors are less common and almost always benign",
+        "C": "Minor salivary gland tumors are more common and almost always benign",
+        "D": "Palatal lesions are almost never of salivary origin",
+        "E": "Palatal tumors carry the same likelihood of malignancy as parotid tumors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Tumors of the minor salivary glands embedded in the oral and oropharyngeal mucosa are far less common than parotid tumors but carry a substantially higher proportion of malignancy, so a palatal salivary mass warrants biopsy and a high index of suspicion.",
+        "B": "Assuming benignity in a minor gland lesion is the opposite of the correct clinical posture.",
+        "C": "The parotid is by far the most common site of salivary neoplasia.",
+        "D": "The palate contains abundant minor salivary glands and is a classic site for their tumors.",
+        "E": "The likelihood of malignancy differs substantially between these sites."
+      }
+    }
+  ]
+}
