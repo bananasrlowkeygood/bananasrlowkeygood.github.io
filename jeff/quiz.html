@@ -677,9 +677,10 @@
   <button type="button" id="hlDel">remove</button>
 </div>
 
+<script src="gate.js"></script>
 <script>
   // Files in a block folder that describe it rather than hold questions.
-  const MANIFESTS = ['index.json', 'weeks.json'];
+  const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
 
   const params  = new URLSearchParams(location.search);
   const block   = params.get('block') || '';
@@ -797,9 +798,8 @@
 
     try {
       if (lecture) {
-        const r = await fetch(`${block}/${lecture}?t=${Date.now()}`);
-        if (!r.ok) throw new Error('not found');
-        const data = await r.json();
+        const data = await GATE.getJSON(`${block}/${lecture}?t=${Date.now()}`);
+        if (!data) throw new Error('not found');
         questions = data.questions || [];
         document.getElementById('topSubtitle').textContent = data.lecture || lecture;
       } else {
@@ -807,9 +807,8 @@
 
         if (week) {
           // A week names its own lectures, so this path skips the GitHub API.
-          const wr = await fetch(`${block}/weeks.json?t=${Date.now()}`);
-          if (!wr.ok) throw new Error('this block has no weeks');
-          const wd = await wr.json();
+          const wd = await GATE.getJSON(`${block}/weeks.json?t=${Date.now()}`);
+          if (!wd) throw new Error('this block has no weeks');
           const w = (wd.weeks || []).find(x => String(x.id) === week);
           if (!w) throw new Error(`no week "${week}" in this block`);
           files = w.lectures || [];
@@ -825,9 +824,8 @@
 
         if (!files.length) { show(`no questions in this ${week ? 'week' : 'block'} yet.`); return; }
         const all = await Promise.all(files.map(async name => {
-          const r = await fetch(`${block}/${name}?t=${Date.now()}`);
-          if (!r.ok) return [];
-          const d = await r.json();
+          const d = await GATE.getJSON(`${block}/${name}?t=${Date.now()}`);
+          if (!d) return [];
           return (d.questions || []).map(q => ({ ...q, _lecture: d.lecture }));
         }));
         questions = all.flat();
@@ -1483,7 +1481,9 @@
     if (idx >= 0 && idx < letters.length) { e.preventDefault(); selectAnswer(letters[idx]); }
   });
 
-  load();
+  // Nothing is fetched until the puzzle is answered — and nothing that comes
+  // back is readable without the key it produces.
+  GATE.ready().then(load);
 </script>
 </body>
 </html>
