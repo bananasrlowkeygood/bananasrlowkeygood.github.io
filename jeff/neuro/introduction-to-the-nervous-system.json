@@ -1,5 +1,470 @@
 {
-  "v": 1,
-  "iv": "osTA5aR3DEgoj+Uj",
-  "ct": "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"
+  "lecture": "Introduction to the Nervous System",
+  "block": "neuro",
+  "generated": "2026-08-04",
+  "questions": [
+    {
+      "id": "neuro-introduction-to-the-nervous-system-001",
+      "question": "A 28-year-old man is brought to the emergency department after a knife wound to the back. On examination he has complete loss of sensation in a horizontal band of skin on the right side of his trunk, but strength in the trunk and both legs is fully preserved and reflexes are normal. Injury to which structure best explains these findings?",
+      "answers": {
+        "A": "Anterior white commissure",
+        "B": "Dorsal root",
+        "C": "Intermediate zone",
+        "D": "Ventral horn",
+        "E": "Ventral root"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior white commissure carries crossing pain and temperature fibers, so a lesion there produces bilateral rather than unilateral dermatomal loss.",
+        "B": "Dorsal roots carry only sensory (afferent) fibers into the cord, so isolated section causes dermatomal sensory loss with preserved motor function.",
+        "C": "The intermediate zone contains interneurons, and isolated damage would not produce a clean dermatomal sensory band.",
+        "D": "The ventral horn houses motor neuron cell bodies, so a lesion there would cause weakness rather than pure sensory loss.",
+        "E": "Ventral roots carry only motor (efferent) fibers, so damage would cause weakness with intact sensation."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-002",
+      "question": "A 4-year-old unvaccinated child develops fever followed by rapidly progressive weakness of the right leg. On examination the limb is flaccid and areflexic, but light touch, pinprick, and vibration sensation are entirely normal. The responsible pathogen selectively destroys which structure?",
+      "answers": {
+        "A": "Dorsal horn",
+        "B": "Dorsal root ganglion",
+        "C": "Lateral funiculus",
+        "D": "Ventral horn",
+        "E": "Ventral root"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal horn processes incoming sensory information, so its destruction would impair sensation, which is intact here.",
+        "B": "The dorsal root ganglion contains sensory neuron cell bodies, so loss would produce sensory deficits rather than pure weakness.",
+        "C": "The lateral funiculus carries descending motor tracts, but the viral tropism in this disease targets motor cell bodies, not white matter.",
+        "D": "Anterior (ventral) horn motor neuron cell bodies are selectively destroyed, producing flaccid, areflexic weakness with preserved sensation.",
+        "E": "The ventral root carries motor axons, but the pathogen destroys the neuron cell bodies within the cord rather than the roots."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-003",
+      "question": "A surgeon planning a midline approach to the lumbar spine wants to avoid denervating the deep intrinsic muscles that extend the vertebral column. These muscles, along with the skin overlying them, are supplied by which structure?",
+      "answers": {
+        "A": "Dorsal ramus",
+        "B": "Dorsal root",
+        "C": "Gray ramus communicans",
+        "D": "Ventral ramus",
+        "E": "Ventral root"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Dorsal (posterior) rami supply motor fibers to the intrinsic back muscles and sensory fibers to the overlying dermatomes.",
+        "B": "The dorsal root carries only sensory fibers and cannot supply motor innervation to muscle.",
+        "C": "The gray ramus communicans carries postganglionic sympathetic fibers, not somatic motor supply to back muscles.",
+        "D": "Ventral rami supply the limbs, body wall, and viscera rather than the intrinsic muscles of the back.",
+        "E": "The ventral root carries only motor fibers and does not independently supply a dermatome."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-004",
+      "question": "A 67-year-old woman suddenly develops weakness of her right hand and arm. Sensation is intact, and there is no visual or language deficit. Her vital signs are shown, and imaging reveals a small infarct. The lesion is most likely located in which region?",
+      "table": [
+        [
+          "Vital",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "186/104 mm Hg",
+          "~120/80 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "88/min",
+          "60-100/min"
+        ]
+      ],
+      "answers": {
+        "A": "Left postcentral gyrus",
+        "B": "Left precentral gyrus",
+        "C": "Right precentral gyrus",
+        "D": "Right prefrontal cortex",
+        "E": "Right primary visual cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The postcentral gyrus mediates somatosensation, so a lesion would cause sensory loss, which is absent here.",
+        "B": "The primary motor cortex of the precentral gyrus controls the contralateral body, so right-arm weakness localizes to the left precentral gyrus.",
+        "C": "The right precentral gyrus controls the left side of the body, not the right.",
+        "D": "The prefrontal cortex governs personality and executive function, not primary motor control of the hand.",
+        "E": "The primary visual cortex processes vision, so a lesion would cause a visual field defect, not weakness."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-005",
+      "question": "A 42-year-old railway worker survives a penetrating injury to the anterior part of his frontal lobes. His strength, sensation, coordination, and language are unchanged, but his family reports that he has become impulsive, socially inappropriate, and unable to plan ahead. Damage to which region best accounts for this change?",
+      "answers": {
+        "A": "Hippocampus",
+        "B": "Precentral gyrus",
+        "C": "Prefrontal cortex",
+        "D": "Primary somatosensory cortex",
+        "E": "Supplementary motor area"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The hippocampus supports memory formation, so damage causes amnesia rather than personality change.",
+        "B": "The precentral gyrus initiates movement, so a lesion would produce contralateral weakness.",
+        "C": "The prefrontal cortex governs personality, behavior, decision-making, and working memory, matching the described change.",
+        "D": "The primary somatosensory cortex mediates sensation, so damage would cause a sensory deficit.",
+        "E": "The supplementary motor area helps plan movement, so a lesion affects motor sequencing, not social behavior."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-006",
+      "question": "A 59-year-old man reports that he cannot feel objects placed in his left hand and has trouble localizing touch on the left side of his body. Strength is normal and he has no visual field defect. The responsible lesion is most likely in which structure?",
+      "answers": {
+        "A": "Left postcentral gyrus",
+        "B": "Left precentral gyrus",
+        "C": "Right postcentral gyrus",
+        "D": "Right precentral gyrus",
+        "E": "Right superior temporal gyrus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The left postcentral gyrus processes sensation from the right body, not the left.",
+        "B": "The left precentral gyrus controls right-sided movement and would cause weakness, not sensory loss.",
+        "C": "The primary somatosensory cortex in the right postcentral gyrus receives input from the contralateral (left) body, explaining left-sided sensory loss.",
+        "D": "The right precentral gyrus controls left-sided movement, so a lesion would cause weakness rather than numbness.",
+        "E": "The superior temporal gyrus houses auditory cortex, so a lesion would affect hearing, not somatic sensation."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-007",
+      "question": "A 71-year-old right-handed man has a stroke that leaves him unable to understand spoken language or produce meaningful speech, though he can still recognize faces and interpret the emotional tone of music. According to the hemispheric division of function, the infarct most likely involves which structure?",
+      "answers": {
+        "A": "Left cerebellar hemisphere",
+        "B": "Left parietal and temporal cortex",
+        "C": "Right occipital cortex",
+        "D": "Right parietal and temporal cortex",
+        "E": "Right prefrontal cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The cerebellum coordinates movement and is not the seat of language comprehension.",
+        "B": "In most people the left hemisphere handles language and fine detail, so left temporoparietal injury impairs language.",
+        "C": "The right occipital cortex processes vision, so a lesion would cause a visual field defect.",
+        "D": "The right hemisphere specializes in abstract and emotional processing, not the language deficits described.",
+        "E": "The right prefrontal cortex mediates behavior and emotion rather than language comprehension."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-008",
+      "question": "A 68-year-old woman develops sudden weakness and sensory loss that are much more severe in her right leg than in her right arm or face. Language and vision are intact. Occlusion of which artery best explains this pattern?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Left posterior cerebral artery",
+        "D": "Right anterior cerebral artery",
+        "E": "Right middle cerebral artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial hemisphere, where the leg is represented on the homunculus, so occlusion causes contralateral leg-predominant deficits.",
+        "B": "The middle cerebral artery supplies the lateral surface, producing face- and arm-predominant deficits.",
+        "C": "The posterior cerebral artery supplies the occipital lobe, causing visual field loss rather than leg weakness.",
+        "D": "The right anterior cerebral artery would cause left-sided leg weakness, not right.",
+        "E": "The right middle cerebral artery would affect the left face and arm, not the right leg."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-009",
+      "question": "A 74-year-old man suddenly develops weakness of the right side of his face and right arm, with the leg relatively spared, along with difficulty producing speech. Occlusion of which artery is most likely responsible?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Right anterior cerebral artery",
+        "D": "Right middle cerebral artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial surface and would cause leg-predominant weakness.",
+        "B": "The middle cerebral artery supplies the lateral convexity (face and arm somatotopy) and the language areas, matching the deficits.",
+        "C": "The right anterior cerebral artery would cause left leg weakness, not right face and arm.",
+        "D": "The right middle cerebral artery would affect the left face and arm, opposite to the findings.",
+        "E": "The posterior cerebral artery supplies visual cortex, causing field defects rather than face and arm weakness."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-010",
+      "question": "After a surgical procedure that removed medial structures of both temporal lobes, a patient is left unable to form any new long-term memories, although his older memories, intelligence, and motor skills are preserved. Bilateral loss of which structure explains this outcome?",
+      "answers": {
+        "A": "Amygdala",
+        "B": "Calcarine cortex",
+        "C": "Hippocampus",
+        "D": "Precentral gyrus",
+        "E": "Thalamus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The amygdala processes emotional salience, so bilateral loss affects fear responses more than new memory formation.",
+        "B": "The calcarine cortex processes vision, so damage causes visual field loss, not amnesia.",
+        "C": "The hippocampus, in the medial temporal lobe, is essential for forming new declarative memories, so bilateral loss prevents new learning.",
+        "D": "The precentral gyrus initiates movement, so damage causes weakness, not memory loss.",
+        "E": "The thalamus relays sensory information, and the described selective anterograde amnesia points to the hippocampus."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-011",
+      "question": "A 55-year-old woman has a small infarct destroying the primary auditory cortex in her left superior temporal gyrus. Testing shows only a subtle change in hearing, with no significant deafness in either ear. Which feature of this cortex best explains the preserved hearing?",
+      "answers": {
+        "A": "It decussates completely in the spinal cord",
+        "B": "It is supplied only by the anterior cerebral artery",
+        "C": "It projects directly to the hippocampus",
+        "D": "It receives input from both ears",
+        "E": "It relays through the hypothalamus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Auditory pathways do not decussate in the spinal cord, and complete crossing would not preserve hearing after a cortical lesion.",
+        "B": "The temporal lobe is supplied largely by the middle cerebral artery, and blood supply does not explain preserved hearing.",
+        "C": "Auditory cortex does connect with limbic structures, but hippocampal projection does not account for spared hearing.",
+        "D": "The primary auditory cortex receives bilateral input, so a unilateral lesion leaves hearing largely intact.",
+        "E": "Auditory information does not relay through the hypothalamus."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-012",
+      "question": "A 63-year-old man awakens with loss of the right half of his visual field in both eyes. Strength, sensation, and language are normal. The lesion most likely involves the calcarine cortex supplied by which artery?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Left posterior cerebral artery",
+        "D": "Right middle cerebral artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial frontal and parietal cortex, not the visual cortex.",
+        "B": "The middle cerebral artery supplies the lateral surface and would cause face and arm deficits, not an isolated field cut.",
+        "C": "The left calcarine (primary visual) cortex processes the right visual field of both eyes, so left posterior cerebral occlusion causes a right homonymous field loss.",
+        "D": "The right middle cerebral artery would affect the left face and arm rather than vision.",
+        "E": "The right posterior cerebral artery supplies the right visual cortex, producing a left-sided field defect."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-013",
+      "question": "A patient has a lesion of the thalamus that disrupts relay of several sensory modalities to the cerebral cortex. Which sensation is least likely to be affected because it does not relay in the thalamus?",
+      "answers": {
+        "A": "Hearing",
+        "B": "Pain",
+        "C": "Smell",
+        "D": "Touch",
+        "E": "Vision"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Auditory information relays through the medial geniculate nucleus of the thalamus and would be affected.",
+        "B": "Pain ascends to the cortex via thalamic relay nuclei and would be affected.",
+        "C": "Olfaction is the only major sensory modality that reaches the cortex without a thalamic relay, so it is spared.",
+        "D": "Somatosensory (touch) information relays through the ventral posterior thalamus and would be affected.",
+        "E": "Vision relays through the lateral geniculate nucleus of the thalamus and would be affected."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-014",
+      "question": "A 30-year-old man with a tumor at the base of the brain has lost the ability to maintain a stable body temperature, has a disrupted sleep-wake cycle, and shows abnormal thirst and appetite. His vital signs fluctuate widely, as shown. Dysfunction of which structure best explains this constellation?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "34.8-39.5 C (fluctuating)",
+          "36.5-37.5 C"
+        ],
+        [
+          "Heart rate",
+          "48-120/min (variable)",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "labile",
+          "~120/80 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "Cerebellum",
+        "B": "Hippocampus",
+        "C": "Hypothalamus",
+        "D": "Pineal gland",
+        "E": "Precentral gyrus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cerebellum coordinates movement and does not regulate temperature or circadian rhythm.",
+        "B": "The hippocampus supports memory and is not responsible for autonomic or thermal homeostasis.",
+        "C": "The hypothalamus controls endocrine output, autonomic tone, temperature, circadian rhythm, and drives such as thirst and hunger.",
+        "D": "The pineal gland secretes melatonin but does not govern temperature or autonomic vital signs.",
+        "E": "The precentral gyrus initiates movement and has no homeostatic role."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-015",
+      "question": "A 46-year-old man with chronic alcohol use develops a staggering gait and, on examination, past-pointing and clumsiness of the left arm on finger-to-nose testing. Strength and sensation are normal. The lesion causing his ipsilateral incoordination is in which structure?",
+      "answers": {
+        "A": "Left cerebellar hemisphere",
+        "B": "Left precentral gyrus",
+        "C": "Right cerebellar hemisphere",
+        "D": "Right postcentral gyrus",
+        "E": "Right thalamus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The cerebellum coordinates and corrects movement for the ipsilateral body, so left-arm incoordination localizes to the left cerebellar hemisphere.",
+        "B": "The left precentral gyrus controls the contralateral (right) body and would cause weakness, not ataxia.",
+        "C": "The right cerebellar hemisphere would cause right-sided incoordination, not left.",
+        "D": "The right postcentral gyrus mediates left-sided sensation, so a lesion would cause numbness rather than ataxia.",
+        "E": "The right thalamus relays sensation to the cortex and would not selectively cause ipsilateral limb ataxia."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-016",
+      "question": "A neurosurgeon divides a large midline white matter structure to reduce the spread of intractable seizures between the two cerebral hemispheres. Which structure is being severed?",
+      "answers": {
+        "A": "Anterior commissure",
+        "B": "Corpus callosum",
+        "C": "Fornix",
+        "D": "Internal capsule",
+        "E": "Posterior commissure"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior commissure connects the two temporal lobes and carries only a small fraction of interhemispheric traffic.",
+        "B": "The corpus callosum is the largest commissure and the major connection between the hemispheres.",
+        "C": "The fornix is a limbic output tract of the hippocampus, not the main interhemispheric connection.",
+        "D": "The internal capsule carries projection fibers to and from one hemisphere, not commissural fibers between them.",
+        "E": "The posterior commissure is small and coordinates pupillary reflexes rather than large-scale interhemispheric transfer."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-017",
+      "question": "A student learns that the brainstem houses the nuclei for 9 of the 12 cranial nerves. Which cranial nerve has no nucleus located within the brainstem?",
+      "answers": {
+        "A": "Abducens",
+        "B": "Facial",
+        "C": "Optic",
+        "D": "Trigeminal",
+        "E": "Vagus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The abducens nucleus lies in the pons, within the brainstem.",
+        "B": "The facial nerve nucleus is located in the pons.",
+        "C": "The optic nerve (CN II) is a tract of the diencephalon and has no brainstem nucleus, as is also true for CN I and CN XI.",
+        "D": "The trigeminal nuclei extend through the midbrain, pons, and medulla.",
+        "E": "The vagus nerve nuclei are located in the medulla."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-018",
+      "question": "A 22-year-old man is struck at the base of the skull and, before losing consciousness, develops irregular breathing followed by cardiovascular collapse. His vital signs on arrival are shown. Injury to which region most directly threatens these vital functions?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Respiratory rate",
+          "irregular, 6/min",
+          "12-20/min"
+        ],
+        [
+          "Heart rate",
+          "38/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "72/40 mm Hg",
+          "~120/80 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "Cerebellum",
+        "B": "Corpus callosum",
+        "C": "Frontal lobe",
+        "D": "Medulla",
+        "E": "Thalamus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The cerebellum coordinates movement and does not house cardiorespiratory control centers.",
+        "B": "The corpus callosum connects the hemispheres and has no autonomic vital function.",
+        "C": "The frontal lobe governs movement and behavior, not breathing or blood pressure regulation.",
+        "D": "The medulla contains the vital cardiac, vasomotor, and respiratory centers, so injury causes cardiorespiratory failure.",
+        "E": "The thalamus relays sensory information and does not control vital autonomic functions."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-019",
+      "question": "A 60-year-old woman has a lesion confined to the dorsal (posterior) funiculus of the spinal cord on the left at the mid-thoracic level. Which deficit would be expected below the level of the lesion?",
+      "answers": {
+        "A": "Bilateral flaccid paralysis of both legs",
+        "B": "Contralateral loss of motor control",
+        "C": "Contralateral loss of pain and temperature",
+        "D": "Ipsilateral loss of ascending sensory information",
+        "E": "Ipsilateral loss of descending motor control"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal funiculus carries sensory, not motor, fibers, so bilateral paralysis would not result.",
+        "B": "Descending motor tracts travel mainly in the lateral funiculus, not the dorsal funiculus.",
+        "C": "Crossing pain and temperature fibers travel in the ventral/anterolateral cord, so a dorsal funiculus lesion spares them.",
+        "D": "The dorsal funiculus carries ascending sensory tracts that remain ipsilateral within the cord, so its lesion causes ipsilateral sensory loss below the level.",
+        "E": "Descending motor control travels in the lateral and ventral funiculi, not the dorsal funiculus."
+      }
+    },
+    {
+      "id": "neuro-introduction-to-the-nervous-system-020",
+      "question": "A 6-month-old infant has a rapidly enlarging head. Imaging shows markedly dilated lateral ventricles and third ventricle, but a normal-sized fourth ventricle. Lumbar puncture findings are shown. The obstruction is most likely located at which site?",
+      "table": [
+        [
+          "Study",
+          "Value",
+          "Reference"
+        ],
+        [
+          "CSF opening pressure",
+          "elevated",
+          "10-20 cm H2O"
+        ],
+        [
+          "CSF protein",
+          "normal",
+          "15-45 mg/dL"
+        ],
+        [
+          "CSF white cells",
+          "normal",
+          "0-5/uL"
+        ]
+      ],
+      "answers": {
+        "A": "Cerebral aqueduct",
+        "B": "Choroid plexus of the lateral ventricle",
+        "C": "Interventricular foramen (of Monro)",
+        "D": "Median aperture (of Magendie)",
+        "E": "Superior sagittal sinus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The cerebral aqueduct connects the third and fourth ventricles, so a block there dilates the lateral and third ventricles while sparing the fourth.",
+        "B": "The choroid plexus produces CSF, and blockage there would not selectively spare the fourth ventricle.",
+        "C": "A blocked interventricular foramen would dilate only the lateral ventricle(s), leaving the third ventricle normal.",
+        "D": "A blocked median aperture would also dilate the fourth ventricle, which is normal here.",
+        "E": "The superior sagittal sinus is a site of CSF resorption, so obstruction causes communicating hydrocephalus with all ventricles enlarged."
+      }
+    }
+  ]
 }
