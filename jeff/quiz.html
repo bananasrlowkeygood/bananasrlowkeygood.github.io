@@ -113,10 +113,67 @@
     }
 
     .q-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
       font-size: 0.72rem;
       color: #777;
       letter-spacing: 0.03em;
       text-transform: uppercase;
+    }
+    .q-hint { text-transform: none; letter-spacing: 0; color: #b0b0b0; }
+    @media (max-width: 620px) { .q-hint { display: none; } }
+
+    /* ── Highlighting ──
+       A highlight is a pair of character offsets into the block's plain text,
+       stored on the response record. Nothing depends on the live DOM, so a
+       highlight survives re-render, back-navigation and a refresh. */
+    mark.hl {
+      background: #ffee9c;
+      color: inherit;
+      border-radius: 2px;
+      padding: 0.06em 0;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+      cursor: pointer;
+    }
+
+    .hl-pop {
+      position: absolute;
+      display: none;
+      gap: 0.2rem;
+      z-index: 30;
+      background: #2c2733;
+      border-radius: 5px;
+      padding: 0.22rem;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+      transform: translate(-50%, calc(-100% - 7px));
+    }
+    .hl-pop.visible { display: flex; }
+    .hl-pop.below { transform: translate(-50%, 7px); }
+
+    .hl-pop button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.34rem;
+      border: none;
+      background: transparent;
+      color: #f2eefa;
+      font-family: inherit;
+      font-size: 0.76rem;
+      padding: 0.26rem 0.5rem;
+      border-radius: 3px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .hl-pop button:hover { background: #453d54; }
+    .hl-pop button[hidden] { display: none; }
+    .hl-pop .dot {
+      width: 10px; height: 10px;
+      border-radius: 2px;
+      background: #ffee9c;
+      flex-shrink: 0;
     }
 
     .q-text {
@@ -559,7 +616,10 @@
 
   <div class="card" id="quizCard" style="display:none">
     <div>
-      <div class="q-meta" id="qMeta"></div>
+      <div class="q-meta">
+        <span id="qCount"></span>
+        <span class="q-hint">select text to highlight &middot; H</span>
+      </div>
       <div class="q-text" id="qText"></div>
     </div>
 
@@ -614,6 +674,11 @@
 
 </div>
 
+<div class="hl-pop" id="hlPop" role="toolbar" aria-label="highlight">
+  <button type="button" id="hlAdd"><i class="dot"></i>highlight</button>
+  <button type="button" id="hlDel">remove</button>
+</div>
+
 <script>
   const params  = new URLSearchParams(location.search);
   const block   = params.get('block') || '';
@@ -623,14 +688,15 @@
 
   // One record per question, kept for the whole session so you can walk back
   // and forward without losing what you picked.
-  // { selected, answered, struck, flagged, skipped }
+  // { selected, answered, struck, flagged, skipped, highlights }
   let responses = [];
 
   // True while the results screen is up, so navigation knows to leave it.
   let resultsOpen = false;
 
   function response(i) {
-    if (!responses[i]) responses[i] = { selected: null, answered: false, struck: [], flagged: false, skipped: false };
+    if (!responses[i]) responses[i] = { selected: null, answered: false, struck: [], flagged: false, skipped: false, highlights: {} };
+    if (!responses[i].highlights) responses[i].highlights = {};
     return responses[i];
   }
 
@@ -643,11 +709,17 @@
     return q.id || `${q._lecture || lecture || block}|${(q.question || '').slice(0, 120)}`;
   }
 
+  // Worth writing out only if the question has something of yours on it.
+  function hasWork(r) {
+    return !!(r && (r.selected || r.answered || r.flagged || r.skipped || r.struck.length ||
+      (r.highlights && Object.keys(r.highlights).length)));
+  }
+
   function saveSession() {
     try {
       const byKey = {};
       responses.forEach((r, i) => {
-        if (r && (r.selected || r.answered || r.flagged || r.skipped || r.struck.length)) byKey[qKey(questions[i])] = r;
+        if (hasWork(r)) byKey[qKey(questions[i])] = r;
       });
       sessionStorage.setItem(STORE_KEY, JSON.stringify({
         v: 1,
@@ -688,7 +760,8 @@
         answered: !!r.answered,
         struck: Array.isArray(r.struck) ? r.struck : [],
         flagged: !!r.flagged,
-        skipped: !!r.skipped
+        skipped: !!r.skipped,
+        highlights: (r.highlights && typeof r.highlights === 'object') ? r.highlights : {}
       };
     });
 
@@ -799,11 +872,198 @@
     return { tableRows: tableLines, rest: remaining.join('\n').trim() };
   }
 
+
+  // ── Highlighting ──
+  // Highlightable blocks (the stem, each explanation) are painted from their
+  // plain source text plus a sorted, non-overlapping list of [start, end]
+  // character offsets. Selections are converted back to offsets the same way,
+  // so highlights never depend on the DOM that happens to be on screen.
+  const hlPop = document.getElementById('hlPop');
+  const hlAdd = document.getElementById('hlAdd');
+  const hlDel = document.getElementById('hlDel');
+
+  let hlSources = {};   // block key -> plain text of the block, this question
+  let hlPending = null; // { key, start, end, fromClick } the popup will act on
+  let hlTimer   = null;
+
+  function highlightsOf(i) { return response(i).highlights; }
+
+  function esc(t) {
+    return t.replace(/[&<>]/g, c => (c === '&' ? '&amp;' : c === '<' ? '&lt;' : '&gt;'));
+  }
+
+  // Paint `text` into `el`, wrapping the stored ranges in <mark>. Ranges are
+  // clamped to the text so an edited question degrades instead of breaking.
+  function paint(el, text, key) {
+    hlSources[key] = text;
+    el.dataset.hlKey = key;
+
+    const ranges = (highlightsOf(current)[key] || [])
+      .map(([a, b]) => [Math.min(a, text.length), Math.min(b, text.length)])
+      .filter(([a, b]) => b > a);
+
+    if (!ranges.length) { el.textContent = text; return; }
+
+    let html = '', pos = 0;
+    ranges.forEach(([a, b]) => {
+      if (a > pos) html += esc(text.slice(pos, a));
+      html += '<mark class="hl" data-r="' + a + ',' + b + '">' + esc(text.slice(a, b)) + '</mark>';
+      pos = Math.max(pos, b);
+    });
+    html += esc(text.slice(pos));
+    el.innerHTML = html;
+  }
+
+  function repaint(key) {
+    const el = document.querySelector('[data-hl-key="' + key + '"]');
+    if (el && hlSources[key] != null) paint(el, hlSources[key], key);
+  }
+
+  function mergeRanges(list) {
+    const out = [];
+    list.slice().sort((x, y) => x[0] - y[0]).forEach(([a, b]) => {
+      const last = out[out.length - 1];
+      if (last && a <= last[1]) last[1] = Math.max(last[1], b);
+      else out.push([a, b]);
+    });
+    return out;
+  }
+
+  function subtractRange(list, start, end) {
+    const out = [];
+    list.forEach(([a, b]) => {
+      if (b <= start || a >= end) { out.push([a, b]); return; }
+      if (a < start) out.push([a, start]);
+      if (b > end)   out.push([end, b]);
+    });
+    return out;
+  }
+
+  function overlaps(key, start, end) {
+    return (highlightsOf(current)[key] || []).some(([a, b]) => a < end && b > start);
+  }
+
+  function hlBlock(node) {
+    const el = node && (node.nodeType === 3 ? node.parentElement : node);
+    return el && el.closest ? el.closest('[data-hl-key]') : null;
+  }
+
+  // Character offset of (node, offset) within a block, counting only text.
+  function offsetIn(block, node, offset) {
+    const walk = document.createTreeWalker(block, NodeFilter.SHOW_TEXT);
+    let n, total = 0;
+    while ((n = walk.nextNode())) {
+      if (n === node) return total + offset;
+      total += n.nodeValue.length;
+    }
+    return total;
+  }
+
+  // The live selection as block-relative offsets, or null when it is collapsed,
+  // outside a highlightable block, or spread across two of them.
+  function selectionRange() {
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed || !sel.rangeCount) return null;
+
+    const range = sel.getRangeAt(0);
+    const block = hlBlock(range.startContainer);
+    if (!block || block !== hlBlock(range.endContainer)) return null;
+
+    const key  = block.dataset.hlKey;
+    const text = hlSources[key];
+    if (text == null) return null;
+
+    let start = offsetIn(block, range.startContainer, range.startOffset);
+    let end   = offsetIn(block, range.endContainer, range.endOffset);
+    if (end < start) { const t = start; start = end; end = t; }
+
+    // Trailing whitespace picked up by a drag shouldn't get a yellow tail.
+    while (start < end && /\s/.test(text[start]))  start++;
+    while (end > start && /\s/.test(text[end - 1])) end--;
+
+    return end > start ? { key, start, end } : null;
+  }
+
+  function hidePop() {
+    hlPop.classList.remove('visible');
+    hlPending = null;
+  }
+
+  function showPop(rect, canAdd, canDel) {
+    hlAdd.hidden = !canAdd;
+    hlDel.hidden = !canDel;
+    const below = rect.top < 52;
+    hlPop.classList.toggle('below', below);
+    hlPop.style.left = Math.round(rect.left + rect.width / 2 + window.scrollX) + 'px';
+    hlPop.style.top  = Math.round((below ? rect.bottom : rect.top) + window.scrollY) + 'px';
+    hlPop.classList.add('visible');
+  }
+
+  function syncPop() {
+    const sel = selectionRange();
+    if (!sel) {
+      if (!(hlPending && hlPending.fromClick)) hidePop();
+      return;
+    }
+    hlPending = sel;
+    showPop(window.getSelection().getRangeAt(0).getBoundingClientRect(),
+            true, overlaps(sel.key, sel.start, sel.end));
+  }
+
+  function applyHighlight(sel, remove) {
+    const store = highlightsOf(current);
+    const cur   = store[sel.key] || [];
+    const next  = remove ? subtractRange(cur, sel.start, sel.end)
+                         : mergeRanges(cur.concat([[sel.start, sel.end]]));
+    if (next.length) store[sel.key] = next;
+    else delete store[sel.key];
+
+    repaint(sel.key);
+    const live = window.getSelection();
+    if (live) live.removeAllRanges();
+    hidePop();
+    saveSession();
+  }
+
+  hlPop.addEventListener('mousedown', e => e.preventDefault()); // keep the selection
+  hlAdd.onclick = () => { if (hlPending) applyHighlight(hlPending, false); };
+  hlDel.onclick = () => { if (hlPending) applyHighlight(hlPending, true); };
+
+  document.addEventListener('selectionchange', () => {
+    clearTimeout(hlTimer);
+    hlTimer = setTimeout(syncPop, 80);
+  });
+
+  document.addEventListener('mousedown', e => {
+    if (!hlPop.contains(e.target)) hidePop();
+  });
+
+  // A plain click on a highlight offers to take just that one off.
+  document.addEventListener('click', e => {
+    const mark = e.target.closest && e.target.closest('mark.hl');
+    if (!mark) return;
+    const sel = window.getSelection();
+    if (sel && !sel.isCollapsed) return;
+
+    const block = hlBlock(mark);
+    const [a, b] = (mark.dataset.r || '').split(',').map(Number);
+    if (!block || !isFinite(a) || !isFinite(b)) return;
+
+    hlPending = { key: block.dataset.hlKey, start: a, end: b, fromClick: true };
+    showPop(mark.getBoundingClientRect(), false, true);
+  });
+
+  window.addEventListener('scroll', hidePop, { passive: true });
+  window.addEventListener('resize', hidePop);
+
   function render() {
     const q = questions[current];
     const resp = response(current);
 
-    document.getElementById('qMeta').textContent = `question ${current + 1} of ${questions.length}`;
+    document.getElementById('qCount').textContent = `question ${current + 1} of ${questions.length}`;
+
+    hidePop();
+    hlSources = {};
 
     const qTextEl = document.getElementById('qText');
     qTextEl.innerHTML = '';
@@ -814,14 +1074,17 @@
     // Question text first
     const p = document.createElement('p');
     p.style.cssText = 'line-height:1.75;white-space:pre-wrap;';
-    p.textContent = questionText;
+    paint(p, questionText, 'q');
     qTextEl.appendChild(p);
 
-    // Table below (structured field takes priority, then markdown)
-    if (q.table) {
-      qTextEl.innerHTML += renderTable(q.table);
-    } else if (tableRows.length) {
-      qTextEl.innerHTML += renderTable(tableRows);
+    // Table below (structured field takes priority, then markdown). Appended as
+    // its own node so building it can't re-parse the highlighted stem.
+    const tableHtml = q.table ? renderTable(q.table)
+                    : tableRows.length ? renderTable(tableRows) : '';
+    if (tableHtml) {
+      const wrap = document.createElement('div');
+      wrap.innerHTML = tableHtml;
+      qTextEl.appendChild(wrap);
     }
 
     const answersEl = document.getElementById('answers');
@@ -932,7 +1195,13 @@
     Object.entries(q.explanations || {}).forEach(([letter, text]) => {
       const div = document.createElement('div');
       div.className = 'exp-item' + (letter === q.correct ? ' correct-exp' : '');
-      div.innerHTML = `<span class="exp-letter">${letter}.</span><span>${text}</span>`;
+      const tag = document.createElement('span');
+      tag.className = 'exp-letter';
+      tag.textContent = letter + '.';
+      const body = document.createElement('span');
+      paint(body, text, 'exp:' + letter);
+      div.appendChild(tag);
+      div.appendChild(body);
       expItems.appendChild(div);
     });
     document.getElementById('explanations').classList.add('visible');
@@ -1072,6 +1341,7 @@
   syncTopbarHeight();
 
   function showResults() {
+    hidePop();
     document.getElementById('quizCard').style.display = 'none';
     updateProgress();
 
@@ -1140,6 +1410,14 @@
     if (resultsOpen) {
       if (k === 'f') { e.preventDefault(); reviewFlagged(); }
       return;
+    }
+
+    // H highlights whatever is selected (and un-highlights an already-yellow
+    // selection). With nothing selected it falls through, so a question with an
+    // H answer choice still works.
+    if (k === 'h') {
+      const sel = selectionRange();
+      if (sel) { e.preventDefault(); applyHighlight(sel, overlaps(sel.key, sel.start, sel.end)); return; }
     }
 
     if (k === 'f') { e.preventDefault(); toggleFlag(); return; }
