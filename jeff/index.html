@@ -149,6 +149,100 @@
     }
     .lecture-link:hover { background: rgba(92,79,122,0.14); }
 
+    /* ── Week groups ──
+       Weeks come from the block's weeks.json; each is a header you open. */
+    .week-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .week-head {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    /* Only the disclosure is a button — the shuffle chip sits beside it, since
+       a button can't legally contain another one. */
+    .week-toggle {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      flex: 1 1 auto;
+      min-width: 0;
+      height: auto;
+      padding: 0.35rem 0.5rem;
+      border: none;
+      border-radius: 5px;
+      background: transparent;
+      color: #14111a;
+      font-family: "Klee One", cursive;
+      font-size: 0.85rem;
+      text-align: left;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .week-toggle:hover  { background: rgba(92,79,122,0.10); }
+    .week-toggle:active { background: rgba(92,79,122,0.16); }
+
+    .week-caret {
+      font-size: 0.55rem;
+      color: #5c4f7a;
+      opacity: 0.6;
+      width: 0.7rem;
+      flex-shrink: 0;
+      transition: transform 0.15s;
+    }
+    .week-group.open .week-caret { transform: rotate(90deg); }
+
+    .week-name  { white-space: nowrap; }
+    .week-dates {
+      font-size: 0.74rem;
+      color: #5c4f7a;
+      opacity: 0.6;
+      white-space: nowrap;
+    }
+    .week-count {
+      margin-left: auto;
+      font-size: 0.72rem;
+      color: #5c4f7a;
+      opacity: 0.55;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
+    /* Narrow screens keep the name, the dates and the shuffle; the tally is
+       the first thing to go. */
+    @media (max-width: 560px) {
+      .week-count { display: none; }
+      .week-dates { margin-left: auto; }
+    }
+
+    .week-shuffle {
+      height: 22px;
+      padding: 0 9px;
+      font-size: 0.68rem;
+      border-radius: 5px;
+      flex-shrink: 0;
+      background: transparent;
+      border: 1px solid #c5bee0;
+      color: #5c4f7a;
+      transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+    }
+    .week-shuffle:hover {
+      background: #5c4f7a;
+      border-color: #5c4f7a;
+      color: #f0ecf8;
+    }
+
+    .week-lectures {
+      display: none;
+      flex-direction: column;
+      gap: 0.25rem;
+      padding: 0.15rem 0 0.4rem 1.2rem;
+    }
+    .week-group.open .week-lectures { display: flex; }
+
     .empty-msg {
       font-size: 0.8rem;
       opacity: 0.45;
@@ -169,6 +263,9 @@
   </div>
 
   <script>
+    // Files in a block folder that describe it rather than hold questions.
+    const MANIFESTS = ['index.json', 'weeks.json'];
+
     const BLOCKS = [
       { id: 'neuro',     name: 'Neurology'   },
       { id: 'endorepro', name: 'Endo / Repro' },
@@ -181,7 +278,7 @@
         const res = await fetch(apiUrl);
         if (!res.ok) return [];
         const entries = await res.json();
-        const files = entries.filter(e => e.type === 'file' && e.name.endsWith('.json') && e.name !== 'index.json').map(e => e.name);
+        const files = entries.filter(e => e.type === 'file' && e.name.endsWith('.json') && !MANIFESTS.includes(e.name)).map(e => e.name);
         const lectures = await Promise.all(files.map(async name => {
           const r = await fetch(`${block.id}/${name}?t=${Date.now()}`);
           if (!r.ok) return null;
@@ -192,11 +289,70 @@
       } catch { return []; }
     }
 
+    // The course calendar for a block, if it has one. Optional — a block with
+    // no weeks.json just shows a flat list of its lectures.
+    async function loadWeeks(block) {
+      try {
+        const r = await fetch(`${block.id}/weeks.json?t=${Date.now()}`);
+        if (!r.ok) return [];
+        const d = await r.json();
+        return Array.isArray(d.weeks) ? d.weeks : [];
+      } catch { return []; }
+    }
+
+    // Slot each lecture into its week, keeping the calendar's order. Anything
+    // the calendar doesn't mention still shows up, under its own heading, so a
+    // lecture can never go missing just because the manifest is behind.
+    function groupByWeek(lectures, weeks) {
+      const byFile = new Map(lectures.map(l => [l.file, l]));
+      const groups = [];
+
+      weeks.forEach(w => {
+        const items = (w.lectures || []).map(f => byFile.get(f)).filter(Boolean);
+        items.forEach(l => byFile.delete(l.file));
+        if (items.length) groups.push({ id: w.id, name: w.name, dates: w.dates, items });
+      });
+
+      const leftover = [...byFile.values()];
+      if (leftover.length) groups.push({ id: null, name: 'Not yet scheduled', dates: '', items: leftover });
+      return groups;
+    }
+
+    const esc = t => String(t).replace(/[&<>"]/g, c =>
+      ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+
+    function lectureLink(block, l) {
+      return `<a class="lecture-link" href="quiz.html?block=${block.id}&lecture=${encodeURIComponent(l.file)}">${esc(l.name)} (${l.count || 0} Qs)</a>`;
+    }
+
+    function weekGroup(block, g) {
+      const qs = g.items.reduce((s, l) => s + (l.count || 0), 0);
+      const shuffle = g.id
+        ? `<button class="week-shuffle" title="Shuffle every question in ${esc(g.name)}" onclick="location.href='quiz.html?block=${block.id}&week=${encodeURIComponent(g.id)}'">shuffle</button>`
+        : '';
+      return `
+        <div class="week-group">
+          <div class="week-head">
+            <button class="week-toggle" onclick="toggleWeek(this)" aria-expanded="false">
+              <span class="week-caret">&#9654;</span>
+              <span class="week-name">${esc(g.name)}</span>
+              ${g.dates ? `<span class="week-dates">${esc(g.dates)}</span>` : ''}
+              <span class="week-count">${g.items.length} lecture${g.items.length !== 1 ? 's' : ''} \u00b7 ${qs} q</span>
+            </button>
+            ${shuffle}
+          </div>
+          <div class="week-lectures">
+            ${g.items.map(l => lectureLink(block, l)).join('')}
+          </div>
+        </div>`;
+    }
+
     async function init() {
       const container = document.getElementById('blocks');
       for (const block of BLOCKS) {
-        const lectures = await loadBlock(block);
+        const [lectures, weeks] = await Promise.all([loadBlock(block), loadWeeks(block)]);
         const total = lectures.reduce((s, l) => s + (l.count || 0), 0);
+        const groups = weeks.length ? groupByWeek(lectures, weeks) : null;
 
         const card = document.createElement('div');
         card.className = 'block-card';
@@ -212,14 +368,21 @@
             </div>
           </div>
           <div class="lecture-list">
-            ${lectures.length
-              ? lectures.map(l => `<a class="lecture-link" href="quiz.html?block=${block.id}&lecture=${encodeURIComponent(l.file)}">${l.name} (${l.count || 0} Qs)</a>`).join('')
-              : '<span class="empty-msg">no lectures yet</span>'
+            ${!lectures.length
+              ? '<span class="empty-msg">no lectures yet</span>'
+              : groups
+                ? groups.map(g => weekGroup(block, g)).join('')
+                : lectures.map(l => lectureLink(block, l)).join('')
             }
           </div>
         `;
         container.appendChild(card);
       }
+    }
+
+    function toggleWeek(btn) {
+      const open = btn.closest('.week-group').classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     }
 
     function toggleLectures(btn) {
