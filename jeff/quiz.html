@@ -636,22 +636,32 @@
       75%      { transform: translate(0, -1px)   rotate(1.5deg); }
     }
 
+    /* An open-topped bucket: chips drop in over the rim and the level rises. */
     .refine-bin {
       position: relative;
-      width: min(300px, 74vw); height: 40px;
-      border: 1px solid #c5bee0; border-radius: 6px;
+      width: 128px; height: 84px;
+      border: 2px solid #c5bee0;
+      border-top: none;
+      border-radius: 0 0 16px 16px;
       background: #f0ecf8;
       overflow: hidden;
     }
-    .refine-bin-fill {
-      position: absolute; top: 0; bottom: 0; left: 0; width: 0%;
+    .refine-bin::before {
+      content: '';
+      position: absolute; top: 0; left: -2px; right: -2px;
+      height: 4px; border-radius: 2px;
       background: #c5bee0;
-      transition: width 0.25s linear;
+    }
+    .refine-bin-fill {
+      position: absolute; left: 0; right: 0; bottom: 0;
+      height: 0%;
+      background: #c5bee0;
+      transition: height 0.3s ease;
     }
     .refine-bin-label {
       position: absolute; inset: 0;
       display: flex; align-items: center; justify-content: center;
-      font-size: 0.75rem; color: #5c4f7a;
+      font-size: 1.1rem; color: #5c4f7a;
     }
 
     .refine-note {
@@ -768,7 +778,15 @@
   const lecture = params.get('lecture') || '';
   const week    = params.get('week') || '';
 
-  let questions = [], current = 0;
+  let questions = [];   // every question in the lecture, in its own order
+
+  // Which of them this pass is playing, as indices into `questions`, and where
+  // we are within that list. Refining narrows the view; it never drops a
+  // question, so numbering and the other answers survive it.
+  let view = [], current = 0;
+
+  // The question on screen, by its real index.
+  function cur() { return view[current]; }
 
   // One record per question, kept for the whole session so you can walk back
   // and forward without losing what you picked.
@@ -778,8 +796,8 @@
   // True while the results screen is up, so navigation knows to leave it.
   let resultsOpen = false;
 
-  // True once a refinement has cut the run down to the questions you missed,
-  // so restoring it in another tab doesn't hand the filed-away ones back.
+  // True once a refinement has narrowed the view, so restoring it in another
+  // tab replays the same narrowed pass rather than the whole lecture.
   let subsetRun = false;
 
   function response(i) {
@@ -815,6 +833,7 @@
         current,
         subset: subsetRun,
         order: questions.map(qKey),
+        view: view.map(i => qKey(questions[i])),
         responses: byKey
       }));
     } catch (e) { /* storage full or blocked — carry on without persistence */ }
@@ -841,10 +860,9 @@
 
     known.sort((a, b) => pos.get(qKey(a)) - pos.get(qKey(b)));
 
-    // A refined run is a deliberate subset, so it keeps exactly what it kept.
-    // Any other run absorbs questions the lecture has gained since it started.
-    subsetRun = !!saved.subset;
-    questions = subsetRun ? known : known.concat(fresh);
+    // Every question stays, so a second tab sees the whole lecture and all of
+    // its answers. Only the view narrows.
+    questions = known.concat(fresh);
 
     responses = questions.map(q => {
       const r = saved.responses && saved.responses[qKey(q)];
@@ -859,12 +877,21 @@
       };
     });
 
-    current = Math.min(Math.max(parseInt(saved.current, 10) || 0, 0), questions.length);
+    // A refined pass replays exactly what it kept; anything else plays the
+    // whole lecture, absorbing questions added since it started.
+    subsetRun = !!saved.subset;
+    const at = new Map(questions.map((q, i) => [qKey(q), i]));
+    view = subsetRun && Array.isArray(saved.view)
+      ? saved.view.map(k => at.get(k)).filter(i => i !== undefined)
+      : questions.map((q, i) => i);
+    if (!view.length) { subsetRun = false; view = questions.map((q, i) => i); }
 
-    // If the session had finished but new questions showed up, resume on the
+    current = Math.min(Math.max(parseInt(saved.current, 10) || 0, 0), view.length);
+
+    // If the pass had finished but new questions showed up, resume on the
     // first one still unanswered instead of dropping straight to results.
-    if (current >= questions.length) {
-      const firstOpen = responses.findIndex(r => !r || !r.answered);
+    if (current >= view.length) {
+      const firstOpen = view.findIndex(i => !responses[i] || !responses[i].answered);
       if (firstOpen !== -1) current = firstOpen;
     }
     return true;
@@ -872,7 +899,8 @@
 
   function tally() {
     let correct = 0, wrong = 0, flagged = 0, skipped = 0;
-    responses.forEach((r, i) => {
+    view.forEach(i => {
+      const r = responses[i];
       if (!r) return;
       if (r.flagged) flagged++;
       if (r.answered) r.selected === questions[i].correct ? correct++ : wrong++;
@@ -932,13 +960,16 @@
     if (!questions.length) { show('no questions found.'); return; }
 
     const resumed = restoreSession();
-    if (!lecture && !resumed) shuffle(questions);
+    if (!resumed) {
+      if (!lecture) shuffle(questions);
+      view = questions.map((q, i) => i);
+    }
 
     document.getElementById('stateMsg').style.display = 'none';
     syncTopbarHeight();
 
     // A session that had already finished comes back on the results screen
-    if (resumed && current >= questions.length) { showResults(); return; }
+    if (resumed && current >= view.length) { showResults(); return; }
 
     document.getElementById('quizCard').style.display = 'flex';
     render();
@@ -1173,10 +1204,10 @@
   window.addEventListener('resize', hidePop);
 
   function render() {
-    const q = questions[current];
-    const resp = response(current);
+    const q = questions[cur()];
+    const resp = response(cur());
 
-    document.getElementById('qMeta').textContent = `question ${current + 1} of ${questions.length}`;
+    document.getElementById('qMeta').textContent = `question ${cur() + 1} of ${questions.length}`;
 
     hidePop();
     hlSources = {};
@@ -1237,7 +1268,7 @@
       };
       btn.oncontextmenu = (e) => {
         e.preventDefault();
-        if (response(current).answered) return;
+        if (response(cur()).answered) return;
         btn.classList.toggle('struck');
         const s = resp.struck.filter(l => l !== letter);
         if (btn.classList.contains('struck')) s.push(letter);
@@ -1269,8 +1300,8 @@
   // Before it is answered the arrow is a skip: it moves on and leaves the
   // question marked unanswered so you can come back to it.
   function updateActionButtons() {
-    const resp = response(current);
-    const last = current + 1 >= questions.length;
+    const resp = response(cur());
+    const last = current + 1 >= view.length;
     const submitBtn = document.getElementById('submitBtn');
     const nextBtn   = document.getElementById('nextBtn');
     const flagBtn   = document.getElementById('flagBtn');
@@ -1293,8 +1324,8 @@
 
   function updateProgress() {
     const done = tally().total;
-    const pct = questions.length ? (done / questions.length * 100).toFixed(1) : 0;
-    document.getElementById('progressLabel').textContent = `${done} / ${questions.length}`;
+    const pct = view.length ? (done / view.length * 100).toFixed(1) : 0;
+    document.getElementById('progressLabel').textContent = `${done} / ${view.length}`;
     document.getElementById('progressFill').style.width = pct + '%';
   }
 
@@ -1307,7 +1338,7 @@
   }
 
   function selectAnswer(letter) {
-    const resp = response(current);
+    const resp = response(cur());
     if (resp.answered) return;
     resp.selected = letter;
     document.querySelectorAll('.answer-btn').forEach(btn =>
@@ -1319,8 +1350,8 @@
   // Lock the choices, mark right/wrong and show the explanations for the
   // current question. Used both on submit and when revisiting via back.
   function reveal() {
-    const q = questions[current];
-    const resp = response(current);
+    const q = questions[cur()];
+    const resp = response(cur());
 
     document.querySelectorAll('.answer-btn').forEach(btn => {
       btn.classList.add('locked');
@@ -1349,7 +1380,7 @@
   }
 
   function submitAnswer() {
-    const resp = response(current);
+    const resp = response(cur());
     if (!resp.selected || resp.answered) return;
     resp.answered = true;
     resp.skipped = false;
@@ -1362,10 +1393,10 @@
 
   function nextQuestion() {
     if (resultsOpen) return;
-    const resp = response(current);
+    const resp = response(cur());
     if (!resp.answered) resp.skipped = true;   // moved past without answering
     current++;
-    if (current >= questions.length) { saveSession(); showResults(); }
+    if (current >= view.length) { saveSession(); showResults(); }
     else render();
   }
 
@@ -1377,15 +1408,15 @@
   }
 
   // Jump straight to any question from the navigator (or from the results screen).
-  function goTo(i) {
-    if (i < 0 || i >= questions.length) return;
-    if (i === current && !resultsOpen) return;
+  function goTo(n) {
+    if (n < 0 || n >= view.length) return;
+    if (n === current && !resultsOpen) return;
     if (!resultsOpen) {
-      const resp = response(current);
-      if (!resp.answered && i > current) resp.skipped = true;
+      const resp = response(cur());
+      if (!resp.answered && n > current) resp.skipped = true;
     }
     resultsOpen = false;
-    current = i;
+    current = n;
     document.getElementById('results').classList.remove('visible');
     document.getElementById('quizCard').style.display = 'flex';
     render();
@@ -1394,7 +1425,7 @@
 
   function toggleFlag() {
     if (resultsOpen || !questions.length) return;
-    const resp = response(current);
+    const resp = response(cur());
     resp.flagged = !resp.flagged;
     updateActionButtons();
     renderNavigator();
@@ -1406,16 +1437,17 @@
   // yours. Click one to go there, answered or not.
   function renderNavigator() {
     const nav = document.getElementById('navigator');
-    if (!questions.length) { nav.classList.remove('visible'); return; }
+    if (!view.length) { nav.classList.remove('visible'); return; }
     nav.classList.add('visible');
 
     const grid = document.getElementById('navGrid');
     grid.innerHTML = '';
-    questions.forEach((q, i) => {
-      const r = responses[i];
+    view.forEach((qi, n) => {
+      const q = questions[qi];
+      const r = responses[qi];
       const chip = document.createElement('button');
       chip.className = 'qchip';
-      chip.textContent = i + 1;
+      chip.textContent = qi + 1;
       const bits = [];
       if (r && r.answered) {
         const ok = r.selected === q.correct;
@@ -1428,9 +1460,9 @@
         bits.push('not seen yet');
       }
       if (r && r.flagged) { chip.classList.add('flagged'); bits.push('flagged'); }
-      if (i === current && !resultsOpen) chip.classList.add('current');
-      chip.title = `question ${i + 1} — ${bits.join(', ')}`;
-      chip.onclick = () => goTo(i);
+      if (n === current && !resultsOpen) chip.classList.add('current');
+      chip.title = `question ${qi + 1} — ${bits.join(', ')}`;
+      chip.onclick = () => goTo(n);
       grid.appendChild(chip);
     });
 
@@ -1516,11 +1548,11 @@
   // whatever refuses to go becomes the next run — unanswered, so you meet them
   // cold. Click anywhere to cut it short.
   function refine() {
-    const wrong = questions.filter((q, i) => {
+    const missed = view.filter(i => {
       const r = responses[i];
-      return r && r.answered && r.selected !== q.correct;
+      return r && r.answered && r.selected !== questions[i].correct;
     });
-    if (!wrong.length) return;
+    if (!missed.length) return;
 
     const veil = document.createElement('div');
     veil.className = 'refine-veil';
@@ -1528,7 +1560,7 @@
       '<div class="refine-head">refining</div>' +
       '<div class="refine-grid"></div>' +
       '<div class="refine-bin"><div class="refine-bin-fill"></div>' +
-      '<div class="refine-bin-label">0%</div></div>' +
+      '<div class="refine-bin-label">0</div></div>' +
       '<div class="refine-note"></div>';
     document.body.appendChild(veil);
 
@@ -1539,15 +1571,15 @@
     const note  = veil.querySelector('.refine-note');
 
     // A long shuffle would spill off the screen at full chip size.
-    grid.style.setProperty('--chip', questions.length > 150 ? '20px'
-                                   : questions.length > 80  ? '25px' : '30px');
+    grid.style.setProperty('--chip', view.length > 150 ? '20px'
+                                   : view.length > 80  ? '25px' : '30px');
 
-    const cells = questions.map((q, i) => {
-      const r  = responses[i];
-      const ok = !!(r && r.answered && r.selected === q.correct);
+    const cells = view.map(qi => {
+      const r  = responses[qi];
+      const ok = !!(r && r.answered && r.selected === questions[qi].correct);
       const el = document.createElement('span');
       el.className = 'rnum ' + (ok ? 'ok' : 'bad');
-      el.innerHTML = '<i>' + (i + 1) + '</i>';
+      el.innerHTML = '<i>' + (qi + 1) + '</i>';   // its own number, kept
       grid.appendChild(el);
       return { el, ok };
     });
@@ -1570,15 +1602,15 @@
       const from = c.el.getBoundingClientRect();
       const to   = bin.getBoundingClientRect();
       c.el.firstChild.classList.remove('wiggle');
+      // aim for the mouth, not the middle, so they read as dropping in
       c.el.style.transform =
-        'translate(' + (to.left + to.width  / 2 - (from.left + from.width  / 2)) + 'px,' +
-                       (to.top  + to.height / 2 - (from.top  + from.height / 2)) + 'px) scale(0.25)';
+        'translate(' + (to.left + to.width / 2 - (from.left + from.width / 2)) + 'px,' +
+                       (to.top  + 10 - (from.top + from.height / 2)) + 'px) scale(0.2)';
       c.el.style.opacity = '0';
 
       filed++;
-      const pct = Math.round(filed / keep.length * 100);
-      fill.style.width = pct + '%';
-      label.textContent = pct + '%';
+      fill.style.height = Math.round(filed / keep.length * 100) + '%';
+      label.textContent = filed;
     }
 
     function after(ms, fn) { timers.push(setTimeout(fn, ms)); }
@@ -1593,12 +1625,12 @@
         if (c.ok && c.el.style.opacity !== '0') file(c);
         c.el.firstChild.classList.remove('wiggle');
       });
-      if (keep.length) { fill.style.width = '100%'; label.textContent = '100%'; }
-      note.textContent = wrong.length + ' left to redo';
+      if (keep.length) { fill.style.height = '100%'; label.textContent = keep.length; }
+      note.textContent = missed.length + ' left to redo';
 
       setTimeout(() => {
         veil.classList.remove('on');
-        setTimeout(() => { veil.remove(); restartWith(wrong, true); }, 450);
+        setTimeout(() => { veil.remove(); restartWith(missed, true); }, 450);
       }, 1100);
     }
 
@@ -1610,34 +1642,38 @@
     });
   }
 
-  // Begin a fresh run over just these questions, with nothing answered.
+  // Play these questions (real indices) again, with their answers cleared.
+  // Kept in numeric order so the chips read 4, 12, 19 rather than jumping.
   function restartWith(list, subset) {
     subsetRun = !!subset;
-    questions = list;
-    responses = [];
+    view = list.slice().sort((a, b) => a - b);
+    view.forEach(i => { responses[i] = null; });
     current = 0;
     resultsOpen = false;
-    shuffle(questions);
     document.getElementById('results').classList.remove('visible');
     document.getElementById('quizCard').style.display = 'flex';
     render();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  // Restart always comes back to the whole lecture, refined or not, in a
+  // fresh order.
   function restartQuiz() {
-    restartWith(questions, subsetRun);
+    shuffle(questions);
+    responses = [];
+    restartWith(questions.map((q, i) => i), false);
   }
 
   // Straight to the first question you flagged / skipped, from the results screen.
-  function reviewFlagged() { const i = responses.findIndex(r => r && r.flagged); if (i !== -1) goTo(i); }
-  function reviewSkipped() { const i = responses.findIndex(r => r && r.skipped && !r.answered); if (i !== -1) goTo(i); }
+  function reviewFlagged() { const n = view.findIndex(i => responses[i] && responses[i].flagged); if (n !== -1) goTo(n); }
+  function reviewSkipped() { const n = view.findIndex(i => { const r = responses[i]; return r && r.skipped && !r.answered; }); if (n !== -1) goTo(n); }
 
   // Leave the results screen and go back to the last question, answers intact.
   function reviewAnswers() {
     document.getElementById('results').classList.remove('visible');
     document.getElementById('quizCard').style.display = 'flex';
     resultsOpen = false;
-    current = questions.length - 1;
+    current = view.length - 1;
     render();
   }
 
@@ -1673,13 +1709,13 @@
 
     if (key === 'Enter' || key === ' ') {
       e.preventDefault();
-      const resp = response(current);
+      const resp = response(cur());
       if (resp.answered) nextQuestion();
       else if (resp.selected) submitAnswer();
       return;
     }
 
-    const letters = Object.keys(questions[current].answers || {});
+    const letters = Object.keys(questions[cur()].answers || {});
     const idx = /^[1-9]$/.test(key) ? parseInt(key, 10) - 1 : letters.indexOf(key.toUpperCase());
     if (idx >= 0 && idx < letters.length) { e.preventDefault(); selectAnswer(letters[idx]); }
   });
