@@ -16,7 +16,8 @@
         "peripheral-neuropathy.json",
         "depression.json",
         "neurological-exam-part-1.json",
-        "one-carbon-metabolism.json"
+        "one-carbon-metabolism.json",
+        "cbl-w1-los.json"
       ]
     },
     {
@@ -33,7 +34,8 @@
         "blood-supply-and-csf.json",
         "spinal-cord-syndromes.json",
         "disaster-medicine.json",
-        "cns-pharmacology-ii-anxiolytics-and-mood-stabilizers.json"
+        "cns-pharmacology-ii-anxiolytics-and-mood-stabilizers.json",
+        "cbl-w2-los.json"
       ]
     },
     {
@@ -43,10 +45,28 @@
       "lectures": [
         "head-via-cranial-nerves.json",
         "brainstem-i-external-features-circulation-long-tracts.json",
+        "brainstem-ii.json",
         "child-adolescent-psychiatry.json",
         "outer-middle-ear-auditory-system.json",
         "inner-ear-auditory-vestibular-physiology.json",
-        "infections-of-the-ear-nose-throat.json"
+        "infections-of-the-ear-nose-throat.json",
+        "cbl-w3-los.json"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Week 4",
+      "dates": "8/24 – 8/28",
+      "lectures": [
+        "cbl-w4-los.json"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Week 5",
+      "dates": "8/31 – 9/4",
+      "lectures": [
+        "cbl-w5-los.json"
       ]
     }
   ]
