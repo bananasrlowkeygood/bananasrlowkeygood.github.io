@@ -1,0 +1,983 @@
+{
+  "lecture": "CBL W2 LOs",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-cbl-w2-los-001",
+      "question": "A 34-year-old woman requires a diagnostic lumbar puncture for suspected inflammatory myelopathy. She is 168 cm tall with normal spinal anatomy on prior imaging, and her conus medullaris terminates at the lower border of L1. The proceduralist wants to enter the lumbar cistern while minimizing the risk of direct cord injury. At which of the following interspaces should the needle be introduced?",
+      "answers": {
+        "A": "L1–L2 interspace",
+        "B": "L2–L3 interspace",
+        "C": "L3–L4 interspace",
+        "D": "T11–T12 interspace",
+        "E": "T12–L1 interspace"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This interspace lies at the level of the conus in this patient and risks direct needle injury to cord tissue.",
+        "B": "This is above the safest entry point and sits immediately adjacent to a conus ending at the lower L1 border, leaving little margin for anatomic variation.",
+        "C": "Because the vertebral column outgrows the cord in development, the cord ends near L1–L2 in adults, so entering at L3–L4 samples the enlarged lumbar cistern where only cauda equina roots float in cerebrospinal fluid.",
+        "D": "Entry here would traverse the thoracic cord itself and cause direct spinal cord trauma.",
+        "E": "Entry here would place the needle at the conus medullaris and risks conus injury with bowel and bladder dysfunction."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-002",
+      "question": "A 29-year-old woman in active labor requests analgesia. The anesthesiologist advances a needle between the L3 and L4 spinous processes and stops when a loss of resistance is felt, before any cerebrospinal fluid returns. A catheter is threaded into a compartment containing fat, connective tissue, and the internal vertebral venous plexus. Into which of the following spaces has the catheter been placed?",
+      "answers": {
+        "A": "Central canal",
+        "B": "Epidural space",
+        "C": "Lumbar cistern",
+        "D": "Subarachnoid space",
+        "E": "Subdural space"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The central canal is a microscopic cerebrospinal fluid channel within the cord itself and cannot be cannulated percutaneously.",
+        "B": "Spinal dura does not adhere to the vertebral canal, creating a true space between bone and dura that holds fat, connective tissue, and the internal vertebral venous plexus.",
+        "C": "The lumbar cistern is the enlarged subarachnoid pool below the conus and would yield cerebrospinal fluid on needle entry.",
+        "D": "The subarachnoid space lies deep to the arachnoid and contains circulating cerebrospinal fluid, which was explicitly absent here.",
+        "E": "The subdural space is only a potential space between dura and arachnoid and does not normally contain fat or a venous plexus."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-003",
+      "question": "During a laminectomy for an intradural tumor, a surgeon opens the dural sac and identifies a series of triangular lateral extensions that pass from the surface of the spinal cord to the inner surface of the dura at regular intervals. These extensions suspend and stabilize the cord within the dural sac. These structures are extensions of which of the following?",
+      "answers": {
+        "A": "Arachnoid mater",
+        "B": "Dura mater",
+        "C": "Filum terminale",
+        "D": "Ligamentum flavum",
+        "E": "Pia mater"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The arachnoid is a thin avascular membrane deep to dura that forms the outer boundary of the subarachnoid space, not lateral suspensory bands.",
+        "B": "The dura is the tough outer layer that receives the denticulate ligaments but does not give rise to them.",
+        "C": "The filum terminale is a single midline pial extension that anchors the cord inferiorly to the coccyx, not paired lateral bands.",
+        "D": "The ligamentum flavum connects adjacent laminae outside the dural sac and has no relationship to the cord surface.",
+        "E": "Denticulate ligaments are lateral extensions of pia mater that attach to dura and suspend the cord within the dural sac."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-004",
+      "question": "A 52-year-old man develops sudden bilateral lower back pain and leg weakness over several hours. Examination shows symmetric distal leg weakness, symmetric perianal numbness, absent Achilles reflexes, and fasciculations in both calves. He has had urinary and fecal incontinence since onset and reports new erectile dysfunction. MRI shows a lesion centered at the T12–L2 vertebral level. Which of the following best explains this presentation?",
+      "answers": {
+        "A": "Anterior spinal artery syndrome",
+        "B": "Cauda equina syndrome",
+        "C": "Cervical spondylotic myelopathy",
+        "D": "Conus medullaris syndrome",
+        "E": "Lumbosacral radiculopathy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anterior spinal artery infarction produces loss of pain and temperature with preserved vibration and proprioception, not symmetric saddle numbness with early sphincter failure.",
+        "B": "Cauda equina lesions are typically gradual, asymmetric, and dominated by severe radicular pain with late urinary retention.",
+        "C": "Cervical compression causes upper motor neuron signs in all four limbs and hand clumsiness, not an isolated lumbosacral syndrome.",
+        "D": "A lesion at the T12–L2 vertebral level injures the sacral cord segments of the conus, producing sudden symmetric distal paresis, symmetric perianal sensory loss, and early bowel, bladder, and sexual dysfunction.",
+        "E": "A single root lesion causes a dermatomal and myotomal deficit in one limb without bilateral sphincter involvement."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-005",
+      "question": "A 24-year-old man is stabbed in the back and sustains a hemisection of the right side of the spinal cord at T10. On examination he has weakness and loss of vibration sense in the right leg. He also has loss of pinprick and temperature sensation in the left leg beginning approximately two segments below the injury. Damage to which of the following structures accounts for the sensory loss in the left leg?",
+      "answers": {
+        "A": "Left dorsal column",
+        "B": "Left spinothalamic tract",
+        "C": "Right dorsal column",
+        "D": "Right spinothalamic tract",
+        "E": "Right ventral spinocerebellar tract"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal columns carry vibration and proprioception, and a left-sided lesion would impair the left leg's vibration sense rather than pinprick.",
+        "B": "The left spinothalamic tract carries pain and temperature that originated on the right side of the body.",
+        "C": "The right dorsal column lesion explains the ipsilateral right-leg vibration and proprioceptive loss, not contralateral pain loss.",
+        "D": "Second-order pain and temperature fibers decussate in the anterior white commissure within one to two segments of entry, so the right spinothalamic tract carries input that originated in the left leg.",
+        "E": "Spinocerebellar tracts carry unconscious proprioception to the cerebellum and produce ataxia rather than a sensory level for pain."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-006",
+      "question": "A neuropathology resident examines a myelin-stained transverse section of the cervical spinal cord. She is asked to identify the region in which approximately 85% of descending motor fibers from the primary motor cortex are found after they decussate in the caudal medulla. She correctly points to a discrete rounded area within the lateral funiculus. Which of the following has she identified?",
+      "answers": {
+        "A": "Anterior corticospinal tract",
+        "B": "Lateral corticospinal tract",
+        "C": "Lissauer tract",
+        "D": "Medial longitudinal fasciculus",
+        "E": "Spinothalamic tract"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior corticospinal tract carries the roughly 15% of uncrossed fibers and lies in the ventral funiculus, decussating at the target level.",
+        "B": "About 85% of corticospinal fibers cross as the pyramidal decussation and descend as the lateral corticospinal tract within the lateral funiculus.",
+        "C": "Lissauer tract is a small dorsolateral zone of incoming nociceptive afferents adjacent to the dorsal horn, not a descending motor pathway.",
+        "D": "The medial longitudinal fasciculus lies near the ventral median fissure and coordinates head and eye movement, not voluntary limb power.",
+        "E": "The spinothalamic tract is an ascending anterolateral sensory pathway carrying pain and temperature."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-007",
+      "question": "A 58-year-old man has 6 months of progressive hand clumsiness and gait difficulty. Examination shows atrophy and visible fasciculations of the intrinsic hand muscles with absent biceps reflexes bilaterally. In the legs there is increased tone, brisk patellar and Achilles reflexes, and bilateral extensor plantar responses. Which of the following best explains this combination of findings?",
+      "answers": {
+        "A": "Bilateral lumbosacral polyradiculopathy with chronic denervation",
+        "B": "Bilateral motor cortex infarction producing spastic quadriparesis",
+        "C": "Cervical cord lesion affecting ventral horns and long tracts",
+        "D": "Diffuse demyelinating polyneuropathy involving all four limbs",
+        "E": "Thoracic cord lesion located below the cervical enlargement"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A lumbosacral process would cause lower motor neuron findings in the legs and could not explain hand atrophy with leg hyperreflexia.",
+        "B": "A cortical lesion produces upper motor neuron findings throughout without segmental atrophy and fasciculations in the hands.",
+        "C": "A cord lesion damages lower motor neurons in the ventral horn at the level, producing atrophy, fasciculations, and areflexia there, while interrupting corticospinal fibers to produce upper motor neuron signs below the level.",
+        "D": "A polyneuropathy produces diffuse hyporeflexia and would not generate spasticity or Babinski signs in the legs.",
+        "E": "A thoracic lesion would spare the cervical ventral horns and could not produce hand wasting with absent biceps reflexes."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-008",
+      "question": "A 27-year-old man is brought in after a motor vehicle crash with a burst fracture at T6. Immediately after injury he has complete flaccid paralysis of both legs, absent patellar and Achilles reflexes, and mute plantar responses. Six weeks later, examination shows increased tone, sustained clonus, brisk reflexes, and bilateral extensor plantar responses in the legs. Which of the following best explains the findings observed immediately after injury?",
+      "answers": {
+        "A": "Acute spinal shock with transient loss of reflex activity",
+        "B": "Anterior horn cell necrosis at multiple cord segments",
+        "C": "Coexisting transection of the lumbosacral peripheral nerves",
+        "D": "Neuromuscular junction blockade from traumatic release",
+        "E": "Selective demyelination of the dorsal column pathways"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Acute cord injury transiently abolishes segmental reflex activity below the lesion, so upper motor neuron findings such as spasticity and hyperreflexia emerge only after spinal shock resolves.",
+        "B": "Anterior horn necrosis at T6 would affect only thoracic segments and would produce permanent, not transient, areflexia in the legs.",
+        "C": "Peripheral nerve transection would cause persistent flaccid areflexic paralysis rather than later spasticity and clonus.",
+        "D": "Junctional blockade is not a consequence of vertebral fracture and would not resolve into an upper motor neuron pattern.",
+        "E": "Dorsal column demyelination impairs vibration and proprioception without abolishing deep tendon reflexes or causing flaccid paralysis."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-009",
+      "question": "A 66-year-old man reports 8 months of unsteadiness that is worse in the dark and when he washes his face in the shower. On examination he stands steadily with his feet together and eyes open, but sways markedly and nearly falls within seconds of closing his eyes. Vibration sense at both great toes is absent with a 256-Hz tuning fork, while pinprick and temperature sensation are intact. Dysfunction of which of the following is most likely?",
+      "answers": {
+        "A": "Cerebellar vermis",
+        "B": "Corticospinal tract",
+        "C": "Lateral spinothalamic tract",
+        "D": "Peripheral motor axons",
+        "E": "Posterior (dorsal) columns"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cerebellar disease causes imbalance that persists with the eyes open, so vision does not compensate for the deficit.",
+        "B": "Corticospinal involvement produces weakness, spasticity, and Babinski signs rather than isolated visually dependent balance loss.",
+        "C": "Spinothalamic damage impairs pinprick and temperature, which are preserved in this patient.",
+        "D": "Motor axon loss produces weakness and atrophy without a modality-specific sensory deficit.",
+        "E": "A positive Romberg sign with loss of vibration and preserved pain and temperature localizes to the dorsal column–medial lemniscus pathway carrying conscious proprioception."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-010",
+      "question": "A 41-year-old woman steps on a nail. She reports an immediate sharp, well-localized stabbing pain, followed seconds later by a persistent dull, poorly localized burning ache that lasts for hours. The delayed, diffuse, aching component of her pain is carried to the dorsal horn primarily by which of the following fiber types?",
+      "answers": {
+        "A": "A-alpha fibers",
+        "B": "A-beta fibers",
+        "C": "A-delta fibers",
+        "D": "C fibers",
+        "E": "Group Ia afferents"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A-alpha fibers are large myelinated axons carrying motor output and muscle spindle information, not nociception.",
+        "B": "A-beta fibers are low-threshold mechanoreceptor afferents conveying light touch and vibration.",
+        "C": "A-delta fibers are thinly myelinated and fast conducting, generating the immediate sharp pinprick component.",
+        "D": "C fibers are small unmyelinated polymodal afferents whose slow conduction produces delayed, poorly localized, aching or burning pain.",
+        "E": "Group Ia afferents carry muscle spindle stretch information for the monosynaptic reflex arc."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-011",
+      "question": "A 30-year-old man sustains a superficial thermal burn to the forearm. Within 3 hours the skin surrounding the burn becomes exquisitely tender, and gentle pressure that was previously nonpainful now elicits pain. Local tissue levels of bradykinin, prostaglandins, and nerve growth factor are elevated. Three weeks later, after the burn has healed, the tenderness has fully resolved. Which of the following mechanisms best explains this transient change?",
+      "answers": {
+        "A": "Central sensitization within the thalamic relay nuclei",
+        "B": "Failure of descending inhibition from the periaqueductal gray",
+        "C": "Peripheral sensitization of cutaneous nociceptor terminals",
+        "D": "Structural remodeling of the dorsal column pathways",
+        "E": "Wallerian degeneration of large myelinated A-beta fibers"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Thalamic central sensitization is a chronic maladaptive change that would not resolve promptly with tissue healing.",
+        "B": "Loss of descending inhibitory modulation contributes to chronic neuropathic pain rather than to a self-limited inflammatory response.",
+        "C": "Inflammatory mediators upregulate nociceptor ion channels so that high-threshold receptors behave as low-threshold receptors, a reversible process that resolves when the tissue injury heals.",
+        "D": "Dorsal column remodeling would alter vibration and proprioception, not local tenderness around a burn.",
+        "E": "Degeneration of A-beta fibers causes numbness and sensory loss, not heightened sensitivity to pressure."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-012",
+      "question": "A 61-year-old woman has had burning pain in both feet for 3 years following a nerve injury. She now reports that the weight of a bedsheet on her feet is painful and that pain persists for minutes after a stimulus is removed. Examination shows no ongoing tissue injury and no evidence of inflammation. Microelectrode studies of similar patients demonstrate enhanced synaptic efficacy and increased spontaneous discharge in second-order neurons. Which of the following best explains her symptoms?",
+      "answers": {
+        "A": "Axonal loss restricted to peripheral nociceptor endings",
+        "B": "Compression of the lumbar dorsal root ganglia bilaterally",
+        "C": "Increased descending inhibitory tone from the brainstem",
+        "D": "Loss of spinothalamic projection neurons in the cord",
+        "E": "Reduced firing threshold of dorsal horn projection neurons"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Pure loss of nociceptor endings produces numbness and reduced sensation rather than pain from innocuous stimuli.",
+        "B": "Bilateral ganglion compression would produce dermatomal radicular pain with a structural lesion on imaging.",
+        "C": "Increased descending inhibition would dampen rather than amplify pain transmission.",
+        "D": "Loss of spinothalamic neurons abolishes pain and temperature sensation on the contralateral side.",
+        "E": "Central sensitization lowers the firing threshold and increases the discharge rate and synaptic efficacy of dorsal horn, thalamic, and cortical neurons, so pain arises without noxious input."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-013",
+      "question": "A researcher traces the pathway for cutaneous pain in an experimental animal. A stimulus applied to the hindlimb activates an unmyelinated primary afferent whose cell body lies in a dorsal root ganglion. The afferent terminal releases glutamate, substance P, and calcitonin gene-related peptide onto a neuron whose axon then crosses in the anterior white commissure. The cell body of that crossing neuron is located in which of the following?",
+      "answers": {
+        "A": "Dorsal root ganglion",
+        "B": "Laminae I and II of the dorsal horn",
+        "C": "Nucleus gracilis of the caudal medulla",
+        "D": "Ventral horn of the spinal cord",
+        "E": "VPL nucleus of the thalamus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The dorsal root ganglion houses the first-order neuron, whose axon does not decussate in the cord.",
+        "B": "Nociceptive C fibers synapse on second-order neurons in the marginal layer (lamina I) and substantia gelatinosa (lamina II), and those axons cross in the anterior white commissure to ascend in the spinothalamic tract.",
+        "C": "The nucleus gracilis contains second-order neurons for the dorsal column pathway, which decussate in the medulla rather than the cord.",
+        "D": "Ventral horn cells are lower motor neurons whose axons exit in the ventral root.",
+        "E": "VPL neurons are third-order cells that project from thalamus to the somatosensory cortex."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-014",
+      "question": "A 31-year-old woman has 5 days of progressive leg weakness, numbness in both legs, and urinary urgency. Two years ago she had a painful episode of monocular vision loss that resolved. Examination shows spasticity, hyperreflexia, and bilateral Babinski signs in the legs, an afferent pupillary defect on the right, red desaturation in the right eye, dysmetria on finger-to-nose testing, and a positive Lhermitte sign. She is afebrile and has no back pain. Which of the following categories of myelopathy is most consistent with this presentation?",
+      "answers": {
+        "A": "Compressive myelopathy",
+        "B": "Demyelinating myelopathy",
+        "C": "Infectious myelopathy",
+        "D": "Metabolic myelopathy",
+        "E": "Vascular myelopathy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Compressive disease is gradual and dominated by focal neck or back pain with radicular features rather than optic and cerebellar findings.",
+        "B": "Prior optic neuritis, an afferent pupillary defect with red desaturation, cerebellar dysmetria, and Lhermitte sign indicate multifocal central nervous system demyelination separated in time and space.",
+        "C": "Infectious myelopathy typically presents acutely with fever, severe focal spinal pain, and systemic signs of infection.",
+        "D": "Metabolic myelopathy such as B12 deficiency evolves over months and does not produce optic neuritis with an afferent pupillary defect.",
+        "E": "Vascular myelopathy presents abruptly over hours with dissociated sensory loss rather than over days with relapsing optic symptoms."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-015",
+      "question": "A 48-year-old man who injects heroin presents with 4 days of severe focal mid-thoracic back pain, fever, and 1 day of progressive leg weakness. He has focal tenderness over the T7 spinous process, 3/5 strength in both legs, hyperreflexia, and bilateral Babinski signs. He has not yet had bladder symptoms. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "38.9°C",
+          "36.5–37.5°C"
+        ],
+        [
+          "Leukocyte count",
+          "18,400/mm3",
+          "4,500–11,000/mm3"
+        ],
+        [
+          "ESR",
+          "88 mm/h",
+          "0–15 mm/h"
+        ],
+        [
+          "C-reactive protein",
+          "142 mg/L",
+          "<10 mg/L"
+        ]
+      ],
+      "correct": "D",
+      "answers": {
+        "A": "Begin outpatient physical therapy and reassess",
+        "B": "Obtain lumbar puncture for cerebrospinal fluid studies",
+        "C": "Obtain plain radiographs of the thoracic spine",
+        "D": "Obtain urgent MRI of the spine with contrast",
+        "E": "Schedule outpatient CT myelography within one week"
+      },
+      "explanations": {
+        "A": "Delaying evaluation of a rapidly progressive cord syndrome risks permanent paralysis from ongoing compression.",
+        "B": "Lumbar puncture is contraindicated when an epidural abscess may be traversed by the needle and can seed the subarachnoid space.",
+        "C": "Radiographs are insensitive for epidural collections and soft-tissue infection and would not exclude cord compression.",
+        "D": "Fever with focal spinal tenderness and progressive upper motor neuron deficits is a red flag for spinal epidural abscess, requiring urgent contrast-enhanced MRI along with blood cultures and inflammatory markers.",
+        "E": "Deferring imaging for a week ignores the emergent nature of infectious cord compression."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-016",
+      "question": "A 63-year-old woman with metastatic breast cancer reports 3 weeks of mid-back pain that is worse at night. Over the past 2 days she has developed leg weakness and, this morning, an inability to void with a palpable bladder. Examination shows a sensory level at T8, hyperreflexia in the legs, and bilateral extensor plantar responses. Which of the following is the most appropriate next diagnostic step?",
+      "answers": {
+        "A": "Electromyography and nerve conduction studies",
+        "B": "Lumbar puncture for cell count and protein",
+        "C": "Magnetic resonance imaging of the spine",
+        "D": "Plain radiography of the thoracolumbar spine",
+        "E": "Reassessment in the outpatient clinic in two weeks"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Electrodiagnostic studies assess peripheral nerve and root function and cannot identify cord compression.",
+        "B": "Lumbar puncture below a compressive block can worsen the deficit and does not localize the lesion.",
+        "C": "New bowel or bladder dysfunction with a sensory level and upper motor neuron signs is a red flag mandating urgent MRI of the spine to identify compressive disease.",
+        "D": "Radiographs may show vertebral collapse but miss epidural tumor and cannot assess the cord itself.",
+        "E": "Waiting risks irreversible paraplegia because prolonged compression causes permanent cord injury."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-017",
+      "question": "A 22-year-old man is brought to the emergency department after a fall from a roof. He is alert with midline cervical tenderness and reports transient tingling in both arms that has resolved. Neurologic examination is now normal. The team must first determine whether there is a vertebral fracture or dislocation before further management. Which of the following imaging modalities is most appropriate to obtain first?",
+      "answers": {
+        "A": "Bone scintigraphy of the axial skeleton",
+        "B": "CT of the cervical spine without contrast",
+        "C": "Magnetic resonance imaging of the cervical spine",
+        "D": "Plain radiography of the cervical spine",
+        "E": "Ultrasonography of the paraspinal soft tissue"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bone scintigraphy detects metabolic bone activity over days and has no role in acute trauma triage.",
+        "B": "CT uses rotating x-rays to build a three-dimensional dataset and is fast, widely available, and excellent for bony injury and acute blood, making it the first study for suspected vertebral fracture or dislocation.",
+        "C": "MRI best shows cord and soft-tissue injury and is obtained after CT when the deficit is unexplained by bone findings.",
+        "D": "Plain films have poor sensitivity and miss many fractures and nearly all soft-tissue pathology.",
+        "E": "Ultrasound cannot penetrate bone and cannot evaluate the vertebral column or spinal canal."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-018",
+      "question": "A 71-year-old man has 9 months of progressive gait difficulty and leg numbness. Examination shows spasticity and hyperreflexia in the legs with a T10 sensory level, and compressive disease is suspected. He has an older-generation implanted cardiac pacemaker that is not conditionally safe for magnetic resonance imaging. Which of the following is the most appropriate imaging study to characterize the spinal canal?",
+      "answers": {
+        "A": "Contrast-enhanced computed tomography of the abdomen",
+        "B": "Diffusion-weighted magnetic resonance imaging of the brain",
+        "C": "Plain radiography of the thoracic spine",
+        "D": "Technetium-99m bone scintigraphy of the spine",
+        "E": "X-ray and CT myelography of the thoracic spine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Abdominal CT does not image the spinal canal contents and would not identify cord compression.",
+        "B": "Brain MRI is contraindicated by the same device restriction and would not evaluate the thoracic cord.",
+        "C": "Radiographs show only bony alignment and cannot demonstrate canal narrowing or cord compression.",
+        "D": "Bone scintigraphy identifies areas of increased bone turnover but does not delineate the subarachnoid space.",
+        "E": "Myelography introduces intrathecal contrast by lumbar puncture and is then imaged with x-ray and CT, outlining subarachnoid narrowing, nerve root compression, and stenosis when MRI is contraindicated."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-019",
+      "question": "A 28-year-old woman has 6 days of ascending numbness and leg weakness with urinary urgency. She had an episode of painful right eye vision loss 18 months ago. MRI of the spine shows a short-segment T2 hyperintense cord lesion, and brain MRI shows several periventricular lesions. Lumbar puncture is performed. Which of the following cerebrospinal fluid findings would best support the suspected diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Opening pressure",
+          "16 cm H2O",
+          "6–20 cm H2O"
+        ],
+        [
+          "Leukocytes",
+          "8/mm3 (lymphocytes)",
+          "0–5/mm3"
+        ],
+        [
+          "Protein",
+          "52 mg/dL",
+          "15–45 mg/dL"
+        ],
+        [
+          "Glucose",
+          "62 mg/dL",
+          "40–70 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Elevated IgG index with oligoclonal bands",
+        "B": "Lymphocytic pleocytosis with markedly low glucose",
+        "C": "Neutrophilic pleocytosis with elevated lactate",
+        "D": "Positive cerebrospinal fluid VDRL result",
+        "E": "Xanthochromia with elevated red blood cell count"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Intrathecal immunoglobulin synthesis producing an elevated IgG index with cerebrospinal fluid-restricted oligoclonal bands supports a demyelinating process such as multiple sclerosis in a patient with prior optic neuritis and disseminated lesions.",
+        "B": "Low glucose with lymphocytic pleocytosis suggests tuberculous or fungal meningitis rather than demyelination.",
+        "C": "Neutrophilic pleocytosis indicates bacterial infection, which would present with fever and severe systemic illness.",
+        "D": "A positive VDRL result would indicate neurosyphilis, which characteristically damages dorsal roots and dorsal columns.",
+        "E": "Xanthochromia indicates subarachnoid hemorrhage rather than an inflammatory demyelinating myelopathy."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-020",
+      "question": "A 39-year-old woman has 8 days of paraparesis, a T4 sensory level, and urinary retention. She reports bilateral eye pain and blurred vision 3 weeks earlier. MRI of the spine shows a contiguous T2 hyperintense, gadolinium-enhancing cord lesion extending from C7 to T5, spanning more than three vertebral segments. No compressive lesion is present. Which of the following serum studies is most likely to establish the diagnosis?",
+      "answers": {
+        "A": "Antinuclear antibody titer",
+        "B": "Aquaporin-4 IgG antibody",
+        "C": "Ganglioside GQ1b antibody",
+        "D": "Serum angiotensin-converting enzyme",
+        "E": "Serum methylmalonic acid level"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Antinuclear antibodies screen for systemic autoimmune disease but are neither sensitive nor specific for longitudinally extensive myelitis.",
+        "B": "A longitudinally extensive transverse myelitis spanning three or more vertebral segments with optic nerve involvement is characteristic of neuromyelitis optica spectrum disorder, diagnosed by serum aquaporin-4 IgG.",
+        "C": "GQ1b antibodies are associated with the Miller Fisher variant of Guillain-Barré syndrome, which causes ophthalmoplegia, ataxia, and areflexia without a sensory level.",
+        "D": "Serum angiotensin-converting enzyme supports sarcoidosis, which would typically show systemic features such as hilar adenopathy and cranial neuropathy.",
+        "E": "Methylmalonic acid identifies B12 deficiency, which causes a chronic dorsal and lateral column syndrome without gadolinium enhancement."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-021",
+      "question": "A 67-year-old man has 18 months of worsening handwriting, difficulty buttoning his shirt, and a stiff, unsteady gait. He describes an electric shock sensation traveling down his spine when he flexes his neck. Examination shows a positive Hoffman sign bilaterally, brisk reflexes in all four limbs, spasticity in the legs, and impaired vibration sense at the ankles. He is afebrile, and there is no optic or cerebellar abnormality. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Amyotrophic lateral sclerosis",
+        "B": "Cervical spondylotic myelopathy",
+        "C": "Multiple sclerosis",
+        "D": "Subacute combined degeneration",
+        "E": "Syringomyelia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Motor neuron disease produces mixed upper and lower motor neuron findings without sensory loss or Lhermitte sign.",
+        "B": "Gradual hand clumsiness, spastic gait, Lhermitte sign, and diffuse upper motor neuron findings in an older adult are classic for degenerative disc and facet disease compressing the cervical cord.",
+        "C": "Demyelinating disease would be expected to produce relapsing optic, brainstem, or cerebellar features in addition to myelopathy.",
+        "D": "B12 deficiency causes dorsal and lateral column disease but is not associated with Hoffman sign from focal cervical compression and would show abnormal metabolic laboratory studies.",
+        "E": "Syringomyelia causes cape-like dissociated loss of pain and temperature with hand wasting and areflexia rather than diffuse hyperreflexia with preserved pinprick."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-022",
+      "question": "A 44-year-old man with untreated human immunodeficiency virus infection has 8 months of progressive leg stiffness, difficulty walking, and impaired balance in the dark. Examination shows spastic paraparesis, hyperreflexia, extensor plantar responses, and loss of vibration and proprioception in both legs with preserved pinprick sensation. MRI of the spine shows no compressive or enhancing lesion. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "CD4+ T-lymphocyte count",
+          "112/mm3",
+          "500–1500/mm3"
+        ],
+        [
+          "Serum vitamin B12",
+          "486 pg/mL",
+          "200–900 pg/mL"
+        ],
+        [
+          "Methylmalonic acid",
+          "0.21 µmol/L",
+          "<0.40 µmol/L"
+        ],
+        [
+          "Rapid plasma reagin",
+          "Nonreactive",
+          "Nonreactive"
+        ]
+      ],
+      "answers": {
+        "A": "HIV vacuolar myelopathy",
+        "B": "Neurosyphilis with tabes dorsalis",
+        "C": "Primary central nervous system lymphoma",
+        "D": "Progressive multifocal leukoencephalopathy",
+        "E": "Subacute combined degeneration"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Vacuolar myelopathy in advanced HIV produces slowly progressive spastic paraparesis with dorsal column sensory ataxia and relative sparing of pain and temperature, clinically mimicking B12 deficiency despite normal B12 and methylmalonic acid.",
+        "B": "Tabes dorsalis would produce lightning pains, areflexia, and a reactive serologic test rather than spasticity with a nonreactive rapid plasma reagin.",
+        "C": "Primary central nervous system lymphoma typically causes an enhancing mass lesion with focal cerebral deficits.",
+        "D": "Progressive multifocal leukoencephalopathy causes multifocal cerebral white matter lesions with cognitive and visual deficits, not an isolated cord syndrome.",
+        "E": "Subacute combined degeneration would be accompanied by low B12 with elevated methylmalonic acid, which are normal here."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-023",
+      "question": "A 6-year-old unvaccinated boy develops fever, sore throat, and diarrhea, followed 5 days later by asymmetric weakness that is worse in the legs than the arms and worse proximally than distally. Examination shows flaccid weakness, hypotonia, absent reflexes, and fasciculations, with entirely normal pinprick and vibration sensation. Which of the following structures is most likely destroyed?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "CSF leukocytes",
+          "62/mm3 (lymphocytes)",
+          "0–5/mm3"
+        ],
+        [
+          "CSF protein",
+          "68 mg/dL",
+          "15–45 mg/dL"
+        ],
+        [
+          "CSF glucose",
+          "58 mg/dL",
+          "40–70 mg/dL"
+        ],
+        [
+          "Serum creatine kinase",
+          "180 U/L",
+          "30–200 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Dorsal column axons",
+        "B": "Dorsal root ganglion neurons",
+        "C": "Motor neurons of the ventral horn",
+        "D": "Peripheral nerve myelin sheaths",
+        "E": "Skeletal muscle fibers"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Dorsal column injury would impair vibration and proprioception, which are intact in this patient.",
+        "B": "Dorsal root ganglion destruction produces prominent sensory ataxia and areflexia with sensory loss, not pure motor weakness.",
+        "C": "Poliovirus reaches the cord after fecal-oral acquisition and viremia and destroys anterior horn cells, producing asymmetric pure motor flaccid paralysis with areflexia, fasciculations, and neuronophagia with microglial nodules on pathology.",
+        "D": "Demyelination of peripheral nerves as in Guillain-Barré syndrome causes symmetric ascending weakness with albuminocytologic dissociation rather than a lymphocytic pleocytosis.",
+        "E": "Primary muscle disease would elevate creatine kinase and preserve reflexes proportional to strength."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-024",
+      "question": "A 74-year-old man in Louisiana develops fever, headache, and confusion in late August, followed by asymmetric flaccid weakness of the right arm and both legs. He recalls numerous mosquito bites while gardening. Examination shows areflexia in the weak limbs with minimal sensory loss. MRI shows T2 hyperintensity in the anterior horn gray matter of the cervical and lumbar cord. Which of the following is the most likely causative organism?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "CSF leukocytes",
+          "140/mm3 (lymphocytes)",
+          "0–5/mm3"
+        ],
+        [
+          "CSF protein",
+          "96 mg/dL",
+          "15–45 mg/dL"
+        ],
+        [
+          "CSF glucose",
+          "64 mg/dL",
+          "40–70 mg/dL"
+        ],
+        [
+          "Serum sodium",
+          "138 mEq/L",
+          "135–145 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Borrelia burgdorferi",
+        "B": "Enterovirus D68",
+        "C": "Poliovirus",
+        "D": "Treponema pallidum",
+        "E": "West Nile virus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Lyme neuroborreliosis is tick-borne and causes painful radiculitis and facial palsy rather than a poliomyelitis-like syndrome with encephalitis.",
+        "B": "Enterovirus D68 causes acute flaccid myelitis mainly in children following a respiratory illness, without prominent encephalopathy.",
+        "C": "Poliovirus is spread fecal-orally, occurs in unvaccinated children, and does not cause the encephalitic features seen here.",
+        "D": "Treponema pallidum causes tabes dorsalis and meningovascular disease years after infection, not an acute febrile mosquito-associated illness.",
+        "E": "West Nile virus is a mosquito-borne flavivirus that causes febrile meningoencephalitis in older or immunocompromised adults, with a poliomyelitis-like asymmetric anterior horn syndrome and minimal sensory loss."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-025",
+      "question": "A 35-year-old man is admitted 6 weeks after being bitten on the hand by a bat while cleaning an attic. He first had fever, malaise, and paresthesias at the bite site, then developed ascending flaccid paralysis with areflexia and respiratory failure. Autopsy shows nonsuppurative encephalomyelitis with eosinophilic cytoplasmic inclusions in hippocampal pyramidal neurons and in anterior horn neurons. Which of the following best describes how this organism reached the central nervous system?",
+      "answers": {
+        "A": "Direct infection of circulating microglia and macrophages",
+        "B": "Fecal-oral acquisition with viremia seeding anterior horn cells",
+        "C": "Hematogenous seeding of meningeal vessels causing endarteritis",
+        "D": "Retrograde axonal transport from motor endplates and nerves",
+        "E": "Tick-borne dissemination to meninges and spinal nerve roots"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Infection of monocytes and macrophages that cross the blood-brain barrier describes HIV neuroinvasion.",
+        "B": "Fecal-oral acquisition with viremia describes poliovirus and other enteroviruses.",
+        "C": "Meningeal endarteritis obliterans from a blood-borne spirochete describes meningovascular neurosyphilis.",
+        "D": "Rabies virus replicates in muscle at the bite site, binds motor endplates and peripheral nerve terminals, and travels by retrograde axonal transport to the dorsal root ganglia, cord, and brain, producing Negri bodies.",
+        "E": "Tick-borne spread to nerve roots and cranial nerves describes Lyme neuroborreliosis."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-026",
+      "question": "A 57-year-old man has 2 years of brief, severe stabbing pains shooting down both legs and progressive unsteadiness. Examination shows a wide-based gait, absent ankle reflexes, absent vibration and position sense in the legs, a markedly positive Romberg sign, and painless swelling and deformity of the right knee. Motor strength is nearly normal. He also has urinary incontinence with a distended bladder. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "HIV vacuolar myelopathy",
+        "B": "Lyme neuroborreliosis",
+        "C": "Subacute combined degeneration",
+        "D": "Tabes dorsalis",
+        "E": "Vitamin E deficiency"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Vacuolar myelopathy causes spastic paraparesis with hyperreflexia, not areflexia with lightning pains and Charcot joints.",
+        "B": "Lyme neuroborreliosis produces subacute painful meningoradiculitis with facial palsy over weeks to months rather than years of lancinating pain with neuropathic arthropathy.",
+        "C": "B12 deficiency involves both dorsal and lateral columns, producing spasticity and Babinski signs alongside sensory ataxia.",
+        "D": "Late neurosyphilis causes chronic infection with degeneration and demyelination of the dorsal roots and dorsal columns, producing lightning pains, sensory ataxia with a positive Romberg sign, areflexia, neurogenic bladder, and Charcot joints with relatively spared strength.",
+        "E": "Vitamin E deficiency causes sensory ataxia from dorsal column and spinocerebellar damage but not lancinating pains or Charcot joints."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-027",
+      "question": "A 41-year-old woman in Connecticut develops severe burning pain radiating around her right chest and into her right arm 6 weeks after removing an engorged tick. She then develops right-sided facial droop involving the forehead and asymmetric arm weakness with patchy sensory loss. Cerebrospinal fluid shows a lymphocytic pleocytosis with plasma cells and elevated protein. Which of the following organisms is the most likely cause?",
+      "answers": {
+        "A": "Borrelia burgdorferi",
+        "B": "Cytomegalovirus",
+        "C": "Human T-lymphotropic virus type 1",
+        "D": "Treponema pallidum",
+        "E": "Varicella-zoster virus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Borrelia spreads from the skin through blood to the meninges, nerve roots, and cranial nerves, producing painful meningoradiculitis with facial palsy and lymphocytic, plasma cell-rich inflammation.",
+        "B": "Cytomegalovirus causes polyradiculitis mainly in advanced immunosuppression and typically shows a neutrophilic cerebrospinal fluid profile.",
+        "C": "HTLV-1 causes a slowly progressive spastic paraparesis over years rather than acute painful radiculitis after a tick bite.",
+        "D": "Treponema pallidum causes neurologic disease years after infection and is not associated with tick exposure.",
+        "E": "Varicella-zoster reactivation causes a painful vesicular dermatomal rash, which is absent here."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-028",
+      "question": "A 68-year-old man develops sudden severe interscapular pain followed within 2 hours by paralysis of both legs during repair of a thoracoabdominal aortic aneurysm complicated by prolonged hypotension. Examination shows flaccid paraplegia with a loss of pinprick and temperature sensation below T8, urinary retention, and hypotension with poor sweating below the lesion. Vibration and joint position sense are preserved in both legs. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Acute inflammatory demyelinating polyradiculoneuropathy",
+        "B": "Cauda equina syndrome from acute disc herniation",
+        "C": "Epidural abscess with acute cord compression",
+        "D": "Idiopathic acute transverse myelitis of the thoracic cord",
+        "E": "Spinal cord infarction in anterior spinal artery territory"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Guillain-Barré syndrome causes ascending symmetric weakness over days without a discrete sensory level or dissociated sensory loss.",
+        "B": "Cauda equina lesions cause asymmetric radicular pain and saddle anesthesia rather than a thoracic sensory level.",
+        "C": "Epidural abscess presents with fever, focal spinal tenderness, and subacute progression rather than instantaneous deficit during hypotension.",
+        "D": "Transverse myelitis evolves over 4 hours to 21 days and does not spare vibration and proprioception.",
+        "E": "Occlusion or hypoperfusion of the anterior spinal artery infarcts the anterior two-thirds of the cord, damaging corticospinal and spinothalamic tracts and anterior horns while sparing the dorsal columns supplied by the posterior spinal arteries."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-029",
+      "question": "A 26-year-old woman develops numbness in her feet that ascends to the umbilicus over 9 days, along with leg weakness and urinary retention. She had an upper respiratory infection 3 weeks earlier. Examination shows a sensory level at T10, initially depressed reflexes now becoming brisk, and bilateral Babinski signs. MRI shows a T2 hyperintense, gadolinium-enhancing lesion of the thoracic cord spanning two vertebral segments with no compressive lesion. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "CSF leukocytes",
+          "34/mm3 (lymphocytes)",
+          "0–5/mm3"
+        ],
+        [
+          "CSF protein",
+          "74 mg/dL",
+          "15–45 mg/dL"
+        ],
+        [
+          "CSF glucose",
+          "60 mg/dL",
+          "40–70 mg/dL"
+        ],
+        [
+          "Serum vitamin B12",
+          "540 pg/mL",
+          "200–900 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior spinal artery infarction",
+        "B": "Cervical disc herniation with cord compression",
+        "C": "Guillain-Barré syndrome",
+        "D": "Spinal epidural hematoma",
+        "E": "Transverse myelitis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Arterial infarction is maximal within hours and spares vibration and proprioception rather than producing a complete sensory level.",
+        "B": "A compressive disc lesion would be visible on MRI and would not produce an enhancing intramedullary lesion with cerebrospinal fluid inflammation.",
+        "C": "Guillain-Barré syndrome causes areflexic ascending weakness with albuminocytologic dissociation, not a sensory level with emerging upper motor neuron signs.",
+        "D": "Epidural hematoma causes abrupt severe pain with rapid compressive deficits and would appear as an extradural collection.",
+        "E": "Postinfectious inflammatory myelopathy evolving over 4 hours to 21 days with a sensory level, autonomic dysfunction, and a T2 hyperintense enhancing intramedullary lesion defines transverse myelitis, with early spinal shock followed by spasticity."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-030",
+      "question": "A 38-year-old woman has 4 months of progressive leg weakness and a T7 sensory level. She also has a right facial droop involving the forehead, anterior uveitis, and painful red nodules on both shins. Chest radiography shows bilateral hilar lymphadenopathy. MRI of the spine shows a patchy enhancing intramedullary lesion. Biopsy of a mediastinal lymph node is performed. Which of the following findings is most likely?",
+      "answers": {
+        "A": "Caseating granulomas with acid-fast bacilli",
+        "B": "Confluent demyelinating plaques with axonal sparing",
+        "C": "Eosinophilic cytoplasmic inclusions within neurons",
+        "D": "Noncaseating granulomas with multinucleated giant cells",
+        "E": "Spongy vacuolation of myelin in the lateral columns"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Caseating granulomas with acid-fast organisms indicate tuberculosis, which would typically show apical pulmonary disease rather than symmetric hilar adenopathy with uveitis.",
+        "B": "Demyelinating plaques characterize multiple sclerosis, which does not produce hilar adenopathy or erythema nodosum.",
+        "C": "Eosinophilic cytoplasmic inclusions are Negri bodies seen in rabies encephalomyelitis.",
+        "D": "Sarcoidosis reflects Th1-mediated macrophage activation producing noncaseating granulomas of epithelioid macrophages and multinucleated giant cells, and neurologic involvement occurs in roughly 5% of cases with cranial neuropathy, most often the facial nerve.",
+        "E": "Spongy vacuolation of dorsal and lateral column myelin is the hallmark of HIV vacuolar myelopathy."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-031",
+      "question": "A 31-year-old woman has 3 years of painless burns on her fingertips from cooking. Examination shows loss of pain and temperature sensation over both shoulders, arms, and upper chest in a cape-like distribution, with preserved vibration and joint position sense in the same areas. She also has mild wasting of the intrinsic hand muscles. MRI shows a fluid-filled cavity expanding the central cervical cord. Which of the following structures is damaged earliest in this disorder?",
+      "answers": {
+        "A": "Anterior horn motor neurons",
+        "B": "Corticospinal tracts in the lateral funiculus",
+        "C": "Crossing fibers in the anterior white commissure",
+        "D": "Dorsal columns carrying vibration and proprioception",
+        "E": "Dorsal root ganglion sensory neurons"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anterior horn involvement occurs as the syrinx expands ventrolaterally and explains the later hand wasting and areflexia.",
+        "B": "Corticospinal involvement is a late feature producing leg spasticity after the cavity extends further laterally.",
+        "C": "A syrinx expanding from the central canal first interrupts second-order pain and temperature fibers decussating in the anterior white commissure, producing bilateral cape-like dissociated sensory loss.",
+        "D": "The dorsal columns lie dorsally and are affected last, which is why vibration and proprioception remain intact.",
+        "E": "The dorsal root ganglia lie outside the cord and are not injured by an intramedullary cavity."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-032",
+      "question": "A 63-year-old woman who underwent terminal ileal resection for Crohn disease 4 years ago has 8 months of unsteady gait, tingling in the hands and feet, and mild memory difficulty. Examination shows absent vibration sense at the ankles, a positive Romberg sign, increased tone with brisk knee reflexes, and bilateral extensor plantar responses. Which of the following laboratory findings best distinguishes her deficiency from folate deficiency?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "10.1 g/dL",
+          "12.0–16.0 g/dL"
+        ],
+        [
+          "Mean corpuscular volume",
+          "112 fL",
+          "80–100 fL"
+        ],
+        [
+          "Homocysteine",
+          "34 µmol/L",
+          "5–15 µmol/L"
+        ],
+        [
+          "Methylmalonic acid",
+          "1.8 µmol/L",
+          "<0.40 µmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Elevated methylmalonic acid concentration",
+        "B": "Elevated serum homocysteine concentration",
+        "C": "Hypersegmented neutrophils on peripheral smear",
+        "D": "Macrocytic anemia with elevated mean corpuscular volume",
+        "E": "Reduced reticulocyte production index"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cobalamin is required to convert methylmalonyl-CoA to succinyl-CoA, so methylmalonic acid rises in B12 deficiency but remains normal in folate deficiency, which is why it separates the two causes of subacute combined degeneration-like presentations.",
+        "B": "Homocysteine is elevated in both B12 and folate deficiency and therefore cannot distinguish them.",
+        "C": "Hypersegmented neutrophils reflect impaired DNA synthesis and appear in both deficiencies.",
+        "D": "Macrocytic anemia occurs with either deficiency because both impair thymidine synthesis.",
+        "E": "A low reticulocyte response is a nonspecific feature of ineffective erythropoiesis in either deficiency."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-033",
+      "question": "A 24-year-old woman with cystic fibrosis and chronic steatorrhea has 1 year of progressive unsteadiness and clumsiness. Examination shows absent ankle reflexes, absent vibration and position sense in the legs, a positive Romberg sign, and mild dysmetria. Pinprick sensation is intact. Deficiency of which of the following is most likely responsible?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "13.4 g/dL",
+          "12.0–16.0 g/dL"
+        ],
+        [
+          "Mean corpuscular volume",
+          "88 fL",
+          "80–100 fL"
+        ],
+        [
+          "Serum vitamin B12",
+          "610 pg/mL",
+          "200–900 pg/mL"
+        ],
+        [
+          "Methylmalonic acid",
+          "0.18 µmol/L",
+          "<0.40 µmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Cobalamin",
+        "B": "Folate",
+        "C": "Niacin",
+        "D": "Thiamine",
+        "E": "Tocopherol"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cobalamin deficiency would produce macrocytic anemia with elevated methylmalonic acid, both of which are normal here.",
+        "B": "Folate deficiency causes macrocytic anemia and cognitive symptoms without severe dorsal column demyelination.",
+        "C": "Niacin deficiency causes pellagra with dermatitis, diarrhea, and dementia rather than isolated sensory ataxia.",
+        "D": "Thiamine deficiency causes Wernicke encephalopathy or a symmetric distal stocking-glove neuropathy, typically in alcoholism or hyperemesis.",
+        "E": "Vitamin E is a lipid-soluble antioxidant lost in fat malabsorption, and its deficiency damages dorsal columns and spinocerebellar tracts, mimicking subacute combined degeneration but with no megaloblastic anemia and normal methylmalonic acid."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-034",
+      "question": "A 29-year-old man is started on a four-drug regimen for pulmonary tuberculosis. Ten weeks later he reports burning tingling and numbness in a stocking distribution in both feet, and he then has a generalized tonic-clonic seizure. He has no history of epilepsy, and brain imaging and electrolytes are normal. Deficiency of which of the following vitamins best explains these findings?",
+      "answers": {
+        "A": "Cobalamin",
+        "B": "Folate",
+        "C": "Niacin",
+        "D": "Pyridoxine",
+        "E": "Thiamine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cobalamin deficiency causes subacute combined degeneration with dorsal and lateral column signs rather than seizures.",
+        "B": "Folate deficiency causes megaloblastic anemia and cognitive decline without a seizure diathesis.",
+        "C": "Niacin deficiency causes pellagra, and although isoniazid can precipitate it, the seizure here reflects impaired inhibitory neurotransmitter synthesis.",
+        "D": "Isoniazid depletes pyridoxine, a cofactor for transamination and neurotransmitter synthesis, and reduced GABA synthesis lowers the seizure threshold while sensory neuropathy develops in parallel.",
+        "E": "Thiamine deficiency produces confusion, ataxia, and ophthalmoplegia in the setting of alcoholism or malnutrition."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-035",
+      "question": "A 27-year-old woman is evaluated 12 days after surviving a violent carjacking during which she was threatened with a weapon. She reports intrusive memories, nightmares, avoidance of the street where the event occurred, irritability, and an exaggerated startle response. She also describes episodes in which she feels detached from her body and as if her surroundings are unreal. She has 10 such symptoms and is unable to work. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Acute stress disorder",
+        "B": "Adjustment disorder with anxious mood",
+        "C": "Generalized anxiety disorder",
+        "D": "Panic disorder with agoraphobia",
+        "E": "Posttraumatic stress disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Symptoms lasting from 3 days to 1 month after exposure to actual or threatened death or serious injury, with nine or more symptoms across intrusion, avoidance, negative mood, dissociation, and arousal, define acute stress disorder, and dissociation is its distinguishing feature.",
+        "B": "Adjustment disorder follows a stressor that does not meet the trauma criterion and lacks intrusion and dissociative symptoms.",
+        "C": "Generalized anxiety disorder requires 6 months of excessive worry across multiple domains without a defining traumatic event.",
+        "D": "Panic disorder is characterized by recurrent unexpected panic attacks with anticipatory worry, not trauma-linked intrusion and avoidance.",
+        "E": "Posttraumatic stress disorder requires more than 1 month of symptoms, and only 12 days have elapsed."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-036",
+      "question": "A psychiatry team is designing a screening program for a large urban trauma center and reviews epidemiologic data on posttraumatic stress disorder. Approximately 70% of the population experiences a major trauma, yet only 20% to 25% of exposed individuals develop the disorder. The team wants to prioritize screening for the exposure most strongly associated with subsequent disorder. Which of the following exposures confers the greatest risk?",
+      "answers": {
+        "A": "Exposure to a regional natural disaster",
+        "B": "Family history of an anxiety disorder",
+        "C": "Interpersonal trauma such as sexual assault",
+        "D": "Involvement in a motor vehicle collision",
+        "E": "Witnessing a residential structure fire"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Natural disasters are classic non-interpersonal traumas and carry lower risk than interpersonal events.",
+        "B": "A family history of anxiety disorders is an individual-level vulnerability factor but is weaker than the nature of the trauma itself.",
+        "C": "Interpersonal trauma, particularly sexual and physical assault, is a stronger risk factor than non-interpersonal trauma, and its severity also predicts the severity of subsequent illness.",
+        "D": "Motor vehicle crashes are the prototypical non-interpersonal trauma with comparatively lower conversion to the disorder.",
+        "E": "Witnessing a fire is a non-interpersonal event and confers lower risk than direct interpersonal victimization."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-037",
+      "question": "A 34-year-old veteran has had 8 months of nightmares, flashbacks, avoidance of crowds, persistent negative beliefs about himself, and hypervigilance following combat exposure. He has never been treated, is willing to engage in weekly sessions, and has no substance use disorder or suicidal ideation. Which of the following is the most appropriate initial treatment?",
+      "answers": {
+        "A": "Benzodiazepine monotherapy",
+        "B": "Cognitive processing therapy",
+        "C": "Prazosin monotherapy",
+        "D": "Quetiapine monotherapy",
+        "E": "Valproate monotherapy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Benzodiazepines show no benefit in this disorder, blunt emotional engagement needed for therapy, and increase risk of substance use disorder.",
+        "B": "Trauma-focused psychotherapy is the most effective and recommended first-line treatment, and cognitive processing therapy has among the strongest efficacy data by restructuring distorted trauma-related beliefs.",
+        "C": "Prazosin has some benefit but is used adjunctively for trauma-related nightmares rather than as initial monotherapy.",
+        "D": "Atypical antipsychotics such as quetiapine have not demonstrated benefit as monotherapy.",
+        "E": "Valproate is among the agents shown to lack benefit for core symptoms."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-038",
+      "question": "A 45-year-old woman with posttraumatic stress disorder has improved daytime symptoms on sertraline and prolonged exposure therapy, but continues to have severe trauma-related nightmares with awakenings and tachycardia. Her physician adds a medication to be taken at bedtime and warns her about lightheadedness on standing after the first dose. Which of the following is the mechanism of action of the added drug?",
+      "answers": {
+        "A": "Alpha-1 adrenergic receptor blockade",
+        "B": "Beta-adrenergic receptor blockade",
+        "C": "GABA-A receptor potentiation",
+        "D": "Norepinephrine transporter inhibition",
+        "E": "Serotonin transporter inhibition"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Prazosin is a centrally acting postsynaptic alpha-1 receptor blocker that reduces adrenergic activity in the central nervous system, decreasing nightmare intensity and duration, and its first-dose hypotension is why it is dosed at bedtime.",
+        "B": "Beta blockade lowers peripheral sympathetic tone but is not the mechanism used for trauma-related nightmares.",
+        "C": "GABA-A potentiation describes benzodiazepines, which are harmful in this disorder.",
+        "D": "Norepinephrine transporter inhibition contributes to the action of venlafaxine, which raises rather than lowers blood pressure.",
+        "E": "Serotonin transporter inhibition is the mechanism of the sertraline she is already taking."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-039",
+      "question": "A laboratory is validating an assay to quantify serum cortisol in patients being evaluated for a myelopathy of unclear cause. The analyte is too small for two different antibodies to bind simultaneously. In the chosen format, unlabeled patient analyte and a fixed amount of enzyme-labeled reference analyte compete for a limited number of antibody binding sites, and the measured color intensity is inversely proportional to the patient concentration. Which of the following assays is being described?",
+      "answers": {
+        "A": "Competitive ELISA",
+        "B": "Direct ELISA",
+        "C": "Indirect ELISA",
+        "D": "Sandwich ELISA",
+        "E": "Western blot"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In a competitive assay, patient antigen outcompetes labeled reference antigen for limited antibody, so more patient antigen produces a weaker signal, which makes it ideal for small molecules such as steroid and thyroid hormones.",
+        "B": "A direct assay immobilizes antigen and detects it with a single enzyme-conjugated primary antibody, giving a signal proportional to antigen.",
+        "C": "An indirect assay immobilizes antigen and detects patient antibody with an enzyme-labeled secondary antibody, amplifying the signal for serologic testing.",
+        "D": "A sandwich assay requires a capture and a detection antibody binding two distinct epitopes, which is impossible for very small analytes.",
+        "E": "A Western blot separates proteins by electrophoresis before antibody detection and is not a competitive quantitative plate assay."
+      }
+    },
+    {
+      "id": "neuro-cbl-w2-los-040",
+      "question": "A 52-year-old undocumented immigrant with end-stage renal disease presents to the emergency department for the fourth time in 6 weeks with hyperkalemia and volume overload, receiving dialysis only once she meets an emergency threshold. She is ineligible for Medicaid and cannot purchase a marketplace plan. She asks how she can obtain regular care and worries that using any health program will jeopardize her family. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Advise her to purchase an unsubsidized marketplace plan",
+        "B": "Counsel that any Medicaid use will bar her naturalization",
+        "C": "Refer her to a federally qualified health center for care",
+        "D": "Rely on emergency Medicaid for scheduled outpatient dialysis",
+        "E": "Withhold documentation of her diagnosis from the record"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The Affordable Care Act excludes undocumented immigrants entirely, so they cannot purchase marketplace coverage even at full price.",
+        "B": "This overstates the public charge rule and would deter her from benefits she may legally hold, so counseling should be accurate rather than alarming.",
+        "C": "Federally qualified health centers provide sliding-scale primary care without an immigration status requirement, addressing the perverse incentive by which emergency-only dialysis carries roughly 14 times the mortality and 4 times the cost of routine dialysis.",
+        "D": "Emergency Medicaid covers only conditions meeting a state-defined emergency threshold and in most states will not fund scheduled outpatient dialysis.",
+        "E": "Omitting the diagnosis falsifies the record and impairs her care, whereas avoiding unnecessary documentation of immigration status is the appropriate protection."
+      }
+    }
+  ]
+}

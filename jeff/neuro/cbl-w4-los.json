@@ -1,0 +1,998 @@
+{
+  "lecture": "CBL W4 LOs",
+  "block": "neuro",
+  "generated": "2026-09-03",
+  "questions": [
+    {
+      "id": "neuro-cbl-w4-los-001",
+      "question": "A 62-year-old man with poorly controlled hypertension develops abrupt weakness of the right arm and leg with complete sparing of the face. Examination shows decreased vibration and joint position sense on the right, with intact pinprick and temperature sensation throughout. On protrusion, the tongue deviates to the left. MRI shows a paramedian infarct of the rostral medulla. Occlusion of which of the following arteries best explains this constellation of findings?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Basilar artery",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "AICA occlusion infarcts the lateral pons and inner ear, producing vertigo, ipsilateral peripheral facial palsy, and ipsilateral hearing loss.",
+        "B": "The anterior spinal artery supplies the medial medulla, so infarction damages the pyramid (contralateral hemiparesis sparing the face), medial lemniscus (contralateral vibration/proprioception loss), and hypoglossal nucleus/fibers (tongue deviation toward the lesion).",
+        "C": "Basilar artery occlusion infarcts the bilateral ventral pons, producing quadriplegia, bilateral facial palsy, and locked-in syndrome.",
+        "D": "PICA occlusion produces lateral medullary syndrome with crossed sensory loss, dysphagia, hoarseness, vertigo, and Horner syndrome, not medial lemniscal or pyramidal findings.",
+        "E": "Superior cerebellar artery occlusion causes ipsilateral limb ataxia and dysmetria with rostral pontine and superior cerebellar involvement."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-002",
+      "question": "A 58-year-old woman presents with sudden vertigo, vomiting, and unsteady gait. Examination reveals loss of pain and temperature sensation on the left face and right body, ptosis and miosis of the left eye, and left limb ataxia. She also has a hoarse voice, chokes on liquids, and has an absent gag reflex on the left. Which of the following structures is responsible for her hoarseness and impaired swallowing?",
+      "answers": {
+        "A": "Hypoglossal nucleus",
+        "B": "Inferior cerebellar peduncle",
+        "C": "Medial lemniscus",
+        "D": "Nucleus ambiguus",
+        "E": "Spinal trigeminal nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Hypoglossal nucleus injury causes tongue deviation toward the lesion with hemitongue atrophy, a medial medullary finding.",
+        "B": "Inferior cerebellar peduncle involvement produces ipsilateral limb ataxia and imbalance rather than bulbar weakness.",
+        "C": "Medial lemniscus damage produces contralateral loss of vibration and proprioception, which is a medial rather than lateral medullary finding.",
+        "D": "The nucleus ambiguus supplies branchial motor fibers of CN IX and X to the pharynx and larynx, so its loss in lateral medullary infarction causes dysphonia, dysphagia, and a diminished gag reflex.",
+        "E": "Spinal trigeminal nucleus injury causes ipsilateral facial pain and temperature loss, not weakness of the palate or larynx."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-003",
+      "question": "A 66-year-old smoker develops acute vertigo, hiccups, and difficulty swallowing. Examination shows a 2-mm left pupil with mild left ptosis and decreased sweating of the left face, along with loss of pain and temperature sensation on the left face and right trunk and limbs. Extraocular movements and motor strength are normal. Interruption of which of the following pathways accounts for the pupillary and eyelid findings?",
+      "answers": {
+        "A": "Descending hypothalamospinal fibers",
+        "B": "Inferior cerebellar peduncle",
+        "C": "Medial longitudinal fasciculus",
+        "D": "Spinal trigeminal tract",
+        "E": "Spinothalamic tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Descending sympathetic (hypothalamospinal) fibers travel in the dorsolateral medulla, and their interruption produces an ipsilateral Horner syndrome of ptosis, miosis, and anhidrosis.",
+        "B": "Inferior cerebellar peduncle interruption produces ipsilateral limb ataxia and truncal imbalance.",
+        "C": "MLF interruption causes internuclear ophthalmoplegia with impaired adduction, but this patient's extraocular movements are normal.",
+        "D": "Spinal trigeminal tract interruption explains the ipsilateral facial pain and temperature loss, not the oculosympathetic deficit.",
+        "E": "Spinothalamic tract interruption explains the contralateral body pain and temperature loss, not ptosis and miosis."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-004",
+      "question": "A 55-year-old man with atrial fibrillation develops sudden severe vertigo, nausea, and unsteadiness. Examination shows nystagmus, complete weakness of the left side of the face including the forehead and inability to close the left eye, sensorineural hearing loss in the left ear, and dysmetria of the left arm. Pinprick sensation is decreased on the left face and right body. Occlusion of which of the following arteries best explains these findings?",
+      "answers": {
+        "A": "Anterior choroidal artery",
+        "B": "Anterior inferior cerebellar artery",
+        "C": "Basilar artery",
+        "D": "Posterior cerebral artery",
+        "E": "Posterior inferior cerebellar artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anterior choroidal artery occlusion causes contralateral hemiparesis, hemisensory loss, and hemianopia from internal capsule and optic tract injury.",
+        "B": "AICA supplies the lateral caudal pons and, via the labyrinthine artery, the inner ear, so occlusion produces vertigo, lower motor neuron facial palsy, ipsilateral hearing loss, and ipsilateral ataxia.",
+        "C": "Basilar artery occlusion causes bilateral ventral pontine infarction with quadriplegia and locked-in syndrome.",
+        "D": "PCA occlusion causes contralateral homonymous hemianopia, often with memory or confusional features.",
+        "E": "PICA occlusion causes lateral medullary syndrome, which spares hearing and produces bulbar rather than complete facial weakness."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-005",
+      "question": "A 70-year-old woman is evaluated after a dorsolateral medullary infarct. She reports that food on the back of her tongue is tasteless, and formal testing confirms absent taste on the posterior third of the tongue on the affected side. Carotid sinus massage on that side fails to produce the expected reflex bradycardia. Damage to which of the following structures best explains both findings?",
+      "answers": {
+        "A": "Dorsal motor nucleus of the vagus",
+        "B": "Hypoglossal nucleus",
+        "C": "Nucleus ambiguus",
+        "D": "Nucleus of the solitary tract",
+        "E": "Spinal trigeminal nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal motor nucleus of the vagus supplies preganglionic parasympathetic efferents to thoracoabdominal viscera and is the efferent, not the afferent, limb of these reflexes.",
+        "B": "The hypoglossal nucleus provides somatic motor innervation to tongue muscles and has no role in taste or baroreception.",
+        "C": "The nucleus ambiguus provides branchial motor output to the pharynx and larynx, causing dysphagia and hoarseness when injured.",
+        "D": "The solitary nucleus receives visceral sensory input, with taste from CN VII, IX, and X rostrally and carotid sinus baroreceptor and chemoreceptor afferents caudally, so its loss abolishes both taste and the baroreflex.",
+        "E": "The spinal trigeminal nucleus carries pain, temperature, and crude touch from the face, not taste or visceral afferent information."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-006",
+      "question": "A 68-year-old man has an infarct restricted to the left caudal medulla near the midline. Examination reveals loss of vibration sense and proprioception in the right arm and leg with preserved pinprick and temperature sensation. Sensory testing of the face is normal. The fibers responsible for the deficit crossed the midline within the medulla as internal arcuate fibers. Which of the following pathways was interrupted?",
+      "answers": {
+        "A": "Anterior spinocerebellar tract",
+        "B": "Corticospinal tract",
+        "C": "Dorsal column-medial lemniscus pathway",
+        "D": "Spinothalamic tract",
+        "E": "Trigeminothalamic tract"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior spinocerebellar tract carries unconscious proprioception to the cerebellum, and its loss produces ipsilateral limb ataxia rather than conscious sensory loss.",
+        "B": "The corticospinal tract carries voluntary motor commands and decussates at the spinomedullary junction, producing weakness rather than sensory loss.",
+        "C": "Dorsal column fibers ascend ipsilaterally, synapse in the gracile and cuneate nuclei, and cross as internal arcuate fibers to form the medial lemniscus, so a medullary lesion after the decussation produces contralateral loss of vibration and proprioception.",
+        "D": "Spinothalamic fibers cross in the spinal cord at their entry level and carry pain and temperature, which are preserved in this patient.",
+        "E": "The trigeminothalamic tract conveys crossed facial pain and temperature, and this patient has normal facial sensation."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-007",
+      "question": "A 34-year-old woman with multiple sclerosis reports horizontal double vision. On attempted rightward gaze, the left eye fails to adduct past the midline while the right eye abducts fully with coarse nystagmus. Convergence is intact and the pupils are normal. A lesion of which of the following structures best explains these findings?",
+      "answers": {
+        "A": "Abducens nucleus",
+        "B": "Medial longitudinal fasciculus",
+        "C": "Oculomotor nucleus",
+        "D": "Paramedian pontine reticular formation",
+        "E": "Superior colliculus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An abducens nucleus lesion produces an ipsilateral horizontal gaze palsy in which neither eye moves toward the side of the lesion.",
+        "B": "The MLF connects the abducens nucleus to the contralateral oculomotor nucleus, so its interruption causes internuclear ophthalmoplegia with impaired ipsilateral adduction and abducting nystagmus of the other eye, while convergence is spared.",
+        "C": "An oculomotor nucleus lesion causes ptosis, pupillary dilation, and deficits in all CN III-innervated muscles, not isolated adduction failure with normal convergence.",
+        "D": "A PPRF lesion causes a conjugate horizontal gaze palsy toward the side of the lesion rather than a dissociated adduction deficit.",
+        "E": "Superior colliculus lesions impair reflexive saccades and visual orienting, not individual muscle actions of horizontal gaze."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-008",
+      "question": "A hospital quality committee reviews its stroke program and reports the proportion of patients with acute ischemic stroke who underwent formal bedside dysphagia screening before any oral intake. The committee separately tracks whether the hospital maintains a certified stroke unit and what the 90-day mortality rate is. Within the Donabedian framework, the dysphagia screening statistic is best classified as which of the following?",
+      "answers": {
+        "A": "Balancing measure",
+        "B": "Efficiency measure",
+        "C": "Outcome measure",
+        "D": "Process measure",
+        "E": "Structure measure"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A balancing measure tracks unintended consequences elsewhere in the system rather than the delivery of a specific care activity.",
+        "B": "An efficiency measure relates resource use to results and is not one of the three Donabedian domains.",
+        "C": "An outcome measure captures the impact on the patient, such as the 90-day mortality rate cited by the committee.",
+        "D": "Process measures describe what clinicians actually do in delivering care, and performing a defined screening step before oral intake is precisely such an action.",
+        "E": "Structure measures describe what a system has, such as the presence of a certified stroke unit, and are typically assessed as present or absent."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-009",
+      "question": "A 74-year-old woman is found down and dies 18 hours after the abrupt onset of right hemiplegia and aphasia. At autopsy, sections through the left frontoparietal cortex are examined microscopically. Which of the following histologic findings is most likely to be present in the infarcted territory at this time point?",
+      "answers": {
+        "A": "Cystic cavity lined by proliferating astrocytic processes",
+        "B": "Dense infiltrate of neutrophils within the neuropil",
+        "C": "Foamy lipid-laden macrophages clearing myelin debris",
+        "D": "Reactive astrocytes with abundant eosinophilic cytoplasm",
+        "E": "Shrunken eosinophilic neurons with pyknotic nuclei"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A cystic cavity surrounded by gliosis is the end-stage finding seen weeks to months after infarction.",
+        "B": "Neutrophilic infiltration becomes prominent around 1 to 3 days after the ischemic insult.",
+        "C": "Foamy macrophages dominate the phagocytic cleanup phase from roughly 3 days to several weeks.",
+        "D": "Reactive astrocytosis appears during the repair phase at approximately 1 to 2 weeks.",
+        "E": "Acute neuronal necrosis produces classic 'red neurons' with cytoplasmic eosinophilia and nuclear pyknosis at approximately 6 to 24 hours after ischemia."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-010",
+      "question": "A 69-year-old man dies of aspiration pneumonia 48 hours after a large middle cerebral artery infarct. The infarcted cortex is sampled and stained with hematoxylin and eosin. Which of the following cell types is expected to predominate within the lesion at this stage of evolution?",
+      "answers": {
+        "A": "Foamy macrophages",
+        "B": "Lymphocytes",
+        "C": "Neutrophils",
+        "D": "Oligodendrocytes",
+        "E": "Reactive astrocytes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Foamy macrophages become the dominant cell population during the phagocytic phase beginning around day 3 to 7.",
+        "B": "Lymphocytes are not the dominant infiltrating cell in the evolution of bland ischemic infarction.",
+        "C": "Acute inflammation with neutrophilic infiltration of the infarct characteristically peaks at approximately 1 to 3 days after ischemia.",
+        "D": "Oligodendrocytes are injured rather than recruited and do not proliferate into the infarct at this stage.",
+        "E": "Reactive astrocytes proliferate later, during repair at roughly 1 to 2 weeks, and ultimately form the glial scar."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-011",
+      "question": "A 71-year-old woman who suffered a large right hemispheric infarct dies of a pulmonary embolus on hospital day 10. Microscopic examination of the infarcted brain shows loss of normal architecture with abundant large cells containing vacuolated, lipid-rich cytoplasm. Which of the following best identifies these cells and the process they represent?",
+      "answers": {
+        "A": "Endothelial cells forming new capillary channels",
+        "B": "Lipid-laden macrophages digesting myelin debris",
+        "C": "Neutrophils mediating acute inflammatory injury",
+        "D": "Plasma cells producing local immunoglobulin",
+        "E": "Red neurons undergoing acute ischemic necrosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Neovascularization does occur during repair, but proliferating endothelium forms vascular channels rather than large vacuolated phagocytic cells.",
+        "B": "By roughly 3 days to 3 weeks, microglia and blood-derived macrophages become foamy as they phagocytose necrotic neurons and lipid-rich myelin.",
+        "C": "Neutrophils are small cells with segmented nuclei and dominate at 1 to 3 days, not at day 10.",
+        "D": "Plasma cells indicate a chronic antibody-mediated or infectious process rather than evolution of a bland infarct.",
+        "E": "Red neurons are shrunken eosinophilic neurons seen within the first 24 hours and are gone by this stage."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-012",
+      "question": "A 63-year-old man had a left parietal infarct 4 months ago. Follow-up MRI shows a well-demarcated fluid-filled cavity at the site of the prior infarct, and the rim of the cavity enhances densely with glial fibrillary acidic protein on immunostaining of a subsequent autopsy specimen. Which of the following processes is most directly responsible for the tissue forming the rim of this cavity?",
+      "answers": {
+        "A": "Fibroblast-mediated collagen deposition",
+        "B": "Microglial phagocytosis of myelin debris",
+        "C": "Neutrophil-mediated proteolytic digestion",
+        "D": "Oligodendrocyte-mediated remyelination",
+        "E": "Reactive astrocyte proliferation and process extension"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Fibroblastic collagenous scarring is the healing pattern of most peripheral organs but not of the CNS parenchyma.",
+        "B": "Microglial phagocytosis clears debris and creates the cavity but does not form the surrounding scar wall.",
+        "C": "Neutrophil proteolysis contributes to early liquefaction of the infarct rather than to the chronic rim.",
+        "D": "Remyelination by oligodendrocytes does not restore or wall off a liquefied infarct cavity.",
+        "E": "The CNS heals by gliosis: reactive astrocytes proliferate and extend GFAP-rich processes to form the glial scar surrounding the residual cystic cavity."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-013",
+      "question": "A 58-year-old man is resuscitated after a 20-minute out-of-hospital cardiac arrest. Vital signs during the resuscitation are shown. He regains a perfusing rhythm but remains comatose; MRI 72 hours later shows symmetric restricted diffusion in bilateral watershed cortex and in one additional selectively vulnerable region. Which of the following regions is most likely to show additional injury?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Systolic blood pressure (during arrest)",
+          "0-45 mm Hg",
+          "90-120 mm Hg"
+        ],
+        [
+          "Downtime to return of circulation",
+          "20 min",
+          "N/A"
+        ],
+        [
+          "Arterial pH",
+          "6.98",
+          "7.35-7.45"
+        ],
+        [
+          "Serum lactate",
+          "12.4 mmol/L",
+          "0.5-2.2 mmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Cerebellar dentate nucleus",
+        "B": "Hippocampal CA1 sector",
+        "C": "Medullary pyramids",
+        "D": "Substantia nigra pars compacta",
+        "E": "Thalamic ventral posterolateral nucleus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The dentate nucleus is relatively resistant compared with the selectively vulnerable neurons injured by global hypoperfusion.",
+        "B": "Global hypoxic-ischemic injury damages watershed zones and selectively vulnerable neurons, of which hippocampal CA1 pyramidal cells and cerebellar Purkinje cells are the classic examples.",
+        "C": "The medullary pyramids are injured by focal medial medullary infarction rather than by global hypoperfusion.",
+        "D": "The substantia nigra is characteristically lost in Parkinson disease, not in global hypoxic-ischemic injury.",
+        "E": "The VPL nucleus is typically infarcted by occlusion of thalamogeniculate perforators, producing a focal sensory syndrome."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-014",
+      "question": "A 77-year-old woman with atrial fibrillation who stopped taking her anticoagulant develops deficits that are maximal at onset: global aphasia, right hemiparesis, and left gaze preference. MRI shows scattered infarcts in the left middle cerebral artery territory, the right occipital lobe, and the right cerebellum. Carotid imaging shows no significant stenosis. Which of the following mechanisms best explains this pattern of infarction?",
+      "answers": {
+        "A": "Cardioembolic occlusion of multiple distal branches",
+        "B": "Global hypoperfusion causing watershed infarction",
+        "C": "In situ thrombosis over a ruptured atherosclerotic plaque",
+        "D": "Lipohyalinosis of deep penetrating small vessels",
+        "E": "Rupture of a small perforating artery with hematoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Emboli of cardiac origin travel through the bloodstream and lodge in distal branches, producing deficits maximal at onset and infarcts in multiple non-contiguous vascular territories simultaneously.",
+        "B": "Global hypoperfusion produces symmetric watershed-zone infarcts rather than scattered infarcts across separate arterial territories.",
+        "C": "In situ atherothrombosis causes a single large-artery territory infarct and typically occurs at sites of demonstrable stenosis, which she lacks.",
+        "D": "Small-vessel lipohyalinosis causes lacunar syndromes such as pure motor hemiparesis without cortical signs like aphasia.",
+        "E": "Rupture of a perforating vessel causes intraparenchymal hemorrhage, which would appear as blood rather than multiple ischemic infarcts."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-015",
+      "question": "A 64-year-old man arrives 5 hours after the onset of left hemiplegia and neglect. Non-contrast CT shows no hemorrhage, and CT angiography confirms an occluded right middle cerebral artery. CT perfusion results are shown. Which of the following best describes the tissue represented by the difference between the two volumes reported?",
+      "table": [
+        [
+          "Perfusion Parameter",
+          "Value",
+          "Interpretation Threshold"
+        ],
+        [
+          "Ischemic core volume",
+          "18 mL",
+          "Core: rCBF <30%"
+        ],
+        [
+          "Hypoperfused tissue volume",
+          "126 mL",
+          "Tmax >6 s"
+        ],
+        [
+          "Mismatch volume",
+          "108 mL",
+          "Favorable if >15 mL"
+        ],
+        [
+          "Mismatch ratio",
+          "7.0",
+          "Favorable if >1.8"
+        ]
+      ],
+      "answers": {
+        "A": "Chronic microvascular ischemic white matter change",
+        "B": "Hemorrhagic transformation of the ischemic bed",
+        "C": "Irreversibly infarcted tissue destined for cavitation",
+        "D": "Salvageable hypoperfused but still viable penumbra",
+        "E": "Vasogenic edema from blood-brain barrier breakdown"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Chronic small-vessel change is a background finding on structural imaging and is not defined by acute perfusion mismatch.",
+        "B": "Hemorrhagic transformation is blood extravasation into infarcted tissue and would appear as hyperdensity on CT, not as a perfusion mismatch.",
+        "C": "The irreversibly infarcted tissue is the 18 mL core defined by severely reduced cerebral blood flow, not the mismatch volume.",
+        "D": "The penumbra is tissue with flow reduced enough to be dysfunctional but sufficient to remain viable, and it is the target that reperfusion therapy can rescue.",
+        "E": "Vasogenic edema develops after barrier disruption over hours to days and is not what a core-versus-hypoperfusion mismatch measures."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-016",
+      "question": "A 59-year-old man is seen for routine follow-up. He has a 20-pack-year smoking history, a body mass index of 31 kg/m2, and takes no medications. Laboratory and vital sign data are shown. He asks which single factor, if corrected, would most reduce his lifetime risk of ischemic stroke. Which of the following should be identified as the most important modifiable risk factor?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "168/98 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "LDL cholesterol",
+          "142 mg/dL",
+          "<100 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.1%",
+          "<5.7%"
+        ],
+        [
+          "Body mass index",
+          "31 kg/m2",
+          "18.5-24.9 kg/m2"
+        ]
+      ],
+      "answers": {
+        "A": "Atrial fibrillation",
+        "B": "Diabetes mellitus",
+        "C": "Hyperlipidemia",
+        "D": "Hypertension",
+        "E": "Tobacco use"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Atrial fibrillation is a powerful embolic risk factor, but this patient has no evidence of it and it is not the leading population-level modifiable factor.",
+        "B": "His A1c is in the prediabetic range and diabetes raises stroke risk, but it confers less attributable risk than hypertension.",
+        "C": "Hyperlipidemia drives atherosclerotic plaque formation but ranks below hypertension as a modifiable contributor to ischemic stroke.",
+        "D": "Hypertension is the single most important modifiable risk factor for ischemic stroke, and his blood pressure is substantially elevated.",
+        "E": "Smoking meaningfully increases stroke risk and should be addressed, but it is not the single most important modifiable factor."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-017",
+      "question": "A 71-year-old woman asks about her stroke risk during a wellness visit. She has well-controlled blood pressure and cholesterol, has never smoked, and exercises regularly. Her mother had a stroke at age 84. She has a history of migraine with aura in her twenties. Which of the following elements of her profile represents the strongest non-modifiable risk factor for ischemic stroke?",
+      "answers": {
+        "A": "Age of 65 years or older",
+        "B": "Family history of stroke in a parent",
+        "C": "Female sex with prior hormone use",
+        "D": "Prior migraine headaches with aura",
+        "E": "Sedentary versus active lifestyle pattern"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Advancing age, particularly 65 years and older, is the strongest non-modifiable risk factor for ischemic stroke.",
+        "B": "A family history of cerebrovascular disease increases risk but far less than advancing age.",
+        "C": "Female sex is associated with higher stroke mortality and disability but is not the strongest non-modifiable predictor of incident stroke.",
+        "D": "Migraine with aura modestly increases stroke risk, especially with estrogen use and smoking, but it is a minor contributor here.",
+        "E": "Physical inactivity is a modifiable lifestyle factor, and this patient is already active."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-018",
+      "question": "A 68-year-old right-handed man is brought in 90 minutes after abrupt onset of symptoms. He cannot follow commands or produce meaningful speech. Examination shows right facial droop with right arm weakness greater than right leg weakness, right-sided sensory loss, a right visual field cut, and forced eye deviation to the left. Occlusion of which of the following arteries best explains these findings?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Left posterior cerebral artery",
+        "D": "Right middle cerebral artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "ACA occlusion produces contralateral weakness with the leg affected more than the arm, often with urinary incontinence and abulia.",
+        "B": "Left MCA occlusion in a right-handed patient produces global aphasia, right face and arm predominant hemiparesis and sensory loss, right homonymous hemianopia, and leftward gaze deviation from frontal eye field involvement.",
+        "C": "Left PCA occlusion causes a right homonymous hemianopia with possible alexia, but not dense hemiparesis or gaze deviation.",
+        "D": "Right MCA occlusion causes left-sided weakness with neglect and rightward gaze deviation, the mirror image of this presentation.",
+        "E": "Right PCA occlusion causes a left homonymous hemianopia, which is the opposite visual field defect."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-019",
+      "question": "A 74-year-old woman is admitted after a fall. Examination shows weakness of the left leg that is much more severe than weakness of the left arm, with sensory loss in the same distribution. She is apathetic with markedly reduced spontaneous speech and has been incontinent of urine since the event. Language comprehension and visual fields are intact. Occlusion of which of the following arteries best explains these findings?",
+      "answers": {
+        "A": "Left anterior cerebral artery",
+        "B": "Left middle cerebral artery",
+        "C": "Right anterior cerebral artery",
+        "D": "Right middle cerebral artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A left ACA infarct would produce right leg-predominant weakness, the opposite side from this patient's deficits.",
+        "B": "A left MCA infarct would produce right-sided face and arm predominant weakness with aphasia.",
+        "C": "The ACA supplies the medial motor and sensory cortex representing the lower limb, so a right ACA infarct causes left leg-predominant weakness and sensory loss with abulia and urinary incontinence.",
+        "D": "A right MCA infarct causes left face and arm predominant weakness with neglect rather than isolated leg-predominant findings.",
+        "E": "A right PCA infarct causes a left homonymous hemianopia, and this patient's visual fields are intact."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-020",
+      "question": "A 66-year-old man reports that he abruptly lost vision on the left side of both eyes while gardening. Examination confirms a left homonymous hemianopia with sparing of central vision. He is mildly confused and cannot recall the events of the past several hours. Strength, sensation, and language are normal. Occlusion of which of the following arteries is the most likely cause?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Basilar artery",
+        "C": "Middle cerebral artery",
+        "D": "Ophthalmic artery",
+        "E": "Posterior cerebral artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "ACA occlusion causes contralateral leg-predominant weakness and incontinence without visual field loss.",
+        "B": "Basilar occlusion causes quadriplegia, bilateral cranial nerve findings, and impaired consciousness rather than an isolated field cut.",
+        "C": "MCA occlusion can cause a homonymous hemianopia but is accompanied by dense hemiparesis and aphasia or neglect.",
+        "D": "Ophthalmic artery occlusion causes monocular vision loss, not a homonymous defect affecting both eyes.",
+        "E": "PCA occlusion infarcts the occipital cortex, producing contralateral homonymous hemianopia with macular sparing, and can cause confusion and amnesia through medial temporal involvement."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-021",
+      "question": "A 61-year-old man with untreated hypertension is found unresponsive to voice. Examination shows quadriplegia, bilateral facial weakness, absent horizontal eye movements, and inability to speak. He is awake and can answer yes-or-no questions reliably by blinking and moving his eyes vertically on command. Occlusion of which of the following arteries best explains this syndrome?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Anterior inferior cerebellar artery",
+        "C": "Anterior spinal artery",
+        "D": "Basilar artery",
+        "E": "Posterior inferior cerebellar artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "ACA occlusion causes contralateral leg-predominant weakness with preserved consciousness and speech.",
+        "B": "AICA occlusion causes vertigo, ipsilateral facial palsy, and hearing loss without quadriplegia.",
+        "C": "Anterior spinal artery occlusion in the medulla produces medial medullary syndrome with unilateral hemiparesis and tongue deviation.",
+        "D": "Mid-basilar occlusion infarcts the bilateral ventral pons, producing locked-in syndrome with quadriplegia, bilateral facial palsy, and horizontal gaze paresis while sparing vertical eye movements and consciousness.",
+        "E": "PICA occlusion causes lateral medullary syndrome with crossed sensory findings and bulbar symptoms, not quadriplegia."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-022",
+      "question": "A 52-year-old man reports 6 months of progressive difficulty hearing in one ear. On tuning fork testing with a 512-Hz fork, the Weber test lateralizes to the left ear. The Rinne test shows air conduction greater than bone conduction in both ears. Which of the following best explains these findings?",
+      "answers": {
+        "A": "Bilateral conductive hearing loss",
+        "B": "Left conductive hearing loss",
+        "C": "Left sensorineural hearing loss",
+        "D": "Right conductive hearing loss",
+        "E": "Right sensorineural hearing loss"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Bilateral conductive loss would show bone conduction greater than air conduction in both ears on Rinne testing.",
+        "B": "Left conductive loss would lateralize Weber to the left but would also reverse the Rinne on the left to bone greater than air.",
+        "C": "Left sensorineural loss would lateralize the Weber away from the left, toward the right ear.",
+        "D": "Right conductive loss would lateralize Weber to the right and show bone greater than air conduction on the right.",
+        "E": "In sensorineural loss the Weber lateralizes to the better ear and the Rinne remains normal with air greater than bone bilaterally, so lateralization to the left indicates a right sensorineural deficit."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-023",
+      "question": "A 70-year-old woman presents with acute drooping of the right side of her mouth. She can wrinkle her forehead and close both eyes forcefully and symmetrically, but the right nasolabial fold is flattened and she cannot retract the right corner of her mouth. She also has mild right arm weakness. Taste, lacrimation, and hearing are normal. Which of the following best explains her facial findings?",
+      "answers": {
+        "A": "Compression of the facial nerve at the geniculate ganglion",
+        "B": "Contralateral corticobulbar tract lesion in the hemisphere",
+        "C": "Herpes zoster reactivation in the facial nerve ganglion",
+        "D": "Inflammatory demyelination of the peripheral facial nerve",
+        "E": "Lesion of the ipsilateral facial motor nucleus in the pons"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Geniculate ganglion involvement produces peripheral facial weakness including the forehead, often with hyperacusis and taste changes.",
+        "B": "The forehead receives bilateral corticobulbar input while the lower face receives only crossed input, so an upper motor neuron lesion in the contralateral hemisphere spares the forehead and often accompanies limb weakness.",
+        "C": "Ramsay Hunt syndrome causes complete peripheral facial palsy with a vesicular rash and ear pain.",
+        "D": "Bell palsy is a lower motor neuron lesion that weakens the entire hemiface including the forehead and eye closure.",
+        "E": "A pontine facial nucleus lesion is a lower motor neuron lesion and would also weaken the forehead on the same side."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-024",
+      "question": "A 34-year-old woman reports 9 months of near-daily worry about her job, her children's health, her finances, and her aging parents. She says the worry feels impossible to control. She reports muscle tension in her neck and shoulders, difficulty falling asleep, irritability, and trouble concentrating at work. She denies discrete episodes of sudden intense fear and denies avoidance of social situations. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Adjustment disorder with anxious mood",
+        "B": "Generalized anxiety disorder",
+        "C": "Illness anxiety disorder",
+        "D": "Panic disorder without agoraphobia",
+        "E": "Social anxiety disorder, generalized type"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Adjustment disorder requires an identifiable stressor with symptoms beginning within 3 months and resolving within 6 months of its end.",
+        "B": "GAD requires at least 6 months of excessive, difficult-to-control worry about multiple domains plus at least three of restlessness, fatigue, poor concentration, irritability, muscle tension, and sleep disturbance.",
+        "C": "Illness anxiety disorder centers on preoccupation with having or acquiring a serious illness, not on multiple unrelated life domains.",
+        "D": "Panic disorder requires recurrent unexpected panic attacks, which she explicitly denies.",
+        "E": "Social anxiety disorder requires fear of scrutiny or negative judgment in social situations, which she does not describe."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-025",
+      "question": "A 27-year-old man has had six episodes over 3 months in which, without warning, he develops pounding heart, sweating, trembling, shortness of breath, chest tightness, nausea, and a conviction that he is dying. Episodes peak within minutes and resolve within half an hour. For the past 2 months he has worried constantly about when the next episode will occur and now carries his phone everywhere in case he needs to call an ambulance. He still goes to work and to crowded places. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Agoraphobia",
+        "B": "Generalized anxiety disorder",
+        "C": "Panic disorder",
+        "D": "Social anxiety disorder",
+        "E": "Specific phobia, situational type"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Agoraphobia requires fear or avoidance of at least two of five situations such as public transit, open spaces, enclosed spaces, crowds, or being outside alone, and he continues to enter crowded places.",
+        "B": "GAD is characterized by persistent worry across multiple life domains rather than by discrete attacks and worry focused on the attacks themselves.",
+        "C": "Panic disorder requires recurrent unexpected panic attacks with at least 4 of 13 characteristic symptoms plus at least 1 month of persistent concern about further attacks or maladaptive behavioral change.",
+        "D": "Social anxiety disorder requires that the anxiety be cued by situations involving possible scrutiny, whereas his attacks are unexpected.",
+        "E": "Specific phobia requires fear triggered by a defined object or situation, which is absent in unexpected attacks."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-026",
+      "question": "A 21-year-old college student has avoided seminar courses for the past 2 years because he fears that classmates will notice his shaking hands and judge him as incompetent. He becomes intensely anxious before any presentation and has declined a leadership role for this reason. He is comfortable in crowds, uses public transportation without difficulty, and has close friendships. He denies unexpected surges of fear. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Agoraphobia",
+        "B": "Avoidant personality disorder",
+        "C": "Generalized anxiety disorder",
+        "D": "Panic disorder",
+        "E": "Social anxiety disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Agoraphobia involves fear that escape may be difficult or help unavailable in specific settings, and he uses public transit and crowds without difficulty.",
+        "B": "Avoidant personality disorder is a pervasive pattern of social inhibition and feelings of inadequacy across contexts, whereas he maintains close friendships.",
+        "C": "GAD involves excessive worry about multiple life domains rather than fear confined to situations involving scrutiny.",
+        "D": "Panic disorder requires recurrent unexpected attacks, which he denies.",
+        "E": "Social anxiety disorder is defined by marked fear of social or performance situations where scrutiny is possible, lasting at least 6 months, with avoidance and functional impairment."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-027",
+      "question": "A 45-year-old woman has spent the past year avoiding buses and trains, shopping malls, and standing in checkout lines, and she will leave the house only if her husband accompanies her. She explains that in these settings she fears she would not be able to get out or get help if she became ill. She has never had a discrete attack of sudden overwhelming fear. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Agoraphobia",
+        "B": "Generalized anxiety disorder",
+        "C": "Panic disorder",
+        "D": "Social anxiety disorder",
+        "E": "Specific phobia, situational type"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Agoraphobia requires at least 6 months of fear or anxiety in two or more of five settings, including public transportation, open spaces, enclosed spaces, lines or crowds, and being outside the home alone, driven by fear that escape or help would be difficult.",
+        "B": "GAD centers on uncontrollable worry about multiple life domains rather than on situational escape and help-seeking.",
+        "C": "Panic disorder requires recurrent unexpected panic attacks, which she has never had, although agoraphobia and panic disorder may be diagnosed together when both sets of criteria are met.",
+        "D": "Social anxiety disorder is driven by fear of scrutiny or negative evaluation, not by fear of being unable to escape.",
+        "E": "Specific phobia involves a single circumscribed object or situation rather than a cluster of settings sharing the escape theme."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-028",
+      "question": "A 38-year-old woman presents with 3 months of episodic palpitations, tremor, sweating, and a sense of impending doom, along with insomnia and irritability. She has lost 12 pounds without dieting and reports heat intolerance and loose stools. Examination shows a resting pulse of 118/min, a fine tremor, warm moist skin, and lid lag. Laboratory results are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "<0.01 mU/L",
+          "0.4-4.0 mU/L"
+        ],
+        [
+          "Free T4",
+          "3.9 ng/dL",
+          "0.8-1.8 ng/dL"
+        ],
+        [
+          "Total T3",
+          "310 ng/dL",
+          "80-200 ng/dL"
+        ],
+        [
+          "Hemoglobin",
+          "13.4 g/dL",
+          "12.0-16.0 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Anxiety disorder due to another medical condition",
+        "B": "Generalized anxiety disorder",
+        "C": "Illness anxiety disorder",
+        "D": "Panic disorder",
+        "E": "Substance-induced anxiety disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Every primary anxiety disorder requires that symptoms not be attributable to another medical condition, and the suppressed TSH with markedly elevated free T4 and T3 identifies thyrotoxicosis as the direct physiologic cause.",
+        "B": "GAD cannot be diagnosed when the anxiety is the direct physiologic consequence of a medical condition such as hyperthyroidism.",
+        "C": "Illness anxiety disorder involves preoccupation with having a serious illness despite minimal somatic symptoms and normal evaluation.",
+        "D": "Panic disorder is excluded when the attacks are attributable to another medical condition, as they are here.",
+        "E": "Substance-induced anxiety disorder requires a temporally related substance or medication exposure, which is not present."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-029",
+      "question": "A 42-year-old woman meets criteria for generalized anxiety disorder with 8 months of uncontrollable worry, muscle tension, and insomnia. She has a history of alcohol use disorder in sustained remission for 3 years and works as a commercial truck driver, so she cannot tolerate sedation. She wants a medication she can continue long term. Which of the following is the most appropriate initial pharmacotherapy?",
+      "answers": {
+        "A": "Alprazolam",
+        "B": "Diazepam",
+        "C": "Phenelzine",
+        "D": "Propranolol",
+        "E": "Sertraline"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alprazolam carries tolerance, dependence, and abuse potential and causes sedation, making it a poor choice in this patient.",
+        "B": "Diazepam shares the same sedation and dependence liabilities and is reserved for short-term bridging rather than maintenance.",
+        "C": "Phenelzine is a last-line MAOI reserved for refractory anxiety because of hypertensive crisis risk and dietary restrictions.",
+        "D": "Propranolol blunts peripheral sympathetic symptoms and is useful for performance anxiety but does not treat the cognitive worry of GAD.",
+        "E": "SSRIs such as sertraline inhibit the serotonin transporter to raise synaptic serotonin and are first-line for long-term maintenance treatment of GAD without dependence or sedation."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-030",
+      "question": "A 56-year-old man has taken lorazepam 2 mg three times daily for 2 years for anxiety. He runs out of medication while traveling and takes none for 3 days. He then becomes tremulous, agitated, confused, and diaphoretic, with a pulse of 122/min and blood pressure of 178/104 mm Hg. He denies alcohol use. Which of the following complications is he now at greatest risk of developing?",
+      "answers": {
+        "A": "Acute angle-closure glaucoma",
+        "B": "Cholinergic crisis",
+        "C": "Extrapyramidal dystonic reaction",
+        "D": "Fulminant hepatic failure",
+        "E": "Generalized tonic-clonic seizures"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Acute angle-closure glaucoma is precipitated by anticholinergic or sympathomimetic pupillary dilation, not by benzodiazepine withdrawal.",
+        "B": "Cholinergic crisis follows acetylcholinesterase inhibitor excess and presents with miosis, bronchorrhea, and bradycardia.",
+        "C": "Dystonic reactions are caused by dopamine receptor antagonists such as antipsychotics and metoclopramide.",
+        "D": "Fulminant hepatic failure is characteristic of acetaminophen toxicity rather than benzodiazepine discontinuation.",
+        "E": "Chronic benzodiazepine use downregulates GABA-A receptors, so abrupt discontinuation unmasks CNS hyperexcitability with agitation, autonomic instability, and potentially fatal withdrawal seizures."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-031",
+      "question": "A 29-year-old woman in the emergency department has an acute severe panic episode and is given a single dose of lorazepam with rapid improvement. The supervising physician notes that this class of agents has a wider therapeutic index than barbiturates because their effect plateaus once receptor binding sites are saturated. Which of the following best describes the molecular mechanism of the drug administered?",
+      "answers": {
+        "A": "Binding to the alpha-2-delta subunit of calcium channels",
+        "B": "Blockade of serotonin reuptake at the transporter",
+        "C": "Increased duration of chloride channel opening",
+        "D": "Increased frequency of chloride channel opening",
+        "E": "Partial agonism at the 5-HT1A receptor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Binding the alpha-2-delta calcium channel subunit to reduce neurotransmitter release is the mechanism of pregabalin.",
+        "B": "Serotonin transporter blockade is the mechanism of SSRIs, which have a delayed onset unsuitable for an acute episode.",
+        "C": "Increasing the duration of chloride channel opening is the mechanism of barbiturates, which can act as direct agonists and lack a ceiling effect.",
+        "D": "Benzodiazepines are positive allosteric modulators that increase the frequency of GABA-A chloride channel opening, requiring GABA to be present and therefore plateauing once sites are saturated.",
+        "E": "Partial agonism at 5-HT1A describes buspirone, which has a slow onset and no role in acute panic."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-032",
+      "question": "A 48-year-old man with generalized anxiety disorder cannot tolerate an SSRI because of severe sexual dysfunction and refuses to retry that class. He has an active opioid use disorder on maintenance therapy, so agents with abuse potential must be avoided, and he operates heavy machinery so sedation is unacceptable. He understands that relief may take several weeks. Which of the following is the most appropriate medication?",
+      "answers": {
+        "A": "Buspirone",
+        "B": "Clonazepam",
+        "C": "Hydroxyzine",
+        "D": "Phenelzine",
+        "E": "Propranolol"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Buspirone is a 5-HT1A partial agonist that is an effective alternative for GAD, produces little sedation, and carries no dependence or abuse potential, though its slow onset makes it unsuitable for acute anxiety.",
+        "B": "Clonazepam causes sedation and carries tolerance and dependence risk that is unacceptable in a patient with an active substance use disorder.",
+        "C": "Hydroxyzine is an H1 antagonist useful for short-term symptomatic relief but is sedating and not preferred for chronic maintenance.",
+        "D": "Phenelzine is a last-line MAOI with hypertensive crisis risk and major drug and food interactions.",
+        "E": "Propranolol addresses peripheral autonomic symptoms in performance situations but does not relieve the cognitive worry of GAD."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-033",
+      "question": "A 31-year-old woman with panic disorder wishes to avoid medication entirely because she is planning a pregnancy. She asks which non-pharmacologic treatment has the strongest evidence base for anxiety disorders. Which of the following should be recommended as the primary evidence-based psychotherapy?",
+      "answers": {
+        "A": "Acceptance and commitment therapy",
+        "B": "Biofeedback training",
+        "C": "Cognitive behavioral therapy",
+        "D": "Psychodynamic psychotherapy",
+        "E": "Supportive psychotherapy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "ACT teaches acceptance of difficult thoughts and values-based action and is listed as an alternative, particularly for GAD.",
+        "B": "Biofeedback helps patients recognize and control physiologic arousal and is an option for GAD but not the primary evidence-based therapy.",
+        "C": "CBT is the main evidence-based psychotherapy for anxiety disorders, combining cognitive restructuring of distorted thoughts with behavioral techniques such as graded exposure.",
+        "D": "Psychodynamic therapy develops insight into unconscious conflicts and has a weaker evidence base in anxiety disorders.",
+        "E": "Supportive psychotherapy strengthens coping and self-esteem but is not the first-line structured treatment for anxiety."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-034",
+      "question": "A 67-year-old woman is brought to the emergency department 2 hours after her husband witnessed the abrupt onset of right-sided weakness and slurred speech. Her data are shown. Non-contrast head CT shows no hemorrhage and no early infarct signs, and she takes no anticoagulants. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Time from last known well",
+          "2 h",
+          "N/A"
+        ],
+        [
+          "Blood pressure",
+          "162/88 mm Hg",
+          "<185/110 before thrombolysis"
+        ],
+        [
+          "Fingerstick glucose",
+          "108 mg/dL",
+          "70-99 mg/dL"
+        ],
+        [
+          "Platelet count",
+          "244,000/mm3",
+          "150,000-400,000/mm3"
+        ],
+        [
+          "INR",
+          "1.0",
+          "0.9-1.1"
+        ]
+      ],
+      "answers": {
+        "A": "Administer intravenous alteplase",
+        "B": "Administer intravenous heparin",
+        "C": "Begin oral aspirin 325 mg",
+        "D": "Obtain carotid ultrasonography",
+        "E": "Perform lumbar puncture"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "She is within the 4.5-hour window with hemorrhage excluded, blood pressure below 185/110, normal glucose, platelets, and INR, so intravenous thrombolysis to reperfuse the penumbra is indicated without delay.",
+        "B": "Intravenous heparin does not improve outcomes in acute ischemic stroke and increases hemorrhagic risk.",
+        "C": "Aspirin is given within 48 hours but must be delayed 24 hours when thrombolysis is administered, so it should not preempt alteplase.",
+        "D": "Carotid imaging informs secondary prevention and should not delay time-dependent reperfusion therapy.",
+        "E": "Lumbar puncture is used when subarachnoid hemorrhage is suspected despite a negative CT, which is not the presentation here."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-035",
+      "question": "An 82-year-old man with atrial fibrillation presents 90 minutes after the onset of left hemiparesis and dysarthria. Non-contrast CT shows no hemorrhage. His laboratory results and vital signs are shown. Which of the following findings is an absolute contraindication to intravenous thrombolysis in this patient?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "168/92 mm Hg",
+          "<185/110 before thrombolysis"
+        ],
+        [
+          "Fingerstick glucose",
+          "210 mg/dL",
+          "70-99 mg/dL"
+        ],
+        [
+          "Platelet count",
+          "186,000/mm3",
+          "150,000-400,000/mm3"
+        ],
+        [
+          "INR",
+          "3.6",
+          "0.9-1.1"
+        ],
+        [
+          "Hemoglobin",
+          "13.1 g/dL",
+          "13.5-17.5 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Age of 82 years",
+        "B": "Blood glucose of 210 mg/dL",
+        "C": "Blood pressure of 168/92 mm Hg",
+        "D": "International normalized ratio of 3.6",
+        "E": "Platelet count of 186,000/mm3"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Advanced age alone is not a contraindication to thrombolysis when the patient is otherwise eligible.",
+        "B": "Hyperglycemia is associated with worse outcomes and higher hemorrhage risk but is not itself a contraindication; hypoglycemia must be excluded as a stroke mimic.",
+        "C": "This pressure is below the 185/110 threshold required before infusion, so it does not preclude treatment.",
+        "D": "Therapeutic anticoagulation with a markedly elevated INR represents a bleeding diathesis and is an absolute contraindication because of prohibitive intracranial hemorrhage risk.",
+        "E": "The platelet count is normal; thrombocytopenia below 100,000/mm3 would be the relevant contraindication."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-036",
+      "question": "A 59-year-old woman awakens with dense left hemiplegia, left neglect, and forced right gaze deviation. She was last known well 8 hours earlier, so she is outside the thrombolysis window. CT angiography shows occlusion of the proximal right middle cerebral artery, and CT perfusion shows a 12-mL core with a 110-mL region of hypoperfused tissue. Which of the following is the most appropriate reperfusion strategy?",
+      "answers": {
+        "A": "Intravenous alteplase",
+        "B": "Intravenous heparin infusion",
+        "C": "Mechanical thrombectomy",
+        "D": "Oral dual antiplatelet therapy",
+        "E": "Permissive hypertension alone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alteplase is not indicated beyond 4.5 hours from last known well because the penumbra has largely infarcted and hemorrhage risk outweighs benefit.",
+        "B": "Heparin does not restore flow in large-vessel occlusion and increases hemorrhagic transformation risk.",
+        "C": "A large proximal clot contains too much thrombus for a lytic to dissolve, and catheter-based clot removal produces the largest treatment effect in large-vessel occlusion, extending to 24 hours when imaging shows a small core with a large salvageable penumbra.",
+        "D": "Antiplatelet therapy limits early recurrence and clot propagation but does not recanalize an occluded proximal artery.",
+        "E": "Permissive hypertension supports collateral perfusion but is supportive care, not a reperfusion strategy for a proximal occlusion."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-037",
+      "question": "A 73-year-old man receives intravenous alteplase for a large right middle cerebral artery infarct. Angiography confirms recanalization. Eighteen hours later his level of consciousness declines and repeat CT shows a parenchymal hematoma within the infarct bed. Which of the following mechanisms best explains this complication?",
+      "answers": {
+        "A": "Direct alteplase-mediated inhibition of platelet aggregation",
+        "B": "Increased cerebral autoregulatory vasoconstrictor tone",
+        "C": "Matrix metalloproteinase-mediated blood-brain barrier breakdown",
+        "D": "Osmotic water shift producing cytotoxic cellular edema",
+        "E": "Vasospasm of penumbral arterioles after recanalization"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alteplase converts plasminogen to plasmin to lyse fibrin; platelet count and bleeding time are not directly affected by its antiplatelet action.",
+        "B": "Autoregulation is lost rather than enhanced in ischemic tissue, which is why penumbral flow becomes pressure-dependent.",
+        "C": "Prolonged ischemia damages endothelium, tight junctions, and basement membrane, and reperfusion generates reactive oxygen species, neutrophil activation, and matrix metalloproteinases such as MMP-9 that disrupt the blood-brain barrier so blood leaks into the infarct.",
+        "D": "Cytotoxic edema reflects ATP depletion and ion pump failure early after ischemia and does not by itself cause hematoma formation.",
+        "E": "Vasospasm is characteristic of subarachnoid hemorrhage and does not explain bleeding into a reperfused infarct."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-038",
+      "question": "A 70-year-old man presents 9 hours after the onset of right-sided weakness and is not a candidate for thrombolysis or thrombectomy. He is admitted to the stroke unit. His vital signs are shown and he is neurologically stable. Which of the following is the most appropriate blood pressure management during the first 24 hours?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "196/104 mm Hg",
+          "Treat if >220/120 without thrombolysis"
+        ],
+        [
+          "Heart rate",
+          "78/min",
+          "60-100/min"
+        ],
+        [
+          "Temperature",
+          "37.0 C",
+          "36.5-37.5 C"
+        ],
+        [
+          "Fingerstick glucose",
+          "132 mg/dL",
+          "70-99 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Administer intravenous labetalol targeting 140/90 mm Hg",
+        "B": "Administer sublingual nifedipine for rapid reduction",
+        "C": "Begin nicardipine infusion to lower the mean pressure 25%",
+        "D": "Start nitroprusside infusion targeting 160/90 mm Hg",
+        "E": "Withhold antihypertensive therapy at this time"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Driving the pressure to 140/90 removes the systemic perfusion pressure the penumbra depends on and can extend the infarct.",
+        "B": "Sublingual nifedipine produces abrupt, uncontrolled pressure drops and is unsafe in acute stroke.",
+        "C": "A 25% mean arterial pressure reduction is appropriate for hypertensive emergencies with end-organ damage, not for permissive hypertension in acute ischemic stroke.",
+        "D": "Nitroprusside lowers pressure precipitously and may raise intracranial pressure, and no antihypertensive is indicated at this level.",
+        "E": "Autoregulation is lost in ischemic tissue so penumbral flow depends on systemic pressure; in a patient who did not receive thrombolysis, treatment is withheld unless the pressure exceeds approximately 220/120 mm Hg."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-039",
+      "question": "A 64-year-old man is 5 days out from a left middle cerebral artery infarct attributed to a stenotic carotid plaque. His lipid panel is shown. He is started on high-intensity atorvastatin for secondary prevention, and the team explains that beyond LDL lowering the drug also stabilizes plaque and reduces vascular inflammation. Which of the following describes the primary mechanism of this agent?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Total cholesterol",
+          "268 mg/dL",
+          "<200 mg/dL"
+        ],
+        [
+          "LDL cholesterol",
+          "184 mg/dL",
+          "<70 mg/dL after stroke"
+        ],
+        [
+          "HDL cholesterol",
+          "34 mg/dL",
+          ">40 mg/dL"
+        ],
+        [
+          "Triglycerides",
+          "218 mg/dL",
+          "<150 mg/dL"
+        ],
+        [
+          "ALT",
+          "28 U/L",
+          "7-56 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Competitive inhibition of HMG-CoA reductase",
+        "B": "Inhibition of cholesterol absorption at NPC1L1",
+        "C": "Inhibition of PCSK9-mediated LDL receptor degradation",
+        "D": "Irreversible acetylation of platelet cyclooxygenase-1",
+        "E": "Irreversible blockade of the platelet P2Y12 receptor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Statins competitively inhibit HMG-CoA reductase, the rate-limiting step converting HMG-CoA to mevalonate, which lowers intrahepatic cholesterol and upregulates LDL receptors via SREBP to increase LDL clearance.",
+        "B": "Selective inhibition of the NPC1L1 transporter at the enterocyte brush border is the mechanism of ezetimibe.",
+        "C": "Blocking PCSK9-mediated degradation of the LDL receptor is the mechanism of alirocumab and evolocumab.",
+        "D": "Irreversible acetylation of platelet COX-1 to block thromboxane A2 synthesis is the mechanism of aspirin.",
+        "E": "Irreversible P2Y12 receptor blockade preventing GpIIb/IIIa expression is the mechanism of clopidogrel."
+      }
+    },
+    {
+      "id": "neuro-cbl-w4-los-040",
+      "question": "A 61-year-old woman presents 6 hours after a minor ischemic stroke with an NIH Stroke Scale score of 3. She did not receive thrombolysis, has no atrial fibrillation on telemetry, and has no source of cardioembolism on echocardiography. She is started on aspirin. Which of the following agents should be added for approximately 21 days to reduce the early peak in recurrent stroke risk?",
+      "answers": {
+        "A": "Apixaban",
+        "B": "Cilostazol",
+        "C": "Clopidogrel",
+        "D": "Ticagrelor",
+        "E": "Warfarin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Apixaban is used for cardioembolic prevention in atrial fibrillation, which telemetry and echocardiography have excluded here.",
+        "B": "Cilostazol is a phosphodiesterase inhibitor used mainly for claudication and is not the standard short-course addition after minor stroke.",
+        "C": "Recurrence peaks in the first days after a minor stroke or high-risk TIA, and adding clopidogrel to aspirin for roughly 21 days covers that peak, after which continuing dual therapy only adds bleeding risk.",
+        "D": "Ticagrelor is a reversible P2Y12 inhibitor used in selected protocols but is not the standard agent taught for this short-course strategy.",
+        "E": "Warfarin is indicated for cardioembolic sources such as atrial fibrillation or mechanical valves, not for noncardioembolic minor stroke."
+      }
+    }
+  ]
+}
