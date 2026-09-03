@@ -113,17 +113,11 @@
     }
 
     .q-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      gap: 1rem;
       font-size: 0.72rem;
       color: #777;
       letter-spacing: 0.03em;
       text-transform: uppercase;
     }
-    .q-hint { text-transform: none; letter-spacing: 0; color: #b0b0b0; }
-    @media (max-width: 620px) { .q-hint { display: none; } }
 
     /* ── Highlighting ──
        A highlight is a pair of character offsets into the block's plain text,
@@ -616,10 +610,7 @@
 
   <div class="card" id="quizCard" style="display:none">
     <div>
-      <div class="q-meta">
-        <span id="qCount"></span>
-        <span class="q-hint">select text to highlight &middot; H</span>
-      </div>
+      <div class="q-meta" id="qMeta"></div>
       <div class="q-text" id="qText"></div>
     </div>
 
@@ -1060,7 +1051,7 @@
     const q = questions[current];
     const resp = response(current);
 
-    document.getElementById('qCount').textContent = `question ${current + 1} of ${questions.length}`;
+    document.getElementById('qMeta').textContent = `question ${current + 1} of ${questions.length}`;
 
     hidePop();
     hlSources = {};
