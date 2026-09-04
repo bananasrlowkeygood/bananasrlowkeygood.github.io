@@ -338,34 +338,56 @@
     .score-inline { font-size: 0.82rem; color: #555; }
     .score-inline strong { color: #2e7d4f; }
 
-    .actions-left {
-      display: flex;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 0.35rem 0.9rem;
-      min-width: 0;
+    /* Reset this question — a neutral sibling of the flag, not a call to
+       action, so it stays grey until you hover it. */
+    .nav-btn.reset-q {
+      border-color: #c8c8c8;
+      color: #888;
+      font-size: 1.15rem;
     }
-
-    .reset-group { display: flex; align-items: baseline; gap: 0.5rem; }
-    .reset-sep { font-size: 0.7rem; color: #c5bee0; }
-
-    .link-btn {
-      border: none;
-      background: none;
-      padding: 0;
-      font-family: inherit;
-      font-size: 0.76rem;
+    .nav-btn.reset-q:not(:disabled):hover {
+      border-color: #5c4f7a;
+      background: #f3f0fa;
       color: #5c4f7a;
-      opacity: 0.6;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: opacity 0.15s, color 0.15s;
     }
-    .link-btn:hover:not(:disabled) { opacity: 1; text-decoration: underline; }
-    .link-btn:disabled { opacity: 0.28; cursor: default; }
+    .nav-btn.reset-q:disabled { border-color: #e2e2e2; color: #cfcfcf; background: transparent; }
 
-    /* Reset test asks once before it throws the run away. */
-    .link-btn.armed { color: #b03030; opacity: 1; }
+    /* Reset the run — sits with the progress it clears. */
+    .topbar-right { display: flex; align-items: center; gap: 0.85rem; }
+
+    .topbar-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      height: 28px;
+      padding: 0 0.45rem;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      background: none;
+      color: #5c4f7a;
+      font-family: inherit;
+      font-size: 1.05rem;
+      line-height: 1;
+      opacity: 0.5;
+      cursor: pointer;
+      transition: opacity 0.15s, background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .topbar-btn:not(:disabled):hover { opacity: 1; background: #e4dcf4; }
+    .topbar-btn:disabled { opacity: 0.2; cursor: default; }
+
+    /* Armed, it says so — an icon alone is too quiet for something that
+       throws the run away. */
+    .topbar-btn.armed {
+      opacity: 1;
+      color: #b03030;
+      border-color: #e0b4b4;
+      background: #fdf0f0;
+    }
+    .topbar-btn.armed::after {
+      content: 'sure?';
+      font-family: "Klee One", cursive;
+      font-size: 0.72rem;
+    }
 
     /* Circular nav button */
     .nav-btn {
@@ -516,6 +538,12 @@
 
     /* Narrow screens: the rail lies down across the top and scrolls sideways */
     @media (max-width: 760px) {
+      /* The reset button costs the topbar width — take it back off the
+         progress bar rather than out of the lecture title. */
+      .topbar-right { gap: 0.5rem; }
+      .progress-wrap { min-width: 0; }
+      .progress-bar-bg { width: 92px; }
+
       .layout { flex-direction: column; }
       .navigator {
         position: static;
@@ -711,11 +739,14 @@
       <div class="quiz-subtitle" id="topSubtitle"></div>
     </div>
   </div>
-  <div class="progress-wrap">
-    <div class="progress-label" id="progressLabel">0 / 0</div>
-    <div class="progress-bar-bg">
-      <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+  <div class="topbar-right">
+    <div class="progress-wrap">
+      <div class="progress-label" id="progressLabel">0 / 0</div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+      </div>
     </div>
+    <button class="topbar-btn" id="resetTestBtn" onclick="resetTest()" title="Reset this test">&#10227;</button>
   </div>
 </div>
 
@@ -750,16 +781,10 @@
     </div>
 
     <div class="actions">
-      <div class="actions-left">
-        <div class="score-inline" id="scoreInline"></div>
-        <div class="reset-group">
-          <button class="link-btn" id="resetQBtn" onclick="resetQuestion()">reset question</button>
-          <span class="reset-sep">&middot;</span>
-          <button class="link-btn" id="resetTestBtn" onclick="resetTest()">reset test</button>
-        </div>
-      </div>
+      <div class="score-inline" id="scoreInline"></div>
       <div style="display:flex;align-items:center;gap:0.5rem">
         <button class="nav-btn flag" id="flagBtn" onclick="toggleFlag()" title="Flag for review (F)" aria-pressed="false">&#9873;</button>
+        <button class="nav-btn outline reset-q" id="resetQBtn" onclick="resetQuestion()" title="Reset this question">&#8634;</button>
         <button class="nav-btn outline" id="backBtn" onclick="prevQuestion()" disabled title="Previous (&#8592;)">&#8592;</button>
         <button class="nav-btn" id="submitBtn" onclick="submitAnswer()" disabled title="Submit (Enter)">&#10003;</button>
         <button class="nav-btn" id="nextBtn" onclick="nextQuestion()" title="Next (&#8594;)">&#8594;</button>
@@ -1354,10 +1379,10 @@
 
   function resetTest() {
     if (resultsOpen || !view.length) return;
+    const btn = document.getElementById('resetTestBtn');
     if (!resetArmed) {                       // ask once; it throws work away
-      const btn = document.getElementById('resetTestBtn');
-      btn.textContent = 'sure?';
       btn.classList.add('armed');
+      btn.title = 'Click again to clear every answer in this test';
       resetArmed = setTimeout(disarmReset, 3000);
       return;
     }
@@ -1368,8 +1393,8 @@
   function disarmReset() {
     if (resetArmed) { clearTimeout(resetArmed); resetArmed = null; }
     const btn = document.getElementById('resetTestBtn');
-    btn.textContent = 'reset test';
     btn.classList.remove('armed');
+    btn.title = 'Reset this test';
   }
 
   // Nothing to reset on an untouched question, or on a pass nobody has
@@ -1379,8 +1404,14 @@
   }
 
   function updateResetButtons() {
-    document.getElementById('resetQBtn').disabled = !touched(responses[cur()]);
-    document.getElementById('resetTestBtn').disabled = !view.some(i => touched(responses[i]));
+    const q = document.getElementById('resetQBtn');
+    q.disabled = resultsOpen || !touched(responses[cur()]);
+    q.title = q.disabled ? 'Nothing to reset on this question' : 'Reset this question';
+
+    // The results screen has restart; a second way to wipe it would only
+    // muddle things.
+    document.getElementById('resetTestBtn').disabled =
+      resultsOpen || !view.some(i => touched(responses[i]));
   }
 
   // Submit / next / back / flag all reflect the current question's state.
@@ -1628,6 +1659,8 @@
     document.getElementById('resultsTitle').textContent = 'quiz complete';
     document.getElementById('results').classList.add('visible');
     resultsOpen = true;
+    disarmReset();
+    updateResetButtons();
     renderNavigator();
     saveSession();
   }
