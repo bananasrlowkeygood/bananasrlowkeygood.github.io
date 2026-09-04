@@ -329,12 +329,43 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
       border-top: 1px solid #e0e0e0;
       padding-top: 0.9rem;
     }
 
     .score-inline { font-size: 0.82rem; color: #555; }
     .score-inline strong { color: #2e7d4f; }
+
+    .actions-left {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.9rem;
+      min-width: 0;
+    }
+
+    .reset-group { display: flex; align-items: baseline; gap: 0.5rem; }
+    .reset-sep { font-size: 0.7rem; color: #c5bee0; }
+
+    .link-btn {
+      border: none;
+      background: none;
+      padding: 0;
+      font-family: inherit;
+      font-size: 0.76rem;
+      color: #5c4f7a;
+      opacity: 0.6;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: opacity 0.15s, color 0.15s;
+    }
+    .link-btn:hover:not(:disabled) { opacity: 1; text-decoration: underline; }
+    .link-btn:disabled { opacity: 0.28; cursor: default; }
+
+    /* Reset test asks once before it throws the run away. */
+    .link-btn.armed { color: #b03030; opacity: 1; }
 
     /* Circular nav button */
     .nav-btn {
@@ -719,7 +750,14 @@
     </div>
 
     <div class="actions">
-      <div class="score-inline" id="scoreInline"></div>
+      <div class="actions-left">
+        <div class="score-inline" id="scoreInline"></div>
+        <div class="reset-group">
+          <button class="link-btn" id="resetQBtn" onclick="resetQuestion()">reset question</button>
+          <span class="reset-sep">&middot;</span>
+          <button class="link-btn" id="resetTestBtn" onclick="resetTest()">reset test</button>
+        </div>
+      </div>
       <div style="display:flex;align-items:center;gap:0.5rem">
         <button class="nav-btn flag" id="flagBtn" onclick="toggleFlag()" title="Flag for review (F)" aria-pressed="false">&#9873;</button>
         <button class="nav-btn outline" id="backBtn" onclick="prevQuestion()" disabled title="Previous (&#8592;)">&#8592;</button>
@@ -1296,10 +1334,60 @@
     saveSession();
   }
 
+  // ── Resets ──
+  // Put a question, or the whole pass, back to untouched. Highlights and the
+  // flag survive a question reset — they are notes you made, not an answer.
+  function resetQuestion() {
+    if (resultsOpen || !view.length) return;
+    const r = response(cur());
+    if (!r.selected && !r.answered && !r.skipped && !r.struck.length) return;
+    r.selected = null;
+    r.answered = false;
+    r.skipped  = false;
+    r.struck   = [];
+    render();
+  }
+
+  // Replays whatever is in play — the whole lecture, or the narrowed pass if
+  // you are part-way through a refinement — with every answer cleared.
+  let resetArmed = null;
+
+  function resetTest() {
+    if (resultsOpen || !view.length) return;
+    if (!resetArmed) {                       // ask once; it throws work away
+      const btn = document.getElementById('resetTestBtn');
+      btn.textContent = 'sure?';
+      btn.classList.add('armed');
+      resetArmed = setTimeout(disarmReset, 3000);
+      return;
+    }
+    disarmReset();
+    restartWith(view, subsetRun);
+  }
+
+  function disarmReset() {
+    if (resetArmed) { clearTimeout(resetArmed); resetArmed = null; }
+    const btn = document.getElementById('resetTestBtn');
+    btn.textContent = 'reset test';
+    btn.classList.remove('armed');
+  }
+
+  // Nothing to reset on an untouched question, or on a pass nobody has
+  // started; both greyed out rather than doing nothing when clicked.
+  function touched(r) {
+    return !!(r && (r.selected || r.answered || r.skipped || r.struck.length));
+  }
+
+  function updateResetButtons() {
+    document.getElementById('resetQBtn').disabled = !touched(responses[cur()]);
+    document.getElementById('resetTestBtn').disabled = !view.some(i => touched(responses[i]));
+  }
+
   // Submit / next / back / flag all reflect the current question's state.
   // Before it is answered the arrow is a skip: it moves on and leaves the
   // question marked unanswered so you can come back to it.
   function updateActionButtons() {
+    disarmReset();
     const resp = response(cur());
     const last = current + 1 >= view.length;
     const submitBtn = document.getElementById('submitBtn');
@@ -1320,6 +1408,8 @@
     flagBtn.title = resp.flagged ? 'Unflag (F)' : 'Flag for review (F)';
 
     document.getElementById('backBtn').disabled = current === 0 && !resultsOpen;
+
+    updateResetButtons();
   }
 
   function updateProgress() {
