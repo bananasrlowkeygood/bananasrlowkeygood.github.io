@@ -77,6 +77,17 @@
       "lectures": [
         "cbl-w5-los.json"
       ]
+    },
+    {
+      "id": "6",
+      "name": "Week 6",
+      "dates": "9/7 – 9/11",
+      "lectures": [
+        "visual-system-anatomy.json",
+        "visual-system-physiology-clinical.json",
+        "ocular-pharmacology.json",
+        "myelin-and-myelin-related-disorders.json"
+      ]
     }
   ]
 }

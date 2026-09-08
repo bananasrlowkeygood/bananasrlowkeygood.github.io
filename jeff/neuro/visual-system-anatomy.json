@@ -1,0 +1,458 @@
+{
+  "lecture": "Visual System: Anatomy",
+  "block": "neuro",
+  "generated": "2026-09-08",
+  "questions": [
+    {
+      "id": "neuro-visual-system-anatomy-001",
+      "question": "A 44-year-old woman has a 6-month history of amenorrhea, galactorrhea, and difficulty seeing cars approaching from either side while driving. Confrontation testing shows loss of both temporal visual fields with intact central acuity. MRI shows a suprasellar mass compressing the midline of a structure just above the sella turcica. Which fibers are being interrupted?",
+      "answers": {
+        "A": "Crossing fibers from the nasal retina of both eyes",
+        "B": "Fibers of Meyer loop within the right temporal lobe",
+        "C": "Second-order fibers within the right optic radiation",
+        "D": "Uncrossed fibers from the temporal retina of the left eye",
+        "E": "Uncrossed fibers within the right optic tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Nasal retinal fibers carry the temporal visual fields and decussate in the midline of the optic chiasm, so a compressing pituitary mass produces bitemporal hemianopia.",
+        "B": "Meyer loop carries information from the contralateral superior visual field and produces a left superior quadrantanopia when damaged.",
+        "C": "An optic radiation lesion produces a contralateral homonymous field defect, not a bitemporal defect.",
+        "D": "Temporal retinal fibers carry the nasal visual field and stay ipsilateral, so their loss produces a nasal rather than temporal defect.",
+        "E": "The optic tract carries all fibers for the contralateral visual field and produces a left homonymous hemianopia."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-002",
+      "question": "A 63-year-old man has a new-onset seizure with olfactory hallucinations. MRI shows a mass in the anterior right temporal lobe. Automated perimetry results are shown. Which structure is most likely disrupted by the mass?",
+      "table": [
+        [
+          "Eye",
+          "Superior temporal",
+          "Superior nasal",
+          "Inferior temporal",
+          "Inferior nasal"
+        ],
+        [
+          "Right",
+          "Intact",
+          "Absent",
+          "Intact",
+          "Intact"
+        ],
+        [
+          "Left",
+          "Absent",
+          "Intact",
+          "Intact",
+          "Intact"
+        ]
+      ],
+      "answers": {
+        "A": "Meyer loop in the temporal lobe",
+        "B": "The dorsal optic radiation in the parietal lobe",
+        "C": "The lateral geniculate nucleus of the thalamus",
+        "D": "The lower bank of the calcarine sulcus",
+        "E": "The right optic nerve anterior to the chiasm"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Because the lens inverts the image, upper field information travels in the inferior radiations that sweep forward into the temporal lobe as Meyer loop, producing a contralateral superior quadrantanopia.",
+        "B": "Parietal radiations carry inferior visual field information and produce a contralateral inferior quadrantanopia.",
+        "C": "A geniculate lesion interrupts all fibers for the contralateral hemifield, producing a complete homonymous hemianopia.",
+        "D": "The lingual gyrus below the calcarine sulcus receives superior field input, but a lesion there is occipital and would not cause olfactory hallucinations.",
+        "E": "An optic nerve lesion causes monocular vision loss in the right eye only, not a homonymous quadrant defect."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-003",
+      "question": "A 24-year-old man is struck in the right periorbital region with a hockey puck. He reports vertical double vision that is worst when reading and descending stairs, and he tilts his head to the left for comfort. On examination the right eye cannot be depressed when it is fully adducted, but depression is normal when the eye is abducted. Which muscle is most likely impaired?",
+      "answers": {
+        "A": "Inferior oblique",
+        "B": "Inferior rectus",
+        "C": "Lateral rectus",
+        "D": "Medial rectus",
+        "E": "Superior oblique"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The inferior oblique elevates, abducts, and extorts the globe; its loss would impair elevation in adduction, not depression.",
+        "B": "The inferior rectus depresses the eye only when it is abducted, and this patient depresses normally in abduction.",
+        "C": "The lateral rectus abducts the globe and its loss causes horizontal, not vertical, diplopia.",
+        "D": "The medial rectus adducts the globe, and adduction is intact in this patient.",
+        "E": "When the eye is fully adducted, only the superior oblique can depress it, and its trochlear nerve supply or the trochlea itself is vulnerable to periorbital trauma."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-004",
+      "question": "A 58-year-old woman is struck near the left eye with a baseball bat. Touching the left cornea with a wisp of cotton produces no blink of either eye, but touching the right cornea produces a brisk blink of both eyes. She can forcefully close both eyes on command and has symmetric facial movement. Which structure is most likely injured?",
+      "answers": {
+        "A": "The left facial nerve",
+        "B": "The left long ciliary nerve",
+        "C": "The left oculomotor nerve",
+        "D": "The left optic nerve",
+        "E": "The right trigeminal ganglion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An intact ability to forcefully close both eyes and symmetric facial movement rules out a facial nerve lesion, which would abolish the blink to stimulation of either cornea.",
+        "B": "Long ciliary branches of the ophthalmic nerve pierce the sclera to supply the densely innervated cornea and form the afferent limb, so their injury abolishes the blink only when the left cornea is touched.",
+        "C": "The oculomotor nerve elevates the eyelid and moves the globe but has no role in the corneal blink reflex arc.",
+        "D": "The optic nerve mediates the dazzle reflex and pupillary light reflex, not corneal sensation.",
+        "E": "A right-sided trigeminal lesion would abolish the response to touching the right cornea, which is normal in this patient."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-005",
+      "question": "A 51-year-old man has a rapidly enlarging tumor at the orbital apex. He develops complete ptosis, an eye that rests down and out, an unreactive dilated pupil, and numbness of the forehead, yet vertical diplopia on attempted downgaze in adduction is initially absent. The surgeon explains that the tumor is confined to structures enclosed by the common tendinous ring. Which structure passes outside that ring and is therefore spared?",
+      "answers": {
+        "A": "Abducens nerve",
+        "B": "Oculomotor nerve",
+        "C": "Ophthalmic artery",
+        "D": "Optic nerve",
+        "E": "Trochlear nerve"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The abducens nerve passes within the common tendinous ring and would be involved early by a mass inside it.",
+        "B": "Both divisions of the oculomotor nerve traverse the interior of the ring, accounting for this patient's ptosis, dilated pupil, and down-and-out eye.",
+        "C": "The ophthalmic artery enters through the optic canal within the ring alongside the optic nerve.",
+        "D": "The optic nerve traverses the optic canal, which lies within the common tendinous ring.",
+        "E": "The trochlear nerve enters the orbit through the superior orbital fissure outside the common tendinous ring, so superior oblique function is initially preserved."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-006",
+      "question": "A 36-year-old woman has progressive painless vision loss in the right eye over 3 months. Visual acuity is 20/400 on the right and 20/20 on the left, with a right afferent pupillary defect and a pale right optic disc. MRI shows a meningioma expanding within a bony canal in the lesser wing of the sphenoid bone. Which additional structure traverses this canal and is at risk?",
+      "answers": {
+        "A": "Abducens nerve",
+        "B": "Infraorbital nerve",
+        "C": "Ophthalmic artery",
+        "D": "Ophthalmic vein",
+        "E": "Trochlear nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The abducens nerve enters the orbit through the superior orbital fissure, not the optic canal.",
+        "B": "The infraorbital nerve traverses the inferior orbital fissure and exits onto the face at the infraorbital foramen.",
+        "C": "The ophthalmic artery, the first branch of the internal carotid artery, accompanies the optic nerve through the optic canal, so compression there threatens the central artery of the retina.",
+        "D": "The ophthalmic veins drain posteriorly through the superior and inferior orbital fissures into the cavernous sinus.",
+        "E": "The trochlear nerve reaches the orbit through the superior orbital fissure above the common tendinous ring."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-007",
+      "question": "A 29-year-old man develops a rapidly expanding hematoma after a fracture through the greater wing of the sphenoid bone. He now has ptosis, complete ophthalmoplegia of the right eye, a fixed dilated pupil, proptosis, and numbness of the right forehead and upper eyelid. Sensation over the right cheek and upper lip is intact. Which opening is most likely compressed?",
+      "answers": {
+        "A": "Foramen rotundum",
+        "B": "Inferior orbital fissure",
+        "C": "Lacrimal canal",
+        "D": "Optic canal",
+        "E": "Superior orbital fissure"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Foramen rotundum transmits the maxillary nerve, and cheek and upper lip sensation are preserved in this patient.",
+        "B": "The inferior orbital fissure transmits the infraorbital nerve and vessels, which supply the cheek and upper lip.",
+        "C": "The lacrimal canal carries only the nasolacrimal duct into the inferior nasal meatus.",
+        "D": "The optic canal carries the optic nerve and ophthalmic artery, and its compression would cause vision loss rather than ophthalmoplegia.",
+        "E": "The superior orbital fissure between the wings of the sphenoid transmits cranial nerves III, IV, and VI, the branches of V1, and the ophthalmic veins, explaining ophthalmoplegia with forehead numbness and proptosis."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-008",
+      "question": "A 71-year-old woman comes to the emergency department for 6 hours of severe right eye pain, nausea, and halos around lights that began while she was in a darkened theater. The right cornea is hazy and the pupil is mid-dilated and unreactive. Findings are shown. Impaired flow of fluid at which site is the immediate cause of her elevated pressure?",
+      "table": [
+        [
+          "Finding",
+          "Right eye",
+          "Left eye",
+          "Reference"
+        ],
+        [
+          "Intraocular pressure",
+          "56 mmHg",
+          "17 mmHg",
+          "10-21 mmHg"
+        ],
+        [
+          "Anterior chamber depth",
+          "Shallow",
+          "Normal",
+          "-"
+        ],
+        [
+          "Visual acuity",
+          "20/200",
+          "20/25",
+          "-"
+        ]
+      ],
+      "answers": {
+        "A": "Ciliary processes secreting into the posterior chamber",
+        "B": "The canal of Schlemm draining into scleral veins",
+        "C": "The lacrimal canaliculi at the medial angle of the eye",
+        "D": "The pupillary aperture and the iridocorneal angle",
+        "E": "The vitreous body in the posterior segment"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The ciliary processes produce aqueous humor; their secretion is normal and is the source of, rather than the obstruction to, flow.",
+        "B": "The canal of Schlemm is the downstream collector, and it is patent in acute angle closure; the block is upstream at the iridocorneal angle.",
+        "C": "The canaliculi drain tears into the nasolacrimal duct and have no role in intraocular pressure.",
+        "D": "Pupillary block in a mid-dilated pupil traps aqueous in the posterior chamber and bows the iris forward, closing the angle where the trabecular meshwork sits and abruptly raising intraocular pressure.",
+        "E": "The vitreous body supports the retina and lens and does not participate in aqueous outflow."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-009",
+      "question": "A 46-year-old woman has right-sided facial droop, hyperacusis, and loss of taste on the anterior right tongue after a viral illness. She also reports that her right eye feels persistently gritty and dry. The lesion is proximal to the geniculate ganglion. Interruption of which pathway explains the dry eye?",
+      "answers": {
+        "A": "Postganglionic sympathetic fibers traveling on the internal carotid plexus",
+        "B": "Preganglionic parasympathetic fibers in the greater petrosal nerve",
+        "C": "Preganglionic parasympathetic fibers to the ciliary ganglion",
+        "D": "Sensory fibers of the long ciliary nerve to the cornea",
+        "E": "Sensory fibers of the maxillary nerve to the lower conjunctiva"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Sympathetic fibers to the orbit control the dilator pupillae and Muller muscle, and their interruption causes Horner syndrome rather than a dry eye.",
+        "B": "Parasympathetic secretomotor fibers leave the facial nerve in the greater petrosal nerve, synapse in the pterygopalatine ganglion, and reach the lacrimal gland on the lacrimal branch of V1, so a proximal facial nerve lesion abolishes tearing.",
+        "C": "Fibers from the Edinger-Westphal nucleus travel with the oculomotor nerve to the ciliary ganglion and control the sphincter pupillae and ciliary muscle, not lacrimation.",
+        "D": "Loss of corneal sensation abolishes the afferent limb of the blink reflex and can cause exposure keratopathy but does not reduce tear production.",
+        "E": "The maxillary nerve is purely sensory to the lower conjunctiva and cheek and carries no secretomotor supply to the lacrimal gland."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-010",
+      "question": "A 68-year-old man with a posterior communicating artery aneurysm has a right pupil that measures 7 mm and does not constrict when a light is shone in either eye, although the left pupil constricts briskly to light in either eye. Failure of which structure best explains the right pupillary findings?",
+      "answers": {
+        "A": "Ciliary muscle fibers attaching to the lens",
+        "B": "Dilator pupillae responding to sympathetic input",
+        "C": "Retinal ganglion cell axons in the right optic nerve",
+        "D": "Sphincter pupillae innervated through the ciliary ganglion",
+        "E": "Superior tarsal muscle innervated by sympathetic fibers"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The ciliary muscle mediates accommodation by changing lens shape and does not control pupil diameter.",
+        "B": "Unopposed sympathetic activity contributes to the dilation, but the lesion is loss of the parasympathetic constrictor supply, not overactivity of the dilator.",
+        "C": "An optic nerve lesion would abolish both the direct right and consensual left responses when light is shone in the right eye, which is not the pattern here.",
+        "D": "Parasympathetic fibers from the Edinger-Westphal nucleus run on the surface of the oculomotor nerve and synapse in the ciliary ganglion to drive the sphincter pupillae, and they are compressed early by an expanding aneurysm.",
+        "E": "The superior tarsal muscle contributes to lid elevation, and its loss causes mild ptosis with a small pupil in Horner syndrome."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-011",
+      "question": "A 72-year-old man with atrial fibrillation has sudden, painless, complete loss of vision in the left eye. Findings are shown. Funduscopy of the left eye shows a pale retina with a cherry-red macula and segmented columns in the arterioles. Occlusion of a branch of which vessel best explains these findings?",
+      "table": [
+        [
+          "Finding",
+          "Left eye",
+          "Right eye"
+        ],
+        [
+          "Visual acuity",
+          "No light perception",
+          "20/20"
+        ],
+        [
+          "Pupillary response to direct light",
+          "Absent",
+          "Brisk"
+        ],
+        [
+          "Intraocular pressure",
+          "15 mmHg",
+          "16 mmHg"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "External carotid artery",
+        "C": "Maxillary artery",
+        "D": "Ophthalmic artery",
+        "E": "Posterior cerebral artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior cerebral artery supplies the medial frontal and parietal cortex and causes contralateral leg weakness, not monocular blindness.",
+        "B": "External carotid branches supply the face and scalp and reach the orbital rim only through anastomoses with terminal branches of the ophthalmic artery.",
+        "C": "The maxillary artery supplies the deep face and infraorbital region through the inferior orbital fissure.",
+        "D": "The central artery of the retina is a branch of the ophthalmic artery, the first branch of the internal carotid, and it is an end artery whose occlusion causes immediate irreversible monocular blindness.",
+        "E": "Posterior cerebral artery occlusion damages the visual cortex and produces a contralateral homonymous hemianopia with preserved pupillary responses."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-012",
+      "question": "A 24-year-old woman is examined after being told she has trouble reading fine print but sees well in dim light at the periphery. Funduscopy shows a normal disc and a small yellowish depression about two disc diameters lateral to the optic disc. At the center of this region, the overlying retinal cell layers are displaced aside. Which property of this region best explains its role in visual acuity?",
+      "answers": {
+        "A": "It contains the highest concentration of rod photoreceptors",
+        "B": "It has a densely pigmented epithelium that absorbs stray light",
+        "C": "It is packed with cones that converge on few ganglion cells",
+        "D": "It is the site where retinal ganglion cell axons exit the globe",
+        "E": "It lacks photoreceptors and therefore forms the blind spot"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Rods are concentrated in the peripheral retina and are absent from the fovea, and they subserve low-acuity scotopic vision.",
+        "B": "The retinal pigment epithelium reduces light scatter throughout the retina and is not unique to this region.",
+        "C": "The fovea centralis at the center of the macula is nearly all cones with minimal convergence onto ganglion cells, giving the sharpest photopic and color vision.",
+        "D": "Axons exit at the optic disc, which lacks photoreceptors entirely and forms the physiologic blind spot.",
+        "E": "This describes the optic disc, which lies nasal to this structure."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-013",
+      "question": "A 35-year-old man undergoing routine visual field testing is found to have a small absolute area of nonseeing about 15 degrees temporal to fixation in each eye. Visual acuity is 20/20 bilaterally and funduscopy is normal. Which anatomic feature accounts for this finding?",
+      "answers": {
+        "A": "Compression of the nasal retinal fibers at the chiasm",
+        "B": "Shadowing of the retina by overlying retinal vessels",
+        "C": "The absence of photoreceptors at the optic disc",
+        "D": "The high density of cones at the fovea centralis",
+        "E": "Thinning of the retinal pigment epithelium near the ora serrata"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Chiasmal compression produces bitemporal hemianopia, a large field loss rather than a small isolated scotoma.",
+        "B": "Retinal vessels lie internal to the photoreceptors but are perceptually filled in and do not create a measurable absolute scotoma.",
+        "C": "The optic disc lies in the nasal retina and contains no photoreceptors, so it projects a normal blind spot into the temporal visual field of each eye.",
+        "D": "The dense cone population at the fovea produces maximal acuity at fixation, not a scotoma.",
+        "E": "The peripheral retina is thinner but remains light-sensitive and does not produce a fixed paracentral scotoma."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-014",
+      "question": "A 22-year-old man is struck in the left eye with a squash ball. He has pain on attempted upgaze and numbness of the left cheek, upper lip, and upper gum. CT shows a fracture of the thin bony plate that forms the floor of the orbit, with soft tissue herniating into the sinus below. Injury to which nerve best explains the sensory findings?",
+      "answers": {
+        "A": "Frontal nerve",
+        "B": "Infraorbital nerve",
+        "C": "Lacrimal nerve",
+        "D": "Long ciliary nerve",
+        "E": "Supratrochlear nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The frontal nerve is a branch of V1 that supplies the forehead and medial upper eyelid through the supraorbital notch.",
+        "B": "The infraorbital nerve, a terminal branch of the maxillary nerve, runs in the orbital floor above the maxillary sinus and exits at the infraorbital foramen to supply the cheek, upper lip, and upper gum.",
+        "C": "The lacrimal nerve supplies the upper lateral eyelid and conjunctiva and carries postganglionic parasympathetic fibers to the lacrimal gland.",
+        "D": "The long ciliary nerves pierce the sclera to supply corneal sensation and would produce corneal anesthesia rather than cheek numbness.",
+        "E": "The supratrochlear nerve is a V1 branch supplying the medial forehead and conjunctiva."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-015",
+      "question": "A 66-year-old woman with hypertension has sudden onset of difficulty seeing objects to her left. Visual acuity, pupillary responses, and funduscopy are normal. Confrontation testing shows loss of the entire left half of the visual field in both eyes. Which lesion best accounts for these findings?",
+      "answers": {
+        "A": "Left lateral geniculate nucleus",
+        "B": "Left optic nerve",
+        "C": "Midline optic chiasm",
+        "D": "Right optic tract",
+        "E": "Right temporal Meyer loop"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left geniculate lesion would interrupt right hemifield information and produce a right homonymous hemianopia.",
+        "B": "An optic nerve lesion causes monocular vision loss with an afferent pupillary defect, both of which are absent here.",
+        "C": "A midline chiasmal lesion cuts crossing nasal fibers and produces bitemporal hemianopia.",
+        "D": "The right optic tract carries the crossed nasal fibers of the left eye and the uncrossed temporal fibers of the right eye, which together represent the entire left visual field.",
+        "E": "Meyer loop damage produces a contralateral superior quadrantanopia rather than a complete hemianopia."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-016",
+      "question": "A 48-year-old woman notices that she must hold her phone farther away to read text clearly, although her distance vision is unchanged. Her physician explains that the lens is failing to change shape appropriately for near vision. Which combination of events normally occurs when a healthy eye focuses on a near object?",
+      "answers": {
+        "A": "Ciliary muscle contracts, zonular tension falls, and the lens becomes more convex",
+        "B": "Ciliary muscle contracts, zonular tension rises, and the lens flattens",
+        "C": "Ciliary muscle relaxes, zonular tension falls, and the lens becomes more convex",
+        "D": "Ciliary muscle relaxes, zonular tension rises, and the lens flattens",
+        "E": "Sphincter pupillae relaxes, the pupil dilates, and the cornea steepens"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Parasympathetic fibers traveling with the oculomotor nerve contract the ciliary muscle, which slackens the suspensory zonules and lets the elastic lens round up to increase refractive power.",
+        "B": "Ciliary contraction reduces rather than increases zonular tension, and lens flattening occurs during distance viewing.",
+        "C": "Ciliary relaxation increases zonular tension, so this combination does not occur.",
+        "D": "This is the resting configuration used for far vision, not for near focus.",
+        "E": "Near focus is accompanied by pupillary constriction, and the cornea is a fixed refractive surface that does not change curvature."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-017",
+      "question": "An ophthalmologist performs an H-test on a patient with vertical diplopia. She first directs the patient to look fully to the right and then to look up and down, explaining that this maneuver isolates a single elevator of the right eye. Which muscle is being tested in that position?",
+      "answers": {
+        "A": "Inferior oblique of the right eye",
+        "B": "Inferior rectus of the right eye",
+        "C": "Lateral rectus of the right eye",
+        "D": "Superior oblique of the right eye",
+        "E": "Superior rectus of the right eye"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The inferior oblique elevates the globe only when the eye is adducted, so it is isolated on rightward gaze in the left eye.",
+        "B": "The inferior rectus is isolated as a pure depressor in abduction, not as an elevator.",
+        "C": "The lateral rectus abducts the globe and produces no vertical movement.",
+        "D": "The superior oblique depresses the globe only when it is adducted and is not tested in abduction.",
+        "E": "When the right eye is fully abducted, its pulling axis aligns with the visual axis, so the superior rectus is the only muscle able to elevate it."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-018",
+      "question": "A 62-year-old woman with poorly controlled diabetes mellitus has 2 days of horizontal diplopia that worsens on looking to the left. The left eye does not abduct past the midline, and the pupils are equal and reactive. There is no ptosis. Which structure is most likely affected?",
+      "answers": {
+        "A": "The left abducens nerve",
+        "B": "The left oculomotor nerve",
+        "C": "The left superior oblique tendon",
+        "D": "The left trochlear nerve",
+        "E": "The right medial rectus muscle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The abducens nerve supplies the lateral rectus, the sole abductor of the globe, and it is commonly affected by diabetic microvascular ischemia with pupil sparing.",
+        "B": "An oculomotor palsy causes ptosis with a down-and-out eye and impaired adduction, elevation, and depression.",
+        "C": "Superior oblique dysfunction produces vertical diplopia worst on downgaze in adduction.",
+        "D": "The trochlear nerve supplies the superior oblique and produces vertical, not horizontal, diplopia.",
+        "E": "Weakness of the right medial rectus would impair right eye adduction on leftward gaze, but the deficit here is in the left eye."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-019",
+      "question": "A medical student is asked to explain why a lesion of the right optic tract causes a defect in the left half of the visual world for both eyes. Which statement correctly describes how visual field information is mapped onto the retinas before decussation?",
+      "answers": {
+        "A": "The left visual field projects onto the nasal retina of both eyes",
+        "B": "The left visual field projects onto the nasal retina of the left eye and the temporal retina of the right eye",
+        "C": "The left visual field projects onto the superior retina of both eyes",
+        "D": "The left visual field projects onto the temporal retina of both eyes",
+        "E": "The left visual field projects onto the temporal retina of the left eye and the nasal retina of the right eye"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Nasal retina of both eyes receives the temporal visual fields, which is why midline chiasmal compression produces bitemporal hemianopia.",
+        "B": "The lens inverts and reverses the image, so the left visual field falls on the right half of each retina, which is the nasal retina of the right eye and the temporal retina of the left eye.",
+        "C": "The superior retina receives the inferior visual field, which is a vertical rather than horizontal mapping.",
+        "D": "Temporal retina of both eyes receives the nasal visual fields, which are the fibers that remain uncrossed.",
+        "E": "Because the lens flips the image left to right, the left visual field falls on the right side of each retina: the temporal retina of the left eye and the nasal retina of the right eye, and these fibers converge in the right optic tract."
+      }
+    },
+    {
+      "id": "neuro-visual-system-anatomy-020",
+      "question": "A 19-year-old man is evaluated after a penetrating injury to the posterior globe. The surgeon notes loss of the gel that normally fills the space behind the lens, and postoperatively the patient develops a retinal tear with a curtain-like field defect. Which normal function of the lost structure best explains this complication?",
+      "answers": {
+        "A": "It absorbs stray light to reduce scatter within the eye",
+        "B": "It holds the neural retina in apposition to the underlying layers",
+        "C": "It is the primary refractive surface that focuses light on the fovea",
+        "D": "It nourishes the avascular cornea and lens",
+        "E": "It regulates intraocular pressure through the trabecular meshwork"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Light absorption is the role of the retinal pigment epithelium, not of the gel in the posterior segment.",
+        "B": "The vitreous body fills the posterior segment, maintains the shape of the globe, supports the lens, and helps keep the neural retina apposed to the pigment epithelium, so its loss predisposes to detachment.",
+        "C": "The cornea is the primary refractive tissue of the eye, contributing most of the total refractive power.",
+        "D": "Nutrition of the cornea and lens is provided by the aqueous humor of the anterior segment.",
+        "E": "Intraocular pressure is set by aqueous production at the ciliary processes and drainage through the trabecular meshwork and canal of Schlemm."
+      }
+    }
+  ]
+}

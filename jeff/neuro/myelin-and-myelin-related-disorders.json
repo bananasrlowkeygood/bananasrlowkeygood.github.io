@@ -1,0 +1,508 @@
+{
+  "lecture": "Myelin and Myelin Related Disorders",
+  "block": "neuro",
+  "generated": "2026-09-08",
+  "questions": [
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-001",
+      "question": "A 47-year-old man with alcohol use disorder and poor oral intake is admitted for confusion. He is given hypertonic saline, and his serum sodium is corrected as shown. He improves initially, but on hospital day 4 he develops rapidly progressive quadriparesis, dysarthria, and mutism while remaining awake and able to blink to command. MRI shows a symmetric, non-enhancing T2-hyperintense lesion in the central pons. Which mechanism best explains his new deficits?",
+      "table": [
+        [
+          "Time",
+          "Serum Na+",
+          "Reference Range"
+        ],
+        [
+          "Admission",
+          "106 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "12 hours",
+          "122 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "24 hours",
+          "137 mEq/L",
+          "135-145 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Autoantibody binding to aquaporin-4 on astrocytic foot processes",
+        "B": "Immune-mediated perivenular demyelination following a systemic infection",
+        "C": "Lytic infection of oligodendrocytes by a reactivated polyomavirus",
+        "D": "Osmotic injury to oligodendrocytes from a rapid rise in serum tonicity",
+        "E": "Peroxisomal beta-oxidation failure with very-long-chain fatty acid accumulation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "AQP4-IgG causes NMOSD, which produces necrotizing optic nerve and longitudinally extensive cord lesions rather than a symmetric central pontine lesion after sodium correction.",
+        "B": "This describes ADEM, a post-infectious monophasic disorder of children with multifocal enhancing lesions and encephalopathy, not an iatrogenic pontine lesion.",
+        "C": "JC virus reactivation causes PML, which produces asymmetric non-enhancing subcortical white matter lesions in immunosuppressed patients over weeks.",
+        "D": "Correcting chronic hyponatremia faster than the brain can regenerate organic osmolytes dehydrates and kills oligodendrocytes, producing noninflammatory osmotic demyelination of the pons.",
+        "E": "This is adrenoleukodystrophy, an X-linked leukodystrophy of boys and young men with parieto-occipital white matter disease and adrenal insufficiency."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-002",
+      "question": "A 41-year-old man with untreated HIV infection has a 6-week history of progressive right hemiparesis and word-finding difficulty. He is afebrile. MRI shows confluent, non-enhancing T2-hyperintense lesions in the left subcortical white matter without mass effect. CSF results are shown, and CSF PCR is positive for a polyomavirus. Which finding is most likely on brain biopsy?",
+      "table": [
+        [
+          "Study",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "CSF WBC",
+          "2/uL",
+          "0-5/uL"
+        ],
+        [
+          "CSF protein",
+          "38 mg/dL",
+          "15-45 mg/dL"
+        ],
+        [
+          "CSF glucose",
+          "58 mg/dL",
+          "40-70 mg/dL"
+        ],
+        [
+          "CD4+ count",
+          "42/uL",
+          "500-1500/uL"
+        ]
+      ],
+      "answers": {
+        "A": "Bizarre astrocytes and enlarged oligodendrocytes with nuclear inclusions",
+        "B": "Confluent demyelinated plaques centered on a small parenchymal vein",
+        "C": "Perivenular demyelination with macrophages and preserved axons",
+        "D": "Rim deposition of complement on vessels with neutrophils and eosinophils",
+        "E": "Spongy intramyelinic vacuolation without inflammatory infiltrate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "JC virus infects and lyses oligodendrocytes and transforms astrocytes, producing viral nuclear inclusions, abundant macrophages, and pleomorphic bizarre astrocytes in PML.",
+        "B": "This is the classic MS plaque, which typically enhances when active and occurs in immunocompetent young adults rather than in advanced AIDS.",
+        "C": "This perivenous pattern with lesions all of the same age characterizes ADEM, a monophasic post-infectious disorder rather than a progressive 6-week deficit.",
+        "D": "Complement deposition with granulocytes on thickened vessel walls is the pathology of AQP4-antibody NMOSD, which targets astrocytes in optic nerve and cord.",
+        "E": "Intramyelinic vacuolization is seen in Canavan disease, an autosomal recessive aspartoacylase deficiency presenting in infancy."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-003",
+      "question": "A 34-year-old woman has a 5-day history of severe bilateral vision loss and a band of numbness at the trunk with leg weakness. MRI of the spine shows a T2-hyperintense lesion extending from C5 to T2; brain MRI is unremarkable. Serologic and CSF results are shown. Which structure is the primary target of the pathogenic antibody in this disorder?",
+      "table": [
+        [
+          "Study",
+          "Result"
+        ],
+        [
+          "Serum AQP4-IgG (cell-based assay)",
+          "Positive"
+        ],
+        [
+          "Serum MOG-IgG",
+          "Negative"
+        ],
+        [
+          "CSF-restricted oligoclonal bands",
+          "Absent"
+        ]
+      ],
+      "answers": {
+        "A": "Astrocytic foot processes at the blood-brain barrier",
+        "B": "Compact central myelin containing myelin basic protein",
+        "C": "Myelin oligodendrocyte glycoprotein on the outer myelin lamella",
+        "D": "Nodal voltage-gated sodium channels of the axolemma",
+        "E": "Schwann cell membranes forming peripheral nerve myelin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "AQP4 is the dominant water channel on astrocytic end-feet, so NMOSD is primarily an astrocytopathy with demyelination occurring secondarily.",
+        "B": "MBP is present in both central and peripheral myelin and is the antigen used to induce experimental allergic encephalomyelitis, not the target of NMO-IgG.",
+        "C": "MOG is the target in MOGAD, which this patient's negative MOG-IgG excludes and which usually causes steroid-responsive optic neuritis with disc edema.",
+        "D": "Nodal channel dysfunction explains conduction block after myelin is lost but is not the antigen targeted in this disorder.",
+        "E": "Antibodies against peripheral myelin components such as GQ1b cause Miller-Fisher syndrome, which presents with ophthalmoplegia, ataxia, and areflexia."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-004",
+      "question": "A 29-year-old nurse has a 3-week history of imbalance and 5 days of numbness of the left arm and trunk. Her sister has multiple sclerosis. Neurologic examination shows left-sided hypesthesia and gait ataxia. Brain MRI shows several periventricular and juxtacortical T2 lesions; one enhances after gadolinium and the others do not. Which finding on this single MRI establishes dissemination in time?",
+      "answers": {
+        "A": "A single longitudinally extensive spinal cord lesion",
+        "B": "Cerebrospinal fluid pleocytosis greater than 50 cells/uL",
+        "C": "Involvement of both juxtacortical and infratentorial regions",
+        "D": "Presence of both an enhancing and a non-enhancing lesion",
+        "E": "Visual evoked potentials showing prolonged P100 latency"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A lesion spanning three or more vertebral segments is atypical for MS and should raise suspicion for NMOSD.",
+        "B": "Marked pleocytosis argues against MS and suggests infection or NMOSD; CSF supports dissemination in time only through CSF-restricted oligoclonal bands.",
+        "C": "Lesions in two of the five typical regions establish dissemination in space, not dissemination in time.",
+        "D": "Gadolinium enhancement is transient and marks recent blood-brain barrier breakdown, so enhancing and non-enhancing lesions together prove lesions of different ages on one scan.",
+        "E": "Delayed visual evoked responses reveal subclinical optic nerve demyelination and can support dissemination in space under the 2024 criteria, which added the optic nerve as a fifth region."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-005",
+      "question": "A 6-year-old boy is brought to the emergency department for lethargy and unsteady gait. He had chickenpox 3 weeks ago. Temperature is 38.4 C. He is disoriented and has truncal ataxia and bilateral extensor plantar responses. MRI shows multiple large, poorly marginated bilateral T2 lesions in the deep and subcortical white matter, all of which enhance uniformly. CSF shows 22 leukocytes/uL and no oligoclonal bands. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Acute disseminated encephalomyelitis",
+        "B": "Balo concentric sclerosis",
+        "C": "Neuromyelitis optica spectrum disorder",
+        "D": "Progressive multifocal leukoencephalopathy",
+        "E": "Relapsing-remitting multiple sclerosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A monophasic post-infectious illness in a child with encephalopathy and multifocal lesions all of the same age and no CSF-restricted bands is characteristic of ADEM.",
+        "B": "Balo disease produces a single large lesion with alternating concentric rings of demyelinated and preserved myelin rather than multiple uniformly enhancing lesions.",
+        "C": "NMOSD preferentially attacks the optic nerves and spinal cord with necrotizing lesions and rarely presents as diffuse encephalopathy with normal vision and cord.",
+        "D": "PML occurs in immunosuppressed patients and produces insidious non-enhancing white matter lesions without fever or encephalopathy.",
+        "E": "MS lesions are of differing ages, are ovoid and periventricular, and typically produce focal deficits rather than fever and altered mental status in a young child."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-006",
+      "question": "A 7-year-old boy has a 6-month history of declining school performance, emotional outbursts, and a progressively spastic gait. Physical examination shows diffuse hyperpigmentation of the skin and gingiva. MRI shows symmetric confluent T2 hyperintensity in the parieto-occipital white matter with an enhancing leading edge. Laboratory results are shown. Which mechanism best explains this presentation?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum Na+",
+          "129 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "Serum K+",
+          "5.6 mEq/L",
+          "3.5-5.0 mEq/L"
+        ],
+        [
+          "8 AM cortisol",
+          "2.1 ug/dL",
+          "6-23 ug/dL"
+        ],
+        [
+          "ACTH",
+          "310 pg/mL",
+          "10-60 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Defective peroxisomal beta-oxidation of very-long-chain fatty acids",
+        "B": "Deficiency of lysosomal arylsulfatase A with sulfatide accumulation",
+        "C": "Deficiency of lysosomal galactocerebrosidase with psychosine toxicity",
+        "D": "Persistent measles virus infection of neurons and oligodendrocytes",
+        "E": "T-cell mediated attack on myelin basic protein epitopes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "X-linked adrenoleukodystrophy results from ALDP transporter mutations, so VLCFAs accumulate in adrenal cortex and brain, producing adrenal insufficiency with inflammatory cerebral demyelination.",
+        "B": "Arylsulfatase A deficiency causes metachromatic leukodystrophy, which produces gait decline and neuropathy but not adrenal insufficiency.",
+        "C": "Galactocerebrosidase deficiency causes Krabbe disease, an infantile disorder with irritability, globoid cells, and optic atrophy without adrenal failure.",
+        "D": "Persistent measles infection causes subacute sclerosing panencephalitis, marked by myoclonic jerks and periodic EEG complexes rather than adrenal insufficiency.",
+        "E": "An autoimmune attack on central myelin underlies multiple sclerosis, which is rare at this age and does not cause primary adrenal failure."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-007",
+      "question": "A 4-year-old girl has an 8-month history of worsening gait, frequent falls, and loss of previously acquired speech. Examination shows generalized weakness, hypotonia, and absent deep tendon reflexes with extensor plantar responses. Nerve conduction studies show slowed conduction velocities. MRI shows symmetric confluent periventricular white matter signal abnormality. Deficiency of which enzyme is the most likely cause?",
+      "answers": {
+        "A": "Alpha-galactosidase A",
+        "B": "Arylsulfatase A",
+        "C": "Aspartoacylase",
+        "D": "Galactocerebrosidase",
+        "E": "Hexosaminidase A"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Alpha-galactosidase A deficiency causes Fabry disease, with angiokeratomas, acroparesthesias, and renal failure rather than progressive leukodystrophy.",
+        "B": "Arylsulfatase A deficiency causes metachromatic leukodystrophy, in which sulfatide accumulates in both central and peripheral myelin, explaining the combined central and peripheral findings.",
+        "C": "Aspartoacylase deficiency causes Canavan disease, which presents in infancy with megalencephaly, hypotonia, and blindness rather than a demyelinating neuropathy.",
+        "D": "Galactocerebrosidase deficiency causes Krabbe disease, which typically presents before 6 months of age with irritability, spasticity, and globoid cell infiltration.",
+        "E": "Hexosaminidase A deficiency causes Tay-Sachs disease, with a cherry-red macula and hyperacusis and without peripheral nerve involvement."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-008",
+      "question": "A 5-month-old infant has a 2-month history of extreme irritability, episodic unexplained fevers, and arching of the back when handled. He has lost head control. Examination shows hypertonia, hyperreflexia, and pale optic discs. Nerve conduction studies show markedly slowed velocities. Brain biopsy shows multinucleated macrophages surrounding vessels in demyelinated white matter. Accumulation of which substrate best explains the neuronal injury?",
+      "answers": {
+        "A": "Galactocerebroside and psychosine",
+        "B": "GM2 ganglioside within neurons",
+        "C": "N-acetylaspartic acid in myelin",
+        "D": "Sphingomyelin within macrophages",
+        "E": "Sulfatide within Schwann cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Deficient galactocerebrosidase in Krabbe disease allows psychosine to accumulate and destroy oligodendrocytes, producing globoid multinucleated macrophages and combined central and peripheral demyelination.",
+        "B": "GM2 accumulation causes Tay-Sachs disease, which produces a cherry-red spot and neuronal storage without globoid cells or peripheral neuropathy.",
+        "C": "N-acetylaspartate accumulation causes Canavan disease, characterized by spongy intramyelinic vacuolization and megalencephaly rather than globoid cells.",
+        "D": "Sphingomyelin accumulation from sphingomyelinase deficiency causes Niemann-Pick disease, with hepatosplenomegaly and foam cells.",
+        "E": "Sulfatide accumulation causes metachromatic leukodystrophy, which usually begins in later infancy or childhood and lacks globoid cell formation."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-009",
+      "question": "A 6-month-old boy of Ashkenazi Jewish descent has severe developmental regression and poor head control. Head circumference has crossed from the 50th to above the 97th percentile. Examination shows hypotonia with hyperreflexia and no visual fixation. MR spectroscopy shows a markedly elevated peak at 2.0 ppm. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Adrenoleukodystrophy",
+        "B": "Alexander disease",
+        "C": "Canavan disease",
+        "D": "Krabbe disease",
+        "E": "Metachromatic leukodystrophy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Adrenoleukodystrophy is X-linked, presents in school-age boys with behavioral change and adrenal insufficiency, and shows posterior white matter disease rather than megalencephaly.",
+        "B": "Alexander disease also causes megalencephaly but is due to GFAP mutations with Rosenthal fibers and frontal predominant white matter disease, and it lacks the N-acetylaspartate peak.",
+        "C": "Aspartoacylase deficiency prevents breakdown of N-acetylaspartic acid, producing the elevated 2.0 ppm peak, spongy myelin vacuolization, and megalencephaly in Ashkenazi Jewish infants.",
+        "D": "Krabbe disease causes irritability and globoid cells with a normal or small head, not macrocephaly with an N-acetylaspartate peak.",
+        "E": "Metachromatic leukodystrophy causes gait decline and neuropathy in later infancy or childhood without megalencephaly."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-010",
+      "question": "A 38-year-old woman has a 4-week history of intractable hiccups, nausea, and vomiting with a 7-kg weight loss. Upper endoscopy, abdominal CT, and gastric emptying study are normal. MRI of the brain shows a T2-hyperintense lesion in the dorsal medulla adjacent to the fourth ventricle. Testing for which antibody is most likely to establish the diagnosis?",
+      "answers": {
+        "A": "Anti-acetylcholine receptor antibody",
+        "B": "Anti-aquaporin-4 IgG",
+        "C": "Anti-glial fibrillary acidic protein IgG",
+        "D": "Anti-myelin oligodendrocyte glycoprotein IgG",
+        "E": "Anti-voltage-gated potassium channel complex antibody"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Acetylcholine receptor antibodies indicate myasthenia gravis, which causes fatigable weakness and ptosis rather than a medullary lesion.",
+        "B": "The area postrema expresses very high levels of aquaporin-4, so AQP4-IgG NMOSD classically causes intractable hiccups and vomiting from a dorsal medullary lesion.",
+        "C": "GFAP-IgG defines autoimmune GFAP astrocytopathy, which usually presents as a corticosteroid-responsive meningoencephalitis with linear perivascular radial enhancement.",
+        "D": "MOG-IgG disease presents most often with optic neuritis, myelitis, or ADEM-like encephalitis rather than an isolated area postrema syndrome.",
+        "E": "VGKC-complex antibodies are associated with limbic encephalitis and faciobrachial dystonic seizures, not a dorsal medullary syndrome."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-011",
+      "question": "A 9-year-old boy has a 4-day history of painful vision loss in both eyes. He had an upper respiratory illness 2 weeks earlier. Visual acuity is 20/200 bilaterally, and funduscopy shows marked bilateral optic disc swelling. He had a similar episode 1 year ago that resolved completely with intravenous corticosteroids. Serum AQP4-IgG is negative, and there are no CSF-restricted oligoclonal bands. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Acute disseminated encephalomyelitis",
+        "B": "Leber hereditary optic neuropathy",
+        "C": "MOG antibody-associated disease",
+        "D": "Neuromyelitis optica spectrum disorder",
+        "E": "Relapsing-remitting multiple sclerosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "ADEM is defined by encephalopathy with multifocal brain lesions and is usually monophasic, whereas this child has recurrent isolated optic neuritis with normal mentation.",
+        "B": "LHON causes painless sequential vision loss in young men from mitochondrial ND gene mutations and does not respond to corticosteroids.",
+        "C": "Recurrent, steroid-responsive bilateral optic neuritis with prominent disc edema after an infectious prodrome in a child, with negative AQP4-IgG and no oligoclonal bands, is typical of MOGAD.",
+        "D": "NMOSD is effectively excluded by the negative aquaporin-4 antibody and typically causes severe residual deficits with concurrent longitudinally extensive myelitis.",
+        "E": "Pediatric MS usually shows CSF-restricted oligoclonal bands and unilateral retrobulbar optic neuritis without marked disc swelling."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-012",
+      "question": "A neurologist is counseling five patients about their relative risk of developing multiple sclerosis. Which patient has the highest risk of developing the disease?",
+      "answers": {
+        "A": "A 15-year-old girl in Texas with type 1 diabetes mellitus",
+        "B": "A 27-year-old man in Ecuador with no family history",
+        "C": "A 27-year-old woman in Minnesota whose sister has MS",
+        "D": "A 55-year-old man in Kenya whose father has multiple sclerosis",
+        "E": "A 62-year-old woman in Florida with long-standing hypertension"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Other autoimmune disease modestly raises risk, but MS onset before age 18 is uncommon and low-latitude residence lowers risk.",
+        "B": "Residence near the equator carries the lowest environmental risk, and men are affected roughly one-third as often as women.",
+        "C": "MS is most often diagnosed in women in the second to fourth decades, risk rises with distance from the equator, and an affected sibling raises risk roughly sevenfold over the general population.",
+        "D": "Sub-Saharan African residence carries a risk as low as 1 in 20,000, and onset after age 50 is unusual.",
+        "E": "Age 62 is well past the typical window of onset, and hypertension is a risk factor for ischemic white matter disease rather than for MS."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-013",
+      "question": "A 31-year-old woman with multiple sclerosis has a follow-up brain MRI. One periventricular lesion enhances brightly after gadolinium administration, whereas three other lesions do not. Which mechanism best explains the enhancement of that single lesion?",
+      "answers": {
+        "A": "Accumulation of gadolinium within reactive astrocytic processes",
+        "B": "Chronic axonal loss producing a T1 black hole",
+        "C": "Focal breakdown of the blood-brain barrier at a site of active inflammation",
+        "D": "Increased free water content within a chronically demyelinated plaque",
+        "E": "Selective uptake of contrast by remyelinating oligodendrocyte precursors"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gadolinium is an extracellular contrast agent and does not accumulate within glial cells.",
+        "B": "Permanent axonal loss produces T1 hypointensity without contrast uptake and reflects old, not active, damage.",
+        "C": "Gadolinium is normally too large to cross an intact blood-brain barrier, so uptake marks acute inflammation where the barrier is disrupted; the enhancement is transient.",
+        "D": "Increased water content produces T2 and FLAIR hyperintensity, which reflects total lesion burden rather than current activity.",
+        "E": "Remyelination is not visible with gadolinium on conventional clinical sequences."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-014",
+      "question": "A 46-year-old woman with chronic migraine, hypertension, and a 25-pack-year smoking history has a brain MRI showing several scattered T2/FLAIR hyperintense white matter lesions. She has no focal neurologic deficits. The radiologist is asked to help distinguish demyelinating lesions from chronic microvascular ischemic change. Which imaging finding would most strongly support multiple sclerosis?",
+      "answers": {
+        "A": "A small vein at the center of each lesion on T2*-weighted imaging",
+        "B": "Confluent symmetric hyperintensity of the basal ganglia",
+        "C": "Sparing of the corpus callosum with subcortical predominance",
+        "D": "Symmetric periventricular capping around the occipital horns",
+        "E": "Uniform enhancement of every lesion after gadolinium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The central vein sign reflects the perivenular origin of MS plaques and is present in 60 to 70% of people with MS, helping separate MS from small-vessel disease.",
+        "B": "Symmetric deep gray matter signal change suggests metabolic or toxic disease rather than MS, whose lesions are asymmetric and white matter based.",
+        "C": "MS characteristically involves the callosal-septal interface, so sparing it favors microvascular disease.",
+        "D": "Smooth symmetric caps are a common nonspecific finding and do not indicate demyelination.",
+        "E": "MS lesions are of differing ages, so uniform enhancement of all lesions suggests ADEM or another simultaneous process."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-015",
+      "question": "A 27-year-old woman has had one episode of right optic neuritis and now has new sensory loss in both legs. MRI shows two periventricular and one infratentorial T2 lesion, none of which enhance. Lumbar puncture results are shown. Which conclusion is best supported by the cerebrospinal fluid findings?",
+      "table": [
+        [
+          "Study",
+          "CSF",
+          "Serum"
+        ],
+        [
+          "Leukocytes",
+          "6/uL",
+          "-"
+        ],
+        [
+          "Protein",
+          "42 mg/dL",
+          "-"
+        ],
+        [
+          "Glucose",
+          "62 mg/dL",
+          "98 mg/dL"
+        ],
+        [
+          "Oligoclonal bands",
+          "5 bands",
+          "0 bands"
+        ]
+      ],
+      "answers": {
+        "A": "A leukodystrophy is the most likely underlying cause",
+        "B": "Active viral infection of the central nervous system is present",
+        "C": "Intrathecal immunoglobulin synthesis supports dissemination in time",
+        "D": "Systemic inflammation has caused passive transfer of antibody",
+        "E": "The blood-brain barrier is severely disrupted"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Leukodystrophies are noninflammatory genetic disorders and do not generate CSF-restricted oligoclonal bands.",
+        "B": "A viral infection would be expected to produce a higher pleocytosis, and bands identical in serum and CSF, not CSF-restricted bands.",
+        "C": "Bands present in CSF but absent from serum indicate immunoglobulin produced within the central nervous system and substitute for a second clinical or radiologic event in the McDonald criteria.",
+        "D": "Passive transfer would produce matching bands in both compartments, which is not the pattern shown.",
+        "E": "Severe barrier disruption would raise CSF protein well above normal and produce enhancing lesions."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-016",
+      "question": "A 30-year-old woman is newly diagnosed with relapsing-remitting multiple sclerosis. Her identical twin sister is asymptomatic and asks about her own likelihood of eventually developing the disease. Which estimate is most accurate?",
+      "answers": {
+        "A": "Approximately 0.1%",
+        "B": "Approximately 1%",
+        "C": "Approximately 4%",
+        "D": "Approximately 30%",
+        "E": "Approximately 90%"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This approximates the risk in the general United States population, which is roughly 1 in 750.",
+        "B": "This approximates the risk for a non-twin sibling of an affected person.",
+        "C": "This approximates the concordance rate reported for dizygotic twins.",
+        "D": "Monozygotic twin concordance is 25 to 35%, reflecting substantial genetic contribution while leaving most of the risk to environmental factors such as latitude, vitamin D, and Epstein-Barr virus.",
+        "E": "Near-complete concordance would imply a nearly fully penetrant Mendelian disorder, which multiple sclerosis is not."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-017",
+      "question": "A 14-year-old boy who was never vaccinated and had a febrile exanthematous illness with cough and conjunctivitis at age 2 years is brought in for 6 months of declining school performance and personality change. Over the past month he has developed frequent brief symmetric jerks of the trunk and limbs. EEG shows periodic high-voltage complexes that are time-locked to the jerks. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Adrenoleukodystrophy",
+        "B": "Creutzfeldt-Jakob disease",
+        "C": "Progressive multifocal leukoencephalopathy",
+        "D": "Subacute sclerosing panencephalitis",
+        "E": "Wilson disease"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Adrenoleukodystrophy causes behavioral and gait decline in boys but is accompanied by adrenal insufficiency and lacks periodic EEG complexes.",
+        "B": "Sporadic prion disease also produces myoclonus with periodic sharp waves but occurs in older adults over months, not years after a childhood exanthem.",
+        "C": "PML requires immunosuppression and produces focal deficits with non-enhancing white matter lesions rather than myoclonus with periodic complexes.",
+        "D": "Persistent measles virus infection produces SSPE years after infection, with cognitive decline, myoclonic jerks, and characteristic periodic EEG complexes.",
+        "E": "Wilson disease can cause adolescent behavioral change and movement disorder but shows Kayser-Fleischer rings and low ceruloplasmin rather than periodic EEG complexes."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-018",
+      "question": "A 33-year-old woman with multiple sclerosis has decreased vibration sense and a slowed conduction velocity in the affected pathway on evoked potential testing. Her physician explains that the loss of myelin, rather than loss of axons, accounts for the slowing. Which change in the biophysical properties of the internodal axolemma best explains the reduced conduction velocity?",
+      "answers": {
+        "A": "Decreased axial resistance of the axoplasm",
+        "B": "Decreased membrane resistance with increased membrane capacitance",
+        "C": "Increased density of voltage-gated sodium channels along the internode",
+        "D": "Increased membrane resistance with decreased membrane capacitance",
+        "E": "Increased resting membrane potential from potassium channel closure"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Axoplasmic resistance depends on axon diameter and is not altered by loss of the surrounding myelin sheath.",
+        "B": "Myelin normally raises transverse membrane resistance and lowers capacitance; losing it lets current leak out and requires more charge to depolarize, shortening the length constant and abolishing saltatory conduction.",
+        "C": "Sodium channels are concentrated at nodes of Ranvier, and redistribution along the internode is a slow compensatory change that would improve rather than reduce conduction.",
+        "D": "This describes the normal, healthy myelinated axon that supports rapid saltatory conduction.",
+        "E": "Depolarizing the resting potential would alter excitability but is not the consequence of removing the myelin sheath."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-019",
+      "question": "A 52-year-old man has a 4-year history of gradually worsening leg stiffness and difficulty walking. He has never had a discrete attack of neurologic symptoms followed by recovery. Examination shows spastic paraparesis with sustained clonus. MRI shows spinal cord atrophy and several periventricular T2 lesions, and CSF shows restricted oligoclonal bands. Which disease-modifying therapy is indicated for his form of the disease?",
+      "answers": {
+        "A": "Dimethyl fumarate",
+        "B": "Glatiramer acetate",
+        "C": "Interferon beta-1a",
+        "D": "Natalizumab",
+        "E": "Ocrelizumab"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Dimethyl fumarate is approved only for relapsing forms of multiple sclerosis.",
+        "B": "Glatiramer acetate is an immune modulator approved only for relapsing forms of the disease.",
+        "C": "Interferon beta preparations are indicated for relapsing forms and have not shown benefit in primary progressive disease.",
+        "D": "Natalizumab blocks lymphocyte entry into the central nervous system in relapsing disease and carries a risk of progressive multifocal leukoencephalopathy.",
+        "E": "Ocrelizumab is the only currently licensed agent indicated for primary progressive multiple sclerosis in addition to relapsing forms."
+      }
+    },
+    {
+      "id": "neuro-myelin-and-myelin-related-disorders-020",
+      "question": "A 31-year-old man has a 3-week history of rapidly progressive right hemiparesis and aphasia. MRI shows a single large left hemispheric white matter lesion composed of alternating concentric rings of demyelinated and preserved myelin. CSF shows restricted oligoclonal bands, and biopsy shows lymphocytic inflammation with macrophages containing myelin debris. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Balo concentric sclerosis",
+        "B": "Glioblastoma multiforme",
+        "C": "Marburg variant of multiple sclerosis",
+        "D": "Primary central nervous system lymphoma",
+        "E": "Progressive multifocal leukoencephalopathy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Alternating concentric bands of demyelinated and spared myelin define Balo concentric sclerosis, a rare variant of multiple sclerosis that often progresses rapidly over weeks to months.",
+        "B": "A high-grade glioma produces an irregularly enhancing necrotic mass with mass effect and would not show oligoclonal bands or myelin-laden macrophages.",
+        "C": "The Marburg variant is a fulminant, often fatal, widespread demyelinating illness rather than a single lesion with concentric lamellae.",
+        "D": "CNS lymphoma forms a homogeneously enhancing periventricular mass with dense atypical lymphoid cells, not a laminated demyelinating lesion.",
+        "E": "PML requires immunosuppression, does not enhance or show dense lymphocytic inflammation, and lacks concentric rings."
+      }
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "lecture": "Ocular Pharmacology",
+  "block": "neuro",
+  "generated": "2026-09-08",
+  "questions": [
+    {
+      "id": "neuro-ocular-pharmacology-001",
+      "question": "A 71-year-old woman with open-angle glaucoma uses three different eye drops. She instills all three within about 30 seconds of one another and then blinks repeatedly, and she reports tasting the drops in the back of her throat. Her intraocular pressure remains above target. Which instruction would most improve ocular drug delivery while reducing systemic absorption?",
+      "answers": {
+        "A": "Blink forcefully several times after each drop to spread the medication",
+        "B": "Close the lids gently, occlude the puncta, and wait 5 minutes between drops",
+        "C": "Instill two drops of each medication to compensate for overflow",
+        "D": "Switch all three medications to oral formulations",
+        "E": "Warm the drops before use to improve corneal penetration"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Blinking pumps the instilled volume through the puncta into the nasolacrimal duct, increasing loss and systemic absorption.",
+        "B": "Gentle lid closure with punctal occlusion cuts drug entry into the nasolacrimal system by about 65%, and a 5-minute interval prevents the second drop from washing out the first, since tear turnover clears a drop from the cul-de-sac within 5 minutes.",
+        "C": "The cul-de-sac holds only about 7 uL and expands to at most 30 uL, so a second drop simply overflows and increases nasal mucosal absorption.",
+        "D": "Systemic delivery penetrates the eye poorly because of the blood-aqueous and blood-retinal barriers, with fluoroquinolones and oral carbonic anhydrase inhibitors as the notable exceptions.",
+        "E": "Refrigerating drops helps patients sense successful instillation; warming them offers no pharmacokinetic advantage."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-002",
+      "question": "A 58-year-old man with persistent asthma is prescribed an eye drop for newly diagnosed ocular hypertension. Two days later he comes to the emergency department with wheezing, chest tightness, and a peak flow 45% of his personal best. He has not changed his inhalers. Which mechanism best explains his presentation?",
+      "answers": {
+        "A": "Alpha-1 adrenergic stimulation of bronchial smooth muscle",
+        "B": "Alpha-2 adrenergic agonism causing central respiratory depression",
+        "C": "Beta-2 receptor blockade after nasolacrimal absorption of timolol",
+        "D": "Carbonic anhydrase inhibition producing metabolic acidosis",
+        "E": "Muscarinic blockade drying and thickening airway secretions"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alpha-1 agonists such as phenylephrine cause mydriasis and vasoconstriction and do not constrict the airways.",
+        "B": "Brimonidine can cause apnea and lethargy, particularly in young children, but through central depression rather than bronchospasm.",
+        "C": "Timolol is a nonselective beta antagonist, and drug absorbed across the nasal mucosa bypasses first-pass metabolism to block bronchial beta-2 receptors, making asthma a contraindication.",
+        "D": "Carbonic anhydrase inhibitors can cause metabolic acidosis and paresthesias but not acute bronchospasm.",
+        "E": "Anticholinergic effects would relax airway smooth muscle rather than provoke wheezing."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-003",
+      "question": "A 77-year-old man with glaucoma is started on timolol drops in both eyes twice daily. Three weeks later he reports fatigue, dizziness on standing, and reduced exercise tolerance. Vital signs are shown. His only other medication is lisinopril. Which additional finding is most likely attributable to his eye drops?",
+      "table": [
+        [
+          "Vital sign",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Heart rate",
+          "44/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "104/62 mmHg",
+          "<120/80 mmHg"
+        ],
+        [
+          "Respiratory rate",
+          "16/min",
+          "12-20/min"
+        ],
+        [
+          "Oxygen saturation",
+          "97% on room air",
+          "95-100%"
+        ]
+      ],
+      "answers": {
+        "A": "Bluish-gray discoloration of the periocular skin",
+        "B": "Blunted awareness of hypoglycemic symptoms in a diabetic",
+        "C": "Metallic taste with tingling of the fingers and toes",
+        "D": "Persistent dry mouth with conjunctival blanching",
+        "E": "Whorl-like deposits in the corneal epithelium"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Periorbital skin darkening and fat atrophy are adverse effects of prostaglandin analogs.",
+        "B": "Beta blockade masks the adrenergic warning symptoms of hypoglycemia, which is one of the recognized systemic hazards of topical timolol.",
+        "C": "A metallic taste with paresthesias points to a carbonic anhydrase inhibitor such as dorzolamide or acetazolamide.",
+        "D": "Dry mouth and conjunctival blanching are characteristic of alpha-2 agonists such as brimonidine.",
+        "E": "Corneal verticillata is a reversible adverse effect of netarsudil, a Rho-kinase inhibitor."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-004",
+      "question": "A 63-year-old woman with newly diagnosed primary open-angle glaucoma is started on once-nightly latanoprost, and her intraocular pressure falls from 28 mmHg to 17 mmHg. Which mechanism best accounts for the reduction?",
+      "answers": {
+        "A": "Blockade of beta receptors on the ciliary body epithelium",
+        "B": "Increased uveoscleral outflow through ciliary body matrix remodeling",
+        "C": "Inhibition of carbonic anhydrase in the nonpigmented ciliary epithelium",
+        "D": "Inhibition of Rho kinase in the trabecular meshwork",
+        "E": "Miosis pulling the trabecular meshwork open mechanically"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Beta blockade reduces aqueous production and is the mechanism of timolol rather than of a prostaglandin analog.",
+        "B": "Prostaglandin analogs upregulate matrix metalloproteinases and increase extracellular matrix turnover in the ciliary muscle, widening the uveoscleral pathway and giving greater pressure reduction than beta blockers with once-daily dosing.",
+        "C": "Carbonic anhydrase inhibition decreases aqueous formation and is the mechanism of dorzolamide and acetazolamide.",
+        "D": "Rho-kinase inhibition relaxes the trabecular meshwork to improve conventional outflow and is the mechanism of netarsudil.",
+        "E": "Pupillary constriction that mechanically opens the meshwork is the mechanism of pilocarpine, which is no longer used for long-term therapy."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-005",
+      "question": "A 55-year-old woman with blue irides has used a glaucoma drop in the right eye only for the past 14 months. She now notes that her right iris looks brown and that the lashes of the right eye are longer, thicker, and darker than those of the left. Intraocular pressure is well controlled. Which mechanism best explains the iris change?",
+      "answers": {
+        "A": "Accumulation of glycosaminoglycans within the iris stroma",
+        "B": "Deposition of drug crystals in the anterior iris surface",
+        "C": "Increased melanin production by existing iris melanocytes",
+        "D": "Proliferation of new melanocytes migrating into the iris",
+        "E": "Whorl-shaped deposition of drug within the corneal epithelium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Glycosaminoglycan accumulation occurs in the trabecular meshwork with corticosteroid use and raises intraocular pressure rather than pigmenting the iris.",
+        "B": "Crystalline deposition is not a recognized effect of glaucoma drops and would not selectively darken the iris and lashes.",
+        "C": "Prostaglandin analogs increase melanin content in existing melanocytes without increasing their number, producing permanent iris darkening in 7 to 16% of patients along with hypertrichosis and periorbital skin darkening.",
+        "D": "The pigmentary change reflects greater melanin within existing cells rather than an increase in melanocyte number.",
+        "E": "Corneal verticillata is caused by netarsudil and involves the cornea, not the iris."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-006",
+      "question": "A 66-year-old woman with glaucoma is to be started on a topical agent that decreases aqueous production. Her history includes nephrolithiasis and a rash with generalized blistering after taking trimethoprim-sulfamethoxazole. Which class should be avoided in this patient?",
+      "answers": {
+        "A": "Alpha-2 adrenergic agonists",
+        "B": "Beta-adrenergic antagonists",
+        "C": "Carbonic anhydrase inhibitors",
+        "D": "Prostaglandin analogs",
+        "E": "Rho-kinase inhibitors"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Brimonidine is contraindicated with monoamine oxidase inhibitors and in young children but has no sulfa cross-reactivity.",
+        "B": "Timolol is contraindicated in asthma, bradycardia, heart block, and myasthenia gravis rather than in sulfa allergy.",
+        "C": "Dorzolamide, brinzolamide, and acetazolamide are sulfonamide derivatives, and they are also contraindicated with a history of renal stones, so both of her problems argue against this class.",
+        "D": "Prostaglandin analogs are avoided in pregnancy and in inflammatory eye disease but carry no sulfa or stone risk.",
+        "E": "Netarsudil causes conjunctival hyperemia and corneal verticillata and has no sulfonamide structure."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-007",
+      "question": "A 68-year-old man is treated with oral acetazolamide while awaiting laser surgery for glaucoma. Four days later he reports fatigue, nausea, and tingling of his hands and feet. Laboratory results are shown. Which mechanism best explains this laboratory pattern?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "138 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "K+",
+          "3.0 mEq/L",
+          "3.5-5.0 mEq/L"
+        ],
+        [
+          "Cl-",
+          "112 mEq/L",
+          "98-106 mEq/L"
+        ],
+        [
+          "HCO3-",
+          "16 mEq/L",
+          "22-28 mEq/L"
+        ],
+        [
+          "Arterial pH",
+          "7.30",
+          "7.35-7.45"
+        ]
+      ],
+      "answers": {
+        "A": "Beta-2 blockade shifting potassium out of cells",
+        "B": "Central alpha-2 stimulation reducing sympathetic outflow",
+        "C": "Impaired renal bicarbonate reabsorption with obligate potassium loss",
+        "D": "Osmotic diuresis drawing free water into the vascular space",
+        "E": "Prostaglandin-mediated renal vasoconstriction reducing filtration"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Beta blockade tends to raise rather than lower serum potassium and does not cause a bicarbonate-wasting acidosis.",
+        "B": "Alpha-2 agonism causes hypotension, dry mouth, and lethargy without altering acid-base status.",
+        "C": "Inhibiting carbonic anhydrase in the proximal tubule causes bicarbonate wasting, producing a normal anion gap metabolic acidosis with hypokalemia, paresthesias, and malaise.",
+        "D": "Hyperosmolar agents such as mannitol expand intravascular volume and can precipitate heart failure but do not cause a hyperchloremic acidosis.",
+        "E": "Topical prostaglandin analogs act locally on the ciliary body and do not produce this renal picture."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-008",
+      "question": "A 14-month-old boy with congenital glaucoma is given a drop of brimonidine in each eye in the clinic. Twenty minutes later he becomes deeply somnolent, and monitoring shows several apneic pauses with bradycardia. Which property of the drug best explains this reaction?",
+      "answers": {
+        "A": "Alpha-1 agonism producing systemic vasoconstriction and reflex bradycardia",
+        "B": "Beta-2 blockade producing bronchospasm and hypoxia",
+        "C": "Central alpha-2 agonism causing CNS and respiratory depression",
+        "D": "Muscarinic blockade producing hyperthermia and delirium",
+        "E": "Prostaglandin receptor agonism causing systemic vasodilation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alpha-1 agonism is the mechanism of phenylephrine, which causes mydriasis and hypertension rather than apnea.",
+        "B": "Beta blockade would cause wheezing and desaturation rather than sedation with central apnea.",
+        "C": "Brimonidine crosses the immature blood-brain barrier and stimulates central alpha-2 receptors, producing somnolence, hypotension, and apnea, so it is contraindicated in children under 2 years of age.",
+        "D": "Anticholinergic toxicity causes agitation, flushing, fever, and tachycardia rather than somnolence with apnea.",
+        "E": "Prostaglandin analogs cause conjunctival hyperemia and periocular changes without systemic sedation."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-009",
+      "question": "A 47-year-old woman with treatment-resistant depression takes phenelzine. She is referred for management of ocular hypertension, and the ophthalmologist reviews her medication list before choosing a topical agent. Which drug should be avoided because of an interaction with her psychiatric medication?",
+      "answers": {
+        "A": "Bimatoprost",
+        "B": "Brimonidine",
+        "C": "Brinzolamide",
+        "D": "Netarsudil",
+        "E": "Timolol"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Prostaglandin analogs act locally on the ciliary muscle extracellular matrix and have no monoamine oxidase interaction.",
+        "B": "Brimonidine is an alpha-2 adrenergic agonist, and concurrent monoamine oxidase inhibitor therapy risks a hypertensive reaction, making it a listed contraindication.",
+        "C": "Brinzolamide inhibits carbonic anhydrase and is limited by sulfa allergy rather than by monoamine oxidase inhibitors.",
+        "D": "Netarsudil inhibits Rho kinase and norepinephrine transporters locally in the trabecular meshwork and is not contraindicated with monoamine oxidase inhibitors.",
+        "E": "Timolol is limited by asthma, bradycardia, and heart block rather than by monoamine oxidase inhibitor therapy."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-010",
+      "question": "A 70-year-old man whose intraocular pressure remains at 24 mmHg on latanoprost is started on an additional drop. Three months later his pressure is 17 mmHg, but slit-lamp examination shows fine whorl-shaped opacities in the corneal epithelium and mild conjunctival redness. His vision is unchanged. Which mechanism of action does the added drug have?",
+      "answers": {
+        "A": "Activation of alpha-2 receptors reducing aqueous secretion",
+        "B": "Antagonism of beta receptors on the ciliary epithelium",
+        "C": "Inhibition of carbonic anhydrase in the ciliary body",
+        "D": "Inhibition of Rho kinase in the trabecular meshwork",
+        "E": "Stimulation of muscarinic receptors on the ciliary muscle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alpha-2 agonists cause conjunctival blanching and allergic follicular conjunctivitis rather than corneal whorls.",
+        "B": "Beta blockers cause corneal anesthesia and punctate keratitis, not verticillata.",
+        "C": "Topical carbonic anhydrase inhibitors cause a metallic taste and can harm corneal grafts but do not produce whorl-like deposits.",
+        "D": "Netarsudil reduces actin-myosin contraction and stress fibers in the trabecular meshwork to improve conventional outflow, and its characteristic adverse effects are hyperemia and reversible corneal verticillata.",
+        "E": "Pilocarpine causes miosis, brow ache, and induced myopia rather than corneal deposits."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-011",
+      "question": "An ophthalmologist needs to dilate the pupil of a healthy 30-year-old man for a routine dilated fundus examination and wants pupillary function to return the same day. Which agent best meets this goal?",
+      "answers": {
+        "A": "Atropine",
+        "B": "Cyclopentolate",
+        "C": "Homatropine",
+        "D": "Scopolamine",
+        "E": "Tropicamide"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Atropine produces mydriasis and cycloplegia lasting up to 14 days and is used for prolonged cycloplegia in uveitis, not for routine screening.",
+        "B": "Cyclopentolate acts within 15 to 30 minutes but its effect persists about 24 hours, and it is generally reserved for cycloplegic refraction in children.",
+        "C": "Homatropine dilates within 10 to 30 minutes but its effects last 2 to 4 days.",
+        "D": "Scopolamine produces mydriasis and cycloplegia lasting about 6 days.",
+        "E": "Tropicamide dilates within 20 to 30 minutes and wears off in 4 to 6 hours, making it the standard agent for routine dilated examination."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-012",
+      "question": "An 82-year-old man with benign prostatic hyperplasia and mild dementia is given atropine drops in both eyes several times a day for postoperative inflammation. Two days later his family brings him in because he is agitated and speaking nonsensically. Temperature is 38.6 C, pulse is 122/min, his skin is flushed and dry, and he has not urinated in 12 hours. Which mechanism best explains his presentation?",
+      "answers": {
+        "A": "Alpha-1 adrenergic stimulation of vascular smooth muscle",
+        "B": "Beta-adrenergic blockade in the sinoatrial node",
+        "C": "Central alpha-2 agonism reducing sympathetic outflow",
+        "D": "Inhibition of carbonic anhydrase in the renal tubule",
+        "E": "Muscarinic receptor blockade after systemic absorption"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alpha-1 agonism causes pallor and hypertension rather than flushing with dry skin and delirium.",
+        "B": "Beta blockade would cause bradycardia and fatigue rather than tachycardia with hyperthermia.",
+        "C": "Alpha-2 agonism causes somnolence, dry mouth, and hypotension rather than agitated delirium with fever.",
+        "D": "Carbonic anhydrase inhibition causes acidosis and paresthesias, not an anticholinergic toxidrome.",
+        "E": "Systemically absorbed atropine blocks muscarinic receptors, producing hyperthermia, anhidrosis with flushing, tachycardia, urinary retention, and CNS excitation, a risk that is amplified in an elderly man with prostatic hyperplasia."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-013",
+      "question": "A 68-year-old hyperopic woman with a shallow anterior chamber has dilating drops instilled before a screening fundus examination. Two hours later she develops severe right eye pain, nausea, vomiting, and halos around lights. Findings are shown. Which mechanism best explains this complication?",
+      "table": [
+        [
+          "Finding",
+          "Right eye",
+          "Left eye",
+          "Reference"
+        ],
+        [
+          "Intraocular pressure",
+          "62 mmHg",
+          "16 mmHg",
+          "10-21 mmHg"
+        ],
+        [
+          "Pupil",
+          "Mid-dilated, fixed",
+          "Reactive",
+          "-"
+        ],
+        [
+          "Cornea",
+          "Hazy",
+          "Clear",
+          "-"
+        ],
+        [
+          "Anterior chamber depth",
+          "Very shallow",
+          "Shallow",
+          "-"
+        ]
+      ],
+      "answers": {
+        "A": "Accumulation of glycosaminoglycans within the trabecular meshwork",
+        "B": "Increased aqueous secretion by stimulated ciliary processes",
+        "C": "Neovascular membrane growing across the anterior chamber angle",
+        "D": "Peripheral iris crowding the angle after pupillary dilation",
+        "E": "Sudden ciliary muscle spasm obstructing the canal of Schlemm"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Glycosaminoglycan accumulation is the mechanism of corticosteroid-induced glaucoma, which raises pressure gradually over weeks.",
+        "B": "Dilating drops do not increase aqueous production, and the pressure rise here reflects blocked drainage.",
+        "C": "Angle neovascularization develops over months after ischemic retinal disease rather than within hours of a drop.",
+        "D": "In a predisposed narrow-angle eye, mydriasis bunches the peripheral iris into the angle and worsens pupillary block, occluding the trabecular meshwork and causing an acute pressure spike.",
+        "E": "Ciliary muscle contraction from a miotic actually improves trabecular outflow, and anticholinergic drops paralyze rather than contract the muscle."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-014",
+      "question": "Before an examination, a technician instills a drop that produces a widely dilated pupil while the patient remains able to focus on near print without blurring. Which drug was most likely used?",
+      "answers": {
+        "A": "Atropine",
+        "B": "Cyclopentolate",
+        "C": "Phenylephrine",
+        "D": "Pilocarpine",
+        "E": "Tropicamide"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Atropine blocks muscarinic receptors on both the iris sphincter and the ciliary muscle, so it dilates and also paralyzes accommodation for up to 2 weeks.",
+        "B": "Cyclopentolate is an antimuscarinic that produces both mydriasis and cycloplegia.",
+        "C": "Phenylephrine is an alpha-1 agonist that stimulates the radial dilator pupillae directly, dilating the pupil without blocking the parasympathetically innervated ciliary muscle, so accommodation is preserved.",
+        "D": "Pilocarpine is a direct muscarinic agonist that constricts the pupil and induces myopia.",
+        "E": "Tropicamide is an antimuscarinic that produces mydriasis together with several hours of cycloplegia."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-015",
+      "question": "A 44-year-old man with chronic allergic conjunctivitis has used prednisolone acetate drops four times daily for the past 4 months. He is asymptomatic. Findings are shown, and gonioscopy shows an open angle with no new vessels. Which mechanism best explains the change in his intraocular pressure?",
+      "table": [
+        [
+          "Visit",
+          "Intraocular pressure (OD)",
+          "Intraocular pressure (OS)",
+          "Reference"
+        ],
+        [
+          "Baseline",
+          "15 mmHg",
+          "16 mmHg",
+          "10-21 mmHg"
+        ],
+        [
+          "6 weeks",
+          "22 mmHg",
+          "23 mmHg",
+          "10-21 mmHg"
+        ],
+        [
+          "4 months",
+          "31 mmHg",
+          "33 mmHg",
+          "10-21 mmHg"
+        ]
+      ],
+      "answers": {
+        "A": "Accumulation of glycosaminoglycans in the trabecular meshwork",
+        "B": "Anterior rotation of the ciliary body closing the angle",
+        "C": "Increased aqueous secretion by the nonpigmented ciliary epithelium",
+        "D": "Neovascularization of the iris obstructing the angle",
+        "E": "Pupillary block from posterior synechiae after inflammation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Corticosteroids increase glycosaminoglycan deposition in the trabecular meshwork, raising outflow resistance in steroid responders and producing an open-angle pressure rise over weeks to months.",
+        "B": "Ciliary body rotation causes secondary angle closure, but gonioscopy shows an open angle here.",
+        "C": "Steroid-induced glaucoma results from impaired outflow rather than increased production.",
+        "D": "Angle neovascularization follows retinal ischemia and would be visible on gonioscopy.",
+        "E": "Synechiae from uveitis can cause secondary angle closure, but the angle is open and he is asymptomatic."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-016",
+      "question": "A 61-year-old woman has used difluprednate drops for chronic anterior uveitis for the past 2 years. Her intraocular pressure has remained normal, but she now reports increasing glare in sunlight and difficulty reading small print, with better vision indoors. Visual acuity is 20/60 and improves with a pinhole. Which ocular complication of her therapy is most likely?",
+      "answers": {
+        "A": "Corneal stromal melting with descemetocele formation",
+        "B": "Cystoid macular edema with a petaloid leakage pattern",
+        "C": "Posterior subcapsular cataract at the visual axis",
+        "D": "Reversible whorl-like corneal epithelial deposits",
+        "E": "Superficial punctate keratitis from corneal anesthesia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Corneal melt is a recognized complication of topical NSAIDs rather than of corticosteroids.",
+        "B": "Cystoid macular edema is a reported adverse effect of prostaglandin analogs and would not improve with a pinhole.",
+        "C": "Corticosteroids characteristically produce posterior subcapsular lens opacity, which lies at the visual axis and degrades vision most when the pupil constricts in bright light.",
+        "D": "Corneal verticillata is caused by netarsudil and does not reduce acuity.",
+        "E": "Corneal anesthesia with punctate keratitis is a local effect of topical beta blockers."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-017",
+      "question": "A 59-year-old man is given ketorolac drops rather than a corticosteroid for pain and inflammation after cataract surgery, because he is a known steroid responder. Three weeks later he reports increasing pain, and examination shows progressive thinning of the corneal stroma with an overlying epithelial defect. Which pharmacologic property links the drug to both its intended benefit and this complication?",
+      "answers": {
+        "A": "Activation of prostaglandin receptors on the ciliary muscle",
+        "B": "Blockade of muscarinic receptors on the ciliary body",
+        "C": "Inhibition of cyclooxygenase and prostaglandin synthesis",
+        "D": "Inhibition of phospholipase A2 upstream of arachidonic acid",
+        "E": "Stabilization of conjunctival mast cell membranes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Prostaglandin receptor agonism is the mechanism of latanoprost, an intraocular pressure-lowering agent, not of ketorolac.",
+        "B": "Muscarinic blockade produces cycloplegia and is used for comfort in uveitis but does not control inflammation or cause stromal melt.",
+        "C": "Blocking cyclooxygenase controls postoperative pain and inflammation without raising intraocular pressure or causing cataract, but the same loss of prostaglandins impairs corneal epithelial healing and can produce corneal melt.",
+        "D": "Phospholipase A2 inhibition is the mechanism of corticosteroids, the class this patient is avoiding.",
+        "E": "Mast cell stabilization is the mechanism of olopatadine and ketotifen, used for allergic conjunctivitis."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-018",
+      "question": "A 76-year-old woman with wet age-related macular degeneration receives monthly intravitreal ranibizumab, and after 2 years her visual acuity has been maintained. Which mechanism best explains the benefit of this therapy?",
+      "answers": {
+        "A": "Binding of vascular endothelial growth factor to block receptor activation",
+        "B": "Chelation of iron released from subretinal hemorrhage",
+        "C": "Direct thermal ablation of the choroidal neovascular membrane",
+        "D": "Inhibition of complement activation at the retinal pigment epithelium",
+        "E": "Replacement of antioxidant micronutrients depleted in the macula"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Ranibizumab is a monoclonal antibody fragment that binds VEGF-A, blocking the vascular permeability and angiogenesis that drive choroidal neovascular membranes to leak and bleed.",
+        "B": "Iron chelation plays no role in the treatment of macular degeneration.",
+        "C": "Thermal destruction describes laser photocoagulation rather than an intravitreal antibody.",
+        "D": "Complement inhibition is the strategy being developed for geographic atrophy in advanced dry disease.",
+        "E": "Antioxidant and zinc supplementation is the AREDS strategy for dry macular degeneration."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-019",
+      "question": "A 73-year-old man with wet age-related macular degeneration finds monthly intravitreal injections burdensome and asks whether a longer interval is possible. His retina specialist proposes switching to a bispecific antibody that blocks a second pathway contributing to vascular leakage, allowing intervals of up to 4 months. Which additional target does this agent block?",
+      "answers": {
+        "A": "Angiopoietin-2",
+        "B": "Complement factor C5",
+        "C": "Platelet-derived growth factor receptor beta",
+        "D": "Tumor necrosis factor alpha",
+        "E": "Vascular endothelial growth factor receptor 2"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Faricimab is the first bispecific antibody in ophthalmology, neutralizing both VEGF-A and angiopoietin-2 to stabilize vessels and extend dosing intervals to as long as 4 months.",
+        "B": "Complement inhibitors such as avacincaptad pegol are directed at geographic atrophy in dry disease.",
+        "C": "PDGF inhibition was studied as a combination strategy but is not the second target of this bispecific agent.",
+        "D": "TNF-alpha blockade is used systemically for noninfectious uveitis rather than for neovascular macular degeneration.",
+        "E": "Blocking the receptor rather than the ligand is not how this agent works, and aflibercept acts as a soluble decoy for the ligand itself."
+      }
+    },
+    {
+      "id": "neuro-ocular-pharmacology-020",
+      "question": "A 21-year-old woman who sleeps in her soft contact lenses has 2 days of severe pain, photophobia, and purulent discharge in the left eye. Visual acuity is 20/200 on that side, and slit-lamp examination shows a dense white stromal infiltrate with an overlying epithelial defect and a small hypopyon. Which topical therapy is most appropriate initially?",
+      "answers": {
+        "A": "Erythromycin ointment",
+        "B": "Moxifloxacin solution",
+        "C": "Natamycin suspension",
+        "D": "Prednisolone acetate drops",
+        "E": "Trifluridine drops"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Macrolide ointment lacks reliable gram-negative coverage and is used for mild conjunctivitis or lid disease.",
+        "B": "Contact lens wear predisposes to Pseudomonas keratitis, so a topical fluoroquinolone with strong gram-negative coverage is the standard initial therapy for a bacterial corneal ulcer.",
+        "C": "Natamycin is a polyene antifungal reserved for fungal keratitis, which typically follows vegetative trauma and shows a feathery infiltrate.",
+        "D": "Topical corticosteroids used alone suppress local defenses and promote microbial proliferation and delayed healing in an untreated infectious ulcer.",
+        "E": "Trifluridine is an antiviral used for herpes simplex epithelial keratitis, which produces a dendrite rather than a suppurative stromal infiltrate with hypopyon."
+      }
+    }
+  ]
+}
