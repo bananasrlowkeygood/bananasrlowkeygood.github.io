@@ -1,0 +1,481 @@
+{
+  "lecture": "CNS Tumors",
+  "block": "neuro",
+  "generated": "2026-09-08",
+  "questions": [
+    {
+      "id": "neuro-cns-tumors-001",
+      "question": "A 72-year-old man has 6 weeks of progressively worsening headaches that are most severe on waking and ease over a few hours, along with new word-finding difficulty. MRI with contrast shows a single ring-enhancing mass in the left frontal lobe with a central non-enhancing area and surrounding edema. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Ganglioglioma",
+        "B": "Glioblastoma",
+        "C": "Grade 2 astrocytoma",
+        "D": "Meningioma",
+        "E": "Pilocytic astrocytoma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ganglioglioma is a well-circumscribed, slow-growing glioneuronal tumor of young patients that usually presents with focal seizures in the temporal lobe.",
+        "B": "In this age range a solitary contrast-enhancing hemispheric mass with central necrosis is most likely glioblastoma, the most common malignant glioma, typically seen from the fifth decade onward with a median survival of about 1 year.",
+        "C": "Grade 2 astrocytomas occur in the third to fourth decade and appear as diffuse non-enhancing lesions without necrosis.",
+        "D": "Meningiomas are extra-axial dural-based enhancing masses and do not show central necrosis within brain parenchyma.",
+        "E": "Pilocytic astrocytoma is a circumscribed pediatric neoplasm most often arising in the cerebellum."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-002",
+      "question": "A 32-year-old woman has a first generalized seizure. MRI shows a non-enhancing infiltrative mass with mass effect in the right parietal lobe. Biopsy shows a mildly hypercellular fibrillary astrocytic proliferation with nuclear pleomorphism but no mitoses, microvascular proliferation, or necrosis. Which molecular result is most likely, and what is the expected median survival?",
+      "answers": {
+        "A": "A BRAF::KIAA1549 fusion, with surgery usually curative",
+        "B": "EGFR amplification, with median survival about 1 year",
+        "C": "IDH mutation with 1p/19q codeletion, median survival over 10 years",
+        "D": "IDH mutation, with median survival about 5 years",
+        "E": "IDH wild-type status, with median survival about 1 year"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This fusion characterizes pilocytic astrocytoma, a circumscribed pediatric tumor that is usually cured by resection.",
+        "B": "EGFR amplification is one of the molecular criteria for glioblastoma, which carries a median survival of about 1 year and typically enhances.",
+        "C": "IDH mutation together with 1p/19q codeletion defines oligodendroglioma, which shows fried-egg cells and chicken-wire vasculature rather than fibrillary astrocytic morphology.",
+        "D": "A grade 2 astrocytoma in a young adult presenting with seizures and a non-enhancing lesion is expected to carry an IDH1 or IDH2 mutation, and median survival is about 5 years.",
+        "E": "Absence of IDH mutation in a diffuse astrocytic tumor points toward glioblastoma, which is not supported by this low-grade morphology in a 32-year-old."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-003",
+      "question": "A 39-year-old man has new-onset seizures. MRI shows a non-enhancing left frontal mass. Histology shows uniform round cells with perinuclear clearing producing a fried-egg appearance and a delicate branching capillary network. Molecular results are shown. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Molecular study",
+          "Result"
+        ],
+        [
+          "IDH1 R132H",
+          "Mutant"
+        ],
+        [
+          "1p/19q",
+          "Codeleted"
+        ],
+        [
+          "TERT promoter",
+          "Mutant"
+        ]
+      ],
+      "answers": {
+        "A": "Ependymoma",
+        "B": "Glioblastoma",
+        "C": "Grade 2 astrocytoma",
+        "D": "Oligodendroglioma",
+        "E": "Pilocytic astrocytoma"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Ependymomas show perivascular pseudorosettes, favor the fourth ventricle in children and the spinal cord in adults, and lack 1p/19q codeletion.",
+        "B": "Glioblastoma is defined in part by the absence of IDH mutation and shows microvascular proliferation and necrosis.",
+        "C": "A grade 2 astrocytoma is IDH-mutant but retains 1p and 19q and shows fibrillary astrocytic rather than oligodendroglial morphology.",
+        "D": "Fried-egg cells with chicken-wire vasculature together with IDH mutation and whole-arm 1p/19q codeletion define oligodendroglioma, which has the best prognosis among diffuse gliomas at 10 to 15 years.",
+        "E": "Pilocytic astrocytoma is a circumscribed pediatric tumor with Rosenthal fibers and MAPK pathway alterations."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-004",
+      "question": "A pathologist examines an IDH-mutant diffuse astrocytoma. The tumor is moderately cellular with nuclear pleomorphism, and several mitotic figures are identified, but there is no microvascular proliferation and no necrosis. Which WHO grade should be assigned?",
+      "answers": {
+        "A": "Grade 1",
+        "B": "Grade 2",
+        "C": "Grade 3",
+        "D": "Grade 4",
+        "E": "Grade cannot be assigned without molecular testing"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Grade 1 is reserved for circumscribed tumors such as pilocytic astrocytoma rather than diffusely infiltrating astrocytomas.",
+        "B": "Grade 2 astrocytomas show infiltration and pleomorphism but no mitotic activity.",
+        "C": "Mitotic activity, in the absence of microvascular proliferation and necrosis, is the feature that raises an IDH-mutant diffuse astrocytoma from grade 2 to grade 3.",
+        "D": "Grade 4 requires microvascular proliferation and/or necrosis, neither of which is present.",
+        "E": "Molecular testing establishes tumor type and distinguishes grade 4 astrocytoma from glioblastoma, but histologic grading of a diffuse astrocytoma proceeds on morphology."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-005",
+      "question": "A 46-year-old woman with an IDH-mutant diffuse astrocytoma undergoes resection. The pathologist notes hypercellularity, brisk mitotic activity, glomeruloid tufts of proliferating endothelium, and zones of coagulative necrosis rimmed by palisading tumor cells. Which feature is responsible for elevating this tumor to WHO grade 4?",
+      "answers": {
+        "A": "Diffuse infiltration of surrounding parenchyma",
+        "B": "Microvascular proliferation and necrosis",
+        "C": "Mitotic activity",
+        "D": "Nuclear pleomorphism",
+        "E": "Perivascular pseudorosette formation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Infiltration is a defining property of all diffuse gliomas and does not by itself raise the grade above 2.",
+        "B": "The presence of microvascular proliferation and/or necrosis is the morphologic criterion that defines grade 4 among diffuse astrocytic tumors.",
+        "C": "Mitotic activity distinguishes grade 3 from grade 2 but is not sufficient for grade 4.",
+        "D": "Pleomorphism is the feature recognized at grade 2.",
+        "E": "Perivascular pseudorosettes are a hallmark of ependymoma rather than a grading feature of astrocytomas."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-006",
+      "question": "A 66-year-old man has a temporal lobe mass resected. Histology shows an infiltrating astrocytic tumor with pleomorphism and mitoses but no microvascular proliferation or necrosis, which would ordinarily indicate grade 3. Molecular results are shown. Which diagnosis do these results establish?",
+      "table": [
+        [
+          "Molecular study",
+          "Result"
+        ],
+        [
+          "IDH1/IDH2 sequencing",
+          "Wild type"
+        ],
+        [
+          "TERT promoter",
+          "Mutant"
+        ],
+        [
+          "EGFR",
+          "Amplified"
+        ],
+        [
+          "Chromosomes 7 and 10",
+          "Trisomy 7, monosomy 10"
+        ]
+      ],
+      "answers": {
+        "A": "Ependymoma",
+        "B": "Glioblastoma",
+        "C": "Grade 3 astrocytoma, IDH-mutant",
+        "D": "Oligodendroglioma",
+        "E": "Pilocytic astrocytoma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ependymoma is defined by ependymal differentiation with perivascular pseudorosettes and is not diagnosed by these markers.",
+        "B": "In a diffuse astrocytic tumor lacking IDH mutation, any of a TERT promoter mutation, EGFR amplification, or combined trisomy 7 with monosomy 10 establishes glioblastoma even without grade 4 morphology.",
+        "C": "This diagnosis requires an IDH mutation, which sequencing excluded.",
+        "D": "Oligodendroglioma requires both IDH mutation and 1p/19q codeletion.",
+        "E": "Pilocytic astrocytoma is a circumscribed MAPK-driven pediatric tumor, not an infiltrative tumor of an older adult."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-007",
+      "question": "A neurosurgeon counsels a 44-year-old man with a newly diagnosed diffuse glioma that even a gross total resection will not cure his tumor, and that the goals of surgery are cytoreduction, symptom relief, and tissue diagnosis. Which biological property of these tumors best explains why surgery cannot be curative?",
+      "answers": {
+        "A": "Their cells infiltrate widely through surrounding brain parenchyma",
+        "B": "They are surrounded by a dense fibrous capsule that harbors tumor",
+        "C": "They arise multifocally from the ependymal lining of the ventricles",
+        "D": "They disseminate hematogenously to extracranial organs",
+        "E": "They induce microvascular proliferation that regenerates the tumor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Both astrocytic and oligodendroglial diffuse gliomas send tumor cells far beyond the radiographically abnormal region into functioning parenchyma, so no resection margin can encompass the disease.",
+        "B": "Diffuse gliomas are not encapsulated; a capsule would in fact facilitate complete removal.",
+        "C": "Ependymal origin characterizes ependymomas, which are circumscribed and often curable by resection.",
+        "D": "Diffuse gliomas very rarely metastasize outside the nervous system, and systemic spread is not the reason for local failure.",
+        "E": "Microvascular proliferation is a grading feature reflecting aggressive biology rather than the reason resection fails."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-008",
+      "question": "A 13-year-old girl has 2 months of morning headaches, vomiting, and worsening gait ataxia. MRI shows a cystic cerebellar lesion with an enhancing mural nodule. Biopsy of the nodule shows a low-grade, well-circumscribed fibrillary astrocytic tumor. Which histologic finding would best support the expected diagnosis?",
+      "answers": {
+        "A": "Antoni A and Antoni B areas with Verocay bodies",
+        "B": "Perivascular pseudorosettes",
+        "C": "Psammoma bodies and whorls",
+        "D": "Rosenthal fibers",
+        "E": "Sheets of small round blue cells with high mitotic activity"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "These are the histologic features of schwannoma, a tumor of Schwann cells arising on peripheral and cranial nerves.",
+        "B": "Perivascular pseudorosettes indicate ependymoma, which in children most often arises in the fourth ventricle rather than as a cerebellar mural nodule.",
+        "C": "Whorls and psammoma bodies are meningothelial features seen in meningioma.",
+        "D": "Rosenthal fibers are the characteristic finding in pilocytic astrocytoma, the most common glioma of childhood, which favors the cerebellum, is driven by BRAF::KIAA1549 fusion, and is usually cured by surgery.",
+        "E": "This describes medulloblastoma, a malignant embryonal tumor that is invasive rather than a circumscribed low-grade fibrillary lesion."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-009",
+      "question": "An 11-year-old boy has a 2-year history of focal seizures with an aura of unfamiliar smells. MRI shows a well-circumscribed, contrast-enhancing mass in the right temporal lobe. Resection specimen shows a mixture of dysplastic ganglion cells and neoplastic glial cells. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Ependymoma",
+        "B": "Ganglioglioma",
+        "C": "Grade 2 astrocytoma",
+        "D": "Medulloblastoma",
+        "E": "Pilocytic astrocytoma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ependymoma shows ependymal differentiation with perivascular pseudorosettes and favors the fourth ventricle in children.",
+        "B": "A well-differentiated, slow-growing glioneuronal tumor composed of dysplastic neurons and neoplastic glia arising in the temporal lobe with focal seizures is a ganglioglioma, and surgery is usually curative.",
+        "C": "A grade 2 astrocytoma is purely astrocytic, diffusely infiltrative, and non-enhancing.",
+        "D": "Medulloblastoma is a malignant embryonal cerebellar tumor of childhood with predominantly neuronal differentiation and no dysplastic ganglion cell component.",
+        "E": "Pilocytic astrocytoma contains Rosenthal fibers and no neoplastic neuronal component, and most commonly arises in the cerebellum."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-010",
+      "question": "A 12-year-old boy has 3 months of headache, morning vomiting, and unsteady gait. MRI shows a mass filling the fourth ventricle with associated ventriculomegaly. Histology shows a moderately cellular glial tumor in which tumor cell processes radiate toward vessels, creating perivascular nuclear-free zones. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Ependymoma",
+        "B": "Ganglioglioma",
+        "C": "Medulloblastoma",
+        "D": "Oligodendroglioma",
+        "E": "Pilocytic astrocytoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Perivascular pseudorosettes, in which tumor processes radiate to vessels leaving a nuclear-free halo, are the hallmark of ependymoma, whose most common site in younger patients is the fourth ventricle.",
+        "B": "Ganglioglioma arises most often in the temporal lobe and contains dysplastic ganglion cells.",
+        "C": "Medulloblastoma arises in the cerebellum as a densely cellular embryonal tumor and may form Homer Wright rather than perivascular pseudorosettes.",
+        "D": "Oligodendroglioma is a hemispheric adult tumor with fried-egg cells and 1p/19q codeletion.",
+        "E": "Pilocytic astrocytoma contains Rosenthal fibers and typically forms a cystic cerebellar lesion with a mural nodule."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-011",
+      "question": "A 7-year-old girl has 6 weeks of morning headache, vomiting, and truncal ataxia. MRI shows an enhancing midline cerebellar mass compressing the fourth ventricle. Histology shows sheets of small cells with scant cytoplasm, hyperchromatic nuclei, and numerous mitoses, with focal neuronal differentiation. Which statement about this tumor is most accurate?",
+      "answers": {
+        "A": "It arises from arachnoidal cap cells and is often surgically curable",
+        "B": "It is defined by IDH mutation with 1p/19q codeletion",
+        "C": "It is driven by a BRAF::KIAA1549 fusion and behaves in an indolent fashion",
+        "D": "It is the most common embryonal tumor of childhood and is often curable",
+        "E": "It is the most common pediatric brain tumor overall and is cured by resection alone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "That description applies to meningioma, an extra-axial dural-based tumor.",
+        "B": "These molecular features define oligodendroglioma, an adult hemispheric diffuse glioma.",
+        "C": "That fusion characterizes pilocytic astrocytoma, a well-differentiated and indolent tumor.",
+        "D": "Medulloblastoma is the most common embryonal tumor of childhood and second in frequency among pediatric CNS tumors after pilocytic astrocytoma, with a 5-year survival of 60 to 70% using combined chemotherapy and radiation.",
+        "E": "Pilocytic astrocytoma is the most common pediatric glioma and the tumor usually cured by resection alone."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-012",
+      "question": "A 52-year-old woman has several months of progressively worsening headaches and a new focal seizure. MRI with contrast shows a homogeneously enhancing, well-circumscribed extra-axial mass attached to the dura over the left frontal convexity, with a dural tail. Which histologic finding is most likely, and what is the recommended treatment?",
+      "answers": {
+        "A": "Fried-egg cells with chicken-wire vasculature, treated with chemoradiation",
+        "B": "Meningothelial whorls with psammoma bodies, treated with surgical resection",
+        "C": "Palisading necrosis with microvascular proliferation, treated with chemoradiation",
+        "D": "Perivascular pseudorosettes, treated with resection and radiation",
+        "E": "Sheets of large atypical B cells, treated with chemotherapy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "These features indicate oligodendroglioma, an intra-axial infiltrative tumor rather than a dural-based mass.",
+        "B": "The most common dural-based enhancing mass is a meningioma, derived from arachnoidal cap cells with whorls and psammoma bodies, and symptomatic lesions are treated by resection, with radiation as an alternative.",
+        "C": "These are glioblastoma features, and glioblastoma is an infiltrative intra-axial tumor.",
+        "D": "Perivascular pseudorosettes indicate ependymoma, which arises within the ventricular system or spinal cord.",
+        "E": "Diffuse large B-cell morphology indicates primary CNS lymphoma, which is usually a periventricular intra-axial mass treated medically rather than surgically."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-013",
+      "question": "A 34-year-old woman who received cranial irradiation for childhood leukemia is found to have two separate dural-based enhancing masses, and she also has bilateral masses at the internal auditory canals. Which factor most likely contributes to her meningiomas?",
+      "answers": {
+        "A": "Beta-catenin pathway activation",
+        "B": "BRAF V600E point mutation",
+        "C": "IDH1 mutation with 1p/19q codeletion",
+        "D": "NF2 alteration with prior cranial radiation",
+        "E": "TERT promoter mutation with EGFR amplification"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Beta-catenin mutations characterize adamantinomatous craniopharyngioma.",
+        "B": "BRAF V600E is associated with papillary craniopharyngioma.",
+        "C": "These changes define oligodendroglioma, a diffuse glioma unrelated to meningioma.",
+        "D": "Prior radiation therapy is an established meningioma risk factor, and NF2 alterations occur in sporadic meningiomas and underlie neurofibromatosis type 2, which is further suggested here by bilateral vestibular schwannomas.",
+        "E": "This molecular combination establishes glioblastoma in an IDH-wild-type diffuse astrocytic tumor."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-014",
+      "question": "A 37-year-old man is evaluated for difficulty seeing objects to either side while driving. Confrontation testing shows bitemporal hemianopia. MRI shows a 2.4-cm enhancing sellar mass extending superiorly and compressing the optic chiasm. Laboratory results are shown. Which characterization of this adenoma is most accurate?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Prolactin",
+          "38 ng/mL",
+          "4-15 ng/mL"
+        ],
+        [
+          "IGF-1",
+          "180 ng/mL",
+          "90-300 ng/mL"
+        ],
+        [
+          "Morning cortisol",
+          "14 ug/dL",
+          "6-23 ug/dL"
+        ],
+        [
+          "TSH",
+          "2.1 uIU/mL",
+          "0.4-4.0 uIU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "A functioning microadenoma causing Cushing disease",
+        "B": "A nonfunctioning macroadenoma presenting with mass effect",
+        "C": "A nonfunctioning microadenoma detected incidentally",
+        "D": "A prolactin-secreting macroadenoma",
+        "E": "A thyrotropin-secreting adenoma causing hyperthyroidism"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Corticotroph adenomas present early with hypercortisolism as microadenomas, and this patient has a normal cortisol.",
+        "B": "Nonfunctioning adenomas produce no hormonal syndrome, so they grow unnoticed and present as macroadenomas with mass effect; the modest prolactin elevation reflects stalk compression rather than autonomous secretion, which would drive far higher levels.",
+        "C": "A 2.4-cm lesion is by definition a macroadenoma, and it is symptomatic rather than incidental.",
+        "D": "A prolactinoma of this size would typically generate prolactin levels in the hundreds or thousands, far above this mild elevation.",
+        "E": "TSH is normal and there is no clinical thyrotoxicosis."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-015",
+      "question": "A 37-year-old man with a history of intravenous drug use is admitted after a first seizure. MRI shows an enhancing mass in the right parietal lobe with surrounding edema. Laboratory and infectious workup results are shown, and studies for progressive multifocal leukoencephalopathy and Toxoplasma gondii are negative. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "HIV antibody/antigen",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "CD4+ count",
+          "150/uL",
+          "500-1500/uL"
+        ],
+        [
+          "Toxoplasma IgG",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "CSF JC virus PCR",
+          "Not detected",
+          "Not detected"
+        ]
+      ],
+      "answers": {
+        "A": "Cerebral toxoplasmosis",
+        "B": "Glioblastoma",
+        "C": "Metastatic carcinoma",
+        "D": "Primary CNS lymphoma",
+        "E": "Progressive multifocal leukoencephalopathy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Negative Toxoplasma serology makes reactivation toxoplasmosis very unlikely in an immunosuppressed patient.",
+        "B": "Glioblastoma is possible at any age but is far less likely than lymphoma in a 37-year-old with advanced HIV infection.",
+        "C": "Brain metastases occur in patients with a known systemic carcinoma, which he does not have.",
+        "D": "Primary CNS lymphoma, usually a diffuse large B-cell lymphoma, occurs in immunocompromised younger patients as well as immunocompetent patients over 55, and is the leading consideration once toxoplasmosis and PML are excluded.",
+        "E": "PML produces non-enhancing white matter lesions and was excluded by a negative JC virus PCR."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-016",
+      "question": "A 42-year-old woman has 8 months of progressive hearing loss in the right ear with tinnitus and mild imbalance. Audiometry confirms right sensorineural hearing loss. MRI shows an enhancing mass expanding the right internal auditory canal; the left side is normal. Which histologic findings are most likely on resection?",
+      "answers": {
+        "A": "Dysplastic ganglion cells admixed with neoplastic glia",
+        "B": "Meningothelial whorls with psammoma bodies",
+        "C": "Perivascular pseudorosettes with ependymal differentiation",
+        "D": "Sheets of small round cells with neuronal differentiation",
+        "E": "Spindle cells in Antoni A and B areas with Verocay bodies"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This is ganglioglioma, an intra-axial glioneuronal tumor of the temporal lobe.",
+        "B": "These features indicate meningioma, which can occur at the cerebellopontine angle but is dural-based rather than expanding the internal auditory canal.",
+        "C": "These indicate ependymoma, which arises in the ventricular system and spinal cord.",
+        "D": "This describes medulloblastoma, a midline cerebellar embryonal tumor of childhood.",
+        "E": "Schwannoma of the vestibulocochlear nerve shows fascicles of spindled cells with ovoid nuclei in alternating dense Antoni A areas, which contain palisading nuclei forming Verocay bodies, and looser vacuolated Antoni B areas."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-017",
+      "question": "A 24-year-old man has bilateral progressive sensorineural hearing loss. MRI shows enhancing masses at both internal auditory canals, and two additional dural-based masses are noted. His mother had a similar presentation. Which underlying condition does this pattern most strongly suggest?",
+      "answers": {
+        "A": "Li-Fraumeni syndrome",
+        "B": "Neurofibromatosis type 1",
+        "C": "Neurofibromatosis type 2",
+        "D": "Tuberous sclerosis complex",
+        "E": "Von Hippel-Lindau disease"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Germline TP53 loss predisposes to sarcomas, breast cancer, and gliomas rather than bilateral vestibular schwannomas.",
+        "B": "Neurofibromatosis type 1 features cafe-au-lait macules, neurofibromas, Lisch nodules, and optic pathway gliomas rather than bilateral vestibular schwannomas.",
+        "C": "Most schwannomas are sporadic and solitary, so multiple schwannomas, and especially bilateral cranial nerve VIII schwannomas with meningiomas, raise the possibility of neurofibromatosis type 2.",
+        "D": "Tuberous sclerosis produces cortical tubers, subependymal nodules, and subependymal giant cell astrocytomas.",
+        "E": "Von Hippel-Lindau disease causes CNS and retinal hemangioblastomas along with renal cell carcinoma and pheochromocytoma."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-018",
+      "question": "An 8-year-old boy has short stature, delayed puberty, and progressive visual field loss. MRI shows a partly cystic, calcified suprasellar mass. Resection shows cords of epithelium with peripheral basilar palisading of nuclei, loose stellate reticulum, and nodules of anucleate 'wet' keratin. Which molecular alteration is most likely present?",
+      "answers": {
+        "A": "Beta-catenin (CTNNB1) mutation",
+        "B": "BRAF V600E point mutation",
+        "C": "BRAF::KIAA1549 fusion",
+        "D": "IDH1 R132H mutation",
+        "E": "NF2 biallelic inactivation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Adamantinomatous craniopharyngioma, with basilar palisading, stellate reticulum, and wet keratin, is associated with beta-catenin mutations and shows bimodal peaks at 5 to 10 and 50 to 60 years.",
+        "B": "BRAF V600E is associated with papillary craniopharyngioma, which occurs predominantly in adults and shows benign squamous epithelium with papillary architecture.",
+        "C": "This fusion drives pilocytic astrocytoma through the MAPK pathway.",
+        "D": "IDH mutation is a feature of adult diffuse gliomas, not of suprasellar epithelial tumors.",
+        "E": "NF2 loss is associated with meningiomas and schwannomas."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-019",
+      "question": "A 58-year-old woman has headaches and bitemporal visual field loss. MRI shows a suprasellar mass. Resection shows sheets of benign-appearing squamous epithelium arranged around fibrovascular cores in a papillary pattern, without palisading, stellate reticulum, or wet keratin. Compared with the other main subtype of this tumor, which feature best characterizes this lesion?",
+      "answers": {
+        "A": "It accounts for about 10% of cases and carries a BRAF V600E mutation",
+        "B": "It arises from arachnoidal cap cells rather than epithelial rests",
+        "C": "It is frankly malignant and metastasizes early",
+        "D": "It is reliably cured by resection with a very low recurrence rate",
+        "E": "It occurs almost exclusively in children under 10 years"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Papillary craniopharyngioma makes up roughly 10% of craniopharyngiomas, is predominantly seen in adults, and is associated with BRAF V600E.",
+        "B": "Both craniopharyngioma subtypes are epithelial tumors of the suprasellar region; arachnoidal cap cell origin describes meningioma.",
+        "C": "Both subtypes are histologically benign, though recurrence is common because of the difficult location.",
+        "D": "Craniopharyngiomas of both subtypes have a high recurrence rate because their suprasellar location limits complete removal.",
+        "E": "Childhood presentation is characteristic of the adamantinomatous subtype, which has a peak at 5 to 10 years."
+      }
+    },
+    {
+      "id": "neuro-cns-tumors-020",
+      "question": "A 71-year-old woman with a 40-pack-year smoking history has a new seizure and confusion. MRI with contrast shows four enhancing lesions at the gray-white junction of both hemispheres, each surrounded by disproportionate vasogenic edema. Which is the most likely diagnosis, and which primary sites are most commonly responsible?",
+      "answers": {
+        "A": "Glioblastoma, most often arising in the frontal lobe",
+        "B": "Meningiomatosis, most often following prior cranial radiation",
+        "C": "Metastatic disease, most often from lung, breast, or melanoma",
+        "D": "Multifocal ependymoma, most often from the fourth ventricle",
+        "E": "Primary CNS lymphoma, most often periventricular in location"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Glioblastoma is usually a solitary infiltrative mass rather than multiple discrete lesions at the gray-white junction.",
+        "B": "Multiple meningiomas are dural-based and extra-axial rather than sited at the gray-white junction.",
+        "C": "Multiple well-demarcated enhancing lesions at the gray-white junction with marked edema indicate metastases, which occur in 20 to 40% of patients with cancer and most often originate from lung carcinoma, breast carcinoma, or melanoma.",
+        "D": "Ependymomas arise within the ventricular system or spinal cord and do not present as multiple hemispheric lesions.",
+        "E": "Primary CNS lymphoma typically forms periventricular masses and, by definition, occurs without systemic lymphoma."
+      }
+    }
+  ]
+}

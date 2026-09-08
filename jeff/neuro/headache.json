@@ -1,0 +1,476 @@
+{
+  "lecture": "Headache",
+  "block": "neuro",
+  "generated": "2026-09-08",
+  "questions": [
+    {
+      "id": "neuro-headache-001",
+      "question": "A 44-year-old woman has had recurrent headaches since menarche. Attacks reliably occur the day before menses and 3 to 4 other times per month, particularly with poor sleep or weather changes. Untreated attacks last about 8 hours. The pain is right-sided, throbbing, moderate in intensity, worse with climbing stairs, and accompanied by light and sound sensitivity. Neurologic examination is normal. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Cluster headache",
+        "B": "Medication overuse headache",
+        "C": "Migraine without aura",
+        "D": "Sinus headache",
+        "E": "Tension-type headache"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cluster attacks last 15 to 180 minutes, are strictly unilateral and orbital, occur up to eight times daily, and are accompanied by ipsilateral autonomic features and agitation.",
+        "B": "Medication overuse headache requires headache on at least 15 days per month with regular overuse of acute medication for more than 3 months, and she has neither.",
+        "C": "Attacks lasting 4 to 72 hours with at least two of unilateral location, pulsating quality, moderate or severe intensity, and aggravation by routine activity, plus photophobia and phonophobia, meet ICHD-3 criteria for migraine without aura.",
+        "D": "Sinus symptoms are a common accompaniment of migraine and frequently cause misdiagnosis, but true rhinosinusitis headache requires purulent discharge and other infectious features.",
+        "E": "Tension-type headache is bilateral, pressing rather than pulsating, not worsened by routine activity, and is not accompanied by both photophobia and phonophobia."
+      }
+    },
+    {
+      "id": "neuro-headache-002",
+      "question": "A 26-year-old woman with recurrent headaches reports that before some attacks she sees a small dark spot surrounded by shimmering zigzag lines. The spot enlarges and spreads across her field over about 20 minutes, then fades completely as the throbbing headache begins. She has no weakness. Which mechanism best explains this symptom?",
+      "answers": {
+        "A": "A slowly propagating wave of cortical excitation followed by depression",
+        "B": "Embolic occlusion of a distal branch of the posterior cerebral artery",
+        "C": "Focal seizure activity arising in the occipital cortex",
+        "D": "Reversible vasoconstriction of the large intracranial arteries",
+        "E": "Sustained contraction of pericranial and cervical musculature"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cortical spreading depression of Leao advances at 3 to 5 mm/min with a leading edge of excitation followed by depressed activity and reduced blood flow, which matches the timing and the mixed positive and negative features of the scintillating scotoma.",
+        "B": "An embolic event produces abrupt, not gradual, onset and does not resolve completely within an hour with a following headache.",
+        "C": "Occipital seizures produce brief stereotyped visual phenomena lasting seconds to a couple of minutes rather than a symptom marching over 20 minutes.",
+        "D": "Vasomotor changes occur in migraine but are considered epiphenomena; qualifying migraine as a primarily vascular disorder is now regarded as erroneous.",
+        "E": "Pericranial muscle tenderness is associated with tension-type headache and does not produce visual phenomena."
+      }
+    },
+    {
+      "id": "neuro-headache-003",
+      "question": "A 44-year-old woman with a 20-year history of migraine returns to clinic. Over the past 8 months her headaches have become far more frequent, and she now takes ibuprofen on most days. Her headache diary is shown. Neurologic examination is normal. In addition to her migraine, which diagnosis does she now carry?",
+      "table": [
+        [
+          "Measure",
+          "Value"
+        ],
+        [
+          "Headache days per month",
+          "22"
+        ],
+        [
+          "Days per month taking ibuprofen",
+          "26"
+        ],
+        [
+          "Duration of this pattern",
+          "8 months"
+        ]
+      ],
+      "answers": {
+        "A": "Cluster headache",
+        "B": "Giant cell arteritis",
+        "C": "Idiopathic intracranial hypertension",
+        "D": "Medication overuse headache",
+        "E": "Tension-type headache"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cluster headache produces brief, excruciating, strictly unilateral orbital attacks with autonomic features and agitation, none of which are described.",
+        "B": "Giant cell arteritis is a secondary headache of patients over 50 with systemic symptoms, jaw claudication, and visual loss.",
+        "C": "Idiopathic intracranial hypertension causes papilledema and visual obscurations, and her examination is normal.",
+        "D": "Headache on 15 or more days per month in a patient with a pre-existing headache disorder, together with regular overuse of an acute medication for more than 3 months, defines medication overuse headache; treatment is cessation of the overused drug.",
+        "E": "Frequent daily analgesic use in a patient with pre-existing migraine points to medication overuse rather than a second primary headache disorder."
+      }
+    },
+    {
+      "id": "neuro-headache-004",
+      "question": "A 38-year-old accountant has headaches about twice a month during busy periods at work. The pain is bilateral, described as a tight band around the head, mild to moderate, and lasts most of the workday. Walking up stairs does not worsen it. She has no nausea and notes mild sensitivity to light but not to sound. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Cluster headache",
+        "B": "Medication overuse headache",
+        "C": "Migraine without aura",
+        "D": "Secondary headache from a mass lesion",
+        "E": "Tension-type headache"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cluster attacks are severe, strictly unilateral, orbital, and last 15 to 180 minutes with ipsilateral autonomic features.",
+        "B": "Medication overuse headache requires headache on at least 15 days per month with sustained overuse of acute medication.",
+        "C": "Migraine requires at least two of unilateral, pulsating, moderate to severe, or activity-aggravated pain, plus nausea or both photophobia and phonophobia.",
+        "D": "A mass lesion produces progressive headache with neurologic signs or papilledema, none of which are present.",
+        "E": "Bilateral, pressing, mild to moderate pain not aggravated by routine activity, with no nausea and no more than one of photophobia or phonophobia, meets ICHD-3 criteria for tension-type headache."
+      }
+    },
+    {
+      "id": "neuro-headache-005",
+      "question": "A 31-year-old man has a 1-week history of headaches that wake him shortly after he falls asleep and also occur in mid-morning and mid-afternoon. Attacks last about 45 minutes. The pain is excruciating and centered in the left eye. During attacks the left eye becomes red and tears profusely, the left nostril runs, and he paces the room unable to sit still. Examination shows mild left ptosis and miosis. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Feature",
+          "Reported by patient"
+        ],
+        [
+          "Attacks per day",
+          "3"
+        ],
+        [
+          "Attack duration",
+          "45 minutes"
+        ],
+        [
+          "Peak attack times",
+          "Shortly after sleep onset, mid-morning, mid-afternoon"
+        ],
+        [
+          "Behavior during attack",
+          "Pacing, unable to sit still"
+        ]
+      ],
+      "answers": {
+        "A": "Cluster headache",
+        "B": "Giant cell arteritis",
+        "C": "Migraine without aura",
+        "D": "Sinus headache",
+        "E": "Tension-type headache"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Severe strictly unilateral orbital pain lasting 15 to 180 minutes, occurring up to eight times daily with striking circadian periodicity, ipsilateral cranial autonomic features, and restlessness defines cluster headache.",
+        "B": "Giant cell arteritis occurs after age 50 with continuous bitemporal pain, jaw claudication, and systemic symptoms rather than brief periodic attacks.",
+        "C": "Migraine attacks last 4 to 72 hours and patients characteristically seek stillness and a dark room rather than pacing in agitation.",
+        "D": "Rhinorrhea here is a cranial autonomic feature of the attack rather than evidence of sinus infection, and sinusitis does not produce 45-minute periodic attacks.",
+        "E": "Tension-type headache is bilateral, mild to moderate, and never accompanied by cranial autonomic features or agitation."
+      }
+    },
+    {
+      "id": "neuro-headache-006",
+      "question": "A 34-year-old man in the middle of a cluster cycle comes to the emergency department during an attack of excruciating left orbital pain with lacrimation and rhinorrhea. He has already taken acetaminophen and ibuprofen at home without relief. Which acute treatment is most likely to abort this attack?",
+      "answers": {
+        "A": "An ice pack applied to the forehead",
+        "B": "High-flow oxygen by non-rebreather mask",
+        "C": "Oral propranolol at high dose",
+        "D": "Oral riboflavin supplementation",
+        "E": "Oral topiramate at high dose"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Local cooling provides no meaningful relief for an attack of this severity.",
+        "B": "Inhaled 100% oxygen by non-rebreather has level A evidence for aborting cluster attacks and works within minutes, alongside subcutaneous sumatriptan and intranasal zolmitriptan.",
+        "C": "Propranolol is a migraine preventive taken daily and has no abortive effect on an attack in progress.",
+        "D": "Riboflavin is a preventive supplement for migraine with slow onset of benefit.",
+        "E": "Topiramate is a preventive agent for migraine and cluster headache and does not abort an acute attack."
+      }
+    },
+    {
+      "id": "neuro-headache-007",
+      "question": "A 40-year-old man has episodic cluster headache with attacks four times daily for the past 2 weeks. His previous cycles have lasted about 8 weeks. High-flow oxygen aborts individual attacks, but he wants to reduce their frequency for the remainder of this cycle. Which agent is the most appropriate first-line preventive therapy?",
+      "answers": {
+        "A": "Amitriptyline",
+        "B": "Divalproex sodium",
+        "C": "Indomethacin",
+        "D": "Sumatriptan",
+        "E": "Verapamil"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Amitriptyline is a preventive for tension-type headache and migraine, not a first-line cluster preventive.",
+        "B": "Divalproex is FDA-approved for migraine prevention but is not a standard cluster preventive.",
+        "C": "Indomethacin is an acute NSAID option in migraine and is diagnostic in other headache syndromes, but it is not the preventive of choice in cluster headache.",
+        "D": "Subcutaneous sumatriptan is an acute cluster treatment; frequent use risks ischemic events and it is not used preventively.",
+        "E": "Verapamil is the evidence-based first-line preventive for cluster headache and is continued until the cluster cycle ends."
+      }
+    },
+    {
+      "id": "neuro-headache-008",
+      "question": "A 71-year-old woman has a 3-week history of new bitemporal throbbing headache on a background of 2 months of fatigue, malaise, and diffuse muscle and joint pain. The pain worsens while chewing. One week ago vision in her left eye declined sharply. Examination shows left optic disc pallor, visual acuity of 20/200 on the left, and tender, firm, pulseless temporal arteries. Laboratory results are shown. Which is the most appropriate immediate treatment?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Erythrocyte sedimentation rate",
+          "98 mm/h",
+          "0-30 mm/h"
+        ],
+        [
+          "C-reactive protein",
+          "9.4 mg/dL",
+          "<0.5 mg/dL"
+        ],
+        [
+          "Hemoglobin",
+          "10.2 g/dL",
+          "12-16 g/dL"
+        ],
+        [
+          "Platelets",
+          "512,000/uL",
+          "150,000-400,000/uL"
+        ]
+      ],
+      "answers": {
+        "A": "High-dose corticosteroids",
+        "B": "Ibuprofen at maximum dose",
+        "C": "Propranolol at standard dose",
+        "D": "Topiramate at standard dose",
+        "E": "Verapamil at standard dose"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Giant cell arteritis threatens vision in the fellow eye, so high-dose corticosteroids are started immediately without waiting for temporal artery biopsy, then tapered over 6 to 12 months.",
+        "B": "An NSAID does not halt the arteritic process and would leave the second eye at risk.",
+        "C": "Propranolol is a migraine preventive with no role in an inflammatory arteritis.",
+        "D": "Topiramate prevents migraine and does not treat vasculitis.",
+        "E": "Verapamil prevents cluster headache and has no role here."
+      }
+    },
+    {
+      "id": "neuro-headache-009",
+      "question": "A 29-year-old woman takes sumatriptan at the onset of migraine attacks and finds that the pain and nausea resolve within an hour. Which action best explains the therapeutic effect of this drug class?",
+      "answers": {
+        "A": "Activation of 5-HT1B and 5-HT1D receptors on trigeminal endings",
+        "B": "Antagonism of the calcitonin gene-related peptide receptor",
+        "C": "Blockade of central dopamine D2 receptors",
+        "D": "Inhibition of cyclooxygenase and prostaglandin synthesis",
+        "E": "Inhibition of voltage-gated sodium channels in the cortex"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Triptans activate 5-HT1D autoreceptors on trigeminal nerve terminals and at the trigeminal nucleus caudalis, inhibiting release of serotonin and inflammatory mediators and interrupting pain transmission; the 5-HT1B vasoconstrictive effect is not required to abort the attack.",
+        "B": "CGRP receptor blockade is the mechanism of the gepants such as ubrogepant and rimegepant, not of triptans.",
+        "C": "Dopamine antagonism is the mechanism of metoclopramide and prochlorperazine, which are effective for nausea and pain in migraine.",
+        "D": "Cyclooxygenase inhibition is the mechanism of NSAIDs such as naproxen and diclofenac.",
+        "E": "Sodium channel blockade describes some anticonvulsants and is not how triptans work."
+      }
+    },
+    {
+      "id": "neuro-headache-010",
+      "question": "A 36-year-old woman with 10 migraine days per month has not tolerated topiramate or propranolol. Her neurologist prescribes a monthly subcutaneous monoclonal antibody that reduced her attack frequency by half. This agent targets the neuropeptide released when the trigeminal nerve is activated during an attack. Which neuropeptide is blocked?",
+      "answers": {
+        "A": "Calcitonin gene-related peptide",
+        "B": "Neuropeptide Y",
+        "C": "Orexin",
+        "D": "Substance P",
+        "E": "Vasoactive intestinal peptide"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Trigeminal activation releases CGRP, driving sterile neurogenic inflammation and vasodilation, and monoclonal antibodies such as erenumab, fremanezumab, and galcanezumab target this pathway for prevention.",
+        "B": "Neuropeptide Y is a sympathetic cotransmitter without an established role in migraine therapeutics.",
+        "C": "Orexinergic projections from the hypothalamus modulate the trigeminal nucleus caudalis in cluster headache but are not the target of these antibodies.",
+        "D": "Substance P participates in nociception broadly, but antagonists of this pathway failed to show benefit in migraine.",
+        "E": "VIP is a cranial parasympathetic transmitter associated with autonomic features rather than the target of migraine preventive antibodies."
+      }
+    },
+    {
+      "id": "neuro-headache-011",
+      "question": "A 33-year-old woman with moderate persistent asthma has migraine without aura on 8 days per month, disabling enough that she misses work. Acute treatment with naproxen is only partially effective, and she wishes to start a daily preventive medication. Which agent is most appropriate?",
+      "answers": {
+        "A": "Metoclopramide",
+        "B": "Propranolol",
+        "C": "Sumatriptan",
+        "D": "Timolol",
+        "E": "Topiramate"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Metoclopramide is a dopamine antagonist used acutely for migraine pain and nausea rather than daily for prevention.",
+        "B": "Propranolol is FDA-approved for migraine prevention but is a nonselective beta blocker and is contraindicated in asthma.",
+        "C": "Sumatriptan is an acute abortive agent; daily use would risk medication overuse headache.",
+        "D": "Timolol is also FDA-approved for migraine prevention but shares the nonselective beta blockade that makes it hazardous in asthma.",
+        "E": "Topiramate is FDA-approved for migraine prevention and avoids the bronchoconstriction that makes beta blockers unsuitable in a patient with asthma."
+      }
+    },
+    {
+      "id": "neuro-headache-012",
+      "question": "A 41-year-old man with a long history of migraine now reports headache on about 18 days each month for the past 6 months. On roughly 10 of those days the pain is unilateral and throbbing with nausea and photophobia; on the remaining days it is a milder bilateral pressure. He uses acute medication about 6 days per month. Which diagnosis best fits this pattern?",
+      "answers": {
+        "A": "Chronic migraine",
+        "B": "Chronic tension-type headache",
+        "C": "Episodic migraine with aura",
+        "D": "Medication overuse headache",
+        "E": "New daily persistent headache"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Headache on 15 or more days per month for more than 3 months, with migraine features on at least 8 of those days, in a patient with prior migraine, defines chronic migraine; his limited acute medication use excludes medication overuse.",
+        "B": "Chronic tension-type headache requires that the headaches lack migraine features, and he has migrainous days.",
+        "C": "He describes no aura, and headache on 18 days per month exceeds the episodic threshold.",
+        "D": "Medication overuse headache requires regular overuse of acute medication, generally on 10 or more days per month, and he uses it on only 6.",
+        "E": "New daily persistent headache begins abruptly and is continuous from a clearly remembered day of onset."
+      }
+    },
+    {
+      "id": "neuro-headache-013",
+      "question": "A 46-year-old man with no headache history is brought in after the abrupt onset of the worst headache of his life while lifting weights. The pain reached maximum intensity within seconds. He is now alert with mild neck stiffness. Which red-flag category does this presentation represent, and what should be excluded first?",
+      "table": [
+        [
+          "Feature",
+          "Value"
+        ],
+        [
+          "Time to peak intensity",
+          "<10 seconds"
+        ],
+        [
+          "Blood pressure",
+          "168/94 mmHg"
+        ],
+        [
+          "Temperature",
+          "37.0 C"
+        ],
+        [
+          "Neck stiffness",
+          "Present"
+        ]
+      ],
+      "answers": {
+        "A": "Older age of onset, suggesting giant cell arteritis",
+        "B": "Papilledema, suggesting raised intracranial pressure",
+        "C": "Positional change, suggesting intracranial hypotension",
+        "D": "Split-second onset, suggesting subarachnoid hemorrhage",
+        "E": "Systemic symptoms, suggesting meningitis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Giant cell arteritis is suggested by new headache after age 50 with systemic symptoms and jaw claudication, developing over weeks rather than seconds.",
+        "B": "Papilledema with visual obscurations would suggest idiopathic intracranial hypertension, and none is described.",
+        "C": "A dramatic difference between upright and recumbent posture suggests a cerebrospinal fluid leak, not a split-second onset.",
+        "D": "Thunderclap onset reaching peak intensity within seconds is the O for onset in the 2SNOOP4 red flags and mandates urgent exclusion of subarachnoid hemorrhage.",
+        "E": "Systemic features such as fever and weight loss point to infection or malignancy, and he is afebrile without systemic complaints."
+      }
+    },
+    {
+      "id": "neuro-headache-014",
+      "question": "A 34-year-old woman has a 3-week history of headache that is absent when she wakes but becomes severe within 15 minutes of standing and resolves almost completely when she lies flat. She had an epidural for childbirth 1 month ago. Neurologic examination is normal. Which secondary cause does this pattern most strongly suggest?",
+      "answers": {
+        "A": "Giant cell arteritis",
+        "B": "Idiopathic intracranial hypertension",
+        "C": "Intracranial hypotension",
+        "D": "Posterior fossa mass lesion",
+        "E": "Subarachnoid hemorrhage"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Giant cell arteritis produces continuous bitemporal pain with systemic symptoms in patients over 50.",
+        "B": "Raised intracranial pressure typically produces headache that is worse when recumbent and on waking, the opposite of this pattern, and is accompanied by papilledema.",
+        "C": "A headache that appears on standing and remits on lying flat is the positional red flag of the 2SNOOP4 mnemonic and indicates low cerebrospinal fluid pressure, here from a dural puncture.",
+        "D": "A posterior fossa lesion causes headache precipitated by cough or Valsalva with neurologic signs rather than a purely orthostatic pattern.",
+        "E": "Subarachnoid hemorrhage begins as a thunderclap headache that does not resolve on lying down."
+      }
+    },
+    {
+      "id": "neuro-headache-015",
+      "question": "A 28-year-old woman with obesity has a 2-month history of daily headache that is worst on waking and with coughing, along with brief episodes in which vision in both eyes grays out for a few seconds when she stands. Funduscopy shows bilateral blurring of the optic disc margins. Which is the most appropriate next step?",
+      "answers": {
+        "A": "Begin high-dose corticosteroids empirically",
+        "B": "Begin topiramate for migraine prevention and observe",
+        "C": "Neuroimaging, then lumbar puncture with opening pressure",
+        "D": "Reassurance and a headache diary for 3 months",
+        "E": "Temporal artery biopsy with sedimentation rate"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Corticosteroids are the immediate treatment for giant cell arteritis, which does not fit a 28-year-old with papilledema.",
+        "B": "Starting a migraine preventive before excluding a secondary cause would leave a potentially blinding process untreated.",
+        "C": "Papilledema with transient visual obscurations is a red flag for raised intracranial pressure, and imaging to exclude a mass or venous thrombosis must precede the lumbar puncture that measures opening pressure.",
+        "D": "A red flag on examination cannot be managed with observation alone.",
+        "E": "Temporal artery biopsy investigates giant cell arteritis in older patients with systemic symptoms."
+      }
+    },
+    {
+      "id": "neuro-headache-016",
+      "question": "A 39-year-old woman with frequent migraine was started on amitriptyline 3 weeks ago at a low dose. She reports no reduction in headache frequency and asks to stop it, saying the drug has failed. She also takes butalbital-containing combination tablets on most days. Which aspect of her management most needs to be addressed first?",
+      "answers": {
+        "A": "Adding an opioid for breakthrough attacks",
+        "B": "Identifying and stopping the overused acute medication",
+        "C": "Ordering MRI of the brain with contrast",
+        "D": "Referring her for temporal artery biopsy",
+        "E": "Switching immediately to a different preventive agent"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Opioids must be avoided in migraine because they most often worsen the disorder and promote medication overuse.",
+        "B": "When medication overuse is present, preventive medications have little chance of success, so the overused butalbital combination must be addressed first; because it contains a barbiturate, abrupt discontinuation risks seizures and may require inpatient withdrawal.",
+        "C": "Imaging is warranted when red flags are present, and none are described here.",
+        "D": "Temporal artery biopsy is reserved for suspected giant cell arteritis in older patients.",
+        "E": "A preventive trial requires titration to a therapeutic dose maintained for 2 to 3 months before it can be called a failure."
+      }
+    },
+    {
+      "id": "neuro-headache-017",
+      "question": "A public health researcher is planning a migraine screening program and reviews the epidemiology of primary headache disorders in the United States. Which statement most accurately describes the burden of migraine?",
+      "answers": {
+        "A": "It affects about 0.1% of the population and is more common in men",
+        "B": "It affects about 12% of the population and is three times more common in men",
+        "C": "It affects about 12% of the population and is three times more common in women",
+        "D": "It affects about 40% of the population equally across sexes",
+        "E": "It affects about 80% of the population and peaks after age 60"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "These figures describe cluster headache, which affects roughly 0.1% of the population with a male predominance of 1.5 to 3 to 1.",
+        "B": "The sex ratio is reversed: adult women are affected roughly three times as often as men.",
+        "C": "Migraine affects roughly 12% of the United States population with peak prevalence in the fourth decade, and in adults it is about three times more common in women than men, at 18% versus 6%.",
+        "D": "Up to 40% is the figure for women in their reproductive years specifically, not for the whole population.",
+        "E": "The roughly 80% yearly prevalence figure applies to episodic tension-type headache, and migraine peaks in the fourth decade."
+      }
+    },
+    {
+      "id": "neuro-headache-018",
+      "question": "During a cluster attack, a patient's left eye becomes red and tears heavily while the left nostril runs and the left forehead sweats. His physician explains that these features arise from a reflex rather than from structural damage. Which mechanism best explains the autonomic signs?",
+      "answers": {
+        "A": "Activation of trigeminal afferents triggering cranial parasympathetic outflow",
+        "B": "Compression of the cavernous sinus by an expanding aneurysm",
+        "C": "Direct injury to the ciliary ganglion by the headache process",
+        "D": "Interruption of the sympathetic supply to the face at the lung apex",
+        "E": "Release of histamine from dural mast cells into the systemic circulation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In the trigeminal-autonomic reflex, stimulation of trigeminovascular pathways drives reflex parasympathetic outflow through the superior salivatory nucleus and pterygopalatine ganglion, producing ipsilateral lacrimation, conjunctival injection, and rhinorrhea.",
+        "B": "A structural cavernous lesion would produce fixed cranial nerve deficits rather than autonomic features that come and go with attacks.",
+        "C": "Ganglionic injury would cause a persistent deficit rather than transient attack-linked signs.",
+        "D": "A Pancoast tumor produces a fixed Horner syndrome with anhidrosis rather than episodic lacrimation and rhinorrhea.",
+        "E": "Systemic histamine release would produce bilateral flushing and hypotension rather than strictly unilateral cranial autonomic features."
+      }
+    },
+    {
+      "id": "neuro-headache-019",
+      "question": "A 35-year-old woman several hours into a migraine attack reports that brushing her hair and wearing her glasses have become painful, and she cannot tolerate a light touch to her scalp on the affected side. She had no such sensitivity at attack onset. Which process best explains this new symptom?",
+      "answers": {
+        "A": "Central sensitization of neurons in the trigeminal nucleus caudalis",
+        "B": "Cortical spreading depression advancing across somatosensory cortex",
+        "C": "Demyelination of first-order trigeminal afferents",
+        "D": "Sterile neurogenic inflammation of the scalp musculature",
+        "E": "Vasodilation of extracranial branches of the external carotid artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Progressive sensitization of the trigeminal nucleus caudalis lowers thresholds so that non-noxious stimuli become painful, which is the basis of cutaneous allodynia developing later in an attack.",
+        "B": "Cortical spreading depression underlies aura, which is fully reversible within an hour and precedes rather than follows the headache.",
+        "C": "Demyelination would cause sensory loss or paroxysmal neuralgic pain rather than reversible allodynia during an attack.",
+        "D": "Neurogenic inflammation involves meninges and vasculature and initiates rather than explains the shift to allodynia.",
+        "E": "Vasodilation is regarded as an epiphenomenon of migraine and does not account for pain from light touch."
+      }
+    },
+    {
+      "id": "neuro-headache-020",
+      "question": "A 27-year-old woman with migraine on 2 days per month responds well to naproxen and asks whether she should start a daily preventive medication. She has no disability between attacks and no history of prolonged aura. Which consideration best guides the decision?",
+      "answers": {
+        "A": "Preventive therapy is indicated for anyone meeting criteria for migraine",
+        "B": "Preventive therapy is indicated only after acute treatment has failed entirely",
+        "C": "Preventive therapy is indicated when attacks are frequent or disabling",
+        "D": "Preventive therapy should be avoided in women of reproductive age",
+        "E": "Preventive therapy should be judged a failure if there is no benefit in 2 weeks"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Meeting diagnostic criteria alone does not establish an indication; roughly 39% of people with migraine are candidates for prevention.",
+        "B": "Poor response to acute treatment is one indication among several, and prevention can be started for frequency or severity even when abortives work.",
+        "C": "Prevention is warranted for attacks more than about once weekly, or that are disabling, extremely severe, poorly responsive to abortives, bothersome enough that the patient wishes to intervene, or that mimic conditions such as stroke, and this patient meets none of these.",
+        "D": "Reproductive potential guides the choice of agent, such as avoiding divalproex, rather than precluding prevention altogether.",
+        "E": "Preventives require titration to a therapeutic dose maintained for 2 to 3 months before efficacy can be judged."
+      }
+    }
+  ]
+}

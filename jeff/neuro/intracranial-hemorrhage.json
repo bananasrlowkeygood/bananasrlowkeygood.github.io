@@ -1,0 +1,480 @@
+{
+  "lecture": "Intracranial Hemorrhage",
+  "block": "neuro",
+  "generated": "2026-09-08",
+  "questions": [
+    {
+      "id": "neuro-intracranial-hemorrhage-001",
+      "question": "A 24-year-old man is struck in the left temple during a ski collision. He loses consciousness briefly, then wakes and converses normally with paramedics. Two hours later he develops severe headache and vomiting and becomes unresponsive. Examination shows a dilated, nonreactive left pupil and right-sided weakness. Non-contrast CT shows a hyperdense biconvex collection over the left convexity that does not cross suture lines. Which vessel is most likely lacerated?",
+      "answers": {
+        "A": "Anterior communicating artery",
+        "B": "Bridging cerebral veins",
+        "C": "Lenticulostriate arteries",
+        "D": "Middle meningeal artery",
+        "E": "Superior sagittal sinus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Rupture of an anterior communicating artery aneurysm causes subarachnoid hemorrhage with blood in the basal cisterns, not a biconvex extra-axial collection.",
+        "B": "Torn bridging veins produce a crescentic subdural collection that crosses suture lines and often follows minor trauma in the elderly.",
+        "C": "Lenticulostriate rupture causes hypertensive intraparenchymal hemorrhage in the basal ganglia rather than an extra-axial collection.",
+        "D": "Fracture at the pterion, the thinnest part of the skull, lacerates the middle meningeal artery as it passes from the foramen spinosum, producing an epidural hematoma limited by suture lines with a classic lucid interval.",
+        "E": "Sinus injury produces venous infarction or a midline collection rather than a lentiform convexity hematoma with rapid arterial expansion."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-002",
+      "question": "A 19-year-old man is brought in 90 minutes after a helmetless bicycle crash. He was briefly unconscious, then lucid, and is now progressively drowsy with a Glasgow Coma Scale score of 8 and an enlarging right pupil. CT shows a 2-cm biconvex hyperdense right temporal collection with 8 mm of midline shift. Which is the most appropriate next step?",
+      "answers": {
+        "A": "Administer nimodipine to prevent vasospasm",
+        "B": "Obtain MRI of the brain with and without contrast",
+        "C": "Perform a lumbar puncture to confirm the diagnosis",
+        "D": "Proceed to emergent surgical evacuation",
+        "E": "Start an antiepileptic and observe with serial examinations"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Nimodipine improves outcome after aneurysmal subarachnoid hemorrhage and has no role in traumatic epidural hematoma.",
+        "B": "MRI is useful to identify an underlying lesion in intraparenchymal hemorrhage but delays definitive treatment in a herniating patient.",
+        "C": "Lumbar puncture in the setting of a mass lesion with midline shift risks precipitating herniation and is contraindicated.",
+        "D": "An expanding arterial epidural hematoma with a deteriorating examination and pupillary change reflects transtentorial herniation, and immediate surgical evacuation is the treatment.",
+        "E": "Observation is inappropriate once the patient is herniating, since the arterial bleed will continue to expand."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-003",
+      "question": "An 88-year-old woman taking warfarin for atrial fibrillation is found confused after a minor fall. Her family reports several falls over 6 months and progressive lethargy and forgetfulness over the past 3 days. Laboratory results are shown. CT shows a hyperdense crescentic collection over the right convexity extending across the coronal suture. Which structure has most likely ruptured?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "INR",
+          "4.8",
+          "0.8-1.2"
+        ],
+        [
+          "Platelets",
+          "188,000/uL",
+          "150,000-400,000/uL"
+        ],
+        [
+          "Hemoglobin",
+          "11.8 g/dL",
+          "12-16 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "A Charcot-Bouchard microaneurysm in the putamen",
+        "B": "A middle meningeal artery branch",
+        "C": "A saccular aneurysm of the anterior circulation",
+        "D": "Bridging veins crossing the subdural space",
+        "E": "Vessels within a cortical amyloid-laden artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "These microaneurysms rupture into brain parenchyma in chronic hypertension, producing a deep intraparenchymal hematoma.",
+        "B": "Middle meningeal laceration produces a biconvex epidural hematoma that is limited by suture lines.",
+        "C": "Saccular aneurysm rupture fills the subarachnoid space and presents as thunderclap headache.",
+        "D": "Cortical atrophy in the elderly stretches the bridging veins traversing from cortex to dural sinuses, so trivial trauma tears them and blood collects in the subdural space, spreading in a crescent that crosses suture lines.",
+        "E": "Cerebral amyloid angiopathy causes lobar intraparenchymal hemorrhage within the brain, not a subdural crescent."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-004",
+      "question": "A 74-year-old man with alcohol use disorder is brought in for 4 weeks of worsening headache, unsteadiness, and word-finding difficulty. He recalls hitting his head on a cabinet about 6 weeks ago. CT of the head shows a crescentic collection over the left convexity that is hypodense relative to adjacent cortex and flattens the underlying sulci. Which factor best explains why such minor trauma produced this lesion?",
+      "answers": {
+        "A": "A congenital defect at an arterial bifurcation",
+        "B": "A fracture line crossing the middle meningeal groove",
+        "C": "Amyloid deposition weakening cortical arteriolar walls",
+        "D": "Arteriolar lipohyalinosis from long-standing hypertension",
+        "E": "Cerebral atrophy placing tension on the bridging veins"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Defects at arterial branch points give rise to saccular aneurysms and subarachnoid hemorrhage.",
+        "B": "That mechanism produces a rapidly expanding epidural hematoma over hours rather than a weeks-long course.",
+        "C": "Amyloid angiopathy predisposes to lobar intraparenchymal bleeding rather than to subdural collections.",
+        "D": "Lipohyalinosis underlies deep hypertensive intraparenchymal hemorrhage, not subdural bleeding.",
+        "E": "Age-related and alcohol-related atrophy increases the unsupported length of bridging veins traversing the subdural space, so minor trauma tears them and a chronic subdural hematoma accumulates over weeks."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-005",
+      "question": "A 68-year-old man with poorly controlled hypertension has abrupt onset of left hemiplegia and left-sided sensory loss while at dinner. Vital signs are shown. Non-contrast CT shows a hyperdense collection centered in the right putamen and internal capsule with surrounding hypodensity. Which vascular change best explains this hemorrhage?",
+      "table": [
+        [
+          "Vital sign",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "204/110 mmHg",
+          "<120/80 mmHg"
+        ],
+        [
+          "Heart rate",
+          "58/min",
+          "60-100/min"
+        ],
+        [
+          "Respiratory rate",
+          "14/min",
+          "12-20/min"
+        ],
+        [
+          "Glasgow Coma Scale",
+          "12",
+          "15"
+        ]
+      ],
+      "answers": {
+        "A": "Amyloid deposition within cortical and leptomeningeal vessels",
+        "B": "Arteriolar lipohyalinosis with Charcot-Bouchard microaneurysms",
+        "C": "Rupture of a saccular aneurysm at the anterior communicating artery",
+        "D": "Tearing of bridging veins over the cerebral convexity",
+        "E": "Venous congestion from dural sinus thrombosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Amyloid angiopathy produces lobar rather than deep hemorrhages and is typically not associated with such marked hypertension.",
+        "B": "Chronic hypertension causes lipohyalinosis and microaneurysm formation in the small penetrating lenticulostriate vessels supplying the putamen, globus pallidus, internal capsule, thalamus, pons, and cerebellum.",
+        "C": "Anterior communicating aneurysm rupture fills the subarachnoid space and presents as sudden worst headache of life.",
+        "D": "Bridging vein rupture causes a subdural collection outside the brain rather than a deep parenchymal hematoma.",
+        "E": "Sinus thrombosis causes venous infarction with hemorrhage in a non-arterial distribution, usually with headache and seizures over days."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-006",
+      "question": "An 82-year-old woman with mild cognitive impairment and no history of hypertension has sudden right-sided weakness and confusion. CT shows an acute hemorrhage centered in the left parietal lobe at the cortical-subcortical junction. Review of an MRI from 2 years ago shows several old lobar microbleeds in both hemispheres. Which is the most likely underlying cause?",
+      "answers": {
+        "A": "Cerebral amyloid angiopathy",
+        "B": "Chronic hypertensive vasculopathy",
+        "C": "Hemorrhagic transformation of an ischemic infarct",
+        "D": "Rupture of an arteriovenous malformation",
+        "E": "Septic embolism from infective endocarditis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Amyloid deposition in the walls of cortical and leptomeningeal vessels causes recurrent lobar hemorrhages in normotensive elderly patients and is associated with cognitive decline and prior lobar microbleeds.",
+        "B": "Hypertensive bleeds occur in deep structures such as the putamen, thalamus, pons, and cerebellum, and she has no hypertension.",
+        "C": "Reperfusion hemorrhage follows a recognized ischemic stroke and conforms to an arterial territory.",
+        "D": "An arteriovenous malformation typically presents at a younger age and shows abnormal vessels on vascular imaging.",
+        "E": "Mycotic aneurysm rupture from endocarditis occurs with fever, systemic emboli, and positive blood cultures."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-007",
+      "question": "A 55-year-old man who smokes one pack daily presents 15 hours after the sudden onset of the worst headache of his life, which has persisted at maximal intensity. A non-contrast CT of the head performed at another hospital was read as normal. He is alert with nuchal rigidity. Which finding on the next diagnostic study would best confirm the suspected diagnosis?",
+      "table": [
+        [
+          "CSF study",
+          "Tube 1",
+          "Tube 4"
+        ],
+        [
+          "Red blood cells",
+          "42,000/uL",
+          "39,500/uL"
+        ],
+        [
+          "Supernatant appearance",
+          "Yellow",
+          "Yellow"
+        ],
+        [
+          "Opening pressure",
+          "26 cm H2O",
+          "-"
+        ]
+      ],
+      "answers": {
+        "A": "Elevated protein with normal cell counts",
+        "B": "Lymphocytic pleocytosis with low glucose",
+        "C": "Neutrophilic pleocytosis with low glucose",
+        "D": "Red cells that clear progressively between tubes",
+        "E": "Xanthochromia with red cells that do not clear"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "An isolated protein elevation is nonspecific and does not establish a subarachnoid bleed.",
+        "B": "This pattern suggests tuberculous or fungal meningitis rather than hemorrhage.",
+        "C": "A neutrophil-predominant pleocytosis with low glucose indicates bacterial meningitis.",
+        "D": "Clearing red cell counts from the first to the last tube suggests a traumatic tap rather than true subarachnoid blood.",
+        "E": "CT sensitivity falls with time after onset, so a lumbar puncture is performed; persistent red cells across tubes with a yellow xanthochromic supernatant from hemoglobin breakdown confirms subarachnoid hemorrhage."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-008",
+      "question": "A 52-year-old woman is admitted to the neurologic intensive care unit after aneurysmal subarachnoid hemorrhage, and the aneurysm is secured on day 1. On hospital day 6 she becomes newly confused with right arm weakness. Repeat CT shows no new blood. Which complication is most likely, and which agent is used to reduce its impact?",
+      "answers": {
+        "A": "Cerebral vasospasm, reduced with nimodipine",
+        "B": "Cerebral vasospasm, reduced with nitroprusside",
+        "C": "Hydrocephalus, reduced with acetazolamide",
+        "D": "Rebleeding, reduced with tranexamic acid",
+        "E": "Seizure, reduced with levetiracetam"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Vasospasm develops 3 to 10 days after subarachnoid hemorrhage as blood breaks down, causing delayed ischemic infarction; nimodipine improves outcome and is given prophylactically.",
+        "B": "Nitroprusside is a systemic vasodilator used for blood pressure control and does not improve outcome in vasospasm.",
+        "C": "Communicating hydrocephalus is a real risk after subarachnoid hemorrhage, but it is managed with cerebrospinal fluid diversion and would show ventricular enlargement on CT.",
+        "D": "Rebleeding is prevented by securing the aneurysm, which was already done, and would appear as new blood on CT.",
+        "E": "A seizure would typically produce a postictal state rather than a focal deficit persisting on day 6 with a stable CT."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-009",
+      "question": "A 34-year-old man with a large right temporal hematoma becomes progressively drowsy. Examination shows a dilated, nonreactive right pupil with the right eye deviated down and out, and weakness of the left arm and leg. Which herniation syndrome best explains these findings?",
+      "answers": {
+        "A": "Central transtentorial herniation",
+        "B": "Cerebellar tonsillar herniation",
+        "C": "Cingulate (subfalcine) herniation",
+        "D": "Uncal transtentorial herniation",
+        "E": "Upward cerebellar herniation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Central downward herniation causes caudal brainstem displacement with progressive loss of consciousness and Duret hemorrhages rather than an early unilateral third nerve palsy.",
+        "B": "Tonsillar herniation through the foramen magnum compresses the medulla, causing coma, apnea, and death without an isolated third nerve palsy.",
+        "C": "Subfalcine herniation displaces the cingulate gyrus under the falx and can compress the anterior cerebral artery, producing contralateral leg weakness.",
+        "D": "The medial temporal uncus herniates over the tentorial edge and compresses the ipsilateral oculomotor nerve and cerebral peduncle, giving an ipsilateral blown pupil with contralateral hemiparesis.",
+        "E": "Upward herniation of cerebellar contents through the tentorial notch follows posterior fossa mass lesions and compresses the midbrain dorsally."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-010",
+      "question": "A 61-year-old woman with a large left hemispheric hematoma deteriorates into coma. Examination now shows a dilated, nonreactive right pupil and weakness that is worse on the right side. Neurosurgery confirms that the mass lesion is on the left. Which explanation best accounts for the weakness being ipsilateral to the lesion?",
+      "answers": {
+        "A": "A simultaneous second hematoma in the right hemisphere",
+        "B": "Compression of the anterior cerebral artery beneath the falx",
+        "C": "Compression of the opposite peduncle on the tentorial edge",
+        "D": "Descent of the cerebellar tonsils through the foramen magnum",
+        "E": "Rupture of paramedian basilar perforators in the brainstem"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A contralateral hematoma is possible but is not the recognized explanation, and imaging confirms a single left-sided lesion.",
+        "B": "Subfalcine herniation compromises the anterior cerebral artery and causes contralateral leg-predominant weakness.",
+        "C": "In the Kernohan phenomenon, the herniating temporal lobe pushes the midbrain across so the opposite cerebral peduncle is crushed against the contralateral tentorial edge, producing hemiparesis ipsilateral to the mass and making the sign falsely localizing.",
+        "D": "Tonsillar herniation compresses the medulla and produces coma and respiratory arrest rather than lateralized hemiparesis.",
+        "E": "These Duret hemorrhages follow central downward herniation and are usually fatal without producing a discrete ipsilateral hemiparesis."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-011",
+      "question": "A 47-year-old man with a large right frontal hemorrhage develops progressive weakness of the left leg that is more severe than left arm weakness. Repeat CT shows the medial right frontal lobe displaced across the midline beneath a dural fold. Compression of which artery best explains the pattern of weakness?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Basilar artery perforators",
+        "C": "Middle cerebral artery",
+        "D": "Posterior cerebral artery",
+        "E": "Posterior inferior cerebellar artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Subfalcine herniation of the cingulate gyrus under the falx cerebri compresses the anterior cerebral artery, which supplies the medial motor cortex representing the contralateral leg.",
+        "B": "Paramedian basilar perforator rupture produces Duret hemorrhages during central downward herniation, causing coma rather than isolated leg weakness.",
+        "C": "Middle cerebral artery territory infarction causes face and arm predominant weakness with aphasia or neglect.",
+        "D": "Posterior cerebral artery compression during transtentorial herniation causes occipital infarction with visual field loss.",
+        "E": "This vessel supplies the lateral medulla and inferior cerebellum, producing Wallenberg syndrome rather than leg weakness."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-012",
+      "question": "A 58-year-old woman with a large cerebellar hemorrhage becomes abruptly unresponsive with irregular gasping respirations, bradycardia, and hypertension. Her pupils are small and reactive, and she has bilateral extensor posturing. Which herniation syndrome is most likely?",
+      "answers": {
+        "A": "Cerebellar tonsillar herniation",
+        "B": "Cingulate (subfalcine) herniation",
+        "C": "Downward transtentorial herniation of the diencephalon",
+        "D": "Transcalvarial herniation through a craniectomy defect",
+        "E": "Uncal transtentorial herniation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A posterior fossa mass forces the cerebellar tonsils through the foramen magnum and compresses the medulla, producing abrupt coma, cardiorespiratory instability, and death.",
+        "B": "Subfalcine herniation is a supratentorial event producing contralateral leg weakness rather than medullary failure.",
+        "C": "Central herniation follows a supratentorial mass with a stepwise rostrocaudal deterioration rather than an abrupt medullary presentation from a cerebellar lesion.",
+        "D": "External herniation requires a skull defect, which this patient does not have.",
+        "E": "Uncal herniation begins with an ipsilateral dilated pupil and contralateral hemiparesis from a temporal lobe mass."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-013",
+      "question": "A 63-year-old man with a massive supratentorial hemorrhage deteriorates over several hours with progressive loss of consciousness and rostrocaudal failure of brainstem reflexes. Autopsy shows linear hemorrhages in the midline pons and midbrain tegmentum. Which mechanism produced these brainstem lesions?",
+      "answers": {
+        "A": "Caudal brainstem displacement tearing paramedian basilar branches",
+        "B": "Direct extension of the supratentorial hematoma into the pons",
+        "C": "Embolic occlusion of the basilar artery from a cardiac source",
+        "D": "Hypertensive rupture of pontine perforating arteries",
+        "E": "Venous infarction from thrombosis of the straight sinus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Central downward transtentorial herniation drives the brainstem caudally while the basilar artery is tethered, shearing its paramedian perforating branches and producing Duret hemorrhages, which are usually fatal.",
+        "B": "Contiguous extension from a hemispheric hematoma to the midline pons does not occur across the tentorium.",
+        "C": "Basilar embolism produces ischemic infarction rather than paramedian hemorrhages, and it would present abruptly rather than as progressive rostrocaudal deterioration.",
+        "D": "Primary hypertensive pontine hemorrhage presents at onset with coma and pinpoint pupils rather than developing during herniation.",
+        "E": "Deep venous thrombosis produces bilateral thalamic edema and hemorrhage rather than midline brainstem lesions."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-014",
+      "question": "A medical student is asked to trace the layers a needle would traverse when passing from the inner table of the skull to the surface of the cerebral cortex. Which sequence is correct?",
+      "answers": {
+        "A": "Arachnoid mater, subdural space, dura mater, subarachnoid space, pia mater",
+        "B": "Dura mater, subarachnoid space, arachnoid mater, subdural space, pia mater",
+        "C": "Dura mater, subdural space, arachnoid mater, subarachnoid space, pia mater",
+        "D": "Pia mater, subarachnoid space, arachnoid mater, subdural space, dura mater",
+        "E": "Subdural space, dura mater, subarachnoid space, arachnoid mater, pia mater"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This inverts the order of the dura and arachnoid, which lie deep to the skull in that sequence.",
+        "B": "The subdural space lies between the dura and the arachnoid, and the subarachnoid space lies deep to the arachnoid, so these are reversed.",
+        "C": "From the inner table the layers are dura, then the subdural space where bridging veins bleed, then arachnoid, then the subarachnoid space containing cerebrospinal fluid and the major vessels, then pia on the cortical surface.",
+        "D": "This lists the layers from the cortex outward rather than from the skull inward.",
+        "E": "The dura is the outermost meningeal layer and lies superficial to the subdural space."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-015",
+      "question": "A 66-year-old man taking apixaban presents with sudden aphasia and right hemiparesis 40 minutes ago. He is hypertensive and vomiting. Which imaging study should be obtained first?",
+      "answers": {
+        "A": "Catheter digital subtraction angiography",
+        "B": "CT angiography of the head and neck",
+        "C": "MRI of the brain with and without contrast",
+        "D": "Non-contrast CT of the head",
+        "E": "Transcranial Doppler ultrasonography"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Digital subtraction angiography is the gold standard for defining an aneurysm but is invasive and reserved for after hemorrhage is identified.",
+        "B": "CT angiography is valuable to identify an aneurysm or vascular malformation but follows, rather than replaces, the initial non-contrast study.",
+        "C": "Contrast-enhanced MRI is useful later to reveal an underlying tumor or vascular malformation but is slower and not the initial test in an unstable patient.",
+        "D": "Non-contrast CT is the mainstay of initial imaging for all forms of intracranial hemorrhage because it rapidly distinguishes hemorrhage from ischemia and directs immediate management.",
+        "E": "Transcranial Doppler is used to monitor for vasospasm after subarachnoid hemorrhage rather than to make an initial diagnosis."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-016",
+      "question": "Two patients each have an extra-axial collection over the cerebral convexity on non-contrast CT. Patient A has a lens-shaped hyperdense collection that stops abruptly at the coronal suture. Patient B has a thin crescentic hyperdense collection that extends from the frontal to the parietal region across several sutures. Which anatomic principle explains this difference in shape and extent?",
+      "answers": {
+        "A": "Arterial blood clots faster and therefore appears more hyperdense",
+        "B": "Blood in the subarachnoid space is confined by the pia mater",
+        "C": "The dura is tethered to the skull at suture lines",
+        "D": "The falx cerebri prevents blood from crossing the midline",
+        "E": "Venous blood is under lower pressure and dissects along the skull"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Both collections are hyperdense when acute, and clotting rate does not determine the shape or the suture relationship.",
+        "B": "Neither of these collections is subarachnoid, and pia does not limit convexity collections at sutures.",
+        "C": "The periosteal layer of the dura fuses to the inner table at sutures, so epidural blood is contained by them and takes a biconvex shape, whereas subdural blood lies deep to the dura and spreads freely across sutures in a crescent.",
+        "D": "The falx limits spread across the midline, which is true of both types and does not explain the suture relationship.",
+        "E": "Pressure differences affect the speed of accumulation rather than the anatomic boundary at sutures."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-017",
+      "question": "A 44-year-old woman with hypertension and end-stage renal disease requiring dialysis has multiple bilateral renal cysts and a family history of a father who died suddenly of a brain hemorrhage. Her physician counsels her about an elevated risk of one specific type of intracranial bleed. Which condition places her at increased risk?",
+      "answers": {
+        "A": "Cerebral amyloid angiopathy",
+        "B": "Chronic subdural hematoma",
+        "C": "Epidural hematoma",
+        "D": "Hypertensive putaminal hemorrhage",
+        "E": "Ruptured saccular aneurysm"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Amyloid angiopathy relates to amyloid deposition in cortical vessels of elderly patients and is not linked to polycystic kidney disease.",
+        "B": "Chronic subdural hematoma risk is driven by cerebral atrophy, advanced age, and anticoagulation.",
+        "C": "Epidural hematoma is a traumatic injury of the middle meningeal artery, unrelated to inherited connective tissue or renal disease.",
+        "D": "Hypertension does raise this risk, but the specific inherited association with her renal disease is aneurysmal.",
+        "E": "Autosomal dominant polycystic kidney disease, like Ehlers-Danlos syndrome, is associated with saccular aneurysm formation and subarachnoid hemorrhage."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-018",
+      "question": "A 70-year-old man on warfarin presents with a 30-mL right thalamic hemorrhage. Blood pressure is 210/115 mmHg. Laboratory results are shown. He is drowsy but localizes to pain. Which combination of initial measures best addresses the principal goal of preventing hematoma expansion and secondary injury?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "INR",
+          "3.6",
+          "0.8-1.2"
+        ],
+        [
+          "Platelets",
+          "205,000/uL",
+          "150,000-400,000/uL"
+        ],
+        [
+          "Glucose",
+          "142 mg/dL",
+          "70-99 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Blood pressure lowering and reversal of anticoagulation",
+        "B": "Induced hypertension and volume expansion",
+        "C": "Intravenous thrombolysis and antiplatelet therapy",
+        "D": "Lumbar drainage and therapeutic hypothermia",
+        "E": "Systemic heparin infusion and permissive hypertension"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The general treatment principles for all intracranial hemorrhage are early identification of etiology, controlled blood pressure lowering, reversal of coagulopathy, and avoidance of raised intracranial pressure.",
+        "B": "Induced hypertension is used for delayed cerebral ischemia after subarachnoid hemorrhage and would worsen an expanding parenchymal hematoma.",
+        "C": "Thrombolysis and antiplatelet agents treat ischemic stroke and are contraindicated in acute hemorrhage.",
+        "D": "Lumbar drainage risks herniation with a supratentorial mass lesion and is not a standard initial measure.",
+        "E": "Anticoagulation and elevated pressures both promote hematoma expansion."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-019",
+      "question": "A 49-year-old woman is admitted after aneurysmal subarachnoid hemorrhage with diffuse blood in the basal cisterns. On hospital day 2, before any aneurysm-related ischemia would be expected, she becomes progressively more somnolent. Repeat CT shows enlargement of the lateral and third ventricles with no new hemorrhage. Which complication has most likely occurred?",
+      "answers": {
+        "A": "Cerebral vasospasm with delayed ischemia",
+        "B": "Duret hemorrhage of the brainstem",
+        "C": "Hydrocephalus from impaired spinal fluid resorption",
+        "D": "Rebleeding from the previously treated aneurysm",
+        "E": "Seizure with a prolonged postictal state"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Vasospasm develops between days 3 and 10 and produces focal deficits with a normal ventricular system.",
+        "B": "Duret hemorrhages accompany central downward herniation and are usually fatal, with brainstem rather than ventricular findings.",
+        "C": "Subarachnoid blood obstructs cerebrospinal fluid flow and arachnoid granulation resorption, causing ventriculomegaly and declining mental status that is treated with cerebrospinal fluid diversion.",
+        "D": "Rebleeding would appear as new subarachnoid or intraparenchymal blood on CT.",
+        "E": "A postictal state does not produce progressive ventricular enlargement on imaging."
+      }
+    },
+    {
+      "id": "neuro-intracranial-hemorrhage-020",
+      "question": "A 31-year-old normotensive woman has a sudden severe headache and left homonymous hemianopia. Non-contrast CT shows a 25-mL hemorrhage in the right occipital lobe. She takes no anticoagulants and coagulation studies are normal. After stabilization, which study is most likely to reveal the underlying cause of her hemorrhage?",
+      "answers": {
+        "A": "Carotid duplex ultrasonography of the neck",
+        "B": "Electroencephalography with sleep study",
+        "C": "Lumbar puncture with cytology",
+        "D": "MRI of the brain with and without contrast",
+        "E": "Transthoracic echocardiography"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Carotid duplex evaluates extracranial atherosclerosis relevant to ischemic stroke rather than the cause of a lobar hemorrhage.",
+        "B": "EEG assesses seizure activity and does not identify a structural bleeding source.",
+        "C": "Lumbar puncture is hazardous with a sizeable parenchymal hematoma and would not identify a vascular malformation.",
+        "D": "In a young normotensive patient with a lobar hemorrhage, contrast-enhanced MRI is used to look for an underlying lesion such as a tumor, vascular malformation, or aneurysm.",
+        "E": "Echocardiography evaluates a cardioembolic source of ischemic stroke or endocarditis, which is not suggested here."
+      }
+    }
+  ]
+}
