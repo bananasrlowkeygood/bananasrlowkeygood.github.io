@@ -1,0 +1,490 @@
+{
+  "lecture": "Visual System: Physiology and Clinical Medicine",
+  "block": "neuro",
+  "generated": "2026-09-08",
+  "questions": [
+    {
+      "id": "neuro-visual-system-physiology-clinical-001",
+      "question": "A 52-year-old highly myopic man comes to the emergency department because of a sudden shower of new floaters and flashing lights in the right eye yesterday, followed today by a dark shadow spreading from the periphery toward the center of his vision. He has no pain or redness. Findings are shown, and dilated examination shows an elevated, undulating sheet of retina with a horseshoe-shaped break at the superior periphery. Which mechanism best explains his symptoms?",
+      "table": [
+        [
+          "Finding",
+          "Right eye",
+          "Left eye"
+        ],
+        [
+          "Visual acuity",
+          "20/60",
+          "20/20"
+        ],
+        [
+          "Intraocular pressure",
+          "9 mmHg",
+          "15 mmHg"
+        ],
+        [
+          "Relative afferent pupillary defect",
+          "Present",
+          "Absent"
+        ]
+      ],
+      "answers": {
+        "A": "Choroidal neovascular membranes bleeding beneath the macula",
+        "B": "Fibrovascular scar tissue contracting and pulling on the retina",
+        "C": "Fluid passing through a retinal break into the subretinal space",
+        "D": "Increased resistance to aqueous outflow at the trabecular meshwork",
+        "E": "Leakage of fluid from the choroid into the subretinal space"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Subretinal choroidal neovascularization causes wet macular degeneration, which produces central metamorphopsia rather than a peripheral curtain with a retinal break.",
+        "B": "Tractional detachment occurs in proliferative diabetic retinopathy and develops gradually without a retinal break.",
+        "C": "A full-thickness tear allows liquefied vitreous to pass behind the neurosensory retina and separate it from the pigment epithelium, which defines rhegmatogenous retinal detachment.",
+        "D": "Outflow obstruction raises intraocular pressure and causes glaucoma, but this patient's pressure is low.",
+        "E": "Exudative detachment results from inflammation or tumor, produces shifting subretinal fluid, and occurs without a retinal break."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-002",
+      "question": "A 44-year-old man with a 22-year history of type 1 diabetes mellitus has gradually worsening vision in both eyes. Laboratory results are shown. Dilated examination shows fronds of new vessels on the optic disc, preretinal fibrous membranes, and a taut, tented-up retina in the temporal periphery. Which mechanism best explains the retinal elevation?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin A1c",
+          "11.4%",
+          "4.0-5.6%"
+        ],
+        [
+          "Fasting glucose",
+          "268 mg/dL",
+          "70-99 mg/dL"
+        ],
+        [
+          "Urine albumin/creatinine",
+          "420 mg/g",
+          "<30 mg/g"
+        ]
+      ],
+      "answers": {
+        "A": "Contraction of fibrovascular proliferation exerting traction on the retina",
+        "B": "Deposition of drusen between the pigment epithelium and Bruch membrane",
+        "C": "Exudative fluid accumulating from a choroidal inflammatory process",
+        "D": "Liquefied vitreous entering through a full-thickness retinal break",
+        "E": "Pericyte loss producing outpouchings of the capillary wall"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In proliferative disease, ischemia-driven neovascular fronds are accompanied by fibrous tissue that contracts along the vitreoretinal interface and mechanically pulls the retina off the pigment epithelium.",
+        "B": "Drusen are metabolic waste deposits of dry age-related macular degeneration and cause central atrophy, not peripheral tenting.",
+        "C": "Exudative detachment shows shifting subretinal fluid and occurs with uveitis or tumor rather than with fibrovascular membranes.",
+        "D": "A retinal break defines rhegmatogenous detachment, and no break is described here.",
+        "E": "Pericyte dropout produces microaneurysms of nonproliferative retinopathy, which do not detach the retina."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-003",
+      "question": "A 27-year-old man reports that for the past year he has been unable to see well enough to walk through a dimly lit room, although his vision in daylight remains sharp. Visual acuity is 20/20 in each eye and color vision is normal. Visual field testing shows constricted peripheral fields, and funduscopy shows bone-spicule pigmentation in the mid-periphery. Dysfunction of which cell type best explains his difficulty?",
+      "answers": {
+        "A": "Amacrine cells",
+        "B": "Cone photoreceptors",
+        "C": "Horizontal cells",
+        "D": "Muller cells",
+        "E": "Rod photoreceptors"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Amacrine cells are interneurons that modulate bipolar cell output and contribute to motion detection and contrast sensitivity.",
+        "B": "Cones number about 6 million, are concentrated centrally, and mediate high-acuity photopic and color vision, both of which are preserved in this patient.",
+        "C": "Horizontal cells modulate signaling between photoreceptors and bipolar cells and shape lateral inhibition rather than absolute light sensitivity.",
+        "D": "Muller cells are the principal retinal glia that provide structural, trophic, and immune support and control light scattering.",
+        "E": "Rods make up about 95% of photoreceptors, are concentrated in the peripheral retina and absent from the fovea, and use rhodopsin for low-light scotopic vision."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-004",
+      "question": "A physiologist compares recordings from a ganglion cell receiving input from the fovea with one receiving input from the far peripheral retina. The foveal ganglion cell responds to a much smaller region of visual space. Which anatomic feature best explains the difference in spatial resolution?",
+      "answers": {
+        "A": "Absence of a retinal pigment epithelium beneath the fovea",
+        "B": "As few as five cones converge onto a single foveal ganglion cell",
+        "C": "Greater density of amacrine cells in the peripheral retina",
+        "D": "Higher concentration of rhodopsin within foveal photoreceptors",
+        "E": "Thicker nerve fiber layer overlying the foveal photoreceptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The pigment epithelium is present throughout the retina and extends anteriorly to the pupil.",
+        "B": "Minimal convergence at the fovea preserves fine spatial detail, whereas up to thousands of peripheral rods feed one ganglion cell, trading acuity for light sensitivity.",
+        "C": "Amacrine cells modulate contrast and motion signals and do not set receptive field size in this way.",
+        "D": "Rhodopsin is the rod pigment and is absent from the fovea, which contains cones with photopsin.",
+        "E": "Overlying retinal cells are displaced aside at the fovea so that light reaches the photoreceptors directly."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-005",
+      "question": "A researcher studies a mouse strain with a mutation that prevents conversion of all-trans-retinal back to 11-cis-retinal within the retinal pigment epithelium. After a bright flash, the animals show markedly prolonged recovery of rod sensitivity. Which step of phototransduction is directly impaired?",
+      "answers": {
+        "A": "Activation of transducin by photoexcited rhodopsin",
+        "B": "Binding of arrestin to phosphorylated rhodopsin",
+        "C": "Closure of cyclic GMP-gated cation channels in the outer segment",
+        "D": "Hydrolysis of cyclic GMP by phosphodiesterase",
+        "E": "Regeneration of the chromophore that recombines with opsin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Transducin activation is the amplification step immediately after photon capture and is upstream of chromophore recycling.",
+        "B": "Arrestin binding quenches active rhodopsin signaling but does not regenerate the chromophore.",
+        "C": "Channel closure is the electrical response to reduced cyclic GMP and occurs before the chromophore is recycled.",
+        "D": "Cyclic GMP hydrolysis is the effector step of the cascade and is unaffected by a defect in retinoid isomerization.",
+        "E": "All-trans-retinal must be transported to the pigment epithelium and isomerized back to 11-cis-retinal before returning to the rod to reform rhodopsin, so a block here prevents pigment regeneration and delays dark adaptation."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-006",
+      "question": "A physiologist observes that after a bright flash, cone-mediated vision recovers within seconds whereas rod-mediated vision takes many minutes. Which feature of the cone visual cycle best accounts for this difference?",
+      "answers": {
+        "A": "Cones contain rhodopsin, which regenerates faster than photopsin",
+        "B": "Cones do not require an 11-cis chromophore for pigment regeneration",
+        "C": "Cones have a parallel visual cycle involving Muller cells",
+        "D": "Cones lack an outer segment and so bleach less pigment per flash",
+        "E": "Cones rely on high convergence onto ganglion cells to amplify signal"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cones contain photopsin, and rods contain rhodopsin; the pigment name is not the basis of the difference.",
+        "B": "Cone photopsin also uses 11-cis-retinal, which must be regenerated after each bleaching event.",
+        "C": "In addition to the pigment epithelium pathway, cones recycle all-trans-retinol through Muller cells back to 11-cis-retinal, which allows much more rapid pigment regeneration.",
+        "D": "Cones do have outer segments with stacked membranous discs containing photopsin.",
+        "E": "High convergence is a property of rods and increases sensitivity, not the speed of pigment regeneration."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-007",
+      "question": "A 58-year-old woman with a 12-year history of type 2 diabetes mellitus has a screening dilated eye examination. Visual acuity is 20/25 in each eye. Funduscopy shows scattered dot-blot hemorrhages, small red outpouchings along capillaries, hard yellow exudates near the macula, and several fluffy white patches. There are no new vessels. Which vascular change is the earliest structural lesion underlying these findings?",
+      "answers": {
+        "A": "Deposition of metabolic waste products beneath the pigment epithelium",
+        "B": "Loss of capillary pericytes with basement membrane thickening",
+        "C": "Neovascularization of the optic disc driven by VEGF release",
+        "D": "Occlusion of the central retinal vein at the lamina cribrosa",
+        "E": "Thrombotic occlusion of the central retinal artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Drusen deposition is the hallmark of dry age-related macular degeneration rather than of diabetic microangiopathy.",
+        "B": "Chronic hyperglycemia kills pericytes and thickens the basement membrane, weakening the vessel wall and increasing permeability, which produces microaneurysms, exudates, and edema.",
+        "C": "Disc neovascularization defines proliferative disease, which this patient does not yet have.",
+        "D": "Central retinal vein occlusion produces sudden diffuse hemorrhages in all four quadrants with a swollen disc.",
+        "E": "Arterial occlusion causes sudden painless monocular blindness with retinal whitening and a cherry-red spot."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-008",
+      "question": "A 49-year-old man with poorly controlled diabetes mellitus has neovascularization of the disc and vitreous hemorrhage. Six months later he develops severe eye pain and vision loss; intraocular pressure is 48 mmHg and gonioscopy shows new vessels and a fibrovascular membrane covering the anterior chamber angle. Which sequence best explains this complication?",
+      "answers": {
+        "A": "Aqueous overproduction by inflamed ciliary processes raising pressure",
+        "B": "Lens-induced pupillary block bowing the iris forward against the cornea",
+        "C": "Retinal ischemia releasing VEGF that drives new vessels onto the iris",
+        "D": "Steroid-induced accumulation of glycosaminoglycans in the meshwork",
+        "E": "Traction from the posterior hyaloid pulling the retina anteriorly"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Inflammation typically reduces rather than increases aqueous production, and the obstruction here is at the outflow angle.",
+        "B": "Pupillary block causes acute primary angle closure in a hyperopic eye rather than a fibrovascular membrane over the angle.",
+        "C": "Ischemic retina releases VEGF that diffuses forward, causing iris and angle neovascularization whose fibrovascular membrane obstructs trabecular outflow and produces neovascular glaucoma.",
+        "D": "Corticosteroid-induced glaucoma raises pressure without visible angle neovascularization.",
+        "E": "Vitreous traction causes tractional retinal detachment and does not obstruct the anterior chamber angle."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-009",
+      "question": "A 55-year-old woman with proliferative diabetic retinopathy undergoes panretinal photocoagulation, in which hundreds of small burns are applied to the peripheral retina. Six weeks later the neovascular fronds on the disc have regressed. Which mechanism best explains the therapeutic effect?",
+      "answers": {
+        "A": "Cauterizing the new vessels directly to stop them from bleeding",
+        "B": "Destroying peripheral retina to lower oxygen demand and VEGF release",
+        "C": "Increasing uveoscleral outflow to reduce intraocular pressure",
+        "D": "Producing a chorioretinal adhesion that seals a retinal break",
+        "E": "Stimulating pigment epithelial cells to clear subretinal drusen"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The burns are applied to peripheral retina away from the neovascular fronds rather than to the vessels themselves.",
+        "B": "Ablating metabolically demanding peripheral photoreceptors reduces retinal oxygen consumption and hypoxic drive, which lowers VEGF production and causes new vessels to regress.",
+        "C": "Increasing uveoscleral outflow is the mechanism of prostaglandin analog eye drops for glaucoma.",
+        "D": "Sealing breaks with laser is the treatment for retinal tears and rhegmatogenous detachment.",
+        "E": "Drusen clearance is not achieved by laser and pertains to macular degeneration rather than diabetic retinopathy."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-010",
+      "question": "A 74-year-old woman reports that straight door frames appear wavy and that she has difficulty reading, though she navigates a room without difficulty. Visual acuity is 20/80 in each eye. Funduscopy shows numerous discrete yellow deposits beneath the retinal pigment epithelium at the macula with mottled pigmentary change and no hemorrhage or subretinal fluid. Which intervention is most appropriate to slow progression of her disease?",
+      "answers": {
+        "A": "Argon laser panretinal photocoagulation",
+        "B": "Intravitreal anti-VEGF injections every month",
+        "C": "Oral acetazolamide to lower intraocular pressure",
+        "D": "Scleral buckle placement with cryotherapy",
+        "E": "Supplementation with an AREDS vitamin formula"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Panretinal photocoagulation treats ischemic proliferative retinopathy and would destroy peripheral vision without benefit here.",
+        "B": "Anti-VEGF therapy is directed at choroidal neovascularization in the wet form and has no established role in this nonneovascular stage.",
+        "C": "Lowering intraocular pressure treats glaucoma and does not affect macular degeneration.",
+        "D": "Scleral buckling repairs rhegmatogenous retinal detachment, which is not present.",
+        "E": "Drusen with pigmentary change indicate dry age-related macular degeneration, in which vitamin C and E, zinc, copper, lutein, and zeaxanthin reduce progression to the wet form by about 25%."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-011",
+      "question": "A 79-year-old man with known dry age-related macular degeneration reports that over the past 2 weeks a dark blot has appeared in the center of vision in his right eye. Visual acuity has fallen from 20/60 to 20/400 in that eye. Examination shows subretinal fluid, lipid exudate, and a subretinal hemorrhage at the macula. Which process is most likely responsible for this change?",
+      "answers": {
+        "A": "Abnormal choroidal vessels growing beneath the retina and leaking",
+        "B": "Accumulation of additional drusen beneath the pigment epithelium",
+        "C": "Fibrovascular traction detaching the macula from the pigment epithelium",
+        "D": "Occlusion of a branch retinal artery supplying the papillomacular bundle",
+        "E": "Progressive atrophy of the retinal pigment epithelium at the fovea"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Conversion to wet macular degeneration occurs when choroidal neovascular membranes grow through Bruch membrane and bleed and exude beneath the retina, causing abrupt central vision loss.",
+        "B": "Additional drusen accumulate slowly over years and do not cause hemorrhage or a rapid drop in acuity.",
+        "C": "Tractional detachment occurs in proliferative diabetic retinopathy, not in macular degeneration.",
+        "D": "Branch arterial occlusion produces sudden sectoral retinal whitening rather than subretinal fluid and lipid.",
+        "E": "Geographic atrophy is advanced dry disease and causes gradual central loss without hemorrhage or exudate."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-012",
+      "question": "A 25-year-old woman with a BMI of 38 kg/m2 has a 6-week history of daily headaches that worsen when she lies down, transient graying of vision lasting seconds when she stands, and pulsatile tinnitus. Visual acuity is 20/20 bilaterally and extraocular movements are full except for limited abduction of the left eye. Lumbar puncture results are shown. Which funduscopic finding is most likely?",
+      "table": [
+        [
+          "Study",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Opening pressure",
+          "38 cm H2O",
+          "6-20 cm H2O"
+        ],
+        [
+          "CSF leukocytes",
+          "1/uL",
+          "0-5/uL"
+        ],
+        [
+          "CSF protein",
+          "18 mg/dL",
+          "15-45 mg/dL"
+        ],
+        [
+          "CSF glucose",
+          "62 mg/dL",
+          "40-70 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "A cherry-red spot at the macula with retinal whitening",
+        "B": "Bilateral disc margin blurring with loss of the physiologic cup",
+        "C": "Diffuse pallor of both optic discs with sharp margins",
+        "D": "Increased cup-to-disc ratio with notching of the neuroretinal rim",
+        "E": "Yellow subretinal deposits scattered through the posterior pole"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This is central retinal artery occlusion, which causes sudden painless monocular blindness.",
+        "B": "Raised intracranial pressure transmitted along the optic nerve sheath produces bilateral papilledema with blurred margins, a filled-in cup, engorged veins, splinter hemorrhages, and an enlarged blind spot, while acuity stays normal early.",
+        "C": "Disc pallor indicates optic atrophy from prior nerve fiber loss rather than acutely raised intracranial pressure.",
+        "D": "Progressive cupping with rim thinning is the hallmark of glaucomatous optic neuropathy.",
+        "E": "Drusen indicate age-related macular degeneration and would be unusual in a 25-year-old."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-013",
+      "question": "A 41-year-old woman had an episode of painful vision loss in the right eye 3 years ago that partially recovered. She now has visual acuity of 20/60 in that eye with a right afferent pupillary defect. Funduscopy shows a sharply marginated but strikingly white right optic disc with a normal-caliber vascular tree. Which process best explains the disc appearance?",
+      "answers": {
+        "A": "Compression of the disc by an expanding intraconal mass",
+        "B": "Congenital absence of the physiologic cup in the disc",
+        "C": "Loss of nerve fibers with regression of the capillary network",
+        "D": "Stasis of axoplasmic flow from raised intracranial pressure",
+        "E": "Traction from a contracting epiretinal membrane at the disc"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Compression can eventually cause atrophy, but the appearance itself reflects fiber loss and there is no evidence of a mass in this patient.",
+        "B": "About 20% of normal eyes have no physiologic cup, but such a full disc appears normal in color, not pale.",
+        "C": "The normal reddish color of the disc comes from capillaries supplying the nerve fibers, so when fibers are destroyed by demyelination the capillary bed regresses and the disc appears pale.",
+        "D": "Axoplasmic stasis produces disc swelling with blurred margins, which is the opposite of the sharp pale disc described.",
+        "E": "Epiretinal membranes distort the macula and retinal vessels without producing disc pallor."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-014",
+      "question": "A 65-year-old Black woman is referred after a routine eye examination. She has no symptoms and reads 20/20 in each eye. Her mother was blind from an eye disease. Findings are shown, and funduscopy shows an enlarged cup with thinning of the inferior neuroretinal rim. Automated perimetry shows arcuate defects in the mid-peripheral field of both eyes with preserved central vision. Which mechanism best explains her elevated pressure?",
+      "table": [
+        [
+          "Finding",
+          "Right eye",
+          "Left eye",
+          "Reference"
+        ],
+        [
+          "Intraocular pressure",
+          "29 mmHg",
+          "31 mmHg",
+          "10-21 mmHg"
+        ],
+        [
+          "Cup-to-disc ratio",
+          "0.8",
+          "0.8",
+          "0.1-0.4"
+        ],
+        [
+          "Central corneal thickness",
+          "492 um",
+          "488 um",
+          "540-560 um"
+        ],
+        [
+          "Gonioscopy",
+          "Open angle",
+          "Open angle",
+          "-"
+        ]
+      ],
+      "answers": {
+        "A": "Apposition of the peripheral iris against the trabecular meshwork",
+        "B": "Fibrovascular membrane covering the anterior chamber angle",
+        "C": "Increased resistance to outflow through the trabecular meshwork",
+        "D": "Overproduction of aqueous humor by the ciliary processes",
+        "E": "Pupillary block trapping aqueous behind a mid-dilated iris"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Angle apposition defines angle-closure glaucoma, but gonioscopy shows an open angle in this patient.",
+        "B": "Angle neovascularization causes neovascular glaucoma and occurs after ischemic retinal disease such as proliferative diabetic retinopathy.",
+        "C": "In primary open-angle glaucoma the angle is anatomically open but outflow resistance rises, so pressure climbs and progressively damages the optic nerve head, producing cupping and arcuate peripheral field loss.",
+        "D": "Glaucoma results from impaired drainage rather than from excess aqueous secretion.",
+        "E": "Pupillary block causes acute angle closure with pain, a hazy cornea, and a very high pressure over hours."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-015",
+      "question": "A pharmacologist is designing a drug intended to reduce the rate of aqueous humor formation in patients with glaucoma. To act at the site of production, the agent must reach which structure?",
+      "answers": {
+        "A": "The choroid overlying the retinal pigment epithelium",
+        "B": "The corneal endothelium lining the anterior chamber",
+        "C": "The nonpigmented epithelium of the ciliary processes",
+        "D": "The trabecular meshwork at the iridocorneal angle",
+        "E": "The vascular endothelium of the canal of Schlemm"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The choroid is a vascular layer that nourishes the outer retina and does not secrete aqueous humor.",
+        "B": "The corneal endothelium actively pumps fluid out of the corneal stroma to maintain clarity but does not produce aqueous.",
+        "C": "Aqueous is formed by active transport across the inner nonpigmented epithelial layer of the ciliary processes in the pars plicata, following ultrafiltration of plasma into the interstitium.",
+        "D": "The trabecular meshwork is the principal drainage site rather than the site of aqueous formation.",
+        "E": "The canal of Schlemm collects aqueous leaving the meshwork and delivers it to episcleral veins."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-016",
+      "question": "A 60-year-old man with open-angle glaucoma is started on a drug that acts on the alternative outflow route rather than on the trabecular meshwork. Through which structure does this pathway carry aqueous humor out of the eye?",
+      "answers": {
+        "A": "The canal of Schlemm into episcleral veins",
+        "B": "The central retinal vein through the lamina cribrosa",
+        "C": "The ciliary muscle into the suprachoroidal space",
+        "D": "The lacrimal puncta into the nasolacrimal duct",
+        "E": "The vortex veins draining the choroid"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The canal of Schlemm is the terminal channel of the conventional trabecular pathway, which carries the large majority of outflow.",
+        "B": "The central retinal vein drains retinal blood and does not carry aqueous humor.",
+        "C": "The uveoscleral or alternative pathway passes through the face of the ciliary body and ciliary muscle and normally carries 10 to 20% of outflow, and up to about 50% in younger patients.",
+        "D": "The puncta drain tears from the ocular surface and have no connection to the anterior chamber.",
+        "E": "Vortex veins drain choroidal blood posteriorly through the sclera."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-017",
+      "question": "A 30-year-old woman has 4 days of pain with eye movement and blurred vision in the left eye. Visual acuity is 20/200 on the left and 20/20 on the right, with a left afferent pupillary defect and reduced red color saturation on the left. Funduscopy is normal in both eyes. Automated perimetry shows a dense defect at fixation in the left eye with an otherwise full field. Which explanation best accounts for the location of the field defect?",
+      "answers": {
+        "A": "Compression of the crossing fibers within the optic chiasm",
+        "B": "Damage to Meyer loop within the left temporal lobe",
+        "C": "Infarction of the lower bank of the left calcarine sulcus",
+        "D": "Macular fibers run centrally in the nerve and are injured first",
+        "E": "Peripheral retinal receptors are destroyed by an inflammatory process"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Chiasmal compression damages the crossing nasal fibers and produces bitemporal hemianopia, not a unilateral central defect.",
+        "B": "A Meyer loop lesion causes a contralateral superior quadrantanopia affecting both eyes.",
+        "C": "A calcarine lesion produces a congruous homonymous field defect in both eyes rather than a monocular scotoma.",
+        "D": "Fibers from the macula run in the center of the optic nerve and are the most vulnerable to inflammation, demyelination, and compression, so optic neuritis characteristically produces a monocular central scotoma.",
+        "E": "Loss of peripheral receptors would constrict the field rather than create a central scotoma, and the fundus is normal."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-018",
+      "question": "A 68-year-old woman has blurred vision that is worst on waking and improves through the day. Slit-lamp examination shows a thickened, hazy cornea with stromal edema and scattered excrescences on the posterior corneal surface. Corneal thickness is 680 um. Dysfunction of which corneal layer best explains these findings?",
+      "answers": {
+        "A": "Bowman layer",
+        "B": "Descemet membrane",
+        "C": "Endothelium",
+        "D": "Epithelium",
+        "E": "Stroma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Bowman layer is an acellular collagen layer that anchors the epithelial basement membrane to the stroma and does not regulate hydration.",
+        "B": "Descemet membrane is the basement membrane secreted by the endothelium and provides support rather than active fluid transport.",
+        "C": "The single-cell endothelial layer actively pumps fluid out of the stroma, so when its cell density falls the stroma imbibes water and the cornea becomes edematous and hazy, worst after a night of lid closure.",
+        "D": "The nonkeratinized squamous epithelium provides a barrier and is anchored by hemidesmosomes; its loss causes a painful abrasion rather than chronic stromal edema.",
+        "E": "The stroma is 90% of corneal thickness and contains keratocytes and collagen lamellae, but it is the passive recipient of fluid rather than the pump."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-019",
+      "question": "A 34-year-old man has a 3-day history of a red, painful, tearing right eye with sensitivity to light and blurred vision. He had a similar episode 2 years ago. Fluorescein staining shows a branching linear epithelial lesion with terminal bulbs. Corneal sensation is reduced in that eye. Which treatment is most appropriate?",
+      "answers": {
+        "A": "Topical antibiotic drops",
+        "B": "Topical antifungal drops",
+        "C": "Topical antiviral drops",
+        "D": "Topical corticosteroid drops",
+        "E": "Topical lubricant ointment alone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Topical antibiotics treat corneal abrasions and bacterial ulcers, which produce a round infiltrate rather than a branching epithelial defect.",
+        "B": "Antifungals such as natamycin are used for fungal keratitis, typically after vegetative trauma with a feathery infiltrate.",
+        "C": "The branching dendrite with terminal bulbs and reduced corneal sensation is herpes simplex keratitis, which is treated with antiviral drops or ointment or with oral antiviral therapy.",
+        "D": "Corticosteroids on an active epithelial dendrite promote viral replication and can lead to corneal melting or perforation.",
+        "E": "Lubricants treat dry eye with superficial punctate keratitis and would not control an active viral infection."
+      }
+    },
+    {
+      "id": "neuro-visual-system-physiology-clinical-020",
+      "question": "A 64-year-old man with severe asthma has taken high-dose inhaled and intermittent oral corticosteroids for 6 years. He reports that his vision is hazy in bright sunlight and that headlights produce marked glare at night, while his vision in dim indoor light is relatively better. Visual acuity is 20/50 in each eye and improves with pinhole. Which lens change is most likely?",
+      "answers": {
+        "A": "Congenital lamellar cataract",
+        "B": "Cortical spoke-like opacities",
+        "C": "Nuclear sclerotic cataract",
+        "D": "Posterior subcapsular cataract",
+        "E": "Traumatic rosette cataract"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Congenital cataracts are present from birth or early childhood rather than developing after years of steroid exposure.",
+        "B": "Cortical cataracts produce wedge-shaped peripheral opacities and glare but are age related rather than steroid related.",
+        "C": "Nuclear sclerosis is the typical age-related cataract, causing myopic shift and gradual blurring without this steroid association.",
+        "D": "Posterior subcapsular cataract is the classic corticosteroid-induced lens opacity; because it sits at the visual axis, it degrades vision most when the pupil constricts in bright light.",
+        "E": "A rosette-shaped opacity follows blunt ocular trauma, which this patient has not sustained."
+      }
+    }
+  ]
+}
