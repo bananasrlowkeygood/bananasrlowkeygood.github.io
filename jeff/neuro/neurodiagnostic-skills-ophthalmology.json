@@ -1,0 +1,443 @@
+{
+  "lecture": "Neurodiagnostic Skills: Ophthalmology",
+  "block": "neuro",
+  "generated": "2026-09-08",
+  "questions": [
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-001",
+      "question": "A 28-year-old woman has 5 days of blurred vision in the right eye with pain on eye movement and washed-out color perception. Both pupils measure 4 mm in ambient light. The examiner alternately directs a bright light into each eye at 1-second intervals, with the results shown. Which mechanism best explains this pupillary response?",
+      "table": [
+        [
+          "Light stimulus",
+          "Right pupil",
+          "Left pupil"
+        ],
+        [
+          "Light into left eye",
+          "Constricts briskly",
+          "Constricts briskly"
+        ],
+        [
+          "Light swung to right eye",
+          "Dilates",
+          "Dilates"
+        ],
+        [
+          "Light swung back to left eye",
+          "Constricts briskly",
+          "Constricts briskly"
+        ]
+      ],
+      "answers": {
+        "A": "Interruption of parasympathetic fibers in the right third nerve",
+        "B": "Loss of sympathetic innervation to the right iris dilator",
+        "C": "Mechanical injury to the right iris sphincter muscle",
+        "D": "Reduced afferent input from the right optic nerve",
+        "E": "Uncal herniation compressing the right third nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A third nerve lesion damages the efferent limb and would leave the right pupil fixed and dilated regardless of which eye is illuminated, with anisocoria at rest.",
+        "B": "Sympathetic denervation produces Horner syndrome with a smaller pupil and ptosis, not equal pupils with a swinging-flashlight dilation.",
+        "C": "Direct sphincter injury is an efferent problem that would leave the right pupil poorly reactive to light from either eye and typically produces an irregular pupil.",
+        "D": "A right optic neuropathy weakens the afferent signal, so when light swings onto the right eye both pupils dilate rather than hold constriction — a right afferent pupillary defect (Marcus Gunn pupil).",
+        "E": "Uncal herniation compresses the third nerve, producing a fixed dilated pupil and a depressed level of consciousness, not isolated painful vision loss."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-002",
+      "question": "A 34-year-old man has decreased vision in the left eye over 1 week. A swinging flashlight test demonstrates a left afferent pupillary defect. The anterior segment is normal and intraocular pressures are 14 mm Hg bilaterally. Which finding is most likely on inspection of his pupils in ambient room light?",
+      "answers": {
+        "A": "Left ptosis with an enlarged left pupil",
+        "B": "Left pupil larger than the right pupil",
+        "C": "Left pupil smaller than the right pupil",
+        "D": "Right pupil larger than the left pupil",
+        "E": "Symmetric pupil diameters in both eyes"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Ptosis with an enlarged pupil indicates a third nerve palsy, an efferent lesion that would also limit extraocular movement.",
+        "B": "A larger pupil on the affected side implies efferent parasympathetic failure, which is not what an afferent defect produces.",
+        "C": "A smaller pupil on the affected side suggests Horner syndrome from sympathetic denervation, which also causes mild ptosis and anhidrosis.",
+        "D": "Anisocoria in either direction implies an efferent or iris problem; the afferent defect is detected only by comparing responses between eyes.",
+        "E": "An afferent defect impairs the input limb only; because third nerve complex interconnections drive both pupils equally, resting pupil size stays symmetric and an APD never causes anisocoria."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-003",
+      "question": "A 71-year-old man has sudden painless loss of the left half of his visual field in both eyes after an embolic stroke. MRI shows an infarct of the right occipital lobe. Direct and consensual pupillary light responses are brisk and equal in both eyes. Which feature of the pupillary pathway best explains the preserved light reflex?",
+      "answers": {
+        "A": "Pupillary fibers decussate a second time within the midbrain tectum",
+        "B": "Pupillary fibers exit the optic tract before the lateral geniculate body",
+        "C": "Pupillary fibers synapse in the lateral geniculate body before the midbrain",
+        "D": "Pupillary fibers travel to the calcarine cortex with the optic radiations",
+        "E": "Pupillary fibers travel within the third nerve back toward the retina"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "There is no second decussation in the tectum; the crossing relevant to the reflex occurs in the chiasm and through third nerve complex interconnections.",
+        "B": "Pupillary fibers branch off the optic tract proximal to the lateral geniculate body and run to the third nerve complex, so any lesion behind that branch point spares the light reflex.",
+        "C": "The pupillary fibers bypass the lateral geniculate body entirely rather than synapsing there.",
+        "D": "If pupillary fibers traveled with the optic radiations, an occipital infarct would abolish the reflex, which is not observed.",
+        "E": "The third nerve carries the efferent limb away from the midbrain to the iris; it does not carry afferent signal back to the retina."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-004",
+      "question": "A 62-year-old man with type 2 diabetes mellitus has abrupt onset of double vision and a drooping left eyelid. The left pupil measures 6 mm and the right 3 mm. Pupillary testing results are shown. Which structure is most likely damaged?",
+      "table": [
+        [
+          "Light stimulus",
+          "Right pupil",
+          "Left pupil"
+        ],
+        [
+          "Light into right eye",
+          "Constricts briskly",
+          "No constriction"
+        ],
+        [
+          "Light into left eye",
+          "Constricts briskly",
+          "No constriction"
+        ]
+      ],
+      "answers": {
+        "A": "Left ciliary ganglion",
+        "B": "Left optic nerve",
+        "C": "Optic chiasm",
+        "D": "Right optic nerve",
+        "E": "Right optic tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The left pupil fails to constrict no matter which eye is illuminated, localizing the lesion to the efferent limb — the third nerve and its parasympathetic relay in the ciliary ganglion supplying the iris sphincter.",
+        "B": "A left optic nerve lesion is an afferent defect; light in the left eye would give a weak response in both pupils, but light in the right eye would constrict both normally.",
+        "C": "A chiasmal lesion produces bitemporal field loss, and the light reflex is typically preserved because input from the intact fibers still reaches the midbrain.",
+        "D": "A right optic nerve lesion would blunt both pupils when the right eye is lit, whereas here the right pupil reacts briskly to light in either eye.",
+        "E": "An optic tract lesion causes a contralateral homonymous hemianopia with largely preserved pupillary responses, not a unilateral fixed dilated pupil with ptosis."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-005",
+      "question": "A 4-year-old boy is brought in because his parents notice that one eye appears to turn toward his nose in photographs. Visual acuity is 20/30 in each eye. When he fixates on a penlight held at 12 inches, the corneal light reflection is centered on the pupil of the right eye but falls laterally, near the temporal limbus, on the left cornea. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Left esotropia",
+        "B": "Left exotropia",
+        "C": "Left hypertropia",
+        "D": "Right esotropia",
+        "E": "Right exotropia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The reflex is centered in the fixating right eye, so the left eye is deviated; a light reflex displaced temporally on the cornea means the globe itself is rotated nasally, which is esotropia.",
+        "B": "In exotropia the eye turns outward and the corneal reflex is displaced nasally, toward the medial limbus.",
+        "C": "Hypertropia deviates the eye upward and displaces the corneal reflex inferiorly, not horizontally.",
+        "D": "The right eye holds the centered reflex, indicating it is the fixating eye rather than the deviated one.",
+        "E": "This misassigns both the eye and the direction; the right eye is fixating and the reflex displacement indicates an inward, not outward, turn."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-006",
+      "question": "A 26-year-old woman is undergoing a cover test. She fixates on the examiner's penlight. When the examiner covers her left eye, the right eye moves outward to take up fixation on the light. When the cover is then moved to the right eye, the left eye does not move. Which best describes the right eye immediately before it was uncovered?",
+      "answers": {
+        "A": "It was deviated outward and not fixating on the light",
+        "B": "It was fixating normally on the light",
+        "C": "It was hypertropic and not fixating on the light",
+        "D": "It was hypotropic and not fixating on the light",
+        "E": "It was turned inward and not fixating on the light"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "An outwardly deviated eye would move inward, not outward, to pick up fixation.",
+        "B": "An eye already fixating on the light does not move when the fellow eye is covered, which is exactly what the left eye demonstrated.",
+        "C": "A hypertropic eye is deviated upward and would move downward to re-fixate, producing vertical rather than horizontal movement.",
+        "D": "A hypotropic eye is deviated downward and would move upward to re-fixate, again a vertical movement.",
+        "E": "A re-fixating eye moves opposite its deviation; because the right eye swung outward to find the light, it had been turned inward and was not fixating."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-007",
+      "question": "A 71-year-old woman has difficulty navigating doorways after an ischemic stroke. At the bedside the examiner covers one of her eyes, asks her to look at his nose, and holds up one, two, or five fingers in each of the four quadrants; the test is then repeated with the other eye covered. She consistently fails to count fingers presented in the left upper and left lower quadrants of each eye. Which field defect does this bedside test demonstrate?",
+      "answers": {
+        "A": "Bitemporal hemianopia",
+        "B": "Left homonymous hemianopia",
+        "C": "Left monocular blindness",
+        "D": "Right homonymous hemianopia",
+        "E": "Right superior quadrantanopia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bitemporal loss affects the outer half of each eye's field — the left field of the left eye and the right field of the right eye — not the same side in both eyes.",
+        "B": "Loss of the same (left) side of the field in both eyes is a homonymous hemianopia, precisely the kind of defect confrontation testing is sensitive enough to detect.",
+        "C": "Monocular blindness would cause failure in all four quadrants of one eye only, with the other eye entirely normal.",
+        "D": "The deficit is on the left side of each field, so it is a left, not right, homonymous hemianopia.",
+        "E": "A quadrantanopia spares half of the hemifield; here both the upper and lower left quadrants are lost in each eye."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-008",
+      "question": "A medical student is learning direct ophthalmoscopy and is about to examine a seated patient's right eye. The student is standing, holding the ophthalmoscope with the forefinger on the focusing wheel, and the patient has been asked to fixate on a clock across the room. Which approach is most appropriate?",
+      "answers": {
+        "A": "Approach from directly in front, using your left eye and left hand",
+        "B": "Approach from directly in front, using your right eye and left hand",
+        "C": "Approach from the patient's left side, using your left eye and right hand",
+        "D": "Approach from the patient's left side, using your right eye and left hand",
+        "E": "Approach from the patient's right side, using your right eye and right hand"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Using the left eye for the patient's right eye forces the examiner's head across the midline and blocks the patient's fixation.",
+        "B": "Approaching head-on interposes the examiner in the line of sight of the eye that must stay fixated on the distant target.",
+        "C": "This both crosses to the wrong side and uses the wrong eye for the patient's right eye.",
+        "D": "Approaching from the patient's left to examine the right eye puts the examiner directly in front of the fixating left eye.",
+        "E": "Examine right eye to right eye and left eye to left eye, approaching from the side, so the examiner never obstructs fixation of the eye that is not being examined."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-009",
+      "question": "A medical student attempting ophthalmoscopy reports that the retinal image will not stay still: each time she nears the patient's right eye, the view drifts and she loses her orientation on the retina. The patient's left eye is following the ophthalmoscope as it moves. Which adjustment is most likely to correct the problem?",
+      "answers": {
+        "A": "Ask the patient to follow the ophthalmoscope with the left eye",
+        "B": "Ask the patient to gently close the left eye",
+        "C": "Have the patient fixate the left eye on a distant target",
+        "D": "Increase the light intensity using the rheostat",
+        "E": "Turn the focusing wheel toward the red concave lenses"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Tracking the scope is exactly what is causing the drift, since the examined eye moves conjugately with the fellow eye.",
+        "B": "Closing the fellow eye removes the fixation target altogether and the examined eye continues to wander.",
+        "C": "The eye not being examined must fixate on a distant target; the eyes move together, so steadying the fellow eye steadies the retina being viewed.",
+        "D": "More light causes glare and pupillary constriction; it does not stop the eye from moving.",
+        "E": "The wheel corrects focus for refractive error and would sharpen a blurry image, but it cannot stabilize a shifting eye."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-010",
+      "question": "A moderately myopic physician performs ophthalmoscopy on a patient who is also myopic. At about 1 inch from the patient's eye the retina appears blurred. The physician rotates the wheel under the forefinger and the optic disc snaps into sharp focus. Which best explains what the wheel accomplished?",
+      "answers": {
+        "A": "Compensating for the refractive errors of the examiner and the patient",
+        "B": "Constricting the patient's pupil to increase the depth of field",
+        "C": "Increasing the intensity of light delivered to the retina",
+        "D": "Reducing the aperture size to limit reflected corneal glare",
+        "E": "Reflecting light off the internal mirror into the patient's eye"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The wheel is a series of convex and concave lenses that brings the examiner's eye into focus on the patient's retina, making up for the refractive error of both eyes.",
+        "B": "The wheel is an optical element and has no effect on pupil size; pupillary constriction is a response to light.",
+        "C": "Light intensity is set by the rheostat, not the focusing wheel.",
+        "D": "Beam size is chosen at the light aperture on the back of the scope, which is a separate control.",
+        "E": "The mirror reflects the battery-powered light source into the eye and functions regardless of the wheel setting."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-011",
+      "question": "A 55-year-old woman undergoes funduscopic screening in a clinic where dilating drops are not available. Her pupils are 3 mm. When the examiner directs the ophthalmoscope beam at her eye she squints, her pupil constricts further, and only a small blurred patch of retina is visible. Which adjustment to the ophthalmoscope is most appropriate?",
+      "answers": {
+        "A": "Select the largest white light aperture available",
+        "B": "Select the red-free green filter at full intensity",
+        "C": "Select the slit aperture at full intensity",
+        "D": "Select the smallest white light aperture available",
+        "E": "Select the widest beam with the rheostat at maximum"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A large beam in an undilated eye scatters off the iris and drives further miosis, worsening the view.",
+        "B": "The red-free filter is used to highlight vessels and nerve fiber layer defects; at full intensity it does not solve the problem of an undilated, light-sensitive pupil.",
+        "C": "The slit aperture is used to assess contour and elevation of lesions, not to obtain a general view through a small pupil.",
+        "D": "When the pupil is not dilated, the smallest white light aperture minimizes glare and reflex constriction while still illuminating the fundus.",
+        "E": "Maximum intensity with a wide beam maximizes discomfort and miosis, which is the opposite of what is needed."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-012",
+      "question": "A student performing ophthalmoscopy locates the optic disc and follows the vessels radiating from it. She notes that the vessels fall into two groups that differ consistently in caliber and hue. Which statement correctly distinguishes retinal arteries from retinal veins?",
+      "answers": {
+        "A": "Arteries and veins are indistinguishable by caliber and color",
+        "B": "Arteries are larger and darker red than the veins",
+        "C": "Arteries are smaller and lighter than the veins",
+        "D": "Veins are smaller and darker red than the arteries",
+        "E": "Veins are smaller and lighter than the arteries"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The two are reliably distinguished at the bedside, which is why identifying them is a standard part of the funduscopic exam.",
+        "B": "This reverses the relationship; larger and darker red describes the veins.",
+        "C": "Retinal arteries are the smaller, lighter vessels, while veins are larger and darker red — the standard bedside distinction once the disc is found.",
+        "D": "Veins are the larger of the two, so describing them as smaller is incorrect even though darker red is right.",
+        "E": "Both descriptors are wrong for veins, which are larger and darker rather than smaller and lighter."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-013",
+      "question": "A first-year student is being oriented to the parts of a direct ophthalmoscope before a clinical skills session. She is asked to identify the component that turns the instrument on and adjusts how bright the beam is. Which component is she being asked to identify?",
+      "answers": {
+        "A": "The light aperture",
+        "B": "The mirror",
+        "C": "The rheostat",
+        "D": "The viewing window",
+        "E": "The wheel"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The light aperture sits on the back side of the scope and selects the size and type of beam, such as the smallest white light.",
+        "B": "The mirror reflects the battery-powered light source into the patient's eye but does not control power or brightness.",
+        "C": "The rheostat controls the on-off function and the intensity of the light.",
+        "D": "The viewing window is simply the opening through which the examiner sights and has no control function.",
+        "E": "The wheel holds the convex and concave lenses used to focus on the retina, correcting refractive error."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-014",
+      "question": "A 46-year-old woman has painless blurred vision in the right eye. The swinging flashlight test demonstrates a right afferent pupillary defect. Which of the following conditions is the most likely cause of this finding?",
+      "answers": {
+        "A": "Dense nuclear cataract of the right eye",
+        "B": "Ptosis of the right upper eyelid",
+        "C": "Right pupil dilated by topical atropine",
+        "D": "Right retrobulbar optic neuritis",
+        "E": "Right sixth cranial nerve palsy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A dense cataract scatters light but does not reduce total retinal illumination enough to impair afferent conduction, and classically does not produce an afferent pupillary defect.",
+        "B": "Ptosis obstructs the lid but does not degrade the afferent signal from the retina and optic nerve.",
+        "C": "Topical atropine blocks the iris sphincter, an efferent blockade that leaves the pupil fixed and dilated to light from either eye.",
+        "D": "An afferent pupillary defect reflects significant compromise of afferent input, usually optic nerve or macular disease with decreased vision — optic neuritis is the prototype.",
+        "E": "A sixth nerve palsy limits abduction and causes horizontal diplopia; it carries no pupillary fibers."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-015",
+      "question": "During a normal pupillary examination, a light directed into a patient's right eye produces prompt constriction of the right pupil and an equal constriction of the left pupil. Which anatomic feature is most directly responsible for the response in the left eye?",
+      "answers": {
+        "A": "Crossing of nasal retinal fibers within the optic chiasm",
+        "B": "Decussation of efferent fibers within the ciliary ganglion",
+        "C": "Direct projection of the optic tract to the calcarine cortex",
+        "D": "Interconnections within the third nerve complex",
+        "E": "Sympathetic fibers ascending from the superior cervical ganglion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Chiasmal crossing distributes retinal input to both sides but the equal, bilateral motor output depends on the midbrain connections, not the chiasm alone.",
+        "B": "The ciliary ganglion is a unilateral peripheral relay to the iris sphincter and contains no decussating fibers.",
+        "C": "The projection to the calcarine cortex subserves conscious vision; the light reflex never reaches cortex.",
+        "D": "Interconnections within the third nerve complex provide bilateral innervation to the pupils, which is why a light in one eye drives an equal consensual response in the other.",
+        "E": "Sympathetic fibers from the superior cervical ganglion dilate the pupil via the iris dilator and are not part of the light reflex."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-016",
+      "question": "A 58-year-old man is evaluated for a fixed, dilated pupil. To localize the lesion, the examiner reviews the course of the efferent limb of the pupillary light reflex. Which sequence correctly describes this efferent pathway?",
+      "answers": {
+        "A": "Optic nerve to optic chiasm to optic tract to lateral geniculate body",
+        "B": "Retina to optic nerve to optic chiasm to third nerve complex",
+        "C": "Third nerve to ciliary ganglion to iris dilator muscle",
+        "D": "Third nerve to ciliary ganglion to iris sphincter muscle",
+        "E": "Third nerve to superior cervical ganglion to iris sphincter muscle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This describes the afferent visual pathway toward the lateral geniculate body, and the pupillary fibers in fact leave the tract before reaching it.",
+        "B": "This is the afferent limb of the reflex, carrying signal from the retina into the third nerve complex.",
+        "C": "The iris dilator is sympathetically innervated; the parasympathetic efferent limb ends on the sphincter.",
+        "D": "The efferent pupillary pathway travels in the third nerve to the ciliary ganglion and then to the iris sphincter muscle, producing constriction.",
+        "E": "The superior cervical ganglion is the sympathetic relay for pupillary dilation and is not part of the third nerve efferent limb."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-017",
+      "question": "An 18-month-old boy is brought to the pediatrician because his mother noticed that one eye looks white in recent flash photographs. On examination the examiner sets the ophthalmoscope wheel to 0 and views the eyes from 8 inches. A normal orange-red glow is seen from the left eye, but the right eye returns a white reflection. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Congenital cataract",
+        "B": "Congenital glaucoma",
+        "C": "Refractive amblyopia",
+        "D": "Retinoblastoma",
+        "E": "Strabismic amblyopia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A congenital cataract is the main alternative cause of leukocoria, but it is usually detected in the newborn period and shows a visible lens opacity on anterior segment exam rather than a normal-appearing lens.",
+        "B": "Congenital glaucoma presents with tearing, photophobia, and an enlarged cloudy cornea rather than an isolated white reflex from the posterior pole.",
+        "C": "Refractive amblyopia reduces acuity from uncorrected refractive error and leaves the red reflex intact.",
+        "D": "An absent red reflex replaced by a white reflection (leukocoria) in a toddler is retinoblastoma until proven otherwise, and screening the red reflex at 6–8 inches with the wheel at 0 is how it is detected.",
+        "E": "Strabismic amblyopia follows ocular misalignment and does not obscure the red reflex."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-018",
+      "question": "A 30-year-old woman reports 3 days of dim vision in one eye. Pupils are 4 mm and equal in ambient light, and extraocular movements are full without ptosis. Pupillary responses to light are shown. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Light stimulus",
+          "Right pupil",
+          "Left pupil"
+        ],
+        [
+          "Light into right eye",
+          "Brisk constriction",
+          "Brisk constriction"
+        ],
+        [
+          "Light into left eye",
+          "Sluggish constriction",
+          "Sluggish constriction"
+        ]
+      ],
+      "answers": {
+        "A": "Left afferent pupillary defect",
+        "B": "Left Horner syndrome",
+        "C": "Left third nerve palsy",
+        "D": "Right afferent pupillary defect",
+        "E": "Right third nerve palsy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Both pupils respond briskly to light in the right eye but sluggishly to light in the left, which localizes the weakness to the afferent input from the left eye.",
+        "B": "Horner syndrome causes a smaller pupil with ptosis on the affected side, but the pupils here are equal and there is no ptosis.",
+        "C": "A third nerve palsy would leave the left pupil poorly reactive to light from either eye and would produce anisocoria, ptosis, and limited eye movements.",
+        "D": "The pattern is reversed; light in the right eye produces normal constriction, so the right afferent limb is intact.",
+        "E": "A right third nerve palsy would spare the responses when light enters the left eye only in the left pupil, and would cause a fixed dilated right pupil with ptosis."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-019",
+      "question": "A 52-year-old man reports double vision that is worse when he looks to one side. The examiner performs the corneal light reflex test in primary gaze and then in each cardinal position of gaze. Which finding would most strongly suggest a paretic ocular muscle?",
+      "answers": {
+        "A": "A reflex that is absent from both corneas in all positions of gaze",
+        "B": "A reflex that is brighter in one eye than in the other in primary gaze",
+        "C": "A reflex that is displaced equally in both eyes in all positions of gaze",
+        "D": "A reflex that is symmetric in primary gaze and in all positions of gaze",
+        "E": "A reflex that is symmetric in primary gaze but deviates in one direction of gaze"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "An absent reflex from both corneas indicates a problem with the light source or corneal surface, not with ocular motility.",
+        "B": "Asymmetric brightness reflects corneal surface or tear film irregularity rather than muscle weakness.",
+        "C": "Equal displacement in both eyes in every gaze position means the eyes are moving together and simply are not centered on the examiner's light.",
+        "D": "Alignment maintained in all positions of gaze is the normal result and indicates there is no paretic muscle.",
+        "E": "Alignment should be maintained in all positions of gaze if no muscle is paretic; a deviation appearing only in a particular direction of gaze points to weakness of the muscle acting in that direction."
+      }
+    },
+    {
+      "id": "neuro-neurodiagnostic-skills-ophthalmology-020",
+      "question": "A clinician performs confrontation visual field testing on a 68-year-old woman by holding up one, two, or five fingers in each quadrant and asking her to state how many she sees, rather than simply asking whether she can see the hand move. Which best describes the advantage of counting fingers in this way?",
+      "answers": {
+        "A": "It adds objectivity to an otherwise gross bedside test",
+        "B": "It allows precise mapping of the physiologic blind spot",
+        "C": "It measures corrected visual acuity in each quadrant",
+        "D": "It quantifies the degree of optic nerve head pallor",
+        "E": "It substitutes for formal automated perimetry in most patients"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Requiring a specific numerical answer gives the examiner a verifiable response, lending some objectivity to a test that is otherwise gross and subjective.",
+        "B": "Mapping the blind spot requires a small test object moved systematically, which confrontation finger counting cannot do.",
+        "C": "Visual acuity is measured with an optotype chart at a standard distance, not by counting fingers in the periphery.",
+        "D": "Disc pallor is assessed by direct visualization of the optic nerve head on ophthalmoscopy.",
+        "E": "Confrontation testing remains a gross screen; formal perimetry is still required to define a defect precisely."
+      }
+    }
+  ]
+}
