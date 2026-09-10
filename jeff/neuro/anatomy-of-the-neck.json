@@ -1,0 +1,441 @@
+{
+  "lecture": "Anatomy of the Neck",
+  "block": "neuro",
+  "generated": "2026-09-11",
+  "questions": [
+    {
+      "id": "neuro-anatomy-of-the-neck-001",
+      "question": "A 66-year-old man reports a sore throat and a sensation of tenderness and fullness beneath his jaw. Examination shows a tender, enlarged salivary gland just inferior to the body of the mandible, between the anterior and posterior bellies of the digastric muscle. This gland lies within which subdivision of the anterior cervical triangle?",
+      "answers": {
+        "A": "Carotid triangle",
+        "B": "Muscular triangle",
+        "C": "Occipital triangle",
+        "D": "Submandibular triangle",
+        "E": "Submental triangle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The carotid triangle is bounded by the sternocleidomastoid, posterior belly of the digastric, and superior belly of the omohyoid, and contains the carotid sheath rather than a salivary gland.",
+        "B": "The muscular triangle lies below the hyoid and contains the infrahyoid muscles with the thyroid and parathyroid glands.",
+        "C": "The occipital triangle is a subdivision of the posterior, not the anterior, cervical triangle.",
+        "D": "The submandibular (digastric) triangle is bounded by the body of the mandible superiorly and the two bellies of the digastric inferiorly, and contains the submandibular gland, lymph nodes, the hypoglossal nerve, and the facial artery and vein.",
+        "E": "The submental triangle is the unpaired midline region bounded by the anterior bellies of both digastrics and the hyoid, containing only small lymph nodes and veins."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-002",
+      "question": "A 53-year-old woman is brought to the emergency department after a motor vehicle collision with a deep laceration from broken glass between the body of the mandible and the hyoid bone. Bleeding is controlled. Afterward she has difficulty moving her tongue, and on protrusion the tongue deviates toward the injured side. Injury to which structure best explains this deficit?",
+      "answers": {
+        "A": "Ansa cervicalis",
+        "B": "Glossopharyngeal nerve",
+        "C": "Hypoglossal nerve",
+        "D": "Lingual artery",
+        "E": "Nerve to mylohyoid"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The ansa cervicalis supplies the infrahyoid strap muscles; its injury weakens hyoid depression, not tongue movement.",
+        "B": "The glossopharyngeal nerve carries taste and sensation from the posterior third of the tongue and supplies only stylopharyngeus, so injury does not cause tongue deviation.",
+        "C": "The hypoglossal nerve lies within the submandibular triangle, the region of this laceration, and supplies the intrinsic and most extrinsic tongue muscles; unilateral injury causes the protruded tongue to deviate toward the lesioned side because of unopposed contralateral genioglossus.",
+        "D": "Injury to the lingual artery causes hemorrhage rather than weakness, and bleeding was already controlled.",
+        "E": "The nerve to mylohyoid supplies mylohyoid and the anterior belly of the digastric, which elevate the hyoid and floor of the mouth rather than move the tongue."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-003",
+      "question": "A 44-year-old woman undergoes excisional biopsy of a lymph node in the posterior cervical triangle. Postoperatively she cannot shrug the right shoulder against resistance and has difficulty abducting the arm above the horizontal, with drooping of the shoulder and mild winging of the scapula. Which nerve was most likely injured?",
+      "answers": {
+        "A": "Dorsal scapular nerve",
+        "B": "Long thoracic nerve",
+        "C": "Phrenic nerve",
+        "D": "Spinal accessory nerve",
+        "E": "Suprascapular nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal scapular nerve supplies the rhomboids and levator scapulae and runs deep to levator scapulae, not superficially through the posterior triangle.",
+        "B": "Long thoracic nerve injury denervates serratus anterior, producing prominent medial scapular winging but not loss of shoulder shrug.",
+        "C": "The phrenic nerve lies on the anterior surface of the anterior scalene and supplies the diaphragm; injury causes hemidiaphragm paralysis, not shoulder weakness.",
+        "D": "The spinal accessory nerve travels superficially through the posterior cervical triangle to reach the trapezius, making it vulnerable during node biopsy; its loss weakens trapezius and the sternocleidomastoid.",
+        "E": "The suprascapular nerve supplies supraspinatus and infraspinatus, causing weakness of initial abduction and external rotation without loss of shoulder elevation."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-004",
+      "question": "A 58-year-old woman undergoes total thyroidectomy. On the first postoperative day she is hoarse with a weak, breathy voice. Laryngoscopy shows the left vocal fold fixed in a paramedian position. Injury to a nerve traveling in which location best explains this finding?",
+      "answers": {
+        "A": "Along the anterior surface of the anterior scalene muscle",
+        "B": "Between the anterior and middle scalene muscles",
+        "C": "In the tracheoesophageal groove posterior to the thyroid lobe",
+        "D": "Superficial to the carotid sheath in the carotid triangle",
+        "E": "Within the prevertebral fascia over the transverse processes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "That location describes the phrenic nerve, whose injury paralyzes a hemidiaphragm rather than a vocal fold.",
+        "B": "The roots of the brachial plexus emerge between the anterior and middle scalenes; injury there causes upper limb deficits.",
+        "C": "The recurrent laryngeal nerve ascends in the tracheoesophageal groove intimately related to the posterior aspect of the thyroid lobe, and it supplies all intrinsic laryngeal muscles except the cricothyroid, so injury there produces hoarseness with a paramedian fold.",
+        "D": "The ansa cervicalis lies superficial to the carotid sheath and supplies the strap muscles, whose loss does not alter the voice appreciably.",
+        "E": "The cervical sympathetic trunk lies within the prevertebral fascia; its injury produces Horner syndrome rather than vocal fold paralysis."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-005",
+      "question": "A 39-year-old professional singer undergoes ligation of the superior thyroid artery during a partial thyroidectomy. Postoperatively her voice is normal in volume but she cannot reach her upper vocal range and fatigues quickly when projecting. Which nerve was most likely injured, and which muscle is denervated?",
+      "answers": {
+        "A": "External branch of the superior laryngeal nerve; cricothyroid",
+        "B": "Internal branch of the superior laryngeal nerve; thyroarytenoid",
+        "C": "Recurrent laryngeal nerve; lateral cricoarytenoid",
+        "D": "Recurrent laryngeal nerve; posterior cricoarytenoid",
+        "E": "Vagus nerve trunk; all intrinsic laryngeal muscles"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The external branch of the superior laryngeal nerve runs with the superior thyroid artery and is the sole motor supply to the cricothyroid, the tensor of the vocal folds; without it the fold cannot be lengthened and tensed, so high pitch is lost and the voice fatigues.",
+        "B": "The internal branch of the superior laryngeal nerve is sensory to the laryngeal mucosa above the vocal folds; its injury causes aspiration risk, not pitch loss.",
+        "C": "The lateral cricoarytenoid is an adductor supplied by the recurrent laryngeal nerve; its loss impairs fold closure and produces a breathy voice.",
+        "D": "The posterior cricoarytenoid is the sole abductor, and its loss compromises the airway rather than the upper register.",
+        "E": "Injury to the vagal trunk would paralyze all intrinsic laryngeal muscles and produce profound hoarseness with a cadaveric fold position."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-006",
+      "question": "A 62-year-old man develops progressive inspiratory stridor 12 hours after total thyroidectomy. Laryngoscopy shows both vocal folds fixed near the midline with a narrow glottic chink. His vital signs are shown below. Loss of function of which muscle best explains the airway compromise?",
+      "table": [
+        [
+          "Vital sign",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Respiratory rate",
+          "28/min",
+          "12-20/min"
+        ],
+        [
+          "Oxygen saturation",
+          "89% on room air",
+          "95-100%"
+        ],
+        [
+          "Heart rate",
+          "118/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "148/88 mm Hg",
+          "< 120/80 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "Cricothyroid",
+        "B": "Lateral cricoarytenoid",
+        "C": "Posterior cricoarytenoid",
+        "D": "Thyroarytenoid",
+        "E": "Transverse arytenoid"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cricothyroid is a tensor that lengthens the vocal folds and is supplied by the external branch of the superior laryngeal nerve; it does not open the glottis.",
+        "B": "The lateral cricoarytenoid is an adductor, so its loss would widen rather than narrow the glottis.",
+        "C": "The posterior cricoarytenoids are the only abductors of the vocal folds; bilateral recurrent laryngeal nerve injury leaves the unopposed adductors holding both folds near the midline, producing stridor and a threatened airway.",
+        "D": "The thyroarytenoid relaxes the vocal fold, and its loss alters voice quality rather than obstructing the airway.",
+        "E": "The transverse arytenoid is an adductor; its paralysis would open, not close, the posterior glottis."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-007",
+      "question": "A 71-year-old woman requires urgent central venous access. The clinician plans to cannulate the largest vein of the neck, which begins at the jugular foramen as the continuation of the sigmoid sinus and descends within the carotid sheath. Within that sheath, what is the correct arrangement of the contents?",
+      "answers": {
+        "A": "Common carotid artery lateral, internal jugular vein medial, vagus nerve anterior",
+        "B": "Common carotid artery medial, internal jugular vein lateral, vagus nerve posterior",
+        "C": "Internal jugular vein anterior, common carotid artery posterior, vagus nerve lateral",
+        "D": "Vagus nerve anterior, internal jugular vein medial, common carotid artery lateral",
+        "E": "Vagus nerve medial, common carotid artery lateral, internal jugular vein posterior"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This reverses the vessels; the artery lies medial to the vein within the sheath.",
+        "B": "The carotid sheath contains the common and internal carotid arteries medially, the internal jugular vein laterally, and the vagus nerve posteriorly between them, along with deep cervical lymph nodes, sympathetic fibers, and the carotid sinus nerve.",
+        "C": "The vein is lateral rather than anterior, and the vagus lies posteriorly in the angle between the vessels.",
+        "D": "The vagus nerve lies posterior to the vessels, and the vein is lateral to the artery.",
+        "E": "The vagus is posterior, not medial, and the internal jugular vein is lateral rather than posterior."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-008",
+      "question": "During carotid endarterectomy, manipulation near the bifurcation of the common carotid artery causes an abrupt fall in heart rate and blood pressure. Stimulation of a receptor innervated by which nerve best explains this response?",
+      "answers": {
+        "A": "Ansa cervicalis",
+        "B": "Carotid sinus nerve, a branch of the glossopharyngeal nerve",
+        "C": "External branch of the superior laryngeal nerve",
+        "D": "Recurrent laryngeal branch of the vagus nerve",
+        "E": "Superior cervical sympathetic ganglion postganglionic fibers"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The ansa cervicalis is purely motor to the infrahyoid strap muscles and carries no baroreceptor afferents.",
+        "B": "The carotid sinus at the bifurcation is a baroreceptor and the carotid body is a chemoreceptor; both are innervated by the carotid sinus nerve, a branch of the glossopharyngeal nerve, and mechanical stimulation triggers reflex bradycardia and hypotension.",
+        "C": "The external branch of the superior laryngeal nerve is motor to the cricothyroid muscle.",
+        "D": "The recurrent laryngeal nerve supplies intrinsic laryngeal muscles and laryngeal mucosa below the vocal folds, not the carotid baroreceptors.",
+        "E": "Sympathetic postganglionic fibers mediate efferent vasoconstriction; the reflex here begins with an afferent signal from the carotid sinus."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-009",
+      "question": "A surgeon exposes the carotid bifurcation and must identify the internal carotid artery so as to avoid it. Which feature most reliably distinguishes the internal from the external carotid artery within the neck?",
+      "answers": {
+        "A": "The external carotid artery gives off no branches in the neck",
+        "B": "The external carotid artery lies within the prevertebral fascia",
+        "C": "The internal carotid artery gives off no branches in the neck",
+        "D": "The internal carotid artery gives rise to the superior thyroid artery",
+        "E": "The internal carotid artery terminates as the maxillary artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The opposite is true; the external carotid artery gives off eight branches in the neck.",
+        "B": "Both carotid arteries lie within the carotid sheath, which is distinct from the prevertebral fascia.",
+        "C": "The internal carotid artery has no branches within the neck, which is the classic intraoperative landmark distinguishing it from the branching external carotid.",
+        "D": "The superior thyroid artery is the first anterior branch of the external carotid artery.",
+        "E": "The maxillary artery is one of the two terminal branches of the external carotid, along with the superficial temporal artery."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-010",
+      "question": "During a modified radical neck dissection, a nerve loop lying superficial to the carotid sheath is transected. Which muscle retains its innervation despite this injury?",
+      "answers": {
+        "A": "Omohyoid",
+        "B": "Sternohyoid",
+        "C": "Sternothyroid",
+        "D": "Stylohyoid",
+        "E": "Thyrohyoid"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The omohyoid is an infrahyoid strap muscle supplied by the ansa cervicalis and would be denervated.",
+        "B": "The sternohyoid is supplied by the ansa cervicalis.",
+        "C": "The sternothyroid is supplied by the ansa cervicalis.",
+        "D": "The stylohyoid is a suprahyoid muscle supplied by the facial nerve, so it is unaffected, but it is not an infrahyoid strap muscle and does not lie in the path described.",
+        "E": "The ansa cervicalis supplies all the infrahyoid strap muscles except the thyrohyoid, which is innervated by the nerve to thyrohyoid carrying C1 fibers that travel with the hypoglossal nerve."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-011",
+      "question": "A 47-year-old man has an infiltrating tumor at the root of the neck lying on the anterior surface of the anterior scalene muscle. He develops dyspnea, and chest radiography shows elevation of the right hemidiaphragm. Which nerve is most likely involved, and from which spinal levels does it arise?",
+      "answers": {
+        "A": "Dorsal scapular nerve; C5",
+        "B": "Phrenic nerve; C3 through C5",
+        "C": "Spinal accessory nerve; cranial roots and C1 through C5",
+        "D": "Suprascapular nerve; C5 and C6",
+        "E": "Vagus nerve; medulla oblongata"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The dorsal scapular nerve supplies rhomboids and levator scapulae and does not reach the diaphragm.",
+        "B": "The phrenic nerve arises from the cervical plexus (C3 through C5), descends on the anterior surface of the anterior scalene beneath the prevertebral fascia, and is the sole motor supply to the hemidiaphragm.",
+        "C": "The spinal accessory nerve supplies the sternocleidomastoid and trapezius and crosses the posterior triangle.",
+        "D": "The suprascapular nerve supplies rotator cuff muscles on the posterior scapula.",
+        "E": "The vagus nerve descends within the carotid sheath rather than on the anterior scalene, and it does not supply the diaphragm's motor innervation."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-012",
+      "question": "An anesthesiologist plans an interscalene block and must place the needle where the roots of the brachial plexus emerge. Which anatomical relationship correctly describes this region?",
+      "answers": {
+        "A": "The roots emerge anterior to the anterior scalene, with the subclavian vein deep to that muscle",
+        "B": "The roots emerge between the anterior and middle scalene muscles, with the subclavian artery deep to the anterior scalene",
+        "C": "The roots emerge between the middle and posterior scalene muscles, with the subclavian artery superficial to the anterior scalene",
+        "D": "The roots emerge posterior to the posterior scalene, with the subclavian vein deep to the middle scalene",
+        "E": "The roots emerge within the carotid sheath alongside the vagus nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The phrenic nerve, not the plexus, lies on the anterior surface of the anterior scalene, and the subclavian vein passes superficial to that muscle.",
+        "B": "The roots of the brachial plexus (C5 through T1) exit between the anterior and middle scalene muscles; the subclavian artery lies deep to the anterior scalene while the subclavian vein lies superficial to it.",
+        "C": "The interscalene interval is between the anterior and middle scalenes, and the artery is deep rather than superficial to the anterior scalene.",
+        "D": "The plexus does not pass posterior to the posterior scalene, and the subclavian vein is superficial to the anterior scalene.",
+        "E": "The carotid sheath contains the carotid arteries, internal jugular vein, and vagus nerve, not the brachial plexus."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-013",
+      "question": "A 63-year-old man with an apical lung tumor has right-sided ptosis, a constricted pupil, and absence of sweating on the right side of the face. Extraocular movements and vision are normal. The lesion most likely involves a structure located in which fascial compartment?",
+      "answers": {
+        "A": "Carotid sheath, alongside the vagus nerve",
+        "B": "Investing layer, between the sternocleidomastoid and trapezius",
+        "C": "Prevertebral fascia, over the vertebral column and its muscles",
+        "D": "Retropharyngeal space, between the pretracheal and prevertebral layers",
+        "E": "Visceral portion of the pretracheal fascia, with the trachea and esophagus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Although a few sympathetic fibers accompany the sheath, the cervical sympathetic trunk itself lies within the prevertebral fascia and not inside the carotid sheath.",
+        "B": "The investing layer splits to enclose the sternocleidomastoid and trapezius and contains no sympathetic chain.",
+        "C": "The cervical sympathetic trunk, with its superior, middle, and inferior (often fused as the stellate) ganglia, lies within the prevertebral fascia; interruption anywhere along this pathway produces Horner syndrome with miosis, mild ptosis, anhidrosis, vasodilation, and apparent enophthalmos.",
+        "D": "The retropharyngeal space is a potential space permitting spread of infection and contains loose connective tissue rather than the sympathetic chain.",
+        "E": "The visceral pretracheal layer encloses the thyroid, trachea, and esophagus."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-014",
+      "question": "A 5-year-old boy has fever, neck stiffness, drooling, and refusal to swallow one week after pharyngitis. Lateral neck radiography shows marked widening of the prevertebral soft tissues. He then develops chest pain and widening of the mediastinum. Which anatomical feature best explains this progression?",
+      "answers": {
+        "A": "The alar fascia creates a danger space extending from the cranial base to the mediastinum",
+        "B": "The carotid sheath conducts infection directly into the pericardial cavity",
+        "C": "The investing layer confines infection above the superior edge of the manubrium",
+        "D": "The prevertebral fascia blends with the axillary sheath, directing pus into the axilla",
+        "E": "The submandibular space communicates freely with the pleural cavity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The retropharyngeal space extends from the cranial base to the superior mediastinum, and the alar fascia divides it into anterior and posterior parts, the posterior of which is the danger space that allows infection to track directly into the mediastinum.",
+        "B": "The carotid sheath extends from the skull base to the root of the neck but does not open into the pericardial cavity.",
+        "C": "That confinement applies to infection between the investing layer and the muscular part of the pretracheal fascia, which is exactly why such infections do not reach the mediastinum.",
+        "D": "The prevertebral layer does form the axillary sheath laterally, but that route does not explain mediastinal spread.",
+        "E": "The submandibular space drains into the neck through fascial planes and has no direct communication with the pleural cavity."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-015",
+      "question": "A surgeon incises the most superficial layer of deep cervical fascia, which surrounds the entire neck and splits to enclose two muscles that share a single motor nerve. Which pair of muscles is enclosed by this layer?",
+      "answers": {
+        "A": "Anterior and middle scalene",
+        "B": "Omohyoid and sternohyoid",
+        "C": "Platysma and mylohyoid",
+        "D": "Sternocleidomastoid and trapezius",
+        "E": "Sternothyroid and thyrohyoid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The scalenes lie within the prevertebral layer of deep cervical fascia.",
+        "B": "The infrahyoid strap muscles are enclosed by the muscular part of the pretracheal fascia and are supplied by the ansa cervicalis.",
+        "C": "The platysma lies in the subcutaneous fascia superficial to the investing layer, and mylohyoid lies in the floor of the mouth.",
+        "D": "The investing layer of deep cervical fascia splits to enclose the sternocleidomastoid and trapezius; both derive from the same embryonic muscle sheet and are therefore supplied by the same nerve, the spinal accessory nerve.",
+        "E": "These are strap muscles enclosed by pretracheal fascia and supplied by different nerves."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-016",
+      "question": "A surgeon planning an anterior approach to the cervical spine reviews the arrangement of the cervical viscera in three layers from anterior to posterior. What is the correct order?",
+      "answers": {
+        "A": "Alimentary layer, then endocrine layer, then respiratory layer",
+        "B": "Alimentary layer, then respiratory layer, then endocrine layer",
+        "C": "Endocrine layer, then respiratory layer, then alimentary layer",
+        "D": "Respiratory layer, then alimentary layer, then endocrine layer",
+        "E": "Respiratory layer, then endocrine layer, then alimentary layer"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The alimentary structures are the deepest, lying against the vertebral column, not the most anterior.",
+        "B": "This reverses the order entirely; the endocrine layer is anterior rather than posterior.",
+        "C": "The most anterior layer is endocrine, containing the thyroid and parathyroid glands; the middle layer is respiratory, comprising the larynx and trachea; and the most posterior layer is alimentary, comprising the pharynx and esophagus.",
+        "D": "The thyroid and parathyroid glands lie anterior to the larynx and trachea, not posterior to the esophagus.",
+        "E": "The larynx and trachea lie deep to the thyroid gland, which lies anterolateral to them."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-017",
+      "question": "A 58-year-old woman develops perioral numbness and carpopedal spasm 36 hours after total thyroidectomy. Her laboratory studies are shown below. Inadvertent removal of glands normally located in which position best explains these findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Calcium",
+          "7.1 mg/dL",
+          "8.5-10.5 mg/dL"
+        ],
+        [
+          "Phosphate",
+          "5.6 mg/dL",
+          "2.5-4.5 mg/dL"
+        ],
+        [
+          "Intact PTH",
+          "6 pg/mL",
+          "15-65 pg/mL"
+        ],
+        [
+          "Albumin",
+          "4.1 g/dL",
+          "3.5-5.0 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior surface of the thyroid isthmus over the second and third tracheal rings",
+        "B": "Medial half of the posterior aspect of each thyroid lobe, outside the thyroid capsule",
+        "C": "Within the carotid sheath adjacent to the internal jugular vein",
+        "D": "Within the pyramidal lobe extending superiorly from the isthmus",
+        "E": "Within the thyroid parenchyma among the follicular cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The isthmus unites the lobes over the second and third tracheal rings but does not house the parathyroid glands.",
+        "B": "The typically four parathyroid glands lie outside the thyroid capsule on the medial half of the posterior aspect of each thyroid lobe, which places them at risk during thyroidectomy; their loss causes hypoparathyroidism with hypocalcemia, hyperphosphatemia, and low parathyroid hormone.",
+        "C": "The carotid sheath contains vessels and the vagus nerve, not the parathyroid glands.",
+        "D": "A pyramidal lobe is a variant remnant of thyroid descent and contains follicular, not parathyroid, tissue.",
+        "E": "Parathyroid tissue lies outside the thyroid capsule rather than intermixed with follicular cells."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-018",
+      "question": "An emergency physician performs an emergency surgical airway and identifies the only laryngeal cartilage that forms a complete ring around the airway, palpable just inferior to the thyroid cartilage. Which cartilage is this, and what is its shape?",
+      "answers": {
+        "A": "Arytenoid cartilage; paired pyramidal cartilage with vocal and muscular processes",
+        "B": "Corniculate cartilage; small nodule at the apex of the arytenoid",
+        "C": "Cricoid cartilage; signet ring with a posterior lamina and anterior arch",
+        "D": "Epiglottic cartilage; unpaired leaf-shaped cartilage",
+        "E": "Thyroid cartilage; unpaired shield of two laminae meeting anteriorly"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The arytenoids are paired and sit on the cricoid lamina; they anchor the vocal ligaments and do not encircle the airway.",
+        "B": "The corniculate cartilages are tiny nodules atop the arytenoids and form no part of the airway ring.",
+        "C": "The cricoid is the only cartilage that completely encircles the airway, with its broad lamina posteriorly and narrow arch anteriorly giving it a signet ring shape; the tracheal rings, which are incomplete posteriorly, begin immediately below it.",
+        "D": "The epiglottic cartilage is a leaf-shaped flap that covers the laryngeal inlet during swallowing.",
+        "E": "The thyroid cartilage is a shield of two laminae open posteriorly and therefore does not encircle the airway."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-019",
+      "question": "A neurologist plans an injection to treat chronic occipital headache and targets a small triangular region between the head and neck that contains the vertebral artery and is bounded by muscles supplied by the C1 nerve. Which additional nerve provides the cutaneous innervation to the scalp that this injection is intended to block?",
+      "answers": {
+        "A": "Great auricular nerve (C2 and C3)",
+        "B": "Greater occipital nerve (C2)",
+        "C": "Lesser occipital nerve (C2)",
+        "D": "Suboccipital nerve (C1)",
+        "E": "Transverse cervical nerve (C2 and C3)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The great auricular nerve supplies skin over the parotid gland and the auricle, not the occipital scalp.",
+        "B": "The greater occipital nerve (C2) enters inferior to the inferior oblique muscle and travels to the scalp, providing cutaneous innervation over the neck and scalp, which is why the suboccipital triangle is used for blocks in chronic headache.",
+        "C": "The lesser occipital nerve supplies a narrow strip of scalp behind the ear but is a cervical plexus branch emerging at the nerve point of the neck rather than through the suboccipital triangle.",
+        "D": "The suboccipital nerve (C1) lies within the triangle but is purely motor to the suboccipital muscles.",
+        "E": "The transverse cervical nerve supplies skin over the anterior triangle of the neck."
+      }
+    },
+    {
+      "id": "neuro-anatomy-of-the-neck-020",
+      "question": "During a pharyngeal dissection, a student is asked which muscles of the pharynx and soft palate are not supplied by the vagus nerve through the pharyngeal plexus. Which pairing is correct?",
+      "answers": {
+        "A": "Palatopharyngeus by CN IX and salpingopharyngeus by CN V3",
+        "B": "Stylopharyngeus by CN IX and tensor veli palatini by CN V3",
+        "C": "Stylopharyngeus by CN V3 and levator veli palatini by CN IX",
+        "D": "Superior constrictor by CN IX and inferior constrictor by CN V3",
+        "E": "Tensor veli palatini by CN VII and palatopharyngeus by CN IX"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Palatopharyngeus and salpingopharyngeus are longitudinal pharyngeal muscles supplied by the vagus nerve through the pharyngeal plexus.",
+        "B": "Motor supply to the pharynx and soft palate comes from the vagus nerve through the pharyngeal plexus, with exactly two exceptions: stylopharyngeus, supplied by the glossopharyngeal nerve, and tensor veli palatini, supplied by the mandibular division of the trigeminal nerve.",
+        "C": "This reverses the two exceptions; stylopharyngeus is glossopharyngeal and levator veli palatini is vagal.",
+        "D": "All three constrictors are supplied by the vagus nerve through the pharyngeal plexus.",
+        "E": "Tensor veli palatini is supplied by CN V3 rather than the facial nerve, and palatopharyngeus is vagal."
+      }
+    }
+  ]
+}

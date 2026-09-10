@@ -1,0 +1,498 @@
+{
+  "lecture": "Dysmyelinating Disorders & Leukodystrophies",
+  "block": "neuro",
+  "generated": "2026-09-10",
+  "questions": [
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-001",
+      "question": "A 7-year-old boy has declining school performance, hyperactivity, and disruptive behavior over 8 months. He has diffuse hyperpigmentation of the gums and skin creases. MRI shows symmetric posterior white matter demyelination. Plasma C26:0 and C24:0 fatty acids are markedly elevated. His laboratory studies are shown below. Which protein is most likely defective?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Sodium",
+          "128 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "Potassium",
+          "5.8 mEq/L",
+          "3.5-5.0 mEq/L"
+        ],
+        [
+          "Morning cortisol",
+          "2.1 microg/dL",
+          "5-25 microg/dL"
+        ],
+        [
+          "ACTH",
+          "310 pg/mL",
+          "10-60 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "ABCD1 transporter in the peroxisomal membrane",
+        "B": "Acid sphingomyelinase within the lysosome",
+        "C": "Beta-hexosaminidase A within the lysosome",
+        "D": "NPC1 cholesterol transport protein in the lysosomal membrane",
+        "E": "PEX protein required for peroxisome biogenesis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "X-linked adrenoleukodystrophy results from a defective ABCD1 transporter that normally moves very-long-chain fatty acids into peroxisomes; the resulting deficient VLCFA oxidation elevates C26:0 and C24:0 and injures brain, adrenal cortex, and testes.",
+        "B": "Acid sphingomyelinase deficiency causes Niemann-Pick disease types A and B, with sphingomyelin accumulation rather than elevated very-long-chain fatty acids.",
+        "C": "Beta-hexosaminidase A deficiency causes Tay-Sachs disease with ganglioside accumulation and a cherry-red macula, not adrenal insufficiency.",
+        "D": "NPC1 defects cause Niemann-Pick type C with impaired cholesterol egress from lysosomes, typically presenting with vertical gaze palsy and ataxia.",
+        "E": "A PEX defect causes Zellweger syndrome, which presents in the newborn period with profound hypotonia and death by about 6 months, not in a school-aged boy."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-002",
+      "question": "A 6-year-old boy is newly diagnosed with X-linked adrenoleukodystrophy after presenting with adrenal insufficiency. His parents ask about the risk to future children. Neither parent has been diagnosed with the condition. What is the probability that this couple's next child will be affected?",
+      "answers": {
+        "A": "0%",
+        "B": "25%",
+        "C": "50%",
+        "D": "75%",
+        "E": "100%"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The disorder is inherited, and because the father is unaffected the mother must be a carrier, so the risk is not zero.",
+        "B": "Adrenoleukodystrophy is X-linked recessive, so the mother must be a carrier; the chance of transmitting the pathogenic allele is 50% and the chance the child is XY is 50%, giving an overall risk of 25%.",
+        "C": "50% is the probability that an XY child inherits the pathogenic allele, but it does not account for the 50% probability that any given child is XY.",
+        "D": "75% would apply to the probability of being unaffected under this inheritance pattern, not affected.",
+        "E": "A 100% risk would require an inheritance pattern in which every offspring is affected, which does not apply here."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-003",
+      "question": "The 6-year-old boy described above is found to have adrenal insufficiency, and his 3-year-old brother is subsequently found to carry the same pathogenic variant but is entirely asymptomatic with a normal MRI. Which management step is most appropriate for the asymptomatic younger brother?",
+      "answers": {
+        "A": "Begin glucocorticoid and mineralocorticoid replacement immediately",
+        "B": "Begin Lorenzo's oil to reduce very-long-chain fatty acid levels",
+        "C": "Restrict dietary dairy fat to lower circulating phytanic acid",
+        "D": "Supplement fat-soluble vitamins A, D, E, and K",
+        "E": "Withhold intervention until white matter changes appear on MRI"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hormone replacement treats adrenal insufficiency once it is present, but this child has no evidence of adrenal failure yet.",
+        "B": "Lorenzo's oil, a 4:1 mixture of glyceryl trioleate and glyceryl trierucate, reduces very-long-chain fatty acid consumption and inhibits endogenous VLCFA synthesis, and can delay disease onset specifically in pre-symptomatic patients.",
+        "C": "Restricting dairy fat lowers phytanic acid, which is relevant to branched-chain fatty acid accumulation in peroxisome biogenesis disorders rather than to an isolated ABCD1 transporter defect.",
+        "D": "Fat-soluble vitamin supplementation addresses fat malabsorption from deficient bile salt production, a feature of Zellweger syndrome.",
+        "E": "Waiting for MRI changes forfeits the window in which dietary therapy is effective, since the benefit is confined to pre-symptomatic patients."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-004",
+      "question": "A newborn has profound hypotonia, areflexia, a high forehead with a flat facial profile, hepatomegaly, and seizures. Plasma studies of very-long-chain fatty acids are shown below alongside published values for healthy individuals and for two peroxisomal disorders. Which underlying defect best explains this infant's findings?",
+      "table": [
+        [
+          "Measure",
+          "This infant",
+          "Healthy",
+          "X-linked ALD",
+          "Zellweger syndrome"
+        ],
+        [
+          "C26:0 (microg/mL)",
+          "3.4",
+          "0.3 +/- 0.3",
+          "1.2 +/- 0.5",
+          "3.3 +/- 1.6"
+        ],
+        [
+          "C26:0/C22:0",
+          "0.55",
+          "0.01 +/- 0.01",
+          "0.07 +/- 0.04",
+          "0.52 +/- 0.24"
+        ],
+        [
+          "C24:0/C22:0",
+          "2.1",
+          "0.8 +/- 0.2",
+          "1.5 +/- 0.5",
+          "2.0 +/- 0.4"
+        ]
+      ],
+      "answers": {
+        "A": "Defective mannose 6-phosphate tagging of lysosomal enzymes in the Golgi",
+        "B": "Defective transport of very-long-chain fatty acids across an intact peroxisomal membrane",
+        "C": "Deficiency of a single peroxisomal beta-oxidation enzyme with intact organelles",
+        "D": "Deficiency of peroxisome biogenesis, so functional peroxisomes are absent",
+        "E": "Deficient mitochondrial carnitine shuttle activity for long-chain fatty acids"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Failed mannose 6-phosphate tagging misroutes lysosomal enzymes and causes lysosomal storage disease, which does not elevate very-long-chain fatty acids.",
+        "B": "A transport defect across an intact membrane describes X-linked adrenoleukodystrophy, whose values are substantially lower than this infant's and which does not present in the newborn period with this severity.",
+        "C": "An isolated enzyme deficiency would not produce the global loss of plasmalogen synthesis, bile acid conjugation, and branched-chain fatty acid degradation implied by this severe multisystem newborn presentation.",
+        "D": "Zellweger syndrome is an autosomal recessive failure of peroxisome biogenesis, so all peroxisomal functions are lost; the markedly elevated C26:0 and the strikingly high C26:0/C22:0 ratio match the Zellweger profile rather than the milder X-linked adrenoleukodystrophy pattern.",
+        "E": "Carnitine shuttle defects impair mitochondrial oxidation of long-chain fatty acids and cause hypoketotic hypoglycemia, without elevating C26:0."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-005",
+      "question": "A 2-month-old infant with a confirmed peroxisome biogenesis disorder has steatorrhea and poor weight gain. Deficient production of which class of molecules most directly accounts for this infant's fat malabsorption?",
+      "answers": {
+        "A": "Bile salts conjugated with glycine or taurine",
+        "B": "Ceramides generated from sphingomyelin",
+        "C": "Gangliosides of the neuronal plasma membrane",
+        "D": "Plasmalogens containing an ether-linked alkyl chain",
+        "E": "Very-long-chain fatty acids exceeding 22 carbons"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Peroxisomes conjugate primary bile acids with glycine or taurine to produce primary bile salts; without them, micelle formation fails and fat plus fat-soluble vitamins A, D, E, and K are malabsorbed.",
+        "B": "Ceramides are lysosomal products of sphingomyelin hydrolysis and play roles in signaling and apoptosis rather than in intestinal fat absorption.",
+        "C": "Gangliosides are membrane glycosphingolipids involved in cell adhesion and signaling, not in digestion.",
+        "D": "Plasmalogens are deficient in this disorder and are important for myelin integrity, but they do not participate in intestinal fat absorption.",
+        "E": "Very-long-chain fatty acids accumulate rather than being deficient, and their excess does not cause steatorrhea."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-006",
+      "question": "An investigator studies a class of membrane phospholipids that carry an ether linkage at the first carbon of the glycerol backbone and are highly enriched in myelin. These lipids are synthesized in peroxisomes and are markedly deficient in Zellweger syndrome. Which function have these lipids been hypothesized to serve?",
+      "answers": {
+        "A": "Anchoring myelin basic protein to the cytoplasmic leaflet",
+        "B": "Conjugating primary bile acids prior to biliary secretion",
+        "C": "Protecting polyunsaturated fatty acids from reactive oxygen species",
+        "D": "Serving as the precursor pool for ganglioside biosynthesis",
+        "E": "Shuttling very-long-chain fatty acids into the mitochondrion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Myelin basic protein interacts electrostatically with acidic phospholipids; plasmalogens are not described as its anchor.",
+        "B": "Bile acid conjugation is a separate peroxisomal function performed by enzymes acting on cholic and chenodeoxycholic acid.",
+        "C": "The ether bond of plasmalogens is thought to absorb oxidative attack and thereby shield the underlying polyunsaturated fatty acids, which matters especially for myelin because it is rich in vulnerable polyunsaturated fatty acids.",
+        "D": "Gangliosides are synthesized from ceramide, not from ether phospholipids.",
+        "E": "Shortened very-long-chain fatty acids are transferred to mitochondria as acyl-CoA species, a role unrelated to plasmalogens."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-007",
+      "question": "A researcher incubates isolated mitochondria with a fatty acid containing 26 carbons and finds essentially no acetyl-CoA production, whereas an 18-carbon fatty acid is oxidized readily. Adding intact peroxisomes to the system restores partial oxidation of the 26-carbon substrate. Which statement best explains this observation?",
+      "answers": {
+        "A": "Mitochondrial beta-oxidation accepts fatty acids only up to about 20 carbons, so longer chains must first be shortened in peroxisomes",
+        "B": "Peroxisomal beta-oxidation generates ATP directly and therefore outcompetes the mitochondrial pathway",
+        "C": "Peroxisomes conjugate long substrates to carnitine, which mitochondria cannot accomplish independently",
+        "D": "Peroxisomes hydrolyze the 26-carbon substrate completely to carbon dioxide and water without mitochondrial involvement",
+        "E": "Very-long-chain fatty acids inhibit the citric acid cycle until peroxisomes remove them from the medium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Mitochondrial beta-oxidation handles fatty acids up to roughly 20 carbons; fatty acids of 22 carbons or more are first shortened by two carbons per cycle in peroxisomes and then transferred to mitochondria to complete oxidation.",
+        "B": "Peroxisomal chain shortening proceeds without production of energy, generating hydrogen peroxide rather than ATP.",
+        "C": "Carnitine conjugation of long-chain fatty acids occurs at the mitochondrial membrane via carnitine palmitoyltransferase, not in peroxisomes.",
+        "D": "Peroxisomes only shorten very-long-chain fatty acids; complete oxidation to carbon dioxide requires transfer of the product to mitochondria and the citric acid cycle.",
+        "E": "The restored oxidation reflects substrate shortening, not relief of an inhibitory effect on the citric acid cycle."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-008",
+      "question": "A patient with a peroxisome biogenesis disorder is found to have markedly elevated plasma phytanic acid. His parents are counseled about dietary modification. Which statement about this compound is most accurate?",
+      "answers": {
+        "A": "Circulating levels track with dairy fat intake, but withholding milk provides no clinical benefit in this disorder",
+        "B": "It accumulates only when the ABCD1 transporter is defective",
+        "C": "It is a straight-chain fatty acid degraded by mitochondrial beta-oxidation",
+        "D": "It is synthesized endogenously from cholesterol in hepatic peroxisomes",
+        "E": "Its accumulation is the direct cause of the cherry-red macula seen in these patients"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Phytanic acid is a branched-chain fatty acid made by bacteria and its circulating concentration closely tracks dairy fat consumption, yet withholding milk has no demonstrated clinical benefit in Zellweger syndrome.",
+        "B": "ABCD1 defects impair very-long-chain fatty acid import specifically; branched-chain fatty acid degradation is preserved.",
+        "C": "Its beta-carbon methyl branch blocks standard beta-oxidation, which is why peroxisomal alpha-oxidation is required.",
+        "D": "Phytanic acid is of dietary and bacterial origin and is not synthesized from cholesterol.",
+        "E": "The cherry-red macula is characteristic of ganglioside accumulation in Tay-Sachs disease, not of phytanic acid excess."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-009",
+      "question": "A researcher studying lysosomal biology finds that a patient's lysosomal hydrolases are correctly synthesized and enzymatically active but are secreted into the extracellular space rather than delivered to lysosomes. A defect in which process best explains this finding?",
+      "answers": {
+        "A": "Acidification of the lysosomal lumen by the vacuolar proton pump",
+        "B": "Addition of a mannose 6-phosphate tag in the Golgi apparatus",
+        "C": "Autophagic delivery of intracellular substrates to the lysosome",
+        "D": "Endocytosis of extracellular material into early endosomes",
+        "E": "Signal peptide-directed translocation into the rough endoplasmic reticulum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Failure of acidification would inactivate enzymes already inside the lysosome rather than divert them to the extracellular space.",
+        "B": "Enzymes destined for lysosomes are translated on the rough endoplasmic reticulum and then receive a mannose 6-phosphate tag in the Golgi that directs their trafficking to lysosomes; loss of that tag causes them to be secreted instead, and trafficking defects are the most common cause of lysosomal storage diseases.",
+        "C": "Impaired autophagy would limit substrate delivery but would not misroute the enzymes themselves out of the cell.",
+        "D": "Defective endocytosis would restrict extracellular substrate uptake without causing enzyme secretion.",
+        "E": "A signal peptide defect would prevent entry into the endoplasmic reticulum altogether, leaving the enzymes in the cytosol rather than secreted."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-010",
+      "question": "A 9-month-old infant of Ashkenazi Jewish ancestry has lost the ability to sit unsupported, has an exaggerated startle response to sound, and is macrocephalic. Fundoscopy shows a bright cherry-red spot at each macula. Leukocyte enzyme testing results are shown below. Accumulation of which substrate best explains this presentation?",
+      "table": [
+        [
+          "Leukocyte enzyme assay",
+          "Patient",
+          "Reference"
+        ],
+        [
+          "Beta-hexosaminidase A",
+          "< 2% of total",
+          "55-75% of total"
+        ],
+        [
+          "Beta-hexosaminidase B",
+          "Markedly increased",
+          "25-45% of total"
+        ],
+        [
+          "Acid sphingomyelinase",
+          "Normal",
+          "Normal"
+        ],
+        [
+          "Galactocerebrosidase",
+          "Normal",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "Cholesteryl esters within late endosomes",
+        "B": "Galactocerebroside within macrophages",
+        "C": "GM2 ganglioside within neurons",
+        "D": "Sphingomyelin within reticuloendothelial cells",
+        "E": "Very-long-chain fatty acids within adrenal cortical cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Impaired egress of cholesterol and cholesteryl esters from lysosomes characterizes Niemann-Pick type C, whose enzyme assays here would not show isolated hexosaminidase A loss.",
+        "B": "Galactocerebroside accumulates in Krabbe disease from galactocerebrosidase deficiency, and that enzyme is normal in this patient.",
+        "C": "Tay-Sachs disease is a severe deficiency of beta-hexosaminidase A, the enzyme that removes N-acetylgalactosamine from GM2 to generate GM3; the CNS accumulates 100 to 1000 times the normal amount of gangliosides, which are toxic to neurons and produce the cherry-red macula.",
+        "D": "Sphingomyelin accumulation occurs in Niemann-Pick types A and B from acid sphingomyelinase deficiency, and that enzyme is normal here.",
+        "E": "Very-long-chain fatty acid accumulation is a peroxisomal problem seen in adrenoleukodystrophy, not a lysosomal enzyme deficiency."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-011",
+      "question": "A biochemistry student is asked to describe the reaction that is deficient in Tay-Sachs disease. Which reaction does the missing enzyme normally catalyze?",
+      "answers": {
+        "A": "Cleavage of galactose from galactocerebroside to yield ceramide",
+        "B": "Hydrolysis of the N-acetylgalactosamine residue of GM2 to yield GM3",
+        "C": "Removal of N-acetylneuraminic acid from GM1 to yield GM2",
+        "D": "Removal of phosphocholine from sphingomyelin to yield a ceramide",
+        "E": "Transfer of cholesterol out of the lysosome into the cytosol"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "That reaction is catalyzed by galactocerebrosidase, which is deficient in Krabbe disease.",
+        "B": "Beta-hexosaminidase A removes the terminal N-acetylgalactosamine from ganglioside GM2, converting it to GM3; loss of this step causes GM2 to accumulate in neurons.",
+        "C": "Removing N-acetylneuraminic acid is a sialidase reaction and is not the defect in Tay-Sachs disease.",
+        "D": "That reaction is catalyzed by sphingomyelin phosphodiesterase (acid sphingomyelinase), deficient in Niemann-Pick types A and B.",
+        "E": "Cholesterol export from the lysosome is performed by NPC1 and NPC2 and is defective in Niemann-Pick type C."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-012",
+      "question": "A genetic counselor is advising a couple of Ashkenazi Jewish ancestry. She notes that approximately 3% of this population are carriers for Tay-Sachs disease compared with about 0.3% in the general population. Which additional statement about Tay-Sachs disease is most accurate?",
+      "answers": {
+        "A": "Carrier screening and prenatal diagnosis have substantially reduced the number of affected births",
+        "B": "Disease severity is uniform because the enzyme defect is complete in all patients",
+        "C": "Newborn screening for the disease is mandatory in every state",
+        "D": "The disease follows an X-linked recessive pattern of inheritance",
+        "E": "Unaffected carriers reliably develop symptoms later in adult life"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Preconception carrier screening, preimplantation genetic diagnosis, and prenatal diagnosis have produced a large reduction in births of infants with the Tay-Sachs genotype.",
+        "B": "Residual enzyme activity varies, producing classic infantile, juvenile, and late-onset forms of the disease.",
+        "C": "Newborn screening is not universal; Pennsylvania, for example, does not screen newborns for Tay-Sachs disease.",
+        "D": "Like other lysosomal storage diseases caused by enzyme deficiency or mistrafficking, Tay-Sachs disease is autosomal recessive.",
+        "E": "Carriers of an autosomal recessive condition are typically asymptomatic; late symptomatic carriers are a feature of X-linked adrenoleukodystrophy, in which more than half of carriers develop symptoms."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-013",
+      "question": "Approximately 1% of a population are carriers of Gaucher disease, an autosomal recessive lysosomal storage disorder. Assuming Hardy-Weinberg equilibrium, what is the approximate frequency of affected individuals in this population?",
+      "answers": {
+        "A": "1 in 100,000",
+        "B": "1 in 40,000",
+        "C": "1 in 10,000",
+        "D": "1 in 400",
+        "E": "1 in 200"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "1 in 100,000 corresponds to an allele frequency of about 0.003, lower than that implied by a 1% carrier rate.",
+        "B": "If 1% of the population is heterozygous, then 2pq is approximately 0.01, so q is about 0.005 and the disease frequency q squared equals 0.000025, or 1 in 40,000.",
+        "C": "1 in 10,000 corresponds to an allele frequency of 0.01, which overstates q because heterozygotes carry only one pathogenic allele.",
+        "D": "1 in 400 would result from treating the carrier frequency of 0.01 as the allele frequency and squaring it, which double counts the alleles.",
+        "E": "1 in 200 corresponds to the pathogenic allele frequency q of 0.005, not to the frequency of the homozygous phenotype."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-014",
+      "question": "A 4-month-old infant has hepatosplenomegaly, failure to thrive, and progressive loss of previously acquired motor milestones. A cherry-red macula is present. Enzyme testing shows markedly reduced sphingomyelin phosphodiesterase activity. Which molecular product is this infant unable to generate normally?",
+      "answers": {
+        "A": "A ceramide from sphingomyelin",
+        "B": "Free cholesterol released into the cytosol",
+        "C": "Glucose from glycogen within the lysosome",
+        "D": "GM3 from GM2 ganglioside",
+        "E": "Shortened very-long-chain fatty acyl-CoA"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Sphingomyelin phosphodiesterase, also called acid sphingomyelinase, removes the phosphocholine group from sphingomyelin to generate a ceramide; its deficiency causes Niemann-Pick disease types A and B, which differ from one another only in severity.",
+        "B": "Cholesterol release from the lysosome is the function of NPC1 and NPC2 and is the defect in Niemann-Pick type C.",
+        "C": "Lysosomal glycogen breakdown is catalyzed by acid alpha-glucosidase, deficient in Pompe disease.",
+        "D": "Generation of GM3 from GM2 is the beta-hexosaminidase A reaction lost in Tay-Sachs disease.",
+        "E": "Peroxisomal chain shortening of very-long-chain fatty acids is unrelated to sphingomyelin metabolism."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-015",
+      "question": "A 6-week-old infant is evaluated for prolonged jaundice and hepatosplenomegaly; laboratory studies are shown below. The cholestasis resolves over several months. At age 8 years he develops clumsiness, falls, and difficulty directing his eyes upward on command, followed by cognitive decline. Which defect best explains this course?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Total bilirubin",
+          "8.4 mg/dL",
+          "0.2-1.2 mg/dL"
+        ],
+        [
+          "Direct bilirubin",
+          "6.1 mg/dL",
+          "0.0-0.3 mg/dL"
+        ],
+        [
+          "AST",
+          "210 U/L",
+          "10-40 U/L"
+        ],
+        [
+          "ALT",
+          "185 U/L",
+          "10-40 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Deficiency of acid sphingomyelinase within lysosomes",
+        "B": "Deficiency of beta-hexosaminidase A within lysosomes",
+        "C": "Deficiency of galactocerebrosidase within lysosomes",
+        "D": "Impaired export of cholesterol and fatty acids from lysosomes",
+        "E": "Impaired peroxisomal degradation of very-long-chain fatty acids"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Acid sphingomyelinase deficiency causes Niemann-Pick types A and B, in which the defect is hydrolysis of sphingomyelin rather than lipid export, and which does not characteristically produce vertical gaze limitation.",
+        "B": "Beta-hexosaminidase A deficiency causes Tay-Sachs disease, which presents in infancy with a cherry-red macula and startle response rather than neonatal cholestasis followed by school-age decline.",
+        "C": "Galactocerebrosidase deficiency causes Krabbe disease, typically with early irritability and rapid neurologic deterioration in infancy.",
+        "D": "Niemann-Pick type C results from a mutation in one of the two genes encoding proteins that together transport cholesterol and fatty acids out of lysosomes; it classically begins with liver disease and jaundice early on and later produces vertical supranuclear gaze palsy, loss of balance, cognitive decline, seizures, and dementia as early as adolescence.",
+        "E": "Peroxisomal VLCFA degradation defects cause adrenoleukodystrophy with adrenal insufficiency, which is absent here."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-016",
+      "question": "In cultured fibroblasts from a patient with Niemann-Pick disease type C, an investigator measures a paradoxical increase in the activity of HMG-CoA reductase and in the display of LDL receptors on the cell surface, despite abundant cholesterol within the cell. Which mechanism best explains this finding?",
+      "answers": {
+        "A": "Cholesterol is trapped in lysosomes, so the cytosol and endoplasmic reticulum sense a deficiency",
+        "B": "Cholesteryl esters are hydrolyzed so rapidly that free cholesterol is consumed",
+        "C": "Excess sphingomyelin allosterically activates HMG-CoA reductase directly",
+        "D": "Statin-like intermediates accumulate and relieve feedback inhibition of the pathway",
+        "E": "The LDL receptor is unable to bind LDL, preventing cholesterol from entering the cell"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cholesteryl esters enter lysosomes after endocytosis of LDL bound to its receptor, and in type C disease the NPC transport proteins cannot move cholesterol out; the cytosol and endoplasmic reticulum therefore sense low cholesterol and upregulate both HMG-CoA reductase and LDL receptor display.",
+        "B": "Rapid hydrolysis of cholesteryl esters would raise, not lower, free cholesterol available to the regulatory machinery.",
+        "C": "Sphingomyelin accumulation is characteristic of types A and B and does not directly activate HMG-CoA reductase.",
+        "D": "Statins inhibit rather than activate HMG-CoA reductase, and no such activating intermediate accumulates.",
+        "E": "LDL receptor binding is intact in type C disease; the block lies downstream, in exporting cholesterol from the lysosome."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-017",
+      "question": "A medical student is comparing three lysosomal enzyme deficiencies that converge on ceramide metabolism. Which pairing of disease with the substrate that accumulates is correct?",
+      "answers": {
+        "A": "Krabbe disease and ganglioside GM1",
+        "B": "Krabbe disease and sphingomyelin",
+        "C": "Niemann-Pick type A and galactocerebroside",
+        "D": "Niemann-Pick type B and ganglioside GM2",
+        "E": "Tay-Sachs disease and ganglioside GM2"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Krabbe disease is caused by galactocerebrosidase deficiency, so galactocerebroside rather than GM1 accumulates.",
+        "B": "Sphingomyelin accumulates in Niemann-Pick types A and B, not in Krabbe disease.",
+        "C": "Galactocerebroside is the Krabbe substrate; Niemann-Pick type A accumulates sphingomyelin.",
+        "D": "Niemann-Pick type B accumulates sphingomyelin; GM2 accumulation defines Tay-Sachs disease.",
+        "E": "Beta-hexosaminidase A deficiency in Tay-Sachs disease blocks conversion of GM2 to GM3, so GM2 accumulates; all three of these enzymes act on pathways that ultimately yield ceramide."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-018",
+      "question": "An investigator studying myelin injury examines the repair of lipid peroxide damage in oligodendrocytes. She finds that vitamin E reduces a polyunsaturated fatty acid peroxyl radical, glutathione then regenerates the oxidized vitamin, and vitamin C participates in the cycle. Which pathway must remain active to sustain this repair system?",
+      "answers": {
+        "A": "Fatty acid beta-oxidation in the mitochondrial matrix",
+        "B": "Oxidative branch of the pentose phosphate pathway",
+        "C": "Peroxisomal alpha-oxidation of branched-chain fatty acids",
+        "D": "The carnitine shuttle across the inner mitochondrial membrane",
+        "E": "The citric acid cycle in the mitochondrial matrix"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Beta-oxidation generates NADH and ubiquinol for ATP synthesis and does not regenerate glutathione.",
+        "B": "Glutathione restores vitamin C and NADPH restores glutathione; NADPH is supplied by the oxidative branch of the pentose phosphate pathway, so this pathway sustains the antioxidant repair cycle.",
+        "C": "Alpha-oxidation handles phytanic acid and contributes nothing to antioxidant regeneration.",
+        "D": "The carnitine shuttle transports long-chain fatty acyl groups into mitochondria and is unrelated to glutathione recycling.",
+        "E": "The citric acid cycle produces NADH rather than the NADPH required to reduce oxidized glutathione."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-019",
+      "question": "A pediatrician is counseling two families. One child has X-linked adrenoleukodystrophy and the other has Zellweger syndrome. Which statement correctly contrasts these two peroxisomal disorders?",
+      "answers": {
+        "A": "Adrenoleukodystrophy has an incidence of about 1 in 15,000 births, while Zellweger syndrome occurs in about 1 in 50,000",
+        "B": "Adrenoleukodystrophy is autosomal recessive, while Zellweger syndrome is X-linked recessive",
+        "C": "Both disorders spare the adrenal cortex and involve the liver and kidneys preferentially",
+        "D": "Plasmalogen synthesis is deficient in adrenoleukodystrophy but preserved in Zellweger syndrome",
+        "E": "Very-long-chain fatty acids are elevated in Zellweger syndrome but normal in adrenoleukodystrophy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Adrenoleukodystrophy occurs in roughly 1 in 15,000 births and Zellweger syndrome in roughly 1 in 50,000 births.",
+        "B": "The pattern is reversed: adrenoleukodystrophy is X-linked recessive with the ABCD1 gene at Xq28, while Zellweger syndrome is autosomal recessive.",
+        "C": "Adrenoleukodystrophy affects mainly brain, adrenal cortex, and testes, whereas Zellweger syndrome affects mainly brain, liver, and kidneys.",
+        "D": "Plasmalogen deficiency is a feature of Zellweger syndrome, in which peroxisomes themselves are absent; plasmalogen synthesis is preserved in adrenoleukodystrophy.",
+        "E": "Both disorders show elevated C26 and C24 fatty acids because both impair very-long-chain fatty acid oxidation."
+      }
+    },
+    {
+      "id": "neuro-dysmyelinating-disorders-and-leukodystrophies-020",
+      "question": "A researcher is characterizing the normal physiologic roles of the peroxisome in a hepatocyte. Which of the following is a recognized peroxisomal function?",
+      "answers": {
+        "A": "Assembly of ribosomal subunits for cytosolic translation",
+        "B": "Generation and subsequent removal of hydrogen peroxide",
+        "C": "Glycosylation of secreted proteins prior to export",
+        "D": "Oxidative phosphorylation coupled to a proton gradient",
+        "E": "Packaging of digestive enzymes for regulated exocytosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ribosomal subunits are assembled in the nucleolus, not in peroxisomes.",
+        "B": "Peroxisomes carry out oxidative metabolism of many compounds, including the production and subsequent removal of hydrogen peroxide, alongside plasmalogen synthesis, very-long-chain and branched-chain fatty acid degradation, and bile acid conjugation.",
+        "C": "Protein glycosylation occurs in the endoplasmic reticulum and Golgi apparatus.",
+        "D": "Oxidative phosphorylation occurs at the inner mitochondrial membrane; peroxisomal beta-oxidation produces no energy.",
+        "E": "Packaging of enzymes into secretory granules is a function of the Golgi apparatus."
+      }
+    }
+  ]
+}
