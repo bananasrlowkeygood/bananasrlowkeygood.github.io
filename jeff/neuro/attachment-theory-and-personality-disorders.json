@@ -1,0 +1,431 @@
+{
+  "lecture": "Attachment Theory and Personality Disorders",
+  "block": "neuro",
+  "generated": "2026-09-10",
+  "questions": [
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-001",
+      "question": "A 2-year-old boy is hospitalized on a distant inpatient unit and his mother is unable to visit for 4 months. Nursing notes describe an initial period of loud crying, calling out, and searching for her, followed weeks later by quiet withdrawal and apparent hopelessness. When his mother finally arrives, he glances at her and returns to his toys without approaching her. Which sequence does this course illustrate?",
+      "answers": {
+        "A": "Denial, then bargaining, then acceptance",
+        "B": "Idealization, then devaluation, then splitting",
+        "C": "Protest, then despair, then detachment",
+        "D": "Regression, then repression, then reaction formation",
+        "E": "Trust, then autonomy, then initiative"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Denial, bargaining, and acceptance are stages of grief described by Kubler-Ross, not the response to maternal separation Bowlby described.",
+        "B": "Idealization and devaluation alternating in the same relationship describes splitting in borderline personality disorder rather than a separation response.",
+        "C": "Bowlby described a predictable sequence in children separated from a parent for longer than 3 months: protest with crying, calling out, and searching; then despair as hope is lost; then detachment, in which the child responds indifferently even when the mother returns, reflecting anger at her leaving and fear that she will go again.",
+        "D": "These are defense mechanisms rather than a described sequence of separation behavior.",
+        "E": "Trust, autonomy, and initiative are the first three of Erikson's psychosocial stages, which describe normal development rather than a separation reaction."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-002",
+      "question": "A developmental psychologist observes 1-year-olds in a standardized protocol in which the caregiver briefly leaves the room and then returns. One infant's observed behavior is recorded below. Which attachment classification best fits this infant?",
+      "table": [
+        [
+          "Episode",
+          "Observed behavior"
+        ],
+        [
+          "Caregiver present, playing",
+          "Explores the room and plays with toys"
+        ],
+        [
+          "Caregiver leaves the room",
+          "Continues playing; does not look up or protest"
+        ],
+        [
+          "Alone with stranger",
+          "Plays without apparent distress"
+        ],
+        [
+          "Caregiver returns",
+          "Turns away; does not seek contact or greet her"
+        ]
+      ],
+      "answers": {
+        "A": "Insecure-ambivalent attachment",
+        "B": "Insecure-avoidant attachment",
+        "C": "Insecure-disorganized attachment",
+        "D": "Reactive attachment disorder",
+        "E": "Secure attachment"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The insecure-ambivalent infant is overtly distressed throughout the separation and is not easily consoled at reunion, sometimes appearing angry; this infant shows little distress at all.",
+        "B": "The insecure-avoidant infant appears not to notice or protest when the caregiver leaves and largely ignores her when she returns, which is exactly the pattern recorded here.",
+        "C": "The insecure-disorganized infant is upset at separation but behaves oddly at reunion, freezing, rocking, or staring into space.",
+        "D": "Reactive attachment disorder is a clinical diagnosis requiring a history of grossly insufficient care, not a classification derived from this observational protocol.",
+        "E": "The securely attached infant is upset when the caregiver leaves but calms and is pleased to see her on return, then resumes play."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-003",
+      "question": "In the same protocol, a second 1-year-old is observed. Her behavior is recorded below. Which attachment classification best fits this infant?",
+      "table": [
+        [
+          "Episode",
+          "Observed behavior"
+        ],
+        [
+          "Caregiver present, playing",
+          "Stays close to caregiver; explores little"
+        ],
+        [
+          "Caregiver leaves the room",
+          "Cries loudly and immediately"
+        ],
+        [
+          "Alone with stranger",
+          "Remains inconsolable for the full separation"
+        ],
+        [
+          "Caregiver returns",
+          "Reaches to be picked up, then arches away and hits her; does not settle"
+        ]
+      ],
+      "answers": {
+        "A": "Insecure-ambivalent attachment",
+        "B": "Insecure-avoidant attachment",
+        "C": "Insecure-disorganized attachment",
+        "D": "Secure attachment",
+        "E": "Temperamentally difficult but securely attached"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The insecure-ambivalent infant becomes overly distressed when the caregiver leaves and remains distressed the entire time she is gone, yet is not easily consoled at reunion and may act angry toward her, which matches this record.",
+        "B": "The insecure-avoidant infant does not appear to notice or protest the separation and ignores the caregiver at reunion.",
+        "C": "The insecure-disorganized infant shows odd behaviors at reunion such as freezing, rocking, or staring into space rather than angry resistance.",
+        "D": "A securely attached infant is distressed at separation but is quickly consoled and returns to play, which this infant does not do.",
+        "E": "The protocol classifies the quality and security of the attachment relationship rather than the infant's temperament, and persistent inconsolability with angry resistance is not a secure pattern."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-004",
+      "question": "A third 1-year-old in the protocol cries when the caregiver leaves. When the caregiver returns, the infant freezes in place mid-crawl, then begins rocking back and forth while staring past her without approaching or avoiding. Which attachment classification best fits this infant?",
+      "answers": {
+        "A": "Insecure-ambivalent attachment",
+        "B": "Insecure-avoidant attachment",
+        "C": "Insecure-disorganized attachment",
+        "D": "Secure attachment",
+        "E": "Separation anxiety of normal development"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The ambivalent infant seeks contact but resists it angrily and remains inconsolable, showing a coherent if conflicted strategy rather than behavioral collapse.",
+        "B": "The avoidant infant does not appear distressed by the separation and simply ignores the caregiver at reunion.",
+        "C": "The insecure-disorganized infant is upset when the caregiver leaves but acts oddly at reunion, for example freezing, rocking, or staring into space, showing no organized strategy for managing the distress.",
+        "D": "A securely attached infant approaches the caregiver at reunion, is consoled, and returns to play.",
+        "E": "Normal separation distress resolves with reunion and consolation; freezing and self-rocking at reunion are not normative."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-005",
+      "question": "A pediatrician counsels new parents who worry that picking up their crying 4-month-old will 'spoil' him and make him clingy. Drawing on Ainsworth's findings, which statement is most accurate?",
+      "answers": {
+        "A": "Consistently responding to the infant's distress is associated with less crying later and with growth of self-reliance",
+        "B": "Infant crying is driven by temperament alone, so caregiver response does not alter later behavior",
+        "C": "Picking up a crying infant reinforces the crying and predicts an anxious, clingy toddler",
+        "D": "The frequency of caregiver response matters far more than whether the response fits the infant's need",
+        "E": "Very few infants achieve secure attachment, so caregiver behavior has limited practical effect"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Ainsworth found that cuddling a crying baby is associated with less crying in later months and with growth of self-reliance, while unresponsive mothers tend to have anxious babies.",
+        "B": "The mother-infant interaction during the attachment period was shown to influence the infant's current and future behavior, particularly the development of anxiety, so response does matter.",
+        "C": "This is the opposite of what was observed; responsiveness predicted less crying and greater self-reliance rather than clinginess.",
+        "D": "More recent work emphasizes that what matters is not merely whether the mother responds but whether the response is sensitive, consistent, and in tune with the infant's needs.",
+        "E": "By 24 months about 65% of infants are securely attached, so secure attachment is the majority outcome."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-006",
+      "question": "A psychiatrist is teaching students the vocabulary used to describe how a person characteristically engages with the world. She describes biologically based dispositions present from birth that remain fairly consistent across time and situations, such as an infant who was adventurous from the first day. Which term is she defining?",
+      "answers": {
+        "A": "Attachment",
+        "B": "Character",
+        "C": "Ego",
+        "D": "Personality",
+        "E": "Temperament"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Attachment refers to the bond formed with a caregiver and the template it creates for later relationships, not to inborn dispositions themselves.",
+        "B": "Character refers to acquired beliefs about ourselves that are created through interactions with others and the environment.",
+        "C": "The ego is a psychoanalytic structure mediating between drives and reality, not a descriptor of inborn behavioral style.",
+        "D": "Personality is the enduring pattern of perceiving, relating to, and thinking about the environment and the self, which arises from both temperament and character.",
+        "E": "Temperament comprises the biological dispositions a person is born with; these are generally consistent over time and across situations and are largely fixed."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-007",
+      "question": "A 29-year-old man is referred after repeated conflicts with coworkers. He reports the same pattern of difficulties at work, at home, and with friends since his late teens. He is convinced his problems arise entirely from how unreasonable everyone else is and sees nothing he would want to change about himself. He takes no medications, and his physical examination and laboratory studies are unremarkable. Which feature is most characteristic of a personality disorder as opposed to another psychiatric condition?",
+      "answers": {
+        "A": "The pattern causes distress to the patient but never to those around him",
+        "B": "The pattern emerged abruptly in adulthood after an identifiable stressor",
+        "C": "The pattern is confined to one specific setting such as the workplace",
+        "D": "The pattern is egosyntonic and is stable across time and across situations",
+        "E": "The pattern remits fully when a comorbid mood disorder is treated"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Patients with personality disorders often do feel distressed, and their way of relating also leaves others feeling frustrated and irritated, which compounds that distress.",
+        "B": "These characteristic ways of experiencing the world begin at least by adolescence or early adulthood, and often earlier, rather than appearing abruptly later.",
+        "C": "A defining feature is that the person acts this way in all situations, not just in certain ones.",
+        "D": "A personality disorder is a persistent, inflexible pattern of thinking, behaving, and experiencing that is stable over time and across situations, and patients typically see nothing wrong with their beliefs, viewing the problem as residing in everyone else; the pattern must also not be attributable to a substance or a medical condition.",
+        "E": "Comorbid conditions should be treated, but the underlying personality structure persists rather than remitting with their treatment."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-008",
+      "question": "A 16-year-old boy has a 2-year history of truancy, repeated fights, cruelty to animals, and shoplifting. His attorney asks whether he can be diagnosed with antisocial personality disorder. Which statement is most accurate?",
+      "answers": {
+        "A": "He can be diagnosed now, because the pattern has been present for more than one year",
+        "B": "He can be diagnosed only if a first-degree relative carries the same diagnosis",
+        "C": "He cannot be diagnosed until age 18, and the diagnosis requires evidence of conduct disorder before age 15",
+        "D": "He cannot be diagnosed until age 21, because personality is not considered stable before then",
+        "E": "He cannot be diagnosed with any personality disorder before age 18 under any circumstance"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The one-year rule allows other personality disorders to be diagnosed in adolescents, but antisocial personality disorder is the explicit exception to that rule.",
+        "B": "No personality disorder requires an affected first-degree relative for diagnosis.",
+        "C": "Antisocial personality disorder cannot be diagnosed before age 18, and the diagnosis requires evidence of conduct disorder before age 15, which this boy's history would satisfy once he reaches adulthood.",
+        "D": "The threshold is 18 years, not 21.",
+        "E": "Adolescents may be diagnosed with other personality disorders if they meet criteria for at least one year; antisocial personality disorder is the sole exception."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-009",
+      "question": "A 45-year-old woman has never been able to keep a job for long. She is certain that supervisors assign her difficult work to set her up for failure, and she reads hidden insults into ordinary emails. She refuses to tell coworkers anything personal because she is sure it will be used against her, recalls slights from a decade ago in detail, and repeatedly accuses her husband of infidelity without evidence. She has never had hallucinations or delusions of other kinds. Which personality disorder is most likely?",
+      "answers": {
+        "A": "Borderline personality disorder",
+        "B": "Narcissistic personality disorder",
+        "C": "Paranoid personality disorder",
+        "D": "Schizoid personality disorder",
+        "E": "Schizotypal personality disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Borderline personality disorder centers on frantic efforts to avoid abandonment, unstable relationships and self-image, and impulsivity rather than on pervasive suspicion.",
+        "B": "Narcissistic personality disorder features grandiosity, a need for admiration, and lack of empathy, not a conviction that others intend harm.",
+        "C": "Paranoid personality disorder, in cluster A, is defined by pervasive distrust and suspicion that others' motives are malicious: suspecting exploitation, doubting the loyalty of associates, refusing to confide, reading hidden threats into benign interactions, bearing grudges, and suspecting an unfaithful partner.",
+        "D": "The schizoid patient is indifferent to others rather than suspicious of them and does not track slights or accuse a partner.",
+        "E": "Schizotypal personality disorder includes suspiciousness but is dominated by odd beliefs, magical thinking, unusual perceptual experiences, and eccentric speech and appearance, which are absent here."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-010",
+      "question": "A 42-year-old single man works as a security guard and is described by his employer as efficient and very reliable. He was content working alone on his shift but has struggled since additional guards were assigned to work alongside him. He lives alone, has no interest in friendships or a romantic relationship, and appears emotionally flat during the interview. He has asked to be reassigned to a building where he can work by himself and will otherwise seek another job. Which personality disorder is most likely?",
+      "answers": {
+        "A": "Antisocial personality disorder",
+        "B": "Avoidant personality disorder",
+        "C": "Borderline personality disorder",
+        "D": "Dependent personality disorder",
+        "E": "Schizoid personality disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Antisocial personality disorder involves disregard for the rights of others with deceit, aggression, and lack of remorse, none of which this man shows; he is described as reliable.",
+        "B": "The avoidant patient wants relationships but avoids them out of fear of criticism and rejection; this man has no desire for them at all.",
+        "C": "Borderline personality disorder is marked by fear of abandonment and unstable, intense relationships, whereas this man actively prefers to be alone.",
+        "D": "Dependent personality disorder involves an excessive need to be taken care of and difficulty functioning independently, the opposite of this man's preference for solitary work.",
+        "E": "Schizoid personality disorder is characterized by detachment from social relationships with a limited range of emotional expression: no desire for or enjoyment in close relationships, preference for solitary activities, few close friends outside first-degree relatives, and an emotionally cold, indifferent presentation."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-011",
+      "question": "A 34-year-old man is brought in by his sister, who is worried about his isolation. He believes he can sense events before they happen and wears layers of mismatched clothing he says protect his energy. His speech is vague and metaphorical, and he describes feeling that strangers on the bus are watching him. He has few friends and remains intensely anxious in social settings even with people he has known for years. He has never had frank hallucinations or a sustained delusion. Which personality disorder is most likely?",
+      "answers": {
+        "A": "Avoidant personality disorder",
+        "B": "Paranoid personality disorder",
+        "C": "Schizoid personality disorder",
+        "D": "Schizophrenia, residual type",
+        "E": "Schizotypal personality disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The avoidant patient is socially inhibited from fear of criticism and feelings of inadequacy but does not have magical thinking, odd speech, or eccentric appearance.",
+        "B": "Paranoid personality disorder is dominated by distrust of others' motives without the odd beliefs, perceptual experiences, and eccentric presentation seen here.",
+        "C": "The schizoid patient is detached and emotionally cold but not eccentric, magical in thinking, or socially anxious; indeed he is indifferent rather than anxious.",
+        "D": "Schizophrenia requires frank psychotic symptoms such as hallucinations or sustained delusions, which this man has never had.",
+        "E": "Schizotypal personality disorder is defined by eccentricity and discomfort with close relationships: odd beliefs and magical thinking such as clairvoyance, unusual perceptual experiences, odd or metaphorical speech, eccentric behavior and appearance, suspiciousness, constricted affect, few close friends, and social anxiety that does not diminish with familiarity."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-012",
+      "question": "A 24-year-old woman is admitted after cutting her forearms the night her partner said he needed a weekend apart. Over three days she describes her nurse first as the only person who has ever understood her and then, after a shift change, as cruel and incompetent. She reports chronic emptiness, has had four intense relationships in two years, and has episodes of intense anger and brief paranoid feelings under stress. Which term best describes her alternating characterization of the same nurse?",
+      "answers": {
+        "A": "Displacement",
+        "B": "Projection",
+        "C": "Reaction formation",
+        "D": "Splitting",
+        "E": "Sublimation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Displacement redirects a feeling from its true target onto a safer one rather than reversing one's view of the same person.",
+        "B": "Projection attributes one's own unacceptable feelings to another person.",
+        "C": "Reaction formation converts an unacceptable impulse into its opposite as a sustained stance, not an oscillation.",
+        "D": "Splitting is seeing the same person as all good at one point in time and then all bad at another, and it is common in borderline personality disorder, which also features frantic efforts to avoid abandonment, unstable and intense relationships oscillating between idealization and devaluation, chronic emptiness, and stress-related paranoia.",
+        "E": "Sublimation channels an unacceptable impulse into a socially productive activity."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-013",
+      "question": "A 31-year-old woman arrives for a routine visit in dramatic clothing and greets the physician with effusive warmth, remarking that she can tell they have a 'special connection' after one prior appointment. She becomes visibly deflated when the physician turns to the computer. Her account of her symptoms is theatrical and full of superlatives but conveys little concrete detail, and her emotions shift rapidly during the visit. Which personality disorder is most likely?",
+      "answers": {
+        "A": "Borderline personality disorder",
+        "B": "Dependent personality disorder",
+        "C": "Histrionic personality disorder",
+        "D": "Narcissistic personality disorder",
+        "E": "Schizotypal personality disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Borderline personality disorder centers on fear of abandonment, self-injury, and identity instability rather than on attention seeking and theatricality.",
+        "B": "The dependent patient seeks others to take responsibility for decisions rather than seeking to be the center of attention.",
+        "C": "Histrionic personality disorder is defined by excessive emotionality and attention seeking: discomfort when not the center of attention, inappropriately seductive or provocative interaction, rapidly shifting and shallow emotions, use of appearance to draw attention, impressionistic speech lacking in detail, dramatic and exaggerated emotional expression, suggestibility, and assuming relationships are more intimate than they are.",
+        "D": "Narcissistic personality disorder involves grandiosity and entitlement with a need for admiration, rather than dramatic emotionality and a sense of instant intimacy.",
+        "E": "Schizotypal personality disorder features eccentricity, odd beliefs, and social anxiety, not effusive engagement."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-014",
+      "question": "A 48-year-old executive demands to be seen by the department chair, saying that only someone of comparable standing could possibly understand his case. He describes at length the prominence he expects to attain, becomes contemptuous when told the wait is the same for everyone, and shows no reaction when informed that another patient ahead of him is critically ill. He remarks that colleagues resent him because of his talent. Which personality disorder is most likely?",
+      "answers": {
+        "A": "Antisocial personality disorder",
+        "B": "Histrionic personality disorder",
+        "C": "Narcissistic personality disorder",
+        "D": "Obsessive-compulsive personality disorder",
+        "E": "Paranoid personality disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Antisocial personality disorder centers on violating others' rights through unlawful behavior, deceit, and aggression, rather than on grandiosity and a need for admiration.",
+        "B": "The histrionic patient seeks attention through dramatic emotionality and seductiveness rather than by asserting superior status and entitlement.",
+        "C": "Narcissistic personality disorder is a pattern of grandiosity in fantasy or behavior, a strong need to be admired, and lack of empathy: an inflated sense of self-importance, belief in being special and only understandable by other high-status people, a strong sense of entitlement, exploitation of others, absent empathy, envy or the belief that others envy him, and arrogant, haughty attitudes.",
+        "D": "Obsessive-compulsive personality disorder is defined by preoccupation with orderliness, perfectionism, and control rather than by grandiosity.",
+        "E": "The paranoid patient believes others intend harm; this man believes others envy him, which is a grandiose rather than persecutory stance."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-015",
+      "question": "A 19-year-old man is brought to the emergency department by his mother and a police officer after he punched her during an argument. She reports that $400 is missing from her room and that he lied about where he had been. He was arrested a year ago for stealing an employer's car, and school records document truancy and repeated fighting from an early age. He curses at his mother during the interview and shows no remorse. Security finds a stolen wallet in his pocket. Which personality disorder is most likely?",
+      "answers": {
+        "A": "Antisocial personality disorder",
+        "B": "Avoidant personality disorder",
+        "C": "Borderline personality disorder",
+        "D": "Dependent personality disorder",
+        "E": "Schizoid personality disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Antisocial personality disorder is a disregard for the rights and feelings of others: failure to conform to lawful behavior, deceitfulness, impulsivity, irritability and aggressiveness, lack of remorse, and reckless disregard for safety; he is over 18 and his school history documents the conduct disorder before age 15 that the diagnosis requires.",
+        "B": "The avoidant patient is socially inhibited and fears criticism, the opposite of this presentation.",
+        "C": "Borderline personality disorder can include intense anger and impulsivity, but it is organized around fear of abandonment and unstable relationships and self-image rather than around criminality and absent remorse.",
+        "D": "The dependent patient is submissive and clinging and fears separation, not aggressive and exploitative.",
+        "E": "The schizoid patient is detached and indifferent rather than aggressive and law-breaking."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-016",
+      "question": "A 39-year-old accountant is referred because he has missed three consecutive project deadlines. He explains that he cannot submit work until every figure has been reformatted to his standard, refuses to delegate unless the task is done exactly his way, works most weekends and has no hobbies, and cannot discard old records of no value. He is puzzled by the referral and states that his colleagues are simply careless and should work as he does. Which feature best distinguishes his condition from obsessive-compulsive disorder?",
+      "answers": {
+        "A": "He experiences his standards as reasonable rather than as unwanted and distressing",
+        "B": "He has hoarding behavior, which does not occur in obsessive-compulsive disorder",
+        "C": "His difficulties began in adulthood rather than in childhood",
+        "D": "His symptoms improve with selective serotonin reuptake inhibitors",
+        "E": "His symptoms occur only in the workplace and not at home"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In obsessive-compulsive personality disorder the pattern is egosyntonic: the person believes their behavior is perfectly fine and that others should act as they do, whereas in obsessive-compulsive disorder the person recognizes the obsessions and compulsions as irrational and is distressed by them.",
+        "B": "Difficulty discarding objects can occur in both conditions and does not distinguish them.",
+        "C": "Personality disorder patterns begin by adolescence or early adulthood, so a purely adult onset would argue against this diagnosis rather than support it.",
+        "D": "Response to medication is not a diagnostic distinction, and there are no medications approved specifically for personality disorders.",
+        "E": "A personality disorder pattern appears across situations rather than being confined to one setting."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-017",
+      "question": "A 27-year-old woman turns down a promotion that would require leading meetings, explaining that she is certain she would be judged as inadequate. She longs for close friendships and describes her loneliness as painful, but will not accept invitations unless she is completely sure she is liked. She holds back even with her sister for fear of being ridiculed. Which feature most reliably distinguishes her disorder from schizoid personality disorder?",
+      "answers": {
+        "A": "She avoids occupational activities involving interpersonal contact",
+        "B": "She desires close relationships but avoids them from fear of rejection",
+        "C": "She has a restricted range of emotional expression",
+        "D": "She has no close friends outside her first-degree relatives",
+        "E": "She prefers to spend most of her time in solitary activities"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Avoiding occupational activities requiring interpersonal contact is a criterion of avoidant personality disorder, but the schizoid patient also gravitates to solitary work, so this does not separate them.",
+        "B": "Avoidant personality disorder is a pattern of social inhibition, feelings of inadequacy, and hypersensitivity to negative evaluation in someone who wants connection, whereas the schizoid patient has no desire for or enjoyment in close relationships at all; the presence of longing is the discriminating feature.",
+        "C": "Restricted emotional expression is characteristic of schizoid personality disorder and is not what distinguishes the avoidant patient.",
+        "D": "Both patients may lack close friends outside first-degree relatives, so this shared endpoint does not differentiate them.",
+        "E": "Both end up spending much time alone; the difference lies in whether solitude is preferred or feared."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-018",
+      "question": "A 32-year-old woman makes an urgent appointment because she has been offered a promotion and cannot decide whether to accept. She asked her husband, who was indifferent. Her therapist reviews the advantages and disadvantages that she herself had listed, but she repeatedly asks 'What should I do?' and 'What would you do if you were me?' On the day of the deadline she does not go to work because she cannot commit to an answer. Which personality disorder is most likely?",
+      "answers": {
+        "A": "Antisocial personality disorder",
+        "B": "Avoidant personality disorder",
+        "C": "Borderline personality disorder",
+        "D": "Dependent personality disorder",
+        "E": "Schizoid personality disorder"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Antisocial personality disorder involves disregard for the rights of others and law-breaking, which is absent here.",
+        "B": "The avoidant patient declines opportunities from fear of criticism and rejection; this woman's paralysis is about being unable to decide without another person's direction, not about anticipated ridicule.",
+        "C": "Borderline personality disorder is organized around fear of abandonment with unstable relationships and impulsivity, not around an inability to make ordinary decisions.",
+        "D": "Dependent personality disorder is a pervasive and excessive need to be taken care of, leading to submissive and clinging behavior and fears of separation, including difficulty making everyday decisions without excessive advice and reassurance and needing others to assume responsibility for major areas of life.",
+        "E": "The schizoid patient is detached and indifferent to others rather than reliant on them for direction."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-019",
+      "question": "A 26-year-old woman with borderline personality disorder has had three hospitalizations for cutting and chronic suicidal ideation. Her psychiatrist recommends a structured program that combines weekly individual therapy, a weekly skills group, telephone coaching between sessions, and a consultation team supporting the therapists. Which treatment is being described, and which skills does it teach?",
+      "answers": {
+        "A": "Cognitive behavioral therapy; behavioral activation and cognitive restructuring",
+        "B": "Dialectical behavior therapy; mindfulness, emotion regulation, distress tolerance, and interpersonal effectiveness",
+        "C": "Insight oriented psychotherapy; recognition of early life patterns causing present distress",
+        "D": "Psychopharmacology; an FDA-approved agent specifically indicated for borderline personality disorder",
+        "E": "Radically open dialectical behavior therapy; openness, flexible responding, and social signaling"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cognitive behavioral therapy targets faulty thinking and unhelpful learned behavior and is not delivered through this four-component structure with phone coaching and a consultation team.",
+        "B": "Dialectical behavior therapy, developed by Marsha Linehan, is delivered as a weekly skills group, weekly individual therapy, a therapist consultation team, and in-vivo phone coaching; its skills modules are mindfulness, emotion regulation, distress tolerance, and interpersonal effectiveness, and it is empirically supported for chronic suicidality, non-suicidal self-injury, and borderline personality disorder.",
+        "C": "Insight oriented psychotherapy helps the patient become aware of longstanding patterns from early life but does not use skills groups or phone coaching.",
+        "D": "No medication is FDA approved for any personality disorder; medication is used for symptoms and comorbid conditions.",
+        "E": "Radically open dialectical behavior therapy is the adaptation for overcontrolled presentations such as obsessive-compulsive personality disorder, not the original protocol for borderline personality disorder."
+      }
+    },
+    {
+      "id": "neuro-attachment-theory-and-personality-disorders-020",
+      "question": "A psychiatrist is matching therapies to patients. One patient has obsessive-compulsive personality disorder with marked rigidity, social isolation, and a critical interpersonal style. She is referred for a treatment that teaches patients to alter their physiology before social interactions so as to present as less rigid, to target social isolation through specific skills, and to cultivate openness to a changing world. Which treatment is most appropriate?",
+      "answers": {
+        "A": "Cognitive behavioral therapy",
+        "B": "Dialectical behavior therapy",
+        "C": "Insight oriented psychotherapy",
+        "D": "Radically open dialectical behavior therapy",
+        "E": "Supportive psychotherapy alone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cognitive behavioral therapy addresses cognitive distortions, such as an avoidant patient's fixed belief that others will judge them, and uses techniques like behavioral activation and playing the tape through.",
+        "B": "Standard dialectical behavior therapy is the evidence-based treatment for undercontrolled, emotionally dysregulated presentations such as borderline personality disorder.",
+        "C": "Insight oriented psychotherapy builds awareness of early life patterns but does not use physiological and social signaling skills.",
+        "D": "Radically open dialectical behavior therapy, developed by Tom Lynch, is evidence-based for obsessive-compulsive personality disorder and teaches patients to change physiology before social interactions, to target social isolation with skills, and to encourage openness in order to learn from an ever-changing world.",
+        "E": "Supportive therapy alone would not deliver the specific skill set described."
+      }
+    }
+  ]
+}
