@@ -1,0 +1,426 @@
+{
+  "lecture": "Embryology of the Head and Neck",
+  "block": "neuro",
+  "generated": "2026-09-10",
+  "questions": [
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-001",
+      "question": "A 6-year-old boy is brought in for a painless midline neck swelling located just inferior to the arch of the hyoid bone. The mass is soft, non-tender, and rises when he protrudes his tongue or swallows. Which embryologic event best explains this finding?",
+      "answers": {
+        "A": "Failure of the second arch to overgrow and obliterate the cervical sinus",
+        "B": "Incomplete regression of the thyroglossal duct",
+        "C": "Persistence of a remnant of the first pharyngeal cleft",
+        "D": "Persistence of the ventral wing of the third pharyngeal pouch",
+        "E": "Retained neural crest cartilage from the second pharyngeal arch"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Failure of second-arch overgrowth leaves lateral cervical (branchial) cysts along the sternocleidomastoid, not a midline mass that moves with the tongue.",
+        "B": "A thyroglossal duct cyst results from incomplete regression of the duct along the thyroid's descent from the foramen cecum of the tongue to the neck, which is why it elevates with tongue protrusion.",
+        "C": "A persistent first cleft produces preauricular or auricular cysts and sinuses near the ear, not a midline infrahyoid mass.",
+        "D": "The ventral wing of the third pouch becomes the thymus; its remnants present as mediastinal or lateral cervical thymic tissue.",
+        "E": "Retained arch cartilage forms branchial vestiges, which are firm cartilaginous nodules positioned laterally rather than in the midline."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-002",
+      "question": "A 16-year-old girl has a 3-cm painless, fluctuant mass along the anterior border of the left sternocleidomastoid muscle that she first noticed several months ago. Aspiration yields cloudy fluid containing cellular debris. Which embryologic event best explains this lesion?",
+      "answers": {
+        "A": "Persistence of a remnant of the second or third pharyngeal pouch",
+        "B": "Persistence of remnants of the third or fourth pharyngeal clefts",
+        "C": "Persistence of the thyroglossal duct along the path of thyroid descent",
+        "D": "Retention of the ultimobranchial body within the lateral thyroid lobe",
+        "E": "Unfused palatine shelf tissue trapped beneath the cervical mucosa"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Retained pouch remnants produce internal branchial sinuses that open into the pharynx rather than a closed lateral cervical cyst.",
+        "B": "Normally the second arch overgrows and obliterates clefts 2 through 4; when third or fourth cleft remnants persist, a branchial cyst appears along the sternocleidomastoid, often going undetected until adolescence and presenting as a large painless mass filled with fluid and cellular debris.",
+        "C": "A thyroglossal duct cyst lies in the midline and moves with tongue protrusion, not laterally along the sternocleidomastoid.",
+        "D": "The ultimobranchial body migrates into the thyroid and gives rise to parafollicular C cells; it does not form a cervical cyst.",
+        "E": "Palatine shelf fusion occurs in the roof of the oral cavity and has no relationship to lateral neck masses."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-003",
+      "question": "A 3-day-old newborn has facial dysmorphism and a harsh systolic murmur. Echocardiography demonstrates truncus arteriosus. On day 3 he develops carpopedal spasm and a generalized seizure. Chest radiograph shows an absent thymic shadow, and laboratory studies are shown below. Failure of development of which structures best accounts for these findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Calcium",
+          "6.4 mg/dL",
+          "8.5-10.5 mg/dL"
+        ],
+        [
+          "Intact PTH",
+          "8 pg/mL",
+          "15-65 pg/mL"
+        ],
+        [
+          "Absolute lymphocyte count",
+          "900/mm3",
+          "3000-9500/mm3"
+        ]
+      ],
+      "answers": {
+        "A": "First and second pharyngeal arches",
+        "B": "First pharyngeal pouch and first pharyngeal cleft",
+        "C": "Frontonasal and paired maxillary prominences",
+        "D": "Second pharyngeal pouch and second pharyngeal cleft",
+        "E": "Third and fourth pharyngeal pouches"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "First and second arch defects produce craniofacial syndromes such as Treacher Collins and Goldenhar, without absent thymus or hypoparathyroidism.",
+        "B": "The first pouch and cleft form the tympanic cavity, auditory tube, and external auditory meatus; defects here cause ear anomalies.",
+        "C": "Defects of the facial prominences cause clefts of the lip and palate, not immune or parathyroid failure.",
+        "D": "The second pouch forms the palatine tonsil and its tonsillar bed; its failure does not cause this constellation.",
+        "E": "DiGeorge syndrome (22q11 deletion) is a neural crest migration defect impairing third and fourth pouch development, producing thymic aplasia with lymphopenia, absent parathyroids with hypocalcemic tetany, and conotruncal cardiac anomalies."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-004",
+      "question": "A 22-year-old woman is evaluated for fatigue, cold intolerance, and a sensation of fullness at the back of her tongue. Examination shows a smooth midline mass at the base of the tongue, and no thyroid tissue is palpable in the neck. Her laboratory studies are shown below. This mass represents tissue that failed to complete migration from which structure?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "TSH",
+          "38 microU/mL",
+          "0.4-4.0 microU/mL"
+        ],
+        [
+          "Free T4",
+          "0.4 ng/dL",
+          "0.8-1.8 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Foramen cecum of the tongue",
+        "B": "Second pharyngeal pouch",
+        "C": "Stomodeum",
+        "D": "Ultimobranchial body of the fourth pouch",
+        "E": "Ventral wing of the third pharyngeal pouch"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The thyroid diverticulum arises at the foramen cecum at the junction of the anterior two-thirds and posterior third of the tongue and descends through the neck; arrest of that descent leaves a lingual thyroid, often the patient's only functioning thyroid tissue, presenting with hypothyroidism.",
+        "B": "The second pouch forms the palatine tonsils, which sit in the tonsillar fossa laterally, not as a midline lingual mass with thyroid function.",
+        "C": "The stomodeum is the primitive mouth depression around which the facial prominences form; it gives rise to the oral cavity, not to thyroid tissue.",
+        "D": "The ultimobranchial body contributes parafollicular C cells to the thyroid but does not itself form a lingual mass of follicular tissue.",
+        "E": "The ventral wing of the third pouch becomes the thymus, which descends into the mediastinum rather than remaining at the tongue base."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-005",
+      "question": "A 4-year-old girl has recurrent middle ear infections. Imaging shows an abnormally formed tympanic cavity and auditory tube. These two structures are derived from which embryologic structure?",
+      "answers": {
+        "A": "First pharyngeal arch mesenchyme",
+        "B": "First pharyngeal cleft ectoderm",
+        "C": "First pharyngeal pouch endoderm",
+        "D": "Second pharyngeal arch cartilage",
+        "E": "Second pharyngeal pouch endoderm"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "First arch mesenchyme becomes the muscles of mastication and associated connective tissue, not the epithelium-lined middle ear cavity.",
+        "B": "First cleft ectoderm invaginates to form the external auditory meatus, which lies lateral to the tympanic membrane rather than forming the middle ear cavity.",
+        "C": "The first pharyngeal pouch expands laterally to form the tympanic cavity and its medial portion elongates as the pharyngotympanic (auditory) tube, so both are lined by endoderm.",
+        "D": "Second arch cartilage (Reichert cartilage) forms the stapes, styloid process, stylohyoid ligament, and lesser horn of the hyoid.",
+        "E": "The second pouch gives rise to the palatine tonsil and the tissue of its tonsillar bed."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-006",
+      "question": "A newborn has a small pit located just anterior to the tragus of the right ear that intermittently drains clear fluid. Hearing and facial nerve function are normal. Which embryologic event best explains this finding?",
+      "answers": {
+        "A": "Failure of the otic placode to invaginate into the otic vesicle",
+        "B": "Failure of the palatine shelves to fuse in the midline",
+        "C": "Incomplete fusion of the auricular hillocks of the first and second arches",
+        "D": "Persistence of a portion of the first pharyngeal cleft",
+        "E": "Retention of Reichert cartilage within the middle ear cavity"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Failure of otic placode invagination would disrupt formation of the inner ear and produce sensorineural hearing loss, which is absent here.",
+        "B": "Palatine shelf fusion failure produces cleft palate and has no relationship to periauricular sinuses.",
+        "C": "Faulty fusion of the auricular hillocks distorts the shape of the auricle itself rather than creating a draining epithelial tract.",
+        "D": "Auricular cysts and sinuses arise when a portion of the first pharyngeal cleft persists instead of being obliterated, leaving an epithelium-lined tract near the ear.",
+        "E": "Retained Reichert cartilage would involve the ossicular chain and produce conductive hearing loss, not a draining skin pit."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-007",
+      "question": "A 34-year-old man with otosclerosis undergoes surgery on the stapes. During the procedure the surgeon also visualizes the malleus and incus. From the cartilage of which pharyngeal arches are these ossicles derived?",
+      "answers": {
+        "A": "Stapes from the first arch; malleus and incus from the second arch",
+        "B": "Stapes from the first arch; malleus and incus from the third arch",
+        "C": "Stapes from the second arch; malleus and incus from the first arch",
+        "D": "Stapes from the second arch; malleus and incus from the third arch",
+        "E": "Stapes from the third arch; malleus and incus from the first arch"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This reverses the correct assignment; the first arch does not give rise to the stapes.",
+        "B": "Neither ossicle derives from the third arch, whose cartilage contributes to the greater horn and body of the hyoid bone.",
+        "C": "Meckel cartilage of the first arch persists as the malleus and incus, while Reichert cartilage of the second arch forms the stapes.",
+        "D": "The stapes assignment is correct, but the third arch contributes to the hyoid rather than to the malleus and incus.",
+        "E": "The third arch cartilage forms part of the hyoid bone and contributes no middle ear ossicle."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-008",
+      "question": "An infant is born with a malformation confined to the second pharyngeal arch. Which group of muscles is most likely to be affected?",
+      "answers": {
+        "A": "Intrinsic muscles of the larynx",
+        "B": "Muscles of facial expression",
+        "C": "Muscles of mastication",
+        "D": "Pharyngeal constrictor muscles",
+        "E": "Stylopharyngeus muscle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The intrinsic laryngeal muscles are sixth arch derivatives supplied by the recurrent laryngeal branch of the vagus nerve.",
+        "B": "Second arch mesenchyme gives rise to all the muscles of facial expression, along with the stapedius, stylohyoid, and posterior belly of the digastric, all supplied by the facial nerve.",
+        "C": "The muscles of mastication arise from first arch mesenchyme and are supplied by the trigeminal nerve.",
+        "D": "The pharyngeal constrictors arise from the fourth arch and are supplied by branches of the vagus nerve.",
+        "E": "Stylopharyngeus is the sole third arch muscle and is supplied by the glossopharyngeal nerve."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-009",
+      "question": "During a cadaveric dissection, a student traces the only skeletal muscle innervated by the glossopharyngeal nerve. Which pharyngeal arch gave rise to this muscle, and which muscle is it?",
+      "answers": {
+        "A": "First arch; tensor veli palatini",
+        "B": "Fourth arch; levator veli palatini",
+        "C": "Second arch; stylohyoid",
+        "D": "Sixth arch; posterior cricoarytenoid",
+        "E": "Third arch; stylopharyngeus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Tensor veli palatini is a first arch muscle supplied by the mandibular division of the trigeminal nerve.",
+        "B": "Levator veli palatini derives from the fourth arch and is supplied by the vagus nerve, not the glossopharyngeal nerve.",
+        "C": "Stylohyoid is a second arch muscle supplied by the facial nerve.",
+        "D": "The posterior cricoarytenoid is a sixth arch muscle supplied by the recurrent laryngeal branch of the vagus nerve.",
+        "E": "The third arch contributes only the stylopharyngeus muscle, and the glossopharyngeal nerve is the nerve of the third arch."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-010",
+      "question": "A term newborn has a continuous machine-like murmur and bounding pulses. Echocardiography confirms a patent ductus arteriosus. This vessel is a persistent derivative of which structure?",
+      "answers": {
+        "A": "Left fourth aortic arch artery",
+        "B": "Left sixth aortic arch artery",
+        "C": "Right fourth aortic arch artery",
+        "D": "Right sixth aortic arch artery",
+        "E": "Third aortic arch artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The left fourth arch artery becomes part of the definitive arch of the aorta.",
+        "B": "The left sixth arch artery gives rise to the proximal left pulmonary artery and to the ductus arteriosus, which normally closes after birth.",
+        "C": "The right fourth arch artery becomes the proximal right subclavian artery.",
+        "D": "The right sixth arch artery contributes only the proximal right pulmonary artery; its distal portion regresses.",
+        "E": "The third arch arteries form the common carotid arteries and the proximal internal carotid arteries."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-011",
+      "question": "A 42-year-old woman with multiple endocrine neoplasia type 2A is found to have a medullary thyroid carcinoma arising from calcitonin-secreting parafollicular C cells. These cells reach the thyroid by migration from which structure?",
+      "answers": {
+        "A": "Dorsal wing of the third pharyngeal pouch",
+        "B": "Second pharyngeal pouch endoderm",
+        "C": "Thyroid diverticulum at the foramen cecum",
+        "D": "Ultimobranchial body of the fourth pharyngeal pouch",
+        "E": "Ventral wing of the third pharyngeal pouch"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal wing of the third pouch becomes the inferior parathyroid gland, whose chief cells secrete parathyroid hormone rather than calcitonin.",
+        "B": "The second pouch forms the palatine tonsil and contributes no cells to the thyroid.",
+        "C": "The thyroid diverticulum at the foramen cecum gives rise to the follicular cells that make thyroid hormone, not to C cells.",
+        "D": "The ventral portion of the fourth pouch forms the ultimobranchial body, which migrates into the thyroid and supplies the parafollicular C cells.",
+        "E": "The ventral wing of the third pouch becomes the thymus."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-012",
+      "question": "During neck exploration for persistent hypercalcemia, a surgeon finds an ectopic parathyroid gland within the anterior mediastinum, closely applied to the thymus. Which embryologic relationship best explains this location?",
+      "answers": {
+        "A": "Both structures arise from the fourth pharyngeal pouch and descend together",
+        "B": "Both structures arise from the second pharyngeal pouch",
+        "C": "Both structures arise from the third pharyngeal pouch and migrate together",
+        "D": "The parathyroid arises from neural crest while the thymus arises from paraxial mesoderm",
+        "E": "The parathyroid arises from the ultimobranchial body of the fourth pouch"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The fourth pouch does give rise to the superior parathyroid, but the thymus is a third pouch derivative, so the two do not descend together from the fourth.",
+        "B": "The second pouch forms the palatine tonsil and gives rise to neither gland.",
+        "C": "The third pouch splits into a dorsal wing that becomes the inferior parathyroid and a ventral wing that becomes the thymus; because they migrate together, an inferior parathyroid dragged along with the descending thymus ends up in the mediastinum.",
+        "D": "Both glands are endodermal pouch derivatives; neural crest contributes surrounding mesenchyme but not the glandular parenchyma.",
+        "E": "The ultimobranchial body supplies thyroid C cells and does not form parathyroid tissue."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-013",
+      "question": "A newborn has a unilateral cleft of the upper lip extending into the left nostril, with an associated notch in the alveolar ridge lateral to the incisors. Failure of fusion between which structures best explains this defect?",
+      "answers": {
+        "A": "Lateral nasal and maxillary prominences",
+        "B": "Mandibular prominences with each other in the midline",
+        "C": "Maxillary and medial nasal prominences",
+        "D": "Palatine shelves derived from the maxillary prominences",
+        "E": "Two medial nasal prominences with each other"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The groove between the lateral nasal and maxillary prominences is the nasolacrimal groove; failure here produces an oblique facial cleft with a persistent nasolacrimal fold.",
+        "B": "Failure of the mandibular prominences to fuse produces the rare median cleft of the lower lip.",
+        "C": "The upper lip forms from the two maxillary prominences meeting the fused medial nasal prominences; failure of that fusion produces cleft lip, which is unilateral or bilateral and may involve the primary palate.",
+        "D": "Failure of palatine shelf fusion produces a cleft of the secondary palate behind the incisive foramen, sparing the lip.",
+        "E": "Failure of the medial nasal prominences to merge with each other produces a median cleft lip or bifid nose, which is midline rather than unilateral."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-014",
+      "question": "A newborn feeds poorly and has milk regurgitating through the nose. Examination shows an intact upper lip and alveolar ridge but a midline cleft of the hard and soft palate extending posteriorly from the incisive foramen. Failure of which event best explains this defect?",
+      "answers": {
+        "A": "Descent of the tongue permitting the palatine shelves to reposition and fuse",
+        "B": "Formation of the intermaxillary segment from the fused medial nasal prominences",
+        "C": "Fusion of the maxillary prominences with the medial nasal prominences",
+        "D": "Invagination of the nasal placodes to form the nasal pits",
+        "E": "Rupture of the oronasal membrane separating the nasal and oral cavities"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The palatine shelves first grow vertically downward on either side of the tongue; only as the tongue descends can they swing to a horizontal position over it and fuse, forming the secondary palate behind the incisive foramen.",
+        "B": "The intermaxillary segment forms the primary palate carrying the four incisors, which is anterior to the incisive foramen and intact in this infant.",
+        "C": "Failure of that fusion produces cleft lip and cleft primary palate, but the lip and alveolar ridge are intact here.",
+        "D": "Failed nasal placode invagination would prevent formation of the nasal pits and cavities entirely rather than producing an isolated palatal cleft.",
+        "E": "Persistence of the oronasal membrane would obstruct the communication between the nasal and oral cavities rather than leave an open cleft."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-015",
+      "question": "A 3-week-old infant has constant tearing and mucoid discharge from the right eye with recurrent skin maceration. Probing demonstrates obstruction of a duct that develops from an ectodermal cord buried in a facial groove. This groove lies between which structures?",
+      "answers": {
+        "A": "Frontonasal and mandibular prominences",
+        "B": "Lateral nasal and maxillary prominences",
+        "C": "Maxillary and mandibular prominences",
+        "D": "Medial and lateral nasal prominences",
+        "E": "Two medial nasal prominences"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The frontonasal and mandibular prominences are separated by the stomodeum rather than by a defined nasolacrimal groove.",
+        "B": "The lateral nasal and maxillary prominences are separated by a deep nasolacrimal groove in which an ectodermal cord forms and canalizes into the nasolacrimal duct and lacrimal sac.",
+        "C": "The junction of the maxillary and mandibular prominences defines the corner of the mouth; failure of fusion here produces macrostomia.",
+        "D": "The medial and lateral nasal prominences flank the nasal pit and their tissue contributes to the nasal septum and alar cartilages.",
+        "E": "The medial nasal prominences fuse in the midline to form the intermaxillary segment and philtrum."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-016",
+      "question": "A newborn has an inferonasal keyhole-shaped defect of the iris that extends posteriorly to involve the retina and choroid on fundoscopy. Failure of which event best explains this malformation?",
+      "answers": {
+        "A": "Closure of the retinal (optic) fissure",
+        "B": "Contact of the optic vesicle with the surface ectoderm",
+        "C": "Invagination of the lens placode into the optic cup",
+        "D": "Migration of neural crest cells into the corneal stroma",
+        "E": "Separation of the lens vesicle from the surface ectoderm"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Coloboma results from failure of the retinal fissure to close, leaving a keyhole defect that may extend from the iris back through the retina and choroid.",
+        "B": "Without contact between the optic vesicle and surface ectoderm the lens would never be induced, producing a far more severe malformation than an isolated coloboma.",
+        "C": "Failure of lens placode invagination causes aphakia or severe anterior segment dysgenesis rather than a segmental inferonasal cleft.",
+        "D": "Neural crest cells form the corneal endothelium and iris stroma; failure of their migration underlies anterior segment dysgenesis, not a retinal fissure defect.",
+        "E": "Failure of the lens vesicle to detach from the surface ectoderm causes corneolenticular adhesions rather than a coloboma."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-017",
+      "question": "In an experimental model, an investigator inserts a barrier that prevents the optic vesicle from making contact with the overlying surface ectoderm at week 4 of development. Which structure will most directly fail to form?",
+      "answers": {
+        "A": "Ciliary body musculature",
+        "B": "Corneal endothelium",
+        "C": "Lens",
+        "D": "Neural retina",
+        "E": "Retinal pigment epithelium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The ciliary body forms at the anterior edges of the optic cup with its musculature derived from head mesenchyme, independent of this inductive contact.",
+        "B": "The corneal endothelium is a neural crest derivative and does not depend on optic vesicle contact with the surface ectoderm.",
+        "C": "Contact of the optic vesicle with the head ectoderm is the inductive signal that produces the lens placode and lens pit; blocking that contact prevents lens formation.",
+        "D": "The neural retina arises from the inner layer of the optic cup, and although the invaginating lens contributes to shaping the cup, the retina is not the structure induced by this contact.",
+        "E": "The retinal pigment epithelium forms from the outer layer of the optic cup, which derives from the diencephalic optic vesicle itself."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-018",
+      "question": "A 26-year-old woman in her 10th week of gestation reports a febrile illness with a diffuse rash and posterior auricular lymphadenopathy that occurred at approximately 6 weeks' gestation. Serologic testing confirms recent rubella infection. Her infant is at greatest risk for which constellation of defects?",
+      "answers": {
+        "A": "Cataracts, microphthalmia, deafness, and cardiac malformations",
+        "B": "Cleft lip, cleft palate, and mandibular hypoplasia",
+        "C": "Coloboma, aniridia, and absence of the optic nerves",
+        "D": "Cyclopia, holoprosencephaly, and omphalocele",
+        "E": "Hemifacial microsomia, preauricular tags, and vertebral anomalies"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Rubella acquired during the fourth to eighth weeks, when the eye, ear, and heart are forming, classically produces cataracts, microphthalmia, congenital deafness, and cardiac malformations.",
+        "B": "Orofacial clefting is a fusion defect of the facial prominences and is not a characteristic pattern of congenital rubella.",
+        "C": "Coloboma follows failure of retinal fissure closure and aniridia is typically caused by PAX6 mutations, neither of which is a rubella phenotype.",
+        "D": "Cyclopia with holoprosencephaly reflects disruption of sonic hedgehog signaling, as by the cholesterol mimic cyclopamine, rather than viral infection.",
+        "E": "That combination describes Goldenhar syndrome, a first and second arch defect linked to 14q32 or 20q13.13 abnormalities."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-019",
+      "question": "A 9-month-old infant has profound bilateral sensorineural hearing loss. High-resolution temporal bone imaging shows a malformed cochlea with a hypoplastic organ of Corti, while the utricle, endolymphatic sac, and semicircular canals appear normal. Abnormal development of which portion of the otic vesicle best explains these findings?",
+      "answers": {
+        "A": "Dorsal portion, which forms the endolymphatic sac",
+        "B": "Dorsal portion, which forms the utricle",
+        "C": "Neural crest cells migrating medial to the vesicle",
+        "D": "Ventral portion, which forms the saccule and organ of Corti",
+        "E": "Ventral portion, which forms the semicircular canals"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The endolymphatic sac derives from the dorsal otic vesicle and is described as normal in this infant.",
+        "B": "The utricle is also a dorsal derivative and is normal on imaging.",
+        "C": "Neural crest cells from the fourth rhombomere form the sensory ganglia of the ear; their failure would impair neural transmission rather than distort cochlear architecture.",
+        "D": "The ventral portion of the elongating otic vesicle gives rise to the saccule and the cochlear duct containing the organ of Corti, matching the isolated cochlear malformation described.",
+        "E": "The semicircular canals arise from the utricle in the dorsal portion, forming as the centers of paddle-shaped outgrowths undergo cell death."
+      }
+    },
+    {
+      "id": "neuro-embryology-of-the-head-and-neck-020",
+      "question": "A newborn has downslanting palpebral fissures, hypoplastic zygomatic arches and mandible, and malformed external ears with conductive hearing loss. Intelligence is normal. Genetic testing identifies a pathogenic variant in a gene encoding a ribosomal RNA methylase. Which mechanism best explains this phenotype?",
+      "answers": {
+        "A": "Defective proliferation of paraxial mesoderm within the occipital somites",
+        "B": "Deficient migration of neural crest cells into the first pharyngeal arch",
+        "C": "Failure of fusion of the palatine shelves in the midline",
+        "D": "Failure of the second arch to overgrow the cervical sinus",
+        "E": "Persistence of the first pharyngeal cleft as an epithelial tract"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Paraxial mesoderm contributes much of the skull vault and voluntary muscle, but this syndrome affects neural crest derived viscerocranial structures.",
+        "B": "Treacher Collins syndrome is a first arch syndrome caused by a defect in a ribosomal RNA methylase that results in incomplete neural crest cell migration into the first arch, affecting the ears, eyes, mandible, and palate.",
+        "C": "Isolated palatal shelf fusion failure produces cleft palate without malar and auricular hypoplasia.",
+        "D": "Failure of second arch overgrowth leaves branchial cysts and sinuses along the sternocleidomastoid rather than a craniofacial syndrome.",
+        "E": "A persistent first cleft produces preauricular sinuses and cysts, not global midface and mandibular hypoplasia."
+      }
+    }
+  ]
+}
