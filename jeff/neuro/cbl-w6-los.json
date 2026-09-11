@@ -1,0 +1,2465 @@
+{
+  "lecture": "CBL W6 LOs",
+  "block": "neuro",
+  "generated": "2026-09-11",
+  "questions": [
+    {
+      "id": "neuro-cbl-w6-los-001",
+      "question": "A 60-year-old man with poorly controlled hypertension develops a sudden headache and numbness of the right face, arm, and leg. Noncontrast CT shows a hemorrhage in the posterior left thalamus that extends into the left lateral geniculate nucleus. Which visual field defect is most likely present?",
+      "answers": {
+        "A": "Bitemporal hemianopia",
+        "B": "Left homonymous hemianopia",
+        "C": "Left monocular blindness",
+        "D": "Right homonymous hemianopia",
+        "E": "Right superior quadrantanopia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Bitemporal hemianopia results from compression of crossing nasal fibers at the optic chiasm.",
+        "B": "Left homonymous hemianopia results from a retrochiasmal lesion on the right side, such as the right optic tract or right lateral geniculate nucleus.",
+        "C": "Left monocular blindness results from a left optic nerve lesion before any fibers cross.",
+        "D": "The left lateral geniculate nucleus receives ipsilateral temporal fibers from the left eye and crossed nasal fibers from the right eye, both of which represent the right visual field, so its loss causes a right homonymous hemianopia.",
+        "E": "Right superior quadrantanopia results from a lesion confined to the left Meyer loop in the temporal lobe."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-002",
+      "question": "A 36-year-old man is seen for a workplace physical. He works alone as a night-shift security guard and lives by himself. He has no close friends, has never had a romantic relationship, and states he simply prefers his own company. He is indifferent when his supervisor praises or criticizes his work and declines family gatherings without distress. He has no unusual beliefs, and his affect is flat. His personality disorder belongs to the same cluster as which of the following?",
+      "answers": {
+        "A": "Avoidant personality disorder",
+        "B": "Borderline personality disorder",
+        "C": "Dependent personality disorder",
+        "D": "Histrionic personality disorder",
+        "E": "Paranoid personality disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Avoidant personality disorder is cluster C; those patients want relationships but avoid them from fear of rejection, which is the critical distinction from this patient's schizoid personality disorder.",
+        "B": "Borderline personality disorder is a cluster B (dramatic/emotional) disorder defined by instability of relationships, identity, and affect.",
+        "C": "Dependent personality disorder is a cluster C (anxious/fearful) disorder marked by a need to be cared for.",
+        "D": "Histrionic personality disorder is a cluster B disorder defined by attention-seeking and shallow, theatrical emotions.",
+        "E": "Lack of desire for relationships with emotional detachment and indifference to praise or criticism is schizoid personality disorder, which is cluster A (odd/eccentric) along with paranoid and schizotypal personality disorders."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-003",
+      "question": "A 44-year-old woman comes to the physician because of 3 months of episodes she calls 'panic attacks' consisting of a pounding headache, drenching sweats, and palpitations lasting 15 minutes. The episodes occur without warning, including during sleep, and are not triggered by situations she fears. She has no prior psychiatric history. During an episode in the office, her blood pressure is 212/118 mm Hg and pulse is 128/min; between episodes her blood pressure is 148/94 mm Hg. Which of the following is the most appropriate next step in diagnosis?",
+      "answers": {
+        "A": "Cognitive behavioral therapy referral",
+        "B": "Plasma free metanephrine levels",
+        "C": "Serum thyroid-stimulating hormone",
+        "D": "Trial of daily sertraline",
+        "E": "Urine toxicology screen"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "CBT is first-line for primary panic disorder, but paroxysmal severe hypertension with headache and sweating points to a medical cause that must be excluded first.",
+        "B": "Episodic headache, diaphoresis, and tachycardia with paroxysmal severe hypertension suggest pheochromocytoma, so plasma free metanephrines are needed before attributing symptoms to a primary anxiety disorder.",
+        "C": "Hyperthyroidism causes persistent anxiety, tremor, and weight loss rather than discrete paroxysms of severe hypertension.",
+        "D": "An SSRI treats primary panic disorder and would delay diagnosis of a catecholamine-secreting tumor.",
+        "E": "Stimulant intoxication can mimic these episodes, but spells during sleep with no substance history make an adrenal cause more likely."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-004",
+      "question": "A 24-year-old man develops painful vision loss in both eyes followed 2 weeks later by leg weakness. Serum anti-aquaporin-4 IgG is negative. A cell-based assay detects IgG against a myelin glycoprotein that is expressed on the outermost surface of the CNS myelin sheath, where it is accessible to circulating antibodies. Against which antigen is this antibody most likely directed?",
+      "answers": {
+        "A": "AQP4",
+        "B": "MAG",
+        "C": "MBP",
+        "D": "MOG",
+        "E": "PLP"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "AQP4 is a water channel on astrocyte foot processes rather than a myelin protein, and this patient's anti-AQP4 serology is negative.",
+        "B": "MAG lies on the inner periaxonal membrane of myelin, where it mediates axon-glia contact and inhibits CNS axon regeneration, so it is poorly accessible to circulating antibodies.",
+        "C": "MBP sits on the cytoplasmic face of compact myelin, so it is not exposed to circulating antibodies in intact myelin.",
+        "D": "MOG is a myelin glycoprotein displayed on the outer surface of the sheath, which makes it the classic antibody target in antibody-mediated demyelinating disease.",
+        "E": "PLP is the most abundant myelin protein but is a transmembrane component buried within compact myelin rather than displayed on its outer surface."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-005",
+      "question": "A 54-year-old man with alcohol use disorder is admitted with confusion after several days of vomiting and poor oral intake. He is treated with intravenous hypertonic saline followed by normal saline. Serial serum sodium values are shown. His confusion improves, but 3 days later he develops quadriparesis, dysarthria, and dysphagia; he is alert and can open and close his eyes on command but cannot otherwise move. Which MRI finding is most likely?",
+      "table": [
+        [
+          "Time",
+          "Serum Na+",
+          "Reference Range"
+        ],
+        [
+          "Admission",
+          "108 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "12 hours",
+          "119 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "24 hours",
+          "129 mEq/L",
+          "135–145 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Longitudinally extensive central cord lesion",
+        "B": "Mammillary body and periaqueductal T2 signal",
+        "C": "Ovoid periventricular lesions (Dawson fingers)",
+        "D": "Ring-enhancing lesion with surrounding edema",
+        "E": "Symmetric trident-shaped pontine lesion"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A longitudinally extensive central cord lesion suggests neuromyelitis optica and would not cause dysarthria, dysphagia, or a locked-in state.",
+        "B": "Mammillary body and periaqueductal signal change indicates Wernicke encephalopathy from thiamine deficiency, which presents with confusion, ophthalmoplegia, and ataxia rather than quadriparesis.",
+        "C": "Ovoid periventricular lesions oriented perpendicular to the ventricles are characteristic of MS.",
+        "D": "A ring-enhancing lesion with edema suggests abscess or tumor and would not arise days after sodium correction.",
+        "E": "Raising chronically low sodium by 21 mEq/L in 24 hours causes osmotic injury and apoptosis of oligodendrocytes in the central pons, seen as a symmetric trident- or bat-wing-shaped T2 hyperintensity, with quadriparesis and locked-in syndrome 2–6 days later."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-006",
+      "question": "A 25-year-old woman whose older sister has multiple sclerosis comes to the physician for counseling about her own risk. She had infectious mononucleosis at age 16. She has no neurologic symptoms, and examination is normal. Which additional factor in her history would most increase her risk of developing MS?",
+      "answers": {
+        "A": "Carriage of the HLA-A*02 allele",
+        "B": "Childhood spent near the equator",
+        "C": "Current heavy cigarette smoking",
+        "D": "High serum vitamin D levels",
+        "E": "Regular outdoor sun exposure"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "HLA-A*02 is associated with a reduced, not increased, risk of MS.",
+        "B": "Growing up near the equator means greater UV exposure and is associated with lower MS prevalence.",
+        "C": "Cigarette smoking is an established modifiable factor that increases MS risk, adding to her risk from family history and prior EBV infection.",
+        "D": "High vitamin D levels are associated with lower MS risk, whereas low vitamin D increases risk.",
+        "E": "Regular sun exposure increases UV-mediated vitamin D synthesis and is associated with lower MS risk."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-007",
+      "question": "A 29-year-old woman develops numbness ascending from both feet to the umbilicus and urinary urgency over 4 days. This is her first neurologic episode. Examination shows a T10 sensory level and brisk lower extremity reflexes. The differential diagnosis includes multiple sclerosis and neuromyelitis optica spectrum disorder, and further evaluation is planned. Which additional finding would most strongly favor multiple sclerosis?",
+      "answers": {
+        "A": "Absence of CSF oligoclonal bands",
+        "B": "Brain lesions perpendicular to ventricles",
+        "C": "Central cord lesion spanning six segments",
+        "D": "Serum anti-aquaporin-4 IgG positivity",
+        "E": "Severe simultaneous bilateral optic neuritis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Absent oligoclonal bands is typical of NMOSD, whereas most patients with MS have CSF oligoclonal bands.",
+        "B": "Ovoid periventricular lesions oriented perpendicular to the ventricles (along with juxtacortical, infratentorial, and short spinal lesions) are the characteristic MRI distribution of MS and are uncommon in NMOSD.",
+        "C": "A central cord lesion spanning 3 or more vertebral segments (longitudinally extensive transverse myelitis) is characteristic of NMOSD, whereas MS cord lesions are typically short.",
+        "D": "Serum anti-aquaporin-4 IgG is the diagnostic biomarker of NMOSD.",
+        "E": "Severe bilateral optic neuritis favors NMOSD, whereas MS classically causes unilateral optic neuritis."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-008",
+      "question": "A 68-year-old woman with hypertension had a lacunar infarct in the posterior limb of the left internal capsule 6 months ago that left her with persistent weakness of the right arm and leg. She now walks with a stiff right leg that swings outward. Which additional finding is most likely on examination of her right leg?",
+      "answers": {
+        "A": "Absent deep tendon reflexes",
+        "B": "Ankle clonus on dorsiflexion",
+        "C": "Decreased muscle tone",
+        "D": "Fasciculations on inspection",
+        "E": "Marked muscle atrophy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Absent deep tendon reflexes indicate a LMN lesion such as a peripheral neuropathy or radiculopathy that interrupts the reflex arc.",
+        "B": "A chronic UMN lesion removes descending inhibition of the spinal stretch reflex, producing hyperreflexia graded 3+ to 4+, with 4+ representing sustained clonus.",
+        "C": "Decreased tone is a LMN sign or is seen only in the acute phase of a UMN lesion, not 6 months later with spastic gait.",
+        "D": "Fasciculations reflect denervation of motor units from anterior horn cell or root disease, a LMN finding.",
+        "E": "Marked atrophy reflects LMN denervation, whereas UMN lesions cause at most mild disuse atrophy."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-009",
+      "question": "A 67-year-old man with diabetes and hypertension develops sudden horizontal double vision that worsens when he looks to the right. At rest, his right eye is deviated medially, and it cannot move laterally past the midline; left eye movements are full. He also has weakness of the left arm and leg with a left extensor plantar response. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Caudal dorsal midbrain",
+        "B": "Dorsal caudal pons",
+        "C": "Lateral medulla",
+        "D": "Rostral ventral midbrain",
+        "E": "Ventral caudal pons"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A caudal dorsal midbrain lesion involves the trochlear nucleus and produces vertical diplopia from contralateral superior oblique weakness.",
+        "B": "A dorsal caudal pontine lesion involving the abducens nucleus produces a conjugate horizontal gaze palsy affecting both eyes, and spares the ventrally located corticospinal tract.",
+        "C": "A lateral medullary lesion produces Wallenberg syndrome with vertigo, dysphagia, Horner syndrome, and crossed pain/temperature loss rather than a CN VI palsy.",
+        "D": "A rostral ventral midbrain lesion produces Weber syndrome with a down-and-out eye and ptosis from CN III involvement plus contralateral hemiparesis.",
+        "E": "Abducens fibers exit ventrally at the pontomedullary junction beside the pyramids, so a ventral caudal pontine infarct in basilar paramedian territory causes ipsilateral lateral rectus palsy with contralateral hemiparesis."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-010",
+      "question": "A 34-year-old man with relapsing-remitting multiple sclerosis is reviewing two disease-modifying therapies with his neurologist. Each drug was tested in a separate placebo-controlled trial that enrolled a population with a different baseline relapse rate, as shown. Compared with Drug Q, which of the following best describes the efficacy of Drug P?",
+      "table": [
+        [
+          "Drug",
+          "Placebo annualized relapse rate",
+          "Treated annualized relapse rate"
+        ],
+        [
+          "Drug P",
+          "1.20",
+          "0.72"
+        ],
+        [
+          "Drug Q",
+          "0.30",
+          "0.12"
+        ]
+      ],
+      "answers": {
+        "A": "Higher ARR and higher RRR",
+        "B": "Higher ARR and lower RRR",
+        "C": "Lower ARR and higher RRR",
+        "D": "Lower ARR and lower RRR",
+        "E": "Same ARR and same RRR"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Drug P's RRR (0.48/1.20 = 40%) is lower than Drug Q's (0.18/0.30 = 60%), so it does not have the higher RRR.",
+        "B": "Drug P's ARR is 1.20 − 0.72 = 0.48 versus 0.30 − 0.12 = 0.18 for Drug Q, but its RRR is 40% versus 60%, because Drug P was tested in a higher-risk population.",
+        "C": "This describes Drug Q relative to Drug P (lower ARR of 0.18 but higher RRR of 60%), the reverse of the comparison asked.",
+        "D": "Drug P prevents more relapses in absolute terms (0.48 vs 0.18 per patient-year), so its ARR is not lower.",
+        "E": "Both the ARR (0.48 vs 0.18) and the RRR (40% vs 60%) differ between the two drugs."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-011",
+      "question": "A 42-year-old woman with relapsing-remitting multiple sclerosis has persistent daily fatigue. Depression, anemia, hypothyroidism, sleep apnea, and urinary tract infection have been excluded, and she has adopted pacing, scheduled rest breaks, aerobic exercise, and cooling strategies with only partial benefit. Her neurologist discusses off-label medications and cites a randomized, placebo-controlled crossover trial of amantadine, modafinil, and methylphenidate for MS fatigue. Which result did this trial show?",
+      "answers": {
+        "A": "All drugs superior to placebo",
+        "B": "Amantadine superior to placebo",
+        "C": "Methylphenidate superior to placebo",
+        "D": "Modafinil superior to placebo",
+        "E": "No drug superior to placebo"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "None of the three agents outperformed placebo in TRIUMPHANT-MS, so the evidence for off-label fatigue medications is modest at best.",
+        "B": "Amantadine, a commonly used off-label agent, did not reduce fatigue more than placebo and caused more adverse effects.",
+        "C": "Methylphenidate did not improve fatigue scores beyond placebo in this trial.",
+        "D": "Modafinil did not improve fatigue scores beyond placebo in this trial.",
+        "E": "In TRIUMPHANT-MS, amantadine, modafinil, and methylphenidate were not superior to placebo for MS fatigue, so treating secondary causes and nonpharmacologic strategies remain the foundation of management."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-012",
+      "question": "A 45-year-old woman with long-standing diabetes reports double vision for 3 days. During the H-pattern test, when she is asked to look up and toward her right ear, her right eye fails to elevate; all other movements of both eyes are full, and the pupils are equal and reactive. The weak muscle is innervated by which nerve?",
+      "answers": {
+        "A": "Abducens nerve",
+        "B": "Oculomotor nerve",
+        "C": "Ophthalmic nerve",
+        "D": "Optic nerve",
+        "E": "Trochlear nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The abducens nerve supplies the lateral rectus, and its injury impairs abduction rather than elevation.",
+        "B": "Elevation of the abducted eye isolates the superior rectus, which is supplied by the superior division of the oculomotor nerve (ATR3); diabetic ischemic CN III lesions typically spare the pupil.",
+        "C": "The ophthalmic division of the trigeminal nerve is purely sensory to the cornea and forehead and does not move the eye.",
+        "D": "The optic nerve carries afferent visual information only and has no role in extraocular movement.",
+        "E": "The trochlear nerve supplies the superior oblique, which intorts and depresses the eye and would cause diplopia on downgaze."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-013",
+      "question": "A 26-year-old man develops progressive weakness of his right leg over 5 days. Examination shows right leg hyperreflexia and an extensor plantar response. MRI of the brain shows a left periventricular T2-hyperintense lesion that enhances in an open-ring pattern after gadolinium administration, along with several older non-enhancing lesions. The gadolinium enhancement of the new lesion most directly reflects which event?",
+      "answers": {
+        "A": "Astrocytic gliosis replacing lost myelin",
+        "B": "Axonal transection with Wallerian degeneration",
+        "C": "Blood-brain barrier disruption by T cells",
+        "D": "JC viral replication within oligodendrocytes",
+        "E": "Remyelination by precursor oligodendrocytes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Astrocytic gliosis characterizes chronic, non-enhancing plaques that often appear as T1-hypointense black holes.",
+        "B": "Axonal transection with Wallerian degeneration contributes to atrophy and permanent disability but does not by itself cause contrast leakage.",
+        "C": "Autoreactive T cells recognizing myelin antigens drive inflammation that disrupts the blood-brain barrier, letting gadolinium leak into the lesion and recruiting further inflammatory cells, which marks the lesion as active.",
+        "D": "JC virus replication in oligodendrocytes causes PML, whose lesions are typically non-enhancing or minimally enhancing with little mass effect.",
+        "E": "Remyelination by oligodendrocyte precursor cells is a repair process that does not open the blood-brain barrier or produce enhancement."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-014",
+      "question": "A 58-year-old man is brought to the physician by his wife because of 6 weeks of new suspiciousness, hearing voices commenting on his actions, and uncharacteristic irritability. He has no personal or family history of psychiatric illness and does not use alcohol or drugs. He also reports headaches that are worst on awakening and two episodes of vomiting. Funduscopic examination shows bilateral optic disc swelling with blurred margins. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Contrast-enhanced MRI of the brain",
+        "B": "Electroencephalography monitoring",
+        "C": "Initiation of oral risperidone",
+        "D": "Lumbar puncture with opening pressure",
+        "E": "Referral for psychotherapy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "First-episode psychosis in late middle age with morning headaches, vomiting, and papilledema suggests psychosis due to a medical condition such as a brain tumor, so neuroimaging must come first.",
+        "B": "EEG evaluates seizure activity (e.g., complex partial seizures causing episodic psychosis) but would not identify the mass lesion suggested by raised intracranial pressure.",
+        "C": "Starting an antipsychotic treats a presumed primary psychotic disorder and would delay diagnosis of the structural cause suggested by papilledema.",
+        "D": "Lumbar puncture in a patient with papilledema and a possible mass lesion risks brainstem herniation and should not precede imaging.",
+        "E": "Psychotherapy is appropriate for primary psychiatric or personality disorders, not for new psychosis with signs of increased intracranial pressure."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-015",
+      "question": "A 29-year-old woman with newly diagnosed relapsing-remitting multiple sclerosis is deciding whether to start an injectable therapy. Her neurologist explains that in the pivotal trial, 25% of placebo-treated patients had a relapse within 1 year and that the drug reduced this risk by 40% relative to placebo. The patient asks how many people must be treated for 1 year to prevent a single relapse. Which of the following is the best answer?",
+      "answers": {
+        "A": "3 patients",
+        "B": "4 patients",
+        "C": "7 patients",
+        "D": "10 patients",
+        "E": "40 patients"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "About 3 is the reciprocal of the relative risk reduction (1/0.40 = 2.5), which ignores baseline risk.",
+        "B": "4 is the reciprocal of the control event rate (1/0.25), not of the absolute risk reduction.",
+        "C": "About 7 is the reciprocal of the experimental event rate (1/0.15 ≈ 6.7) rather than of the risk difference.",
+        "D": "ARR = CER × RRR = 0.25 × 0.40 = 0.10 (EER = 0.15), so NNT = 1/0.10 = 10.",
+        "E": "40 is the relative risk reduction expressed as a whole number, not a number of patients."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-016",
+      "question": "A 52-year-old woman comes to the physician because of 4 months of low mood, loss of interest in gardening, fatigue, and slowed thinking. She has gained 6 kg and reports constipation, cold intolerance, and dry skin. She has no prior psychiatric history and no recent stressors. Examination shows delayed relaxation of the ankle reflexes. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "18.2 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Free T4",
+          "0.5 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "Sodium",
+          "134 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Hemoglobin",
+          "12.1 g/dL",
+          "12.0–16.0 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Adjustment disorder with depressed mood",
+        "B": "Borderline personality disorder",
+        "C": "Depression due to hypothyroidism",
+        "D": "Major depressive disorder, single episode",
+        "E": "Persistent depressive disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Adjustment disorder requires mood symptoms that follow an identifiable psychosocial stressor, which she does not have.",
+        "B": "Borderline personality disorder is an enduring pattern of unstable relationships, identity, and affect evident by early adulthood, not a new-onset depression in midlife.",
+        "C": "New-onset depression with a clear physiologic link to an identifiable medical condition (elevated TSH and low free T4 with hypothyroid signs) is classified as psychiatric symptoms due to a medical condition and should improve with levothyroxine.",
+        "D": "Major depressive disorder is a primary psychiatric diagnosis that can only be made when there is no better explanation from a medical condition, and her thyroid studies provide one.",
+        "E": "Persistent depressive disorder requires depressed mood on most days for at least 2 years and, like MDD, is not diagnosed when a medical condition explains the symptoms."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-017",
+      "question": "A 36-year-old woman with migraine and hypertension has multiple ovoid white matter lesions discovered on MRI obtained for headache. The differential diagnosis includes multiple sclerosis and small vessel ischemic disease. Susceptibility-weighted imaging at 7 tesla shows a thin hypointense line running through the center of most of the lesions. This imaging sign reflects which pathologic property of her lesions?",
+      "answers": {
+        "A": "Dilated perivascular spaces around arterioles",
+        "B": "Hemosiderin from prior microhemorrhage",
+        "C": "Necrotic core with peripheral enhancement",
+        "D": "Occlusion of small penetrating arterioles",
+        "E": "Plaques centered on small veins"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Dilated perivascular spaces follow penetrating vessels and appear as CSF-intensity dots or lines rather than a central line within demyelinating lesions.",
+        "B": "Hemosiderin from microhemorrhages appears as round susceptibility foci, as in hypertensive or amyloid angiopathy, rather than a linear central vein.",
+        "C": "A necrotic core with peripheral enhancement suggests an abscess or high-grade tumor, not small ovoid white matter lesions.",
+        "D": "Occlusion of small penetrating arterioles causes lacunar infarcts and small vessel ischemic disease, whose lesions typically lack a central vein.",
+        "E": "MS plaques form around small veins (perivenular inflammation), so a vein is visible in the center of the lesion on high-field MRI, the \"central vein sign\" that favors MS over ischemic lesions."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-018",
+      "question": "A 58-year-old man with hypertension develops sudden vertical double vision that is worst when he walks down stairs or reads. He holds his head tilted toward his right shoulder. MRI shows a small infarct in the right caudal dorsal midbrain in the territory of the paramedian branches of the posterior cerebral artery. Weakness of which muscle best explains his symptoms?",
+      "answers": {
+        "A": "Left inferior oblique",
+        "B": "Left superior oblique",
+        "C": "Right inferior rectus",
+        "D": "Right superior oblique",
+        "E": "Right superior rectus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Inferior oblique weakness impairs elevation of the adducted eye and produces diplopia on upgaze, not when descending stairs.",
+        "B": "Trochlear nucleus axons decussate before exiting the dorsal midbrain, so a right nuclear lesion weakens the left superior oblique, impairing depression of the adducted eye and causing a compensatory head tilt away from the affected eye.",
+        "C": "Right inferior rectus weakness would arise from an oculomotor lesion and would typically accompany ptosis or other CN III deficits.",
+        "D": "Right superior oblique weakness results from a right trochlear nerve injury after decussation or a left nuclear lesion, not a right nuclear lesion.",
+        "E": "Superior rectus weakness impairs elevation of the abducted eye and causes diplopia on upward gaze."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-019",
+      "question": "A 38-year-old woman comes to the physician because of 4 months of depressed mood, irritability, insomnia, and crying spells. She has no prior psychiatric history. She has gained weight in her face and trunk, and examination shows purple abdominal striae and a blood pressure of 158/98 mm Hg. Laboratory studies are shown. MRI shows a pituitary microadenoma, and she undergoes successful transsphenoidal resection. Which of the following is the most likely course of her mood symptoms?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Late-night salivary cortisol",
+          "0.62 µg/dL",
+          "< 0.09 µg/dL"
+        ],
+        [
+          "24-hour urine free cortisol",
+          "310 µg/24 h",
+          "< 50 µg/24 h"
+        ],
+        [
+          "ACTH",
+          "88 pg/mL",
+          "10–60 pg/mL"
+        ],
+        [
+          "Fasting glucose",
+          "168 mg/dL",
+          "70–100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Chronic, unchanged regardless of cortisol",
+        "B": "Improvement as cortisol levels normalize",
+        "C": "Lifelong pattern evident across settings",
+        "D": "Progressive decline despite resection",
+        "E": "Recurrent episodes independent of cortisol"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A chronic course unaffected by the underlying illness would argue against a medical cause, but her symptoms have a direct physiologic link to hypercortisolism.",
+        "B": "Psychiatric symptoms due to a medical condition typically follow the course of the underlying illness, so mood should improve as ACTH-driven hypercortisolism resolves.",
+        "C": "An enduring pattern present across settings since adolescence describes a personality disorder, not new-onset mood symptoms in a 38-year-old with Cushing disease.",
+        "D": "Progressive worsening after cure of the underlying cause would suggest an alternative diagnosis such as a primary psychiatric or neurodegenerative disorder.",
+        "E": "Recurrent episodes unrelated to the medical illness would suggest a primary mood disorder such as recurrent major depressive disorder."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-020",
+      "question": "A 79-year-old man with alcohol use disorder is brought to the emergency department by his daughter because of 10 days of worsening confusion, headache, and unsteady gait. He fell at home 3 weeks ago but did not lose consciousness. He takes daily aspirin. He is oriented only to person and has mild left-sided weakness. Given the most likely diagnosis, noncontrast CT of the head is most likely to show which of the following?",
+      "answers": {
+        "A": "Biconvex hyperdensity bounded by sutures",
+        "B": "Diffuse blood in basal cisterns and sulci",
+        "C": "Enlarged ventricles out of proportion to sulci",
+        "D": "Hyperdense intraparenchymal putaminal clot",
+        "E": "Low-density crescent crossing suture lines"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A biconvex collection limited by suture lines is an epidural hematoma, which follows arterial injury and usually presents within hours with a lucid interval.",
+        "B": "Blood in the basal cisterns and sulci indicates subarachnoid hemorrhage, typically presenting with sudden severe headache.",
+        "C": "Ventricular enlargement out of proportion to sulcal atrophy suggests normal pressure hydrocephalus, which evolves over months rather than weeks after a fall.",
+        "D": "A hyperdense putaminal clot is a hypertensive intraparenchymal hemorrhage with abrupt onset rather than subacute decline after trauma.",
+        "E": "Elderly patients with alcohol use and brain atrophy have stretched bridging veins that tear after minor falls, producing a crescent-shaped subdural hematoma that crosses suture lines and becomes hypodense as it ages over weeks."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-021",
+      "question": "A 45-year-old woman with relapsing-remitting multiple sclerosis receives her first intravenous infusion of a humanized monoclonal antibody that is repeated every 6 months. During the infusion she develops pruritus and throat irritation that resolve after the infusion rate is slowed. Flow cytometry 2 weeks later shows undetectable CD19+ B cells (previously 240/µL) with unchanged CD3+ T-cell counts. Over the next 2 years she has no relapses or new gadolinium-enhancing lesions. The drug's efficacy best supports which pathogenic role of the depleted cells in multiple sclerosis?",
+      "answers": {
+        "A": "Anti-aquaporin-4 antibody production",
+        "B": "Antigen presentation to autoreactive T cells",
+        "C": "Complement-mediated astrocyte destruction",
+        "D": "JC virus-mediated oligodendrocyte lysis",
+        "E": "Microglial release of oxidative free radicals"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anti-aquaporin-4 IgG is produced in neuromyelitis optica, not multiple sclerosis, and targets astrocyte water channels.",
+        "B": "Ocrelizumab depletes CD20-positive B cells, and its efficacy shows that B cells sustain MS inflammation by presenting myelin antigens to autoreactive T cells, secreting pro-inflammatory cytokines, and producing oligoclonal antibodies.",
+        "C": "Complement-mediated destruction of AQP4-positive astrocytes is the necrotizing lesion of neuromyelitis optica rather than MS.",
+        "D": "JC virus lysis of oligodendrocytes causes progressive multifocal leukoencephalopathy, an opportunistic infection rather than the autoimmune demyelination of MS.",
+        "E": "Microglial oxidative injury is a target of dimethyl fumarate via Nrf2 and would not be directly reduced by selective B-cell depletion."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-022",
+      "question": "A 52-year-old man comes to the physician with his wife, who is concerned that he has become isolated. He has filed several lawsuits against neighbors he believes are trying to damage his property, and he refuses to tell his wife about his finances because he is sure she will use the information against him. When a coworker compliments his report, he interprets it as a hidden insult. He has no hallucinations and functions well at work. His social isolation is best explained by which of the following?",
+      "answers": {
+        "A": "Absent desire for close relationships",
+        "B": "Belief that others will exploit him",
+        "C": "Fear of being criticized or rejected",
+        "D": "Need for constant admiration from others",
+        "E": "Odd beliefs that alienate other people"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Absent desire for relationships explains isolation in schizoid personality disorder, not in a patient whose withdrawal is driven by suspicion.",
+        "B": "In paranoid personality disorder, social isolation stems from distrust and suspicion that others are harming or deceiving the patient, not from a lack of interest in relationships.",
+        "C": "Fear of criticism and rejection drives social withdrawal in avoidant personality disorder.",
+        "D": "Need for admiration is a feature of narcissistic personality disorder and does not typically cause withdrawal.",
+        "E": "Odd, magical beliefs and eccentric behavior that alienate others characterize schizotypal personality disorder."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-023",
+      "question": "A 53-year-old man has had relapsing-remitting multiple sclerosis for 15 years; his most recent relapse 6 years ago left persistent left leg weakness. MRI shows well-demarcated T2-hyperintense lesions that are hypointense on T1-weighted images and do not enhance with gadolinium, along with widening of the sulci and ventricles compared with studies from a decade ago. Biopsy of one of these lesions would most likely show which finding?",
+      "answers": {
+        "A": "Bizarre astrocytes and oligodendroglial inclusions",
+        "B": "Dense astrocytic gliosis with axonal loss",
+        "C": "Perivenous neutrophils and eosinophils",
+        "D": "Perivenular T cells with myelin-laden macrophages",
+        "E": "Sleeves of perivenous demyelination"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bizarre astrocytes and enlarged oligodendrocytes with viral inclusions are the histologic hallmarks of PML.",
+        "B": "Chronic MS plaques (non-enhancing, T1 black holes, with atrophy) show near-complete myelin loss, oligodendrocyte depletion, axonal loss, and dense astrocytic gliosis with minimal inflammation.",
+        "C": "Perivenous infiltrates rich in neutrophils and eosinophils are characteristic of neuromyelitis optica lesions.",
+        "D": "Perivenular T cells and myelin-laden macrophages define an active plaque, which would typically enhance with gadolinium.",
+        "E": "Sleeves of perivenous demyelination with lymphocytic infiltrates are the histologic hallmark of ADEM."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-024",
+      "question": "A 34-year-old woman with a history of an episode of painful vision loss in her left eye last year presents with horizontal double vision. When she looks to the left, her right eye fails to cross the midline while her left eye abducts fully with horizontal nystagmus. When she focuses on a near object, both eyes adduct normally. A lesion in which structure best explains these findings?",
+      "answers": {
+        "A": "Left abducens nucleus",
+        "B": "Left medial longitudinal fasciculus",
+        "C": "Right abducens nucleus",
+        "D": "Right medial longitudinal fasciculus",
+        "E": "Right oculomotor nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left abducens nucleus lesion causes an ipsilateral horizontal gaze palsy in which neither eye can look to the left, rather than isolated failure of right eye adduction.",
+        "B": "A left MLF lesion would prevent the left eye from adducting on rightward gaze (left INO), which is the opposite pattern.",
+        "C": "A right abducens nucleus lesion would cause a conjugate gaze palsy to the right with neither eye able to look right.",
+        "D": "The right MLF carries signals from the left abducens nucleus to the right oculomotor nucleus, so its interruption prevents right eye adduction on left gaze with nystagmus of the abducting eye, while intact convergence proves the medial rectus and CN III are intact (right INO, classic in MS).",
+        "E": "A right oculomotor nucleus lesion would impair adduction during convergence as well and add ptosis and a down-and-out eye."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-025",
+      "question": "A 62-year-old woman with atrial fibrillation develops sudden drooping of the left eyelid and double vision. Examination shows a dilated left pupil and a left eye that rests down and out. She also has weakness of the right arm and leg with a right extensor plantar response. Occlusion of which vessel most likely caused this presentation?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Basilar paramedian branches",
+        "D": "Posterior cerebral artery branches",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "AICA occlusion causes a lateral pontine syndrome with ipsilateral facial paralysis, hearing loss, and vertigo.",
+        "B": "Anterior spinal artery occlusion causes a medial medullary syndrome with contralateral hemiparesis and ipsilateral tongue deviation from CN XII injury.",
+        "C": "Paramedian basilar branches supply the caudal pons, and their occlusion causes an abducens palsy or horizontal gaze palsy with contralateral hemiparesis.",
+        "D": "Paramedian branches of the posterior cerebral artery supply the rostral midbrain, including the oculomotor nucleus and fascicles and the cerebral peduncle, producing an ipsilateral CN III palsy with contralateral hemiparesis (Weber syndrome).",
+        "E": "Superior cerebellar artery occlusion causes ipsilateral limb ataxia and contralateral pain and temperature loss rather than an oculomotor palsy with hemiparesis."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-026",
+      "question": "A 34-year-old woman with highly active relapsing-remitting multiple sclerosis received a 5-day course of an intravenous monoclonal antibody, followed by a 3-day course 12 months later. Her neurologist has been ordering monthly complete blood counts and urinalyses as part of drug monitoring. Eighteen months after the second course, she reports palpitations, heat intolerance, a 5-kg weight loss, and a fine tremor. Laboratory results are shown. The monoclonal antibody she received most likely targets which of the following?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference range"
+        ],
+        [
+          "TSH",
+          "0.01 mU/L",
+          "0.4–4.0 mU/L"
+        ],
+        [
+          "Free T4",
+          "3.9 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "TSH receptor antibody",
+          "Positive",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Alpha-4 integrin",
+        "B": "CD20 antigen",
+        "C": "CD25 antigen",
+        "D": "CD52 antigen",
+        "E": "S1P receptor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anti-α4-integrin therapy (natalizumab) is given monthly and is associated with PML, not delayed Graves disease.",
+        "B": "Anti-CD20 therapy (ocrelizumab) is given every 6 months and mainly raises the risk of infections and hepatitis B reactivation.",
+        "C": "Anti-CD25 therapy (daclizumab) blocked the IL-2 receptor α chain and was withdrawn for immune-mediated liver injury and encephalitis, not given as two annual courses.",
+        "D": "Alemtuzumab binds CD52 on mature lymphocytes, causing profound depletion; during immune reconstitution, secondary autoimmune disease such as Graves disease, ITP, and anti-GBM disease emerges, which is why monthly CBC and urinalysis are required.",
+        "E": "S1P receptor modulators such as fingolimod are oral drugs that sequester lymphocytes and cause bradycardia and macular edema rather than thyroid autoimmunity."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-027",
+      "question": "A 49-year-old man who stopped taking his antihypertensive medications 2 months ago presents with a severe headache and blurred vision in both eyes for 1 day. Fundoscopy of both eyes shows arteriovenous nicking, flame-shaped hemorrhages, cotton wool spots, hard exudates arranged in a star around the macula, and swelling of the optic discs. Laboratory and vital sign data are shown. What is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "226/134 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "94/min",
+          "60–100/min"
+        ],
+        [
+          "Creatinine",
+          "2.3 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "Urine protein",
+          "2+",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Central retinal artery occlusion",
+        "B": "Central retinal vein occlusion",
+        "C": "Hypertensive retinopathy",
+        "D": "Idiopathic intracranial hypertension",
+        "E": "Optic neuritis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Central retinal artery occlusion causes sudden painless monocular vision loss with retinal whitening and a cherry-red spot.",
+        "B": "Central retinal vein occlusion is typically unilateral with dilated tortuous veins and hemorrhages in all quadrants rather than bilateral AV nicking and a macular star.",
+        "C": "Severely elevated blood pressure produces bilateral AV nicking, flame hemorrhages, cotton wool spots, and a macular star, and the added disc swelling with acute kidney injury indicates a hypertensive emergency (malignant hypertension).",
+        "D": "Idiopathic intracranial hypertension causes bilateral disc edema in young obese patients with normal blood pressure and no arteriolar changes or exudates.",
+        "E": "Optic neuritis causes unilateral painful vision loss with red desaturation and usually a normal-appearing disc."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-028",
+      "question": "A 31-year-old woman has had two episodes of neurologic dysfunction 14 months apart: right optic neuritis and later left arm numbness, each followed by near-complete recovery. MRI shows periventricular and juxtacortical T2-hyperintense lesions. Lumbar puncture results are shown. The cell type responsible for the most specific abnormality in these results also sustains the autoimmune attack through which additional mechanism?",
+      "table": [
+        [
+          "CSF Test",
+          "Result",
+          "Reference Range"
+        ],
+        [
+          "WBC",
+          "6/µL (lymphocytes)",
+          "0–5/µL"
+        ],
+        [
+          "Protein",
+          "48 mg/dL",
+          "15–45 mg/dL"
+        ],
+        [
+          "Glucose",
+          "62 mg/dL",
+          "40–70 mg/dL"
+        ],
+        [
+          "IgG index",
+          "1.1",
+          "<0.7"
+        ],
+        [
+          "Oligoclonal bands",
+          "5 bands; absent in paired serum",
+          "Absent"
+        ]
+      ],
+      "answers": {
+        "A": "Forming a dense glial scar in chronic plaques",
+        "B": "Lysing oligodendrocytes via direct cytotoxicity",
+        "C": "Phagocytosing myelin debris in active plaques",
+        "D": "Presenting myelin antigen to helper T cells",
+        "E": "Secreting anti-aquaporin-4 IgG at astrocytes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dense glial scarring of chronic plaques is produced by reactive astrocytes, not by the antibody-producing cells responsible for oligoclonal bands.",
+        "B": "Direct cytotoxic lysis of target cells is a function of CD8+ cytotoxic T cells rather than B cells.",
+        "C": "Phagocytosis of myelin debris in active plaques is performed by macrophages and microglia.",
+        "D": "Oligoclonal bands reflect intrathecal IgG from clonally expanded B cells, which also present myelin antigens to autoreactive T cells and release pro-inflammatory signals that amplify and sustain the attack, explaining the efficacy of anti-CD20 therapy.",
+        "E": "Anti-aquaporin-4 IgG targets astrocytes in neuromyelitis optica, which usually lacks CSF oligoclonal bands and does not fit this relapsing course with periventricular lesions."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-029",
+      "question": "A 37-year-old man with relapsing-remitting multiple sclerosis has taken a twice-daily oral medication for 2 years. During the first month of therapy he had facial flushing and abdominal cramping about 30 minutes after doses, which improved when he took it with food. He is currently asymptomatic with a normal neurologic examination. Serial laboratory results are shown. The persistent laboratory abnormality most increases his risk for which complication?",
+      "table": [
+        [
+          "Time on therapy",
+          "Absolute lymphocyte count (reference 1,000–4,800/µL)"
+        ],
+        [
+          "Baseline",
+          "1,650/µL"
+        ],
+        [
+          "12 months",
+          "720/µL"
+        ],
+        [
+          "18 months",
+          "460/µL"
+        ],
+        [
+          "24 months",
+          "410/µL"
+        ]
+      ],
+      "answers": {
+        "A": "Autoimmune hyperthyroidism",
+        "B": "Cystoid macular edema",
+        "C": "Hepatitis B reactivation",
+        "D": "Immune thrombocytopenia",
+        "E": "PML from JC virus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Autoimmune hyperthyroidism is a delayed secondary autoimmune complication of alemtuzumab rather than dimethyl fumarate.",
+        "B": "Macular edema is a characteristic adverse effect of fingolimod, not a consequence of fumarate-induced lymphopenia.",
+        "C": "Hepatitis B reactivation is the key concern with anti-CD20 B-cell depletion such as ocrelizumab.",
+        "D": "Immune thrombocytopenia is a secondary autoimmune disorder seen after alemtuzumab-induced lymphocyte depletion.",
+        "E": "Flushing and GI upset identify dimethyl fumarate, and prolonged lymphopenia (especially <500/µL for more than 6 months) is the main risk factor for JC virus–induced progressive multifocal leukoencephalopathy."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-030",
+      "question": "A 30-year-old woman had right optic neuritis 1 year ago with good recovery. She now reports that vision in her right eye becomes blurry within minutes of starting a hot shower or a run and returns to baseline within an hour of cooling down. Between episodes her visual acuity is 20/20, and MRI shows no new or enhancing lesions. Which mechanism best explains her transient symptoms?",
+      "answers": {
+        "A": "Conduction failure in demyelinated axons",
+        "B": "Embolic occlusion of the retinal artery",
+        "C": "New perivenular inflammatory plaque",
+        "D": "Raised intracranial pressure on the disc",
+        "E": "Vasospasm of the ophthalmic artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In Uhthoff phenomenon, heat or exertion further lowers the already reduced safety factor of conduction in previously demyelinated axons, causing a temporary conduction block that reverses with cooling.",
+        "B": "Central retinal artery embolism causes sudden, painless, persistent monocular vision loss with a cherry-red spot, not reversible heat-triggered blurring.",
+        "C": "A new inflammatory plaque (a true relapse) causes symptoms lasting at least 24 hours, often with enhancement, rather than minutes-long episodes tied to temperature.",
+        "D": "Raised intracranial pressure causes bilateral papilledema with headache worse lying down and posture-related visual obscurations, not heat-triggered symptoms.",
+        "E": "Ophthalmic artery vasospasm causes episodic painless monocular vision loss unrelated to body temperature and is not a feature of demyelinating disease."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-031",
+      "question": "A 17-year-old boy is brought to the physician by court order after being arrested for stealing a car. Records show that at age 12 he set fire to a neighbor's shed, and he has repeatedly been truant, tortured the family cat, and threatened classmates with a knife. He shows no remorse and says the car owner 'should have locked it.' Which of the following is the most appropriate diagnosis?",
+      "answers": {
+        "A": "Antisocial personality disorder",
+        "B": "Borderline personality disorder",
+        "C": "Conduct disorder",
+        "D": "Narcissistic personality disorder",
+        "E": "Oppositional defiant disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Antisocial personality disorder cannot be diagnosed until age 18, even when the pattern of violating others' rights is present.",
+        "B": "Borderline personality disorder involves unstable relationships, affect, and self-image with self-harm, not repeated aggression toward people and animals.",
+        "C": "A repetitive pattern of violating others' rights and societal rules (fire setting, animal cruelty, theft, threats) in a patient younger than 18 is conduct disorder, which can later evolve into antisocial personality disorder.",
+        "D": "Narcissistic personality disorder centers on grandiosity and need for admiration rather than cruelty, theft, and fire setting.",
+        "E": "Oppositional defiant disorder involves angry, defiant behavior toward authority figures without serious violations such as theft, arson, or cruelty."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-032",
+      "question": "A 7-year-old boy is brought to the emergency department with fever, lethargy, and a generalized seizure. Ten days ago he had an upper respiratory infection that resolved. Examination shows confusion, right leg weakness, and truncal ataxia. MRI shows large, poorly demarcated, bilateral T2-hyperintense lesions in the deep and subcortical white matter, basal ganglia, and cerebellum, all of similar age. CSF culture and viral PCR panel are negative. Which mechanism best explains this condition?",
+      "answers": {
+        "A": "Antibodies against astrocyte water channels",
+        "B": "Molecular mimicry after a viral infection",
+        "C": "Osmotic injury after sodium correction",
+        "D": "Reactivation of latent JC polyomavirus",
+        "E": "Relapsing autoreactive T-cell attacks"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Antibodies against aquaporin-4 cause neuromyelitis optica, which presents with severe optic neuritis and longitudinally extensive myelitis rather than post-infectious encephalopathy.",
+        "B": "ADEM follows an infection or vaccination when the immune response to foreign antigens cross-reacts with myelin (molecular mimicry), causing a monophasic attack of widespread perivenous demyelination with encephalopathy, classically in children.",
+        "C": "Osmotic injury after rapid sodium correction causes osmotic demyelination syndrome, centered in the pons.",
+        "D": "Reactivation of JC polyomavirus causes PML in immunosuppressed patients, with subacute progressive deficits and no fever.",
+        "E": "Relapsing autoreactive T-cell attacks describe MS, whose lesions are disseminated in time rather than all of similar age after a single trigger."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-033",
+      "question": "A 28-year-old woman is diagnosed with relapsing-remitting multiple sclerosis. Her identical twin sister asks about her own risk. The physician explains that concordance for MS is about 35% in monozygotic twins, 3–4% in first-degree relatives, and about 0.1% in the general population. Which conclusion is best supported by these figures?",
+      "answers": {
+        "A": "Both genes and environment contribute",
+        "B": "Disease is entirely genetically determined",
+        "C": "Inheritance is autosomal dominant",
+        "D": "Maternal mitochondrial DNA transmits risk",
+        "E": "Shared household exposure explains risk"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Concordance far above the population rate implicates genetic susceptibility such as HLA-DRB1*15, while concordance well below 100% in genetically identical twins shows that environmental factors are also required.",
+        "B": "A purely genetic disease would show near-100% concordance in monozygotic twins, not 35%.",
+        "C": "Autosomal dominant inheritance would produce roughly 50% risk in first-degree relatives, far higher than the observed 3–4%.",
+        "D": "Mitochondrial inheritance would transmit risk to all offspring of affected mothers and would not explain the gap between twins and other relatives.",
+        "E": "Shared household exposure alone would give similar concordance in siblings and identical twins raised together, so it cannot explain the large difference."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-034",
+      "question": "A 27-year-old woman is referred to a psychiatrist after losing her third job in 2 years because of conflicts with supervisors. She reports low mood, feeling misunderstood, and similar arguments with friends and her roommate. Physical examination and a basic metabolic panel are normal. The psychiatrist is trying to determine whether her difficulties reflect a personality disorder or a primary mood disorder. Which of the following additional findings would most strongly support a personality disorder?",
+      "answers": {
+        "A": "Discrete episodes with full return to baseline",
+        "B": "Hypothyroidism preceding the onset of symptoms",
+        "C": "Neurovegetative symptoms lasting two weeks",
+        "D": "Pervasive pattern evident since adolescence",
+        "E": "Symptoms limited to one setting after stress"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "An episodic course with return to baseline between episodes is typical of a primary psychiatric disorder such as major depressive or bipolar disorder.",
+        "B": "Symptoms that begin after an identifiable medical condition suggest psychiatric symptoms due to a medical condition rather than a personality disorder.",
+        "C": "Two weeks of sleep, appetite, and energy changes with depressed mood supports a major depressive episode, a primary psychiatric disorder.",
+        "D": "Personality disorders are enduring, inflexible, and pervasive patterns present across multiple settings and usually evident by adolescence or early adulthood.",
+        "E": "Symptoms confined to one context after a stressor suggest an adjustment disorder, whereas personality disorders are pervasive across settings."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-035",
+      "question": "A 46-year-old woman reports 3 months of numbness over her right forehead and upper eyelid. She raises her eyebrows and squeezes both eyes shut with symmetric strength, and facial sensation over the cheeks and jaw is normal. The results of corneal reflex testing are shown. A lesion of which structure best explains these findings?",
+      "table": [
+        [
+          "Stimulus",
+          "Right eye blink",
+          "Left eye blink"
+        ],
+        [
+          "Wisp touched to right cornea",
+          "Absent",
+          "Absent"
+        ],
+        [
+          "Wisp touched to left cornea",
+          "Present",
+          "Present"
+        ]
+      ],
+      "answers": {
+        "A": "Left facial nerve (CN VII)",
+        "B": "Left trigeminal nerve (V1)",
+        "C": "Right facial nerve (CN VII)",
+        "D": "Right oculomotor nerve (CN III)",
+        "E": "Right trigeminal nerve (V1)"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A left facial nerve lesion would abolish the left eye blink regardless of which cornea is touched and would weaken left eye closure.",
+        "B": "A left V1 lesion would abolish both blinks when the left cornea is touched, while right corneal stimulation would be normal.",
+        "C": "A right facial nerve lesion would abolish the right eye blink with stimulation of either cornea and cause right facial weakness.",
+        "D": "The oculomotor nerve raises the eyelid via levator palpebrae superioris and plays no role in the corneal blink reflex.",
+        "E": "Corneal touch travels via the nasociliary nerve and V1 to the trigeminal sensory nucleus, which projects to both facial nuclei, so loss of the right afferent limb abolishes both blinks from right-sided stimulation while bilateral CN VII efferents remain intact."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-036",
+      "question": "A 31-year-old woman with relapsing-remitting multiple sclerosis diagnosed 6 months ago asks her neurologist how effective a newly approved oral agent is. Her neurologist reviews the phase 3 trial results shown. The patient wants to know how many people would need to take the drug for 2 years to prevent one person from having a relapse. Which of the following is the best answer?",
+      "table": [
+        [
+          "Group",
+          "Patients enrolled",
+          "Patients with ≥1 relapse at 2 years"
+        ],
+        [
+          "Placebo",
+          "400",
+          "200"
+        ],
+        [
+          "Drug X",
+          "400",
+          "120"
+        ]
+      ],
+      "answers": {
+        "A": "2 patients",
+        "B": "3 patients",
+        "C": "5 patients",
+        "D": "20 patients",
+        "E": "40 patients"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "2 is the reciprocal of the control event rate (1/0.50), not of the absolute risk reduction.",
+        "B": "About 3 is the reciprocal of the experimental event rate (1/0.30 ≈ 3.3), a common error that ignores the control group.",
+        "C": "CER = 200/400 = 0.50 and EER = 120/400 = 0.30, so ARR = 0.20 and NNT = 1/0.20 = 5.",
+        "D": "20 is the absolute risk reduction expressed as a percentage (20%), not the number needed to treat.",
+        "E": "40 is the relative risk reduction as a percentage (0.20/0.50 = 40%), which is not a count of patients."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-037",
+      "question": "A 66-year-old right-handed woman is brought to clinic by her daughter because she eats only the food on the right side of her plate and ignores people standing to her left. Her speech is fluent and comprehension is intact. Confrontation testing shows loss of the lower left quadrant of the visual field in both eyes. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Left parietal lobe",
+        "B": "Right parietal lobe",
+        "C": "Right temporal lobe",
+        "D": "Right thalamus",
+        "E": "Suprasellar region"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A left parietal lesion would cause a right inferior quadrantanopia and, in a right-handed patient, language or Gerstmann features rather than left neglect.",
+        "B": "The right Baum loop runs through the parietal lobe above the calcarine sulcus carrying superior retinal fibers representing the contralateral inferior field, and right parietal injury also explains contralateral hemineglect ('pie on the floor').",
+        "C": "A right temporal lesion damages Meyer loop and produces a left superior quadrantanopia.",
+        "D": "A right thalamic lesion involving the lateral geniculate nucleus produces a complete left homonymous hemianopia rather than a single quadrant defect.",
+        "E": "A suprasellar mass compresses the optic chiasm and produces a bitemporal hemianopia."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-038",
+      "question": "A 34-year-old woman is evaluated after her third episode of neurologic dysfunction in 4 years; each episode involved a different CNS site and resolved over several weeks. She has had no recent infections or vaccinations, her serum sodium has always been normal, and she takes no immunosuppressive drugs. Serum anti-aquaporin-4 IgG is negative, CSF shows oligoclonal bands, and brain MRI shows ovoid periventricular lesions of different ages. Which process most likely initiates the lesions in this patient's disease?",
+      "answers": {
+        "A": "Activated T cells targeting myelin",
+        "B": "Antibodies against aquaporin-4 channels",
+        "C": "Osmotic shifts injuring oligodendrocytes",
+        "D": "Polyomavirus reactivation within glia",
+        "E": "Postinfectious one-time immune attack"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "MS lesions are initiated when autoreactive Th1/Th17 T cells recognize myelin antigens, causing CNS inflammation, blood-brain barrier breakdown, and recruitment of cells that damage myelin and oligodendrocytes.",
+        "B": "Antibodies against aquaporin-4 cause neuromyelitis optica, which is excluded by her negative serology.",
+        "C": "Osmotic injury to oligodendrocytes follows rapid correction of hyponatremia, but her sodium has always been normal.",
+        "D": "JC polyomavirus reactivation causes PML in immunosuppressed patients, producing progressive deficits rather than a relapsing-remitting course over years.",
+        "E": "A one-time postinfectious immune attack describes ADEM, which is monophasic and follows an infection or vaccination."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-039",
+      "question": "A 22-year-old man is brought to the emergency department 2 hours after diving into a shallow pool. Imaging shows a complete spinal cord transection at T4. His legs are flaccid with 0/5 strength, patellar and Achilles reflexes are absent, and plantar stimulation produces no response. Which change in his lower extremity examination is most likely over the following weeks?",
+      "answers": {
+        "A": "Development of fasciculations and marked atrophy",
+        "B": "Persistent areflexia with flaccid tone",
+        "C": "Progressive hyperreflexia with increased tone",
+        "D": "Return of normal reflexes and tone",
+        "E": "Sustained hyporeflexia with fasciculations"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Fasciculations and marked atrophy indicate LMN injury, whereas the lumbosacral anterior horn cells below a T4 lesion remain intact.",
+        "B": "Persistent areflexia with flaccid tone would suggest a cauda equina or peripheral nerve lesion, not a thoracic cord lesion after spinal shock resolves.",
+        "C": "An acute UMN lesion initially causes decreased tone and reflexes (spinal shock), but as the intact segmental reflex arcs lose descending inhibition, hyperreflexia, spasticity, and an extensor plantar response emerge.",
+        "D": "A complete transection permanently removes descending corticospinal control, so tone and reflexes do not return to normal.",
+        "E": "Hyporeflexia with fasciculations is a LMN pattern expected with anterior horn or root disease rather than a chronic UMN lesion."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-040",
+      "question": "A 37-year-old woman with relapsing-remitting multiple sclerosis attends a shared decision-making visit. In a 2-year trial of Drug Z, 90 of 300 placebo-treated patients and 45 of 300 Drug Z–treated patients had at least one relapse. Her neurologist wants to express the benefit as a natural frequency. Out of every 100 patients treated with Drug Z for 2 years, how many fewer would be expected to have a relapse compared with placebo?",
+      "answers": {
+        "A": "2",
+        "B": "7",
+        "C": "15",
+        "D": "30",
+        "E": "50"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "2 is the ratio of control to experimental event rates (0.30/0.15), not an absolute difference.",
+        "B": "About 7 is the number needed to treat (1/0.15 ≈ 6.7), which counts patients treated per relapse prevented rather than relapses prevented per 100 patients.",
+        "C": "CER = 90/300 = 0.30 and EER = 45/300 = 0.15, so ARR = 0.15, or 15 fewer patients with relapse per 100 treated.",
+        "D": "30 is the control event rate per 100 patients, not the reduction achieved by treatment.",
+        "E": "50 is the relative risk reduction (0.15/0.30 = 50%), which overstates the absolute benefit per 100 patients."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-041",
+      "question": "A 71-year-old man with untreated atrial fibrillation suddenly notices that he cannot see objects to his left. Confrontation testing shows loss of the left visual field in both eyes, but central vision in the left hemifield is preserved. Strength, sensation, and language are normal. Occlusion of which artery is most likely responsible?",
+      "answers": {
+        "A": "Left posterior cerebral artery",
+        "B": "Right anterior choroidal artery",
+        "C": "Right middle cerebral artery",
+        "D": "Right ophthalmic artery",
+        "E": "Right posterior cerebral artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Left posterior cerebral artery occlusion produces a right homonymous hemianopia with macular sparing.",
+        "B": "Anterior choroidal artery occlusion damages the optic tract and posterior limb of the internal capsule, causing a homonymous hemianopia without macular sparing plus contralateral hemiparesis and sensory loss.",
+        "C": "Right middle cerebral artery occlusion would cause left face and arm weakness and neglect, and optic radiation involvement would not spare the macula.",
+        "D": "Right ophthalmic artery occlusion causes monocular vision loss in the right eye rather than a bilateral hemifield defect.",
+        "E": "The posterior cerebral artery supplies the occipital visual cortex, but the macular representation at the occipital pole receives collateral MCA supply, producing a contralateral homonymous hemianopia with macular sparing."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-042",
+      "question": "A 33-year-old man comes to the physician at his mother's insistence. He wears a wool coat and a scarf in July and speaks in vague, overly elaborate metaphors. He believes he can sense what strangers are thinking by the colors around them and that songs on the radio contain messages intended for him. He has few friends and feels anxious around others because he suspects they may be talking about him. There is no history of sustained hallucinations or disorganized behavior, and he holds a steady job. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Borderline personality disorder",
+        "B": "Histrionic personality disorder",
+        "C": "Paranoid personality disorder",
+        "D": "Schizoid personality disorder",
+        "E": "Schizotypal personality disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Borderline personality disorder involves unstable relationships, identity, and affect with impulsivity, not eccentric beliefs and appearance.",
+        "B": "Histrionic personality disorder involves attention-seeking and theatrical emotional display rather than odd beliefs.",
+        "C": "Paranoid personality disorder involves pervasive distrust without magical thinking or eccentric appearance.",
+        "D": "Schizoid personality disorder involves detachment and lack of desire for relationships but generally lacks magical thinking and odd speech or appearance.",
+        "E": "Magical thinking, ideas of reference, odd speech, eccentric appearance, and social anxiety tied to paranoid fears without frank psychosis define schizotypal personality disorder, the 'odd' one of cluster A."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-043",
+      "question": "A 22-year-old woman who grew up in northern Canada asks why multiple sclerosis seems to be more common where she was raised. Her physician shows her the prevalence data below, collected from populations of similar ancestry. Studies also show that people who migrate from a high-prevalence to a low-prevalence region before adolescence acquire the lower risk of their new home. Which factor is thought to best explain the gradient in these data?",
+      "table": [
+        [
+          "Region",
+          "Latitude",
+          "MS prevalence per 100,000"
+        ],
+        [
+          "Region 1",
+          "10–20°",
+          "50"
+        ],
+        [
+          "Region 2",
+          "30–40°",
+          "140"
+        ],
+        [
+          "Region 3",
+          "50–60°",
+          "300"
+        ]
+      ],
+      "answers": {
+        "A": "Greater Epstein-Barr virus seroprevalence",
+        "B": "Higher HLA-DRB1*15 carrier frequency",
+        "C": "Higher rates of cigarette smoking",
+        "D": "Lower sunlight and vitamin D levels",
+        "E": "More childhood obesity in cold regions"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "EBV infection increases MS risk, but EBV seroprevalence is high worldwide and does not account for the latitude gradient.",
+        "B": "HLA-DRB1*15 increases individual risk, but these populations share ancestry and migration changes risk, which points to an environmental rather than genetic cause.",
+        "C": "Cigarette smoking increases MS risk but does not vary systematically with latitude.",
+        "D": "MS prevalence rises with distance from the equator, which is attributed to lower lifetime UV exposure and vitamin D levels; the effect of migration before adolescence supports an early-life environmental exposure.",
+        "E": "Childhood and adolescent obesity increases MS risk but is not thought to drive the latitude gradient."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-044",
+      "question": "A 35-year-old woman with relapsing-remitting multiple sclerosis reports overwhelming tiredness every day for 6 months. She sleeps 8 hours without waking yet feels fatigued shortly after rising, and the fatigue worsens as the afternoon goes on and after hot showers. She denies low mood or anhedonia, takes no sedating medications, and has minimal disability (EDSS 1.5). Hemoglobin, TSH, and urinalysis are normal. Which mechanism best explains her fatigue?",
+      "answers": {
+        "A": "Excess energy use along demyelinated axons",
+        "B": "Hypothyroid slowing of basal metabolic rate",
+        "C": "Iron deficiency limiting oxygen delivery to muscle",
+        "D": "Nocturia-related fragmentation of sleep",
+        "E": "Serotonergic depletion with low mood"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Primary MS fatigue (lassitude) results directly from demyelination and axonal damage, which demand extra energy to conduct through damaged pathways; it occurs daily despite adequate sleep, worsens through the day and with heat, and does not correlate with disability or depression.",
+        "B": "Hypothyroidism is a secondary cause of fatigue, but her TSH is normal.",
+        "C": "Anemia is a secondary cause of fatigue, but her hemoglobin is normal.",
+        "D": "Sleep disruption from nocturia causes secondary fatigue, but she sleeps through the night and has a normal urinalysis.",
+        "E": "Depression causes secondary fatigue with anhedonia and low mood, which she denies."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-045",
+      "question": "A 44-year-old man with relapsing-remitting multiple sclerosis starts a once-daily oral medication. Four months later he reports diffuse hair thinning and mild diarrhea, and his ALT is twice the upper limit of normal. The drug limits expansion of activated, rapidly dividing T and B lymphocytes, whereas resting lymphocytes are relatively spared because they can meet their needs through an alternative nucleotide supply. Activated lymphocytes are most dependent on which pathway inhibited by this drug?",
+      "answers": {
+        "A": "De novo purine synthesis",
+        "B": "De novo pyrimidine synthesis",
+        "C": "Fatty acid β-oxidation",
+        "D": "Pyrimidine salvage pathway",
+        "E": "Tetrahydrofolate regeneration"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "De novo purine synthesis via IMP dehydrogenase is inhibited by mycophenolate, not by teriflunomide.",
+        "B": "Teriflunomide reversibly inhibits mitochondrial dihydroorotate dehydrogenase, blocking the de novo pyrimidine synthesis on which proliferating lymphocytes depend, and it causes alopecia, diarrhea, and ALT elevation.",
+        "C": "Fatty acid β-oxidation is a mitochondrial energy pathway unrelated to lymphocyte nucleotide supply or teriflunomide.",
+        "D": "The pyrimidine salvage pathway is what resting lymphocytes use to escape the drug's effect; it is not inhibited.",
+        "E": "Tetrahydrofolate regeneration by dihydrofolate reductase is blocked by methotrexate, which impairs thymidylate and purine synthesis."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-046",
+      "question": "A 31-year-old woman with relapsing-remitting multiple sclerosis has taken a once-daily oral drug for 3 years; it is the active metabolite of leflunomide. Since starting it she has noticed hair thinning, and her ALT has been mildly elevated. She and her partner now wish to conceive within the next few months. Plasma drug levels remain detectable 4 weeks after her last dose. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Accelerated elimination with cholestyramine",
+        "B": "Continue the drug throughout pregnancy",
+        "C": "High-dose folic acid supplementation only",
+        "D": "Stop the drug and attempt conception now",
+        "E": "Switch to fingolimod and try to conceive right away"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Teriflunomide inhibits DHODH, is teratogenic, and can persist for up to 2 years because of enterohepatic recirculation, so accelerated elimination with cholestyramine (or activated charcoal) is required until plasma levels are undetectable before conception.",
+        "B": "Continuing teriflunomide during pregnancy risks fetal malformations and fetal/neonatal morbidity and mortality.",
+        "C": "Folic acid supplementation does not counteract teriflunomide's inhibition of de novo pyrimidine synthesis in the developing fetus.",
+        "D": "Simply stopping the drug is inadequate because enterohepatic recirculation keeps levels detectable for months to years.",
+        "E": "Fingolimod also carries fetal/neonatal risk and would not remove the teriflunomide that is still circulating."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-047",
+      "question": "A 30-year-old woman with relapsing-remitting multiple sclerosis has had three relapses in the past year despite interferon therapy, and MRI shows several new gadolinium-enhancing lesions. Her neurologist is considering switching her to a monthly intravenous monoclonal antibody that prevents leukocytes from adhering to vascular endothelium and entering the CNS. She has never received immunosuppressive therapy. Which pretreatment serologic test will most influence the risk-benefit discussion for this drug?",
+      "answers": {
+        "A": "Anti-aquaporin-4 IgG",
+        "B": "Anti-JC virus antibody",
+        "C": "Anti-MOG IgG antibody",
+        "D": "Hepatitis B surface antigen",
+        "E": "Varicella zoster IgG"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anti-aquaporin-4 IgG diagnoses neuromyelitis optica spectrum disorder, which would change the diagnosis rather than stratify drug risk.",
+        "B": "Natalizumab blocks α4-integrin–mediated leukocyte entry into the CNS and impairs immune surveillance; JC virus antibody positivity, along with prior immunosuppression and treatment duration, is the key predictor of natalizumab-associated PML.",
+        "C": "Anti-MOG IgG identifies MOG antibody–associated disease, a distinct demyelinating disorder, and does not predict drug toxicity.",
+        "D": "Hepatitis B surface antigen screening is essential before anti-CD20 therapy such as ocrelizumab because of the risk of HBV reactivation.",
+        "E": "Varicella zoster IgG is checked before fingolimod because lymphocyte sequestration increases the risk of disseminated herpes infections."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-048",
+      "question": "A 38-year-old man undergoes a court-ordered psychiatric evaluation after selling fake investments to retirees. He has multiple arrests for assault and driving while intoxicated, has lied to family members to obtain money, and says his victims 'were dumb enough to fall for it.' He expresses no remorse and says the only thing that matters is the money he made. Juvenile records show truancy, shoplifting, and cruelty to animals beginning at age 13. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Antisocial personality disorder",
+        "B": "Borderline personality disorder",
+        "C": "Histrionic personality disorder",
+        "D": "Narcissistic personality disorder",
+        "E": "Paranoid personality disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Disregard for others' rights with deceit, aggression, recklessness, and lack of remorse in an adult at least 18 years old with conduct disorder before age 15 defines antisocial personality disorder, and his exploitation is driven by reward.",
+        "B": "Borderline personality disorder is marked by unstable relationships and identity, abandonment fears, and self-harm rather than predatory criminal behavior.",
+        "C": "Histrionic personality disorder involves attention-seeking emotional display and rarely involves exploiting others.",
+        "D": "Narcissistic patients also exploit others, but to establish superiority and admiration rather than for material reward, and they do not require a history of conduct disorder.",
+        "E": "Paranoid personality disorder involves pervasive distrust of others rather than deliberate deception and criminal behavior."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-049",
+      "question": "A 44-year-old woman with a 12-year history of relapsing-remitting multiple sclerosis has slowed information processing, difficulty multitasking at work, and word-finding pauses that have worsened over 3 years. She has been treated with interferon beta, has had no relapses, and is JC virus antibody negative. MRI shows no new or enhancing white matter lesions but demonstrates diffuse thinning of the cerebral cortex compared with prior studies. Which pathologic process most likely underlies her cognitive decline?",
+      "answers": {
+        "A": "Amyloid plaques in the hippocampus",
+        "B": "Basal ganglia lacunar infarcts",
+        "C": "Frontotemporal tau inclusions",
+        "D": "Gray matter demyelination and atrophy",
+        "E": "Multifocal JC virus white matter lesions"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Hippocampal amyloid plaques characterize Alzheimer disease, which typically presents later in life with prominent episodic memory loss.",
+        "B": "Basal ganglia lacunar infarcts result from hypertensive small vessel disease and cause discrete motor or sensory syndromes.",
+        "C": "Frontotemporal tau inclusions cause frontotemporal dementia with early behavioral or language decline and are unrelated to MS.",
+        "D": "Although MS classically targets white matter, cortical demyelinating lesions, cortical inflammation, and gray matter atrophy also occur and contribute to cognitive impairment.",
+        "E": "Multifocal JC virus lesions define PML, which is unlikely in a JC antibody-negative patient without severe immunosuppression or new white matter lesions."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-050",
+      "question": "A 64-year-old woman comes to the physician because of 6 months of tingling in both feet and an unsteady gait that is worse in the dark. She has hypothyroidism and vitiligo. Her tongue is smooth and beefy red. Laboratory studies are shown. The biochemical abnormality in this patient impairs normal myelin synthesis. Demyelination is most likely concentrated in which spinal cord regions?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "9.6 g/dL",
+          "12–16 g/dL"
+        ],
+        [
+          "MCV",
+          "114 fL",
+          "80–100 fL"
+        ],
+        [
+          "Vitamin B12",
+          "105 pg/mL",
+          "200–900 pg/mL"
+        ],
+        [
+          "Methylmalonic acid",
+          "1.9 µmol/L",
+          "<0.4 µmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior horn cells and ventral nerve roots",
+        "B": "Central gray matter over several segments",
+        "C": "Dorsal columns and lateral corticospinal tracts",
+        "D": "Hemicord including the spinothalamic tract",
+        "E": "Ventral two-thirds of the cord sparing dorsal columns"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Selective injury to anterior horn cells and ventral roots causes pure lower motor neuron weakness with fasciculations, as in poliomyelitis or spinal muscular atrophy.",
+        "B": "Central gray matter damage over several segments, as in syringomyelia, causes a cape-like loss of pain and temperature sensation.",
+        "C": "Elevated methylmalonic acid in B12 deficiency leads to abnormal myelin synthesis in the dorsal columns and lateral corticospinal tracts (subacute combined degeneration), producing proprioceptive loss and upper motor neuron signs.",
+        "D": "A hemicord lesion (Brown-Séquard syndrome) causes ipsilateral weakness and proprioceptive loss with contralateral pain and temperature loss, typically after trauma.",
+        "E": "Infarction of the ventral two-thirds of the cord from anterior spinal artery occlusion spares the dorsal columns, preserving vibration and proprioception."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-051",
+      "question": "A 19-year-old man is struck on the side of the head by a baseball during practice. He loses consciousness for about 1 minute, then wakes up and talks normally with his coach for 2 hours. He then becomes drowsy and vomits. On arrival his blood pressure is 186/94 mm Hg, pulse is 48/min, and respirations are irregular; his left pupil is dilated and poorly reactive. Noncontrast CT shows a biconvex (lens-shaped) hyperdense collection over the left temporal lobe that does not cross the suture lines. Injury to which of the following vessels is the most likely cause?",
+      "answers": {
+        "A": "Bridging cortical veins",
+        "B": "Charcot-Bouchard microaneurysm",
+        "C": "Middle cerebral artery",
+        "D": "Middle meningeal artery",
+        "E": "Saccular berry aneurysm"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Tearing of bridging veins produces a subdural hematoma, which appears crescent-shaped and crosses suture lines.",
+        "B": "Rupture of Charcot-Bouchard microaneurysms in hypertensive patients causes intraparenchymal hemorrhage, typically in the basal ganglia.",
+        "C": "Occlusion or rupture of the middle cerebral artery causes infarction or intraparenchymal bleeding, not an extra-axial collection.",
+        "D": "A temporal (pterion) impact with a lucid interval, a biconvex collection limited by sutures (the dura is tightly attached there), and signs of herniation with Cushing triad indicate an epidural hematoma from middle meningeal artery laceration.",
+        "E": "Rupture of a berry aneurysm causes subarachnoid hemorrhage with blood in the cisterns and sulci and a 'worst headache of life.'"
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-052",
+      "question": "A 47-year-old attorney is referred to a psychiatrist by his law firm because his briefs are repeatedly late. He revises each document dozens of times until it is perfect, refuses to delegate tasks because others will not do them correctly, and enforces a detailed schedule of household rules that his family finds exhausting. He keeps stacks of old legal journals he cannot bring himself to discard. He believes his methods are simply the right way to do things and does not see a problem with them. Which of the following features best supports his diagnosis over obsessive-compulsive disorder?",
+      "answers": {
+        "A": "Distressing intrusive contamination thoughts",
+        "B": "Ego-syntonic rigidity and perfectionism",
+        "C": "Hand-washing rituals that relieve anxiety",
+        "D": "Insight that behaviors are excessive",
+        "E": "Persistent worry about many life events"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Unwanted, distressing intrusive thoughts (obsessions) are characteristic of obsessive-compulsive disorder, not OCPD.",
+        "B": "Obsessive-compulsive personality disorder is defined by perfectionism, rigidity, and overcontrol that the patient views as correct (ego-syntonic), and OCPD is not the same as OCD.",
+        "C": "Compulsive rituals performed to neutralize anxiety from obsessions define obsessive-compulsive disorder.",
+        "D": "Recognizing that one's behaviors are excessive or unreasonable (ego-dystonic) is typical of obsessive-compulsive disorder.",
+        "E": "Excessive, hard-to-control worry about multiple everyday matters is characteristic of generalized anxiety disorder."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-053",
+      "question": "A 48-year-old man with secondary progressive multiple sclerosis reports worsening daytime exhaustion over 3 months. He wakes 4 times each night to urinate and is often awakened by painful leg spasms. Examination shows lower-extremity spasticity and hyperreflexia; post-void residual volume is 40 mL and urinalysis is normal. He asks whether a stimulant could give him more energy. Which is the most appropriate initial step in managing his fatigue?",
+      "answers": {
+        "A": "Begin amantadine twice daily",
+        "B": "Begin modafinil each morning",
+        "C": "Prescribe a cooling vest",
+        "D": "Start methylphenidate daily",
+        "E": "Treat nocturia and spasms"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Amantadine is an off-label option for primary MS fatigue with modest evidence and is reserved until secondary causes are addressed.",
+        "B": "Modafinil is an off-label wakefulness agent with modest evidence that would not correct the sleep disruption driving his fatigue.",
+        "C": "Cooling strategies help heat-sensitive fatigue but do not address nocturnal awakenings from nocturia and spasms.",
+        "D": "Methylphenidate is an off-label stimulant with modest evidence that could further worsen his sleep.",
+        "E": "His fatigue is likely secondary to sleep fragmentation from nocturia and spasticity, and treating secondary causes (e.g., an antimuscarinic for bladder urgency, baclofen for spasms) is the first step in managing MS fatigue."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-054",
+      "question": "A 24-year-old woman has 4 days of pain with eye movement, blurred central vision, and reduced color perception in her right eye. She has never had neurologic symptoms before. MRI shows enhancement of the right optic nerve and one small non-enhancing periventricular lesion. She is told she has had a first demyelinating event that does not yet meet diagnostic criteria for multiple sclerosis. Which development during follow-up would most indicate that she now has MS?",
+      "answers": {
+        "A": "Complete recovery of visual acuity",
+        "B": "New demyelinating attack at another site",
+        "C": "Persistent red desaturation at 6 months",
+        "D": "Symptoms lasting longer than 24 hours",
+        "E": "Transient visual blurring during a hot shower"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Complete visual recovery is common after optic neuritis and gives no information about whether further demyelinating events will occur.",
+        "B": "A second clinical episode of CNS demyelination at a different site demonstrates dissemination in time and space, converting a clinically isolated syndrome to MS.",
+        "C": "Persistent red desaturation is a residual deficit from the original optic nerve lesion, not evidence of a new event.",
+        "D": "Symptoms lasting at least 24 hours are already part of the definition of a clinically isolated syndrome and do not indicate progression to MS.",
+        "E": "Transient blurring with heat is Uhthoff phenomenon, a pseudo-relapse from conduction block in previously damaged axons rather than a new attack."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-055",
+      "question": "A 23-year-old man is brought to the physician by his parents because of 8 months of progressive social withdrawal, hearing voices that argue about him, and disorganized speech. He was previously a successful college student. He has an uncle with a chronic psychotic illness. Physical and neurologic examinations are normal. Urine toxicology screening, thyroid function tests, HIV testing, and MRI of the brain are all normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Brief psychotic disorder",
+        "B": "Paranoid personality disorder",
+        "C": "Psychosis due to a medical condition",
+        "D": "Schizophrenia",
+        "E": "Schizophreniform disorder"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Brief psychotic disorder lasts at least 1 day but less than 1 month with full return to function, far shorter than his 8-month course.",
+        "B": "Paranoid personality disorder involves pervasive distrust and suspicion without frank hallucinations or disorganized speech.",
+        "C": "Psychosis due to a medical condition requires an identifiable medical or neurologic cause, and his toxicology, labs, and MRI are normal.",
+        "D": "Psychotic symptoms with functional decline lasting more than 6 months in a young adult, with no better explanation from a medical condition or substance, indicate a primary psychiatric disorder: schizophrenia.",
+        "E": "Schizophreniform disorder has the same features as schizophrenia but lasts 1 to 6 months, so an 8-month course exceeds its limit."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-056",
+      "question": "A 26-year-old woman with a BMI of 38 kg/m2 reports 4 months of daily headaches that worsen when she lies down or coughs, brief episodes of graying out of vision when she stands, and new horizontal double vision that is worse at distance. Visual acuity is 20/20 in both eyes. Fundoscopy shows bilateral elevated optic discs with blurred margins, dilated retinal veins, and peripapillary hemorrhages. Dysfunction of which cranial nerve most likely explains her double vision?",
+      "answers": {
+        "A": "Abducens nerve",
+        "B": "Oculomotor nerve",
+        "C": "Optic nerve",
+        "D": "Trigeminal nerve",
+        "E": "Trochlear nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Papilledema from raised intracranial pressure stretches the abducens nerve along its long intracranial course, causing lateral rectus weakness and horizontal diplopia as a false localizing sign.",
+        "B": "Oculomotor dysfunction from raised pressure usually occurs with uncal herniation and presents with a dilated pupil, ptosis, and a down-and-out eye.",
+        "C": "Optic nerve swelling causes transient visual obscurations and eventual field loss, but it does not produce double vision.",
+        "D": "The trigeminal nerve provides facial and corneal sensation and does not control extraocular muscles.",
+        "E": "Trochlear nerve dysfunction causes vertical diplopia worse on downgaze rather than horizontal diplopia at distance."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-057",
+      "question": "A 38-year-old man with relapsing-remitting multiple sclerosis has received a monthly intravenous disease-modifying infusion for 3 years, and his relapses stopped after starting it. Over the past 5 weeks he has developed progressive right hand weakness, word-finding difficulty, and a right homonymous hemianopia. MRI shows asymmetric, nonenhancing T2-hyperintense lesions in the left parieto-occipital subcortical white matter without mass effect, and CSF PCR is positive for JC virus DNA. By which mechanism does his disease-modifying therapy act?",
+      "answers": {
+        "A": "Antagonism of α4-integrin on leukocytes",
+        "B": "Depletion of CD20-positive B cells",
+        "C": "Depletion of CD52-bearing lymphocytes",
+        "D": "Inhibition of dihydroorotate dehydrogenase",
+        "E": "Modulation of sphingosine-1-phosphate receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Natalizumab, a monthly IV infusion, binds α4-integrin to block leukocyte migration across the blood-brain barrier, which also impairs CNS immune surveillance and permits JC virus reactivation causing PML.",
+        "B": "Anti-CD20 therapy (ocrelizumab) is infused every 6 months, and PML is far less characteristic of it than of natalizumab.",
+        "C": "Alemtuzumab depletes CD52-bearing lymphocytes but is given as annual courses and is best known for secondary autoimmunity rather than PML.",
+        "D": "Teriflunomide inhibits dihydroorotate dehydrogenase but is an oral agent whose major toxicities are hepatotoxicity and teratogenicity.",
+        "E": "Fingolimod modulates S1P receptors and can rarely cause PML, but it is a daily oral drug rather than a monthly infusion."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-058",
+      "question": "A 52-year-old woman presents with the sudden onset of the worst headache of her life. Examination shows left ptosis, a left eye that rests down and out, and a 7-mm left pupil that does not constrict to direct or consensual light. CT angiography shows a posterior communicating artery aneurysm. The fibers responsible for her pupillary abnormality normally synapse in which ganglion?",
+      "answers": {
+        "A": "Ciliary ganglion",
+        "B": "Geniculate ganglion",
+        "C": "Pterygopalatine ganglion",
+        "D": "Submandibular ganglion",
+        "E": "Superior cervical ganglion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Preganglionic parasympathetic fibers from the Edinger-Westphal nucleus ride superficially on CN III, synapse in the ciliary ganglion, and reach the sphincter pupillae via short ciliary nerves, so external compression causes a fixed, dilated pupil.",
+        "B": "The geniculate ganglion is the sensory ganglion of CN VII for taste and contains no synapsing autonomic fibers.",
+        "C": "The pterygopalatine ganglion relays CN VII parasympathetics to the lacrimal and nasal glands, and its injury causes a dry eye.",
+        "D": "The submandibular ganglion relays CN VII parasympathetics to the submandibular and sublingual salivary glands.",
+        "E": "The superior cervical ganglion contains sympathetic neurons for pupillary dilation, and its injury causes miosis rather than mydriasis."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-059",
+      "question": "A 45-year-old woman with relapsing-remitting multiple sclerosis reports difficulty reading street signs. Neither eye can be moved to the left past the midline, and at rest both eyes rest slightly to the right. Vertical eye movements and convergence are normal, and rapid passive head rotation to the right fails to drive either eye to the left. A lesion in which structure best explains these findings?",
+      "answers": {
+        "A": "Left abducens nerve",
+        "B": "Left paramedian pontine reticular formation",
+        "C": "Left trochlear nerve",
+        "D": "Right medial longitudinal fasciculus",
+        "E": "Right paramedian pontine reticular formation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A left abducens nerve lesion impairs only left eye abduction, while the right eye would still adduct normally on leftward gaze.",
+        "B": "The PPRF activates its ipsilateral abducens nucleus, which drives the ipsilateral lateral rectus and, via the MLF, the contralateral medial rectus, so a left PPRF lesion abolishes conjugate gaze toward the left.",
+        "C": "A left trochlear nerve lesion weakens the left superior oblique and causes vertical diplopia on downgaze rather than a horizontal gaze palsy.",
+        "D": "A right MLF lesion causes a right INO in which the left eye still abducts on leftward gaze while the right eye fails to adduct.",
+        "E": "A right PPRF lesion would abolish conjugate horizontal gaze toward the right, not the left."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-060",
+      "question": "A 29-year-old man with medically refractory seizures originating in the left mesial temporal lobe undergoes a left anterior temporal lobectomy. At his postoperative visit, he reports that he keeps missing objects located up and to one side. Visual acuity is 20/20 in both eyes. Which visual field defect is most likely present?",
+      "answers": {
+        "A": "Left inferior quadrantanopia",
+        "B": "Left superior quadrantanopia",
+        "C": "Right homonymous hemianopia",
+        "D": "Right inferior quadrantanopia",
+        "E": "Right superior quadrantanopia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Left inferior quadrantanopia results from injury to the right parietal optic radiations (Baum loop).",
+        "B": "Left superior quadrantanopia results from injury to the right Meyer loop in the right temporal lobe.",
+        "C": "Right homonymous hemianopia requires injury to the entire left optic tract, lateral geniculate nucleus, or all left optic radiations.",
+        "D": "Right inferior quadrantanopia results from injury to the left parietal optic radiations above the calcarine sulcus.",
+        "E": "Meyer loop sweeps through the temporal lobe below the calcarine sulcus carrying inferior retinal fibers that represent the contralateral superior visual field, so left temporal resection causes a right 'pie in the sky' defect."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-061",
+      "question": "A 55-year-old man reports 6 months of progressive clumsiness of both hands and a stiff, unsteady gait. MRI of the cervical spine shows a large disc herniation compressing the spinal cord at the C5–C6 level. Which set of findings is most likely on examination of his lower extremities?",
+      "answers": {
+        "A": "Atrophy, fasciculations, and hyporeflexia",
+        "B": "Flaccid tone, fasciculations, and absent reflexes",
+        "C": "Hyperreflexia, spasticity, and upgoing plantar response",
+        "D": "Hyporeflexia, spasticity, and downgoing plantar response",
+        "E": "Normal reflexes, normal tone, and marked atrophy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Atrophy, fasciculations, and hyporeflexia are LMN signs, which a cord lesion produces at the level of compression (C5–C6 muscles in the arms), not in the legs.",
+        "B": "Flaccid tone with fasciculations and absent reflexes indicates LMN injury to the lumbosacral anterior horns or roots rather than cervical cord compression.",
+        "C": "Compression of the lateral corticospinal tracts interrupts UMN input to all segments below the lesion, producing hyperreflexia, spasticity, and an extensor plantar response in the legs.",
+        "D": "Hyporeflexia is a LMN sign that does not coexist with spasticity from a chronic UMN lesion, so this combination is internally inconsistent.",
+        "E": "Marked atrophy with normal reflexes and tone suggests disuse or primary muscle disease rather than a myelopathy."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-062",
+      "question": "A 38-year-old woman develops left hemiparesis and confusion over 2 weeks. MRI shows a 3-cm right frontal white matter lesion with incomplete ring enhancement and mild mass effect, and biopsy is performed for suspected glioma. Histology shows perivenular lymphocytic cuffing and numerous foamy macrophages containing myelin debris. Special stains show no organisms and no viral inclusions. Which additional histologic finding would most strongly support an active demyelinating plaque of multiple sclerosis?",
+      "answers": {
+        "A": "Demyelination with relatively preserved axons",
+        "B": "Dense gliosis with near-total axonal loss",
+        "C": "Loss of AQP4 staining with necrosis",
+        "D": "Mitotic figures with pseudopalisading necrosis",
+        "E": "Pontine myelin loss without inflammation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Active MS plaques show demyelination with relative axonal preservation alongside perivenular T cells and myelin-laden macrophages, reflecting immune targeting of myelin rather than axons.",
+        "B": "Dense gliosis with near-total axonal loss characterizes a chronic inactive plaque, not an enhancing lesion with active macrophage infiltration.",
+        "C": "Necrosis with loss of AQP4-positive astrocytes and complement deposition is the pathology of neuromyelitis optica.",
+        "D": "Mitotic figures with pseudopalisading necrosis would indicate glioblastoma, the tumor this biopsy was performed to exclude.",
+        "E": "Symmetric pontine myelin loss with minimal inflammation is the pattern of osmotic demyelination syndrome."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-063",
+      "question": "A 28-year-old woman reports 5 days of pain around her left eye that worsens with eye movement and blurred central vision; she says red objects look washed out with that eye. Two years ago she had tingling in both legs that resolved over several weeks. When a light is swung from the right eye to the left eye, both pupils dilate. Which fundoscopic finding is most likely in the left eye?",
+      "answers": {
+        "A": "Bilateral disc swelling with peripapillary hemorrhages",
+        "B": "Cherry-red spot with retinal whitening",
+        "C": "Copper wiring with arteriovenous nicking",
+        "D": "Normal-appearing optic disc",
+        "E": "Venous engorgement with scattered hemorrhages"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Bilateral disc swelling with peripapillary hemorrhages indicates papilledema from raised intracranial pressure, which is typically painless with preserved acuity early.",
+        "B": "A cherry-red spot with retinal whitening indicates central retinal artery occlusion, which causes sudden painless monocular vision loss.",
+        "C": "Copper wiring with arteriovenous nicking indicates chronic hypertensive retinopathy in a patient with long-standing high blood pressure.",
+        "D": "Optic neuritis, often a presenting feature of MS, is usually retrobulbar, so despite painful eye movement, red desaturation, and a relative afferent pupillary defect, the disc appears normal in most patients (mild swelling in about one-third).",
+        "E": "Venous engorgement with widespread hemorrhages indicates central retinal vein occlusion, which causes painless vision loss."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-064",
+      "question": "A 33-year-old woman with relapsing-remitting multiple sclerosis takes the first dose of a new once-daily oral disease-modifying therapy in clinic under continuous ECG monitoring. Varicella zoster IgG was confirmed positive before treatment. She remains asymptomatic, and her heart rate and ECG findings are shown. In addition to periodic lymphocyte counts and liver enzymes, which adverse effect requires specific screening during the first months of this therapy?",
+      "table": [
+        [
+          "Time after first dose",
+          "Heart rate",
+          "PR interval"
+        ],
+        [
+          "Baseline",
+          "72/min",
+          "160 ms"
+        ],
+        [
+          "4 hours",
+          "51/min",
+          "210 ms"
+        ],
+        [
+          "6 hours",
+          "46/min",
+          "240 ms"
+        ]
+      ],
+      "answers": {
+        "A": "Cystoid macular edema",
+        "B": "Drug-induced lupus",
+        "C": "Hemorrhagic cystitis",
+        "D": "Peripheral neuropathy",
+        "E": "Sensorineural hearing loss"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "First-dose bradycardia and AV block identify fingolimod, an S1P receptor modulator that can also cause macular edema, so an ophthalmologic exam is recommended at baseline and 3–4 months after starting.",
+        "B": "Drug-induced lupus is associated with hydralazine, procainamide, and isoniazid, not S1P receptor modulators.",
+        "C": "Hemorrhagic cystitis is caused by the acrolein metabolite of cyclophosphamide or ifosfamide.",
+        "D": "Peripheral neuropathy is characteristic of vinca alkaloids, isoniazid, and metronidazole rather than fingolimod.",
+        "E": "Sensorineural hearing loss is associated with aminoglycosides, cisplatin, and loop diuretics."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-065",
+      "question": "A 29-year-old woman comes to the clinic for a sore throat. She arrives in a sequined evening dress, hugs the physician on entering, and describes her symptoms as 'the most unbearable agony anyone has ever felt' but cannot give specific details. She refers to the nurse she met 5 minutes earlier as her closest friend and shifts from tears to laughter within moments. When the physician answers a page, she sulks and raises her voice to regain attention. She has no history of self-harm and does not take advantage of others. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Borderline personality disorder",
+        "B": "Dependent personality disorder",
+        "C": "Histrionic personality disorder",
+        "D": "Narcissistic personality disorder",
+        "E": "Schizotypal personality disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Borderline personality disorder features abandonment fears, unstable identity, and self-harm, which are absent in this patient.",
+        "B": "Dependent personality disorder involves submissiveness and need for reassurance rather than attention-seeking theatrics.",
+        "C": "Needing to be the center of attention, seductive dress, shallow and rapidly shifting emotions, impressionistic speech, and perceiving relationships as more intimate than they are define histrionic personality disorder.",
+        "D": "Narcissistic personality disorder centers on grandiosity, entitlement, and exploitation of others rather than emotional display.",
+        "E": "Schizotypal personality disorder involves magical thinking and eccentric behavior rather than dramatic attention-seeking."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-066",
+      "question": "A 45-year-old man reports a year of headaches and says his wedding ring and shoes no longer fit. He has coarse facial features and a prominent jaw. He recently had two minor car accidents after failing to see vehicles approaching from either side. Laboratory results are shown. Which visual field defect is most likely on formal testing?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "IGF-1",
+          "840 ng/mL",
+          "100–300 ng/mL"
+        ],
+        [
+          "Fasting glucose",
+          "134 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Prolactin",
+          "14 ng/mL",
+          "2–18 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Bitemporal hemianopia",
+        "B": "Left homonymous hemianopia",
+        "C": "Left monocular blindness",
+        "D": "Right inferior quadrantanopia",
+        "E": "Right superior quadrantanopia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A GH-secreting pituitary macroadenoma extends superiorly to compress the optic chiasm, where the crossing nasal retinal fibers carry the temporal visual fields, producing loss of peripheral vision on both sides.",
+        "B": "Left homonymous hemianopia results from a right optic tract, lateral geniculate nucleus, or complete right optic radiation lesion.",
+        "C": "Left monocular blindness results from a left optic nerve lesion anterior to the chiasm.",
+        "D": "Right inferior quadrantanopia results from a lesion of the left parietal optic radiations (Baum loop).",
+        "E": "Right superior quadrantanopia results from a lesion of the left temporal optic radiations (Meyer loop)."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-067",
+      "question": "A 24-year-old woman begins outpatient therapy after an emergency department visit for superficial cuts to her forearm following a breakup. She describes chronic feelings of emptiness and frantic efforts to avoid being abandoned. At her first session she tells the therapist, 'You are the only person who has ever understood me.' Two weeks later, after the therapist reschedules an appointment, she calls the therapist 'cruel and completely useless.' Which of the following defense mechanisms best explains her change in attitude toward the therapist?",
+      "answers": {
+        "A": "Displacement",
+        "B": "Projection",
+        "C": "Reaction formation",
+        "D": "Splitting",
+        "E": "Sublimation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Displacement redirects emotions from their true source to a safer target, such as yelling at a spouse after being criticized by a boss.",
+        "B": "Projection attributes one's own unacceptable impulses to others, as in a patient who is angry accusing others of being hostile.",
+        "C": "Reaction formation replaces an unacceptable impulse with its opposite, such as excessive kindness toward someone one resents.",
+        "D": "Alternating idealization and devaluation of the same person, viewing others as all good or all bad, is splitting, the characteristic defense of borderline personality disorder.",
+        "E": "Sublimation channels unacceptable impulses into socially acceptable activities and is considered a mature defense."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-068",
+      "question": "A 42-year-old man with HIV infection who stopped antiretroviral therapy 2 years ago has had progressive right-sided weakness, word-finding difficulty, and a right visual field defect over 5 weeks. He is afebrile. MRI shows multiple asymmetric T2-hyperintense lesions in the left subcortical and periventricular white matter without enhancement or mass effect. Laboratory studies are shown. Which test is most likely to confirm the diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "CD4+ T-cell count",
+          "48 cells/µL",
+          "500–1500 cells/µL"
+        ],
+        [
+          "HIV RNA",
+          "210,000 copies/mL",
+          "Undetectable"
+        ],
+        [
+          "CSF WBC",
+          "2/µL",
+          "0–5/µL"
+        ],
+        [
+          "CSF protein",
+          "41 mg/dL",
+          "15–45 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "CSF cryptococcal antigen assay",
+        "B": "CSF JC virus DNA by PCR",
+        "C": "CSF oligoclonal band analysis",
+        "D": "Serum aquaporin-4 IgG assay",
+        "E": "Serum Toxoplasma IgG titer"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cryptococcal antigen testing identifies cryptococcal meningitis, which presents with headache, fever, and elevated opening pressure rather than focal non-enhancing white matter lesions.",
+        "B": "Subacute progressive focal deficits with non-enhancing white matter lesions lacking mass effect in a patient with a CD4 count far below 200/µL indicate PML, which is confirmed by detecting JC virus DNA in CSF by PCR.",
+        "C": "Oligoclonal bands support MS, a relapsing disease of young adults, not progressive multifocal deficits in advanced AIDS.",
+        "D": "Aquaporin-4 IgG confirms neuromyelitis optica, which targets the optic nerves and spinal cord that PML typically spares.",
+        "E": "Toxoplasma encephalitis in AIDS causes ring-enhancing lesions with edema and mass effect, and IgG seropositivity alone does not confirm active disease."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-069",
+      "question": "A 34-year-old man is brought to the physician by his sister because of personality changes. Eight months ago he fell from scaffolding and sustained bilateral frontal lobe contusions. Before the injury he was a reliable foreman with no legal problems. Since then he makes crude jokes at inappropriate times, spends money impulsively, and has outbursts at minor frustrations, but he sleeps 7 hours nightly and his speech is not pressured. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Antisocial personality disorder",
+        "B": "Bipolar I disorder, current episode manic",
+        "C": "Borderline personality disorder",
+        "D": "Intermittent explosive disorder",
+        "E": "Personality change due to brain injury"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Antisocial personality disorder requires a long-standing pattern with evidence of conduct disorder before age 15, whereas his behavior began only after the injury.",
+        "B": "A manic episode would include decreased need for sleep and pressured speech, which he lacks, and would not be explained by a clear temporal link to frontal trauma.",
+        "C": "Borderline personality disorder is an enduring pattern of instability evident by early adulthood across settings, not a new change after a brain injury at age 34.",
+        "D": "Intermittent explosive disorder describes recurrent aggressive outbursts that are not better explained by another medical condition such as frontal lobe injury.",
+        "E": "A clear temporal and physiologic relationship between frontal contusions and new disinhibition in a previously well-functioning adult indicates personality change caused by a medical/neurologic condition."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-070",
+      "question": "A 27-year-old woman with relapsing-remitting multiple sclerosis uses a daily subcutaneous injection. One morning, within minutes of injecting, she develops flushing, chest tightness, palpitations, and shortness of breath that resolve spontaneously within 15 minutes. Examination shows several areas of lipoatrophy at prior injection sites. By which mechanism does this drug reduce relapses?",
+      "answers": {
+        "A": "Activates Nrf2 antioxidant signaling",
+        "B": "Blocks leukocyte integrin adhesion",
+        "C": "Depletes CD20-positive B cells",
+        "D": "Diverts T cells toward a myelin-like decoy",
+        "E": "Inhibits pyrimidine synthesis in lymphocytes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Nrf2 activation is the mechanism of dimethyl fumarate, an oral agent whose flushing is not accompanied by injection-site lipoatrophy.",
+        "B": "Blocking leukocyte integrin adhesion is natalizumab's mechanism, given as a monthly IV infusion rather than a daily injection.",
+        "C": "CD20-positive B-cell depletion describes ocrelizumab, a twice-yearly infusion whose reactions occur during the infusion.",
+        "D": "Glatiramer acetate is a polymer of glutamate, alanine, tyrosine, and lysine that resembles myelin and acts as a decoy for the immune response; its classic adverse effects are injection-site reactions and a transient post-injection flushing and chest-tightness reaction.",
+        "E": "Inhibition of pyrimidine synthesis via DHODH is teriflunomide's mechanism, an oral agent that causes hepatotoxicity and alopecia."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-071",
+      "question": "A 41-year-old woman has sudden, severe, painful vision loss in both eyes and, 3 weeks later, develops paraplegia, a T4 sensory level, and urinary retention. A similar episode of vision loss 2 years ago left her with poor visual recovery. Brain MRI shows no periventricular lesions. Spinal MRI shows a central T2-hyperintense lesion extending from T1 to T8. CSF oligoclonal bands are absent. Biopsy of the spinal cord lesion would most likely show which finding?",
+      "answers": {
+        "A": "Complement deposition with astrocyte loss",
+        "B": "Enlarged oligodendrocytes with viral inclusions",
+        "C": "Perivenous lymphocytic sleeves of demyelination",
+        "D": "Plaques with relative axonal preservation",
+        "E": "Symmetric myelin loss with minimal inflammation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In neuromyelitis optica, anti-aquaporin-4 IgG binds astrocyte water channels and activates complement, producing necrotizing demyelination with complement deposition and loss of AQP4-positive astrocytes, consistent with her severe bilateral optic neuritis and longitudinally extensive myelitis.",
+        "B": "Enlarged oligodendrocytes with viral inclusions indicate PML, which usually spares the optic nerves and spinal cord and occurs in immunosuppressed patients.",
+        "C": "Perivenous lymphocytic sleeves of demyelination are seen in ADEM, a monophasic post-infectious illness with encephalopathy.",
+        "D": "Plaques with relative axonal preservation are typical of MS, whose cord lesions are usually short and accompanied by periventricular lesions and oligoclonal bands.",
+        "E": "Symmetric myelin loss with minimal inflammation describes osmotic demyelination syndrome, which centers on the pons after rapid sodium correction."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-072",
+      "question": "A 31-year-old man comes to the physician after two episodes of rhythmic jerking of his left hand that lasted 1 minute each without loss of consciousness. He is otherwise well, and neurologic examination between episodes is normal. Stereotactic biopsy of a lesion in the right frontal lobe later shows a WHO grade 2 diffuse astrocytoma. Which of the following preoperative MRI findings is most consistent with this diagnosis?",
+      "answers": {
+        "A": "Dural-based enhancing mass with a dural tail",
+        "B": "Multiple enhancing masses at the gray-white junction",
+        "C": "Nonenhancing T2-hyperintense mass with minimal edema",
+        "D": "Ring-enhancing mass with central necrosis and edema",
+        "E": "Smooth ring enhancement with central restricted diffusion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A dural-based, extra-axial enhancing mass with a dural tail is characteristic of meningioma.",
+        "B": "Multiple enhancing lesions at the gray-white junction suggest hematogenous metastases.",
+        "C": "Low-grade gliomas appear as well-defined masses that are T1 hypointense and T2 hyperintense with no significant enhancement and little surrounding edema, reflecting an intact blood-brain barrier.",
+        "D": "Irregular ring enhancement with central necrosis and marked edema is typical of high-grade glioma (glioblastoma).",
+        "E": "A smooth ring-enhancing lesion with central restricted diffusion suggests a pyogenic brain abscess."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-073",
+      "question": "A 41-year-old man is evaluated for right arm weakness that began 2 months ago during a febrile illness with meningitis attributed to West Nile virus. His legs have normal strength and reflexes, plantar responses are flexor bilaterally, and sensation is intact throughout. Findings from his upper extremity examination are shown. Where is the lesion most likely located?",
+      "table": [
+        [
+          "Finding",
+          "Right arm",
+          "Left arm"
+        ],
+        [
+          "Elbow flexion strength",
+          "2/5",
+          "5/5"
+        ],
+        [
+          "Muscle bulk",
+          "Atrophy of biceps and deltoid",
+          "Normal"
+        ],
+        [
+          "Tone",
+          "Decreased",
+          "Normal"
+        ],
+        [
+          "Biceps reflex",
+          "0",
+          "2+"
+        ],
+        [
+          "Fasciculations",
+          "Present",
+          "Absent"
+        ]
+      ],
+      "answers": {
+        "A": "Left internal capsule",
+        "B": "Left primary motor cortex",
+        "C": "Right lateral corticospinal tract",
+        "D": "Right ventral corticospinal tract",
+        "E": "Right ventral horn at C5–C6"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A left internal capsule lesion causes contralateral UMN weakness with increased tone and reflexes and no fasciculations.",
+        "B": "A left primary motor cortex lesion causes contralateral UMN weakness with hyperreflexia rather than atrophy and fasciculations.",
+        "C": "A right lateral corticospinal tract lesion produces ipsilateral UMN signs below the level, including hyperreflexia and involvement of the leg.",
+        "D": "The ventral corticospinal tract controls axial and proximal musculature bilaterally, and its injury produces subtle UMN deficits rather than focal atrophy.",
+        "E": "West Nile virus can destroy anterior horn cells, and loss of LMN cell bodies at C5–C6 produces weakness, atrophy, fasciculations, decreased tone, and an absent biceps reflex at that level only."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-074",
+      "question": "A 27-year-old woman had an episode of left optic neuritis 14 months ago that resolved completely over 6 weeks. She now presents with numbness and clumsiness of her right hand that developed over 3 days. MRI shows an enhancing lesion in the cervical cord and several non-enhancing periventricular lesions. Her hand symptoms resolve fully over the next month, and she had no residual deficits or worsening between the two episodes. Which pattern best describes her disease course?",
+      "answers": {
+        "A": "Clinically isolated syndrome",
+        "B": "Primary progressive MS",
+        "C": "Radiologically isolated syndrome",
+        "D": "Relapsing-remitting MS",
+        "E": "Secondary progressive MS"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Clinically isolated syndrome describes a single first demyelinating episode lasting at least 24 hours; her second attack at a new site moves her beyond this category.",
+        "B": "Primary progressive MS worsens continuously from onset without distinct relapses and remissions.",
+        "C": "Radiologically isolated syndrome refers to MS-like MRI lesions found incidentally in a person who has never had clinical symptoms.",
+        "D": "Relapsing-remitting MS is defined by discrete attacks of new neurologic symptoms followed by partial or complete recovery with stability between relapses, as in this patient.",
+        "E": "Secondary progressive MS begins as relapsing-remitting disease but later worsens steadily independent of relapses, which has not occurred here."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-075",
+      "question": "A 27-year-old woman with multiple sclerosis reports brief electric shock-like sensations that shoot down her spine and into her legs whenever she bends her neck forward. She also has intermittent paroxysms of stabbing pain in her right cheek lasting seconds. Neurologic examination between episodes is normal, and MRI shows a demyelinating plaque in the cervical cord. These positive symptoms are best explained by which mechanism?",
+      "answers": {
+        "A": "Axonal loss from calcium overload",
+        "B": "Conduction block across bare internodes",
+        "C": "Ephaptic cross-talk between axons",
+        "D": "Retrograde loss of cortical neurons",
+        "E": "Upper motor neuron disinhibition"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ca2+ overload from reversed Na+/Ca2+ exchange causes axonal degeneration and fixed deficits, not brief paroxysmal sensations with a normal interictal examination.",
+        "B": "Conduction block across bare internodes produces negative symptoms such as numbness, weakness, or vision loss rather than spontaneous electric sensations.",
+        "C": "Without myelin insulation, adjacent bare axons excite one another (ephaptic transmission) and fire ectopically, producing positive symptoms such as Lhermitte sign and trigeminal neuralgia.",
+        "D": "Retrograde neuronal loss reflects chronic neurodegeneration and causes progressive disability and atrophy, not movement-triggered paroxysms.",
+        "E": "Upper motor neuron disinhibition produces spasticity, hyperreflexia, and a Babinski sign, which are motor findings rather than sensory paroxysms."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-076",
+      "question": "A 30-year-old woman with relapsing-remitting multiple sclerosis notes that her fatigue and blurred vision in her previously affected right eye worsen during hot yoga classes and on humid summer days, then return to baseline within an hour of cooling off. MRI shows no new lesions. She wants to remain physically active. Which nonpharmacologic recommendation is most likely to reduce these episodes?",
+      "answers": {
+        "A": "Avoid all aerobic exercise",
+        "B": "Complete bed rest for several weeks",
+        "C": "Cooling vest and cold fluids",
+        "D": "Hot baths to relax muscles",
+        "E": "Increase daily caffeine intake"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Aerobic and strength training reduce MS fatigue, so exercise should continue with a start-low, go-slow approach that avoids overheating.",
+        "B": "Prolonged bed rest causes deconditioning, which is itself a secondary cause of fatigue.",
+        "C": "Heat further impairs conduction in demyelinated axons with a reduced safety factor (Uhthoff phenomenon), so cooling vests, cold drinks, and air conditioning reduce heat-related fatigue and transient symptoms.",
+        "D": "Hot baths and showers raise core temperature and would worsen her heat-sensitive symptoms.",
+        "E": "Caffeine is not a recommended MS fatigue strategy and can disrupt sleep, worsening secondary fatigue."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-077",
+      "question": "A 74-year-old man with hypertension and hyperlipidemia reports sudden, painless loss of vision in his right eye that developed over seconds 1 hour ago. He has a right relative afferent pupillary defect and a right carotid bruit. Fundoscopy shows whitening of the retina with a cherry-red spot at the fovea, narrowed arterioles with segmented blood columns, and a bright yellow refractile body at an arteriolar bifurcation. What is the most likely source of the occlusion?",
+      "answers": {
+        "A": "Carotid atherosclerotic plaque",
+        "B": "Cavernous sinus thrombosis",
+        "C": "Idiopathic intracranial hypertension",
+        "D": "Left atrial myxoma",
+        "E": "Vertebral artery dissection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A refractile yellow Hollenhorst plaque is a cholesterol embolus from ipsilateral carotid atherosclerosis that lodges in the central retinal artery, causing ischemic retinal whitening with a cherry-red spot at the fovea.",
+        "B": "Cavernous sinus thrombosis causes painful proptosis, chemosis, and ophthalmoplegia from involvement of CN III, IV, VI, and V1.",
+        "C": "Idiopathic intracranial hypertension causes bilateral papilledema with headaches that develop over weeks to months.",
+        "D": "Left atrial myxoma can embolize but produces tumor emboli with constitutional symptoms, not refractile cholesterol plaques in a patient with a carotid bruit.",
+        "E": "Vertebral artery dissection causes posterior circulation ischemia that produces homonymous field defects rather than monocular retinal ischemia."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-078",
+      "question": "A 49-year-old man has had multiple sclerosis for 17 years. His early relapses resolved completely, but he now has a fixed spastic paraparesis that has not improved, and recent MRI shows no enhancing lesions. MRI does show T1-hypointense \"black holes\" and cerebral atrophy. In his chronically demyelinated axons, voltage-gated Na+ channels have redistributed along the bare membrane, causing persistent Na+ influx. Which process most directly converts this change into irreversible axonal loss?",
+      "answers": {
+        "A": "Complement-mediated lysis of AQP4+ astrocytes",
+        "B": "JC virus lytic infection of oligodendrocytes",
+        "C": "Methylmalonic acid impairing myelin synthesis",
+        "D": "Osmotic stress-induced oligodendrocyte apoptosis",
+        "E": "Reversed Na+/Ca2+ exchange with Ca2+ overload"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Complement-mediated destruction of AQP4-positive astrocytes is the mechanism of neuromyelitis optica, driven by anti-aquaporin-4 IgG.",
+        "B": "Lytic JC virus infection of oligodendrocytes causes PML in severely immunosuppressed patients, not chronic axonal loss in long-standing MS.",
+        "C": "Methylmalonic acid accumulation in vitamin B12 deficiency disrupts myelin synthesis in the dorsal columns and lateral corticospinal tracts.",
+        "D": "Osmotic oligodendrocyte apoptosis follows overly rapid correction of chronic hyponatremia and causes osmotic demyelination syndrome.",
+        "E": "Persistent Na+ entry reverses the Na+/Ca2+ exchanger, and the resulting intra-axonal Ca2+ overload, compounded by lost oligodendrocyte metabolic support, destroys the axon and causes permanent disability."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-079",
+      "question": "A 72-year-old man develops 3 days of burning pain over his left forehead followed by a vesicular rash on an erythematous base involving the left forehead, upper eyelid, and tip of the nose. His left eye is red and tearing. Involvement of the nasal tip indicates a high risk of corneal involvement because the virus has reactivated along which nerve?",
+      "answers": {
+        "A": "Frontal nerve",
+        "B": "Infraorbital nerve",
+        "C": "Lacrimal nerve",
+        "D": "Nasociliary nerve",
+        "E": "Zygomatic nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The frontal nerve is a V1 branch that supplies the forehead and scalp via the supraorbital and supratrochlear nerves but not the cornea or nasal tip.",
+        "B": "The infraorbital nerve is a V2 branch supplying the cheek, lower eyelid, and upper lip, so vesicles there would not predict corneal disease.",
+        "C": "The lacrimal nerve is a V1 branch supplying the lateral upper eyelid and conjunctiva near the lacrimal gland, not the nasal tip.",
+        "D": "The nasociliary nerve (V1) gives rise to the long ciliary nerves that carry corneal pain and touch sensation and to the external nasal branch supplying the nasal tip, so vesicles there (Hutchinson sign) predict keratitis.",
+        "E": "The zygomatic nerve is a V2 branch supplying the lateral cheek and temple and carrying parasympathetic fibers toward the lacrimal gland."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-080",
+      "question": "A 64-year-old man with poorly controlled hypertension develops sudden headache, vomiting, and right-sided weakness while shoveling snow. At a rural urgent care center, a skull radiograph is obtained and interpreted as normal, and he is transferred to a stroke center 90 minutes after symptom onset. Examination shows right hemiparesis and aphasia. Findings on arrival are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "214/118 mm Hg",
+          "< 120/80 mm Hg"
+        ],
+        [
+          "Pulse",
+          "88/min",
+          "60–100/min"
+        ],
+        [
+          "Glucose",
+          "132 mg/dL",
+          "70–140 mg/dL"
+        ],
+        [
+          "INR",
+          "1.0",
+          "0.8–1.2"
+        ],
+        [
+          "Platelets",
+          "240,000/mm³",
+          "150,000–400,000/mm³"
+        ],
+        [
+          "Skull radiograph",
+          "No fracture",
+          "—"
+        ]
+      ],
+      "answers": {
+        "A": "Administer intravenous alteplase",
+        "B": "Obtain noncontrast CT of the head",
+        "C": "Order brain MRI with gadolinium",
+        "D": "Perform lumbar puncture with CSF analysis",
+        "E": "Repeat skull radiographs in six hours"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Thrombolysis cannot be given until intracranial hemorrhage is excluded, and sudden headache with vomiting and severe hypertension strongly suggests hemorrhage.",
+        "B": "Noncontrast CT has replaced skull radiography for intracranial pathology and rapidly shows acute intracerebral hemorrhage as a hyperdense parenchymal lesion, which must be distinguished from ischemic stroke before treatment.",
+        "C": "MRI is more sensitive for early ischemia but is slower and less practical than CT for the initial emergent exclusion of hemorrhage, and contrast is not required.",
+        "D": "Lumbar puncture is used when subarachnoid hemorrhage is suspected despite a negative CT and is dangerous before imaging in a patient with focal deficits.",
+        "E": "Skull radiographs are limited to findings such as depressed fractures or hardware and cannot detect parenchymal lesions, so repeating them adds nothing."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-081",
+      "question": "A 41-year-old man who emigrated from Vietnam 10 years ago was recently diagnosed with relapsing-remitting multiple sclerosis. His neurologist recommends a disease-modifying therapy given as an intravenous infusion twice yearly that kills its target cells through antibody-dependent cellular cytolysis and complement-mediated lysis. Pretreatment screening results are shown, and the infusion is postponed pending hepatology evaluation. Which medication was most likely planned?",
+      "table": [
+        [
+          "Serology",
+          "Result"
+        ],
+        [
+          "HBsAg",
+          "Positive"
+        ],
+        [
+          "Anti-HBc IgG",
+          "Positive"
+        ],
+        [
+          "Anti-HBs",
+          "Negative"
+        ],
+        [
+          "HBV DNA",
+          "2,400 IU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Alemtuzumab",
+        "B": "Glatiramer acetate",
+        "C": "Interferon beta-1a",
+        "D": "Natalizumab",
+        "E": "Ocrelizumab"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alemtuzumab also lyses lymphocytes via antibody- and complement-dependent cytotoxicity, but it is given as annual courses and its hallmark risk is secondary autoimmunity.",
+        "B": "Glatiramer acetate is a daily or three-times-weekly subcutaneous injection that acts as a myelin decoy, with no need to defer for hepatitis B.",
+        "C": "Interferon beta-1a is self-injected and causes flu-like symptoms, depression, and liver enzyme elevation, but it is not a twice-yearly infusion.",
+        "D": "Natalizumab is a monthly infusion that blocks α4-integrin rather than lysing cells, and its key pretreatment test is JC virus antibody status.",
+        "E": "Ocrelizumab is an anti-CD20 antibody infused every 6 months that depletes B cells, and active hepatitis B (positive HBsAg) is a contraindication because B-cell depletion can cause fulminant HBV reactivation."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-082",
+      "question": "A 49-year-old man with relapsing-remitting multiple sclerosis has taken a once-daily oral medication for 6 years. When he started, he required 6 hours of heart-rate monitoring after the first dose, and an eye examination 3 months later was normal. He now has a pearly, telangiectatic papule with rolled borders on his nose, and biopsy confirms basal cell carcinoma. His neurologist notes that periodic skin examinations are recommended with this medication. Which medication is he most likely taking?",
+      "answers": {
+        "A": "Fingolimod",
+        "B": "Glatiramer acetate",
+        "C": "Interferon beta-1a",
+        "D": "Natalizumab",
+        "E": "Teriflunomide"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Fingolimod requires first-dose cardiac monitoring for bradycardia/AV block and ophthalmologic screening for macular edema, and it increases the risk of skin cancers such as basal cell carcinoma, melanoma, and squamous cell carcinoma.",
+        "B": "Glatiramer acetate is a subcutaneous injection that causes injection-site and post-injection reactions without cardiac monitoring requirements.",
+        "C": "Interferon beta-1a is an injectable associated with flu-like symptoms, depression, and cytopenias rather than skin cancer.",
+        "D": "Natalizumab is a monthly intravenous infusion whose major risk is JC virus–associated PML.",
+        "E": "Teriflunomide is oral but does not require first-dose cardiac monitoring; its key risks are hepatotoxicity and teratogenicity."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-083",
+      "question": "A 22-year-old woman comes to the physician because of 'mood swings.' Her mood shifts from intense anger to despair within a few hours, usually after arguments with her boyfriend, whom she alternately adores and despises. She describes chronic emptiness, impulsive spending, binge eating, and frantic calls to her boyfriend whenever he goes out without her. She has cut her thighs on several occasions. She has never had a period of elevated mood lasting several days, and her sleep is normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Borderline personality disorder",
+        "B": "Cyclothymic disorder",
+        "C": "Histrionic personality disorder",
+        "D": "Major depressive disorder",
+        "E": "Rapid-cycling bipolar disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Instability of relationships, self-image, and affect with mood reactivity lasting hours, abandonment fears, emptiness, impulsivity, and self-harm meets at least 5 criteria for borderline personality disorder.",
+        "B": "Cyclothymic disorder involves at least 2 years of fluctuating hypomanic and depressive symptoms lasting days, not reactive shifts lasting hours.",
+        "C": "Histrionic personality disorder involves attention-seeking and shallow emotions but not self-harm, emptiness, or abandonment fears.",
+        "D": "Major depressive disorder requires at least 2 weeks of persistently depressed mood rather than brief interpersonal mood reactivity.",
+        "E": "Rapid-cycling bipolar disorder requires at least 4 discrete mood episodes per year, with hypomania lasting at least 4 days and decreased need for sleep, which she lacks."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-084",
+      "question": "A 24-year-old man is brought to the emergency department after a high-speed motorcycle crash. He has left periorbital swelling, and CT shows a fracture of the lesser wing of the left sphenoid bone that extends through the left optic canal. Extraocular movements are full. Which visual finding is most likely on examination?",
+      "answers": {
+        "A": "Bitemporal hemianopia",
+        "B": "Left homonymous hemianopia",
+        "C": "Left monocular vision loss",
+        "D": "Right homonymous hemianopia",
+        "E": "Right monocular vision loss"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Bitemporal hemianopia results from injury to the optic chiasm, which lies above the pituitary gland rather than within the optic canal.",
+        "B": "Left homonymous hemianopia results from a right retrochiasmal lesion that affects both eyes.",
+        "C": "The optic nerve enters the cranium through the optic canal carrying all visual fibers from one eye before any cross at the chiasm, so injury here causes ipsilateral monocular vision loss with a left afferent pupillary defect.",
+        "D": "Right homonymous hemianopia results from a left optic tract, lateral geniculate, or radiation lesion behind the chiasm.",
+        "E": "Right monocular vision loss would require injury to the right optic nerve, which travels through the right optic canal."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-085",
+      "question": "A 26-year-old woman with relapsing-remitting multiple sclerosis begins a twice-daily oral disease-modifying therapy. Within the first 2 weeks she develops episodes of facial warmth, redness, and itching about 30 minutes after each dose, along with abdominal pain and diarrhea; the flushing lessens when she takes aspirin beforehand. Her liver enzymes and ECG are normal. Which mechanism best describes how this drug reduces CNS inflammation?",
+      "answers": {
+        "A": "Blockade of α4-integrin adhesion",
+        "B": "Depletion of CD20-positive B cells",
+        "C": "Keap1 modification activating Nrf2",
+        "D": "Pyrimidine synthesis inhibition via DHODH",
+        "E": "Sequestration of lymphocytes via S1P"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "α4-integrin blockade is natalizumab's mechanism, a monthly IV infusion that does not cause dose-related flushing.",
+        "B": "CD20-positive B-cell depletion describes ocrelizumab, which causes infusion reactions rather than flushing after oral doses.",
+        "C": "Dimethyl fumarate modifies Keap1 to activate Nrf2 antioxidant signaling and suppress inflammatory signaling, reducing oxidative stress, T-cell activity, and microglial activation; its prostaglandin-mediated flushing is blunted by aspirin.",
+        "D": "DHODH inhibition of pyrimidine synthesis is teriflunomide's mechanism, whose adverse effects include alopecia and hepatotoxicity rather than flushing.",
+        "E": "S1P receptor–mediated lymphocyte sequestration is fingolimod's mechanism, which causes first-dose bradycardia rather than flushing."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-086",
+      "question": "A 29-year-old woman with relapsing-remitting multiple sclerosis received two annual courses of an intravenous anti-CD52 monoclonal antibody, the second 20 months ago. She now presents with gum bleeding, heavy menstrual bleeding, and petechiae on her shins. She is afebrile, has no new neurologic findings, and her spleen is not palpable. Laboratory results are shown. Which mechanism best explains her thrombocytopenia?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "13.1 g/dL",
+          "12.0–16.0 g/dL"
+        ],
+        [
+          "WBC",
+          "6.2 ×10³/µL",
+          "4.5–11.0 ×10³/µL"
+        ],
+        [
+          "Platelets",
+          "9 ×10³/µL",
+          "150–400 ×10³/µL"
+        ],
+        [
+          "Creatinine",
+          "0.8 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "Peripheral smear",
+          "Large platelets; no schistocytes",
+          "—"
+        ]
+      ],
+      "answers": {
+        "A": "Consumptive coagulopathy with fibrinolysis",
+        "B": "Direct marrow suppression by drug",
+        "C": "Microangiopathic platelet consumption",
+        "D": "Platelet autoantibody-mediated clearance",
+        "E": "Splenic sequestration of platelets"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Disseminated intravascular coagulation would produce schistocytes and abnormal coagulation studies in an acutely ill patient.",
+        "B": "Direct marrow suppression would lower multiple cell lines during or shortly after drug exposure, not cause isolated thrombocytopenia 20 months later.",
+        "C": "Thrombotic microangiopathy such as TTP produces schistocytes and often renal dysfunction, fever, and neurologic changes, none of which are present.",
+        "D": "After alemtuzumab-induced lymphocyte depletion, B cells repopulate faster than regulatory T cells, producing secondary autoimmunity such as immune thrombocytopenia from antiplatelet autoantibodies, with isolated thrombocytopenia and large platelets.",
+        "E": "Splenic sequestration requires splenomegaly, usually from portal hypertension, and her spleen is not palpable."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-087",
+      "question": "A 31-year-old woman with relapsing-remitting multiple sclerosis undergoes biopsy of an atypical enhancing lesion. Staining at the lesion edge shows depletion of a glial cell type with a round nucleus surrounded by a clear perinuclear halo, each of which normally myelinates internodes on many different axons. Over the following months, repeat MRI shows partial recovery of the lesion. The new myelin in this lesion is most likely produced by cells derived from which population?",
+      "answers": {
+        "A": "Ependymal cells",
+        "B": "Neural crest Schwann cells",
+        "C": "Oligodendrocyte precursors",
+        "D": "Reactive astrocytes",
+        "E": "Satellite glial cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ependymal cells line the ventricles and central canal and help produce and circulate CSF; they do not generate myelin.",
+        "B": "Schwann cells derive from neural crest and myelinate a single internode of one peripheral axon; they do not normally remyelinate CNS plaques.",
+        "C": "Oligodendrocyte precursor cells persist in the adult CNS and are the only source of new oligodendrocytes for remyelination after the \"fried egg\" oligodendrocytes are destroyed.",
+        "D": "Reactive astrocytes form the dense gliotic scar of chronic plaques rather than producing new myelin.",
+        "E": "Satellite glial cells surround neuronal cell bodies in peripheral sensory and autonomic ganglia and do not myelinate axons."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-088",
+      "question": "A 71-year-old man is brought to the physician by his wife because of 8 months of progressive difficulty walking. He takes short, shuffling steps as if his feet are stuck to the floor, has developed urinary incontinence, and has become slow to answer questions. He has no tremor or rigidity. MRI of the brain shows markedly enlarged lateral ventricles with only mild widening of the cortical sulci. Which of the following interventions is most likely to improve his symptoms?",
+      "answers": {
+        "A": "Carbidopa and levodopa therapy",
+        "B": "Cholinesterase inhibitor therapy",
+        "C": "CSF shunt to the peritoneum",
+        "D": "High-dose thiamine replacement",
+        "E": "Vitamin B12 replacement therapy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Carbidopa-levodopa treats Parkinson disease, which presents with resting tremor, rigidity, and bradykinesia rather than magnetic gait with incontinence and ventriculomegaly.",
+        "B": "Cholinesterase inhibitors are used for Alzheimer disease, in which ventricular enlargement is proportional to diffuse cortical atrophy (hydrocephalus ex vacuo).",
+        "C": "The triad of magnetic gait, urinary incontinence, and cognitive decline with ventricles enlarged out of proportion to sulci indicates normal pressure hydrocephalus, which can improve with ventriculoperitoneal shunting.",
+        "D": "Thiamine treats Wernicke encephalopathy, which presents acutely with confusion, ophthalmoplegia, and ataxia rather than ventriculomegaly.",
+        "E": "B12 replacement treats subacute combined degeneration with dorsal column and corticospinal tract signs and does not cause ventricular enlargement."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-089",
+      "question": "A 70-year-old man with atrial fibrillation is brought to the emergency department 1 hour after the sudden onset of right face and arm weakness and nonfluent speech. On examination, both eyes are conjugately deviated to the left, and he cannot voluntarily move his eyes to the right. Damage to which structure best explains his eye findings?",
+      "answers": {
+        "A": "Left frontal eye field",
+        "B": "Left medial longitudinal fasciculus",
+        "C": "Left oculomotor nucleus",
+        "D": "Right abducens nucleus",
+        "E": "Right paramedian pontine reticular formation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The left frontal eye field (MCA territory, rostral to the motor cortex) normally drives the contralateral right PPRF for rightward gaze, so its loss leaves the intact right frontal eye field unopposed and the eyes deviate toward the lesion, consistent with the accompanying aphasia and right hemiparesis.",
+        "B": "A left MLF lesion causes a left INO with failed left eye adduction on rightward gaze, not a conjugate deviation.",
+        "C": "A left oculomotor nucleus lesion causes ptosis and a down-and-out left eye, and it lies in the midbrain rather than MCA territory.",
+        "D": "A right abducens nucleus lesion can cause a rightward gaze palsy, but a right pontine lesion would produce left-sided weakness and no aphasia.",
+        "E": "A right PPRF lesion would also impair rightward gaze, but it lies in basilar territory and could not explain aphasia with right-sided weakness."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-090",
+      "question": "A 41-year-old woman comes to the physician with her sister. She cannot choose what to order at a restaurant or what to wear without calling her sister first, and she agreed to move across the country with her former husband despite not wanting to because she feared losing his support. Two weeks after her divorce she moved in with a man she had just met because she felt helpless living alone. She describes herself as incapable and lacking confidence. Which of the following features best distinguishes her condition from avoidant personality disorder?",
+      "answers": {
+        "A": "Avoidance of unfamiliar social situations",
+        "B": "Fear of criticism and social disapproval",
+        "C": "Feelings of personal inadequacy",
+        "D": "Perceiving oneself as socially inept",
+        "E": "Seeking care and reassurance from others"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Inhibition in and avoidance of new social situations is characteristic of avoidant personality disorder.",
+        "B": "Fear of criticism, disapproval, and rejection is the core feature of avoidant personality disorder.",
+        "C": "Feelings of inadequacy are shared by both avoidant and dependent personality disorders and therefore do not distinguish them.",
+        "D": "Seeing oneself as socially inept or unappealing is a feature of avoidant personality disorder.",
+        "E": "Although both disorders feel inadequate, dependent personality disorder is defined by a need to be taken care of, with difficulty making decisions without reassurance and urgently seeking a new relationship when one ends."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-091",
+      "question": "A 29-year-old woman who works as an accountant comes to the physician because of loneliness. She says she would love to have close friends and a partner but turns down invitations from coworkers because she is sure they will find her boring and awkward. She only spends time with people when she is certain they already like her and avoids speaking in meetings for fear of saying something foolish. Which of the following features best distinguishes her condition from schizoid personality disorder?",
+      "answers": {
+        "A": "Desire for connection despite avoidance",
+        "B": "Emotional coldness and flat detachment",
+        "C": "Indifference to praise or criticism",
+        "D": "Magical thinking with odd speech patterns",
+        "E": "Suspicion that others intend to cause harm"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In avoidant personality disorder the patient wants relationships but avoids them because of fear of rejection, whereas in schizoid personality disorder the desire for relationships is absent.",
+        "B": "Emotional coldness and detachment is characteristic of schizoid personality disorder, not avoidant personality disorder.",
+        "C": "Indifference to praise or criticism is a schizoid feature; avoidant patients are hypersensitive to criticism.",
+        "D": "Magical thinking and odd speech characterize schizotypal personality disorder.",
+        "E": "Pervasive suspicion that others intend harm is the hallmark of paranoid personality disorder."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-092",
+      "question": "A 63-year-old man with a 50-pack-year smoking history reports 2 months of pain radiating from his left shoulder down the medial arm. He has mild left ptosis, decreased sweating on the left side of his face, and a left pupil that is smaller than the right, with the difference most pronounced in dim light. Chest x-ray shows a left apical lung mass. The postganglionic fibers that normally dilate his left pupil reach the eye through which nerve?",
+      "answers": {
+        "A": "Chorda tympani",
+        "B": "Greater petrosal nerve",
+        "C": "Long ciliary nerves",
+        "D": "Oculomotor nerve",
+        "E": "Short ciliary nerves"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The chorda tympani carries CN VII taste fibers from the anterior tongue and parasympathetics to the submandibular ganglion.",
+        "B": "The greater petrosal nerve carries CN VII preganglionic parasympathetics to the pterygopalatine ganglion for lacrimation.",
+        "C": "Sympathetic fibers ascend the chain to the superior cervical ganglion and then ride with the long ciliary nerves (branches of V1) to the dilator pupillae, so a Pancoast tumor interrupting this chain causes miosis that is most obvious in the dark.",
+        "D": "The oculomotor nerve carries parasympathetic constrictor fibers, and its injury produces a dilated rather than constricted pupil.",
+        "E": "The short ciliary nerves carry postganglionic parasympathetic fibers from the ciliary ganglion to the sphincter pupillae."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-093",
+      "question": "A 45-year-old surgeon is hospitalized for an elective procedure. He insists that only the department chair is qualified to examine him and belittles the resident as 'unworthy of my time.' Colleagues report that he routinely presents junior surgeons' research as his own to secure awards, expects to be operated on first, and becomes enraged when his judgment is questioned. Which of the following features of his personality disorder best distinguishes it from histrionic personality disorder?",
+      "answers": {
+        "A": "Entitled exploitation of others for status",
+        "B": "Fear of abandonment with recurrent self-harm",
+        "C": "Perception of relationships as more intimate",
+        "D": "Seductive behavior used to draw attention",
+        "E": "Theatrical and rapidly shifting emotions"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Narcissistic personality disorder is defined by superiority, need for admiration, and entitlement, and exploitation of others is prominent, whereas histrionic patients tend toward emotional display and rarely exploit others.",
+        "B": "Abandonment fears with self-harm are characteristic of borderline personality disorder.",
+        "C": "Perceiving relationships as more intimate than they really are is a feature of histrionic personality disorder.",
+        "D": "Sexually seductive behavior to gain attention is a histrionic feature.",
+        "E": "Theatrical, shallow, rapidly shifting emotions are the hallmark of histrionic personality disorder."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-094",
+      "question": "A 41-year-old man comes to the emergency department after a new-onset focal seizure. He reports 2 weeks of worsening headache and low-grade fevers. One month ago he had a molar extraction complicated by a dental infection. He is HIV negative. Examination shows mild left pronator drift. Laboratory and MRI findings are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Study",
+          "Result"
+        ],
+        [
+          "Temperature",
+          "38.3°C (100.9°F)"
+        ],
+        [
+          "Leukocyte count",
+          "13,800/mm³ (reference 4,500–11,000)"
+        ],
+        [
+          "T1 postcontrast MRI",
+          "Single right frontal lesion with thin, smooth ring enhancement"
+        ],
+        [
+          "Diffusion-weighted MRI",
+          "Restricted diffusion within the lesion core"
+        ],
+        [
+          "T2/FLAIR MRI",
+          "Surrounding vasogenic edema"
+        ]
+      ],
+      "answers": {
+        "A": "Glioblastoma multiforme",
+        "B": "Low-grade diffuse astrocytoma",
+        "C": "Metastatic lung carcinoma",
+        "D": "Pyogenic brain abscess",
+        "E": "Toxoplasma gondii encephalitis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Glioblastoma also ring-enhances but has a thick, irregular wall with central necrosis that does not restrict diffusion, and fever with a recent dental infection is not expected.",
+        "B": "Low-grade astrocytoma is T1 hypointense and T2 hyperintense with no significant enhancement and little edema.",
+        "C": "Metastases are usually multiple lesions at the gray-white junction and occur in patients with a known primary tumor.",
+        "D": "A single smooth, thin-walled ring-enhancing lesion with central restricted diffusion (pus) and edema after a contiguous dental infection, with fever and leukocytosis, indicates a pyogenic brain abscess.",
+        "E": "Toxoplasmosis causes multiple ring-enhancing lesions, typically in the basal ganglia, in patients with advanced HIV (CD4 < 100/mm³), and this patient is HIV negative."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-095",
+      "question": "A 36-year-old woman with relapsing-remitting multiple sclerosis started a self-administered intramuscular disease-modifying injection 4 months ago. She reports fever, chills, and muscle aches lasting about a day after each injection. Over the past month she has lost interest in activities, sleeps poorly, and has had thoughts that her family would be better off without her. Laboratory results are shown. The therapeutic benefit of this medication in multiple sclerosis is best attributed to which mechanism?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference range"
+        ],
+        [
+          "WBC",
+          "3.1 ×10³/µL",
+          "4.5–11.0 ×10³/µL"
+        ],
+        [
+          "Platelets",
+          "128 ×10³/µL",
+          "150–400 ×10³/µL"
+        ],
+        [
+          "ALT",
+          "88 U/L",
+          "7–56 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Blockade of leukocyte migration across the blood-brain barrier",
+        "B": "Competitive decoy for myelin-reactive T cells",
+        "C": "Complement-mediated lysis of B lymphocytes",
+        "D": "Reduced antigen presentation and T-cell activation",
+        "E": "Sequestration of lymphocytes within lymph nodes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Blocking leukocyte migration across the blood-brain barrier via α4-integrin is natalizumab's mechanism, which causes PML rather than flu-like symptoms and depression.",
+        "B": "Acting as a decoy for myelin-reactive immune cells is the mechanism of glatiramer acetate, which causes injection-site and post-injection reactions.",
+        "C": "Complement-mediated B-cell lysis describes ocrelizumab, an infusion that causes infusion reactions and infections rather than depression.",
+        "D": "Interferon beta-1a binds its receptor to trigger a transcriptional response that reduces antigen presentation and T-cell proliferation, alters cytokine and MMP expression, and restores suppressor function; its adverse effects include flu-like symptoms, depression/suicidality, liver enzyme elevation, and cytopenias.",
+        "E": "Lymphocyte sequestration in lymph nodes is the mechanism of fingolimod, an oral agent associated with bradycardia and macular edema."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-096",
+      "question": "A 50-year-old man was diagnosed with multiple sclerosis at age 31 after a series of relapses that each resolved almost completely. Over the past 5 years he has had no discrete attacks, yet his gait has steadily deteriorated and he now walks with a cane. His Expanded Disability Status Scale score has risen from 2.0 to 5.5 over this period. MRI shows no enhancing lesions and progressive brain atrophy. Which pattern best describes his current disease course?",
+      "answers": {
+        "A": "Clinically isolated syndrome",
+        "B": "Primary progressive MS",
+        "C": "Radiologically isolated syndrome",
+        "D": "Relapsing-remitting MS",
+        "E": "Secondary progressive MS"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Clinically isolated syndrome describes only a first demyelinating event, not decades of disease with multiple relapses.",
+        "B": "Primary progressive MS worsens from onset without a preceding relapsing phase, whereas this patient had years of relapses that remitted.",
+        "C": "Radiologically isolated syndrome describes incidental MS-like MRI lesions in someone who has never had symptoms.",
+        "D": "Relapsing-remitting MS is characterized by discrete attacks with recovery and stability between them, not continuous relapse-free decline.",
+        "E": "Secondary progressive MS follows an initial relapsing-remitting phase with continuous worsening of neurologic function that occurs independently of relapses, as in this patient."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-097",
+      "question": "A 33-year-old woman with multiple sclerosis has visual evoked potentials showing a markedly prolonged P100 latency in the left eye. Recordings from a demyelinated axon segment show that passive depolarizing current decays over a much shorter distance than normal, so less current reaches the next node of Ranvier. A change in which passive property of the bare internodal membrane best explains this finding?",
+      "answers": {
+        "A": "Higher axial resistance",
+        "B": "Higher length constant",
+        "C": "Higher membrane resistance",
+        "D": "Lower membrane capacitance",
+        "E": "Lower membrane resistance"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Axial resistance depends on axon diameter and cytoplasm rather than myelin, so it is not the property altered by loss of the sheath.",
+        "B": "A higher length constant would let current spread farther passively, the opposite of what occurs after demyelination.",
+        "C": "Higher membrane resistance is the effect of intact myelin, which lengthens the length constant and speeds conduction.",
+        "D": "Lower membrane capacitance is also a property of intact myelin; demyelination raises capacitance, so more charge is needed to depolarize the membrane.",
+        "E": "Loss of myelin lowers membrane resistance so current leaks out across bare internodes, shortening the length constant and slowing or blocking conduction to the next node."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-098",
+      "question": "A 44-year-old man with relapsing-remitting multiple sclerosis and two relapses in the past year is considering a disease-modifying therapy. A pharmaceutical representative states that the drug 'reduces disability progression by a quarter.' The neurologist checks the trial data shown. Which value is the relative risk reduction for disability progression with Drug Y?",
+      "table": [
+        [
+          "Group",
+          "Patients",
+          "Confirmed disability progression at 3 years"
+        ],
+        [
+          "Placebo",
+          "800",
+          "320"
+        ],
+        [
+          "Drug Y",
+          "800",
+          "240"
+        ]
+      ],
+      "answers": {
+        "A": "10%",
+        "B": "25%",
+        "C": "30%",
+        "D": "33%",
+        "E": "75%"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "10% is the absolute risk reduction (0.40 − 0.30), not the reduction relative to the control rate.",
+        "B": "CER = 320/800 = 0.40 and EER = 240/800 = 0.30, so RRR = ARR/CER = 0.10/0.40 = 25%, matching the representative's claim.",
+        "C": "30% is simply the experimental event rate (240/800), not a measure of risk reduction.",
+        "D": "33% results from mistakenly dividing the ARR by the experimental rather than the control event rate (0.10/0.30).",
+        "E": "75% is the relative risk (EER/CER = 0.30/0.40); the RRR equals 1 minus this value."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-099",
+      "question": "A 40-year-old man with relapsing-remitting multiple sclerosis began a once-daily oral medication 6 months ago; his first dose required 6 hours of cardiac monitoring because of bradycardia. He feels well and has had no infections. Routine laboratory studies show an absolute lymphocyte count of 380/µL (reference 1,000–4,800/µL) with normal hemoglobin, neutrophil, and platelet counts. Which mechanism best explains his lymphopenia?",
+      "answers": {
+        "A": "Complement-mediated lysis of lymphocytes",
+        "B": "Impaired pyrimidine synthesis in lymphocytes",
+        "C": "Lymphocyte retention within lymph nodes",
+        "D": "Marrow suppression of lymphoid precursors",
+        "E": "Oxidative apoptosis of activated T cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Complement-mediated lymphocyte lysis occurs with CD20- or CD52-targeted monoclonal antibodies such as ocrelizumab and alemtuzumab, not an oral agent.",
+        "B": "Impaired pyrimidine synthesis via DHODH inhibition is teriflunomide's mechanism, which limits activated lymphocyte proliferation but does not cause first-dose bradycardia.",
+        "C": "Fingolimod is a functional antagonist of S1P receptors that internalizes S1P1 on lymphocytes, preventing their egress from lymph nodes and lowering circulating counts, while S1P effects on atrial myocytes explain first-dose bradycardia.",
+        "D": "Marrow suppression would typically reduce multiple cell lines and is a toxicity of interferons or cytotoxic chemotherapy rather than S1P modulation.",
+        "E": "Oxidative stress pathways are modulated by dimethyl fumarate, which activates Nrf2 and causes lymphopenia without first-dose bradycardia."
+      }
+    },
+    {
+      "id": "neuro-cbl-w6-los-100",
+      "question": "A 26-year-old woman with highly active relapsing-remitting multiple sclerosis and a 38-year-old man with mild, infrequently relapsing disease are both offered the same infusion therapy. Their neurologist reviews two trials of the drug conducted in different populations, shown below, and notes that far fewer highly active patients must be treated to prevent one relapse. Which measure of efficacy is identical in the two trials?",
+      "table": [
+        [
+          "Trial",
+          "Population",
+          "Control relapse risk",
+          "Treated relapse risk"
+        ],
+        [
+          "Trial 1",
+          "Highly active RRMS",
+          "0.60",
+          "0.30"
+        ],
+        [
+          "Trial 2",
+          "Mild RRMS",
+          "0.10",
+          "0.05"
+        ]
+      ],
+      "answers": {
+        "A": "Absolute risk reduction",
+        "B": "Control event rate",
+        "C": "Experimental event rate",
+        "D": "Number needed to treat",
+        "E": "Relative risk reduction"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "ARR is 0.30 in Trial 1 but only 0.05 in Trial 2, because absolute benefit scales with baseline risk.",
+        "B": "The control event rate is 0.60 versus 0.10, reflecting the different baseline disease activity of the two populations.",
+        "C": "The experimental event rate is 0.30 versus 0.05, so it differs between the trials.",
+        "D": "NNT is about 4 (1/0.30 ≈ 3.3) in Trial 1 but 20 (1/0.05) in Trial 2, which is why fewer highly active patients must be treated.",
+        "E": "RRR is 0.30/0.60 = 50% in Trial 1 and 0.05/0.10 = 50% in Trial 2; relative effects can stay constant even when absolute benefit differs with baseline risk."
+      }
+    }
+  ]
+}
