@@ -1,0 +1,512 @@
+{
+  "lecture": "Psychotic Disorders",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-psychotic-disorders-001",
+      "question": "A psychiatrist meets with the family of a newly diagnosed 24-year-old woman who was hospitalized within 3 weeks of her first psychotic symptoms. The family asks what features of her illness will most influence her long-term course, and the psychiatrist reviews the variables associated with outcome. Which of the following features is associated with the most favorable prognosis in schizophrenia?",
+      "answers": {
+        "A": "Abrupt onset of florid positive symptoms",
+        "B": "Gradual decline with prominent negative symptoms",
+        "C": "High expressed emotion among household members",
+        "D": "Poor premorbid academic and social adjustment",
+        "E": "Prolonged duration of untreated psychosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Abrupt onset with a florid, clearly psychotic presentation, along with female gender, marriage, good premorbid adjustment, and early treatment, predicts better outcome.",
+        "B": "An insidious decline dominated by negative symptoms and disorganization predicts a poorer long-term course.",
+        "C": "High expressed emotion in the household is associated with increased relapse rates; low expressed emotion is the favorable variable.",
+        "D": "Poor premorbid academic and social functioning, including the subtle motor and social abnormalities detectable in childhood, predicts worse outcome.",
+        "E": "A long duration of untreated psychosis is consistently associated with worse outcome, which is why reducing it is a public health priority."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-002",
+      "question": "A 26-year-old man has had 8 months of progressive change noted by his family. He shows markedly diminished emotional expression, has stopped initiating any activity, and is repeatedly found holding an uncomfortable posture for long periods. He denies hearing voices and expresses no false beliefs, and his speech, though sparse, is logical and goal-directed. Substance use and medical causes have been excluded. Which of the following additional findings would be required for him to satisfy Criterion A for schizophrenia?",
+      "answers": {
+        "A": "Alogia",
+        "B": "Anhedonia",
+        "C": "Catatonic behavior",
+        "D": "Disorganized speech",
+        "E": "Social withdrawal"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alogia is a negative symptom and cannot satisfy the requirement that at least one qualifying symptom be delusions, hallucinations, or disorganized speech.",
+        "B": "Anhedonia falls within the negative symptom domain and therefore does not fulfill the mandatory first-three-item requirement.",
+        "C": "He already demonstrates catatonic behavior, and like negative symptoms it cannot serve as the required item from the first three.",
+        "D": "Criterion A requires two or more symptoms for at least 1 month with at least one being delusions, hallucinations, or disorganized speech; since he has neither delusions nor hallucinations, disorganized speech is the missing qualifying symptom.",
+        "E": "Social withdrawal is not a Criterion A item and instead reflects the separate criterion for social and occupational dysfunction."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-003",
+      "question": "A 19-year-old woman is evaluated for a 7-week history of believing that her chemistry professor is transmitting coded messages to her through lecture slides. She also hears a voice narrating her behavior and her speech is markedly tangential. Her grades have fallen from A's to failing during this period, and she stopped attending her part-time job. She denies substance use and her urine drug screen is negative. She has had no depressive or manic episodes. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Brief psychotic disorder",
+        "B": "Delusional disorder",
+        "C": "Schizoaffective disorder",
+        "D": "Schizophrenia",
+        "E": "Schizophreniform disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Brief psychotic disorder is limited to symptoms lasting less than 1 month; her symptoms have continued for nearly 2 months.",
+        "B": "Delusional disorder excludes prominent hallucinations and marked functional impairment, both of which she has.",
+        "C": "Schizoaffective disorder requires a concurrent major mood episode during the active phase, which is absent here.",
+        "D": "Schizophrenia requires continuous signs of the disturbance for at least 6 months; her total duration is only 7 weeks, so the diagnosis cannot yet be made.",
+        "E": "She meets Criterion A symptoms for more than 1 month but less than 6 months, which defines schizophreniform disorder; age is not a factor in the diagnosis."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-004",
+      "question": "A 27-year-old woman with schizophrenia has had complete resolution of her hallucinations and persecutory delusions on an antipsychotic. She nonetheless remains unable to return to work: she initiates almost no activity, performs poorly on tests of working memory and problem solving, and her family describes her as emotionally flat. Reduced dopaminergic tone in which of the following regions best accounts for this persistent symptom profile?",
+      "answers": {
+        "A": "Arcuate nucleus of the hypothalamus",
+        "B": "Dorsolateral prefrontal cortex",
+        "C": "Nucleus accumbens",
+        "D": "Striatum",
+        "E": "Substantia nigra"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The arcuate nucleus gives rise to the tuberoinfundibular dopamine pathway controlling prolactin secretion, not executive function.",
+        "B": "Hypodopaminergic mesocortical input to the prefrontal cortex, including the dorsolateral prefrontal cortex, underlies the negative and cognitive symptoms that persist after positive symptoms remit.",
+        "C": "The nucleus accumbens is a mesolimbic target where dopamine excess drives positive symptoms, which have already resolved in this patient.",
+        "D": "Dorsal striatal dopamine relates to motor control and to positive symptoms, not to the deficit syndrome described.",
+        "E": "The substantia nigra is the origin of the nigrostriatal pathway, whose loss produces parkinsonism rather than avolition and cognitive impairment."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-005",
+      "question": "A 28-year-old woman is brought to the emergency department by her husband 2 weeks after an uncomplicated vaginal delivery. For the past 5 days she has insisted that her newborn has been replaced by an impostor and has heard a voice telling her to check the baby's fingerprints. She has no prior psychiatric history, denies sadness or elation, and has been sleeping and eating normally aside from the past several nights. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "11.8 g/dL",
+          "12.0–15.5 g/dL"
+        ],
+        [
+          "TSH",
+          "1.8 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Ca2+",
+          "9.2 mg/dL",
+          "8.5–10.2 mg/dL"
+        ],
+        [
+          "Urine drug screen",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Brief psychotic disorder",
+        "B": "Major depressive disorder with psychotic features",
+        "C": "Schizophrenia",
+        "D": "Schizophreniform disorder",
+        "E": "Substance/medication-induced psychotic disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Delusions and hallucinations present for at least 1 day but less than 1 month, occurring within 4 weeks of delivery, define brief psychotic disorder with peripartum onset.",
+        "B": "A major depressive episode with depressed mood or anhedonia is required, and she denies both.",
+        "C": "Schizophrenia requires continuous signs for at least 6 months; her symptoms have lasted only 5 days.",
+        "D": "Schizophreniform disorder requires Criterion A symptoms lasting at least 1 month, a threshold she has not reached.",
+        "E": "Her urine drug screen is negative and no offending medication is identified, excluding a substance-induced etiology."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-006",
+      "question": "An 18-year-old man is hospitalized for a first episode of psychosis with persecutory delusions and auditory hallucinations. He has smoked cannabis daily since age 14 and has been abstinent for the past 6 weeks, yet his symptoms persist. His parents ask whether cannabis is relevant to his illness. Which of the following statements is best supported by the evidence on cannabis and psychosis?",
+      "answers": {
+        "A": "Cannabis explains the psychosis only during periods of acute intoxication",
+        "B": "Cannabis exposure delays the typical age at onset of psychotic illness",
+        "C": "Cannabis use has no demonstrated relationship to the risk of psychosis",
+        "D": "Cannabis use in adolescence is associated with earlier onset of psychosis",
+        "E": "Cannabis use is less prevalent in schizophrenia than in the general population"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cannabis predicts the onset of psychosis independently of intoxication effects, and his symptoms have continued for 6 weeks of abstinence.",
+        "B": "Cannabis is associated with an earlier, not a later, age at onset of psychotic illness.",
+        "C": "Adolescent cannabis use increases the likelihood of experiencing schizophrenia symptoms in adulthood even after adjustment for confounders.",
+        "D": "Cannabis use in adolescence is linked to earlier onset of psychosis and to an increased likelihood of schizophrenia symptoms in adulthood, independent of acute intoxication.",
+        "E": "Cannabis use is far more prevalent in schizophrenia, reported in as many as 43% of patients, than in the general population."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-007",
+      "question": "A 31-year-old woman has a 3-year history of psychiatric illness. During this period she has had two major depressive episodes, each lasting several months and together accounting for most of the total duration of her illness. After her most recent depressive episode fully remitted, she continued to report persecutory delusions and auditory hallucinations for 6 more weeks before these also improved. She has never had a manic episode, and toxicology testing has been repeatedly negative. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Bipolar I disorder with psychotic features",
+        "B": "Major depressive disorder with psychotic features",
+        "C": "Schizoaffective disorder",
+        "D": "Schizophrenia",
+        "E": "Schizophreniform disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Bipolar I disorder requires at least one manic episode, which she has never experienced.",
+        "B": "In major depressive disorder with psychotic features the psychosis occurs only during mood episodes; her psychosis persisted 6 weeks after the depression remitted.",
+        "C": "Major mood episodes occupy most of the illness duration, yet delusions and hallucinations persisted for at least 2 weeks in the absence of a mood episode, which defines schizoaffective disorder, depressive type.",
+        "D": "Schizophrenia requires that mood episodes, if present, be brief relative to the total duration of the active and residual periods; here mood episodes predominate.",
+        "E": "Schizophreniform disorder describes a psychotic illness of 1 to 6 months' duration without prominent mood episodes."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-008",
+      "question": "A 40-year-old woman is brought to the emergency department by her husband for 3 days of increasingly odd behavior. She insists the neighbors are eavesdropping through the wall and that hospital staff are mocking her to other patients. She has been taking approximately five tablets of her prescribed amphetamine salts daily rather than one. She scratched a nurse's face when blood was drawn. Vital signs and laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Heart rate",
+          "118/min",
+          "60–100/min"
+        ],
+        [
+          "Blood pressure",
+          "168/96 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Temperature",
+          "37.6 °C",
+          "36.5–37.5 °C"
+        ],
+        [
+          "Urine drug screen",
+          "Positive for amphetamines and cocaine",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Brief psychotic disorder",
+        "B": "Delirium due to another medical condition",
+        "C": "Delusional disorder",
+        "D": "Schizophrenia",
+        "E": "Substance/medication-induced psychotic disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Brief psychotic disorder explicitly excludes psychosis attributable to the physiological effects of a substance, which is documented here.",
+        "B": "Delirium is characterized by an acutely fluctuating level of attention and awareness; she is alert and oriented with a stable sensorium.",
+        "C": "Delusional disorder requires a delusion lasting at least 1 month without prominent hallucinations and without a substance-related cause.",
+        "D": "Schizophrenia requires 6 months of continuous signs and is diagnosed only after substance and medical causes are excluded.",
+        "E": "Psychosis emerging in the setting of stimulant overuse with a positive toxicology screen and sympathomimetic vital signs is best classified as substance/medication-induced psychotic disorder."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-009",
+      "question": "A 20-year-old man with a first episode of psychosis has prominent auditory hallucinations and persecutory delusions. He is started on an antipsychotic that acts primarily as a postsynaptic dopamine D2 receptor antagonist, and over 3 weeks his hallucinations and delusions diminish substantially. Excess dopaminergic transmission in which of the following pathways best accounts for the symptoms that responded to this medication?",
+      "answers": {
+        "A": "Mesocortical pathway",
+        "B": "Mesolimbic pathway",
+        "C": "Nigrostriatal pathway",
+        "D": "Raphe-cortical pathway",
+        "E": "Tuberoinfundibular pathway"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The mesocortical projection to the prefrontal cortex is hypodopaminergic in schizophrenia and is linked to negative and cognitive symptoms, not to hallucinations.",
+        "B": "Hyperdopaminergic activity in mesolimbic structures such as the nucleus accumbens and ventral striatum underlies the positive symptoms that respond to D2 blockade.",
+        "C": "The nigrostriatal pathway governs motor control, and blocking it produces extrapyramidal side effects rather than relieving psychosis.",
+        "D": "The raphe-cortical projection is serotonergic and is not the dopaminergic tract implicated in positive symptoms.",
+        "E": "The tuberoinfundibular pathway tonically inhibits prolactin release, and its blockade causes hyperprolactinemia rather than antipsychotic benefit."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-010",
+      "question": "A 25-year-old man is enrolled in a study of first-episode psychosis 6 weeks after the onset of hallucinations and delusions. He has never received an antipsychotic. A research brain MRI is performed and compared with age-matched controls. Which of the following findings is most likely on his scan?",
+      "answers": {
+        "A": "Bilateral caudate head atrophy with enlarged frontal horns",
+        "B": "Confluent periventricular demyelinating white matter plaques",
+        "C": "Enlarged lateral ventricles with reduced hippocampal volume",
+        "D": "Mesial temporal sclerosis with unilateral hippocampal atrophy",
+        "E": "Symmetric cerebellar vermian atrophy with a widened fourth ventricle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Caudate head atrophy with box-car frontal horns characterizes Huntington disease; in schizophrenia the caudate is decreased in neuroleptic-naive patients but this is not the defining imaging finding.",
+        "B": "Periventricular demyelinating plaques indicate multiple sclerosis, which is not the expected structural signature of first-episode psychosis.",
+        "C": "Ventriculomegaly together with reduced prefrontal, temporal, and hippocampal gray matter volume is present at the onset of schizophrenia, before treatment is started.",
+        "D": "Unilateral mesial temporal sclerosis is the hallmark of temporal lobe epilepsy rather than the bilateral volume reductions of schizophrenia.",
+        "E": "Cerebellar vermian atrophy suggests chronic alcohol use and is unrelated to the neurodevelopmental changes of schizophrenia."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-011",
+      "question": "A 17-year-old boy is admitted for 3 months of persecutory delusions and auditory hallucinations. His history includes surgical repair of a conotruncal cardiac defect in infancy, a repaired cleft palate, neonatal seizures attributed to low calcium, recurrent sinopulmonary infections, and lifelong learning difficulties. He has a small mandible and a prominent nasal root. Laboratory studies are shown. Which of the following is the most likely underlying genetic abnormality?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Ca2+",
+          "7.4 mg/dL",
+          "8.5–10.2 mg/dL"
+        ],
+        [
+          "Parathyroid hormone",
+          "9 pg/mL",
+          "15–65 pg/mL"
+        ],
+        [
+          "Absolute lymphocyte count",
+          "900/mm3",
+          "1500–4000/mm3"
+        ]
+      ],
+      "answers": {
+        "A": "CGG repeat expansion in the FMR1 gene",
+        "B": "Deletion at chromosome 15q11 of paternal origin",
+        "C": "Deletion at chromosome 22q11",
+        "D": "Nondisjunction producing trisomy 21",
+        "E": "Translocation between chromosomes 9 and 22"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Fragile X syndrome causes intellectual disability with macroorchidism and large ears, not conotruncal defects, hypoparathyroidism, or T-cell deficiency.",
+        "B": "A paternal 15q11 deletion causes Prader-Willi syndrome with hyperphagia and hypotonia, without cardiac outflow defects or hypocalcemia.",
+        "C": "The 22q11 deletion (velocardiofacial/DiGeorge syndrome) produces conotruncal anomalies, palatal defects, hypocalcemia from hypoparathyroidism, thymic hypoplasia, and a schizophrenia-like psychosis in a substantial minority of patients.",
+        "D": "Trisomy 21 presents with characteristic facies, endocardial cushion defects, and intellectual disability, not hypoparathyroid hypocalcemia with cleft palate.",
+        "E": "The t(9;22) translocation produces chronic myeloid leukemia and has no association with a neurodevelopmental psychotic syndrome."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-012",
+      "question": "A 24-year-old man with a 2-year history of schizophrenia is seen for follow-up. His hallucinations and delusions have resolved on his current antipsychotic. However, he now answers most questions with one or two words and offers no spontaneous conversation, his face remains immobile throughout the interview, he spends most of the day in bed, and he no longer plays the guitar he once loved. Which of the following terms best describes his markedly reduced quantity of speech output?",
+      "answers": {
+        "A": "Alogia",
+        "B": "Anhedonia",
+        "C": "Avolition",
+        "D": "Blunted affect",
+        "E": "Catatonia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Alogia refers to poverty of speech, the reduced quantity and spontaneity of verbal output seen as a negative symptom of schizophrenia.",
+        "B": "Anhedonia is the loss of the capacity to experience pleasure, illustrated here by his abandoning the guitar rather than by his brief answers.",
+        "C": "Avolition is the loss of goal-directed initiative and drive, reflected in his spending the day in bed.",
+        "D": "Blunted affect describes his diminished emotional expressivity and immobile face, not the amount of speech he produces.",
+        "E": "Catatonia involves motor phenomena such as posturing, waxy flexibility, mutism, or echolalia, none of which are described."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-013",
+      "question": "A 54-year-old accountant is brought in by his wife because for the past 10 months he has been convinced she is having an affair with a coworker. He checks her phone nightly, inspects her clothing for evidence, and has driven to her workplace to watch the parking lot. He denies hearing voices, dresses appropriately, converses coherently, and continues to perform well at work with no absences. His physical examination and urine drug screen are unremarkable. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Brief psychotic disorder",
+        "B": "Delusional disorder",
+        "C": "Obsessive-compulsive disorder",
+        "D": "Schizophrenia",
+        "E": "Schizophreniform disorder"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Brief psychotic disorder lasts less than 1 month and ends with full return to baseline; his fixed belief has persisted for 10 months.",
+        "B": "One or more delusions lasting 1 month or longer without prominent hallucinations, bizarre behavior, or marked functional impairment defines delusional disorder, jealous subtype.",
+        "C": "In obsessive-compulsive disorder the intrusive thought is recognized as excessive or senseless, whereas his belief is held with fixed delusional conviction.",
+        "D": "Schizophrenia requires two or more Criterion A symptoms with social or occupational dysfunction; he has an isolated delusion and intact work functioning.",
+        "E": "Schizophreniform disorder also requires the full Criterion A symptom burden, which he does not meet."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-014",
+      "question": "A 24-year-old man requests counseling after his monozygotic twin brother was diagnosed with schizophrenia following a first hospitalization. Neither parent nor any other relative has a psychotic illness. The patient is currently asymptomatic, works full time, and denies substance use. Which of the following best approximates his lifetime risk of developing schizophrenia?",
+      "answers": {
+        "A": "Approximately 1%",
+        "B": "Approximately 10%",
+        "C": "Approximately 25%",
+        "D": "Approximately 50%",
+        "E": "Approximately 90%"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "About 1% is the baseline prevalence in the general population and applies to someone with no affected relatives.",
+        "B": "Roughly 10% to 15% is the risk conferred by an affected sibling or dizygotic twin, who shares only half the genome.",
+        "C": "About 25% overstates the sibling risk and understates the concordance seen in identical twins.",
+        "D": "Monozygotic twin concordance is approximately 45% to 50%, the highest familial risk described and evidence that the disorder is substantially but not entirely genetic.",
+        "E": "A figure near 90% would imply nearly complete genetic determination, which is contradicted by the roughly 50% discordance between identical twins."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-015",
+      "question": "A 58-year-old man with a 35-year history of schizophrenia dies of myocardial infarction. At autopsy the brain shows decreased total volume with enlarged lateral ventricles. Microscopic examination of the prefrontal cortex and hippocampus is performed to characterize the underlying pathology. Which of the following findings is most likely?",
+      "answers": {
+        "A": "Marked astrocytic gliosis with reactive microglial nodules",
+        "B": "Neuritic plaques and neurofibrillary tangles in the hippocampus",
+        "C": "Reduced neuronal size and synaptic density without gliosis",
+        "D": "Round intracytoplasmic Lewy bodies in the substantia nigra",
+        "E": "Spongiform vacuolation throughout the cortical neuropil"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Prominent gliosis would indicate a destructive or inflammatory process; its characteristic absence in schizophrenia argues for a neurodevelopmental rather than neurodegenerative mechanism.",
+        "B": "Plaques and tangles define Alzheimer disease and are not the expected substrate of lifelong schizophrenia.",
+        "C": "Schizophrenia shows reduced neuronal size, neuronal loss, and decreased synaptic density with notably absent gliosis.",
+        "D": "Lewy bodies in the substantia nigra indicate Parkinson disease or dementia with Lewy bodies.",
+        "E": "Spongiform change is the hallmark of prion disease, which follows a rapidly progressive dementing course rather than decades of stable psychosis."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-016",
+      "question": "A 25-year-old healthy volunteer participates in a research study and receives a subanesthetic intravenous infusion of an investigational agent. Within minutes he reports that the investigators are conspiring against him, describes distortions in the sounds around him, and begins answering questions with monosyllables in an emotionally flat manner. All findings resolve within hours of stopping the infusion. Which of the following mechanisms best explains this reaction?",
+      "answers": {
+        "A": "Agonism at central muscarinic receptors",
+        "B": "Antagonism at NMDA glutamate receptors",
+        "C": "Antagonism at postsynaptic dopamine D2 receptors",
+        "D": "Blockade of presynaptic dopamine reuptake",
+        "E": "Partial agonism at 5-HT1A receptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Central muscarinic agonism is the mechanism of a newer antipsychotic and reduces psychotic symptoms rather than producing them.",
+        "B": "Ketamine and phencyclidine are NMDA receptor antagonists that reproduce both positive and negative symptoms, supporting the hypoglutamatergic model of schizophrenia.",
+        "C": "D2 antagonism is the mechanism of conventional antipsychotics and would be expected to reduce delusions, not induce them.",
+        "D": "Blocking dopamine reuptake, as stimulants do, causes paranoia and agitation but not the accompanying negative symptoms of blunted affect and poverty of speech.",
+        "E": "5-HT1A partial agonism is anxiolytic and is not associated with acute induction of psychotic phenomena."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-017",
+      "question": "A 22-year-old man with three prior hospitalizations for schizophrenia is brought in by his mother. He stopped his antipsychotic months ago, has covered his windows with towels, and believes police have hacked his phone and are coming to get him. He told his mother he would rather kill himself than let them reach him, and she found the family handgun hidden under his pillow. His urine drug screen is negative and he is medically stable. He states he wants to go home and refuses admission. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Admit involuntarily for inpatient stabilization and safety",
+        "B": "Discharge home with a written safety plan and follow-up in one week",
+        "C": "Obtain brain MRI before making any further treatment decisions",
+        "D": "Prescribe an antipsychotic and arrange weekly outpatient therapy",
+        "E": "Refer to a community psychosocial rehabilitation program"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "He has expressed suicidal intent, has secured access to a firearm, and is acutely paranoid, meeting criteria for involuntary commitment as a danger to himself and potentially others; safety is the first element of the multimodal treatment approach.",
+        "B": "Discharge is unsafe when a patient with active persecutory delusions has voiced suicidal intent and has firearm access, regardless of any plan documented on paper.",
+        "C": "Neuroimaging is not urgent in a patient with an established diagnosis, prior episodes, and a negative toxicology screen, and delaying disposition for it leaves him unprotected.",
+        "D": "Starting medication is necessary but insufficient without a safe setting; his nonadherence and acute risk require containment first.",
+        "E": "Psychosocial rehabilitation and family education are valuable once the acute crisis has resolved, not as the initial intervention for imminent danger."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-018",
+      "question": "A 23-year-old man is brought to the clinic by his parents. For the past 9 months he has heard two voices that comment on his actions throughout the day, and he believes his roommates installed cameras in his dormitory to monitor him. His speech frequently derails onto unrelated topics. He withdrew from his university courses 7 months ago and now rarely bathes or leaves his room. He has never had a depressive or manic episode. His parents deny drug use. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Urine drug screen",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "TSH",
+          "2.1 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Na+",
+          "139 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "0.9 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Brief psychotic disorder",
+        "B": "Delusional disorder",
+        "C": "Schizoaffective disorder",
+        "D": "Schizophrenia",
+        "E": "Schizophreniform disorder"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Brief psychotic disorder requires symptoms lasting at least 1 day but less than 1 month with full return to premorbid functioning, whereas this patient has been symptomatic for 9 months with sustained decline.",
+        "B": "Delusional disorder requires non-bizarre delusions without prominent hallucinations and without marked functional impairment; this patient has hallucinations, disorganized speech, and severe functional decline.",
+        "C": "Schizoaffective disorder requires a concurrent major depressive or manic episode during the active psychotic illness, which this patient has never had.",
+        "D": "He meets Criterion A with hallucinations, delusions, and disorganized speech plus social and occupational decline, and continuous signs have persisted beyond the required 6 months.",
+        "E": "Schizophreniform disorder applies when the total duration of the disturbance is at least 1 month but less than 6 months; his 9-month course exceeds that limit."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-019",
+      "question": "A 21-year-old man is evaluated for a 4-month history of odd behavior. He tells the psychiatrist that when he rides the bus, the strangers around him can hear his thoughts leaving his head and traveling through the air, which is why they glance at him. He reports no voices and no change in mood. He is alert, and his speech is coherent though somewhat vague. Which of the following terms best describes this patient's reported experience?",
+      "answers": {
+        "A": "Ideas of reference",
+        "B": "Thought blocking",
+        "C": "Thought broadcasting",
+        "D": "Thought insertion",
+        "E": "Thought withdrawal"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ideas of reference are beliefs that neutral events or remarks are directed at oneself, without the conviction that thoughts themselves are audible to others.",
+        "B": "Thought blocking is an abrupt interruption of the flow of speech as the train of thought suddenly stops, an observed formal thought disorder rather than a delusional belief.",
+        "C": "The conviction that one's own thoughts escape and are perceptible to others is thought broadcasting, one of Schneider's first-rank symptoms.",
+        "D": "Thought insertion is the belief that thoughts are being placed into one's mind by an outside agency, not that they are escaping outward.",
+        "E": "Thought withdrawal is the belief that an external force is removing thoughts from one's mind, leaving it empty."
+      }
+    },
+    {
+      "id": "neuro-psychotic-disorders-020",
+      "question": "A 28-year-old man with schizophrenia has failed three trials of dopamine receptor blocking antipsychotics because of intolerable rigidity, tremor, and galactorrhea. His psychiatrist starts a newer oral agent that improves his hallucinations without worsening his movement symptoms, and his prolactin normalizes over 8 weeks. Laboratory studies before the switch are shown. Which of the following best describes the mechanism of the new agent?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Prolactin",
+          "78 ng/mL",
+          "2–18 ng/mL"
+        ],
+        [
+          "TSH",
+          "2.4 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Creatine kinase",
+          "140 U/L",
+          "30–200 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Agonism at central muscarinic cholinergic receptors",
+        "B": "Antagonism at central nicotinic cholinergic receptors",
+        "C": "Blockade of dopamine D2 receptors in the mesolimbic pathway",
+        "D": "Blockade of NMDA receptors in the prefrontal cortex",
+        "E": "Inhibition of serotonin and norepinephrine reuptake"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Xanomeline-trospium is the first agent for schizophrenia that does not act directly at dopamine receptors; xanomeline agonizes CNS muscarinic receptors and indirectly reduces dopamine signaling, which is why prolactin and extrapyramidal effects improve.",
+        "B": "Nicotinic receptors are the other class of cholinergic receptor and are not the target of this agent; blocking them would not treat psychosis.",
+        "C": "Mesolimbic D2 blockade is precisely the mechanism he could not tolerate, as it causes both extrapyramidal symptoms and hyperprolactinemia.",
+        "D": "NMDA receptor blockade in the prefrontal cortex reproduces psychotic symptoms experimentally rather than relieving them.",
+        "E": "Serotonin-norepinephrine reuptake inhibition is an antidepressant mechanism with no antipsychotic efficacy."
+      }
+    }
+  ]
+}

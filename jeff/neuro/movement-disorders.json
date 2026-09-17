@@ -1,0 +1,485 @@
+{
+  "lecture": "Movement Disorders",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-movement-disorders-001",
+      "question": "A 70-year-old woman with newly diagnosed Parkinson disease is started on levodopa alone. Within a week she develops severe nausea, vomiting, and lightheadedness on standing, and her tremor is only minimally improved. A second agent is added to the same tablet; her nausea and orthostatic symptoms resolve and her motor benefit improves at a lower total levodopa dose. Which of the following best explains the action of the added agent?",
+      "answers": {
+        "A": "Inhibition of catechol-O-methyltransferase in the periphery",
+        "B": "Inhibition of dopa decarboxylase outside the central nervous system",
+        "C": "Inhibition of monoamine oxidase type B within the striatum",
+        "D": "Inhibition of the dopamine transporter at presynaptic terminals",
+        "E": "Inhibition of vesicular monoamine transporter type 2 in neurons"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "COMT inhibitors such as entacapone do prolong levodopa half-life, but they enhance rather than reduce dopaminergic side effects and are not the agent co-formulated to prevent nausea.",
+        "B": "Carbidopa blocks dopa decarboxylase peripherally and does not cross the blood-brain barrier, so less levodopa is converted to dopamine in the circulation; this reduces nausea and orthostatic hypotension while delivering more levodopa to the brain.",
+        "C": "MAO-B inhibitors such as rasagiline slow central dopamine breakdown and give mild symptomatic benefit, but they do not prevent peripheral conversion or the nausea it causes.",
+        "D": "Dopamine transporter blockade, as with cocaine or amphetamine, raises synaptic dopamine and has no role in reducing peripheral levodopa side effects.",
+        "E": "VMAT2 inhibitors such as tetrabenazine deplete dopamine and would worsen parkinsonism rather than improve it."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-002",
+      "question": "A 68-year-old woman with diabetic gastroparesis has taken metoclopramide three times daily for 4 months. She now has symmetric bradykinesia, cogwheel rigidity in both wrists, a mild rest tremor of both hands, and reduced arm swing bilaterally. She has no hyposmia, constipation, or dream enactment. A dopamine transporter SPECT scan shows normal, symmetric striatal uptake. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Add benztropine to her regimen",
+        "B": "Begin carbidopa-levodopa therapy",
+        "C": "Discontinue metoclopramide",
+        "D": "Initiate deep brain stimulation evaluation",
+        "E": "Start pramipexole therapy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anticholinergics can mask drug-induced parkinsonism and are considered only when the offending agent cannot be stopped; they are poorly tolerated in older adults.",
+        "B": "Levodopa treats nigrostriatal dopamine deficiency, but her presynaptic terminals are intact on DaT imaging and the postsynaptic D2 receptors are blocked, so it is not first-line here.",
+        "C": "Symmetric parkinsonism developing within months of a dopamine receptor blocking agent, with a normal DaT scan confirming intact presynaptic dopaminergic terminals, is drug-induced parkinsonism; removing the offending agent is the treatment and symptoms are often reversible when recognized early.",
+        "D": "Deep brain stimulation is reserved for advanced idiopathic Parkinson disease with motor fluctuations, dyskinesia, or refractory tremor.",
+        "E": "Adding a dopamine agonist exposes her to impulse control disorders, hallucinations, and edema without addressing the reversible D2 blockade causing her symptoms."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-003",
+      "question": "A 58-year-old man with a 3-year history of Parkinson disease returns with his wife, who reports that over the past 6 months he has lost more than $40,000 on online sports betting, has been eating compulsively at night, and has made repeated unnecessary purchases. He conceals the behavior and sees no problem with it. He also falls asleep abruptly during conversations. His motor symptoms are mildly improved since a medication was added 8 months ago. Which of the following medications is most likely responsible?",
+      "answers": {
+        "A": "Amantadine",
+        "B": "Carbidopa-levodopa",
+        "C": "Entacapone",
+        "D": "Pramipexole",
+        "E": "Rasagiline"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Amantadine causes livedo reticularis, peripheral edema, hallucinations, and anticholinergic effects, but it is not a recognized cause of impulse control disorders.",
+        "B": "Levodopa most characteristically produces nausea, orthostatic hypotension, and peak-dose dyskinesias rather than pathologic gambling and sleep attacks.",
+        "C": "Entacapone prolongs the levodopa response and mainly amplifies existing levodopa side effects such as dyskinesia and discolored urine.",
+        "D": "Dopamine agonists such as pramipexole directly stimulate postsynaptic D3-rich mesolimbic receptors and are the classic cause of impulse control disorders (gambling, binge eating, compulsive buying, hypersexuality, punding) along with sudden sleep attacks and edema.",
+        "E": "MAO-B inhibitors such as rasagiline are generally well tolerated, with drug interactions rather than compulsive behaviors as the main concern."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-004",
+      "question": "A 22-year-old college student is evaluated for 8 months of worsening tremor, slurred speech, and drooling, with failing grades and new depression. When he abducts his arms and flexes his elbows in front of his chest, a coarse proximal flapping tremor appears. He has a fixed grimacing smile and mild dystonic posturing of the right hand. Examination also shows mild bradykinesia. Laboratory results are shown. Which of the following is the most appropriate initial pharmacotherapy?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Serum ceruloplasmin",
+          "6 mg/dL",
+          "20–35 mg/dL"
+        ],
+        [
+          "24-hour urinary copper",
+          "185 mcg/24 h",
+          "<40 mcg/24 h"
+        ],
+        [
+          "AST",
+          "94 U/L",
+          "10–40 U/L"
+        ],
+        [
+          "ALT",
+          "112 U/L",
+          "10–40 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "D-penicillamine",
+        "B": "Deutetrabenazine",
+        "C": "Levodopa-carbidopa",
+        "D": "Propranolol",
+        "E": "Trihexyphenidyl"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Wing-beating tremor, risus sardonicus with drooling, dystonia, parkinsonism, and psychiatric change in a young adult with low ceruloplasmin, high urinary copper, and transaminitis is Wilson disease, an autosomal recessive ATP7B defect; copper chelation with D-penicillamine or trientine, with zinc to block absorption, is the treatment.",
+        "B": "VMAT2 inhibitors suppress chorea in Huntington disease and tardive dyskinesia and would not address copper accumulation.",
+        "C": "Levodopa may transiently help parkinsonian features but does nothing for the underlying copper toxicity or progressive hepatic injury.",
+        "D": "Propranolol treats essential tremor, which is a symmetric postural-kinetic tremor without dystonia, dysarthria, or liver dysfunction.",
+        "E": "Trihexyphenidyl can ease dystonia symptomatically but leaves the causative copper overload untreated and does not prevent hepatic failure."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-005",
+      "question": "A 73-year-old man is evaluated for 2 years of progressive slowness and stiffness that began symmetrically in both legs. He has fallen backward four times in the past 18 months, has developed a startled, worried facial expression, and holds his neck extended. His wife reports early choking on liquids and new apathy and impulsivity. Axial rigidity exceeds limb rigidity, and there is no tremor. Carbidopa-levodopa titrated to 1000 mg daily produced no benefit. Which of the following additional findings is most likely on examination?",
+      "answers": {
+        "A": "Alien limb phenomenon affecting the right arm",
+        "B": "Impaired vertical gaze with intact oculocephalic reflexes",
+        "C": "Kayser-Fleischer rings on slit lamp examination",
+        "D": "Orthostatic blood pressure drop without heart rate change",
+        "E": "Sustained downbeat nystagmus on lateral gaze"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Alien limb is a cortical sign of corticobasal degeneration, which produces markedly asymmetric rigidity, apraxia, and dystonia rather than symmetric axial parkinsonism with backward falls.",
+        "B": "Symmetric akinetic-rigid parkinsonism with early backward falls, retrocollis, axial rigidity, early dysphagia and cognitive change, and levodopa unresponsiveness describes progressive supranuclear palsy; its hallmark is a supranuclear vertical gaze palsy, meaning voluntary downgaze fails but the oculocephalic (doll's eye) maneuver still moves the eyes.",
+        "C": "Kayser-Fleischer rings indicate Wilson disease, which presents in patients under about 40 with wing-beating tremor, dystonia, and liver disease.",
+        "D": "Severe orthostatic hypotension without a compensatory tachycardia points to multiple system atrophy, in which autonomic failure, not gaze palsy and backward falls, dominates.",
+        "E": "Downbeat nystagmus reflects cerebellar or craniocervical junction pathology; progressive supranuclear palsy typically produces square wave jerks and slowed vertical saccades instead."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-006",
+      "question": "A 74-year-old man has 1 year of a slow, wide-based, magnetic gait with feet seeming stuck to the floor, urinary urgency progressing to incontinence, and slowed processing with inattention. He has no tremor or rigidity, and levodopa produced no change. MRI shows ventriculomegaly out of proportion to cortical volume loss with a narrow callosal angle. Lumbar puncture results are shown; after removal of 40 mL of cerebrospinal fluid, his timed 10-meter walk improves from 34 to 19 seconds. Which of the following is most likely to produce sustained improvement in his gait?",
+      "table": [
+        [
+          "Study",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Opening pressure",
+          "15 cm H2O",
+          "6–20 cm H2O"
+        ],
+        [
+          "CSF leukocytes",
+          "1/mm3",
+          "0–5/mm3"
+        ],
+        [
+          "CSF protein",
+          "38 mg/dL",
+          "15–45 mg/dL"
+        ],
+        [
+          "CSF glucose",
+          "62 mg/dL",
+          "45–80 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Amantadine therapy",
+        "B": "Carbidopa-levodopa therapy",
+        "C": "Donepezil therapy",
+        "D": "Serial botulinum toxin injections",
+        "E": "Ventriculoperitoneal shunt placement"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Amantadine is used for levodopa-induced dyskinesia and tremor and has no role in communicating hydrocephalus.",
+        "B": "Levodopa benefits nigrostriatal dopamine deficiency; his levodopa-unresponsive magnetic gait with ventriculomegaly points away from Parkinson disease.",
+        "C": "Cholinesterase inhibitors treat Alzheimer and Lewy body dementias and do not correct a gait disorder caused by impaired CSF reabsorption.",
+        "D": "Botulinum toxin is used for focal dystonia and spasticity, not for gait apraxia from hydrocephalus.",
+        "E": "The triad of gait impairment, urinary incontinence, and cognitive slowing with ventriculomegaly, a narrow callosal angle, normal opening pressure, and marked gait improvement after a large-volume tap is normal pressure hydrocephalus; shunting is the potentially reversible treatment and tap responsiveness predicts benefit."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-007",
+      "question": "A 61-year-old woman with schizophrenia has taken haloperidol for 6 years. Her family notes constant lip smacking, tongue protrusion, and chewing movements of which she is largely unaware; they stop during sleep. The haloperidol dose was halved 3 months ago and the movements briefly worsened and then persisted. She remains psychotic without an antipsychotic and has previously decompensated when medication was stopped. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Add trihexyphenidyl to the current regimen",
+        "B": "Increase the haloperidol dose",
+        "C": "Initiate valbenazine and switch to quetiapine",
+        "D": "Start carbidopa-levodopa therapy",
+        "E": "Substitute fluphenazine for haloperidol"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anticholinergics help tardive dystonia somewhat but typically worsen classic oro-bucco-lingual tardive dyskinesia and add cognitive side effects.",
+        "B": "Raising the dose transiently masks the movements by deepening D2 blockade, but it drives further receptor upregulation and worsens the disorder over time.",
+        "C": "Chronic D2 blockade causes striatal receptor upregulation and supersensitivity, producing tardive dyskinesia; when an antipsychotic must be continued, switching to quetiapine or clozapine (lowest tardive risk) plus a VMAT2 inhibitor such as valbenazine is the evidence-based approach.",
+        "D": "Levodopa increases dopaminergic stimulation and would aggravate both the choreiform movements and her psychosis.",
+        "E": "Fluphenazine is another high-potency typical antipsychotic with equal or greater D2 affinity and would not reduce tardive risk."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-008",
+      "question": "A 68-year-old woman reports 3 years of progressive clumsiness of her left hand. She says the hand \"has a mind of its own\" and sometimes grabs objects or interferes with what her right hand is doing. Examination shows marked rigidity and a fixed dystonic posture of the left arm, inability to mime combing her hair with that hand despite normal strength, failure to identify a key placed in the left palm with eyes closed, and jerky shock-like movements of the left fingers triggered by touch. Levodopa produced no benefit. MRI shows asymmetric right frontoparietal atrophy. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Corticobasal degeneration",
+        "B": "Dementia with Lewy bodies",
+        "C": "Huntington disease",
+        "D": "Multiple system atrophy",
+        "E": "Progressive supranuclear palsy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Strikingly asymmetric rigidity with limb dystonia, limb apraxia, cortical sensory loss (astereognosis), stimulus-sensitive cortical myoclonus, alien limb phenomenon, and contralateral cortical atrophy define corticobasal degeneration, a tauopathy unresponsive to levodopa.",
+        "B": "Dementia with Lewy bodies produces symmetric parkinsonism with fluctuating cognition and visual hallucinations, not unilateral apraxia with alien limb.",
+        "C": "Huntington disease causes flowing generalized chorea with subcortical dementia and mood disturbance in a patient with autosomal dominant family history.",
+        "D": "Multiple system atrophy causes symmetric parkinsonism with autonomic failure and cerebellar signs rather than focal cortical deficits such as astereognosis and apraxia.",
+        "E": "Progressive supranuclear palsy causes symmetric axial rigidity, early falls, and vertical gaze palsy; cortical sensory loss and alien limb are not features."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-009",
+      "question": "A 72-year-old woman with a 9-year history of Parkinson disease takes carbidopa-levodopa five times daily. She now develops writhing, dance-like movements of her head, trunk, and arms that begin about 1 hour after each dose and subside before the next dose is due; her mobility during these periods is otherwise good. A medication is added that markedly reduces these movements without worsening her rigidity or bradykinesia. Which of the following best describes its mechanism of action?",
+      "answers": {
+        "A": "Antagonism of adenosine A2A receptors",
+        "B": "Antagonism of central muscarinic M1 receptors",
+        "C": "Antagonism of NMDA glutamate receptors",
+        "D": "Inverse agonism at serotonin 5-HT2A receptors",
+        "E": "Partial agonism at postsynaptic D2 receptors"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Istradefylline targets adenosine A2A receptors and is used to reduce OFF time and freezing of gait, not peak-dose dyskinesia.",
+        "B": "Trihexyphenidyl blocks central M1 muscarinic receptors and is reserved for refractory tremor; its anticholinergic burden is poorly tolerated in older adults and it does not treat dyskinesia.",
+        "C": "Amantadine is a noncompetitive NMDA receptor antagonist and is the agent of choice for levodopa-induced peak-dose dyskinesia, which reflects pulsatile dopamine stimulation and receptor hypersensitivity in advanced disease.",
+        "D": "Pimavanserin is a 5-HT2A inverse agonist approved for Parkinson disease psychosis, not for involuntary movements.",
+        "E": "Dopamine receptor agonism would add dopaminergic stimulation at the peak of the levodopa effect and worsen her dyskinesia."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-010",
+      "question": "A 71-year-old man with hypertension and type 2 diabetes develops sudden, continuous, violent large-amplitude flinging movements of his left arm and leg that began 2 days ago. The movements are present whenever he is awake, are proximal and rotatory at the shoulder and hip, and cease during sleep. Strength, sensation, reflexes, and cognition are normal. Serum glucose is 128 mg/dL and serum osmolality is normal. Which of the following structures was most likely infarcted?",
+      "answers": {
+        "A": "Left subthalamic nucleus",
+        "B": "Right caudate nucleus",
+        "C": "Right globus pallidus externus",
+        "D": "Right substantia nigra pars compacta",
+        "E": "Right subthalamic nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A left-sided lesion would produce flinging of the right limbs, since the subthalamic nucleus influences movement on the contralateral side of the body.",
+        "B": "Caudate infarction typically produces abulia, behavioral change, or milder chorea rather than violent unilateral proximal ballistic movements.",
+        "C": "Loss of the globus pallidus externus would disinhibit the subthalamic nucleus, increasing pallidal inhibition of the thalamus and reducing rather than increasing movement.",
+        "D": "Nigrostriatal dopaminergic loss produces contralateral parkinsonism, a hypokinetic rather than hyperkinetic syndrome.",
+        "E": "Hemiballismus results from a lesion of the contralateral subthalamic nucleus, usually a lacunar stroke; loss of subthalamic glutamatergic drive to the globus pallidus internus disinhibits the thalamus, releasing the brake on movement in the left limbs. Normal glucose excludes nonketotic hyperglycemic hemichorea."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-011",
+      "question": "A 62-year-old man reports 6 years of shouting, punching, and kicking during sleep while dreaming of being attacked; he has struck his wife twice. Polysomnography shows REM sleep without atonia. He has also noticed that he can no longer smell coffee and has had daily constipation for years. Neurologic examination, including gait, tone, and finger tapping, is normal. Which of the following proteins is most likely to accumulate abnormally in his neurons over the next two decades?",
+      "answers": {
+        "A": "Alpha-synuclein",
+        "B": "Amyloid-beta",
+        "C": "Ataxin-3",
+        "D": "Huntingtin",
+        "E": "Tau"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "REM sleep behavior disorder with hyposmia and constipation is the prodromal synucleinopathy triad; about 80% of such patients convert to Parkinson disease, dementia with Lewy bodies, or multiple system atrophy, all defined by alpha-synuclein aggregation.",
+        "B": "Amyloid-beta accumulation underlies Alzheimer disease, which presents with amnestic memory loss rather than dream enactment, hyposmia, and constipation.",
+        "C": "Expanded ataxin-3 causes spinocerebellar ataxia type 3, which produces progressive gait ataxia and bulbar findings in a patient with a family history of ataxia.",
+        "D": "Mutant huntingtin causes Huntington disease, which presents with chorea, subcortical dementia, and mood change, not isolated prodromal autonomic and sleep features.",
+        "E": "Tau deposition characterizes progressive supranuclear palsy and corticobasal degeneration, which present with falls, gaze palsy, or asymmetric apraxia rather than a decades-long prodrome of REM sleep behavior disorder."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-012",
+      "question": "A 46-year-old accountant reports 5 years of bilateral hand shaking that appears when she holds a coffee cup, writes, or brings a spoon to her mouth, and disappears when her hands rest in her lap. Her voice has become quavering. A glass of wine reliably quiets the tremor for an hour. Her father and grandmother had the same problem. Examination shows symmetric postural and kinetic tremor without rigidity, bradykinesia, or gait abnormality. She has moderate persistent asthma treated with an inhaled corticosteroid and albuterol. Which of the following is the most appropriate pharmacotherapy?",
+      "answers": {
+        "A": "Carbidopa-levodopa",
+        "B": "Primidone",
+        "C": "Propranolol",
+        "D": "Trihexyphenidyl",
+        "E": "Valbenazine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Levodopa treats the rest tremor and bradykinesia of Parkinson disease; her tremor is action-predominant with no parkinsonian signs.",
+        "B": "Bilateral, symmetric, alcohol-responsive postural-kinetic tremor with a positive family history is essential tremor; primidone and propranolol are the two first-line agents, and primidone is preferred because nonselective beta blockade can counteract her beta-agonist inhaler and worsen asthma.",
+        "C": "Propranolol is equally effective first-line therapy but is contraindicated in poorly controlled asthma because it antagonizes bronchodilation.",
+        "D": "Anticholinergics such as trihexyphenidyl are reserved for refractory parkinsonian tremor and dystonia and carry substantial cognitive and autonomic side effects.",
+        "E": "VMAT2 inhibitors such as valbenazine treat chorea and tardive dyskinesia and can induce parkinsonism and depression; they have no role in essential tremor."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-013",
+      "question": "A 15-year-old girl has 3 years of progressively unsteady walking and clumsy hands. Examination shows a wide-based staggering gait, dysmetria on heel-to-shin testing, scanning dysarthria, absent knee and ankle reflexes, extensor plantar responses, and markedly reduced vibration and joint position sense in the feet. She has high-arched feet and thoracic scoliosis. Echocardiography shows concentric left ventricular hypertrophy, and fasting glucose is 138 mg/dL. Her parents and two siblings are unaffected. Which of the following genetic abnormalities is most likely?",
+      "answers": {
+        "A": "CAG repeat expansion in the ATXN1 gene",
+        "B": "CAG repeat expansion in the HTT gene",
+        "C": "CGG repeat expansion in the FMR1 gene",
+        "D": "GAA repeat expansion in the FXN gene",
+        "E": "Loss-of-function mutation in the ATM gene"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Spinocerebellar ataxia type 1 is autosomal dominant with onset usually in the third to fifth decades and would not explain areflexia, cardiomyopathy, or an unaffected family.",
+        "B": "HTT expansion causes Huntington disease, presenting with chorea, dementia, and mood disturbance rather than sensory ataxia with skeletal and cardiac disease.",
+        "C": "FMR1 premutation causes fragile X-associated tremor/ataxia syndrome in men older than 50, with intention tremor, ataxia, and middle cerebellar peduncle hyperintensity.",
+        "D": "Childhood-onset progressive ataxia with areflexia, upgoing toes, loss of proprioception and vibration, dysarthria, pes cavus, scoliosis, hypertrophic cardiomyopathy, and diabetes in an autosomal recessive pedigree is Friedreich ataxia, caused by a GAA repeat expansion in the frataxin (FXN) gene on chromosome 9 leading to mitochondrial iron handling failure.",
+        "E": "ATM mutation causes ataxia-telangiectasia, which begins between ages 1 and 4 with oculocutaneous telangiectasias, sinopulmonary infections, elevated alpha-fetoprotein, and cancer risk."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-014",
+      "question": "A 63-year-old man is evaluated for 2 years of symmetric bradykinesia and rigidity. He has had four episodes of syncope on standing, urinary incontinence requiring pads, and erectile dysfunction. His gait is wide-based with heel-to-shin dysmetria, and his wife reports loud inspiratory stridor during sleep. Carbidopa-levodopa 900 mg daily has produced no benefit. Vital signs are shown below. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Measurement",
+          "Supine",
+          "Standing at 3 minutes"
+        ],
+        [
+          "Blood pressure",
+          "142/84 mm Hg",
+          "88/52 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "70/min",
+          "73/min"
+        ]
+      ],
+      "answers": {
+        "A": "Dementia with Lewy bodies",
+        "B": "Drug-induced parkinsonism",
+        "C": "Idiopathic Parkinson disease",
+        "D": "Multiple system atrophy",
+        "E": "Progressive supranuclear palsy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dementia with Lewy bodies requires cognitive decline within a year of parkinsonism with vivid hallucinations and fluctuating alertness; this man's deficits are autonomic and cerebellar, not cognitive.",
+        "B": "Drug-induced parkinsonism follows exposure to a dopamine receptor blocking agent and does not cause cerebellar dysmetria, stridor, or profound neurogenic orthostatic hypotension.",
+        "C": "Idiopathic Parkinson disease is asymmetric at onset and responds robustly to levodopa; early severe dysautonomia, ataxia, and stridor are red flags against it.",
+        "D": "Parkinsonism plus cerebellar signs plus severe autonomic failure, with a 54 mm Hg systolic drop and no compensatory heart rate rise (denervated baroreflex), laryngeal stridor, and levodopa unresponsiveness, is classic multiple system atrophy, a synucleinopathy with glial cytoplasmic inclusions and the pontine hot cross bun sign.",
+        "E": "Progressive supranuclear palsy causes symmetric axial parkinsonism with early backward falls and vertical gaze palsy, not dysautonomia with cerebellar ataxia and stridor."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-015",
+      "question": "A 12-year-old boy has a 3-year history of eye blinking, shoulder shrugging, and throat clearing, with intermittent barking sounds. The movements wax and wane in severity but he has never been free of them for more than a few weeks. He describes a building uncomfortable urge before each movement and relief afterward, and he can suppress them briefly in class at the cost of mounting tension. He also carries a diagnosis of ADHD. The tics are noticeable but do not impair his schoolwork or friendships. Which of the following is the most appropriate initial management?",
+      "answers": {
+        "A": "Aripiprazole therapy",
+        "B": "Behavioral therapy for tics (CBIT)",
+        "C": "Botulinum toxin injections",
+        "D": "Clonidine therapy",
+        "E": "Deep brain stimulation surgery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Dopamine receptor blocking agents are more effective but carry acute dystonia, parkinsonism, and tardive dyskinesia risk, so they are reserved for tics that meaningfully impair function.",
+        "B": "Multiple motor tics plus at least one vocal tic, lasting more than a year with onset before age 18 and no tic-free interval longer than 3 months, define Tourette syndrome; when tics are not functionally impairing, education plus comprehensive behavioral intervention for tics is first-line, along with treating comorbid ADHD.",
+        "C": "Botulinum toxin is an option for isolated focal or troublesome single tics, not for generalized multifocal motor and vocal tics.",
+        "D": "Clonidine is a reasonable tier 1 medication with modest efficacy, but medication is not the first step for tics that are not impairing daily function.",
+        "E": "Deep brain stimulation is reserved for severe, medication-refractory Tourette syndrome."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-016",
+      "question": "A 67-year-old man is brought in by his wife for 2 years of progressive slowness. He has trouble rising from a chair, his handwriting has become small, and his wife notes he no longer smiles when she speaks to him. Examination shows hypomimia, a reduced blink rate, cogwheel rigidity at the right wrist, a 4-Hz pill-rolling tremor of the right hand at rest, and decreased right arm swing. His bradykinesia and rigidity improve dramatically within 45 minutes of a single dose of carbidopa-levodopa. Which of the following best describes the basal ganglia circuit change responsible for his bradykinesia?",
+      "answers": {
+        "A": "Decreased glutamatergic output from the subthalamic nucleus",
+        "B": "Decreased inhibitory output from the globus pallidus internus",
+        "C": "Increased dopaminergic stimulation of striatal D1 receptors",
+        "D": "Increased inhibitory output from the globus pallidus internus",
+        "E": "Increased thalamocortical drive to the supplementary motor area"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Reduced subthalamic output would decrease pallidal inhibition of the thalamus and produce excess movement, as in hemiballismus, not the hypokinesia seen here.",
+        "B": "Reduced pallidal inhibition disinhibits the thalamus and increases movement; this is the direction of change seen in chorea, not in Parkinson disease.",
+        "C": "Nigrostriatal dopamine loss means D1 stimulation of the direct pathway is decreased, not increased; his levodopa response confirms a dopamine-deficient state.",
+        "D": "Loss of substantia nigra pars compacta dopamine underactivates the D1 direct pathway and disinhibits the D2 indirect pathway, so the globus pallidus internus fires excessively and applies a GABAergic brake on the thalamus, reducing thalamocortical output and producing bradykinesia.",
+        "E": "Thalamocortical drive is reduced, not increased, in Parkinson disease; increased drive would manifest as a hyperkinetic disorder."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-017",
+      "question": "A 44-year-old man is evaluated for 2 years of irritability, depression, and forgetfulness that cost him his job. Examination shows continuous fidgety movements of the fingers and face that flow from one body part to another, inability to keep his tongue protruded for 10 seconds, a fluctuating hand grip, and delayed initiation of saccades. MRI shows caudate atrophy with boxcar frontal horns. Genetic testing reveals 44 CAG repeats in the HTT gene. His asymptomatic 19-year-old son undergoes testing and is found to have 62 repeats. Which of the following genetic phenomena best explains the son's findings?",
+      "answers": {
+        "A": "Anticipation",
+        "B": "Genomic imprinting",
+        "C": "Incomplete penetrance",
+        "D": "Mosaicism",
+        "E": "Variable expressivity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Huntington disease is an autosomal dominant CAG trinucleotide repeat disorder on chromosome 4 that is fully penetrant above 39 repeats; repeats expand further during transmission (especially paternal), so successive generations have larger repeats and earlier, more severe disease, which is anticipation.",
+        "B": "Imprinting means expression depends on parent of origin without a change in DNA sequence, whereas the son's repeat number itself has increased.",
+        "C": "Incomplete penetrance means some carriers never manifest disease; expansions above 39 repeats in Huntington disease are completely penetrant.",
+        "D": "Mosaicism describes two genetically distinct cell populations within one individual and does not explain a larger germline repeat in the offspring.",
+        "E": "Variable expressivity describes differing severity among people with the same mutation, not a measurable increase in repeat length across generations."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-018",
+      "question": "A 76-year-old man is brought in for 1 year of cognitive decline. His daughter describes days when he is alert and conversational and others when he stares blankly for hours. He repeatedly sees small children playing in the living room and describes them in detail without fear. Over the past 6 months he has developed a shuffling gait and mild symmetric rigidity. He acts out dreams at night. In the emergency department he received haloperidol for agitation and became profoundly rigid and unresponsive. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Alzheimer disease",
+        "B": "Dementia with Lewy bodies",
+        "C": "Normal pressure hydrocephalus",
+        "D": "Parkinson disease dementia",
+        "E": "Progressive supranuclear palsy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Alzheimer disease causes progressive amnestic decline without early vivid hallucinations, fluctuating alertness, parkinsonism, or neuroleptic sensitivity.",
+        "B": "Dementia with Lewy bodies is defined by cognitive impairment arising within a year of parkinsonism plus features such as well-formed visual hallucinations and fluctuating cognition; severe neuroleptic sensitivity and REM sleep behavior disorder support it, and it is the second most common cause of dementia.",
+        "C": "Normal pressure hydrocephalus produces the triad of magnetic gait, urinary incontinence, and cognitive slowing with ventriculomegaly, not hallucinations or neuroleptic sensitivity.",
+        "D": "Parkinson disease dementia requires established motor parkinsonism for years before cognitive decline; here cognition declined first and motor signs followed within months.",
+        "E": "Progressive supranuclear palsy presents with early backward falls and vertical supranuclear gaze palsy rather than fluctuating cognition with detailed visual hallucinations."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-019",
+      "question": "A 27-year-old man with schizophrenia was started on intramuscular haloperidol 8 days ago during an inpatient admission. He is now confused and minimally responsive, with a temperature of 40.1 C (104.2 F), pulse 126/min, and blood pressure 162/98 mm Hg. He is diaphoretic with diffuse lead-pipe rigidity of all four limbs and no tremor. Laboratory results are shown. Haloperidol is stopped and aggressive supportive care with intravenous fluids and cooling is begun. Which of the following pharmacologic agents is most appropriate to add?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Creatine kinase",
+          "18,400 U/L",
+          "30–200 U/L"
+        ],
+        [
+          "Leukocyte count",
+          "16,200/mm3",
+          "4,500–11,000/mm3"
+        ],
+        [
+          "Creatinine",
+          "1.9 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "Potassium",
+          "5.4 mEq/L",
+          "3.5–5.0 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Benztropine",
+        "B": "Dantrolene",
+        "C": "Haloperidol at a reduced dose",
+        "D": "Propranolol",
+        "E": "Valbenazine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anticholinergics reverse acute dystonic reactions to dopamine blockers but do not treat the rigidity, hyperthermia, and rhabdomyolysis of neuroleptic malignant syndrome.",
+        "B": "The triad of lead-pipe rigidity, altered mental status, and autonomic instability with hyperthermia, marked creatine kinase elevation, leukocytosis, and acute kidney injury within 2 weeks of a high-potency antipsychotic is neuroleptic malignant syndrome; dantrolene reduces muscle rigidity, hyperthermia, and rhabdomyolysis, and dopamine agonists such as bromocriptine may also be used.",
+        "C": "Continuing any dopamine receptor blocking agent perpetuates the syndrome, which carries mortality up to 20-30%.",
+        "D": "Beta blockers are used for akathisia, a subjective restlessness without fever, rigidity, or creatine kinase elevation.",
+        "E": "VMAT2 inhibitors deplete dopamine further and are used for tardive dyskinesia; they would aggravate this hypodopaminergic emergency."
+      }
+    },
+    {
+      "id": "neuro-movement-disorders-020",
+      "question": "A 52-year-old woman reports 3 years of involuntary leftward turning and tilting of her head with aching neck pain. The posture worsens when she walks and is absent during sleep. She has discovered that lightly resting a fingertip on her chin temporarily straightens her head. Examination shows hypertrophy of the right sternocleidomastoid with sustained co-contraction of neck agonists and antagonists; strength, sensation, and reflexes are normal. Targeted intramuscular injections are planned. Which of the following best describes the mechanism of the planned therapy?",
+      "answers": {
+        "A": "Blockade of postsynaptic nicotinic receptors at the motor end plate",
+        "B": "Blockade of presynaptic acetylcholine release at the neuromuscular junction",
+        "C": "Inhibition of acetylcholinesterase within the synaptic cleft",
+        "D": "Inhibition of central muscarinic receptors within the striatum",
+        "E": "Inhibition of voltage-gated calcium channels at the nerve terminal"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Postsynaptic nicotinic receptor blockade describes nondepolarizing neuromuscular blockers used in anesthesia, which cause generalized paralysis rather than selective focal weakening.",
+        "B": "Her sensory trick (geste antagoniste) and agonist-antagonist co-contraction identify cervical dystonia, best treated with botulinum toxin; the toxin's light chain cleaves SNARE proteins and blocks acetylcholine release from the presynaptic terminal, selectively weakening the overactive muscles.",
+        "C": "Acetylcholinesterase inhibition increases synaptic acetylcholine and is used in myasthenia gravis; it would increase, not reduce, muscle activation.",
+        "D": "Central antimuscarinic action describes trihexyphenidyl, an oral option for generalized dystonia, but it is not the mechanism of an intramuscular injection.",
+        "E": "Presynaptic calcium channel blockade describes the pathophysiology of Lambert-Eaton syndrome and the action of aminoglycosides, not botulinum toxin."
+      }
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "lecture": "Neuroanatomy Lab: Diencephalon & Limbic System",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-001",
+      "question": "A 58-year-old woman is found to have a right homonymous hemianopia that is strikingly incongruous between the two eyes, along with a left relative afferent pupillary defect. Visual acuity, strength, sensation, and coordination are normal. MRI shows a small infarct in a flattened band of fibers on the ventral surface of the diencephalon, lateral to the cerebral peduncle and medial to the gray matter of the medial temporal lobe. Which structure is infarcted?",
+      "answers": {
+        "A": "Lateral geniculate nucleus",
+        "B": "Meyer loop in the temporal lobe",
+        "C": "Optic chiasm",
+        "D": "Optic tract",
+        "E": "Retrolenticular internal capsule"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A lateral geniculate lesion sits dorsal to the tract beneath the pulvinar and produces a congruous field defect without an afferent pupillary defect.",
+        "B": "A Meyer loop lesion causes a superior quadrantanopia and lies well posterior in temporal white matter, not on the ventral diencephalic surface.",
+        "C": "An optic chiasm lesion produces bitemporal, not homonymous, field loss.",
+        "D": "The optic tract sweeps along the ventral diencephalon lateral to the peduncle and medial to the temporal lobe, and lesions there give an incongruous homonymous hemianopia with a contralateral afferent pupillary defect because pupillary fibers travel with it.",
+        "E": "The retrolenticular internal capsule carries optic radiations behind the lenticular nucleus and produces a congruous hemianopia with normal pupils."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-002",
+      "question": "A 24-year-old man is rescued from a house fire and treated for carbon monoxide poisoning. Three weeks later he develops progressive rigidity, shuffling gait, and dystonic posturing. MRI shows symmetric bilateral necrosis of the globus pallidus. Reviewing a coronal section, the resident must identify the pallidal segment that lies immediately medial to the putamen and is separated from it by the lateral medullary lamina. Which structure is that?",
+      "answers": {
+        "A": "Claustrum",
+        "B": "Globus pallidus, external segment",
+        "C": "Globus pallidus, internal segment",
+        "D": "Subthalamic nucleus",
+        "E": "Ventral pallidum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The claustrum is a thin sheet of gray matter lateral to the putamen between the external and extreme capsules.",
+        "B": "The external segment of the globus pallidus lies directly medial to the putamen, separated from it by the lateral medullary lamina, with the internal segment medial to it across the medial medullary lamina.",
+        "C": "The internal segment lies medial to the external segment against the internal capsule and is the main output nucleus of the basal nuclei.",
+        "D": "The subthalamic nucleus lies below the thalamus above the cerebral peduncle and is not part of the lenticular nucleus.",
+        "E": "The ventral pallidum lies beneath the anterior commissure as the pallidal component of the ventral striatal circuit."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-003",
+      "question": "A 66-year-old man is brought in by his wife because he has become apathetic and nearly mute over 3 days, sitting motionless unless prompted, though he follows commands when pressed. Strength, sensation, and visual fields are normal. On an axial section at the level of the interventricular foramen, an infarct occupies the white matter that separates the head of the caudate nucleus from the putamen. Which region is infarcted?",
+      "answers": {
+        "A": "Anterior limb of the internal capsule",
+        "B": "External capsule",
+        "C": "Genu of the internal capsule",
+        "D": "Posterior limb of the internal capsule",
+        "E": "Retrolenticular internal capsule"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior limb lies between the caudate head and the putamen and carries frontopontine fibers and the anterior thalamic radiation from the dorsomedial nucleus, so its infarction produces abulia without motor or sensory loss.",
+        "B": "The external capsule lies lateral to the putamen between it and the claustrum, not between caudate and putamen.",
+        "C": "The genu lies at the bend between the limbs and carries corticobulbar fibers, producing contralateral facial weakness and dysarthria.",
+        "D": "The posterior limb lies between the thalamus and the lenticular nucleus and carries corticospinal and sensory fibers, producing hemiparesis and hemisensory loss.",
+        "E": "The retrolenticular portion lies behind the lenticular nucleus and carries visual fibers, producing a homonymous hemianopia."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-004",
+      "question": "A 46-year-old woman has 6 months of worsening memory for recent events along with marked apathy. MRI shows an infiltrating glioma tracking within the white matter bundle that lies deep to the cingulate gyrus, arches over the corpus callosum, and curves down into the parahippocampal gyrus, carrying the projection from the cingulate cortex to the entorhinal cortex. Which bundle is infiltrated?",
+      "answers": {
+        "A": "Cingulum",
+        "B": "Fornix",
+        "C": "Stria medullaris thalami",
+        "D": "Stria terminalis",
+        "E": "Uncinate fasciculus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The cingulum is the association bundle deep to the cingulate gyrus that carries cingulate projections to the hippocampal formation and entorhinal cortex, closing the Papez circuit.",
+        "B": "The fornix carries hippocampal and subicular output forward to the mammillary bodies and septal region beneath the corpus callosum, not within the cingulate gyrus.",
+        "C": "The stria medullaris thalami travels on the dorsomedial thalamic surface from septal and hypothalamic nuclei to the habenula.",
+        "D": "The stria terminalis arcs in the floor of the lateral ventricle from the amygdala to the hypothalamus and septal area.",
+        "E": "The uncinate fasciculus connects the orbitofrontal cortex with the anterior temporal lobe around the limen insulae."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-005",
+      "question": "A 59-year-old man with generalized spike-and-wave seizures undergoes depth electrode recording. The electrode is advanced medially from the posterior limb of the internal capsule into a thin shell of GABAergic neurons that caps the lateral surface of the thalamus, is separated from the remaining thalamic nuclei by the external medullary lamina, and projects back into the thalamus without sending axons to the cortex. Which nucleus is being recorded?",
+      "answers": {
+        "A": "Anterior nucleus",
+        "B": "Centromedian nucleus",
+        "C": "Reticular nucleus",
+        "D": "Ventral anterior nucleus",
+        "E": "Zona incerta"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior nucleus bulges into the floor of the lateral ventricle, receives the mammillothalamic tract, and projects to the cingulate gyrus.",
+        "B": "The centromedian nucleus is an intralaminar nucleus enclosed by the internal medullary lamina deep within the thalamus.",
+        "C": "The reticular nucleus is the GABAergic shell lying between the external medullary lamina and the internal capsule, and it projects only back onto other thalamic nuclei.",
+        "D": "The ventral anterior nucleus lies in the ventral tier deep to the external medullary lamina and relays pallidal input to motor cortex.",
+        "E": "The zona incerta lies in the subthalamus between the lenticular and thalamic fasciculi, below the thalamus proper."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-006",
+      "question": "A 71-year-old woman is found unresponsive and on arrival is profoundly hypersomnolent, rousable only briefly, with impaired vertical gaze and severe inattention but normal strength and sensation. MRI shows symmetric paramedian thalamic infarcts. On the corresponding stained coronal section, the infarcts are centered on the Y-shaped sheet of white matter that separates the dorsomedial nucleus from the ventral tier nuclei and that encloses the centromedian nucleus. Which structure is that sheet?",
+      "answers": {
+        "A": "External medullary lamina",
+        "B": "Internal medullary lamina",
+        "C": "Lateral medullary lamina",
+        "D": "Medial medullary lamina",
+        "E": "Stria medullaris thalami"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The external medullary lamina caps the lateral surface of the thalamus and separates it from the reticular nucleus and the internal capsule.",
+        "B": "The internal medullary lamina splits the thalamus into anterior, medial, and lateral groups, separates the dorsomedial nucleus from VA/VL and VPM/VPL, and encloses the intralaminar nuclei, including the centromedian.",
+        "C": "The lateral medullary lamina lies in the lenticular nucleus between the putamen and the external segment of the globus pallidus.",
+        "D": "The medial medullary lamina separates the external from the internal segment of the globus pallidus and is not a thalamic structure.",
+        "E": "The stria medullaris thalami runs on the dorsomedial surface of the thalamus toward the habenula rather than within the thalamic gray matter."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-007",
+      "question": "A 41-year-old man with severe refractory obsessive-compulsive disorder is enrolled for deep brain stimulation of the ventral striatum. On the most rostral coronal sections of the specimen used for planning, the target is the continuous mass of gray matter that bridges the head of the caudate nucleus and the putamen ventrally, at a level where the anterior limb of the internal capsule has not yet fully separated the two nuclei. Which structure is being targeted?",
+      "answers": {
+        "A": "Anterior commissure",
+        "B": "Globus pallidus externus",
+        "C": "Nucleus accumbens",
+        "D": "Septal nuclei",
+        "E": "Ventral pallidum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior commissure is a compact transverse fiber bundle crossing beneath the globus pallidus and is white matter rather than striatal gray matter.",
+        "B": "The globus pallidus externus appears more caudally, medial to the putamen and separated from it by the lateral medullary lamina.",
+        "C": "The nucleus accumbens is the ventral striatum joining the head of the caudate to the putamen before the anterior limb of the internal capsule is complete.",
+        "D": "The septal nuclei lie in the midline beneath the rostrum of the corpus callosum, medial to the lateral ventricles rather than bridging the striatum.",
+        "E": "The ventral pallidum lies beneath the anterior commissure as the pallidal recipient of accumbens output, not as the caudate-putamen bridge."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-008",
+      "question": "A 66-year-old man with 11 years of Parkinson disease and disabling motor fluctuations undergoes stereotactic lead placement. As the electrode is advanced, it passes through a compact sheet of pallidal efferent fibers that has pierced the internal capsule and now runs in the plane immediately dorsal to the subthalamic nucleus and ventral to the zona incerta. Which fiber bundle is the electrode traversing at that depth?",
+      "answers": {
+        "A": "Ansa lenticularis",
+        "B": "Internal medullary lamina",
+        "C": "Lenticular fasciculus",
+        "D": "Stria terminalis",
+        "E": "Thalamic fasciculus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The ansa lenticularis leaves the globus pallidus and hooks around the ventral margin of the internal capsule rather than penetrating through it.",
+        "B": "The internal medullary lamina is an intrathalamic sheet separating the dorsomedial nucleus from the ventral tier nuclei and carries no pallidal outflow.",
+        "C": "The lenticular fasciculus (field H2) is pallidal outflow that cuts through the internal capsule and lies as a dark band directly above the subthalamic nucleus and below the zona incerta.",
+        "D": "The stria terminalis lies far dorsally in the floor of the lateral ventricle alongside the caudate nucleus and carries amygdalar fibers.",
+        "E": "The thalamic fasciculus (field H1) is the merged ansa lenticularis and lenticular fasciculus and lies dorsal, not ventral, to the zona incerta."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-009",
+      "question": "A 61-year-old man is evaluated for episodes of unprovoked rage and intense autonomic arousal. MRI shows a small cavernous malformation in the floor of the body of the left lateral ventricle, sitting against the ventromedial border of the caudate nucleus and wrapped around the terminal vein. On the matching stained coronal section, the lesion lies within a slender fiber bundle that carries amygdalar output toward the hypothalamus. Which structure is most likely involved?",
+      "answers": {
+        "A": "Ansa lenticularis",
+        "B": "Column of the fornix",
+        "C": "Mammillothalamic tract",
+        "D": "Stria medullaris thalami",
+        "E": "Stria terminalis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The ansa lenticularis curls around the ventral edge of the internal capsule as pallidal outflow and is never found in the wall of the lateral ventricle.",
+        "B": "The column of the fornix turns sharply ventral at the anterior commissure to enter the mammillary body and carries hippocampal, not amygdalar, output.",
+        "C": "The mammillothalamic tract runs deep within the diencephalon from the mammillary nucleus to the ipsilateral anterior thalamic nucleus.",
+        "D": "The stria medullaris thalami runs along the lateral wall of the third ventricle and links septal and hypothalamic nuclei to the habenula.",
+        "E": "The stria terminalis courses in the floor of the lateral ventricle along the medial edge of the caudate nucleus, surrounding the terminal vein, and is the major amygdalar outflow to the hypothalamus and septal nuclei."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-010",
+      "question": "A 68-year-old man with poorly controlled type 2 diabetes mellitus is brought in after 2 days of violent, large-amplitude flinging movements of the left arm and leg that disappear during sleep. He is alert and oriented, and strength, sensation, and reflexes are normal. His laboratory values are shown. MRI shows T1 hyperintensity confined to a small, football-shaped nucleus lying dorsal to the right cerebral peduncle and ventral to the zona incerta. Which structure is affected?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "642 mg/dL",
+          "70-100 mg/dL"
+        ],
+        [
+          "Serum osmolality",
+          "312 mOsm/kg",
+          "275-295 mOsm/kg"
+        ],
+        [
+          "Serum ketones",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "Na+",
+          "149 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "HCO3-",
+          "24 mEq/L",
+          "22-28 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Caudate nucleus",
+        "B": "Globus pallidus internus",
+        "C": "Red nucleus",
+        "D": "Substantia nigra pars compacta",
+        "E": "Subthalamic nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The caudate nucleus lies in the wall of the lateral ventricle, and its degeneration produces generalized chorea rather than unilateral flinging movements.",
+        "B": "The globus pallidus internus lies lateral to the internal capsule medial to the putamen, and its loss produces dystonia or hypokinesia rather than ballism.",
+        "C": "The red nucleus lies in the midbrain tegmentum medial to the substantia nigra and is associated with tremor, not ballism.",
+        "D": "The substantia nigra pars compacta lies between the midbrain tegmentum and the cerebral peduncle, and its loss produces bradykinesia and resting tremor.",
+        "E": "The football-shaped subthalamic nucleus sits above the cerebral peduncle beneath the zona incerta, and its destruction, classically by nonketotic hyperglycemia, releases the thalamus to produce contralateral hemiballism."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-011",
+      "question": "A 63-year-old man with 20 years of untreated hypertension has sudden right hemiplegia, right facial droop, and dysarthria that worsens over an hour. His vital signs and laboratory values are shown. Noncontrast CT shows an acute hemorrhage centered in the left putamen and extending medially into the lateral globus pallidus, with the thalamus and the head of the caudate spared. Rupture of which vessels is the most likely source?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "212/118 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "96/min",
+          "60-100/min"
+        ],
+        [
+          "Platelets",
+          "244,000/mm3",
+          "150,000-400,000/mm3"
+        ],
+        [
+          "INR",
+          "1.0",
+          "0.8-1.2"
+        ],
+        [
+          "Glucose",
+          "138 mg/dL",
+          "70-100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior choroidal artery",
+        "B": "Lenticulostriate branches of the middle cerebral artery",
+        "C": "Medial striate artery (recurrent artery of Heubner)",
+        "D": "Posterior choroidal arteries",
+        "E": "Thalamogeniculate branches of the posterior cerebral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior choroidal artery supplies the ventral portions of the basal nuclei, the posterior limb of the internal capsule, and the choroid plexus of the temporal horn.",
+        "B": "The lenticulostriate branches are deep penetrating vessels that supply the lateral basal nuclei, including the putamen and lateral globus pallidus, and are the classic site of hypertensive deep hemorrhage.",
+        "C": "The medial striate artery supplies much of the head of the caudate and the adjacent anterior limb, which are spared here.",
+        "D": "The posterior choroidal arteries arise from the posterior cerebral artery and supply the choroid plexus and dorsomedial thalamic territory.",
+        "E": "The thalamogeniculate branches supply the posterior thalamus and geniculate nuclei, producing sensory rather than pure motor deficits."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-012",
+      "question": "A 32-year-old woman has 6 weeks of severe headaches that peak when she leans forward and once caused a brief loss of consciousness. Noncontrast CT shows markedly dilated lateral ventricles with a normal-sized third ventricle, fourth ventricle, and aqueduct, and a 12-mm round midline mass sitting just behind the columns of the fornix. Obstruction at which location best explains this pattern of ventricular enlargement?",
+      "answers": {
+        "A": "Cerebral aqueduct",
+        "B": "Foramina of Luschka and Magendie",
+        "C": "Interventricular foramina",
+        "D": "Pineal recess of the third ventricle",
+        "E": "Supraoptic recess of the third ventricle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Aqueductal obstruction dilates the lateral and third ventricles together while sparing the fourth, and this patient's third ventricle is normal.",
+        "B": "Obstruction of the fourth ventricular outlets produces dilation of all four ventricles.",
+        "C": "The interventricular foramina bounded anteriorly by the columns of the fornix drain both lateral ventricles into the third, so a colloid cyst there dilates the lateral ventricles alone.",
+        "D": "The pineal recess is a blind diverticulum of the third ventricle in the epithalamus and is not part of the CSF outflow route.",
+        "E": "The supraoptic recess lies over the optic chiasm and likewise is a recess of the third ventricle rather than a point of flow obstruction."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-013",
+      "question": "A 16-year-old boy has 3 months of headaches, double vision, and inability to look up. His pupils react poorly to light but constrict briskly with near viewing, and attempted upgaze produces convergence-retraction nystagmus. MRI shows a 2-cm enhancing mass arising from the midline structure that sits between the two superior colliculi. His tumor marker values are shown. Compression of which adjacent structure best explains his eye findings?",
+      "table": [
+        [
+          "Test",
+          "Serum",
+          "CSF",
+          "Reference"
+        ],
+        [
+          "Beta-hCG",
+          "42 mIU/mL",
+          "60 mIU/mL",
+          "<5 mIU/mL"
+        ],
+        [
+          "Alpha-fetoprotein",
+          "<2 ng/mL",
+          "<2 ng/mL",
+          "<10 ng/mL"
+        ],
+        [
+          "Placental alkaline phosphatase",
+          "Elevated",
+          "Elevated",
+          "Not detected"
+        ]
+      ],
+      "answers": {
+        "A": "Habenular nuclei",
+        "B": "Lateral geniculate nuclei",
+        "C": "Massa intermedia",
+        "D": "Posterior commissure and pretectal area",
+        "E": "Superior cerebellar peduncles"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The habenular nuclei lie just rostral to the pineal gland and are involved in limbic-to-midbrain relays, not vertical gaze or pupillary reflexes.",
+        "B": "The lateral geniculate nuclei relay retinal input to the occipital cortex, and their compression would produce a field cut rather than a gaze palsy.",
+        "C": "The massa intermedia is an inconstant bridge of thalamic tissue across the third ventricle with no role in ocular motility.",
+        "D": "The pineal gland projects between the superior colliculi, so a mass there compresses the pretectal area and posterior commissure and produces Parinaud syndrome with upgaze palsy and light-near dissociation.",
+        "E": "The superior cerebellar peduncles lie ventral in the tegmentum and mediate cerebellar outflow, producing ataxia rather than gaze findings."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-014",
+      "question": "A 57-year-old woman develops abrupt, dense anterograde amnesia with intact language, strength, and visual fields after a small deep infarct. A coronal section at the level of the mammillary bodies shows the infarct within a compact white bundle lying dorsomedial to the mammillary body and ascending toward the thalamic nucleus that bulges into the floor of the lateral ventricle. Sections one slice rostral show intact columns of the fornix. Which structure is infarcted?",
+      "answers": {
+        "A": "Cingulum",
+        "B": "Column of the fornix",
+        "C": "Mammillothalamic tract",
+        "D": "Stria medullaris thalami",
+        "E": "Stria terminalis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cingulum lies in the white matter deep to the cingulate gyrus far dorsal to the mammillary body and carries cingulate fibers to the parahippocampal region.",
+        "B": "The columns of the fornix are more rostral and descend into the lateral part of the mammillary body, and they are explicitly described as intact on the rostral section.",
+        "C": "The mammillothalamic tract ascends from the mammillary nucleus dorsomedially to the ipsilateral anterior thalamic nucleus, and its interruption breaks the Papez circuit and causes amnesia.",
+        "D": "The stria medullaris thalami runs along the dorsal edge of the lateral wall of the third ventricle toward the habenula, well dorsal to the mammillary body.",
+        "E": "The stria terminalis is in the floor of the lateral ventricle with the terminal vein and connects the amygdala with the hypothalamus."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-015",
+      "question": "A 34-year-old man with a family history of an autosomal dominant movement disorder has 4 years of progressive chorea, irritability, and declining executive function. MRI shows striatal atrophy with box-like enlargement of the frontal horns. On a coronal brain section through the temporal lobe, the resident is asked to identify the atrophic band of gray matter running in the roof of the inferior horn of the lateral ventricle. Which structure occupies that position?",
+      "answers": {
+        "A": "Amygdala",
+        "B": "Fimbria of the fornix",
+        "C": "Hippocampus",
+        "D": "Putamen",
+        "E": "Tail of the caudate nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The amygdala lies rostral to the tip of the inferior horn deep to the uncus and does not form the ventricular roof along its length.",
+        "B": "The fimbria lies on the medial ventricular surface of the hippocampus in the floor of the inferior horn and continues as the crus of the fornix.",
+        "C": "The hippocampus forms the floor and medial wall of the inferior horn, not its roof.",
+        "D": "The putamen lies lateral to the internal capsule well above and lateral to the temporal horn and is not a ventricular wall structure.",
+        "E": "The caudate nucleus arcs from the head in the frontal horn through the body in the floor of the central part to its tail in the roof of the inferior horn, where it accompanies the stria terminalis."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-016",
+      "question": "A 44-year-old woman with a tumor filling the third ventricle undergoes a transcallosal resection. Working along the lateral wall of the third ventricle, the surgeon identifies a shallow groove running from the interventricular foramen back to the cerebral aqueduct and keeps her dissection above it to avoid injuring the nuclei that govern autonomic and endocrine function. Which landmark is she using?",
+      "answers": {
+        "A": "Hypothalamic sulcus",
+        "B": "Interthalamic adhesion",
+        "C": "Lamina terminalis",
+        "D": "Stria medullaris thalami",
+        "E": "Sulcus limitans"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The hypothalamic sulcus runs on the lateral wall of the third ventricle from the interventricular foramen to the aqueduct and marks the thalamus-to-hypothalamus transition.",
+        "B": "The interthalamic adhesion is a variable bridge of gray matter spanning the third ventricle, not a longitudinal groove in its wall.",
+        "C": "The lamina terminalis forms the rostral wall of the third ventricle and is a plane of approach rather than a dorsoventral boundary.",
+        "D": "The stria medullaris thalami is a fiber bundle along the dorsal edge of the diencephalic wall running to the habenula, well above the hypothalamus.",
+        "E": "The sulcus limitans separates alar from basal plate derivatives in the brainstem and does not mark the thalamic-hypothalamic border in the adult diencephalon."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-017",
+      "question": "A 74-year-old man had 9 years of progressive resting tremor, rigidity, and bradykinesia that responded to levodopa. At autopsy, a transverse section of the midbrain at the level of the superior colliculus shows striking pallor of the darkly pigmented cell group that lies dorsal to the cerebral peduncle and ventral to the tegmentum, through which fibers of the oculomotor nerve pass on their way out of the brainstem. Which cell group is depleted?",
+      "answers": {
+        "A": "Pars compacta of the substantia nigra",
+        "B": "Pars reticulata of the substantia nigra",
+        "C": "Red nucleus",
+        "D": "Subthalamic nucleus",
+        "E": "Ventral tegmental area"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The pars compacta lies dorsal within the substantia nigra, contains large darkly staining pigmented dopaminergic neurons that project to the striatum, and is the cell group lost in Parkinson disease.",
+        "B": "The pars reticulata lies ventrally against the cerebral peduncle, stains lightly with smaller cells, and is a GABAergic output nucleus of the basal nuclei.",
+        "C": "The red nucleus is a rounded tegmental nucleus medial to the substantia nigra and is not pigmented or dopaminergic.",
+        "D": "The subthalamic nucleus lies rostral to the midbrain in the subthalamus and is glutamatergic rather than dopaminergic.",
+        "E": "The ventral tegmental area lies medial to the substantia nigra and projects to limbic and prefrontal targets rather than to the dorsal striatum."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-018",
+      "question": "A 58-year-old woman with treatment-resistant depression is enrolled in a deep brain stimulation trial. The planned target is a pair of small nuclei in the epithalamus that lie immediately medial to the pulvinar and just above the posterior commissure, receive the stria medullaris thalami, and project to midbrain monoaminergic and reticular cell groups. Which structure is the intended target?",
+      "answers": {
+        "A": "Dorsomedial nucleus of the thalamus",
+        "B": "Habenular nuclei",
+        "C": "Mammillary nuclei",
+        "D": "Septal nuclei",
+        "E": "Subthalamic nucleus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The dorsomedial nucleus sits medial to the internal medullary lamina within the thalamus proper, not in the epithalamus, and relays to prefrontal cortex.",
+        "B": "The habenular nuclei and the pineal gland constitute the epithalamus; the habenula lies medial to the pulvinar above the posterior commissure and receives the stria medullaris thalami.",
+        "C": "The mammillary nuclei are hypothalamic structures on the ventral surface that receive the fornix and give rise to the mammillothalamic tract.",
+        "D": "The septal nuclei lie rostral to the anterior commissure beneath the rostrum of the corpus callosum and are a source, not the target, of stria medullaris fibers.",
+        "E": "The subthalamic nucleus lies in the subthalamus above the cerebral peduncle and belongs to the basal nuclei motor circuitry."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-019",
+      "question": "A 69-year-old man wakes with numbness of the right side of his face and his right hand and keeps bumping into doorframes on his right. His examination findings are shown. MRI diffusion imaging shows a single small infarct in the deep posterior part of the left hemisphere. A lesion at which location best accounts for all of his findings?",
+      "table": [
+        [
+          "Examination",
+          "Finding"
+        ],
+        [
+          "Pinprick, right face",
+          "Reduced"
+        ],
+        [
+          "Pinprick, right hand",
+          "Reduced"
+        ],
+        [
+          "Strength, right limbs",
+          "5/5"
+        ],
+        [
+          "Visual fields",
+          "Right homonymous hemianopia"
+        ],
+        [
+          "Language and comprehension",
+          "Intact"
+        ]
+      ],
+      "answers": {
+        "A": "Left lateral geniculate nucleus alone",
+        "B": "Left optic tract and adjacent cerebral peduncle",
+        "C": "Left posterior limb of the internal capsule at the genu",
+        "D": "Left pulvinar and superior colliculus",
+        "E": "Left ventral posterior nuclei and lateral geniculate nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "An isolated lateral geniculate lesion would produce the homonymous hemianopia but could not explain loss of sensation over the face and hand.",
+        "B": "An optic tract lesion with peduncular involvement would add a contralateral hemiparesis, and his strength is full.",
+        "C": "A genu lesion would give contralateral facial weakness and dysarthria from corticobulbar involvement rather than isolated sensory loss with field cut.",
+        "D": "A pulvinar and collicular lesion would produce contralateral neglect and impaired visual orienting rather than dense hemisensory loss.",
+        "E": "The ventral posteromedial and ventral posterolateral nuclei relay face and limb somatosensation and sit immediately adjacent to the lateral geniculate nucleus, so a single posterior thalamic infarct in thalamogeniculate territory explains both the hemisensory loss and the homonymous hemianopia."
+      }
+    },
+    {
+      "id": "neuro-neuroanatomy-lab-diencephalon-limbic-020",
+      "question": "A 29-year-old woman with medically refractory mesial temporal lobe epilepsy undergoes resection of the anterior hippocampal formation. On a coronal section of the specimen the pathologist points out pyramidal cell loss in CA1 and asks the trainee to name the three-layered cortical transition zone that lies between the hippocampus proper and the entorhinal cortex of the parahippocampal gyrus and that supplies most of the output of the hippocampal formation. Which structure is being described?",
+      "answers": {
+        "A": "Cingulate gyrus",
+        "B": "Dentate gyrus",
+        "C": "Fimbria of the fornix",
+        "D": "Subiculum",
+        "E": "Uncus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The cingulate gyrus lies above the corpus callosum and receives, rather than gives rise to, hippocampal formation output by way of the anterior thalamic nucleus.",
+        "B": "The dentate gyrus is the granule cell layer that receives perforant path input from entorhinal cortex and projects to CA3, not to the parahippocampal gyrus.",
+        "C": "The fimbria is the white matter on the ventricular surface of the hippocampus that continues as the crus of the fornix.",
+        "D": "The subiculum is the transitional cortex between the hippocampus proper and entorhinal cortex and is the principal output source of the hippocampal formation.",
+        "E": "The uncus is the medially hooked rostral end of the parahippocampal gyrus overlying the amygdala."
+      }
+    }
+  ]
+}

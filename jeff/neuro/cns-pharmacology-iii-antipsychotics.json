@@ -1,0 +1,581 @@
+{
+  "lecture": "CNS Pharmacology III: Antipsychotics",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-001",
+      "question": "A 64-year-old man with idiopathic Parkinson disease is initially treated with levodopa alone. He experiences severe nausea and vomiting with only minimal improvement in his bradykinesia and rigidity. His regimen is changed to a fixed combination of levodopa with a second agent, after which his nausea largely resolves and his motor function improves substantially at a lower levodopa dose. Which of the following best describes the mechanism of the added agent?",
+      "answers": {
+        "A": "Antagonism of D2 receptors in the chemoreceptor trigger zone",
+        "B": "Antagonism of NMDA receptors in the dorsal striatum",
+        "C": "Inhibition of aromatic L-amino acid decarboxylase in the periphery",
+        "D": "Inhibition of catechol-O-methyltransferase in the periphery",
+        "E": "Inhibition of monoamine oxidase type B in the central nervous system"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Blocking D2 in the chemoreceptor trigger zone is how metoclopramide and promethazine work; these antiemetics worsen parkinsonism and can contribute to neuroleptic malignant syndrome.",
+        "B": "NMDA antagonism describes amantadine, which provides modest symptomatic benefit and treats levodopa-induced dyskinesia, but does not increase the fraction of levodopa reaching the brain.",
+        "C": "Abundant aromatic L-amino acid decarboxylase in the gut converts levodopa to dopamine peripherally, so less than about 2% reaches the brain while systemic dopamine causes nausea; carbidopa inhibits this enzyme and does not cross the blood-brain barrier, increasing central delivery and reducing nausea.",
+        "D": "Peripheral catechol-O-methyltransferase inhibition by entacapone does prolong levodopa availability, but it is an adjunct for wearing-off rather than the standard partner in the first-line fixed combination.",
+        "E": "Central monoamine oxidase type B inhibition by selegiline or rasagiline slows dopamine breakdown in the brain but does not protect levodopa from gut decarboxylation."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-002",
+      "question": "A 46-year-old man with schizophrenia has been maintained on clozapine 400 mg daily for 3 years with stable symptoms. He smokes 1.5 packs of cigarettes daily. He is admitted to a smoke-free hospital for an elective hernia repair and uses no tobacco after admission. On hospital day 5 he becomes markedly sedated and confused, is drooling onto his pillow, and has a generalized tonic-clonic seizure. His clozapine dose has not been changed. Laboratory studies are shown. Which of the following best explains this outcome?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Clozapine level",
+          "1,480 ng/mL",
+          "350-600 ng/mL"
+        ],
+        [
+          "Sodium",
+          "139 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "0.9 mg/dL",
+          "0.6-1.2 mg/dL"
+        ],
+        [
+          "Glucose",
+          "94 mg/dL",
+          "70-100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased CYP1A2 activity after loss of polycyclic aromatic hydrocarbon exposure",
+        "B": "Decreased CYP2D6 activity caused by nicotine withdrawal",
+        "C": "Displacement of clozapine from plasma albumin binding sites",
+        "D": "Increased CYP3A4 activity induced by perioperative fasting",
+        "E": "Reduced renal clearance of clozapine and its active metabolites"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Polycyclic aromatic hydrocarbons from tobacco combustion induce CYP1A2; abrupt smoking cessation removes that induction, so clozapine metabolism slows and levels can rise dramatically, producing sedation, confusion, sialorrhea, and dose-related seizures.",
+        "B": "The interaction is with CYP1A2, and it is driven by combustion products rather than nicotine, so nicotine replacement does not prevent the level rise.",
+        "C": "Protein-binding displacement is not a recognized mechanism for this well-described smoking-cessation interaction and would not produce this magnitude of change.",
+        "D": "Clozapine is metabolized substantially by CYP1A2 and CYP3A4, but induction of CYP3A4 would lower, not raise, clozapine concentrations.",
+        "E": "Clozapine is hepatically metabolized like all antipsychotics, and this patient's creatinine is normal, so renal clearance does not explain the rise."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-003",
+      "question": "A 58-year-old woman with schizophrenia is hospitalized for vomiting and poor oral intake. She takes citalopram and has received several doses of ondansetron. Her psychiatrist plans to restart an antipsychotic, and her admission studies are shown. Which of the following antipsychotics carries the greatest risk of further prolonging her QT interval?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Potassium",
+          "3.0 mEq/L",
+          "3.5-5.0 mEq/L"
+        ],
+        [
+          "Magnesium",
+          "1.3 mg/dL",
+          "1.7-2.2 mg/dL"
+        ],
+        [
+          "Calcium",
+          "8.4 mg/dL",
+          "8.5-10.2 mg/dL"
+        ],
+        [
+          "QTc interval",
+          "486 ms",
+          "<450 ms"
+        ]
+      ],
+      "answers": {
+        "A": "Aripiprazole",
+        "B": "Clozapine",
+        "C": "Lurasidone",
+        "D": "Olanzapine",
+        "E": "Ziprasidone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Aripiprazole has among the least QT-prolonging effect of the antipsychotics and would be a comparatively safe choice here.",
+        "B": "Clozapine is notable for not prolonging the QT interval, though its other black box warnings including neutropenia, seizures, orthostasis, and myocarditis make it unsuitable as a casual choice.",
+        "C": "Lurasidone has the lowest metabolic risk of the commonly used atypicals and is not the agent most associated with QT prolongation.",
+        "D": "Olanzapine's defining liability is metabolic, with the highest weight gain and insulin resistance risk, rather than QT prolongation.",
+        "E": "Ziprasidone is the most QT-prolonging of the commonly used atypicals, which is especially dangerous with a baseline QTc of 486 ms, hypokalemia, hypomagnesemia, and concurrent citalopram and ondansetron."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-004",
+      "question": "A 76-year-old woman with a 9-year history of Parkinson disease treated with levodopa-carbidopa reports seeing small children playing in her living room at night. She is distressed by these visions and has partial insight that they are not real. Her motor symptoms are currently well controlled. A previous trial of risperidone for these symptoms was stopped after 1 week because her rigidity and gait markedly worsened. Which of the following agents could treat her hallucinations without any dopamine receptor antagonism?",
+      "answers": {
+        "A": "Clozapine",
+        "B": "Haloperidol",
+        "C": "Pimavanserin",
+        "D": "Quetiapine",
+        "E": "Risperidone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Clozapine has the weakest D2 blockade of the traditional agents and is the historic best choice for Parkinson disease psychosis, but it still antagonizes dopamine receptors and requires neutrophil monitoring.",
+        "B": "Haloperidol is a high-potency D2 antagonist and would severely worsen her parkinsonism.",
+        "C": "Pimavanserin is a potent inverse agonist at the 5-HT2A receptor with no dopamine receptor antagonism, so it treats Parkinson disease psychosis without worsening motor symptoms; its main limitation is modest efficacy.",
+        "D": "Quetiapine is often used for Parkinson disease psychosis because its D2 blockade is very weak, but it does still antagonize dopamine receptors.",
+        "E": "Risperidone has relatively strong D2 blockade among the atypicals and is the agent that already worsened her rigidity and gait."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-005",
+      "question": "A 39-year-old man with treatment-resistant schizophrenia has been taking clozapine for 10 weeks with substantial improvement in his auditory hallucinations. He feels well and is afebrile, with no sore throat, cough, or skin lesions. His weekly monitoring laboratory studies are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Leukocyte count",
+          "2.0/mm3 (x1000)",
+          "4.5-11.0/mm3 (x1000)"
+        ],
+        [
+          "Absolute neutrophil count",
+          "360/mm3",
+          "1,500-8,000/mm3"
+        ],
+        [
+          "Hemoglobin",
+          "13.6 g/dL",
+          "13.5-17.5 g/dL"
+        ],
+        [
+          "Platelet count",
+          "212,000/mm3",
+          "150,000-400,000/mm3"
+        ]
+      ],
+      "answers": {
+        "A": "Continue clozapine and recheck the count in 1 month",
+        "B": "Decrease the clozapine dose by half and recheck weekly",
+        "C": "Discontinue clozapine immediately and monitor daily counts",
+        "D": "Obtain an EKG and troponin to evaluate for myocarditis",
+        "E": "Start lithium to raise the neutrophil count and continue"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Severe neutropenia is a black box warning for clozapine, and monthly monitoring is only appropriate after a full year of stable counts, not in the face of an absolute neutrophil count below 500/mm3.",
+        "B": "Neutropenia from clozapine is idiosyncratic rather than dose-related (seizure risk is the dose-related warning), so halving the dose does not address the risk of agranulocytosis and sepsis.",
+        "C": "An absolute neutrophil count below 500/mm3 represents severe neutropenia, one of clozapine's five black box warnings; the drug must be stopped immediately with close hematologic monitoring, which is why clozapine requires a CBC with differential weekly for 6 months, then biweekly for 6 months, then monthly.",
+        "D": "Myocarditis is a separate clozapine black box warning that typically presents early with chest pain, dyspnea, fever, or tachycardia; it does not explain an isolated severe neutropenia and does not take priority over stopping the drug.",
+        "E": "Although lithium can raise the neutrophil count, using it to allow continuation of clozapine in the setting of severe neutropenia is not appropriate initial management."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-006",
+      "question": "A 68-year-old man with schizophrenia has taken haloperidol for 25 years with good control of his psychosis. Over the past 6 months his wife has noticed constant writhing movements of his tongue, repetitive lip smacking, and intermittent facial grimacing that he does not seem aware of. He has no resting tremor, no cogwheel rigidity, and no subjective restlessness. His psychiatrist judges that discontinuing antipsychotic therapy would risk relapse. Which of the following is the most appropriate pharmacologic treatment for his movement disorder?",
+      "answers": {
+        "A": "Benztropine",
+        "B": "Diphenhydramine",
+        "C": "Levodopa-carbidopa",
+        "D": "Propranolol",
+        "E": "Valbenazine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Anticholinergics such as benztropine treat acute dystonia and drug-induced parkinsonism and may actually worsen tardive dyskinesia.",
+        "B": "Diphenhydramine is an alternative for acute dystonic reactions occurring early in treatment, not for athetoid movements emerging after decades of exposure.",
+        "C": "Increasing dopamine with levodopa-carbidopa would worsen both the dyskinesia and his underlying psychosis.",
+        "D": "Propranolol is used for akathisia, which he does not have; he reports no urge to move and his movements are involuntary and unnoticed.",
+        "E": "Chronic D2 blockade, with advanced age (>50 years) as the major additional risk factor, causes tardive dyskinesia; VMAT2 inhibitors such as valbenazine, deutetrabenazine, and tetrabenazine deplete presynaptic vesicular dopamine and are the modern treatment of choice."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-007",
+      "question": "A 28-year-old woman with schizophrenia has been taking risperidone 4 mg daily for 6 months with good control of her hallucinations. She now reports that her menses stopped 3 months ago and that she has milky discharge from both nipples. A urine pregnancy test is negative. She takes no other medications and her thyroid examination is normal. Laboratory studies are shown. Blockade of which of the following receptors best explains her new symptoms?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Prolactin",
+          "84 ng/mL",
+          "4-23 ng/mL"
+        ],
+        [
+          "TSH",
+          "1.8 µIU/mL",
+          "0.4-4.0 µIU/mL"
+        ],
+        [
+          "FSH",
+          "2.6 mIU/mL",
+          "3.5-12.5 mIU/mL"
+        ],
+        [
+          "LH",
+          "1.9 mIU/mL",
+          "2.4-12.6 mIU/mL"
+        ],
+        [
+          "Beta-hCG",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Antagonism of 5-HT2A receptors in the prefrontal cortex",
+        "B": "Antagonism of alpha-1 adrenergic receptors in the pituitary",
+        "C": "Antagonism of D2 receptors in the nigrostriatal tract",
+        "D": "Antagonism of D2 receptors in the tuberoinfundibular tract",
+        "E": "Antagonism of H1 histamine receptors in the hypothalamus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "5-HT2A antagonism promotes dopamine release and is the property that mitigates the side effects of D2 blockade; it does not raise prolactin.",
+        "B": "Alpha-1 blockade produces orthostatic hypotension and dizziness, and plays no role in prolactin regulation.",
+        "C": "Nigrostriatal D2 blockade produces extrapyramidal symptoms such as dystonia, parkinsonism, and akathisia, none of which she has.",
+        "D": "Dopamine traveling the tuberoinfundibular tract tonically inhibits pituitary prolactin release, so D2 blockade there disinhibits lactotrophs; risperidone causes the highest rate of hyperprolactinemia among commonly used atypicals, producing amenorrhea and galactorrhea with secondary suppression of FSH and LH.",
+        "E": "H1 blockade causes sedation and appetite-driven weight gain, not galactorrhea or amenorrhea."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-008",
+      "question": "A 24-year-old man with schizophrenia has taken olanzapine 20 mg daily for 14 months. His psychosis is well controlled and he has no tremor, rigidity, or abnormal involuntary movements. He has gained 19 kg, and his BMI is now 33 kg/m2. He reports constant hunger. Fasting laboratory studies are shown. Antagonism of which of the following receptor pairs best accounts for these metabolic findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting glucose",
+          "141 mg/dL",
+          "70-100 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.9%",
+          "<5.7%"
+        ],
+        [
+          "Triglycerides",
+          "318 mg/dL",
+          "<150 mg/dL"
+        ],
+        [
+          "HDL cholesterol",
+          "31 mg/dL",
+          ">40 mg/dL"
+        ],
+        [
+          "LDL cholesterol",
+          "148 mg/dL",
+          "<130 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Alpha-1 adrenergic and M1 muscarinic receptors",
+        "B": "D2 and D3 dopamine receptors",
+        "C": "H1 histamine and 5-HT2C serotonin receptors",
+        "D": "M1 muscarinic and 5-HT3 serotonin receptors",
+        "E": "NMDA glutamate and D1 dopamine receptors"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alpha-1 and M1 blockade cause orthostatic hypotension and anticholinergic effects such as dry mouth and urinary retention, not weight gain and dyslipidemia.",
+        "B": "D2 and D3 blockade mediate antipsychotic efficacy, extrapyramidal symptoms, and hyperprolactinemia rather than the metabolic syndrome.",
+        "C": "Olanzapine carries the highest metabolic risk of the commonly used atypicals; H1 antagonism drives appetite stimulation and weight gain, while 5-HT2C antagonism deranges regulation of food intake, body weight, and glucose metabolism, together producing weight gain, hyperlipidemia, and reduced insulin sensitivity.",
+        "D": "5-HT3 blockade produces antiemetic effects and 5-HT3 and 5-HT4 activity relates to gastrointestinal side effects, not to weight gain and insulin resistance.",
+        "E": "NMDA and D1 antagonism is not a meaningful feature of olanzapine's receptor profile and does not explain metabolic syndrome."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-009",
+      "question": "A 62-year-old woman with newly diagnosed idiopathic Parkinson disease is started on pramipexole rather than levodopa in an effort to postpone motor complications. Four months later her tremor and bradykinesia are modestly improved, but she reports bilateral ankle swelling, falling asleep during conversations, and seeing small children in her living room who are not there. Her husband adds that she has begun gambling online for several hours nightly. Which of the following best describes the mechanism of the drug she is taking?",
+      "answers": {
+        "A": "Direct agonism at postsynaptic dopamine receptors",
+        "B": "Inhibition of aromatic L-amino acid decarboxylase in the periphery",
+        "C": "Inhibition of catechol-O-methyltransferase in the periphery",
+        "D": "Inhibition of monoamine oxidase type B in the central nervous system",
+        "E": "Noncompetitive antagonism of NMDA glutamate receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Pramipexole is a non-ergot dopamine receptor agonist that directly activates postsynaptic dopamine receptors; edema, somnolence, nausea, dizziness, hallucinations, and impulse-control behaviors are characteristic of this class.",
+        "B": "Peripheral aromatic L-amino acid decarboxylase inhibition is the mechanism of carbidopa, which has no intrinsic antiparkinsonian effect and is never given alone.",
+        "C": "Peripheral catechol-O-methyltransferase inhibition describes entacapone, which prolongs levodopa availability but does not itself stimulate dopamine receptors.",
+        "D": "Central monoamine oxidase type B inhibition describes selegiline and rasagiline, which slow dopamine breakdown rather than acting as receptor agonists.",
+        "E": "NMDA receptor antagonism describes amantadine, which modestly improves parkinsonism and treats levodopa-induced dyskinesia but is not a receptor agonist."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-010",
+      "question": "A 55-year-old man with schizophrenia developed bradykinesia, masked facies, and cogwheel rigidity 3 weeks after his haloperidol dose was increased. He is switched to quetiapine, and over the following month his motor findings resolve completely while his hallucinations and delusions remain controlled. Which of the following pharmacodynamic properties of the new agent best explains the lower risk of motor side effects?",
+      "answers": {
+        "A": "Agonism at D1 receptors in the dorsal striatum",
+        "B": "Antagonism of 5-HT2A receptors, which increases dopamine release",
+        "C": "Inhibition of VMAT2 in presynaptic dopaminergic neurons",
+        "D": "Irreversible inhibition of monoamine oxidase type B",
+        "E": "Selective blockade of D2 receptors in the mesolimbic tract only"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Direct striatal D1 agonism is not a property of quetiapine or of any marketed antipsychotic, and stimulating dopamine receptors would risk worsening psychosis.",
+        "B": "Second-generation antipsychotics combine relatively weak D2 blockade with antagonism at postsynaptic 5-HT2A receptors; since 5-HT2A activation normally inhibits dopamine release, blocking it promotes dopamine release, which offsets nigrostriatal D2 blockade and markedly lowers extrapyramidal risk.",
+        "C": "VMAT2 inhibition depletes presynaptic dopamine and is the mechanism of valbenazine and tetrabenazine; it would worsen, not prevent, drug-induced parkinsonism.",
+        "D": "Monoamine oxidase type B inhibition describes selegiline and rasagiline used in Parkinson disease, and has no role in antipsychotic pharmacology.",
+        "E": "No available antipsychotic can selectively block D2 in the mesolimbic tract alone; that remains the unattained goal that 5-HT2A antagonism only partially approximates."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-011",
+      "question": "A 34-year-old woman was started on aripiprazole 10 mg daily 5 days ago for a manic episode. She now paces the hallway continuously, shifts her weight from foot to foot when made to sit, and says she feels like she is \"crawling out of her skin\" and must keep moving. Her temperature is 36.8°C and vital signs are otherwise normal. There is no tremor, no cogwheel rigidity, and no involuntary facial movement. Her mania is responding well and the psychiatrist does not wish to change the agent or dose. Which of the following is the most appropriate next pharmacologic step?",
+      "answers": {
+        "A": "Benztropine",
+        "B": "Dantrolene",
+        "C": "Deutetrabenazine",
+        "D": "Levodopa-carbidopa",
+        "E": "Propranolol"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Benztropine is useful for acute dystonia and drug-induced parkinsonism, but it is not effective for the subjective restlessness of akathisia.",
+        "B": "Dantrolene is used in neuroleptic malignant syndrome; this patient is afebrile, alert, and without rigidity or autonomic instability.",
+        "C": "Deutetrabenazine is a VMAT2 inhibitor indicated for tardive dyskinesia, which presents after years of exposure with involuntary writhing movements, not after 5 days with an urge to move.",
+        "D": "Levodopa-carbidopa increases dopamine and would be expected to worsen psychosis and mania in this patient.",
+        "E": "Akathisia typically appears within days to weeks of starting or increasing an antipsychotic and is notably common with aripiprazole; when the agent and dose cannot be changed, propranolol is the standard mitigating treatment."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-012",
+      "question": "A 31-year-old man with schizophrenia has had good symptom control on olanzapine but has gained 21 kg and developed impaired fasting glucose. A trial of haloperidol was stopped because of parkinsonism. His psychiatrist starts the combination agent xanomeline-trospium chloride, explaining that it improves psychosis without directly blocking dopamine receptors. Which of the following best explains why trospium chloride is included in this combination?",
+      "answers": {
+        "A": "It antagonizes central D2 receptors to enhance antipsychotic efficacy",
+        "B": "It antagonizes peripheral muscarinic receptors and does not cross the blood-brain barrier",
+        "C": "It inhibits CYP1A2 and thereby raises xanomeline concentrations",
+        "D": "It inhibits peripheral decarboxylase and increases central drug delivery",
+        "E": "It is an inverse agonist at 5-HT2A receptors in the cerebral cortex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The entire point of this combination is that it works without direct dopamine receptor antagonism; adding a D2 blocker would reintroduce extrapyramidal and prolactin risk.",
+        "B": "Xanomeline is a muscarinic agonist whose central effects downstream regulate dopamine, but peripheral muscarinic agonism causes intolerable gastrointestinal effects; trospium is a muscarinic antagonist that does not cross the blood-brain barrier, so it blunts the peripheral effects while leaving central activity intact.",
+        "C": "Trospium is not a CYP1A2 inhibitor; that enzyme is relevant to clozapine and olanzapine levels changing with cigarette smoke exposure.",
+        "D": "Blocking a peripheral decarboxylase to increase central delivery describes carbidopa added to levodopa, a conceptually analogous but pharmacologically distinct strategy.",
+        "E": "5-HT2A inverse agonism describes pimavanserin, which is used for Parkinson disease psychosis, not trospium."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-013",
+      "question": "A 71-year-old man is brought to clinic by his daughter for 2 years of progressively worsening handwriting, which has become small and cramped. He has a 4-Hz resting tremor of the right hand that disappears with reaching, cogwheel rigidity at the right wrist, and reduced arm swing on the right while walking. He has never taken an antipsychotic or antiemetic. His facial expression is noted to be reduced. Degeneration of neurons projecting along which of the following dopaminergic tracts best accounts for his findings?",
+      "answers": {
+        "A": "Incertohypothalamic tract",
+        "B": "Mesocortical tract",
+        "C": "Mesolimbic tract",
+        "D": "Nigrostriatal tract",
+        "E": "Tuberoinfundibular tract"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The incertohypothalamic tract projects from the zona incerta to the hypothalamus and modulates sexual and autonomic behavior; it has no role in the resting tremor and rigidity of Parkinson disease.",
+        "B": "The mesocortical tract runs from the ventral tegmental area to prefrontal cortex; its underactivity produces inattention and the negative and cognitive symptoms of schizophrenia, not rigidity or resting tremor.",
+        "C": "The mesolimbic tract runs from the ventral tegmental area to the nucleus accumbens and mediates reward and motivational salience; excess activity here causes hallucinations and delusions.",
+        "D": "Idiopathic Parkinson disease reflects loss of dopaminergic neurons in the substantia nigra pars compacta that project to the dorsal striatum (caudate and putamen), producing bradykinesia, cogwheel rigidity, resting tremor, and masked facies.",
+        "E": "The tuberoinfundibular tract runs from the arcuate nucleus of the hypothalamus to the median eminence and tonically inhibits prolactin release; loss of activity here causes hyperprolactinemia, not parkinsonism."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-014",
+      "question": "A 23-year-old man with schizophrenia has had auditory hallucinations and persecutory delusions for 8 months. After 6 weeks of risperidone at a therapeutic dose, the hallucinations and delusions have fully resolved. However, he remains withdrawn, answers questions with one or two words, shows almost no facial expression, and has stopped attending his classes. Neurologic examination shows no tremor, rigidity, or restlessness. Which of the following best explains his residual symptoms?",
+      "answers": {
+        "A": "Decreased dopaminergic activity in the mesocortical tract",
+        "B": "Decreased dopaminergic activity in the nigrostriatal tract",
+        "C": "Decreased dopaminergic activity in the tuberoinfundibular tract",
+        "D": "Increased dopaminergic activity in the mesolimbic tract",
+        "E": "Increased dopaminergic activity in the nigrostriatal tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Negative symptoms such as avolition, alogia, and affective blunting, as well as cognitive symptoms, reflect insufficient dopaminergic tone in the mesocortical tract; no available antipsychotic treats these well, which is why they persist after positive symptoms clear.",
+        "B": "Reduced nigrostriatal dopamine produces motor findings such as bradykinesia, rigidity, and tremor, but this patient's neurologic examination is explicitly normal.",
+        "C": "Reduced tuberoinfundibular dopamine causes hyperprolactinemia with amenorrhea, galactorrhea, or sexual dysfunction, not blunted affect and alogia.",
+        "D": "Excess mesolimbic dopamine drives the positive symptoms (hallucinations and delusions), which have already resolved on risperidone.",
+        "E": "Excess nigrostriatal dopamine is associated with hyperkinetic movement, as in Huntington disease chorea, and would not cause withdrawal and alogia."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-015",
+      "question": "A 9-year-old boy with attention-deficit/hyperactivity disorder is started on a long-acting methylphenidate preparation. Over the next month his teacher reports that he completes assignments and stays seated during lessons. His parents note that he eats little at lunch and takes longer to fall asleep. He has no tics, no hallucinations, and no family history of bipolar disorder. Which of the following best describes the primary mechanism of the prescribed drug?",
+      "answers": {
+        "A": "Blockade of dopamine and norepinephrine reuptake transporters",
+        "B": "Blockade of postsynaptic D2 receptors in the mesolimbic tract",
+        "C": "Inhibition of catechol-O-methyltransferase in the prefrontal cortex",
+        "D": "Inhibition of monoamine oxidase type A in presynaptic terminals",
+        "E": "Reversal of vesicular transporters to drive dopamine release"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Methylphenidate works primarily as a dopamine and norepinephrine reuptake inhibitor, raising synaptic catecholamines in the mesocortical tract where insufficient dopamine underlies inattention; insomnia, appetite suppression, and tremor are expected side effects.",
+        "B": "Blocking mesolimbic D2 receptors is the mechanism of antipsychotics and would be expected to worsen, not improve, attention and executive function.",
+        "C": "Catechol-O-methyltransferase inhibition by entacapone or tolcapone is used as a levodopa adjunct in Parkinson disease, not for attention-deficit/hyperactivity disorder.",
+        "D": "Monoamine oxidase type A inhibition describes antidepressant MAO inhibitors; selective MAO-B inhibitors are used in Parkinson disease, and neither is the mechanism of methylphenidate.",
+        "E": "Promoting dopamine and norepinephrine release in addition to blocking reuptake is what distinguishes amphetamines such as mixed amphetamine salts and lisdexamfetamine from methylphenidate."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-016",
+      "question": "A 19-year-old man is brought to the emergency department after an altercation and receives intramuscular haloperidol 5 mg for severe agitation. Ninety minutes later he is alert and calm but frightened, with his neck twisted forcibly to the left and both eyes deviated upward; he cannot bring them back down. His temperature is 37.0°C, pulse is 92/min, and blood pressure is 124/76 mm Hg. Muscle tone in the extremities is normal and reflexes are 2+ throughout. Which of the following is the most appropriate pharmacologic treatment?",
+      "answers": {
+        "A": "Amantadine",
+        "B": "Benztropine",
+        "C": "Dantrolene",
+        "D": "Propranolol",
+        "E": "Valbenazine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Amantadine is an NMDA antagonist used for Parkinson disease and levodopa-induced dyskinesia; it is not the treatment for acute drug-induced dystonia.",
+        "B": "Acute dystonia (here torticollis with oculogyric crisis) occurs within minutes to hours of high-potency D2 blockade, particularly in young men, and is treated with an anticholinergic such as benztropine or with diphenhydramine.",
+        "C": "Dantrolene is reserved for neuroleptic malignant syndrome and malignant hyperthermia; this patient is afebrile with normal tone in the limbs and no autonomic instability.",
+        "D": "Propranolol is the treatment for akathisia, a subjective urge to move, which this patient does not describe.",
+        "E": "Valbenazine is a VMAT2 inhibitor for tardive dyskinesia, a late complication of chronic therapy, not a single dose given 90 minutes earlier."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-017",
+      "question": "A 27-year-old man with schizophrenia has completed an 8-week trial of risperidone at a therapeutic dose followed by an 8-week trial of olanzapine at a therapeutic dose. Serum drug concentrations confirmed adherence during both trials. He continues to have daily command auditory hallucinations telling him to harm himself and fixed persecutory delusions about his neighbors, and he has made two suicide attempts in the past year. He has no neutropenia and his EKG is normal. Which of the following is the most appropriate next medication?",
+      "answers": {
+        "A": "Aripiprazole",
+        "B": "Clozapine",
+        "C": "Haloperidol",
+        "D": "Quetiapine",
+        "E": "Ziprasidone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Aripiprazole is a reasonable agent in general, but after two adequate failed antipsychotic trials it offers no expected advantage; the CATIE trial showed non-clozapine agents perform about equally.",
+        "B": "Failure of two adequate antipsychotic trials at therapeutic doses with confirmed adherence defines treatment-resistant schizophrenia, for which clozapine is uniquely superior; it is also the only antipsychotic directly shown to reduce suicidality, which is critical given his two suicide attempts.",
+        "C": "Switching to a high-potency first-generation agent adds substantial extrapyramidal and tardive dyskinesia risk without superior efficacy over the agents already tried.",
+        "D": "Quetiapine has very weak D2 blockade and is useful for its anxiolytic and mood properties, but it is not more effective for refractory positive symptoms.",
+        "E": "Ziprasidone performed slightly worse than other agents in CATIE and carries the greatest QT-prolonging risk of the commonly used atypicals."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-018",
+      "question": "A 44-year-old woman with major depressive disorder has had only partial response to sertraline, so aripiprazole is added as an augmenting agent. Two weeks later she reports an intense urge to move her legs and difficulty sitting through meetings. She has gained only 0.5 kg, her menses remain regular, and she has no galactorrhea; a prolactin level is low-normal. Which of the following pharmacodynamic properties best distinguishes this drug from risperidone?",
+      "answers": {
+        "A": "Full antagonism at D2 receptors with high binding affinity",
+        "B": "Inverse agonism at 5-HT2A receptors without dopamine activity",
+        "C": "Muscarinic agonism paired with peripheral muscarinic blockade",
+        "D": "Partial agonism at D2 receptors",
+        "E": "Selective antagonism at D3 dopamine receptors"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Full high-affinity D2 antagonism describes risperidone and the high-potency first-generation agents, and it is precisely what produces the hyperprolactinemia she does not have.",
+        "B": "Inverse agonism at 5-HT2A without dopamine receptor activity describes pimavanserin, which is indicated for Parkinson disease psychosis.",
+        "C": "Muscarinic agonism with a peripherally restricted muscarinic antagonist describes xanomeline-trospium, not aripiprazole.",
+        "D": "Aripiprazole is a D2 partial agonist, which stabilizes dopaminergic tone rather than fully blocking it; this yields low metabolic risk and little or no hyperprolactinemia, but a notably high rate of akathisia, and it has a very long half-life.",
+        "E": "Predominant D3 antagonism characterizes cariprazine and asenapine rather than aripiprazole."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-019",
+      "question": "A 43-year-old man with schizophrenia was admitted 4 days ago; his oral haloperidol dose was doubled and intramuscular fluphenazine was added. He is now confused and minimally responsive to questions. His temperature is 40.2°C, pulse is 128/min, and blood pressure fluctuates between 172/98 and 104/62 mm Hg. He is diffusely diaphoretic with generalized lead-pipe rigidity, and reflexes are 1+ throughout with no clonus. Laboratory studies are shown. The team is considering serotonin syndrome in the differential. Which of the following examination findings most strongly supports the correct diagnosis over serotonin syndrome?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Creatine kinase",
+          "9,400 U/L",
+          "30-200 U/L"
+        ],
+        [
+          "Leukocyte count",
+          "16,200/mm3",
+          "4,500-11,000/mm3"
+        ],
+        [
+          "Creatinine",
+          "2.1 mg/dL",
+          "0.6-1.2 mg/dL"
+        ],
+        [
+          "Potassium",
+          "5.4 mEq/L",
+          "3.5-5.0 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Hyperthermia with temperature above 40°C",
+        "B": "Inducible ankle clonus with hyperreflexia",
+        "C": "Lead-pipe rigidity with diminished reflexes",
+        "D": "Mydriasis with profuse diaphoresis",
+        "E": "Tachycardia with labile blood pressure"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Marked hyperthermia occurs in both neuroleptic malignant syndrome and serotonin syndrome and therefore does not discriminate between them.",
+        "B": "Clonus and hyperreflexia are the hallmark neuromuscular findings of serotonin syndrome and would argue against neuroleptic malignant syndrome.",
+        "C": "Neuroleptic malignant syndrome follows excessive dopamine blockade and produces the tetrad of altered mental status, fever, dysautonomia, and rigidity; the rigidity is of the lead-pipe type with normal or reduced reflexes, in contrast to the hyperreflexia and clonus of serotonin syndrome, and is accompanied by a markedly elevated creatine kinase.",
+        "D": "Mydriasis and diaphoresis reflect autonomic activation seen in both syndromes, so they cannot separate the two.",
+        "E": "Autonomic instability with tachycardia and labile blood pressure is a shared feature of both syndromes and is not discriminating."
+      }
+    },
+    {
+      "id": "neuro-cns-pharmacology-iii-antipsychotics-020",
+      "question": "A 72-year-old man hospitalized for agitation is started on chlorpromazine. On hospital day 3 he becomes lightheaded when getting out of bed and falls, sustaining a hip contusion. He complains of a very dry mouth and appears sedated. He has no tremor, rigidity, or involuntary movements, and his temperature is 36.9°C. Orthostatic vital signs are shown. Blockade of which of the following receptors best explains the blood pressure findings?",
+      "table": [
+        [
+          "Position",
+          "Blood Pressure",
+          "Pulse"
+        ],
+        [
+          "Supine",
+          "130/78 mm Hg",
+          "74/min"
+        ],
+        [
+          "Seated",
+          "114/68 mm Hg",
+          "84/min"
+        ],
+        [
+          "Standing",
+          "94/56 mm Hg",
+          "96/min"
+        ]
+      ],
+      "answers": {
+        "A": "Alpha-1 adrenergic receptors",
+        "B": "D2 dopamine receptors",
+        "C": "H1 histamine receptors",
+        "D": "M1 muscarinic receptors",
+        "E": "5-HT2A serotonin receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Chlorpromazine is the prototypical low-potency first-generation antipsychotic: because more drug is needed to occupy D2, it produces substantial off-target blockade of histaminic, alpha-adrenergic, and muscarinic receptors, and alpha-1 blockade impairs reflex vasoconstriction on standing, causing orthostatic hypotension.",
+        "B": "D2 blockade in this patient would manifest as extrapyramidal symptoms or hyperprolactinemia, and his examination shows no tremor, rigidity, or abnormal movements.",
+        "C": "H1 blockade explains his sedation and, over time, weight gain, but it is not the principal driver of a postural drop in blood pressure.",
+        "D": "M1 blockade accounts for his dry mouth and can contribute to confusion and urinary retention; anticholinergic effects tend to raise heart rate rather than cause a postural pressure drop.",
+        "E": "5-HT2A blockade is characteristic of second-generation agents and relates to mitigation of extrapyramidal symptoms, sexual dysfunction, and metabolic effects, not orthostasis."
+      }
+    }
+  ]
+}

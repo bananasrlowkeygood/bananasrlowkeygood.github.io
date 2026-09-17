@@ -1,0 +1,495 @@
+{
+  "lecture": "Basal Nuclei & Cerebellum",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-001",
+      "question": "A 62-year-old man is evaluated for an 8-month history of an involuntary tremor of the right thumb and index finger that is most noticeable when his hand rests in his lap and disappears when he reaches for a cup. He has also had years of constipation, loss of smell, and violent dream enactment during sleep. On examination there is cogwheel rigidity of the right wrist, reduced right arm swing, and decreased blink rate. A dopamine transporter scan shows markedly reduced tracer uptake in the right putamen. Degeneration of which structure best accounts for his findings?",
+      "answers": {
+        "A": "Caudate nucleus",
+        "B": "Globus pallidus externus",
+        "C": "Substantia nigra pars compacta",
+        "D": "Substantia nigra pars reticulata",
+        "E": "Subthalamic nucleus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Caudate degeneration produces chorea and cognitive decline as in Huntington disease, not a resting pill-rolling tremor with rigidity and bradykinesia.",
+        "B": "Globus pallidus externus lesions disinhibit the subthalamic nucleus and are associated with dyskinesia rather than a hypokinetic syndrome with reduced striatal dopamine uptake.",
+        "C": "Loss of pigmented dopaminergic neurons in the pars compacta removes dopaminergic modulation of the striatum, which underexcites the direct pathway and underinhibits the indirect pathway, producing the resting tremor, rigidity, bradykinesia, and prodromal constipation and anosmia of Parkinson disease.",
+        "D": "The pars reticulata is a GABAergic output nucleus projecting to thalamus, and its dysfunction is linked to involuntary visual saccades rather than to reduced striatal dopamine transporter uptake.",
+        "E": "Subthalamic lesions cause contralateral hemiballism, a violent hyperkinetic disorder, which is the opposite of this patient's hypokinetic presentation."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-002",
+      "question": "A 60-year-old smoker has abrupt vertigo, vomiting, and hiccups. Examination shows a right-sided Horner syndrome, decreased pain and temperature sensation on the right face and left body, hoarseness with an absent gag reflex, and falling to the right with ataxia of the right arm. The infarct involves the lateral medulla and the adjacent cerebellar peduncle carrying spinocerebellar and olivocerebellar fibers. Occlusion of which artery best explains these findings?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Basilar artery",
+        "C": "Posterior cerebral artery",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "AICA arises from the basilar artery and supplies the lateral pons and flocculus, producing ipsilateral facial weakness and deafness in addition to vertigo and ataxia.",
+        "B": "Basilar occlusion produces bilateral pontine infarction with quadriparesis and cranial nerve palsies, far more devastating than this lateral medullary syndrome.",
+        "C": "The posterior cerebral artery and its early perforating branches supply the midbrain, subthalamic nucleus, substantia nigra, occipital cortex, and thalamus, causing visual field loss rather than medullary signs.",
+        "D": "PICA, a branch of the vertebral artery, supplies the lateral medulla and the inferior cerebellum including the inferior cerebellar peduncle, producing lateral medullary (Wallenberg) syndrome with ipsilateral Horner syndrome, crossed sensory loss, dysphagia, and ipsilateral limb ataxia.",
+        "E": "The superior cerebellar artery, a branch of the basilar artery, supplies the superior cerebellum and superior cerebellar peduncle, causing ipsilateral ataxia and dysarthria without crossed sensory loss or Horner syndrome."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-003",
+      "question": "A 61-year-old woman develops 6 weeks of rapidly progressive gait instability, slurred speech, and nystagmus. MRI of the brain is normal, but serologic and CSF studies are obtained. Pelvic ultrasound subsequently reveals an ovarian mass. Autopsy in similar cases shows near-total loss of one cerebellar cortical cell type. Which change best describes the immediate effect of that cell loss on the deep cerebellar nuclei?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference Range"
+        ],
+        [
+          "Anti-Yo (anti-Purkinje cell) antibody, serum",
+          "Positive, 1:1920",
+          "Negative"
+        ],
+        [
+          "CSF white blood cells",
+          "12/mm3 (lymphocytes)",
+          "0-5/mm3"
+        ],
+        [
+          "CSF protein",
+          "68 mg/dL",
+          "15-45 mg/dL"
+        ],
+        [
+          "CA-125",
+          "310 U/mL",
+          "<35 U/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased GABAergic inhibition of the deep cerebellar nuclei",
+        "B": "Decreased glutamatergic excitation of the deep cerebellar nuclei",
+        "C": "Increased dopaminergic modulation of the deep cerebellar nuclei",
+        "D": "Increased GABAergic inhibition of the deep cerebellar nuclei",
+        "E": "Increased glycinergic inhibition of the deep cerebellar nuclei"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Paraneoplastic cerebellar degeneration from gynecologic, lung, breast, or hematologic malignancy destroys Purkinje cells, whose GABAergic axons are the sole inhibitory output of the cerebellar cortex onto the deep nuclei, so that inhibition is lost and deep nuclear output becomes unregulated.",
+        "B": "Purkinje cells are GABAergic, not glutamatergic; the excitatory drive to deep nuclei comes from collaterals of mossy and climbing fibers, which are not the target of anti-Purkinje antibodies.",
+        "C": "Dopaminergic modulation from the substantia nigra pars compacta acts on the striatum, not on the cerebellar nuclei.",
+        "D": "Increased inhibition would require more Purkinje output, whereas these antibodies destroy Purkinje cells and remove that inhibition.",
+        "E": "Glycine is the principal inhibitory transmitter of spinal cord interneurons, not of the cerebellar cortical output."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-004",
+      "question": "A 68-year-old man with a 12-year history of Parkinson disease has disabling motor fluctuations despite maximal levodopa therapy. He is referred for deep brain stimulation, and the neurosurgeon targets the only nucleus within the intrinsic basal nuclei circuitry whose projections are purely excitatory. Which structure is being targeted?",
+      "answers": {
+        "A": "Caudate nucleus",
+        "B": "Globus pallidus externus",
+        "C": "Putamen",
+        "D": "Substantia nigra pars reticulata",
+        "E": "Subthalamic nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The caudate is a striatal input structure receiving glutamatergic association cortex input, but its own outflow is GABAergic and inhibitory.",
+        "B": "The globus pallidus externus sends GABAergic inhibitory projections to the subthalamic nucleus, GPi, and SNr.",
+        "C": "The putamen receives excitatory motor and sensory cortical input, but its efferent projections to the pallidum are inhibitory GABAergic fibers.",
+        "D": "The substantia nigra pars reticulata is a GABAergic output nucleus that inhibits the thalamus.",
+        "E": "The subthalamic nucleus receives direct cortical input and sends the only purely excitatory (glutamatergic) projection within the basal nuclei, driving the GPi, which makes it a standard deep brain stimulation target."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-005",
+      "question": "A 55-year-old man with poorly controlled hypertension develops sudden left-sided weakness and clumsiness. MRI shows an infarct confined to the basis pontis on the right, destroying the pontine nuclei and the fibers arising from them that cross the midline to reach the cerebellum. Through which structure do these fibers enter the cerebellum?",
+      "answers": {
+        "A": "Arbor vitae",
+        "B": "Decussation of the superior cerebellar peduncle",
+        "C": "Inferior cerebellar peduncle",
+        "D": "Middle cerebellar peduncle",
+        "E": "Superior cerebellar peduncle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The arbor vitae is the branching white matter core of the cerebellum seen on sagittal section, not a peduncle connecting it to the brainstem.",
+        "B": "The decussation of the superior cerebellar peduncle in the midbrain carries efferent fibers leaving the cerebellum, not pontine afferents entering it.",
+        "C": "The inferior cerebellar peduncle carries vestibulocerebellar, posterior spinocerebellar, cuneocerebellar, and olivocerebellar fibers, plus efferents back to the vestibular nuclei.",
+        "D": "The middle cerebellar peduncle is purely afferent and carries the crossed pontocerebellar fibers, which end in the cerebellar cortex as mossy fibers.",
+        "E": "The superior cerebellar peduncle is mostly efferent, carrying cerebellorubral and cerebellothalamic fibers from the dentate nucleus, with anterior spinocerebellar afferents."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-006",
+      "question": "A 34-year-old woman is brought in by her husband because of 1 year of fidgety, irregular, dance-like movements of the hands and face, increasing irritability, and a tendency to get stuck on a single thought. Her father developed similar movements at age 42 and died in a nursing home with dementia. MRI shows bilateral atrophy of the structure forming the floor of the lateral ventricles with boxcar dilation of the frontal horns. Genetic testing results are shown. Degeneration of which structures best explains her involuntary movements?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference Range"
+        ],
+        [
+          "HTT CAG repeat, allele 1",
+          "19 repeats",
+          "<27 repeats"
+        ],
+        [
+          "HTT CAG repeat, allele 2",
+          "46 repeats",
+          "<27 repeats"
+        ],
+        [
+          "Ceruloplasmin",
+          "28 mg/dL",
+          "20-35 mg/dL"
+        ],
+        [
+          "TSH",
+          "2.1 uIU/mL",
+          "0.4-4.0 uIU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Caudate nucleus and putamen",
+        "B": "Dentate nucleus",
+        "C": "Globus pallidus internus",
+        "D": "Substantia nigra pars compacta",
+        "E": "Subthalamic nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Huntington disease is an autosomal dominant expansion of a CAG (polyglutamine) repeat in the HTT gene on chromosome 4, and pathologic expansion beyond about 40 repeats destroys striatal neurons of the caudate and putamen, producing chorea, dystonia, and cognitive decline.",
+        "B": "Dentate nucleus damage causes ipsilateral intention tremor, dysmetria, and dysdiadochokinesia rather than chorea, and it is not affected by HTT expansion.",
+        "C": "The globus pallidus internus is the output nucleus of the basal nuclei and is relatively spared early in Huntington disease; its primary destruction gives dystonia rather than this hereditary chorea-dementia syndrome.",
+        "D": "Pars compacta degeneration causes a hypokinetic parkinsonian syndrome, the opposite of this hyperkinetic presentation, and is not linked to CAG expansion in HTT.",
+        "E": "Subthalamic damage produces acute unilateral hemiballism, not a slowly progressive familial syndrome of generalized chorea with dementia."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-007",
+      "question": "A 40-year-old woman with primary biliary cholangitis and years of steatorrhea has 18 months of progressive gait unsteadiness, clumsy limb movements, dysarthria, and falls. She has absent ankle reflexes, impaired vibration and joint position sense in the feet, and dysmetria on heel-to-shin testing. MRI of the brain shows cerebellar atrophy. Her laboratory results are shown. Deficiency of which nutrient best explains her syndrome?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Alpha-tocopherol (vitamin E)",
+          "2.1 mg/L",
+          "5.5-17.0 mg/L"
+        ],
+        [
+          "Thiamine, whole blood",
+          "94 nmol/L",
+          "70-180 nmol/L"
+        ],
+        [
+          "Vitamin B12",
+          "455 pg/mL",
+          "200-900 pg/mL"
+        ],
+        [
+          "Total bilirubin",
+          "3.4 mg/dL",
+          "0.2-1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Niacin",
+        "B": "Pyridoxine",
+        "C": "Thiamine",
+        "D": "Vitamin B12",
+        "E": "Vitamin E"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Niacin deficiency causes pellagra with dermatitis, diarrhea, and dementia, not a spinocerebellar syndrome with cerebellar atrophy.",
+        "B": "Pyridoxine deficiency causes sideroblastic anemia and seizures, while excess pyridoxine causes a pure sensory neuropathy without cerebellar atrophy.",
+        "C": "Thiamine deficiency is a recognized cause of cerebellar degeneration, but her whole blood thiamine level is normal, excluding it as the pivot here.",
+        "D": "B12 deficiency produces subacute combined degeneration with dorsal column and corticospinal signs, and her level is normal.",
+        "E": "Chronic cholestasis impairs absorption of fat-soluble vitamins, and vitamin E deficiency is a listed cause of acquired cerebellar degeneration, producing ataxia, dysarthria, areflexia, and loss of proprioception that fits her markedly low alpha-tocopherol level."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-008",
+      "question": "A 38-year-old man with genetically confirmed Huntington disease has continuous irregular writhing movements of the limbs and face. Neuropathologic studies in this disease show early, selective loss of the striatal GABAergic neurons that project to the external segment of the globus pallidus. Which consequence best explains his excessive involuntary movements?",
+      "answers": {
+        "A": "Decreased subthalamic drive to the globus pallidus internus, disinhibiting the thalamus",
+        "B": "Increased dopaminergic input from the pars compacta to the putamen",
+        "C": "Increased inhibition of the thalamus by the globus pallidus internus",
+        "D": "Increased subthalamic drive to the globus pallidus internus, inhibiting the thalamus",
+        "E": "Loss of direct pathway striatal neurons projecting to the globus pallidus internus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Losing striatal inhibition of the GPe leaves the GPe overactive, so it inhibits the subthalamic nucleus more, subthalamic excitation of the GPi falls, GPi inhibition of the VA/VL thalamus falls, and the resulting thalamocortical disinhibition produces chorea.",
+        "B": "Nigrostriatal dopaminergic input is not increased in Huntington disease; the primary lesion is loss of striatal projection neurons themselves.",
+        "C": "Greater GPi inhibition of the thalamus would reduce movement and produce a hypokinetic, parkinsonian picture.",
+        "D": "Increased subthalamic drive to the GPi is the movement-suppressing arm of the indirect pathway and would produce bradykinesia rather than chorea.",
+        "E": "Direct pathway neurons are relatively spared early, and their loss would reduce rather than increase movement."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-009",
+      "question": "A 6-year-old boy is brought in for 3 weeks of morning headache and vomiting. He staggers and falls when standing with feet together and has a rhythmic bobbing of the trunk when seated, along with horizontal nystagmus on lateral gaze. Finger-to-nose and rapid alternating movements of both arms are normal. MRI shows a midline posterior fossa mass compressing the fourth ventricle. Damage to which region best explains his examination findings?",
+      "answers": {
+        "A": "Anterior lobe vermis",
+        "B": "Dentate nucleus",
+        "C": "Flocculonodular lobe",
+        "D": "Left cerebellar hemisphere",
+        "E": "Superior cerebellar peduncle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anterior vermis lesions produce a wide-based staggering gait with lower limb ataxia, typically without prominent nystagmus and titubation.",
+        "B": "Dentate lesions cause ipsilateral appendicular intention tremor and dysmetria, which are absent here since limb testing is normal.",
+        "C": "The flocculonodular lobe is the vestibulocerebellum, receiving vestibular nuclear input for balance, spatial orientation, and coordination of head and eye movements, so a midline mass in this region produces nystagmus, truncal instability with titubation, and truncal ataxia with normal limb coordination.",
+        "D": "A hemispheric lesion would cause ipsilateral limb dysmetria, dysdiadochokinesia, and intention tremor, none of which are present.",
+        "E": "Superior cerebellar peduncle lesions cause severe, enduring appendicular ataxia and tremor because they interrupt the major cerebellar efferents from the dentate nucleus."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-010",
+      "question": "A 58-year-old woman with early Parkinson disease is started on a dopamine agonist that selectively stimulates D1 receptors on striatal neurons of the movement-promoting limb of the basal nuclei circuitry. Two months later her bradykinesia has improved. Which sequence of events best explains her increased movement?",
+      "answers": {
+        "A": "Cortical excitation of the subthalamic nucleus, which excites the globus pallidus internus",
+        "B": "Striatal inhibition of the globus pallidus externus, which disinhibits the subthalamic nucleus",
+        "C": "Striatal inhibition of the globus pallidus internus, which disinhibits the thalamus",
+        "D": "Subthalamic excitation of the globus pallidus internus, which inhibits the thalamus",
+        "E": "Thalamic inhibition of the motor cortex, which reduces striatal drive"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cortico-subthalamic projection is the fastest route to inhibit movement, because subthalamic excitation of the GPi increases thalamic inhibition.",
+        "B": "Striatal inhibition of the GPe is the first step of the indirect pathway, which ultimately reduces movement by disinhibiting the subthalamic nucleus.",
+        "C": "In the direct (D1) pathway, cortical glutamate excites striatal neurons that inhibit the GPi, so the GPi inhibits the VA/VL thalamus less; this double-negative disinhibition increases thalamic excitation of motor cortex and facilitates movement.",
+        "D": "Subthalamic excitation of the GPi is the final step of the indirect pathway and increases inhibition of the thalamus, reducing movement.",
+        "E": "Thalamocortical projections are excitatory, not inhibitory, and the thalamus is the output relay rather than a brake on the cortex."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-011",
+      "question": "In a slice preparation of cerebellar cortex, an investigator delivers a train of stimuli to the parallel fibers of the molecular layer while blocking their direct synapses onto Purkinje dendrites, so that only the GABAergic basket and stellate cells are activated. Recordings are then made from a Purkinje cell and from its target in the deep cerebellar nuclei. Which result is most likely?",
+      "answers": {
+        "A": "Decreased Purkinje cell firing with increased deep nuclear output",
+        "B": "Decreased Purkinje cell firing with decreased deep nuclear output",
+        "C": "Increased Purkinje cell firing with decreased deep nuclear output",
+        "D": "Increased Purkinje cell firing with increased deep nuclear output",
+        "E": "No change in Purkinje cell firing with no change in deep nuclear output"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Basket and stellate cells are GABAergic interneurons driven by parallel fibers that inhibit the Purkinje cell, and because the Purkinje cell is itself inhibitory to the deep nuclei, inhibiting the inhibitor disinhibits the deep nuclei and increases their excitatory output.",
+        "B": "Reduced Purkinje firing cannot reduce deep nuclear output, since Purkinje input to those nuclei is inhibitory rather than excitatory.",
+        "C": "Basket and stellate cells release GABA and therefore suppress rather than increase Purkinje cell firing.",
+        "D": "This reverses both steps: molecular layer interneurons inhibit Purkinje cells, and greater Purkinje firing would silence the deep nuclei.",
+        "E": "Parallel fiber drive onto molecular layer interneurons is a functional synapse, so Purkinje output measurably changes even when their direct excitatory input is blocked."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-012",
+      "question": "In an experimental preparation, an investigator stimulates the contralateral inferior olivary complex and records from a single large neuron in the cerebellar cortex. A single stimulated axon is seen to wrap around the recorded neuron's dendritic tree in a one-to-one fashion and evokes a prolonged complex spike. The recorded neuron's own axon is then traced to a deep cerebellar nucleus. Which cell was recorded?",
+      "answers": {
+        "A": "Basket cell",
+        "B": "Golgi cell",
+        "C": "Granule cell",
+        "D": "Purkinje cell",
+        "E": "Stellate cell"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Basket cells are GABAergic molecular layer interneurons driven by parallel fibers, and their axons inhibit Purkinje cell bodies rather than projecting to deep nuclei.",
+        "B": "Golgi cells are inhibitory interneurons of the granule cell layer that feed back onto the mossy fiber-granule cell synapse and do not receive climbing fibers.",
+        "C": "Granule cells are small glutamatergic neurons excited by mossy fibers whose parallel fibers stay within the molecular layer.",
+        "D": "Climbing fibers arise from the contralateral inferior olive and form a completely crossed one-to-one synapse on Purkinje cell dendrites; the Purkinje cell is the sole output of the cerebellar cortex, projecting GABAergic axons to the deep cerebellar nuclei.",
+        "E": "Stellate cells are GABAergic molecular layer interneurons that inhibit Purkinje dendrites and do not send axons out of the cortex."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-013",
+      "question": "A 14-month-old girl is evaluated for delayed motor milestones. She cannot stand unsupported, is markedly hypotonic, has few words, and has roving conjugate eye movements with intermittent nystagmus. She has a thin upper lip, hypoplastic distal phalanges with small nails, and a repaired cleft lip. MRI shows a small cerebellar vermis and hemispheres. Her mother took a single medication throughout the pregnancy for a seizure disorder. Which agent best explains these findings?",
+      "answers": {
+        "A": "Carbamazepine",
+        "B": "Folic acid",
+        "C": "Levetiracetam",
+        "D": "Phenytoin",
+        "E": "Valproic acid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Carbamazepine exposure in utero is chiefly associated with neural tube defects and craniofacial changes rather than this hydantoin pattern of nail and digit hypoplasia with cerebellar hypoplasia.",
+        "B": "Folic acid is given during pregnancy to reduce neural tube defects and does not cause cerebellar hypoplasia.",
+        "C": "Levetiracetam has not been linked to a characteristic malformation syndrome or to cerebellar hypoplasia.",
+        "D": "In utero phenytoin exposure is a recognized cause of cerebellar hypoplasia or agenesis, along with the fetal hydantoin features of hypoplastic distal phalanges and nails, cleft lip, and thin upper lip, producing hypotonia, ataxia, and developmental and speech delay.",
+        "E": "Valproate exposure causes neural tube defects and cognitive impairment, but hypoplastic nails and distal phalanges with cerebellar hypoplasia point elsewhere."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-014",
+      "question": "A 54-year-old man with a 25-year history of daily heavy alcohol use has 6 months of progressively unsteady walking. He stands with his feet far apart, staggers and veers when walking, and cannot perform heel-to-shin testing. Finger-to-nose testing, speech, and eye movements are normal, and there is no nystagmus. MRI shows atrophy of the superior midline cerebellum. Which region is most likely affected?",
+      "answers": {
+        "A": "Anterior lobe vermis",
+        "B": "Cerebellar tonsils",
+        "C": "Dentate nucleus",
+        "D": "Flocculonodular lobe",
+        "E": "Lateral cerebellar hemisphere"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Alcohol-related cerebellar degeneration preferentially destroys the anterior superior vermis, part of the spinocerebellum that regulates axial musculature and locomotion, producing a wide-based staggering gait with lateral veering and leg ataxia while arm coordination is spared.",
+        "B": "The cerebellar tonsils are the bulging caudal portions of the paravermal zone, and their clinical significance is chiefly herniation through the foramen magnum with brainstem compression.",
+        "C": "Dentate damage would cause prominent upper limb intention tremor and dysmetria, which this patient does not have.",
+        "D": "Flocculonodular involvement produces nystagmus and truncal titubation, which are explicitly absent here.",
+        "E": "Lateral hemisphere lesions impair skilled voluntary limb movement and cognitive function, giving dysmetria and dysdiadochokinesia rather than isolated gait ataxia."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-015",
+      "question": "An 83-year-old man with long-standing hypertension is brought to the emergency department by his daughter after a sudden headache followed by what she calls fits. He is alert and fully oriented, with normal strength, sensation, and reflexes, but he has frequent uncontrollable large-amplitude flinging movements of the left arm that stop during sleep. Noncontrast CT shows a small deep infarct. Which lesion best explains his movement disorder?",
+      "answers": {
+        "A": "Left globus pallidus internus",
+        "B": "Left subthalamic nucleus",
+        "C": "Right caudate nucleus",
+        "D": "Right substantia nigra pars compacta",
+        "E": "Right subthalamic nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A globus pallidus internus lesion removes inhibitory output to the thalamus and produces dyskinesia or dystonia, and a left-sided lesion would affect the right limbs, not the left.",
+        "B": "A left subthalamic lesion would produce flinging movements of the right limbs, because basal nuclei circuits act on the contralateral body.",
+        "C": "Caudate degeneration causes distal choreiform movements with cognitive and behavioral change over years, not the abrupt proximal flinging seen here.",
+        "D": "Loss of right pars compacta neurons would cause a hypokinetic left-sided parkinsonian syndrome with resting tremor and rigidity.",
+        "E": "An acute infarct of the right subthalamic nucleus removes its excitatory drive to the GPi, disinhibiting the thalamus and producing contralateral (left-sided) hemiballism that typically attenuates over time."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-016",
+      "question": "A 66-year-old man with poorly controlled hypertension and type 2 diabetes mellitus develops sudden dense weakness of the left face, arm, and leg without sensory loss, visual field cut, or aphasia. MRI shows a 12-mm lacunar infarct in the right putamen and adjacent globus pallidus extending into the internal capsule. His laboratory studies and vitals are shown. Occlusion of which vessels most likely produced this infarct?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "186/104 mm Hg",
+          "<130/80 mm Hg"
+        ],
+        [
+          "Hemoglobin A1c",
+          "9.4%",
+          "<5.7%"
+        ],
+        [
+          "LDL cholesterol",
+          "168 mg/dL",
+          "<100 mg/dL"
+        ],
+        [
+          "Platelets",
+          "244,000/mm3",
+          "150,000-400,000/mm3"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior choroidal artery",
+        "B": "Basilar perforating arteries",
+        "C": "Lateral striate branches of the middle cerebral artery",
+        "D": "Medial striate branch of the anterior cerebral artery",
+        "E": "Posterior communicating artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior choroidal artery supplies the posterior limb of the internal capsule, optic tract, and choroid plexus, and its occlusion typically adds visual field and sensory deficits.",
+        "B": "Basilar perforators supply the pons and midbrain, producing brainstem syndromes with cranial nerve findings rather than an isolated striatal lacune.",
+        "C": "The bulk of the putamen and globus pallidus is supplied by the lateral striate (lenticulostriate) branches of the middle cerebral artery, small penetrating end-arteries that undergo lipohyalinosis in chronic hypertension and diabetes and are the classic site of lacunar infarction causing pure motor hemiparesis.",
+        "D": "The medial striate branch of the anterior cerebral artery supplies the more medial and rostral striatum including part of the caudate head, a smaller territory that would not explain this putaminal-pallidal lacune.",
+        "E": "The posterior communicating artery and its perforators supply the subthalamic region and thalamus, where infarction causes hemiballism or sensory syndromes rather than pure motor hemiparesis."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-017",
+      "question": "A 47-year-old woman has a slowly enlarging metastatic lesion confined to the most lateral deep nucleus in the right cerebellar white matter. On examination she has a tremor of the right hand that appears only as she approaches her nose on finger-to-nose testing, cannot perform rapid alternating pronation and supination on the right, and overshoots targets with the right arm. Her gait and trunk control are normal. Which nucleus is involved?",
+      "answers": {
+        "A": "Dentate nucleus",
+        "B": "Emboliform nucleus",
+        "C": "Fastigial nucleus",
+        "D": "Globose nucleus",
+        "E": "Lateral vestibular nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The dentate nucleus is the largest and most lateral deep nucleus and receives Purkinje output from the lateral hemisphere; its efferents leave through the superior cerebellar peduncle to the contralateral VL thalamus and red nucleus, so damage causes ipsilateral intention tremor, dysmetria, and dysdiadochokinesia of the limbs.",
+        "B": "The emboliform nucleus is one of the interposed nuclei, lying between the fastigial and dentate nuclei, and receives paravermal input concerned with ongoing limb correction rather than skilled planned movement.",
+        "C": "The fastigial nucleus is the most medial deep nucleus and projects to brainstem and spinal cord; its damage causes truncal and gait ataxia rather than isolated appendicular dysmetria.",
+        "D": "The globose nucleus is the other interposed nucleus, situated medial to the emboliform nucleus and not the most lateral deep nucleus.",
+        "E": "The lateral vestibular nucleus lies in the brainstem, not within the cerebellar white matter, and mediates postural tone via the vestibulospinal tract."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-018",
+      "question": "A 12-year-old boy is evaluated for 2 years of repeated eye blinking, head jerking, and throat clearing with occasional barked words that he can suppress briefly but that then burst out. He also repeatedly checks locks and washes his hands until they are raw. Neurologic examination is otherwise normal, and MRI shows no structural lesion. Dysfunction of which structures is most closely linked to this constellation of tics and compulsions?",
+      "answers": {
+        "A": "Dentate nucleus and superior cerebellar peduncle",
+        "B": "Flocculonodular lobe and vestibular nuclei",
+        "C": "Putamen and globus pallidus",
+        "D": "Substantia nigra pars compacta and putamen",
+        "E": "Subthalamic nucleus and red nucleus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Dentate and superior cerebellar peduncle lesions cause ipsilateral intention tremor and dysmetria, not suppressible tics with compulsions.",
+        "B": "Flocculonodular and vestibular nuclear dysfunction causes nystagmus, vertigo, and truncal ataxia.",
+        "C": "Dysfunction of the putamen and globus pallidus within the motor and limbic cortico-striato-pallido-thalamic loops is linked to Tourette syndrome, obsessive-compulsive disorder, and bradykinesia, matching this boy's multiple motor and vocal tics with compulsive rituals.",
+        "D": "Loss of pars compacta projections to the putamen produces the hypokinetic features of Parkinson disease rather than hyperkinetic tics in a child.",
+        "E": "Subthalamic damage causes contralateral hemiballism, and the red nucleus is a target of cerebellar and cortical motor output rather than a tic generator."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-019",
+      "question": "A 45-year-old woman undergoes resection of a tumor in the midbrain that interrupts fibers just after they decussate in the superior cerebellar peduncle. These fibers originate in the dentate nucleus and were destined for a thalamic relay that projects onward to the motor and premotor cortex. Which thalamic nucleus was deafferented?",
+      "answers": {
+        "A": "Anterior nucleus",
+        "B": "Centromedian nucleus",
+        "C": "Dorsomedial nucleus",
+        "D": "Ventral lateral nucleus",
+        "E": "Ventral posterolateral nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior nucleus is part of the Papez limbic circuit, receiving mammillothalamic input rather than cerebellar efferents.",
+        "B": "The centromedian nucleus is an intralaminar nucleus that projects to the striatum, providing thalamic input to the basal nuclei rather than receiving dentate output.",
+        "C": "The dorsomedial nucleus relays in the basal nuclei association loop from the caudate to prefrontal cortex, not the cerebellar motor loop.",
+        "D": "Cerebellothalamic fibers from the dentate nucleus cross in the superior cerebellar peduncle and terminate in the VA/VL nuclei, chiefly the ventral lateral nucleus, which projects to motor and premotor cortex to shape voluntary movement.",
+        "E": "The ventral posterolateral nucleus relays somatosensory information from the medial lemniscus and spinothalamic tract to the postcentral gyrus."
+      }
+    },
+    {
+      "id": "neuro-basal-nuclei-and-cerebellum-020",
+      "question": "A 70-year-old man with hypertension has sudden onset of nausea and vomiting at work. In the emergency department he is alert, with slurred speech and marked overshoot and tremor on left finger-to-nose testing. He cannot perform rapid alternating movements with the left hand, and his left arm rebounds excessively when released. Strength, sensation, and gait are normal. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Left cerebellar hemisphere",
+        "B": "Left flocculonodular lobe",
+        "C": "Midline vermis",
+        "D": "Right cerebellar hemisphere",
+        "E": "Right flocculonodular lobe"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The cerebellum coordinates movement of the ipsilateral body because its efferents cross to the contralateral cortex and the corticospinal tract then crosses back, so left-sided dysmetria, dysdiadochokinesia, and rebound with a normal gait localize to the left cerebellar hemisphere.",
+        "B": "A flocculonodular lesion would produce nystagmus, truncal ataxia, and titubation rather than isolated left limb dysmetria.",
+        "C": "Vermal lesions affect axial musculature and cause a wide-based staggering gait, but this patient's gait is normal.",
+        "D": "A right hemispheric lesion would produce these appendicular signs on the right, since cerebellar deficits are ipsilateral.",
+        "E": "A right flocculonodular lesion would cause nystagmus and truncal instability, again without the appendicular findings seen here."
+      }
+    }
+  ]
+}
