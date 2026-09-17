@@ -1,0 +1,428 @@
+{
+  "lecture": "Patient Panel: Impact of Dementia",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-001",
+      "question": "A 78-year-old woman is given a diagnosis of Alzheimer dementia after 3 years of progressive forgetfulness that culminated in her inability to pay her own bills or manage her pill organizer. Her 50-year-old daughter, who has taken over these tasks, asks how long the disease process had been developing before her mother's first symptoms appeared. Amyloid plaque deposition in this patient most likely began at approximately which of the following ages?",
+      "answers": {
+        "A": "55 years",
+        "B": "60 years",
+        "C": "65 years",
+        "D": "70 years",
+        "E": "74 years"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Her symptoms began about 3 years before diagnosis, at roughly age 75, and amyloid plaques accumulate approximately 20 years before symptom onset, placing deposition near age 55.",
+        "B": "Approximately 15 years before symptom onset corresponds to the appearance of neurofibrillary tangles, not the earlier amyloid deposition.",
+        "C": "This interval of about 10 years is shorter than the preclinical period demonstrated by biomarker studies.",
+        "D": "An interval of roughly 5 years substantially underestimates the preclinical phase of Alzheimer pathology.",
+        "E": "Age 74 is essentially the time of her first symptoms, by which point pathology has been accumulating for two decades."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-002",
+      "question": "A 68-year-old retired teacher enrolled in an observational research study undergoes amyloid PET imaging, which shows increased cortical tracer retention. She volunteers twice weekly, manages her own medications and finances, drives without difficulty, and performs in the normal range on formal cognitive testing. She is alert, and neither she nor her family reports any change in function. She asks what the scan result means for her. Which of the following is the most appropriate statement to make to her?",
+      "answers": {
+        "A": "Amyloid deposition typically begins about 2 years before symptoms appear.",
+        "B": "Her scan result establishes a diagnosis of Alzheimer dementia today.",
+        "C": "Not everyone with this biomarker finding develops cognitive symptoms.",
+        "D": "Starting a cholinesterase inhibitor now will prevent future symptoms.",
+        "E": "The finding means that a decline in her daily function has begun."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Amyloid plaques accumulate roughly 20 years before symptom onset, and neurofibrillary tangles about 15 years before, not 2 years.",
+        "B": "Dementia is a clinical diagnosis requiring multidomain cognitive deficits that impair function; a positive biomarker in a normally functioning person does not meet that standard.",
+        "C": "Biomarker evidence of Alzheimer pathology is common in cognitively normal older adults, and a substantial proportion of such individuals never develop symptoms, which is why biomarker positivity alone is not a diagnosis.",
+        "D": "Cholinesterase inhibitors provide symptomatic benefit in established dementia and have not been shown to prevent the emergence of symptoms.",
+        "E": "She has documented normal cognition and intact function; the scan reflects pathology, not functional decline."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-003",
+      "question": "A 76-year-old man with Alzheimer dementia is started on donepezil. Three months later his wife reports that he is more conversational and can again follow his medication schedule when she reminds him. Eighteen months after starting the drug, he requires help with dressing and bathing, no longer participates in managing his medications at all, and his cognitive testing scores are below his pretreatment values. He has taken the drug as prescribed. Which of the following best explains this course?",
+      "answers": {
+        "A": "The drug improves symptoms without changing the underlying rate of decline.",
+        "B": "The drug's early benefit was a placebo response that faded over time.",
+        "C": "The initial improvement indicates the original diagnosis was delirium.",
+        "D": "The loss of benefit reflects an inadequate dose of cholinesterase inhibitor.",
+        "E": "The worsening indicates the drug accelerated his neurodegeneration."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cholinesterase inhibitors are symptomatic treatments: they shift the cognitive trajectory upward for a period but run parallel to the untreated decline, so patients eventually fall below their pretreatment baseline.",
+        "B": "A modest early improvement in cognition and engagement is the expected pharmacologic effect of this class, not evidence of placebo response.",
+        "C": "Delirium implies a fluctuating level of consciousness and an acute course, neither of which is described here; his decline has been progressive over years.",
+        "D": "Continued decline on this class is expected regardless of dose because the drug does not modify the underlying pathology.",
+        "E": "There is no evidence that cholinesterase inhibitors accelerate neurodegeneration; the decline reflects natural disease progression."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-004",
+      "question": "An 82-year-old woman with mild Alzheimer dementia lives alone. Her son has found several unopened bills and two duplicate payments to the same vendor, and he asks whether she should continue to handle her own money. On examination she is alert, pleasant, and oriented to place and person, and she scores 24 of 30 on a cognitive screening instrument. She insists that she is managing fine. Which of the following is the most appropriate way to determine whether she can continue managing her finances independently?",
+      "answers": {
+        "A": "Accept her own account, because she is alert and oriented",
+        "B": "Assess her actual performance on specific financial tasks",
+        "C": "Base the decision on her score on the cognitive screening test",
+        "D": "Defer any decision until her screening score falls below 20",
+        "E": "Transfer control to her son on the basis of the diagnosis alone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Self-report is unreliable in dementia, and her son's observations already contradict it.",
+        "B": "Dementia is defined by impairment of function, so capacity for a specific task is best judged by observing performance on that task, such as paying a bill or reconciling a statement, supplemented by collateral history.",
+        "C": "Brief cognitive screens correlate only loosely with real-world performance and cannot substitute for task-specific functional assessment.",
+        "D": "Waiting for an arbitrary score threshold ignores evidence of current functional failure and risks financial harm in the interim.",
+        "E": "A diagnosis of dementia does not by itself establish incapacity for every task; capacity is decision-specific and must be assessed, not assumed."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-005",
+      "question": "A 72-year-old man brings his 88-year-old mother to clinic because she can no longer manage her medications and has paid the same utility bill four times in 2 months. She is alert, afebrile, and attentive throughout the visit. Her son says he assumed memory loss this severe was unusual at any age and asks how common Alzheimer dementia is in people his mother's age. Approximately what proportion of adults 85 years of age and older in the United States have Alzheimer dementia?",
+      "answers": {
+        "A": "5%",
+        "B": "10%",
+        "C": "25%",
+        "D": "45%",
+        "E": "70%"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This markedly underestimates prevalence at this age; 5% is closer to figures for adults in their 60s than for those 85 and older.",
+        "B": "Approximately 10% is the prevalence in the 65-to-74-year age group, not in adults 85 and older.",
+        "C": "Roughly 25% to 30% is the prevalence in the 75-to-84-year age group, one decade younger than this patient.",
+        "D": "Prevalence rises steeply with age, reaching approximately 40% to 50% among adults 85 years of age and older, making age the single strongest risk factor.",
+        "E": "Although prevalence is high in the oldest old, roughly 70% overstates it; more than half of adults 85 and older remain free of dementia."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-006",
+      "question": "A 58-year-old woman brings her 84-year-old mother, who has moderate Alzheimer dementia, for a routine visit. She has been the sole caregiver for 3 years. During the visit she becomes tearful and says that she snaps at her mother over repeated questions and then feels terrible about it, that she has stopped seeing friends, that she sleeps poorly, and that she has lost 4 kg. She adds that she is fine and that the visit should be about her mother. Screening instruments completed in the waiting room are shown. Which of the following is the most appropriate next step?",
+      "table": [
+        [
+          "Instrument",
+          "Score",
+          "Interpretation"
+        ],
+        [
+          "PHQ-9",
+          "18",
+          "15-19 = moderately severe depression"
+        ],
+        [
+          "GAD-7",
+          "13",
+          "10-14 = moderate anxiety"
+        ],
+        [
+          "Zarit Burden Interview",
+          "58",
+          "57-88 = severe caregiver burden"
+        ]
+      ],
+      "answers": {
+        "A": "Arrange evaluation and treatment for the daughter's depression",
+        "B": "Increase the mother's donepezil dose to reduce caregiving demands",
+        "C": "Reassure the daughter that these feelings resolve without treatment",
+        "D": "Refer the mother for amyloid PET imaging to confirm her diagnosis",
+        "E": "Restrict the discussion to the mother, who is the identified patient"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Depression, anxiety, guilt, and social withdrawal are well-documented consequences of dementia caregiving, and her scores indicate a treatable disorder that requires evaluation in its own right.",
+        "B": "Cholinesterase inhibitors provide only modest symptomatic benefit and will not resolve the caregiver's depression.",
+        "C": "Telling a caregiver with moderately severe depression that it will pass dismisses a condition associated with declining health and increased mortality.",
+        "D": "Biomarker imaging would not change the management of established moderate dementia and does not address the urgent problem in the room.",
+        "E": "Caregiver distress directly affects the patient's care and safety; the caregiver's health is properly part of this visit."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-007",
+      "question": "An 81-year-old woman with a 3-year history of Alzheimer dementia is brought to the emergency department because of 2 days of worsening confusion. Her daughter says the patient is usually oriented to place, converses appropriately, and needs help only with medications and bills. Today she drifts off in the middle of sentences, is at times difficult to arouse, and at other times is agitated and picking at the bedsheets. Temperature is 38.3 C, and laboratory results are shown. Which of the following features best distinguishes her acute presentation from her underlying dementia?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Leukocyte count",
+          "14,200/mm3",
+          "4,500-11,000/mm3"
+        ],
+        [
+          "Urine leukocyte esterase",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "Urine WBC",
+          "50/hpf",
+          "0-5/hpf"
+        ],
+        [
+          "Serum creatinine",
+          "1.0 mg/dL",
+          "0.6-1.2 mg/dL"
+        ]
+      ],
+      "correct": "B",
+      "answers": {
+        "A": "Disorientation to the current day and date",
+        "B": "Fluctuating level of consciousness and attention",
+        "C": "Impairment involving more than one cognitive domain",
+        "D": "Inability to manage her medications at home",
+        "E": "Word-finding difficulty noted during the interview"
+      },
+      "explanations": {
+        "A": "Disorientation is common in established dementia and does not separate the acute change from her baseline.",
+        "B": "Dementia is defined as occurring at a normal level of consciousness; a waxing and waning level of arousal and attention, here provoked by a urinary tract infection, indicates superimposed delirium.",
+        "C": "Multidomain impairment is a defining feature of her chronic dementia, not of the new 2-day change.",
+        "D": "Loss of instrumental function is part of her baseline dementia and was present before this presentation.",
+        "E": "Language impairment is part of her chronic multidomain deficit and does not indicate an acute process."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-008",
+      "question": "A 71-year-old woman with mild Alzheimer dementia is seen with her husband, who is her primary caregiver. She needs reminders to take her medications but otherwise dresses and bathes herself. Her husband has read about several available drugs and asks which one is intended to slow the underlying disease process rather than temporarily improve her symptoms. Which of the following agents best fits his description?",
+      "answers": {
+        "A": "Donepezil",
+        "B": "Galantamine",
+        "C": "Lecanemab",
+        "D": "Memantine",
+        "E": "Rivastigmine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Donepezil is a cholinesterase inhibitor that provides symptomatic benefit without altering the rate of underlying decline.",
+        "B": "Galantamine is another cholinesterase inhibitor and is likewise a symptomatic therapy.",
+        "C": "Antiamyloid monoclonal antibodies such as lecanemab and donanemab target the underlying pathology and are the agents intended to be disease-modifying, changing the slope of decline.",
+        "D": "Memantine is an NMDA receptor antagonist used for symptomatic benefit in moderate to severe disease.",
+        "E": "Rivastigmine is a cholinesterase inhibitor and does not target amyloid pathology."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-009",
+      "question": "A 58-year-old woman whose mother died with Alzheimer dementia asks what she can do to lower her own risk. She has hypertension, type 2 diabetes mellitus, and hyperlipidemia, none of which are at goal. Direct-to-consumer genotyping showed one APOE e4 allele. She is cognitively intact and independent. Vital signs and laboratory results are shown. Which of the following features of her profile is the most appropriate target for reducing her risk of Alzheimer dementia?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Goal"
+        ],
+        [
+          "Blood pressure",
+          "158/94 mm Hg",
+          "<130/80 mm Hg"
+        ],
+        [
+          "Hemoglobin A1c",
+          "8.9%",
+          "<7.0%"
+        ],
+        [
+          "LDL cholesterol",
+          "165 mg/dL",
+          "<100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Age greater than 55 years",
+        "B": "APOE e4 carrier status",
+        "C": "Family history of dementia",
+        "D": "Female sex",
+        "E": "Uncontrolled vascular risk factors"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Age is the strongest risk factor for Alzheimer dementia but cannot be modified.",
+        "B": "APOE e4 raises risk substantially, but genotype is fixed and there is no intervention that alters it.",
+        "C": "Family history reflects inherited susceptibility and is not modifiable.",
+        "D": "Female sex is associated with higher risk but, like age and genotype, is not a target for intervention.",
+        "E": "Hypertension, diabetes, and dyslipidemia are established risk factors for cognitive impairment and are the only elements of her profile that treatment can change."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-010",
+      "question": "A geriatrics clinic is identifying patients who might benefit from counseling about dementia risk reduction. All of the patients below are cognitively normal on testing and fully independent in daily function, and none has a history of stroke or delirium. Which of the following patients is at greatest risk of developing Alzheimer dementia?",
+      "answers": {
+        "A": "A 62-year-old man with treated hypertension and 20 years of education",
+        "B": "A 68-year-old woman who exercises daily and has no family history",
+        "C": "A 70-year-old man with a remote concussion and normal blood pressure",
+        "D": "A 74-year-old man with well-controlled diabetes and no APOE e4 allele",
+        "E": "An 86-year-old woman with one APOE e4 allele and an affected sister"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "He is the youngest patient listed, his hypertension is treated, and high educational attainment is associated with lower risk.",
+        "B": "Physical and social activity are associated with lower risk, and she lacks a family history.",
+        "C": "Head trauma raises risk, but a single remote concussion at age 70 carries far less weight than the combination of advanced age, APOE e4, and family history.",
+        "D": "Controlled diabetes and absence of APOE e4 place him at lower risk than the oldest patient with multiple risk factors.",
+        "E": "She has the strongest risk factor, age 85 or older, where prevalence approaches 40% to 50%, compounded by female sex, APOE e4 carriage, and a first-degree relative with the disease."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-011",
+      "question": "A 70-year-old man accompanies his wife, who has Alzheimer dementia, to her appointment. He has hypertension and type 2 diabetes mellitus. He has not refilled his own medications in 4 months and has missed two of his own appointments because he cannot safely leave his wife alone. He has lost 5 kg over 6 months and says he no longer sees his brother or attends church. His measurements obtained today are shown. Which of the following is the most appropriate next step in the care of this couple?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Goal"
+        ],
+        [
+          "Blood pressure",
+          "172/98 mm Hg",
+          "<130/80 mm Hg"
+        ],
+        [
+          "Hemoglobin A1c",
+          "10.1%",
+          "<7.0%"
+        ],
+        [
+          "LDL cholesterol",
+          "148 mg/dL",
+          "<100 mg/dL"
+        ],
+        [
+          "Weight change",
+          "-5 kg over 6 months",
+          "Stable"
+        ]
+      ],
+      "answers": {
+        "A": "Address his own medical care and arrange caregiving support",
+        "B": "Advise him to focus on his wife until her condition stabilizes",
+        "C": "Defer his diabetes and hypertension management to a later visit",
+        "D": "Increase his wife's memantine dose to reduce her care needs",
+        "E": "Reassure him that caregiver strain does not affect his health"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Decline in the caregiver's own health and social activity is a core consequence of dementia caregiving; restoring his medical care requires practical support that lets him leave his wife safely.",
+        "B": "Advising further self-neglect compounds uncontrolled hypertension and diabetes in a man who is already at increased risk of death.",
+        "C": "Deferring care in a caregiver who has already missed two appointments is likely to mean the care never happens.",
+        "D": "Adjusting her medication yields only modest symptomatic benefit and does not reduce the hours of supervision she requires.",
+        "E": "Caregiving is associated with measurable declines in physical health and with increased mortality, so this reassurance is false."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-012",
+      "question": "An 80-year-old man with moderate Alzheimer dementia has taken donepezil for 2 years. Because of continued decline, including new need for assistance with bathing and dressing, his neurologist adds memantine to the regimen. He is alert, and there is no evidence of delirium or acute illness. Which of the following mechanisms of action best describes the newly added drug?",
+      "answers": {
+        "A": "Blockade of NMDA-type glutamate receptors",
+        "B": "Blockade of postsynaptic dopamine D2 receptors",
+        "C": "Inhibition of acetylcholinesterase at the synapse",
+        "D": "Inhibition of monoamine oxidase type B centrally",
+        "E": "Removal of aggregated amyloid-beta from the brain"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Memantine is an NMDA receptor antagonist and is the only agent in the current Alzheimer armamentarium acting at that receptor.",
+        "B": "D2 blockade describes antipsychotics, which are sometimes used off-label for agitation but are not memantine.",
+        "C": "Acetylcholinesterase inhibition describes donepezil, the drug he is already taking.",
+        "D": "MAO-B inhibition describes agents such as selegiline used in Parkinson disease, not memantine.",
+        "E": "Amyloid clearance describes antiamyloid monoclonal antibodies such as lecanemab and donanemab."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-013",
+      "question": "A 62-year-old man asks about his risk of developing Alzheimer dementia. His father was diagnosed with Alzheimer disease at age 80. He sustained a concussion with brief loss of consciousness while playing college football, his blood pressure has been poorly controlled for a decade, and research genotyping performed 2 years ago identified one APOE e4 allele. He completed 18 years of formal education and works as an engineer. Which feature of his history is associated with a lower likelihood of developing cognitive impairment?",
+      "answers": {
+        "A": "APOE e4 genotype identified on research testing",
+        "B": "Eighteen years of completed formal education",
+        "C": "Family history of Alzheimer disease in his father",
+        "D": "History of traumatic brain injury while in college",
+        "E": "Poorly controlled hypertension over the past decade"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "APOE e4 carriage is one of the strongest genetic risk factors and makes cognitive impairment more, not less, likely.",
+        "B": "Higher educational attainment, like ongoing cognitive, physical, and social activity, is associated with a lower likelihood of impaired cognition.",
+        "C": "A first-degree relative with Alzheimer disease increases risk.",
+        "D": "Head trauma is an established risk factor for later cognitive impairment.",
+        "E": "Untreated hypertension is among the modifiable vascular risk factors that increase the likelihood of cognitive impairment."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-014",
+      "question": "A 79-year-old man cares for his 77-year-old wife, who has advanced Alzheimer dementia and requires assistance with bathing, dressing, and toileting. He has hypertension and coronary artery disease. Over the past year he has canceled his own cardiology follow-up twice, stopped attending his weekly card game, and describes himself as exhausted and guilty about resenting the work. Compared with adults of the same age who are not caregivers, he is at increased risk for which of the following?",
+      "answers": {
+        "A": "Death from any cause over the subsequent several years",
+        "B": "Development of Alzheimer disease caused by caregiving stress",
+        "C": "Earlier clinical expression of an APOE e4 genotype",
+        "D": "Improved cardiovascular fitness from daily physical care tasks",
+        "E": "Reduced use of health care services because of his vigilance"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Dementia caregiving is associated with anxiety, depression, guilt, anger, financial strain, decline in physical health and social activity, and measurably increased mortality.",
+        "B": "Caregiving stress is not an established risk factor for developing Alzheimer disease; the recognized risk factors are age, female sex, APOE e4, vascular disease, head trauma, and family history.",
+        "C": "Caregiving does not alter the penetrance or timing of a genotype he may or may not carry.",
+        "D": "The physical work of caregiving does not offset the documented net decline in caregivers' health.",
+        "E": "Caregivers typically defer their own care, as this man has done, which worsens rather than improves their outcomes."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-015",
+      "question": "A 68-year-old man is evaluated 4 months after an ischemic stroke. He has persistent difficulty naming objects and sometimes substitutes an incorrect word, which frustrates him and his wife. His memory for recent conversations and events is intact, he administers his own medications and manages the household accounts without error, and he is alert and fully attentive throughout the examination. Which of the following best explains why he does not meet criteria for dementia?",
+      "answers": {
+        "A": "His deficit is confined to a single cognitive domain",
+        "B": "His deficits began abruptly rather than developing gradually",
+        "C": "His impairment is acquired rather than developmental in origin",
+        "D": "His level of consciousness is normal on repeated examination",
+        "E": "His symptoms have been present for fewer than 6 months"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Dementia requires acquired impairment across multiple cognitive domains; this man has an isolated language deficit with intact memory, executive function, and daily function.",
+        "B": "Abrupt onset is typical of vascular cognitive impairment and does not exclude dementia, which may follow a stepwise course.",
+        "C": "An acquired deficit is precisely what dementia requires; developmental disorders are the category that is excluded.",
+        "D": "A normal level of consciousness is required for dementia and distinguishes it from delirium; its presence argues against delirium, not against dementia.",
+        "E": "Symptom duration alone does not disqualify him; the decisive issues are the number of domains involved and whether function is impaired."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-016",
+      "question": "A health system is projecting demand for dementia caregiver support services. Approximately 6.2 million Americans were living with Alzheimer dementia in 2024, and that figure is projected to reach approximately 13.2 million by 2050. Age-specific prevalence rates used in the projection are held constant across the interval. Which of the following best explains the projected increase?",
+      "answers": {
+        "A": "Declining mortality from causes other than Alzheimer disease in young adults",
+        "B": "Growth in the number of Americans surviving into their late 70s and 80s",
+        "C": "Increasing frequency of the APOE e4 allele in the general population",
+        "D": "Rising incidence of Alzheimer disease among adults younger than 65 years",
+        "E": "Wider use of amyloid PET imaging in cognitively normal older adults"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Mortality shifts in young adults have little effect on the size of the population in the age bands where dementia prevalence is concentrated.",
+        "B": "Because age-specific prevalence is held constant, the projected near-doubling is driven by demographic aging: more people surviving into the 75-to-84 and 85-and-older bands, where prevalence is 25% to 30% and 40% to 50%.",
+        "C": "Allele frequencies in a population do not shift meaningfully over a few decades, and the projection assumes unchanged age-specific risk.",
+        "D": "Early-onset disease accounts for a small minority of cases and could not account for a rise of this magnitude.",
+        "E": "Biomarker imaging can change who is detected, but this projection assumes constant age-specific prevalence rather than changing ascertainment."
+      }
+    },
+    {
+      "id": "neuro-impact-of-dementia-patient-panel-017",
+      "question": "A 74-year-old woman is brought to clinic by her husband because of 2 years of worsening forgetfulness. She repeats questions within the same conversation and pauses to search for common words. She scores below expectation for her education on cognitive screening. She is alert and fully attentive, drives to familiar destinations without incident, prepares meals, takes her medications correctly from a weekly pillbox, and balances her checkbook accurately. Which of the following additional findings would be required to diagnose major neurocognitive disorder (dementia) rather than mild impairment?",
+      "answers": {
+        "A": "Decline in her scores on serial cognitive testing over time",
+        "B": "Deficits in more than one cognitive domain on examination",
+        "C": "Family history of dementia in at least one first-degree relative",
+        "D": "Inability to manage her own medications and household finances",
+        "E": "Positive amyloid biomarker on cerebrospinal fluid or PET testing"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Documented decline supports a neurodegenerative process but does not by itself establish dementia; the threshold is loss of function, not a falling score.",
+        "B": "She already has deficits in two domains, memory and language, so this criterion is met; what she lacks is functional impairment.",
+        "C": "Family history is a risk factor for Alzheimer disease but is not part of the diagnostic criteria for dementia.",
+        "D": "Dementia requires that acquired cognitive deficits impair everyday function, classically shown by loss of the ability to manage medications or finances; this patient still performs both independently.",
+        "E": "Biomarkers indicate underlying Alzheimer pathology but do not establish a dementia syndrome, which is defined clinically by cognitive plus functional loss."
+      }
+    }
+  ]
+}

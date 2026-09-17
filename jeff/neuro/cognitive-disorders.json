@@ -1,0 +1,549 @@
+{
+  "lecture": "Cognitive Disorders",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-cognitive-disorders-001",
+      "question": "A 78-year-old woman reports word-finding trouble and says she now depends on written lists and GPS for routes she once knew. She still pays her bills on time and takes her medications correctly, but only because she set up automatic payments and uses a weekly pill organizer. Her friends have not noticed any change. She is fully independent in bathing, dressing, and cooking. MoCA is 24/30 with delayed recall 2/5 and normal orientation. TSH, B12, and metabolic panel are normal. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Delirium",
+        "B": "Major neurocognitive disorder",
+        "C": "Mild neurocognitive disorder",
+        "D": "Normal cognitive aging",
+        "E": "Subjective cognitive impairment"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Delirium has acute onset with fluctuating inattention and altered arousal, usually from a metabolic or toxic insult, not a stable months-long course.",
+        "B": "Major neurocognitive disorder requires that the deficits interfere with independence in instrumental activities, whereas she still completes them successfully.",
+        "C": "Objectively confirmed modest decline in one or more domains with preserved independence that requires greater effort and compensatory strategies defines DSM-5-TR mild neurocognitive disorder, which converts to dementia at roughly 15% per year.",
+        "D": "Normal aging does not produce objective testing deficits below expectation for age and education, and does not require compensatory strategies.",
+        "E": "Subjective cognitive impairment describes complaints without objective deficits or compensatory behaviors, but her MoCA and recall are objectively impaired."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-002",
+      "question": "An 82-year-old nursing home resident with moderate Alzheimer dementia is brought to the emergency department after one day of new confusion. Staff report he was agitated and screaming in the morning, then lethargic and barely arousable in the afternoon. He is inattentive, cannot sustain a digit span, and reports seeing dogs in the room. Temperature is 38.2 C. Two weeks ago he was conversational and oriented to place. Which is the most likely explanation for his current presentation?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "WBC",
+          "14,500/mm3",
+          "4,500-11,000/mm3"
+        ],
+        [
+          "Urinalysis",
+          "Leukocyte esterase positive, 50 WBC/hpf",
+          "Negative, 0-5 WBC/hpf"
+        ],
+        [
+          "Na+",
+          "138 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "1.1 mg/dL",
+          "0.6-1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Delirium due to urinary tract infection",
+        "B": "Dementia with Lewy bodies",
+        "C": "Major depressive disorder with psychotic features",
+        "D": "Progression of underlying Alzheimer dementia",
+        "E": "Sporadic Creutzfeldt-Jakob disease"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Acute onset of inattention, disorientation, and hallucinations that wax and wane between agitation and lethargy in the setting of infection defines delirium, and patients with pre-existing dementia have a markedly lowered threshold for developing it.",
+        "B": "Lewy body dementia causes fluctuating cognition and visual hallucinations, but over months to years with parkinsonism and REM sleep behavior disorder, not over a single febrile day.",
+        "C": "Psychotic depression develops over weeks with depressed mood and mood-congruent delusions, and does not cause fever or leukocytosis.",
+        "D": "Alzheimer disease progresses gradually over years; a change from conversational to obtunded in two weeks is far too abrupt.",
+        "E": "Creutzfeldt-Jakob disease is a rapidly progressive dementia with myoclonus that evolves over months and would not resolve with antibiotics."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-003",
+      "question": "A 73-year-old woman with mild cognitive impairment due to Alzheimer disease has a positive amyloid PET scan and is being considered for lecanemab. Genotyping shows she is homozygous for the APOE epsilon-4 allele. She is counseled that this genotype substantially increases her risk of a specific treatment complication requiring serial MRI monitoring. Which adverse effect is she at greatest risk of developing?",
+      "answers": {
+        "A": "Amyloid-related imaging abnormalities",
+        "B": "Bradycardia with syncopal episodes",
+        "C": "Extrapyramidal rigidity and tremor",
+        "D": "Myoclonus with generalized seizures",
+        "E": "Orthostatic hypotension and falls"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Anti-amyloid monoclonal antibodies cause amyloid-related imaging abnormalities with vasogenic edema (ARIA-E) and hemorrhage or siderosis (ARIA-H) as plaque is cleared from vessel walls, and risk is highest in APOE epsilon-4 homozygotes, which is why serial MRI surveillance is required.",
+        "B": "Bradycardia and syncope are cholinergic adverse effects of cholinesterase inhibitors, not of monoclonal antibodies.",
+        "C": "Extrapyramidal rigidity and tremor result from dopamine-blocking agents and are the feared reaction in Lewy body dementia.",
+        "D": "Myoclonus with seizures characterizes prion disease rather than an anti-amyloid infusion complication.",
+        "E": "Orthostatic hypotension with falls reflects autonomic failure in synucleinopathies such as dementia with Lewy bodies."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-004",
+      "question": "A 69-year-old woman with 20 years of poorly controlled hypertension has 2 years of gradually progressive slowed thinking, apathy, and difficulty planning her weekly schedule. Her gait is shuffling and broad-based and she has developed urinary urgency with occasional incontinence. Memory testing shows poor free recall that normalizes with recognition prompts. MRI shows confluent periventricular and deep white matter hyperintensities with multiple lacunar infarcts in the basal ganglia; ventricular size is proportionate to sulcal atrophy and there are no cortical infarcts. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Alzheimer dementia",
+        "B": "Multi-infarct dementia",
+        "C": "Normal pressure hydrocephalus",
+        "D": "Post-stroke strategic infarct dementia",
+        "E": "Subcortical ischemic vascular dementia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alzheimer dementia begins with prominent episodic memory storage failure and medial temporal atrophy, not executive slowing with gait disturbance and diffuse white matter disease.",
+        "B": "Multi-infarct dementia follows a stepwise course with focal deficits from cortical infarcts, which are absent here.",
+        "C": "Normal pressure hydrocephalus requires ventricular enlargement out of proportion to sulcal atrophy, and her ventricles are proportionate to her atrophy.",
+        "D": "A strategic infarct in the thalamus, hippocampus, or angular gyrus produces abrupt onset of a specific deficit after a clinically apparent stroke.",
+        "E": "Small-vessel disease producing white matter damage and lacunes (Binswanger disease) causes gradually progressive executive dysfunction, gait disturbance, and incontinence with diffuse white matter hyperintensities."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-005",
+      "question": "A 73-year-old man has 18 months of cognitive decline his wife describes as unpredictable, with lucid days alternating with days of staring and marked confusion. He repeatedly sees small children playing in the living room and describes them in detail. Six months after the cognitive symptoms began he developed mild bradykinesia and rigidity, and he has had two falls. For several years he has shouted and punched during sleep as if acting out dreams. Blood pressure drops from 136/82 to 104/64 mm Hg on standing. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Alzheimer dementia",
+        "B": "Dementia with Lewy bodies",
+        "C": "Frontotemporal dementia, behavioral variant",
+        "D": "Parkinson disease dementia",
+        "E": "Vascular dementia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Alzheimer dementia begins with steadily progressive episodic memory loss, and early visual hallucinations, parkinsonism, and marked fluctuations are uncommon.",
+        "B": "Fluctuating cognition, well-formed recurrent visual hallucinations, REM sleep behavior disorder, autonomic instability, and parkinsonism arising within a year of the cognitive changes define dementia with Lewy bodies, a synucleinopathy about one-third as prevalent as Alzheimer disease.",
+        "C": "Behavioral-variant frontotemporal dementia causes disinhibition, apathy, and hyperorality with relatively spared memory, and hallucinations are rare.",
+        "D": "Parkinson disease dementia is diagnosed when motor features precede cognitive decline by more than one year, whereas his cognitive symptoms came first.",
+        "E": "Vascular dementia follows a stepwise or gradual course tied to infarcts or white matter disease with focal signs, not detailed visual hallucinations with dream enactment."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-006",
+      "question": "A 58-year-old woman whose mother developed Alzheimer dementia at age 72 obtains a direct-to-consumer genetic test that reports an APOE epsilon-3/epsilon-4 genotype. She is cognitively normal, works full time as an attorney, and scores 29/30 on the MoCA. She asks how this allele would contribute to disease if she were to develop it. Which mechanism best explains the effect of this allele?",
+      "answers": {
+        "A": "Autosomal dominant overproduction of amyloid-beta 42",
+        "B": "Deficient progranulin expression in cortical neurons",
+        "C": "Expansion of a hexanucleotide repeat in C9ORF72",
+        "D": "Impaired clearance and increased deposition of amyloid-beta",
+        "E": "Trisomy-driven excess of amyloid precursor protein"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Autosomal dominant overproduction of amyloid-beta occurs with APP and presenilin mutations, which cause early-onset familial disease rather than acting as a susceptibility allele.",
+        "B": "Progranulin haploinsufficiency is associated with frontotemporal dementia, not Alzheimer disease.",
+        "C": "The C9ORF72 expansion causes behavioral-variant frontotemporal dementia and ALS.",
+        "D": "Apolipoprotein E participates in deposition and clearance of amyloid-beta; the epsilon-4 allele impairs clearance and raises late-onset Alzheimer risk two- to threefold in heterozygotes, though it is neither necessary nor sufficient for disease, while epsilon-2 is protective.",
+        "E": "Excess amyloid precursor protein from a third chromosome 21 is the mechanism in Down syndrome, not in APOE-related risk."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-007",
+      "question": "A 72-year-old retired schoolteacher comes for a routine visit and mentions that she sometimes takes longer to come up with the name of an acquaintance she has not seen in years, and that filling out her tax forms takes her more time than it used to. She still drives, manages her own finances and medications, and volunteers weekly. Her daughter completes an informant AD8 questionnaire with a score of 0. MoCA is 27/30, with 4/5 delayed recall after cueing. Which cognitive change is most consistent with normal aging in this patient?",
+      "answers": {
+        "A": "Decline in processing speed with preserved daily function",
+        "B": "Impaired recognition of close family members",
+        "C": "Inability to recall recent conversations even with cues",
+        "D": "Loss of the ability to manage medications independently",
+        "E": "Progressive difficulty naming common household objects"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Normal cognitive aging diminishes processing speed, working memory, inhibitory control, and sensory perception without interfering with independent daily function, and delayed recall that improves with cueing reflects slowed retrieval rather than failed storage.",
+        "B": "Failure to recognize close family members reflects advanced neurodegenerative disease and is never attributable to normal aging.",
+        "C": "Recent-event memory that does not improve with cueing indicates a storage deficit typical of early Alzheimer disease, not aging.",
+        "D": "Loss of independence in instrumental activities such as medication management is the defining feature of major neurocognitive disorder.",
+        "E": "Progressive anomia for common objects suggests a language-domain neurodegenerative process such as primary progressive aphasia or temporal-predominant disease."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-008",
+      "question": "A 70-year-old woman who underwent partial gastrectomy 12 years ago reports 8 months of forgetfulness and irritability. She has numbness and tingling in both feet, reduced vibration sense at the ankles, and brisk knee reflexes with an unsteady tandem gait. MoCA is 23/30. She takes no medications, drinks no alcohol, and MRI shows mild generalized atrophy without infarcts. Which is the most likely cause of her cognitive decline?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Vitamin B12",
+          "190 pg/mL",
+          "200-900 pg/mL"
+        ],
+        [
+          "Methylmalonic acid",
+          "0.9 umol/L",
+          "0.0-0.4 umol/L"
+        ],
+        [
+          "Homocysteine",
+          "28 umol/L",
+          "5-15 umol/L"
+        ],
+        [
+          "MCV",
+          "104 fL",
+          "80-100 fL"
+        ],
+        [
+          "TSH",
+          "1.8 uIU/mL",
+          "0.4-4.0 uIU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Alzheimer disease",
+        "B": "Folate deficiency",
+        "C": "Hypothyroidism",
+        "D": "Neurosyphilis",
+        "E": "Vitamin B12 deficiency"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alzheimer disease does not cause macrocytosis, posterior column sensory loss, or elevated methylmalonic acid, and it is not reversible with supplementation.",
+        "B": "Folate deficiency raises homocysteine in isolation without elevating methylmalonic acid and does not produce myelopathy.",
+        "C": "Hypothyroidism is a treatable cause of cognitive decline but her TSH is normal.",
+        "D": "Neurosyphilis can cause dementia and posterior column signs but would not explain the macrocytosis and elevated methylmalonic acid, and requires a reactive RPR.",
+        "E": "Low B12 with elevated methylmalonic acid and homocysteine plus macrocytosis and subacute combined degeneration after gastrectomy identifies B12 deficiency, a reversible cause of dementia; the raised methylmalonic acid is what distinguishes it from folate deficiency."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-009",
+      "question": "A 77-year-old man has had a year of progressive walking difficulty that began before any cognitive change; his feet appear stuck to the floor and he takes short shuffling steps on a broad base. Over the past 6 months he has become forgetful, inattentive, and slow to respond, and in the past 2 months he has had urinary incontinence. He has no tremor or rigidity and no focal weakness. MRI shows ventricular enlargement out of proportion to sulcal atrophy with periventricular transependymal flow and rounding of the frontal horns. Which is the most appropriate next step in management?",
+      "answers": {
+        "A": "Begin donepezil and memantine",
+        "B": "Obtain amyloid PET imaging",
+        "C": "Perform a high-volume lumbar puncture",
+        "D": "Place a ventriculoperitoneal shunt",
+        "E": "Start oxybutynin for incontinence"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cholinesterase inhibitors and memantine are approved for Alzheimer disease and do not treat impaired CSF reabsorption.",
+        "B": "Amyloid PET evaluates Alzheimer pathology and would not change management of a potentially reversible hydrocephalus.",
+        "C": "Gait disturbance appearing first, followed by a subcortical dementia and incontinence, with disproportionate ventriculomegaly, indicates normal pressure hydrocephalus, and temporary gait improvement after a high-volume lumbar tap both supports the diagnosis and predicts shunt responsiveness.",
+        "D": "Shunting is the definitive treatment but carries risks of infection and obstruction, so it should follow a confirmatory large-volume tap rather than precede it.",
+        "E": "Anticholinergics worsen cognition in older adults and treat only one symptom of a potentially reversible syndrome."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-010",
+      "question": "A 71-year-old woman has 4 years of progressive difficulty remembering recent conversations and appointments, now with word-finding pauses and episodes of getting lost while driving. Amyloid PET shows parietotemporal tracer retention, and CSF studies are obtained. Which biochemical event best explains the formation of the extracellular lesions detected by her amyloid PET scan?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "CSF amyloid-beta 42",
+          "Decreased",
+          "Normal"
+        ],
+        [
+          "CSF phosphorylated tau",
+          "Increased",
+          "Normal"
+        ],
+        [
+          "CSF WBC",
+          "1/mm3",
+          "0-5/mm3"
+        ],
+        [
+          "CSF glucose",
+          "62 mg/dL",
+          "45-80 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Aggregation of hyperphosphorylated tau into paired helical filaments",
+        "B": "Cleavage of amyloid precursor protein by beta-secretase",
+        "C": "Conformational change of prion protein into beta-pleated sheets",
+        "D": "Deposition of alpha-synuclein within cortical neurons",
+        "E": "Expansion of a trinucleotide repeat in the huntingtin gene"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hyperphosphorylated tau forms intracellular neurofibrillary tangles, which correlate best with disease severity but are not the extracellular plaques imaged by amyloid PET.",
+        "B": "Dysregulated beta-secretase cleavage of amyloid precursor protein yields amyloid-beta 42, which oligomerizes and deposits as insoluble extracellular plaques and initiates the amyloid cascade; normal alpha- and gamma-secretase processing does not generate the toxic fragment.",
+        "C": "Conversion of alpha-helical PrPC to beta-pleated PrPSc causes spongiform encephalopathy with rapidly progressive dementia and myoclonus over months.",
+        "D": "Cortical alpha-synuclein inclusions are Lewy bodies and produce fluctuating cognition with visual hallucinations and parkinsonism.",
+        "E": "Huntingtin trinucleotide expansion causes a dominantly inherited dementia with chorea beginning in the thirties to forties."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-011",
+      "question": "A 74-year-old man with hypertension, type 2 diabetes, and a 40 pack-year smoking history has had cognitive decline over 3 years. His wife describes discrete drops in function occurring over a few days, each followed by months of stability. He is slow to respond and cannot plan a multi-step task, but he recalls 4/5 words when given category cues. Examination shows brisk right-sided reflexes and a right extensor plantar response. MRI shows multiple cortical infarcts in the left middle cerebral and right posterior cerebral territories. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "168/94 mm Hg",
+          "<130/80 mm Hg"
+        ],
+        [
+          "HbA1c",
+          "8.1%",
+          "<5.7%"
+        ],
+        [
+          "LDL cholesterol",
+          "165 mg/dL",
+          "<100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Alzheimer dementia",
+        "B": "Dementia with Lewy bodies",
+        "C": "Frontotemporal dementia",
+        "D": "Multi-infarct vascular dementia",
+        "E": "Normal pressure hydrocephalus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alzheimer dementia declines insidiously and continuously with early storage-type memory loss that does not improve with cueing, and lacks focal neurologic signs.",
+        "B": "Lewy body dementia produces fluctuations over hours to days with visual hallucinations and parkinsonism, not stepwise infarct-related drops with lateralized pyramidal signs.",
+        "C": "Frontotemporal dementia begins before age 65 with personality change or aphasia and shows frontotemporal atrophy rather than multiterritory infarcts.",
+        "D": "Stepwise decline with focal deficits, prominent slowing and executive dysfunction, cueing-responsive retrieval memory loss, and multiple cortical infarcts across vascular territories in a patient with uncontrolled vascular risk factors is classic multi-infarct dementia.",
+        "E": "Normal pressure hydrocephalus presents with a magnetic gait, incontinence, and ventriculomegaly out of proportion to atrophy rather than cortical infarcts."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-012",
+      "question": "A 64-year-old man is brought in after 4 months of decline. He first became forgetful and made poor financial decisions, and within weeks he could no longer dress himself. He now has jerking movements of his limbs that worsen with startle, an ataxic gait, and complains that objects appear distorted. MRI shows cortical ribboning on diffusion-weighted imaging with basal ganglia and thalamic T2 hyperintensity, and EEG shows generalized periodic sharp wave complexes. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "CSF 14-3-3 protein",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "CSF total tau",
+          "Markedly elevated",
+          "Normal"
+        ],
+        [
+          "CSF WBC",
+          "1/mm3",
+          "0-5/mm3"
+        ],
+        [
+          "CSF protein",
+          "55 mg/dL",
+          "15-60 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Alzheimer dementia",
+        "B": "Autoimmune limbic encephalitis",
+        "C": "Creutzfeldt-Jakob disease",
+        "D": "Dementia with Lewy bodies",
+        "E": "Hashimoto encephalopathy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alzheimer dementia declines over years, lacks myoclonus and ataxia, and does not produce cortical ribboning or periodic EEG complexes.",
+        "B": "Autoimmune limbic encephalitis typically causes seizures and psychiatric symptoms with CSF pleocytosis and medial temporal T2 signal, and his CSF is acellular.",
+        "C": "A rapidly progressive dementia over months with myoclonus, ataxia, visual disturbance, cortical ribboning, periodic sharp wave complexes, and elevated CSF 14-3-3 and total tau is sporadic Creutzfeldt-Jakob disease, which is usually fatal within 6 to 12 months.",
+        "D": "Lewy body dementia evolves over years with fluctuations, well-formed visual hallucinations, and parkinsonism rather than startle myoclonus with periodic EEG discharges.",
+        "E": "Hashimoto encephalopathy is steroid-responsive with high antithyroid antibodies and typically shows a nonspecific MRI without cortical ribboning."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-013",
+      "question": "A 59-year-old architect is brought in by his wife because of 2 years of change in who he is. He makes crude sexual remarks to strangers, was cited for shoplifting candy, has stopped bathing, and eats bowls of sweets compulsively. He is indifferent to his wife's distress and denies any problem. He is oriented, recalls 4/5 words after 5 minutes, and knows current events, but cannot shift set on an alternating sequence task. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Alzheimer dementia",
+        "B": "Bipolar disorder, manic episode",
+        "C": "Dementia with Lewy bodies",
+        "D": "Frontotemporal dementia, behavioral variant",
+        "E": "Major depressive disorder"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alzheimer dementia begins with episodic memory impairment, and his delayed recall and orientation are relatively preserved.",
+        "B": "Mania produces elevated or irritable mood with decreased need for sleep and grandiosity in discrete episodes, not a 2-year unremitting decline in social conduct and hygiene.",
+        "C": "Lewy body dementia features fluctuating attention, visual hallucinations, parkinsonism, and REM sleep behavior disorder, none of which are present.",
+        "D": "Onset in the late fifties with disinhibition, loss of social conduct, hyperorality with a preference for sweets, apathy, neglect of hygiene, loss of insight, and impaired set shifting with spared memory is behavioral-variant frontotemporal dementia.",
+        "E": "Depression causes low mood and anhedonia with distress about the change, whereas he is indifferent and lacks insight."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-014",
+      "question": "A 76-year-old woman presents with 3 months of memory complaints, telling the physician repeatedly that her mind is gone and she is useless to her family. Her husband is less concerned and says she manages the household. She has lost 6 kg, wakes at 4 AM daily, and has stopped attending her book club. On testing she answers \"I don't know\" to many questions but gives correct answers when encouraged. MoCA is 24/30 with intact attention and trail-making. Which is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "2.1 uIU/mL",
+          "0.4-4.0 uIU/mL"
+        ],
+        [
+          "Vitamin B12",
+          "480 pg/mL",
+          "200-900 pg/mL"
+        ],
+        [
+          "Na+",
+          "139 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "PHQ-9 score",
+          "18",
+          "0-4 (minimal)"
+        ]
+      ],
+      "answers": {
+        "A": "Begin donepezil for her cognitive symptoms",
+        "B": "Initiate antidepressant treatment",
+        "C": "Obtain amyloid PET imaging of the brain",
+        "D": "Order lumbar puncture for CSF biomarkers",
+        "E": "Start low-dose quetiapine at bedtime"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cholinesterase inhibitors are indicated for Alzheimer disease and do not address the depression driving her cognitive presentation.",
+        "B": "Dementia syndrome of depression features prominent memory complaints with overestimation of impairment, \"I don't know\" answers that improve with encouragement, and relative preservation of attention and executive function, so treating the depression first, with psychotherapy as an adjunct, may improve cognition and is the appropriate next step.",
+        "C": "Amyloid PET is costly, resource-limited, and premature before a treatable mood disorder has been addressed.",
+        "D": "Lumbar puncture for amyloid and tau biomarkers is invasive and not indicated before an adequate antidepressant trial.",
+        "E": "Antipsychotics carry a boxed warning for increased mortality in dementia and have no role in this presentation."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-015",
+      "question": "A 70-year-old woman has 3 years of progressive memory loss that began with forgetting recent conversations and now includes getting lost in familiar neighborhoods and difficulty naming objects. Her husband says she insists nothing is wrong. MMSE is 21/30 with 0/3 delayed recall, impaired pentagon copying, and no focal neurologic deficits. Which finding is most likely on structural MRI of the brain?",
+      "answers": {
+        "A": "Bilateral hippocampal and medial temporal atrophy",
+        "B": "Confluent white matter hyperintensities with lacunar infarcts",
+        "C": "Cortical ribboning on diffusion-weighted imaging",
+        "D": "Knife-edge atrophy of the frontal and temporal lobes",
+        "E": "Ventricular enlargement out of proportion to sulcal atrophy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Alzheimer disease pathology begins in the hippocampus and entorhinal cortex, so medial temporal atrophy is the earliest gross structural change, accompanied later by generalized atrophy and hydrocephalus ex vacuo; her anosognosia and amnestic-plus-visuospatial profile fit this diagnosis.",
+        "B": "Confluent white matter hyperintensities with lacunes indicate subcortical ischemic vascular disease, which produces executive slowing and gait disturbance.",
+        "C": "Cortical ribboning on diffusion imaging is characteristic of Creutzfeldt-Jakob disease, a rapidly progressive dementia with myoclonus.",
+        "D": "Knife-edge frontotemporal gyral atrophy is the signature of frontotemporal lobar degeneration, which presents with behavior or language change before age 65.",
+        "E": "Disproportionate ventriculomegaly suggests normal pressure hydrocephalus with gait disturbance, incontinence, and subcortical slowing."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-016",
+      "question": "A 54-year-old man has had 2 years of progressive apathy, socially inappropriate jokes, and compulsive rituals. Over the past 6 months he has developed slurred speech, tongue fasciculations, and weakness of the right hand with brisk reflexes and preserved sensation. His father and older brother both developed personality change followed by progressive weakness in their fifties. Which genetic abnormality is most likely present?",
+      "answers": {
+        "A": "Hexanucleotide repeat expansion in C9ORF72",
+        "B": "Mutation in the NOTCH3 gene on chromosome 19",
+        "C": "Mutation in the presenilin-1 gene on chromosome 14",
+        "D": "Mutation in the progranulin gene on chromosome 17",
+        "E": "Trinucleotide repeat expansion in the huntingtin gene"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The C9ORF72 hexanucleotide expansion is the most common genetic cause of frontotemporal dementia and of ALS, is inherited in an autosomal dominant pattern, and characteristically produces the behavioral variant of FTD with motor neuron disease.",
+        "B": "NOTCH3 mutations cause CADASIL with migraines, early strokes, and white matter disease rather than behavioral change with fasciculations.",
+        "C": "Presenilin-1 mutations cause early-onset familial Alzheimer disease presenting with amnesia, not motor neuron signs.",
+        "D": "Progranulin mutations on chromosome 17 cause frontotemporal dementia but are not the usual cause of the FTD-ALS phenotype seen here.",
+        "E": "Huntington disease produces chorea with personality change and mood swings, not bulbar and limb lower motor neuron findings."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-017",
+      "question": "A 75-year-old man with dementia characterized by fluctuating attention, recurrent visual hallucinations of intruders, mild rigidity, and dream enactment behavior becomes acutely agitated in the emergency department after a fall. Nonpharmacologic redirection fails and the covering physician considers medication. Which agent poses the greatest risk of a severe adverse reaction with worsening rigidity and obtundation in this patient?",
+      "answers": {
+        "A": "Donepezil",
+        "B": "Haloperidol",
+        "C": "Melatonin",
+        "D": "Pimavanserin",
+        "E": "Rivastigmine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cholinesterase inhibitors such as donepezil are often beneficial for cognition and hallucinations in Lewy body dementia rather than dangerous.",
+        "B": "Dangerous neuroleptic sensitivity is characteristic of Lewy body dementia, and dopamine-blocking antipsychotics such as haloperidol can precipitate severe rigidity, sedation, and clinical deterioration.",
+        "C": "Melatonin is used for REM sleep behavior disorder and carries minimal risk of extrapyramidal worsening.",
+        "D": "Pimavanserin is a selective 5-HT2A inverse agonist without dopamine blockade, developed for Parkinson disease psychosis precisely to avoid this reaction.",
+        "E": "Rivastigmine is FDA approved for Parkinson disease dementia and is often helpful for cognition and psychosis in synucleinopathies."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-018",
+      "question": "A 75-year-old woman with mild Alzheimer dementia is started on a medication. Six months later her family reports she is more attentive during conversation and remembers appointments more reliably, and her ADAS-Cog score is 2 points better than baseline. She has developed nausea, loose stools, and a resting heart rate of 52 beats per minute. Which mechanism best explains her cognitive improvement?",
+      "answers": {
+        "A": "Antagonism of NMDA-type glutamate receptors",
+        "B": "Blockade of postsynaptic dopamine D2 receptors",
+        "C": "Inhibition of synaptic acetylcholinesterase",
+        "D": "Inverse agonism at serotonin 5-HT2A receptors",
+        "E": "Monoclonal antibody clearance of amyloid plaque"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Memantine blocks NMDA receptors to limit excitotoxicity from excess glutamate, but it does not cause cholinergic side effects such as diarrhea and bradycardia.",
+        "B": "Dopamine D2 blockade is the action of antipsychotics, which worsen rather than improve cognition and carry a boxed mortality warning in dementia.",
+        "C": "Donepezil, rivastigmine, and galantamine inhibit acetylcholinesterase and raise synaptic acetylcholine, which sustains attention and modestly improves memory; the cholinergic excess also produces nausea, diarrhea, and bradycardia.",
+        "D": "Inverse agonism at 5-HT2A receptors is the mechanism of pimavanserin, used for Parkinson disease psychosis rather than cognitive enhancement.",
+        "E": "Anti-amyloid monoclonal antibodies slow functional decline over 18 months and cause ARIA, not gastrointestinal and bradycardic effects."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-019",
+      "question": "A 38-year-old man with Down syndrome, previously able to work at a supported job site and ride the bus alone, has become withdrawn over 18 months. He no longer completes his work tasks, gets lost on his usual route, and has begun forgetting conversations from earlier the same day. Thyroid studies, B12, and depression screening are unremarkable. Overexpression of a gene on which chromosome best explains his risk for this decline?",
+      "answers": {
+        "A": "Chromosome 1, encoding presenilin-2",
+        "B": "Chromosome 4, encoding huntingtin",
+        "C": "Chromosome 14, encoding presenilin-1",
+        "D": "Chromosome 19, encoding apolipoprotein E",
+        "E": "Chromosome 21, encoding amyloid precursor protein"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Presenilin-2 mutations on chromosome 1 cause a very rare form of familial Alzheimer disease and are unrelated to trisomy 21.",
+        "B": "Huntingtin on chromosome 4 produces dementia with chorea and personality change, not the Down syndrome-associated dementia.",
+        "C": "Presenilin-1 mutations on chromosome 14 cause familial Alzheimer disease, but by an inherited point mutation rather than gene dosage.",
+        "D": "Apolipoprotein E on chromosome 19 modifies risk for sporadic late-onset Alzheimer disease and is not the mechanism in trisomy 21.",
+        "E": "Trisomy 21 gives a third copy of the amyloid precursor protein gene, so excess APP substrate drives amyloid deposition and nearly all patients with Down syndrome develop Alzheimer neuropathology by their forties."
+      }
+    },
+    {
+      "id": "neuro-cognitive-disorders-020",
+      "question": "A 44-year-old man has had migraine with aura since his early twenties and has sustained two lacunar strokes, at ages 38 and 42. He has no hypertension, diabetes, hyperlipidemia, or tobacco use, and echocardiography and hypercoagulable testing are unrevealing. He now has difficulty organizing work projects and has become emotionally labile. His father died at 55 after recurrent strokes and progressive cognitive decline. MRI shows confluent white matter hyperintensities involving the anterior temporal poles and external capsules. Which genetic abnormality is most likely responsible?",
+      "answers": {
+        "A": "APOE epsilon-4 allele on chromosome 19",
+        "B": "APP mutation on chromosome 21",
+        "C": "C9ORF72 expansion on chromosome 9",
+        "D": "NOTCH3 mutation on chromosome 19",
+        "E": "PSEN1 mutation on chromosome 14"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The APOE epsilon-4 allele is a susceptibility factor for late-onset Alzheimer disease, not a cause of autosomal dominant young-onset lacunar strokes with migraine.",
+        "B": "APP mutations cause rare familial Alzheimer disease with onset around age 49 to 60 and amyloid pathology, not a small-vessel arteriopathy.",
+        "C": "C9ORF72 hexanucleotide expansion is the most common genetic cause of frontotemporal dementia and ALS, which present with behavioral change or motor neuron signs.",
+        "D": "CADASIL results from a NOTCH3 mutation on chromosome 19 affecting vascular smooth muscle cells, producing the triad of migraine, recurrent strokes before age 60, and cognitive decline in a dominantly inherited pattern.",
+        "E": "PSEN1 mutations account for more than half of familial Alzheimer disease with onset at 30 to 60 years, presenting as progressive amnestic dementia without strokes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "lecture": "Geriatric Psychiatry",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-geriatric-psychiatry-001",
+      "question": "An 81-year-old woman with a MoCA of 22/30 is undergoing a functional assessment to determine whether she meets criteria for a major neurocognitive disorder. She dresses, bathes, eats, toilets, and ambulates without assistance. Her daughter has recently taken over several household responsibilities. Which of the following newly acquired deficits would be classified as an instrumental activity of daily living?",
+      "answers": {
+        "A": "Inability to ambulate across a room unassisted",
+        "B": "Inability to bathe herself without prompting",
+        "C": "Inability to dress her lower body without help",
+        "D": "Inability to feed herself at mealtimes",
+        "E": "Inability to manage her own medication regimen"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Ambulation is a basic activity of daily living.",
+        "B": "Hygiene and bathing are basic activities of daily living.",
+        "C": "Dressing is a basic activity of daily living.",
+        "D": "Feeding oneself is a basic activity of daily living.",
+        "E": "Medication management is an instrumental activity of daily living, along with shopping, housekeeping, accounting, food preparation, transportation, and telephone use."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-002",
+      "question": "A 70-year-old woman completes an 8-treatment course of electroconvulsive therapy for severe depression and reports feeling back to herself. At her follow-up visit she is euthymic but complains that she cannot recall several events from the weeks surrounding her treatments. She is fully oriented, her MoCA is 28/30, and she has resumed managing her own finances and medications. Which of the following best describes the expected course of this finding?",
+      "answers": {
+        "A": "Irreversible anterograde amnesia requiring permanent discontinuation",
+        "B": "Permanent retrograde amnesia for all events preceding treatment",
+        "C": "Progressive cognitive decline indicating underlying Alzheimer disease",
+        "D": "Structural hippocampal injury demonstrable on brain MRI",
+        "E": "Transient short-term memory loss resolving over several weeks"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Persistent anterograde amnesia is not an expected outcome, and her intact orientation and normal MoCA argue against ongoing new-learning failure.",
+        "B": "Memory gaps are typically limited to the period around the treatment course rather than encompassing all remote autobiographical memory.",
+        "C": "A progressive dementia would show declining cognitive scores and functional loss; she scores 28/30 and remains independent.",
+        "D": "Electroconvulsive therapy does not produce structural brain lesions, and imaging is not indicated for this complaint.",
+        "E": "Short-term memory loss occurs in roughly 10% of patients and usually resolves within weeks, along with transient nausea, headache, myalgias, and confusion."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-003",
+      "question": "An 87-year-old man with osteoarthritis and diabetes mellitus presents with his wife for memory loss. He has been forgetting to pay bills on time, misplacing objects, and struggling to recall names. His MoCA is 21/30, but he remains independent in all basic and instrumental activities of daily living. Depression screening is positive, and he is started on an SSRI. Three months later his repeat MoCA is 27/30. Which of the following best explains his initial cognitive findings?",
+      "answers": {
+        "A": "Cognitive impairment related to depression (pseudodementia)",
+        "B": "Delirium from an occult urinary tract infection",
+        "C": "Early Alzheimer disease with a placebo response to treatment",
+        "D": "Normal pressure hydrocephalus with sparing of gait",
+        "E": "Vascular dementia following a stepwise clinical course"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Depression-related cognitive impairment produces measurable deficits that are not permanent and resolve as the depression is treated, exactly the pattern of a MoCA improving from 21 to 27 on an SSRI.",
+        "B": "Delirium presents acutely with inattention and a fluctuating course and would not remit over 3 months in parallel with antidepressant treatment.",
+        "C": "Alzheimer disease is progressive, so a 6-point improvement in MoCA score is inconsistent with that diagnosis.",
+        "D": "Normal pressure hydrocephalus classically features gait apraxia and urinary incontinence and does not improve with an antidepressant.",
+        "E": "Vascular dementia causes stepwise, largely irreversible decline rather than substantial cognitive recovery."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-004",
+      "question": "A hospitalist reviews five patients admitted overnight for elective and urgent medical problems and wants to identify who is most likely to become delirious during the hospitalization. All five are older than 70 years and are receiving comparable medications and nursing care. Which of the following features confers the greatest predisposing risk for delirium?",
+      "answers": {
+        "A": "Chronic well-controlled essential hypertension",
+        "B": "Female sex with a normal body mass index",
+        "C": "History of osteoarthritis of both knees",
+        "D": "Pre-existing major neurocognitive disorder",
+        "E": "Type 2 diabetes with a hemoglobin A1c of 6.5%"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Controlled hypertension is not an established predisposing factor for delirium.",
+        "B": "Sex and body habitus do not meaningfully alter delirium risk.",
+        "C": "Osteoarthritis contributes pain and immobility but is not among the principal risk factors.",
+        "D": "Dementia is the strongest predisposing risk factor for delirium, along with older age and hospitalization, because the compromised brain has a markedly lower threshold for decompensation.",
+        "E": "Well-controlled diabetes does not confer the delirium risk carried by an underlying neurocognitive disorder."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-005",
+      "question": "A 73-year-old woman with medication-refractory psychotic depression is brought to the suite for her first electroconvulsive therapy session. Anesthesia is induced with etomidate, EEG leads and right unilateral stimulus pads are placed, and a second agent is administered so that the induced seizure produces minimal motor activity while the EEG confirms an adequate seizure. Which of the following agents was most likely given for this purpose?",
+      "answers": {
+        "A": "Dantrolene",
+        "B": "Flumazenil",
+        "C": "Lorazepam",
+        "D": "Propofol",
+        "E": "Succinylcholine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Dantrolene is a ryanodine receptor antagonist used for malignant hyperthermia and has no role in routine electroconvulsive therapy.",
+        "B": "Flumazenil reverses benzodiazepine sedation and does not modify the motor manifestations of a seizure.",
+        "C": "Benzodiazepines such as lorazepam raise the seizure threshold and are generally withheld because they impair seizure adequacy.",
+        "D": "Propofol is an induction anesthetic, not a neuromuscular blocker, and cannot prevent the tonic-clonic motor response.",
+        "E": "Succinylcholine is the depolarizing neuromuscular blocker added since the 1950s to blunt the motor convulsion and prevent musculoskeletal injury while EEG monitoring confirms the seizure."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-006",
+      "question": "A 71-year-old man whose wife died last year is seen for a routine visit. He lives alone, retired 2 years ago, has chronic low back pain from degenerative disc disease, and drinks three beers most nights. He reports low energy and poor sleep but denies current suicidal ideation. His primary care physician is deciding how aggressively to screen and follow him. Which of the following features of his presentation places him in the demographic group with the highest suicide mortality?",
+      "answers": {
+        "A": "Chronic pain occurring in the absence of a mood disorder",
+        "B": "Male sex in combination with age older than 65 years",
+        "C": "Recent retirement from many years of full-time work",
+        "D": "Regular alcohol use of approximately three drinks nightly",
+        "E": "Report of no suicidal ideation at the current encounter"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Comorbid pain does raise risk, but it is not the demographic feature that defines the highest-mortality group.",
+        "B": "Older adults are rapidly becoming the highest-risk population for suicide, and the suicide mortality rate in men older than 65 years is roughly twice that of men aged 15 to 24 years.",
+        "C": "Retirement is a phase-of-life stressor that contributes to risk but does not by itself identify the peak-mortality demographic.",
+        "D": "Alcohol use increases impulsivity and risk, yet it is a modifiable behavior rather than the defining demographic risk factor.",
+        "E": "Denial of suicidal ideation is reassuring but does not lower risk, since older adults often do not disclose intent and still require repeated screening."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-007",
+      "question": "A 76-year-old man with subjective memory complaints scores 23/30 on the MoCA but remains fully independent in all basic and instrumental activities of daily living, and reversible causes have been excluded. His daughter asks what is likely to happen to his cognition over the next several years. Which of the following is the most accurate statement about his prognosis?",
+      "answers": {
+        "A": "Approximately half of patients progress to dementia within 1 year",
+        "B": "Cognitive improvement is impossible once the MoCA falls below 26",
+        "C": "Nearly all patients progress to Alzheimer disease within 5 years",
+        "D": "One third of patients progress to dementia over time",
+        "E": "Progression to dementia occurs in fewer than 5% of patients"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Conversion is far slower than this; overstating risk would misrepresent the natural history of mild cognitive impairment.",
+        "B": "Roughly a third of patients actually improve, so a MoCA below 26 does not preclude recovery, particularly when a reversible contributor is later identified.",
+        "C": "Universal progression is not observed, and many patients remain stable or improve on repeat testing.",
+        "D": "Mild cognitive impairment follows the rule of thirds: about one third improve, one third remain unchanged, and one third progress to dementia.",
+        "E": "This substantially underestimates conversion risk and would falsely reassure the family."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-008",
+      "question": "A memory disorders clinic reviews its registry of 400 patients carrying a diagnosis of major neurocognitive disorder in order to plan staffing for subtype-specific care pathways. The distribution of subtypes closely mirrors national epidemiologic estimates. After Alzheimer disease, which of the following subtypes accounts for the largest share of cases?",
+      "answers": {
+        "A": "Alcohol-related neurocognitive disorder",
+        "B": "Frontotemporal dementia",
+        "C": "Lewy body dementia",
+        "D": "Prion disease",
+        "E": "Vascular dementia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alcohol-related cognitive impairment is an important reversible contributor but is not among the four major dementia subtypes by prevalence.",
+        "B": "Frontotemporal dementia, formerly called Pick disease, accounts for roughly 7% of cases.",
+        "C": "Lewy body dementia accounts for approximately 12% of cases, placing it third overall.",
+        "D": "Prion disease accounts for approximately 1% of cases and is the rarest listed subtype.",
+        "E": "Vascular dementia accounts for about 15% of cases, second only to Alzheimer disease at roughly 65%."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-009",
+      "question": "An 81-year-old woman is brought to the emergency department by her son for 3 days of progressive confusion and unsteady gait during a summer heat wave. She lives alone, takes no diuretics or psychotropic medications, and has had poor oral intake. She is afebrile, blood pressure is 118/70 mm Hg, and neurologic examination shows no focal deficits or asterixis. Laboratory studies are shown. Which of the following age-related physiologic changes best explains her laboratory abnormality?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "124 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "K+",
+          "4.1 mEq/L",
+          "3.5-5.0 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "1.0 mg/dL",
+          "0.6-1.2 mg/dL"
+        ],
+        [
+          "Serum osmolality",
+          "256 mOsm/kg",
+          "275-295 mOsm/kg"
+        ],
+        [
+          "Urine osmolality",
+          "480 mOsm/kg",
+          "50-1200 mOsm/kg"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased antidiuretic hormone release from the posterior pituitary",
+        "B": "Decreased hepatic blood flow with impaired first-pass metabolism",
+        "C": "Increased aldosterone secretion with distal sodium reabsorption",
+        "D": "Increased antidiuretic hormone with reduced free water clearance",
+        "E": "Increased blood-brain barrier permeability to circulating solutes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Antidiuretic hormone levels rise rather than fall with aging; a true deficiency would produce dilute urine and hypernatremia, not the concentrated urine and hyponatremia seen here.",
+        "B": "Reduced hepatic blood flow slows drug metabolism and predisposes to drug accumulation, but it does not lower the serum sodium.",
+        "C": "Aldosterone secretion declines with age, which promotes volume depletion and dehydration rather than the dilutional hyponatremia demonstrated by her low serum osmolality.",
+        "D": "Aging raises antidiuretic hormone levels and lowers free water clearance, so water is retained in excess of sodium and produces hypo-osmolar hyponatremia with inappropriately concentrated urine.",
+        "E": "A more porous blood-brain barrier explains heightened CNS sensitivity to drugs and delirium risk in older adults, but it does not alter serum electrolytes."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-010",
+      "question": "A 79-year-old man is hospitalized after a hip fracture and is given diphenhydramine at bedtime for insomnia. The next morning he is inattentive, cannot state the date, and describes seeing small animals in the room; his symptoms wax and wane through the day. Vital signs are normal, and the same dose had been well tolerated by his 45-year-old son. Which of the following age-related changes best explains his heightened sensitivity to this medication?",
+      "answers": {
+        "A": "Decreased gastric acid production limiting drug ionization",
+        "B": "Increased blood-brain barrier permeability to central drugs",
+        "C": "Increased hepatic cytochrome P-450 activity with advancing age",
+        "D": "Increased REM sleep latency and total slow-wave sleep time",
+        "E": "Increased renal free water clearance with advancing age"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Changes in gastric acidity can alter absorption of a few drugs but do not explain a central anticholinergic delirium.",
+        "B": "The blood-brain barrier becomes more porous with age, so the brain is more sensitive to medications and substances and delirium is more easily provoked by anticholinergic agents.",
+        "C": "Hepatic blood flow and metabolic capacity decline with age rather than increase; induced metabolism would lower, not raise, drug exposure.",
+        "D": "Aging reduces REM latency, REM amount, and stage 3/4 sleep; these sleep architecture changes do not mediate acute drug-induced confusion.",
+        "E": "Free water clearance falls with age, contributing to hyponatremia; it is unrelated to central nervous system drug sensitivity."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-011",
+      "question": "An 83-year-old man with hypertension, diabetes mellitus, atrial fibrillation, and osteoarthritis is brought to the emergency department by his family for 3 months of worsening paranoia. He has become isolated, rarely leaves the house where he lives alone, and reports hearing voices telling him something bad will happen if he goes outside. He denies sadness but endorses poor appetite, poor sleep, poor concentration, and guilt. He believes he is being punished and deserves to die for bullying a classmate in grade school. He has no prior psychiatric history, and his MoCA is 27/30. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Bipolar I disorder with psychotic features",
+        "B": "Delusional disorder, persecutory type",
+        "C": "Major depressive disorder with psychotic features",
+        "D": "Major neurocognitive disorder of the Alzheimer type",
+        "E": "Schizophrenia with late onset"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Bipolar disorder requires a history of mania or hypomania, and no elevated or expansive episode is described.",
+        "B": "Delusional disorder excludes prominent hallucinations and a full mood syndrome, both of which are present here.",
+        "C": "Mood-congruent delusions of guilt and deserved punishment with auditory hallucinations occurring only in the setting of neurovegetative depressive symptoms define major depression with psychotic features, which is more common in older adults.",
+        "D": "His MoCA is normal and there is no functional cognitive decline, so a major neurocognitive disorder does not explain the presentation.",
+        "E": "New-onset schizophrenia at age 83 is exceedingly rare, and his psychotic symptoms occur exclusively within a depressive episode."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-012",
+      "question": "A 76-year-old man reports a year of misplacing his keys and occasional word-finding difficulty. His wife confirms the lapses but states that he still drives, manages the household finances and his own medications, shops independently, and needs no help with bathing or dressing. His MoCA is 23/30. Depression screening is negative, and B12, TSH, and metabolic studies are normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Delirium of insidious onset",
+        "B": "Major depressive disorder with prominent cognitive features",
+        "C": "Major neurocognitive disorder, Alzheimer type",
+        "D": "Mild neurocognitive disorder (mild cognitive impairment)",
+        "E": "Normal age-associated cognitive change"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Delirium is acute in onset with fluctuating inattention, whereas his course has been gradual over a year with preserved attention.",
+        "B": "Depression screening is negative, so depression-related cognitive impairment is not supported.",
+        "C": "Major neurocognitive disorder requires a decline in ADLs or iADLs in addition to abnormal cognitive testing, and he remains fully independent.",
+        "D": "A MoCA below 26 with subjective memory concerns but no change in functional assessment defines mild cognitive impairment.",
+        "E": "Normal aging does not produce objective impairment on formal cognitive testing; his MoCA of 23/30 is abnormal."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-013",
+      "question": "A 74-year-old woman is referred to psychiatry for 4 months of low mood, fatigue, constipation, cold intolerance, and a 5-kg weight gain. She has psychomotor slowing on examination, denies suicidal ideation, and scores 27/30 on the MoCA. Laboratory studies obtained as part of her workup are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "24 microU/mL",
+          "0.4-4.0 microU/mL"
+        ],
+        [
+          "Free T4",
+          "0.5 ng/dL",
+          "0.8-1.8 ng/dL"
+        ],
+        [
+          "Vitamin B12",
+          "465 pg/mL",
+          "200-900 pg/mL"
+        ],
+        [
+          "Na+",
+          "138 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "Hemoglobin",
+          "12.6 g/dL",
+          "12.0-16.0 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Begin levothyroxine and reassess her mood symptoms",
+        "B": "Begin sertraline and reassess her mood in 6 weeks",
+        "C": "Initiate electroconvulsive therapy for refractory depression",
+        "D": "Obtain neuropsychological testing for cognitive complaints",
+        "E": "Start cyanocobalamin supplementation and monitor closely"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Organic causes of depressive symptoms must be identified and treated first, because no amount of antidepressant will help when the cause is medical; overt hypothyroidism here explains her mood, constipation, cold intolerance, and weight gain.",
+        "B": "Starting an antidepressant without correcting untreated hypothyroidism leaves the underlying cause of her symptoms unaddressed.",
+        "C": "Electroconvulsive therapy is reserved for severe, refractory, or life-threatening depression, not an untreated and readily reversible endocrine cause.",
+        "D": "Her MoCA is normal and there is no functional decline, so cognitive testing would not change management.",
+        "E": "Her B12 level is normal, so replacement would not address her symptoms."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-014",
+      "question": "A 68-year-old man is evaluated 9 months after an ischemic stroke. He has been increasingly apathetic, has stopped attending his church group, and sleeps poorly. His wife says he shows little emotional reaction to anything and has lost 6 kg. Neurologic examination shows a mild residual right hemiparesis without aphasia. Which of the following infarct locations is most strongly associated with development of this complication?",
+      "answers": {
+        "A": "Cerebellar hemisphere",
+        "B": "Frontal lobe and caudate nucleus",
+        "C": "Medulla oblongata",
+        "D": "Occipital cortex",
+        "E": "Thalamus and internal capsule"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cerebellar infarcts produce ataxia and dysmetria and are not associated with an increased rate of post-stroke depression.",
+        "B": "Post-stroke (vascular) depression is most frequent after infarcts involving the frontal lobes, caudate, or putamen, and characteristically features prominent apathy.",
+        "C": "Medullary infarcts cause lateral medullary or hypoglossal syndromes rather than mood disturbance.",
+        "D": "Occipital infarcts produce visual field deficits and are not linked to a higher incidence of depression.",
+        "E": "Thalamic and internal capsule lesions cause sensory loss or pure motor hemiparesis and confer less depression risk than frontal-striatal lesions."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-015",
+      "question": "A 78-year-old man with major depressive disorder with psychotic features has been taking sertraline and olanzapine at adequate doses for 2 months. He continues to endorse guilt-laden delusions and now refuses to eat, stating that he deserves to die for past misdeeds. He has lost 20 pounds, his BMI is 17.4 kg/m2, and he requires assistance to ambulate because of weakness. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Add lithium augmentation and continue outpatient follow-up",
+        "B": "Discontinue olanzapine and increase the sertraline dose",
+        "C": "Hospitalize the patient and begin electroconvulsive therapy",
+        "D": "Obtain neuropsychological testing before altering treatment",
+        "E": "Switch sertraline to a monoamine oxidase inhibitor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Augmentation strategies take weeks to work and outpatient management is unsafe in a patient with life-threatening food refusal.",
+        "B": "Removing the antipsychotic would worsen psychotic depression, and titrating an antidepressant is too slow given his nutritional compromise.",
+        "C": "Electroconvulsive therapy is the fastest and most effective treatment for depression in older adults and is indicated for medication-refractory psychotic depression with food refusal and imminent risk of death, with improvement typically after 3 to 5 treatments.",
+        "D": "Neuropsychological testing clarifies cognitive diagnoses but does nothing to address an acute medical emergency.",
+        "E": "Cross-titration to a monoamine oxidase inhibitor requires a washout period and dietary restrictions, both unacceptable in a patient who is not eating."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-016",
+      "question": "A 69-year-old woman is admitted to the medical floor with pneumonia. Her course is complicated by acute kidney injury and new dysuria. Nursing staff report that she wanders outside her room at night, naps through the day, and becomes irritable and aggressive when redirected. On evaluation she is disoriented to the date, cannot recite the months backward, and her symptoms wax and wane over hours. Laboratory studies are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "WBC",
+          "14,200/mm3",
+          "4,500-11,000/mm3"
+        ],
+        [
+          "Na+",
+          "132 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "1.9 mg/dL",
+          "0.6-1.2 mg/dL"
+        ],
+        [
+          "Urinalysis, leukocyte esterase",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "Urinalysis, nitrites",
+          "Positive",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Begin donepezil for a suspected major neurocognitive disorder",
+        "B": "Initiate antibiotics and correct her metabolic derangements",
+        "C": "Order neuropsychological testing to characterize the deficits",
+        "D": "Schedule electroconvulsive therapy for her agitated behavior",
+        "E": "Start scheduled diphenhydramine for sleep-wake cycle reversal"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cholinesterase inhibitors treat chronic dementia and do nothing for an acute toxic-metabolic encephalopathy.",
+        "B": "Delirium is managed by identifying and treating the underlying cause, here a urinary tract infection superimposed on pneumonia and acute kidney injury.",
+        "C": "Formal cognitive testing is invalid during an acute confusional state and should be deferred until the delirium clears.",
+        "D": "Electroconvulsive therapy is indicated for depression, catatonia, bipolar disorder, and schizophrenia, not for agitation caused by an infection.",
+        "E": "Anticholinergic sedatives worsen delirium, particularly in older adults with a more permeable blood-brain barrier."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-017",
+      "question": "A 79-year-old man is evaluated for 6 months of apathy, poor concentration, and complaints of forgetfulness. He also describes numbness and tingling in both feet, and examination shows reduced vibratory sense at the great toes. His MoCA is 23/30, and he remains independent in all activities of daily living. Laboratory studies are shown. Which of the following is the most appropriate initial treatment?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "10.8 g/dL",
+          "13.5-17.5 g/dL"
+        ],
+        [
+          "MCV",
+          "108 fL",
+          "80-100 fL"
+        ],
+        [
+          "Vitamin B12",
+          "108 pg/mL",
+          "200-900 pg/mL"
+        ],
+        [
+          "Folate",
+          "9.4 ng/mL",
+          "2.7-17.0 ng/mL"
+        ],
+        [
+          "TSH",
+          "2.1 microU/mL",
+          "0.4-4.0 microU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Cyanocobalamin replacement",
+        "B": "Donepezil initiation",
+        "C": "Folic acid supplementation",
+        "D": "Levothyroxine initiation",
+        "E": "Sertraline initiation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Vitamin B12 deficiency is a reversible organic cause of cognitive and depressive symptoms and is supported here by macrocytic anemia, a low B12 level, and dorsal column signs.",
+        "B": "Cholinesterase inhibitors treat established Alzheimer dementia and would not correct a reversible metabolic deficiency.",
+        "C": "Folate is normal, and giving folate alone can correct the anemia while allowing the neurologic deficits of B12 deficiency to progress.",
+        "D": "His TSH is normal, so thyroid hormone replacement is not indicated.",
+        "E": "Antidepressant therapy does not address the identified medical cause of his symptoms, which must be treated first."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-018",
+      "question": "An 84-year-old woman weighing 44 kg is started on a renally cleared medication at a standard adult dose for a urinary tract infection. Four days later she develops nausea, tremor, and lethargy attributed to drug accumulation. Her serum creatinine has been 1.0 mg/dL throughout, and she has marked sarcopenia on examination. Which of the following best explains her toxicity?",
+      "answers": {
+        "A": "Decreased glomerular filtration rate with normal serum creatinine",
+        "B": "Decreased intestinal absorption from reduced splanchnic blood flow",
+        "C": "Increased aldosterone-driven sodium and free water retention",
+        "D": "Increased plasma protein binding of the circulating free drug",
+        "E": "Increased total body water expanding the volume of distribution"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Glomerular filtration rate and creatinine clearance fall with age, and low muscle mass keeps serum creatinine deceptively normal, so renally eliminated drugs accumulate at standard doses.",
+        "B": "Reduced absorption would lower drug exposure and produce treatment failure rather than toxicity.",
+        "C": "Aldosterone secretion decreases with age; in any case, sodium handling does not determine clearance of a renally excreted drug.",
+        "D": "Increased protein binding would reduce the free fraction available to cause toxicity, the opposite of what occurred.",
+        "E": "Total body water decreases with aging, which raises rather than dilutes plasma concentrations of water-soluble drugs."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-019",
+      "question": "A 76-year-old woman is admitted with 2 months of insomnia, anorexia, and the fixed belief that her intestines have rotted away and that she is being punished for it. She also hears a voice telling her she is worthless. She has never had psychotic symptoms outside of a mood episode and has no history of mania. Vital signs and a metabolic, thyroid, and B12 workup are unremarkable. Which of the following is the most appropriate pharmacotherapy?",
+      "answers": {
+        "A": "Lithium monotherapy titrated to a therapeutic level",
+        "B": "Olanzapine monotherapy at a standard antipsychotic dose",
+        "C": "Sertraline combined with olanzapine",
+        "D": "Sertraline monotherapy at the maximally tolerated dose",
+        "E": "Valproate combined with a scheduled benzodiazepine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Lithium is a mood stabilizer and augmenting agent, not first-line monotherapy for psychotic depression, and it is poorly tolerated with age-related decline in renal clearance.",
+        "B": "Antipsychotic monotherapy is inferior to combination therapy because it leaves the underlying depressive episode inadequately treated.",
+        "C": "Psychotic depression requires an antidepressant plus an antipsychotic, and the strongest evidence supports sertraline plus olanzapine or venlafaxine plus olanzapine.",
+        "D": "Antidepressant monotherapy is less effective than combination treatment when psychotic features are present.",
+        "E": "Valproate plus a benzodiazepine treats neither the depressive episode nor the psychosis and adds fall and delirium risk in an older adult."
+      }
+    },
+    {
+      "id": "neuro-geriatric-psychiatry-020",
+      "question": "A 72-year-old woman is brought to the emergency department by her daughter for 2 months of worsening weakness, fatigue, and reduced appetite that the patient attributes to abdominal pain. She denies feeling sad but notes that two close friends and her cat died several months ago. Her daughter reports the patient has not showered in a month, barely eats, and no longer leaves the house. On questioning she endorses suicidal ideation without a plan. MoCA score is 28/30, and a complete metabolic and endocrine workup is unremarkable. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Delirium secondary to an occult medical illness",
+        "B": "Major depressive disorder with a late-life presentation",
+        "C": "Major neurocognitive disorder, Alzheimer type",
+        "D": "Persistent complex bereavement following recent losses",
+        "E": "Somatic symptom disorder with predominant pain"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Delirium requires an acute, fluctuating disturbance of attention; her course is subacute, her attention is intact, and her MoCA is normal.",
+        "B": "Late-life depression frequently presents with somatic complaints, apathy, and functional decline in a patient who denies sadness, and carries a high risk of suicide, as seen here.",
+        "C": "Major neurocognitive disorder requires objective cognitive impairment on testing; her MoCA of 28/30 excludes it as the explanation for her decline.",
+        "D": "Uncomplicated grief does not typically cause a month of self-neglect with suicidal ideation, which indicates a major depressive episode requiring treatment.",
+        "E": "Somatic symptom disorder centers on excessive thoughts and behaviors about physical symptoms and would not account for her anhedonia, self-neglect, and suicidal ideation."
+      }
+    }
+  ]
+}

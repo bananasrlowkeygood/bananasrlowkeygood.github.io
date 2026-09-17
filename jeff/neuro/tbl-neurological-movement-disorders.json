@@ -1,0 +1,520 @@
+{
+  "lecture": "TBL: Neurological Movement Disorders",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-001",
+      "question": "A 58-year-old man is referred after his wife reports that for 6 years he has shouted, punched, and kicked while asleep, once striking her during a dream in which he was fighting off an intruder. He also reports longstanding constipation requiring daily laxatives and says food has tasted bland for years because he cannot smell. His neurologic examination, including tone, finger tapping, gait, and coordination, is entirely normal. He is at greatest risk for subsequently developing which of the following disorders?",
+      "answers": {
+        "A": "Cervical dystonia",
+        "B": "Essential tremor",
+        "C": "Huntington disease",
+        "D": "Idiopathic Parkinson disease",
+        "E": "Tardive dyskinesia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cervical dystonia presents in midlife with abnormal head posturing and has no recognized prodrome of dream enactment, hyposmia, or constipation.",
+        "B": "Essential tremor usually begins with an action tremor of the hands or head and lacks autonomic or olfactory prodromal features.",
+        "C": "Huntington disease is heralded by irritability, psychiatric change, and chorea in a patient with an affected parent, not by REM sleep behavior disorder and hyposmia.",
+        "D": "REM sleep behavior disorder, constipation, and hyposmia are the classic prodromal features of an alpha-synucleinopathy and confer high risk of conversion to Parkinson disease over the following years.",
+        "E": "Tardive dyskinesia occurs only after months to years of dopamine receptor antagonist exposure, which this man has never received."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-002",
+      "question": "A 55-year-old man with a 1-year history of right-hand resting tremor, mild rigidity, and reduced arm swing is diagnosed with early Parkinson disease. He remains fully employed and his neurologist wishes to begin a drug that stimulates striatal postsynaptic dopamine receptors directly, without requiring enzymatic conversion within surviving presynaptic nigral terminals. Which of the following medications best fits this description?",
+      "answers": {
+        "A": "Carbidopa-levodopa",
+        "B": "Pramipexole",
+        "C": "Rasagiline",
+        "D": "Tetrabenazine",
+        "E": "Trihexyphenidyl"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Levodopa is a prodrug that must be decarboxylated to dopamine, a step that depends partly on surviving presynaptic terminals, and it is the most effective but not a direct receptor agonist.",
+        "B": "Pramipexole is a non-ergot dopamine agonist that binds postsynaptic D2 and D3 receptors directly, bypassing the need for conversion to dopamine.",
+        "C": "Rasagiline inhibits monoamine oxidase type B and works by slowing breakdown of dopamine already released, not by binding dopamine receptors.",
+        "D": "Tetrabenazine depletes presynaptic dopamine through VMAT2 inhibition and is used for chorea; it would worsen parkinsonism.",
+        "E": "Trihexyphenidyl is an antimuscarinic drug acting on striatal cholinergic interneurons and has no direct effect on dopamine receptors."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-003",
+      "question": "A 49-year-old banker is brought in by his brother because \"he can't sit still.\" For the past year the brother has noticed worsening twitches of the hands, feet, and face, of which the patient seems unaware. On examination he has almost continuous irregular grimacing involving the lips, eyes, and eyebrows; his tongue darts back into his mouth within 10 seconds of protrusion; and unpredictable brief twitches of the wrists, fingers, and ankles flit from one limb to another and interrupt his rapid finger taps. Tone is normal and there is no tremor. These movements are best classified as which of the following?",
+      "answers": {
+        "A": "Athetosis",
+        "B": "Chorea",
+        "C": "Dystonia",
+        "D": "Myoclonus",
+        "E": "Tics"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Athetosis consists of slow, continuous, writhing movements of the distal limbs rather than brief jerks that jump unpredictably between body parts.",
+        "B": "Chorea is defined as unpredictable, irregular, brief, non-patterned movements that flow randomly from one body part to another, and it characteristically produces motor impersistence such as inability to sustain tongue protrusion.",
+        "C": "Dystonia produces sustained or intermittent patterned, twisting contractions that repeatedly draw a body part into the same abnormal posture, often with a sensory trick.",
+        "D": "Myoclonus consists of sudden, shock-like, often stereotyped jerks that are typically much faster and more lightning-like than these flowing movements.",
+        "E": "Tics are stereotyped, repetitive movements preceded by a premonitory urge and temporarily suppressible, and the patient is not even aware of these movements."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-004",
+      "question": "A 48-year-old man with tremor-predominant Parkinson disease has a disabling left-hand resting tremor despite carbidopa-levodopa. A medication is added and his tremor improves substantially, but within 3 weeks he reports dry mouth, blurred near vision, constipation, difficulty initiating urination, and mild confusion. Which of the following mechanisms best explains the therapeutic benefit of the added medication?",
+      "answers": {
+        "A": "Antagonism of muscarinic receptors on striatal cholinergic interneurons",
+        "B": "Depletion of vesicular dopamine by inhibition of VMAT2 transport",
+        "C": "Inhibition of catechol-O-methyltransferase, prolonging levodopa action",
+        "D": "Inhibition of monoamine oxidase type B, reducing dopamine catabolism",
+        "E": "Partial agonism at postsynaptic striatal dopamine D2 receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Trihexyphenidyl and benztropine block muscarinic receptors within the basal ganglia, rebalancing the relative cholinergic excess created by dopamine loss, and their peripheral and central antimuscarinic effects produce exactly this side-effect profile.",
+        "B": "VMAT2 inhibition depletes dopamine and would worsen parkinsonism while causing depression and sedation rather than anticholinergic toxicity.",
+        "C": "COMT inhibitors reduce peripheral levodopa metabolism and typically cause diarrhea and urine discoloration, not dry mouth and urinary retention.",
+        "D": "MAO-B inhibitors are generally well tolerated and do not produce an antimuscarinic toxidrome.",
+        "E": "Dopamine agonists cause somnolence, hallucinations, orthostatic hypotension, and impulse control disorders rather than dry mouth and urinary retention."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-005",
+      "question": "A 43-year-old project manager presents with 5 weeks of involuntary head movements that began gradually as neck tightness when looking left. His head is now drawn to the right and he cannot comfortably check his driver's-side window. Examination shows the head rotated 15 degrees to the right with slight left-ear-toward-shoulder tilt, intermittent jerky rightward head movements that worsen when he performs rapid finger taps, limited active rotation to the left, and mild hypertrophy of the left sternocleidomastoid. Lightly touching his own left cheek transiently restores a neutral head position. Strength, sensation, reflexes, coordination, and gait are otherwise normal, and he has never taken an antipsychotic or antiemetic. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Cervical dystonia",
+        "B": "Essential tremor of the head",
+        "C": "Functional movement disorder",
+        "D": "Structural lesion of the cervicomedullary junction",
+        "E": "Tardive dystonia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Gradual onset of a patterned, twisting head posture with superimposed jerks, hypertrophy of the involved muscle, worsening with voluntary movement elsewhere, and transient improvement with a sensory trick (geste antagoniste) defines idiopathic cervical dystonia.",
+        "B": "Essential head tremor produces a rhythmic \"no-no\" or \"yes-yes\" oscillation around a neutral position without a sustained abnormal posture or a sensory trick.",
+        "C": "Functional movement disorders begin abruptly, fluctuate, and are distractible or entrainable, whereas his findings are consistent and worsen rather than improve with distracting tasks.",
+        "D": "A structural brainstem or high cervical lesion would be expected to produce weakness, sensory loss, cranial nerve findings, or long tract signs, all of which are absent.",
+        "E": "Tardive dystonia requires prior exposure to dopamine receptor blocking agents, which he has never received."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-006",
+      "question": "A 64-year-old woman who underwent partial gastrectomy 9 years ago reports 6 months of unsteady walking that is much worse in the dark and when she showers with her eyes closed. She also describes tingling in both feet. On examination she has a wide-based gait, absent vibration and joint position sense at the toes, brisk knee reflexes, and extensor plantar responses. Finger-to-nose testing is accurate with her eyes open, and there is no nystagmus or dysarthria. Laboratory studies are shown. Her ataxia is best explained by dysfunction of which of the following structures?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "10.2 g/dL",
+          "12.0–16.0 g/dL"
+        ],
+        [
+          "Mean corpuscular volume",
+          "112 fL",
+          "80–100 fL"
+        ],
+        [
+          "Vitamin B12",
+          "118 pg/mL",
+          "200–900 pg/mL"
+        ],
+        [
+          "Methylmalonic acid",
+          "1.8 mcmol/L",
+          "<0.4 mcmol/L"
+        ],
+        [
+          "Homocysteine",
+          "42 mcmol/L",
+          "5–15 mcmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Cerebellar vermis and anterior lobe",
+        "B": "Dorsal columns of the spinal cord",
+        "C": "Lateral corticospinal tracts alone",
+        "D": "Substantia nigra pars compacta",
+        "E": "Vestibular nuclei of the brainstem"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cerebellar ataxia does not improve with visual input and is accompanied by nystagmus, dysarthria, and dysmetria on finger-to-nose testing, none of which she has.",
+        "B": "Loss of vibration and proprioception with worsening in the dark indicates sensory ataxia from dorsal column demyelination, the expected finding in B12 deficiency with subacute combined degeneration; the elevated methylmalonic acid confirms true tissue deficiency.",
+        "C": "Isolated corticospinal involvement causes spastic weakness with hyperreflexia but does not by itself produce ataxia or the loss of proprioception seen here.",
+        "D": "Nigral degeneration produces bradykinesia, rigidity, and resting tremor rather than a wide-based, vision-dependent gait with sensory loss.",
+        "E": "Vestibular dysfunction causes vertigo, nystagmus, and directional veering rather than selective loss of vibration and position sense."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-007",
+      "question": "A 68-year-old man with poorly controlled hypertension and type 2 diabetes is brought to the emergency department after the abrupt onset of violent, large-amplitude flinging movements of his left arm and leg that began 6 hours ago. The movements are continuous while he is awake, worsen with activity, and disappear during sleep. Strength, sensation, and reflexes are normal, and there is no chorea on the right. MRI shows a small acute lacunar infarct. The infarct is most likely located in which of the following structures?",
+      "answers": {
+        "A": "Caudate nucleus",
+        "B": "Cerebellar dentate nucleus",
+        "C": "Globus pallidus interna",
+        "D": "Substantia nigra pars compacta",
+        "E": "Subthalamic nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Caudate infarcts more often cause abulia, behavioral change, or generalized chorea rather than dramatic unilateral ballistic movements.",
+        "B": "Dentate nucleus lesions produce ipsilateral limb ataxia and intention tremor, not flinging hyperkinetic movements.",
+        "C": "Lesions of the internal pallidum reduce thalamic inhibition in a different pattern and are more often associated with dystonia or akinesia; pallidotomy is in fact used to suppress hyperkinetic movement.",
+        "D": "Nigral damage produces hypokinetic parkinsonism with rigidity and bradykinesia, the opposite of this presentation.",
+        "E": "Acute injury to the contralateral subthalamic nucleus removes excitatory drive to the internal pallidum, disinhibiting thalamocortical projections and producing hemiballism, classically after a lacunar infarct in a hypertensive diabetic patient."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-008",
+      "question": "A 72-year-old woman with schizoaffective disorder has taken risperidone for 3 years. Over the past 4 months her family notes that she moves slowly, her face has become expressionless, and her hands tremble when resting in her lap. On examination she has symmetric cogwheel rigidity in both wrists, symmetric decrement on finger tapping, and a bilateral resting tremor. She denies constipation, has a normal sense of smell, and has no history of dream enactment. Which of the following mechanisms best explains her motor findings?",
+      "answers": {
+        "A": "Blockade of postsynaptic D2 receptors in the nigrostriatal pathway",
+        "B": "Degeneration of dopaminergic neurons in the substantia nigra",
+        "C": "Depletion of presynaptic dopamine through inhibition of VMAT2",
+        "D": "Excessive stimulation of striatal D1 receptors by exogenous dopamine",
+        "E": "Loss of GABAergic medium spiny neurons within the caudate nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Both typical and atypical antipsychotics antagonize striatal D2 receptors, and blockade of the nigrostriatal pathway produces symmetric, subacute, reversible parkinsonism without the prodromal non-motor features of idiopathic disease.",
+        "B": "Nigral neurodegeneration causes idiopathic Parkinson disease, which characteristically begins asymmetrically and is preceded by hyposmia, constipation, and REM sleep behavior disorder.",
+        "C": "VMAT2 inhibitors such as tetrabenazine can cause drug-induced parkinsonism, but she is not taking one; her exposure is a receptor antagonist.",
+        "D": "Excess dopaminergic stimulation produces hyperkinetic movements such as levodopa-induced dyskinesia, the opposite of her hypokinetic presentation.",
+        "E": "Striatal medium spiny neuron loss underlies Huntington disease and causes chorea with cognitive and behavioral decline, not rigidity and bradykinesia."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-009",
+      "question": "A 68-year-old man with Parkinson disease was started on levodopa alone at an outside clinic. He developed severe nausea and lightheadedness on standing, and his tremor and slowness improved only slightly. His neurologist substitutes a fixed-dose carbidopa-levodopa preparation at the same levodopa dose; within 2 weeks his nausea has resolved and his motor function is substantially better. Which of the following best explains the improvement produced by the added agent?",
+      "answers": {
+        "A": "Agonism at postsynaptic striatal dopamine D2 and D3 receptors",
+        "B": "Blockade of muscarinic receptors on striatal cholinergic interneurons",
+        "C": "Inhibition of aromatic L-amino acid decarboxylase outside the CNS",
+        "D": "Inhibition of catechol-O-methyltransferase within the striatum",
+        "E": "Irreversible inhibition of monoamine oxidase type B in the brain"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Direct D2/D3 agonism describes pramipexole and ropinirole, which do not reduce peripheral conversion of levodopa or its associated nausea.",
+        "B": "Antimuscarinic agents such as trihexyphenidyl help tremor but do not alter levodopa pharmacokinetics and would add dry mouth and confusion.",
+        "C": "Carbidopa does not cross the blood-brain barrier, so it blocks decarboxylation of levodopa to dopamine only in the periphery, reducing nausea and orthostasis while delivering more levodopa to the CNS.",
+        "D": "COMT inhibitors such as entacapone act peripherally, not within the striatum, and they are added later for wearing off rather than as part of standard carbidopa-levodopa.",
+        "E": "MAO-B inhibitors such as rasagiline slow central dopamine catabolism but do not prevent peripheral decarboxylation or the nausea it causes."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-010",
+      "question": "A 49-year-old man is evaluated for 12 months of involuntary jerky movements of the face and limbs. He is on his fourth job in 3 years after being fired for disorganization and bizarre behavior, and his wife left him 5 years ago because of episodes of rage that began in adulthood. He took aripiprazole for 7 months but stopped it 7 months ago because of sedation and has taken no medication since. His mother died by suicide at 57 and a maternal uncle was institutionalized in a psychiatric hospital. Examination shows distractibility, inability to perform serial sevens, and continuous chorea. Head CT shows atrophy of the caudate nuclei with boxcar-shaped frontal horns. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Ceruloplasmin",
+          "28 mg/dL",
+          "20–35 mg/dL"
+        ],
+        [
+          "Antistreptolysin O titer",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "TSH",
+          "1.9 mIU/L",
+          "0.4–4.0 mIU/L"
+        ],
+        [
+          "Antinuclear antibody",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "Peripheral smear",
+          "No acanthocytes",
+          "No acanthocytes"
+        ]
+      ],
+      "answers": {
+        "A": "Huntington disease",
+        "B": "Sydenham chorea",
+        "C": "Systemic lupus erythematosus-related chorea",
+        "D": "Tardive dyskinesia",
+        "E": "Wilson disease"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The triad of chorea, progressive cognitive decline, and psychiatric disease in midlife, with a family history suggesting an affected parent and caudate atrophy on imaging, is characteristic of Huntington disease.",
+        "B": "Sydenham chorea follows group A streptococcal infection in children and adolescents, is self-limited, and would not produce caudate atrophy or a negative ASO titer years later.",
+        "C": "Lupus-associated chorea occurs with other features of systemic autoimmunity and a positive ANA, which is absent here.",
+        "D": "Tardive dyskinesia requires months of dopamine antagonist exposure and produces stereotyped orobuccolingual movements; it would not explain the dementia, the family history, or caudate atrophy.",
+        "E": "Wilson disease typically presents before age 40 with dystonia, tremor, Kayser-Fleischer rings, and hepatic disease, and the normal ceruloplasmin argues against it."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-011",
+      "question": "A 47-year-old woman with Huntington disease has chorea severe enough that she repeatedly drops dishes and bruises her arms against furniture. She is started on tetrabenazine with clear reduction in her involuntary movements, but over the next 2 months she becomes slowed and apathetic, develops mild rigidity, and reports worsening depressed mood with passive suicidal thoughts. Which of the following best describes the mechanism of the drug she was given?",
+      "answers": {
+        "A": "Blockade of postsynaptic dopamine D2 receptors in the striatum",
+        "B": "Enhancement of GABA-A receptor chloride channel conductance",
+        "C": "Inhibition of dopamine reuptake at the presynaptic terminal",
+        "D": "Inhibition of vesicular monoamine transporter 2, depleting dopamine",
+        "E": "Irreversible inhibition of monoamine oxidase type B in the brain"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dopamine receptor antagonists such as risperidone and olanzapine are also used for chorea, but they act postsynaptically and are not the mechanism of tetrabenazine.",
+        "B": "GABA-A potentiation describes benzodiazepines, which may sedate but do not selectively deplete monoamines or cause drug-induced parkinsonism with depression.",
+        "C": "Blocking dopamine reuptake raises synaptic dopamine and would worsen rather than suppress chorea.",
+        "D": "Tetrabenazine and deutetrabenazine inhibit VMAT2, preventing packaging of dopamine into presynaptic vesicles; the resulting dopamine depletion reduces chorea but commonly causes parkinsonism, sedation, and depression with suicidality.",
+        "E": "MAO-B inhibition increases available dopamine and is used in Parkinson disease, the opposite of what is needed for chorea."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-012",
+      "question": "A 79-year-old man with a 12-year history of asymmetric resting tremor, rigidity, and bradykinesia that responded well to carbidopa-levodopa dies of aspiration pneumonia. At autopsy, a transverse section of his midbrain shows conspicuous pallor of the substantia nigra compared with an age-matched control. Microscopy of the remaining pigmented neurons reveals round eosinophilic cytoplasmic inclusions with a dense core and a pale halo. These inclusions stain most strongly for which of the following proteins?",
+      "answers": {
+        "A": "Alpha-synuclein",
+        "B": "Amyloid-beta",
+        "C": "Huntingtin with expanded polyglutamine",
+        "D": "Hyperphosphorylated tau",
+        "E": "Prion protein (PrPsc)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Lewy bodies are intracytoplasmic aggregates of alpha-synuclein, and their presence in a depigmented substantia nigra is the pathologic hallmark of Parkinson disease.",
+        "B": "Amyloid-beta forms extracellular neuritic plaques in Alzheimer disease, not intraneuronal inclusions within nigral neurons.",
+        "C": "Expanded polyglutamine huntingtin forms intranuclear inclusions in striatal neurons in Huntington disease, and the nigra is not depigmented in that disorder.",
+        "D": "Hyperphosphorylated tau accumulates as neurofibrillary tangles in Alzheimer disease, progressive supranuclear palsy, and corticobasal degeneration rather than as Lewy bodies.",
+        "E": "Misfolded prion protein produces spongiform change with rapidly progressive dementia and myoclonus, not a pigment-depleted nigra with eosinophilic inclusions."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-013",
+      "question": "A 56-year-old man with epilepsy well controlled on phenytoin for 15 years presents with 1 year of progressive gait unsteadiness, slurred speech, and clumsy handwriting. He and his wife open and finish a bottle of wine nightly and he has several cocktails each weekend. Examination shows gaze-evoked nystagmus, hypermetric saccades, dysarthria, limb dysmetria, and a wide-based ataxic gait. Sagittal T1-weighted MRI demonstrates atrophy of the superior and dorsal cerebellar vermis with relatively preserved hemispheres. Laboratory results are shown. Which of the following is the most likely cause of his ataxia?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Mean corpuscular volume",
+          "104 fL",
+          "80–100 fL"
+        ],
+        [
+          "AST",
+          "86 U/L",
+          "10–40 U/L"
+        ],
+        [
+          "ALT",
+          "38 U/L",
+          "10–40 U/L"
+        ],
+        [
+          "Gamma-glutamyl transferase",
+          "210 U/L",
+          "8–61 U/L"
+        ],
+        [
+          "Phenytoin, total",
+          "11 mcg/mL",
+          "10–20 mcg/mL"
+        ],
+        [
+          "Vitamin B12",
+          "520 pg/mL",
+          "200–900 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Chronic ethanol-related cerebellar degeneration",
+        "B": "Paraneoplastic cerebellar degeneration",
+        "C": "Phenytoin-induced cerebellar atrophy",
+        "D": "Spinocerebellar ataxia, autosomal dominant type",
+        "E": "Vitamin B12 deficiency with cord involvement"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Chronic heavy alcohol use preferentially damages the anterior superior vermis, producing gait and stance ataxia with comparatively mild arm involvement, and his macrocytosis, elevated GGT, and AST:ALT ratio greater than 2 corroborate sustained intake.",
+        "B": "Paraneoplastic cerebellar degeneration evolves over weeks to a few months with severe pancerebellar signs and is usually accompanied by a detectable malignancy and onconeural antibodies.",
+        "C": "Phenytoin can cause cerebellar atrophy after years of use, but this typically follows chronic supratherapeutic levels and produces diffuse rather than selectively vermian atrophy; his level is at the low end of the therapeutic range.",
+        "D": "Autosomal dominant spinocerebellar ataxias generally cause diffuse cerebellar and often brainstem atrophy and would be supported by an affected parent, which he lacks.",
+        "E": "B12 deficiency causes sensory ataxia from dorsal column demyelination with impaired vibration and proprioception, and his B12 level and sensory examination are normal."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-014",
+      "question": "A 9-year-old girl is brought in for 3 weeks of clumsiness, dropping objects, and \"fidgeting she cannot control.\" Her mother reports a sore throat about 2 months ago that was never cultured, and says the girl has become tearful and irritable. On examination she has irregular, flowing, unpredictable movements of the arms and face, a milkmaid grip, motor impersistence of tongue protrusion, and a new apical holosystolic murmur. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Antistreptolysin O titer",
+          "620 IU/mL",
+          "<200 IU/mL"
+        ],
+        [
+          "Anti-DNase B",
+          "Elevated",
+          "Negative"
+        ],
+        [
+          "Erythrocyte sedimentation rate",
+          "48 mm/h",
+          "0–20 mm/h"
+        ],
+        [
+          "Throat culture",
+          "No growth",
+          "No growth"
+        ],
+        [
+          "Antinuclear antibody",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Benign hereditary chorea",
+        "B": "Huntington disease, juvenile onset",
+        "C": "Sydenham chorea",
+        "D": "Systemic lupus erythematosus-related chorea",
+        "E": "Tardive dyskinesia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Benign hereditary chorea begins in early childhood, is non-progressive, follows an autosomal dominant pattern, and is not preceded by pharyngitis or accompanied by carditis.",
+        "B": "Juvenile Huntington disease usually presents with rigidity, dystonia, seizures, and cognitive decline (the Westphal variant) in a child with an affected parent, not with post-infectious chorea and a murmur.",
+        "C": "Chorea appearing weeks to months after group A streptococcal pharyngitis, with emotional lability, milkmaid grip, elevated ASO and anti-DNase B titers, and evidence of carditis, is Sydenham chorea, a major Jones criterion for acute rheumatic fever.",
+        "D": "Lupus chorea is accompanied by other systemic autoimmune features and a positive ANA, which is negative here.",
+        "E": "Tardive dyskinesia requires chronic exposure to dopamine receptor antagonists, which this child has not received."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-015",
+      "question": "A 56-year-old teacher is evaluated for 1 year of insidiously worsening imbalance. He trips on uneven sidewalks and lurches into doorframes, and he nearly falls when he turns quickly. On examination he sways at the trunk while sitting unsupported, stands with a widened base, and cannot keep his feet together even with his eyes open. His speech fluctuates in volume and is slurred, and there is rhythmic nystagmus on extreme lateral gaze. Limb dysmetria is present but mild, and vibration and joint position sense are normal in the toes. His findings localize primarily to which of the following structures?",
+      "answers": {
+        "A": "Cerebellar vermis",
+        "B": "Dorsal columns of the spinal cord",
+        "C": "Lateral cerebellar hemispheres",
+        "D": "Subthalamic nucleus",
+        "E": "Vestibular nerve and labyrinth"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Truncal titubation, wide-based stance, and gait ataxia out of proportion to limb findings reflect midline cerebellar (vermian) dysfunction, which controls axial posture and gait.",
+        "B": "Dorsal column disease produces sensory ataxia with impaired vibration and proprioception and a markedly positive Romberg sign, but his sensory examination is normal.",
+        "C": "Lateral hemispheric lesions produce prominent ipsilateral appendicular dysmetria and intention tremor, whereas his limb findings are comparatively mild.",
+        "D": "Subthalamic lesions cause contralateral hemiballism, a hyperkinetic flinging movement, not progressive gait ataxia and dysarthria.",
+        "E": "Peripheral vestibular disease causes vertigo with unidirectional nystagmus that suppresses with fixation, and it does not produce dysarthria or limb dysmetria."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-016",
+      "question": "A 43-year-old man with idiopathic cervical dystonia has had no benefit from cyclobenzaprine. He receives electromyography-guided injections of onabotulinumtoxinA into the left sternocleidomastoid and right splenius capitis. Five days later his head posture and the associated neck pain have substantially improved, and the benefit lasts about 3 months before he requires reinjection. Which of the following best explains the mechanism of this treatment?",
+      "answers": {
+        "A": "Blockade of nicotinic acetylcholine receptors at the motor endplate",
+        "B": "Blockade of presynaptic voltage-gated calcium channels at the nerve terminal",
+        "C": "Cleavage of SNAP-25, preventing fusion of acetylcholine vesicles",
+        "D": "Inhibition of acetylcholinesterase within the synaptic cleft",
+        "E": "Inhibition of choline reuptake into the presynaptic nerve terminal"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Postsynaptic nicotinic receptor blockade describes nondepolarizing neuromuscular blockers such as rocuronium, which act within minutes and wear off in hours rather than months.",
+        "B": "Presynaptic calcium channel blockade at the neuromuscular junction is the mechanism of Lambert-Eaton syndrome antibodies and of aminoglycoside toxicity, not botulinum toxin.",
+        "C": "Botulinum toxin is internalized at cholinergic nerve terminals and its light chain proteolytically cleaves SNARE proteins (SNAP-25 for type A), blocking vesicle fusion and acetylcholine release; benefit lasts until new terminal sprouts form, typically about 3 months.",
+        "D": "Acetylcholinesterase inhibition increases synaptic acetylcholine and would increase, not decrease, muscle contraction.",
+        "E": "Blocking choline reuptake (as with hemicholinium) is a laboratory manipulation and is not the mechanism of any clinically used dystonia therapy."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-017",
+      "question": "A 51-year-old woman with a 4-year history of chorea, impulsivity, and progressive executive dysfunction dies after aspiration. Gross examination shows marked bilateral atrophy of the caudate and putamen with secondary enlargement of the lateral ventricles. Degeneration of which of the following neuronal populations best accounts for her involuntary movements?",
+      "answers": {
+        "A": "Cholinergic interneurons of the striatum",
+        "B": "Dopaminergic neurons of the substantia nigra",
+        "C": "GABAergic medium spiny neurons of the striatum",
+        "D": "Glutamatergic projection neurons of the subthalamic nucleus",
+        "E": "Purkinje cells of the cerebellar cortex"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Striatal cholinergic interneurons are the target of antimuscarinic therapy in Parkinson disease and are relatively preserved in Huntington disease.",
+        "B": "Nigral dopaminergic loss reduces movement, producing bradykinesia and rigidity rather than the excessive movement seen in chorea.",
+        "C": "Huntington disease selectively destroys GABAergic medium spiny neurons of the caudate and putamen, particularly those of the indirect pathway, which disinhibits thalamocortical output and generates chorea.",
+        "D": "Subthalamic neuron loss causes contralateral hemiballism after stroke, not bilateral generalized chorea with striatal atrophy.",
+        "E": "Purkinje cell degeneration causes ataxia, dysarthria, and nystagmus, and the cerebellum is not the site of atrophy described here."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-018",
+      "question": "A 42-year-old man with genetically confirmed Huntington disease developed chorea and irritability at age 40. His father, who carried the same diagnosis, did not develop symptoms until age 58, and his paternal grandfather was affected only in his mid-60s. Which of the following molecular mechanisms best explains the progressively earlier onset across these three generations?",
+      "answers": {
+        "A": "Expansion of a CAG trinucleotide repeat during spermatogenesis",
+        "B": "Heteroplasmic segregation of a mitochondrial DNA deletion",
+        "C": "Loss of heterozygosity at a tumor suppressor gene locus",
+        "D": "Progressive methylation silencing of the maternal allele",
+        "E": "Uniparental disomy involving the paternal chromosome 4"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Anticipation in Huntington disease results from further expansion of the CAG repeat in HTT during meiosis, and the instability is greatest in paternal transmission, so onset becomes earlier and severity greater in successive generations.",
+        "B": "Mitochondrial heteroplasmy explains variable expression in maternally inherited disease, but Huntington disease is autosomal dominant and this pedigree shows paternal transmission.",
+        "C": "Loss of heterozygosity is the two-hit mechanism of hereditary tumor syndromes and has no role in a repeat expansion disorder.",
+        "D": "Imprinting and methylation silencing underlie disorders such as Prader-Willi and Angelman syndromes, not Huntington disease.",
+        "E": "Uniparental disomy is another imprinting mechanism and would not cause a gradual generation-to-generation shift in age of onset."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-019",
+      "question": "A 65-year-old right-handed saleswoman presents with 7 months of difficulty signing invoices; the longer she writes, the smaller and less legible her letters become. She also has trouble buttoning her shirts, and her husband reports her voice is softer and her face looks \"bored\" although she denies sadness. On examination she has reduced blink frequency and facial expression, a soft voice, a subtle chin tremor, mildly increased tone at the right wrist, and a low-amplitude tremor of the right hand while it rests on the chair. Rapid finger taps show waning amplitude on the right only. Coordination testing shows no dysmetria, reflexes are 2+ and symmetric with flexor plantar responses, and she takes only lisinopril and metoprolol. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Corticobasal degeneration",
+        "B": "Drug-induced parkinsonism",
+        "C": "Essential tremor",
+        "D": "Idiopathic Parkinson disease",
+        "E": "Multiple system atrophy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Corticobasal degeneration produces markedly asymmetric rigidity with limb apraxia, cortical sensory loss, myoclonus, and alien limb phenomena, none of which are present here.",
+        "B": "Drug-induced parkinsonism requires exposure to a dopamine receptor antagonist (typical or atypical antipsychotics, metoclopramide, prochlorperazine); her only medications are antihypertensives, and drug-induced disease is usually symmetric.",
+        "C": "Essential tremor is a postural and action tremor without bradykinesia or rigidity, and it does not cause micrographia with decrement, hypomimia, or hypophonia.",
+        "D": "Progressive, asymmetric bradykinesia with decrementing amplitude plus rigidity and a resting tremor, accompanied by hypomimia and hypophonia, defines parkinsonism, and the idiopathic form is by far the most common cause.",
+        "E": "Multiple system atrophy is an atypical parkinsonian syndrome marked by early and prominent autonomic failure or cerebellar signs, which she does not have."
+      }
+    },
+    {
+      "id": "neuro-tbl-neurological-movement-disorders-020",
+      "question": "A 65-year-old woman is evaluated for 7 months of progressive micrographia, a softer voice, and a tremor of the right hand. Her husband is convinced she has essential tremor because a neighbor with the same diagnosis \"shakes exactly like that.\" On examination she has a low-amplitude tremor of the right hand at rest that persists with sustained arm posture but disappears on finger-to-nose testing, reduced blink rate, mildly increased right wrist tone, and waning amplitude of repetitive right finger taps. Which of the following examination findings argues most strongly against essential tremor?",
+      "answers": {
+        "A": "Absence of any family history of tremor",
+        "B": "Decrementing amplitude on repetitive finger tapping",
+        "C": "Mild tremor of the hand with sustained posture",
+        "D": "Normal reflexes with flexor plantar responses",
+        "E": "Somewhat choppy, non-smooth ocular pursuits"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Roughly half of patients with essential tremor have an affected relative, but sporadic cases are common, so a negative family history does not exclude it.",
+        "B": "Progressive decrement in amplitude and speed of repetitive movement is bradykinesia, the required feature of parkinsonism, and it is never a feature of essential tremor.",
+        "C": "A postural tremor is the defining feature of essential tremor, so this finding is compatible with rather than against that diagnosis.",
+        "D": "Normal, symmetric reflexes with flexor plantar responses are expected in both essential tremor and Parkinson disease and do not discriminate between them.",
+        "E": "Choppy pursuit is a nonspecific finding seen with normal aging, sedating medications, and many parkinsonian syndromes, so it has little discriminative value."
+      }
+    }
+  ]
+}

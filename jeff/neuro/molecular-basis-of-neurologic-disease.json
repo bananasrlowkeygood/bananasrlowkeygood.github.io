@@ -1,0 +1,539 @@
+{
+  "lecture": "Molecular Basis of Neurologic Disease",
+  "block": "neuro",
+  "generated": "2026-09-17",
+  "questions": [
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-001",
+      "question": "A 34-year-old nulligravid woman is evaluated for 10 months of amenorrhea, hot flashes, and vaginal dryness after two failed cycles of ovulation induction. She has regular exercise habits and a BMI of 23 kg/m2. Her 8-year-old nephew, the son of her sister, has intellectual disability, large ears, and macroorchidism. Serum studies are shown. FMR1 analysis of the patient reveals 88 CGG repeats on one allele and 29 on the other, with an unmethylated promoter. Which of the following best explains this patient's reproductive findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "FSH",
+          "58 mIU/mL",
+          "3.5-12.5 mIU/mL (follicular)"
+        ],
+        [
+          "LH",
+          "32 mIU/mL",
+          "2.4-12.6 mIU/mL (follicular)"
+        ],
+        [
+          "Estradiol",
+          "16 pg/mL",
+          "30-400 pg/mL"
+        ],
+        [
+          "Anti-Mullerian hormone",
+          "0.04 ng/mL",
+          "1.0-4.0 ng/mL"
+        ]
+      ],
+      "correct": "C",
+      "answers": {
+        "A": "Complete silencing of FMR1 by promoter CpG hypermethylation",
+        "B": "Expansion of her FMR1 repeat into the full mutation range",
+        "C": "Premutation-range FMR1 allele causing primary ovarian insufficiency",
+        "D": "Skewed X-inactivation favoring the wild-type X chromosome",
+        "E": "Somatic expansion of the FMR1 repeat within ovarian stroma"
+      },
+      "explanations": {
+        "A": "Hypermethylation and silencing occur only with full mutations greater than 200 repeats; her promoter is explicitly unmethylated, so FMR1 is still transcribed.",
+        "B": "A full mutation requires more than 200 CGG repeats and would produce fragile X syndrome features, which she does not have; her 88-repeat allele is in the premutation range.",
+        "C": "Carriers of premutation alleles of 55 to 200 CGG repeats do not develop fragile X syndrome but are at risk for fragile X-associated primary ovarian insufficiency, which explains her hypergonadotropic hypogonadism with elevated FSH and LH and depleted ovarian reserve.",
+        "D": "Skewed inactivation favoring the normal X would mitigate rather than cause disease, and premutation carriers express FMR1 from the expanded allele regardless.",
+        "E": "Expansion to the full mutation occurs in the female germline during meiosis, not as somatic expansion in ovarian stromal tissue, and would affect offspring rather than her own ovarian function."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-002",
+      "question": "A 22-year-old man reports 6 weeks of painless blurring of central vision in the right eye followed by similar loss in the left eye. Visual acuity is 20/200 bilaterally, color discrimination is markedly impaired, and central scotomas are present. Funduscopy shows peripapillary telangiectatic vessels without leakage on fluorescein angiography. His mother has poor vision, as do two maternal uncles; his father and all paternal relatives have normal vision, and his own sister is asymptomatic. Testing results are shown. Which of the following best explains the pattern of disease in this family?",
+      "table": [
+        [
+          "Family member",
+          "mtDNA variant",
+          "Heteroplasmy level",
+          "Visual status"
+        ],
+        [
+          "Patient",
+          "m.11778G>A (MT-ND4)",
+          "95%",
+          "Severe loss"
+        ],
+        [
+          "Mother",
+          "m.11778G>A (MT-ND4)",
+          "72%",
+          "Moderate loss"
+        ],
+        [
+          "Sister",
+          "m.11778G>A (MT-ND4)",
+          "38%",
+          "Asymptomatic"
+        ],
+        [
+          "Father",
+          "Not detected",
+          "0%",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "Autosomal dominant inheritance with markedly reduced penetrance",
+        "B": "Autosomal recessive inheritance with pseudodominant transmission",
+        "C": "Maternal transmission of mtDNA with variable heteroplasmy levels",
+        "D": "Uniparental disomy with loss of a critical imprinted gene region",
+        "E": "X-linked recessive inheritance with skewed X-inactivation in carriers"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Autosomal dominant transmission would allow affected fathers to pass the disease to children of both sexes, but every affected individual here is related through the maternal line.",
+        "B": "Pseudodominant recessive inheritance requires an affected individual to mate with a carrier and would not produce exclusive transmission through mothers.",
+        "C": "Leber hereditary optic neuropathy is caused by mutations in mitochondrial genes encoding complex I subunits such as ND4 and is therefore exclusively maternally inherited; the wide variation in heteroplasmy explains why more than half of carriers remain asymptomatic while others lose vision severely.",
+        "D": "Uniparental disomy causes imprinting disorders such as Prader-Willi and Angelman syndromes and does not generate a multigenerational maternal transmission pattern of optic neuropathy.",
+        "E": "X-linked recessive inheritance would predict affected males and largely spared female carriers, yet the patient's mother has moderate visual loss and the mutation is in mitochondrial rather than nuclear DNA."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-003",
+      "question": "A 25-year-old woman with subacute bilateral central vision loss is found to carry a pathogenic mitochondrial ND1 variant. Cultured fibroblasts from the patient are permeabilized and studied in a respirometer. Oxygen consumption is markedly reduced when glutamate and malate are supplied as substrates, but is normal when succinate is supplied. Cellular ATP content is decreased and reactive oxygen species production is increased. Which of the following respiratory chain components is defective in this patient?",
+      "answers": {
+        "A": "ATP synthase (complex V)",
+        "B": "Cytochrome bc1 complex (complex III)",
+        "C": "Cytochrome c oxidase (complex IV)",
+        "D": "NADH:ubiquinone oxidoreductase (complex I)",
+        "E": "Succinate dehydrogenase (complex II)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A defect in ATP synthase would depress respiration regardless of which substrate is supplied, since all electron flow ultimately drives the same proton gradient.",
+        "B": "Complex III sits downstream of both entry points, so its impairment would reduce oxygen consumption with succinate as well as with glutamate and malate.",
+        "C": "Complex IV is likewise shared by both pathways, and its deficiency would impair succinate-driven respiration too.",
+        "D": "Glutamate and malate generate NADH that enters the chain at complex I, whereas succinate enters at complex II; selective failure of NADH-linked respiration with preserved succinate-linked respiration localizes the lesion to NADH:ubiquinone oxidoreductase, the complex encoded in part by the mitochondrial ND1, ND4, ND4L, and ND6 genes mutated in Leber hereditary optic neuropathy, with reduced ATP and increased reactive oxygen species killing retinal ganglion neurons.",
+        "E": "Complex II deficiency would produce the opposite pattern, with impaired succinate-driven but preserved glutamate- and malate-driven respiration."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-004",
+      "question": "A 4-year-old boy is brought to the clinic because he has not begun speaking in sentences. He avoids eye contact, flaps his hands when excited, and has frequent tantrums. Examination shows a long narrow face, large protruding ears, a prominent jaw, and testicular volumes well above the 97th percentile for age. His mother is intellectually normal, but a maternal uncle lived in a group home for intellectual disability. Which of the following molecular lesions is most likely responsible for this boy's condition?",
+      "answers": {
+        "A": "CAG repeat expansion within the coding region of HTT",
+        "B": "CGG repeat expansion within the 5' untranslated region of FMR1",
+        "C": "GAA repeat expansion within the first intron of FXN",
+        "D": "Missense mutation within the mitochondrial ND4 gene",
+        "E": "Nonsense mutation within the nuclear PINK1 gene"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "CAG expansion in HTT causes Huntington disease, an adult-onset hyperkinetic disorder with chorea and dementia, not childhood intellectual disability with macroorchidism.",
+        "B": "Fragile X syndrome results from expansion of the CGG repeat in the 5' UTR of FMR1 to more than 200 copies, producing intellectual disability, autistic features, large ears, prominent jaw, and macroorchidism, inherited through the X chromosome as suggested by the affected maternal uncle.",
+        "C": "GAA expansion in intron 1 of FXN causes Friedreich ataxia, an autosomal recessive disorder of progressive ataxia and hypertrophic cardiomyopathy beginning in the second decade.",
+        "D": "Mutations in mitochondrial ND genes cause Leber hereditary optic neuropathy, a maternally inherited loss of central vision in young adults, not a dysmorphic intellectual disability syndrome.",
+        "E": "PINK1 loss-of-function mutations cause autosomal recessive early-onset Parkinson disease with bradykinesia and rigidity, not childhood developmental delay."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-005",
+      "question": "A couple returns to discuss family planning after their 12-year-old daughter was diagnosed with Friedreich ataxia, with 800 and 700 GAA repeats in FXN. Both parents are healthy, and both have one expanded and one normal allele. They have read online about worsening severity in successive generations and ask whether a future child would be affected earlier and more severely than their daughter. Which of the following is the most accurate counseling statement?",
+      "answers": {
+        "A": "Each future pregnancy carries a 25% risk, and anticipation is not expected",
+        "B": "Each future pregnancy carries a 50% risk, and onset will be earlier",
+        "C": "Only daughters are at risk, because the disorder is X-linked recessive",
+        "D": "Only sons are at risk, because expansion occurs in the male germline",
+        "E": "Risk is negligible, because both parents have normal repeat lengths"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Friedreich ataxia is autosomal recessive, so two carrier parents have a 25 percent risk with each pregnancy; anticipation is not observed in this disease because an affected child must inherit two pathogenic alleles, and it is the shorter of the two expansions that sets frataxin levels and therefore age of onset.",
+        "B": "A 50 percent risk applies to autosomal dominant transmission such as Huntington disease, and earlier onset in successive generations is a feature of dominantly inherited CAG expansions.",
+        "C": "The FXN gene is on an autosome, so both sexes are affected equally; X-linked recessive inheritance would spare most daughters rather than target them.",
+        "D": "Male germline expansion is not a feature of Friedreich ataxia, and sons and daughters are at equal risk in autosomal recessive disease.",
+        "E": "Both parents are obligate carriers of an expanded allele, so their recurrence risk is substantial rather than negligible."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-006",
+      "question": "A research team studies cortical neurons from mice in which Fmr1 has been deleted. Compared with wild-type neurons, the knockout neurons display long, thin, immature-appearing dendritic spines. Metabolic labeling shows that the overall rate of new protein synthesis at the synapse is exaggerated and fails to be restrained after glutamate receptor stimulation. Loss of which of the following normal functions best accounts for these findings?",
+      "answers": {
+        "A": "Assembly of iron-sulfur clusters for mitochondrial respiratory enzymes",
+        "B": "Binding of a subset of neuronal mRNAs to slow their translation",
+        "C": "Methylation of cytosines within promoter-associated CpG islands",
+        "D": "Ubiquitination of outer membrane proteins on damaged mitochondria",
+        "E": "Vesicular packaging of glutamate at excitatory presynaptic terminals"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Iron-sulfur cluster assembly is the function of frataxin, whose loss causes Friedreich ataxia with mitochondrial iron overload rather than dendritic spine immaturity.",
+        "B": "FMRP contains RNA-binding domains, associates with actively translating ribosomes, and binds a subset of brain mRNAs to slow their translation; losing this brake produces excess synaptic protein synthesis and the immature dendritic spine morphology characteristic of fragile X syndrome.",
+        "C": "DNA methyltransferases methylate CpG cytosines; FMRP is a cytoplasmic RNA-binding protein and does not modify DNA.",
+        "D": "Ubiquitination of proteins on depolarized mitochondria is performed by parkin acting downstream of PINK1, and its loss causes early-onset Parkinson disease.",
+        "E": "Vesicular glutamate transporters load glutamate into synaptic vesicles; this function is unrelated to FMRP and would not alter global synaptic protein synthesis rates."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-007",
+      "question": "A 31-year-old man is evaluated for 2 years of bradykinesia, limb rigidity, and a resting tremor of the right hand that improves dramatically with levodopa. His parents are first cousins and are neurologically normal, and a younger sister has similar symptoms. Sequencing identifies homozygous loss-of-function mutations in PINK1. When the patient's fibroblasts are treated with an uncoupler that collapses mitochondrial membrane potential, depolarized mitochondria accumulate rather than being cleared, and markers of oxidative stress rise. Which of the following cellular processes is impaired in this patient?",
+      "answers": {
+        "A": "Assembly of iron-sulfur clusters within the mitochondrial matrix",
+        "B": "Autophagic clearance of depolarized mitochondria by mitophagy",
+        "C": "Chaperone-mediated refolding of misfolded cytosolic proteins",
+        "D": "Proteasomal degradation of polyglutamine-expanded proteins",
+        "E": "Transcription of nuclear-encoded respiratory chain subunits"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Iron-sulfur cluster assembly requires frataxin, and its loss produces Friedreich ataxia with mitochondrial iron overload rather than levodopa-responsive parkinsonism.",
+        "B": "PINK1 accumulates on mitochondria that have lost membrane potential and recruits parkin to tag them for autophagic degradation; when PINK1 is absent, damaged mitochondria are not cleared by mitophagy, they rupture and release pro-apoptotic factors, and the highly vulnerable dopaminergic neurons of the substantia nigra pars compacta degenerate, causing autosomal recessive early-onset Parkinson disease.",
+        "C": "Chaperone sequestration and failed protein folding homeostasis characterize the polyglutamine diseases, which present with chorea or ataxia rather than an isolated levodopa-responsive parkinsonian syndrome.",
+        "D": "Inefficient proteasomal handling of expanded polyglutamine proteins is central to Huntington disease and related CAG repeat disorders, not to PINK1-related disease.",
+        "E": "PINK1 is a kinase acting on damaged organelles, not a transcription factor, and the experiment shows a failure of organelle clearance rather than of subunit synthesis."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-008",
+      "question": "A 6-year-old boy with intellectual disability undergoes molecular testing. PCR and sequencing of FMR1 demonstrate more than 200 CGG repeats in the 5' untranslated region. Methylation-sensitive analysis shows that the cytosines of CpG dinucleotides across the promoter and exon 1 are heavily methylated. Northern blotting of the patient's lymphoblasts shows no detectable FMR1 mRNA, and Western blotting shows no detectable FMRP. Which of the following best explains the absence of FMRP in this patient?",
+      "answers": {
+        "A": "Aberrant splicing removes exon 1 from the mature FMR1 transcript",
+        "B": "Hypermethylation of CpG islands compacts chromatin and blocks FMR1 transcription",
+        "C": "Nonsense-mediated decay degrades the repeat-containing FMR1 transcript",
+        "D": "Premature termination codons truncate the FMR1 coding sequence",
+        "E": "Proteasomal degradation of misfolded FMRP is markedly accelerated"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Splicing is not disrupted by the expansion; the defect occurs upstream of transcript processing, and no transcript is made at all.",
+        "B": "The expanded CGG tract triggers methylation of CpG cytosines in the promoter and exon 1, which recruits methyl-binding proteins, repressor complexes such as Sin3, and histone deacetylases, deacetylating H3 and H4 and compacting chromatin so that transcription factors and RNA polymerase II cannot access the start site.",
+        "C": "Nonsense-mediated decay would require a transcript with a premature stop codon, but the northern blot shows no FMR1 mRNA is produced in the first place.",
+        "D": "The CGG repeat lies in the 5' untranslated region upstream of the ATG and is never translated, so it cannot introduce a premature stop codon.",
+        "E": "Accelerated protein turnover would still permit mRNA synthesis; the absence of FMR1 mRNA localizes the defect to transcription, not protein stability."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-009",
+      "question": "A 7-year-old girl is evaluated for difficulty with mathematics and mild social anxiety. Her full-scale IQ is 88 and she attends a mainstream classroom with a tutor. Her 9-year-old brother has an IQ of 45, autistic behaviors, and macroorchidism. Molecular testing shows that both children carry an FMR1 allele with more than 200 CGG repeats inherited from their mother, and in both children that allele is fully methylated. Which of the following best explains the marked difference in severity between the siblings?",
+      "answers": {
+        "A": "Genomic imprinting silences the maternally inherited FMR1 allele in girls",
+        "B": "Random X-inactivation leaves the normal FMR1 allele active in many cells",
+        "C": "Somatic contraction of the CGG repeat occurs selectively in female neurons",
+        "D": "The FMR1 locus escapes X-inactivation across all female somatic tissues",
+        "E": "Y-linked modifier genes suppress FMRP expression in affected male children"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "FMR1 is not imprinted; if the maternal allele were preferentially silenced, the daughter would be more severely affected rather than less.",
+        "B": "Because X-inactivation is random, on average half of a heterozygous girl's cells inactivate the mutant X and express FMRP from the normal allele, producing a mosaic that substantially attenuates the phenotype; an affected boy has only the mutant X and no source of FMRP.",
+        "C": "Somatic contraction of the expanded CGG repeat in female neurons is not a recognized mechanism, and both children were shown to carry full mutations.",
+        "D": "If FMR1 escaped X-inactivation entirely, the expanded allele would remain silenced by its own methylation while the normal allele would be expressed in every cell, which is not what occurs and does not match the observed variable severity among heterozygous girls.",
+        "E": "No Y-linked modifiers govern FMRP levels; the boy's severe phenotype reflects the absence of a second, normal FMR1 allele."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-010",
+      "question": "A 27-year-old woman is referred for counseling after her nephew is diagnosed with fragile X syndrome. FMR1 repeat sizing is performed on several family members and the results are shown. All alleles tested are unmethylated. The patient asks which relative is most likely to have a child born with fragile X syndrome. Which of the following individuals carries the greatest risk of having an affected child?",
+      "table": [
+        [
+          "Family member",
+          "Sex",
+          "CGG repeat number"
+        ],
+        [
+          "Patient",
+          "Female",
+          "62"
+        ],
+        [
+          "Older sister",
+          "Female",
+          "52"
+        ],
+        [
+          "Younger sister",
+          "Female",
+          "98"
+        ],
+        [
+          "Brother",
+          "Male",
+          "105"
+        ],
+        [
+          "Mother",
+          "Female",
+          "44"
+        ]
+      ],
+      "answers": {
+        "A": "Her brother, who carries 105 repeats",
+        "B": "Her mother, who carries 44 repeats",
+        "C": "Her older sister, who carries 52 repeats",
+        "D": "Her younger sister, who carries 98 repeats",
+        "E": "The patient herself, who carries 62 repeats"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "He carries the longest premutation, but expansion to a full mutation occurs exclusively in the female germline; as a transmitting male he will pass an unchanged premutation to all of his daughters and his X chromosome to no sons.",
+        "B": "A 44-repeat allele is an intermediate allele within the normal range of 6 to 55; such alleles may be mildly unstable but cannot jump to a full mutation in a single generation.",
+        "C": "A 52-repeat allele is also intermediate, with roughly 19 percent instability in the 49 to 54 range and no appreciable risk of expanding past 200 repeats in one meiosis.",
+        "D": "She is female, so her repeat can expand in the germline, and she carries the longest female premutation in the family; the probability of expansion to a full mutation rises with premutation length, making her the highest-risk transmitter.",
+        "E": "Her own 62-repeat allele is a premutation that can expand, but it is considerably shorter than her younger sister's 98 repeats and therefore carries a lower probability of reaching the full mutation."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-011",
+      "question": "A 44-year-old man with genetically confirmed Huntington disease dies 12 years after symptom onset. During life, repeat sizing on peripheral blood leukocytes had consistently shown 42 CAG repeats. At autopsy, repeat sizing is repeated on several tissues and the results are shown. The investigators note that repeat length is dramatically greater in the tissue showing the most severe neuronal loss. Which of the following therapeutic strategies most directly targets the process responsible for this tissue-specific difference?",
+      "table": [
+        [
+          "Tissue",
+          "Modal CAG repeat length",
+          "Degree of neuronal loss"
+        ],
+        [
+          "Peripheral blood leukocytes",
+          "42",
+          "Not applicable"
+        ],
+        [
+          "Cerebellum",
+          "43",
+          "Minimal"
+        ],
+        [
+          "Frontal cortex",
+          "58",
+          "Moderate"
+        ],
+        [
+          "Striatum (caudate)",
+          "380",
+          "Severe"
+        ]
+      ],
+      "answers": {
+        "A": "Antisense oligonucleotide lowering of total huntingtin mRNA",
+        "B": "Chaperone induction to assist folding of the mutant protein",
+        "C": "Inhibition of the DNA mismatch repair pathway in somatic cells",
+        "D": "Proteasome activation to accelerate clearance of the aggregates",
+        "E": "Supplementation with antioxidants to reduce oxidative damage"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Antisense knockdown lowers expression of the protein already produced but does not act on the somatic DNA expansion that generated the enormous striatal repeat lengths, and non-allele-selective lowering also removes normal huntingtin function.",
+        "B": "Chaperone induction addresses downstream protein misfolding and aggregation rather than the ongoing somatic expansion of the repeat itself.",
+        "C": "The striking striatum-specific expansion from 42 repeats in blood to several hundred reflects somatic instability of the repeat, a process driven by aberrant engagement of the mismatch repair machinery; inhibiting mismatch repair is therefore aimed directly at reducing somatic CAG expansion.",
+        "D": "Boosting proteasome activity targets degradation of the already-translated polyglutamine protein and has no effect on DNA-level repeat expansion.",
+        "E": "Antioxidant supplementation is a nonspecific downstream strategy relevant to mitochondrial diseases and would not alter tissue-specific repeat length."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-012",
+      "question": "A 61-year-old man with a 16-year history of chorea, dementia, and personality change dies of aspiration pneumonia. Autopsy shows striatal and cortical atrophy. Immunohistochemistry of surviving neurons demonstrates intranuclear inclusions that stain for ubiquitin, heat shock proteins, and proteasome subunits. In a parallel research program, mice engineered to lack both copies of the orthologous gene die in utero without chorea, whereas mice transgenic for the expanded allele develop a progressive movement disorder with identical inclusions. Which of the following mechanisms best accounts for the neurodegeneration in this patient?",
+      "answers": {
+        "A": "Haploinsufficiency of huntingtin within striatal medium spiny neurons",
+        "B": "Impaired mitophagy from failure to ubiquitinate damaged mitochondria",
+        "C": "Loss of iron-sulfur cluster assembly within striatal neuronal mitochondria",
+        "D": "Toxic gain of function by the misfolded polyglutamine-expanded protein",
+        "E": "Transcriptional silencing of the HTT promoter by CpG hypermethylation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Haploinsufficiency is excluded by the transgenic and knockout data: deleting the gene does not reproduce the disease, whereas expressing the expanded protein does.",
+        "B": "Defective ubiquitination of depolarized mitochondria describes parkin loss in autosomal recessive Parkinson disease, which presents with bradykinesia and rigidity rather than chorea with intranuclear inclusions.",
+        "C": "Impaired iron-sulfur cluster assembly is the consequence of frataxin deficiency in Friedreich ataxia and produces mitochondrial iron overload, not ubiquitin-positive nuclear inclusions.",
+        "D": "Polyglutamine diseases arise from a toxic property of the expanded glutamine tract: the protein misfolds, is degraded inefficiently by the proteasome, aggregates into neuronal intranuclear inclusions, and sequesters molecular chaperones, disrupting cellular protein folding homeostasis and causing neuronal dysfunction and death.",
+        "E": "Epigenetic silencing of the affected locus is the mechanism in fragile X syndrome and Friedreich ataxia; the mutant huntingtin gene in this patient is actively transcribed and translated."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-013",
+      "question": "A 14-year-old boy is evaluated for 2 years of worsening clumsiness and slurred speech. His parents are first cousins and are both healthy. Examination shows a wide-based gait, dysmetria, dysarthria, absent deep tendon reflexes, impaired vibratory and position sense in the legs, pes cavus, and scoliosis. Echocardiography demonstrates concentric left ventricular hypertrophy. Repeat sizing of the FXN gene is shown. Which of the following molecular mechanisms underlies this patient's disease?",
+      "table": [
+        [
+          "FXN allele",
+          "GAA repeat number",
+          "Reference"
+        ],
+        [
+          "Allele 1",
+          "750",
+          "Normal 5-33"
+        ],
+        [
+          "Allele 2",
+          "620",
+          "Normal 5-33"
+        ]
+      ],
+      "answers": {
+        "A": "Epigenetic silencing of FXN with loss of frataxin expression",
+        "B": "Expansion of a CAG repeat producing a toxic polyglutamine tract",
+        "C": "Hypermethylation of the FMR1 promoter with loss of FMRP function",
+        "D": "Maternally inherited mutation in a complex I subunit of mtDNA",
+        "E": "Missense mutation producing a dominant-negative frataxin protein"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Friedreich ataxia results from a GAA expansion in intron 1 of FXN that increases methylation of upstream CpG sites and compacts chromatin, epigenetically silencing the locus so that frataxin levels fall; because both alleles are expanded the inheritance is autosomal recessive, consistent with consanguineous unaffected parents.",
+        "B": "A toxic polyglutamine tract requires a CAG expansion within a coding region, the mechanism of Huntington disease and the spinocerebellar ataxias, and those disorders are dominantly inherited.",
+        "C": "FMR1 promoter hypermethylation causes fragile X syndrome with intellectual disability and macroorchidism, not adolescent-onset ataxia with hypertrophic cardiomyopathy.",
+        "D": "Maternally inherited complex I mutations cause Leber hereditary optic neuropathy, which affects retinal ganglion cells and vision rather than the spinocerebellar pathways.",
+        "E": "The expansion lies in an intron and reduces the amount of otherwise normal frataxin; it does not generate an abnormal protein with dominant-negative activity."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-014",
+      "question": "An investigator studies a newly described autosomal dominant neurodegenerative disease caused by expansion of a CAG repeat within the coding region of a widely expressed neuronal gene. She notes that the disease could plausibly arise either from haploinsufficiency, in which one functional copy produces too little protein, or from production of a mutant protein with a toxic property. She hypothesizes that the mutant protein is toxic. Which of the following experimental models would best test her hypothesis?",
+      "answers": {
+        "A": "Homologous recombination knockout of the gene in mice",
+        "B": "Knockdown of the gene in cultured fibroblasts using siRNA",
+        "C": "Transgenic mice expressing the mutant protein in neurons",
+        "D": "Transgenic mice expressing the wild-type protein in neurons",
+        "E": "Transient expression of the mutant protein in cultured fibroblasts"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A knockout removes the protein entirely and therefore tests the loss-of-function hypothesis, which is the alternative she wants to distinguish against.",
+        "B": "siRNA knockdown in fibroblasts also models loss of function, and fibroblasts are not the vulnerable cell type in a neurodegenerative disease.",
+        "C": "Introducing the mutant protein into neurons of an animal that retains its normal endogenous alleles isolates the effect of the mutant product itself, so neurodegeneration in these mice demonstrates a toxic gain of function rather than insufficient normal protein.",
+        "D": "Overexpressing the wild-type protein serves as an important control but cannot demonstrate toxicity that is specific to the expanded allele.",
+        "E": "Fibroblasts lack the neuronal context in which these diseases manifest, and a transient cell culture assay cannot establish progressive neurodegeneration in an intact nervous system."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-015",
+      "question": "A 29-year-old woman with early-onset parkinsonism is found to carry homozygous null mutations in the gene encoding parkin. In her cultured cells, mitochondrial depolarization causes the expected stabilization and accumulation of PINK1 on the mitochondrial outer membrane, but ubiquitin conjugates fail to appear on outer membrane proteins and autophagosomes do not engulf the damaged organelles. Which of the following best describes the normal function of the protein that is missing in this patient?",
+      "answers": {
+        "A": "E3 ubiquitin ligase that ubiquitinates outer membrane proteins",
+        "B": "Kinase that phosphorylates ubiquitin on damaged mitochondria",
+        "C": "Matrix protease that degrades misfolded mitochondrial proteins",
+        "D": "Outer membrane GTPase that mediates mitochondrial fusion",
+        "E": "Scaffold protein that tethers autophagosomes to lysosomes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Parkin is a cytosolic E3 ubiquitin ligase that PINK1 recruits to depolarized mitochondria, where it ubiquitinates outer membrane proteins to create the signal that targets the organelle for autophagic degradation; its absence explains why PINK1 still accumulates but ubiquitin conjugates never form.",
+        "B": "Kinase activity toward ubiquitin describes PINK1 itself, which the experiment shows is present and correctly stabilized on the outer membrane.",
+        "C": "Matrix proteases such as the AAA proteases perform intramitochondrial quality control and would not account for a failure of outer membrane ubiquitination.",
+        "D": "Fusion of mitochondria allows a damaged organelle to acquire components from healthy ones, but this pathway is distinct from the ubiquitin tagging step that is missing here.",
+        "E": "Autophagosome-lysosome tethering occurs downstream of cargo recognition; the block in this patient is at the earlier step of marking the organelle for capture."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-016",
+      "question": "A 17-year-old girl with genetically confirmed Friedreich ataxia undergoes a research skeletal muscle biopsy. Electron microscopy shows electron-dense iron deposits within mitochondria. Biochemical assays of isolated mitochondria demonstrate markedly reduced activity of respiratory complexes I and II and of aconitase, whereas the activity of citrate synthase is preserved. Loss of which of the following normal protein functions best explains this pattern?",
+      "answers": {
+        "A": "Assembly of iron-sulfur clusters used by mitochondrial enzymes",
+        "B": "Export of ferrous iron from the mitochondrial matrix to the cytosol",
+        "C": "Recruitment of parkin to the depolarized mitochondrial outer membrane",
+        "D": "Repression of translation of a subset of neuronal mRNA transcripts",
+        "E": "Transfer of electrons from ubiquinol to cytochrome c within complex III"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Frataxin is required for assembly of iron-sulfur clusters, the prosthetic groups of complexes I and II of the electron transport chain and of aconitase; its loss both cripples these specific enzymes and leaves unincorporated iron to accumulate, producing mitochondrial iron overload and organelle demise.",
+        "B": "Frataxin is not an iron exporter, and a pure export defect would not selectively inactivate the iron-sulfur cluster-dependent enzymes while sparing citrate synthase.",
+        "C": "Recruitment of parkin to damaged mitochondria is the role of PINK1, and its loss causes autosomal recessive Parkinson disease rather than ataxia with cardiomyopathy.",
+        "D": "Translational repression of neuronal mRNAs is the function of FMRP, which is lost in fragile X syndrome and has no bearing on mitochondrial enzyme activity.",
+        "E": "Electron transfer from ubiquinol to cytochrome c is performed by complex III, whose activity is not the primary deficit here; complexes I and II are affected because they depend on iron-sulfur clusters."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-017",
+      "question": "A 45-year-old man reports 3 years of slowly progressive proximal limb weakness, muscle cramps, tongue fasciculations, and difficulty swallowing. Examination also shows gynecomastia and testicular atrophy. Genetic testing reveals 48 CAG repeats in the coding region of the androgen receptor gene on the X chromosome. His 50-year-old sister, who is heterozygous for the same expanded allele, has a completely normal neurologic examination and normal electromyography. Which of the following best explains the sister's lack of symptoms?",
+      "answers": {
+        "A": "Androgen-dependent toxicity of the mutant receptor in a low-androgen state",
+        "B": "Contraction of the CAG repeat during oogenesis in all heterozygous women",
+        "C": "Degradation of the mutant androgen receptor by the proteasome in women",
+        "D": "Methylation-induced silencing of the expanded allele in female motor neurons",
+        "E": "Somatic expansion of the repeat restricted to male spinal motor neurons only"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The toxicity of the polyglutamine-expanded androgen receptor requires ligand binding, so females, whose circulating androgen levels are low, do not develop the motor neuron degeneration even when they carry the expanded allele; skewed X-inactivation was a plausible alternative but research established androgen dependence as the correct explanation.",
+        "B": "Expanded CAG alleles in this family of diseases are transmitted with a bias toward expansion, and no universal contraction occurs in oogenesis.",
+        "C": "There is no sex-specific proteasomal clearance of the mutant receptor; in fact polyglutamine proteins are degraded inefficiently by the proteasome in both sexes.",
+        "D": "The androgen receptor CAG expansion lies in the coding region and does not trigger promoter methylation, unlike the CGG expansion of FMR1 or the GAA expansion of FXN.",
+        "E": "Somatic repeat expansion is not confined to males, and it would not by itself explain complete sparing of a heterozygous carrier."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-018",
+      "question": "A 38-year-old woman is seen in the genetics clinic after her 5-year-old son is diagnosed with fragile X syndrome and found to have more than 200 CGG repeats in FMR1. Testing shows that the patient carries 130 CGG repeats and is unaffected. Her father, who died at age 81 without intellectual disability or tremor, is known from banked DNA to have carried 80 CGG repeats; none of his four daughters had intellectual disability, yet three of his grandchildren through those daughters are affected. Which of the following best explains this transmission pattern?",
+      "answers": {
+        "A": "Expansion from premutation to full mutation occurs only in the female germline",
+        "B": "Full mutation alleles uniformly contract to premutations during spermatogenesis",
+        "C": "Males transmit their FMR1 allele to daughters only after somatic expansion",
+        "D": "Methylation of the FMR1 promoter is completely erased during male meiosis",
+        "E": "X-inactivation silences the paternally derived X chromosome in all tissues"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A premutation carrier male is a transmitting male: he passes the premutation unchanged to all of his daughters, who are themselves unaffected, and expansion to the full mutation happens only when those daughters transmit the repeat through the female germline, so disease appears in his grandchildren.",
+        "B": "There is no rule that full mutations contract in sperm to explain this pedigree; the grandfather never carried a full mutation, only an 80-repeat premutation.",
+        "C": "Somatic expansion in the father is not required for transmission; the premutation is passed intact and expands during female meiosis in the next generation.",
+        "D": "Premutation alleles are not methylated to begin with, so erasure of methylation in male meiosis cannot explain why only grandchildren are affected.",
+        "E": "X-inactivation is random rather than imprinted in humans and modifies severity in heterozygous females; it does not determine which generation acquires a full mutation."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-019",
+      "question": "A neurologist reviews three generations of a family with an autosomal dominant hyperkinetic movement disorder. The grandfather developed chorea at age 62 and had 41 CAG repeats in HTT. His son developed chorea at age 45 and had 48 repeats. The grandson developed rigidity, seizures, and cognitive decline at age 19 and has 70 repeats. Which of the following pairs of molecular observations best accounts for the progressively earlier onset across these generations?",
+      "answers": {
+        "A": "Meiotic repeat instability and an inverse repeat length-age of onset relationship",
+        "B": "Mitochondrial heteroplasmy and a threshold effect on oxidative phosphorylation",
+        "C": "Promoter hypermethylation and recruitment of histone deacetylase complexes",
+        "D": "Skewed X-inactivation and ligand-dependent toxicity of the mutant protein",
+        "E": "Somatic repeat contraction and enhanced proteasomal clearance of aggregates"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Anticipation in CAG repeat disease rests on exactly two observations: expanded alleles are meiotically unstable with expansions favored on transmission, and there is an inverse correlation between repeat length and age of symptom onset, so successive generations inherit longer repeats and present earlier.",
+        "B": "Heteroplasmy and an oxidative phosphorylation threshold explain the variable penetrance of mitochondrial disorders such as Leber hereditary optic neuropathy, not the generation-to-generation shift in a nuclear CAG disease.",
+        "C": "Promoter hypermethylation with histone deacetylase recruitment silences FMR1 in fragile X syndrome and FXN in Friedreich ataxia; huntingtin is not epigenetically silenced.",
+        "D": "Skewed X-inactivation and androgen-dependent toxicity explain why female carriers of spinal and bulbar muscular atrophy are spared, and HTT is autosomal.",
+        "E": "Repeats expand rather than contract in somatic tissue, and proteasomal degradation of polyglutamine proteins is inefficient rather than enhanced."
+      }
+    },
+    {
+      "id": "neuro-molecular-basis-of-neurologic-disease-020",
+      "question": "A 53-year-old woman is brought in by her husband because of 1 year of involuntary, rapid, dance-like movements of her hands and face along with episodes of emotional lability and uncharacteristic irritability. MRI of the brain shows atrophy of the caudate nuclei with ex vacuo dilation of the frontal horns. After counseling and consent, HTT repeat sizing is performed and the results are shown. Her 25-year-old son, who is asymptomatic, asks about his own risk. Which of the following is the probability that he will develop the same disorder?",
+      "table": [
+        [
+          "HTT allele",
+          "CAG repeat number",
+          "Interpretation"
+        ],
+        [
+          "Allele 1",
+          "18",
+          "Normal (11-34)"
+        ],
+        [
+          "Allele 2",
+          "55",
+          "Full penetrance (>=40)"
+        ]
+      ],
+      "answers": {
+        "A": "0%",
+        "B": "15%",
+        "C": "25%",
+        "D": "50%",
+        "E": "100%"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A 0 percent risk would apply only if the disorder were not heritable or if the mother carried no expanded allele, but she has a fully penetrant 55-repeat allele.",
+        "B": "A 15 percent figure would imply reduced penetrance, yet repeats of 40 or more in HTT are fully penetrant and the risk is determined by transmission alone.",
+        "C": "A 25 percent risk corresponds to autosomal recessive inheritance with two carrier parents, as in Friedreich ataxia, not to Huntington disease.",
+        "D": "Huntington disease is inherited in an autosomal dominant fashion, so each child of an affected heterozygous parent has a 50 percent chance of inheriting the expanded allele, and repeats of 40 or greater are fully penetrant.",
+        "E": "A 100 percent risk would require the mother to be homozygous for the expansion, but she carries one normal 18-repeat allele."
+      }
+    }
+  ]
+}
