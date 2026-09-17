@@ -638,9 +638,6 @@
     .res-btn.outline { background: transparent; color: #3a6ea8; }
     .res-btn.outline:hover { background: #edf3fb; }
 
-    .res-btn.refine { border-color: #2b8ca6; color: #2b8ca6; }
-    .res-btn.refine:hover { background: #ecf6f9; }
-
     /* ── Refinement ──
        The chips lift off the navigator rail and get filed into the tray; the
        ones you missed refuse to go, and become the next run. */
@@ -817,7 +814,7 @@
       <button class="res-btn outline" onclick="reviewAnswers()">← review answers</button>
       <button class="res-btn outline" id="reviewFlaggedBtn" onclick="reviewFlagged()" style="display:none">&#9873; review flagged</button>
       <button class="res-btn outline" id="reviewSkippedBtn" onclick="reviewSkipped()" style="display:none">→ first skipped</button>
-      <button class="res-btn outline refine" id="refineBtn" onclick="refine()" style="display:none">refine</button>
+      <button class="res-btn outline" id="refineBtn" onclick="refine()" style="display:none">refine</button>
       <button class="res-btn" onclick="restartQuiz()">restart</button>
     </div>
   </div>
@@ -1779,10 +1776,9 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  // Restart always comes back to the whole lecture, refined or not, in a
-  // fresh order.
+  // Restart always comes back to the whole lecture, refined or not, in the
+  // order you just played it — the shuffle happens once, when the run loads.
   function restartQuiz() {
-    shuffle(questions);
     responses = [];
     restartWith(questions.map((q, i) => i), false);
   }
