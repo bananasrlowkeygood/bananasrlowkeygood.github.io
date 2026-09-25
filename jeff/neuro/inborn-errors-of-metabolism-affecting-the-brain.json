@@ -1,0 +1,461 @@
+{
+  "lecture": "Inborn Errors of Metabolism that Affect the Brain",
+  "block": "neuro",
+  "generated": "2026-09-25",
+  "questions": [
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-001",
+      "question": "A 14-month-old boy who was born at home abroad and never underwent newborn screening is brought to the clinic for developmental delay. He does not walk, says only \"mama,\" and has a musty, mouse-like body odor. He has blond hair and blue eyes, unlike his dark-haired parents, and scaly erythematous patches over both antecubital fossae. Plasma and urine studies are obtained; serum total biopterin and erythrocyte dihydropteridine reductase activity are normal. Which enzyme deficiency is most likely responsible for this child's findings?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Plasma phenylalanine", "1,450 µmol/L", "35–85 µmol/L"],
+        ["Plasma tyrosine", "24 µmol/L", "45–90 µmol/L"],
+        ["Urine phenylpyruvate", "Present", "Absent"],
+        ["Serum total biopterin", "Normal", "Normal"],
+        ["Dihydropteridine reductase (RBC)", "Normal", "Normal"]
+      ],
+      "answers": {
+        "A": "Branched-chain ketoacid dehydrogenase",
+        "B": "Dihydropteridine reductase",
+        "C": "Homogentisate 1,2-dioxygenase",
+        "D": "Phenylalanine hydroxylase",
+        "E": "Tyrosinase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Branched-chain ketoacid dehydrogenase deficiency causes maple syrup disease, which produces maple-syrup-scented cerumen and neonatal encephalopathy rather than a musty odor with elevated phenylalanine.",
+        "B": "Dihydropteridine reductase deficiency causes non-classical (BH4-responsive) phenylketonuria, but this child's biopterin and reductase activity are normal, excluding a cofactor defect.",
+        "C": "Homogentisate 1,2-dioxygenase deficiency causes alkaptonuria, which presents in adulthood with ochronotic arthritis and dark sclerae, not infantile developmental delay.",
+        "D": "Classical phenylketonuria results from phenylalanine hydroxylase deficiency, producing hyperphenylalaninemia with low tyrosine, phenylpyruvate in urine (musty odor), hypopigmentation from deficient melanin, eczema, and intellectual disability.",
+        "E": "Tyrosinase deficiency causes oculocutaneous albinism with nystagmus and severe hypopigmentation but normal phenylalanine levels and normal cognition."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-002",
+      "question": "A 3-year-old girl with untreated classical phenylketonuria has lost the ability to sit unsupported and no longer makes eye contact. Her plasma phenylalanine concentration has been between 1.2 and 1.8 mM for months. Brain MRI shows diffuse periventricular white matter signal abnormality, and autopsy series of similar patients demonstrate deficient myelin with reduced cerebral protein synthesis. Which mechanism best explains the white matter injury in this disorder?",
+      "answers": {
+        "A": "Competitive blockade of large neutral amino acid entry into brain by phenylalanine",
+        "B": "Depletion of neuronal ATP through sequestration of inorganic phosphate by sugar phosphates",
+        "C": "Deposition of oxidized homogentisic acid pigment within myelinated fiber tracts",
+        "D": "Direct cytotoxicity of urinary phenylpyruvate against oligodendrocyte membranes",
+        "E": "Osmotic swelling of astrocytes caused by intracellular galactitol accumulation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Phenylalanine shares a transporter with other large neutral amino acids at the blood-brain barrier, and its high concentration outcompetes them, creating an intracellular amino acid deficiency (especially leucine) that impairs myelin protein synthesis and neurotransmitter production.",
+        "B": "Phosphate trapping by accumulated sugar phosphates is the mechanism of injury in galactosemia and hereditary fructose intolerance, not in phenylketonuria.",
+        "C": "Ochronotic pigment deposition occurs in alkaptonuria and targets collagen-rich cartilage and connective tissue, not central myelin.",
+        "D": "Phenylpyruvate is the urinary phenylketone responsible for the musty odor and the historical ferric chloride test, but it is not believed to damage the central nervous system directly.",
+        "E": "Galactitol accumulation is the mechanism of lens cataract formation in disorders of galactose metabolism, not of demyelination in phenylketonuria."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-003",
+      "question": "A 4-month-old girl identified by newborn screening as having hyperphenylalaninemia has been maintained on a strictly phenylalanine-restricted diet with a phenylalanine-free amino acid cocktail. Her plasma phenylalanine is within the target range, yet she has developed truncal hypotonia, poor feeding, oculogyric crises, and loss of social smile. Urinary pterin analysis and cerebrospinal fluid neurotransmitter metabolites are shown. Which additional therapy is most appropriate?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Plasma phenylalanine", "310 µmol/L", "PKU target 360–600 µmol/L"],
+        ["Urinary biopterin", "Markedly decreased", "Normal"],
+        ["CSF homovanillic acid", "Markedly decreased", "Normal"],
+        ["CSF 5-hydroxyindoleacetic acid", "Markedly decreased", "Normal"]
+      ],
+      "answers": {
+        "A": "Injectable pegvaliase to degrade circulating phenylalanine",
+        "B": "Oral sapropterin with levodopa/carbidopa and 5-hydroxytryptophan",
+        "C": "Oral thiamine in pharmacologic doses with continued protein restriction",
+        "D": "Substitution of a lactose-free, galactose-free infant formula",
+        "E": "Supplementation with a branched-chain amino acid-free cocktail"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Pegvaliase converts phenylalanine to ammonia and cinnamic acid and is reserved for adults with poorly controlled blood phenylalanine; it does nothing for the cofactor deficiency driving this infant's decline.",
+        "B": "Low urinary biopterin with low CSF homovanillic acid and 5-hydroxyindoleacetic acid indicates non-classical (BH4-deficient) PKU, in which BH4 is also required by tyrosine hydroxylase and tryptophan hydroxylase, so sapropterin plus dopamine and serotonin precursors is required in addition to phenylalanine restriction.",
+        "C": "Thiamine is the cofactor for branched-chain ketoacid dehydrogenase and is trialed in maple syrup disease, not in disorders of phenylalanine metabolism.",
+        "D": "Galactose-free formula treats classic galactosemia, which presents with vomiting, hepatomegaly, and cataracts rather than neurotransmitter deficiency with normal phenylalanine control.",
+        "E": "A branched-chain amino acid-free cocktail is the dietary backbone of maple syrup disease management and would not correct deficient BH4 production."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-004",
+      "question": "A term newborn is delivered to a mother who is a known heterozygous carrier for phenylketonuria. A heel-stick specimen obtained 6 hours after delivery shows a normal phenylalanine concentration and a normal phenylalanine-to-tyrosine ratio. A repeat specimen collected at 40 hours of age, after 2 days of formula feeding, is markedly abnormal and the infant is subsequently confirmed to have classical phenylketonuria. Which mechanism best explains the normal result on the first specimen?",
+      "answers": {
+        "A": "Fetal phenylalanine hydroxylase activity is transiently induced at the time of delivery",
+        "B": "Maternal hepatic phenylalanine hydroxylase cleared fetal phenylalanine across the placenta",
+        "C": "Neonatal glomerular filtration of phenylalanine is maximal during the first day of life",
+        "D": "Phenylalanine hydroxylase cannot function until postnatal tetrahydrobiopterin synthesis begins",
+        "E": "Placental transfer of tyrosine suppresses endogenous fetal phenylalanine production"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "There is no transient perinatal induction of phenylalanine hydroxylase; the affected infant's enzyme is deficient before and after birth.",
+        "B": "In utero the carrier mother's liver converts the fetus's excess phenylalanine to tyrosine, keeping fetal levels near normal; only after milk or formula feeding does blood phenylalanine rise (about 0.3 mM at birth plus roughly 0.2 mM per day), which is why screening requires an infant at least 24 hours old.",
+        "C": "Renal clearance is comparatively low in the newborn and is not the reason for the normal early result; the accumulation is driven by dietary intake after birth.",
+        "D": "Tetrahydrobiopterin is synthesized before birth and is normal in classical PKU, where the defect is in the hydroxylase apoenzyme itself.",
+        "E": "Phenylalanine is an essential amino acid that is not synthesized endogenously, so tyrosine cannot suppress its production."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-005",
+      "question": "A 5-year-old boy with classical phenylketonuria is seen for routine monitoring. His serum phenylalanine concentration is above the therapeutic target. His parents are instructed to further reduce intake of intact dietary protein while continuing the prescribed phenylalanine-free amino acid mixture, and a food diary confirms meticulous adherence. Four weeks later his serum phenylalanine remains elevated and he has gained no weight. Measurement of which additional analyte is most likely to explain the persistently elevated phenylalanine?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Serum phenylalanine", "0.72 mM", "PKU target 0.36–0.60 mM"],
+        ["Serum ammonia", "28 µmol/L", "21–50 µmol/L"],
+        ["Serum uric acid", "3.6 mg/dL", "2.0–5.5 mg/dL"],
+        ["Serum bicarbonate", "24 mEq/L", "22–28 mEq/L"],
+        ["Blood glucose", "88 mg/dL", "70–99 mg/dL"]
+      ],
+      "answers": {
+        "A": "Plasma ammonia",
+        "B": "Plasma leucine",
+        "C": "Plasma tyrosine",
+        "D": "Serum uric acid",
+        "E": "Urine homogentisic acid"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ammonia is already normal and would be elevated in a urea cycle defect, which does not cause isolated hyperphenylalaninemia.",
+        "B": "Leucine is monitored in maple syrup disease; it does not govern phenylalanine disposal in PKU.",
+        "C": "Tyrosine becomes an essential amino acid in PKU because it can no longer be made from phenylalanine, and inadequate tyrosine limits protein synthesis, reducing phenylalanine incorporation into protein and raising its blood concentration.",
+        "D": "Uric acid rises in hereditary fructose intolerance from AMP degradation and is unrelated to phenylalanine control.",
+        "E": "Homogentisic acid is the diagnostic urinary metabolite of alkaptonuria, a disorder of tyrosine degradation that does not raise phenylalanine."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-006",
+      "question": "A 7-year-old girl with classical phenylketonuria is brought in after her parents stopped giving her the prescribed phenylalanine-free amino acid mixture because she refused its taste. They simultaneously cut nearly all protein-containing foods from her diet, reasoning that this would lower her phenylalanine. Over the following 6 weeks she has lost 1.8 kg and become irritable, and her serum phenylalanine has risen well above target. Which mechanism best explains the paradoxical rise in her phenylalanine concentration?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Serum phenylalanine", "1,180 µmol/L", "PKU target 360–600 µmol/L"],
+        ["Serum prealbumin", "9 mg/dL", "20–40 mg/dL"],
+        ["Serum albumin", "3.0 g/dL", "3.5–5.0 g/dL"],
+        ["Blood urea nitrogen", "22 mg/dL", "7–18 mg/dL"]
+      ],
+      "answers": {
+        "A": "Catabolism of endogenous body protein releases phenylalanine into the blood",
+        "B": "Decreased renal tubular reabsorption of phenylalanine raises its plasma concentration",
+        "C": "Increased intestinal absorption of phenylalanine from residual dietary protein",
+        "D": "Loss of tetrahydrobiopterin recycling abolishes residual hydroxylase activity",
+        "E": "Reduced hepatic transamination of phenylalanine to phenylpyruvate and phenyllactate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Insufficient intake of essential amino acids produces a negative nitrogen balance, and breakdown of the patient's own protein to meet metabolic needs liberates phenylalanine, raising its blood concentration despite near-total dietary restriction.",
+        "B": "Tubular handling of phenylalanine is not the rate-limiting determinant of its plasma level, and the low prealbumin and weight loss point instead to protein catabolism.",
+        "C": "Her intake of intact protein was markedly reduced, so increased absorption cannot account for a rising concentration.",
+        "D": "Tetrahydrobiopterin recycling is intact in classical PKU, where the defect lies in the hydroxylase apoenzyme.",
+        "E": "Transamination to phenylketones is a minor overflow route; reducing it would not produce this magnitude of rise, and phenylketones themselves are not the driver."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-007",
+      "question": "A 6-year-old boy with classical phenylketonuria has a documented daily phenylalanine tolerance of 300 mg. His current prescribed menu plus his phenylalanine-free amino acid mixture already supplies 180 mg of phenylalanine per day. His mother asks the dietitian whether she may add one additional 100-g serving of a single ordinary food to his dinner. Using the values shown, which food can be added without exceeding his daily phenylalanine allowance?",
+      "table": [
+        ["Food", "mg Phe per 100 g edible portion", "Within remaining 120 mg allowance?"],
+        ["Cheddar cheese", "1,310", "No"],
+        ["Ground beef patty", "810", "No"],
+        ["Couscous, cooked", "320", "No"],
+        ["Whole milk", "160", "No"],
+        ["Potatoes, boiled", "44", "Yes"]
+      ],
+      "answers": {
+        "A": "Cheddar cheese",
+        "B": "Cooked couscous",
+        "C": "Ground beef patty",
+        "D": "Potatoes, boiled",
+        "E": "Whole milk"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cheddar cheese contains roughly 1,310 mg of phenylalanine per 100 g, more than four times his entire daily tolerance.",
+        "B": "Cooked couscous supplies about 320 mg per 100 g, which alone exceeds his full 300 mg daily tolerance.",
+        "C": "A 100-g ground beef patty provides about 810 mg of phenylalanine, far above the remaining allowance.",
+        "D": "A 100-g serving of boiled potatoes supplies about 44 mg of phenylalanine, well under the 120 mg remaining in his allowance, reflecting the rule that low-protein plant foods are permitted in PKU.",
+        "E": "Whole milk contains about 160 mg per 100 g, which exceeds the 120 mg that remains after his prescribed intake."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-008",
+      "question": "A 26-year-old man with classical phenylketonuria has had persistently elevated blood phenylalanine concentrations for a decade because he cannot tolerate the taste of the amino acid mixture. He is started on weekly subcutaneous injections of a pegylated enzyme preparation, and over several months his blood phenylalanine falls into the target range while he continues to eat an unrestricted diet. Which mechanism best explains the reduction in his blood phenylalanine?",
+      "answers": {
+        "A": "Conversion of phenylalanine to ammonia and cinnamic acid",
+        "B": "Enhanced renal tubular excretion of phenylalanine and phenylpyruvate",
+        "C": "Increased hepatic uptake of phenylalanine for incorporation into protein",
+        "D": "Restoration of tetrahydrobiopterin availability for hepatic hydroxylation",
+        "E": "Transamination of phenylalanine to phenylpyruvate within skeletal muscle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Pegvaliase is PEGylated phenylalanine ammonia-lyase, which degrades circulating phenylalanine to ammonia and cinnamic acid and is approved for adults with poorly controlled blood phenylalanine.",
+        "B": "Pegvaliase acts in the circulation on phenylalanine itself and does not alter renal handling of amino acids or phenylketones.",
+        "C": "The drug does not augment protein synthesis; it enzymatically destroys phenylalanine in blood.",
+        "D": "Sapropterin, not pegvaliase, supplies tetrahydrobiopterin, and that strategy only helps patients with residual hydroxylase activity or BH4 deficiency.",
+        "E": "Transamination to phenylketones is an endogenous overflow pathway responsible for the musty odor and is not the drug's mechanism."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-009",
+      "question": "A 19-year-old woman with classical phenylketonuria undergoes orthotopic liver transplantation after acetaminophen-induced fulminant hepatic failure. Six months later she is eating an unrestricted diet that includes meat and dairy, has discontinued her phenylalanine-free amino acid mixture, and her blood phenylalanine concentration remains normal. Which mechanism best explains her new tolerance for dietary phenylalanine?",
+      "answers": {
+        "A": "Donor hepatocytes supply the phenylalanine hydroxylase normally confined to the liver",
+        "B": "Immunosuppressive therapy suppresses the catabolic release of amino acids from muscle",
+        "C": "Muscle branched-chain aminotransferase compensates for the missing hydroxylase activity",
+        "D": "Portal blood is diverted so that dietary phenylalanine bypasses the systemic circulation",
+        "E": "Transplantation restores tetrahydrobiopterin synthesis within the central nervous system"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Phenylalanine hydroxylase is expressed almost exclusively in the liver (and to a small degree the kidney), so a normal donor liver restores hydroxylation of phenylalanine to tyrosine and is curative for PKU.",
+        "B": "Immunosuppressants such as corticosteroids promote rather than prevent protein catabolism and do not correct the enzymatic defect.",
+        "C": "Branched-chain aminotransferase acts on leucine, isoleucine, and valine and cannot hydroxylate phenylalanine.",
+        "D": "Transplantation preserves normal portal anatomy, and bypassing the liver would worsen rather than improve amino acid handling.",
+        "E": "Tetrahydrobiopterin production is normal in classical PKU, and a liver graft would not alter central nervous system cofactor synthesis."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-010",
+      "question": "An 18-month-old boy is brought to the office because of a 4-month history of a red rash. His mother reports that he knows only \"mama\" and \"dada\" and has difficulty following simple commands. Physical examination reveals a fair-skinned child with a musty body odor who is at the 10th percentile for height and weight, with a 3-cm patch of red scaly skin on the neck and similar patches in both antecubital fossae. Concentrations of which of the following substances are most likely to be decreased in this patient?",
+      "answers": {
+        "A": "Cysteine",
+        "B": "Dopamine",
+        "C": "Gamma-aminobutyric acid",
+        "D": "Methionine",
+        "E": "Phenylalanine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cysteine is derived from methionine by transsulfuration, a pathway unaffected by phenylalanine hydroxylase deficiency.",
+        "B": "In phenylketonuria the block at phenylalanine hydroxylase makes tyrosine deficient, and tyrosine is the precursor of L-DOPA and dopamine, which also explains the pale hair and skin from deficient melanin synthesis.",
+        "C": "Gamma-aminobutyric acid is formed from glutamate by glutamate decarboxylase and is not directly dependent on phenylalanine or tyrosine availability.",
+        "D": "Methionine is an essential amino acid supplied by the diet and is not consumed by the blocked phenylalanine pathway.",
+        "E": "Phenylalanine accumulates to high concentrations in this disorder, which is exactly what produces the musty odor and neurologic injury."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-011",
+      "question": "A 31-year-old man comes to the clinic with progressive pain and stiffening of the right shoulder. He has noticed gradual darkening of his ears and the whites of his eyes over several years, and he has a long history of low back pain treated with nonsteroidal anti-inflammatory drugs. Examination shows brownish-gray pigmentation of the sclerae and pinnae, limited shoulder abduction, and a systolic murmur at the right second intercostal space. Restriction of which dietary component is most appropriate for his underlying condition?",
+      "answers": {
+        "A": "Cystine",
+        "B": "Leucine",
+        "C": "Triglycerides",
+        "D": "Tyrosine",
+        "E": "Vitamin D"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cystine restriction is used for cystinuria, which causes recurrent kidney stones rather than ochronotic pigmentation and arthritis.",
+        "B": "Leucine restriction is the cornerstone of maple syrup disease management, a neonatal encephalopathic disorder with maple-syrup-scented cerumen.",
+        "C": "Triglyceride restriction addresses hypertriglyceridemia and chylomicronemia, which cause pancreatitis and eruptive xanthomas, not ochronosis.",
+        "D": "The pigmented sclerae and pinnae with degenerative arthritis indicate alkaptonuria, in which homogentisic acid derived from tyrosine degradation accumulates, so limiting dietary tyrosine and its precursor phenylalanine reduces substrate load.",
+        "E": "Vitamin D restriction is used in hypercalcemic states such as sarcoidosis and has no role in disorders of tyrosine catabolism."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-012",
+      "question": "A 52-year-old woman is evaluated for years of progressive low back and knee pain. She reports that urine left in the toilet bowl or on a diaper turns black after standing for several hours, a phenomenon she has noticed since childhood without any other illness. Examination shows slate-blue discoloration of the ear cartilage and a bluish patch on the sclera. Radiographs show intervertebral disc calcification with disc space narrowing. Which enzyme is most likely deficient in this patient?",
+      "answers": {
+        "A": "Fumarylacetoacetate hydrolase",
+        "B": "Homogentisate 1,2-dioxygenase",
+        "C": "Phenylalanine hydroxylase",
+        "D": "Tyrosinase",
+        "E": "Tyrosine aminotransferase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Fumarylacetoacetate hydrolase deficiency causes tyrosinemia type 1, which presents in infancy with liver failure, renal tubular dysfunction, and a cabbage-like odor rather than adult ochronosis.",
+        "B": "Alkaptonuria results from homogentisate 1,2-dioxygenase deficiency; homogentisic acid oxidizes to a dark pigment that binds collagen-rich cartilage and connective tissue, producing urine that blackens on standing, ochronosis of the sclerae and pinnae, and adult-onset degenerative arthropathy.",
+        "C": "Phenylalanine hydroxylase deficiency causes phenylketonuria, which manifests in the first months of life with a musty odor and intellectual disability if untreated.",
+        "D": "Tyrosinase deficiency causes oculocutaneous albinism with generalized hypopigmentation, the opposite of the focal dark pigment deposition seen here.",
+        "E": "Tyrosine aminotransferase deficiency causes tyrosinemia type 2 with painful palmoplantar keratoses and corneal erosions, not ochronotic arthritis."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-013",
+      "question": "A 5-day-old boy born at term at home and exclusively breastfed is brought to the emergency department for poor feeding, vomiting, and abnormal posturing. His parents are Old Order Mennonites, and a paternal uncle died in infancy of an unknown illness. Examination shows lethargy alternating with irritability, hypertonic extended limbs, and cerumen with a distinctly sweet, caramel-like smell. Laboratory studies are shown. An increase in the concentration of which substance best characterizes the most likely diagnosis?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Blood glucose", "62 mg/dL", "45–95 mg/dL (neonate)"],
+        ["Plasma ammonia", "44 µmol/L", "21–95 µmol/L (neonate)"],
+        ["Serum bicarbonate", "15 mEq/L", "20–28 mEq/L"],
+        ["Anion gap", "19 mEq/L", "8–12 mEq/L"],
+        ["Urine ketones", "Large", "Negative"]
+      ],
+      "answers": {
+        "A": "Ammonia",
+        "B": "Fructose",
+        "C": "Leucine",
+        "D": "Phenylalanine",
+        "E": "Propionic acid"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ammonia is within the neonatal reference range here, arguing against a urea cycle defect, in which encephalopathy is accompanied by marked hyperammonemia and respiratory alkalosis.",
+        "B": "Fructose accumulates in hereditary fructose intolerance, which only becomes apparent after weaning introduces fruit or sucrose, and causes hypoglycemia rather than sweet-smelling cerumen.",
+        "C": "Maple syrup disease is caused by branched-chain ketoacid dehydrogenase deficiency, is enriched among Old Order Mennonites, and produces accumulation of leucine, isoleucine, and valine with encephalopathy at 4 to 7 days of age; leucine is the most damaging and is the species monitored clinically.",
+        "D": "Phenylalanine accumulation causes phenylketonuria, whose musty odor and intellectual disability appear over the first months rather than as fulminant day-5 encephalopathy.",
+        "E": "Propionic acidemia causes severe hyperammonemia, ketoacidosis, and cytopenias, but it does not produce maple-syrup-scented cerumen."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-014",
+      "question": "A 3-year-old girl with a mild variant of maple syrup disease requires a highly restrictive diet, tolerating only 400 mg of leucine per day. Her metabolic physician notes that the deficient enzyme is a mitochondrial multienzyme complex closely related to pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase, and begins a high-dose trial of the cofactor shared by all three. Over 3 months her leucine tolerance nearly doubles. Supplementation with which vitamin most likely produced this response?",
+      "answers": {
+        "A": "Biotin",
+        "B": "Cobalamin",
+        "C": "Pyridoxine",
+        "D": "Riboflavin",
+        "E": "Thiamine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Biotin is the cofactor for carboxylases such as pyruvate carboxylase and propionyl-CoA carboxylase, and its deficiency causes multiple carboxylase deficiency, not impaired branched-chain ketoacid oxidation.",
+        "B": "Cobalamin is required by methylmalonyl-CoA mutase and methionine synthase; supplementation helps responsive methylmalonic acidemia rather than maple syrup disease.",
+        "C": "Pyridoxine is the cofactor for transaminases and is used in homocystinuria and pyridoxine-dependent seizures, not for the ketoacid dehydrogenase step.",
+        "D": "Riboflavin gives rise to FAD used by many dehydrogenases and is trialed in multiple acyl-CoA dehydrogenase deficiency, but it is not the shared cofactor identified here.",
+        "E": "Thiamine pyrophosphate is the cofactor for branched-chain ketoacid dehydrogenase as well as for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, and transketolase, and some patients with maple syrup disease gain substantial branched-chain amino acid tolerance with supplemental thiamine."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-015",
+      "question": "An 8-month-old boy with maple syrup disease develops rotavirus gastroenteritis with 2 days of vomiting and poor oral intake. He is now lethargic with a high-pitched cry and ataxic limb movements, and his parents have been withholding all feeds. Laboratory studies are obtained on admission. Which of the following is the most appropriate management?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Plasma leucine", "2,050 µmol/L", "50–160 µmol/L"],
+        ["Plasma isoleucine", "24 µmol/L", "30–100 µmol/L"],
+        ["Plasma valine", "88 µmol/L", "120–320 µmol/L"],
+        ["Plasma alloisoleucine", "Present", "Absent"],
+        ["Blood glucose", "58 mg/dL", "70–99 mg/dL"],
+        ["Serum bicarbonate", "16 mEq/L", "22–28 mEq/L"]
+      ],
+      "answers": {
+        "A": "Complete elimination of all dietary protein for the next two weeks",
+        "B": "Intravenous dextrose with insulin, lipid, isoleucine, and valine",
+        "C": "Intravenous sodium benzoate and phenylacetate for nitrogen scavenging",
+        "D": "Oral sapropterin combined with a phenylalanine-restricted formula",
+        "E": "Prolonged fasting with intravenous normal saline for hydration"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Total protein elimination drives catabolism of endogenous protein, which releases more branched-chain amino acids and worsens the crisis; branched-chain amino acids are essential and must be provided in controlled amounts.",
+        "B": "Reversing catabolism with intravenous glucose, insulin, and lipid plus supplying the depleted isoleucine and valine promotes de novo protein synthesis, which consumes the excess leucine and lowers its plasma concentration.",
+        "C": "Nitrogen scavengers are used for hyperammonemia in urea cycle defects and do not remove leucine.",
+        "D": "Sapropterin and phenylalanine restriction treat phenylketonuria, a different disorder of amino acid metabolism.",
+        "E": "Fasting is specifically contraindicated in disorders of amino acid metabolism because it promotes the protein catabolism that precipitates and sustains metabolic crisis."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-016",
+      "question": "The parents of a 2-year-old boy with maple syrup disease ask why his prescribed formula still contains measured amounts of leucine, isoleucine, and valine when these are precisely the amino acids he cannot degrade. They have been tempted to eliminate them entirely. The metabolic dietitian explains that complete elimination would rapidly produce growth failure, skin breakdown, alopecia, and a paradoxical rise in plasma leucine. Which statement best explains why these amino acids cannot be removed from the diet?",
+      "answers": {
+        "A": "Branched-chain amino acids are essential and required for ongoing protein synthesis",
+        "B": "Branched-chain amino acids are the preferred oxidative fuel of the central nervous system",
+        "C": "Branched-chain ketoacids serve as the principal substrate for hepatic gluconeogenesis",
+        "D": "Muscle continuously releases branched-chain amino acids that dietary intake counterbalances",
+        "E": "Valine and isoleucine competitively inhibit intestinal absorption of dietary leucine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Leucine, isoleucine, and valine are essential amino acids that cannot be synthesized and must come from the diet for protein synthesis; withholding them causes catabolism of body protein, which releases even more branched-chain amino acids and raises plasma leucine.",
+        "B": "The brain relies on glucose and, during starvation, ketone bodies; branched-chain amino acids are not its preferred fuel.",
+        "C": "Branched-chain ketoacid oxidation yields acetyl-CoA, acetoacetate, and propionyl-CoA, and only the propionyl-CoA fraction is glucogenic, so they are not the principal gluconeogenic substrate.",
+        "D": "Muscle predominantly releases alanine and glutamine into the blood, not branched-chain amino acids, which is precisely why the diet is the main source.",
+        "E": "There is no therapeutic blockade of leucine absorption by the other branched-chain amino acids; the benefit of giving isoleucine and valine during crisis comes from enabling protein synthesis."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-017",
+      "question": "A 3-week-old boy born at home who never underwent newborn screening is brought in for vomiting since birth and failure to keep breast milk down. He is at the 50th percentile for length and the 10th percentile for weight. Examination shows jaundice, bilateral lens clouding, abdominal distention, and a liver edge 4 cm below the costal margin. Urine is positive for reducing substances but the urine dipstick for glucose is negative. Which enzyme deficiency best explains these findings?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Total bilirubin", "9.8 mg/dL", "< 2.0 mg/dL"],
+        ["Direct bilirubin", "4.4 mg/dL", "< 0.3 mg/dL"],
+        ["Alanine aminotransferase", "188 U/L", "10–40 U/L"],
+        ["Blood glucose", "54 mg/dL", "70–99 mg/dL"],
+        ["Prothrombin time", "19 s", "11–14 s"],
+        ["Urine reducing substances", "Positive", "Negative"],
+        ["Urine glucose (dipstick)", "Negative", "Negative"]
+      ],
+      "answers": {
+        "A": "Aldolase B",
+        "B": "Aldose reductase",
+        "C": "Fructokinase",
+        "D": "Galactokinase",
+        "E": "Galactose-1-phosphate uridyltransferase"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Aldolase B deficiency causes hereditary fructose intolerance, which is asymptomatic while an infant is exclusively breastfed and only appears when fructose or sucrose is introduced at weaning.",
+        "B": "Aldose reductase is the enzyme that generates galactitol and is not deficient in these disorders; its activity contributes to cataract formation rather than causing the systemic disease.",
+        "C": "Fructokinase deficiency causes essential fructosuria, a benign asymptomatic condition with no liver or lens involvement.",
+        "D": "Galactokinase deficiency causes isolated cataracts from galactitol accumulation but spares the liver and kidney because galactose-1-phosphate does not accumulate.",
+        "E": "Classic galactosemia results from galactose-1-phosphate uridyltransferase deficiency, in which galactose-1-phosphate accumulates after lactose feeding and causes vomiting, hepatomegaly with conjugated hyperbilirubinemia and coagulopathy, hemolysis, cataracts, and proximal tubular (Fanconi) dysfunction."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-018",
+      "question": "An 8-month-old boy is referred for a white pupillary reflex noted at a well-child visit; slit-lamp examination confirms bilateral lens opacities. He has fed on standard cow milk formula since birth without vomiting, jaundice, or hepatomegaly, and his growth and development are normal. Serum aminotransferases, bilirubin, and urinalysis for protein and amino acids are normal. Blood galactose is markedly elevated, but erythrocyte galactose-1-phosphate is normal. Which mechanism best explains his cataracts?",
+      "answers": {
+        "A": "Depletion of lens ATP by trapping of inorganic phosphate as sugar phosphates",
+        "B": "Deposition of crystalline galactose-1-phosphate between lens fiber cells",
+        "C": "Glycation of lens crystallin proteins by chronically elevated free galactose",
+        "D": "Osmotic accumulation of galactitol generated by aldose reductase in the lens",
+        "E": "Oxidation of lens crystallin proteins by polymerized homogentisic acid pigment"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Phosphate trapping with ATP depletion underlies the hepatic, renal, and neurologic damage of classic galactosemia, but this child's galactose-1-phosphate is normal and he has no multiorgan disease.",
+        "B": "Galactose-1-phosphate does not accumulate when galactokinase is deficient, since the block is upstream of its formation.",
+        "C": "Nonenzymatic glycation contributes to diabetic complications over years and does not explain cataracts appearing within months of life.",
+        "D": "Normal erythrocyte galactose-1-phosphate with high blood galactose and isolated cataracts indicates galactokinase deficiency, in which galactose is shunted through aldose reductase to galactitol, an osmotically active polyol that accumulates in the lens.",
+        "E": "Homogentisic acid pigment is the hallmark of alkaptonuria and deposits in cartilage and sclera in adulthood, not in the infant lens."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-019",
+      "question": "A 28-year-old man requests genetic counseling before starting a family. His younger sister was diagnosed with classic galactosemia in the newborn period and has been on a galactose-restricted diet since. He himself has never had symptoms and tolerates dairy products normally, and targeted molecular testing has not been performed. Both parents are healthy and unrelated. Classic galactosemia occurs in approximately 1 in 40,000 newborns. What is the probability that this man is a heterozygous carrier?",
+      "answers": {
+        "A": "1 in 4",
+        "B": "1 in 3",
+        "C": "1 in 2",
+        "D": "2 in 3",
+        "E": "3 in 4"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "1 in 4 is the probability that an offspring of two carriers has two normal alleles, but this must be renormalized once affected status is excluded.",
+        "B": "1 in 3 is the probability that this man transmits a disease allele to a child (2/3 carrier probability times 1/2 transmission), not the probability that he is a carrier.",
+        "C": "1 in 2 is the unconditional carrier probability for the offspring of two carriers before knowing that this man is unaffected.",
+        "D": "Because both parents must be carriers, the offspring probabilities are 1/4 affected, 1/2 carrier, and 1/4 homozygous normal; removing the affected possibility leaves 1/2 divided by 3/4, which equals a 2/3 chance that this unaffected brother is a carrier.",
+        "E": "3 in 4 is the fraction of offspring of two carriers who are unaffected, which is the denominator used in the calculation rather than the answer."
+      }
+    },
+    {
+      "id": "neuro-inborn-errors-of-metabolism-affecting-the-brain-020",
+      "question": "A previously healthy 7-month-old girl is brought to the emergency department after vomiting and becoming pale and diaphoretic within an hour of being given pureed pears for the first time. She had been exclusively breastfed and was thriving. Examination shows tachypnea, cool clammy skin, and lethargy. She improves promptly with intravenous dextrose. Urine is positive for reducing substances but negative on the glucose oxidase dipstick. Which mechanism best explains her hypoglycemia?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Blood glucose", "41 mg/dL", "70–99 mg/dL"],
+        ["Serum phosphate", "1.6 mg/dL", "4.5–6.5 mg/dL (infant)"],
+        ["Serum lactate", "6.4 mmol/L", "0.5–2.2 mmol/L"],
+        ["Serum uric acid", "9.2 mg/dL", "2.0–5.5 mg/dL"],
+        ["Serum bicarbonate", "13 mEq/L", "22–28 mEq/L"],
+        ["Urine reducing substances", "Positive", "Negative"]
+      ],
+      "answers": {
+        "A": "Fructose-1-phosphate trapping depletes phosphate and blocks glycogenolysis",
+        "B": "Galactose-1-phosphate accumulation directly inhibits hepatic phosphoglucomutase",
+        "C": "Impaired GLUT5-mediated uptake deprives hepatocytes of fructose as a substrate",
+        "D": "Insulin hypersecretion is triggered by direct fructose stimulation of beta cells",
+        "E": "Unregulated fructokinase activity consumes the hepatic acetyl-CoA pool"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Aldolase B deficiency (hereditary fructose intolerance) allows fructose-1-phosphate to accumulate after fructose ingestion, sequestering inorganic phosphate; the resulting hypophosphatemia and ATP depletion inhibit glycogenolysis and gluconeogenesis, producing hypoglycemia, lactic acidosis, and hyperuricemia from AMP degradation.",
+        "B": "Galactosemia presents with lactose exposure from birth rather than at weaning, and its injury also stems from phosphate trapping rather than direct phosphoglucomutase inhibition.",
+        "C": "GLUT5 defects would prevent fructose absorption and cause osmotic diarrhea, not acute hypoglycemia with lactic acidosis after fructose exposure.",
+        "D": "Fructose is a weak insulin secretagogue; the hypoglycemia here is hepatic in origin and is confirmed by the lactic acidosis and hypophosphatemia.",
+        "E": "Fructokinase is indeed unregulated, but it consumes ATP and phosphate rather than acetyl-CoA, and isolated fructokinase deficiency causes benign essential fructosuria."
+      }
+    }
+  ]
+}

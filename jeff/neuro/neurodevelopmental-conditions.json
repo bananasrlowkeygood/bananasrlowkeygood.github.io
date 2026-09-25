@@ -1,0 +1,505 @@
+{
+  "lecture": "Neurodevelopmental Conditions",
+  "block": "neuro",
+  "generated": "2026-09-25",
+  "questions": [
+    {
+      "id": "neuro-neurodevelopmental-conditions-001",
+      "question": "A 19-year-old man with myelomeningocele diagnosed at birth is seen for a transition-of-care visit. He uses a wheelchair for all mobility, requires a caregiver for bathing and dressing, performs clean intermittent catheterization only with assistance, and receives job coaching because he cannot manage money or hold employment without support. His expressive language is limited by a chronic tracheostomy. Formal neuropsychological testing performed last year showed a full-scale IQ of 88 with adaptive reasoning in the low-average range. Which of the following best classifies this patient's condition?",
+      "answers": {
+        "A": "Both developmental disability and intellectual disability",
+        "B": "Developmental disability without intellectual disability",
+        "C": "Intellectual disability without developmental disability",
+        "D": "Learning disability without developmental disability",
+        "E": "Neither developmental nor intellectual disability"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Intellectual disability requires significantly reduced ability to understand complex information and learn new skills; an IQ of 88 with low-average reasoning does not meet that threshold.",
+        "B": "Correct. Developmental disability requires a severe chronic disability with onset before age 22 that is likely to continue indefinitely and limits three or more major life activities (here mobility, self-care, expressive language, and economic self-sufficiency), and intellectual disability is a subset that this patient does not meet.",
+        "C": "This reverses the relationship; intellectual disability is a subset of developmental disability, and his cognitive testing is not in the impaired range.",
+        "D": "A learning disability is a circumscribed academic skill deficit and does not account for his mobility, self-care, and communication limitations.",
+        "E": "His functional limitations began before age 22, are permanent, and affect more than three areas of life activity, which satisfies the definition of developmental disability."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-002",
+      "question": "A 6-year-old boy who was adopted from foster care at age 2 is evaluated for poor school performance and impulsivity. Testing shows a full-scale IQ of 62 with deficits in adaptive functioning. He is at the 3rd percentile for height and weight and has an occipitofrontal circumference below the 2nd percentile. Examination shows short palpebral fissures, a smooth philtrum, and a thin vermilion border. Chromosomal microarray and fragile X testing are normal. Records indicate his birth mother had multiple alcohol-related hospitalizations during the pregnancy. Which of the following is the most likely cause of this boy's intellectual disability?",
+      "answers": {
+        "A": "Congenital cytomegalovirus infection",
+        "B": "Down syndrome",
+        "C": "Fetal alcohol syndrome",
+        "D": "Fragile X syndrome",
+        "E": "Untreated congenital hypothyroidism"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Congenital CMV typically causes sensorineural hearing loss, periventricular calcifications, and chorioretinitis rather than the characteristic midfacial triad seen here.",
+        "B": "Down syndrome produces a flattened nasal bridge, upslanting palpebral fissures, and Brushfield spots, and it would have been detected on chromosomal microarray.",
+        "C": "Correct. Fetal alcohol syndrome is the most common acquired cause of intellectual disability, and the triad of short palpebral fissures, smooth philtrum, and thin vermilion border with growth restriction and microcephaly is diagnostic in the setting of prenatal alcohol exposure.",
+        "D": "Fragile X syndrome is the most common inherited cause of intellectual disability, but it produces a long face, large cupped ears, and macroorchidism, and testing was normal here.",
+        "E": "Untreated congenital hypothyroidism causes coarse features, umbilical hernia, and macroglossia, and it is essentially eliminated by universal newborn screening."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-003",
+      "question": "A 31-month-old boy born at 30 weeks of gestation by urgent cesarean delivery for non-reassuring fetal heart tracings is brought in for a well-child visit. He required positive pressure ventilation and epinephrine at delivery and underwent therapeutic hypothermia in the neonatal intensive care unit. He sat at 12 months and spoke his first word at 18 months, and he still needs help to walk and cannot use a spoon. He makes eye contact, smiles appropriately, is affectionate with his mother, and is very interested in other children; he is not bothered by changes in routine and has no repetitive self-soothing behaviors. Examination shows toe walking with support, increased tone in both lower extremities, brisk patellar reflexes, bilateral ankle clonus, and normal muscle bulk. Which of the following is the most likely underlying diagnosis?",
+      "answers": {
+        "A": "Autism spectrum disorder",
+        "B": "Cerebral palsy",
+        "C": "Down syndrome",
+        "D": "Duchenne muscular dystrophy",
+        "E": "Fragile X syndrome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Autism spectrum disorder is excluded by his preserved eye contact, social reciprocity, interest in peers, and absence of restricted or repetitive behaviors.",
+        "B": "Correct. Spastic cerebral palsy is a nonprogressive motor disorder caused by perinatal brain injury, and his prematurity, asphyxia requiring cooling, hypertonia, hyperreflexia, clonus, and toe walking with impaired fine motor function fit this diagnosis.",
+        "C": "Down syndrome presents with hypotonia rather than spasticity, along with characteristic facial features that are absent here.",
+        "D": "Duchenne muscular dystrophy causes proximal weakness with calf pseudohypertrophy and diminished reflexes, not increased tone with clonus.",
+        "E": "Fragile X syndrome causes intellectual disability with large cupped ears, a long face, and macroorchidism, and it is not associated with spasticity or ankle clonus."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-004",
+      "question": "A 4-year-old girl born at 27 weeks of gestation is evaluated for an abnormal gait. Her parents report she walked at 26 months and frequently trips. She speaks in full sentences, names colors, and attends a mainstream preschool without academic concerns. Examination shows increased tone and brisk reflexes in both lower extremities with sustained ankle clonus, scissoring of the legs and toe walking, and normal tone, strength, coordination, and reflexes in both upper extremities. There is no dystonia, chorea, or truncal ataxia, and her deficits have not worsened over the past year. Which of the following best describes this patient's condition?",
+      "answers": {
+        "A": "Ataxic cerebral palsy",
+        "B": "Dyskinetic cerebral palsy",
+        "C": "Mixed cerebral palsy",
+        "D": "Spastic diplegic cerebral palsy",
+        "E": "Spastic hemiplegic cerebral palsy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Ataxic cerebral palsy is characterized by poor coordination, dysmetria, and a wide-based unsteady gait rather than hypertonia and clonus.",
+        "B": "Dyskinetic cerebral palsy produces uncontrollable involuntary movements such as dystonia or choreoathetosis, which are explicitly absent here.",
+        "C": "Mixed cerebral palsy requires features of more than one movement disorder type, but this girl has pure spasticity.",
+        "D": "Correct. Spasticity is the most common movement pattern in cerebral palsy (about 80% of cases), and symmetric lower extremity involvement with spared upper extremities in a former 27-week preterm infant defines the diplegic pattern.",
+        "E": "Hemiplegic cerebral palsy affects the arm and leg on one side of the body, whereas this patient's findings are bilateral and symmetric."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-005",
+      "question": "A 24-year-old woman with spastic quadriplegic cerebral palsy and intellectual disability is brought to the emergency department by her group home staff for 2 days of intermittent crying, refusal to eat, and self-injurious head banging. The emergency physician documents that the behaviors are chronic manifestations of her developmental disability, performs no abdominal examination or laboratory testing, and discharges her with a recommendation for behavioral therapy. She returns 48 hours later with peritonitis from a perforated appendix. Which of the following best describes the reasoning error that occurred at the first visit?",
+      "answers": {
+        "A": "Anchoring on an abnormal vital sign recorded during triage",
+        "B": "Availability bias from recently seen similar patients",
+        "C": "Confirmation bias in the interpretation of laboratory data",
+        "D": "Diagnostic overshadowing attributing symptoms to her disability",
+        "E": "Premature closure following an incorrect specialist consultation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anchoring requires fixation on an early piece of data such as a vital sign, but no abnormal vital sign drove this physician's reasoning.",
+        "B": "Availability bias reflects overweighting recently encountered diagnoses, which was not described in this encounter.",
+        "C": "Confirmation bias involves selectively interpreting test results to support a favored diagnosis, yet no laboratory studies were obtained.",
+        "D": "Correct. Diagnostic overshadowing occurs when a clinician attributes nonspecific symptoms to a patient's underlying disability and halts further diagnostic investigation, and patients with physical disability, intellectual and developmental disability, or mental illness are at highest risk.",
+        "E": "Premature closure follows accepting a diagnosis before verification, but here no consultant was involved and the error was rooted in the disability itself."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-006",
+      "question": "A 9-year-old boy with spastic quadriplegic cerebral palsy and a ventriculoperitoneal shunt placed in infancy for hydrocephalus is brought in for 2 days of morning headache and repeated vomiting. His mother reports he is sleeping far more than usual and is difficult to arouse for school. He is afebrile, and his oral baclofen has not been changed. Examination shows a somnolent boy with his baseline spasticity, an abdomen that is soft and nondistended, and normal urinalysis obtained earlier that day. Fundoscopic examination reveals blurring of the optic disc margins. Which of the following is the most likely cause of his presentation?",
+      "answers": {
+        "A": "Baclofen withdrawal from an interrupted dose",
+        "B": "Constipation with abdominal distention and pain",
+        "C": "Gastroesophageal reflux with esophagitis",
+        "D": "Urinary tract infection with pyelonephritis",
+        "E": "Ventriculoperitoneal shunt malfunction"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Baclofen withdrawal causes increased spasticity, hyperthermia, hypertension, and tachycardia rather than papilledema, and his regimen is unchanged.",
+        "B": "Constipation is a common cause of behavior change in cerebral palsy but would not produce papilledema, and his abdomen is soft and nondistended.",
+        "C": "Reflux esophagitis causes arching, feeding refusal, and pain behaviors, not progressive lethargy with optic disc swelling.",
+        "D": "A urinary tract infection should always be considered with a change in tone or behavior, but his urinalysis is normal and he is afebrile.",
+        "E": "Correct. Shunt failure is a medical emergency, and the red-flag triad of headache, vomiting, and lethargy with papilledema indicates raised intracranial pressure requiring emergent neurosurgical evaluation and imaging."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-007",
+      "question": "A 16-year-old boy with dyskinetic and spastic cerebral palsy has an intrathecal baclofen pump that was due for refill 3 days ago; the appointment was missed. Over the past 24 hours he has become agitated and confused, and his caregivers report that his limbs have become markedly stiffer than his baseline, with painful spasms. He takes no antipsychotics, antidepressants, or other new medications, and there is no history of seizures. Examination shows diaphoresis, severe generalized rigidity, and no clonic activity; the pump reservoir is empty on interrogation. His vital signs are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "39.4 C (102.9 F)",
+          "36.5-37.5 C"
+        ],
+        [
+          "Heart rate",
+          "132/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "158/96 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Respiratory rate",
+          "26/min",
+          "12-20/min"
+        ],
+        [
+          "Creatine kinase",
+          "820 U/L",
+          "30-200 U/L"
+        ]
+      ],
+      "correct": "A",
+      "answers": {
+        "A": "Baclofen withdrawal",
+        "B": "Neuroleptic malignant syndrome",
+        "C": "Sepsis from a urinary source",
+        "D": "Serotonin syndrome",
+        "E": "Status epilepticus"
+      },
+      "explanations": {
+        "A": "Correct. Abrupt interruption of intrathecal baclofen is a medical emergency producing altered mental status, rebound spasticity, hyperthermia, hypertension, tachycardia, and seizures, and the empty reservoir with a missed refill is the pivotal clue.",
+        "B": "Neuroleptic malignant syndrome requires exposure to a dopamine antagonist, and this patient takes no antipsychotic medication.",
+        "C": "Urosepsis should be considered with any change in tone or behavior, but it does not cause hypertension with abrupt rebound rigidity tied to an empty pump reservoir.",
+        "D": "Serotonin syndrome requires serotonergic drug exposure and typically features clonus, hyperreflexia, and diarrhea rather than an empty baclofen reservoir.",
+        "E": "Status epilepticus involves sustained or recurrent seizure activity, and no clonic movements or postictal state are described."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-008",
+      "question": "A 12-year-old girl with spastic quadriplegic cerebral palsy underwent an upward dose adjustment of her intrathecal baclofen pump yesterday. Six hours after the change she became progressively sleepier, and she is now unresponsive to voice. Her caregiver reports no fever, trauma, or missed medications, and she has no ventriculoperitoneal shunt. Examination shows flaccid tone in all four extremities with absent deep tendon reflexes, shallow respirations, and pinpoint pupils are absent. Fingerstick glucose is 94 mg/dL. Her vital signs are shown. Which of the following is the most appropriate immediate management?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "35.2 C (95.4 F)",
+          "36.5-37.5 C"
+        ],
+        [
+          "Heart rate",
+          "46/min",
+          "60-100/min"
+        ],
+        [
+          "Blood pressure",
+          "84/48 mm Hg",
+          "90-120/60-80 mm Hg"
+        ],
+        [
+          "Respiratory rate",
+          "8/min",
+          "12-20/min"
+        ],
+        [
+          "Oxygen saturation",
+          "88% on room air",
+          ">94%"
+        ]
+      ],
+      "answers": {
+        "A": "Administer intravenous flumazenil",
+        "B": "Administer intravenous naloxone",
+        "C": "Obtain an emergent noncontrast head CT scan",
+        "D": "Secure the airway and stop the pump infusion",
+        "E": "Start dantrolene with active cooling measures immediately"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Flumazenil reverses benzodiazepine toxicity and has no effect at the GABA-B receptor targeted by baclofen.",
+        "B": "Naloxone reverses opioid toxicity, and there is no opioid exposure and no miosis in this patient.",
+        "C": "Head imaging would be indicated for suspected shunt malfunction or raised intracranial pressure, but she has no shunt and her hypotonia and bradycardia point to drug toxicity.",
+        "D": "Correct. Intrathecal baclofen overdose causes coma, respiratory depression, hypotonia, bradycardia, and hypothermia, and management is airway and hemodynamic support with immediate cessation of the pump infusion.",
+        "E": "Dantrolene and cooling treat malignant hyperthermia or the hyperthermia of baclofen withdrawal, the opposite of this hypothermic, hypotonic presentation."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-009",
+      "question": "A 14-year-old nonverbal girl with spastic quadriplegic cerebral palsy is brought in by her mother for 1 week of increased irritability, frequent nighttime awakening, and grimacing during transfers. Her mother reports that her legs have become noticeably harder to straighten during diaper changes and dressing. There have been no medication changes, no recent illnesses, and no shunt in place. She is afebrile with normal vital signs, and her examination shows her baseline hypertonia without focal neurologic change and a mildly firm, nontender abdomen. Which of the following is the most appropriate initial step in evaluation?",
+      "answers": {
+        "A": "Increase the oral baclofen dose",
+        "B": "Obtain a urinalysis and abdominal radiograph",
+        "C": "Order an electroencephalogram",
+        "D": "Refer for psychiatric behavioral evaluation",
+        "E": "Start a trial of low-dose risperidone therapy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Escalating baclofen treats the symptom of increased tone while leaving an unidentified noxious trigger untreated, and it risks sedation and hypotonia.",
+        "B": "Correct. In a patient with cerebral palsy who cannot report symptoms, a change in tone, mood, or behavior should raise heightened suspicion for urinary tract infection and constipation, which are screened for with urinalysis and an abdominal radiograph.",
+        "C": "An EEG is warranted for stereotyped paroxysmal events suggesting seizures, which are not described here.",
+        "D": "Psychiatric referral before excluding medical causes is a form of diagnostic overshadowing and delays treatment of a reversible problem.",
+        "E": "Antipsychotics sedate the patient and mask the behavioral signal without addressing the underlying pain source."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-010",
+      "question": "An 8-year-old girl with Down syndrome, treated hypothyroidism, and surgically managed obstructive sleep apnea is brought in by her parent. She has historically been social and enjoyed basketball and dance, but over the past 2 months she avoids crowded settings, has stopped keeping up in dance class, rubs her ears in noisy environments, speaks at a louder volume, and becomes upset when corrected. In the office she is pleasant, tolerates a full examination including her face and ears, and maintains normal eye contact. When the physician turns away from her and asks a question quietly, she does not respond. Recent thyroid studies were normal. Which of the following is the most likely cause of her new behaviors?",
+      "answers": {
+        "A": "Anxiety disorder",
+        "B": "Autism spectrum disorder",
+        "C": "Conductive hearing loss",
+        "D": "Early-onset Alzheimer disease",
+        "E": "Recurrent obstructive sleep apnea"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anxiety could explain avoidance of crowds but not the increased vocal volume or the failure to respond when the examiner's face is turned away.",
+        "B": "Autism spectrum disorder is more common in Down syndrome but is a lifelong condition with early onset, not a new change at age 8 in a previously social child.",
+        "C": "Correct. Conductive hearing loss affects 25-70% of individuals with Down syndrome, and ear rubbing, louder speech, withdrawal from noisy activities, and failure to respond without visual cues should prompt audiology referral.",
+        "D": "Alzheimer disease in Down syndrome does not present in childhood; pathology typically appears by about age 40 and clinical dementia later.",
+        "E": "Recurrent sleep apnea would cause daytime sleepiness, snoring, and inattention rather than selective failure to hear speech from behind."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-011",
+      "question": "A 3-year-old boy with Down syndrome is brought in for a health supervision visit. His parents report that over the past 6 months he has become less active, sleeps more, and has had hard stools every third day. His weight has increased from the 60th to the 85th percentile for age while his linear growth velocity has fallen across two percentile lines. Examination shows dry skin, coarse hair, a protuberant abdomen, and delayed relaxation of the ankle reflexes. Celiac serology is negative and a recent echocardiogram was normal. Laboratory results are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "48 microU/mL",
+          "0.5-4.5 microU/mL"
+        ],
+        [
+          "Free T4",
+          "0.4 ng/dL",
+          "0.9-1.7 ng/dL"
+        ],
+        [
+          "Thyroid peroxidase antibody",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "Hemoglobin",
+          "11.4 g/dL",
+          "11.0-14.0 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Begin levothyroxine replacement therapy",
+        "B": "Measure an early morning serum cortisol",
+        "C": "Obtain lateral cervical spine radiographs",
+        "D": "Order overnight polysomnography now",
+        "E": "Repeat celiac serology in twelve months"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thyroid disease affects 13-63% of individuals with Down syndrome, and an elevated TSH with a low free T4 and positive antibodies confirms autoimmune primary hypothyroidism requiring levothyroxine.",
+        "B": "Adrenal insufficiency causes hyponatremia, hyperpigmentation, and hypotension rather than a markedly elevated TSH with low free T4.",
+        "C": "Cervical spine imaging evaluates atlantoaxial instability, which presents with neck pain, torticollis, and myelopathic signs, none of which are present.",
+        "D": "Polysomnography is recommended for all children with Down syndrome by age 4 but does not address his confirmed biochemical hypothyroidism.",
+        "E": "Repeat celiac testing is reasonable surveillance but would not explain the abnormal thyroid studies driving his symptoms now."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-012",
+      "question": "A 2-year-old girl with Down syndrome is brought in for 3 weeks of progressive pallor, fatigue, and easy bruising. As a newborn she had a leukocytosis with circulating blasts that resolved spontaneously by 8 weeks of age without treatment. She has had no fevers, weight loss, or recent infections. Examination shows scattered petechiae over the shins, pallor of the conjunctivae, and a spleen tip palpable 3 cm below the costal margin. Peripheral smear shows 32% blasts with cytoplasmic granules and Auer rods. Laboratory results are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Leukocyte count",
+          "24,000/mm3",
+          "5,000-15,000/mm3"
+        ],
+        [
+          "Hemoglobin",
+          "6.9 g/dL",
+          "11.0-14.0 g/dL"
+        ],
+        [
+          "Platelet count",
+          "24,000/mm3",
+          "150,000-400,000/mm3"
+        ],
+        [
+          "Blasts (peripheral smear)",
+          "32%",
+          "0%"
+        ]
+      ],
+      "answers": {
+        "A": "Acute myeloid leukemia",
+        "B": "Aplastic anemia",
+        "C": "Immune thrombocytopenic purpura",
+        "D": "Iron deficiency anemia",
+        "E": "Transient abnormal myelopoiesis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Children with Down syndrome have roughly a 150-fold increased risk of acute myeloid leukemia before age 4, and it is frequently preceded by neonatal transient myeloproliferative disease, as in this child with blasts bearing Auer rods.",
+        "B": "Aplastic anemia produces pancytopenia with a hypocellular marrow and no circulating blasts or organomegaly.",
+        "C": "Immune thrombocytopenic purpura causes isolated thrombocytopenia with a normal hemoglobin and leukocyte count.",
+        "D": "Iron deficiency anemia causes microcytic anemia without blasts, thrombocytopenia, or splenomegaly.",
+        "E": "Transient abnormal myelopoiesis is a neonatal phenomenon that resolves within the first months of life, and it has already resolved in this 2-year-old."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-013",
+      "question": "A 10-year-old boy with Down syndrome is brought in because he wishes to join a gymnastics program. Over the past month his parents have noticed that he tilts his head to the left, complains of neck pain when picked up, has become clumsier on the stairs, and has begun wetting himself during the day after years of continence. Examination shows torticollis, an unsteady gait, 3+ patellar reflexes with bilateral ankle clonus, and bilateral extensor plantar responses. Upper extremity strength is preserved. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Obtain lateral cervical spine radiographs",
+        "B": "Order nerve conduction studies of the legs",
+        "C": "Perform contrast-enhanced brain MRI imaging",
+        "D": "Recommend physical therapy and reassess in 3 months",
+        "E": "Start gabapentin for presumed neuropathic pain"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Atlantoaxial instability is a classic complication of Down syndrome, and new neck pain, torticollis, gait change, incontinence, and upper motor neuron signs indicate symptomatic cervical cord compression that requires cervical spine imaging before any athletic clearance.",
+        "B": "Nerve conduction studies evaluate peripheral neuropathy, which would produce hyporeflexia rather than clonus and extensor plantar responses.",
+        "C": "Brain imaging would not explain a myelopathic pattern with preserved upper extremity strength and neck pain localizing to the cervical spine.",
+        "D": "Deferring evaluation risks progressive and potentially irreversible spinal cord injury in a child with red-flag myelopathic findings.",
+        "E": "Gabapentin treats neuropathic pain symptomatically and would mask an urgent structural cause of cord compression."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-014",
+      "question": "A 46-year-old man with Down syndrome is brought in by his group home staff for 1 year of decline. He previously worked independently at a grocery store but now needs prompting for every task, has become apathetic and socially withdrawn, and has recently become incontinent of urine. Staff report he has difficulty initiating walking, shuffles, has trouble making turns, and now refuses to use stairs. Three weeks ago he had a witnessed generalized tonic-clonic seizure, his first ever. TSH, vitamin B12, and a depression screen are unremarkable, and audiology testing is stable. Which of the following genetic mechanisms best explains his current condition?",
+      "answers": {
+        "A": "Loss-of-function mutation in the MECP2 gene",
+        "B": "Meiotic nondisjunction of chromosome 18",
+        "C": "Point mutation in the presenilin-1 gene sequence",
+        "D": "Trinucleotide CGG repeat expansion in FMR1",
+        "E": "Triplication of the APP gene on chromosome 21"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "MECP2 loss-of-function mutations cause Rett syndrome, a disorder of young girls featuring regression with loss of purposeful hand use.",
+        "B": "Nondisjunction of chromosome 18 causes Edwards syndrome, which presents in the newborn period rather than with midlife dementia.",
+        "C": "Presenilin-1 mutations cause autosomal dominant early-onset Alzheimer disease but are unrelated to the trisomy 21 mechanism operating in this patient.",
+        "D": "CGG repeat expansion in FMR1 causes fragile X syndrome, and the related premutation tremor-ataxia syndrome features intention tremor and cerebellar ataxia, not this pattern.",
+        "E": "Correct. An extra copy of chromosome 21 triples the APP gene, driving early amyloid accumulation, and his gait dyspraxia, incontinence, apathy, functional decline, and new-onset seizure at age 46 are characteristic of Alzheimer disease in Down syndrome."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-015",
+      "question": "A 26-year-old woman with Down syndrome is brought in by her mother for 4 months of change. She has stopped attending her supported-employment job, no longer initiates conversation with housemates, sleeps excessively, and has abandoned the bowling league she loved. Her mother read that people with Down syndrome develop Alzheimer disease and asks whether this is beginning. On examination she is quiet with restricted affect but has no gait abnormality, no incontinence, and no focal neurologic findings. She takes no medications and has had no recent change in her living situation reported by the group home. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Begin donepezil therapy for early Alzheimer disease",
+        "B": "Evaluate for depression, hypothyroidism, and hearing loss",
+        "C": "Obtain amyloid PET imaging of the brain",
+        "D": "Reassure the family that dementia is expected at her age now",
+        "E": "Refer the patient to hospice and palliative care"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cholinesterase inhibitors would treat a diagnosis she almost certainly does not have and would leave a reversible cause untreated.",
+        "B": "Correct. Alzheimer disease does not present in a 20- or 30-year-old with Down syndrome, so apathy and functional decline at this age demand evaluation for depression, thyroid disease, hearing loss, sleep apnea, and other medical or psychosocial causes.",
+        "C": "Amyloid imaging is not indicated before reversible causes are excluded and would be misleading given the near-universal amyloid pathology in Down syndrome.",
+        "D": "Reassuring that dementia is expected at 26 years of age is factually wrong and is a form of diagnostic overshadowing.",
+        "E": "Hospice referral is inappropriate for a young adult with a potentially reversible and treatable condition."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-016",
+      "question": "A 5-year-old boy is evaluated for global developmental delay and behaviors that meet criteria for autism spectrum disorder. He has recurrent otitis media, difficulty falling asleep with frequent nighttime arousals, and motor tics. Examination shows a long narrow face, midface hypoplasia, a high arched palate, large cupped protruding ears, testicular volumes well above the expected range for age, and a mid-systolic click on cardiac auscultation. His maternal grandfather developed a late-onset intention tremor with ataxia, and his mother had cessation of menses at age 37 years. Which of the following is the molecular basis of this boy's condition?",
+      "answers": {
+        "A": "Deletion of the paternal 15q11-q13 region",
+        "B": "Expansion of a CGG repeat in the FMR1 gene",
+        "C": "Loss-of-function mutation in the MECP2 gene",
+        "D": "Meiotic nondisjunction producing trisomy 21",
+        "E": "Point mutation in the dystrophin gene locus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Paternal 15q11-q13 deletion causes Prader-Willi syndrome with hyperphagia, obesity, and hypogonadism rather than macroorchidism.",
+        "B": "Correct. Fragile X syndrome results from more than 200 CGG repeats in FMR1, and the long face, midface hypoplasia, arched palate, large cupped ears, macroorchidism, mitral valve prolapse, and autism, together with premutation-related ataxia and premature ovarian insufficiency in relatives, confirm the diagnosis.",
+        "C": "MECP2 loss-of-function mutations cause Rett syndrome, which affects girls and features regression with stereotypic hand movements.",
+        "D": "Trisomy 21 causes Down syndrome with a flattened facies, upslanting palpebral fissures, and hypotonia, not macroorchidism.",
+        "E": "Dystrophin mutations cause Duchenne muscular dystrophy, a progressive myopathy without these dysmorphic features."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-017",
+      "question": "A 38-year-old woman is referred after 14 months of amenorrhea and elevated follicle-stimulating hormone consistent with primary ovarian insufficiency. She has normal intelligence, works as an accountant, and has no dysmorphic features. Her 4-year-old nephew has intellectual disability with autism and large cupped ears. Targeted molecular testing of her FMR1 gene reports 120 CGG repeats on one allele and 29 repeats on the other, with no abnormal methylation of the expanded allele. Which of the following best characterizes this patient's FMR1 result?",
+      "answers": {
+        "A": "Full mutation allele causing fragile X syndrome",
+        "B": "Intermediate allele without clinical consequence",
+        "C": "Normal-range allele of fewer than 45 repeats",
+        "D": "Premutation allele in the 55-200 repeat range",
+        "E": "Somatic mosaicism for two full mutation alleles"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A full mutation requires more than 200 CGG repeats with methylation and gene silencing, which is not present at 120 unmethylated repeats.",
+        "B": "Intermediate or gray-zone alleles fall roughly between 45 and 54 repeats and do not confer the premutation-associated phenotypes seen here.",
+        "C": "Normal alleles contain fewer than about 45 repeats, matching her second allele of 29 but not the expanded one.",
+        "D": "Correct. Fragile X carriers have 55-200 CGG repeats, and premutation carriers are at risk for primary ovarian insufficiency and for expansion to a full mutation in offspring, as occurred in the affected nephew's branch of the family.",
+        "E": "Mosaicism would require detection of a methylated allele greater than 200 repeats in a subset of cells, which the report explicitly excludes."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-018",
+      "question": "A 30-month-old girl is brought in for loss of skills. She babbled, spoke about 15 single words, and fed herself with a spoon by 15 months of age. Beginning at about 20 months she stopped speaking, lost the ability to grasp objects purposefully, and became unsteady when walking. Her parents now report almost constant midline hand wringing and hand-to-mouth movements, along with episodes of breath holding followed by rapid breathing while awake. Serial measurements show deceleration of head growth from the 50th percentile at 6 months to the 5th percentile now. Chromosomal microarray is normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Angelman syndrome",
+        "B": "Autism spectrum disorder",
+        "C": "Fragile X syndrome",
+        "D": "Landau-Kleffner syndrome",
+        "E": "Rett syndrome"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Angelman syndrome causes severe speech impairment with an ataxic gait and inappropriate laughter, but it lacks true regression with loss of purposeful hand use, and microarray would typically detect the 15q11-q13 deletion.",
+        "B": "Autism spectrum disorder can involve early language regression but spares purposeful hand use and does not cause acquired microcephaly with stereotypic hand wringing.",
+        "C": "Fragile X syndrome predominantly affects boys and causes static developmental delay rather than loss of previously acquired hand and language skills.",
+        "D": "Landau-Kleffner syndrome causes acquired auditory verbal agnosia with epileptiform discharges in older children and does not affect hand function or head growth.",
+        "E": "Correct. Rett syndrome results from loss-of-function MECP2 mutations on the X chromosome, affects about 1 in 10,000 girls, and classically shows subtle delay and hypotonia before age 2 followed by regression with loss of language and hand function, impaired gait, and stereotypic hand movements."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-019",
+      "question": "A newborn girl is delivered at 37 weeks of gestation to a 29-year-old woman who received no prenatal care. Examination shows a bilateral cleft lip and palate, small globes bilaterally, an extra digit lateral to the fifth finger on each hand, and a 2-cm punched-out scalp defect at the vertex with absent skin. Cardiac examination reveals a harsh holosystolic murmur, and an abdominal wall defect covered by a membranous sac is present at the umbilicus. Head ultrasonography shows a single fused midline ventricle with absent interhemispheric fissure. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Down syndrome",
+        "B": "Edwards syndrome",
+        "C": "Patau syndrome",
+        "D": "Smith-Lemli-Opitz syndrome",
+        "E": "Turner syndrome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Down syndrome features hypotonia, a flat nasal bridge, upslanting palpebral fissures, and Brushfield spots, without holoprosencephaly or cutis aplasia.",
+        "B": "Edwards syndrome (trisomy 18) causes a prominent occiput, micrognathia, low-set ears, and clenched fists with overlapping fingers rather than midline facial clefting and polydactyly.",
+        "C": "Correct. Patau syndrome (trisomy 13) arises from a third copy of chromosome 13 and reflects failed fusion of prechordal mesoderm producing midline defects, with holoprosencephaly, cleft lip and palate, microphthalmia, polydactyly, cutis aplasia, congenital heart disease, and omphalocele.",
+        "D": "Smith-Lemli-Opitz syndrome causes microcephaly, ptosis, and 2-3 toe syndactyly with low cholesterol, not postaxial polydactyly with cutis aplasia.",
+        "E": "Turner syndrome presents in phenotypic females with lymphedema, a webbed neck, and left-sided obstructive cardiac lesions such as coarctation."
+      }
+    },
+    {
+      "id": "neuro-neurodevelopmental-conditions-020",
+      "question": "A male newborn is delivered at 35 weeks of gestation after a prenatal diagnosis of trisomy 18 made following a positive aneuploidy screen, genetic counseling, and confirmatory testing. Examination shows a prominent occiput, micrognathia, low-set ears, clenched fists with overlapping second and fifth fingers, and rocker-bottom feet. Echocardiography demonstrates a large ventricular septal defect. In the neonatal intensive care unit the parents ask what care their son can receive and what they should expect. Which of the following best reflects current American Academy of Pediatrics guidance?",
+      "answers": {
+        "A": "Defer all care decisions until the infant reaches 1 month",
+        "B": "Offer comfort care only, because survival past infancy is impossible",
+        "C": "Provide evidence-based options and offer comfort care resources",
+        "D": "Recommend immediate surgical repair of the septal defect for all",
+        "E": "Withhold routine health maintenance and scheduled immunizations"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Delaying all discussion denies the family timely information and forgoes interventions that may prolong or aid the child's life.",
+        "B": "Although only 5-15% of infants with trisomy 13 or 18 live beyond 1 year, some survive into adolescence with good quality of life, so framing survival as impossible is inaccurate and coercive.",
+        "C": "Correct. Current AAP guidance directs clinicians to share individually tailored, evidence-based information about medical and surgical options and supportive therapies while also offering comfort care as a morally acceptable choice, facilitating shared decision-making rather than choosing for the family.",
+        "D": "Interventions must be individually tailored to the infant's condition and the family's goals rather than mandated uniformly for every patient.",
+        "E": "Routine health maintenance should not be withheld and should be consistent with the family's goals of care; withholding it reflects disability bias."
+      }
+    }
+  ]
+}

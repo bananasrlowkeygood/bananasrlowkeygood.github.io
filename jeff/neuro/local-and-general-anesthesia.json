@@ -1,0 +1,649 @@
+{
+  "lecture": "Local and General Anesthesia",
+  "block": "neuro",
+  "generated": "2026-09-25",
+  "questions": [
+    {
+      "id": "neuro-local-and-general-anesthesia-001",
+      "question": "A 26-year-old man is undergoing laparoscopic appendectomy under sevoflurane anesthesia. He is unconscious and will have no recall of the procedure, but at the moment of skin incision he withdraws his right leg, and the surgeon asks for a deeper plane of anesthesia. The anesthesiologist explains that under the Modern Theory of anesthesia the component of general anesthesia that failed in this patient is mediated at a different anatomic site than the unconsciousness and amnesia produced by the same drug. At which site is suppression of movement in response to a noxious stimulus principally mediated?",
+      "answers": {
+        "A": "Cerebral cortex",
+        "B": "Hippocampus",
+        "C": "Locus coeruleus",
+        "D": "Spinal cord",
+        "E": "Thalamus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The cerebral cortex mediates unconsciousness and amnesia, both of which are already present in this patient.",
+        "B": "The hippocampus subserves memory formation, so blockade there produces amnesia rather than immobility.",
+        "C": "The locus coeruleus is the alpha-2 target through which dexmedetomidine produces an arousable sleep-like state, not the site of anesthetic immobility.",
+        "D": "The Modern Theory assigns immobility and muscle relaxation to the spinal cord, which is why MAC is defined by movement in response to surgical incision rather than by any cortical endpoint.",
+        "E": "The thalamus participates in arousal and the transition to unconsciousness, but movement suppression persists even in decerebrate preparations because it is spinally mediated."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-002",
+      "question": "A 45-year-old woman is undergoing open abdominal hysterectomy maintained on sevoflurane in oxygen. The MAC of sevoflurane is 1.7%. The anesthesiologist wants to deliver a steady-state alveolar concentration that prevents movement in 95% of patients at skin incision and blunts the adrenergic response to the stimulus. No opioid has been given. Which end-tidal sevoflurane concentration best achieves this goal?",
+      "answers": {
+        "A": "0.5%",
+        "B": "0.9%",
+        "C": "1.7%",
+        "D": "2.2%",
+        "E": "3.4%"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "0.5% is roughly 0.3 MAC, the MAC awake value at which a patient opens the eyes to command, far too light for surgical anesthesia.",
+        "B": "0.9% is about 0.5 MAC, a sedative rather than surgical concentration.",
+        "C": "1.7% is exactly 1 MAC, which is the ED50 and prevents movement in only half of patients.",
+        "D": "1.3 MAC (1.3 x 1.7% = 2.2%) is the ED95, also called MAC BAR because it blunts adrenergic responses in addition to preventing movement in 95% of patients.",
+        "E": "3.4% is 2 MAC, well above the ED95 and likely to cause excessive vasodilation and myocardial depression."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-003",
+      "question": "An 84-year-old man undergoes a 4-hour hip hemiarthroplasty under isoflurane anesthesia. Because of prolonged exposure of the surgical field, his core temperature drifts to 34.0 C, and he is also receiving a remifentanil infusion for analgesia. The anesthesiologist compares his anesthetic requirement with that of a normothermic 25-year-old receiving the same operation without any opioid. How will this patient's MAC requirement differ, and why?",
+      "answers": {
+        "A": "Decreased, because age, hypothermia, and opioids all lower MAC",
+        "B": "Decreased, because hypothermia lowers MAC while age and opioids raise it",
+        "C": "Increased, because advanced age raises MAC and offsets the hypothermia",
+        "D": "Increased, because hypothermia raises the anesthetic requirement",
+        "E": "Unchanged, because the effects of age and temperature cancel out"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "MAC falls progressively with advancing age, falls with hypothermia, and is reduced by opioids in a dose-dependent fashion that plateaus rather than reaching zero, so all three factors push this patient's requirement down.",
+        "B": "Hypothermia does lower MAC, but advanced age and opioid administration lower it as well rather than raising it.",
+        "C": "MAC decreases rather than increases with advancing age, peaking in infancy and declining thereafter.",
+        "D": "Hypothermia decreases anesthetic requirement; hyperthermia is the condition that raises MAC.",
+        "E": "Age and hypothermia act in the same direction, so their effects are additive rather than offsetting."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-004",
+      "question": "A 34-year-old woman is scheduled for a 20-minute outpatient hysteroscopy and must be discharged home the same morning. The anesthesiologist wants the inhaled agent with the most rapid rise in alveolar concentration and the fastest emergence, but the agent must be capable of maintaining surgical anesthesia as the sole anesthetic in an oxygen-enriched mixture. Properties of five agents are shown. Which agent best meets these requirements?",
+      "table": [
+        [
+          "Agent",
+          "Blood-gas partition coefficient",
+          "MAC (%)"
+        ],
+        [
+          "Desflurane",
+          "0.45",
+          "6.0"
+        ],
+        [
+          "Halothane",
+          "2.40",
+          "0.75"
+        ],
+        [
+          "Isoflurane",
+          "1.40",
+          "1.28"
+        ],
+        [
+          "Nitrous oxide",
+          "0.46",
+          "120"
+        ],
+        [
+          "Sevoflurane",
+          "0.65",
+          "1.70"
+        ]
+      ],
+      "answers": {
+        "A": "Desflurane",
+        "B": "Halothane",
+        "C": "Isoflurane",
+        "D": "Nitrous oxide",
+        "E": "Sevoflurane"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Desflurane has the lowest blood-gas partition coefficient, so less agent is taken up into blood, the alveolar concentration rises and falls fastest, and its MAC of 6% is readily delivered with adequate oxygen.",
+        "B": "Halothane has the highest blood solubility of the group, giving the slowest induction and emergence, and it is no longer used clinically.",
+        "C": "Isoflurane has a coefficient of 1.4, roughly three times that of desflurane, so both induction and recovery are substantially slower.",
+        "D": "Nitrous oxide has a comparably low coefficient but a MAC of about 120%, so it cannot reach 1 MAC in any oxygen-containing mixture and can never be a sole general anesthetic.",
+        "E": "Sevoflurane is relatively insoluble and pleasant to breathe, but its coefficient of 0.65 still gives a slower rise in alveolar concentration than desflurane."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-005",
+      "question": "A 68-year-old man with hypertension is undergoing carotid endarterectomy and is maintained at 1.5 MAC isoflurane in oxygen before surgical incision. No opioid or neuromuscular blocker has been given, and he is euvolemic with a normal echocardiogram. His hemodynamic changes after induction are shown. Which mechanism best explains the fall in blood pressure?",
+      "table": [
+        [
+          "Parameter",
+          "Before induction",
+          "At 1.5 MAC isoflurane"
+        ],
+        [
+          "Blood pressure",
+          "142/78 mm Hg",
+          "82/44 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "62/min",
+          "94/min"
+        ],
+        [
+          "Cardiac index",
+          "2.9 L/min/m2",
+          "2.8 L/min/m2"
+        ],
+        [
+          "Central venous pressure",
+          "8 mm Hg",
+          "7 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased systemic vascular resistance from arteriolar vasodilation",
+        "B": "Increased parasympathetic tone at the sinoatrial node",
+        "C": "Profound myocardial depression with a fall in stroke volume",
+        "D": "Sensitization of the myocardium to circulating catecholamines",
+        "E": "Venodilation with a marked reduction in cardiac preload"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Isoflurane causes a very significant reduction in systemic vascular resistance with a reflex rise in heart rate and little change in cardiac output, which is exactly the pattern of preserved cardiac index and tachycardia shown here.",
+        "B": "Increased vagal tone would produce bradycardia, whereas this patient is tachycardic.",
+        "C": "All volatile agents depress contractility to some degree, but a dominant contractility effect would lower the cardiac index, which is essentially unchanged.",
+        "D": "Catecholamine sensitization describes the arrhythmogenic potential of older agents such as halothane and would cause ectopy, not hypotension; sevoflurane notably does not sensitize the myocardium.",
+        "E": "A preload-dependent fall would be accompanied by a drop in central venous pressure and cardiac index, neither of which occurred."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-006",
+      "question": "A 24-year-old man is brought to the operating room for emergent evacuation of an acute subdural hematoma after a motorcycle crash. His Glasgow Coma Scale score is 6, an intracranial pressure monitor reads 26 mm Hg, and his mean arterial pressure is 85 mm Hg. The neurosurgeon asks for an anesthetic that will lower cerebral metabolic rate without further raising intracranial pressure. Which agent is most appropriate for induction and maintenance?",
+      "answers": {
+        "A": "Desflurane",
+        "B": "Isoflurane",
+        "C": "Ketamine",
+        "D": "Propofol",
+        "E": "Sevoflurane"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Desflurane, like the other volatile agents, increases cerebral blood flow and impairs cerebral autoregulation, uncoupling flow from metabolism and raising intracranial pressure.",
+        "B": "Isoflurane lowers cerebral metabolic activity but simultaneously increases cerebral blood flow and impairs autoregulation, a dangerous combination when the cranium is already tight.",
+        "C": "Ketamine increases both intracranial pressure and cerebral metabolic oxygen consumption and produces seizure-like EEG activity, making it the least desirable choice here.",
+        "D": "Propofol decreases cerebral metabolic rate of oxygen consumption, cerebral blood flow, and intracranial pressure, and can produce burst suppression on EEG, which is why it is favored for intracranial hypertension.",
+        "E": "Sevoflurane shares the volatile-agent pattern of increased cerebral blood flow with impaired autoregulation despite reduced metabolic demand."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-007",
+      "question": "A 17-year-old boy with no significant medical history undergoes open reduction and internal fixation of a forearm fracture. Anesthesia is induced with propofol and succinylcholine and maintained with sevoflurane. Twenty-five minutes into the case the capnograph tracing climbs steadily despite a 50% increase in minute ventilation. Over the next 15 minutes he becomes tachycardic and develops generalized muscle rigidity, and only later does his core temperature climb. His intraoperative values are shown. Which of these findings is the earliest reliable sign of the underlying disorder?",
+      "table": [
+        [
+          "Measurement",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "End-tidal CO2",
+          "68 mm Hg",
+          "35-45 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "148/min",
+          "60-100/min"
+        ],
+        [
+          "Core temperature",
+          "39.8 C",
+          "36.5-37.5 C"
+        ],
+        [
+          "Arterial pH",
+          "7.18",
+          "7.35-7.45"
+        ],
+        [
+          "K+",
+          "6.2 mEq/L",
+          "3.5-5.0 mEq/L"
+        ],
+        [
+          "Creatine kinase",
+          "18,400 U/L",
+          "30-200 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Core temperature above 39 C",
+        "B": "Generalized skeletal muscle rigidity",
+        "C": "Hyperkalemia with peaked T waves",
+        "D": "Myoglobinuria producing dark urine",
+        "E": "Rising end-tidal CO2 despite increased ventilation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Despite the name, hyperthermia is a relatively late finding and its absence early on should never exclude the diagnosis.",
+        "B": "Masseter and generalized rigidity are highly suggestive of malignant hyperthermia but typically follow the capnographic change.",
+        "C": "Hyperkalemia results from rhabdomyolysis and reflects established muscle injury rather than the initial event.",
+        "D": "Myoglobinuria is a late consequence of massive rhabdomyolysis and often is not appreciated until the patient reaches recovery.",
+        "E": "Uncontrolled RYR1-mediated calcium release from the sarcoplasmic reticulum creates a hypermetabolic state, and the resulting surge in CO2 production makes a rising end-tidal CO2 the earliest sign of malignant hyperthermia under general anesthesia."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-008",
+      "question": "A 22-year-old woman develops tachycardia, muscle rigidity, a rapidly rising end-tidal CO2, and a core temperature of 40.1 C during a sevoflurane anesthetic for wisdom tooth extraction. The volatile agent is discontinued, 100% oxygen is delivered at high flows, and dantrolene 2.5 mg/kg is administered intravenously with rapid improvement. Which mechanism best explains the therapeutic effect of this drug?",
+      "answers": {
+        "A": "Binds the ryanodine receptor and reduces sarcoplasmic calcium release",
+        "B": "Blocks the dihydropyridine receptor in the T-tubule membrane",
+        "C": "Chelates ionized calcium already present within the myoplasm",
+        "D": "Inhibits acetylcholine release at the neuromuscular junction",
+        "E": "Stimulates the sarcoplasmic reticulum calcium ATPase pump"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Dantrolene binds the RYR1 receptor and shuts down the uncontrolled calcium efflux from the sarcoplasmic reticulum, lowering intracellular calcium and reversing the hypermetabolic state.",
+        "B": "The dihydropyridine receptor is the voltage sensor that normally signals RYR1, but dantrolene does not act there and blocking it would not stop an already-open ryanodine channel.",
+        "C": "Dantrolene is not a chelator; agents that bind calcium in the circulation, such as citrate, have no role in malignant hyperthermia.",
+        "D": "Blocking acetylcholine release describes botulinum toxin and would not affect a defect intrinsic to the sarcoplasmic reticulum, which is why nondepolarizing blockers do not relieve the rigidity of malignant hyperthermia.",
+        "E": "Accelerating calcium reuptake is a theoretically attractive but distinct mechanism; dantrolene works by preventing release rather than by enhancing sequestration."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-009",
+      "question": "A 9-year-old boy is scheduled for strabismus surgery under general anesthesia. His father died intraoperatively many years ago during an appendectomy after developing unexplained fever and rigidity, and genetic testing in the family identified a ryanodine receptor mutation. The anesthesiologist plans a technique using a clean machine with vapor-free circuits. Which of the following agents may safely be administered to this patient?",
+      "answers": {
+        "A": "Desflurane",
+        "B": "Isoflurane",
+        "C": "Nitrous oxide",
+        "D": "Sevoflurane",
+        "E": "Succinylcholine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Desflurane is a halogenated volatile agent and therefore a recognized malignant hyperthermia trigger.",
+        "B": "Isoflurane is likewise a volatile trigger and must be avoided in a patient with a known RYR1 mutation.",
+        "C": "Nitrous oxide is the one inhaled anesthetic that does not trigger malignant hyperthermia, so it can be combined with intravenous agents such as propofol and a nondepolarizing blocker in a trigger-free technique.",
+        "D": "Sevoflurane, despite its use for inhalational induction in children, is a halogenated volatile agent and is contraindicated here.",
+        "E": "Succinylcholine is the classic depolarizing trigger and is specifically avoided; it also risks hyperkalemic arrest in occult myopathies."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-010",
+      "question": "A 31-year-old man with multiple left-sided rib fractures and a small left apical pneumothorax seen on CT undergoes urgent intramedullary nailing of a femur fracture. General anesthesia is maintained with sevoflurane and 60% nitrous oxide in oxygen. Twenty minutes later his oxygen saturation falls to 84%, peak airway pressures rise sharply, blood pressure drops to 72/40 mm Hg, breath sounds are absent on the left, and the trachea is deviated to the right. Which mechanism best explains this deterioration?",
+      "answers": {
+        "A": "Diffusion hypoxia from rapid nitrous oxide washout into the alveoli",
+        "B": "Diffusion of nitrous oxide into the pleural space faster than nitrogen leaves it",
+        "C": "Inhibition of hypoxic pulmonary vasoconstriction by the volatile agent",
+        "D": "Myocardial depression from nitrous oxide-induced sympathetic withdrawal",
+        "E": "Oxidation of cobalt in vitamin B12 with impaired methionine synthase activity"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Diffusion hypoxia occurs at emergence when nitrous oxide floods out of blood into alveoli and dilutes alveolar oxygen; it does not produce tracheal deviation or high airway pressures.",
+        "B": "Nitrous oxide is far more blood soluble than nitrogen, so it enters a closed gas space much faster than nitrogen can exit, expanding the pneumothorax into a tension pneumothorax; this is why nitrous oxide is contraindicated in pneumothorax, middle ear surgery, and craniotomy.",
+        "C": "Attenuation of hypoxic pulmonary vasoconstriction by volatile agents worsens shunt and hypoxemia but does not cause absent breath sounds or mediastinal shift.",
+        "D": "Nitrous oxide is a mild direct myocardial depressant that actually increases systemic vascular resistance, and it would not produce unilateral findings.",
+        "E": "Irreversible oxidation of vitamin B12 is the mechanism of the hematologic and neurologic toxicity seen with prolonged exposure, not an acute intraoperative event."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-011",
+      "question": "A 27-year-old dental assistant reports 3 months of progressive numbness and tingling in both feet and an unsteady gait that is worse in the dark. Neurologic examination shows diminished vibration and proprioception to the knees, a positive Romberg sign, and brisk patellar reflexes with extensor plantar responses. She discloses that she inhales nitrous oxide from workplace canisters almost nightly. Her laboratory results are shown. Which mechanism best explains her findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "10.1 g/dL",
+          "12.0-16.0 g/dL"
+        ],
+        [
+          "Mean corpuscular volume",
+          "108 fL",
+          "80-100 fL"
+        ],
+        [
+          "Vitamin B12",
+          "168 pg/mL",
+          "200-900 pg/mL"
+        ],
+        [
+          "Methylmalonic acid",
+          "Elevated",
+          "Normal"
+        ],
+        [
+          "Homocysteine",
+          "Elevated",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "Competitive antagonism of NMDA receptors on dorsal horn neurons",
+        "B": "Hepatic enzyme induction that accelerates clearance of folate",
+        "C": "Immune-mediated destruction of gastric parietal cells",
+        "D": "Irreversible oxidation of cobalt in vitamin B12, inactivating methionine synthase",
+        "E": "Malabsorption of vitamin B12 caused by terminal ileal inflammation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Nitrous oxide is indeed an NMDA antagonist, but that action explains its analgesic and anesthetic properties, not megaloblastic anemia or subacute combined degeneration.",
+        "B": "Nitrous oxide undergoes almost no metabolism and does not induce cytochrome P450 enzymes.",
+        "C": "Pernicious anemia would produce a similar picture but does not explain the temporal link to nightly nitrous oxide use in a young patient.",
+        "D": "Nitrous oxide irreversibly oxidizes the cobalt atom of cobalamin, inactivating methionine synthase; with repeated or prolonged exposure this produces megaloblastic anemia, bone marrow suppression, and a myeloneuropathy with elevated methylmalonic acid and homocysteine.",
+        "E": "Ileal disease such as Crohn disease causes B12 deficiency, but there is no gastrointestinal history and the exposure history points to a pharmacologic cause."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-012",
+      "question": "A 5-year-old girl requires repair of a deep forehead laceration and receives an intramuscular anesthetic in the emergency department. Within 5 minutes she no longer responds to the suturing, yet her eyes remain open with horizontal nystagmus and she makes occasional random, purposeless limb movements. Her heart rate rises from 110/min to 138/min and her blood pressure increases modestly. Respirations, airway reflexes, and bronchial tone are preserved. Which mechanism best explains this drug's anesthetic effect?",
+      "answers": {
+        "A": "Agonism at alpha-2 adrenergic receptors in the locus coeruleus",
+        "B": "Enhancement of GABA-A chloride current at the beta subunit",
+        "C": "Increased frequency of GABA-A chloride channel opening",
+        "D": "Non-competitive antagonism of NMDA receptors at the phencyclidine site",
+        "E": "Prolonged duration of GABA-A chloride channel opening"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dexmedetomidine acts at locus coeruleus alpha-2 receptors and produces an arousable, sleep-like state with bradycardia and hypotension, the opposite hemodynamic pattern.",
+        "B": "Binding the beta subunit to enhance GABA-induced chloride current is the mechanism of propofol, which causes apnea and hypotension rather than sympathetic stimulation.",
+        "C": "Increasing the frequency of channel opening describes benzodiazepines such as midazolam, which produce sedation without nystagmus or hypertension.",
+        "D": "Ketamine, a phencyclidine derivative, is a non-competitive NMDA antagonist and is unique among intravenous anesthetics in not acting through GABA-A; it produces dissociative anesthesia with open eyes, nystagmus, random movements, bronchodilation, and sympathetically mediated increases in heart rate and blood pressure.",
+        "E": "Prolonging channel open time is the barbiturate mechanism, which would produce dose-dependent respiratory and cardiovascular depression."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-013",
+      "question": "A 62-year-old man with septic shock from pyelonephritis requires emergent intubation. Because of his marginal blood pressure, a single bolus of an intravenous hypnotic selected for hemodynamic stability is used, and his blood pressure is essentially unchanged through laryngoscopy. He also has brief myoclonic jerks during induction. Ten hours later he remains hypotensive and requires escalating norepinephrine despite adequate volume resuscitation and appropriate antibiotics. His laboratory results are shown. Which mechanism best explains the refractory hypotension?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Random cortisol",
+          "4 mcg/dL",
+          ">18 mcg/dL during stress"
+        ],
+        [
+          "Cortisol 60 min after cosyntropin",
+          "9 mcg/dL",
+          ">18 mcg/dL"
+        ],
+        [
+          "Na+",
+          "131 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "K+",
+          "5.3 mEq/L",
+          "3.5-5.0 mEq/L"
+        ],
+        [
+          "Glucose",
+          "62 mg/dL",
+          "70-100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Adrenocortical suppression from inhibition of 11-beta-hydroxylase",
+        "B": "Direct myocardial depression mediated by GABA-A agonism",
+        "C": "Histamine release producing systemic vasodilation",
+        "D": "Inhibition of norepinephrine reuptake at sympathetic terminals",
+        "E": "Sympathetic withdrawal from central alpha-2 receptor agonism"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Etomidate is chosen in hemodynamically unstable patients because it maintains blood pressure and sympathetic tone, but even a single bolus produces reversible adrenocortical suppression through 11-beta-hydroxylase inhibition, yielding the low cortisol, hyponatremia, hyperkalemia, and hypoglycemia seen here.",
+        "B": "Etomidate is notable for minimal myocardial depression, and a contractility problem would not produce an abnormal cosyntropin response.",
+        "C": "Histamine release causes immediate flushing and hypotension at induction, not a delayed picture with biochemical adrenal insufficiency.",
+        "D": "Blocking norepinephrine reuptake, as cocaine does, would raise rather than lower blood pressure.",
+        "E": "Central alpha-2 agonism is the mechanism of dexmedetomidine, which would cause bradycardia and hypotension without altering the cortisol response."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-014",
+      "question": "A 29-year-old woman with a history of severe postoperative nausea and vomiting after two prior anesthetics undergoes outpatient knee arthroscopy. She is induced with a milky white emulsion that causes burning pain at the intravenous site, followed by 90 seconds of apnea and a fall in blood pressure from 128/76 to 94/52 mm Hg. She emerges clear-headed and nausea-free and is discharged in 90 minutes. Which mechanism underlies the hypnotic effect of this agent?",
+      "answers": {
+        "A": "Agonism at alpha-2 adrenergic receptors in the brainstem",
+        "B": "Enhancement of GABA-A chloride current via the beta subunit",
+        "C": "Increased frequency of channel opening at the benzodiazepine site",
+        "D": "Non-competitive blockade of the NMDA receptor",
+        "E": "Stimulation of central mu-opioid receptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Dexmedetomidine works at brainstem alpha-2 receptors, is given as a clear solution, causes bradycardia, and is inadequate as a sole general anesthetic.",
+        "B": "Propofol is a di-isopropylphenol formulated in a soybean oil and egg phospholipid emulsion; it enhances GABA-induced chloride current by binding the beta subunit of the GABA-A receptor, and its antiemetic action and rapid hepatic clearance make it ideal for this patient.",
+        "C": "Benzodiazepines increase the frequency of GABA-A channel opening and are reversed by flumazenil, but they produce prolonged sedation unsuited to rapid discharge.",
+        "D": "NMDA blockade describes ketamine, which would raise blood pressure and can cause emergence hallucinations rather than a clear-headed recovery.",
+        "E": "Opioids provide analgesia but are emetogenic and cannot reliably produce unconsciousness on their own; propofol notably provides no analgesia."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-015",
+      "question": "A 42-year-old man receives an ultrasound-guided interscalene brachial plexus block with 20 mL of 0.5% ropivacaine before shoulder arthroscopy. Within 15 minutes he cannot abduct the arm and has no sensation over the deltoid. If the blocked axons were studied with microelectrodes, they would show a markedly reduced rate of depolarization and failure of impulse propagation, with an unchanged resting transmembrane potential. Which mechanism best accounts for these findings?",
+      "answers": {
+        "A": "Activation of G-protein-coupled potassium channels hyperpolarizing the axon",
+        "B": "Binding of the intracellular portion of voltage-gated sodium channels",
+        "C": "Blockade of presynaptic voltage-gated calcium channels",
+        "D": "Enhancement of chloride conductance through GABA-A receptors",
+        "E": "Irreversible inhibition of the axonal sodium-potassium ATPase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Opening potassium channels would hyperpolarize the membrane and change the resting potential, which is explicitly preserved here.",
+        "B": "Local anesthetics diffuse across the membrane in their uncharged form, become protonated inside the axon, and bind the intracellular portion of the voltage-gated sodium channel, reducing sodium current and the rate of depolarization without altering the resting potential.",
+        "C": "Presynaptic calcium channel blockade impairs transmitter release, as with aminoglycosides or Lambert-Eaton antibodies, and would not block conduction along the axon itself.",
+        "D": "GABA-A mediated chloride conductance is the target of general anesthetics in the central nervous system, not of local anesthetics on peripheral axons.",
+        "E": "Poisoning the sodium-potassium pump would gradually dissipate ionic gradients and shift the resting potential, and local anesthetic block is reversible."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-016",
+      "question": "A 38-year-old woman presents with a fluctuant, erythematous, exquisitely tender swelling of the right lower gum overlying a carious molar. The dentist infiltrates the area with 2% lidocaine (pKa 7.9) and waits 10 minutes, but the patient still has full sensation and the incision and drainage is intensely painful. The same dose given in uninflamed tissue reliably produces anesthesia. Measured pH within an abscess cavity is approximately 6.4 compared with 7.4 in normal tissue. Which mechanism best explains the failure of the block?",
+      "answers": {
+        "A": "Acidic tissue increases local blood flow, washing the drug away before it can act",
+        "B": "Acidic tissue increases the ionized fraction, so less uncharged drug crosses the axonal membrane",
+        "C": "Bacterial esterases hydrolyze the amide linkage of lidocaine within the abscess",
+        "D": "Inflammation raises the pKa of lidocaine, slowing its dissociation from plasma proteins",
+        "E": "Purulent fluid dilutes the anesthetic below its minimum blocking concentration"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Inflamed tissue is hyperemic, but the dominant and classically tested mechanism of failure is acidosis-driven ionization rather than washout.",
+        "B": "Local anesthetics are weak bases, and by the Henderson-Hasselbalch relationship a tissue pH of 6.4 shifts the equilibrium toward the protonated, charged species; only the uncharged base penetrates the nerve membrane, so far less drug reaches the intracellular sodium channel binding site.",
+        "C": "Lidocaine is an amide and is metabolized by hepatic microsomal enzymes; amide linkages are not cleaved by plasma or bacterial esterases.",
+        "D": "The pKa is an intrinsic property of the drug and does not change with tissue pH; it is the tissue pH that shifts the ionized fraction.",
+        "E": "Simple dilution would be overcome by the concentrated 2% solution and does not explain the reproducible clinical failure of local anesthetics in infected tissue."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-017",
+      "question": "A 46-year-old man requires infiltration anesthesia for repair of a 4-cm forearm laceration. He reports that during a dental extraction several years ago he developed generalized urticaria, lip and tongue swelling, and wheezing within minutes of an injection of procaine, requiring epinephrine in the emergency department. Skin testing was never performed. Which local anesthetic is least likely to provoke a recurrence?",
+      "answers": {
+        "A": "Benzocaine",
+        "B": "Bupivacaine",
+        "C": "Chloroprocaine",
+        "D": "Procaine",
+        "E": "Tetracaine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Benzocaine is an ester used for topical anesthesia and shares the PABA metabolite responsible for the reaction.",
+        "B": "Bupivacaine is an amide, recognizable by the two letters i in its name; amides are metabolized by hepatic microsomal enzymes and only rarely provoke true allergy, usually when a methylparaben preservative is present.",
+        "C": "Chloroprocaine is a short-acting ester hydrolyzed by plasma cholinesterase to PABA and carries the same cross-reactivity risk.",
+        "D": "Procaine is the very agent that caused the reaction and would be expected to reproduce it.",
+        "E": "Tetracaine is a long-acting ester and would generate the same PABA hapten on hydrolysis."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-018",
+      "question": "A 33-year-old woman at 39 weeks gestation receives a spinal anesthetic with hyperbaric bupivacaine for cesarean delivery. Within 3 minutes her blood pressure falls from 118/70 to 78/42 mm Hg and her heart rate rises to 104/min, yet at that moment she can still lift both legs off the table and reports intact light touch at the level of the umbilicus. Characteristics of peripheral nerve fibers are shown. Blockade of which fiber type best explains her hemodynamic change?",
+      "table": [
+        [
+          "Fiber type",
+          "Function",
+          "Diameter (micrometers)",
+          "Myelination",
+          "Sensitivity to block"
+        ],
+        [
+          "A-alpha",
+          "Motor, proprioception",
+          "12-20",
+          "Heavy",
+          "++"
+        ],
+        [
+          "A-beta",
+          "Touch, pressure",
+          "5-12",
+          "Heavy",
+          "++"
+        ],
+        [
+          "A-delta",
+          "Pain, temperature",
+          "2-5",
+          "Heavy",
+          "+++"
+        ],
+        [
+          "B",
+          "Preganglionic autonomic",
+          "<3",
+          "Light",
+          "++++"
+        ],
+        [
+          "C",
+          "Postganglionic sympathetic, pain",
+          "0.3-1.3",
+          "None",
+          "++++"
+        ]
+      ],
+      "answers": {
+        "A": "Type A-alpha fibers carrying motor and proprioceptive traffic",
+        "B": "Type A-beta fibers carrying touch and pressure",
+        "C": "Type A-delta fibers carrying pain and temperature",
+        "D": "Type B preganglionic autonomic fibers",
+        "E": "Type C postganglionic sympathetic fibers"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A-alpha fibers are the largest and most resistant to blockade, which is why she can still lift her legs.",
+        "B": "A-beta fibers mediating light touch are large and heavily myelinated, and her preserved touch at the umbilicus shows they are not yet blocked.",
+        "C": "A-delta fibers are blocked before motor fibers and account for early loss of pinprick and temperature, but they do not carry sympathetic vasomotor traffic.",
+        "D": "Preganglionic sympathetic fibers leaving the cord are small and only lightly myelinated, making them the most susceptible to local anesthetic; their blockade produces vasodilation and hypotension while larger motor and touch fibers still conduct, the hallmark of a differential spinal block.",
+        "E": "Postganglionic sympathetic fibers are also highly susceptible, but in a spinal anesthetic the drug bathes the preganglionic fibers and nerve roots in the intrathecal space, not the distal postganglionic chain."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-019",
+      "question": "A 68-year-old woman receives an axillary brachial plexus block with 40 mL of 1.5% lidocaine (600 mg) for hand surgery. Approximately 8 minutes later she reports perioral numbness, tinnitus, and a metallic taste, then becomes agitated and has a generalized tonic-clonic seizure. Midazolam is given and the seizure stops, but she then develops a wide-complex bradycardia that degenerates into pulseless electrical activity. Chest compressions and 100% oxygen are begun and help is called. In addition to standard resuscitation, which intervention is most appropriate?",
+      "table": [
+        [
+          "Plasma lidocaine (mcg/mL)",
+          "Expected clinical effect"
+        ],
+        [
+          "1-5",
+          "Analgesia"
+        ],
+        [
+          "5-10",
+          "Lightheadedness, tinnitus, tongue numbness"
+        ],
+        [
+          "10-15",
+          "Seizures, unconsciousness"
+        ],
+        [
+          "15-25",
+          "Coma, respiratory arrest"
+        ],
+        [
+          ">25",
+          "Cardiovascular depression and collapse"
+        ]
+      ],
+      "answers": {
+        "A": "Amiodarone 300 mg intravenous bolus",
+        "B": "Flumazenil 0.2 mg intravenous",
+        "C": "Intravenous lipid emulsion 20%",
+        "D": "Sodium bicarbonate 1 mEq/kg intravenous",
+        "E": "Vasopressin 40 units intravenous"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Amiodarone is a sodium and potassium channel blocker and is a poor choice when the arrhythmia is itself caused by sodium channel blockade.",
+        "B": "Flumazenil would reverse the benzodiazepine that is controlling her seizures and risks recurrent, harder-to-treat convulsions.",
+        "C": "This is local anesthetic systemic toxicity from systemic absorption of an excessive dose, and intravenous lipid emulsion is the most effective specific therapy, thought to create a lipid sink that carries drug away from cardiac myocytes; it should be started early alongside seizure control, oxygenation, and avoidance of hypercarbia and acidosis.",
+        "D": "Bicarbonate is used for sodium channel blockade from tricyclic overdose, but lipid emulsion is the definitive therapy in local anesthetic toxicity and correcting acidosis alone will not reverse the myocardial depression.",
+        "E": "Vasopressin should specifically be avoided in local anesthetic systemic toxicity because it appears to worsen outcomes in this setting."
+      }
+    },
+    {
+      "id": "neuro-local-and-general-anesthesia-020",
+      "question": "A 4-year-old boy undergoes an outpatient procedure for which a thick layer of EMLA cream (lidocaine and prilocaine) is applied over a large area of skin and left in place for 3 hours, followed by generous application of a benzocaine spray to the mucosa. In recovery he appears dusky with slate-gray lips, though he is alert with clear lungs and a normal chest radiograph. His pulse oximeter reads 85% and does not improve despite a non-rebreather mask at 15 L/min, and the arterial sample drawn appears chocolate brown. His results are shown. Which is the most appropriate treatment?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "SpO2 (pulse oximetry)",
+          "85%",
+          ">95%"
+        ],
+        [
+          "PaO2 on 100% O2",
+          "412 mm Hg",
+          "80-100 mm Hg on room air"
+        ],
+        [
+          "Methemoglobin",
+          "28%",
+          "<2%"
+        ],
+        [
+          "Arterial pH",
+          "7.31",
+          "7.35-7.45"
+        ],
+        [
+          "Lactate",
+          "4.2 mmol/L",
+          "0.5-2.2 mmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Dantrolene intravenously",
+        "B": "Hyperbaric oxygen therapy",
+        "C": "Intravenous lipid emulsion",
+        "D": "Methylene blue intravenously",
+        "E": "Packed red blood cell transfusion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dantrolene treats malignant hyperthermia, which presents with hypermetabolism and rising end-tidal CO2 rather than a normal PaO2 with a saturation gap.",
+        "B": "Hyperbaric oxygen is used for carbon monoxide poisoning; here the problem is oxidized heme iron that cannot bind or release oxygen normally, not a competing ligand.",
+        "C": "Lipid emulsion is the treatment for local anesthetic systemic toxicity, which manifests as CNS excitation, seizures, and cardiovascular collapse, none of which are present.",
+        "D": "Prilocaine is metabolized to o-toluidine, which oxidizes hemoglobin iron to the ferric state, and benzocaine does the same; the resulting methemoglobinemia gives a pulse oximeter reading stuck near 85% with a normal PaO2 and lactic acidosis from impaired oxygen delivery, and methylene blue is the specific antidote.",
+        "E": "Transfusion adds normal hemoglobin but does not reduce the circulating methemoglobin and is reserved for refractory cases or G6PD deficiency in which methylene blue is contraindicated."
+      }
+    }
+  ]
+}

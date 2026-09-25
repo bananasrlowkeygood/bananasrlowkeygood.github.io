@@ -1,0 +1,473 @@
+{
+  "lecture": "Cortex & Basal Ganglia Prelab",
+  "block": "neuro",
+  "generated": "2026-09-25",
+  "questions": [
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-001",
+      "question": "A 62-year-old man undergoes resection of a low-grade glioma that had caused focal seizures beginning with clonic jerking of the right hand and spreading up the right arm. The neuropathologist examines a margin of histologically normal cortex adjacent to the tumor. It contains six layers, but the internal granular layer (IV) is nearly absent and layer V is packed with very large pyramidal neurons. From which region was this cortical margin most likely taken?",
+      "answers": {
+        "A": "Angular gyrus of the parietal lobe",
+        "B": "Calcarine cortex of the occipital lobe",
+        "C": "Postcentral gyrus of the parietal lobe",
+        "D": "Precentral gyrus of the frontal lobe",
+        "E": "Transverse temporal gyri of the temporal lobe"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The angular gyrus is association cortex for language and symbol processing and has a well-developed granular layer rather than an agranular, pyramid-rich profile.",
+        "B": "Calcarine cortex is the most granular cortex in the brain, with a prominent layer IV split by the line of Gennari for visual input.",
+        "C": "The postcentral gyrus is primary somatosensory cortex and is granular, with a thick layer IV receiving thalamic sensory input.",
+        "D": "Agranular cortex with a vestigial layer IV and giant layer V pyramidal cells is the signature of motor output cortex, and the somatotopy of the seizure onset in the hand localizes it to the precentral gyrus.",
+        "E": "The transverse temporal gyri of Heschl are primary auditory cortex and, like other primary sensory areas, are granular rather than agranular."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-002",
+      "question": "A 68-year-old right-handed man is brought in 90 minutes after the abrupt onset of speech difficulty. He speaks in effortful, halting two-word phrases with poor grammar but follows three-step commands without error, and he is visibly frustrated by his own output. Repetition is impaired and there is mild right lower facial droop. Laboratory and vital sign data are shown. CT angiography shows occlusion of the superior division of the left middle cerebral artery. The infarcted cortex is most likely centered in which structure?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "182/98 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Fingerstick glucose",
+          "104 mg/dL",
+          "70-100 mg/dL"
+        ],
+        [
+          "INR",
+          "1.0",
+          "0.9-1.1"
+        ],
+        [
+          "Platelet count",
+          "244,000/mm3",
+          "150,000-400,000/mm3"
+        ]
+      ],
+      "correct": "B",
+      "answers": {
+        "A": "Angular gyrus",
+        "B": "Inferior frontal gyrus, pars triangularis and pars opercularis",
+        "C": "Middle frontal gyrus",
+        "D": "Superior temporal gyrus, posterior third",
+        "E": "Supramarginal gyrus"
+      },
+      "explanations": {
+        "A": "The angular gyrus contributes to Wernicke's area, and damage there yields fluent speech with impaired comprehension, the opposite of this pattern.",
+        "B": "Nonfluent, effortful output with preserved comprehension and retained insight is Broca aphasia, which localizes to the pars triangularis and pars opercularis of the dominant inferior frontal gyrus, immediately anterior to the face and larynx motor representation.",
+        "C": "The middle frontal gyrus contains the frontal eye field posteriorly, and lesions there cause gaze preference rather than agrammatic speech.",
+        "D": "The posterior superior temporal gyrus houses Wernicke's area, and its infarction produces fluent paraphasic speech with impaired comprehension.",
+        "E": "The supramarginal gyrus wraps the end of the lateral sulcus and is part of Wernicke's territory, so damage produces fluent aphasia, often with conduction features."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-003",
+      "question": "A 74-year-old right-handed woman is found to be speaking rapidly in long, well-articulated sentences filled with nonsense words. She cannot follow the command to close her eyes, does not appear aware that her speech is abnormal, and repetition is impaired. Visual field testing shows a right superior quadrantanopia. Strength is normal in all four limbs. Infarction of which pair of cortical regions in the left hemisphere best explains her findings?",
+      "answers": {
+        "A": "Inferior frontal gyrus and precentral gyrus",
+        "B": "Middle frontal gyrus and cingulate gyrus",
+        "C": "Paracentral lobule and precuneus",
+        "D": "Superior temporal gyrus and angular gyrus",
+        "E": "Transverse temporal gyri and insula"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This is Broca territory, and its infarction gives effortful nonfluent output with intact comprehension and preserved insight.",
+        "B": "The middle frontal and cingulate gyri mediate gaze, attention, and motivation; lesions cause abulia or gaze deviation, not fluent paraphasic speech.",
+        "C": "The paracentral lobule and precuneus are on the medial surface in anterior cerebral artery territory and their infarction causes contralateral leg weakness and sensory loss.",
+        "D": "Fluent paraphasic speech with impaired comprehension and anosognosia is Wernicke aphasia, localizing to the posterior superior temporal gyrus and inferior parietal lobule, and the adjacent Meyer loop fibers in the temporal white matter account for the superior quadrantanopia.",
+        "E": "The transverse temporal gyri are primary auditory cortex, and their destruction impairs cortical sound processing rather than language comprehension, since auditory input is bilateral."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-004",
+      "question": "A 59-year-old right-handed woman develops sudden difficulty with speech. Her spontaneous output is fluent and grammatical, she follows complex commands accurately, and she names objects with only occasional errors. When asked to repeat the phrase \"no ifs, ands, or buts,\" she produces a jumble of phonemic substitutions and becomes aware of the errors. MRI shows a small infarct in the white matter running superior to the insula, arching from the temporoparietal region toward the frontal lobe. Which fiber bundle was most likely interrupted?",
+      "answers": {
+        "A": "Anterior commissure",
+        "B": "Arcuate (superior longitudinal) fasciculus",
+        "C": "Cingulum",
+        "D": "Splenium of the corpus callosum",
+        "E": "Uncinate fasciculus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior commissure connects the anterior temporal lobes across the midline and lies far anteroinferiorly, near the columns of the fornix.",
+        "B": "The arcuate or superior longitudinal fasciculus is the largest association bundle, runs superior to the insula, and links temporoparietal language cortex to the frontal lobe, so interrupting it produces fluent speech with intact comprehension but disproportionately impaired repetition.",
+        "C": "The cingulum runs within the cingulate gyrus and links limbic structures as part of the Papez circuit, so its injury affects memory and motivation rather than repetition.",
+        "D": "The splenium carries visual association fibers between occipital lobes, and its infarction with left occipital damage produces alexia without agraphia.",
+        "E": "The uncinate fasciculus hooks from the anterior temporal lobe to the orbitofrontal cortex and is associated with social and emotional regulation, not phonemic repetition."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-005",
+      "question": "A 71-year-old man with atrial fibrillation awakens unable to read. On examination he writes a full paragraph to dictation without difficulty but cannot read back what he has just written. Naming, comprehension, and repetition are intact. Visual fields show a right homonymous hemianopia. MRI confirms an infarct of the left occipital lobe in posterior cerebral artery territory. Involvement of which additional structure best explains his inability to read?",
+      "answers": {
+        "A": "Body of the corpus callosum",
+        "B": "Fornix",
+        "C": "Genu of the corpus callosum",
+        "D": "Rostrum of the corpus callosum",
+        "E": "Splenium of the corpus callosum"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The body of the corpus callosum carries fibers between sensorimotor and parietal regions, and its injury produces motor or tactile disconnection signs rather than pure alexia.",
+        "B": "The fornix carries hippocampal output to the mammillary bodies, so its injury produces an amnestic syndrome, not a reading deficit.",
+        "C": "The genu interconnects the prefrontal cortices, and damage there causes executive and behavioral disconnection phenomena.",
+        "D": "The rostrum is the most ventral portion of the corpus callosum connecting orbitofrontal regions, well away from visual association pathways.",
+        "E": "The splenium is the caudal region of the corpus callosum carrying visual association fibers between the occipital lobes, so a left occipital plus splenial infarct disconnects intact right visual cortex from left-hemisphere language areas, preventing reading while sparing writing."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-006",
+      "question": "During an endoscopic third ventriculostomy in a 31-year-old woman with obstructive hydrocephalus, the surgeon works in the region immediately anterior to the columns of the fornix and notes a compact transverse bundle of white matter crossing the midline at that level. If this bundle were injured, connections between which regions would be most directly disrupted?",
+      "answers": {
+        "A": "Anterior temporal lobes of the two hemispheres",
+        "B": "Cingulate cortex and the entorhinal cortex",
+        "C": "Occipital lobes of the two hemispheres",
+        "D": "Pretectal nuclei of the two sides",
+        "E": "Primary motor cortices of the two hemispheres"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior commissure lies immediately anterior to the columns of the fornix and interconnects the anterior portions of the two temporal lobes.",
+        "B": "Cingulate-to-entorhinal traffic travels in the cingulum, an ipsilateral association bundle within the cingulate gyrus, not a midline commissure at the fornix.",
+        "C": "Interoccipital connections cross in the splenium of the corpus callosum, which lies far posteriorly beneath the pineal region.",
+        "D": "The pretectal nuclei are linked across the midline by the posterior commissure, located just inferior to the pineal gland.",
+        "E": "Motor cortices communicate through the body of the corpus callosum, dorsal to the plane of the anterior commissure."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-007",
+      "question": "A 16-year-old boy has 4 weeks of morning headache and double vision. On examination he cannot look upward voluntarily, his eyelids are retracted, and his pupils are 5 mm and poorly reactive to a bright light but constrict briskly when he focuses on a near target. MRI shows a mass in the pineal region compressing structures immediately inferior to the pineal gland. Compression of which structure best explains the pupillary findings?",
+      "answers": {
+        "A": "Anterior commissure",
+        "B": "Body of the fornix",
+        "C": "Habenular commissure",
+        "D": "Mammillothalamic tract",
+        "E": "Posterior commissure"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior commissure sits just anterior to the columns of the fornix at the base of the septal region, far from the pineal gland.",
+        "B": "The body of the fornix arches beneath the corpus callosum carrying hippocampal output, and injury there causes memory loss rather than pupillary dysfunction.",
+        "C": "The habenular commissure is also in the epithalamus but lies superior to the pineal gland and relates to habenular limbic output rather than the pupillary light reflex.",
+        "D": "The mammillothalamic tract links the mammillary bodies to the anterior thalamic nucleus within the Papez circuit and has no role in pupillary reflexes.",
+        "E": "The posterior commissure lies immediately inferior to the pineal gland and carries fibers of the pretectal area that cross to the contralateral Edinger-Westphal nucleus, so its compression abolishes the light reflex while sparing the near response."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-008",
+      "question": "A 24-year-old man sustains a high-speed deceleration injury with bilateral frontotemporal contusions. Six months later his strength, sensation, and naming are normal, but he is socially disinhibited, makes crude remarks to strangers, and cannot connect emotional significance to familiar faces. Diffusion tensor imaging shows selective loss of a hook-shaped bundle that curves around the lateral sulcus and links the anterior temporal lobe to the orbital frontal cortex. Which bundle is most likely damaged?",
+      "answers": {
+        "A": "Cingulum",
+        "B": "Inferior occipitofrontal fasciculus",
+        "C": "Superior longitudinal fasciculus",
+        "D": "Superior occipitofrontal fasciculus",
+        "E": "Uncinate fasciculus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The cingulum lies within the cingulate gyrus above the corpus callosum and links cingulate cortex to the rest of the limbic system, not the anterior temporal pole to the orbital cortex.",
+        "B": "The inferior occipitofrontal fasciculus is a long bundle joining occipital, temporal, and frontal lobes rather than the short hooked segment described.",
+        "C": "The superior longitudinal (arcuate) fasciculus arches superior to the insula and subserves language, so its loss would impair repetition rather than social behavior.",
+        "D": "The superior occipitofrontal (subcallosal) fasciculus runs between the corpus callosum and the caudate near the lateral ventricle wall, dorsal to the region described.",
+        "E": "The uncinate fasciculus is the hooked subdivision of the inferior occipitofrontal system that dips into the anterior temporal lobe to reach frontal cortex, and its bilateral loss yields disinhibition and impaired emotional-semantic linkage."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-009",
+      "question": "A 54-year-old man with a long history of alcohol use disorder is admitted after a fall. He is alert and pleasant but cannot recall any of three words after 5 minutes and invents detailed but false accounts of how he arrived at the hospital. Horizontal gaze is restricted and his gait is wide based. Laboratory studies are shown. MRI demonstrates bilateral shrunken, gliotic mammillary bodies. Degeneration of which fiber bundle most directly disconnects hippocampal output from these atrophic structures?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Whole blood thiamine",
+          "38 nmol/L",
+          "70-180 nmol/L"
+        ],
+        [
+          "Mean corpuscular volume",
+          "104 fL",
+          "80-100 fL"
+        ],
+        [
+          "AST",
+          "118 U/L",
+          "10-40 U/L"
+        ],
+        [
+          "ALT",
+          "52 U/L",
+          "10-40 U/L"
+        ],
+        [
+          "Glucose",
+          "88 mg/dL",
+          "70-100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Cingulum",
+        "B": "Fornix",
+        "C": "Mammillothalamic tract",
+        "D": "Stria terminalis",
+        "E": "Uncinate fasciculus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The cingulum carries fibers from the cingulate gyrus toward entorhinal cortex, closing the Papez loop on the input side rather than carrying hippocampal output to the mammillary bodies.",
+        "B": "Hippocampal output leaves the subiculum through the alveus and fimbria and becomes the fornix, which projects to the mammillary bodies, so fornix degeneration disconnects the hippocampus from the mammillary bodies damaged by thiamine deficiency.",
+        "C": "The mammillothalamic tract carries the next leg of the Papez circuit, from mammillary bodies to the anterior thalamic nucleus, so it is downstream of these structures rather than feeding them.",
+        "D": "The stria terminalis connects the amygdala to the hypothalamus and arcs in the lateral ventricle beside the caudate, and it is not part of the hippocampal-mammillary link.",
+        "E": "The uncinate fasciculus links the anterior temporal lobe with orbitofrontal cortex and is not a component of the Papez circuit."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-010",
+      "question": "A 29-year-old woman with drug-resistant temporal lobe epilepsy undergoes a selective amygdalohippocampectomy. Histologic sections of the resected specimen show two interlocking C-shaped bands of three-layered cortex. The inner band is a compact wedge of small, darkly staining granule cells that receives the major input to this region from the entorhinal cortex and projects onto the outer band. Which structure does the inner band represent?",
+      "answers": {
+        "A": "Dentate gyrus",
+        "B": "Hippocampus proper",
+        "C": "Parahippocampal gyrus",
+        "D": "Subiculum",
+        "E": "Uncus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The dentate gyrus is the inner C of the hippocampal formation, composed of a tooth-like wedge of densely packed granule cells that receive entorhinal input and project to the hippocampus proper.",
+        "B": "The hippocampus proper is the outer, laterally positioned C whose pyramidal cells receive dentate input and project to the subiculum.",
+        "C": "The parahippocampal gyrus is the surrounding six-layered and transitional cortex on the medial temporal surface, not one of the interlocking C-shaped bands.",
+        "D": "The subiculum lies inferior to the hippocampus within the parahippocampal gyrus and sends output along the alveus and fimbria into the fornix.",
+        "E": "The uncus is the anterior expansion of the parahippocampal gyrus overlying the amygdala and housing primary olfactory cortex."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-011",
+      "question": "A 66-year-old man with poorly controlled hypertension has sudden dense weakness and sensory loss of the left face, arm, and leg without aphasia or neglect. Noncontrast CT shows a 2-cm hemorrhage in the deep white matter that occupies the band separating the head of the caudate nucleus medially from the putamen laterally. Which structure contains the hemorrhage?",
+      "answers": {
+        "A": "Anterior commissure",
+        "B": "External capsule",
+        "C": "Extreme capsule",
+        "D": "Internal capsule",
+        "E": "Lenticular fasciculus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior commissure is a discrete transverse bundle at the base of the septal region and does not separate caudate from putamen.",
+        "B": "The external capsule lies lateral to the putamen, between it and the claustrum, not between caudate and putamen.",
+        "C": "The extreme capsule is the thin sheet between the claustrum and the insular cortex, the most lateral of the deep capsules.",
+        "D": "The internal capsule forms between the caudate nucleus and the putamen, with its anterior limb separating the two nuclei that are joined ventrally by the nucleus accumbens, and it carries the dense corticospinal and thalamocortical fibers whose interruption gives a pure face-arm-leg deficit without cortical signs.",
+        "E": "The lenticular fasciculus is a thin pallidal outflow band dorsal to the subthalamic nucleus, far caudal and inferior to the caudate-putamen interface."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-012",
+      "question": "A 47-year-old man reports episodes in which he abruptly smells burning rubber for about 30 seconds, followed by lip smacking and 2 minutes of confusion. MRI shows a mass in the anterior medial temporal lobe at the anterior pole of the parahippocampal gyrus. The biopsy shows infiltration of adjacent cortex that contains only three cellular layers. Which region has been infiltrated?",
+      "answers": {
+        "A": "Cingulate gyrus",
+        "B": "Cuneus",
+        "C": "Insular cortex",
+        "D": "Superior temporal gyrus",
+        "E": "Uncus of the parahippocampal gyrus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The cingulate gyrus is limbic lobe cortex above the corpus callosum and is not the target of the olfactory tract, and it does not sit at the anterior temporal pole.",
+        "B": "The cuneus is six-layered occipital cortex above the calcarine sulcus serving the contralateral inferior visual field.",
+        "C": "The insular cortex lies buried beneath the opercula and, while it processes visceral and gustatory information, it is not the three-layered primary olfactory cortex.",
+        "D": "The superior temporal gyrus contains six-layered primary auditory cortex along the transverse temporal gyri, which would produce auditory rather than olfactory auras.",
+        "E": "The uncus is the anterior expansion of the parahippocampal gyrus whose three-layered paleocortex is primary olfactory cortex, and it overlies the amygdala, explaining the olfactory aura with automatisms."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-013",
+      "question": "A 70-year-old woman with atrial fibrillation notices that she keeps bumping into people on her right side. On confrontation testing she misses targets only in the upper right quadrant of both eyes, and the deficit respects the vertical meridian. Acuity, pupils, color vision, language, and strength are normal. MRI shows an infarct restricted to the cortex on the bank below the calcarine sulcus in the left hemisphere. Which visual field finding best matches this lesion?",
+      "answers": {
+        "A": "Left homonymous inferior quadrantanopia",
+        "B": "Left homonymous superior quadrantanopia",
+        "C": "Right homonymous hemianopia with macular sparing",
+        "D": "Right homonymous inferior quadrantanopia",
+        "E": "Right homonymous superior quadrantanopia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A left-sided field defect would require a right occipital lesion, since each primary visual cortex serves the contralateral field.",
+        "B": "A left superior quadrantanopia would follow damage to the right lingual gyrus, not the left.",
+        "C": "A complete hemianopia would require infarction of both banks of the calcarine sulcus, above and below.",
+        "D": "An inferior quadrantanopia results from damage to the cuneus above the calcarine sulcus, which represents the contralateral lower field.",
+        "E": "The lingual gyrus lies below the calcarine sulcus and represents the contralateral superior visual field, so a left lingual infarct causes a right homonymous superior quadrantanopia."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-014",
+      "question": "A 63-year-old man has an embolic infarct confined to the transverse temporal gyri of Heschl on the superior surface of the left superior temporal gyrus. He reports that sounds seem indistinct and he has difficulty telling where a voice is coming from, but he startles normally to a slammed door. Language comprehension and repetition are intact. Formal audiometry is performed. Which result is most likely?",
+      "answers": {
+        "A": "Complete deafness in the contralateral ear",
+        "B": "Complete deafness in the ipsilateral ear",
+        "C": "Conductive hearing loss in the contralateral ear",
+        "D": "Essentially normal pure-tone thresholds in both ears",
+        "E": "Sensorineural hearing loss in the contralateral ear"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Unilateral deafness does not follow a cortical lesion because each primary auditory cortex receives input from both ears.",
+        "B": "Ipsilateral deafness points to a lesion of the cochlea or cochlear nerve before the auditory pathway decussates, not to cortex.",
+        "C": "Conductive loss arises from external or middle ear pathology and has no cortical correlate.",
+        "D": "Because auditory input reaches each primary auditory cortex bilaterally, a unilateral Heschl lesion leaves pure-tone thresholds essentially normal while degrading sound localization and discrimination.",
+        "E": "Contralateral sensorineural loss would require injury to the cochlea, cochlear nerve, or cochlear nuclei rather than the cortical endpoint."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-015",
+      "question": "A 77-year-old woman is found on the floor. She cannot lift her right leg against gravity and does not feel light touch on the right foot, but right arm strength is 5/5 and her face is symmetric. She is incontinent of urine and shows a grasp reflex on the left. Speech is fluent with normal comprehension. MRI shows infarction of the medial surface of the left hemisphere including the paracentral lobule. Occlusion of which artery best explains these findings?",
+      "answers": {
+        "A": "Anterior cerebral artery",
+        "B": "Anterior choroidal artery",
+        "C": "Middle cerebral artery, inferior division",
+        "D": "Middle cerebral artery, superior division",
+        "E": "Posterior cerebral artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The motor and sensory homunculi place the lower limb on the medial surface in the paracentral lobule, which is anterior cerebral artery territory, so occlusion produces contralateral leg-predominant weakness and sensory loss with urinary incontinence and frontal release signs.",
+        "B": "The anterior choroidal artery supplies the posterior limb of the internal capsule, optic tract, and choroid plexus, giving a dense hemiparesis affecting face, arm, and leg with hemianopia.",
+        "C": "The inferior division of the middle cerebral artery supplies temporal cortex and produces Wernicke aphasia and visual field loss without leg-predominant weakness.",
+        "D": "The superior division of the middle cerebral artery supplies the lateral convexity, where face and arm are represented, and causes Broca aphasia with face and arm weakness.",
+        "E": "The posterior cerebral artery supplies occipital and inferomedial temporal cortex, producing hemianopia rather than isolated leg weakness."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-016",
+      "question": "A 69-year-old right-handed accountant has an embolic stroke. Afterward, strength and visual fields are normal, but she cannot write a legible sentence, cannot perform simple subtraction, cannot name which finger the examiner touches, and confuses her right and left hands when asked to follow crossed commands. MRI shows a small cortical infarct in the left inferior parietal lobule where it wraps around the upturned end of the superior temporal sulcus. Which gyrus is infarcted?",
+      "answers": {
+        "A": "Angular gyrus",
+        "B": "Cingulate gyrus",
+        "C": "Postcentral gyrus",
+        "D": "Precuneus",
+        "E": "Supramarginal gyrus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The angular gyrus of the inferior parietal lobule wraps around the end of the superior temporal sulcus, and dominant-hemisphere damage there produces the tetrad of agraphia, acalculia, finger agnosia, and left-right disorientation.",
+        "B": "The cingulate gyrus is limbic lobe cortex above the corpus callosum, and lesions there cause akinetic and motivational syndromes.",
+        "C": "The postcentral gyrus is primary somatosensory cortex, so its infarction produces contralateral hemisensory loss with astereognosis, not acalculia and agraphia.",
+        "D": "The precuneus lies on the medial parietal surface behind the marginal sulcus and is separated from the paracentral gyrus by that sulcus, outside this lateral territory.",
+        "E": "The supramarginal gyrus is the inferior parietal region that wraps around the end of the lateral sulcus rather than the superior temporal sulcus, and it is classically associated with conduction aphasia and ideomotor apraxia."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-017",
+      "question": "A 58-year-old man has a stroke producing loss of taste, impaired awareness of visceral sensation, and episodes of severe autonomic instability. A coronal MRI shows infarction of a triangular island of cortex that is buried deep to the frontal, parietal, and temporal opercula and is separated from the putamen by two thin sheets of white matter, the extreme and external capsules. Which region is infarcted?",
+      "answers": {
+        "A": "Cingulate cortex",
+        "B": "Entorhinal cortex",
+        "C": "Insular cortex",
+        "D": "Orbital gyri",
+        "E": "Paracentral lobule"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cingulate cortex lies on the medial surface above the corpus callosum and is not covered by opercula or bounded by the capsules.",
+        "B": "The entorhinal cortex is three-layered paleocortex at the end of the olfactory tracts on the ventromedial temporal surface.",
+        "C": "The insula is not a true lobe and is hidden beneath the frontal, parietal, and temporal opercula, with three short anterior and two long posterior gyri, and is separated from the basal nuclei by the extreme and external capsules.",
+        "D": "The orbital gyri sit on the inferior frontal surface lateral to the olfactory sulcus and are not related to the deep capsules.",
+        "E": "The paracentral lobule is the medial continuation of the pre- and postcentral gyri and serves the contralateral lower limb."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-018",
+      "question": "A 72-year-old man with hypertension has the abrupt onset of violent, large-amplitude flinging movements of the left arm and leg that stop during sleep. Strength, sensation, and coordination are otherwise intact. Laboratory studies are shown. MRI shows a small lacunar infarct in a lens-shaped nucleus on the right, lying just dorsal to the cerebral peduncle and just ventral to the lenticular fasciculus and zona incerta. Which structure is infarcted?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "96 mg/dL",
+          "70-100 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "5.4%",
+          "<5.7%"
+        ],
+        [
+          "Serum osmolality",
+          "288 mOsm/kg",
+          "275-295 mOsm/kg"
+        ],
+        [
+          "TSH",
+          "2.1 uU/mL",
+          "0.4-4.0 uU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Caudate nucleus",
+        "B": "Globus pallidus externus",
+        "C": "Putamen",
+        "D": "Substantia nigra pars compacta",
+        "E": "Subthalamic nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The caudate nucleus arches within the lateral ventricle far dorsal to the peduncle, and its degeneration produces chorea developing over years rather than acute hemiballismus.",
+        "B": "The globus pallidus externus lies within the lenticular nucleus medial to the putamen and well lateral and rostral to the described position.",
+        "C": "The putamen is the most lateral component of the lenticular nucleus and is separated from the subthalamic region by the internal capsule and peduncle.",
+        "D": "The substantia nigra pars compacta lies within the midbrain below the subthalamic nucleus, and its loss causes parkinsonism with rigidity and bradykinesia.",
+        "E": "The subthalamic nucleus sits just dorsal to the forming cerebral peduncle and ventral to the lenticular fasciculus and zona incerta, and losing its glutamatergic drive to the internal pallidum disinhibits the thalamus, producing contralateral hemiballismus; the normal glucose and A1c exclude nonketotic hyperglycemic hemichorea."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-019",
+      "question": "A 68-year-old man has 3 years of progressive slowness, a 4-Hz rest tremor of the right hand, cogwheel rigidity, and a shuffling gait. Autopsy years later shows marked depigmentation of the substantia nigra pars compacta with Lewy bodies in surviving neurons; the putamen, globus pallidus, and subthalamic nucleus appear structurally normal. Loss of which signaling action best accounts for his motor signs?",
+      "answers": {
+        "A": "Dopaminergic modulation of the striatum",
+        "B": "Excitatory glutamatergic projection from cortex to striatum",
+        "C": "GABAergic inhibition of the thalamus by the globus pallidus",
+        "D": "GABAergic projection from the striatum to the globus pallidus",
+        "E": "Glutamatergic excitation of the globus pallidus by the subthalamic nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The pars compacta sends dopamine to modulate the striatum, and losing that modulation shifts basal nuclei output toward excess pallidal inhibition of the thalamus, producing bradykinesia, rigidity, and rest tremor.",
+        "B": "The corticostriatal glutamatergic input is intact here, since the cortex and striatum are structurally normal.",
+        "C": "Pallidal GABAergic inhibition of the thalamus is preserved and in fact increased in parkinsonism, so it is the consequence rather than the lost signal.",
+        "D": "The striatal GABAergic projection to the globus pallidus is intact, as the putamen and pallidum are structurally normal; its loss instead underlies chorea.",
+        "E": "Subthalamic glutamatergic drive to the pallidum is preserved and overactive in this disorder, which is why that nucleus is a deep brain stimulation target."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-basal-ganglia-prelab-020",
+      "question": "A 41-year-old man has 2 years of irritability, poor planning, and involuntary writhing, dance-like movements of the limbs and face that he partly incorporates into purposeful gestures. His father died in a state hospital at age 55 with similar movements. MRI shows marked atrophy of the heads of the caudate nuclei with boxcar dilation of the frontal horns of the lateral ventricles; the substantia nigra and subthalamic nuclei appear normal. Loss of which projection best explains his movement disorder?",
+      "answers": {
+        "A": "Cortical glutamatergic projection to the striatum",
+        "B": "Nigrostriatal dopaminergic projection to the putamen",
+        "C": "Pallidal GABAergic projection to the thalamus",
+        "D": "Striatal GABAergic projection to the globus pallidus",
+        "E": "Subthalamic glutamatergic projection to the globus pallidus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The corticostriatal input is excitatory and glutamatergic, and its loss would reduce rather than release movement; the imaging shows striatal, not cortical, dropout.",
+        "B": "Loss of the nigrostriatal dopaminergic projection produces hypokinetic parkinsonism, and the substantia nigra is described as normal.",
+        "C": "The pallidal GABAergic projection to the thalamus is the output limb; excess of this activity causes hypokinesia, whereas this patient is hyperkinetic.",
+        "D": "The striatum inhibits the globus pallidus and substantia nigra pars reticulata via GABA, so degeneration of caudate and putamen neurons removes that inhibition, ultimately disinhibiting the thalamus and producing chorea.",
+        "E": "Loss of subthalamic glutamatergic drive causes hemiballismus contralateral to a single lesion, and the subthalamic nuclei are described as normal here."
+      }
+    }
+  ]
+}

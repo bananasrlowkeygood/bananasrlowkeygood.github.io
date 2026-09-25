@@ -1,0 +1,577 @@
+{
+  "lecture": "Cortex & Subcortex Cases",
+  "block": "neuro",
+  "generated": "2026-09-25",
+  "questions": [
+    {
+      "id": "neuro-cortex-and-subcortex-cases-001",
+      "question": "A 47-year-old man reports three to four years of slowly progressive weakness and numbness of the left lower limb, punctuated by two episodes of uncontrollable jerking of that limb lasting two minutes each with preserved awareness. Cranial nerves are normal. There is mild weakness of the left hip flexors, hamstrings, and foot dorsiflexors, with relatively stronger knee extensors. Upper extremity strength is normal and there is no atrophy or fasciculation. Reflexes are normal in both arms but there is left quadriceps and Achilles hyperreflexia with clonus and a left extensor plantar response. All sensory modalities are reduced over the left lower limb without a dermatomal level. Which site best accounts for these findings?",
+      "answers": {
+        "A": "Left medial frontoparietal cortex adjacent to the falx",
+        "B": "Left posterior limb of the internal capsule",
+        "C": "Right lateral precentral and postcentral gyri",
+        "D": "Right medial frontoparietal cortex adjacent to the falx",
+        "E": "Right thoracic spinal cord hemisection"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left-sided cortical lesion would produce right-sided deficits, whereas every finding in this patient is on the left.",
+        "B": "An internal capsule lesion packs the fibers for face, arm, and leg together, so it would produce a dense contralateral hemiparesis rather than isolated leg involvement, and it is not epileptogenic cortex.",
+        "C": "The lateral convexity carries the face and hand representation of both homunculi, so a lesion there would spare the leg and weaken the face and arm.",
+        "D": "The lower limb is represented on the medial surface of the precentral and postcentral gyri in the paracentral lobule, so a right medial frontoparietal lesion produces left leg weakness, left leg sensory loss in all modalities, upper motor neuron signs, and focal motor seizures.",
+        "E": "A cord lesion would produce a discernible sensory level and would not cause focal seizures, which require cortex."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-002",
+      "question": "A 47-year-old man has had four years of progressive left leg weakness with left leg hyperreflexia, clonus, an extensor plantar response, and loss of all sensory modalities restricted to the left lower limb. In the past month he has had two focal aware motor seizures of the left leg. Imaging is pending. Which pathologic process best explains this history?",
+      "answers": {
+        "A": "Cardioembolic infarct in the anterior cerebral artery territory",
+        "B": "Demyelinating plaque in the periventricular white matter",
+        "C": "Meningioma arising from the falx cerebri",
+        "D": "Ruptured aneurysm of the anterior communicating artery",
+        "E": "Vertebral compression fracture with cord impingement"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "An embolic infarct produces sudden maximal deficit, not four years of stepwise progression with new-onset seizures.",
+        "B": "A white matter plaque would not irritate cortex to produce focal motor seizures, and multiple sclerosis typically relapses and remits over weeks rather than progressing linearly for four years.",
+        "C": "A slowly enlarging parasagittal meningioma of the falx compresses the paracentral lobule from the medial surface, causing years of progressive leg deficits plus cortical irritation manifesting as focal seizures.",
+        "D": "Aneurysmal rupture causes an abrupt thunderclap headache with meningismus, not indolent progressive weakness.",
+        "E": "Cord compression would give a sensory level and cannot generate focal seizures."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-003",
+      "question": "A 30-year-old man reports several months of decreased libido and erectile dysfunction along with bilateral milky nipple discharge. On further questioning he describes one to two months of bumping into objects at his sides and occasional headaches. He is alert and oriented. Visual field testing shows bitemporal hemianopsia. Pupillary responses, extraocular movements, strength, sensation, coordination, and reflexes are all normal. Which single lesion best accounts for the entire presentation?",
+      "answers": {
+        "A": "Craniopharyngioma compressing the left optic tract",
+        "B": "Infarction of the bilateral occipital poles",
+        "C": "Mass in the sella turcica beneath the optic chiasm",
+        "D": "Meningioma of the olfactory groove",
+        "E": "Pinealoma compressing the superior colliculi"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "An optic tract lesion produces a contralateral homonymous hemianopsia, not a bitemporal pattern, and would not explain the endocrine findings.",
+        "B": "Bilateral occipital infarction causes cortical blindness with preserved pupillary reflexes, not a bitemporal field cut with galactorrhea.",
+        "C": "A sellar mass grows superiorly into the decussating nasal retinal fibers of the optic chiasm, producing bitemporal hemianopsia, while disrupting the hypophyseal portal delivery of dopamine or secreting prolactin directly, producing hyperprolactinemia with galactorrhea and hypogonadism.",
+        "D": "An olfactory groove meningioma causes anosmia and frontal lobe signs, and it sits too far anterior to compress the chiasm in this pattern.",
+        "E": "A pineal mass causes Parinaud syndrome with impaired upgaze and light-near dissociation, not a bitemporal field defect."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-004",
+      "question": "A 30-year-old man with bitemporal hemianopsia is found to have galactorrhea, decreased libido, and a serum prolactin of 180 ng/mL. MRI demonstrates a 1.8 cm sellar mass. The tumor itself does not stain for prolactin on later pathology. Which mechanism best explains his elevated prolactin?",
+      "answers": {
+        "A": "Autonomous prolactin secretion by the tumor cells themselves",
+        "B": "Ectopic prolactin production by hypothalamic neurons",
+        "C": "Increased thyrotropin-releasing hormone from primary hypothyroidism",
+        "D": "Interruption of hypothalamic dopamine delivery through the portal system",
+        "E": "Loss of negative feedback from decreased testicular testosterone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A prolactinoma would stain positive for prolactin, which this tumor does not, so autonomous secretion is excluded here.",
+        "B": "Hypothalamic neurons release dopamine and releasing hormones into the portal circulation; they do not synthesize prolactin.",
+        "C": "Primary hypothyroidism can raise prolactin through thyrotropin-releasing hormone, but nothing in the vignette suggests hypothyroidism and it would not cause a sellar mass with a field cut.",
+        "D": "Prolactin is under tonic inhibition by dopamine carried in the hypophyseal portal system, so a mass that compresses the stalk and portal vessels releases lactotrophs from inhibition and raises prolactin, the so-called stalk effect.",
+        "E": "Low testosterone is the consequence of hyperprolactinemia in this patient rather than its cause, since testosterone does not inhibit prolactin release."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-005",
+      "question": "A 30-year-old man with a sellar mass has bitemporal hemianopsia from compression of the optic chiasm. His neurology resident asks him to contrast this with other lesions of the visual pathway. Which lesion would instead produce a right superior quadrantanopsia?",
+      "answers": {
+        "A": "Left inferior optic radiations in the temporal lobe",
+        "B": "Left optic tract posterior to the chiasm",
+        "C": "Left superior optic radiations in the parietal lobe",
+        "D": "Right inferior optic radiations in the temporal lobe",
+        "E": "Right optic nerve anterior to the chiasm"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The inferior optic radiations sweep anteriorly around the temporal horn as Meyer's loop and carry the contralateral superior visual field, so a left temporal lesion produces a right superior quadrantanopsia.",
+        "B": "A left optic tract lesion removes the entire right visual field from both eyes, producing a right homonymous hemianopsia rather than a single quadrant.",
+        "C": "The superior radiations in the parietal lobe carry the contralateral inferior field, so a left parietal lesion gives a right inferior quadrantanopsia.",
+        "D": "A right temporal lesion affects the left superior visual field, which is the mirror image of the deficit described.",
+        "E": "A right optic nerve lesion causes monocular right eye blindness, since it is anterior to any decussation."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-006",
+      "question": "A 64-year-old man with coronary artery disease and hypertension develops the abrupt inability to speak. He produces almost no words, and those he does produce are effortful and telegraphic. He follows most one-step and two-step commands correctly but cannot repeat even simple phrases. Naming is poor. Examination also shows right upper motor neuron facial weakness and right hemiparesis affecting the arm more than the leg, with a similar sensory distribution. How is his language deficit best characterized?",
+      "answers": {
+        "A": "Broca aphasia",
+        "B": "Conduction aphasia",
+        "C": "Dysarthria without aphasia",
+        "D": "Transcortical motor aphasia",
+        "E": "Wernicke aphasia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Nonfluent, effortful, telegraphic output with impaired repetition and naming but relatively preserved comprehension defines Broca aphasia.",
+        "B": "Conduction aphasia spares fluency and comprehension while selectively devastating repetition, whereas this patient is profoundly nonfluent.",
+        "C": "Dysarthria is a motor articulation problem with intact word finding, naming, and grammar, none of which are intact here.",
+        "D": "Transcortical motor aphasia is nonfluent but characteristically spares repetition, which is impaired in this patient.",
+        "E": "Wernicke aphasia produces fluent, paraphasic speech with impaired comprehension, the opposite of this pattern."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-007",
+      "question": "A 64-year-old man with hypertension has acute nonfluent aphasia with impaired repetition, right upper motor neuron facial weakness, and right hemiparesis and hemisensory loss that are worse in the arm than the leg. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Left lateral frontal and parietal cortex around the sylvian fissure",
+        "B": "Left medial frontal and parietal cortex in the paracentral lobule",
+        "C": "Left thalamus in the ventrobasal complex",
+        "D": "Right lateral frontal and parietal cortex around the sylvian fissure",
+        "E": "Right posterior limb of the internal capsule"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Language is lateralized to the left hemisphere in most people, and the face and upper limb occupy the most lateral portions of the motor and sensory homunculi, so a left perisylvian lesion produces aphasia with face and arm predominant contralateral deficits.",
+        "B": "The paracentral lobule represents the lower limb, so a medial lesion would spare the face and arm and would not cause aphasia.",
+        "C": "A thalamic lesion in the ventrobasal complex causes pure contralateral sensory loss without significant weakness or nonfluent aphasia.",
+        "D": "A right-sided lesion would cause left-sided weakness and would not cause aphasia in a typically lateralized patient.",
+        "E": "An internal capsule lesion affects face, arm, and leg roughly equally and does not produce aphasia."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-008",
+      "question": "A 65-year-old woman with diabetes and hypertension awakens with numbness of the entire left side of her body. Examination shows decreased light touch, pinprick, temperature, vibration, and proprioception over the left face, left arm, and left leg. Strength is full, language is normal, and cranial nerve testing including facial sensation to corneal stimulation shows no motor deficit. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Left postcentral gyrus",
+        "B": "Left ventral posterolateral and ventral posteromedial thalamic nuclei",
+        "C": "Right dorsal column nuclei in the medulla",
+        "D": "Right internal capsule genu",
+        "E": "Right ventral posterolateral and ventral posteromedial thalamic nuclei"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A cortical sensory lesion tends to spare primary modalities and impair discriminative functions such as graphesthesia and stereognosis, and a left-sided cortical lesion would affect the right body.",
+        "B": "The thalamus is the right structure but the wrong side, since sensory pathways have already crossed and a left thalamic lesion produces right-sided loss.",
+        "C": "The dorsal column nuclei carry only fine touch, vibration, and proprioception and only from the body, so pain, temperature, and facial sensation would be spared.",
+        "D": "The genu of the internal capsule carries corticobulbar fibers, so a lesion there causes contralateral lower facial weakness rather than isolated hemisensory loss.",
+        "E": "The ventrobasal complex of the thalamus relays all somatosensory modalities from the contralateral body through VPL and the contralateral face through VPM, so a right-sided lesion causes complete left hemisensory loss with no motor or language findings."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-009",
+      "question": "A 65-year-old woman with diabetes and hypertension has an abrupt pure hemisensory syndrome affecting the left face, arm, and leg without weakness. MRI shows a small lacunar infarct in the right ventrobasal thalamus. Occlusion of which vessel most likely produced this infarct?",
+      "answers": {
+        "A": "Anterior choroidal artery",
+        "B": "Lenticulostriate branches of the middle cerebral artery",
+        "C": "Recurrent artery of Heubner",
+        "D": "Superior cerebellar artery",
+        "E": "Thalamoperforating branches of the posterior cerebral artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior choroidal artery supplies the posterior limb of the internal capsule and optic tract, so occlusion typically causes hemiparesis and a visual field cut alongside sensory loss.",
+        "B": "Lenticulostriate vessels supply the striatum and internal capsule, producing pure motor hemiparesis rather than pure sensory loss.",
+        "C": "The recurrent artery of Heubner supplies the anteromedial caudate and anterior limb of the internal capsule, causing face and arm weakness with abulia.",
+        "D": "The superior cerebellar artery supplies the superior cerebellum and rostral pons, producing ataxia and brainstem signs.",
+        "E": "Small thalamoperforating vessels arising from the posterior cerebral and posterior communicating arteries supply the ventrobasal complex, and their occlusion produces the classic pure sensory stroke."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-010",
+      "question": "A 64-year-old man survives a prolonged episode of global cerebral hypoperfusion during a cardiac arrest. After recovery he converses normally, retains memories from before the arrest, and can still play the piano fluently, but he cannot recall any conversation, meal, or visitor from the preceding hours or days. Damage to which structure best explains this deficit?",
+      "answers": {
+        "A": "Amygdala",
+        "B": "Caudate nucleus",
+        "C": "Hippocampus",
+        "D": "Mammillary body",
+        "E": "Putamen"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The amygdala assigns emotional valence to stimuli and mediates fear conditioning; its loss impairs emotional recognition rather than day-to-day episodic encoding.",
+        "B": "The caudate participates in habit learning and cognitive aspects of motor control, not the formation of new explicit memories.",
+        "C": "The hippocampus is required to consolidate new explicit episodic memories and is among the most vulnerable structures to global hypoperfusion, so bilateral damage produces profound anterograde amnesia with preserved remote memory.",
+        "D": "The mammillary bodies can cause amnesia when damaged in thiamine deficiency, but they are not the structure most selectively vulnerable to a hypoperfusion event in this vignette.",
+        "E": "The putamen supports procedural learning, which is exactly what this patient has retained when he plays the piano."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-011",
+      "question": "A 64-year-old man has dense anterograde amnesia after a hypotensive episode. The neuroradiologist notes hippocampal signal change but also an area of injury in the putamen. The team asks why the putamen lesion is not the source of his memory loss. Which function is the putamen contributing to this patient?",
+      "answers": {
+        "A": "Consolidation of episodic memories into cortical stores",
+        "B": "Encoding of new declarative semantic facts",
+        "C": "Procedural learning of motor habits and skills",
+        "D": "Retrieval of autobiographical memories from childhood",
+        "E": "Working memory maintenance over seconds to minutes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Consolidation of episodic material depends on the hippocampal formation and its connections, not on the basal nuclei.",
+        "B": "Semantic memory encoding is a medial temporal and neocortical function, again outside the basal nuclei.",
+        "C": "The putamen is a component of the basal nuclei, which subserve nondeclarative procedural learning such as riding a bicycle or driving, a system entirely separate from the hippocampal explicit memory circuit.",
+        "D": "Remote autobiographical retrieval depends on distributed cortical networks and is characteristically preserved in hippocampal amnesia.",
+        "E": "Working memory is largely a dorsolateral prefrontal function and is typically intact in these patients."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-012",
+      "question": "A 56-year-old woman is brought to the emergency department after the sudden onset of violent, large-amplitude flinging movements of her left arm and leg. The movements worsen when she becomes anxious and disappear during sleep. Examination also shows mild weakness of the left side. Damage to which structure best explains this movement disorder?",
+      "answers": {
+        "A": "Left subthalamic nucleus",
+        "B": "Right caudate nucleus",
+        "C": "Right globus pallidus internus",
+        "D": "Right substantia nigra pars compacta",
+        "E": "Right subthalamic nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A left subthalamic lesion would produce flinging movements of the right limbs, the mirror image of this presentation.",
+        "B": "Caudate degeneration produces the chorea of Huntington disease, which is generalized and gradual rather than acute and unilaterally ballistic.",
+        "C": "Lesions of the internal pallidum reduce thalamic inhibition more diffusely and are used therapeutically to suppress dyskinesia, not to create hemiballismus.",
+        "D": "Loss of nigral dopaminergic neurons produces the bradykinesia and rigidity of parkinsonism, the opposite of a hyperkinetic disorder.",
+        "E": "Hemiballismus results from an acute lesion, usually a small lacunar infarct, of the subthalamic nucleus contralateral to the affected limbs, so left-sided flinging localizes to the right subthalamic nucleus."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-013",
+      "question": "A 56-year-old woman develops acute violent flinging movements of the left arm and leg after a small infarct. Which sequence of circuit changes best explains the excessive movement?",
+      "answers": {
+        "A": "Decreased excitation of the internal pallidum, disinhibiting the ventral anterior and ventral lateral thalamus",
+        "B": "Decreased inhibition of the external pallidum, increasing subthalamic output",
+        "C": "Increased dopaminergic drive on direct pathway D1 receptors in the striatum",
+        "D": "Increased excitation of the internal pallidum, inhibiting the ventral anterior and ventral lateral thalamus",
+        "E": "Increased inhibitory output from the substantia nigra pars reticulata to the thalamus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The subthalamic nucleus normally sends glutamatergic excitation to the internal pallidum, which in turn inhibits the ventral anterior and ventral lateral thalamic nuclei, so losing the subthalamic nucleus disinhibits the thalamus and releases surges of motor cortex firing as explosive contralateral movements.",
+        "B": "Increased subthalamic output would increase pallidal inhibition of the thalamus and reduce movement, producing a hypokinetic rather than hyperkinetic state.",
+        "C": "Excess direct pathway dopaminergic drive underlies levodopa-induced dyskinesia, but this patient had an abrupt vascular event rather than a pharmacologic exposure.",
+        "D": "More pallidal output silences the thalamus and suppresses movement, which is the parkinsonian pattern.",
+        "E": "Greater nigral inhibitory output likewise reduces thalamocortical drive and would not generate ballistic movements."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-014",
+      "question": "A 62-year-old man presents with weakness of the left arm and leg and partial loss of the left visual field in both eyes. When asked to copy a clock face he draws the circle but crowds all the numbers onto the right side and leaves the left side blank. He denies that anything is wrong with his left arm. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Left parietal lobe",
+        "B": "Left temporal lobe including Meyer's loop",
+        "C": "Right occipital lobe alone",
+        "D": "Right parietal lobe extending to the perirolandic cortex",
+        "E": "Right prefrontal cortex anterior to the precentral sulcus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left parietal lesion causes right-sided weakness and rarely produces clinically prominent neglect, because the right hemisphere attends to both hemifields while the left attends mainly to the right.",
+        "B": "A left temporal lesion would give a right superior quadrantanopsia and no left-sided motor findings.",
+        "C": "An isolated occipital lesion explains the field cut but not the hemiparesis, hemisensory findings, or neglect.",
+        "D": "Hemispatial neglect localizes to the right parietal lobe, and the accompanying left hemiparesis places the lesion across the perirolandic cortex, with the left field cut explained by involvement of the underlying optic radiations.",
+        "E": "A purely prefrontal lesion would cause abulia and executive dysfunction without a dense hemiparesis or visual field defect."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-015",
+      "question": "A 62-year-old man with atrial fibrillation develops abrupt left hemiparesis worse in the arm than the leg, left hemisensory loss, left visual field loss, and left hemispatial neglect. Which underlying etiology is most likely?",
+      "answers": {
+        "A": "Hypertensive hemorrhage of the right putamen",
+        "B": "Ischemic stroke in the right anterior cerebral artery territory",
+        "C": "Ischemic stroke in the right middle cerebral artery territory",
+        "D": "Ischemic stroke in the right posterior cerebral artery territory",
+        "E": "Watershed infarction between the right anterior and middle cerebral arteries"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A putaminal hemorrhage causes a dense contralateral hemiparesis affecting face, arm, and leg equally with depressed consciousness, and it does not typically produce prominent neglect with a field cut.",
+        "B": "The anterior cerebral artery supplies the medial surface, so its occlusion weakens the leg more than the arm and spares the visual pathways.",
+        "C": "The middle cerebral artery supplies the lateral convexity including the face and arm homunculi, the right parietal attention network, and the optic radiations, which together produce arm-predominant hemiparesis, neglect, and a contralateral field cut.",
+        "D": "A posterior cerebral artery stroke causes a homonymous hemianopsia with macular sparing and little or no hemiparesis.",
+        "E": "Watershed infarction between the anterior and middle cerebral territories produces proximal arm and shoulder weakness in a man-in-a-barrel pattern without dense neglect."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-016",
+      "question": "A 68-year-old man is brought to the emergency department for right-sided weakness. His spouse reports he fell and fractured a hip three months ago. Examination shows right hemiparesis and a left homonymous hemianopsia. Noncontrast CT reveals a crescentic hypodense collection of old blood over the right convexity extending to the ventral surface, with a right-to-left midline shift. Which structure of the visual pathway is most likely responsible for his field defect?",
+      "answers": {
+        "A": "Left optic tract",
+        "B": "Optic chiasm",
+        "C": "Right optic nerve",
+        "D": "Right optic tract",
+        "E": "Right primary visual cortex"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A left optic tract lesion produces a right homonymous hemianopsia, the opposite side from this patient's deficit.",
+        "B": "A chiasmal lesion produces bitemporal hemianopsia rather than a homonymous pattern.",
+        "C": "An optic nerve lesion causes monocular visual loss on the same side, not a homonymous field cut in both eyes.",
+        "D": "A homonymous hemianopsia localizes the lesion behind the chiasm, and a ventrally situated right-sided mass compresses the right optic tract as it wraps around the cerebral peduncle, producing loss of the left half of the visual field in both eyes.",
+        "E": "Occipital cortex is far posterior to the ventral collection described on CT and would not be compressed by this mass."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-017",
+      "question": "A 68-year-old man who fell three months ago has a CT showing a crescent-shaped collection of old blood over the right cerebral convexity that crosses suture lines. Which process best explains this collection?",
+      "answers": {
+        "A": "Arterial bleed from a torn middle meningeal artery",
+        "B": "Bleeding into the subarachnoid space from a ruptured berry aneurysm",
+        "C": "Hypertensive rupture of a Charcot-Bouchard microaneurysm",
+        "D": "Venous bleed from torn bridging veins into the subdural space",
+        "E": "Venous infarction from superior sagittal sinus thrombosis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Middle meningeal arterial bleeding produces an epidural hematoma, which is lens-shaped, does not cross suture lines, and declares itself within hours rather than months.",
+        "B": "Subarachnoid blood tracks into the sulci and basal cisterns rather than forming a crescentic convexity collection, and presents with thunderclap headache.",
+        "C": "Charcot-Bouchard rupture produces an intraparenchymal hemorrhage in deep structures such as the putamen or thalamus, not a surface collection.",
+        "D": "Age-related cerebral atrophy puts traction on the bridging veins running from the cortex to the dural sinuses, so minor trauma tears them and blood accumulates slowly between dura and arachnoid, crossing suture lines in a crescent and presenting weeks to months later.",
+        "E": "Sinus thrombosis causes parenchymal venous infarcts with edema and hemorrhage, often bilateral and parasagittal, not a crescentic extra-axial collection."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-018",
+      "question": "A 68-year-old man has a large right-sided chronic subdural hematoma with a right-to-left midline shift. His examination shows right-sided weakness with hyperreflexia and an extensor plantar response on the right. Which mechanism best explains weakness ipsilateral to the mass?",
+      "answers": {
+        "A": "Compression of the left cerebral peduncle against the tentorial edge",
+        "B": "Compression of the right cerebral peduncle by the herniating uncus",
+        "C": "Compression of the right optic tract with secondary corticospinal injury",
+        "D": "Direct cortical injury beneath the right convexity collection",
+        "E": "Obstruction of the right anterior cerebral artery beneath the falx"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "As the right-sided mass shifts the midline leftward, the contralateral left cerebral peduncle is pushed against the rigid tentorial edge, and compressing the left corticospinal tract before its decussation produces weakness on the right, the Kernohan notch phenomenon.",
+        "B": "Compression of the ipsilateral right peduncle would weaken the left side, which is not what this patient shows.",
+        "C": "The optic tract carries no motor fibers, so its compression explains the field cut but not the hemiparesis.",
+        "D": "Direct injury to right cortex would produce left-sided weakness, again the wrong side.",
+        "E": "Subfalcine compression of the anterior cerebral artery causes contralateral leg-predominant weakness, not a right hemiparesis from a right-sided mass."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-019",
+      "question": "A 45-year-old chef notices that over two weeks he has lost all taste sensation over the entire left half of his tongue. Facial strength, facial sensation, tongue movement, and the rest of the neurologic examination are normal. MRI of the brain shows an enhancing ovoid lesion in the left dorsal pons consistent with a demyelinating plaque. Which pathway is most likely disrupted?",
+      "answers": {
+        "A": "Ascending projection from the solitary nucleus to the thalamus",
+        "B": "Chorda tympani fibers within the facial canal",
+        "C": "Corticobulbar projection to the facial motor nucleus",
+        "D": "Spinal trigeminal tract carrying facial pain and temperature",
+        "E": "Trigeminal lemniscus ascending from the principal sensory nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "First-order taste fibers from cranial nerves VII, IX, and X all synapse in the rostral solitary nucleus, and the second-order axons ascend through the dorsal brainstem toward the thalamus, so a dorsal pontine plaque interrupts taste from the entire ipsilateral half of the tongue while sparing everything else.",
+        "B": "A chorda tympani lesion affects only the anterior two-thirds of the tongue and lies outside the brainstem, so it cannot explain hemiageusia of the whole tongue or the MRI finding.",
+        "C": "Corticobulbar fibers to the facial nucleus mediate voluntary facial movement, and this patient has normal facial strength.",
+        "D": "The spinal trigeminal tract carries pain and temperature from the face, which are intact in this patient.",
+        "E": "The trigeminal lemniscus carries discriminative touch from the face and has no role in taste."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-020",
+      "question": "A 45-year-old patient with multiple sclerosis has isolated loss of taste over the left half of the tongue from a dorsal pontine plaque. Her neurologist explains that other central lesions could produce a comparable deficit. Which additional site, if lesioned, would most likely cause loss of taste sensation?",
+      "answers": {
+        "A": "Dorsal motor nucleus of the vagus",
+        "B": "Nucleus ambiguus",
+        "C": "Spinal trigeminal nucleus",
+        "D": "Ventral posterolateral nucleus of the thalamus",
+        "E": "Ventral posteromedial nucleus of the thalamus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The dorsal motor nucleus of the vagus supplies parasympathetic output to thoracic and abdominal viscera and carries no gustatory information.",
+        "B": "The nucleus ambiguus provides branchial motor innervation to the pharynx and larynx, so lesions cause dysphagia and hoarseness rather than ageusia.",
+        "C": "The spinal trigeminal nucleus processes pain and temperature from the face, a separate modality from taste.",
+        "D": "VPL relays somatosensory information from the body, not from the tongue or face.",
+        "E": "Second-order taste fibers from the solitary nucleus terminate in the ventral posteromedial nucleus, the thalamic relay for the face and tongue, so a VPM lesion also produces loss of taste."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-021",
+      "question": "A 3-month-old infant is brought to the emergency department for repeated vomiting. The parents report irritability and poor feeding for a week. Examination shows dilated scalp veins, splayed cranial sutures on palpation, and a bulging anterior fontanelle. There is increased tone in all four limbs. CT shows markedly enlarged lateral ventricles and a dilated third ventricle with a normal-sized fourth ventricle. Where is the obstruction most likely located?",
+      "answers": {
+        "A": "Arachnoid granulations of the superior sagittal sinus",
+        "B": "Cerebral aqueduct of Sylvius",
+        "C": "Foramina of Luschka and Magendie",
+        "D": "Interventricular foramen of Monro",
+        "E": "Subarachnoid space over the cerebral convexities"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Impaired absorption at the arachnoid granulations causes communicating hydrocephalus, which dilates all four ventricles including the fourth.",
+        "B": "Obstruction at the aqueduct allows the lateral and third ventricles to distend while leaving the fourth ventricle downstream and normal in size, exactly the pattern on this CT.",
+        "C": "Blockage of the outflow foramina of the fourth ventricle would also enlarge the fourth ventricle, which is normal here.",
+        "D": "Blockage at the foramen of Monro would dilate the lateral ventricles while leaving the third ventricle normal, but the third ventricle is enlarged in this patient.",
+        "E": "Impaired flow over the convexities again produces communicating hydrocephalus with enlargement of all ventricles."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-022",
+      "question": "A 3-month-old infant has vomiting, irritability, a bulging fontanelle, splayed sutures, dilated scalp veins, and hypertonia, with CT showing enlarged lateral and third ventricles and a normal fourth ventricle. Which condition does this represent?",
+      "answers": {
+        "A": "Communicating hydrocephalus",
+        "B": "Hydrocephalus ex vacuo",
+        "C": "Normal pressure hydrocephalus",
+        "D": "Obstructive noncommunicating hydrocephalus",
+        "E": "Pseudotumor cerebri"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Communicating hydrocephalus results from impaired cerebrospinal fluid absorption downstream of the ventricles and enlarges all four ventricles.",
+        "B": "Hydrocephalus ex vacuo is passive ventricular enlargement from parenchymal atrophy and produces no signs of raised intracranial pressure.",
+        "C": "Normal pressure hydrocephalus is a disease of older adults presenting with gait apraxia, urinary incontinence, and dementia at normal opening pressure.",
+        "D": "A block within the ventricular system upstream of the fourth ventricle prevents cerebrospinal fluid from communicating with the subarachnoid space, so pressure rises and produces the bulging fontanelle, splayed sutures, vomiting, and selective dilation of the lateral and third ventricles.",
+        "E": "Pseudotumor cerebri raises intracranial pressure with normal or small ventricles, not marked ventriculomegaly."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-023",
+      "question": "A 50-year-old man with no significant history presents after three months of progressive symptoms. Three months ago he had a brief witnessed convulsion for which he did not seek care. His family reports worsening memory, and for two weeks he has had a constant headache, right hand weakness, and blurred vision. On examination he is distractible and makes inappropriate jokes about his illness. The left optic disc is swollen and pale, visual acuity is 20/70 on the left and normal on the right, the right lower face is weak, right-sided reflexes are increased, and there is a right extensor plantar response. Is the primary lesion in the brainstem or cerebral cortex, and why?",
+      "answers": {
+        "A": "Brainstem, because a cranial nerve deficit is present",
+        "B": "Brainstem, because crossed motor and cranial nerve findings are present",
+        "C": "Cortex, because the behavioral change and seizure cannot arise from brainstem",
+        "D": "Cortex, because the upper motor neuron signs are unilateral",
+        "E": "Neither, because the findings localize to the cervical spinal cord"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A cranial nerve deficit does not require an intrinsic brainstem lesion, since a supratentorial mass can raise intracranial pressure and compress a nerve secondarily, as it has here with the optic nerve.",
+        "B": "There are no true crossed findings in this patient; the weakness and reflex changes are all on the right with no contralateral cranial nerve palsy.",
+        "C": "Progressive amnesia, distractibility, and disinhibited behavior are cortical functions with no brainstem representation, and a focal seizure likewise requires cortex, so the cranial nerve findings must be secondary to raised pressure from a cortical lesion.",
+        "D": "Unilateral upper motor neuron signs can arise from a lesion anywhere along the corticospinal tract including the brainstem, so laterality alone does not localize the lesion.",
+        "E": "A cervical cord lesion cannot cause a seizure, optic disc changes, personality change, or facial weakness."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-024",
+      "question": "A 50-year-old man has three months of progressive memory loss, disinhibition, headache, right hand weakness with hyperreflexia and an extensor plantar response, right lower facial weakness, and a swollen pale left optic disc with reduced acuity on the left. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Left frontal lobe",
+        "B": "Left occipital lobe",
+        "C": "Left temporal lobe",
+        "D": "Right frontal lobe",
+        "E": "Right parietal lobe"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The frontal lobe governs executive function, personality, and behavioral regulation, and a left frontal mass explains the disinhibition and distractibility, the right-sided upper motor neuron and lower facial weakness from involvement of the precentral gyrus, and the left optic nerve findings from compression of the adjacent nerve as pressure rises.",
+        "B": "An occipital lesion would produce a contralateral homonymous field defect without personality change or hemiparesis.",
+        "C": "A temporal lesion could cause seizures and memory problems but would not explain the prominent motor findings or the executive and behavioral changes.",
+        "D": "A right frontal lesion would cause left-sided weakness and would not correspond to the left optic nerve findings.",
+        "E": "A parietal lesion causes sensory and attentional deficits rather than disinhibition and disproportionate motor weakness."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-025",
+      "question": "A 50-year-old man has three months of progressive frontal behavioral change, right hemiparesis, and asymmetric optic disc findings, with no fever, weight loss, or immunosuppression. Which etiology is most likely?",
+      "answers": {
+        "A": "Cerebral abscess from hematogenous seeding",
+        "B": "Embolic infarction of the left middle cerebral artery",
+        "C": "Herpes simplex encephalitis of the medial temporal lobes",
+        "D": "Intracranial mass lesion such as a glial or meningeal tumor",
+        "E": "Relapsing-remitting multiple sclerosis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "An abscess usually evolves over days to a few weeks with fever and systemic signs, and this patient has neither.",
+        "B": "Embolic stroke produces a deficit that is maximal at onset and then improves, not a steadily worsening course over three months.",
+        "C": "Herpes encephalitis presents acutely with fever, confusion, and seizures over days and preferentially involves both temporal lobes.",
+        "D": "A steadily progressive focal deficit over months, a presenting seizure, and signs of asymmetric raised intracranial pressure together point to an expanding mass such as a glioma or meningioma.",
+        "E": "Multiple sclerosis relapses evolve over days to weeks with recovery between attacks and rarely present with this degree of frontal behavioral change and papilledema."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-026",
+      "question": "A 51-year-old man sustains a head injury and is unconscious for 15 minutes. The next morning he is difficult to arouse and thrashing incoherently. In the emergency department he is unresponsive to commands, not speaking, and agitated in a semipurposeful fashion. The left pupil is 5 mm and unreactive to light. The right arm and leg do not move even to painful stimulation, and there is a right extensor plantar response with right hyperreflexia. What is the most likely clinical localization?",
+      "answers": {
+        "A": "Diffuse axonal injury of the corpus callosum and white matter",
+        "B": "Left uncal herniation compressing the left midbrain",
+        "C": "Right uncal herniation compressing the right midbrain",
+        "D": "Tonsillar herniation compressing the medulla",
+        "E": "Upward cerebellar herniation through the tentorial incisura"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Diffuse axonal injury causes prolonged coma without lateralizing pupillary asymmetry or a dense unilateral hemiplegia.",
+        "B": "A fixed, dilated left pupil reflects compression of the parasympathetic fibers running on the surface of the left oculomotor nerve, and the accompanying right upper motor neuron signs indicate compression of the left cerebral peduncle, so an expanding left-sided mass is herniating the left uncus over the tentorial edge.",
+        "C": "Right uncal herniation would dilate the right pupil and weaken the left side, the opposite of this examination.",
+        "D": "Tonsillar herniation compresses the medulla and produces apnea, bradycardia, and hypertension rather than an isolated third nerve palsy.",
+        "E": "Upward herniation of the cerebellum compresses the midbrain dorsally, producing impaired upgaze and small pupils rather than a unilateral fixed dilated pupil."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-027",
+      "question": "A 51-year-old man with a head injury has a 5 mm left pupil that does not constrict to light in either eye, while the right pupil constricts briskly to light shone in either eye. Which anatomic fact best explains why the pupil is affected early in this process?",
+      "answers": {
+        "A": "Parasympathetic fibers run superficially in the oculomotor nerve and are compressed first",
+        "B": "Parasympathetic fibers travel with the optic nerve and are the first to be stretched",
+        "C": "Somatic motor fibers to the extraocular muscles lie superficially and fail before the pupil",
+        "D": "Sympathetic fibers to the dilator pupillae run on the surface of the oculomotor nerve",
+        "E": "The Edinger-Westphal nucleus lies in the medulla and is compressed early by herniation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The preganglionic parasympathetic fibers from the Edinger-Westphal nucleus travel on the outer surface of the oculomotor nerve, so an extrinsic compressive lesion such as a herniating uncus impairs pupillary constriction before it affects the deeper somatic motor fibers.",
+        "B": "The optic nerve carries the afferent limb of the reflex, and its involvement would abolish the consensual response in the opposite eye, which is preserved here.",
+        "C": "The somatic motor fibers lie centrally within the nerve and are affected later, which is why compressive palsies classically begin with the pupil.",
+        "D": "Sympathetic fibers reach the dilator by way of the ophthalmic division of the trigeminal nerve, not the oculomotor nerve, and their loss would cause a small rather than dilated pupil.",
+        "E": "The Edinger-Westphal nucleus is in the midbrain, not the medulla, and in this patient the compression is of the nerve rather than the nucleus."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-028",
+      "question": "A 51-year-old man with a head injury is now unresponsive to commands with a fixed dilated left pupil, right hemiplegia, and a right extensor plantar response. His condition has worsened over the past hour. What is the most appropriate next step in management?",
+      "answers": {
+        "A": "Emergent measures to lower intracranial pressure, including surgical decompression",
+        "B": "Lumbar puncture to measure opening pressure and exclude infection",
+        "C": "MRI of the brain with diffusion-weighted sequences",
+        "D": "Serial neurologic checks every hour with supportive care",
+        "E": "Thrombolysis with intravenous tissue plasminogen activator"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Uncal herniation is a surgical emergency, so the patient needs immediate intracranial pressure reduction with craniotomy to evacuate the hematoma, supplemented by hyperosmolar therapy with mannitol or hypertonic saline and brief hyperventilation.",
+        "B": "Lumbar puncture in the setting of a mass with herniation can precipitate further downward displacement and is contraindicated.",
+        "C": "MRI takes too long and does not change the immediate need for decompression in a rapidly deteriorating patient.",
+        "D": "Observation alone allows ongoing brainstem compression and would be fatal.",
+        "E": "Thrombolysis is contraindicated after head trauma and would worsen an intracranial hemorrhage."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-029",
+      "question": "A 58-year-old man has weakness confined to the left lower limb with hyperreflexia, clonus, and an extensor plantar response on the left, and no atrophy or fasciculations. His colleague argues the lesion could be in the lumbosacral plexus. Which examination finding most strongly favors a central rather than a peripheral lesion?",
+      "answers": {
+        "A": "Absence of a discernible dermatomal sensory level",
+        "B": "Involvement of both motor and sensory modalities",
+        "C": "Presence of clonus and an extensor plantar response",
+        "D": "Sparing of the contralateral lower limb",
+        "E": "Symmetry of upper extremity reflexes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Lack of a dermatomal level argues against a root or cord lesion but does not by itself distinguish upper from lower motor neuron pathology.",
+        "B": "Plexus lesions readily involve both motor and sensory fibers, so mixed involvement is not discriminating.",
+        "C": "Clonus and an extensor plantar response are upper motor neuron signs reflecting loss of descending inhibition, and they cannot be produced by a lesion of the peripheral nervous system.",
+        "D": "A unilateral deficit is compatible with either a plexus lesion or a central lesion, so sparing of the other limb is uninformative.",
+        "E": "Normal arm reflexes simply indicate that the lesion does not involve the cervical segments."
+      }
+    },
+    {
+      "id": "neuro-cortex-and-subcortex-cases-030",
+      "question": "A 64-year-old man has a right thalamic infarct producing complete left hemisensory loss. Weeks later he develops severe, spontaneous, poorly localized burning pain over the same left side of his body that is worsened by light touch. Which structure's injury best explains this delayed symptom?",
+      "answers": {
+        "A": "Hippocampus",
+        "B": "Periaqueductal gray",
+        "C": "Right dorsal column nuclei",
+        "D": "Right ventrobasal thalamic complex",
+        "E": "Subthalamic nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Hippocampal injury causes anterograde amnesia rather than a pain syndrome.",
+        "B": "The periaqueductal gray modulates descending analgesia, but this patient's lesion is in the thalamus and his deficit followed the thalamic sensory territory exactly.",
+        "C": "Dorsal column nuclei lesions cause loss of vibration and proprioception without central pain, and they would not explain the loss of pain and temperature he already has.",
+        "D": "Injury to the ventrobasal complex can be followed weeks later by Dejerine-Roussy central post-stroke pain, in which the deafferented territory becomes the site of spontaneous burning pain and allodynia.",
+        "E": "Subthalamic injury causes hemiballismus, a movement disorder rather than a pain syndrome."
+      }
+    }
+  ]
+}

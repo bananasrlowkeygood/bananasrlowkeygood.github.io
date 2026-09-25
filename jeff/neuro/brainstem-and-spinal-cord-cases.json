@@ -1,0 +1,691 @@
+{
+  "lecture": "Brainstem & Spinal Cord Cases",
+  "block": "neuro",
+  "generated": "2026-09-25",
+  "questions": [
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-001",
+      "question": "A 56-year-old man awakens unable to get out of bed because his right arm and leg are weak. His partner notes garbled speech, though he produces and understands language normally. He cannot feel his partner touch his right forearm but can still tell hot water from cold. Examination shows dysarthria, deviation of the protruded tongue to the left, right arm and leg weakness, a hyperactive right patellar reflex, a right extensor plantar response, and loss of proprioception, pressure sense, and two-point discrimination on the right side of the body. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Left dorsolateral medulla",
+        "B": "Left internal capsule posterior limb",
+        "C": "Left ventral medulla",
+        "D": "Right ventral medulla",
+        "E": "Right ventral pons"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The dorsolateral medulla contains the spinothalamic tract, spinal trigeminal complex, and nucleus ambiguus, so a lesion there gives crossed pain and temperature loss with hoarseness, none of which this patient has.",
+        "B": "An internal capsule lesion produces contralateral hemiparesis with contralateral tongue deviation, not ipsilateral tongue deviation, and would not selectively spare pain and temperature.",
+        "C": "Ipsilateral tongue deviation localizes to the hypoglossal nerve in the medulla, and the contralateral upper motor neuron weakness and contralateral dorsal column sensory loss place the lesion in the left ventral medulla, where the pyramid, medial lemniscus, and exiting CN XII fibers lie together.",
+        "D": "A right-sided medullary lesion would deviate the tongue to the right and weaken the left body, the mirror image of this presentation.",
+        "E": "The ventral pons contains CN VI and VII nuclei rather than CN XII, so a pontine lesion would not cause tongue deviation."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-002",
+      "question": "A 56-year-old man has right hemiparesis with right-sided loss of proprioception and two-point discrimination but fully preserved pain and temperature sensation, along with leftward deviation of the protruded tongue. Which cranial nerve is unambiguously involved?",
+      "answers": {
+        "A": "Glossopharyngeal nerve",
+        "B": "Hypoglossal nerve",
+        "C": "Spinal accessory nerve",
+        "D": "Trigeminal nerve",
+        "E": "Vagus nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The glossopharyngeal nerve mediates posterior tongue taste and sensation and the afferent limb of the gag reflex, none of which is described here.",
+        "B": "The genioglossus protrudes the tongue toward the opposite side, so a lower motor neuron lesion of one hypoglossal nerve leaves the intact side unopposed and the tongue deviates toward the lesioned side, here the left.",
+        "C": "The spinal accessory nerve supplies the sternocleidomastoid and trapezius, and neither is weak in this patient.",
+        "D": "The trigeminal nerve supplies facial sensation and the muscles of mastication, which are normal here.",
+        "E": "The vagus nerve could account for the dysarthria, but dysarthria alone is too nonspecific to implicate it, and the tongue finding is definitive for another nerve."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-003",
+      "question": "A 56-year-old man has an acute syndrome of left tongue deviation on protrusion, right hemiparesis with upper motor neuron signs, and right-sided loss of proprioception and vibration with preserved pain and temperature sensation. Occlusion of which vessel best explains these findings?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Basilar perforating arteries to the mid-pons",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Posterior spinal artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The anterior inferior cerebellar artery supplies the lateral pons, producing ipsilateral facial weakness, hearing loss, and crossed sensory findings.",
+        "B": "The anterior spinal artery, formed from the vertebral arteries and sometimes fed by the lower basilar artery, supplies the paramedian medulla containing the pyramid, medial lemniscus, and hypoglossal nucleus and nerve, which is the exact territory of this medial medullary syndrome.",
+        "C": "Basilar perforators supply the ventral pons and cause hemiparesis with CN VI or VII findings rather than tongue deviation.",
+        "D": "The posterior inferior cerebellar artery supplies the dorsolateral medulla and causes Wallenberg syndrome with crossed pain and temperature loss.",
+        "E": "The posterior spinal arteries supply the dorsal columns of the cord and posterior medulla, which would not explain the weakness or tongue findings."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-004",
+      "question": "A 56-year-old man with a medial medullary infarct cannot perceive light touch on his right forearm but readily distinguishes hot from cold water with the same hand. Which anatomic fact best explains this dissociation?",
+      "answers": {
+        "A": "Pain and temperature fibers ascend in the lateral medulla, away from the medial lemniscus",
+        "B": "Pain and temperature fibers cross in the medulla and are therefore bilaterally represented",
+        "C": "Pain and temperature fibers do not synapse before reaching the thalamus",
+        "D": "Pain and temperature fibers project only to the reticular formation, not the cortex",
+        "E": "Pain and temperature fibers travel in the dorsal columns alongside vibration fibers"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The medial lemniscus carrying discriminative touch, vibration, and proprioception sits paramedially just dorsal to the pyramid, while the spinothalamic tract carrying pain and temperature runs laterally, so a paramedian infarct takes out one system and spares the other.",
+        "B": "Spinothalamic fibers cross once in the spinal cord, not in the medulla, and are not bilaterally represented.",
+        "C": "Spinothalamic fibers do synapse, first in the dorsal horn and then in the thalamus, so this is factually wrong.",
+        "D": "Spinothalamic fibers do project to the cortex through VPL in addition to reticular and limbic targets.",
+        "E": "Pain and temperature fibers ascend in the anterolateral system, not the dorsal columns; if they shared a tract the modalities would be lost together."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-005",
+      "question": "A 46-year-old man who fractured C2 and C3 in a motor vehicle collision at age 18 had quadriparesis that largely resolved. Over recent years he has had increasing difficulty walking and numbness over both shoulders and arms, worse on the left. Examination shows normal mental status and cranial nerves, increased tone and reduced strength in all four limbs, brisk reflexes with bilateral extensor plantar responses, and a slow shuffling gait. Pinprick sensation is decreased over both shoulders and the left upper arm, while vibratory sense is intact. What is the underlying lesion?",
+      "answers": {
+        "A": "Anterior spinal artery infarct at C5",
+        "B": "Central cord cavitation at approximately C5",
+        "C": "Dorsal column demyelination in the cervical cord",
+        "D": "Extramedullary meningioma compressing the cord at C5",
+        "E": "Motor neuron degeneration of the anterior horn cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An anterior spinal artery infarct is abrupt and causes bilateral loss of pain and temperature below the level with preserved dorsal columns, not a slowly progressive cape-like deficit years after trauma.",
+        "B": "A shawl-like or cape distribution of isolated pain and temperature loss across the shoulders with preserved vibration is the signature of a post-traumatic syrinx expanding within the central cord at about C5.",
+        "C": "Dorsal column disease would abolish vibration and proprioception while sparing pinprick, the reverse of this pattern.",
+        "D": "An extramedullary compressive mass produces a sensory level and typically affects all modalities below it, rather than a suspended segmental dissociation.",
+        "E": "Anterior horn cell degeneration causes pure lower motor neuron weakness with atrophy and fasciculations and no sensory loss."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-006",
+      "question": "A 46-year-old man with a post-traumatic cervical syrinx has lost pinprick and temperature sensation in a cape-like distribution while vibration and proprioception remain intact. Which anatomic feature explains why these modalities are lost first?",
+      "answers": {
+        "A": "Dorsal column fibers are heavily myelinated and resist compression",
+        "B": "Dorsal root ganglion cells for pain are located outside the cord",
+        "C": "Pain and temperature fibers ascend ipsilaterally for several segments before crossing",
+        "D": "Second-order pain and temperature axons decussate in the anterior white commissure",
+        "E": "Spinothalamic axons are unmyelinated and metabolically fragile"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Myelination does not explain the pattern, since dorsal column fibers are ultimately affected too as the cavity enlarges laterally and posteriorly.",
+        "B": "All primary sensory cell bodies for the body lie in dorsal root ganglia regardless of modality, so this does not distinguish the modalities.",
+        "C": "Lissauer tract ascent of one to two segments affects the level of the deficit but not which modality is lost first.",
+        "D": "Second-order spinothalamic axons cross the midline in the anterior white commissure immediately adjacent to the central canal, so a cavity expanding from the central canal interrupts these crossing fibers before reaching any other tract.",
+        "E": "Fiber caliber is not the mechanism; the anatomic position of the decussation is."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-007",
+      "question": "A 46-year-old man with a cervical syrinx initially had only cape-like loss of pain and temperature sensation. He now also has increased tone, weakness in all four limbs, brisk reflexes, and bilateral extensor plantar responses. Which structure has the cavity most likely reached?",
+      "answers": {
+        "A": "Anterior horn cells of the cervical enlargement",
+        "B": "Dorsal columns in the posterior funiculus",
+        "C": "Dorsal spinocerebellar tract",
+        "D": "Lateral corticospinal tract in the lateral funiculus",
+        "E": "Sympathetic preganglionic neurons of the intermediolateral cell column"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anterior horn involvement causes flaccid weakness with atrophy and hyporeflexia at the affected segments, not the hyperreflexia and extensor plantar responses seen here.",
+        "B": "Dorsal column involvement would impair vibration and proprioception, which remain intact in this patient.",
+        "C": "Spinocerebellar involvement produces limb ataxia without upper motor neuron signs.",
+        "D": "Upper motor neuron findings in all four limbs indicate that the expanding cavity has extended laterally into the lateral corticospinal tracts, which lie in the lateral funiculus and carry descending motor fibers to all levels below.",
+        "E": "Intermediolateral column injury produces autonomic findings such as Horner syndrome and anhidrosis rather than spasticity."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-008",
+      "question": "A 55-year-old woman cannot keep liquids in her mouth and reports double vision. Her right eye is dry and red and she cannot fully close the right eyelids, cannot wrinkle the right forehead, and has a drooping right corner of the mouth. Touching either cornea produces a blink of the left eye only. Which cranial nerve links most of these findings?",
+      "answers": {
+        "A": "Left facial nerve",
+        "B": "Left trigeminal nerve",
+        "C": "Right facial nerve",
+        "D": "Right oculomotor nerve",
+        "E": "Right trigeminal nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A left facial nerve lesion would weaken the left face and abolish the left blink, whereas the left eye blinks normally.",
+        "B": "A left trigeminal lesion would abolish the afferent limb from the left cornea, but stimulating the left cornea does produce a blink.",
+        "C": "The facial nerve supplies the lacrimal gland, orbicularis oculi, frontalis, and zygomaticus, so a right facial lesion explains the dry red eye, inability to close the lid or wrinkle the forehead, the drooping mouth corner, and the absent right blink as the efferent limb of the corneal reflex.",
+        "D": "The oculomotor nerve elevates the lid and moves the globe but plays no role in facial expression, lacrimation, or blinking.",
+        "E": "A right trigeminal lesion would abolish the blink only when the right cornea is touched, but here the right eye fails to blink no matter which cornea is stimulated."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-009",
+      "question": "A 55-year-old woman has a right facial palsy. On gaze testing, the right eye is slightly adducted in primary position. On left gaze only the left eye abducts. On right gaze neither eye moves rightward. When she focuses on a near object, both eyes adduct normally. Pupils constrict to light in either eye. Which syndrome do the ocular findings represent?",
+      "answers": {
+        "A": "Bilateral internuclear ophthalmoplegia",
+        "B": "Left internuclear ophthalmoplegia",
+        "C": "One-and-a-half syndrome from right abducens nucleus and right MLF injury",
+        "D": "Parinaud syndrome from dorsal midbrain compression",
+        "E": "Right oculomotor nerve palsy with pupillary sparing"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Bilateral internuclear ophthalmoplegia impairs adduction in both eyes while abduction is preserved bilaterally, but this patient has a complete right gaze palsy.",
+        "B": "An isolated left internuclear ophthalmoplegia would impair left eye adduction only, leaving right gaze intact.",
+        "C": "Damage to the right abducens nucleus abolishes all rightward gaze because that nucleus drives both the ipsilateral lateral rectus and, through the MLF, the contralateral medial rectus, and added damage to the right MLF also prevents the right eye from adducting on left gaze, leaving only left eye abduction, the one-and-a-half pattern.",
+        "D": "Parinaud syndrome impairs vertical gaze with light-near dissociation, and horizontal movements are spared.",
+        "E": "A third nerve palsy would produce ptosis and a down-and-out eye, neither of which is present, and convergence would fail."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-010",
+      "question": "A 55-year-old woman has a right lower motor neuron facial palsy with a complete right gaze palsy and failure of right eye adduction on left gaze, but intact convergence. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Right cerebellopontine angle outside the brainstem",
+        "B": "Right dorsal caudal pons near the facial colliculus",
+        "C": "Right midbrain tegmentum at the level of the red nucleus",
+        "D": "Right rostral medulla near the nucleus ambiguus",
+        "E": "Right ventral pons in the basis pontis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An extra-axial cerebellopontine angle lesion compresses cranial nerves V, VII, and VIII but cannot disrupt the MLF or produce a conjugate gaze palsy.",
+        "B": "The abducens nucleus, the MLF, and the looping fibers of the facial nerve forming the facial colliculus all lie together in the dorsal caudal pons, so a single lesion there produces the one-and-a-half syndrome plus an ipsilateral peripheral facial palsy.",
+        "C": "The midbrain tegmentum contains CN III and the red nucleus, so a lesion there causes a third nerve palsy with contralateral tremor or ataxia.",
+        "D": "The rostral medulla contains no abducens nucleus or facial nerve fibers, so it cannot explain this constellation.",
+        "E": "The basis pontis contains descending corticospinal fibers, and a lesion there would cause contralateral hemiparesis without these ocular and facial findings."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-011",
+      "question": "A 63-year-old man is admitted with a left eye that is abducted and deviated downward in primary gaze with ptosis of the left upper lid. Light presented to either eye constricts only the right pupil. The left eye cannot adduct at all. There is a right extensor plantar response, weakness of the right arm and leg, and drooping of the right corner of the mouth with sparing of the right forehead. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Left basis pedunculi of the midbrain",
+        "B": "Left cavernous sinus",
+        "C": "Left dorsal midbrain tegmentum",
+        "D": "Right basis pedunculi of the midbrain",
+        "E": "Right internal capsule posterior limb"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "An ipsilateral complete third nerve palsy with contralateral upper motor neuron weakness of the limbs and lower face is Weber syndrome, localizing to the left cerebral peduncle where the exiting CN III fibers pass through the descending corticospinal and corticobulbar tracts.",
+        "B": "A cavernous sinus lesion would involve cranial nerves IV, V1, V2, and VI along with III and would not produce contralateral long tract signs.",
+        "C": "A dorsal tegmental lesion would add a contralateral tremor or ataxia from red nucleus involvement rather than a pure hemiparesis, and it spares the peduncle.",
+        "D": "A right-sided lesion would cause a right third nerve palsy with left-sided weakness, the reverse of this presentation.",
+        "E": "An internal capsule lesion cannot produce a third nerve palsy, since CN III arises in the midbrain well below the capsule."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-012",
+      "question": "A 63-year-old man with a left midbrain infarct has a left third nerve palsy, right limb weakness, and drooping of the right corner of the mouth while the right forehead wrinkles normally. Which mechanism best explains the pattern of facial weakness?",
+      "answers": {
+        "A": "Corticobulbar fibers are interrupted above the facial nucleus, which receives bilateral input to the upper face",
+        "B": "The facial nerve itself is compressed as it exits the internal auditory meatus",
+        "C": "The facial nucleus is directly infarcted along with the oculomotor nucleus",
+        "D": "The nucleus of the spinal trigeminal tract is interrupted, weakening facial muscles",
+        "E": "The right facial nerve is compressed by the same mass that compresses the left third nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Corticobulbar fibers destined for the facial motor nucleus descend with the rest of the motor pathway through the peduncle and have not yet separated at the midbrain, so an upper motor neuron lesion there weakens the contralateral lower face while the upper face is spared because its motor neurons receive bilateral cortical input.",
+        "B": "Compression at the internal auditory meatus would produce a peripheral palsy including the forehead, which is spared here.",
+        "C": "The facial nucleus is in the pons, well below this midbrain lesion, and its involvement would cause an ipsilateral complete hemifacial palsy.",
+        "D": "The spinal trigeminal nucleus conveys facial sensation and has no motor function for facial expression.",
+        "E": "There is no evidence of a second lesion, and a right facial nerve lesion would spare neither the forehead nor be explained by a left midbrain infarct."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-013",
+      "question": "A 33-year-old woman reports one week of tingling and numbness in her limbs and trunk with clumsy walking and reduced hand dexterity. Mental status is normal. Finger-to-nose testing shows dysmetria bilaterally that worsens markedly with the eyes closed. Vibration sense is profoundly reduced in the lower limbs, the Romberg sign is positive, and proprioception is moderately reduced in fingers and toes bilaterally. Pinprick and temperature sensation are intact. Which system is damaged?",
+      "answers": {
+        "A": "Anterolateral spinothalamic system",
+        "B": "Corticospinal system",
+        "C": "Dorsal column and medial lemniscus system",
+        "D": "Spinocerebellar system",
+        "E": "Vestibulospinal system"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterolateral system carries pain and temperature, both of which are preserved in this patient.",
+        "B": "Corticospinal injury produces weakness with spasticity and extensor plantar responses, none of which is described.",
+        "C": "Loss of vibration and proprioception with sparing of pain and temperature, plus a positive Romberg sign and dysmetria that worsens without visual compensation, is the signature of dorsal column and medial lemniscus dysfunction.",
+        "D": "Spinocerebellar ataxia does not worsen with eye closure, because the deficit is in unconscious proprioceptive feedback to the cerebellum rather than in conscious position sense.",
+        "E": "Vestibulospinal dysfunction produces vertigo and nystagmus with truncal imbalance rather than isolated loss of vibration and position sense."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-014",
+      "question": "A 33-year-old woman has profound loss of vibration and proprioception in all four limbs with a positive Romberg sign, preserved pain and temperature sensation, normal strength, and entirely normal cranial nerve examination. Where must the lesion be located?",
+      "answers": {
+        "A": "Bilateral dorsal columns in the cervical spinal cord",
+        "B": "Bilateral dorsal columns in the lumbar spinal cord",
+        "C": "Bilateral medial lemnisci in the medulla",
+        "D": "Bilateral medial lemnisci in the pons",
+        "E": "Bilateral thalamic ventral posterolateral nuclei"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Involvement of the upper limbs requires a lesion at or above the cervical cord, and the complete absence of any cranial nerve finding places it below the brainstem, so the cervical dorsal columns are the only site that fits.",
+        "B": "A lumbar lesion would spare the upper limbs entirely, yet this patient has reduced proprioception in the fingers.",
+        "C": "A medullary lesion large enough to affect both medial lemnisci would almost certainly involve neighboring structures such as CN XII or the pyramids.",
+        "D": "A bilateral pontine lesion would be expected to produce cranial nerve or long tract motor findings, which are absent.",
+        "E": "Bilateral thalamic lesions would also impair pain and temperature, since VPL relays all somatosensory modalities."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-015",
+      "question": "A 33-year-old woman has one week of progressive loss of vibration and proprioception in all four limbs from a cervical dorsal column lesion, with preserved pain and temperature sensation and normal strength. Which etiology is most likely?",
+      "answers": {
+        "A": "Amyotrophic lateral sclerosis",
+        "B": "Anterior spinal artery infarction",
+        "C": "Guillain-Barre syndrome",
+        "D": "Multiple sclerosis",
+        "E": "Spinal epidural abscess"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Amyotrophic lateral sclerosis produces mixed upper and lower motor neuron weakness with no sensory findings at all.",
+        "B": "Anterior spinal artery infarction is abrupt and spares the dorsal columns while abolishing pain, temperature, and motor function, the opposite of this pattern.",
+        "C": "Guillain-Barre syndrome produces ascending areflexic weakness, and pure dorsal column sensory loss without weakness or areflexia does not fit.",
+        "D": "A subacute demyelinating plaque in the cervical dorsal columns of a young adult is the most likely cause, although vitamin B12 deficiency and tabes dorsalis produce a similar selective dorsal column picture and belong on the differential.",
+        "E": "An epidural abscess causes fever, severe focal back pain, and rapidly progressive compressive myelopathy with weakness and a sensory level."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-016",
+      "question": "A 27-year-old woman comes to the emergency department with blurry vision and the sudden onset of the worst headache of her life. Light presented to either eye constricts only the right pupil. On right gaze the right eye abducts normally but the left eye does not adduct; on left gaze the left eye abducts and the right eye adducts normally. On near testing the left eye fails to adduct. Is the lesion inside or outside the brainstem, and which nerve is involved?",
+      "answers": {
+        "A": "Inside the brainstem, left abducens nucleus",
+        "B": "Inside the brainstem, left medial longitudinal fasciculus",
+        "C": "Inside the brainstem, left oculomotor nucleus",
+        "D": "Outside the brainstem, left oculomotor nerve",
+        "E": "Outside the brainstem, left optic nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "An abducens nucleus lesion abolishes conjugate gaze toward that side, but this patient's rightward and leftward abduction are both normal.",
+        "B": "An MLF lesion would spare convergence, because the oculomotor nucleus itself is intact, yet this patient cannot adduct the left eye even on near testing.",
+        "C": "A nuclear third nerve lesion characteristically causes bilateral ptosis and contralateral superior rectus weakness because of the shared and crossed subnuclei, which is not the pattern here.",
+        "D": "The complete left third nerve palsy with an unreactive left pupil and absent adduction even on convergence, occurring in isolation with no long tract signs, localizes to the nerve itself outside the brainstem.",
+        "E": "An optic nerve lesion would abolish the consensual response when light is shone in that eye, but light in either eye still constricts the right pupil normally."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-017",
+      "question": "A 27-year-old woman with the worst headache of her life has an isolated complete left third nerve palsy with a fixed dilated left pupil and no long tract signs. Which diagnosis best explains the clinical story?",
+      "answers": {
+        "A": "Cavernous sinus thrombosis from paranasal sinusitis",
+        "B": "Ischemic mononeuropathy of the third nerve from diabetes",
+        "C": "Midbrain infarction in the territory of a paramedian perforator",
+        "D": "Pituitary macroadenoma compressing the optic chiasm",
+        "E": "Ruptured berry aneurysm of the posterior communicating artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cavernous sinus thrombosis causes proptosis, chemosis, fever, and multiple cranial neuropathies rather than an isolated pupil-involving third nerve palsy with thunderclap headache.",
+        "B": "Diabetic third nerve infarction characteristically spares the pupil because the superficial parasympathetic fibers retain their blood supply, and it does not cause a thunderclap headache.",
+        "C": "A midbrain infarct would produce accompanying long tract signs such as contralateral hemiparesis or ataxia, which are absent.",
+        "D": "A pituitary mass causes bitemporal hemianopsia with endocrine symptoms, not an isolated third nerve palsy with thunderclap headache.",
+        "E": "An aneurysm at the junction of the posterior communicating and internal carotid arteries sits directly on the third nerve and compresses the superficial parasympathetic fibers first, so rupture produces both a pupil-involving third nerve palsy and subarachnoid hemorrhage with the worst headache of life."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-018",
+      "question": "Two patients cannot adduct one eye when looking to the opposite side. The first, with a dorsal pontine lesion of the abducens nucleus and ipsilateral MLF, adducts both eyes normally when focusing on a near object. The second, with a compressive third nerve lesion, cannot adduct the affected eye even on near testing. Which statement best explains the difference?",
+      "answers": {
+        "A": "Convergence is a cortical reflex that bypasses the brainstem entirely",
+        "B": "Convergence is driven by the superior colliculus rather than cranial nerve nuclei",
+        "C": "Convergence requires an intact MLF but not an intact oculomotor nerve",
+        "D": "Convergence uses a separate pathway to intact oculomotor nuclei, bypassing the MLF",
+        "E": "Convergence uses the abducens nucleus to yoke the two medial recti together"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Convergence is initiated cortically but is executed through the midbrain oculomotor nuclei and nerves, so it does not bypass the brainstem.",
+        "B": "The superior colliculus mediates saccadic orienting, not the near triad.",
+        "C": "This reverses the anatomy; convergence is preserved precisely when the MLF is damaged but the oculomotor nerve is intact.",
+        "D": "The near response reaches the medial rectus subnuclei directly through a pretectal and midbrain pathway rather than through the MLF, so convergence survives an MLF lesion but fails when the oculomotor nerve itself is damaged.",
+        "E": "The abducens nucleus yokes the lateral rectus of one eye to the contralateral medial rectus during conjugate gaze, which is the opposite of the disconjugate movement required for convergence."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-019",
+      "question": "A 42-year-old man presents with difficulty swallowing, a hoarse voice, and dizziness. Examination shows a constricted left pupil with left upper eyelid droop, loss of pain and temperature sensation over the left face and over the right arm and leg, sensorineural hearing loss in the left ear, dysphonia, and dysphagia. Which syndrome describes the pupillary and eyelid findings?",
+      "answers": {
+        "A": "Adie tonic pupil",
+        "B": "Argyll Robertson pupil",
+        "C": "Horner syndrome",
+        "D": "Marcus Gunn pupil",
+        "E": "Oculomotor nerve palsy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "An Adie pupil is large and poorly reactive to light with a slow tonic near response, and it is not accompanied by ptosis.",
+        "B": "Argyll Robertson pupils are small and irregular bilaterally with light-near dissociation, classically from neurosyphilis, and do not cause unilateral ptosis.",
+        "C": "Ptosis, miosis, and anhidrosis together constitute Horner syndrome, produced here by interruption of the descending sympathetic fibers as they pass through the lateral brainstem.",
+        "D": "A Marcus Gunn pupil is a relative afferent pupillary defect from optic nerve disease, with no change in resting pupil size or lid position.",
+        "E": "A third nerve palsy produces a dilated pupil with the eye deviated down and out, the opposite of a constricted pupil."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-020",
+      "question": "A 42-year-old man has loss of pain and temperature sensation over the left face but over the right arm and leg, along with a left Horner syndrome, hoarseness, and dysphagia. Which anatomic arrangement explains these crossed sensory findings?",
+      "answers": {
+        "A": "Facial and body pain fibers both cross in the midbrain at different levels",
+        "B": "Facial pain fibers cross in the pons while body pain fibers remain uncrossed",
+        "C": "The left spinal trigeminal tract lies adjacent to the already-crossed spinothalamic tract from the right body",
+        "D": "The medial lemniscus carries facial sensation separately from body sensation",
+        "E": "The trigeminal nerve decussates in the spinal cord alongside the anterolateral system"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Neither pathway decussates in the midbrain; the anterolateral system crosses in the cord and the trigeminothalamic fibers cross in the brainstem near their nucleus.",
+        "B": "Second-order trigeminal fibers do cross, but the first-order fibers and the spinal trigeminal nucleus that process facial pain are ipsilateral, which is what produces the ipsilateral facial deficit.",
+        "C": "In the lateral medulla the descending spinal trigeminal tract and nucleus serving the ipsilateral face sit immediately next to the ascending spinothalamic tract that already crossed in the cord and now serves the contralateral body, so a single lateral lesion produces ipsilateral facial and contralateral body pain and temperature loss.",
+        "D": "The medial lemniscus carries discriminative touch and proprioception, not pain and temperature, and lies medially away from this lesion.",
+        "E": "The trigeminal nerve enters at the pons and its nucleus descends into the medulla, but the nerve itself does not decussate in the spinal cord."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-021",
+      "question": "A 42-year-old man has acute vertigo, hoarseness, dysphagia, a left Horner syndrome, and loss of pain and temperature sensation over the left face and the right body, with normal strength. Occlusion of which vessel best explains this syndrome?",
+      "answers": {
+        "A": "Anterior inferior cerebellar artery",
+        "B": "Anterior spinal artery",
+        "C": "Basilar artery",
+        "D": "Posterior inferior cerebellar artery",
+        "E": "Superior cerebellar artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anterior inferior cerebellar artery supplies the lateral pons, where a lesion adds ipsilateral facial weakness and more prominent hearing loss with facial paralysis.",
+        "B": "The anterior spinal artery supplies the medial medulla, producing tongue deviation with contralateral weakness and dorsal column loss.",
+        "C": "Basilar occlusion produces bilateral devastating deficits including quadriparesis and impaired consciousness.",
+        "D": "The posterior inferior cerebellar artery supplies the dorsolateral medulla containing the spinal trigeminal complex, the spinothalamic tract, descending sympathetics, the nucleus ambiguus, and the vestibular nuclei, which together produce Wallenberg syndrome exactly as described.",
+        "E": "The superior cerebellar artery supplies the rostral pons and superior cerebellum, causing ipsilateral ataxia without dysphagia or hoarseness."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-022",
+      "question": "A 71-year-old woman has ten months of progressive unsteadiness and stiffness, worse in the left leg, which occasionally buckles. At the same time she developed numbness and tingling in the right leg. She also reports urinary frequency, incontinence, and difficulty with bowel movements. Examination shows left leg weakness, hyperreflexia, and an extensor plantar response; decreased pinprick on the right below the umbilicus; and decreased vibration and joint position sense in the left leg. She cannot voluntarily contract the external anal sphincter. Which syndrome is described?",
+      "answers": {
+        "A": "Anterior cord syndrome",
+        "B": "Brown-Sequard syndrome",
+        "C": "Cauda equina syndrome",
+        "D": "Central cord syndrome",
+        "E": "Conus medullaris syndrome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anterior cord syndrome causes bilateral motor and pain and temperature loss with preserved dorsal columns, not a hemicord pattern.",
+        "B": "Ipsilateral upper motor neuron weakness with ipsilateral loss of vibration and proprioception and contralateral loss of pain and temperature is the hallmark of a hemisection of the cord.",
+        "C": "Cauda equina syndrome causes asymmetric flaccid lower motor neuron weakness, saddle anesthesia, and areflexia rather than hyperreflexia and an extensor plantar response.",
+        "D": "Central cord syndrome preferentially weakens the upper limbs with a suspended sensory deficit, which is not seen here.",
+        "E": "Conus medullaris syndrome produces symmetric saddle anesthesia and early sphincter dysfunction with relatively mild and symmetric leg findings."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-023",
+      "question": "A 71-year-old woman has left leg upper motor neuron weakness with left-sided loss of vibration and position sense, and decreased pinprick sensation on the right beginning just below the umbilicus. At what level and on which side is the lesion?",
+      "answers": {
+        "A": "Left side of the cord at approximately T12",
+        "B": "Left side of the cord at approximately T9",
+        "C": "Right side of the cord at approximately L2",
+        "D": "Right side of the cord at approximately T12",
+        "E": "Right side of the cord at approximately T9"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A T12 lesion would produce a contralateral sensory level near the inguinal region rather than just below the umbilicus.",
+        "B": "The motor and dorsal column findings are on the left, placing the hemisection on the left, and because spinothalamic fibers ascend one to two segments in Lissauer tract before crossing, a contralateral pinprick level just below the T10 umbilical dermatome corresponds to a cord lesion at about T9.",
+        "C": "An L2 lesion is below the conus in most adults and would not produce upper motor neuron signs with a T10 sensory level.",
+        "D": "This choice errs in both side and level.",
+        "E": "A right-sided hemisection would weaken the right leg and impair right dorsal column function, the opposite of this examination."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-024",
+      "question": "A 71-year-old woman has left leg weakness with hyperreflexia and an extensor plantar response together with left-sided loss of vibration and contralateral loss of pinprick. Her resident asks why this sensory pattern cannot arise from a lesion above the foramen magnum. Which reasoning is correct?",
+      "answers": {
+        "A": "Above the cord, pain and dorsal column modalities travel together and are lost on the same side",
+        "B": "Above the cord, pain fibers have not yet crossed and would be lost ipsilaterally",
+        "C": "Above the cord, sensory loss is always restricted to the face",
+        "D": "Above the cord, sensory pathways are bilaterally represented and produce no lateralized loss",
+        "E": "Above the cord, the dorsal columns have not yet crossed and would be lost contralaterally"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Both the anterolateral system and the dorsal column pathway have decussated by the upper medulla and thereafter run together toward the thalamus, so any lesion above the cord produces loss of both modalities on the same contralateral side; only within the cord, where the dorsal columns are still uncrossed and the spinothalamic fibers have already crossed, can the two modalities dissociate to opposite sides.",
+        "B": "Spinothalamic fibers cross within a segment or two of entry in the cord, so by the brainstem they are already crossed.",
+        "C": "Brainstem lesions frequently produce body sensory loss in addition to facial findings.",
+        "D": "Somatosensory pathways above the cord are lateralized, which is precisely why contralateral hemisensory syndromes exist.",
+        "E": "The dorsal columns cross at the level of the caudal medulla as the internal arcuate fibers, so above that point they are crossed."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-025",
+      "question": "A 38-year-old woman is referred for progressive hoarseness and dysphagia. Her voice is hoarse and breathy. The left trapezius and sternocleidomastoid are weak with fasciculations, the tongue is atrophied with fasciculations on the left and deviates left on protrusion, and the left vocal cord is paralyzed on nasopharyngoscopy. She also notices food tastes different. The remainder of the examination is normal. Which set of cranial nerves best accounts for the hoarseness, shoulder weakness, and tongue findings, respectively?",
+      "answers": {
+        "A": "CN IX, CN X, CN XI",
+        "B": "CN IX, CN XI, CN XII",
+        "C": "CN X, CN XI, CN XII",
+        "D": "CN X, CN XII, CN XI",
+        "E": "CN XI, CN X, CN XII"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The glossopharyngeal nerve does not innervate the vocal cords, and this ordering leaves the tongue findings unexplained.",
+        "B": "Hoarseness and vocal cord paralysis are not glossopharyngeal functions, so the first assignment is wrong.",
+        "C": "The vagus supplies the laryngeal musculature through the recurrent laryngeal nerve and accounts for hoarseness, breathiness, and dysphagia; the spinal accessory nerve supplies the sternocleidomastoid and trapezius; and the hypoglossal nerve supplies the tongue, with deviation toward the weak side.",
+        "D": "This transposes the accessory and hypoglossal assignments, since CN XII does not supply the trapezius.",
+        "E": "The accessory nerve does not produce hoarseness, so the first assignment is incorrect."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-026",
+      "question": "A 38-year-old woman has left-sided weakness with fasciculations of the trapezius, sternocleidomastoid, and tongue, left vocal cord paralysis, and altered taste, with a completely normal motor, sensory, reflex, and coordination examination of the limbs. Is the lesion inside or outside the brainstem, and why?",
+      "answers": {
+        "A": "Inside, because fasciculations indicate nuclear involvement",
+        "B": "Inside, because multiple cranial nerves are affected together",
+        "C": "Inside, because taste is processed in the solitary nucleus",
+        "D": "Outside, because only cranial nerves are involved with no long tract signs",
+        "E": "Outside, because the deficits are unilateral"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Fasciculations indicate a lower motor neuron lesion, which can occur at the nucleus or anywhere along the peripheral course of the nerve, so they do not localize inside the brainstem.",
+        "B": "Multiple cranial nerves are commonly affected together outside the brainstem where they run in close proximity, as at the jugular foramen and hypoglossal canal.",
+        "C": "The solitary nucleus is intra-axial, but taste fibers can be interrupted anywhere along the peripheral course of CN VII, IX, or X.",
+        "D": "The complete absence of long tract signs such as hemiparesis, hyperreflexia, or dissociated sensory loss argues strongly that the lesion spares the brainstem parenchyma and instead affects the nerves after they exit, from an infectious, inflammatory, or neoplastic process at the skull base.",
+        "E": "Unilaterality is expected for both intra-axial and extra-axial lesions and does not discriminate between them."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-027",
+      "question": "A 38-year-old woman with lower cranial neuropathies reports that food tastes different. Which nerves carry taste sensation and could account for this symptom?",
+      "answers": {
+        "A": "CN IX, CN X, and CN XI",
+        "B": "CN IX, CN X, and CN XII",
+        "C": "CN V, CN VII, and CN IX",
+        "D": "CN VII, CN IX, and CN X",
+        "E": "CN VII, CN IX, and CN XII"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The spinal accessory nerve is purely motor to the sternocleidomastoid and trapezius.",
+        "B": "This choice again incorrectly includes the purely motor hypoglossal nerve.",
+        "C": "The trigeminal nerve carries general somatic sensation from the anterior tongue but conveys no taste fibers.",
+        "D": "The facial nerve carries taste from the anterior two-thirds of the tongue, the glossopharyngeal nerve from the posterior third, and the vagus nerve from the epiglottic region, and all three converge on the solitary nucleus.",
+        "E": "The hypoglossal nerve is purely motor to the tongue musculature and carries no taste."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-028",
+      "question": "A 56-year-old man collapses while loading a truck. On regaining consciousness his right arm and leg are weak with hyperactive reflexes. His jaw deviates to the left on protrusion and he cannot bite down forcefully on the left. He has no sensation on the left side of his face, but sensation over the neck, trunk, and limbs is intact in all modalities. Where is the lesion most likely located?",
+      "answers": {
+        "A": "Left lateral medulla",
+        "B": "Left midbrain",
+        "C": "Left pons",
+        "D": "Right internal capsule",
+        "E": "Right pons"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The medulla contains the spinal trigeminal nucleus but not the motor nucleus of CN V, so a medullary lesion cannot weaken the muscles of mastication.",
+        "B": "The midbrain carries CN III and IV; a lesion there would cause an ocular motor palsy rather than jaw weakness.",
+        "C": "The trigeminal nerve and its motor and main sensory nuclei enter and reside in the pons alongside the descending corticospinal tract, so a left pontine lesion produces left facial numbness with left masticatory weakness and right-sided upper motor neuron limb findings.",
+        "D": "An internal capsule lesion cannot cause a lower motor neuron trigeminal palsy with jaw deviation, because the CN V motor nucleus is in the pons.",
+        "E": "A right pontine lesion would produce right facial findings and left-sided weakness, the reverse of this examination."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-029",
+      "question": "A 56-year-old man with a left pontine infarct has a jaw that deviates to the left on protrusion and weakness when biting down on the left. Which mechanism explains the jaw deviation?",
+      "answers": {
+        "A": "The left masseter is in spasm and pulls the jaw toward the midline",
+        "B": "The left pterygoids are weak, so the intact right pterygoids push the jaw leftward",
+        "C": "The left temporalis is weak, so the jaw is elevated asymmetrically on the right",
+        "D": "The right pterygoids are weak, so the intact left pterygoids pull the jaw leftward",
+        "E": "The tensor veli palatini is weak, altering the resting position of the mandible"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Spasm is not the mechanism; the lesion causes weakness, and a hyperactive masseter would not deviate the protruded jaw in this way.",
+        "B": "The lateral and medial pterygoids protrude the mandible and pull it toward the opposite side, so when the left pterygoids are weak the unopposed right pterygoids drive the jaw toward the weak left side.",
+        "C": "The temporalis elevates and retracts the mandible and does not determine the direction of deviation on protrusion.",
+        "D": "This reverses the anatomy; weak right pterygoids would deviate the jaw to the right.",
+        "E": "The tensor veli palatini is a CN V innervated palatal muscle with no role in mandibular position."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-030",
+      "question": "A 56-year-old man with a left pontine lesion has complete loss of sensation over the left face and weakness of the left muscles of mastication, with normal facial expression bilaterally. What would corneal reflex testing show?",
+      "answers": {
+        "A": "No blink of either eye when either cornea is touched",
+        "B": "No blink of either eye when the left cornea is touched, with bilateral blink when the right is touched",
+        "C": "No blink of the left eye only, regardless of which cornea is touched",
+        "D": "No blink of the right eye when the left cornea is touched, with bilateral blink when the right is touched",
+        "E": "Normal bilateral blink to stimulation of either cornea"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The right trigeminal nerve is intact, so touching the right cornea still delivers an afferent signal and produces a blink.",
+        "B": "The afferent limb of the corneal reflex is the trigeminal nerve and the efferent limb is the facial nerve bilaterally, so a left trigeminal lesion abolishes both the direct and consensual blink when the left cornea is stimulated, while right corneal stimulation still evokes a normal bilateral blink.",
+        "C": "A selective loss of the left blink regardless of the stimulated side would indicate a left facial nerve lesion, and facial expression is normal in this patient.",
+        "D": "The consensual response cannot be selectively lost while the direct response is preserved, since both arise from the same afferent input.",
+        "E": "A normal reflex is impossible when the afferent limb from the left cornea is anesthetic."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-031",
+      "question": "A 26-year-old man develops pain in the right ear, and the next morning notices that the right side of his face droops. His right ear becomes sensitive to loud sounds, and over two days the right eye becomes scratchy and painful. Examination shows pronounced right facial weakness including inability to wrinkle the right forehead. The remainder of the neurologic examination is normal. How is this lesion best classified, and why?",
+      "answers": {
+        "A": "Lower motor neuron, because the entire hemiface including the forehead is weak",
+        "B": "Lower motor neuron, because the weakness developed over hours",
+        "C": "Upper motor neuron, because ear pain preceded the weakness",
+        "D": "Upper motor neuron, because only one side of the face is affected",
+        "E": "Upper motor neuron, because the forehead is spared by bilateral cortical input"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The upper face receives bilateral corticobulbar innervation, so only a lower motor neuron lesion of the facial nerve or nucleus paralyzes the forehead along with the lower face, producing complete hemifacial weakness.",
+        "B": "Tempo does not distinguish upper from lower motor neuron lesions, since a stroke also evolves over minutes to hours.",
+        "C": "Ear pain reflects involvement of the sensory branches of the facial nerve near the geniculate ganglion and supports a peripheral rather than central lesion.",
+        "D": "Unilaterality is true of both upper and lower motor neuron facial lesions.",
+        "E": "This states the rule correctly but applies it backwards, since the forehead in this patient is weak rather than spared."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-032",
+      "question": "A 26-year-old man with an acute complete right peripheral facial palsy reports that sounds in his right ear seem uncomfortably loud, and his right eye feels dry and scratchy. Which pair of mechanisms best explains these two symptoms?",
+      "answers": {
+        "A": "Loss of stapedius damping and loss of lacrimal secretion",
+        "B": "Loss of stapedius damping and loss of trigeminal corneal sensation",
+        "C": "Loss of tensor tympani damping and loss of lacrimal secretion",
+        "D": "Loss of tensor tympani damping and loss of trigeminal corneal sensation",
+        "E": "Sensorineural hearing loss and loss of orbicularis oculi tone alone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The facial nerve innervates the stapedius, which normally damps ossicular movement, so its paralysis causes hyperacusis, and the greater petrosal branch carries parasympathetic fibers to the lacrimal gland, so its loss causes a dry painful eye compounded by incomplete lid closure.",
+        "B": "Corneal sensation is a trigeminal function and is unaffected in a facial nerve lesion.",
+        "C": "The tensor tympani is innervated by the trigeminal nerve rather than the facial nerve.",
+        "D": "Both halves of this option assign the findings to the wrong nerve.",
+        "E": "Facial nerve injury does not cause sensorineural hearing loss, which would implicate the vestibulocochlear nerve."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-033",
+      "question": "A 26-year-old man has an acute isolated complete right peripheral facial palsy with hyperacusis and decreased lacrimation and no other neurologic findings. Which statement about the expected course of this condition is most accurate?",
+      "answers": {
+        "A": "Most patients have permanent complete paralysis requiring surgical reanimation",
+        "B": "Most patients progress to bilateral involvement within several weeks",
+        "C": "Most patients recover fully only after twelve to eighteen months of therapy",
+        "D": "Most patients recover substantially within a month, though roughly 30 percent have some residual weakness",
+        "E": "Most patients relapse on the opposite side within the first year"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Permanent complete paralysis is the exception rather than the rule.",
+        "B": "Progression to bilateral palsy would suggest an alternative diagnosis such as Lyme disease or sarcoidosis and is not the natural history of Bell palsy.",
+        "C": "Recovery in most patients is measured in weeks, not a year or more.",
+        "D": "Bell palsy carries a favorable prognosis, with symptoms typically abating in under a month, although about 30 percent of patients are left with residual facial weakness of varying degree.",
+        "E": "Contralateral recurrence is uncommon and again should prompt a search for a systemic cause."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-034",
+      "question": "A 65-year-old woman presents for a routine physical and reports several years of progressive hearing loss in the left ear. She now cannot smile or wrinkle her forehead and has difficulty chewing. Examination shows absent sensation over the entire left face, inability to close the left eye which is dry and red, drooping of the left corner of the mouth, and jaw deviation to the left on opening. Pupils react normally to light. When the left cornea is touched only the right eye blinks, and when the right cornea is touched still only the right eye blinks. What is the most likely diagnosis?",
+      "answers": {
+        "A": "Bell palsy of the left facial nerve",
+        "B": "Lateral pontine infarction on the left",
+        "C": "Multiple sclerosis plaque in the left middle cerebellar peduncle",
+        "D": "Trigeminal neuralgia from vascular compression",
+        "E": "Vestibular schwannoma at the left cerebellopontine angle"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Bell palsy involves only the facial nerve and would not cause years of progressive hearing loss or complete facial anesthesia with masticatory weakness.",
+        "B": "A lateral pontine infarct is abrupt and would produce long tract signs such as contralateral hemiparesis or dissociated sensory loss, none of which is present.",
+        "C": "A demyelinating plaque would be expected in a younger patient with a relapsing course and would typically produce additional central findings.",
+        "D": "Trigeminal neuralgia produces paroxysmal lancinating facial pain with a normal examination rather than progressive sensory and motor loss.",
+        "E": "A slowly enlarging benign tumor of the vestibulocochlear nerve at the cerebellopontine angle progressively compresses CN VIII, then CN VII and CN V, producing unilateral hearing loss, a complete peripheral facial palsy, and ipsilateral facial anesthesia with masticatory weakness, all without any long tract signs."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-035",
+      "question": "A 65-year-old woman with a left cerebellopontine angle mass has absent blink of either eye when the left cornea is touched but a normal blink of only the right eye when the right cornea is touched, while both pupils constrict briskly to light in either eye. Which cranial nerves mediate the two reflexes being tested?",
+      "answers": {
+        "A": "Corneal reflex CN V afferent and CN III efferent; pupillary reflex CN II afferent and CN VII efferent",
+        "B": "Corneal reflex CN V afferent and CN VII efferent; pupillary reflex CN II afferent and CN III efferent",
+        "C": "Corneal reflex CN V afferent and CN VII efferent; pupillary reflex CN III afferent and CN II efferent",
+        "D": "Corneal reflex CN VII afferent and CN V efferent; pupillary reflex CN II afferent and CN III efferent",
+        "E": "Corneal reflex CN VII afferent and CN V efferent; pupillary reflex CN III afferent and CN II efferent"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The oculomotor nerve does not close the eyelids; it opens them through the levator palpebrae.",
+        "B": "Corneal sensation travels in the ophthalmic division of the trigeminal nerve and the blink is executed by the orbicularis oculi through the facial nerve bilaterally, while the pupillary light reflex takes the optic nerve as its afferent limb and the parasympathetic fibers of the oculomotor nerve as its efferent limb.",
+        "C": "The corneal limbs are correct but the pupillary limbs are reversed, since the optic nerve is sensory and the oculomotor is motor.",
+        "D": "This reverses the corneal reflex limbs, since the facial nerve carries no corneal sensation.",
+        "E": "Both reflexes are reversed in this option."
+      }
+    },
+    {
+      "id": "neuro-brainstem-and-spinal-cord-cases-036",
+      "question": "A 65-year-old woman has left-sided hearing loss, a complete left peripheral facial palsy, complete left facial anesthesia, and left masticatory weakness, with entirely normal strength, reflexes, and sensation in all four limbs. Is the lesion inside or outside the brainstem, and what does this imply?",
+      "answers": {
+        "A": "Inside, because the facial palsy involves the forehead",
+        "B": "Inside, because three cranial nerves are involved together",
+        "C": "Outside, because hearing loss is always a peripheral phenomenon",
+        "D": "Outside, because only cranial nerves are involved with no long tract signs",
+        "E": "Outside, because the pupillary light reflex is preserved"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Forehead involvement establishes a lower motor neuron facial lesion, which can occur at the nucleus or along the peripheral nerve and therefore does not localize inside.",
+        "B": "Several cranial nerves converge at the cerebellopontine angle outside the brainstem, so multiplicity favors an extra-axial lesion rather than an intrinsic one.",
+        "C": "Hearing loss can certainly be central, as with lesions of the cochlear nuclei or lateral lemniscus.",
+        "D": "The complete absence of long tract findings such as hemiparesis, hyperreflexia, or dissociated sensory loss indicates the brainstem parenchyma is spared, pointing to an extra-axial mass compressing CN V, VII, and VIII where they exit at the cerebellopontine angle.",
+        "E": "Pupillary sparing only tells us that CN II and CN III are uninvolved and says nothing about whether the lesion is intra-axial."
+      }
+    }
+  ]
+}
