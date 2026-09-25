@@ -128,7 +128,14 @@
         "cortex-and-basal-ganglia-prelab.json",
         "neurodevelopmental-conditions.json",
         "circadian-rhythms-and-sleep-medicine.json",
-        "suicide.json",
+        "suicide.json"
+      ]
+    },
+    {
+      "id": "review",
+      "name": "Review",
+      "dates": "",
+      "lectures": [
         "cortex-and-subcortex-cases.json",
         "brainstem-and-spinal-cord-cases.json"
       ]
