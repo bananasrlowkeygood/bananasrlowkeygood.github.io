@@ -1,0 +1,417 @@
+{
+  "lecture": "Approaches to Seizures & Epilepsy",
+  "block": "neuro",
+  "generated": "2026-09-25",
+  "questions": [
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-001",
+      "question": "A 26-year-old man has had recurrent stereotyped episodes for 6 years. Each begins with the identical rising sensation in his stomach followed by an intense feeling of deja vu lasting about 10 seconds. His mother, who has witnessed several episodes, reports that he then stares, becomes unresponsive, smacks his lips, and picks at his shirt for about a minute. Afterward he is confused for roughly 20 minutes and fatigued the rest of the day. Twice in his life the episodes progressed to whole-body convulsions. Which best classifies his typical episodes?",
+      "answers": {
+        "A": "Absence seizure",
+        "B": "Atonic seizure",
+        "C": "Focal aware seizure",
+        "D": "Focal impaired awareness seizure",
+        "E": "Generalized tonic-clonic seizure"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Absence seizures are brief non-motor generalized events with an abrupt blank stare lasting seconds, no aura, and immediate return to baseline without postictal confusion.",
+        "B": "Atonic seizures are sudden losses of postural tone causing drop attacks lasting a few seconds, without aura or prolonged postictal confusion.",
+        "C": "A focal aware seizure preserves awareness completely; his rare isolated deja vu spells qualify, but the typical episodes include unresponsiveness and inability to follow commands.",
+        "D": "A localized aura followed by loss of awareness with automatisms such as lip smacking and fumbling, plus a postictal confusional state, defines a focal seizure with impaired awareness arising in one hemisphere.",
+        "E": "A generalized tonic-clonic seizure begins with bilateral stiffening and rhythmic jerking and loss of consciousness from the outset, without a preceding stereotyped focal aura."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-002",
+      "question": "A 34-year-old woman has had seizures since age 22. Each begins with a rising epigastric sensation and nausea, followed by staring, lip smacking, and dystonic posturing of the right hand, then several minutes of confusion. She had a prolonged febrile seizure at 18 months of age requiring hospitalization. Neurologic examination is normal, and EEG shows left anterior temporal spikes. Which is the most likely finding on brain MRI?",
+      "answers": {
+        "A": "Atrophic hippocampus with increased T2 signal",
+        "B": "Bilateral confluent periventricular demyelination",
+        "C": "Enhancing dural-based extra-axial mass",
+        "D": "Multiple cortical and subependymal tubers",
+        "E": "Normal study without structural abnormality"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Hippocampal sclerosis, seen as a small hippocampus with abnormal signal, is the classic lesion of mesial temporal lobe epilepsy and often follows a predisposing hit such as a complex febrile seizure, meningitis, or head trauma.",
+        "B": "Confluent periventricular demyelination indicates a white matter disease such as multiple sclerosis or a leukodystrophy, which does not produce stereotyped epigastric auras with temporal lobe automatisms.",
+        "C": "A dural-based enhancing mass describes a meningioma, which can provoke focal seizures but would not be expected in a patient whose history points specifically to mesial temporal onset after a febrile seizure.",
+        "D": "Cortical tubers indicate tuberous sclerosis, a diffuse cerebral malformation that typically causes epilepsy beginning in infancy with developmental delay and skin findings.",
+        "E": "Although MRI can be normal in epilepsy, this history with a remote febrile seizure hit and mesial temporal semiology makes a demonstrable hippocampal lesion the most likely finding."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-003",
+      "question": "An 8-year-old boy is brought in because of inattention at school. His teachers report he stares out the window and cannot be roused for several seconds at a time, and his grades have fallen over the past year. During gym class he sometimes stops running and drops the ball. His parents count dozens of these spells daily; there is no postictal confusion. In the office, 3 minutes of hyperventilation reproduces a 9-second staring spell. Which EEG finding is most likely?",
+      "answers": {
+        "A": "Diffuse background slowing without epileptiform discharges",
+        "B": "Generalized 3-Hz spike-and-wave discharges",
+        "C": "Generalized slow spike-and-wave discharges below 3 Hz",
+        "D": "Hypsarrhythmia with chaotic high-voltage slowing",
+        "E": "Left temporal sharp waves with focal slowing"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Nonspecific diffuse slowing indicates an encephalopathy and does not explain discrete stereotyped staring spells that are reproducible by hyperventilation.",
+        "B": "Childhood absence epilepsy presents at ages 4 to 8 with dozens of brief staring spells daily in an otherwise normal child and produces the distinctive generalized 3-Hz spike-and-wave pattern.",
+        "C": "Slow spike-and-wave below 3 Hz is the signature of Lennox-Gastaut syndrome, which is accompanied by developmental delay and multiple seizure types rather than isolated absence spells.",
+        "D": "Hypsarrhythmia accompanies infantile spasms in the first year of life, not brief staring spells in a neurologically normal school-age child.",
+        "E": "Focal temporal sharp waves would suggest focal epilepsy, but his spells lack an aura, automatisms, and a postictal confusional state."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-004",
+      "question": "A 7-year-old girl with frequent brief staring spells and generalized 3-Hz spike-and-wave discharges on EEG is started on the first-line medication for her syndrome. Her spells stop within 2 weeks and her school performance improves. At age 14 the medication is successfully withdrawn without recurrence. Which mechanism best explains the therapeutic effect of the drug she received?",
+      "answers": {
+        "A": "Binding to the SV2A synaptic vesicle protein",
+        "B": "Blockade of AMPA-type glutamate receptors",
+        "C": "Blockade of T-type calcium channels in thalamic neurons",
+        "D": "Blockade of voltage-gated sodium channels",
+        "E": "Inhibition of GABA transaminase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "SV2A binding is the mechanism of levetiracetam, a broad-spectrum agent that is not the first-line drug for childhood absence epilepsy.",
+        "B": "AMPA receptor blockade is the mechanism of perampanel, an adjunctive agent used in refractory epilepsy rather than in uncomplicated absence epilepsy.",
+        "C": "Ethosuximide is first-line for childhood absence epilepsy and works by blocking the calcium current that drives the thalamocortical oscillation generating 3-Hz spike-and-wave activity.",
+        "D": "Sodium channel blockade describes phenytoin, lamotrigine, carbamazepine, and lacosamide; phenytoin in particular is ineffective against absence seizures.",
+        "E": "Inhibition of GABA transaminase is one of several mechanisms attributed to valproate, which is effective in absence epilepsy but carries hepatic and teratogenic risks that keep it from first-line use here."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-005",
+      "question": "A 4-year-old girl is evaluated for recurrent spells. At a few months of age her parents noted clusters of jerking movements of both arms. She spoke her first words only recently and has not met other developmental milestones. She now has several distinct event types: brief staring, stiffening of one arm and then the whole body, and sudden falls in which she drops to the floor. EEG shows generalized spike-and-wave discharges at 2 Hz. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Childhood absence epilepsy",
+        "B": "Juvenile myoclonic epilepsy",
+        "C": "Lennox-Gastaut syndrome",
+        "D": "Mesial temporal lobe epilepsy",
+        "E": "Psychogenic nonepileptic seizures"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Childhood absence epilepsy occurs in a neurologically normal school-age child with a single seizure type and a 3-Hz EEG pattern, and it remits by puberty.",
+        "B": "Juvenile myoclonic epilepsy begins in adolescence with morning myoclonic jerks in a cognitively normal patient, not with infantile spasms and global developmental delay.",
+        "C": "The triad of childhood-onset epilepsy with multiple seizure types (tonic, atonic, myoclonic, absence, infantile spasms), developmental delay, and slow generalized spike-and-wave below 3 Hz defines Lennox-Gastaut syndrome.",
+        "D": "Mesial temporal lobe epilepsy produces stereotyped focal seizures with an epigastric or deja vu aura and automatisms, not multiple generalized seizure types with delay.",
+        "E": "Psychogenic nonepileptic events show variable, asynchronous, stop-and-go movements with a normal ictal EEG, whereas this child has definite epileptiform abnormalities."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-006",
+      "question": "A 72-year-old man is hospitalized with a large left middle cerebral artery infarct. On hospital day 3 the nursing staff witnesses 90 seconds of bilateral stiffening followed by rhythmic jerking of all four limbs. He is postictally confused for 30 minutes and then returns to his prior baseline. He has never had a seizure before. Serum sodium, calcium, and glucose are normal, and toxicology screening is negative. Which is the most accurate characterization of this event?",
+      "answers": {
+        "A": "Acute symptomatic (provoked) seizure",
+        "B": "Drug-resistant epilepsy",
+        "C": "Focal epilepsy meeting diagnostic criteria",
+        "D": "Psychogenic nonepileptic event",
+        "E": "Status epilepticus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A seizure occurring within 7 days of an acute neurologic insult such as stroke, hemorrhage, trauma, infection, or a metabolic derangement is provoked and by itself does not establish epilepsy.",
+        "B": "Drug-resistant epilepsy requires failure of two or three appropriately chosen and tolerated antiseizure medications, and this patient has not been treated at all.",
+        "C": "Epilepsy requires either two spontaneous seizures more than 24 hours apart or one spontaneous seizure with a greater than 60 percent recurrence risk, and this seizure was not spontaneous.",
+        "D": "A psychogenic nonepileptic event would show variable non-stereotyped movements without a true postictal state and is unlikely in the setting of a large acute infarct.",
+        "E": "Status epilepticus is defined by prolonged or repetitive seizures without recovery between them, whereas this event self-terminated in 90 seconds with return to baseline."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-007",
+      "question": "A 34-year-old woman with no prior seizures is brought to the emergency department after a witnessed generalized tonic-clonic seizure lasting 2 minutes. For the past 4 days she has had vomiting and has been drinking large volumes of water; she takes hydrochlorothiazide for hypertension. She is now awake and oriented. Neurologic examination is normal and noncontrast head CT shows no acute abnormality. Laboratory results are shown. Which is the most appropriate next step in management?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Na+", "112 mEq/L", "135-145 mEq/L"],
+        ["K+", "3.4 mEq/L", "3.5-5.0 mEq/L"],
+        ["Glucose", "96 mg/dL", "70-100 mg/dL"],
+        ["Ca2+ (total)", "9.1 mg/dL", "8.5-10.5 mg/dL"],
+        ["Creatinine", "0.9 mg/dL", "0.6-1.2 mg/dL"]
+      ],
+      "answers": {
+        "A": "Administer hypertonic 3% saline",
+        "B": "Begin long-term levetiracetam therapy",
+        "C": "Initiate a ketogenic diet",
+        "D": "Obtain video-EEG monitoring for several days",
+        "E": "Start phenytoin loading and maintenance"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "This is an acute symptomatic seizure provoked by severe hyponatremia, so treatment is correction of the metabolic derangement with careful hypertonic saline rather than chronic antiseizure therapy.",
+        "B": "Long-term antiseizure medication is not indicated for a provoked seizure because the patient does not have a predisposition to spontaneous seizures once the sodium is corrected.",
+        "C": "The ketogenic diet is an option for drug-resistant epilepsy, not for a single metabolically provoked seizure in a patient without epilepsy.",
+        "D": "Video-EEG monitoring is reserved for diagnostic uncertainty or presurgical evaluation, and here the cause of the seizure is already evident from the laboratory data.",
+        "E": "Loading phenytoin treats neither the underlying sodium disturbance nor an established epilepsy, and exposes her to nonlinear kinetics and toxicity for no benefit."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-008",
+      "question": "A 22-year-old woman has had 8 months of episodes in which she stares, becomes unresponsive, and has shaking of both arms. Duration varies from 1 to 10 minutes between events. Two routine outpatient EEGs and a brain MRI were normal. She has had no benefit from levetiracetam or lamotrigine at full doses, and her neurologist remains uncertain whether the events are epileptic. Which is the most appropriate next diagnostic step?",
+      "answers": {
+        "A": "Admission for video-EEG monitoring",
+        "B": "Lumbar puncture for CSF analysis",
+        "C": "Repeat brain MRI with epilepsy protocol",
+        "D": "Serum prolactin measured 1 hour after an event",
+        "E": "Tilt-table testing"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Video-EEG monitoring is the ultimate diagnostic test for epilepsy because it records behavior and EEG simultaneously during a typical event, and medications can be tapered to provoke one.",
+        "B": "CSF analysis evaluates meningitis, encephalitis, or autoimmune causes, none of which fit an 8-month course of recurrent stereotyped events with a normal examination.",
+        "C": "A repeat MRI might reveal a subtle lesion but cannot determine whether the episodes themselves are epileptic, which is the actual diagnostic question.",
+        "D": "Prolactin rises only transiently after some generalized convulsions and is neither sensitive nor specific, particularly when drawn an hour after the event.",
+        "E": "Tilt-table testing evaluates orthostatic and vasovagal syncope, which presents with presyncopal lightheadedness and rapid return to baseline rather than prolonged unresponsive shaking."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-009",
+      "question": "A 19-year-old woman collapses while standing in a warm, crowded room. For roughly 20 seconds beforehand she felt lightheaded, nauseated, and hot, and her vision dimmed at the edges. A bystander describes her as pale and sweaty, with about 10 seconds of irregular jerking of the arms after she fell. She was fully oriented within seconds of being laid flat. There was no tongue biting or incontinence, and neurologic examination is normal. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Focal impaired awareness seizure",
+        "B": "Generalized tonic-clonic seizure",
+        "C": "Psychogenic nonepileptic seizure",
+        "D": "Transient ischemic attack",
+        "E": "Vasovagal syncope"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A focal impaired awareness seizure begins with a stereotyped aura and produces automatisms followed by minutes of postictal confusion, not presyncopal lightheadedness with immediate recovery.",
+        "B": "A generalized tonic-clonic seizure lasts 1 to 2 minutes with sustained rhythmic jerking and is followed by a postictal state; brief convulsive jerks during a faint are a common mimicker.",
+        "C": "Psychogenic nonepileptic events involve prolonged variable stop-and-go movements, typically without the prodromal pallor, diaphoresis, and graying of vision seen here.",
+        "D": "Transient ischemic attacks rarely cause loss of consciousness and produce focal deficits referable to a vascular territory.",
+        "E": "Lightheadedness with visual graying, pallor, and diaphoresis on standing in a hot environment, followed by rapid return to baseline, is classic vasovagal syncope with convulsive jerking."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-010",
+      "question": "A 29-year-old woman has had 2 years of events lasting 5 to 15 minutes in which she thrashes her limbs asynchronously with a stop-and-go pattern, moves her head side to side, and keeps her eyes tightly closed. The pattern of movement differs between events, and she has never been injured or incontinent. She has had no improvement on three antiseizure medications. During admission, video-EEG captures a typical event with a normal awake EEG throughout and no postictal slowing. Which is the most appropriate treatment?",
+      "answers": {
+        "A": "Cognitive behavioral therapy",
+        "B": "High-dose levetiracetam therapy",
+        "C": "Ketogenic diet",
+        "D": "Resective epilepsy surgery",
+        "E": "Vagus nerve stimulator placement"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Variable non-stereotyped stop-and-go movements with a normal ictal and postictal EEG identify psychogenic nonepileptic seizures, a conversion disorder treated with cognitive behavioral therapy rather than antiseizure drugs.",
+        "B": "Escalating antiseizure medication exposes her to side effects without benefit, since the captured event had no electrographic correlate.",
+        "C": "The ketogenic diet is an alternative therapy for drug-resistant epilepsy, and this patient does not have epilepsy.",
+        "D": "Resective surgery requires a localized epileptogenic zone confirmed on video-EEG, which was explicitly absent here.",
+        "E": "Vagus nerve stimulation is a palliative option for drug-resistant epilepsy and has no role in a nonepileptic conversion disorder."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-011",
+      "question": "A 31-year-old man with newly diagnosed focal epilepsy is started on the antiseizure medication most commonly prescribed in the United States. It is begun at an effective dose without titration, is effective within days, has essentially no hepatic drug interactions, and is considered relatively safe in pregnancy. It is broad spectrum despite having failed traditional animal seizure models during development. Which molecular target best explains its action?",
+      "answers": {
+        "A": "AMPA-type glutamate receptor",
+        "B": "GABA-A receptor chloride channel",
+        "C": "SV2A synaptic vesicle protein",
+        "D": "T-type calcium channel",
+        "E": "Voltage-gated sodium channel"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "AMPA receptor antagonism is the mechanism of perampanel, an adjunctive drug that is not the most commonly prescribed agent in the United States.",
+        "B": "Potentiation of the GABA-A receptor describes benzodiazepines such as clobazam and contributes to topiramate's effect, both of which require titration and cause sedation.",
+        "C": "Levetiracetam binds tightly and specifically to the synaptic vesicle protein SV2A, is broad spectrum, needs no titration, and is pharmacologically clean with no significant interactions.",
+        "D": "T-type calcium channel blockade is the mechanism of ethosuximide, which is narrow spectrum and used only for absence seizures.",
+        "E": "Sodium channel blockade describes lamotrigine, carbamazepine, lacosamide, and phenytoin, all of which require titration or carry interaction and rash risks."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-012",
+      "question": "A 17-year-old boy with newly diagnosed focal epilepsy after two spontaneous seizures is started on levetiracetam because it can be given at an effective dose immediately and has no significant drug interactions. He has a history of major depressive disorder treated with sertraline. His mother asks what to watch for at home. Which adverse effect is he at greatest risk for with this medication?",
+      "answers": {
+        "A": "Gingival hyperplasia",
+        "B": "Hyponatremia",
+        "C": "Irritability and worsening mood",
+        "D": "Nephrolithiasis",
+        "E": "Stevens-Johnson syndrome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gingival hyperplasia, along with hirsutism and coarsened facial features, is a chronic complication of phenytoin.",
+        "B": "Hyponatremia is characteristic of oxcarbazepine and, to a lesser degree, carbamazepine.",
+        "C": "The major problem with levetiracetam is behavioral: irritability, moodiness, depression, and occasionally psychosis or suicidality, which is a particular concern given his psychiatric history.",
+        "D": "Kidney stones are a recognized adverse effect of topiramate through its carbonic anhydrase activity, not of levetiracetam.",
+        "E": "Severe rash including Stevens-Johnson syndrome is most associated with lamotrigine and the aromatic agents, whereas levetiracetam is pharmacologically clean in this respect."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-013",
+      "question": "A 24-year-old woman with newly diagnosed epilepsy is prescribed a broad-spectrum antiseizure medication that is also useful as a mood stabilizer. Because of a pharmacy error she begins taking the full target dose on day 1 instead of following the intended slow multiweek titration. Twelve days later she develops fever and a confluent erythematous truncal rash with early involvement of the oral mucosa. Which medication was she most likely prescribed?",
+      "answers": {
+        "A": "Gabapentin",
+        "B": "Lamotrigine",
+        "C": "Levetiracetam",
+        "D": "Oxcarbazepine",
+        "E": "Topiramate"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Gabapentin blocks calcium channels and causes sedation; it is a weak antiseizure agent and is not associated with severe cutaneous reactions.",
+        "B": "Lamotrigine carries a dose- and titration-rate-dependent risk of serious rash including Stevens-Johnson syndrome, which is precisely why it must be escalated slowly over weeks.",
+        "C": "Levetiracetam requires no titration and its characteristic problem is behavioral rather than dermatologic.",
+        "D": "Oxcarbazepine can cause rash, but its signature adverse effects are hyponatremia and cross-reactivity in carbamazepine-allergic patients, and it is not titrated to avoid Stevens-Johnson syndrome.",
+        "E": "Topiramate causes paresthesias, cognitive slowing, kidney stones, and acute glaucoma rather than a severe mucocutaneous eruption."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-014",
+      "question": "A 27-year-old woman with focal epilepsy has been seizure-free for 3 years on valproate, which also helps stabilize her mood. She and her husband plan to conceive within the next year. Her examination is normal and she takes no other medications. She asks whether her regimen should change before pregnancy. Which is the most appropriate medication for her going forward?",
+      "answers": {
+        "A": "Carbamazepine",
+        "B": "Lamotrigine",
+        "C": "Phenytoin",
+        "D": "Topiramate",
+        "E": "Valproate at the current dose"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Carbamazepine is teratogenic and a strong CYP450 inducer, and it treats only focal seizures, making it a poor choice for a woman planning pregnancy.",
+        "B": "Lamotrigine is a broad-spectrum sodium channel blocker that also provides mood stabilization and is a drug of choice for women with epilepsy who wish to become pregnant.",
+        "C": "Phenytoin is teratogenic, induces CYP450 with many interactions, and has nonlinear kinetics that make toxicity common.",
+        "D": "Topiramate is teratogenic and additionally causes cognitive slowing, kidney stones, and glaucoma, so it is avoided in women planning conception.",
+        "E": "Valproate is clearly teratogenic, with roughly a 2 percent incidence of neural tube defects and a reduction of the child's IQ by about 10 points, so it should be changed before conception."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-015",
+      "question": "A 19-year-old woman with generalized epilepsy and frequent migraines was started 6 weeks ago on a broad-spectrum antiseizure medication that treats both conditions. She now reports 4 days of nausea, vomiting, abdominal pain, and progressive lethargy. She has a fine postural tremor and has gained 4 kg since her last visit. Laboratory results are shown. Which medication is most likely responsible?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["AST", "480 U/L", "10-40 U/L"],
+        ["ALT", "520 U/L", "7-56 U/L"],
+        ["Ammonia", "96 umol/L", "15-45 umol/L"],
+        ["Lipase", "610 U/L", "10-140 U/L"],
+        ["Platelets", "92,000/mm3", "150,000-400,000/mm3"]
+      ],
+      "answers": {
+        "A": "Ethosuximide",
+        "B": "Gabapentin",
+        "C": "Lamotrigine",
+        "D": "Levetiracetam",
+        "E": "Valproate"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Ethosuximide is narrow spectrum for absence seizures and causes GI upset and rarely blood dyscrasias, not the combination of hepatitis, pancreatitis, and hyperammonemia.",
+        "B": "Gabapentin is renally cleared, causes sedation, and has no hepatic or pancreatic toxicity.",
+        "C": "Lamotrigine's dangerous reactions are rash and arrhythmia; it does not typically cause hyperammonemia, pancreatitis, or thrombocytopenia.",
+        "D": "Levetiracetam is pharmacologically clean without hepatic metabolism problems, and its main toxicity is behavioral.",
+        "E": "Valproate is the broad-spectrum agent that also prevents migraine and uniquely causes hepatic failure, pancreatitis, thrombocytopenia, hyperammonemia, weight gain, and tremor."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-016",
+      "question": "A 46-year-old man with focal epilepsy has been taking phenytoin 300 mg daily with a stable trough level and occasional breakthrough seizures. His dose is increased to 400 mg daily. Two weeks later he reports unsteadiness and double vision; examination shows gait ataxia and horizontal nystagmus. Renal and hepatic function are normal, albumin is 4.2 g/dL, and he takes no other medications. Laboratory results are shown. Which best explains the disproportionate rise in his serum concentration?",
+      "table": [
+        ["Test", "Before dose increase", "After dose increase", "Therapeutic Range"],
+        ["Phenytoin (total)", "12 mcg/mL", "28 mcg/mL", "10-20 mcg/mL"],
+        ["Albumin", "4.2 g/dL", "4.2 g/dL", "3.5-5.5 g/dL"],
+        ["Creatinine", "0.9 mg/dL", "0.9 mg/dL", "0.6-1.2 mg/dL"]
+      ],
+      "answers": {
+        "A": "Autoinduction of hepatic metabolism over time",
+        "B": "Displacement from albumin by a coadministered drug",
+        "C": "Increased enterohepatic recirculation of the drug",
+        "D": "Reduced renal clearance from volume depletion",
+        "E": "Saturation of the hepatic enzyme that metabolizes the drug"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Autoinduction increases clearance and lowers levels over time, which is the opposite of what occurred and is characteristic of carbamazepine rather than phenytoin.",
+        "B": "Protein-binding displacement raises the free fraction without proportionally raising the total level, and he takes no other medications while albumin is normal.",
+        "C": "Enterohepatic recirculation is not a meaningful determinant of phenytoin concentrations and would not produce a sudden threshold effect after a dose increase.",
+        "D": "Phenytoin is cleared by hepatic metabolism, not renal excretion, and his creatinine is unchanged.",
+        "E": "Phenytoin follows nonlinear (zero-order) kinetics once its metabolizing enzyme saturates, so a small dose increment causes a disproportionate rise in level and the classic toxicity of ataxia, nystagmus, and diplopia."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-017",
+      "question": "A 58-year-old man with focal epilepsy has a medication added 3 weeks ago after breakthrough seizures. He now reports headache, nausea, and difficulty concentrating; his wife notes he seems confused in the evenings. His current medications are listed below along with laboratory data obtained today. He has had no vomiting, diarrhea, or diuretic use, and volume status is normal. Which medication is most likely responsible for the abnormality shown?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Na+", "124 mEq/L", "135-145 mEq/L"],
+        ["K+", "4.1 mEq/L", "3.5-5.0 mEq/L"],
+        ["Creatinine", "1.0 mg/dL", "0.6-1.2 mg/dL"],
+        ["Serum osmolality", "258 mOsm/kg", "275-295 mOsm/kg"],
+        ["Urine osmolality", "480 mOsm/kg", "Variable"]
+      ],
+      "answers": {
+        "A": "Gabapentin",
+        "B": "Lacosamide",
+        "C": "Levetiracetam",
+        "D": "Oxcarbazepine",
+        "E": "Phenytoin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Gabapentin is renally eliminated and causes sedation; it does not impair free water excretion.",
+        "B": "Lacosamide blocks sodium channels and typically causes dizziness and imbalance rather than electrolyte disturbance.",
+        "C": "Levetiracetam has no significant metabolic or electrolyte effects, with behavioral symptoms as its main adverse effect.",
+        "D": "Oxcarbazepine characteristically produces hyponatremia through an SIADH-like effect, matching the low serum osmolality with inappropriately concentrated urine in a euvolemic patient.",
+        "E": "Phenytoin induces CYP450 and causes ataxia, gingival hyperplasia, and osteomalacia, but not a syndrome of inappropriate antidiuresis."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-018",
+      "question": "A 34-year-old woman with focal epilepsy continues to have two seizures per month despite an adequate trial of levetiracetam, which she stopped because of irritability. She also has 8 migraine days per month and a BMI of 34 kg/m2, and she states she does not want a medication that causes weight gain. She has no history of kidney stones or glaucoma and is using reliable contraception with no plans for pregnancy. Which single medication best addresses both of her conditions?",
+      "answers": {
+        "A": "Gabapentin",
+        "B": "Levetiracetam",
+        "C": "Phenytoin",
+        "D": "Topiramate",
+        "E": "Valproate"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Gabapentin is useful for neuropathic pain and mood but is a weak antiseizure medication and is not a first-line migraine preventive.",
+        "B": "Levetiracetam was already ineffective and poorly tolerated because of behavioral side effects, and it does not treat migraine.",
+        "C": "Phenytoin treats focal seizures but has no migraine benefit and carries nonlinear kinetics, CYP450 induction, and chronic cosmetic and bone toxicity.",
+        "D": "Topiramate blocks sodium channels and potentiates the GABA-A receptor, is broad spectrum, prevents migraine, and causes weight loss, which fits all of her goals.",
+        "E": "Valproate also treats seizures and migraine but causes weight gain, and its teratogenicity and hepatic risks make it less attractive in a woman of childbearing age."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-019",
+      "question": "A 28-year-old man with drug-resistant focal epilepsy and frequent nocturnal convulsions is found dead in bed by his roommate in the morning. He was last seen well the previous evening. There is no evidence of trauma, aspiration, drowning, or a prolonged convulsion, and he was found prone in bed. Autopsy shows no structural cardiac disease or acute brain lesion, and toxicology including antiseizure medication levels is unremarkable. Which is the most likely cause of death?",
+      "answers": {
+        "A": "Acute myocardial infarction",
+        "B": "Aspiration pneumonia",
+        "C": "Intracranial hemorrhage from trauma",
+        "D": "Status epilepticus with hyperthermia",
+        "E": "Sudden unexpected death in epilepsy"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Autopsy showed no structural cardiac disease, and myocardial infarction is very unlikely in a 28-year-old without risk factors.",
+        "B": "Aspiration would be expected to produce pulmonary findings at autopsy and a witnessed or evident aspiration event.",
+        "C": "Traumatic hemorrhage is a real consequence of seizures from falls and lacerations, but there was no evidence of trauma or an acute brain lesion.",
+        "D": "Status epilepticus is a medical emergency arising when seizure-termination mechanisms fail, but the history and autopsy show no prolonged convulsion.",
+        "E": "Sudden unexpected death in epilepsy is a major contributor to the roughly 0.5 percent per year excess mortality in epilepsy, typically occurring at night, unwitnessed, prone, in patients with uncontrolled convulsive seizures, with a negative autopsy."
+      }
+    },
+    {
+      "id": "neuro-approaches-to-seizures-and-epilepsy-020",
+      "question": "A 30-year-old woman has mesial temporal lobe epilepsy with left hippocampal sclerosis on MRI and concordant left temporal seizure onset on video-EEG. She continues to have four focal impaired awareness seizures per month despite maximally tolerated trials of levetiracetam, lamotrigine, and lacosamide. Neuropsychological testing and language mapping show no contraindication to resection. She cannot drive and has lost her job. Which option offers her the highest likelihood of seizure freedom?",
+      "answers": {
+        "A": "Addition of a fourth antiseizure medication",
+        "B": "Initiation of a ketogenic diet",
+        "C": "Resective anterior temporal lobectomy",
+        "D": "Responsive cortical neurostimulation",
+        "E": "Vagus nerve stimulator implantation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Once focal epilepsy has failed two or three appropriately chosen drugs, the chance that any additional medication produces seizure freedom is very low.",
+        "B": "The ketogenic diet is an alternative therapy in drug-resistant epilepsy but produces far lower rates of seizure freedom than resection in a surgically favorable candidate.",
+        "C": "Resective surgery is by far the best option in drug-resistant focal epilepsy with a well-localized lesion, offering roughly a 50 to 75 percent chance of seizure freedom.",
+        "D": "Responsive cortical stimulation is palliative, generally reducing seizure frequency rather than eliminating seizures, and is reserved for patients who are not resection candidates.",
+        "E": "Vagus nerve stimulation is likewise a palliative neuromodulation option with low rates of complete seizure freedom."
+      }
+    }
+  ]
+}

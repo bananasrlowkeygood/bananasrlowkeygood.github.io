@@ -1,0 +1,497 @@
+{
+  "lecture": "Suicide",
+  "block": "neuro",
+  "generated": "2026-09-25",
+  "questions": [
+    {
+      "id": "neuro-suicide-001",
+      "question": "A 47-year-old man is brought to the emergency department by his wife, who found a note in which he wrote that everyone would be better off without him. He has major depressive disorder and drinks 6 to 8 alcoholic beverages nightly. His wife says she has read that suicide attempts are far more common in women and asks whether her husband is really at high risk. Using the most recent U.S. national data, which of the following best describes the relationship between sex, suicide attempts, and suicide deaths?",
+      "answers": {
+        "A": "Men and women attempt at similar rates, and suicide deaths are also evenly divided",
+        "B": "Men and women attempt at similar rates, but about 80% of suicide deaths are in men",
+        "C": "Men attempt about three times as often as women and account for most suicide deaths",
+        "D": "Women attempt about three times as often as men and account for most suicide deaths",
+        "E": "Women attempt more often than men, and the two sexes die by suicide at equal rates"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Self-reported attempt rates are now nearly equal by sex, but deaths are not evenly divided: roughly 80% of U.S. suicide deaths occur in men, and about 86% of those are white men.",
+        "B": "The most recent national self-report data show essentially equal past-year attempt rates in men and women (about 0.9% vs 0.8%), while men account for roughly 80% of suicide deaths, largely because men more often use highly lethal means.",
+        "C": "This reverses the classic pattern; older estimates held that women attempt about three times as often as men, and current data show the attempt rates to be roughly equal rather than male-predominant.",
+        "D": "The older teaching that women attempt about three times as often as men is no longer supported by the most recent data, and women account for only about 20% of suicide deaths.",
+        "E": "Age-adjusted suicide death rates are roughly four times higher in men (about 22.7 per 100,000) than in women (about 5.9 per 100,000), so the sexes do not die at equal rates."
+      }
+    },
+    {
+      "id": "neuro-suicide-002",
+      "question": "A 23-year-old man is seen at a rural community health center in the Rocky Mountain region for depressed mood following the end of a relationship. As part of a quality improvement initiative, the clinic is deciding which populations in its catchment area should receive targeted suicide prevention outreach. Among U.S. racial and ethnic groups, which of the following has the highest age-adjusted suicide rate?",
+      "answers": {
+        "A": "American Indian and Alaska Native adults",
+        "B": "Asian and Pacific Islander adults overall",
+        "C": "Black or African American adults overall",
+        "D": "Hispanic or Latino adults of any race",
+        "E": "White adults of non-Hispanic ethnicity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "American Indian and Alaska Native persons have the highest age-adjusted suicide rate of any U.S. racial or ethnic group, and rates are further elevated in rural counties, including those in the Rocky Mountain states.",
+        "B": "Asian American adults have among the lowest rates of any group; Native Hawaiian and Pacific Islander rates are elevated relative to the national average but remain below those of American Indian and Alaska Native adults.",
+        "C": "Black or African American adults have historically had rates below the national average, although rates among Black youth have been rising in recent years.",
+        "D": "Hispanic adults have rates below the overall U.S. average and well below those of American Indian and Alaska Native adults.",
+        "E": "Non-Hispanic white adults have the second highest rate and, because of population size, account for the largest absolute number of suicide deaths, but their rate is lower than that of American Indian and Alaska Native adults."
+      }
+    },
+    {
+      "id": "neuro-suicide-003",
+      "question": "A 79-year-old man is seen in a Veterans Affairs outpatient clinic three months after his wife died of cancer. He served two combat tours, has COPD, type 2 diabetes, and hypertension, and retired two years ago. He says he keeps to himself, his church friends have not called since the funeral, and his three children rarely visit. When asked about mood he says, \"I feel about the same as I always have. Just kind of there.\" Which of the following statements about suicide risk in his demographic group is most accurate?",
+      "answers": {
+        "A": "Men in this age group have the highest suicide rate of any age and sex group",
+        "B": "Older adults attempt suicide more often but die less often than younger adults",
+        "C": "Rates fall sharply after age 65 in both men and women in the United States",
+        "D": "Suicide rates in men and women converge and become nearly equal after 75",
+        "E": "Women in this age group have a steadily rising rate after menopause"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Suicide rates rise dramatically in men in late life and are highest in men 85 and older, a pattern attributed to role loss after retirement, bereavement, medical illness, and loss of meaningful interpersonal connection.",
+        "B": "The opposite is true: older adults make fewer attempts but have a much higher attempt-to-death ratio, reflecting greater intent, physical frailty, and use of more lethal means.",
+        "C": "Rates do not fall after 65 in men; crude rates in the 85-and-older group are the highest of any age band.",
+        "D": "Rates diverge rather than converge in late life, rising steeply in men while declining in women.",
+        "E": "Female suicide rates peak in midlife and then decline in later life, the reverse of the male pattern."
+      }
+    },
+    {
+      "id": "neuro-suicide-004",
+      "question": "A health system is designing a suicide prevention program and reviews the national estimates shown for U.S. adults in the most recent reporting year. The planning committee wants to decide where to invest screening and intervention resources. Which of the following conclusions is best supported by these data?",
+      "table": [
+        [
+          "Outcome (U.S. adults, most recent year)",
+          "Estimated number"
+        ],
+        [
+          "Serious thoughts of suicide in past year",
+          "14,300,000"
+        ],
+        [
+          "Made a suicide plan in past year",
+          "4,600,000"
+        ],
+        [
+          "Attempted suicide in past year",
+          "2,200,000"
+        ],
+        [
+          "Died by suicide",
+          "49,246"
+        ]
+      ],
+      "answers": {
+        "A": "Most adults who attempt suicide die from that attempt within the same year",
+        "B": "Most adults who seriously consider suicide do not attempt within that year",
+        "C": "Most suicide deaths occur in people who never considered suicide at all",
+        "D": "Screening for ideation identifies a group too small to be worth the effort",
+        "E": "Serious suicidal ideation is rare enough that universal screening is futile"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Roughly 2.2 million attempts correspond to about 49,000 deaths, so the great majority of attempts are survived; this discrepancy is why the lethality of the means used matters so much.",
+        "B": "About 14.3 million adults report serious ideation but only about 2.2 million attempt, so ideation alone has low positive predictive value for an attempt and must be combined with further risk assessment rather than treated as equivalent to imminent danger.",
+        "C": "Psychological autopsy studies show that the overwhelming majority of people who die by suicide had communicated or experienced suicidal thinking, and roughly 90% had a diagnosable psychiatric disorder.",
+        "D": "The screened-positive group numbers in the millions, which is a large rather than a negligible population.",
+        "E": "Serious ideation affects roughly 1 in 20 adults annually, which is common enough that universal screening in medical settings is recommended."
+      }
+    },
+    {
+      "id": "neuro-suicide-005",
+      "question": "A 58-year-old man is seen for routine follow-up of hypertension. He mentions sleeping poorly and feeling \"worn down\" since losing his job, but does not raise any concern about self-harm. The practice is reviewing national data showing that about 20% of adults who die by suicide were seen in primary care within 24 hours of death, that about 10% were seen in an emergency department within 60 days, and that fewer than half of women and only about 28% of men who die by suicide ever received any mental health treatment. Which of the following practice changes is best supported by these findings?",
+      "answers": {
+        "A": "Implement universal suicide risk screening at every primary care visit",
+        "B": "Limit suicide screening to patients carrying a psychiatric diagnosis",
+        "C": "Refer all patients reporting low mood directly to the emergency department",
+        "D": "Restrict screening to patients who spontaneously report suicidal thoughts",
+        "E": "Screen only patients with a documented history of a suicide attempt"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Because most people who die by suicide never receive specialty mental health care yet are frequently seen in general medical settings shortly before death, universal screening in primary care and emergency settings is the change these data support.",
+        "B": "Restricting screening to those already diagnosed misses the majority, since most decedents never received mental health treatment and therefore carry no psychiatric diagnosis in the chart.",
+        "C": "Blanket emergency referral for low mood is not supported, overwhelms emergency resources, and substitutes disposition for assessment.",
+        "D": "Relying on spontaneous disclosure defeats the purpose of screening; many patients, including this one, do not raise the topic unless directly asked.",
+        "E": "Prior attempt is the single strongest chronic risk factor, but most people who die by suicide die on their first attempt, so this strategy would miss them."
+      }
+    },
+    {
+      "id": "neuro-suicide-006",
+      "question": "An inpatient psychiatry team is preparing discharge plans for several patients, each with a different primary diagnosis. All are currently free of active suicidal ideation and all are established on treatment. The attending asks the students which condition confers the greatest increase in suicide rate relative to the general population, in order to frame long-term risk counseling. Which of the following diagnoses is associated with the highest relative rate of death by suicide?",
+      "answers": {
+        "A": "Anorexia nervosa",
+        "B": "Bipolar II disorder",
+        "C": "Borderline personality disorder",
+        "D": "Major depressive disorder, recurrent",
+        "E": "Schizophrenia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anorexia nervosa carries roughly a 23-fold increase in suicide rate, and affected patients are more likely to die by suicide than from the medical complications of malnutrition, but this is lower than the relative rate in borderline personality disorder.",
+        "B": "Bipolar disorder confers risk slightly below that of major depressive disorder, with bipolar II conferring somewhat greater risk than bipolar I; neither approaches the relative rate seen in borderline personality disorder.",
+        "C": "Borderline personality disorder carries a suicide rate roughly 400 times that of the general population, with 60% to 70% of patients making at least one life-threatening attempt, the highest relative rate among the major psychiatric diagnoses.",
+        "D": "Major depressive disorder is the diagnosis most commonly found in suicide decedents and about 24% of depressed individuals attempt in their lifetime, but its relative rate increase is far below 400-fold.",
+        "E": "Schizophrenia confers roughly an 80-fold increase in risk of attempting suicide, with risk greatest at the initial onset of illness, which is still well below the relative rate in borderline personality disorder."
+      }
+    },
+    {
+      "id": "neuro-suicide-007",
+      "question": "A 38-year-old woman presents to the emergency department with depressed mood and anhedonia. Her husband left six months ago, leaving her with four children, and her job became far more stressful after a corporate takeover. Her history includes physical abuse by her father during elementary school, a sexual assault at age 17, and cutting from age 17 to age 27. She scheduled an outpatient intake six weeks from now but came in today because over the past week she has become markedly more anxious and agitated, says she feels trapped, and states that she does not know how much longer she can live this way. Which of the following findings is best classified as an acute warning sign rather than a chronic risk factor for suicide?",
+      "answers": {
+        "A": "Childhood physical abuse by her father during elementary school",
+        "B": "Escalating anxiety with a sense of being trapped this past week",
+        "C": "History of cutting behavior that remitted more than ten years ago",
+        "D": "Sexual assault at age 17 with intermittent treatment afterward",
+        "E": "Ten years of on-and-off outpatient treatment for depression"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Adverse childhood experiences such as physical abuse are established chronic risk factors that raise lifetime risk but say nothing about the current 12-month or imminent time frame.",
+        "B": "Warning signs are empirically supported markers of near-term risk captured by the mnemonic IS PATH WARM; her escalating Anxiety and sense of being Trapped, developing over days, are warning signs rather than static risk factors, and her decision to come in early rather than wait six weeks underscores the escalation.",
+        "C": "Past self-injurious behavior is a chronic risk factor and contributes to acquired capability, but remote remitted cutting does not signal acute escalation.",
+        "D": "Sexual trauma raises lifetime risk substantially and is a chronic risk factor, not a marker of imminent danger.",
+        "E": "A long history of intermittent treatment reflects chronic illness burden and difficulty integrating past experiences rather than an acute change in state."
+      }
+    },
+    {
+      "id": "neuro-suicide-008",
+      "question": "A 45-year-old man with alcohol use disorder and recurrent major depressive disorder is being assessed after telling his physician that he sometimes wishes he would not wake up. He denies plan or intent. In building a risk formulation, the clinician documents both risk factors and protective factors. Which of the following features of his presentation is most protective against suicide?",
+      "answers": {
+        "A": "Access to a firearm that is stored in a locked cabinet at home",
+        "B": "Full-time employment in a physically demanding building trade",
+        "C": "Ongoing involvement with his family and a weekly church group",
+        "D": "Recent retirement with more unstructured time during the day",
+        "E": "Several acquaintances he has not spoken with in about two years"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Any access to a firearm in the home markedly increases the probability that a suicidal crisis ends in death, and locked storage mitigates but does not eliminate that risk; it is not protective.",
+        "B": "Employment can be stabilizing, but job and financial problems are among the most commonly identified precipitants in CDC data and employment alone is not the strongest protective factor here.",
+        "C": "Active social connectedness directly counters thwarted belongingness, the interpersonal construct most consistently linked to suicidal desire, and is the most robust protective factor in this presentation.",
+        "D": "Recent retirement is a risk factor rather than a protective one, particularly in men, because of role loss and reduced daily structure and contact.",
+        "E": "Acquaintances with whom he has had no contact for years represent nominal rather than actual social connection and do not confer protection."
+      }
+    },
+    {
+      "id": "neuro-suicide-009",
+      "question": "A 79-year-old widowed veteran is seen for outpatient therapy. He says his friends did not reach out after his wife's death, that he was never close to his three children, and that in recent years an old war injury made it hard to keep up with his wife on their hikes so he \"more often felt like a load she had to carry.\" He denies feeling depressed. Which of the following constructs from the interpersonal theory of suicide best accounts for this presentation?",
+      "answers": {
+        "A": "Acquired capability for lethal self-harm",
+        "B": "Constriction of perceptual and cognitive range",
+        "C": "Perceived burdensomeness with thwarted belongingness",
+        "D": "Psychache arising from frustrated psychological needs",
+        "E": "Recklessness as an acute behavioral warning sign"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Acquired capability is the separate component of Joiner's model that allows desire to become a lethal act; it derives from habituation to pain and fear and is not what this man's social history illustrates.",
+        "B": "Constriction, a narrowing of perceived options to a single solution, is one of Shneidman's commonalities rather than a component of the interpersonal theory.",
+        "C": "Joiner's theory holds that suicidal desire arises when perceived burdensomeness intersects with thwarted belongingness; feeling like a load on his wife and having no reciprocal social connection captures both elements precisely.",
+        "D": "Psychache is Shneidman's construct describing unbearable psychological pain as the common stimulus for suicide, not part of the interpersonal theory.",
+        "E": "Recklessness is a warning sign in the IS PATH WARM mnemonic and is not described in this patient."
+      }
+    },
+    {
+      "id": "neuro-suicide-010",
+      "question": "A 31-year-old man is evaluated after telling a case manager that his family would be better off without him and that no one would notice if he disappeared. He has an 8-year history of intravenous heroin use and a 10-year history of repeated self-cutting, and he recently lost his housing. According to the interpersonal theory of suicide, which feature of his history most increases the likelihood that his suicidal desire will translate into a potentially lethal attempt?",
+      "answers": {
+        "A": "His belief that his family would be better off without him",
+        "B": "His history of repeated self-injury and intravenous drug use",
+        "C": "His recent loss of housing and the resulting financial strain",
+        "D": "His statement that no one would notice if he disappeared",
+        "E": "His untreated major depressive disorder of two years' duration"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This describes perceived burdensomeness, which generates the desire for suicide but is not sufficient for a lethal attempt in Joiner's model.",
+        "B": "Acquired capability, the habituation to pain and fear of death required for a lethal attempt, is built by experiences such as repeated self-injurious behavior, intravenous drug use, and exposure to death and dying.",
+        "C": "Housing and financial problems are established precipitants in CDC data, but in the interpersonal theory they contribute to desire rather than to capability.",
+        "D": "This describes thwarted belongingness, the second component of suicidal desire, which again does not by itself confer the capability to act.",
+        "E": "Untreated depression is the single most common diagnosis in suicide decedents and raises risk, but it is not the element of the model that converts desire into a lethal act."
+      }
+    },
+    {
+      "id": "neuro-suicide-011",
+      "question": "A 52-year-old woman with a 20-year history of treatment-resistant depression tells her psychiatrist, \"I don't actually want to be dead. I just cannot stand this feeling any longer and I cannot see a single other way out of it.\" She is able to describe no option other than suicide when asked what else might help. Which of the following best characterizes the state that Shneidman identified as the common stimulus in suicide?",
+      "answers": {
+        "A": "Acquired capability through repeated exposure to pain and to death",
+        "B": "Ambivalence between the wish to live and the wish to die",
+        "C": "Chronic emptiness with unstable interpersonal relationships",
+        "D": "Thwarted belongingness in the absence of any social support",
+        "E": "Unbearable psychological pain that suicide is meant to stop"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Acquired capability comes from Joiner's interpersonal theory and describes the ability to carry out a lethal act, not the driving stimulus.",
+        "B": "Ambivalence is Shneidman's common cognitive state, and her statement that she does not want to be dead reflects it, but the stimulus he identified is the pain itself.",
+        "C": "Chronic emptiness and unstable relationships describe borderline personality disorder rather than a theoretical construct about the stimulus for suicide.",
+        "D": "Thwarted belongingness is a component of Joiner's model and is not described in this vignette.",
+        "E": "Shneidman held that the common stimulus in suicide is unbearable psychological pain, or psychache, and that suicide is understood by the patient as the means of ending that pain; her inability to name any alternative also illustrates constriction."
+      }
+    },
+    {
+      "id": "neuro-suicide-012",
+      "question": "A 19-year-old college student is evaluated after her roommate noticed healing linear marks on her forearm. She reports injuring herself intermittently for two years, most often after arguments, and says it \"makes the numb feeling go away for a while.\" She denies wanting to die and has no history of psychiatric hospitalization. Which of the following is the most appropriate next question to distinguish nonsuicidal self-injury from a suicide attempt?",
+      "answers": {
+        "A": "\"Are you willing to sign a contract agreeing not to hurt yourself?\"",
+        "B": "\"Did anyone in your family ever injure themselves in this way?\"",
+        "C": "\"Have you ever been hospitalized because of this behavior?\"",
+        "D": "\"How severe were the injuries and did any require medical care?\"",
+        "E": "\"What did you hope would happen when you injured yourself?\""
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "No-suicide contracts have no evidence of efficacy, provide no diagnostic information, and offer no medicolegal protection.",
+        "B": "Family history of suicide is a meaningful chronic risk factor but does not clarify the intent behind this patient's own behavior.",
+        "C": "Prior hospitalization characterizes the severity of her past course but does not establish whether any episode was intended to end her life.",
+        "D": "Medical severity correlates poorly with intent; low-lethality acts can carry high intent and highly lethal acts can occur with low intent.",
+        "E": "Intent is what distinguishes nonsuicidal self-injury from a suicide attempt, and asking what the patient hoped would happen, alongside asking about reasons for living versus reasons for dying, elicits it directly."
+      }
+    },
+    {
+      "id": "neuro-suicide-013",
+      "question": "A 16-year-old boy is brought to the emergency department for ankle pain after a soccer injury. Radiographs show no fracture and he is medically stable. As part of universal screening, the nurse administers the Ask Suicide-Screening Questions (ASQ) tool; his responses are shown. His mother is at the bedside and reports no behavioral changes at home. Which of the following is the most appropriate next step?",
+      "table": [
+        [
+          "ASQ item",
+          "Response"
+        ],
+        [
+          "In the past few weeks, have you wished you were dead?",
+          "Yes"
+        ],
+        [
+          "In the past few weeks, have you felt that you or your family would be better off if you were dead?",
+          "Yes"
+        ],
+        [
+          "In the past week, have you been having thoughts about killing yourself?",
+          "No"
+        ],
+        [
+          "Have you ever tried to kill yourself?",
+          "No"
+        ],
+        [
+          "Are you having thoughts of killing yourself right now?",
+          "No"
+        ]
+      ],
+      "answers": {
+        "A": "Admit him to an inpatient psychiatric unit for further stabilization",
+        "B": "Complete a brief suicide safety assessment before he is discharged",
+        "C": "Discharge him with a printed list of community mental health referrals",
+        "D": "Place him in one-to-one observation and begin involuntary commitment",
+        "E": "Repeat the screening instrument at his next primary care appointment"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A non-acute positive screen does not by itself establish the need for inpatient care; the level of care is determined only after a full assessment.",
+        "B": "Any \"yes\" on the first four items is a positive screen, and because the acuity item is negative this is a non-acute positive requiring a brief suicide safety assessment by a trained clinician to determine risk and disposition before discharge.",
+        "C": "Discharging on a positive screen without further assessment is precisely the failure the Joint Commission sentinel event alert on suicide risk was intended to prevent.",
+        "D": "One-to-one observation and commitment are reserved for an acute positive screen, meaning current thoughts of killing oneself, which he denies.",
+        "E": "Deferring evaluation wastes the contact; up to 10% of people who die by suicide are seen in an emergency department within the preceding 60 days."
+      }
+    },
+    {
+      "id": "neuro-suicide-014",
+      "question": "A 34-year-old man with major depressive disorder is evaluated in the emergency department after his partner became alarmed by his statements. He is alert and cooperative. The Columbia Suicide Severity Rating Scale is administered, with the responses shown. He has a handgun at home and lives alone. He says he would \"probably be fine\" if sent home tonight. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "C-SSRS item (past month)",
+          "Response"
+        ],
+        [
+          "Wish to be dead",
+          "Yes"
+        ],
+        [
+          "Nonspecific active suicidal thoughts",
+          "Yes"
+        ],
+        [
+          "Active ideation with any method, no plan or intent",
+          "Yes"
+        ],
+        [
+          "Active ideation with some intent to act",
+          "Yes"
+        ],
+        [
+          "Active ideation with specific plan and intent",
+          "No"
+        ],
+        [
+          "Lifetime suicide attempt",
+          "Yes, 3 years ago"
+        ]
+      ],
+      "answers": {
+        "A": "Arrange a routine outpatient psychiatry appointment in six to eight weeks",
+        "B": "Discharge him after he agrees verbally to a no-suicide contract",
+        "C": "Obtain urgent psychiatric evaluation and arrange firearm removal",
+        "D": "Prescribe a benzodiazepine and have him return in one week",
+        "E": "Repeat the C-SSRS in the morning before making any decisions"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Endorsement of active ideation with some intent to act, in a patient with a prior attempt and access to a firearm, is not compatible with routine follow-up weeks away.",
+        "B": "No-suicide contracts are not evidence based, do not reduce risk, and do not protect the clinician medicolegally; a collaborative safety plan is the appropriate alternative.",
+        "C": "Active ideation with some intent on the C-SSRS, combined with a prior attempt and firearm access, warrants urgent psychiatric evaluation for level of care plus immediate lethal means counseling, since firearms account for over half of suicide deaths while representing only about 5% of attempts.",
+        "D": "Benzodiazepines can disinhibit and do not treat the underlying risk; they are not a substitute for assessment and means restriction.",
+        "E": "The instrument is already positive at a clinically significant level, and delaying action overnight without evaluation or means restriction leaves the highest-lethality risk unaddressed."
+      }
+    },
+    {
+      "id": "neuro-suicide-015",
+      "question": "A 44-year-old man is brought to the emergency department by police after neighbors reported he was shouting from his porch that he wanted to die. On arrival he smells of alcohol, is tearful, and then insists he \"didn't mean any of it\" and wants to go home. He is drowsy but rousable and oriented to person, place, and time. Laboratory studies are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Blood alcohol concentration",
+          "238 mg/dL",
+          "<10 mg/dL"
+        ],
+        [
+          "Sodium",
+          "139 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "0.9 mg/dL",
+          "0.6-1.2 mg/dL"
+        ],
+        [
+          "Acetaminophen",
+          "Not detected",
+          "Not detected"
+        ],
+        [
+          "Urine toxicology",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Discharge him now with the national crisis line number and a referral",
+        "B": "Have him sign a no-harm agreement and release him to his neighbor",
+        "C": "Initiate involuntary commitment paperwork immediately",
+        "D": "Observe until he is sober and then repeat the risk assessment",
+        "E": "Start an antidepressant and arrange follow-up in four weeks"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Discharging an acutely intoxicated patient who has just voiced a wish to die relies on a retraction made while cognitively impaired and forfeits the assessment opportunity.",
+        "B": "No-harm agreements are not evidence based, and releasing an intoxicated patient to an untrained third party does not constitute a safety plan.",
+        "C": "Commitment may ultimately be needed, but that determination requires a valid risk assessment, which cannot be performed while he is significantly intoxicated.",
+        "D": "Alcohol is among the most common factors in suicide deaths and acutely impairs judgment and disinhibits behavior, so risk assessment and disposition should be deferred until he is sober and then repeated, ideally with a standardized instrument.",
+        "E": "Antidepressants do not reduce acute risk, take weeks to act, and do not address the immediate disposition question."
+      }
+    },
+    {
+      "id": "neuro-suicide-016",
+      "question": "A 29-year-old woman is being prepared for discharge from the emergency department after a suicidal crisis triggered by an argument with her partner. She is no longer endorsing intent, is engaged, and has agreed to outpatient follow-up. Working from a safety planning intervention template, the clinician has already recorded her personal warning signs, her internal coping strategies, people and places that provide distraction, family members she can call for support, and the 988 crisis line. Which of the following is the remaining component of the safety planning intervention?",
+      "answers": {
+        "A": "Adding a written contract in which she promises not to die by suicide",
+        "B": "Obtaining a signed release to notify her employer of her diagnosis",
+        "C": "Recording a detailed history of every previous suicidal episode",
+        "D": "Reducing her access to lethal means in her home environment",
+        "E": "Scheduling weekly urine drug screening for the next three months"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A no-suicide contract is not a component of the safety planning intervention and has no demonstrated effect on risk or on liability.",
+        "B": "Disclosure to an employer is not part of the intervention and raises confidentiality concerns without reducing risk.",
+        "C": "A detailed history belongs in the risk assessment rather than in the safety plan, which is a brief written tool the patient uses during a crisis.",
+        "D": "The six steps of the Stanley and Brown safety planning intervention are warning signs, internal coping strategies, social contacts and settings for distraction, people who can help, professionals and crisis services, and finally restricting access to lethal means, which is the only element not yet completed.",
+        "E": "Toxicology monitoring is a substance use treatment measure, not a safety plan component."
+      }
+    },
+    {
+      "id": "neuro-suicide-017",
+      "question": "A 79-year-old widowed veteran with COPD and worsening mobility is seen in clinic. He endorses passive thoughts that he would be better off dead but denies any plan or intent, agrees to weekly therapy and to a safety plan, and declines hospitalization. On review of the safety plan he mentions that he keeps two hunting rifles in an unlocked hall closet along with ammunition. Which of the following is the most appropriate counseling regarding his firearms?",
+      "answers": {
+        "A": "Advise storing his firearms outside the home with a trusted person",
+        "B": "Advise that no change is needed because he denies plan or intent",
+        "C": "Ask him to keep his firearms but store ammunition in the same closet",
+        "D": "Notify law enforcement to confiscate his firearms without telling him",
+        "E": "Tell him that firearm counseling is only indicated after an attempt"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Reducing access to lethal means is one of the few interventions with empirical support for saving lives, and having firearms stored outside the home with a trusted person is the most effective option; case-control data show that when a firearm is kept in the home it is used in 67% to 88% of suicides, compared with 6% to 23% when it is not.",
+        "B": "Denial of plan or intent is a poor predictor of near-term risk, and means restriction is indicated for any at-risk patient because suicidal crises are often brief and impulsive.",
+        "C": "Storing ammunition with the firearms preserves ready access and provides essentially no delay during a crisis.",
+        "D": "Covert confiscation destroys the therapeutic alliance and is not the recommended approach; means restriction is a collaborative counseling intervention.",
+        "E": "Waiting for an attempt is unjustifiable given that most firearm suicides occur on the first attempt and are rarely survived."
+      }
+    },
+    {
+      "id": "neuro-suicide-018",
+      "question": "A 41-year-old woman is evaluated in the emergency department after disclosing suicidal ideation to her therapist. After a structured assessment, the consulting psychiatrist concludes she does not meet criteria for inpatient admission and can be managed as an outpatient. The team wants to add an intervention delivered at the time of the emergency department visit. Which of the following has been shown in a comparative study to reduce suicidal behavior in the six months after discharge?",
+      "answers": {
+        "A": "A safety plan made in the ED plus structured follow-up phone contacts",
+        "B": "A signed no-suicide contract witnessed by a family member at discharge",
+        "C": "An observation stay of 23 hours followed by a routine referral letter",
+        "D": "Handing the patient a printed list of community mental health agencies",
+        "E": "Prescribing a 30-day supply of an antidepressant at the time of discharge"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Stanley and colleagues (2018) showed that the safety planning intervention delivered in the emergency department combined with structured telephone follow-up roughly halved suicidal behavior over six months compared with usual care, and doubled the likelihood of engaging in outpatient treatment.",
+        "B": "No-suicide contracts have never been shown to reduce suicidal behavior and may create false reassurance for the clinician.",
+        "C": "Extended observation without a safety plan or structured follow-up has not been shown to change post-discharge behavior.",
+        "D": "Passive referral is the usual-care comparator against which safety planning with follow-up proved superior.",
+        "E": "Antidepressants treat the underlying disorder over weeks but have not been shown to reduce short-term suicidal behavior after an emergency department visit."
+      }
+    },
+    {
+      "id": "neuro-suicide-019",
+      "question": "A 30-year-old man is discharged after a psychiatric hospitalization following a suicide attempt. He declines referral for ongoing outpatient psychotherapy and says he does not want \"a bunch of appointments.\" The treatment team wants to add a low-burden intervention that does not require his active participation. Which of the following approaches has been shown in a randomized study to reduce deaths by suicide after discharge?",
+      "answers": {
+        "A": "A gatekeeper training program offered to his outpatient clinic staff",
+        "B": "Mandatory weekly urine toxicology screening for the first six months",
+        "C": "Monthly medication-only appointments with no psychotherapy component",
+        "D": "Routine telephone reminders about his scheduled appointment times",
+        "E": "Short non-demanding letters expressing care sent over several years"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Gatekeeper training increases recognition and referral but has not demonstrated a reduction in suicide deaths.",
+        "B": "Toxicology monitoring addresses substance use but has no demonstrated effect on suicide mortality.",
+        "C": "Medication management alone has not been shown to reduce suicide deaths and still depends on the patient attending appointments he has already declined.",
+        "D": "Appointment reminders are administrative rather than an expression of care, and are not the intervention shown to reduce deaths.",
+        "E": "Motto's caring letters study, in which brief non-demanding expressions of care were sent 24 times over five years to patients who declined follow-up, is the classic intervention showing a reduction in actual suicide deaths; the WHO brief intervention and contact trial later showed a similar mortality benefit with nine contacts over 18 months."
+      }
+    },
+    {
+      "id": "neuro-suicide-020",
+      "question": "A 27-year-old man is discharged from the emergency department after a suicide risk assessment concludes that he can be safely managed as an outpatient with a safety plan and next-day follow-up. The attending physician is concerned about liability should he later engage in suicidal behavior and asks how best to document the encounter. Which of the following documentation practices offers the greatest medicolegal protection?",
+      "answers": {
+        "A": "A note stating the patient contracted for safety before discharge",
+        "B": "A note stating the patient denied suicidal ideation at discharge",
+        "C": "Documenting a standardized assessment and disposition rationale",
+        "D": "Documenting that the patient's family was informed of the diagnosis",
+        "E": "Documenting the total time spent with the patient during the visit"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Safety contracts have no empirical support and documenting one may actually highlight that no validated assessment was performed.",
+        "B": "A bare denial of ideation is weak documentation because patients frequently deny ideation, and it shows no reasoning behind the disposition.",
+        "C": "Using a standardized, empirically supported assessment protocol such as the C-SSRS or the Suicide Status Form and documenting the resulting risk formulation and the rationale for the chosen level of care is among the most important elements protecting clinicians in malpractice litigation, because the standard is a reasonable process rather than a correct prediction.",
+        "D": "Collateral contact is valuable clinically but does not substitute for documenting the assessment and the reasoning behind disposition.",
+        "E": "Time spent is a billing element and says nothing about the adequacy of the risk assessment."
+      }
+    }
+  ]
+}

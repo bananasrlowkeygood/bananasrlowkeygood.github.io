@@ -1,0 +1,551 @@
+{
+  "lecture": "Circadian Rhythms & Sleep Medicine",
+  "block": "neuro",
+  "generated": "2026-09-25",
+  "questions": [
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-001",
+      "question": "A 34-year-old man reports 6 months of daytime sleepiness. He works two jobs, arrives home at 10 PM, finishes household obligations, and gets into bed at 1:30 AM. He falls asleep within a few minutes, sleeps continuously without awakenings, and rises at 5 AM. During the day he falls asleep at his desk and has nodded off while driving home. His wife reports no snoring or breathing pauses. He has no urge to move his legs, no loss of muscle tone with laughter, and no hallucinations at sleep onset. On vacation he sleeps 10 to 11 hours nightly and feels fully alert. BMI is 23 kg/m2 and neurologic examination is normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Insomnia disorder",
+        "B": "Insufficient sleep syndrome",
+        "C": "Narcolepsy type 1",
+        "D": "Obstructive sleep apnea syndrome",
+        "E": "Restless legs syndrome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Insomnia disorder requires an inability to sleep despite adequate opportunity, and this man falls asleep within minutes and sleeps continuously whenever he is in bed.",
+        "B": "Only 3.5 hours in bed nightly with consolidated sleep and complete resolution of sleepiness when sleep time is extended is the hallmark of chronic partial sleep deprivation, the most common cause of excessive daytime somnolence.",
+        "C": "Narcolepsy type 1 requires cataplexy, and the diagnosis cannot be established in someone who is chronically sleep-restricted.",
+        "D": "Obstructive sleep apnea would be expected to produce snoring, witnessed breathing pauses, obesity, or nonrestorative sleep, none of which he has.",
+        "E": "Restless legs syndrome causes an evening urge to move the legs that delays sleep onset, whereas he falls asleep within minutes."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-002",
+      "question": "A 22-year-old woman undergoes overnight polysomnography as a healthy control in a research study. Approximately 20 minutes after sleep onset, her electroencephalogram shows a background of theta activity interrupted by recurrent 12 to 14 Hz bursts lasting about 1 second, along with high-amplitude biphasic transients. Eye movements are absent and submental muscle tone is reduced but present. Rhythmic bursting between this generator and the thalamocortical system produces the reverberating activity seen on the tracing. Which structure generates these bursts?",
+      "answers": {
+        "A": "Dorsal raphe nucleus",
+        "B": "Pedunculopontine tegmental nucleus",
+        "C": "Suprachiasmatic nucleus",
+        "D": "Thalamic reticular nucleus",
+        "E": "Tuberomammillary nucleus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The dorsal raphe supplies serotonergic arousal tone and suppresses REM sleep; it does not generate spindle oscillations.",
+        "B": "Pedunculopontine and laterodorsal tegmental cholinergic neurons promote cortical arousal and REM sleep rather than spindles.",
+        "C": "The suprachiasmatic nucleus is the master circadian clock that times sleep propensity across 24 hours, not the source of a 1-second EEG transient.",
+        "D": "GABAergic neurons of the thalamic reticular nucleus fire rhythmic bursts that drive alternating inhibition and excitation in the thalamocortical loop, producing the sleep spindles that, with K complexes, define stage N2.",
+        "E": "The tuberomammillary nucleus is the histaminergic arm of the ascending arousal system and is silenced, not activated, during N2 sleep."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-003",
+      "question": "A 74-year-old man reports that over the past several years he awakens four or five times nightly and is unable to return to sleep after 4:30 AM. He is in bed from 10 PM to 6 AM, does not snore, takes no sedating medications, and screens negative for depression. Overnight polysomnography is performed and the results are shown. Which of the following best characterizes the age-related change in sleep architecture responsible for his complaint?",
+      "table": [
+        [
+          "Polysomnographic Index",
+          "Patient Value",
+          "Healthy Young Adult"
+        ],
+        [
+          "Stage N1",
+          "16% of total sleep time",
+          "about 5%"
+        ],
+        [
+          "Stage N2",
+          "58% of total sleep time",
+          "about 45%"
+        ],
+        [
+          "Stage N3",
+          "4% of total sleep time",
+          "about 25%"
+        ],
+        [
+          "REM sleep",
+          "22% of total sleep time",
+          "about 25%"
+        ],
+        [
+          "Wake after sleep onset",
+          "94 min",
+          "less than 30 min"
+        ],
+        [
+          "Sleep efficiency",
+          "76%",
+          "greater than 90%"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased slow-wave sleep with more nocturnal awakenings",
+        "B": "Increased REM sleep latency with increased slow-wave sleep",
+        "C": "Increased sleep efficiency with decreased stage N1 sleep",
+        "D": "Increased total sleep time with abolished REM sleep",
+        "E": "Loss of REM atonia with preserved sleep continuity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Normal aging reduces stage N3 slow-wave sleep and shifts sleep toward stage N1, which decreases sleep continuity and increases wake after sleep onset, exactly the pattern shown.",
+        "B": "REM latency shortens rather than lengthens with age, and slow-wave sleep declines rather than increases.",
+        "C": "Sleep efficiency falls and stage N1 rises with age, the opposite of this choice and of his study.",
+        "D": "Total sleep time decreases modestly with age and REM sleep is proportionally preserved, not abolished.",
+        "E": "Loss of REM atonia defines REM sleep behavior disorder and would produce dream enactment, not fragmented light sleep with early morning awakening."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-004",
+      "question": "A 52-year-old man with witnessed breathing pauses undergoes diagnostic polysomnography. The technologist notes that his obstructive events cluster in the last third of the night, and stage-specific analysis shows the findings below. Throughout the longest events, esophageal manometry documents progressively increasing inspiratory effort against an occluded pharynx, and submental EMG amplitude is at its nadir. Which of the following best explains why his events are most severe during this stage?",
+      "table": [
+        [
+          "Sleep Stage",
+          "Apnea-Hypopnea Index",
+          "Mean Event Duration",
+          "Nadir SpO2"
+        ],
+        [
+          "Stage N2",
+          "22 events/h",
+          "18 sec",
+          "89%"
+        ],
+        [
+          "Stage N3",
+          "9 events/h",
+          "15 sec",
+          "91%"
+        ],
+        [
+          "REM sleep",
+          "61 events/h",
+          "38 sec",
+          "74%"
+        ]
+      ],
+      "answers": {
+        "A": "Absent muscle tone with a further blunted ventilatory response to CO2",
+        "B": "Increased pharyngeal dilator activity with a heightened hypoxic ventilatory drive",
+        "C": "Poikilothermic temperature control with reduced cerebral oxygen consumption",
+        "D": "Reduced upper airway resistance with a regular respiratory rate and tidal volume",
+        "E": "Sustained diaphragmatic paralysis with complete absence of respiratory effort"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "REM sleep combines generalized skeletal muscle atonia, which collapses the pharyngeal dilators, with a ventilatory response to CO2 that is depressed even beyond that of NREM sleep, so events become longer and desaturations deeper.",
+        "B": "Pharyngeal dilator recruitment by hypercapnia is more vigorous in NREM than in REM sleep, which is precisely why REM is the vulnerable stage.",
+        "C": "REM sleep is indeed poikilothermic, but brain oxygen consumption rises rather than falls in REM and temperature regulation does not determine event duration.",
+        "D": "Upper airway resistance rises in REM sleep, and respiration in REM is irregular in both rate and depth.",
+        "E": "The diaphragm is spared from REM atonia, which is why continued respiratory effort against a closed airway is recorded during obstructive events."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-005",
+      "question": "A 20-year-old medical student has been continuously awake for 30 hours preparing for an examination. He notes that his urge to sleep has grown steadily stronger the longer he has remained awake, and that two cups of coffee transiently restore his alertness. A researcher measures rising levels of an endogenous somnogen in his basal forebrain that accumulates in proportion to prior wakefulness and inhibits wake-promoting neurons, thereby disinhibiting the ventrolateral preoptic area. Which mechanism best explains the alerting effect of his coffee?",
+      "answers": {
+        "A": "Agonism at central melatonin MT1 and MT2 receptors",
+        "B": "Antagonism at central adenosine receptors",
+        "C": "Antagonism at orexin receptor types 1 and 2",
+        "D": "Enhancement of GABA-A receptor chloride conductance",
+        "E": "Inhibition of central histamine H1 receptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Melatonin receptor agonism, as with ramelteon, promotes sleep onset by acting on the suprachiasmatic clock and would worsen rather than relieve his sleepiness.",
+        "B": "Adenosine accumulates during wakefulness as ATP is consumed and mediates homeostatic process S by inhibiting arousal neurons; caffeine is an adenosine receptor antagonist and therefore transiently blocks that sleep pressure.",
+        "C": "Orexin receptor antagonists such as suvorexant remove arousal drive and are used as hypnotics, the opposite of caffeine's effect.",
+        "D": "Potentiation of GABA-A chloride conductance is the mechanism of benzodiazepines and z-drugs and is sedating.",
+        "E": "H1 antagonism blocks tuberomammillary arousal signaling and is the sedating mechanism of diphenhydramine."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-006",
+      "question": "A 28-year-old man sustained a complete C6 spinal cord injury 1 year ago. He now reports difficulty falling asleep, fragmented nocturnal sleep, and daytime sleepiness. Serial salivary sampling shows that his normal nocturnal rise in melatonin is absent and levels remain flat across 24 hours. His pupils constrict normally to light, funduscopic examination is normal, and brain MRI shows no hypothalamic or pineal lesion. Interruption of the pathway at which of the following sites best explains his finding?",
+      "answers": {
+        "A": "Intermediolateral cell column of the spinal cord",
+        "B": "Paraventricular nucleus of the hypothalamus",
+        "C": "Pineal gland and its sympathetic innervation",
+        "D": "Retinohypothalamic tract and its melanopsin cells",
+        "E": "Suprachiasmatic nucleus of the hypothalamus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Circadian melatonin output travels from the suprachiasmatic nucleus to the paraventricular nucleus, then down the cord to preganglionic sympathetic neurons in the upper thoracic intermediolateral cell column, and on to the superior cervical ganglion and pineal; a complete cervical lesion severs this descending limb and abolishes the nocturnal melatonin rise.",
+        "B": "A paraventricular lesion could produce the same result, but his MRI shows no hypothalamic lesion, whereas a complete cervical cord injury is documented.",
+        "C": "Primary pineal failure or loss of its sympathetic innervation would also flatten melatonin, but imaging shows an intact pineal and the cord lesion readily accounts for the finding.",
+        "D": "Light detection by melanopsin-containing retinal ganglion cells and transmission to the clock are intact, as shown by normal light-evoked pupillary responses and normal retinal examination.",
+        "E": "Suprachiasmatic nucleus damage would disrupt the master clock itself, but the hypothalamus is intact on imaging."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-007",
+      "question": "A 61-year-old woman develops encephalitis. After recovery she sleeps only 2 to 3 hours per night, appears alert and agitated, and actigraphy confirms markedly reduced total sleep time despite ample time in bed. Brain MRI shows gliosis restricted to the anterior hypothalamus and preoptic area bilaterally, with sparing of the posterior hypothalamus and brainstem. Loss of neurons releasing which of the following pairs of transmitters best explains her severe insomnia?",
+      "answers": {
+        "A": "Acetylcholine and dopamine",
+        "B": "GABA and galanin",
+        "C": "Histamine and orexin",
+        "D": "Norepinephrine and serotonin",
+        "E": "Orexin and melanin-concentrating hormone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cholinergic tegmental and dopaminergic periaqueductal neurons are arousal-promoting and lie outside the preoptic area; their loss would cause hypersomnolence.",
+        "B": "The ventrolateral preoptic area is the sleep generator, and its GABAergic and galaninergic neurons inhibit the ascending arousal system; destroying them removes the brake on wakefulness and produces profound insomnia.",
+        "C": "Histaminergic tuberomammillary and orexinergic lateral hypothalamic neurons occupy the posterior hypothalamus, which is spared, and their loss causes sleepiness rather than insomnia.",
+        "D": "Locus coeruleus and dorsal raphe neurons are brainstem arousal populations and are not in the preoptic area.",
+        "E": "Orexin and melanin-concentrating hormone neurons reside in the lateral hypothalamus, and orexin loss produces narcolepsy with excessive sleepiness."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-008",
+      "question": "A 70-year-old woman begins taking an over-the-counter sleep aid nightly for difficulty falling asleep. Her sleep latency improves modestly, but she now has next-morning grogginess, intermittent confusion, dry mouth, blurred vision, and difficulty initiating urination. She takes no other medications and her cognition was previously intact. Blockade of receptors normally stimulated by which arousal system best explains the sedating effect of this agent?",
+      "answers": {
+        "A": "Activation of melatonin receptors within the suprachiasmatic nucleus",
+        "B": "Blockade of histamine receptors targeted by tuberomammillary neurons",
+        "C": "Blockade of orexin receptors on brainstem monoaminergic neurons",
+        "D": "Inhibition of dopamine reuptake in the ventral periaqueductal gray",
+        "E": "Potentiation of GABA-A receptors at the benzodiazepine binding site"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Melatonin receptor agonism is the mechanism of ramelteon, which lacks anticholinergic effects and does not cause dry mouth or urinary retention.",
+        "B": "Diphenhydramine and doxylamine sedate by blocking H1 receptors that mediate the arousal signal from histaminergic tuberomammillary neurons, and their concurrent antimuscarinic action produces the dry mouth, blurred vision, urinary retention, and confusion seen in older adults.",
+        "C": "Orexin receptor antagonists such as suvorexant are prescription hypnotics, are not sold over the counter, and do not cause anticholinergic toxicity.",
+        "D": "Dopamine reuptake inhibition is the mechanism of modafinil and promotes wakefulness rather than sleep.",
+        "E": "Benzodiazepine-site potentiation describes prescription hypnotics such as temazepam and zolpidem, which can cause next-day sedation but not an anticholinergic syndrome."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-009",
+      "question": "A 41-year-old woman reports 6 months of difficulty falling asleep. She is in bed from 10:30 PM to 6:30 AM but lies awake 60 to 90 minutes on 5 nights per week, worrying about whether she will sleep. She reports daytime fatigue, irritability, and errors at work. She denies snoring, witnessed apneas, an urge to move her legs, and dream enactment. She drinks no caffeine after noon and works a fixed daytime schedule. Physical examination, TSH, and hemoglobin are normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Circadian rhythm sleep-wake disorder, delayed type",
+        "B": "Insomnia disorder",
+        "C": "Insufficient sleep syndrome",
+        "D": "Obstructive sleep apnea syndrome",
+        "E": "Restless legs syndrome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Delayed sleep-wake phase disorder features normal sleep quality when the patient is allowed to sleep on a shifted schedule, whereas she cannot sleep even at her preferred bedtime and keeps a conventional schedule.",
+        "B": "Dissatisfaction with sleep from difficulty initiating sleep, occurring at least 3 nights per week for at least 3 months with daytime impairment despite adequate opportunity for sleep, meets DSM-5 criteria for insomnia disorder, and her worry about not sleeping illustrates the hyperarousal that sustains it.",
+        "C": "Insufficient sleep syndrome results from restricted time in bed, but she allows herself an 8-hour sleep opportunity.",
+        "D": "Obstructive sleep apnea causes sleep-maintenance complaints with snoring and witnessed pauses, which she explicitly denies.",
+        "E": "Restless legs syndrome delays sleep onset through an evening urge to move the legs relieved by movement, a symptom she does not report."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-010",
+      "question": "A 52-year-old man with a 2-year history of insomnia disorder is starting cognitive behavioral therapy. He describes lying in bed awake for 1 to 2 hours nightly, checking the clock repeatedly, and becoming increasingly frustrated. He also reads and watches television in bed for an hour before turning out the light, and naps 30 minutes most afternoons. His therapist wishes to add the specific technique of stimulus control. Which instruction is most consistent with that technique?",
+      "answers": {
+        "A": "Get out of bed if not asleep within 20 minutes",
+        "B": "Remain in bed awake until the usual wake time",
+        "C": "Set aside time in bed to plan the next day",
+        "D": "Take a 60-minute nap each afternoon",
+        "E": "Use the bed for reading and watching television"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Stimulus control re-establishes the bed as a cue for sleep by having the patient leave the bed whenever sleep does not come within about 20 minutes and return only when sleepy, repeating as needed.",
+        "B": "Lying awake in bed strengthens the very association between the bed and wakefulness that stimulus control seeks to break.",
+        "C": "Worry time is a sleep hygiene measure but should be scheduled earlier in the evening and away from the bed.",
+        "D": "Naps reduce homeostatic sleep drive at bedtime and are discouraged in insomnia except in shift workers.",
+        "E": "The bed should be reserved for sleep and sex only, so reading and television in bed are exactly what stimulus control eliminates."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-011",
+      "question": "A 6-year-old boy is brought in because of frightening nighttime episodes occurring about once weekly for 4 months. Roughly 90 minutes after falling asleep he sits up, screams, and appears terrified, with a heart rate of 150/min, tachypnea, diaphoresis, and dilated pupils. He does not recognize his parents and cannot be consoled for several minutes, then returns to sleep. In the morning he recalls nothing and describes no dream. His growth, development, daytime behavior, and neurologic examination are normal, and his father had similar episodes as a child. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Obtain overnight polysomnography",
+        "B": "Prescribe bedtime clonazepam",
+        "C": "Prescribe bedtime prazosin",
+        "D": "Provide reassurance and safety measures",
+        "E": "Refer for outpatient psychiatric evaluation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Polysomnography is usually unrevealing in sleep terrors and is reserved for atypical features such as episodes many times nightly, daytime sleepiness, or suspected seizures or apnea.",
+        "B": "Clonazepam is reserved for frequent, persistent, or injurious non-REM parasomnias and for REM sleep behavior disorder, not for typical childhood sleep terrors.",
+        "C": "Prazosin targets nightmare disorder, which features full alertness on awakening and vivid dream recall rather than amnesia and inconsolability.",
+        "D": "These are classic sleep terrors arising from slow-wave sleep in the first third of the night with autonomic hyperarousal, amnesia, no dream recall, and a family history; they remit by adolescence, so parental reassurance plus safety measures is the appropriate management.",
+        "E": "Psychiatric evaluation is indicated when non-REM parasomnias present for the first time in adulthood, not for a typical, developmentally normal child."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-012",
+      "question": "A 58-year-old woman reports an uncomfortable, creeping sensation deep in both calves with an irresistible urge to move her legs. It appears only when she sits or lies still, begins in the evening and worsens at night, and is relieved almost immediately when she walks or stretches. She takes 90 minutes to fall asleep and feels tired during the day. Her mother had identical symptoms. Neurologic examination, nerve conduction studies, and needle electromyography of the lower extremities are normal. Which of the following best establishes her diagnosis?",
+      "answers": {
+        "A": "Clinical history alone",
+        "B": "Electromyography of the lower extremities",
+        "C": "Overnight polysomnography",
+        "D": "Serum dopamine metabolite levels",
+        "E": "Serum ferritin level"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Restless legs syndrome is a clinical diagnosis made when all four URGE features are present: an urge to move the legs, onset or worsening with rest, relief with getting active, and evening or nighttime predominance.",
+        "B": "Electromyography is normal in classic restless legs syndrome and serves only to exclude neuropathy or radiculopathy when the presentation is atypical.",
+        "C": "Polysomnography is required to document periodic limb movements of sleep but is not needed to diagnose restless legs syndrome.",
+        "D": "Serum dopamine metabolites are not measured clinically, despite the central dopaminergic dysfunction implicated in the disorder.",
+        "E": "Ferritin should be checked because iron deficiency is a treatable contributor and guides therapy, but it neither confirms nor excludes the diagnosis."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-013",
+      "question": "A 44-year-old woman with heavy menses has a 2-year history of an evening urge to move her legs that is relieved by walking and that delays sleep onset by more than an hour. She meets all four diagnostic criteria for restless legs syndrome, takes no antidepressants, and has normal renal function. She has never been treated. Laboratory studies are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "12.4 g/dL",
+          "12.0-16.0 g/dL"
+        ],
+        [
+          "Mean corpuscular volume",
+          "83 fL",
+          "80-100 fL"
+        ],
+        [
+          "Ferritin",
+          "28 ng/mL",
+          "15-150 ng/mL"
+        ],
+        [
+          "Transferrin saturation",
+          "14%",
+          "20-50%"
+        ],
+        [
+          "Creatinine",
+          "0.8 mg/dL",
+          "0.6-1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Begin clonazepam at bedtime",
+        "B": "Begin gabapentin enacarbil with the evening meal",
+        "C": "Begin low-dose oxycodone at bedtime",
+        "D": "Begin oral ferrous sulfate with vitamin C",
+        "E": "Begin pramipexole at bedtime"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Benzodiazepines are not FDA-indicated for restless legs syndrome and are reserved for refractory cases after reversible causes are addressed.",
+        "B": "Alpha-2-delta ligands are appropriate first-line pharmacotherapy for primary restless legs syndrome, but iron repletion should be pursued first when iron stores are low.",
+        "C": "Opioids are a late-line option for severe refractory disease and carry substantial risk in an untreated, iron-deficient patient.",
+        "D": "A ferritin below 75 ng/mL or transferrin saturation below 20% identifies a treatable secondary cause, and oral ferrous sulfate with vitamin C to enhance absorption is the appropriate first step, with iron indices monitored over time.",
+        "E": "Dopamine agonists are no longer first-line because of the risk of augmentation, and starting one before correcting iron deficiency misses the reversible driver."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-014",
+      "question": "A 62-year-old man has taken pramipexole nightly for 3 years for restless legs syndrome, with good initial control. Over the past 6 months his symptoms have become more intense, now begin in the early afternoon rather than after 9 PM, appear more quickly when he sits still, and have spread to involve both arms. Each dose increase produced brief improvement followed by further worsening. His ferritin is 110 ng/mL, renal function is normal, and he takes no antidepressants. Neurologic examination shows no rigidity, tremor, or bradykinesia. Which of the following best explains his clinical course?",
+      "answers": {
+        "A": "Augmentation from chronic dopaminergic therapy",
+        "B": "Impulse control disorder caused by dopamine agonism",
+        "C": "Periodic limb movements emerging during wakefulness",
+        "D": "Progression to early idiopathic Parkinson disease",
+        "E": "Worsening iron deficiency from occult blood loss"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Augmentation is the hallmark complication of long-term dopamine agonist therapy and is defined by symptoms shifting 2 or more hours earlier, becoming more intense, spreading to previously unaffected body parts, and paradoxically worsening with dose escalation.",
+        "B": "Impulse control disorders from dopamine agonists manifest as gambling, hypersexuality, or compulsive shopping, not as an earlier and more severe urge to move.",
+        "C": "Periodic limb movements are involuntary, stereotyped jerks seen on polysomnography and would not explain a circadian shift and spread of the urge to move.",
+        "D": "Parkinson disease would produce rigidity, resting tremor, or bradykinesia, all absent on his examination.",
+        "E": "His ferritin is well above the 75 ng/mL treatment threshold, so iron deficiency is not driving the change."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-015",
+      "question": "A 17-year-old boy has fallen asleep in class daily for the past year despite sleeping 8 hours nightly, and brief naps leave him refreshed for 1 to 2 hours. Twice weekly, while laughing with friends, his jaw sags, his head drops, and his knees buckle for about 20 seconds while he remains fully aware of his surroundings. He also describes vivid visual images of a figure in his room as he drifts off to sleep and occasional inability to move for a minute after waking. His BMI is 22 kg/m2, he does not snore, and neurologic examination is normal. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Idiopathic hypersomnia",
+        "B": "Insufficient sleep syndrome",
+        "C": "Narcolepsy type 1",
+        "D": "Narcolepsy type 2",
+        "E": "Obstructive sleep apnea syndrome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Idiopathic hypersomnia features long, unrefreshing naps and sleep inertia without cataplexy or REM intrusion phenomena.",
+        "B": "He obtains 8 hours of sleep nightly, so restricted sleep opportunity cannot explain his symptoms.",
+        "C": "Excessive daytime somnolence with refreshing naps plus emotionally triggered loss of muscle tone with preserved consciousness, hypnagogic hallucinations, and sleep paralysis is narcolepsy type 1, in which cataplexy reflects REM atonia intruding into wakefulness.",
+        "D": "Narcolepsy type 2 is defined by the absence of cataplexy, and his laughter-triggered knee buckling with retained awareness is cataplexy.",
+        "E": "Obstructive sleep apnea is unlikely in a nonsnoring adolescent with a normal BMI and does not cause cataplexy."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-016",
+      "question": "A 19-year-old woman with 2 years of daytime sleep attacks and episodes of emotion-triggered weakness undergoes overnight polysomnography, which shows 7.5 hours of sleep with an apnea-hypopnea index of 1/h and no periodic limb movements. She then undergoes multiple sleep latency testing the following day, with results shown. Her symptoms began after an influenza-like illness, and she carries the HLA-DQB1*06:02 allele. Which mechanism best explains her findings?",
+      "table": [
+        [
+          "Nap Opportunity",
+          "Sleep Latency",
+          "REM Within 15 min"
+        ],
+        [
+          "Nap 1",
+          "2.5 min",
+          "Yes"
+        ],
+        [
+          "Nap 2",
+          "3.5 min",
+          "Yes"
+        ],
+        [
+          "Nap 3",
+          "1.5 min",
+          "No"
+        ],
+        [
+          "Nap 4",
+          "4.0 min",
+          "Yes"
+        ],
+        [
+          "Nap 5",
+          "2.5 min",
+          "No"
+        ],
+        [
+          "Mean sleep latency",
+          "2.8 min (normal >10 min)",
+          "3 of 5 naps"
+        ]
+      ],
+      "answers": {
+        "A": "Autoimmune destruction of hypothalamic hypocretin neurons",
+        "B": "Degeneration of cholinergic neurons of the basal forebrain",
+        "C": "Loss of histaminergic neurons of the tuberomammillary nucleus",
+        "D": "Reduced GABAergic output from the ventrolateral preoptic area",
+        "E": "Repetitive upper airway collapse causing sleep fragmentation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A mean sleep latency under 8 minutes with two or more sleep-onset REM periods in a patient with cataplexy indicates narcolepsy type 1, caused by immune-mediated destruction of hypocretin/orexin neurons in the lateral hypothalamus, often after an environmental trigger and in HLA-DQB1*06:02 carriers.",
+        "B": "Basal forebrain cholinergic degeneration underlies the cognitive decline of Alzheimer disease, not sleep-onset REM periods.",
+        "C": "Tuberomammillary histamine neurons are targeted pharmacologically in narcolepsy with pitolisant, but they are not the population destroyed in the disease.",
+        "D": "Reduced ventrolateral preoptic GABA output would remove sleep drive and cause insomnia rather than pathologic sleepiness.",
+        "E": "Her apnea-hypopnea index of 1/h excludes sleep-disordered breathing as the cause."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-017",
+      "question": "A 19-year-old man with narcolepsy type 1 has taken modafinil for 6 months. His daytime sleepiness is now well controlled and he no longer falls asleep in class. However, he continues to have three episodes weekly of sudden bilateral knee buckling and facial sagging triggered by laughter, during which he remains fully conscious, and he has fallen twice. He has no cardiac disease and is not depressed. Which of the following is the most appropriate addition to his regimen?",
+      "answers": {
+        "A": "Armodafinil",
+        "B": "Methylphenidate",
+        "C": "Solriamfetol",
+        "D": "Suvorexant",
+        "E": "Venlafaxine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Armodafinil is the R-enantiomer of modafinil and targets sleepiness, which is already controlled, while having no effect on cataplexy.",
+        "B": "Methylphenidate is a sympathomimetic alerting agent for excessive daytime somnolence and does not suppress REM-related cataplexy.",
+        "C": "Solriamfetol is a dopamine-norepinephrine reuptake inhibitor approved for sleepiness, not for cataplexy.",
+        "D": "Suvorexant is an orexin receptor antagonist used as a hypnotic and would be counterproductive in a disorder of orexin deficiency.",
+        "E": "Cataplexy, hypnagogic hallucinations, and sleep paralysis are REM phenomena intruding into wakefulness and respond to REM-suppressant antidepressants such as venlafaxine, along with oxybate or pitolisant."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-018",
+      "question": "A 54-year-old man is evaluated for loud snoring and morning headaches. His wife reports frequent breathing pauses followed by gasping. He has hypertension treated with two agents, a BMI of 36 kg/m2, a neck circumference of 44 cm, and a Mallampati class IV airway. Daytime arterial blood gas shows a PaCO2 of 40 mm Hg. Overnight polysomnography results are shown, and each respiratory event is accompanied by continued thoracoabdominal effort against an occluded airway. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Polysomnographic Index",
+          "Patient Value",
+          "Reference"
+        ],
+        [
+          "Apnea-hypopnea index",
+          "38 events/h",
+          "<5 events/h"
+        ],
+        [
+          "Obstructive events",
+          "94% of all events",
+          "-"
+        ],
+        [
+          "Central events",
+          "6% of all events",
+          "-"
+        ],
+        [
+          "Nadir oxygen saturation",
+          "79%",
+          ">90%"
+        ],
+        [
+          "Arousal index",
+          "41 events/h",
+          "<15 events/h"
+        ]
+      ],
+      "answers": {
+        "A": "Central sleep apnea",
+        "B": "Insufficient sleep syndrome",
+        "C": "Narcolepsy type 2",
+        "D": "Obesity hypoventilation syndrome",
+        "E": "Obstructive sleep apnea syndrome"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Central apneas lack respiratory effort during the event, whereas his events show persistent effort against a collapsed pharynx and constitute only 6% of the total.",
+        "B": "Insufficient sleep syndrome produces sleepiness from short time in bed and would not generate 38 obstructive events per hour with desaturation to 79%.",
+        "C": "Narcolepsy type 2 causes sleepiness with sleep-onset REM periods on multiple sleep latency testing, not snoring with obstructive apneas.",
+        "D": "Obesity hypoventilation requires daytime hypercapnia, and his awake PaCO2 is normal at 40 mm Hg.",
+        "E": "Repetitive upper airway collapse producing more than 5 obstructive events per hour with symptoms is diagnostic of obstructive sleep apnea, and his obesity, large neck, crowded airway, and hypertension are classic risk factors."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-019",
+      "question": "A 49-year-old woman screens high risk on the STOP-BANG questionnaire, answering yes to snoring, tiredness, observed breathing pauses, treated hypertension, and a BMI above 35 kg/m2. Polysomnography confirms an apnea-hypopnea index of 44 events/h with oxygen desaturation to 81%, and events occur in all body positions. She reports falling asleep at red lights and drives 40 miles to work daily. Which of the following is the most appropriate initial treatment?",
+      "answers": {
+        "A": "Bedtime zolpidem",
+        "B": "Continuous positive airway pressure",
+        "C": "Daytime modafinil",
+        "D": "Hypoglossal nerve stimulator implantation",
+        "E": "Uvulopalatopharyngoplasty"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hypnotics are CNS depressants that blunt arousal responses and prolong respiratory events, worsening rather than treating sleep apnea.",
+        "B": "Continuous positive airway pressure pneumatically splints the upper airway open and is the most commonly used and most effective therapy across mild, moderate, and severe disease, addressing both her sleepiness and her cardiovascular risk.",
+        "C": "Modafinil may reduce residual sleepiness in treated patients but leaves the airway obstruction, desaturations, and cardiovascular consequences untreated.",
+        "D": "Hypoglossal nerve stimulation is a second-line surgical option for selected patients who cannot tolerate positive airway pressure.",
+        "E": "Upper airway surgery is reserved for patients who fail or decline positive airway pressure and has lower and less predictable efficacy in severe disease."
+      }
+    },
+    {
+      "id": "neuro-circadian-rhythms-and-sleep-medicine-020",
+      "question": "A 68-year-old man is brought in by his wife, who has been struck several times during the night over the past year. The episodes occur mostly in the second half of the night and involve shouting, punching, and kicking. When awakened he is immediately alert and vividly recalls a dream of fighting off an intruder that matches his observed movements. He has no daytime sleepiness and no snoring. Polysomnography shows increased submental and limb EMG tone during REM sleep with vocalizations and complex movements, and an apnea-hypopnea index of 3 events/h. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Confusional arousals",
+        "B": "Nightmare disorder",
+        "C": "Nocturnal frontal lobe seizures",
+        "D": "REM sleep behavior disorder",
+        "E": "Sleep terror disorder"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Confusional arousals emerge from slow-wave sleep in the first third of the night with disorientation and subsequent amnesia, not immediate alertness with detailed dream recall.",
+        "B": "Nightmare disorder causes awakening with recall of frightening dream content but without motor enactment, and polysomnography shows preserved REM atonia.",
+        "C": "Nocturnal frontal lobe seizures produce brief, stereotyped, repetitive hyperkinetic events arising from NREM sleep, not dream enactment tied to REM.",
+        "D": "Loss of the normal REM atonia allows dreams to be acted out, producing violent behaviors late in the night with congruent dream recall in an older adult; treatment is safety measures plus clonazepam or melatonin.",
+        "E": "Sleep terrors arise from slow-wave sleep early in the night with autonomic hyperarousal, inconsolability, and amnesia for the event."
+      }
+    }
+  ]
+}
