@@ -1,0 +1,591 @@
+{
+  "lecture": "Dysregulation of Glycemic Control",
+  "block": "endorepro",
+  "generated": "2026-10-06",
+  "questions": [
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-001",
+      "question": "A 14-year-old boy with type 1 diabetes mellitus is brought to the emergency department with vomiting and rapid, deep breathing. His insulin pump catheter became dislodged about 12 hours ago. Laboratory studies are shown. Which event is the primary driver of his ketone body overproduction?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Plasma glucose",
+          "436 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "HCO3-",
+          "9 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Arterial pH",
+          "7.12",
+          "7.35–7.45"
+        ],
+        [
+          "Beta-hydroxybutyrate",
+          "7.8 mmol/L",
+          "<0.6 mmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Accelerated breakdown of hepatic glycogen stores",
+        "B": "Excessive hepatic synthesis of new fatty acids",
+        "C": "Impaired renal excretion of filtered ketone bodies",
+        "D": "Reduced GLUT-4 insertion in skeletal muscle cells",
+        "E": "Unrestrained hydrolysis of adipocyte triglycerides"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Uninhibited glycogenolysis contributes to the hyperglycemia but does not supply acetyl-CoA for ketogenesis.",
+        "B": "De novo lipogenesis is increased in type 2 diabetes and fatty liver, not in the insulin-deficient state of ketoacidosis.",
+        "C": "Ketone bodies spill into the urine above about 5 mM; the problem is production exceeding use, not retention.",
+        "D": "Lack of GLUT-4 stimulation lowers glucose use and worsens hyperglycemia but is not the source of ketones.",
+        "E": "Without insulin, lipolysis is no longer inhibited, so the liver receives and oxidizes more fatty acid than it needs and converts the excess acetyl-CoA to ketone bodies."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-002",
+      "question": "A 19-year-old woman with type 1 diabetes mellitus has had abdominal pain and vomiting for 1 day after running out of insulin. Her respirations are 30/min and deep, and her breath has a fruity odor. Plasma glucose is 390 mg/dL and urine ketones are strongly positive. Which set of arterial blood gas values is most likely?",
+      "answers": {
+        "A": "pH 7.13, PaCO2 22 mm Hg, HCO3- 7 mEq/L",
+        "B": "pH 7.26, PaCO2 60 mm Hg, HCO3- 26 mEq/L",
+        "C": "pH 7.40, PaCO2 40 mm Hg, HCO3- 24 mEq/L",
+        "D": "pH 7.50, PaCO2 25 mm Hg, HCO3- 19 mEq/L",
+        "E": "pH 7.50, PaCO2 48 mm Hg, HCO3- 36 mEq/L"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Ketoacids consume bicarbonate, and the resulting CO2 is blown off by an increased respiratory rate, giving a low pH, low bicarbonate, and low PaCO2.",
+        "B": "This is an acute respiratory acidosis from hypoventilation, the opposite of her deep, rapid breathing.",
+        "C": "Normal values are inconsistent with her tachypnea and marked ketosis.",
+        "D": "This is a primary respiratory alkalosis, in which hyperventilation is the cause rather than compensation.",
+        "E": "This is a metabolic alkalosis, as from vomiting alone, and does not fit an acid load from ketone bodies."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-003",
+      "question": "A 23-year-old man is recovering from diabetic ketoacidosis. On hospital day 2 his serum bicarbonate is rising and his urinary ammonium excretion is several times normal. Renal metabolism of which amino acid is generating the new bicarbonate?",
+      "answers": {
+        "A": "Alanine",
+        "B": "Aspartate",
+        "C": "Glutamine",
+        "D": "Glycine",
+        "E": "Leucine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alanine is a major gluconeogenic substrate for the liver, not the renal source of ammonium.",
+        "B": "Aspartate donates nitrogen in the urea cycle but is not the principal renal source of ammonium.",
+        "C": "The kidneys convert glutamine to bicarbonate, which is returned to the blood, and ammonium, which is excreted in urine as a form of acid secretion.",
+        "D": "Glycine is not the substrate for renal ammoniagenesis.",
+        "E": "Leucine is ketogenic and enhances insulin secretion through glutamate dehydrogenase in beta cells."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-004",
+      "question": "A 78-year-old woman with a 20-year history of type 2 diabetes mellitus is brought from her apartment, where she lives alone, because of 5 days of cough and progressive confusion. Her mucous membranes are dry and blood pressure is 88/50 mm Hg. Laboratory studies are shown. Which best explains the absence of significant ketoacidosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Plasma glucose",
+          "984 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Serum osmolality",
+          "348 mOsm/kg",
+          "275–295 mOsm/kg"
+        ],
+        [
+          "Arterial pH",
+          "7.37",
+          "7.35–7.45"
+        ],
+        [
+          "HCO3-",
+          "22 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Serum ketones",
+          "Trace",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Absent secretion of glucagon, epinephrine, and cortisol",
+        "B": "Enhanced renal clearance of circulating ketone bodies",
+        "C": "Hepatic inability to oxidize long-chain fatty acids",
+        "D": "Residual insulin sufficient to suppress lipolysis",
+        "E": "Suppressed gluconeogenesis from high insulin levels"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Counterregulatory hormones are markedly elevated in this state and help drive gluconeogenesis.",
+        "B": "Severe dehydration reduces renal clearance, and ketone production rather than excretion is what is controlled.",
+        "C": "Fatty acid oxidation is intact; it is the supply of fatty acids from adipose that is limited.",
+        "D": "In the hyperosmolar hyperglycemic state, beta cells still secrete enough insulin to restrain lipolysis, the most insulin-sensitive pathway, but not enough to suppress glucose production.",
+        "E": "Glucose production is near maximal, which is why the glucose concentration is so extreme."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-005",
+      "question": "A 71-year-old man with long-standing type 2 diabetes mellitus is found lethargic 4 days after developing a urinary tract infection. Blood pressure is 84/48 mm Hg and pulse is 124/min. Plasma glucose is 870 mg/dL, serum osmolality is 338 mOsm/kg, arterial pH is 7.38, and serum ketones are negative. Which is the most important initial treatment?",
+      "answers": {
+        "A": "Intramuscular glucagon",
+        "B": "Intravenous isotonic fluids",
+        "C": "Intravenous sodium bicarbonate",
+        "D": "Oral sulfonylurea",
+        "E": "Subcutaneous basal insulin alone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Glucagon raises plasma glucose and is used for hypoglycemia.",
+        "B": "Glucosuria over several days causes severe dehydration, and the resulting hypovolemia and poor perfusion are what threaten the brain and organs, so fluids are the emergent priority.",
+        "C": "His pH and ketones are normal, so there is no acidosis to correct.",
+        "D": "An oral secretagogue cannot address life-threatening volume depletion in an obtunded patient.",
+        "E": "Insulin may be added to reduce glucose production, but it does not replace volume and is not the first priority."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-006",
+      "question": "A 24-year-old woman has had type 1 diabetes mellitus for 3 years. During a research study, insulin is infused until her plasma glucose reaches 48 mg/dL. Compared with a healthy volunteer, which hormonal response is most likely already deficient in this patient?",
+      "answers": {
+        "A": "Cortisol",
+        "B": "Epinephrine",
+        "C": "Glucagon",
+        "D": "Growth hormone",
+        "E": "Norepinephrine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cortisol supports gluconeogenesis over hours and is not the early deficit described in type 1 diabetes.",
+        "B": "The epinephrine response is lost later, typically after many years of disease.",
+        "C": "The glucagon response to hypoglycemia is the first counterregulatory defense lost as type 1 diabetes progresses, and it is diminished within 1 to 5 years of diagnosis.",
+        "D": "Growth hormone is a slower counterregulatory hormone and is not characteristically lost early.",
+        "E": "Norepinephrine stimulates lipolysis but is not the early counterregulatory loss in type 1 diabetes."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-007",
+      "question": "A 30-year-old man with type 1 diabetes mellitus for 16 years has tightened his glycemic control and has had three hypoglycemic episodes this week. Today his glucose meter reads 45 mg/dL, yet he has no tremor, palpitations, or sweating. A year ago he reliably felt symptoms at 65 mg/dL. Which best explains the change?",
+      "answers": {
+        "A": "Antecedent hypoglycemia blunting epinephrine release",
+        "B": "Autoantibodies neutralizing circulating glucagon",
+        "C": "Excess cortisol desensitizing adrenergic receptors",
+        "D": "Insulin resistance limiting neuronal glucose uptake",
+        "E": "Rapid depletion of skeletal muscle glycogen"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "An episode of hypoglycemia paradoxically diminishes the counterregulatory response to the next one, removing adrenergic warning symptoms in a patient who has already lost glucagon responses.",
+        "B": "Glucagon responses are lost in long-standing type 1 diabetes, but not through neutralizing antibodies, and glucagon does not produce warning symptoms.",
+        "C": "There is no evidence of hypercortisolism, and this is not the described mechanism.",
+        "D": "Most brain tissue lies behind the blood-brain barrier and does not depend on insulin for glucose uptake.",
+        "E": "Muscle glycogen cannot be released as glucose and has no bearing on symptom perception."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-008",
+      "question": "A 54-year-old man with obesity and type 2 diabetes mellitus has a fasting lipid panel as shown. Which process best explains his HDL cholesterol concentration?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Triglycerides",
+          "312 mg/dL",
+          "<150 mg/dL"
+        ],
+        [
+          "HDL cholesterol",
+          "31 mg/dL",
+          ">40 mg/dL"
+        ],
+        [
+          "LDL cholesterol",
+          "104 mg/dL",
+          "<130 mg/dL"
+        ],
+        [
+          "HbA1c",
+          "8.6%",
+          "<5.7%"
+        ]
+      ],
+      "answers": {
+        "A": "CETP-mediated triglyceride enrichment of HDL particles",
+        "B": "Decreased hepatic de novo fatty acid synthesis",
+        "C": "Enhanced insulin suppression of adipose lipolysis",
+        "D": "Excess lipoprotein lipase activity in adipose tissue",
+        "E": "Reduced hepatic production of VLDL1 particles"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "CETP swaps triglyceride into HDL and LDL in exchange for cholesterol esters; after hepatic lipase removes the triglyceride, HDL particles are small and lost.",
+        "B": "De novo fatty acid synthesis is increased several fold, partly because high glucose stimulates it independent of insulin.",
+        "C": "Lipolysis is inadequately suppressed, delivering more fatty acids to the liver.",
+        "D": "Insulin fails to stimulate adipose lipoprotein lipase adequately in type 2 diabetes, so its activity is reduced.",
+        "E": "Hepatic VLDL production, particularly of large VLDL1, is increased in type 2 diabetes."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-009",
+      "question": "A 49-year-old woman with poorly controlled type 2 diabetes mellitus has a fasting triglyceride concentration of 480 mg/dL. Her physician explains that her tissues are not removing triglyceride from circulating lipoprotein particles efficiently. Inadequate insulin activation of which enzyme accounts for this defect?",
+      "answers": {
+        "A": "Adipocyte triglyceride lipase",
+        "B": "Hepatic lipase",
+        "C": "Hormone-sensitive lipase",
+        "D": "Lipoprotein lipase",
+        "E": "Pancreatic lipase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This enzyme begins lipolysis of stored fat within adipocytes and does not act on circulating lipoproteins.",
+        "B": "Hepatic lipase removes triglyceride from HDL and LDL, producing small dense particles, and is not the insulin-activated clearance step.",
+        "C": "This intracellular adipocyte enzyme is inhibited, not activated, by insulin and hydrolyzes stored triglyceride.",
+        "D": "Insulin normally stimulates lipoprotein lipase in adipose tissue; inadequate activation reduces removal of triglyceride from circulating VLDL and chylomicrons.",
+        "E": "Pancreatic lipase digests dietary fat in the intestinal lumen."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-010",
+      "question": "A 51-year-old man with newly diagnosed type 2 diabetes mellitus is advised to lose weight and exercise and is started on first-line oral therapy. Three months later his HbA1c has fallen from 8.2% to 7.0%, he has had no hypoglycemia, and hepatocyte AMP-activated protein kinase activity is increased. Which is the direct molecular target of this drug?",
+      "answers": {
+        "A": "ATP-sensitive K+ channel",
+        "B": "Dipeptidyl peptidase-4",
+        "C": "GLP-1 receptor",
+        "D": "Insulin receptor",
+        "E": "Mitochondrial complex I"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This is the target of sulfonylureas and glinides, which stimulate insulin secretion and can cause hypoglycemia.",
+        "B": "DPP-4 inhibitors prolong incretin action and do not act through AMPK.",
+        "C": "GLP-1 receptor agonists are injectable Gs-coupled receptor ligands that raise cAMP in beta cells.",
+        "D": "Metformin does not bind the insulin receptor; that is the target of exogenous insulin.",
+        "E": "Metformin inhibits complex I of oxidative phosphorylation, lowering ATP production and raising AMP, which with AMPK inhibits gluconeogenesis."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-011",
+      "question": "A 66-year-old woman with type 2 diabetes mellitus treated with a single oral agent develops nausea and malaise 3 days after receiving intravenous contrast. Blood pressure is 128/76 mm Hg and oxygen saturation is 98% on room air. Laboratory studies are shown. Which mechanism best explains her acid-base disturbance?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Creatinine",
+          "3.4 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "HCO3-",
+          "14 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Lactate",
+          "8.2 mmol/L",
+          "<2.0 mmol/L"
+        ],
+        [
+          "Plasma glucose",
+          "106 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Serum ketones",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Excess insulin release from K-ATP channel closure",
+        "B": "Reduced hepatic use of lactate for gluconeogenesis",
+        "C": "Renal bicarbonate wasting from proximal tubule injury",
+        "D": "Tissue hypoxia from hypovolemic circulatory shock",
+        "E": "Unrestrained lipolysis with ketone overproduction"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A sulfonylurea would cause hypoglycemia rather than lactic acidosis.",
+        "B": "Metformin accumulates when renal function is poor, and by inhibiting gluconeogenesis it blocks a major route of lactate consumption, causing lactic acidosis.",
+        "C": "Bicarbonate wasting would not explain a lactate concentration four times the upper limit of normal.",
+        "D": "Her blood pressure and oxygen saturation are normal, so hypoperfusion is not the source of lactate.",
+        "E": "Her glucose is near normal and ketones are negative, excluding ketoacidosis."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-012",
+      "question": "A 25-year-old man with type 2 diabetes mellitus and a BMI of 45 kg/m2 takes metformin, glimepiride, and sitagliptin. About every 2 weeks he has an episode of sweating and shakiness with a fingerstick glucose near 50 mg/dL, usually when a meal is delayed. Which mechanism is responsible for these episodes?",
+      "answers": {
+        "A": "AMPK-mediated suppression of hepatic gluconeogenesis",
+        "B": "DPP-4 inhibition prolonging the action of incretins",
+        "C": "GLP-1-mediated slowing of gastric emptying",
+        "D": "Glucose-independent closure of K-ATP channels",
+        "E": "Loss of the glucagon response to falling glucose"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Metformin alone does not cause hypoglycemia, although it can exacerbate that caused by a sulfonylurea.",
+        "B": "Incretin effects on insulin secretion stop below about 100 mg/dL glucose, so DPP-4 inhibitors alone do not cause hypoglycemia.",
+        "C": "Delayed gastric emptying blunts postprandial glucose peaks but does not produce fasting hypoglycemia.",
+        "D": "Sulfonylureas stimulate insulin secretion even during hypoglycemia, so glimepiride is the drug to reduce or replace.",
+        "E": "Impaired counterregulation is characteristic of long-standing type 1 diabetes, not this patient's condition."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-013",
+      "question": "A 26-year-old woman with a BMI of 45 kg/m2 was diagnosed with diabetes mellitus 5 years ago and takes metformin and a DPP-4 inhibitor. She uses no injectable medications. Laboratory studies are shown. Which best explains her C-peptide concentration?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting glucose",
+          "162 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "HbA1c",
+          "7.8%",
+          "<5.7%"
+        ],
+        [
+          "Fasting C-peptide",
+          "6.0 ng/mL",
+          "0.8–1.9 ng/mL"
+        ],
+        [
+          "Creatinine",
+          "0.8 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Autoimmune beta-cell destruction with surviving islets",
+        "B": "Autonomous secretion from an insulin-producing tumor",
+        "C": "Compensatory hypersecretion from insulin resistance",
+        "D": "Glucokinase mutation raising the secretion threshold",
+        "E": "Surreptitious administration of exogenous insulin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Type 1 diabetes produces low or undetectable C-peptide.",
+        "B": "An insulinoma would cause fasting hypoglycemia, not hyperglycemia.",
+        "C": "Severe obesity causes marked insulin resistance, so beta cells secrete more insulin and C-peptide, yet still not enough to normalize glucose.",
+        "D": "This form of monogenic diabetes reduces insulin secretion and causes mild, stable hyperglycemia in lean patients.",
+        "E": "Injected insulin contains no C-peptide and would suppress endogenous secretion."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-014",
+      "question": "A 58-year-old man with type 2 diabetes mellitus begins a supervised 600 kcal/day diet. After 1 week his fasting plasma glucose is 92 mg/dL and continuous glucose monitoring shows values in the normal range throughout the day and night. His HbA1c is 7.1%, essentially unchanged from baseline. Which best explains the HbA1c result?",
+      "answers": {
+        "A": "Elevated free fatty acids accelerate hemoglobin glycation",
+        "B": "Glycated hemoglobin persists for the life of the red cell",
+        "C": "Hemolysis releases older and more heavily glycated cells",
+        "D": "Ketone bodies interfere with the laboratory assay",
+        "E": "Nocturnal hyperglycemia is missed by fasting tests"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Free fatty acids rise on a hypocaloric diet through lipolysis, but they do not glycate hemoglobin.",
+        "B": "Erythrocytes circulate for about 120 days, so most hemoglobin exposed to the earlier hyperglycemia is still present after 1 week.",
+        "C": "Hemolysis shortens red cell survival and lowers HbA1c rather than sustaining it.",
+        "D": "Mild dietary ketosis is not the explanation; the lag reflects red cell lifespan.",
+        "E": "Continuous monitoring documented normal glucose values through the night."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-015",
+      "question": "A 30-year-old woman with hereditary spherocytosis reports 2 months of polyuria and polydipsia. Her fasting plasma glucose is elevated on two separate mornings. Laboratory studies are shown. Which best explains the discrepancy between her glucose and HbA1c values?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting glucose",
+          "148 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "HbA1c",
+          "4.9%",
+          "<5.7%"
+        ],
+        [
+          "Hemoglobin",
+          "9.1 g/dL",
+          "12–16 g/dL"
+        ],
+        [
+          "Reticulocytes",
+          "11%",
+          "0.5–1.5%"
+        ]
+      ],
+      "answers": {
+        "A": "Excess nocturnal insulin release",
+        "B": "Increased renal glucose loss",
+        "C": "Prolonged red cell survival",
+        "D": "Reduced intestinal glucose uptake",
+        "E": "Shortened red cell survival"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Her diabetes reflects inadequate insulin action, and nocturnal lows would not coexist with repeated fasting hyperglycemia.",
+        "B": "Glucosuria begins above about 180 mg/dL and would not lower HbA1c below what her glucose predicts.",
+        "C": "Older circulating cells accumulate more glycation and would falsely raise HbA1c.",
+        "D": "Malabsorption would lower plasma glucose as well, not just HbA1c.",
+        "E": "HbA1c reflects glucose exposure over the life of the red cell, so increased turnover from hemolysis leaves less time for glycation and falsely lowers the value."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-016",
+      "question": "A 22-year-old woman with a BMI of 21 kg/m2 is found to have a fasting glucose of 118 mg/dL and an HbA1c of 6.3%, values that have been stable for 4 years without treatment. Her father and paternal grandmother have similar mild hyperglycemia. Islet autoantibodies are negative. A mutation affecting which protein is most likely?",
+      "answers": {
+        "A": "Glucokinase",
+        "B": "Glucose 6-phosphatase",
+        "C": "GLUT-4",
+        "D": "Insulin receptor",
+        "E": "Kir6.2"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A heterozygous glucokinase variant with an elevated S0.5 raises the glucose threshold for insulin secretion, producing mild, stable, familial hyperglycemia (MODY type 2).",
+        "B": "Deficiency of this enzyme causes fasting hypoglycemia with lactic acidosis, not hyperglycemia.",
+        "C": "GLUT-4 mediates insulin-stimulated uptake in muscle and fat and is not the beta-cell glucose sensor.",
+        "D": "Receptor defects cause severe insulin resistance rather than a mild secretory threshold shift.",
+        "E": "Activating mutations of this K-ATP channel subunit cause neonatal diabetes with onset in the first year of life."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-017",
+      "question": "A 3-month-old boy is evaluated for polyuria and poor weight gain. His plasma glucose is 340 mg/dL, C-peptide is low, and islet autoantibodies are negative. Genetic testing identifies an activating mutation in the gene encoding the Kir6.2 subunit of the ATP-sensitive K+ channel. Which drug is most likely to restore his endogenous insulin secretion?",
+      "answers": {
+        "A": "Diazoxide",
+        "B": "Glucagon",
+        "C": "Glyburide",
+        "D": "Metformin",
+        "E": "Sitagliptin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Diazoxide opens K-ATP channels and would further suppress insulin secretion.",
+        "B": "Glucagon raises plasma glucose and is used to treat hypoglycemia.",
+        "C": "Sulfonylureas bind SUR1 and close the overactive K-ATP channel, depolarizing the beta cell, which is why they are often effective in neonatal diabetes.",
+        "D": "Metformin inhibits hepatic gluconeogenesis and does not correct a secretory channel defect.",
+        "E": "Incretin potentiation acts upstream through cAMP and cannot overcome a channel held open."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-018",
+      "question": "An 8-month-old girl has hepatomegaly, fasting hypoglycemia, and lactic acidosis. Enzyme studies confirm a deficiency of glucose 6-phosphatase. Which dietary measure is the mainstay of preventing her hypoglycemic episodes?",
+      "answers": {
+        "A": "Fruit juice before each nap",
+        "B": "High-fat ketogenic feedings",
+        "C": "Lactose-rich formula at bedtime",
+        "D": "Prolonged overnight fasting trials",
+        "E": "Uncooked cornstarch every few hours"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Fructose enters the pathway below the block and cannot be released as glucose; fruit is avoided in this disorder.",
+        "B": "Ketosis does not correct the hypoglycemia and lactic acidosis caused by the trapped glucose 6-phosphate.",
+        "C": "Galactose from lactose likewise must pass through glucose 6-phosphate, so milk is restricted.",
+        "D": "Fasting must be avoided because neither glycogenolysis nor gluconeogenesis can deliver free glucose.",
+        "E": "Slowly digested starch provides a continuous intestinal source of glucose, bypassing the need to release glucose from glycogen or gluconeogenesis."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-019",
+      "question": "An 18-month-old boy is brought to the emergency department with a seizure after 16 hours of poor oral intake during a viral illness. He was previously healthy and has no hepatomegaly. Laboratory studies are shown. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Plasma glucose",
+          "34 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Beta-hydroxybutyrate",
+          "0.2 mmol/L",
+          ">2.5 mmol/L when fasting"
+        ],
+        [
+          "Insulin",
+          "Undetectable",
+          "<3 uU/mL when glucose <50"
+        ],
+        [
+          "C-peptide",
+          "Low",
+          "0.8–1.9 ng/mL"
+        ],
+        [
+          "Lactate",
+          "1.4 mmol/L",
+          "<2.0 mmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Accidental sulfonylurea ingestion",
+        "B": "Congenital hyperinsulinism",
+        "C": "Glucose 6-phosphatase deficiency",
+        "D": "Hereditary fructose intolerance",
+        "E": "MCAD deficiency"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A sulfonylurea would raise both insulin and C-peptide.",
+        "B": "Excess insulin also causes nonketotic hypoglycemia, but insulin and C-peptide would be elevated.",
+        "C": "This causes ketotic hypoglycemia with lactic acidosis and hepatomegaly.",
+        "D": "This causes postprandial hypoglycemia after fructose ingestion rather than fasting hypoglycemia.",
+        "E": "Nonketotic hypoglycemia with appropriately suppressed insulin points to defective fatty acid oxidation, as in medium-chain acyl-CoA dehydrogenase deficiency, which prevents ketone synthesis and also impairs gluconeogenesis."
+      }
+    },
+    {
+      "id": "endorepro-dysregulation-of-glycemic-control-020",
+      "question": "A 44-year-old woman who underwent gastric bypass surgery 1 year ago reports episodes of sweating, tremor, and confusion that occur 1 to 2 hours after eating and resolve with candy. She has never had symptoms after an overnight fast. Which test is most appropriate to reproduce and confirm her episodes?",
+      "answers": {
+        "A": "Glucagon stimulation test",
+        "B": "Hemoglobin A1c measurement",
+        "C": "Islet autoantibody panel",
+        "D": "Mixed meal test",
+        "E": "Supervised 72-hour fast"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The glycemic response to glucagon assesses glycogen release and is not the test for postprandial symptoms.",
+        "B": "HbA1c reflects average glucose over months and cannot document discrete hypoglycemic episodes.",
+        "C": "Autoantibodies identify autoimmune beta-cell destruction, which causes hyperglycemia.",
+        "D": "Postprandial (reactive) hypoglycemia, as after gastric bypass, is replicated with a mixed meal test, and the diagnosis is confirmed if symptoms resolve as glucose normalizes.",
+        "E": "A prolonged fast is used to provoke fasting hypoglycemia, as with an insulinoma, and her fasting state is asymptomatic."
+      }
+    }
+  ]
+}

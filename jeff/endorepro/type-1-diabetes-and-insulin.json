@@ -1,0 +1,495 @@
+{
+  "lecture": "Type 1 Diabetes & Insulin",
+  "block": "endorepro",
+  "generated": "2026-10-06",
+  "questions": [
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-001",
+      "question": "A 28-year-old man reports 3 weeks of polyuria, polydipsia, blurred vision, and a 4.5-kg weight loss. He has no medical history and takes no medications. His BMI is 21 kg/m2, pulse is 98/min, and his skin is dry. Which single result is sufficient to establish the diagnosis of diabetes mellitus without repeat testing?",
+      "answers": {
+        "A": "Fasting plasma glucose of 118 mg/dL",
+        "B": "Hemoglobin A1c of 6.2%",
+        "C": "Random plasma glucose of 242 mg/dL",
+        "D": "Two-hour OGTT glucose of 168 mg/dL",
+        "E": "Urine dipstick positive for glucose"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A fasting value below 126 mg/dL does not meet the criterion; this value indicates impaired fasting glucose.",
+        "B": "An HbA1c of 5.7% to 6.4% indicates increased risk (prediabetes); 6.5% or higher is required, with repeat testing.",
+        "C": "In a patient with classic symptoms of hyperglycemia, a random plasma glucose of 200 mg/dL or higher is diagnostic and is the one criterion that does not require confirmation.",
+        "D": "A 2-hour value of 140 to 199 mg/dL is impaired glucose tolerance; 200 mg/dL or higher is required.",
+        "E": "Glucosuria appears above about 180 mg/dL but is not a diagnostic criterion."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-002",
+      "question": "A 31-year-old woman with vitiligo and hypothyroidism has had 1 month of thirst, frequent urination, and unintentional weight loss. Her BMI is 22 kg/m2 and her random plasma glucose is 318 mg/dL. Antibodies against which antigen would best confirm the cause of her hyperglycemia?",
+      "answers": {
+        "A": "Acetylcholine receptor",
+        "B": "Glutamic acid decarboxylase 65",
+        "C": "Insulin receptor",
+        "D": "Thyroid peroxidase",
+        "E": "Tissue transglutaminase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "These antibodies are found in myasthenia gravis.",
+        "B": "GAD65 antibodies are markers of autoimmune beta-cell destruction, measurable in up to 90% of patients with type 1 diabetes, who are also prone to other autoimmune diseases.",
+        "C": "Receptor antibodies cause rare severe insulin resistance, not the abrupt insulin deficiency seen here.",
+        "D": "These antibodies explain her hypothyroidism but not her hyperglycemia.",
+        "E": "These antibodies are markers of celiac disease."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-003",
+      "question": "A 30-year-old man who has had type 1 diabetes mellitus since age 9 and his wife, who has no personal or family history of diabetes, are planning a pregnancy. He asks about the chance that their child will develop type 1 diabetes. Which estimate is most accurate?",
+      "answers": {
+        "A": "0.3% to 0.5%",
+        "B": "2% to 3%",
+        "C": "5% to 6%",
+        "D": "30% to 40%",
+        "E": "70%"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This is the risk in the general population with no affected relatives.",
+        "B": "This is the risk when the mother, rather than the father, has type 1 diabetes.",
+        "C": "The risk to a child is about 5% to 6% when the father has type 1 diabetes, roughly ten times the general population risk.",
+        "D": "This is the concordance rate in monozygotic twins.",
+        "E": "This is the approximate concordance in monozygotic twins who carry HLA-DR3/DR4 haplotypes."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-004",
+      "question": "A 26-year-old woman with type 1 diabetes mellitus uses a continuous glucose monitor. Twenty minutes after an unplanned run she feels shaky and sweaty. Her sensor displays 108 mg/dL with a downward trend arrow, while a fingerstick reads 61 mg/dL. Which best explains the difference between the two values?",
+      "answers": {
+        "A": "Automated insulin delivery corrects the sensor reading",
+        "B": "Exercise raises interstitial glucose above plasma glucose",
+        "C": "Fingerstick meters overestimate glucose during exercise",
+        "D": "Interstitial glucose lags behind capillary glucose",
+        "E": "Sensors measure glycated hemoglobin rather than glucose"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Automated systems use sensor data to adjust pump delivery; they do not alter the measurement itself.",
+        "B": "Exercise increases muscle glucose uptake; it does not create a persistent interstitial excess.",
+        "C": "The fingerstick value is lower, and it matches her symptoms.",
+        "D": "The sensor measures subcutaneous interstitial fluid glucose, which trails capillary glucose, especially when levels are changing quickly.",
+        "E": "Continuous monitors measure glucose in interstitial fluid; HbA1c is a separate laboratory measure of long-term control."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-005",
+      "question": "A 14-year-old girl whose brother has type 1 diabetes mellitus is found to have GAD65 and zinc transporter 8 antibodies. She is asymptomatic. Her 2-hour glucose during an oral glucose tolerance test is 164 mg/dL and her HbA1c is 5.9%. She is offered a 14-day course of daily infusions to delay disease onset. What is the mechanism of action of this drug?",
+      "answers": {
+        "A": "Binds CD3 on T cells",
+        "B": "Binds CD20 on B cells",
+        "C": "Blocks the interleukin-6 receptor",
+        "D": "Inhibits calcineurin in T cells",
+        "E": "Neutralizes tumor necrosis factor alpha"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Teplizumab binds CD3 on T cells to prevent the signaling that leads to beta-cell destruction, delaying onset by up to 2 years in stage 2 disease.",
+        "B": "This describes rituximab; type 1 diabetes is T cell-mediated and this is not the approved agent.",
+        "C": "This describes tocilizumab, which is not used to delay type 1 diabetes.",
+        "D": "This describes cyclosporine and tacrolimus, not the approved monoclonal antibody.",
+        "E": "TNF inhibitors treat other autoimmune diseases and are not the approved agent here."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-006",
+      "question": "A 35-year-old woman with type 1 diabetes mellitus takes glargine once daily at bedtime and lispro before meals. She eats dinner at 6 PM and has no bedtime snack. Her glucose log for the past week is summarized below. Adjusting the dose of which insulin is most appropriate?",
+      "table": [
+        [
+          "Time",
+          "Glucose Range",
+          "Target"
+        ],
+        [
+          "Bedtime (10 PM)",
+          "110–130 mg/dL",
+          "90–150 mg/dL"
+        ],
+        [
+          "Fasting (7 AM)",
+          "190–215 mg/dL",
+          "80–130 mg/dL"
+        ],
+        [
+          "Before lunch",
+          "105–125 mg/dL",
+          "80–130 mg/dL"
+        ],
+        [
+          "Before dinner",
+          "100–128 mg/dL",
+          "80–130 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Aspart",
+        "B": "Glargine",
+        "C": "Glulisine",
+        "D": "Lispro",
+        "E": "Regular"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Aspart is another rapid-acting bolus analog and would not cover the overnight period.",
+        "B": "Glucose that rises overnight without food reflects insufficient basal insulin, whose role is to suppress hepatic glucose output and ketogenesis between meals.",
+        "C": "Glulisine is a rapid-acting bolus analog used at meals.",
+        "D": "Rapid-acting mealtime insulin lasts 3 to 5 hours, and her pre-meal and bedtime values show the boluses are adequate.",
+        "E": "Regular insulin is a short-acting mealtime insulin with a 6- to 8-hour duration and is not a basal insulin."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-007",
+      "question": "A 42-year-old man with type 1 diabetes mellitus asks why his once-daily basal insulin is a clear solution yet lasts nearly 24 hours without a pronounced peak. He uses insulin glargine. Which property accounts for its prolonged action?",
+      "answers": {
+        "A": "Crystallization with protamine and zinc to slow absorption",
+        "B": "Formation of multihexamer chains in a subcutaneous depot",
+        "C": "Microprecipitation at the neutral pH of subcutaneous tissue",
+        "D": "Rapid dissociation from zinc hexamers after injection",
+        "E": "Reversible albumin binding through a diacid side chain"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This describes NPH, a cloudy intermediate-acting human insulin with a pronounced peak.",
+        "B": "This is the mechanism of insulin degludec.",
+        "C": "Glargine is soluble at acid pH and forms microprecipitates in the subcutaneous space that retard absorption, giving a relatively peakless 20- to 24-hour profile.",
+        "D": "This describes the rapid-acting analogs lispro, aspart, and glulisine.",
+        "E": "This is the mechanism of insulin icodec, the once-weekly basal insulin."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-008",
+      "question": "A 58-year-old woman with type 2 diabetes mellitus has uncontrolled hyperglycemia on maximal non-insulin therapy and needs basal insulin. She travels constantly for work and says she will only accept a once-weekly injection. Which insulin fits her request?",
+      "answers": {
+        "A": "Degludec",
+        "B": "Glargine",
+        "C": "Icodec",
+        "D": "NPH",
+        "E": "Regular"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Degludec lasts 24 hours or longer through multihexamer formation but is dosed daily.",
+        "B": "Glargine lasts 20 to 24 hours and is dosed once daily.",
+        "C": "Insulin icodec binds reversibly to albumin and dissociates slowly, making it the first FDA-approved once-weekly insulin.",
+        "D": "NPH lasts 12 to 16 hours and must be given twice daily for basal coverage.",
+        "E": "Regular insulin is short-acting, and its concentrated U-500 form simply delivers large doses in a smaller volume."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-009",
+      "question": "A 24-year-old with type 1 diabetes mellitus since childhood asks to change from insulin glargine to NPH because of cost. Their glycemic control is currently good on glargine at bedtime and lispro with meals. Which counseling point about the switch is most accurate?",
+      "answers": {
+        "A": "Expect a higher risk of hypoglycemia because NPH has a peak",
+        "B": "Expect gradual weight loss from the lower insulin exposure",
+        "C": "Inject NPH immediately before each meal in place of lispro",
+        "D": "Inject NPH once daily because it provides 24-hour coverage",
+        "E": "Stop glucose monitoring because NPH action is more predictable"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "NPH peaks at 4 to 10 hours, unlike relatively peakless glargine, which makes hypoglycemia less predictable and can also promote weight gain.",
+        "B": "NPH tends to cause weight gain from over-insulinization, not weight loss.",
+        "C": "NPH is an intermediate-acting basal insulin; rapid-acting insulin is still needed before meals.",
+        "D": "NPH lasts 12 to 16 hours, so it must be dosed twice daily to maintain the basal coverage that prevents ketoacidosis.",
+        "E": "NPH is less predictable than basal analogs, so monitoring becomes more important."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-010",
+      "question": "A 63-year-old man with type 2 diabetes mellitus controlled with metformin begins prednisone each morning at 8 AM for polymyalgia rheumatica. One week later his glucose log is as shown. Which insulin regimen best matches the pattern of his hyperglycemia?",
+      "table": [
+        [
+          "Time",
+          "Glucose",
+          "Target"
+        ],
+        [
+          "Fasting (7 AM)",
+          "112 mg/dL",
+          "80–130 mg/dL"
+        ],
+        [
+          "Before lunch",
+          "168 mg/dL",
+          "80–130 mg/dL"
+        ],
+        [
+          "Before dinner",
+          "286 mg/dL",
+          "80–130 mg/dL"
+        ],
+        [
+          "Bedtime",
+          "241 mg/dL",
+          "90–150 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Degludec each evening",
+        "B": "Glargine each evening",
+        "C": "Lispro at bedtime",
+        "D": "NPH each morning",
+        "E": "Regular at bedtime"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Degludec provides flat coverage beyond 24 hours and cannot target a late-day rise.",
+        "B": "A peakless 24-hour basal insulin dosed for afternoon highs would risk overnight and fasting hypoglycemia.",
+        "C": "A rapid-acting bolus at bedtime without food would cause nocturnal hypoglycemia and miss the afternoon peak.",
+        "D": "NPH given in the morning peaks 4 to 10 hours later and fades by 12 to 16 hours, matching the late-day hyperglycemia caused by morning corticosteroids.",
+        "E": "Short-acting insulin at bedtime acts overnight, when his glucose is already normal by morning."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-011",
+      "question": "A 50-year-old woman with type 1 diabetes mellitus switches from lispro to regular insulin to save money. She continues to inject as she sits down to eat. She now has glucose values near 260 mg/dL 1 hour after meals and near 55 mg/dL about 5 hours after meals. Which change in administration is most appropriate?",
+      "answers": {
+        "A": "Inject 30 to 45 minutes before each meal",
+        "B": "Inject double the dose at the start of each meal",
+        "C": "Inject immediately after finishing each meal",
+        "D": "Inject once daily at bedtime instead of at meals",
+        "E": "Inject only when the pre-meal glucose is elevated"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Regular insulin has an onset of 30 to 60 minutes and peaks at 2 to 4 hours, so it must be given well before eating to match the postprandial glucose rise.",
+        "B": "A larger dose would not speed the onset and would worsen the late hypoglycemia.",
+        "C": "Delaying the dose worsens the mismatch with the postprandial peak and prolongs late insulin action.",
+        "D": "Regular insulin is a mealtime insulin and cannot serve as once-daily basal coverage.",
+        "E": "Mealtime insulin is needed to cover carbohydrate intake regardless of the pre-meal value."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-012",
+      "question": "A 27-year-old man with type 1 diabetes mellitus has an unpredictable work schedule and wants a mealtime insulin he can inject immediately before eating, with the least chance of hypoglycemia several hours after the meal. Which pharmacokinetic profile describes the most appropriate choice?",
+      "answers": {
+        "A": "Onset 1 hour, no pronounced peak, duration 24 hours or longer",
+        "B": "Onset 2 to 3 hours, no pronounced peak, duration 20 to 24 hours",
+        "C": "Onset 2 to 4 hours, peak 4 to 10 hours, duration 12 to 16 hours",
+        "D": "Onset 15 minutes, peak 1 to 2 hours, duration 3 to 5 hours",
+        "E": "Onset 30 to 60 minutes, peak 2 to 4 hours, duration 6 to 8 hours"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This is degludec, a basal analog that does not cover meals.",
+        "B": "This is glargine, a basal analog that does not cover meals.",
+        "C": "This is NPH, an intermediate-acting insulin used for basal coverage.",
+        "D": "This is the profile of the rapid-acting analogs lispro, aspart, and glulisine, which limit postprandial peaks and minimize late postprandial hypoglycemia.",
+        "E": "This is regular insulin, which must be given 30 to 45 minutes before meals and can cause late hypoglycemia."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-013",
+      "question": "A 48-year-old man with type 1 diabetes mellitus dislikes injections and asks about inhaled insulin for mealtime coverage. He has smoked one pack of cigarettes daily for 25 years and has a chronic productive cough with wheezing. Which condition makes this formulation inappropriate for him?",
+      "answers": {
+        "A": "Chronic kidney disease",
+        "B": "Chronic obstructive pulmonary disease",
+        "C": "Coronary artery disease",
+        "D": "Diabetic retinopathy",
+        "E": "Peripheral neuropathy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Renal disease affects insulin dosing in general but is not the specific contraindication to the inhaled route.",
+        "B": "Inhaled human insulin is contraindicated in smokers and patients with chronic lung disease, and pulmonary function must be tested at baseline and periodically.",
+        "C": "Cardiac disease is not the listed contraindication for inhaled insulin.",
+        "D": "Retinopathy is not a contraindication to inhaled insulin.",
+        "E": "Neuropathy does not affect the suitability of inhaled insulin."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-014",
+      "question": "A 22-year-old woman with newly diagnosed type 1 diabetes mellitus is being started on a multiple daily injection regimen. Her estimated total daily insulin requirement is 40 units. Approximately how many units should be given as once-daily insulin glargine?",
+      "answers": {
+        "A": "4 units",
+        "B": "10 units",
+        "C": "20 units",
+        "D": "32 units",
+        "E": "40 units"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ten percent of the total would leave hepatic glucose output and ketogenesis inadequately suppressed.",
+        "B": "One quarter of the total underdoses the basal component.",
+        "C": "Basal insulin makes up approximately 50% of the total daily requirement, with the remainder divided among mealtime boluses.",
+        "D": "Giving 80% as basal leaves too little for meals and risks fasting hypoglycemia.",
+        "E": "Giving the entire requirement as basal insulin ignores mealtime needs and risks hypoglycemia between meals."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-015",
+      "question": "A 20-year-old man with type 1 diabetes mellitus develops viral gastroenteritis. Because he is not eating, he stops both his glargine and his lispro. Thirty-six hours later he has abdominal pain, deep rapid breathing, and a fruity odor on his breath. Which instruction would most likely have prevented this complication?",
+      "answers": {
+        "A": "Continue basal insulin even when not eating",
+        "B": "Double mealtime insulin until eating resumes",
+        "C": "Replace both insulins with oral metformin",
+        "D": "Switch to once-daily premixed 70/30 insulin",
+        "E": "Use inhaled insulin once each morning"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "All patients with type 1 diabetes need insulin at all times because basal insulin restrains lipolysis and ketogenesis independent of food intake.",
+        "B": "Bolus insulin without food risks hypoglycemia and does not provide continuous suppression of ketogenesis.",
+        "C": "Metformin cannot substitute for insulin when beta cells are destroyed.",
+        "D": "A single premixed dose contains a fixed bolus component and does not give 24-hour basal coverage.",
+        "E": "Inhaled insulin lasts about 3 hours and is a mealtime formulation."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-016",
+      "question": "A 67-year-old woman with type 2 diabetes mellitus declines four daily injections and uses premixed human 70/30 insulin before breakfast and dinner. She injects at 7 AM and eats breakfast, then skips lunch. At 3 PM she becomes diaphoretic and confused with a glucose of 49 mg/dL. Which component of her insulin is most likely responsible?",
+      "answers": {
+        "A": "Aspart",
+        "B": "Glargine",
+        "C": "Lispro",
+        "D": "NPH",
+        "E": "Regular"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Aspart is the rapid component of Novolog Mix 70/30, not of human 70/30.",
+        "B": "Glargine is a peakless basal analog and is not part of premixed formulations.",
+        "C": "Lispro is the rapid component of Humalog mixes, not of human 70/30.",
+        "D": "Human 70/30 is 70% NPH, which peaks 4 to 10 hours after injection, so its peak coincided with the missed lunch.",
+        "E": "The 30% regular component peaks at 2 to 4 hours and covers breakfast; its effect is waning by 8 hours."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-017",
+      "question": "A 33-year-old man with type 1 diabetes mellitus takes glargine 30 units daily and a fixed 5 units of aspart with each meal. After a breakfast of cereal and fruit his glucose is 245 mg/dL at 2 hours; after a breakfast of eggs and bacon the next day it is 58 mg/dL at 2 hours. His fasting values are at goal. Which change is most appropriate?",
+      "answers": {
+        "A": "Increase the daily glargine dose by several units",
+        "B": "Match each aspart dose to carbohydrate intake",
+        "C": "Move each aspart injection to 30 minutes after eating",
+        "D": "Replace aspart with the same dose of regular insulin",
+        "E": "Switch to twice-daily premixed 70/30 insulin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "His fasting values show the basal dose is adequate, and more basal insulin would not correct meal-to-meal variation.",
+        "B": "Fixed mealtime doses are not physiologic; carbohydrate counting determines how many units are needed to cover the carbohydrate actually eaten.",
+        "C": "Rapid analogs are preferably dosed before the meal, and timing does not fix a dose-carbohydrate mismatch.",
+        "D": "Regular insulin has a slower onset and longer duration and would still be a fixed dose.",
+        "E": "Premixed insulin is even less flexible and is a less optimal option chosen for convenience."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-018",
+      "question": "A 38-year-old woman was diagnosed with type 2 diabetes mellitus 8 months ago. Despite maximal metformin she has lost 6 kg and has persistent polyuria. Her BMI is 22 kg/m2 and she has no family history of diabetes. Laboratory studies are shown. Which is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "HbA1c",
+          "10.4%",
+          "<5.7%"
+        ],
+        [
+          "Fasting C-peptide",
+          "Undetectable",
+          "0.8–1.9 ng/mL"
+        ],
+        [
+          "GAD65 antibodies",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "Urine ketones",
+          "Moderate",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Add a DPP-4 inhibitor",
+        "B": "Add a sulfonylurea",
+        "C": "Recommend weight loss and exercise",
+        "D": "Start a GLP-1 receptor agonist",
+        "E": "Start basal and mealtime insulin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incretin-based therapy potentiates endogenous insulin secretion, which she lacks.",
+        "B": "Secretagogues require functioning beta cells, and her undetectable C-peptide shows there are essentially none.",
+        "C": "Lifestyle measures address insulin resistance, but she is lean and has absolute insulin deficiency.",
+        "D": "This also depends on residual beta-cell function and would promote further weight loss.",
+        "E": "A lean patient with weight loss, ketosis, positive GAD65 antibodies, and undetectable C-peptide has type 1 diabetes, and all such patients need insulin to prevent ketoacidosis."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-019",
+      "question": "A 29-year-old woman, gravida 1 para 0, at 26 weeks' gestation has an abnormal oral glucose tolerance test. She had normal glucose values before pregnancy and has no islet autoantibodies. Which mechanism best explains her hyperglycemia?",
+      "answers": {
+        "A": "Autoimmune destruction of beta cells triggered by pregnancy",
+        "B": "Excess growth hormone secretion from a pituitary adenoma",
+        "C": "Glucokinase mutation raising the insulin secretion threshold",
+        "D": "Insulin resistance of pregnancy exceeding beta-cell reserve",
+        "E": "Iron deposition causing destruction of pancreatic islet tissue"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Negative autoantibodies and onset at the usual screening window argue against type 1 diabetes.",
+        "B": "Acromegaly antagonizes insulin action but is not the cause of typical gestational diabetes.",
+        "C": "This monogenic form causes lifelong mild fasting hyperglycemia, and her pre-pregnancy values were normal.",
+        "D": "Insulin resistance occurs in all pregnancies, and gestational diabetes develops when beta-cell insulin secretion cannot compensate; it usually subsides after delivery but 30% to 40% develop type 2 diabetes within 5 to 10 years.",
+        "E": "This is the mechanism of diabetes in hemochromatosis, which is not suggested here."
+      }
+    },
+    {
+      "id": "endorepro-type-1-diabetes-and-insulin-020",
+      "question": "A 47-year-old man has fatigue, joint pain, and new polyuria. Examination shows diffusely bronze skin and hepatomegaly. He does not drink alcohol and is not obese. Laboratory studies are shown. Which mechanism best explains his diabetes?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting glucose",
+          "186 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "HbA1c",
+          "8.1%",
+          "<5.7%"
+        ],
+        [
+          "Ferritin",
+          "2,150 ng/mL",
+          "30–300 ng/mL"
+        ],
+        [
+          "Transferrin saturation",
+          "82%",
+          "20–50%"
+        ]
+      ],
+      "answers": {
+        "A": "Autoimmune T-cell attack on beta cells",
+        "B": "Cortisol excess antagonizing insulin action",
+        "C": "Destruction of pancreatic islet tissue",
+        "D": "Glucagon excess from an alpha-cell tumor",
+        "E": "Growth hormone excess antagonizing insulin action"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Type 1 diabetes is HLA-associated and antibody-positive and does not explain iron overload, bronze skin, or hepatomegaly.",
+        "B": "Cushing syndrome causes insulin resistance but not markedly elevated ferritin and transferrin saturation.",
+        "C": "Hemochromatosis is a pancreatic disease in which iron deposition destroys islet tissue, producing a secondary form of diabetes.",
+        "D": "A glucagonoma raises glucose through hormone excess and is not associated with iron overload.",
+        "E": "Acromegaly causes diabetes through insulin antagonism and presents with acral enlargement rather than iron overload."
+      }
+    }
+  ]
+}
