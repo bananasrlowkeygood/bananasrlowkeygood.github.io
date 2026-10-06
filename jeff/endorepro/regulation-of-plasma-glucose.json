@@ -1,0 +1,468 @@
+{
+  "lecture": "Regulation of Plasma Glucose",
+  "block": "endorepro",
+  "generated": "2026-10-06",
+  "questions": [
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-001",
+      "question": "A 62-year-old man with type 2 diabetes mellitus is brought to the emergency department because of sweating, tremor, and confusion. He took his usual morning glipizide but skipped breakfast and lunch. His fingerstick glucose is 44 mg/dL, and his symptoms resolve after intravenous dextrose. Which drug-induced event in his pancreatic beta cells most directly caused this episode?",
+      "answers": {
+        "A": "Activation of Gs-coupled receptors that raise cAMP",
+        "B": "Closure of ATP-sensitive K+ channels through SUR1 binding",
+        "C": "Increased affinity of glucokinase for glucose",
+        "D": "Insertion of additional GLUT-2 transporters into the membrane",
+        "E": "Opening of ATP-sensitive K+ channels through SUR1 binding"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This is how GIP and GLP-1 potentiate insulin secretion, and that effect disappears when glucose falls below about 100 mg/dL.",
+        "B": "Sulfonylureas bind SUR1 and close K-ATP channels regardless of the glucose concentration, so the beta cell depolarizes and releases insulin even during fasting.",
+        "C": "A lower glucokinase threshold would shift glucose sensing, but sulfonylureas act downstream of glucose metabolism at the channel.",
+        "D": "GLUT-2 is constitutively present and is not rate limiting for glucose sensing, and sulfonylureas do not act on it.",
+        "E": "Opening K-ATP channels is the action of diazoxide, which hyperpolarizes the beta cell and suppresses insulin release."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-002",
+      "question": "A 55-year-old woman comes to the office for follow-up of hypertension treated with hydrochlorothiazide for 2 years. She reports fatigue and muscle cramps. She has no family history of diabetes and her BMI is 23 kg/m2. Laboratory studies are shown. Which mechanism best explains her abnormal glucose value?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "138 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "2.9 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Fasting glucose",
+          "134 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Creatinine",
+          "0.9 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Depolarization of beta cells that exhausts insulin stores",
+        "B": "Downregulation of GLUT-4 in skeletal muscle cells",
+        "C": "Hyperpolarization of beta cells that limits Ca2+ entry",
+        "D": "Inhibition of glucokinase by glucose 6-phosphate",
+        "E": "Stimulation of alpha cells that raises glucagon output"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Depolarization is the effect of hyperkalemia, which stimulates rather than impairs insulin secretion.",
+        "B": "Reduced GLUT-4 insertion describes insulin resistance, whereas chronic hypokalemia primarily impairs insulin secretion.",
+        "C": "Low extracellular K+ steepens the K+ gradient and hyperpolarizes beta cells, so voltage-gated Ca2+ channels stay closed and insulin secretion is inadequate.",
+        "D": "Glucokinase, unlike hexokinase, is not inhibited by its product glucose 6-phosphate.",
+        "E": "Glucagon secretion is driven by amino acids and low glucose, not by a low potassium concentration."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-003",
+      "question": "A 34-year-old nurse is evaluated for three episodes of confusion and diaphoresis over the past month, each relieved by juice. She takes no prescribed medications. During a supervised episode, laboratory studies are obtained. Which is the most likely cause of her hypoglycemia?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Plasma glucose",
+          "38 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Insulin",
+          "42 uU/mL",
+          "2–20 uU/mL"
+        ],
+        [
+          "C-peptide",
+          "Undetectable",
+          "0.8–1.9 ng/mL"
+        ],
+        [
+          "Sulfonylurea screen",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Congenital hypersecretion of endogenous insulin",
+        "B": "Inherited deficiency of glucose 6-phosphatase",
+        "C": "Insulin-secreting tumor of the pancreatic beta cells",
+        "D": "Surreptitious ingestion of a sulfonylurea drug",
+        "E": "Surreptitious injection of exogenous insulin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Congenital hyperinsulinism presents in infancy and, being endogenous, is accompanied by high C-peptide.",
+        "B": "Defective gluconeogenesis causes fasting hypoglycemia with appropriately suppressed insulin, ketosis, and lactic acidosis.",
+        "C": "An insulinoma releases insulin and C-peptide together, so C-peptide would be elevated.",
+        "D": "Sulfonylureas drive endogenous secretion, which raises C-peptide, and the drug screen is negative.",
+        "E": "Commercial recombinant insulin contains no C-peptide, so high insulin with undetectable C-peptide indicates an exogenous source."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-004",
+      "question": "A 9-year-old boy is evaluated for mild fasting hyperglycemia. His serum proinsulin concentration is markedly elevated, whereas mature insulin and C-peptide concentrations are low. Sequencing shows a loss-of-function mutation in an endopeptidase that is co-packaged with its substrate in beta cells. In which compartment does the affected processing step normally occur?",
+      "answers": {
+        "A": "Cytosolic ribosomes",
+        "B": "Extracellular space",
+        "C": "Golgi cisternae",
+        "D": "Rough endoplasmic reticulum lumen",
+        "E": "Secretory granules"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Translation begins on ribosomes, but the nascent chain is threaded into the endoplasmic reticulum before any proteolytic maturation.",
+        "B": "Insulin is secreted already mature; C-peptide is not removed after exocytosis.",
+        "C": "Proinsulin travels through the Golgi on its way to granules, but C-peptide is excised after packaging.",
+        "D": "The endoplasmic reticulum is where the signal (pre) sequence is removed from preproinsulin, yielding proinsulin.",
+        "E": "Proinsulin is cleaved to insulin and C-peptide by processing enzymes inside secretory granules, which is why the two are released together."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-005",
+      "question": "A 24-year-old healthy man volunteers for a metabolic study. After an overnight fast, insulin is infused at a very low rate that raises his plasma insulin only slightly above the fasting concentration, while glucose is clamped. Which process is most likely to be altered at this lowest insulin concentration?",
+      "answers": {
+        "A": "Hepatic conversion of oxaloacetate to phosphoenolpyruvate",
+        "B": "Hepatic release of glucose from stored glycogen",
+        "C": "Hydrolysis of triglycerides in adipocytes",
+        "D": "Insertion of GLUT-4 into skeletal muscle membranes",
+        "E": "Synthesis of glycogen in skeletal muscle cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gluconeogenesis via PEPCK is part of endogenous glucose production, which is only moderately sensitive to insulin.",
+        "B": "Glycogenolysis is inhibited by insulin, but it needs a higher concentration than the suppression of lipolysis does.",
+        "C": "Lipolysis is the most insulin-sensitive pathway, so it is suppressed at concentrations too low to affect glucose production or disposal.",
+        "D": "Stimulating glucose uptake requires the highest insulin concentrations of the three processes.",
+        "E": "Glucose utilization through glycogen synthase is activated only at the higher insulin concentrations seen after meals."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-006",
+      "question": "A 30-year-old woman completes a 3-day water-only fast. She feels tired but is alert. Her plasma glucose is 66 mg/dL, serum beta-hydroxybutyrate is mildly elevated, and arterial pH is 7.39. Which mechanism best explains why she has not developed ketoacidosis?",
+      "answers": {
+        "A": "Epinephrine-mediated suppression of hormone-sensitive lipase activity",
+        "B": "Glucagon-mediated inhibition of hepatic fatty acid oxidation",
+        "C": "Incretin-driven insulin secretion from intestinal nutrient sensing",
+        "D": "Ketone-enhanced insulin secretion that restrains adipocyte lipolysis",
+        "E": "Renal excretion of ketone bodies exceeding hepatic production"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Epinephrine stimulates rather than suppresses lipolysis and can override insulin's inhibition.",
+        "B": "Glucagon rises during fasting and promotes glucose production; it does not block fatty acid oxidation.",
+        "C": "Incretins are released in response to food in the gut and only act when glucose exceeds about 100 mg/dL.",
+        "D": "During fasting, fatty acids and ketone bodies sustain a small amount of insulin secretion, and insulin is the only hormone that attenuates lipolysis and so limits ketone production.",
+        "E": "Ketone bodies spill into urine only above about 5 mM, and excretion is not what prevents acidosis in a healthy fast."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-007",
+      "question": "A 26-year-old woman runs a marathon. Blood drawn at mile 20 shows a plasma glucose of 92 mg/dL, elevated free fatty acids, and an insulin concentration lower than her resting fasting value. Activation of which receptors best explains the reduced insulin concentration?",
+      "answers": {
+        "A": "Alpha-adrenergic receptors on pancreatic beta cells",
+        "B": "GIP receptors on pancreatic beta cells",
+        "C": "GLP-1 receptors on pancreatic beta cells",
+        "D": "Glucagon receptors on pancreatic beta cells",
+        "E": "Insulin receptors on pancreatic alpha cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Epinephrine acts through alpha-adrenergic receptors on beta cells and is the second major physiological inhibitor of insulin secretion, limiting it during exercise.",
+        "B": "GIP is an incretin that enhances glucose-induced insulin secretion after meals.",
+        "C": "GLP-1 receptors couple to Gs and potentiate insulin secretion rather than inhibit it.",
+        "D": "Beta cells appear to lack glucagon receptors, which are found mainly in the liver.",
+        "E": "Insulin signaling in alpha cells would affect glucagon output, not explain a fall in insulin itself."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-008",
+      "question": "A 19-year-old man with type 1 diabetes mellitus is found unresponsive by his roommate, who administers an intramuscular injection from an emergency kit. Fifteen minutes later his plasma glucose has risen from 36 mg/dL to 98 mg/dL and he is awake but nauseated. Which process is primarily responsible for the rise in his plasma glucose?",
+      "answers": {
+        "A": "Adipose tissue lipolysis",
+        "B": "Hepatic glycogenolysis",
+        "C": "Intestinal glucose absorption",
+        "D": "Renal glucose reabsorption",
+        "E": "Skeletal muscle glycogenolysis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Glucagon has only a slight lipolytic effect, and fatty acids cannot be converted to glucose.",
+        "B": "Glucagon receptors are located mainly in the liver, where Gs, cAMP, and protein kinase A activate glycogen phosphorylase to release glucose rapidly.",
+        "C": "No carbohydrate was ingested, and glucagon does not enhance intestinal glucose uptake.",
+        "D": "Reabsorption conserves filtered glucose but cannot add new glucose to the blood within minutes.",
+        "E": "Skeletal muscle has no glucagon receptors; its glycogen phosphorylase responds to Ca2+, AMP, and epinephrine."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-009",
+      "question": "A 4-year-old girl has recurrent hypoglycemia after overnight fasts. Hepatocytes from a biopsy bind glucagon normally, but glucagon fails to raise intracellular cAMP or activate glycogen phosphorylase. Adding a compound that directly activates adenylyl cyclase restores both cAMP production and phosphorylase activity. A defect in which protein best explains these findings?",
+      "answers": {
+        "A": "Adenylyl cyclase",
+        "B": "Glycogen phosphorylase",
+        "C": "Gs alpha subunit",
+        "D": "Phosphorylase kinase",
+        "E": "Protein kinase A"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "If the cyclase itself were defective, direct pharmacologic activation would not restore cAMP production.",
+        "B": "A phosphorylase defect would leave the cAMP response to glucagon intact and would not be rescued downstream.",
+        "C": "The glucagon receptor acts as a guanine nucleotide exchange factor for Gs alpha, which then activates adenylyl cyclase; bypassing it with a direct cyclase activator rescues the pathway.",
+        "D": "This kinase lies below protein kinase A, so cAMP would still rise normally after glucagon.",
+        "E": "A protein kinase A defect would not prevent cAMP from rising and would not be corrected by raising cAMP."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-010",
+      "question": "A 58-year-old man with type 2 diabetes mellitus is treated with sitagliptin alone. He fasts for 18 hours before a colonoscopy and continues the drug. His plasma glucose before the procedure is 84 mg/dL and he has no symptoms. Which property best explains why he did not become hypoglycemic?",
+      "answers": {
+        "A": "Incretins act on beta cells only above about 100 mg/dL glucose",
+        "B": "Incretins act only on gastric and hypothalamic receptors",
+        "C": "Incretins activate hepatic glucagon receptors during fasting",
+        "D": "Incretins are fully degraded by DPP-4 despite the drug",
+        "E": "Incretins close ATP-sensitive K+ channels independent of glucose"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "GIP and GLP-1 amplify glucose-induced insulin secretion but have no effect at lower glucose concentrations, which protects against incretin-induced hypoglycemia.",
+        "B": "Incretin receptors are present on beta cells as well as in the stomach and brain.",
+        "C": "Glucagon and GLP-1 receptors show no physiological cross-reactivity.",
+        "D": "Sitagliptin inhibits DPP-4, prolonging incretin action rather than leaving it unopposed.",
+        "E": "Glucose-independent closure of K-ATP channels describes sulfonylureas and glinides, which do cause hypoglycemia."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-011",
+      "question": "A 50-year-old woman with obesity and type 2 diabetes mellitus begins a weekly injectable drug. Over 3 months she reports early satiety and mild nausea, loses 7 kg, and her HbA1c falls from 8.1% to 6.9% without hypoglycemia. The endogenous hormone this drug mimics is produced by which cells from which precursor?",
+      "answers": {
+        "A": "Intestinal K cells from a GIP precursor",
+        "B": "Intestinal L cells from proglucagon",
+        "C": "Pancreatic alpha cells from proglucagon",
+        "D": "Pancreatic beta cells from proinsulin",
+        "E": "Pancreatic delta cells from prosomatostatin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "K cells secrete GIP, which is also an incretin but is a different peptide from a different precursor.",
+        "B": "GLP-1 is cleaved from proglucagon in the secretory granules of intestinal L cells; it potentiates insulin release, slows gastric emptying, and promotes satiety.",
+        "C": "Alpha cells process the same precursor into glucagon, which raises rather than lowers plasma glucose.",
+        "D": "Proinsulin yields insulin and C-peptide; exogenous insulin causes weight gain and can cause hypoglycemia.",
+        "E": "Delta cells secrete somatostatin, which is not an incretin."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-012",
+      "question": "A 25-year-old man drinks a carbohydrate-free protein shake after an overnight fast. Thirty minutes later his plasma insulin has risen substantially, yet his plasma glucose remains 88 mg/dL. Which response best explains why his glucose concentration did not fall?",
+      "answers": {
+        "A": "Amino acid-stimulated cortisol secretion from the adrenal cortex",
+        "B": "Amino acid-stimulated glucagon secretion from alpha cells",
+        "C": "GLP-1 activation of glucagon receptors on hepatocytes",
+        "D": "Insulin-stimulated GLUT-4 insertion into hepatocyte membranes",
+        "E": "Leucine-mediated opening of beta-cell K-ATP channels"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cortisol acts over hours by promoting proteolysis and is not acutely released by a protein meal.",
+        "B": "Amino acids trigger glucagon as well as insulin release; insulin directs amino acids into protein while glucagon maintains hepatic glucose output and prevents hypoglycemia.",
+        "C": "GLP-1 does not cross-react with glucagon receptors under physiological conditions.",
+        "D": "GLUT-4 is found in muscle and adipose, and its insertion would lower rather than maintain plasma glucose.",
+        "E": "Leucine enhances insulin secretion through glutamate dehydrogenase; opening K-ATP channels would suppress insulin, not protect glucose."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-013",
+      "question": "A 52-year-old woman has taken high-dose dexamethasone for 6 weeks for cerebral edema. She has proximal muscle weakness, thin extremities, and a fasting plasma glucose of 212 mg/dL. Which substrate is the principal source of carbon for her increased glucose production?",
+      "answers": {
+        "A": "Acetyl-CoA from fatty acid oxidation",
+        "B": "Amino acids from muscle proteolysis",
+        "C": "Glucose 6-phosphate from muscle glycogen",
+        "D": "Ketone bodies from hepatic ketogenesis",
+        "E": "Palmitate from adipose lipolysis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Acetyl-CoA supplies energy for gluconeogenesis but cannot provide net carbon for glucose synthesis.",
+        "B": "Glucocorticoids promote proteolysis and aminotransferase expression, supplying amino acids that provide carbon skeletons for gluconeogenesis and also stimulate glucagon secretion.",
+        "C": "Muscle glycogen is used within the muscle fiber and is not released as free glucose.",
+        "D": "Ketone bodies are oxidized as fuel and are not gluconeogenic.",
+        "E": "Even-chain fatty acids are degraded to acetyl-CoA and cannot be converted into glucose."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-014",
+      "question": "A 6-year-old boy has a seizure after 26 hours of poor intake during a viral illness. His plasma glucose is 31 mg/dL and lactate is elevated. When he is later tested in the well-fed state, a glucagon injection raises his plasma glucose normally, and hepatic conversion of glucose to lactate is normal. A deficiency of which enzyme best explains these findings?",
+      "answers": {
+        "A": "Fructose 1,6-bisphosphatase",
+        "B": "Glucokinase",
+        "C": "Glucose 6-phosphatase",
+        "D": "Glycogen phosphorylase",
+        "E": "Phosphofructokinase-1"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Hypoglycemia appearing only after glycogen is exhausted with a normal fed glucagon response points to a block in a gluconeogenesis-specific step that spares glycogen release.",
+        "B": "Glucokinase traps glucose in the fed state; its deficiency raises rather than lowers plasma glucose.",
+        "C": "This enzyme is required to release glucose from glycogen, so the fed-state glucagon response would be blunted.",
+        "D": "A phosphorylase defect would abolish the glycemic response to glucagon, while gluconeogenesis would protect during a long fast.",
+        "E": "This is a glycolytic enzyme, and the normal conversion of glucose to lactate shows glycolysis is intact."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-015",
+      "question": "A 3-month-old girl has recurrent seizures before morning feeds. Family history shows several relatives with similar episodes. Genetic testing reveals a glucokinase variant with a markedly reduced S0.5 for glucose. Laboratory studies during an episode are shown. Which change in beta-cell function best explains her findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Plasma glucose",
+          "41 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Insulin",
+          "18 uU/mL",
+          "<3 uU/mL when glucose <50"
+        ],
+        [
+          "C-peptide",
+          "2.4 ng/mL",
+          "0.8–1.9 ng/mL"
+        ],
+        [
+          "Beta-hydroxybutyrate",
+          "0.1 mmol/L",
+          ">2.5 mmol/L when fasting"
+        ]
+      ],
+      "answers": {
+        "A": "GLUT-2 transport becomes the rate-limiting step",
+        "B": "Insulin is released without accompanying C-peptide",
+        "C": "Insulin secretion begins at a lower plasma glucose",
+        "D": "Insulin secretion requires a higher plasma glucose",
+        "E": "K-ATP channels remain open at high ATP levels"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Glucokinase, not GLUT-2, sets the rate of glucose metabolism and the sensitivity of secretion.",
+        "B": "Endogenous insulin is always co-secreted with C-peptide, and her C-peptide is elevated.",
+        "C": "Glucokinase is the beta-cell glucose sensor, so an enzyme that works at lower glucose shifts the secretion threshold downward and causes hyperinsulinemic, nonketotic hypoglycemia.",
+        "D": "A raised threshold is the effect of a glucokinase variant with an elevated S0.5, which causes mild hyperglycemia.",
+        "E": "Channels that stay open would hyperpolarize the cell and reduce insulin secretion, causing hyperglycemia."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-016",
+      "question": "A 41-year-old woman has fasting hypoglycemia with elevated insulin and C-peptide concentrations, and imaging shows a 1.5-cm pancreatic mass. While awaiting surgery she is given an oral drug that binds SUR1, after which her fasting glucose rises to 85 mg/dL. Which mechanism best explains the effect of this drug?",
+      "answers": {
+        "A": "Activating Gs, which increases cAMP within the beta cell",
+        "B": "Blocking GLUT-2, which prevents glucose entry into the cell",
+        "C": "Closing K-ATP channels, which depolarizes the beta cell",
+        "D": "Inhibiting glucokinase, which raises the cellular ADP level",
+        "E": "Opening K-ATP channels, which hyperpolarizes the beta cell"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Raising cAMP is the incretin mechanism and would potentiate rather than suppress insulin secretion.",
+        "B": "The drug described binds the channel's SUR1 subunit, not the glucose transporter.",
+        "C": "This is the action of sulfonylureas and glinides, which would worsen hypoglycemia from an insulinoma.",
+        "D": "Glucokinase inhibition would reduce secretion, but SUR1 is a channel subunit rather than a metabolic enzyme.",
+        "E": "Diazoxide is a K-channel opener that binds SUR1; K+ efflux hyperpolarizes the cell, Ca2+ channels stay closed, and insulin exocytosis falls."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-017",
+      "question": "A 60-year-old man with type 2 diabetes mellitus requires 180 units of insulin daily. He asks whether such large doses could encourage tumor growth. His physician explains that insulin analogs differ in their relative metabolic and growth-promoting potency. Which signaling pathway mediates the proliferative effect of insulin receptor activation?",
+      "answers": {
+        "A": "Gq, phospholipase C, and IP3",
+        "B": "Gs, adenylyl cyclase, and PKA",
+        "C": "JAK2 and STAT5",
+        "D": "PI3K, PDPK1, and AKT2",
+        "E": "RAS, RAF, MEK, and ERK"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Gq signaling is not the mechanism of insulin receptor action.",
+        "B": "This is the pathway used by glucagon, GIP, and GLP-1 receptors.",
+        "C": "JAK-STAT signaling is used by cytokine-type receptors, not the insulin receptor tyrosine kinase.",
+        "D": "This arm of insulin receptor signaling mediates glucose use and other metabolic effects rather than proliferation.",
+        "E": "The insulin receptor is a receptor tyrosine kinase that signals growth and proliferation through IRS, GRB2/SOS, RAS, and the MAP kinase cascade."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-018",
+      "question": "A 22-year-old man performs a 200-meter sprint. A biopsy of his quadriceps taken immediately afterward shows a marked fall in glycogen content. Which pair of signals was chiefly responsible for activating glycogen phosphorylase in this tissue?",
+      "answers": {
+        "A": "AMP and cytosolic Ca2+",
+        "B": "ATP and glucose 6-phosphate",
+        "C": "Cortisol and aminotransferases",
+        "D": "Glucagon and cyclic AMP",
+        "E": "Insulin and AKT2"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In contracting muscle, Ca2+ released for contraction and AMP from ATP hydrolysis are the chief activators of glycogen phosphorylase.",
+        "B": "These signal energy sufficiency and favor glycogen synthesis rather than breakdown.",
+        "C": "Cortisol promotes proteolysis and gluconeogenesis over hours and does not acutely activate muscle phosphorylase.",
+        "D": "Skeletal muscle has no glucagon receptors, so glucagon does not regulate muscle glycogen.",
+        "E": "Insulin inhibits glycogen phosphorylase and stimulates glycogen synthase."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-019",
+      "question": "A 68-year-old man is hospitalized for decompensated heart failure. His B-type natriuretic peptide concentration is markedly elevated. Plasma free fatty acids are high even though his insulin concentration is normal and he is receiving no catecholamine infusions. Increased activity of which enzyme most likely accounts for the elevated free fatty acids?",
+      "answers": {
+        "A": "Acetyl-CoA carboxylase",
+        "B": "Hepatic lipase",
+        "C": "Hormone-sensitive lipase",
+        "D": "Lipoprotein lipase",
+        "E": "Pancreatic lipase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This is the regulated enzyme of fatty acid synthesis, not of triglyceride hydrolysis.",
+        "B": "Hepatic lipase remodels HDL and LDL particles and does not mobilize stored fat.",
+        "C": "ANP and BNP, like epinephrine and norepinephrine, stimulate adipocyte lipolysis through adipocyte triglyceride lipase and hormone-sensitive lipase.",
+        "D": "This endothelial enzyme clears triglyceride from circulating lipoproteins for storage and is stimulated by insulin.",
+        "E": "Pancreatic lipase digests dietary triglyceride in the intestinal lumen."
+      }
+    },
+    {
+      "id": "endorepro-regulation-of-plasma-glucose-020",
+      "question": "A 20-year-old woman eats a large pasta meal after an overnight fast. Her portal venous glucose concentration rises to 220 mg/dL, and hepatic glycogen synthesis proceeds briskly even as hepatocyte glucose 6-phosphate accumulates. Which property of the hepatic glucose-phosphorylating enzyme permits this?",
+      "answers": {
+        "A": "It is activated by glucagon through protein kinase A",
+        "B": "It is dependent on GLUT-4 insertion for substrate",
+        "C": "It is expressed only during prolonged fasting",
+        "D": "It is fully saturated at fasting glucose levels",
+        "E": "It is not inhibited by glucose 6-phosphate"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Glucokinase is stimulated by insulin and glucose in the fed state, not by glucagon.",
+        "B": "The liver has glucose transporters in its membrane at all times and does not rely on GLUT-4.",
+        "C": "Hepatic glucokinase activity increases in the fed state under the influence of insulin.",
+        "D": "That describes hexokinase; glucokinase activity keeps rising with glucose across the physiological range.",
+        "E": "Unlike hexokinase, glucokinase is not subject to product inhibition, so glucose 6-phosphate can accumulate and allosterically stimulate glycogen synthase."
+      }
+    }
+  ]
+}
