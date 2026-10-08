@@ -1,0 +1,490 @@
+{
+  "lecture": "Pituitary & Hypothalamus",
+  "block": "endorepro",
+  "generated": "2026-10-08",
+  "questions": [
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-001",
+      "question": "A 48-year-old man seeks care for erectile dysfunction. His shoe size has increased from 9 to 11 over 5 years, and his dental plate has been refitted three times. He has coarse facial features, an enlarged tongue, widely spaced teeth, and spade-like hands. Laboratory results are shown. Which additional finding would confirm the suspected diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting glucose",
+          "150 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Fasting growth hormone",
+          "40 ng/mL",
+          "<3 ng/mL"
+        ],
+        [
+          "IGF-1",
+          "780 ng/mL",
+          "90–360 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "GH falls below 1 ng/mL after an oral glucose load",
+        "B": "GH remains elevated after an oral glucose load",
+        "C": "GH rises after an intravenous arginine infusion",
+        "D": "GH rises after insulin-induced hypoglycemia",
+        "E": "GH rises during a period of slow-wave sleep"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Suppression by glucose is the normal response and would argue against acromegaly.",
+        "B": "Glucose normally inhibits GH secretion, so failure of GH to suppress after an oral glucose load indicates autonomous secretion, as in acromegaly.",
+        "C": "Amino acids such as arginine normally stimulate GH release.",
+        "D": "Hypoglycemia is a normal stimulus for GH release and is used to test for deficiency, not excess.",
+        "E": "Sleep-related GH pulses are physiologic and do not distinguish a tumor from normal secretion."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-002",
+      "question": "A 48-year-old man with coarsened facial features and enlarging hands and feet is found on visual field testing to have lost the lateral half of the visual field in each eye. MRI shows a large pituitary mass extending upward out of the sella turcica. The mass is compressing which structure?",
+      "answers": {
+        "A": "Lateral geniculate nucleus",
+        "B": "Left optic tract",
+        "C": "Oculomotor nerve",
+        "D": "Optic chiasm",
+        "E": "Right optic nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This thalamic relay lies well away from the sella, and a lesion produces a contralateral homonymous defect.",
+        "B": "A lesion of one optic tract causes a contralateral homonymous hemianopia, not bitemporal loss.",
+        "C": "Lateral extension into the cavernous sinus can affect this nerve, causing ptosis and diplopia rather than a field defect.",
+        "D": "A pituitary mass growing upward compresses the crossing nasal retinal fibers in the optic chiasm, producing loss of both temporal visual fields.",
+        "E": "A lesion of one optic nerve causes monocular visual loss in that eye."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-003",
+      "question": "A 44-year-old woman with newly diagnosed acromegaly has a fasting glucose of 148 mg/dL and an elevated fasting insulin level. She has no family history of diabetes. Which action of growth hormone best explains her hyperglycemia?",
+      "answers": {
+        "A": "Autoimmune destruction of the insulin-producing beta cells of the pancreatic islets",
+        "B": "Increased glucagon secretion caused by hyperplasia of the pancreatic alpha cells",
+        "C": "Increased reabsorption of filtered glucose by SGLT2 in the proximal renal tubule",
+        "D": "Reduced glucose uptake in muscle and fat with increased hepatic gluconeogenesis",
+        "E": "Suppressed insulin secretion caused by excess somatostatin from the hypothalamus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Her insulin level is elevated, indicating insulin resistance rather than insulin deficiency.",
+        "B": "Alpha-cell hyperplasia is not a feature of GH excess.",
+        "C": "GH does not act by increasing renal glucose reabsorption.",
+        "D": "GH has anti-insulin actions: it decreases glucose uptake in muscle and adipose tissue and increases hepatic gluconeogenesis, producing insulin resistance.",
+        "E": "Somatostatin does rise in response to high GH, but her insulin is high and the dominant effect is peripheral resistance."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-004",
+      "question": "A 51-year-old man has residual tumor after transsphenoidal resection of a growth hormone-secreting adenoma. He is started on monthly injections of a long-acting analog of a hypothalamic hormone, and his GH level falls. Which intracellular change in the somatotropes accounts for this response?",
+      "answers": {
+        "A": "Decreased cAMP and decreased intracellular calcium",
+        "B": "Decreased cAMP and increased intracellular calcium",
+        "C": "Increased cAMP and decreased intracellular calcium",
+        "D": "Increased cAMP and increased intracellular calcium",
+        "E": "Unchanged cAMP and unchanged intracellular calcium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Somatostatin analogs such as octreotide block GHRH signaling, lowering cAMP and intracellular calcium in somatotropes and inhibiting GH release.",
+        "B": "Somatostatin lowers both second messengers; a rise in calcium would promote secretion.",
+        "C": "Somatostatin reduces cAMP rather than raising it.",
+        "D": "This is the effect of GHRH receptor activation, which stimulates GH synthesis and release.",
+        "E": "A GH receptor antagonist would act in peripheral tissues without changing somatotrope signaling, but this drug acts on the pituitary."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-005",
+      "question": "A 39-year-old woman with acromegaly has persistently elevated IGF-1 despite surgery and a somatostatin analog. She is started on a drug that antagonizes the growth hormone receptor. Three months later, which laboratory pattern is expected?",
+      "answers": {
+        "A": "GH decreased, IGF-1 decreased",
+        "B": "GH decreased, IGF-1 unchanged",
+        "C": "GH increased, IGF-1 decreased",
+        "D": "GH increased, IGF-1 increased",
+        "E": "GH unchanged, IGF-1 unchanged"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This is the pattern produced by tumor removal or a somatostatin analog, which lower GH secretion itself.",
+        "B": "A receptor antagonist does not reduce GH secretion, and its purpose is to lower IGF-1.",
+        "C": "Pegvisomant blocks the GH receptor so hepatic IGF-1 production falls, while GH secretion from the tumor continues and rises further as IGF-1 feedback is lost.",
+        "D": "Blocking the GH receptor prevents GH from stimulating IGF-1 synthesis.",
+        "E": "Effective receptor blockade lowers IGF-1."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-006",
+      "question": "A 14-year-old boy is 198 cm tall and has grown 14 cm in the past year. Serum growth hormone and IGF-1 are markedly elevated, and MRI shows a pituitary adenoma. An adult with the same tumor would develop enlarged hands, feet, and jaw without an increase in height. Which factor accounts for this difference?",
+      "answers": {
+        "A": "Epiphyseal growth plates have not yet fused",
+        "B": "Growth hormone receptors are lost after puberty",
+        "C": "Hepatic IGF-1 synthesis occurs only in childhood",
+        "D": "Hypothalamic somatostatin appears only in adults",
+        "E": "Pulsatile GH secretion is abolished after puberty"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "GH excess beginning in childhood or puberty causes gigantism because open growth plates still permit linear bone growth; after puberty the same excess causes acromegaly.",
+        "B": "GH receptors are found in most tissues throughout life.",
+        "C": "The liver produces IGF-1 in response to GH at all ages, and IGF-1 is elevated in adult acromegaly.",
+        "D": "Somatostatin regulates GH secretion in children as well as adults.",
+        "E": "GH secretion remains pulsatile in adults, with peaks during slow-wave sleep."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-007",
+      "question": "A 4-year-old boy born to consanguineous parents has severe short stature and delayed bone age. Laboratory results are shown. After a 5-day trial of recombinant growth hormone injections, his IGF-1 level is unchanged. A defect in which protein is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Growth hormone (random)",
+          "38 ng/mL",
+          "<10 ng/mL"
+        ],
+        [
+          "IGF-1",
+          "12 ng/mL",
+          "50–280 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "GHRH receptor",
+        "B": "Growth hormone",
+        "C": "Growth hormone receptor",
+        "D": "IGF-1 receptor",
+        "E": "Somatostatin receptor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Without GHRH signaling, GH would be low rather than elevated.",
+        "B": "A GH gene defect that abolishes GH production would give low GH, and IGF-1 would rise with GH replacement.",
+        "C": "Laron syndrome is caused by defective GH receptors, producing apparent severe GH deficiency with elevated GH, very low IGF-1, and no response to exogenous GH.",
+        "D": "Resistance to IGF-1 would produce elevated rather than very low IGF-1.",
+        "E": "Loss of somatostatin inhibition would increase GH with a normal rise in IGF-1 and tall stature."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-008",
+      "question": "A 6-year-old girl is evaluated for short stature and delayed bone maturation. Laboratory results before and after an intravenous injection of growth hormone-releasing hormone are shown. Thyroid function and cortisol are normal. The defect is most likely located in which structure?",
+      "table": [
+        [
+          "Test",
+          "Baseline",
+          "After GHRH",
+          "Reference (baseline)"
+        ],
+        [
+          "Growth hormone",
+          "0.4 ng/mL",
+          "18 ng/mL",
+          "<10 ng/mL"
+        ],
+        [
+          "IGF-1",
+          "22 ng/mL",
+          "Not measured",
+          "60–300 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior pituitary",
+        "B": "Epiphyseal growth plate",
+        "C": "Hypothalamus",
+        "D": "Liver",
+        "E": "Posterior pituitary"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A somatotrope defect would prevent GH from rising after GHRH.",
+        "B": "A target-tissue defect would not lower GH or IGF-1 levels.",
+        "C": "Low GH and IGF-1 with a brisk GH response to exogenous GHRH indicates functional somatotropes that lack their hypothalamic stimulus.",
+        "D": "Failure of hepatic IGF synthesis would give low IGF-1 with elevated, not low, baseline GH.",
+        "E": "The posterior pituitary releases ADH and oxytocin and does not regulate GH."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-009",
+      "question": "A 27-year-old man sustains a severe head injury in a motorcycle crash. MRI shows transection of the pituitary stalk. Several weeks later, the serum concentration of which anterior pituitary hormone is most likely to be increased?",
+      "answers": {
+        "A": "Adrenocorticotropic hormone",
+        "B": "Growth hormone",
+        "C": "Luteinizing hormone",
+        "D": "Prolactin",
+        "E": "Thyroid-stimulating hormone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "ACTH depends on stimulation by CRH delivered through the portal veins and would fall.",
+        "B": "GH secretion requires GHRH from the hypothalamus and would fall.",
+        "C": "LH requires pulsatile GnRH from the hypothalamus and would fall.",
+        "D": "Lactotropes are held under dominant tonic inhibition by a hypothalamic prolactin-inhibitory hormone, so interrupting portal flow raises prolactin while the other anterior pituitary hormones fall.",
+        "E": "TSH requires TRH from the hypothalamus and would fall."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-010",
+      "question": "A 34-year-old man develops intense thirst and passes 7 L of urine daily after a head injury. Laboratory results are shown. The deficient hormone is synthesized by neurons whose cell bodies lie in which location?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum sodium",
+          "149 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Serum osmolality",
+          "308 mOsm/kg",
+          "275–295 mOsm/kg"
+        ],
+        [
+          "Urine osmolality",
+          "110 mOsm/kg",
+          "300–900 mOsm/kg"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior pituitary",
+        "B": "Arcuate nucleus",
+        "C": "Median eminence",
+        "D": "Posterior pituitary",
+        "E": "Supraoptic nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior pituitary contains endocrine cells that make ACTH, TSH, LH, FSH, GH, and prolactin.",
+        "B": "The arcuate nucleus regulates appetite and releases hypophysiotropic hormones; it does not make ADH.",
+        "C": "The median eminence is where releasing hormones enter the portal veins, not a site of ADH synthesis.",
+        "D": "ADH is stored in and released from axon terminals here, but it is synthesized in hypothalamic cell bodies.",
+        "E": "Antidiuretic hormone is synthesized in the supraoptic nucleus of the hypothalamus and transported down axons for release in the posterior pituitary."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-011",
+      "question": "A 29-year-old woman is breastfeeding her newborn. Within a minute of the infant latching, she feels milk ejection. Which description best explains how the responsible hormone enters the circulation?",
+      "answers": {
+        "A": "Released at the median eminence into the long portal veins",
+        "B": "Released from axon terminals into posterior pituitary capillaries",
+        "C": "Released from hypothalamic neurons into the third ventricle",
+        "D": "Secreted by anterior pituitary cells into the systemic veins",
+        "E": "Secreted by intermediate lobe cells into the short portal veins"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This route carries hypothalamic releasing and inhibiting hormones to the anterior pituitary.",
+        "B": "Oxytocin is made in the paraventricular nucleus, transported down axons, and released by action potentials at the posterior pituitary capillary bed, a neuroendocrine mechanism.",
+        "C": "Posterior pituitary hormones reach the blood at pituitary capillaries, not through cerebrospinal fluid.",
+        "D": "Anterior pituitary endocrine cells secrete ACTH, TSH, LH, FSH, GH, and prolactin, not oxytocin.",
+        "E": "The intermediate lobe is vestigial in humans."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-012",
+      "question": "In an experimental study, a labeled peptide is injected so that it is released only from hypothalamic nerve terminals at the median eminence. Assuming normal anatomy, in which vascular bed will the label next appear in highest concentration?",
+      "answers": {
+        "A": "Capillary bed of the adrenal cortex",
+        "B": "Capillary bed of the anterior pituitary",
+        "C": "Capillary bed of the choroid plexus",
+        "D": "Capillary bed of the hepatic sinusoids",
+        "E": "Capillary bed of the posterior pituitary"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hypothalamic releasing hormones are delivered locally to the pituitary and are greatly diluted before reaching peripheral organs.",
+        "B": "Peptides released at the median eminence enter capillaries that drain into the long portal veins, which run down the stalk to the capillary bed of the anterior pituitary.",
+        "C": "The median eminence empties into the portal vessels rather than the ventricular system.",
+        "D": "The liver is a target of GH and reaches the pituitary hormones only through the systemic circulation.",
+        "E": "The posterior pituitary receives hormones by axonal transport, not through the long portal veins."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-013",
+      "question": "A 45-year-old man with severe untreated obstructive sleep apnea undergoes polysomnography, which shows almost no slow-wave sleep. Growth hormone is sampled every 20 minutes for 24 hours. Compared with a healthy man of the same age, what would his total GH secretion most likely be?",
+      "answers": {
+        "A": "Decreased, because REM sleep normally triggers most GH release",
+        "B": "Decreased, because slow-wave sleep normally triggers most GH release",
+        "C": "Increased, because sleep loss acts like exercise to stimulate GH release",
+        "D": "Increased, because slow-wave sleep normally suppresses GH release",
+        "E": "Unchanged, because GH is released at a constant rate across the day"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "REM sleep inhibits GH secretion; the peaks occur in slow-wave sleep.",
+        "B": "About 70% of GH is secreted during slow-wave sleep, and deprivation of slow-wave sleep attenuates GH secretion.",
+        "C": "Although exercise and stress stimulate GH, loss of slow-wave sleep lowers overall secretion.",
+        "D": "Slow-wave sleep is a major stimulus for GH release, not a suppressor.",
+        "E": "GH secretion is pulsatile with large-amplitude oscillations, not constant."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-014",
+      "question": "An 8-year-old boy is evaluated for short stature with a height below the 1st percentile and delayed bone age. Because a random growth hormone level is uninformative, a provocative test is planned. Which stimulus would be expected to raise GH in a healthy child?",
+      "answers": {
+        "A": "Exogenous GH injection",
+        "B": "IGF-1 infusion",
+        "C": "Insulin-induced hypoglycemia",
+        "D": "Oral glucose tolerance test",
+        "E": "Somatostatin infusion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "GH inhibits its own secretion through negative feedback.",
+        "B": "IGF-1 exerts negative feedback on GH secretion.",
+        "C": "Hypoglycemia is a potent physiologic stimulus for GH secretion, so failure of GH to rise suggests deficiency.",
+        "D": "Glucose inhibits GH secretion and is used to test for GH excess.",
+        "E": "Somatostatin inhibits GH release by blocking GHRH signaling."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-015",
+      "question": "A 7-year-old girl with a growth hormone receptor defect is started on twice-daily injections of recombinant IGF-1. Which changes in her endogenous hormone secretion are expected?",
+      "answers": {
+        "A": "Decreased GH secretion and decreased somatostatin release",
+        "B": "Decreased GH secretion and increased somatostatin release",
+        "C": "Increased GH secretion and decreased somatostatin release",
+        "D": "Increased GH secretion and increased somatostatin release",
+        "E": "Unchanged GH secretion and unchanged somatostatin release"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Somatostatin release rises rather than falls when IGF levels are high.",
+        "B": "IGF-1 feeds back negatively on GH, in part because somatostatin is secreted by the hypothalamus in response to high GH and IGF levels.",
+        "C": "This is the pattern seen when IGF-1 is low and feedback is lost, as in her untreated state.",
+        "D": "GH secretion falls under IGF-1 negative feedback.",
+        "E": "IGF-1 is the principal end-organ signal in the feedback loop that controls GH."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-016",
+      "question": "A 9-year-old boy receiving recombinant IGF-1 for severe primary IGF-1 deficiency becomes sweaty and tremulous 1 hour after a dose given without food. His fingerstick glucose is 48 mg/dL. This effect is best explained by the fact that IGF-1 signals through which type of receptor?",
+      "answers": {
+        "A": "Gs protein-coupled receptor that raises cAMP",
+        "B": "Intracellular receptor that binds DNA directly",
+        "C": "Ligand-gated ion channel in the cell membrane",
+        "D": "Single-chain receptor that dimerizes on binding",
+        "E": "Tyrosine kinase receptor like the insulin receptor"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This describes the GHRH receptor on somatotropes.",
+        "B": "Nuclear receptors mediate steroid and thyroid hormone actions, not those of peptide growth factors.",
+        "C": "Ligand-gated channels mediate fast synaptic transmission, not growth factor signaling.",
+        "D": "This describes the growth hormone receptor.",
+        "E": "IGF-1 resembles proinsulin, and its receptor is a tetrameric tyrosine kinase resembling the insulin receptor, which accounts for its insulin-like effects on glucose."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-017",
+      "question": "A 42-year-old woman has enlarging hands and a widening jaw. Her physician orders a serum IGF-1 level rather than a random growth hormone level as the initial test. Which property of growth hormone makes a single random GH measurement unreliable?",
+      "answers": {
+        "A": "GH circulates almost entirely bound to carrier proteins",
+        "B": "GH is rapidly converted to IGF-1 in the plasma",
+        "C": "GH is released in pulses and cleared within minutes",
+        "D": "GH is secreted only during periods of REM sleep",
+        "E": "GH is undetectable in adults after epiphyseal closure"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Only about 30% of GH is bound to GH-binding protein; it is the IGFs that are mostly protein bound.",
+        "B": "GH is not converted to IGF-1; it induces IGF synthesis in the liver.",
+        "C": "GH is secreted in pulses with a half-life of 6 to 20 minutes, whereas IGFs are mostly bound to binding proteins and have a half-life of about 12 hours.",
+        "D": "GH peaks occur in slow-wave sleep and also in pulses during the day.",
+        "E": "Adults continue to secrete GH, with basal levels below 3 ng/mL."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-018",
+      "question": "A 38-year-old man develops growth hormone deficiency after surgery and radiation for a pituitary tumor. His other pituitary hormones are fully replaced, and recombinant growth hormone is started. Over the following year, which change in body composition is expected?",
+      "answers": {
+        "A": "Decreased lean body mass and decreased adiposity",
+        "B": "Decreased lean body mass and increased adiposity",
+        "C": "Increased lean body mass and decreased adiposity",
+        "D": "Increased lean body mass and increased adiposity",
+        "E": "Unchanged lean body mass and unchanged adiposity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "GH is anabolic in muscle and would not reduce lean mass.",
+        "B": "This describes untreated GH deficiency, which is associated with mild obesity.",
+        "C": "GH increases protein synthesis and muscle mass and stimulates lipolysis, so replacement increases lean body mass and decreases adiposity.",
+        "D": "GH promotes lipolysis and reduces fat mass.",
+        "E": "GH has well-described effects on both muscle and adipose tissue in adults."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-019",
+      "question": "A 3-year-old boy from a region affected by famine has peripheral edema, a distended abdomen, and marked growth failure. His diet consists almost entirely of starch. Laboratory results are shown. Which mechanism best explains his growth hormone findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Albumin",
+          "1.9 g/dL",
+          "3.5–5.5 g/dL"
+        ],
+        [
+          "Growth hormone (fasting)",
+          "24 ng/mL",
+          "<10 ng/mL"
+        ],
+        [
+          "IGF-1",
+          "15 ng/mL",
+          "50–250 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Absent GHRH synthesis in the hypothalamus",
+        "B": "Autonomous GH secretion by a pituitary adenoma",
+        "C": "Destruction of somatotropes in the anterior pituitary",
+        "D": "Excess somatostatin release from the hypothalamus",
+        "E": "Reduced GH receptor function in target tissues"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Loss of GHRH would lower GH rather than raise it.",
+        "B": "An adenoma would raise IGF-1 and accelerate growth.",
+        "C": "Loss of somatotropes would produce low GH.",
+        "D": "Somatostatin inhibits GH secretion and would lower GH.",
+        "E": "In kwashiorkor, severe protein deficiency causes GH receptor defects, so IGF-1 is low and GH rises through loss of negative feedback."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-and-hypothalamus-020",
+      "question": "A 52-year-old woman with acromegaly is treated with a long-acting analog of the hypothalamic hormone that inhibits somatotropes. Based on the normal hypothalamic regulation of the anterior pituitary, secretion of which other hormone is also directly inhibited by the native hormone?",
+      "answers": {
+        "A": "Adrenocorticotropic hormone",
+        "B": "Antidiuretic hormone",
+        "C": "Follicle-stimulating hormone",
+        "D": "Luteinizing hormone",
+        "E": "Thyroid-stimulating hormone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "ACTH secretion is stimulated by CRH and is not under somatostatin control in the normal axis.",
+        "B": "ADH is released from the posterior pituitary by action potentials in hypothalamic neurons.",
+        "C": "FSH is stimulated by GnRH and regulated by gonadal feedback.",
+        "D": "LH is stimulated by GnRH and regulated by gonadal feedback.",
+        "E": "Somatostatin inhibits thyrotropes as well as somatotropes, so TSH secretion is stimulated by TRH and inhibited by somatostatin."
+      }
+    }
+  ]
+}

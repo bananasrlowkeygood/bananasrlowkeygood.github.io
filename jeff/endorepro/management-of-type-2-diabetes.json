@@ -1,0 +1,594 @@
+{
+  "lecture": "Management of Type 2 Diabetes",
+  "block": "endorepro",
+  "generated": "2026-10-08",
+  "questions": [
+    {
+      "id": "endorepro-management-of-type-2-diabetes-001",
+      "question": "A 52-year-old woman with newly diagnosed type 2 diabetes (hemoglobin A1c 7.4%) started the usual first-line oral agent at full dose 2 weeks ago. She now has loose stools, nausea, and abdominal discomfort after each dose. Her eGFR is 88 mL/min/1.73 m2. Which recommendation is most appropriate?",
+      "answers": {
+        "A": "Add a second agent to control the hypoglycemia",
+        "B": "Stop the drug because it is injuring her kidneys",
+        "C": "Stop the drug because lactic acidosis is developing",
+        "D": "Switch the drug to a sulfonylurea right away",
+        "E": "Take the drug with food and increase the dose slowly"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Metformin does not cause hypoglycemia, and her symptoms are gastrointestinal.",
+        "B": "Metformin does not cause kidney dysfunction; it is cleared by the kidney, and her eGFR is normal.",
+        "C": "Lactic acidosis is rare and occurs in patients with renal failure or tissue hypoxia, neither of which is present.",
+        "D": "A sulfonylurea adds hypoglycemia and weight gain, and her symptoms are usually manageable without changing class.",
+        "E": "Gastrointestinal upset is the most common adverse effect of metformin, occurring in up to 20% of patients, and it is lessened by taking the drug with food and titrating slowly."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-002",
+      "question": "A 69-year-old man with type 2 diabetes and progressive chronic kidney disease takes metformin 1000 mg twice daily. He feels well. Laboratory results are shown. Which change to his regimen is most appropriate?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Creatinine",
+          "2.4 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "eGFR",
+          "26 mL/min/1.73 m2",
+          ">60 mL/min/1.73 m2"
+        ],
+        [
+          "Bicarbonate",
+          "23 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Hemoglobin A1c",
+          "7.1%",
+          "<5.7%"
+        ]
+      ],
+      "answers": {
+        "A": "Add glyburide and continue metformin",
+        "B": "Continue metformin at the current dose",
+        "C": "Discontinue metformin",
+        "D": "Increase metformin to the maximal dose",
+        "E": "Reduce metformin to 1000 mg daily"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This leaves a contraindicated drug in place and adds a sulfonylurea, whose hypoglycemia risk is increased by renal impairment.",
+        "B": "Full-dose metformin is appropriate only when the eGFR is 45 mL/min/1.73 m2 or higher.",
+        "C": "Metformin is excreted unchanged by the kidney and is contraindicated when the eGFR is below 30 mL/min/1.73 m2 because of the risk of lactic acidosis.",
+        "D": "Raising the dose of a renally cleared drug in advanced kidney disease increases the risk of accumulation.",
+        "E": "A maximum of 1000 mg daily is the cautious dose for an eGFR of 30 to 44, not below 30."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-003",
+      "question": "A 61-year-old man with type 2 diabetes controlled on metformin is scheduled for CT angiography with iodinated contrast to evaluate claudication. His eGFR is 52 mL/min/1.73 m2. Which is the most appropriate plan for his metformin?",
+      "answers": {
+        "A": "Continue it through the study, since his renal function is acceptable",
+        "B": "Halve the dose now and keep the lower dose indefinitely",
+        "C": "Hold it the day of the study and restart once renal function is confirmed",
+        "D": "Replace it with glyburide for the month surrounding the study",
+        "E": "Stop it permanently and begin basal insulin after the study"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Contrast can acutely reduce renal clearance of metformin, so the drug is held even when baseline eGFR is adequate.",
+        "B": "His eGFR permits full dosing; the concern is a transient contrast-related decline, which is managed by holding the drug.",
+        "C": "Metformin is temporarily held for radiocontrast administration and resumed after renal function is shown not to have deteriorated.",
+        "D": "A sulfonylurea adds hypoglycemia risk and is unnecessary for a brief interruption.",
+        "E": "The interruption is temporary; there is no reason to abandon an effective first-line agent."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-004",
+      "question": "A 66-year-old woman has taken metformin for 12 years for type 2 diabetes. She reports fatigue and numbness of both feet. Vibration sense is reduced at the toes. Laboratory results are shown. Which mechanism best explains these findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "10.8 g/dL",
+          "12.0–16.0 g/dL"
+        ],
+        [
+          "Mean corpuscular volume",
+          "112 fL",
+          "80–100 fL"
+        ],
+        [
+          "Vitamin B12",
+          "140 pg/mL",
+          "200–900 pg/mL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.8%",
+          "<5.7%"
+        ]
+      ],
+      "answers": {
+        "A": "Autoimmune destruction of the gastric parietal cells",
+        "B": "Glycation of peripheral nerve proteins by hyperglycemia",
+        "C": "Impaired ileal absorption of the B12-intrinsic factor complex",
+        "D": "Inhibition of the enzyme dihydrofolate reductase",
+        "E": "Reduced hepatic gluconeogenesis and lactate clearance"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Pernicious anemia also causes B12 deficiency but is not the mechanism linked to her long-term medication.",
+        "B": "Diabetic neuropathy could cause numbness but would not explain macrocytosis and a low B12 with good glycemic control.",
+        "C": "Long-term metformin can interfere with absorption of the B12-intrinsic factor complex in the terminal ileum, so periodic B12 screening is advised, especially with neuropathy.",
+        "D": "Dihydrofolate reductase inhibitors such as methotrexate cause folate-related macrocytosis without low B12 or neuropathy.",
+        "E": "This is the mechanism of metformin's glucose lowering and of lactic acidosis, not of macrocytic anemia."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-005",
+      "question": "A 72-year-old man with type 2 diabetes treated with metformin is admitted with septic shock from pneumonia. Blood pressure is 78/44 mm Hg. Laboratory results are shown. His home medication contributes to the acid-base disorder through which mechanism?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Arterial pH",
+          "7.18",
+          "7.35–7.45"
+        ],
+        [
+          "Bicarbonate",
+          "10 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Anion gap",
+          "26 mEq/L",
+          "8–12 mEq/L"
+        ],
+        [
+          "Lactate",
+          "9.8 mmol/L",
+          "0.5–2.0 mmol/L"
+        ],
+        [
+          "Creatinine",
+          "3.1 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "Glucose",
+          "164 mg/dL",
+          "70–99 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Activation of PPAR-gamma receptors, causing renal fluid retention",
+        "B": "Closure of beta-cell K-ATP channels, causing excess insulin release",
+        "C": "Inhibition of hepatic gluconeogenesis, impairing lactate metabolism",
+        "D": "Inhibition of intestinal alpha-glucosidase, causing bicarbonate loss",
+        "E": "Inhibition of proximal tubular SGLT2, promoting ketone formation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Thiazolidinediones cause edema and heart failure, not an anion gap acidosis.",
+        "B": "This describes sulfonylureas, which cause hypoglycemia rather than lactic acidosis.",
+        "C": "By blocking gluconeogenesis, metformin can impair hepatic metabolism of lactate; shock raises lactate production while renal failure reduces metformin clearance.",
+        "D": "Alpha-glucosidase inhibitors cause flatulence and diarrhea and are not associated with lactic acidosis.",
+        "E": "SGLT2 inhibitors cause euglycemic ketoacidosis with elevated ketones, not a lactate of 9.8 mmol/L."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-006",
+      "question": "A 35-year-old woman with type 2 diabetes and obesity starts a once-weekly injectable agent. Over 3 months her hemoglobin A1c falls from 8.2% to 6.9% and she loses 5 kg, with no episodes of hypoglycemia. Which description of this drug's effect on islet hormones is most accurate?",
+      "answers": {
+        "A": "Decreased insulin and decreased glucagon, regardless of glucose level",
+        "B": "Increased insulin and decreased glucagon, only when glucose is elevated",
+        "C": "Increased insulin and decreased glucagon, regardless of glucose level",
+        "D": "Increased insulin and increased glucagon, only when glucose is elevated",
+        "E": "Unchanged insulin and unchanged glucagon, with direct insulin-like action"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lower insulin would worsen rather than improve glycemic control.",
+        "B": "GLP-1 receptor agonists stimulate insulin and suppress glucagon in a glucose-dependent manner, which is why they do not cause hypoglycemia.",
+        "C": "A glucose-independent effect would cause hypoglycemia, which this class does not.",
+        "D": "GLP-1 suppresses inappropriately elevated glucagon after meals rather than raising it.",
+        "E": "These agents are analogs of the incretin GLP-1, not of insulin."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-007",
+      "question": "A 45-year-old woman with type 2 diabetes and a BMI of 36 kg/m2 has a hemoglobin A1c of 8.4% on metformin. Her mother and sister were treated for medullary thyroid carcinoma, and she carries a RET proto-oncogene mutation. Which drug is contraindicated?",
+      "answers": {
+        "A": "Empagliflozin",
+        "B": "Glipizide",
+        "C": "Liraglutide",
+        "D": "Pioglitazone",
+        "E": "Sitagliptin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "SGLT2 inhibitors are avoided in type 1 diabetes, ketosis-prone diabetes, and dialysis, not in medullary thyroid cancer.",
+        "B": "Sulfonylureas cause hypoglycemia and weight gain but have no thyroid C-cell warning.",
+        "C": "GLP-1 receptor agonists are contraindicated with a personal or family history of medullary thyroid cancer or MEN 2A or 2B because of C-cell hyperplasia seen in rodents.",
+        "D": "Thiazolidinediones are limited by heart failure, fracture, and bladder cancer concerns, not thyroid cancer.",
+        "E": "DPP-4 inhibitors should not be started in patients with a history of pancreatitis but carry no medullary thyroid cancer contraindication."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-008",
+      "question": "A 50-year-old man has had type 2 diabetes for 6 years. He had a myocardial infarction with stent placement last year and also has hypertension and hyperlipidemia. He takes metformin and glyburide. His eGFR is normal. Which agent is the most appropriate addition?",
+      "table": [
+        [
+          "Measure",
+          "Value"
+        ],
+        [
+          "BMI",
+          "34 kg/m2"
+        ],
+        [
+          "Blood pressure",
+          "140/88 mm Hg"
+        ],
+        [
+          "Hemoglobin A1c",
+          "9.0%"
+        ]
+      ],
+      "answers": {
+        "A": "Glimepiride",
+        "B": "Pioglitazone",
+        "C": "Repaglinide",
+        "D": "Semaglutide",
+        "E": "Sitagliptin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "He already takes a sulfonylurea, and the class offers no cardiovascular benefit while causing hypoglycemia and weight gain.",
+        "B": "Thiazolidinediones cause weight gain and fluid retention and increase the risk of heart failure.",
+        "C": "Meglitinides act like sulfonylureas, add hypoglycemia risk, and have no cardiovascular benefit.",
+        "D": "With established atherosclerotic cardiovascular disease, a GLP-1 receptor agonist with proven reduction in major adverse cardiac events is preferred and adds potent A1c lowering and weight loss.",
+        "E": "DPP-4 inhibitors are weight neutral, lower A1c by less than 1%, and have no evidence of cardiovascular benefit."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-009",
+      "question": "A 57-year-old man with type 2 diabetes and heart failure began a new once-daily oral agent 6 weeks ago. He has lost 2.5 kg and his systolic blood pressure has fallen by 4 mm Hg. Laboratory results are shown. This drug acts at which site?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Plasma glucose",
+          "118 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Urine glucose",
+          "3+",
+          "Negative"
+        ],
+        [
+          "Urine ketones",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "Hemoglobin A1c",
+          "7.0% (previously 7.8%)",
+          "<5.7%"
+        ]
+      ],
+      "answers": {
+        "A": "Cortical collecting duct",
+        "B": "Distal convoluted tubule",
+        "C": "Juxtaglomerular apparatus",
+        "D": "Proximal convoluted tubule",
+        "E": "Thick ascending limb of the loop of Henle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Potassium-sparing diuretics act on principal cells here and do not affect glucose handling.",
+        "B": "Thiazide diuretics act here and tend to raise rather than lower plasma glucose.",
+        "C": "This structure regulates renin release and is not a site of glucose reabsorption.",
+        "D": "SGLT2 inhibitors block glucose reabsorption in the proximal tubule, producing glucosuria at near-normal plasma glucose along with weight loss and lower blood pressure.",
+        "E": "This is the site of the Na-K-2Cl cotransporter blocked by loop diuretics, which do not cause glucosuria."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-010",
+      "question": "A 49-year-old woman with type 2 diabetes started dapagliflozin 2 months ago. She now has vulvar itching and a thick white vaginal discharge. Vaginal pH is 4.0, and a potassium hydroxide preparation shows branching hyphae. Which effect of her medication most directly predisposed her to this infection?",
+      "answers": {
+        "A": "Decreased gastric emptying after meals",
+        "B": "Decreased hepatic production of glucose",
+        "C": "Increased pancreatic secretion of insulin",
+        "D": "Increased peripheral sensitivity to insulin",
+        "E": "Increased urinary excretion of glucose"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "GLP-1 receptor agonists slow gastric emptying, causing nausea rather than genital infection.",
+        "B": "Metformin reduces gluconeogenesis and does not produce glucosuria.",
+        "C": "This is the action of sulfonylureas and meglitinides and does not predispose to candidiasis.",
+        "D": "Thiazolidinediones sensitize tissues to insulin and are not linked to genital mycotic infection.",
+        "E": "SGLT2 inhibitors cause glucosuria, which raises the incidence of vulvovaginal candidiasis and urinary tract infection about two- to fourfold."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-011",
+      "question": "A 56-year-old woman with type 2 diabetes treated with metformin and empagliflozin undergoes hip fracture repair. She has been without oral intake for 36 hours, and her home medications were continued until admission. She now has nausea, vomiting, and deep rapid breathing. Laboratory results are shown. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "186 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Arterial pH",
+          "7.21",
+          "7.35–7.45"
+        ],
+        [
+          "Bicarbonate",
+          "12 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Anion gap",
+          "22 mEq/L",
+          "8–12 mEq/L"
+        ],
+        [
+          "Beta-hydroxybutyrate",
+          "5.8 mmol/L",
+          "<0.4 mmol/L"
+        ],
+        [
+          "Lactate",
+          "1.1 mmol/L",
+          "0.5–2.0 mmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Euglycemic diabetic ketoacidosis",
+        "B": "Hyperosmolar hyperglycemic state",
+        "C": "Metformin-associated lactic acidosis",
+        "D": "Simple starvation ketosis",
+        "E": "Sulfonylurea-induced hypoglycemia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "SGLT2 inhibitors can cause ketoacidosis with a plasma glucose below 250 mg/dL, which is why they are held for surgery, fasting states, and dehydration.",
+        "B": "This presents with extreme hyperglycemia and hyperosmolality without significant ketoacidosis.",
+        "C": "Lactate is normal, and the anion gap is explained by markedly elevated ketones.",
+        "D": "Fasting alone produces mild ketosis without a pH of 7.21 or a bicarbonate of 12 mEq/L.",
+        "E": "She is not taking a sulfonylurea, and her glucose is elevated rather than low."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-012",
+      "question": "A 70-year-old man with coronary artery disease, heart failure, and chronic kidney disease is seen for type 2 diabetes. He takes glyburide 5 mg daily, and his home glucose readings average 200 mg/dL. He has bilateral lower extremity edema. Glyburide is stopped. Which agent is the most appropriate to start?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "eGFR",
+          "35 mL/min/1.73 m2",
+          ">60 mL/min/1.73 m2"
+        ],
+        [
+          "Hemoglobin A1c",
+          "8.8%",
+          "<5.7%"
+        ]
+      ],
+      "answers": {
+        "A": "Empagliflozin",
+        "B": "Glimepiride",
+        "C": "Metformin",
+        "D": "Pioglitazone",
+        "E": "Saxagliptin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "SGLT2 inhibitors reduce cardiovascular events, heart failure hospitalization, and progression of kidney disease, cause no hypoglycemia, and can be used at this eGFR.",
+        "B": "Another sulfonylurea carries the same hypoglycemia risk, which is increased by his reduced kidney function.",
+        "C": "Metformin should not be newly started at an eGFR in the low 30s and offers no heart failure or renal benefit.",
+        "D": "Thiazolidinediones cause fluid retention and can precipitate or worsen heart failure.",
+        "E": "DPP-4 inhibitors have weak glucose-lowering efficacy and no cardiovascular or renal benefit."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-013",
+      "question": "A 64-year-old man with type 2 diabetes takes glyburide. He skips lunch while working in his garden and is found sweaty, tremulous, and confused. Fingerstick glucose is 44 mg/dL, and he improves after drinking juice. The drug caused this episode through which action on the pancreatic beta cell?",
+      "answers": {
+        "A": "Activation of GLP-1 receptors, causing glucose-dependent secretion",
+        "B": "Activation of PPAR-gamma receptors, increasing insulin sensitivity",
+        "C": "Closure of ATP-sensitive potassium channels, causing depolarization",
+        "D": "Inhibition of dipeptidyl peptidase-4, prolonging incretin activity",
+        "E": "Opening of ATP-sensitive potassium channels, causing hyperpolarization"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "GLP-1 receptor agonists release insulin only when glucose is elevated and do not cause hypoglycemia.",
+        "B": "Thiazolidinediones are insulin sensitizers acting on muscle, fat, and liver and do not cause hypoglycemia.",
+        "C": "Sulfonylureas close K-ATP channels on the beta-cell membrane, depolarizing the cell and releasing insulin regardless of glucose level; missed meals and exercise increase the risk of hypoglycemia.",
+        "D": "DPP-4 inhibitors act through endogenous incretins and do not cause hypoglycemia.",
+        "E": "Opening these channels inhibits insulin release, as with diazoxide."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-014",
+      "question": "A 74-year-old woman with uncomplicated type 2 diabetes takes metformin and glipizide 10 mg daily. Her fasting glucose values are 90 to 130 mg/dL and her hemoglobin A1c is 6.2%. Several times a week before lunch she becomes shaky and sweaty, with glucose readings in the 50s. Which is the best change to her regimen?",
+      "answers": {
+        "A": "Add a mid-morning snack",
+        "B": "Add pioglitazone at bedtime",
+        "C": "Discontinue the glipizide",
+        "D": "Discontinue the metformin",
+        "E": "Reduce the metformin dose"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A snack could blunt the episodes but leaves an unnecessary drug and tighter control than she needs.",
+        "B": "Adding another glucose-lowering drug to a patient who is already overtreated is inappropriate.",
+        "C": "Her A1c is well below goal for her age and the hypoglycemia is caused by the sulfonylurea, so stopping it corrects the problem and simplifies her regimen.",
+        "D": "Metformin does not cause hypoglycemia, so stopping it would not address her episodes.",
+        "E": "Lowering a drug that does not cause hypoglycemia leaves the responsible agent in place."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-015",
+      "question": "A 62-year-old man with type 2 diabetes is started on an inexpensive oral insulin sensitizer. His glucose values improve gradually over several weeks. At 2 months he has gained 4 kg and has new pitting edema of both ankles. This drug binds which target?",
+      "answers": {
+        "A": "ATP-sensitive potassium channel",
+        "B": "Dipeptidyl peptidase-4 enzyme",
+        "C": "GLP-1 cell-surface receptor",
+        "D": "PPAR-gamma nuclear receptor",
+        "E": "Sodium-glucose cotransporter 2"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Sulfonylureas and meglitinides act here to release insulin and work quickly without causing edema.",
+        "B": "DPP-4 inhibitors are weight neutral and do not cause fluid retention.",
+        "C": "GLP-1 receptor agonists are mostly injectable and cause weight loss rather than weight gain.",
+        "D": "Thiazolidinediones are ligands of the nuclear receptor PPAR-gamma in fat, muscle, and liver; they alter gene expression, act slowly, and cause weight gain and fluid retention.",
+        "E": "SGLT2 inhibitors cause osmotic diuresis, weight loss, and volume contraction rather than edema."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-016",
+      "question": "A 68-year-old woman with type 2 diabetes has a hemoglobin A1c of 8.1% on metformin. She has osteoporosis with a T-score of -2.9 and fractured her wrist last year after a minor fall. Which glucose-lowering agent should be avoided because of her bone disease?",
+      "answers": {
+        "A": "Acarbose",
+        "B": "Dulaglutide",
+        "C": "Linagliptin",
+        "D": "Pioglitazone",
+        "E": "Sitagliptin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alpha-glucosidase inhibitors cause flatulence and diarrhea but do not affect bone.",
+        "B": "GLP-1 receptor agonists cause gastrointestinal effects and are not associated with fracture.",
+        "C": "DPP-4 inhibitors are well tolerated and are not associated with fracture.",
+        "D": "Thiazolidinediones decrease bone density and increase fracture risk, particularly in women.",
+        "E": "DPP-4 inhibitors are weight neutral and have no adverse effect on bone density."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-017",
+      "question": "A 70-year-old man with type 2 diabetes wants to add an oral medication but is worried about hypoglycemia and weight change. He is started on sitagliptin; his hemoglobin A1c falls from 7.8% to 7.2% and his weight is unchanged. Which mechanism explains this drug's effect?",
+      "answers": {
+        "A": "Blockade of proximal tubular glucose uptake",
+        "B": "Closure of beta-cell potassium channels",
+        "C": "Delayed digestion of dietary polysaccharides",
+        "D": "Direct activation of the GLP-1 receptor",
+        "E": "Slowed degradation of endogenous GLP-1 and GIP"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "SGLT2 inhibitors act this way and cause weight loss and glucosuria.",
+        "B": "Sulfonylureas act this way and cause hypoglycemia and weight gain.",
+        "C": "Alpha-glucosidase inhibitors act this way and are limited by flatulence and diarrhea.",
+        "D": "This describes GLP-1 receptor agonists, which are resistant to DPP-4 and produce weight loss and larger A1c reductions.",
+        "E": "DPP-4 inhibitors block the enzyme that inactivates endogenous incretins within 1 to 2 minutes, producing modest, glucose-dependent, weight-neutral lowering of A1c."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-018",
+      "question": "A 60-year-old man with type 2 diabetes and chronic kidney disease (eGFR 28 mL/min/1.73 m2) has postprandial hyperglycemia and eats at irregular times. His physician wants a rapid-onset, short-acting insulin secretagogue that is taken with meals and can be used safely in kidney disease. Which drug is most appropriate?",
+      "answers": {
+        "A": "Glimepiride",
+        "B": "Glipizide",
+        "C": "Glyburide",
+        "D": "Nateglinide",
+        "E": "Repaglinide"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Glimepiride is a longer-acting sulfonylurea taken once daily rather than with each meal.",
+        "B": "Glipizide is a sulfonylurea and lacks the rapid onset and short duration that suit irregular meals.",
+        "C": "Glyburide has active metabolites and a long duration, giving a high risk of hypoglycemia in renal impairment.",
+        "D": "Nateglinide is a meglitinide, but its active metabolites are renally excreted, so caution is needed in kidney disease.",
+        "E": "Repaglinide is a short-acting meglitinide taken with meals that is metabolized by the liver with less than 10% renal excretion, so it can be used in chronic kidney disease."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-019",
+      "question": "A 55-year-old woman with type 2 diabetes is prescribed a medication to take three times daily with the first bite of each main meal. Two weeks later she reports bloating and embarrassing flatulence, and her hemoglobin A1c later falls by 0.5%. Which mechanism explains her gastrointestinal symptoms?",
+      "answers": {
+        "A": "Bile acid sequestration within the intestinal lumen",
+        "B": "Colonic bacterial fermentation of undigested carbohydrate",
+        "C": "Fat malabsorption from inhibition of pancreatic lipase",
+        "D": "Osmotic diuresis from increased urinary glucose loss",
+        "E": "Slowed gastric emptying from GLP-1 receptor activation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Colesevelam binds bile acids and causes bloating, but it is not timed to the first bite of each meal.",
+        "B": "Alpha-glucosidase inhibitors such as acarbose delay carbohydrate digestion in the proximal small intestine, so complex carbohydrates reach the colon and are fermented to gas.",
+        "C": "Lipase inhibition by orlistat causes oily stools rather than gas from carbohydrate fermentation.",
+        "D": "SGLT2 inhibitors cause polyuria and genital infections, not flatulence.",
+        "E": "GLP-1 receptor agonists cause nausea and fullness and are not dosed three times daily with meals."
+      }
+    },
+    {
+      "id": "endorepro-management-of-type-2-diabetes-020",
+      "question": "A 46-year-old man with a BMI of 31 kg/m2 has the laboratory results shown on two occasions. He has no symptoms and takes no medications. Which intervention is best supported for preventing progression to type 2 diabetes?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting plasma glucose",
+          "112 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.1%",
+          "<5.7%"
+        ]
+      ],
+      "answers": {
+        "A": "Basal insulin therapy titrated to return the hemoglobin A1c to the normal range",
+        "B": "Intensive lifestyle program targeting 7% weight loss and 150 minutes of weekly activity",
+        "C": "Repeat laboratory testing in 3 years with no change in diet or activity until then",
+        "D": "Sulfonylurea therapy titrated to keep the fasting plasma glucose below 100 mg/dL",
+        "E": "Thiazolidinedione therapy combined with general advice to follow a low-fat diet"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Insulin is not indicated in prediabetes and would cause weight gain and hypoglycemia.",
+        "B": "The Diabetes Prevention Program showed that intensive lifestyle intervention achieving 7% weight loss with 150 minutes per week of moderate activity reduces progression to diabetes by 58%.",
+        "C": "Prediabetes warrants active intervention, since lifestyle change substantially lowers the risk of progression.",
+        "D": "Sulfonylureas cause hypoglycemia and weight gain and are not used to prevent diabetes.",
+        "E": "Thiazolidinediones cause weight gain and fluid retention and are not the recommended preventive strategy."
+      }
+    }
+  ]
+}

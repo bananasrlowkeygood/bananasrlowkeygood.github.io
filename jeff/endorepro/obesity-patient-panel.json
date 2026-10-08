@@ -1,0 +1,387 @@
+{
+  "lecture": "Obesity Patient Panel",
+  "block": "endorepro",
+  "generated": "2026-10-08",
+  "questions": [
+    {
+      "id": "endorepro-obesity-patient-panel-001",
+      "question": "A 48-year-old woman comes for a routine follow-up of hypertension. Her BMI is 37 kg/m2 and she has gained 4 kg since her last visit. She has never discussed her weight with this physician. Which statement is the most appropriate way to open the topic?",
+      "answers": {
+        "A": "“Have you tried simply eating less and moving more?”",
+        "B": "“I am concerned because you are now morbidly obese.”",
+        "C": "“Is it okay if we talk about your weight for a moment?”",
+        "D": "“We should discuss why you have let your weight go up.”",
+        "E": "“You really need to lose weight before your blood pressure gets worse.”"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This reduces a chronic, multifactorial disease to willpower and reflects the outdated calories-in, calories-out view.",
+        "B": "The term morbidly obese is stigmatizing and labels the person rather than naming a condition she has.",
+        "C": "Asking permission and treating weight as an objective data point respects autonomy and builds the trust needed for a productive conversation.",
+        "D": "This assigns fault and communicates the bias that excess weight reflects a lack of self-control.",
+        "E": "A directive that implies blame makes patients feel judged, and patients who feel judged are less likely to lose weight."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-002",
+      "question": "On rounds, a medical student begins a presentation with, “This is a 45-year-old obese male with diabetes and colon cancer.” The attending physician asks the student to rephrase using person-first language. Which revision is most appropriate?",
+      "answers": {
+        "A": "“A 45-year-old cancerous man with obesity and diabetes”",
+        "B": "“A 45-year-old diabetic, obese man with colon cancer”",
+        "C": "“A 45-year-old heavy man with diabetes and colon cancer”",
+        "D": "“A 45-year-old man with obesity, diabetes, and colon cancer”",
+        "E": "“A 45-year-old morbidly obese man with diabetes and colon cancer”"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This shows why diagnosis-first phrasing is inappropriate: no one would call a patient cancerous, and obese is the same construction.",
+        "B": "This labels the patient by two diagnoses instead of describing conditions that he has.",
+        "C": "Heavy is on the list of terms to avoid and still defines the person by body size.",
+        "D": "Person-first language puts the person before the diagnosis and names obesity as a disease the patient has, not what the patient is.",
+        "E": "This still uses the diagnosis as an adjective for the person and adds a stigmatizing modifier."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-003",
+      "question": "A 52-year-old man with obesity, type 2 diabetes, and knee osteoarthritis starts treatment in a weight management program. He asks, “What number do I have to get down to?” Which response best reflects a weight-inclusive approach?",
+      "answers": {
+        "A": "“Let's set goals together around energy, mobility, and diabetes control.”",
+        "B": "“The number does not matter, so we will stop weighing you altogether.”",
+        "C": "“You should aim for a BMI below 25, which is the normal range.”",
+        "D": "“You should aim to return to what you weighed in high school.”",
+        "E": "“You should lose 2 pounds every week until you reach your ideal weight.”"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A weight-inclusive approach uses shared decision-making to target health, function, and quality of life, treating weight as only one data point.",
+        "B": "Weight remains a useful data point; the inclusive approach keeps it in context rather than discarding it.",
+        "C": "Fixing on a magic number is the weight-normative approach, which fosters unrealistic expectations and shame.",
+        "D": "An arbitrary target weight sets an unrealistic expectation and promotes weight cycling.",
+        "E": "A rigid rate tied to an ideal weight is weight-normative and ignores the patient's own health goals."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-004",
+      "question": "A 27-year-old woman has followed a series of restrictive diets since adolescence, each aimed at reaching a specific goal weight. She repeatedly loses and regains 10 to 15 kg, feels ashamed after each regain, says “nothing I do will ever work,” and has begun binge eating. These consequences are most characteristic of which approach to care?",
+      "answers": {
+        "A": "Harm-reduction approach",
+        "B": "Shared decision-making approach",
+        "C": "Trauma-informed approach",
+        "D": "Weight-inclusive approach",
+        "E": "Weight-normative approach"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Harm reduction lowers the risks of a behavior without requiring abstinence and is not defined by a target weight.",
+        "B": "Shared decision-making is a component of weight-inclusive care in which goals are set with the patient.",
+        "C": "Trauma-informed care emphasizes safety, autonomy, and trust and would not produce shame or weight cycling.",
+        "D": "The weight-inclusive approach targets health, energy, confidence, and quality of life and is intended to avoid these harms.",
+        "E": "A focus on normalizing weight and BMI is associated with magic numbers, unrealistic expectations, learned helplessness, weight cycling, shame, and eating disorders."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-005",
+      "question": "A 44-year-old woman with class 3 obesity says she has avoided clinics for years after a physician told her that her problems were all because she was too lazy to lose weight. She describes many similar encounters. Chronic exposure to this kind of weight stigma is most likely to produce which physiologic pattern?",
+      "answers": {
+        "A": "Decreased blood pressure, decreased cortisol, decreased C-reactive protein",
+        "B": "Decreased blood pressure, increased cortisol, increased C-reactive protein",
+        "C": "Increased blood pressure, decreased cortisol, decreased C-reactive protein",
+        "D": "Increased blood pressure, increased cortisol, increased C-reactive protein",
+        "E": "Unchanged blood pressure, unchanged cortisol, unchanged C-reactive protein"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Stigma worsens rather than improves these markers.",
+        "B": "Blood pressure rises along with cortisol under chronic stress.",
+        "C": "Cortisol and inflammatory markers rise with the stress of stigma; they do not fall.",
+        "D": "Weight stigma acts as a chronic stressor and is associated with higher blood pressure, blood glucose, cortisol, and C-reactive protein.",
+        "E": "Stigma has measurable physiologic consequences in addition to its psychological effects."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-006",
+      "question": "A health system reviews utilization data for adults who report experiencing weight stigma in medical settings and compares them with adults who do not. Which pattern is most likely to be found among those reporting stigma?",
+      "answers": {
+        "A": "Fewer preventive screenings, fewer emergency visits, similar hospitalization rate",
+        "B": "Fewer preventive screenings, more emergency visits, similar hospitalization rate",
+        "C": "More preventive screenings, fewer emergency visits, lower hospitalization rate",
+        "D": "More preventive screenings, more emergency visits, higher hospitalization rate",
+        "E": "Similar preventive screenings, similar emergency visits, higher hospitalization rate"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Avoidance of routine care shifts encounters toward the emergency department rather than reducing them.",
+        "B": "Patients who experience weight stigma are less likely to seek preventive screening and about 80% more likely to visit the emergency department, yet no more likely to be hospitalized.",
+        "C": "This describes well-engaged patients, the opposite of the effect of stigma.",
+        "D": "Stigma reduces rather than increases engagement with preventive care, and hospitalization is not increased.",
+        "E": "Stigma changes where and how patients seek care without raising the rate of hospitalization."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-007",
+      "question": "A 39-year-old man with obesity is told by an urgent care clinician that he “obviously has no self-control.” He leaves upset. Based on studies of how adults cope with weight stigma, which behavior is he most likely to show afterward?",
+      "answers": {
+        "A": "Eating more food to cope",
+        "B": "Exercising more often",
+        "C": "Losing weight more quickly",
+        "D": "Scheduling preventive visits",
+        "E": "Starting a structured diet"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In surveys, 79% of adults reported coping with weight stigma on multiple occasions by eating more, and stigma is linked to more binge eating.",
+        "B": "People who experience weight stigma are more likely to avoid exercise.",
+        "C": "Patients who feel judged about their weight are less likely to lose weight.",
+        "D": "Stigma makes patients less likely to seek preventive care.",
+        "E": "Stigma is associated with refusal to diet rather than with new dieting efforts."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-008",
+      "question": "Investigators follow a large cohort of adults for several years. At baseline, participants report whether they have experienced weight-based discrimination. After adjustment for baseline BMI, age, race and ethnicity, and socioeconomic factors, which finding is most likely among those who reported stigma?",
+      "answers": {
+        "A": "Greater weight gain and more incident obesity",
+        "B": "Greater weight gain only at low income",
+        "C": "Greater weight loss and less incident obesity",
+        "D": "Greater weight loss only at high baseline BMI",
+        "E": "No difference once baseline BMI is controlled"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Experiencing weight stigma predicts increased weight gain and obesity over time regardless of baseline BMI, age, race and ethnicity, and socioeconomic factors.",
+        "B": "The effect is seen regardless of socioeconomic factors.",
+        "C": "Stigma does not motivate weight loss; it worsens weight and metabolic health.",
+        "D": "The effect does not depend on baseline BMI and is in the direction of weight gain.",
+        "E": "The association persists after adjustment for baseline BMI, so stigma is an independent predictor."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-009",
+      "question": "A 29-year-old woman comes to the office with 2 days of sore throat and fever. Her BMI is 36 kg/m2. She has not raised any concern about her weight, and rapid streptococcal testing is positive. Which is the most appropriate approach to her weight at this visit?",
+      "answers": {
+        "A": "Decline to prescribe antibiotics until she agrees to a weight-loss plan",
+        "B": "Explain that her weight probably made her more prone to this infection",
+        "C": "Hand her a diet brochure at checkout without discussing it with her",
+        "D": "Tell her that she must schedule a visit to deal with her obesity",
+        "E": "Treat the pharyngitis and do not raise weight, since it is not relevant today"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Making appropriate treatment conditional on weight loss is discriminatory and harmful.",
+        "B": "Linking an unrelated complaint to weight is inaccurate and conveys bias, which erodes trust.",
+        "C": "Unsolicited advice without a conversation or permission communicates judgment.",
+        "D": "A directive framed as an obligation is judgmental; any discussion should begin by asking permission.",
+        "E": "The clinician should first ask whether weight is relevant to the current problem; when it is not, it need not be addressed at that moment."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-010",
+      "question": "A 58-year-old man with a BMI of 39 kg/m2 presents with progressive bilateral knee pain. He has agreed to talk about his weight. Which statement best links his weight to his symptoms in a non-judgmental way?",
+      "answers": {
+        "A": "“If you had lost the weight years ago, you would not be here.”",
+        "B": "“No treatment will help your knees until you stop overeating.”",
+        "C": "“Your knees are simply worn out from your being so heavy.”",
+        "D": "“Your knees hurt because you have been carrying too much fat.”",
+        "E": "“Your weight may be putting extra pressure on your joints.”"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This blames the patient and ignores the many contributors to obesity that are outside his control.",
+        "B": "This is inaccurate, assumes a cause, and withholds care on the basis of weight.",
+        "C": "Heavy is a term to avoid, and the statement offers no path forward.",
+        "D": "Fat is a term to avoid, and the phrasing assigns blame.",
+        "E": "When weight is relevant to the presenting problem, it can be linked objectively and without blame, like any other clinical factor."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-011",
+      "question": "A 41-year-old woman with obesity says, “I know this is all my own fault. I just have no willpower.” Which response from the physician is most accurate and appropriate?",
+      "answers": {
+        "A": "“It is mostly genetic, so there is not much that either of us can do.”",
+        "B": "“Many of my patients feel that way, but you simply have to try harder.”",
+        "C": "“Obesity is a chronic disease with many causes, and it is treatable.”",
+        "D": "“Willpower does matter most, so let's work on building your discipline.”",
+        "E": "“You should not feel bad, because weight has no real effect on health.”"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This promotes learned helplessness and ignores effective lifestyle, medication, and surgical options.",
+        "B": "Telling a patient to try harder assigns blame and offers no treatment.",
+        "C": "Obesity has complex biological, psychological, social, and environmental causes, many outside a patient's control, and evidence-based treatments exist.",
+        "D": "This reinforces the false belief that obesity is a failure of self-control.",
+        "E": "Dismissing the medical importance of obesity is inaccurate and denies her access to treatment."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-012",
+      "question": "A third-year medical student notices that she assumes a patient with class 3 obesity will be “non-compliant and lazy” before she has entered the room. She mentions this to her resident. Which is the most appropriate next step for the student?",
+      "answers": {
+        "A": "Ask to be reassigned so that the bias cannot affect this patient's care",
+        "B": "Dismiss the thought, because bias does not change clinical outcomes",
+        "C": "Recognize the bias and consciously compensate for it during the encounter",
+        "D": "Shorten the visit so that there is less opportunity to show the bias",
+        "E": "Tell the patient about the assumption so that the visit starts honestly"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Avoidance does not address the bias and deprives the student of the chance to provide respectful care.",
+        "B": "Provider bias is associated with worse metabolic health and reduced access to care.",
+        "C": "Bias toward people with excess weight is common among health professionals, and being aware of it allows the clinician to compensate when providing care.",
+        "D": "Spending less time and offering less discussion is one of the documented ways bias harms patients.",
+        "E": "Disclosing a negative stereotype to the patient would damage trust and cause harm."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-013",
+      "question": "Researchers record primary care visits and compare encounters with patients of higher weight to encounters with patients of lower weight seen by the same physicians. Which difference in physician behavior is most likely to be observed with patients of higher weight?",
+      "answers": {
+        "A": "Less time, but more discussion and more intervention",
+        "B": "Less time, less discussion, and less intervention",
+        "C": "More time, but less discussion and less intervention",
+        "D": "More time, more discussion, and more intervention",
+        "E": "No difference in time, discussion, or intervention"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Discussion and intervention fall along with visit time.",
+        "B": "Studies show clinicians spend less time, have less discussion, intervene less, and show less respect with patients of higher weight.",
+        "C": "Visit length is reduced rather than increased.",
+        "D": "Bias results in less rather than more engagement.",
+        "E": "Measurable differences in clinician behavior have been documented."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-014",
+      "question": "A 33-year-old man with a BMI of 26 kg/m2 and no weight-related complications asks what he can do to prevent further weight gain. According to the evidence-based treatment framework for excess weight, which intervention is appropriate for him?",
+      "answers": {
+        "A": "Anti-obesity medication, since he is already in the overweight range",
+        "B": "Endoscopic bariatric procedure, since it avoids the risks of surgery",
+        "C": "Lifestyle changes addressing sleep, stress, movement, and nutrition",
+        "D": "No intervention, since treatment starts only once obesity is present",
+        "E": "Sleeve gastrectomy, since surgery gives the most durable results"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Medication is reserved for a BMI above 30 kg/m2, or above 27 kg/m2 with weight-related complications.",
+        "B": "Procedures are not indicated at this BMI without complications.",
+        "C": "Lifestyle and behavioral changes are appropriate at all BMIs and form the base of every treatment plan.",
+        "D": "Lifestyle interventions apply at every BMI and should not wait for obesity to develop.",
+        "E": "Surgical procedures are reserved for much higher BMI with or without related complications."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-015",
+      "question": "A 50-year-old man with a BMI of 44 kg/m2 declines medication and surgery, saying he is confident he will return to a normal weight through determination alone. For counseling, approximately what are the odds that a man with class 3 obesity reaches a normal weight without medication or surgery?",
+      "answers": {
+        "A": "About 1 in 2",
+        "B": "About 1 in 10",
+        "C": "About 1 in 50",
+        "D": "About 1 in 100",
+        "E": "About 1 in 1,300"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The chance is far lower; most people cannot reach a normal weight from class 3 obesity with lifestyle change alone.",
+        "B": "This greatly overestimates the likelihood of success without medication or surgery.",
+        "C": "This still overestimates the likelihood by more than an order of magnitude.",
+        "D": "The observed odds are roughly ten times lower than this.",
+        "E": "The odds of reaching a normal weight from class 3 obesity without medication or surgery are about 1 in 1,290 for men and 1 in 677 for women."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-016",
+      "question": "A 35-year-old woman with obesity works two jobs and lives in a neighborhood whose only food retailers are a convenience store and two fast-food restaurants. The nearest supermarket is 6 miles away, and she does not own a car. Which contributor to excess weight is best illustrated by her situation?",
+      "answers": {
+        "A": "Endocrine disease causing secondary weight gain",
+        "B": "Food insecurity as a social determinant of health",
+        "C": "Lack of motivation as a personal failing",
+        "D": "Medication adverse effect promoting weight gain",
+        "E": "Monogenic obesity from a single-gene variant"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Nothing in the history suggests an endocrine disorder such as hypothyroidism.",
+        "B": "Obesity is strongly shaped by social determinants of health such as low income, food insecurity, and living in a food desert.",
+        "C": "Attributing weight to a character flaw is a stigmatizing assumption that ignores her environment.",
+        "D": "She is not described as taking any weight-promoting medication.",
+        "E": "Monogenic obesity presents with severe early-onset obesity and hyperphagia, not with limited access to healthful food."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-017",
+      "question": "A hospital system is planning services for a community of 30,000 adults whose demographics mirror those of the United States as a whole. Based on current national prevalence, approximately how many of these adults have obesity?",
+      "answers": {
+        "A": "About 3,000",
+        "B": "About 6,000",
+        "C": "About 12,600",
+        "D": "About 20,000",
+        "E": "About 25,000"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This corresponds to 10%, far below the current national prevalence.",
+        "B": "This corresponds to 20%, which approximates the prevalence in children rather than adults.",
+        "C": "An estimated 42% of US adults have obesity, which is about 12,600 of 30,000.",
+        "D": "Just over two-thirds of adults have overweight or obesity combined, not obesity alone.",
+        "E": "This corresponds to more than 80%, which exceeds even the combined prevalence of overweight and obesity."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-018",
+      "question": "A 46-year-old woman with a BMI of 42 kg/m2 asks her physician to explain what her diagnosis is. Which wording is most appropriate?",
+      "answers": {
+        "A": "“You are carrying far too much fat on your body.”",
+        "B": "“You are obese, which means too heavy for your height.”",
+        "C": "“You are very overweight for someone of your height.”",
+        "D": "“You are what we call morbidly obese, which is serious.”",
+        "E": "“You have a condition called obesity, and it is treatable.”"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Fat is on the list of terms to avoid.",
+        "B": "Obese used as an adjective defines the person by the disease, and heavy is also a term to avoid.",
+        "C": "This describes her as a category rather than naming a treatable medical condition, and it is imprecise.",
+        "D": "Morbidly obese is a stigmatizing term that should be avoided.",
+        "E": "Obesity is a preferred term when used as a diagnosis the patient has, and pairing it with treatment options frames it as a medical condition."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-019",
+      "question": "A 19-year-old college student with obesity reports that a coach and a clinic nurse have repeatedly mocked her weight over the past year. She now feels worthless and has withdrawn from friends. In addition to offering support, the physician should recognize that weight stigma places her at increased risk of which set of problems?",
+      "answers": {
+        "A": "Dementia, delirium, and mild cognitive impairment",
+        "B": "Depression, eating disorders, substance use, and suicide",
+        "C": "Mania, psychosis, and obsessive-compulsive disorder",
+        "D": "Narcolepsy, restless legs, and sleepwalking",
+        "E": "Tic disorders, enuresis, and selective mutism"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Neurocognitive disorders are not a recognized consequence of weight stigma in young adults.",
+        "B": "The psychological consequences of weight stigma include anxiety, depression, low self-esteem, eating disorders, substance abuse, and suicide.",
+        "C": "These conditions are not among the recognized consequences of weight stigma.",
+        "D": "Primary sleep disorders are not the characteristic psychological consequences of stigma.",
+        "E": "These childhood-onset disorders are unrelated to weight stigma."
+      }
+    },
+    {
+      "id": "endorepro-obesity-patient-panel-020",
+      "question": "A 55-year-old woman has lost 15% of her body weight over 18 months with lifestyle changes and medication. Her blood pressure and hemoglobin A1c are now at goal. She asks whether her obesity is cured and whether she can stop follow-up. Which response is most appropriate?",
+      "answers": {
+        "A": "Obesity is a chronic disease that needs ongoing management",
+        "B": "Obesity is cured once 15% of body weight has been lost",
+        "C": "Obesity is cured once blood pressure and A1c reach goal",
+        "D": "Obesity is resolved, so all treatment can be stopped today",
+        "E": "Obesity is resolved, so only yearly weight checks are needed"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Obesity is a chronic disease requiring ongoing management, often with multiple modalities, much like hypertension or diabetes.",
+        "B": "There is no weight-loss threshold that ends the need for ongoing care.",
+        "C": "Improved complications reflect successful treatment, not cure of the underlying disease.",
+        "D": "Stopping all treatment commonly leads to weight regain because the disease is chronic.",
+        "E": "The body defends its fat mass after weight loss, so continued management is needed to maintain the benefit."
+      }
+    }
+  ]
+}
