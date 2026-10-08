@@ -1,0 +1,449 @@
+{
+  "lecture": "Mechanisms of Obesity & Obesity Management",
+  "block": "endorepro",
+  "generated": "2026-10-08",
+  "questions": [
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-001",
+      "question": "A 24-year-old medical student has not eaten for 10 hours after a long day of lectures and feels intensely hungry as she sits down at a restaurant. Compared with the values expected 30 minutes after she finishes dinner, which serum hormone profile is most likely present now?",
+      "answers": {
+        "A": "High ghrelin, high GLP-1, high insulin, high leptin",
+        "B": "High ghrelin, low GLP-1, high insulin, low leptin",
+        "C": "High ghrelin, low GLP-1, low insulin, low leptin",
+        "D": "Low ghrelin, high GLP-1, high insulin, high leptin",
+        "E": "Low ghrelin, low GLP-1, low insulin, low leptin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ghrelin and the satiety hormones move in opposite directions; GLP-1, insulin, and leptin rise only after nutrients are ingested.",
+        "B": "Insulin behaves as a satiety hormone that is low in the fasted state and rises with the meal.",
+        "C": "Before a meal the hunger hormone ghrelin is elevated while the satiety hormones GLP-1, GIP, insulin, and leptin are low; the pattern reverses after eating.",
+        "D": "This is the postprandial profile, when ghrelin is suppressed and the satiety hormones are elevated.",
+        "E": "Low circulating amino acids, fatty acids, and glucose trigger ghrelin secretion, so ghrelin is high rather than low in the fasted state."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-002",
+      "question": "A 30-year-old man who has fasted for 18 hours before a procedure reports gnawing hunger. A peptide secreted by his stomach, small intestine, and pancreas in response to low circulating nutrients is markedly elevated. This peptide increases feeding behavior by directly stimulating which neuronal population?",
+      "answers": {
+        "A": "AgRP/NPY neurons of the arcuate nucleus",
+        "B": "Dopaminergic neurons of the substantia nigra",
+        "C": "Magnocellular neurons of the supraoptic nucleus",
+        "D": "Oxytocin neurons of the paraventricular nucleus",
+        "E": "POMC/CART neurons of the arcuate nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Ghrelin stimulates the orexigenic AgRP/NPY neurons of the arcuate nucleus, increasing feeding and decreasing energy expenditure.",
+        "B": "Nigral dopaminergic neurons modulate movement through the basal nuclei and are not the homeostatic target of ghrelin.",
+        "C": "Supraoptic neurons synthesize antidiuretic hormone and regulate water balance rather than appetite.",
+        "D": "Paraventricular oxytocin neurons project to the posterior pituitary and mediate milk ejection and uterine contraction.",
+        "E": "POMC/CART neurons form the anorexigenic pathway; their stimulation decreases feeding and increases energy expenditure."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-003",
+      "question": "A 35-year-old woman finishes a large dinner and tells her friends she is completely full. Walking home, she passes a bakery, smells fresh pastries, sees them in the window, and buys and eats two. Which mechanism best explains this intake?",
+      "answers": {
+        "A": "Hedonic hunger",
+        "B": "Homeostatic hunger",
+        "C": "Hypoglycemic hunger",
+        "D": "Leptin-deficient hunger",
+        "E": "Microbiota-driven hunger"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Hedonic hunger is pleasure-driven intake that is decoupled from acute caloric need and is triggered by sensory cues such as the sight and smell of palatable food.",
+        "B": "Homeostatic hunger dominates when there is an acute caloric need and is driven by ghrelin; she has just eaten a full meal.",
+        "C": "Hypoglycemia stimulates hunger through low nutrient availability, which is not present immediately after a large dinner.",
+        "D": "Congenital leptin deficiency causes severe hyperphagia from infancy, not a cue-triggered episode after a satisfying meal.",
+        "E": "Gut microbes can influence hunger and satiety hormones, but the data are limited and would not explain an immediate response to a sensory cue."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-004",
+      "question": "A 41-year-old man has been fasting for 14 hours. In addition to the rise in ghrelin, a secondary homeostatic mechanism is contributing to his hunger. Which signal best describes this secondary mechanism?",
+      "answers": {
+        "A": "Quiescence of gastric mechanoreceptors acting through the vagus nerve",
+        "B": "Release of cholecystokinin from the duodenum acting on the vagus nerve",
+        "C": "Release of peptide YY from the distal intestine acting on the arcuate nucleus",
+        "D": "Secretion of leptin from adipocytes acting on the arcuate nucleus",
+        "E": "Stretch of gastric mechanoreceptors acting through the vagus nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "When the stomach is empty, silent gastric mechanoreceptors produce vagally mediated activity in the orexigenic neuronal pathway.",
+        "B": "Cholecystokinin is a satiety hormone released in response to a meal, not during fasting.",
+        "C": "Peptide YY is a satiety hormone that rises after eating and suppresses appetite.",
+        "D": "Leptin is a satiety signal that activates the anorexigenic pathway and is low in the fasted state.",
+        "E": "Gastric distension signals fullness; it is the absence of stretch that promotes hunger."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-005",
+      "question": "A 45-year-old woman lost 14% of her body weight through a supervised diet that ended 1 year ago. She has kept the same eating plan but reports constant hunger and has regained most of the weight. Compared with her values before the weight loss, which fasting hormone profile is most likely?",
+      "answers": {
+        "A": "Decreased ghrelin, decreased leptin, decreased peptide YY",
+        "B": "Decreased ghrelin, increased leptin, increased peptide YY",
+        "C": "Increased ghrelin, decreased leptin, decreased peptide YY",
+        "D": "Increased ghrelin, increased leptin, increased peptide YY",
+        "E": "Unchanged ghrelin, unchanged leptin, unchanged peptide YY"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ghrelin rises rather than falls after diet-induced weight loss, promoting hunger and weight regain.",
+        "B": "This profile would reduce appetite and favor further weight loss, the opposite of the persistent adaptation that occurs.",
+        "C": "After weight loss, ghrelin stays elevated and satiety hormones stay suppressed for at least a year, which is evidence that the body defends a fat mass set point.",
+        "D": "Leptin and peptide YY fall with loss of fat mass; they do not rise alongside ghrelin.",
+        "E": "Hormone concentrations do not return to baseline after weight loss, which is why regain is so common."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-006",
+      "question": "A 6-year-old boy is evaluated for severe obesity that began in infancy. His parents report insatiable hunger since he was a few months old. He has red hair and very pale skin, and genetic testing shows biallelic loss-of-function variants in POMC. A once-daily injectable drug approved for this condition acts by which mechanism?",
+      "answers": {
+        "A": "Agonism of the GLP-1 receptor",
+        "B": "Agonism of the melanocortin-4 receptor",
+        "C": "Antagonism of the mu-opioid receptor",
+        "D": "Inhibition of gastrointestinal lipases",
+        "E": "Stimulation of norepinephrine release"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "GLP-1 receptor agonists such as semaglutide promote satiety by indirectly stimulating POMC neurons, which are nonfunctional in this patient.",
+        "B": "Setmelanotide is an MC4R agonist that restores signaling downstream of the defective POMC pathway, decreasing feeding and increasing energy expenditure.",
+        "C": "Naltrexone, combined with bupropion, suppresses appetite through unclear mechanisms and is not used for monogenic obesity.",
+        "D": "Orlistat reduces fat absorption and does not correct the hypothalamic signaling defect of monogenic obesity.",
+        "E": "Phentermine and diethylpropion are sympathomimetic amines used in common obesity, not genetic melanocortin pathway defects."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-007",
+      "question": "A 12-year-old girl with polydactyly, retinal dystrophy, and severe obesity is diagnosed with Bardet-Biedl syndrome and starts a daily subcutaneous anti-obesity medication indicated for genetic obesity. Her parents should be counseled about which common adverse effect?",
+      "answers": {
+        "A": "Dry mouth",
+        "B": "Finger paresthesias",
+        "C": "Generalized seizures",
+        "D": "Oily stools",
+        "E": "Skin hyperpigmentation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Xerostomia is a common effect of the sympathomimetic amine phentermine.",
+        "B": "Paresthesia and altered taste are characteristic of the topiramate component of phentermine-topiramate.",
+        "C": "A lowered seizure threshold is a concern with bupropion, which is why naltrexone-bupropion is contraindicated in seizure disorders.",
+        "D": "Steatorrhea and fecal urgency result from lipase inhibition by orlistat.",
+        "E": "Setmelanotide activates melanocortin receptors, and hyperpigmentation is among its most common adverse effects, along with increased libido and hypersensitivity."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-008",
+      "question": "A 41-year-old woman with a BMI of 31 kg/m2 began an over-the-counter weight-loss capsule 2 weeks ago. She now reports oily stools, fecal urgency, and occasional leakage after fatty meals. Which preexisting condition would have been a contraindication to this drug?",
+      "answers": {
+        "A": "Angle-closure glaucoma",
+        "B": "Chronic malabsorption syndrome",
+        "C": "Generalized seizure disorder",
+        "D": "Long-term opioid therapy",
+        "E": "Untreated hyperthyroidism"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Glaucoma is a contraindication to phentermine and phentermine-topiramate, not to orlistat.",
+        "B": "Her symptoms indicate orlistat, a lipase inhibitor that is contraindicated in chronic malabsorption syndromes and cholestasis.",
+        "C": "A seizure disorder contraindicates naltrexone-bupropion because bupropion lowers the seizure threshold.",
+        "D": "Concomitant opioid use contraindicates naltrexone-bupropion because naltrexone can precipitate withdrawal.",
+        "E": "Hyperthyroidism is a contraindication to the sympathomimetic amines such as phentermine."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-009",
+      "question": "A 52-year-old man with a BMI of 33 kg/m2 asks about medication for weight loss. He had a myocardial infarction treated with a stent 8 months ago, and his blood pressure today is 172/104 mm Hg despite two antihypertensives. Which anti-obesity medication is most clearly contraindicated?",
+      "answers": {
+        "A": "Liraglutide",
+        "B": "Orlistat",
+        "C": "Phentermine",
+        "D": "Semaglutide",
+        "E": "Tirzepatide"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Liraglutide is a GLP-1 receptor agonist that is not contraindicated by coronary disease or hypertension.",
+        "B": "Orlistat acts in the gut lumen and is contraindicated in cholestasis and chronic malabsorption, not cardiovascular disease.",
+        "C": "Phentermine stimulates norepinephrine release and is contraindicated in cardiovascular disease and uncontrolled hypertension.",
+        "D": "Injectable semaglutide is approved for cardiovascular risk reduction in patients with a prior myocardial infarction.",
+        "E": "Tirzepatide is a GLP-1/GIP receptor agonist and is not contraindicated by coronary disease."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-010",
+      "question": "A 29-year-old man with a BMI of 32 kg/m2 has lost less than 2% of his body weight after 4 months of lifestyle changes. He has epilepsy with generalized tonic-clonic seizures that are controlled on levetiracetam, and he smokes one pack of cigarettes daily. Which anti-obesity medication should be avoided?",
+      "answers": {
+        "A": "Naltrexone-bupropion",
+        "B": "Orlistat",
+        "C": "Phentermine-topiramate",
+        "D": "Semaglutide",
+        "E": "Tirzepatide"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Bupropion lowers the seizure threshold, so the combination is contraindicated in patients with a seizure disorder despite its usefulness for smoking cessation.",
+        "B": "Orlistat is contraindicated in cholestasis and chronic malabsorption, neither of which he has.",
+        "C": "Topiramate is itself an antiepileptic, and seizure disorder is not among the contraindications to this combination.",
+        "D": "Semaglutide is not contraindicated in epilepsy.",
+        "E": "Tirzepatide is not contraindicated in epilepsy and is the most effective available agent."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-011",
+      "question": "A 38-year-old woman with a BMI of 34 kg/m2 takes oxycodone daily for chronic low back pain. She is started on a combination oral anti-obesity medication. Within hours of the first dose she develops yawning, sweating, piloerection, abdominal cramps, and diarrhea. Which drug action explains these symptoms?",
+      "answers": {
+        "A": "Activation of GLP-1 receptors slowing gastric emptying",
+        "B": "Antagonism of opioid receptors precipitating withdrawal",
+        "C": "Inhibition of dopamine and norepinephrine reuptake",
+        "D": "Modulation of central GABA receptors by an antiepileptic",
+        "E": "Stimulation of norepinephrine release from nerve terminals"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "GLP-1 receptor agonists cause nausea and vomiting but are injected or taken as single agents and do not cause piloerection or yawning.",
+        "B": "Naltrexone in naltrexone-bupropion is an opioid antagonist that can precipitate withdrawal in patients taking opioids, which is why concomitant opioid use is a contraindication.",
+        "C": "This is the action of bupropion, which lowers the seizure threshold but does not cause opioid withdrawal.",
+        "D": "Topiramate causes paresthesia, altered taste, and dizziness, not withdrawal.",
+        "E": "Phentermine causes insomnia, tachycardia, and anxiety rather than the autonomic and gastrointestinal picture of opioid withdrawal."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-012",
+      "question": "A 34-year-old woman with a BMI of 36 kg/m2 and frequent migraines begins a combination extended-release anti-obesity medication. Six weeks later she has lost weight and has fewer headaches but reports tingling in her fingers, a metallic taste with carbonated drinks, dry mouth, and trouble sleeping. Which medication is she most likely taking?",
+      "answers": {
+        "A": "Liraglutide",
+        "B": "Naltrexone-bupropion",
+        "C": "Orlistat",
+        "D": "Phentermine-topiramate",
+        "E": "Tirzepatide"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Liraglutide is a single-agent daily injection whose main adverse effects are gastrointestinal.",
+        "B": "This combination causes nausea, constipation, headache, and insomnia but not paresthesia or taste change, and it does not prevent migraine.",
+        "C": "Orlistat causes steatorrhea and fecal urgency and has no central nervous system effects.",
+        "D": "Paresthesia and altered taste reflect topiramate, which also prevents migraine, while xerostomia and insomnia reflect phentermine.",
+        "E": "Tirzepatide is a weekly injection with mainly gastrointestinal adverse effects."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-013",
+      "question": "A 46-year-old man with a BMI of 41 kg/m2 and moderate obstructive sleep apnea has lost 2% of his body weight after 6 months of comprehensive lifestyle changes. He asks for the most effective available medication and prefers one that is also approved to treat his sleep apnea. Which drug best meets these goals?",
+      "answers": {
+        "A": "Liraglutide",
+        "B": "Naltrexone-bupropion",
+        "C": "Orlistat",
+        "D": "Phentermine",
+        "E": "Tirzepatide"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Liraglutide produces about 8% total body weight loss and requires daily injection.",
+        "B": "Naltrexone-bupropion is among the least effective options, at about 4% total body weight loss.",
+        "C": "Orlistat is the least effective agent, at about 3% total body weight loss.",
+        "D": "Phentermine produces about 7% total body weight loss and has no sleep apnea indication.",
+        "E": "The GLP-1/GIP receptor agonist tirzepatide produces the greatest total body weight loss (about 20%) and is also approved for moderate to severe obstructive sleep apnea."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-014",
+      "question": "A 50-year-old woman with class 2 obesity starts weekly semaglutide. Over 3 months she notes that she feels full sooner, thinks about food less often, and no longer snacks in the evening. Which central effect of the drug best accounts for her increased satiety?",
+      "answers": {
+        "A": "Direct blockade of melanocortin-4 receptors in the hypothalamus",
+        "B": "Direct stimulation of AgRP/NPY neurons in the arcuate nucleus",
+        "C": "Direct stimulation of ghrelin release from the gastric fundus",
+        "D": "Indirect stimulation of dopamine release in the limbic system",
+        "E": "Indirect stimulation of POMC neurons in the arcuate nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Blocking MC4R would increase feeding; MC4R agonism (setmelanotide) reduces it.",
+        "B": "Activation of AgRP/NPY neurons is orexigenic and is the pathway used by ghrelin.",
+        "C": "Ghrelin is the hunger hormone; raising it would increase appetite.",
+        "D": "GLP-1 receptor agonists inhibit rather than stimulate the limbic reward system.",
+        "E": "GLP-1 receptor agonists indirectly stimulate anorexigenic POMC neurons in the arcuate nucleus, and they also inhibit the limbic reward system and slow gastric emptying."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-015",
+      "question": "A 61-year-old man with a BMI of 32 kg/m2 had a myocardial infarction 2 years ago. He does not have diabetes. He has lost 3% of his body weight after 4 months of lifestyle changes and asks whether a weight-loss medication could also lower his risk of another cardiovascular event. Which drug carries an approved indication for this purpose?",
+      "answers": {
+        "A": "Naltrexone-bupropion",
+        "B": "Orlistat",
+        "C": "Phentermine",
+        "D": "Phentermine-topiramate",
+        "E": "Semaglutide"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Naltrexone-bupropion has no cardiovascular indication and is contraindicated in uncontrolled hypertension.",
+        "B": "Orlistat has modest efficacy and no cardiovascular risk-reduction indication.",
+        "C": "Phentermine is contraindicated in patients with cardiovascular disease.",
+        "D": "Phentermine-topiramate is contraindicated in patients with cardiovascular disease.",
+        "E": "Weekly injectable semaglutide is approved for cardiovascular risk reduction in people with a history of myocardial infarction, stroke, or peripheral artery disease."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-016",
+      "question": "A 44-year-old woman returns after 3 months of sleep optimization, stress management, nutrition changes, and increased physical activity. She has hypertension and obstructive sleep apnea and is not pregnant. Which is the most appropriate next step?",
+      "table": [
+        [
+          "Measure",
+          "3 months ago",
+          "Today"
+        ],
+        [
+          "Weight",
+          "78.0 kg",
+          "76.8 kg"
+        ],
+        [
+          "BMI",
+          "28.6 kg/m2",
+          "28.2 kg/m2"
+        ],
+        [
+          "Blood pressure",
+          "148/92 mm Hg",
+          "146/90 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "Add an anti-obesity medication and continue lifestyle changes",
+        "B": "Continue lifestyle changes alone and reassess in 12 months",
+        "C": "Reassure her that medication requires a BMI of at least 30",
+        "D": "Refer her now for sleeve gastrectomy as first-line therapy",
+        "E": "Stop lifestyle changes and begin an anti-obesity medication"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "She has lost less than 5% of body weight after 3 months and has a BMI of at least 27 kg/m2 with a serious weight-related complication, so pharmacotherapy is indicated alongside lifestyle modification.",
+        "B": "Less than 5% loss after 3 months of lifestyle changes alone is the point at which pharmacotherapy is generally considered.",
+        "C": "A BMI of 27 kg/m2 or higher qualifies when a serious comorbidity such as hypertension or sleep apnea is present.",
+        "D": "Bariatric surgery is indicated at a BMI of at least 30 kg/m2 with metabolic complications or at least 35 kg/m2; her BMI is 28.",
+        "E": "Anti-obesity medications are always used in conjunction with comprehensive lifestyle modification, never in place of it."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-017",
+      "question": "A 39-year-old man asks whether he is a candidate for bariatric surgery. He has not reached his goals after 2 years of supervised lifestyle changes and two medications. According to current surgical society criteria, which statement about his candidacy is most accurate?",
+      "table": [
+        [
+          "Measure",
+          "Value"
+        ],
+        [
+          "BMI",
+          "32 kg/m2"
+        ],
+        [
+          "Hemoglobin A1c",
+          "8.1%"
+        ],
+        [
+          "LDL cholesterol",
+          "168 mg/dL"
+        ],
+        [
+          "Blood pressure",
+          "142/90 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "Eligible only once his BMI reaches 35, whatever his complications",
+        "B": "Eligible only once his BMI reaches 40, whatever his complications",
+        "C": "Eligible, because his BMI is at least 30 with metabolic complications",
+        "D": "Ineligible, because surgery has not been shown to improve survival",
+        "E": "Ineligible, because type 2 diabetes is a contraindication to surgery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A BMI of at least 35 kg/m2 qualifies without complications, but complications lower the threshold to 30.",
+        "B": "A threshold of 40 reflects older criteria; current criteria are 35, or 30 with metabolic complications.",
+        "C": "Current criteria include all patients with a BMI of at least 30 kg/m2 who have metabolic complications such as diabetes, hyperlipidemia, or hypertension.",
+        "D": "Bariatric surgery has been shown to decrease mortality.",
+        "E": "Diabetes is a metabolic complication that supports rather than excludes surgical referral."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-018",
+      "question": "A 36-year-old woman is scheduled for a Roux-en-Y gastric bypass for class 3 obesity complicated by type 2 diabetes. At her preoperative visit she asks what she will need to do for the rest of her life after the operation. Which measure is required for all patients after bariatric surgery?",
+      "answers": {
+        "A": "Lifelong annual upper endoscopy to screen for malignancy",
+        "B": "Lifelong anti-obesity medication to prevent weight regain",
+        "C": "Lifelong daily corticosteroid replacement for adrenal support",
+        "D": "Lifelong pancreatic enzyme replacement with every meal",
+        "E": "Lifelong vitamin supplementation with laboratory monitoring"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Routine annual endoscopy is not a standard requirement for all patients after bariatric surgery.",
+        "B": "Medication may be added for some patients but is not a universal requirement after surgery.",
+        "C": "Bariatric surgery does not impair adrenal function.",
+        "D": "Pancreatic exocrine function is preserved after bariatric surgery.",
+        "E": "All patients require lifelong vitamin and supplement use with ongoing monitoring after bariatric surgery."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-019",
+      "question": "A 40-year-old woman of Korean descent comes for a wellness visit. She has prediabetes and a family history of type 2 diabetes. Using the classification recommended for people of Asian descent, how should her weight status be categorized?",
+      "table": [
+        [
+          "Measure",
+          "Value"
+        ],
+        [
+          "Height",
+          "1.60 m"
+        ],
+        [
+          "Weight",
+          "66.6 kg"
+        ],
+        [
+          "BMI",
+          "26.0 kg/m2"
+        ]
+      ],
+      "answers": {
+        "A": "Class 3 obesity",
+        "B": "Healthy weight",
+        "C": "Obesity",
+        "D": "Overweight",
+        "E": "Underweight"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Class 3 obesity is a BMI of 40 kg/m2 or higher in the international classification.",
+        "B": "Healthy weight for people of Asian descent is a BMI of 18 to 22.9 kg/m2.",
+        "C": "In people of Asian descent, obesity-related complications occur at lower BMI, and obesity is defined as a BMI of 25 kg/m2 or higher.",
+        "D": "A BMI of 26 kg/m2 is overweight by the international classification, but the Asian-specific overweight range is 23 to 24.9 kg/m2.",
+        "E": "Underweight is a BMI of 17.9 kg/m2 or lower for people of Asian descent."
+      }
+    },
+    {
+      "id": "endorepro-mechanisms-of-obesity-and-obesity-management-020",
+      "question": "A 31-year-old woman with class 2 obesity has lost 13% of her body weight over 9 months on weekly semaglutide with lifestyle changes. She tells her physician that she and her partner plan to stop contraception and conceive in the coming months. Which is the most appropriate recommendation regarding her medication?",
+      "answers": {
+        "A": "Continue semaglutide, because weight loss improves pregnancy outcomes",
+        "B": "Stop semaglutide, because no anti-obesity drug is safe in pregnancy",
+        "C": "Switch to orlistat, because it is not absorbed systemically",
+        "D": "Switch to phentermine-topiramate, because it is safer in pregnancy",
+        "E": "Switch to tirzepatide, because it is the most effective agent"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Weight loss is generally not desired during pregnancy, and anti-obesity medications are considered unsafe.",
+        "B": "No anti-obesity medication is considered safe in pregnancy or breastfeeding, so it should be stopped before conception.",
+        "C": "Pregnancy is a listed contraindication to orlistat.",
+        "D": "Phentermine-topiramate lists pregnancy as a contraindication.",
+        "E": "Greater efficacy does not make an agent safe; no anti-obesity medication is considered safe in pregnancy."
+      }
+    }
+  ]
+}
