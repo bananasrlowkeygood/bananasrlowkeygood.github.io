@@ -1,0 +1,976 @@
+{
+  "lecture": "CBL Week 1: Diabetes Mellitus",
+  "block": "endorepro",
+  "generated": "2026-10-08",
+  "questions": [
+    {
+      "id": "endorepro-week-1-cbl-001",
+      "question": "A 9-year-old boy is brought to the clinic with 3 weeks of polyuria, polydipsia, and a 3-kg weight loss. Random plasma glucose is 388 mg/dL, and plasma free fatty acid concentration is markedly elevated. He has not yet received any treatment. Loss of hormonal inhibition of which enzyme most directly explains his elevated free fatty acids?",
+      "answers": {
+        "A": "Acetyl-CoA carboxylase",
+        "B": "Carnitine acyltransferase-1",
+        "C": "Glycogen phosphorylase",
+        "D": "Hormone-sensitive lipase",
+        "E": "Lipoprotein lipase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Insulin activates rather than inhibits this enzyme, which commits acetyl-CoA to fatty acid synthesis, not release.",
+        "B": "This enzyme moves fatty acids into mitochondria for oxidation in the liver; it consumes free fatty acids instead of releasing them from fat.",
+        "C": "This enzyme releases glucose from glycogen and has no role in liberating fatty acids from triglyceride stores.",
+        "D": "Insulin normally inhibits hormone-sensitive lipase in adipocytes, so insulin deficiency leaves lipolysis unchecked and floods the plasma with free fatty acids.",
+        "E": "Insulin stimulates this enzyme to bring fatty acids into adipocytes, so its loss would reduce uptake rather than drive release from fat."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-002",
+      "question": "A 27-year-old woman with type 1 diabetes is found unresponsive at home after taking her mealtime insulin and skipping dinner. Fingerstick glucose is 31 mg/dL. Her partner gives intramuscular glucagon, and 10 minutes later her glucose is 96 mg/dL and she is awake. Which process is most responsible for the rapid rise in her plasma glucose?",
+      "answers": {
+        "A": "Adipose tissue lipolysis",
+        "B": "Hepatic gluconeogenesis",
+        "C": "Hepatic glycogenolysis",
+        "D": "Muscle glycogenolysis",
+        "E": "Renal gluconeogenesis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Lipolysis yields fatty acids and glycerol rather than glucose, and human adipose tissue does not clearly express glucagon receptors.",
+        "B": "Glucagon does increase gluconeogenesis through enzymes such as PEPCK, but this is the sustained response and is too slow to explain a 10-minute rise.",
+        "C": "Glucagon raises hepatic cAMP and activates glycogen breakdown within minutes, which is the rapid, short-term source of glucose.",
+        "D": "Skeletal muscle has no meaningful glucagon receptors, and it lacks glucose-6-phosphatase to export glucose even when glycogen is broken down.",
+        "E": "The kidney contributes glucose during prolonged fasting, not in the minutes after a glucagon injection."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-003",
+      "question": "A 22-year-old woman has not eaten for 24 hours while observing a religious fast. She feels well. Plasma glucose is 72 mg/dL, glucagon is elevated, and beta-hydroxybutyrate is mildly increased. In her hepatocytes, glucagon signaling has inhibited acetyl-CoA carboxylase. A fall in the concentration of which metabolite allows fatty acids to enter her mitochondria for oxidation?",
+      "answers": {
+        "A": "Acetoacetate",
+        "B": "Citrate",
+        "C": "Fructose 2,6-bisphosphate",
+        "D": "Glycerol 3-phosphate",
+        "E": "Malonyl-CoA"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Acetoacetate is a ketone body produced downstream of fatty acid oxidation; it rises during fasting and does not regulate mitochondrial entry.",
+        "B": "Citrate activates acetyl-CoA carboxylase and carries acetyl units to the cytosol, but it is not the direct inhibitor of carnitine acyltransferase-1.",
+        "C": "This metabolite falls with glucagon signaling and shifts the liver from glycolysis to gluconeogenesis, without controlling fatty acid transport.",
+        "D": "This is the backbone for triglyceride synthesis and a gluconeogenic substrate, not a regulator of fatty acid entry into mitochondria.",
+        "E": "Malonyl-CoA is the product of acetyl-CoA carboxylase and inhibits carnitine acyltransferase-1, so lowering it opens the gate for fatty acids to enter mitochondria."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-004",
+      "question": "A 24-year-old man runs a 400-meter race. During the sprint his plasma epinephrine rises sharply, and glycogen breakdown is activated in both his liver and his leg muscles. Only the liver glycogen contributes to his plasma glucose concentration. Absence of which enzyme in skeletal muscle explains this difference?",
+      "answers": {
+        "A": "Glucose-6-phosphatase",
+        "B": "Glycogen phosphorylase",
+        "C": "Hexokinase",
+        "D": "Phosphofructokinase-1",
+        "E": "Phosphoglucomutase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Muscle lacks glucose-6-phosphatase, so glucose 6-phosphate from glycogen cannot be dephosphorylated for export and is used locally in glycolysis.",
+        "B": "Muscle has its own phosphorylase isoform, which is exactly what epinephrine activates during exercise.",
+        "C": "Muscle expresses hexokinase to trap incoming glucose; its presence does not determine whether glucose can leave the cell.",
+        "D": "This glycolytic enzyme is abundant in muscle and is the reason the liberated glucose 6-phosphate can be burned locally.",
+        "E": "Muscle has this enzyme, which converts glucose 1-phosphate from glycogen into glucose 6-phosphate."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-005",
+      "question": "A 16-year-old boy with type 1 diabetes is brought to the emergency department with vomiting and deep, rapid breathing after running out of insulin 3 days ago. He has been urinating large volumes. Laboratory results are shown. Which best describes his potassium status?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "510 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Sodium",
+          "131 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Potassium",
+          "5.8 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Bicarbonate",
+          "8 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Arterial pH",
+          "7.10",
+          "7.35–7.45"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased total body potassium with extracellular shift",
+        "B": "Decreased total body potassium with intracellular shift",
+        "C": "Increased total body potassium with extracellular shift",
+        "D": "Increased total body potassium with reduced renal excretion",
+        "E": "Normal total body potassium with intracellular shift"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Osmotic diuresis wastes potassium in the urine, while insulin deficiency and acidemia move potassium out of cells, so the serum level is high despite a total body deficit.",
+        "B": "An intracellular shift would lower the serum potassium; that happens after insulin is given, not before.",
+        "C": "The shift is correct, but days of osmotic diuresis have depleted rather than expanded his potassium stores.",
+        "D": "This pattern fits oliguric kidney failure, whereas he has polyuria with ongoing urinary potassium loss.",
+        "E": "Stores are not normal after prolonged polyuria, and the direction of the shift in insulin deficiency is out of cells."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-006",
+      "question": "A 72-year-old man with type 2 diabetes is brought from home after 5 days of worsening lethargy and poor fluid intake. He is disoriented, and his mucous membranes are dry. Laboratory results are shown. Which best explains the absence of ketoacidosis in this patient?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "980 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Serum osmolality",
+          "345 mOsm/kg",
+          "275–295 mOsm/kg"
+        ],
+        [
+          "Bicarbonate",
+          "23 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Arterial pH",
+          "7.36",
+          "7.35–7.45"
+        ],
+        [
+          "Beta-hydroxybutyrate",
+          "0.4 mmol/L",
+          "<0.6 mmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Absent glucagon secretion from alpha cells",
+        "B": "Enhanced peripheral utilization of ketone bodies",
+        "C": "Hepatic deficiency of carnitine acyltransferase-1",
+        "D": "Renal clearance of ketones exceeding production",
+        "E": "Residual insulin suppressing adipose lipolysis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Glucagon is elevated in this state and contributes to the hyperglycemia; it is not absent.",
+        "B": "Ketones are not being overproduced and then consumed; their production is suppressed at the source.",
+        "C": "This is a rare inherited defect of fatty acid oxidation and is unrelated to the difference between the two hyperglycemic emergencies.",
+        "D": "With profound dehydration his renal clearance is reduced, so the kidney cannot account for negative ketones.",
+        "E": "The small amount of insulin he still makes is enough to restrain lipolysis and ketogenesis, although it is too little to drive glucose uptake."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-007",
+      "question": "A 24-year-old woman with type 1 diabetes has taken her insulin exactly as prescribed. She develops fever, dysuria, and flank pain, and 2 days later presents with vomiting and Kussmaul respirations. Plasma glucose is 440 mg/dL, pH is 7.18, and urine ketones are 3+. Which mechanism best explains how her infection precipitated this emergency?",
+      "answers": {
+        "A": "Bacterial consumption of circulating insulin",
+        "B": "Counterregulatory hormone surge outpacing available insulin",
+        "C": "Cytokine-mediated destruction of remaining beta cells",
+        "D": "Fever-induced degradation of injected insulin",
+        "E": "Renal insulin wasting from pyelonephritis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Urinary pathogens do not take up or degrade the insulin circulating in her blood.",
+        "B": "The stress of infection releases epinephrine and other counterregulatory hormones that raise glucagon, glucose output, and lipolysis, so her usual insulin dose becomes inadequate.",
+        "C": "In established type 1 diabetes there is little beta-cell mass left to lose, and such destruction would not occur over 2 days.",
+        "D": "Body temperature during fever does not inactivate insulin that has already been injected.",
+        "E": "The kidney clears insulin, but infection of the kidney does not cause insulin to be lost in the urine."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-008",
+      "question": "An 81-year-old woman with type 2 diabetes is brought from a nursing facility because she has become difficult to arouse over 4 days. Blood pressure is 92/58 mm Hg, and pulse is 112/min. Laboratory results are shown. Which value is closest to her effective serum osmolality?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Sodium",
+          "150 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Glucose",
+          "900 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Urea nitrogen",
+          "56 mg/dL",
+          "7–18 mg/dL"
+        ],
+        [
+          "Bicarbonate",
+          "24 mEq/L",
+          "22–28 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "300 mOsm/kg",
+        "B": "320 mOsm/kg",
+        "C": "350 mOsm/kg",
+        "D": "370 mOsm/kg",
+        "E": "420 mOsm/kg"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This counts only twice the sodium and leaves out the contribution of glucose.",
+        "B": "This is the diagnostic threshold for the hyperosmolar state, not her calculated value.",
+        "C": "Effective osmolality is 2 x sodium plus glucose in mmol/L (900 / 18 = 50), giving 300 + 50 = 350 mOsm/kg.",
+        "D": "This adds urea (56 / 2.8 = 20), but urea crosses membranes freely and is excluded from effective osmolality.",
+        "E": "This overestimates the glucose contribution by dividing the glucose by far too small a factor."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-009",
+      "question": "A 70-year-old woman with type 2 diabetes is brought to the emergency department with confusion and 1 week of polyuria. She has had a cough and fever for several days. Examination shows dry mucous membranes and poor skin turgor. Laboratory results are shown. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "1040 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Serum osmolality",
+          "352 mOsm/kg",
+          "275–295 mOsm/kg"
+        ],
+        [
+          "Arterial pH",
+          "7.33",
+          "7.35–7.45"
+        ],
+        [
+          "Bicarbonate",
+          "19 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Beta-hydroxybutyrate",
+          "1.8 mmol/L",
+          "<0.6 mmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Alcoholic ketoacidosis",
+        "B": "Diabetic ketoacidosis",
+        "C": "Hyperosmolar hyperglycemic state",
+        "D": "Lactic acidosis",
+        "E": "Starvation ketosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This follows a binge with poor intake and gives an acidosis with low or only mildly raised glucose, not a glucose above 1000 mg/dL.",
+        "B": "Ketoacidosis requires a pH below 7.30 with beta-hydroxybutyrate above 3 mmol/L, and her values meet neither.",
+        "C": "Glucose above 600 mg/dL, osmolality above 320 mOsm/kg, pH above 7.30, and bicarbonate of at least 18 mEq/L define this state, and mild ketonemia below 3 mmol/L does not exclude it.",
+        "D": "Lactic acidosis would lower the pH and bicarbonate and would not account for the extreme hyperglycemia and hyperosmolality.",
+        "E": "Starvation produces mild ketosis with normal or low glucose rather than severe hyperglycemia."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-010",
+      "question": "A 77-year-old man with type 2 diabetes is admitted with a hyperglycemic emergency. On arrival he opens his eyes only to painful stimuli. Over the next 12 hours of intravenous fluids and insulin he gradually becomes alert and conversant. Which laboratory measure most closely tracked his level of consciousness during this course?",
+      "answers": {
+        "A": "Anion gap",
+        "B": "Arterial pH",
+        "C": "Plasma glucose",
+        "D": "Serum osmolality",
+        "E": "Urine ketones"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anion gap is typically normal in this state and so cannot account for the depressed consciousness.",
+        "B": "The pH remains above 7.30 in this state; acidemia contributes to altered mentation in ketoacidosis instead.",
+        "C": "Glucose is strikingly elevated, but mental status correlates with the resulting hyperosmolality more than with the glucose value itself.",
+        "D": "In the hyperosmolar state, mental status follows osmolality most closely because water is drawn out of neurons as extracellular tonicity rises.",
+        "E": "Ketones are negative or only trace in this state and do not relate to the level of consciousness."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-011",
+      "question": "A 9-year-old girl with new-onset type 1 diabetes is treated for ketoacidosis with large fluid boluses and an insulin infusion. Her plasma glucose falls from 620 mg/dL to 180 mg/dL in 3 hours. She then develops a severe headache, becomes drowsy, and her pulse slows to 54/min while her blood pressure rises. Which is the most likely cause of her deterioration?",
+      "answers": {
+        "A": "Central pontine myelinolysis",
+        "B": "Cerebral edema",
+        "C": "Cerebral venous thrombosis",
+        "D": "Hypoglycemic encephalopathy",
+        "E": "Wernicke encephalopathy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This follows overly rapid correction of chronic hyponatremia and presents days later with dysarthria and quadriparesis.",
+        "B": "Rapid correction creates an osmotic gradient that moves water into brain cells, a risk that is notable in pediatric ketoacidosis and that produces headache, bradycardia, and hypertension.",
+        "C": "Dehydration can predispose to thrombosis, but the timing right after a precipitous osmolar fall with signs of raised intracranial pressure points elsewhere.",
+        "D": "Her glucose is 180 mg/dL, which is well above the range that impairs brain function.",
+        "E": "Thiamine deficiency causes confusion, ataxia, and ophthalmoplegia in malnourished patients and is not a complication of ketoacidosis treatment."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-012",
+      "question": "A 48-year-old man with a BMI of 37 kg/m2 and a waist circumference of 118 cm has velvety dark plaques on the back of his neck. Fasting glucose is 104 mg/dL, and fasting insulin is three times the upper limit of normal. Which molecular change in his skeletal muscle best explains these laboratory findings?",
+      "answers": {
+        "A": "Autoantibody blockade of the insulin receptor",
+        "B": "Inactivating mutation of the glucokinase gene",
+        "C": "Proteasomal degradation of the GLUT2 transporter",
+        "D": "Serine phosphorylation of insulin receptor substrate-1",
+        "E": "Tyrosine phosphorylation of insulin receptor substrate-1"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This rare autoimmune cause of severe insulin resistance is not the mechanism linking visceral obesity to hyperinsulinemia.",
+        "B": "This raises the glucose set point for insulin secretion in a monogenic form of diabetes and does not cause resistance or high insulin levels.",
+        "C": "GLUT2 is the insulin-independent transporter of liver and beta cells, not the transporter that insulin recruits in muscle.",
+        "D": "Excess fatty acids activate serine kinases that phosphorylate insulin receptor substrate-1, reducing its coupling to PI3K and therefore GLUT4 translocation.",
+        "E": "This is the normal activating step of insulin signaling and would enhance rather than impair glucose uptake."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-013",
+      "question": "A 44-year-old man with central obesity has a blood pressure of 148/94 mm Hg on three visits. Fasting glucose is 108 mg/dL, triglycerides are 290 mg/dL, HDL cholesterol is 32 mg/dL, and fasting insulin is elevated. Which effect of his hyperinsulinemia most directly contributes to his hypertension?",
+      "answers": {
+        "A": "Decreased renal renin release",
+        "B": "Decreased sympathetic nervous activity",
+        "C": "Increased atrial natriuretic peptide release",
+        "D": "Increased endothelial nitric oxide synthesis",
+        "E": "Increased renal sodium reabsorption"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Hyperinsulinemia activates the renin-angiotensin-aldosterone system; suppression of renin would lower blood pressure.",
+        "B": "Insulin excess stimulates sympathetic outflow, and reduced activity would be protective.",
+        "C": "This peptide promotes sodium excretion and vasodilation, so more of it would lower blood pressure.",
+        "D": "Elevated fatty acids and glucose deplete nitric oxide in insulin resistance, impairing vasodilation.",
+        "E": "Compensatory hyperinsulinemia increases tubular sodium reabsorption and also activates the sympathetic and renin-angiotensin systems, which expands volume and raises pressure."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-014",
+      "question": "A 19-year-old woman is found to have an elevated glucose on a pre-employment examination. She has no symptoms, and her BMI is 21 kg/m2. Her mother and maternal grandmother have had mildly elevated glucose for decades and have never needed medication. Laboratory results are shown, and repeat testing 1 year later is unchanged. A mutation in which gene is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting plasma glucose",
+          "118 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.1%",
+          "<5.7%"
+        ],
+        [
+          "C-peptide",
+          "1.9 ng/mL",
+          "0.8–3.5 ng/mL"
+        ],
+        [
+          "GAD65 antibodies",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "CFTR",
+        "B": "GCK",
+        "C": "HNF1A",
+        "D": "HNF1B",
+        "E": "PRSS1"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Mutations cause thick secretions that destroy the pancreas, presenting with lung disease and malabsorption rather than isolated mild hyperglycemia.",
+        "B": "Glucokinase is the beta-cell glucose sensor, and a heterozygous defect raises the set point for insulin release, giving mild, stable fasting hyperglycemia that needs no treatment.",
+        "C": "This form is progressive, causes glycosuria, and usually requires a sulfonylurea, unlike her unchanging values.",
+        "D": "This form is associated with renal cysts and other genitourinary anomalies.",
+        "E": "Mutations in the trypsinogen gene cause hereditary pancreatitis with recurrent abdominal pain."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-015",
+      "question": "A 22-year-old man has polyuria and a hemoglobin A1c of 8.1%. His BMI is 22 kg/m2. His father and paternal grandfather were both diagnosed with diabetes before age 25. Urinalysis shows marked glycosuria, islet autoantibodies are negative, and C-peptide is in the normal range. Genetic testing identifies an HNF1A mutation. Which is the most appropriate pharmacotherapy?",
+      "answers": {
+        "A": "Empagliflozin",
+        "B": "Glipizide",
+        "C": "Insulin glargine",
+        "D": "Metformin",
+        "E": "Pioglitazone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "He already has prominent glycosuria, and this drug class is not the targeted therapy for his beta-cell secretory defect.",
+        "B": "Patients with HNF1A mutations are especially sensitive to sulfonylureas, which bypass the transcriptional defect by directly triggering insulin release.",
+        "C": "Insulin is the treatment for autoimmune disease with absent C-peptide; he retains secretory capacity that an oral agent can unlock.",
+        "D": "Metformin addresses hepatic glucose output and insulin resistance, which are not the problem in a thin patient with a monogenic secretion defect.",
+        "E": "This insulin sensitizer targets resistance, and he is not insulin resistant."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-016",
+      "question": "A 54-year-old man with a long history of heavy alcohol use has chronic epigastric pain and bulky, greasy stools. Abdominal CT shows pancreatic calcifications. He began insulin 6 months ago for diabetes and has since had four episodes of severe hypoglycemia despite small doses. Which best explains his susceptibility to hypoglycemia?",
+      "answers": {
+        "A": "Accelerated gastric emptying of carbohydrates",
+        "B": "Autoimmune destruction of the adrenal cortex",
+        "C": "Loss of alpha-cell glucagon secretion",
+        "D": "Overproduction of pancreatic polypeptide",
+        "E": "Upregulation of skeletal muscle GLUT4"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Faster emptying would raise glucose soon after meals rather than leave him defenseless against insulin.",
+        "B": "Adrenal insufficiency can cause hypoglycemia, but nothing here suggests it and his pancreatic disease provides the explanation.",
+        "C": "Fibrosis destroys whole islets, so glucagon is lost along with insulin and he cannot mount a counterregulatory response, producing brittle diabetes.",
+        "D": "Pancreatic polypeptide is reduced in this disease, which contributes to hepatic insulin resistance.",
+        "E": "Enhanced insulin sensitivity of this kind is not a feature of pancreatic fibrosis."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-017",
+      "question": "A 12-year-old girl with cystic fibrosis homozygous for the F508del mutation has lost 2 kg over 6 months, and her FEV1 has declined. She reports no polyuria. Fasting plasma glucose is 88 mg/dL, and hemoglobin A1c is 5.6%. Which test is most appropriate to evaluate her for diabetes?",
+      "answers": {
+        "A": "Fasting plasma glucose",
+        "B": "Hemoglobin A1c",
+        "C": "Islet autoantibody panel",
+        "D": "Oral glucose tolerance test",
+        "E": "Random plasma glucose"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Fasting glucose stays normal early in this disease, as hers is, so it misses most cases.",
+        "B": "A1c is insensitive in cystic fibrosis and is specifically not recommended for screening.",
+        "C": "Her diabetes risk comes from fibrosis and fatty replacement of the pancreas, not autoimmunity.",
+        "D": "The earliest abnormality is postprandial hyperglycemia from a delayed, blunted first-phase insulin response, so a yearly glucose tolerance test from age 10 is the recommended screen.",
+        "E": "A single random value is unreliable for detecting isolated post-meal excursions."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-018",
+      "question": "A 34-year-old man was diagnosed with type 2 diabetes 1 year ago. Despite taking metformin and glipizide, his hemoglobin A1c has risen from 7.9% to 10.2%, and he has lost 6 kg unintentionally. His BMI is 21 kg/m2, and he has no family history of diabetes. Which set of results is most likely?",
+      "answers": {
+        "A": "Negative GAD65 antibodies with elevated C-peptide",
+        "B": "Negative GAD65 antibodies with low C-peptide",
+        "C": "Negative GAD65 antibodies with normal C-peptide",
+        "D": "Positive GAD65 antibodies with elevated C-peptide",
+        "E": "Positive GAD65 antibodies with low C-peptide"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This is the pattern of early insulin resistance with compensatory hypersecretion, expected in an obese patient who responds to oral agents.",
+        "B": "Low insulin output without antibodies suggests pancreatic disease, for which he has no history or symptoms.",
+        "C": "This pattern suggests a monogenic form, which runs through several generations and does not cause rapid weight loss.",
+        "D": "Autoimmune destruction reduces insulin and C-peptide; high levels would contradict progressive beta-cell loss.",
+        "E": "A thin adult with weight loss and failure of oral agents most likely has autoimmune beta-cell destruction, which shows islet autoantibodies and little endogenous insulin."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-019",
+      "question": "A 34-year-old woman with type 1 diabetes since age 12 is found to have a glucose of 38 mg/dL during a routine visit. She feels normal and has no tremor, sweating, or palpitations. She has had several similar unrecognized episodes this year. Which pattern of counterregulatory hormone response to hypoglycemia is most likely in this patient?",
+      "answers": {
+        "A": "Absent glucagon and blunted epinephrine responses",
+        "B": "Absent glucagon and exaggerated epinephrine responses",
+        "C": "Intact glucagon and blunted epinephrine responses",
+        "D": "Intact glucagon and exaggerated epinephrine responses",
+        "E": "Intact glucagon and intact epinephrine responses"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "After more than a decade of type 1 diabetes the glucagon response is nearly gone and the epinephrine response is suppressed, removing both the defense and the warning symptoms.",
+        "B": "A brisk epinephrine response would produce tremor, sweating, and palpitations, which she lacks.",
+        "C": "Glucagon is the first response to fail, declining within the first few years, so it would not be preserved after 22 years.",
+        "D": "Both arms would protect her from asymptomatic severe hypoglycemia if they were functioning.",
+        "E": "Normal counterregulation is seen only in the first weeks after diagnosis."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-020",
+      "question": "A 68-year-old man with obesity and a 20-year history of diabetes dies of a myocardial infarction. At autopsy, many pancreatic islets contain pink, amorphous extracellular material that shows apple-green birefringence under polarized light after Congo red staining. There is no inflammatory infiltrate. This material is derived from which protein?",
+      "answers": {
+        "A": "Amylin",
+        "B": "Calcitonin",
+        "C": "Immunoglobulin light chain",
+        "D": "Serum amyloid A",
+        "E": "Transthyretin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Beta cells co-secrete islet amyloid polypeptide with insulin, and chronic hypersecretion in insulin resistance leads to islet amyloid deposition and beta-cell failure.",
+        "B": "Calcitonin-derived amyloid is deposited in medullary carcinoma of the thyroid.",
+        "C": "Light-chain amyloid arises from plasma cell disorders and deposits systemically rather than selectively in islets.",
+        "D": "This acute-phase protein forms amyloid in chronic inflammatory diseases, mainly in the kidney, liver, and spleen.",
+        "E": "Transthyretin amyloid deposits chiefly in the heart and peripheral nerves."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-021",
+      "question": "A 10-year-old girl dies of cerebral edema 2 weeks after being diagnosed with diabetes during an episode of ketoacidosis. She had been thin, with 1 month of polyuria and weight loss before diagnosis. Which finding is most likely on histologic examination of her pancreas?",
+      "answers": {
+        "A": "Amyloid deposition within the islets",
+        "B": "Fat necrosis with calcium deposition",
+        "C": "Fibrosis and atrophy of the acini",
+        "D": "Inspissated secretions dilating the ducts",
+        "E": "Lymphocytic infiltration of the islets"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Islet amyloid is the characteristic lesion of long-standing insulin-resistant diabetes in adults.",
+        "B": "This is the lesion of acute pancreatitis, which would have presented with severe epigastric pain.",
+        "C": "Acinar fibrosis with islet loss marks chronic pancreatitis, usually after years of alcohol use.",
+        "D": "Duct plugging by thick secretions is the lesion of cystic fibrosis.",
+        "E": "Active autoimmune disease shows insulitis, a T-cell infiltrate that progressively destroys beta cells and leaves an absolute insulin deficiency."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-022",
+      "question": "A 58-year-old woman with an 18-year history of poorly controlled diabetes has progressive leg edema. Blood pressure is 156/92 mm Hg. Urine albumin-to-creatinine ratio is 1800 mg/g, and estimated GFR is 41 mL/min/1.73 m2. Which finding is most likely on kidney biopsy?",
+      "answers": {
+        "A": "Crescents within Bowman space",
+        "B": "Diffuse foot process effacement alone",
+        "C": "Hypercellular glomeruli with neutrophils",
+        "D": "Nodular mesangial matrix expansion",
+        "E": "Subepithelial immune complex deposits"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Crescents mark rapidly progressive glomerulonephritis, which presents with an abrupt decline in function and hematuria.",
+        "B": "Effacement with otherwise normal glomeruli describes minimal change disease.",
+        "C": "This is the pattern of postinfectious glomerulonephritis.",
+        "D": "Advanced glycation and TGF-beta signaling thicken the basement membrane and expand the mesangium into Kimmelstiel-Wilson nodules.",
+        "E": "Subepithelial deposits define membranous nephropathy, an immune complex disease."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-023",
+      "question": "A 27-year-old woman with type 1 diabetes for 7 years has no symptoms. Blood pressure is 118/72 mm Hg. Estimated GFR is 142 mL/min/1.73 m2, and urine albumin-to-creatinine ratio is 45 mg/g on two occasions. Which mediator is most responsible for the elevated pressure within her glomerular capillaries?",
+      "answers": {
+        "A": "Angiotensin II",
+        "B": "Atrial natriuretic peptide",
+        "C": "Bradykinin",
+        "D": "Nitric oxide",
+        "E": "Prostaglandin E2"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Angiotensin II constricts the efferent arteriole, raising intraglomerular pressure and producing the hyperfiltration that characterizes early diabetic kidney disease.",
+        "B": "This peptide is released in response to volume expansion and is not the driver of diabetic hyperfiltration.",
+        "C": "Bradykinin is a vasodilator that tends to relax the efferent arteriole.",
+        "D": "Nitric oxide is depleted by chronic hyperglycemia, and it dilates rather than constricts vessels.",
+        "E": "Prostaglandins dilate the afferent arteriole and are not the mediator of efferent constriction."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-024",
+      "question": "A 60-year-old woman with a 14-year history of type 2 diabetes has had gradually worsening blurring of her central vision in both eyes. Funduscopic examination shows scattered microaneurysms, dot-and-blot hemorrhages, and sharply demarcated yellow deposits arranged in a ring near the fovea. No new vessels are seen. Which is the most likely cause of her vision loss?",
+      "answers": {
+        "A": "Central retinal artery occlusion",
+        "B": "Macular edema",
+        "C": "Optic neuritis",
+        "D": "Tractional retinal detachment",
+        "E": "Vitreous hemorrhage"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This causes sudden, painless, monocular vision loss with a pale retina and a cherry-red spot.",
+        "B": "Leaky capillaries produce hard exudates and retinal thickening at the macula, the main cause of vision loss in nonproliferative disease.",
+        "C": "Optic neuritis causes painful monocular vision loss, typically in younger patients, without retinal exudates.",
+        "D": "Traction results from fibrovascular proliferation, which requires neovascularization that she does not have.",
+        "E": "Bleeding into the vitreous comes from fragile new vessels in proliferative disease and causes sudden loss with floaters."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-025",
+      "question": "A 57-year-old man with poorly controlled diabetes has burning pain in both feet that is worse at night. Vibration sense is absent at the great toes, and ankle reflexes are diminished. In his peripheral nerves, excess glucose is being converted to an osmotically active polyol with consumption of NADPH. Which enzyme catalyzes this reaction?",
+      "answers": {
+        "A": "Aldolase B",
+        "B": "Aldose reductase",
+        "C": "Glucokinase",
+        "D": "Glucose-6-phosphate dehydrogenase",
+        "E": "Sorbitol dehydrogenase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Aldolase B cleaves fructose 1-phosphate in the liver and is unrelated to polyol formation.",
+        "B": "Aldose reductase reduces glucose to sorbitol using NADPH, which causes osmotic stress and depletes the cofactor needed to resist oxidative injury.",
+        "C": "Glucokinase phosphorylates glucose in liver and beta cells and does not produce a polyol.",
+        "D": "This enzyme generates NADPH in the pentose phosphate pathway rather than consuming it.",
+        "E": "This enzyme carries out the next step, oxidizing sorbitol to fructose with NAD+, and so clears the polyol."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-026",
+      "question": "A 63-year-old man with a 16-year history of type 2 diabetes has a painless 2-cm ulcer beneath the head of his right first metatarsal that he noticed only because of drainage on his sock. Dorsalis pedis and posterior tibial pulses are easily palpable, and the foot is warm. He cannot feel a nylon monofilament at four sites on the sole. Which is the primary cause of this ulcer?",
+      "answers": {
+        "A": "Chronic arterial insufficiency",
+        "B": "Dermal small-vessel vasculitis",
+        "C": "Loss of protective sensation",
+        "D": "Prolonged pressure from immobility",
+        "E": "Venous valvular incompetence"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ischemic ulcers are painful, occur on the toes or lateral foot, and come with absent pulses and a cool foot.",
+        "B": "Vasculitis produces palpable purpura and painful punched-out lesions, not a painless ulcer at a pressure point.",
+        "C": "Neuropathic ulcers form at sites of repetitive pressure such as the metatarsal heads because the patient no longer feels the trauma.",
+        "D": "Pressure injuries from immobility arise over the heels or sacrum in patients who are bedbound.",
+        "E": "Venous ulcers sit above the medial malleolus with edema and brown skin discoloration."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-027",
+      "question": "A 61-year-old man with diabetes and a hemoglobin A1c of 11.4% has had three skin abscesses in 8 months and now has a foot wound that has not healed in 6 weeks. He has no history of childhood infections, and HIV testing is negative. Which immune abnormality best explains his susceptibility?",
+      "answers": {
+        "A": "Absent maturation of B lymphocytes",
+        "B": "Defective NADPH oxidase gene",
+        "C": "Deficient terminal complement components",
+        "D": "Impaired neutrophil chemotaxis and phagocytosis",
+        "E": "Thymic aplasia with absent T lymphocytes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This inherited defect presents in infancy with recurrent sinopulmonary infections.",
+        "B": "Chronic granulomatous disease is inherited and causes catalase-positive infections beginning in childhood.",
+        "C": "This predisposes specifically to recurrent Neisseria infections.",
+        "D": "High ambient glucose directly impairs neutrophil migration, engulfment, and intracellular killing, which permits bacterial infection and delays wound healing.",
+        "E": "This congenital defect presents in infancy with viral and fungal infections."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-028",
+      "question": "A 15-year-old girl with a BMI at the 98th percentile is evaluated for dark, thickened, velvety skin on the back of her neck and in both axillae, along with several small pedunculated papules. Her mother has type 2 diabetes. Which underlying abnormality is the most likely cause of her skin findings?",
+      "answers": {
+        "A": "Adrenocortical insufficiency",
+        "B": "Autoimmune beta-cell destruction",
+        "C": "Hyperinsulinemia from insulin resistance",
+        "D": "Iron overload",
+        "E": "Occult gastric adenocarcinoma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Primary adrenal failure causes diffuse hyperpigmentation of creases and mucosa without velvety thickening.",
+        "B": "Autoimmune diabetes is a state of insulin deficiency and does not produce these lesions.",
+        "C": "Acanthosis nigricans and skin tags reflect high insulin levels stimulating epidermal growth and signal an increased risk of type 2 diabetes.",
+        "D": "Hemochromatosis gives a diffuse bronze skin color in middle-aged adults.",
+        "E": "Malignancy-associated acanthosis is abrupt and extensive in older adults, not an obese adolescent with a family history of diabetes."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-029",
+      "question": "A 46-year-old man has laboratory testing at a routine visit. He feels well and has no polyuria, polydipsia, or weight loss. His BMI is 31 kg/m2. Results from a single fasting blood sample are shown. Which is the most appropriate next step?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.7%",
+          "<5.7%"
+        ],
+        [
+          "Fasting plasma glucose",
+          "118 mg/dL",
+          "70–99 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Begin metformin therapy",
+        "B": "Diagnose prediabetes only",
+        "C": "Measure islet autoantibodies",
+        "D": "Repeat the fasting plasma glucose",
+        "E": "Repeat the hemoglobin A1c"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "One abnormal result in an asymptomatic patient does not establish the diagnosis, so treatment for diabetes is premature.",
+        "B": "This ignores an A1c that is already above the diabetes threshold.",
+        "C": "Antibodies distinguish the type of diabetes once it has been diagnosed; they do not confirm that diabetes is present.",
+        "D": "The fasting glucose was below the diagnostic threshold, and it is the above-threshold test that should be repeated.",
+        "E": "When two tests are discordant in an asymptomatic patient, the test above the diagnostic cut point is repeated, and a second A1c of 6.5% or higher confirms diabetes."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-030",
+      "question": "A 15-year-old girl is brought to the clinic with 2 weeks of excessive thirst, frequent urination including new bedwetting, and a 4-kg weight loss. She is alert and breathing comfortably. A random plasma glucose is 312 mg/dL. Which additional test is required to establish the diagnosis of diabetes mellitus?",
+      "answers": {
+        "A": "Fasting plasma glucose",
+        "B": "Hemoglobin A1c",
+        "C": "No further glycemic testing",
+        "D": "Oral glucose tolerance test",
+        "E": "Repeat random plasma glucose"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A confirmatory fasting value is needed only when the clinical diagnosis is not already clear.",
+        "B": "A1c may still be near normal when glucose has risen rapidly, as in early type 1 diabetes, and it is not required here.",
+        "C": "A random glucose of 200 mg/dL or higher together with classic symptoms of hyperglycemia is sufficient by itself for diagnosis.",
+        "D": "A glucose load is unnecessary and inadvisable when she is already markedly hyperglycemic with symptoms.",
+        "E": "Repeat testing is reserved for asymptomatic patients with a single abnormal result."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-031",
+      "question": "A 31-year-old woman with sickle cell disease is evaluated because her mother was recently diagnosed with diabetes. She has no symptoms. Laboratory results from two visits 2 weeks apart are shown. Which is the most appropriate interpretation?",
+      "table": [
+        [
+          "Test",
+          "Visit 1",
+          "Visit 2",
+          "Reference Range"
+        ],
+        [
+          "Fasting plasma glucose",
+          "134 mg/dL",
+          "131 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "5.2%",
+          "5.1%",
+          "<5.7%"
+        ]
+      ],
+      "answers": {
+        "A": "Diabetes mellitus with falsely low A1c",
+        "B": "Impaired fasting glucose with accurate A1c",
+        "C": "Laboratory error in glucose measurement",
+        "D": "Normal glucose metabolism",
+        "E": "Stress hyperglycemia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Two fasting glucose values of 126 mg/dL or higher confirm diabetes, and her A1c is unreliable because shortened red cell survival limits the time available for glycation.",
+        "B": "Impaired fasting glucose spans 100 to 125 mg/dL, and both of her values exceed that range.",
+        "C": "Two concordant results on separate days make an analytic error unlikely.",
+        "D": "This relies on an A1c that cannot be trusted in a hemoglobinopathy and disregards two diagnostic glucose values.",
+        "E": "Stress hyperglycemia accompanies acute illness, and she was well at both visits."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-032",
+      "question": "A 52-year-old woman with hypertension and a BMI of 32 kg/m2 asks how likely she is to develop diabetes. Her sister has type 2 diabetes. Laboratory results are shown. Which is the best estimate of the proportion of patients with these results who progress to type 2 diabetes each year?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting plasma glucose",
+          "112 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.1%",
+          "<5.7%"
+        ],
+        [
+          "2-hour glucose (75-g OGTT)",
+          "168 mg/dL",
+          "<140 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Less than 1%",
+        "B": "5% to 10%",
+        "C": "20% to 25%",
+        "D": "40% to 50%",
+        "E": "More than 75%"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This underestimates her risk; her results place her in a group that progresses far more often than the general population.",
+        "B": "All three of her results fall in the prediabetes range, and about 5% to 10% of people with prediabetes progress to type 2 diabetes each year.",
+        "C": "This is well above the observed annual rate.",
+        "D": "This approximates the cumulative risk over many years rather than the risk in a single year.",
+        "E": "Most patients do not progress in any given year, and prediabetes can reverse with lifestyle change."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-033",
+      "question": "A 29-year-old woman comes for a routine examination. She feels well. She has polycystic ovary syndrome, and her BMI is 31 kg/m2. Her blood pressure is 122/76 mm Hg, and she takes no medications. She has never been tested for diabetes. Which is the most appropriate recommendation regarding diabetes screening?",
+      "answers": {
+        "A": "Defer screening until age 35",
+        "B": "Defer screening until age 45",
+        "C": "Screen now with glucose or A1c",
+        "D": "Screen only if symptoms develop",
+        "E": "Screen with islet autoantibodies"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Age 35 is the starting point for adults without risk factors, and she has both overweight and an additional risk factor.",
+        "B": "This was an older age threshold and in any case does not apply to a patient with risk factors.",
+        "C": "Adults of any age with a BMI above 25 kg/m2 and at least one additional risk factor, such as polycystic ovary syndrome, should be screened, with repeat testing every 3 years if normal.",
+        "D": "Type 2 diabetes is often asymptomatic for years, which is the reason to screen people at risk.",
+        "E": "Autoantibodies identify autoimmune diabetes and are not a screening test for type 2 diabetes."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-034",
+      "question": "A 49-year-old woman with newly diagnosed type 2 diabetes begins the recommended first-line oral medication. Three months later her fasting glucose has fallen from 168 mg/dL to 118 mg/dL. She has had no hypoglycemia, and her weight is unchanged. Serum creatinine is 0.8 mg/dL. Which is the principal mechanism of this drug's glucose-lowering effect?",
+      "answers": {
+        "A": "Decreased hepatic gluconeogenesis",
+        "B": "Decreased incretin degradation",
+        "C": "Decreased renal glucose reabsorption",
+        "D": "Delayed gastric emptying",
+        "E": "Increased pancreatic insulin secretion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Metformin mildly inhibits mitochondrial complex I in hepatocytes, raising AMP and altering redox state so that hepatic glucose production falls, which lowers fasting glucose without stimulating insulin.",
+        "B": "This is the action of DPP-4 inhibitors, which prolong endogenous GLP-1 and GIP.",
+        "C": "This is the action of SGLT2 inhibitors in the proximal tubule.",
+        "D": "This is one of the actions of GLP-1 receptor agonists and is accompanied by weight loss.",
+        "E": "Secretagogues such as sulfonylureas act this way and cause hypoglycemia and weight gain, which she has not had."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-035",
+      "question": "A 58-year-old man with type 2 diabetes and heart failure was started on an additional diabetes medication 3 months ago. He now has 2 days of severe perineal pain and fever. Examination shows erythema, swelling, and crepitus of the scrotum and perineum with a patch of black skin. Which is the mechanism of action of the drug most likely associated with this condition?",
+      "answers": {
+        "A": "Activation of PPAR-gamma nuclear receptors",
+        "B": "Agonism of GLP-1 receptors",
+        "C": "Closure of beta-cell ATP-sensitive potassium channels",
+        "D": "Inhibition of dipeptidyl peptidase-4",
+        "E": "Inhibition of proximal tubule sodium-glucose cotransport"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Thiazolidinediones cause weight gain and fluid retention and would be avoided in heart failure.",
+        "B": "GLP-1 receptor agonists mainly cause nausea and other gastrointestinal effects.",
+        "C": "Sulfonylureas and meglitinides act this way and cause hypoglycemia rather than genital infection.",
+        "D": "DPP-4 inhibitors do not cause glucosuria and are not linked to necrotizing perineal infection.",
+        "E": "SGLT2 inhibitors produce glucosuria, which raises the incidence of genital candidiasis, urinary infection, and Fournier gangrene."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-036",
+      "question": "A 66-year-old man with type 2 diabetes takes an oral medication immediately before each meal because it has a rapid onset and a short duration of action. Today he took his dose before lunch but was called away and did not eat. Two hours later he is sweaty and tremulous, and his glucose is 46 mg/dL. Which drug is he most likely taking?",
+      "answers": {
+        "A": "Empagliflozin",
+        "B": "Metformin",
+        "C": "Pioglitazone",
+        "D": "Repaglinide",
+        "E": "Sitagliptin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "SGLT2 inhibitors are taken once daily, work independently of insulin, and rarely cause hypoglycemia alone.",
+        "B": "Metformin does not stimulate insulin secretion and rarely causes hypoglycemia when used alone.",
+        "C": "This insulin sensitizer is taken once daily and does not cause hypoglycemia by itself.",
+        "D": "Meglitinides close beta-cell ATP-sensitive potassium channels like sulfonylureas but act quickly and briefly, so they are dosed with meals and cause hypoglycemia if the meal is missed.",
+        "E": "DPP-4 inhibitors enhance insulin release only when glucose is elevated, so a skipped meal does not cause hypoglycemia."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-037",
+      "question": "A 55-year-old woman with type 2 diabetes has a second medication added to metformin. Four months later her hemoglobin A1c has improved, her HDL cholesterol has risen, and she has gained 4 kg. The new drug improves insulin sensitivity in muscle, adipose tissue, and liver by changing gene expression. Which best describes the molecular target of this drug?",
+      "answers": {
+        "A": "Cell-surface G protein-coupled receptor",
+        "B": "Cell-surface receptor tyrosine kinase",
+        "C": "Membrane ion channel",
+        "D": "Mitochondrial respiratory chain enzyme",
+        "E": "Nuclear transcription factor"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "GLP-1 receptor agonists act on this type of receptor and cause weight loss.",
+        "B": "Insulin itself binds a receptor tyrosine kinase.",
+        "C": "Sulfonylureas and meglitinides act on the ATP-sensitive potassium channel of the beta cell.",
+        "D": "Metformin inhibits complex I of the respiratory chain, and she was already taking it.",
+        "E": "Thiazolidinediones are agonists of PPAR-gamma, a nuclear receptor that alters gene transcription to increase insulin sensitivity, at the cost of weight gain."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-038",
+      "question": "A 59-year-old man with type 2 diabetes takes metformin at the maximal dose. His hemoglobin A1c is 8.2%, and his BMI is 36 kg/m2. He had a myocardial infarction 2 years ago. Estimated GFR is 82 mL/min/1.73 m2. Which additional medication is most likely to reduce both his weight and his risk of another atherosclerotic event?",
+      "answers": {
+        "A": "Glipizide",
+        "B": "Pioglitazone",
+        "C": "Repaglinide",
+        "D": "Semaglutide",
+        "E": "Sitagliptin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Sulfonylureas lower A1c effectively at first but cause weight gain and have no cardiovascular benefit.",
+        "B": "Thiazolidinediones cause weight gain.",
+        "C": "Meglitinides control postprandial glucose without producing weight loss or cardiovascular benefit.",
+        "D": "GLP-1 receptor agonists increase glucose-dependent insulin secretion, slow gastric emptying, and promote satiety, giving substantial weight loss and fewer atherosclerotic events.",
+        "E": "DPP-4 inhibitors are weight neutral and have not been shown to reduce atherosclerotic events."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-039",
+      "question": "A 64-year-old woman with type 2 diabetes has been hospitalized twice this year for heart failure with reduced ejection fraction. Her hemoglobin A1c is 7.8% on metformin. Estimated GFR is 48 mL/min/1.73 m2, and urine albumin-to-creatinine ratio is 420 mg/g. Which additional medication is most appropriate?",
+      "answers": {
+        "A": "Dapagliflozin",
+        "B": "Glimepiride",
+        "C": "Nateglinide",
+        "D": "Pioglitazone",
+        "E": "Sitagliptin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "SGLT2 inhibitors reduce hospitalization for heart failure and slow progression of chronic kidney disease in addition to lowering glucose.",
+        "B": "Sulfonylureas lower glucose but offer no heart or kidney protection and add a risk of hypoglycemia.",
+        "C": "Meglitinides target postprandial glucose and provide no cardiorenal benefit.",
+        "D": "Thiazolidinediones cause fluid retention and can worsen heart failure.",
+        "E": "DPP-4 inhibitors have not been shown to reduce heart failure admissions or slow kidney disease."
+      }
+    },
+    {
+      "id": "endorepro-week-1-cbl-040",
+      "question": "A 52-year-old man with a hemoglobin A1c of 6.2% enrolls in the National Diabetes Prevention Program. He weighs 100 kg and is sedentary. He asks how much weight he should aim to lose to meaningfully lower his risk of progressing to diabetes. Which initial weight-loss goal is most consistent with current recommendations?",
+      "answers": {
+        "A": "1 kg",
+        "B": "6 kg",
+        "C": "15 kg",
+        "D": "25 kg",
+        "E": "35 kg"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A loss of 1% of body weight is below the amount recommended to lower the risk of progression.",
+        "B": "A reduction of 5% to 7% of body weight, here 5 to 7 kg, is the recommended goal for high-risk patients with prediabetes.",
+        "C": "A 15% loss exceeds the initial goal and is harder to sustain through lifestyle change alone.",
+        "D": "A loss of this size approaches what is seen after bariatric surgery and is not the prevention program target.",
+        "E": "This far exceeds the recommended target and is not a realistic lifestyle goal."
+      }
+    }
+  ]
+}
