@@ -1,0 +1,559 @@
+{
+  "lecture": "Chronic Complications of Diabetes",
+  "block": "endorepro",
+  "generated": "2026-10-09",
+  "questions": [
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-001",
+      "question": "A 22-year-old woman comes to the office 2 weeks after hospitalization for diabetic ketoacidosis, during which she was newly diagnosed with type 1 diabetes mellitus. She had been well until 3 weeks before admission, when she developed polyuria and weight loss. She now takes basal and mealtime insulin. Visual acuity is 20/20 bilaterally. When should her first dilated, comprehensive eye examination be scheduled?",
+      "answers": {
+        "A": "At the time of diagnosis",
+        "B": "Five years after diagnosis",
+        "C": "Only once vision declines",
+        "D": "Six months after diagnosis",
+        "E": "Ten years after diagnosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This is the schedule for type 2 diabetes, where years of undiagnosed hyperglycemia may already have caused retinopathy.",
+        "B": "Correct. Retinopathy takes at least 5 years of hyperglycemia to develop, and the abrupt onset of type 1 diabetes dates the start of hyperglycemia, so screening begins 5 years after diagnosis.",
+        "C": "Screening aims to find retinopathy before symptoms, while vision loss can still be prevented or reversed.",
+        "D": "No guideline interval starts at 6 months; too little time has passed for microvascular damage to appear.",
+        "E": "Waiting 10 years would miss retinopathy that can appear after about 5 years of hyperglycemia."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-002",
+      "question": "A 54-year-old man is found to have a hemoglobin A1c of 8.3% on routine laboratory testing and is diagnosed with type 2 diabetes mellitus. He reports no polyuria, polydipsia, or visual changes, and he last saw a physician 9 years ago. Body mass index is 33 kg/m2. Which of the following is the most appropriate timing for his first dilated, comprehensive eye examination?",
+      "answers": {
+        "A": "After 1 year",
+        "B": "After 2 years",
+        "C": "After 5 years",
+        "D": "Now, at diagnosis",
+        "E": "When symptoms appear"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Delaying a year ignores the significant prevalence of retinopathy already present at diagnosis of type 2 diabetes.",
+        "B": "A 1–2 year interval is for follow-up after normal examinations with glycemia at goal, not for the initial examination.",
+        "C": "A 5-year delay applies to type 1 diabetes, where the onset of hyperglycemia is known.",
+        "D": "Correct. Type 2 diabetes is often preceded by years of undiagnosed hyperglycemia, so retinopathy may already be present and screening starts at diagnosis.",
+        "E": "Retinopathy is usually asymptomatic until advanced, so waiting for symptoms defeats the purpose of screening."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-003",
+      "question": "A 49-year-old woman with a 3-month history of type 2 diabetes mellitus comes for a follow-up visit. She takes metformin. Blood pressure is 124/78 mm Hg. Laboratory results are shown. Which of the following is the most appropriate test to screen for diabetic kidney disease?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin A1c",
+          "7.4%",
+          "<5.7%"
+        ],
+        [
+          "Creatinine",
+          "0.8 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "eGFR",
+          "96 mL/min/1.73 m2",
+          ">90 mL/min/1.73 m2"
+        ]
+      ],
+      "answers": {
+        "A": "Kidney ultrasonography with Doppler",
+        "B": "Routine urine dipstick for protein",
+        "C": "Serum blood urea nitrogen level",
+        "D": "Spot urine albumin-to-creatinine ratio",
+        "E": "Urine microscopy for cellular casts"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Imaging assesses structure and obstruction but does not detect early glomerular albumin leak.",
+        "B": "A dipstick is too insensitive for moderately increased albuminuria and turns positive only at higher protein levels.",
+        "C": "BUN varies with hydration and protein intake and rises only after substantial loss of filtration.",
+        "D": "Correct. The UACR (normal <30 mg/g) detects the small increases in albumin excretion that are the earliest sign of diabetic nephropathy, and is checked with eGFR at least annually.",
+        "E": "Cellular casts point to glomerulonephritis or tubular injury, not early diabetic kidney disease."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-004",
+      "question": "A 61-year-old man with a 12-year history of type 2 diabetes mellitus comes for a routine visit. He takes metformin only. Blood pressure is 150/94 mm Hg today and was 148/92 mm Hg one month ago. Laboratory results are shown. Which of the following medications is the most appropriate addition to slow progression of his kidney disease?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin A1c",
+          "7.1%",
+          "<5.7%"
+        ],
+        [
+          "eGFR",
+          "74 mL/min/1.73 m2",
+          ">90 mL/min/1.73 m2"
+        ],
+        [
+          "Urine albumin-to-creatinine ratio",
+          "180 mg/g",
+          "<30 mg/g"
+        ],
+        [
+          "Potassium",
+          "4.2 mEq/L",
+          "3.5–5.0 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Amlodipine",
+        "B": "Hydralazine",
+        "C": "Hydrochlorothiazide",
+        "D": "Lisinopril",
+        "E": "Metoprolol"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A dihydropyridine calcium channel blocker lowers blood pressure but does not reduce intraglomerular pressure or albuminuria the way an ACE inhibitor does.",
+        "B": "A direct arteriolar vasodilator has no antiproteinuric effect and causes reflex tachycardia.",
+        "C": "A thiazide lowers blood pressure without a specific renoprotective effect on albuminuria.",
+        "D": "Correct. In diabetes with hypertension and albuminuria (UACR 30–299 mg/g), an ACE inhibitor or ARB is recommended to slow kidney disease progression and reduce cardiovascular events.",
+        "E": "A beta blocker is not first-line for hypertension with albuminuria and does not slow diabetic nephropathy."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-005",
+      "question": "A 58-year-old woman with type 2 diabetes mellitus asks what she can take to prevent future diabetic kidney disease. A dilated eye examination 2 months ago showed no retinopathy. Blood pressure is 118/72 mm Hg. Laboratory results are shown. Which of the following is the most appropriate recommendation?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.5%",
+          "<5.7%"
+        ],
+        [
+          "Creatinine",
+          "1.0 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "eGFR",
+          "90 mL/min/1.73 m2",
+          ">90 mL/min/1.73 m2"
+        ],
+        [
+          "Urine albumin-to-creatinine ratio",
+          "10 mg/g",
+          "<30 mg/g"
+        ]
+      ],
+      "answers": {
+        "A": "Amlodipine once daily",
+        "B": "Dietary protein restriction",
+        "C": "Losartan once daily",
+        "D": "Low-dose aspirin daily",
+        "E": "No additional therapy"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A calcium channel blocker has no role here because she is not hypertensive and it does not prevent nephropathy.",
+        "B": "Protein restriction has no evidence for preventing kidney disease in a patient with normal GFR.",
+        "C": "An ARB or ACE inhibitor is not recommended for primary prevention when blood pressure, UACR, and eGFR are all normal.",
+        "D": "Aspirin has no evidence for preventing diabetic kidney disease.",
+        "E": "Correct. With normal blood pressure, normal UACR, and normal eGFR, no added agent is indicated; glucose and blood pressure control are the preventive measures."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-006",
+      "question": "A 66-year-old man with a 20-year history of type 2 diabetes mellitus and chronic kidney disease comes for follow-up. Medications are metformin and lisinopril at maximal dose. Blood pressure is 128/76 mm Hg. Laboratory results are shown. Addition of which of the following medications is most likely to reduce progression of his kidney disease and his risk of cardiovascular events?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin A1c",
+          "7.6%",
+          "<5.7%"
+        ],
+        [
+          "eGFR",
+          "44 mL/min/1.73 m2",
+          ">90 mL/min/1.73 m2"
+        ],
+        [
+          "Urine albumin-to-creatinine ratio",
+          "420 mg/g",
+          "<30 mg/g"
+        ],
+        [
+          "Potassium",
+          "4.6 mEq/L",
+          "3.5–5.0 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Empagliflozin",
+        "B": "Glipizide",
+        "C": "Insulin glargine",
+        "D": "Pioglitazone",
+        "E": "Sitagliptin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. SGLT2 inhibitors are recommended in type 2 diabetes with CKD when eGFR is ≥20 mL/min/1.73 m2 and urinary albumin is ≥200 mg/g, reducing CKD progression and cardiovascular events.",
+        "B": "A sulfonylurea lowers glucose by stimulating insulin release but has no renal or cardiovascular protective effect.",
+        "C": "Basal insulin improves glycemia without an independent benefit on CKD progression.",
+        "D": "A thiazolidinedione causes fluid retention and has no proven benefit on CKD progression.",
+        "E": "A DPP-4 inhibitor is renally and cardiovascularly neutral."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-007",
+      "question": "A 57-year-old woman with a 14-year history of type 2 diabetes mellitus undergoes a screening retinal examination. She has no visual symptoms. Hemoglobin A1c is 9.1%. Funduscopy shows scattered dot-blot hemorrhages, yellow well-demarcated deposits, and several dull-white fluffy patches in both eyes. The optic discs are sharp and there are no new vessels. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Age-related macular degeneration",
+        "B": "Central retinal vein occlusion",
+        "C": "Nonproliferative diabetic retinopathy",
+        "D": "Primary open-angle glaucoma",
+        "E": "Proliferative diabetic retinopathy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Macular degeneration shows drusen or subretinal neovascular membranes with central vision loss, not dot-blot hemorrhages.",
+        "B": "Vein occlusion is unilateral with sudden vision loss and diffuse 'blood and thunder' hemorrhages with disc swelling.",
+        "C": "Correct. Retinal hemorrhages, hard lipid exudates, and cotton wool spots without neovascularization define nonproliferative diabetic retinopathy.",
+        "D": "Glaucoma shows optic disc cupping with peripheral field loss rather than retinal hemorrhages and exudates.",
+        "E": "Proliferative disease requires neovascularization, which is explicitly absent."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-008",
+      "question": "A 63-year-old man with poorly controlled type 2 diabetes mellitus has a retinal photograph taken with a handheld camera in his primary care office. The image shows several dull-white, fluffy lesions with indistinct borders near the vascular arcades, in addition to scattered dot-blot hemorrhages. Which of the following best explains the white fluffy lesions?",
+      "answers": {
+        "A": "Deposition of drusen under the retina",
+        "B": "Growth of fragile new retinal vessels",
+        "C": "Infarction of the nerve fiber layer",
+        "D": "Lipid leakage from retinal capillaries",
+        "E": "Rupture of capillary microaneurysms"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Drusen are yellow deposits beneath the retinal pigment epithelium seen in macular degeneration.",
+        "B": "Neovascularization appears as fine abnormal vessels and defines proliferative retinopathy.",
+        "C": "Correct. Cotton wool spots are nerve fiber layer infarcts caused by occlusion of small retinal arterioles.",
+        "D": "Leaked lipid forms hard exudates, which are yellow and sharply demarcated rather than white and fluffy.",
+        "E": "Ruptured microaneurysms produce dot-blot hemorrhages, which are red."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-009",
+      "question": "A 60-year-old woman with a 16-year history of type 2 diabetes mellitus reports 2 months of blurred central vision when reading. Hemoglobin A1c is 8.8%. Dilated examination shows retinal thickening and hard exudates at the macula in both eyes without neovascularization. Which of the following is the most appropriate first-line treatment for her visual symptoms?",
+      "answers": {
+        "A": "Cataract extraction with lens implant",
+        "B": "Intravitreal anti-VEGF injection",
+        "C": "Intravitreal corticosteroid injection",
+        "D": "Systemic anticoagulation with warfarin",
+        "E": "Topical timolol ophthalmic drops"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cataracts are more frequent in diabetes but the findings here localize to the macula, not the lens.",
+        "B": "Correct. Intravitreous anti-VEGF therapy is first line for diabetic macular edema because VEGF drives the vascular leak.",
+        "C": "Corticosteroid injection is used for macular edema that persists despite anti-VEGF therapy; it is not first line.",
+        "D": "Anticoagulation has no role in diabetic retinopathy and may worsen retinal hemorrhage.",
+        "E": "Timolol lowers intraocular pressure in glaucoma and does not treat macular edema."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-010",
+      "question": "A 48-year-old man with a 30-year history of type 1 diabetes mellitus has a dilated eye examination. He has floaters in the right eye. Hemoglobin A1c is 9.4%. Funduscopy shows fine, irregular new vessels on the optic disc and along the vascular arcades of both eyes; the maculae are flat. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Observation with annual review",
+        "B": "Oral prednisone taper",
+        "C": "Panretinal laser photocoagulation",
+        "D": "Systemic heparin infusion",
+        "E": "Topical latanoprost drops"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Sight-threatening proliferative disease needs treatment and more frequent examinations, not routine annual follow-up.",
+        "B": "Systemic corticosteroids worsen glycemia and do not treat neovascularization.",
+        "C": "Correct. Laser photocoagulation is used for proliferative diabetic retinopathy; ablating ischemic retina reduces the drive for neovascularization.",
+        "D": "Anticoagulation is not a treatment for retinopathy and raises the risk of vitreous hemorrhage.",
+        "E": "A prostaglandin analog lowers intraocular pressure in glaucoma and has no effect on retinal new vessels."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-011",
+      "question": "A 59-year-old woman with type 2 diabetes mellitus had mild nonproliferative retinopathy on her first dilated eye examination 12 months ago. She has no visual symptoms. Hemoglobin A1c is 7.9%. Repeat examination today is unchanged. Which of the following is the most appropriate interval for her subsequent dilated retinal examinations?",
+      "answers": {
+        "A": "About once every 2 years",
+        "B": "About once every 3 years",
+        "C": "About once every 5 years",
+        "D": "At least once every year",
+        "E": "Only if her vision worsens"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A 1–2 year interval is reserved for patients with no retinopathy and glycemia at goal.",
+        "B": "No recommendation supports a 3-year interval once retinopathy is present.",
+        "C": "A 5-year gap is the wait before first screening in type 1 diabetes, not a follow-up interval.",
+        "D": "Correct. When any level of diabetic retinopathy is present, dilated examinations are repeated at least annually.",
+        "E": "Retinopathy progresses without symptoms, so waiting for vision change forfeits the chance to intervene."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-012",
+      "question": "A 64-year-old man with type 2 diabetes mellitus since age 32 comes for an annual examination. Glycemic control has been poor; hemoglobin A1c is 10.6%. He was unaware of a shallow, painless ulcer on the plantar surface of the right foot. Dorsalis pedis pulses are palpable. Which of the following additional findings is most likely on examination?",
+      "answers": {
+        "A": "Absent ankle jerk reflexes",
+        "B": "Brisk patellar reflexes",
+        "C": "Extensor plantar responses",
+        "D": "Heightened vibration sense",
+        "E": "Sustained ankle clonus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Distal symmetric polyneuropathy causes loss of protective sensation, vibration, and reflexes, which is why the ulcer went unnoticed.",
+        "B": "Hyperreflexia indicates an upper motor neuron lesion; peripheral neuropathy reduces reflexes.",
+        "C": "A Babinski sign reflects corticospinal tract disease, not length-dependent peripheral neuropathy.",
+        "D": "Vibration sense is reduced or lost in diabetic polyneuropathy, not increased.",
+        "E": "Clonus is an upper motor neuron sign and is not produced by peripheral nerve damage."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-013",
+      "question": "A 56-year-old woman with a 15-year history of type 2 diabetes mellitus reports 8 months of burning and tingling in both feet that is worse at night and has recently begun in her fingertips. Hemoglobin A1c is 9.0%. Examination shows symmetric loss of pinprick and temperature sensation to the mid-calf and reduced vibration at the great toes. Which of the following forms of diabetic neuropathy is most likely?",
+      "answers": {
+        "A": "Cardiovascular autonomic neuropathy",
+        "B": "Distal symmetric polyneuropathy",
+        "C": "Focal cranial mononeuropathy",
+        "D": "Lumbar polyradiculopathy",
+        "E": "Mononeuropathy multiplex"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Autonomic neuropathy presents with resting tachycardia, orthostatic hypotension, or exercise intolerance rather than distal sensory loss.",
+        "B": "Correct. Symmetric burning and sensory loss in a stocking-glove distribution is the length-dependent polyneuropathy of diabetes.",
+        "C": "A focal mononeuropathy affects a single nerve, classically cranial nerve III, causing diplopia and ptosis.",
+        "D": "Nerve root disease gives asymmetric, dermatomal pain and proximal weakness.",
+        "E": "Mononeuropathy multiplex is asymmetric involvement of several named peripheral nerves, not a symmetric distal pattern."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-014",
+      "question": "A 62-year-old man with type 2 diabetes mellitus treated with metformin for 11 years reports 6 months of numbness in both feet and unsteadiness in the dark. He drinks no alcohol. Examination shows loss of vibration and proprioception at the toes and a smooth, red tongue. Laboratory results are shown. Which of the following is the most likely cause of his neuropathy?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "10.6 g/dL",
+          "13.5–17.5 g/dL"
+        ],
+        [
+          "Mean corpuscular volume",
+          "114 fL",
+          "80–100 fL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.4%",
+          "<5.7%"
+        ],
+        [
+          "Creatinine",
+          "0.9 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Alcohol-related neuropathy",
+        "B": "Diabetic polyneuropathy",
+        "C": "Paraneoplastic neuropathy",
+        "D": "Vasculitic neuropathy",
+        "E": "Vitamin B12 deficiency"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alcohol can cause neuropathy and macrocytosis, but he does not drink.",
+        "B": "With an A1c of 6.4% and macrocytic anemia, attributing the neuropathy to diabetes would overlook a treatable cause.",
+        "C": "Malignancy is a possible cause but would not explain macrocytosis and glossitis.",
+        "D": "Vasculitis causes painful, asymmetric mononeuropathy multiplex with systemic inflammation.",
+        "E": "Correct. Macrocytic anemia, glossitis, and dorsal column loss point to B12 deficiency; diabetic neuropathy is a diagnosis of exclusion and treatable causes must be sought."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-015",
+      "question": "A 58-year-old woman with type 2 diabetes mellitus has burning pain in both feet that keeps her awake. Examination shows symmetric loss of pinprick sensation to the ankles and absent ankle reflexes. Vitamin B12 and thyroid-stimulating hormone levels are normal and she does not drink alcohol. Hemoglobin A1c is 7.8%. In addition to optimizing glucose control, which of the following is the most appropriate initial pharmacotherapy for her pain?",
+      "answers": {
+        "A": "Cyclobenzaprine",
+        "B": "Duloxetine",
+        "C": "Ibuprofen",
+        "D": "Oxycodone",
+        "E": "Prednisone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A skeletal muscle relaxant treats muscle spasm and has no effect on neuropathic pain.",
+        "B": "Correct. Serotonin-norepinephrine reuptake inhibitors, gabapentinoids, tricyclic antidepressants, and sodium channel blockers are the recommended initial agents for diabetic neuropathic pain.",
+        "C": "NSAIDs treat nociceptive, inflammatory pain and are ineffective for neuropathic pain, with added renal risk in diabetes.",
+        "D": "Opioids are not an initial treatment for neuropathic pain because of dependence and limited long-term benefit.",
+        "E": "Corticosteroids do not relieve diabetic neuropathic pain and worsen hyperglycemia."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-016",
+      "question": "A 51-year-old man with type 1 diabetes mellitus since age 6 reports lightheadedness on standing and erectile dysfunction for the past year. He takes insulin only and drinks adequate fluids. Skin turgor and mucous membranes are normal. Vital signs and laboratory results are shown. Which of the following is the most likely cause of his lightheadedness?",
+      "table": [
+        [
+          "Measurement",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Supine blood pressure",
+          "134/82 mm Hg",
+          "<130/80 mm Hg"
+        ],
+        [
+          "Supine heart rate",
+          "108/min",
+          "60–100/min"
+        ],
+        [
+          "Standing blood pressure (3 min)",
+          "100/62 mm Hg",
+          "<20 mm Hg systolic drop"
+        ],
+        [
+          "Standing heart rate (3 min)",
+          "110/min",
+          "rise of 10–20/min"
+        ],
+        [
+          "Glucose",
+          "148 mg/dL",
+          "70–99 mg/dL fasting"
+        ],
+        [
+          "Sodium",
+          "139 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Potassium",
+          "4.3 mEq/L",
+          "3.5–5.0 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Catecholamine-secreting tumor",
+        "B": "Diabetic autonomic neuropathy",
+        "C": "Hyperglycemic osmotic diuresis",
+        "D": "Hyperthyroid heart disease",
+        "E": "Primary adrenal insufficiency"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Pheochromocytoma causes episodic hypertension, headache, and sweating rather than a fixed heart rate.",
+        "B": "Correct. Resting tachycardia with an orthostatic blood pressure drop and no compensatory rise in heart rate, plus erectile dysfunction, indicates autonomic failure from long-standing diabetes.",
+        "C": "Volume depletion would produce a brisk reflex tachycardia on standing, and his glucose is too low for significant glucosuria.",
+        "D": "Thyrotoxicosis causes tachycardia with weight loss and tremor but not a blunted orthostatic heart rate response.",
+        "E": "Addison disease causes orthostasis with hyponatremia, hyperkalemia, and hyperpigmentation, which are absent."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-017",
+      "question": "A 45-year-old woman with a 20-year history of type 1 diabetes mellitus has had early satiety, bloating, and intermittent vomiting of food eaten many hours earlier for 6 months. She has frequent hypoglycemia 1 hour after mealtime insulin followed by late hyperglycemia. Hemoglobin A1c is 8.6%. Abdominal ultrasonography and upper endoscopy are normal. Which of the following tests is most likely to confirm the diagnosis?",
+      "answers": {
+        "A": "Fecal elastase measurement",
+        "B": "Gastric emptying scintigraphy",
+        "C": "Hepatobiliary iminodiacetic scan",
+        "D": "Tissue transglutaminase IgA",
+        "E": "Urea breath testing"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Low fecal elastase indicates exocrine pancreatic insufficiency, which causes steatorrhea rather than early satiety.",
+        "B": "Correct. Her symptoms and insulin-meal mismatch indicate gastroparesis from vagal autonomic neuropathy; the diagnosis is clinical but is confirmed by a gastric emptying study.",
+        "C": "A HIDA scan evaluates cystic duct obstruction in cholecystitis, and her ultrasound showed no gallbladder disease.",
+        "D": "This screens for celiac disease, which presents with diarrhea, malabsorption, and iron deficiency.",
+        "E": "This detects Helicobacter pylori in peptic ulcer disease, and her endoscopy was normal."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-018",
+      "question": "A 52-year-old man with long-standing type 1 diabetes mellitus and gastroparesis confirmed by a gastric emptying study continues to have postprandial vomiting despite small, frequent meals and improved glucose control. His physician prescribes a prokinetic agent that antagonizes dopamine D2 receptors. With long-term use, this patient is at greatest risk for which of the following adverse effects?",
+      "answers": {
+        "A": "Acute pancreatitis",
+        "B": "Lactic acidosis",
+        "C": "Peripheral edema",
+        "D": "Sensorineural hearing loss",
+        "E": "Tardive dyskinesia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Pancreatitis is associated with GLP-1 receptor agonists and DPP-4 inhibitors, not dopamine antagonists.",
+        "B": "Lactic acidosis is the rare serious adverse effect of metformin.",
+        "C": "Fluid retention and edema are adverse effects of thiazolidinediones and dihydropyridine calcium channel blockers.",
+        "D": "Ototoxicity is seen with aminoglycosides and loop diuretics.",
+        "E": "Correct. Metoclopramide, the prokinetic used for gastroparesis, blocks central D2 receptors and can cause extrapyramidal effects including tardive dyskinesia."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-019",
+      "question": "A 46-year-old woman with newly diagnosed type 2 diabetes mellitus and a hemoglobin A1c of 8.9% asks how lowering her blood glucose will help her. Her father had diabetes and died of a myocardial infarction; her mother, also diabetic, is blind. Blood pressure is 126/78 mm Hg. Based on large randomized trials, intensive glycemic control will most reliably reduce her risk of which of the following?",
+      "answers": {
+        "A": "Aortic aneurysm",
+        "B": "Carotid stenosis",
+        "C": "Ischemic stroke",
+        "D": "Myocardial infarction",
+        "E": "Retinopathy"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Aortic aneurysm is large-vessel disease not shown to be prevented by glycemic control.",
+        "B": "Carotid atherosclerosis is macrovascular and is not reliably reduced by intensive glucose lowering.",
+        "C": "Stroke is a macrovascular complication, influenced more by blood pressure and lipids than by glycemia.",
+        "D": "Coronary disease is macrovascular, and the evidence that glucose control prevents macrovascular disease is less clear.",
+        "E": "Correct. DCCT and UKPDS showed that intensive glucose control clearly reduces microvascular complications; each 1% fall in A1c gave about a 35% reduction in microvascular endpoints."
+      }
+    },
+    {
+      "id": "endorepro-chronic-complications-of-diabetes-020",
+      "question": "A 67-year-old man with a 22-year history of type 2 diabetes mellitus comes for a routine visit. He has no history of foot ulcers or amputation, and monofilament testing last year was normal in both feet. Hemoglobin A1c is 7.4%. He asks how often his feet need to be formally examined. Which of the following is the most appropriate schedule for comprehensive foot evaluation in this patient?",
+      "answers": {
+        "A": "About once every five years",
+        "B": "About once every two years",
+        "C": "At every single office visit",
+        "D": "At least once every year",
+        "E": "Only when an ulcer develops"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Five years is the delay before starting microvascular screening in type 1 diabetes, not a foot examination interval.",
+        "B": "A 2-year interval risks missing new loss of protective sensation, the main precursor of ulceration.",
+        "C": "Inspection at every visit is for patients with sensory loss or prior ulceration or amputation, none of which he has.",
+        "D": "Correct. All people with diabetes should have a comprehensive foot evaluation, including 10-g monofilament testing plus one other sensory test, at least annually.",
+        "E": "Waiting for an ulcer misses the at-risk foot, where early recognition can prevent ulceration and amputation."
+      }
+    }
+  ]
+}
