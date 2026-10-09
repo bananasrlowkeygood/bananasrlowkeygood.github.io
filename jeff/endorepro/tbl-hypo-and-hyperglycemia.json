@@ -1,0 +1,522 @@
+{
+  "lecture": "TBL: Hypo- & Hyperglycemia",
+  "block": "endorepro",
+  "generated": "2026-10-08",
+  "questions": [
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-001",
+      "question": "A 4-year-old boy is brought to the emergency department with lethargy, abdominal pain, and frequent urination. He was irritable and pulling at his left ear the day before. Pulse is 140/min and weak, respirations are 32/min and deep, and blood pressure is 80/50 mm Hg. Mucous membranes are dry, and urine ketones are 3+. Laboratory results are shown. Which best describes his acid-base disorder?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "460 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Sodium",
+          "132 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Chloride",
+          "105 mEq/L",
+          "98–107 mEq/L"
+        ],
+        [
+          "Bicarbonate",
+          "10 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Arterial pH",
+          "7.15",
+          "7.35–7.45"
+        ],
+        [
+          "PaCO2",
+          "22 mm Hg",
+          "35–45 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "High anion gap metabolic acidosis with respiratory acidosis",
+        "B": "High anion gap metabolic acidosis with respiratory alkalosis",
+        "C": "High anion gap metabolic acidosis with respiratory compensation",
+        "D": "Normal anion gap metabolic acidosis with respiratory compensation",
+        "E": "Primary respiratory alkalosis with metabolic compensation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A concurrent respiratory acidosis would give a PaCO2 above the predicted range; his measured value is as expected.",
+        "B": "A concurrent respiratory alkalosis would give a PaCO2 well below the 23 mm Hg (plus or minus 2) predicted by Winter's formula.",
+        "C": "The anion gap is 132 - 105 - 10 = 17 mEq/L, and the PaCO2 predicted by Winter's formula (1.5 x 10 + 8 = 23 mm Hg) matches the measured value, so compensation is appropriate.",
+        "D": "A hyperchloremic non-gap acidosis would have an anion gap of 12 mEq/L or less; his is 17.",
+        "E": "A primary respiratory alkalosis would raise the pH above 7.45, whereas his pH is 7.15."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-002",
+      "question": "A 9-year-old girl with new-onset type 1 diabetes presents in diabetic ketoacidosis. Her measured serum sodium is low, and the resident wants to know her sodium concentration after accounting for the effect of hyperglycemia. Laboratory results are shown. Which value is closest to her corrected sodium concentration?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "500 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Sodium",
+          "130 mEq/L",
+          "135–145 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "122 mEq/L",
+        "B": "130 mEq/L",
+        "C": "139 mEq/L",
+        "D": "150 mEq/L",
+        "E": "160 mEq/L"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The correction is added to, not subtracted from, the measured sodium.",
+        "B": "This is the measured value, which is lowered by water that hyperglycemia draws into the extracellular space.",
+        "C": "Elevated glucose expands the extracellular water space and dilutes sodium; adding about 2 mEq/L for each 100 mg/dL of excess glucose gives a corrected value of roughly 138 to 140 mEq/L.",
+        "D": "This overcorrects; the adjustment is about 2 mEq/L per 100 mg/dL of glucose, not 4 or 5.",
+        "E": "This would require a correction of 30 mEq/L, far more than her glucose can account for."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-003",
+      "question": "A 6-year-old boy with fever and vomiting is found to have a blood glucose of 510 mg/dL and large urine ketones. He has eaten almost nothing for 24 hours. Which changes in hepatic metabolic flux account for his hyperglycemia despite the lack of intake?",
+      "answers": {
+        "A": "Decreased gluconeogenesis and decreased glycogenolysis",
+        "B": "Decreased gluconeogenesis and increased glycogenolysis",
+        "C": "Increased gluconeogenesis and decreased glycogenolysis",
+        "D": "Increased gluconeogenesis and increased glycogenolysis",
+        "E": "Unchanged gluconeogenesis and unchanged glycogenolysis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This is the insulin-stimulated fed-state pattern, which would lower rather than raise blood glucose.",
+        "B": "Gluconeogenesis is increased, driven by unopposed glucagon and substrate from lipolysis and proteolysis.",
+        "C": "Glycogenolysis is disinhibited rather than suppressed when insulin is lacking.",
+        "D": "Insulin deficiency removes the normal inhibition of both gluconeogenesis and glycogenolysis, so the liver overproduces glucose.",
+        "E": "Reduced peripheral glucose use contributes, but hepatic overproduction is a major cause of the hyperglycemia."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-004",
+      "question": "A 12-year-old girl with type 1 diabetes missed several insulin doses. She has passed large volumes of urine for 2 days and now has dry mucous membranes, poor skin turgor, and a capillary refill time of 4 seconds. Her blood glucose is 520 mg/dL. Which mechanism best explains how hyperglycemia produced her volume depletion?",
+      "answers": {
+        "A": "Glucose in the collecting duct blocking aquaporin channels",
+        "B": "Glucose in the hypothalamus suppressing vasopressin release",
+        "C": "Glucose in the plasma causing leakage across endothelium",
+        "D": "Glucose in the plasma inhibiting aldosterone secretion",
+        "E": "Glucose in the tubular fluid retaining water osmotically"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Glucose is not an aquaporin antagonist; water follows it because of its osmotic effect.",
+        "B": "Hyperosmolality stimulates rather than suppresses vasopressin release.",
+        "C": "Capillary leak is not the mechanism of fluid loss in hyperglycemia; the water is lost in the urine.",
+        "D": "Hyperglycemia does not inhibit aldosterone; volume depletion increases aldosterone.",
+        "E": "Above a blood glucose of about 180 mg/dL, filtered glucose exceeds reabsorptive capacity and remains in the urine, holding water and causing an osmotic diuresis; ketone bodies do the same above about 5 mM."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-005",
+      "question": "A 4-year-old boy in diabetic ketoacidosis has a weak, rapid pulse, low skin turgor, and delayed capillary refill. His complete blood count shows a hemoglobin of 18.4 g/dL and a red blood cell count of 6.2 million/mm3. BUN is 36 mg/dL and creatinine is 1.8 mg/dL. Which explanation best accounts for the hemoglobin and red cell count?",
+      "answers": {
+        "A": "Erythropoietin excess from chronic tissue hypoxia",
+        "B": "Hemoconcentration from loss of plasma volume",
+        "C": "Laboratory artifact from marked hyperglycemia",
+        "D": "Polycythemia vera from a marrow stem cell mutation",
+        "E": "Splenic contraction from sympathetic activation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Increased red cell production takes weeks and would not explain an acute rise with signs of volume depletion.",
+        "B": "Hemoglobin, red cells, BUN, and creatinine all become concentrated when plasma volume falls with dehydration.",
+        "C": "Hyperglycemia does not falsely raise the hemoglobin or the red cell count.",
+        "D": "A myeloproliferative neoplasm is very rare in a 4-year-old and would not explain the elevated BUN and creatinine.",
+        "E": "Splenic release of red cells is not a significant contributor in humans and would not concentrate BUN and creatinine."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-006",
+      "question": "A 15-year-old girl with type 1 diabetes is admitted with vomiting and deep, rapid breathing. Arterial pH is 7.12, blood glucose is 430 mg/dL, and serum beta-hydroxybutyrate is markedly elevated. Which process is directly responsible for the fall in her blood pH?",
+      "answers": {
+        "A": "Elimination of carbon dioxide by deep respiration",
+        "B": "Production of ketone bodies in excess of their oxidation",
+        "C": "Production of protons by fatty acid beta-oxidation",
+        "D": "Reduction of ammonium excretion by the kidney",
+        "E": "Release of free fatty acids from adipose tissue"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Deep, rapid breathing lowers PaCO2 and raises pH; it is compensation, not the cause.",
+        "B": "Ketone bodies enter the blood as acids and release a proton; acidosis develops only when production exceeds the rate at which tissues take them up and oxidize them.",
+        "C": "Beta-oxidation itself does not acidify the blood; the acid load comes from ketone bodies exported by the liver.",
+        "D": "Renal ammonium excretion increases to help eliminate acid during ketoacidosis.",
+        "E": "Circulating fatty acids rarely exceed about 2 mM and are mostly bound to albumin, so they do not cause the acidosis directly."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-007",
+      "question": "A 16-year-old boy with type 1 diabetes presents in diabetic ketoacidosis after an insulin pump failure. He is breathing deeply at 30/min. Laboratory results are shown. Which interpretation of his respiratory status is most accurate?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Arterial pH",
+          "7.20",
+          "7.35–7.45"
+        ],
+        [
+          "Bicarbonate",
+          "12 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "PaCO2",
+          "26 mm Hg",
+          "35–45 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "Appropriate respiratory compensation for the metabolic acidosis",
+        "B": "Excessive compensation, indicating a respiratory alkalosis",
+        "C": "Inadequate compensation, indicating a respiratory acidosis",
+        "D": "Normal ventilation without any compensatory response",
+        "E": "Primary respiratory alkalosis with a low bicarbonate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Winter's formula predicts a PaCO2 of 1.5 x 12 + 8 = 26 mm Hg (plus or minus 2), which matches the measured value.",
+        "B": "A superimposed respiratory alkalosis would give a PaCO2 below 24 mm Hg.",
+        "C": "A superimposed respiratory acidosis would give a PaCO2 above 28 mm Hg.",
+        "D": "A PaCO2 of 26 mm Hg reflects hyperventilation; without compensation it would remain near 40 mm Hg.",
+        "E": "A primary respiratory alkalosis would produce an alkaline pH, not 7.20."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-008",
+      "question": "A 5-year-old girl in diabetic ketoacidosis has an arterial pH of 7.15. She is given isotonic saline and an intravenous insulin infusion, and over the next 8 hours her pH rises to 7.32 without any bicarbonate. Which action of insulin is most responsible for correcting the acidosis?",
+      "answers": {
+        "A": "Inhibition of adipose lipolysis, reducing hepatic ketone synthesis",
+        "B": "Inhibition of hepatic glycogenolysis, reducing glucose output",
+        "C": "Stimulation of glucose uptake, reducing serum osmolality",
+        "D": "Stimulation of potassium uptake, reducing serum potassium",
+        "E": "Stimulation of renal bicarbonate reabsorption in the tubule"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Insulin inhibits lipolysis, lowering fatty acid delivery to the liver and therefore fatty acid oxidation and ketone body synthesis; bicarbonate is reserved for a pH below 7.0.",
+        "B": "Reduced glucose output lowers blood glucose but does not stop ketone body production.",
+        "C": "Lower glucose improves osmolality and diuresis but does not remove the source of acid.",
+        "D": "The shift of potassium into cells is a hazard of insulin therapy, not the mechanism by which acidosis resolves.",
+        "E": "Insulin does not correct ketoacidosis through a direct renal effect on bicarbonate."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-009",
+      "question": "A 4-year-old boy being treated for diabetic ketoacidosis with insulin develops hypokalemia and a serum phosphorus of 1.0 mg/dL. He becomes weak, and his breathing grows shallow. Which mechanism most directly explains how hypophosphatemia compromises energy metabolism in his muscles?",
+      "answers": {
+        "A": "Lack of carnitine for fatty acid transport",
+        "B": "Lack of NADH for the electron transport chain",
+        "C": "Lack of oxygen for cytochrome c oxidase",
+        "D": "Lack of substrate for ATP synthase",
+        "E": "Lack of substrate for DNA polymerase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Carnitine availability is not determined by the serum phosphate concentration.",
+        "B": "Electron supply is not the primary limitation; ADP cannot be phosphorylated without inorganic phosphate.",
+        "C": "His arterial oxygen content is not reduced; the limiting substrate is phosphate.",
+        "D": "Inorganic phosphate is a substrate for ATP synthase, so ATP cannot be made without it; phosphate is also needed by glyceraldehyde-3-phosphate dehydrogenase in glycolysis.",
+        "E": "DNA synthesis would be impaired, but this is secondary and does not cause acute muscle weakness."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-010",
+      "question": "A 10-year-old girl recovering from diabetic ketoacidosis has a serum phosphorus of 0.9 mg/dL. Her oxygen saturation is 99% and her PaO2 is 98 mm Hg, yet she shows signs of impaired tissue oxygen delivery. Which change in her red blood cells best explains tissue hypoxia without hypoxemia?",
+      "answers": {
+        "A": "Decreased 2,3-bisphosphoglycerate, increasing hemoglobin's oxygen affinity",
+        "B": "Decreased blood pH, shifting the dissociation curve to the right",
+        "C": "Decreased glucose-6-phosphate dehydrogenase activity, causing hemolysis",
+        "D": "Decreased NADH concentration, causing accumulation of methemoglobin",
+        "E": "Increased 2,3-bisphosphoglycerate, decreasing hemoglobin's oxygen affinity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Hypophosphatemia limits glyceraldehyde-3-phosphate dehydrogenase, lowering 1,3-BPG and 2,3-BPG, so hemoglobin binds oxygen more tightly and releases less to tissues.",
+        "B": "Acidosis promotes oxygen unloading through the Bohr effect; in addition, her acidosis is resolving.",
+        "C": "This enzyme belongs to the pentose phosphate pathway and its deficiency causes oxidative hemolysis, not altered oxygen affinity.",
+        "D": "Methemoglobinemia would lower the measured oxygen saturation and is not the mechanism here.",
+        "E": "A rise in 2,3-BPG would enhance oxygen unloading, the opposite of what occurs."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-011",
+      "question": "A 6-month-old girl is brought to the hospital after two seizures. She was last breastfed 8 hours ago. Her length and weight have fallen from the 50th percentile at birth to the 5th. She is lethargic, and the liver is palpable 4 cm below the costal margin. Laboratory results are shown. A deficiency of which enzyme is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "18 mg/dL",
+          "60–100 mg/dL"
+        ],
+        [
+          "Bicarbonate",
+          "9.2 mEq/L",
+          "20–28 mEq/L"
+        ],
+        [
+          "Anion gap",
+          "27 mEq/L",
+          "8–12 mEq/L"
+        ],
+        [
+          "Triglycerides",
+          "Markedly elevated",
+          "<150 mg/dL"
+        ],
+        [
+          "Urine ketones",
+          "Trace",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Aldolase B",
+        "B": "Galactose-1-phosphate uridyltransferase",
+        "C": "Glucokinase",
+        "D": "Glucose-6-phosphatase",
+        "E": "Glucose-6-phosphate dehydrogenase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Hereditary fructose intolerance would have caused symptoms soon after fruit was introduced rather than after a fast.",
+        "B": "Classic galactosemia presents in the first days of milk feeding with jaundice, vomiting, and cataracts.",
+        "C": "Loss of glucokinase function impairs glucose sensing and causes mild hyperglycemia, not fasting hypoglycemia with hepatomegaly.",
+        "D": "Glucose-6-phosphatase is the final step of both glycogenolysis and gluconeogenesis in liver and kidney; its deficiency (von Gierke disease) causes severe fasting hypoglycemia, hepatomegaly, lactic acidosis, and hypertriglyceridemia.",
+        "E": "This pentose phosphate pathway enzyme is important in red cells, and its deficiency causes hemolysis rather than hypoglycemia."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-012",
+      "question": "A 7-month-old boy with hepatomegaly and growth failure has a fasting blood glucose of 22 mg/dL with a high anion gap metabolic acidosis. Urine ketones are trace, and blood acetone is only slightly elevated. There is no history of ingestion. An elevated concentration of which acid is most likely responsible for his acidosis?",
+      "answers": {
+        "A": "Acetic acid",
+        "B": "Acetoacetic acid",
+        "C": "Formic acid",
+        "D": "Lactic acid",
+        "E": "Palmitic acid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Acetate accumulates after ethanol ingestion, which is unlikely in an infant with no exposure history.",
+        "B": "Trace urine ketones and near-normal blood acetone indicate that ketone bodies are not markedly elevated.",
+        "C": "Formate is the toxic metabolite of methanol, which a 7-month-old is unlikely to have ingested.",
+        "D": "With glucose-6-phosphatase deficient, glucose-6-phosphate from glycogen and gluconeogenic precursors is diverted through glycolysis, producing lactate; ketones are near normal and ingestions are implausible.",
+        "E": "Free fatty acids rarely exceed about 2 mM and are mostly albumin bound, so they do not cause a metabolic acidosis."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-013",
+      "question": "A 6-month-old girl with glucose-6-phosphatase deficiency has a blood glucose of 18 mg/dL after an 8-hour fast, yet urine ketones are only trace. In most other causes of fasting hypoglycemia, ketones would be high. Which mechanism best explains her lack of ketosis?",
+      "answers": {
+        "A": "Acyl-CoA dehydrogenase is deficient for medium chains",
+        "B": "Carnitine is depleted by urinary loss of acylcarnitines",
+        "C": "HMG-CoA synthase is absent from hepatic mitochondria",
+        "D": "Insulin excess inhibits hormone-sensitive lipase",
+        "E": "Malonyl-CoA inhibits carnitine palmitoyltransferase 1"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "MCAD deficiency causes hypoketotic hypoglycemia after longer fasts, without lactic acidosis or marked hypertriglyceridemia.",
+        "B": "Secondary carnitine depletion is a feature of fatty acid oxidation disorders, not of this condition.",
+        "C": "A primary defect of ketone synthesis is a different disorder and would not cause hepatomegaly with lactic acidosis.",
+        "D": "Insulin is low during hypoglycemia, so lipolysis is not suppressed by insulin.",
+        "E": "Trapped glucose-6-phosphate drives glycolysis and acetyl-CoA production, raising malonyl-CoA, which inhibits CPT1 and blocks entry of fatty acids into mitochondria for oxidation and ketogenesis."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-014",
+      "question": "An 8-month-old boy with von Gierke disease has a triglyceride concentration of 1,400 mg/dL. His plasma is lipemic. Which mechanism best accounts for his hypertriglyceridemia?",
+      "answers": {
+        "A": "Decreased hepatic uptake of LDL from absent LDL receptors",
+        "B": "Decreased lipoprotein lipase activity on dietary chylomicrons",
+        "C": "Increased hepatic secretion of VLDL driven by hyperinsulinemia",
+        "D": "Increased hepatic synthesis of fatty acids and glycerol-3-phosphate",
+        "E": "Increased intestinal absorption of long-chain dietary fatty acids"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "LDL receptor defects raise LDL cholesterol rather than triglycerides.",
+        "B": "The lipid originates from hepatic overproduction rather than from impaired clearance of dietary fat.",
+        "C": "He is hypoglycemic with low insulin, so insulin excess is not the driver.",
+        "D": "Trapped hepatic glucose-6-phosphate increases glycolytic flux, raising intermediates including glycerol-3-phosphate and supplying acetyl-CoA for fatty acid synthesis, so triglyceride production rises.",
+        "E": "Intestinal fat absorption is normal in this disorder."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-015",
+      "question": "A 6-month-old girl has fasting hypoglycemia, hepatomegaly, lactic acidosis, and hypertriglyceridemia. Glucose-6-phosphatase deficiency is suspected. In addition to sequencing the gene, which test would confirm the diagnosis by measuring enzyme activity?",
+      "answers": {
+        "A": "Cell-free DNA screen of maternal plasma",
+        "B": "Enzyme assay of a liver biopsy specimen",
+        "C": "Enzyme assay of a muscle biopsy specimen",
+        "D": "Enzyme assay of isolated red blood cells",
+        "E": "Karyotype of cultured blood lymphocytes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cell-free DNA screening is a prenatal test for fetal aneuploidy.",
+        "B": "Glucose-6-phosphatase is expressed only in liver and kidney, so enzyme activity must be measured in one of those tissues.",
+        "C": "Muscle stores glycogen but does not express glucose-6-phosphatase because it does not release glucose to the circulation.",
+        "D": "Red cells do not express glucose-6-phosphatase; they are used to assay glucose-6-phosphate dehydrogenase.",
+        "E": "A karyotype detects chromosomal abnormalities, not a single-gene enzyme deficiency."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-016",
+      "question": "A 3-year-old boy with von Gierke disease has been maintained since infancy on continuous overnight glucose through a nasogastric tube. His parents ask what will replace the overnight infusion now that he is older. Which intervention is most appropriate?",
+      "answers": {
+        "A": "Fructose-sweetened drinks given at regular intervals",
+        "B": "Glucagon injections given during the night",
+        "C": "High-protein feedings given at bedtime",
+        "D": "Medium-chain triglyceride oil given at bedtime",
+        "E": "Uncooked cornstarch given at regular intervals"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Fructose enters the pathway below the block and cannot be released as glucose, so it worsens lactate production.",
+        "B": "Glucagon stimulates glycogenolysis, but glucose-6-phosphate cannot be dephosphorylated, so glucose does not rise and lactate increases.",
+        "C": "Amino acids cannot be converted to free glucose because the final step of gluconeogenesis is blocked.",
+        "D": "Fat does not supply glucose, and he cannot convert gluconeogenic precursors to free glucose.",
+        "E": "From about 2 years of age, uncooked cornstarch at regular intervals provides slowly released glucose that prevents fasting hypoglycemia and limits the secondary lactic acidosis and hypertriglyceridemia."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-017",
+      "question": "A 7-year-old girl has had lethargy and urination 3 to 4 times an hour for 3 days. Pulse is 88/min, respirations are 18/min, and blood pressure is 100/60 mm Hg. Urine dipstick is strongly positive for glucose and mildly positive for ketones. Laboratory results are shown. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Glucose",
+          "1,167 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Serum osmolality",
+          "350 mOsm/kg",
+          "275–295 mOsm/kg"
+        ],
+        [
+          "Venous pH",
+          "7.34",
+          "7.32–7.42"
+        ],
+        [
+          "Sodium",
+          "123 mEq/L",
+          "135–145 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Central diabetes insipidus",
+        "B": "Diabetic ketoacidosis",
+        "C": "Hyperosmolar hyperglycemic state",
+        "D": "Primary polydipsia",
+        "E": "Urinary tract infection"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Diabetes insipidus causes polyuria with hypernatremia and a normal glucose.",
+        "B": "Diabetic ketoacidosis would show a low pH, a low bicarbonate, and large ketones, usually with deep rapid breathing.",
+        "C": "Extreme hyperglycemia and hyperosmolality with a near-normal pH and minimal ketones define the hyperosmolar hyperglycemic state.",
+        "D": "Excess water intake causes dilute polyuria with low serum osmolality and normal glucose.",
+        "E": "A urinary tract infection causes frequency and dysuria but not a glucose above 1,000 mg/dL."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-018",
+      "question": "A 7-year-old girl presents with a blood glucose of 1,167 mg/dL, a serum osmolality of 350 mOsm/kg, a venous pH of 7.34, and only mildly positive urine ketones. Which statement best explains why she has severe hyperglycemia without ketoacidosis?",
+      "answers": {
+        "A": "Cortisol is excessive, so muscle protein supplies substrate for glucose output",
+        "B": "Glucagon is completely absent, so hepatic ketone synthesis cannot proceed",
+        "C": "Insulin is completely absent, so both lipolysis and glucose output are maximal",
+        "D": "Insulin is excessive, so ketone synthesis is suppressed and glucose is trapped",
+        "E": "Insulin is sufficient to restrain lipolysis but not hepatic glucose output"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Her presentation is not consistent with Cushing disease, and cortisol excess would not explain the absence of ketones.",
+        "B": "Glucagon is elevated in hyperglycemic crises; ketosis is limited by the residual insulin.",
+        "C": "Complete insulin deficiency would cause unrestrained lipolysis and ketogenesis, producing ketoacidosis.",
+        "D": "Excess insulin would cause hypoglycemia, not a glucose above 1,000 mg/dL.",
+        "E": "The small amount of insulin present prevents ketoacidosis, but it is too little to block endogenous glucose production."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-019",
+      "question": "A 7-year-old girl is stabilized with fluids and insulin after presenting with a hyperosmolar hyperglycemic state. Her weight is at the 5th to 10th percentile, and she has no acanthosis nigricans. New-onset type 1 diabetes is suspected. Which is the most appropriate next step to establish the cause?",
+      "answers": {
+        "A": "Dexamethasone suppression test",
+        "B": "Empiric antibiotic therapy",
+        "C": "Islet autoantibody testing",
+        "D": "Monogenic diabetes gene panel",
+        "E": "Systemic corticosteroid trial"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Her presentation is inconsistent with Cushing disease, so testing for cortisol excess is not indicated.",
+        "B": "There is no evidence of infection, and antibiotics would not establish the cause.",
+        "C": "Autoantibody testing confirms new-onset type 1 diabetes; if it is negative, genetic testing for maturity-onset diabetes of the young would follow.",
+        "D": "Genetic testing for MODY is the next step only if autoantibodies are negative.",
+        "E": "Corticosteroids raise blood glucose and are contraindicated."
+      }
+    },
+    {
+      "id": "endorepro-tbl-hypo-and-hyperglycemia-020",
+      "question": "A 20-year-old man with type 1 diabetes uses a correction factor of 30 mg/dL per unit with a target glucose of 150 mg/dL and an insulin-to-carbohydrate ratio of 1 unit per 14 g. Before lunch his blood glucose is 240 mg/dL, and he plans to eat a meal containing 70 g of carbohydrate. How much rapid-acting insulin should he take?",
+      "answers": {
+        "A": "3 units",
+        "B": "5 units",
+        "C": "6 units",
+        "D": "8 units",
+        "E": "13 units"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This is only the correction dose, (240 - 150) / 30, and omits the insulin for the meal.",
+        "B": "This is only the meal dose, 70 / 14, and omits the correction for his elevated glucose.",
+        "C": "This underestimates the total; the correction and meal doses must be added.",
+        "D": "The correction dose is (240 - 150) / 30 = 3 units and the meal dose is 70 / 14 = 5 units, for a total of 8 units.",
+        "E": "This results from correcting to zero rather than to the target glucose (240 / 30 = 8 units, plus 5)."
+      }
+    }
+  ]
+}
