@@ -1,28 +1,38 @@
 ---
 name: ankify
 description: >
-  Turn a lecture's Slides PDF (plus its Notes PDF) into PDF Occlusion cards for Anki, boxed the
-  way Ravi boxes them by hand. Trigger when the user gives lecture slides and asks to "ankify",
-  make occlusion cards, make PDF occlusion cards, "occlude this lecture", or "add to Anki".
-  Decides what to hide on every slide, builds the boxes, and hands them to the PDF Occlusion
-  add-on as a saved session the user reviews before pressing Create All Cards.
+  Turn a lecture's Slides PDF (plus its Notes PDF) into Anki cards for Ravi. By default these are
+  atomic text cloze cards with the slide shown on the back; on request, or for lectures that are
+  mostly labelled figures, they are PDF Occlusion cards boxed the way Ravi boxes them by hand.
+  Trigger when the user gives lecture slides and asks to "ankify", make cards, make text or cloze
+  cards, make occlusion cards, "occlude this lecture", or "add to Anki".
 ---
 
-# Ankify — PDF Occlusion cards from a lecture
+# Ankify — Anki cards from a lecture
 
-You are doing the job Ravi otherwise does by hand: opening a lecture's slides in the
-**PDF Occlusion** Anki add-on and drawing a box over every fact worth recalling. The result is
-not cards. It is a **saved session** of boxes that the add-on loads when Ravi opens the PDF, so they
-can look them over, fix any, and press **Create All Cards** themselves. Nothing touches the Anki
-collection until they do.
+You turn one lecture into Anki cards. There are two kinds, and the first three steps are the
+same for both.
 
-The judgment is yours; the geometry is the script's. `scripts/ankify.py` (next to this file)
-renders the slides, lists every line of text with an id, turns your plan into pixel-accurate
-boxes, and draws them back onto the slides so you can check your work.
+**Text cards (the default).** One fact per card, written as a sentence that makes sense with no
+slide in front of you, with the answer as a short cloze. The back shows a screenshot of the
+slide and two buttons, Notes and Slides, that open the PDFs. Ravi moved to these in October 2026
+because occlusion cards on prose slides had them "learning the image rather than the concepts":
+the cue was where a grey box sat, and the answer was often a whole line or a whole slide.
 
-The style guide below was derived from 39 lectures (about 1,200 slides, 4,900 cards) that Ravi
-occluded by hand in the Neuro/Psych block. Follow it over your own instincts about what makes a
-good flashcard.
+**Occlusion cards.** Boxes drawn over the slide itself, handed to the **PDF Occlusion** add-on
+as a saved session. These still suit content whose point is where things are: anatomy and
+histology figures, labelled scans, pathway maps.
+
+## Which kind to make
+
+- Make **text cards** unless told otherwise.
+- Make **occlusion cards** when Ravi asks for them ("occlude", "occlusion cards", "PDF
+  occlusion").
+- If the lecture is mostly labelled figures (ANAT, histology, radiology), say so before you
+  start and ask which they want. Text cards cannot carry a label on a picture.
+- In a text-card lecture, a few slides may be figures whose labels matter. Write text cards for
+  what a sentence can state, leave the rest, and name those slides in your report so Ravi can
+  occlude them.
 
 ---
 
@@ -32,8 +42,8 @@ good flashcard.
 
 ### 1. Find the inputs
 
-- **Slides PDF** (required): the file whose name ends in `_Slides`. This is what gets occluded.
-- **Notes PDF** (expected): the matching `_Notes` file. It is attached to the cards and it is
+- **Slides PDF** (required): the file whose name ends in `_Slides`. The cards are made from it.
+- **Notes PDF** (expected): the matching `_Notes` file. The cards link to it and it is
   your guide to what matters. If there is none, say so and carry on.
 - In Claude Code the user gives paths, or a folder such as `~/Downloads/ENDO:REPRO`; match Slides
   to Notes by lecture title. In the desktop app the PDFs are uploads.
@@ -49,7 +59,7 @@ This writes `text.md` (every line of every slide as `L3 @x,y | text`; lines mark
 read out of a figure), `notes.txt` (the notes as text), `pages/page-NNN.png` (the slides) and
 `pages.json`. Put the work folder in your scratch space, never beside the PDFs.
 
-### 3. Read everything before boxing anything
+### 3. Read everything before writing anything
 
 1. **The notes, in full** (`<work>/notes.txt`; read it in pieces if it is long). Mark the learning objectives, the
    study questions and their answers, bolded terms, and any place the lecturer says what will
@@ -60,7 +70,192 @@ read out of a figure), `notes.txt` (the notes as text), `pages/page-NNN.png` (th
    sheets of every slide. Read them all, and open `pages/page-NNN.png` directly for any slide
    with a figure, table, or diagram.
 
-### 4. Write the plan
+Steps 4 to 7 below are for **text cards**. For occlusion cards, go to "Occlusion cards" further
+down after step 3.
+
+### 4. Write the cards
+
+Write `<work>/cards.json`:
+
+```json
+{
+  "deck": "ENDO/REPRO::WK1::Mechanisms of Obesity and Obesity Management (CM/PHYS)",
+  "cards": [
+    {"slide": 7,  "text": "In adults, <b>class 2 obesity</b> starts at a BMI of {{c1::35}} kg/m²."},
+    {"slide": 37, "text": "Naltrexone-bupropion is contraindicated in seizure disorder because bupropion {{c1::lowers the seizure threshold}}."},
+    {"slide": 33, "text": "Anti-obesity medication is indicated at BMI ≥ {{c1::30}}, or at BMI ≥ {{c2::27}} with a life-threatening comorbidity."},
+    {"slide": null, "text": "More than {{c1::two-thirds}} of US adults have overweight or obesity."}
+  ]
+}
+```
+
+- `deck`: see "Deck name" below. No suffix; a text deck takes the lecture's plain name.
+- `slide`: the 1-based number of the slide that states the fact best. Its screenshot goes on the
+  back of the card. Use `null` when the fact is only in the notes; that card gets the buttons
+  and no screenshot.
+- `text`: the card, with Anki cloze marks. `{{c1::...}}` and `{{c2::...}}` in one sentence make
+  two cards from it. The same number twice hides both at once on one card. Simple HTML is fine
+  (`<b>`, `<i>`); write `&lt;` for a less-than sign.
+
+Work through the lecture in slide order, ten or so slides at a time. How to write the cards is
+the "Writing text cards" section below; read it before you start.
+
+### 5. Check
+
+```bash
+ANKIFY cards <work> <work>/cards.json
+```
+
+This refuses a card with nothing hidden, cloze numbers that skip, or a slide number the PDF does
+not have. It warns about answers longer than twelve words and sentences cut into more than three
+cards; fix each warning or be able to say why it stands. It prints the note and card counts and
+the slides with no cards.
+
+Then read `cards.json` once more from the top as the person reviewing it: can each card be
+answered without seeing the slide, and is there exactly one right answer?
+
+### 6. Add to Anki
+
+**In Claude Code on Ravi's Mac:**
+
+```bash
+ANKIFY install <work>
+```
+
+This adds the cards to the collection directly, so Anki has to be closed. It refuses while Anki
+is open: tell Ravi to quit Anki, and run it again with `--wait` as a background command, which
+adds the cards within a few seconds of Anki closing (it waits up to 30 minutes). Confirm to Ravi
+once it has finished.
+
+What it does: publishes the two PDFs through the add-on's own hosting so the buttons work on
+every device, copies the collection to `collection.before-ankify.anki2` beside it, adds the
+slide screenshots to Anki's media, and creates the notes in the deck as new cards. It refuses if
+the deck already has cards; stop and ask in that case, and use `--force` only if Ravi says so.
+
+**In the desktop app** (sandbox, no Anki): run step 5 once more with `--out ~/Downloads/jeff/ankify`,
+which writes `<slides name>.ankify-cards.json` there. Tell Ravi to quit Anki and run this once
+in Terminal:
+
+```bash
+python3 ~/Developer/bananasrlowkeygood.github.io/jeff/ankify/scripts/ankify.py install ~/Downloads/jeff/ankify/"<slides name>.ankify-cards.json"
+```
+
+### 7. Report
+
+Tell Ravi, briefly: the deck name, how many notes and cards, which slides have no cards and why
+in a phrase, and then anything from this list that applies:
+
+- cards with no screenshot because the fact is only in the notes,
+- anything on a card that the lecture does not say in so many words (a generic name beside a
+  brand name, for instance),
+- facts you left out because they contradict another lecture in the block, with both versions,
+- lists you kept as one card, so Ravi knows where to cut,
+- slides that are labelled figures and would do better as occlusion cards.
+
+To undo, Ravi deletes the deck.
+
+---
+
+## Writing text cards
+
+These rules come from the two lectures Ravi approved in this style (Mechanisms of Obesity, 49
+slides, 111 notes, 150 cards; Obesity Patient Panel, 20 slides, 33 notes, 41 cards). Two
+lectures is a small base: follow the rules, and treat the counts as a rough guide only.
+
+### The one principle
+
+**One fact, askable with the slide closed.** The sentence names its subject in full, and the
+cloze is the short answer. If you could not answer the card without remembering what the slide
+looked like, rewrite it.
+
+- "Orlistat is a {{c1::lipase}} inhibitor, which decreases {{c2::breakdown and absorption of
+  lipids}} in the GI tract."
+- "The hunger mechanism that dominates when food is abundant is {{c1::hedonic}} hunger."
+- Not: "Mechanism of action: {{c1::lipase inhibitor resulting in decreased capacity to break
+  down and absorb lipids within the GI tract}}". That has no subject, and the answer is a clause.
+
+### Rules
+
+**Name the subject.** "Phentermine's contraindications…", never "Contraindications:" or "this
+drug". The slide title is not on the front of the card.
+
+**Keep answers short.** One to five words is the aim. A number carries its unit outside the
+cloze ("a BMI of {{c1::35}} kg/m²").
+
+**One number per card.** A table of cutoffs becomes one card per cutoff, each a full sentence
+with its row and column named. Do not hide a whole row.
+
+**Split a list by its reasons.** When the lecture gives a reason for an item, that item is its
+own card with the reason as the answer ("…contraindicated with opioid use because naltrexone can
+{{c1::precipitate withdrawal}}"). Leave out items that every drug or disease in the lecture
+shares (hypersensitivity, pregnancy). What remains without a reason can stay as one short list
+card, with a lead-in that says what ties the items together ("Phentermine's contraindications
+follow from sympathetic stimulation: {{c1::…}}"). Never make a card whose answer is a whole
+slide.
+
+**Ask it backwards when the name is worth recalling.** "Orlistat is a {{c1::lipase}} inhibitor"
+and also "The anti-obesity medication that inhibits GI lipase is {{c1::orlistat}}". Do this for
+drugs, diseases, named signs and structures, not for every fact.
+
+**Two or three clozes at most.** Use `c1` and `c2` when one sentence holds two facts that each
+deserve a card. Use the same number twice when two blanks are one fact (a range, a pair). A
+sentence that needs four is two sentences.
+
+**Write the cards the lecture's questions ask.** Every study question and its answer, and every
+learning objective that names something concrete, gets a card, whether or not a slide states it
+in one place ("Before a meal, serum ghrelin is {{c1::high}} and GIP, GLP-1, insulin and leptin
+are {{c1::low}}").
+
+**Add a few cards that connect the lecture.** Comparisons and shared properties that no single
+slide states but several imply: the most and least effective drug, "Uncontrolled hypertension is
+a contraindication to three anti-obesity medications: {{c1::…}}", what one drug adds to
+another's side-effect list. These are what keep the big picture; aim for five to ten in a
+lecture.
+
+**Where the lecturer says the detail is not the point, card the idea only.** On a slide marked
+"please resist the urge to memorize the details", write the two or three concept cards and
+leave the receptors alone.
+
+**Only what the lecture says.** Every fact on a card is on a slide or in the notes. Do not add
+outside facts, mnemonics or explanations. If two lectures in the block disagree (a threshold, a
+criterion), leave that fact out and report both versions. Do not search or read Ravi's AnKing
+Step Deck; build the lecture's deck from the lecture alone.
+
+**The back is the slide.** Do not write anything for the back of the card. The script puts the
+screenshot and the buttons there.
+
+### How many
+
+About two to three notes for each slide that has content, fewer for health-systems and patient
+panel lectures (one to two). Expect more cards than an occlusion deck of the same lecture, each
+of them quicker to answer.
+
+### What to skip
+
+The same slides the occlusion style skips: title, disclosures, learning objectives, outline,
+"Questions?", references; case vignettes and audience questions (the answer slide may be worth a
+card); section dividers; all but the last slide of a progressive build; recap slides that repeat
+earlier slides (but read them, since they show what the lecturer thinks matters).
+
+---
+
+## Occlusion cards
+
+Use this part instead of steps 4 to 7 when occlusion cards are wanted. You are doing the job
+Ravi otherwise does by hand: opening a lecture's slides in the **PDF Occlusion** Anki add-on and
+drawing a box over every fact worth recalling. The result is not cards. It is a **saved
+session** of boxes that the add-on loads when Ravi opens the PDF, so they can look them over,
+fix any, and press **Create All Cards** themselves. Nothing touches the Anki collection until
+they do.
+
+The judgment is yours; the geometry is the script's. `scripts/ankify.py` turns your plan into
+pixel-accurate boxes and draws them back onto the slides so you can check your work.
+
+The occlusion style guide below was derived from 39 lectures (about 1,200 slides, 4,900 cards)
+that Ravi occluded by hand in the Neuro/Psych block. Follow it over your own instincts about
+what makes a good flashcard.
+
+### O1. Write the plan
 
 Write `<work>/plan.json`. Pages are **1-based slide numbers**, as shown in `text.md`.
 
@@ -120,7 +315,7 @@ Do not set `"mode"`. Ravi uses the add-on's default (hide all, guess one) on eve
 Work through the lecture ten or so slides at a time. A 60-slide lecture is a long plan; that is
 expected.
 
-### 5. Build, look, fix
+### O2. Build, look, fix
 
 ```bash
 ANKIFY build <work> <work>/plan.json
@@ -145,7 +340,7 @@ closer at a few slides, `ANKIFY preview <work> --pages 12,30 --per-sheet 1` writ
 
 Fix the plan and rebuild until the sheets look like something Ravi drew.
 
-### 6. Hand over
+### O3. Hand over
 
 **In Claude Code on Ravi's Mac** (the add-on folder exists under
 `~/Library/Application Support/Anki2/addons21/`):
@@ -166,7 +361,7 @@ by name on the Mac and installs the session:
 python3 ~/Developer/bananasrlowkeygood.github.io/jeff/ankify/scripts/ankify.py install ~/Downloads/jeff/ankify/"<slides name>.ankify.json"
 ```
 
-### 7. Report
+### O4. Report
 
 Tell the user, briefly: the deck name you chose, cards and slides covered, which slides you skipped
 and why in a phrase, and anything you were unsure of (a slide you could not read, a section you
@@ -196,7 +391,7 @@ Leave the lecture name alone; it defaults to the PDF's file name, which is what 
 
 ---
 
-## Style guide: what Ravi hides, and how
+## Occlusion style guide: what Ravi hides, and how
 
 ### The one principle
 
@@ -360,6 +555,20 @@ Never invent content. You only choose what to hide among what is printed on the 
 ---
 
 ## When things go wrong
+
+Text cards:
+
+- **`Anki is open`**: nothing was changed. Ask Ravi to quit Anki, then run `install` with
+  `--wait`.
+- **`the deck ... already has N cards`**: the lecture was done before, as text or as occlusion
+  cards. Do not force. Ask whether to add to it, or use a different deck name.
+- **`the PDFs were not pushed`**: the cards were made and their buttons point at the right
+  addresses, but the PDFs are not online yet. Tell Ravi; they go up with the next push of the
+  site repo.
+- **`no note type named AnKingOverhaul ...`**: the AnKing Step Deck is not in this collection.
+  Stop and ask which note type to use.
+
+Occlusion cards:
 
 - **`text not found`**: copy the words exactly as `text.md` prints them. If a phrase spans two
   separate text boxes on the slide, split it into two targets on the same card.
