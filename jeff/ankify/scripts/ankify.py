@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
-"""ankify: turn a lecture PDF into PDF Occlusion boxes.
+"""ankify: turn a lecture PDF into Anki cards.
 
-Four steps, one subcommand each:
+Text cards (the default):
 
-  extract  SLIDES.pdf --work DIR   render the slides, list every line of text
+  extract  SLIDES.pdf --work DIR       render the slides, list every line of text
+  cards    DIR cards.json              check the cloze cards and package them
+  install  DIR | FILE.ankify-cards.json  add them to the Anki collection (Anki closed)
+
+Occlusion cards, for the PDF Occlusion add-on:
+
+  extract  SLIDES.pdf --work DIR   as above
   build    DIR plan.json           turn a plan (what to hide) into boxes
   preview  DIR                     draw the boxes on the slides to check them
   install  DIR | FILE.ankify.json  hand the boxes to the PDF Occlusion add-on
@@ -35,6 +41,9 @@ SCALE = 2.0
 DPI = 72 * SCALE
 ADDON_CODE = "783821131"
 PORTABLE_EXT = ".ankify.json"
+CARDS_EXT = ".ankify-cards.json"
+NOTE_TYPE = "AnKingOverhaul (AnKing Step Deck / AnKingMed)"
+ANKI_PYTHON = "~/Library/Application Support/AnkiProgramFiles/.venv/bin/python3"
 
 
 def die(msg):
@@ -600,10 +609,16 @@ def _find_file(name, hint=""):
 def cmd_install(a):
     src = os.path.abspath(a.source)
     if os.path.isdir(src):
-        found = glob.glob(os.path.join(src, "*" + PORTABLE_EXT))
+        found = (glob.glob(os.path.join(src, "*" + PORTABLE_EXT))
+                 + glob.glob(os.path.join(src, "*" + CARDS_EXT)))
         if not found:
-            die(f"no {PORTABLE_EXT} file in {src}; run build first")
+            die(f"nothing to install in {src}; run cards (or build) first")
+        if len(found) > 1:
+            die("this folder has both text cards and occlusion boxes; pass the file to install: "
+                + ", ".join(os.path.basename(p) for p in found))
         src = found[0]
+    if src.endswith(CARDS_EXT):
+        return _install_cards(a, src)
     with open(src, encoding="utf-8") as f:
         portable = json.load(f)
     session = portable["session"]
@@ -645,6 +660,233 @@ def cmd_install(a):
           "session\" (No deletes it), check the boxes, then Create All Cards.")
 
 
+# -------------------------------------------------------------------- cards
+
+_CLOZE_RE = re.compile(r"\{\{c(\d+)::(.*?)\}\}", re.S)
+_LONG_ANSWER = 12   # words; past this a cloze is usually a list or a whole clause
+
+
+def cmd_cards(a):
+    work = os.path.abspath(a.work)
+    with open(os.path.join(work, "pages.json"), encoding="utf-8") as f:
+        doc = json.load(f)
+    with open(a.cards, encoding="utf-8") as f:
+        plan = json.load(f)
+    deck = (plan.get("deck") or "").strip()
+    errors, warnings, cards, per_slide, n_cards = [], [], [], {}, 0
+    if not deck:
+        errors.append('no "deck"')
+
+    for i, card in enumerate(plan.get("cards") or [], 1):
+        text = (card.get("text") or "").strip()
+        slide = card.get("slide")
+        found = _CLOZE_RE.findall(text)
+        nums = sorted({int(n) for n, _ in found})
+        if not nums:
+            errors.append(f"card {i}: nothing hidden, needs {{{{c1::...}}}}: {text[:60]}")
+        elif nums != list(range(1, len(nums) + 1)):
+            errors.append(f"card {i}: cloze numbers {nums} should run 1..{len(nums)}")
+        if slide is not None and not (isinstance(slide, int) and 1 <= slide <= doc["page_count"]):
+            errors.append(f"card {i}: slide {slide!r} (the PDF has {doc['page_count']} pages; "
+                          "use null for a fact that is only in the notes)")
+        for _, answer in found:
+            answer = answer.split("::")[0]
+            if len(answer.split()) > _LONG_ANSWER:
+                warnings.append(f"card {i}: a {len(answer.split())}-word answer: {answer[:50]}...")
+        if len(nums) > 3:
+            warnings.append(f"card {i}: {len(nums)} cards from one sentence; split it")
+        cards.append({"slide": slide, "text": text})
+        per_slide[slide] = per_slide.get(slide, 0) + 1
+        n_cards += len(nums)
+
+    if not cards:
+        errors.append("no cards")
+    for w in warnings:
+        print("warning:", w)
+    if errors:
+        print("\n".join("error: " + e for e in errors))
+        die(f"{len(errors)} problem(s) in the cards; nothing written")
+
+    slides = doc["slides"]
+    stem = os.path.splitext(os.path.basename(slides))[0]
+    portable = {"ankify": 1, "kind": "cards", "deck": deck,
+                "slides_name": os.path.basename(slides), "slides_path": slides,
+                "notes_name": os.path.basename(doc.get("notes", "")),
+                "notes_path": doc.get("notes", ""), "cards": cards}
+    targets = [os.path.join(work, stem + CARDS_EXT)]
+    if a.out:
+        os.makedirs(os.path.abspath(a.out), exist_ok=True)
+        targets.append(os.path.join(os.path.abspath(a.out), stem + CARDS_EXT))
+    for t in targets:
+        with open(t, "w", encoding="utf-8") as f:
+            json.dump(portable, f)
+
+    used = sorted(s for s in per_slide if s is not None)
+    skipped = [n for n in range(1, doc["page_count"] + 1) if n not in used]
+    print(f"{len(cards)} notes, {n_cards} cards on {len(used)}/{doc['page_count']} slides"
+          + (f" (max {max(per_slide[s] for s in used)} notes per slide)" if used else "")
+          + (f", {per_slide[None]} from the notes only" if None in per_slide else ""))
+    print("deck:", deck)
+    print("slides without cards:", ", ".join(map(str, skipped)) or "none")
+    print("wrote:", ", ".join(targets))
+
+
+def _anki_running():
+    return subprocess.run(["pgrep", "-f", r"aqt\.run\(\)|Anki\.app/Contents/MacOS/"],
+                          capture_output=True).returncode == 0
+
+
+def _collection_path(explicit):
+    if explicit:
+        path = os.path.abspath(os.path.expanduser(explicit))
+        if not os.path.exists(path):
+            die(f"no such collection: {path}")
+        return path
+    bases = [os.path.expanduser("~/Library/Application Support/Anki2"),
+             os.path.expanduser("~/.local/share/Anki2"),
+             os.path.join(os.environ.get("APPDATA", ""), "Anki2")]
+    found = [p for b in bases for p in glob.glob(os.path.join(b, "*", "collection.anki2"))]
+    if len(found) != 1:
+        die(("no Anki collection found" if not found else
+             "several Anki profiles: " + ", ".join(found)) + "; pass --collection PATH")
+    return found[0]
+
+
+def _publish_pdfs(addon, slides, notes):
+    """Public URLs for the two PDFs through the add-on's own hosting, else file:// links."""
+    import importlib.util
+    import pathlib
+
+    def local(p):
+        return pathlib.Path(p).as_uri() if p else ""
+
+    config = {}
+    for name in ("config.json", "meta.json"):       # meta.json holds the user's overrides
+        path = os.path.join(addon, name)
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+            config.update((data.get("config") or {}) if name == "meta.json" else data)
+    spec = importlib.util.spec_from_file_location(
+        "ankify_pdf_hosting", os.path.join(addon, "pdf_hosting.py"))
+    hosting_mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(hosting_mod)
+    hosting = hosting_mod.settings(config.get("pdf_hosting"))
+    if not hosting:
+        print("note: PDF hosting is off in the add-on; the buttons will only open on this computer")
+        return local(slides), local(notes)
+    urls = [hosting_mod.publish(p, hosting) if p else "" for p in (slides, notes)]
+    if hosting["git_push"]:
+        try:
+            hosting_mod.push(hosting, [u for u in urls if u])
+        except hosting_mod.PublishError as e:
+            print(f"note: the PDFs were not pushed ({e}); the buttons work once that folder is pushed")
+    return urls
+
+
+def _slide_image(pdf, num, pages_dir, out_dir, name):
+    dst = os.path.join(out_dir, name)
+    src = os.path.join(pages_dir, f"page-{num:03d}.png")
+    if os.path.exists(src):
+        shutil.copyfile(src, dst)
+    elif shutil.which("pdftoppm"):
+        subprocess.run(["pdftoppm", "-r", str(int(DPI)), "-png", "-singlefile", "-f", str(num),
+                        "-l", str(num), pdf, dst[:-4]], check=True)
+    else:
+        die("poppler (pdftoppm) is needed to render the slides; brew install poppler")
+    return dst
+
+
+# Same look as .io-doc-btn on PDF Occlusion cards, inlined because the AnKing note type has no
+# such class and its template is not ours to edit.
+_BTN = ("display:inline-block;margin:3px;padding:6px 16px;font:normal 13px Arial,sans-serif;"
+        "color:inherit;text-decoration:none;background:transparent;"
+        "border:1px solid rgba(131,110,170,0.55);border-radius:4px;")
+
+
+def _install_cards(a, src):
+    try:
+        from anki.collection import Collection
+    except ImportError:
+        py = os.path.expanduser(ANKI_PYTHON)
+        if os.environ.get("ANKIFY_REEXEC") or not os.path.exists(py):
+            die("writing cards needs Anki's own Python, expected at " + py)
+        os.environ["ANKIFY_REEXEC"] = "1"
+        os.execv(py, [py, os.path.abspath(__file__)] + sys.argv[1:])
+
+    with open(src, encoding="utf-8") as f:
+        portable = json.load(f)
+    slides = _find_file(portable.get("slides_name", ""), a.pdf or portable.get("slides_path", ""))
+    if not slides:
+        die(f"cannot find {portable.get('slides_name')} on this computer; pass --pdf PATH")
+    notes = _find_file(portable.get("notes_name", ""), a.notes or portable.get("notes_path", ""))
+    if portable.get("notes_name") and not notes:
+        print(f"note: notes PDF {portable['notes_name']} not found; cards get a Slides button only")
+
+    col_path = _collection_path(a.collection)
+    # Anki holds its collection open; a second writer can lose or corrupt changes.
+    if not a.collection:
+        waited = 0
+        while _anki_running():
+            if not a.wait:
+                die("Anki is open. Quit Anki and run this again, or pass --wait to wait for it.")
+            if waited == 0:
+                print("waiting for Anki to be quit...", flush=True)
+            if waited >= 30 * 60:
+                die("Anki is still open after 30 minutes; nothing was changed")
+            time.sleep(5)
+            waited += 5
+        if waited:
+            time.sleep(3)     # let Anki finish closing the file
+
+    slides_url, notes_url = _publish_pdfs(_addon_dir(a.addon_dir), slides, notes)
+    bar = '<div style="margin-top:10px;text-align:center;">' + "".join(
+        f'<a href="{url}" style="{_BTN}">{label}</a>'
+        for label, url in (("Notes", notes_url), ("Slides", slides_url)) if url) + "</div>"
+
+    sha = hashlib.sha1()
+    with open(slides, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            sha.update(chunk)
+    prefix = f"ankify_{sha.hexdigest()[:10]}_p"
+    pages_dir = os.path.join(os.path.dirname(src), "pages")
+
+    if not a.collection:
+        backup = os.path.join(os.path.dirname(col_path), "collection.before-ankify.anki2")
+        shutil.copy2(col_path, backup)
+        print("collection backed up to", backup)
+
+    col = Collection(col_path)
+    try:
+        model = col.models.by_name(NOTE_TYPE)
+        if not model:
+            die(f"this collection has no note type named {NOTE_TYPE}")
+        deck = portable["deck"]
+        existing = col.decks.id(deck, create=False)
+        if existing and not a.force:
+            n = col.db.scalar("select count() from cards where did = ?", existing)
+            if n:
+                die(f"the deck {deck} already has {n} cards. Re-run with --force to add to it "
+                    "only if the user agrees.")
+        did = col.decks.id(deck)
+        images = {}
+        with tempfile.TemporaryDirectory() as tmp:
+            for num in sorted({c["slide"] for c in portable["cards"] if c["slide"]}):
+                png = _slide_image(slides, num, pages_dir, tmp, f"{prefix}{num:03d}.png")
+                images[num] = col.media.add_file(png)
+        for card in portable["cards"]:
+            note = col.new_note(model)
+            note["Text"] = card["text"]
+            img = f'<img src="{images[card["slide"]]}">' if card["slide"] else ""
+            note["Extra"] = img + bar
+            col.add_note(note, did)
+        n_cards = col.db.scalar("select count() from cards where did = ?", did)
+    finally:
+        col.close()
+    print(f"added {len(portable['cards'])} notes ({n_cards} cards in the deck) to {deck}")
+    print("next: open Anki; the cards are new cards in that deck. To undo, delete the deck.")
+
+
 # --------------------------------------------------------------------- main
 
 def main():
@@ -665,6 +907,12 @@ def main():
     s.add_argument("--out", help="also copy the .ankify.json here (e.g. ~/Downloads/jeff/ankify)")
     s.set_defaults(fn=cmd_build)
 
+    s = sub.add_parser("cards", help="check cards.json and package the text cards")
+    s.add_argument("work")
+    s.add_argument("cards")
+    s.add_argument("--out", help="also copy the .ankify-cards.json here (e.g. ~/Downloads/jeff/ankify)")
+    s.set_defaults(fn=cmd_cards)
+
     s = sub.add_parser("preview", help="draw the boxes on the slides")
     s.add_argument("work")
     s.add_argument("--pages", help="e.g. 3,7-12 (default: every slide with boxes)")
@@ -673,12 +921,15 @@ def main():
     s.add_argument("--width", type=int, default=1000, help="pixels per slide")
     s.set_defaults(fn=cmd_preview)
 
-    s = sub.add_parser("install", help="give the boxes to the PDF Occlusion add-on")
-    s.add_argument("source", help="the working folder or a .ankify.json file")
+    s = sub.add_parser("install", help="add text cards to Anki, or give boxes to the add-on")
+    s.add_argument("source", help="the working folder, a .ankify-cards.json or a .ankify.json")
     s.add_argument("--pdf", help="where the slides PDF is on this computer")
     s.add_argument("--notes", help="where the notes PDF is on this computer")
     s.add_argument("--addon-dir")
     s.add_argument("--force", action="store_true")
+    s.add_argument("--wait", action="store_true",
+                   help="text cards: wait up to 30 minutes for Anki to be quit")
+    s.add_argument("--collection", help="text cards: a collection.anki2 other than the profile's")
     s.set_defaults(fn=cmd_install)
 
     a = p.parse_args()
