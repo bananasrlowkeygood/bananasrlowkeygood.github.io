@@ -119,6 +119,26 @@
       text-transform: uppercase;
     }
 
+    /* ── History ──
+       Every earlier try at this question, oldest first. */
+    .q-history {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      margin: 0.5rem 0 0.35rem;
+    }
+    .q-history:empty { display: none; }
+
+    .try {
+      font-size: 0.7rem;
+      padding: 0.1rem 0.5rem;
+      border-radius: 99px;
+      border: 1px solid #c8c8c8;
+      white-space: nowrap;
+    }
+    .try.ok  { border-color: #2e7d4f; background: #edf7f1; color: #2e7d4f; }
+    .try.bad { border-color: #b03030; background: #fdf0f0; color: #b03030; }
+
     /* ── Highlighting ──
        A highlight is a pair of character offsets into the block's plain text,
        stored on the response record. Nothing depends on the live DOM, so a
@@ -465,6 +485,28 @@
       color: #5c4f7a;
     }
 
+    /* Redo / all — only there while a refinement is open. */
+    .nav-scope {
+      display: none;
+      flex-shrink: 0;
+      border: 1px solid #c5bee0;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .nav-scope.visible { display: flex; }
+    .nav-scope button {
+      flex: 1 1 0;
+      border: none;
+      background: transparent;
+      color: #5c4f7a;
+      font-family: "Klee One", cursive;
+      font-size: 0.68rem;
+      padding: 0.28rem 0.35rem;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .nav-scope button.on { background: #5c4f7a; color: #f0ecf8; }
+
     .nav-counts {
       font-size: 0.66rem;
       line-height: 1.6;
@@ -640,7 +682,7 @@
 
     /* ── Refinement ──
        The chips lift off the navigator rail and get filed into the tray; the
-       ones you missed refuse to go, and become the next run. */
+       ones you missed refuse to go, and become the redo. */
     .refine-veil {
       position: fixed; inset: 0; z-index: 200;
       display: flex; flex-direction: column;
@@ -751,6 +793,10 @@
 
 <aside class="navigator" id="navigator">
   <div class="nav-title">questions</div>
+  <div class="nav-scope" id="navScope">
+    <button type="button" id="scopeRedo" onclick="setScope(false)"></button>
+    <button type="button" id="scopeAll" onclick="setScope(true)"></button>
+  </div>
   <div class="nav-counts" id="navCounts"></div>
   <div class="nav-grid" id="navGrid"></div>
   <div class="nav-legend">
@@ -767,6 +813,7 @@
   <div class="card" id="quizCard" style="display:none">
     <div>
       <div class="q-meta" id="qMeta"></div>
+      <div class="q-history" id="qHistory"></div>
       <div class="q-text" id="qText"></div>
     </div>
 
@@ -828,7 +875,9 @@
   <button type="button" id="hlDel">remove</button>
 </div>
 
+<script src="firebase-config.js"></script>
 <script src="gate.js"></script>
+<script src="store.js"></script>
 <script>
   // Files in a block folder that describe it rather than hold questions.
   const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
@@ -840,10 +889,18 @@
 
   let questions = [];   // every question in the lecture, in its own order
 
-  // Which of them this pass is playing, as indices into `questions`, and where
-  // we are within that list. Refining narrows the view; it never drops a
-  // question, so numbering and the other answers survive it.
+  // Which of them are in play, as indices into `questions`, and where we are
+  // within that list.
   let view = [], current = 0;
+
+  // A refinement leaves a redo: the questions you missed, cleared to answer
+  // again. It narrows the view without dropping anything — the rest of the
+  // lecture keeps its answers, and `showAll` widens the view back onto it.
+  let redo = null, showAll = false;
+
+  function syncView() {
+    view = redo && !showAll ? redo.slice() : questions.map((q, i) => i);
+  }
 
   // The question on screen, by its real index.
   function cur() { return view[current]; }
@@ -851,14 +908,12 @@
   // One record per question, kept for the whole session so you can walk back
   // and forward without losing what you picked.
   // { selected, answered, struck, flagged, skipped, highlights }
+  // The answer half belongs to this run. The flag and the highlights are the
+  // question's marks: they live in the store and outlast any reset.
   let responses = [];
 
   // True while the results screen is up, so navigation knows to leave it.
   let resultsOpen = false;
-
-  // True once a refinement has narrowed the view, so restoring it in another
-  // tab replays the same narrowed pass rather than the whole lecture.
-  let subsetRun = false;
 
   function response(i) {
     if (!responses[i]) responses[i] = { selected: null, answered: false, struck: [], flagged: false, skipped: false, highlights: {} };
@@ -867,43 +922,72 @@
   }
 
   // ── Session persistence ──
-  // Kept in localStorage so a refresh, a new tab, or coming back tomorrow all
-  // resume where you left off. One saved run per quiz, so two tabs open on the
-  // same quiz share it rather than each keeping half the story.
-  const STORE_KEY = `jeff-quiz:${block}:${lecture || (week ? 'week-' + week : '*')}`;
+  // The run is saved through the store: on this device at once, and to the
+  // signed-in account, so a refresh, a new tab, or another device tomorrow all
+  // resume where you left off. One saved run per quiz.
+  const RUN_KEY = STORE.runId(block, lecture, week);
 
   function qKey(q) {
     return q.id || `${q._lecture || lecture || block}|${(q.question || '').slice(0, 120)}`;
   }
 
-  // Worth writing out only if the question has something of yours on it.
-  function hasWork(r) {
-    return !!(r && (r.selected || r.answered || r.flagged || r.skipped || r.struck.length ||
-      (r.highlights && Object.keys(r.highlights).length)));
-  }
+  // The store document a question's history and marks are filed in.
+  function docOf(q) { return STORE.docId(block, q._file); }
 
   function saveSession() {
-    try {
-      const byKey = {};
-      responses.forEach((r, i) => {
-        if (hasWork(r)) byKey[qKey(questions[i])] = r;
-      });
-      localStorage.setItem(STORE_KEY, JSON.stringify({
-        v: 1,
-        current,
-        subset: subsetRun,
-        order: questions.map(qKey),
-        view: view.map(i => qKey(questions[i])),
-        responses: byKey
-      }));
-    } catch (e) { /* storage full or blocked — carry on without persistence */ }
+    const byKey = {};
+    responses.forEach((r, i) => {
+      if (touched(r)) byKey[qKey(questions[i])] =
+        { selected: r.selected, answered: r.answered, struck: r.struck, skipped: r.skipped };
+    });
+    STORE.saveRun(RUN_KEY, {
+      v: 2,
+      current,
+      all: showAll,
+      order: questions.map(qKey),
+      redo: redo && redo.map(i => qKey(questions[i])),
+      responses: byKey
+    });
+  }
+
+  function saveMark(i) {
+    const r = response(i);
+    STORE.setMark(docOf(questions[i]), qKey(questions[i]), r.flagged, r.highlights);
   }
 
   function readSession() {
-    try {
-      const saved = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
-      return saved && saved.v === 1 && Array.isArray(saved.order) ? saved : null;
-    } catch (e) { return null; }
+    const saved = STORE.readRun(RUN_KEY);
+    return saved && saved.v === 2 && Array.isArray(saved.order) ? saved : importOldSession();
+  }
+
+  // Runs saved before there was a history kept one answer per question and
+  // nothing else. Bring one forward: its answers become undated attempts, its
+  // flags and highlights become marks, and the run itself carries on.
+  function importOldSession() {
+    const oldKey = `jeff-quiz:${block}:${lecture || (week ? 'week-' + week : '*')}`;
+    let old = null;
+    try { old = JSON.parse(localStorage.getItem(oldKey) || 'null'); } catch (e) {}
+    if (!old || old.v !== 1 || !Array.isArray(old.order)) return null;
+
+    const byKey = new Map(questions.map(q => [qKey(q), q]));
+    Object.entries(old.responses || {}).forEach(([key, r]) => {
+      const q = byKey.get(key);
+      if (!q || !r) return;
+      if (r.answered && r.selected) STORE.addAttempt(docOf(q), key, r.selected, r.selected === q.correct, 0);
+      if (r.flagged || (r.highlights && Object.keys(r.highlights).length)) {
+        STORE.setMark(docOf(q), key, r.flagged, r.highlights);
+      }
+    });
+    try { localStorage.removeItem(oldKey); } catch (e) {}
+
+    return {
+      v: 2,
+      current: old.current,
+      all: false,
+      order: old.order,
+      redo: old.subset && Array.isArray(old.view) ? old.view : null,
+      responses: old.responses || {}
+    };
   }
 
   // Put the questions back in their saved order and reattach the saved answers.
@@ -919,9 +1003,6 @@
     if (!known.length) return false;
 
     known.sort((a, b) => pos.get(qKey(a)) - pos.get(qKey(b)));
-
-    // Every question stays, so a second tab sees the whole lecture and all of
-    // its answers. Only the view narrows.
     questions = known.concat(fresh);
 
     responses = questions.map(q => {
@@ -931,20 +1012,21 @@
         selected: r.selected || null,
         answered: !!r.answered,
         struck: Array.isArray(r.struck) ? r.struck : [],
-        flagged: !!r.flagged,
+        flagged: false,
         skipped: !!r.skipped,
-        highlights: (r.highlights && typeof r.highlights === 'object') ? r.highlights : {}
+        highlights: {}
       };
     });
 
-    // A refined pass replays exactly what it kept; anything else plays the
-    // whole lecture, absorbing questions added since it started.
-    subsetRun = !!saved.subset;
+    // A redo replays exactly what it kept; anything else plays the whole
+    // lecture, absorbing questions added since it started.
     const at = new Map(questions.map((q, i) => [qKey(q), i]));
-    view = subsetRun && Array.isArray(saved.view)
-      ? saved.view.map(k => at.get(k)).filter(i => i !== undefined)
-      : questions.map((q, i) => i);
-    if (!view.length) { subsetRun = false; view = questions.map((q, i) => i); }
+    redo = Array.isArray(saved.redo)
+      ? saved.redo.map(k => at.get(k)).filter(i => i !== undefined)
+      : null;
+    if (redo && !redo.length) redo = null;
+    showAll = !!(redo && saved.all);
+    syncView();
 
     current = Math.min(Math.max(parseInt(saved.current, 10) || 0, 0), view.length);
 
@@ -955,6 +1037,17 @@
       if (firstOpen !== -1) current = firstOpen;
     }
     return true;
+  }
+
+  // Lay each question's flag and highlights over its record.
+  function applyMarks() {
+    questions.forEach((q, i) => {
+      const m = STORE.mark(docOf(q), qKey(q));
+      if (!m) return;
+      const r = response(i);
+      r.flagged = m.flagged;
+      r.highlights = m.highlights;
+    });
   }
 
   function tally() {
@@ -980,13 +1073,13 @@
         const r = await fetch(`${block}/${lecture}?t=${Date.now()}`);
         if (!r.ok) throw new Error('not found');
         const data = await r.json();
-        questions = data.questions || [];
+        questions = (data.questions || []).map(q => ({ ...q, _file: lecture }));
         document.getElementById('topSubtitle').textContent = data.lecture || lecture;
       } else {
         let files, label;
 
         if (week) {
-          // A week names its own lectures, so this path skips the GitHub API.
+          // A week names its own lectures.
           const wr = await fetch(`${block}/weeks.json?t=${Date.now()}`);
           if (!wr.ok) throw new Error('this block has no weeks');
           const wd = await wr.json();
@@ -995,11 +1088,7 @@
           files = w.lectures || [];
           label = `${w.name}${w.dates ? ' · ' + w.dates : ''} · shuffled`;
         } else {
-          const apiUrl = `https://api.github.com/repos/bananasrlowkeygood/bananasrlowkeygood.github.io/contents/jeff/${block}`;
-          const dirRes = await fetch(apiUrl);
-          if (!dirRes.ok) throw new Error('could not list block');
-          const entries = await dirRes.json();
-          files = entries.filter(e => e.type === 'file' && e.name.endsWith('.json') && !MANIFESTS.includes(e.name)).map(e => e.name);
+          files = await listBlock();
           label = 'all lectures · shuffled';
         }
 
@@ -1008,7 +1097,7 @@
           const r = await fetch(`${block}/${name}?t=${Date.now()}`);
           if (!r.ok) return [];
           const d = await r.json();
-          return (d.questions || []).map(q => ({ ...q, _lecture: d.lecture }));
+          return (d.questions || []).map(q => ({ ...q, _lecture: d.lecture, _file: name }));
         }));
         questions = all.flat();
         document.getElementById('topSubtitle').textContent = label;
@@ -1019,11 +1108,19 @@
 
     if (!questions.length) { show('no questions found.'); return; }
 
+    // Catch up with the account before deciding where to resume. Neither
+    // waits long: with no connection the run on this device is used as is.
+    await Promise.all([
+      STORE.pull([...new Set(questions.map(docOf))], 4000),
+      STORE.pullRun(RUN_KEY, 4000)
+    ]);
+
     const resumed = restoreSession();
     if (!resumed) {
       if (!lecture) shuffle(questions);
-      view = questions.map((q, i) => i);
+      syncView();
     }
+    applyMarks();
 
     document.getElementById('stateMsg').style.display = 'none';
     syncTopbarHeight();
@@ -1036,6 +1133,20 @@
   }
 
   function show(msg) { document.getElementById('stateMsg').textContent = msg; }
+
+  // The block's lecture files, from its index.json. The GitHub API is only a
+  // fallback: it is rate-limited per IP, which a shared network runs through.
+  async function listBlock() {
+    try {
+      const r = await fetch(`${block}/index.json?t=${Date.now()}`);
+      if (r.ok) return ((await r.json()).lectures || []).map(l => l.file);
+    } catch (e) { /* fall through */ }
+    const apiUrl = `https://api.github.com/repos/bananasrlowkeygood/bananasrlowkeygood.github.io/contents/jeff/${block}`;
+    const dirRes = await fetch(apiUrl);
+    if (!dirRes.ok) throw new Error('could not list block');
+    const entries = await dirRes.json();
+    return entries.filter(e => e.type === 'file' && e.name.endsWith('.json') && !MANIFESTS.includes(e.name)).map(e => e.name);
+  }
 
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
@@ -1098,7 +1209,7 @@
     hlSources[key] = text;
     el.dataset.hlKey = key;
 
-    const ranges = (highlightsOf(current)[key] || [])
+    const ranges = (highlightsOf(cur())[key] || [])
       .map(([a, b]) => [Math.min(a, text.length), Math.min(b, text.length)])
       .filter(([a, b]) => b > a);
 
@@ -1140,7 +1251,7 @@
   }
 
   function overlaps(key, start, end) {
-    return (highlightsOf(current)[key] || []).some(([a, b]) => a < end && b > start);
+    return (highlightsOf(cur())[key] || []).some(([a, b]) => a < end && b > start);
   }
 
   function hlBlock(node) {
@@ -1218,10 +1329,10 @@
   }
 
   function applyHighlight(sel, remove) {
-    const store = highlightsOf(current);
-    const cur   = store[sel.key] || [];
-    const next  = remove ? subtractRange(cur, sel.start, sel.end)
-                         : mergeRanges(cur.concat([[sel.start, sel.end]]));
+    const store = highlightsOf(cur());
+    const had   = store[sel.key] || [];
+    const next  = remove ? subtractRange(had, sel.start, sel.end)
+                         : mergeRanges(had.concat([[sel.start, sel.end]]));
     if (next.length) store[sel.key] = next;
     else delete store[sel.key];
 
@@ -1229,7 +1340,7 @@
     const live = window.getSelection();
     if (live) live.removeAllRanges();
     hidePop();
-    saveSession();
+    saveMark(cur());
   }
 
   hlPop.addEventListener('mousedown', e => e.preventDefault()); // keep the selection
@@ -1349,6 +1460,7 @@
         btn.classList.toggle('selected', btn.dataset.letter === resp.selected));
     }
 
+    renderHistory();
     updateActionButtons();
     updateScore();
     updateProgress();
@@ -1356,22 +1468,54 @@
     saveSession();
   }
 
+  // ── History ──
+  // Every earlier try at this question, dated. Whether each was right shows
+  // from the start; what was picked waits until this try is answered, so the
+  // history can't give the question away.
+  function when(t) {
+    if (!t) return 'earlier';
+    const d = new Date(t);
+    const opts = { month: 'short', day: 'numeric' };
+    if (d.getFullYear() !== new Date().getFullYear()) opts.year = 'numeric';
+    return d.toLocaleDateString(undefined, opts);
+  }
+
+  function renderHistory() {
+    const q = questions[cur()];
+    const open = response(cur()).answered;
+    const el = document.getElementById('qHistory');
+    el.innerHTML = '';
+    STORE.attempts(docOf(q), qKey(q)).forEach(a => {
+      const chip = document.createElement('span');
+      chip.className = 'try ' + (a.ok ? 'ok' : 'bad');
+      chip.textContent = when(a.t) + (open ? ' \u00b7 ' + a.p : '') + (a.ok ? ' \u2713' : ' \u2717');
+      if (a.t) chip.title = new Date(a.t).toLocaleString();
+      el.appendChild(chip);
+    });
+  }
+
   // ── Resets ──
-  // Put a question, or the whole pass, back to untouched. Highlights and the
-  // flag survive a question reset — they are notes you made, not an answer.
-  function resetQuestion() {
-    if (resultsOpen || !view.length) return;
-    const r = response(cur());
-    if (!r.selected && !r.answered && !r.skipped && !r.struck.length) return;
+  // Put a question, or the whole pass, back to untouched. Only the answer
+  // goes: highlights and the flag are notes you made, and the attempt stays in
+  // the question's history.
+  function clearAnswer(i) {
+    const r = responses[i];
+    if (!r) return;
     r.selected = null;
     r.answered = false;
     r.skipped  = false;
     r.struck   = [];
+  }
+
+  function resetQuestion() {
+    if (resultsOpen || !view.length) return;
+    if (!touched(responses[cur()])) return;
+    clearAnswer(cur());
     render();
   }
 
-  // Replays whatever is in play — the whole lecture, or the narrowed pass if
-  // you are part-way through a refinement — with every answer cleared.
+  // Replays whatever is in play — the whole lecture, or the redo if you are
+  // part-way through a refinement — with every answer cleared.
   let resetArmed = null;
 
   function resetTest() {
@@ -1384,7 +1528,8 @@
       return;
     }
     disarmReset();
-    restartWith(view, subsetRun);
+    view.forEach(clearAnswer);
+    replay();
   }
 
   function disarmReset() {
@@ -1502,7 +1647,10 @@
     if (!resp.selected || resp.answered) return;
     resp.answered = true;
     resp.skipped = false;
+    const q = questions[cur()];
+    STORE.addAttempt(docOf(q), qKey(q), resp.selected, resp.selected === q.correct);
     reveal();
+    renderHistory();
     updateScore();
     updateProgress();
     renderNavigator();
@@ -1547,7 +1695,7 @@
     resp.flagged = !resp.flagged;
     updateActionButtons();
     renderNavigator();
-    saveSession();
+    saveMark(cur());
   }
 
   // ── Question navigator ──
@@ -1584,8 +1732,30 @@
       grid.appendChild(chip);
     });
 
+    document.getElementById('navScope').classList.toggle('visible', !!redo);
+    if (redo) {
+      const redoBtn = document.getElementById('scopeRedo');
+      const allBtn  = document.getElementById('scopeAll');
+      redoBtn.textContent = `redo ${redo.length}`;
+      allBtn.textContent  = `all ${questions.length}`;
+      redoBtn.classList.toggle('on', !showAll);
+      allBtn.classList.toggle('on', showAll);
+    }
+
     updateNavCounts();
     keepCurrentChipInView();
+  }
+
+  // Switch between the redo and the whole lecture. Nothing is cleared either
+  // way, and the question on screen stays put if the other view has it.
+  function setScope(all) {
+    if (!redo || showAll === all) return;
+    const here = resultsOpen ? -1 : cur();
+    showAll = all;
+    syncView();
+    if (resultsOpen) { current = view.length; showResults(); return; }
+    current = Math.max(view.indexOf(here), 0);
+    render();
   }
 
   // Total and answered already live in the topbar progress, so the rail only
@@ -1665,8 +1835,9 @@
   // ── Refinement ──
   // Severance's macrodata refinement, borrowed. Every question you answered
   // goes up on the wall; the ones you got right are filed into the bin, and
-  // whatever refuses to go becomes the next run — unanswered, so you meet them
-  // cold. Click anywhere to cut it short.
+  // whatever refuses to go becomes the redo — unanswered, so you meet them
+  // cold. The rest keep their answers, one switch away in the rail. Click
+  // anywhere to cut it short.
   function refine() {
     const missed = view.filter(i => {
       const r = responses[i];
@@ -1762,12 +1933,21 @@
     });
   }
 
-  // Play these questions (real indices) again, with their answers cleared.
-  // Kept in numeric order so the chips read 4, 12, 19 rather than jumping.
-  function restartWith(list, subset) {
-    subsetRun = !!subset;
-    view = list.slice().sort((a, b) => a - b);
-    view.forEach(i => { responses[i] = null; });
+  // Play these questions (real indices) again, with their answers cleared —
+  // as a redo, leaving the rest of the lecture answered behind it, or as the
+  // whole run. Kept in numeric order so the chips read 4, 12, 19 rather than
+  // jumping.
+  function restartWith(list, asRedo) {
+    const sorted = list.slice().sort((a, b) => a - b);
+    sorted.forEach(clearAnswer);
+    redo = asRedo ? sorted : null;
+    showAll = false;
+    syncView();
+    replay();
+  }
+
+  // Back to the first question in view, off the results screen.
+  function replay() {
     current = 0;
     resultsOpen = false;
     document.getElementById('results').classList.remove('visible');
@@ -1779,7 +1959,6 @@
   // Restart always comes back to the whole lecture, refined or not, in the
   // order you just played it — the shuffle happens once, when the run loads.
   function restartQuiz() {
-    responses = [];
     restartWith(questions.map((q, i) => i), false);
   }
 
@@ -1839,7 +2018,7 @@
     if (idx >= 0 && idx < letters.length) { e.preventDefault(); selectAnswer(letters[idx]); }
   });
 
-  GATE.ready().then(load);
+  GATE.ready().then(user => { STORE.open(user, GATE.cloud()); load(); });
 </script>
 </body>
 </html>
