@@ -4,7 +4,7 @@ A question bank: Step 1-style questions per lecture, grouped by block and week.
 
 ## How it keeps track
 
-- **Attempts.** Every answer you submit is kept with its date: what you picked and whether it was right. They show as chips above the question, oldest first. Before you answer, a chip shows only the date and right/wrong; the letter appears once you have answered. Attempts are never deleted by a reset, a restart or a refine.
+- **Attempts.** Every answer you submit is kept with its date: what you picked and whether it was right. They show as chips above the question, oldest first. Before you answer, a chip shows only the date and right/wrong; the letter appears once you have answered. A reset, a restart or a refine never removes attempts; deleting a test on the history page removes the ones made in it.
 - **Marks.** Flags and highlights belong to the question, not the run, so they also survive resets.
 - **Tests.** One sitting of a quiz (order, position, answers on screen). Opening a lecture, week, block or custom set carries on with its unfinished test if there is one, and otherwise starts a new one. Finishing every question, or pressing restart, puts the test aside; it stays on the history page, where any test can be reopened as it was left.
 - **Refine** turns the questions you missed into a redo, cleared to answer cold. The rest keep their answers: the `redo / all` switch in the question rail moves between the two without clearing anything.
@@ -30,7 +30,7 @@ When anything is due, **due for review** appears at the top of the home page and
 
 ## History
 
-**history** (top right of the home page) shows where you stand overall (tried, right on the last try, right on the first try, today, last 7 days, days in a row), your weakest lectures (each opens that lecture's missed questions), tests in progress, and past tests. The × beside a test deletes it (it asks once); the answers given in it stay in each question's history.
+**history** (top right of the home page) lists tests in progress, your weakest lectures (each opens that lecture's missed questions), and past tests. The × beside a test deletes it (it asks once), along with the answers given in it, so the lecture's progress drops back too. Flags and highlights stay.
 
 Everything is saved in the browser first. Signed in, it is also saved to your account and merged on load, so it follows you between devices and survives clearing the browser. Answers made offline go up the next time the page loads with a connection. Two devices open on the same test at once: the attempts from both are kept, but the position is whichever saved last. If the browser's storage fills up, the oldest tests' details are dropped from that browser first; signed in, they are still in your account.
 
