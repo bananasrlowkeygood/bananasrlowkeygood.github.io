@@ -165,6 +165,21 @@
     }
     .lecture-link:hover { background: rgba(92,79,122,0.14); }
 
+    /* Where you stand on a lecture: tried / total, and how the last try at
+       each went. Empty until you have tried something. */
+    .lecture-link {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+    .lecture-stat {
+      font-size: 0.72rem;
+      opacity: 0.65;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
     /* ── Week groups ──
        Weeks come from the block's weeks.json; each is a header you open. */
     .week-group {
@@ -281,14 +296,16 @@
       <a class="back-link" href="../index.html">← bananasrlowkeygood</a>
       <div class="topbar-title">jeff</div>
     </div>
-    <button class="btn-outline lock-btn" onclick="GATE.forget()" title="Forget this browser — ask for the password again">lock</button>
+    <button class="btn-outline lock-btn" id="lockBtn" onclick="GATE.forget()" title="Forget this browser — ask for the password again">lock</button>
   </div>
 
   <div class="content">
     <div class="blocks" id="blocks"></div>
   </div>
 
+  <script src="firebase-config.js"></script>
   <script src="gate.js"></script>
+  <script src="store.js"></script>
   <script>
     // Files in a block folder that describe it rather than hold questions.
     const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
@@ -299,7 +316,14 @@
       { id: 'neuro',     name: 'Neurology'   },
     ];
 
+    // A block's lectures, from its index.json (rebuilt on every push by
+    // build_index.py). The GitHub API is only a fallback: it is rate-limited
+    // per IP, which a shared network runs through.
     async function loadBlock(block) {
+      try {
+        const r = await fetch(`${block.id}/index.json?t=${Date.now()}`);
+        if (r.ok) return (await r.json()).lectures || [];
+      } catch { /* fall through */ }
       try {
         const apiUrl = `https://api.github.com/repos/bananasrlowkeygood/bananasrlowkeygood.github.io/contents/jeff/${block.id}`;
         const res = await fetch(apiUrl);
@@ -349,7 +373,19 @@
       ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
     function lectureLink(block, l) {
-      return `<a class="lecture-link" href="quiz.html?block=${block.id}&lecture=${encodeURIComponent(l.file)}">${esc(l.name)} (${l.count || 0} Qs)</a>`;
+      return `<a class="lecture-link" href="quiz.html?block=${block.id}&lecture=${encodeURIComponent(l.file)}">` +
+        `<span>${esc(l.name)} (${l.count || 0} Qs)</span>` +
+        `<span class="lecture-stat" data-doc="${esc(STORE.docId(block.id, l.file))}" data-count="${l.count || 0}"></span></a>`;
+    }
+
+    function paintStats() {
+      document.querySelectorAll('.lecture-stat').forEach(el => {
+        const total = Number(el.dataset.count);
+        const { seen, right } = STORE.stats(el.dataset.doc);
+        el.textContent = seen
+          ? `${Math.min(seen, total)}/${total} \u00b7 ${Math.round(right / seen * 100)}%`
+          : '';
+      });
     }
 
     function weekGroup(block, g) {
@@ -418,7 +454,18 @@
       btn.textContent = list.classList.contains('open') ? 'By Lecture ▴' : 'By Lecture ▾';
     }
 
-    GATE.ready().then(init);
+    GATE.ready().then(async user => {
+      STORE.open(user, GATE.cloud());
+      if (user) {
+        const btn = document.getElementById('lockBtn');
+        btn.textContent = `${user.name} \u00b7 sign out`;
+        btn.title = `Sign out ${user.email}`;
+      }
+      await init();
+      paintStats();
+      // What this device has shows at once; the account's copy fills in after.
+      if (await STORE.pull(null, 15000)) paintStats();
+    });
   </script>
 </body>
 </html>

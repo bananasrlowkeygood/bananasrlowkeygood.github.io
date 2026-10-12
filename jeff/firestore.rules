@@ -1,0 +1,27 @@
+rules_version = '2';
+
+// Paste into Firebase console → Firestore Database → Rules.
+//
+// allowlist/{email}   one empty document per person allowed in, named by
+//                     their Google email in lowercase. Edited only from the
+//                     console; nobody can write it from the site.
+// users/{uid}/...     that person's history and saved runs. Theirs alone.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function onList() {
+      return request.auth != null
+          && request.auth.token.email_verified == true
+          && exists(/databases/$(database)/documents/allowlist/$(request.auth.token.email));
+    }
+
+    // Each person may check for their own entry, and nothing else.
+    match /allowlist/{email} {
+      allow get: if request.auth != null && request.auth.token.email == email;
+    }
+
+    match /users/{uid}/{document=**} {
+      allow read, write: if request.auth.uid == uid && onList();
+    }
+  }
+}

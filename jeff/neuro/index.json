@@ -1,0 +1,385 @@
+{
+  "block": "neuro",
+  "lectures": [
+    {
+      "file": "anatomy-of-the-neck.json",
+      "name": "Anatomy of the Neck",
+      "count": 20
+    },
+    {
+      "file": "anxiety-disorders-and-ocd-cases.json",
+      "name": "Case Vignettes: Anxiety Disorders and Obsessive Compulsive Disorder",
+      "count": 20
+    },
+    {
+      "file": "applied-neuroanatomy-tbl.json",
+      "name": "TBL: Applied Neuroanatomy",
+      "count": 20
+    },
+    {
+      "file": "approaches-to-seizures-and-epilepsy.json",
+      "name": "Approaches to Seizures & Epilepsy",
+      "count": 20
+    },
+    {
+      "file": "attachment-theory-and-personality-disorders.json",
+      "name": "Attachment Theory and Personality Disorders",
+      "count": 20
+    },
+    {
+      "file": "basal-nuclei-and-cerebellum.json",
+      "name": "Basal Nuclei & Cerebellum",
+      "count": 20
+    },
+    {
+      "file": "blood-supply-and-csf.json",
+      "name": "Blood Supply and Cerebrospinal Fluid",
+      "count": 20
+    },
+    {
+      "file": "brainstem-and-cranial-nerve-symptoms.json",
+      "name": "Brainstem and Cranial Nerve Symptoms",
+      "count": 20
+    },
+    {
+      "file": "brainstem-and-spinal-cord-cases.json",
+      "name": "Brainstem & Spinal Cord Cases",
+      "count": 36
+    },
+    {
+      "file": "brainstem-i-external-features-circulation-long-tracts.json",
+      "name": "Brainstem I: External Features, Circulation + Long Tracts",
+      "count": 20
+    },
+    {
+      "file": "brainstem-ii.json",
+      "name": "Brainstem II: Cranial Nerve Nuclei and Integrative Pathways",
+      "count": 100
+    },
+    {
+      "file": "cbl-w1-los.json",
+      "name": "CBL W1 LOs",
+      "count": 40
+    },
+    {
+      "file": "cbl-w2-los.json",
+      "name": "CBL W2 LOs",
+      "count": 40
+    },
+    {
+      "file": "cbl-w3-los.json",
+      "name": "CBL W3 LOs",
+      "count": 40
+    },
+    {
+      "file": "cbl-w4-los.json",
+      "name": "CBL W4 LOs",
+      "count": 40
+    },
+    {
+      "file": "cbl-w5-los.json",
+      "name": "CBL W5 LOs",
+      "count": 40
+    },
+    {
+      "file": "cbl-w6-los.json",
+      "name": "CBL W6 LOs",
+      "count": 100
+    },
+    {
+      "file": "child-adolescent-psychiatry.json",
+      "name": "Child & Adolescent Psychiatry",
+      "count": 20
+    },
+    {
+      "file": "circadian-rhythms-and-sleep-medicine.json",
+      "name": "Circadian Rhythms & Sleep Medicine",
+      "count": 20
+    },
+    {
+      "file": "clinical-assessment-psychiatric-disorder.json",
+      "name": "Clinical Assessment of a Patient with a Psychiatric Disorder",
+      "count": 20
+    },
+    {
+      "file": "cns-infections.json",
+      "name": "CNS Infections",
+      "count": 20
+    },
+    {
+      "file": "cns-pharmacology-i-antidepressants.json",
+      "name": "CNS Pharmacology I: Antidepressants and Cholinomimetics",
+      "count": 20
+    },
+    {
+      "file": "cns-pharmacology-ii-anxiolytics-and-mood-stabilizers.json",
+      "name": "CNS Pharmacology II: Anxiolytics and Mood Stabilizers",
+      "count": 20
+    },
+    {
+      "file": "cns-pharmacology-iii-antipsychotics.json",
+      "name": "CNS Pharmacology III: Antipsychotics",
+      "count": 20
+    },
+    {
+      "file": "cns-tumors.json",
+      "name": "CNS Tumors",
+      "count": 20
+    },
+    {
+      "file": "cognitive-disorders.json",
+      "name": "Cognitive Disorders",
+      "count": 20
+    },
+    {
+      "file": "cortex-and-basal-ganglia-prelab.json",
+      "name": "Cortex & Basal Ganglia Prelab",
+      "count": 20
+    },
+    {
+      "file": "cortex-and-subcortex-cases.json",
+      "name": "Cortex & Subcortex Cases",
+      "count": 30
+    },
+    {
+      "file": "cortex-structure-and-function.json",
+      "name": "Cortex: Structure and Function",
+      "count": 20
+    },
+    {
+      "file": "depression.json",
+      "name": "Depression: A Disorder of Multiple Systems",
+      "count": 20
+    },
+    {
+      "file": "diencephalon-and-limbic-system.json",
+      "name": "Diencephalon and Limbic System",
+      "count": 20
+    },
+    {
+      "file": "differential-diagnosis-of-psychotic-symptoms.json",
+      "name": "Differential Diagnosis of Psychotic Symptoms",
+      "count": 20
+    },
+    {
+      "file": "disaster-medicine.json",
+      "name": "Disaster Medicine: Individual, Community, and Systems Perspectives",
+      "count": 20
+    },
+    {
+      "file": "dysmyelinating-disorders-and-leukodystrophies.json",
+      "name": "Dysmyelinating Disorders & Leukodystrophies",
+      "count": 20
+    },
+    {
+      "file": "embryology-of-the-head-and-neck.json",
+      "name": "Embryology of the Head and Neck",
+      "count": 20
+    },
+    {
+      "file": "energy-metabolism-in-the-brain.json",
+      "name": "Energy Metabolism in the Brain",
+      "count": 20
+    },
+    {
+      "file": "geriatric-psychiatry.json",
+      "name": "Geriatric Psychiatry",
+      "count": 20
+    },
+    {
+      "file": "head-via-cranial-nerves.json",
+      "name": "Head via the Cranial Nerves",
+      "count": 20
+    },
+    {
+      "file": "headache.json",
+      "name": "Headache",
+      "count": 20
+    },
+    {
+      "file": "impact-of-dementia-patient-panel.json",
+      "name": "Patient Panel: Impact of Dementia",
+      "count": 17
+    },
+    {
+      "file": "inborn-errors-of-metabolism-affecting-the-brain.json",
+      "name": "Inborn Errors of Metabolism that Affect the Brain",
+      "count": 20
+    },
+    {
+      "file": "infections-of-the-ear-nose-throat.json",
+      "name": "Infections of the Ear, Nose, & Throat",
+      "count": 20
+    },
+    {
+      "file": "inner-ear-auditory-vestibular-physiology.json",
+      "name": "Inner Ear Auditory & Vestibular Physiology",
+      "count": 20
+    },
+    {
+      "file": "intracranial-hemorrhage.json",
+      "name": "Intracranial Hemorrhage",
+      "count": 20
+    },
+    {
+      "file": "intro-to-the-cns.json",
+      "name": "Neuroanatomy Lab: Introduction to the CNS",
+      "count": 20
+    },
+    {
+      "file": "introduction-to-the-nervous-system.json",
+      "name": "Introduction to the Nervous System",
+      "count": 20
+    },
+    {
+      "file": "local-and-general-anesthesia.json",
+      "name": "Local and General Anesthesia",
+      "count": 20
+    },
+    {
+      "file": "molecular-basis-of-neurologic-disease.json",
+      "name": "Molecular Basis of Neurologic Disease",
+      "count": 20
+    },
+    {
+      "file": "mood-disorder-cases.json",
+      "name": "Mood Disorder Cases (TBL)",
+      "count": 20
+    },
+    {
+      "file": "motor-pathways.json",
+      "name": "Motor Pathways",
+      "count": 20
+    },
+    {
+      "file": "movement-disorders.json",
+      "name": "Movement Disorders",
+      "count": 20
+    },
+    {
+      "file": "myelin-and-myelin-related-disorders.json",
+      "name": "Myelin and Myelin Related Disorders",
+      "count": 20
+    },
+    {
+      "file": "neuroanatomy-lab-brainstem.json",
+      "name": "Neuroanatomy Lab: Brainstem",
+      "count": 20
+    },
+    {
+      "file": "neuroanatomy-lab-diencephalon-limbic.json",
+      "name": "Neuroanatomy Lab: Diencephalon & Limbic System",
+      "count": 20
+    },
+    {
+      "file": "neurodevelopmental-conditions.json",
+      "name": "Neurodevelopmental Conditions",
+      "count": 20
+    },
+    {
+      "file": "neurodiagnostic-skills-ophthalmology.json",
+      "name": "Neurodiagnostic Skills: Ophthalmology",
+      "count": 20
+    },
+    {
+      "file": "neurological-exam-part-1.json",
+      "name": "The Neurological Exam, Part 1",
+      "count": 20
+    },
+    {
+      "file": "neuromuscular-junction-disorders-myopathy.json",
+      "name": "Neuromuscular Junction Disorders & Myopathy",
+      "count": 20
+    },
+    {
+      "file": "neurotransmitters-ach-biogenic-amines.json",
+      "name": "Neurotransmitters: Acetylcholine and Biogenic Amines",
+      "count": 20
+    },
+    {
+      "file": "ocular-pharmacology.json",
+      "name": "Ocular Pharmacology",
+      "count": 20
+    },
+    {
+      "file": "one-carbon-metabolism.json",
+      "name": "One-Carbon Metabolism",
+      "count": 100
+    },
+    {
+      "file": "outer-middle-ear-auditory-system.json",
+      "name": "Outer & Middle Ear Auditory System",
+      "count": 20
+    },
+    {
+      "file": "overview-of-stroke-syndromes.json",
+      "name": "Overview of Stroke Syndromes",
+      "count": 20
+    },
+    {
+      "file": "peripheral-neuropathy.json",
+      "name": "Peripheral Neuropathy",
+      "count": 20
+    },
+    {
+      "file": "psychotic-disorders.json",
+      "name": "Psychotic Disorders",
+      "count": 20
+    },
+    {
+      "file": "randomized-control-trials-a-deeper-dive.json",
+      "name": "Randomized Control Trials: A Deeper Dive",
+      "count": 20
+    },
+    {
+      "file": "sensory-pathways-anterolateral.json",
+      "name": "Sensory Pathways Part 2: Anterolateral Ascending and Descending Pathways",
+      "count": 20
+    },
+    {
+      "file": "sensory-pathways-dcml.json",
+      "name": "Sensory Pathways Part 1: Dorsal Column-Medial Lemniscus and Spinocerebellar Tracts",
+      "count": 20
+    },
+    {
+      "file": "spinal-cord-syndromes.json",
+      "name": "Approach to Spinal Cord Injury and Disease via Clinical Vignettes",
+      "count": 20
+    },
+    {
+      "file": "suicide.json",
+      "name": "Suicide",
+      "count": 20
+    },
+    {
+      "file": "synapses-amino-acid-neurotransmitters.json",
+      "name": "Synapses and Amino Acid Neurotransmitters: Glutamate, GABA, and Glycine",
+      "count": 20
+    },
+    {
+      "file": "tbl-neurological-movement-disorders.json",
+      "name": "TBL: Neurological Movement Disorders",
+      "count": 20
+    },
+    {
+      "file": "trauma-stressor-related-disorders.json",
+      "name": "Trauma- and Stressor-Related Disorders",
+      "count": 20
+    },
+    {
+      "file": "tumors-of-the-head-and-neck.json",
+      "name": "Tumors of the Head and Neck",
+      "count": 20
+    },
+    {
+      "file": "visual-system-anatomy.json",
+      "name": "Visual System: Anatomy",
+      "count": 20
+    },
+    {
+      "file": "visual-system-physiology-clinical.json",
+      "name": "Visual System: Physiology and Clinical Medicine",
+      "count": 20
+    }
+  ]
+}
