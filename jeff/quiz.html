@@ -1815,7 +1815,7 @@
     resp.answered = true;
     resp.skipped = false;
     const q = questions[cur()];
-    STORE.addAttempt(docOf(q), qKey(q), resp.selected, resp.selected === q.correct);
+    STORE.addAttempt(docOf(q), qKey(q), resp.selected, resp.selected === q.correct, undefined, RUN_KEY);
     reveal();
     renderHistory();
     updateScore();

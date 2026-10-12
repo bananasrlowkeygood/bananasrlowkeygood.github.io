@@ -2,8 +2,9 @@
  *
  * Everything a person has done, in three kinds:
  *
- *   attempts  every answer ever submitted to a question — what was picked,
- *             whether it was right, and when. Only ever added to.
+ *   attempts  every answer submitted to a question — what was picked, whether
+ *             it was right, when, and in which test. They go only when the
+ *             test they were made in is deleted.
  *   marks     the flag and the highlights on a question. Notes rather than
  *             answers, so they outlive any reset.
  *   tests     one sitting of a quiz: the order, the position and the answers
@@ -55,11 +56,15 @@
     return out;
   }
 
-  // A lecture's history: { a: { questionId: [{ p, ok, t }] },
+  // A lecture's history: { a: { questionId: [{ p, ok, t, r }] },
+  //                        x: { questionId: [{ p, t }] },
   //                        m: { questionId: { f, h, t } } }
+  // `r` is the test an attempt was made in. `x` lists attempts since taken
+  // back: both lists only ever grow, so two devices can merge them in any
+  // order and agree, and what counts is whatever is in `a` and not in `x`.
   // `h` is the highlights as a JSON string, so a Firestore merge replaces them
   // whole instead of leaving removed ones behind.
-  const shape = d => ({ a: (d && d.a) || {}, m: (d && d.m) || {} });
+  const shape = d => ({ a: (d && d.a) || {}, x: (d && d.x) || {}, m: (d && d.m) || {} });
 
   let cache = {};
 
@@ -73,6 +78,12 @@
   const keep = id => write(hKey(id), hist(id));
 
   const same = (x, y) => x.t === y.t && x.p === y.p;
+
+  // A question's attempts that still count.
+  function live(h, qid) {
+    const gone = h.x[qid] || [];
+    return (h.a[qid] || []).filter(a => !gone.some(g => same(a, g)));
+  }
 
   // A question you have missed comes back for review: a day after a miss, then
   // 3 and 7 days after each time in a row you get it right. Three in a row and
@@ -93,22 +104,25 @@
 
   // What `mine` holds that `theirs` doesn't.
   function ahead(mine, theirs) {
-    const a = {}, m = {};
-    Object.keys(mine.a).forEach(q => {
-      const have = theirs.a[q] || [];
-      const extra = mine.a[q].filter(x => !have.some(y => same(x, y)));
-      if (extra.length) a[q] = extra;
+    const a = {}, x = {}, m = {};
+    [['a', a], ['x', x]].forEach(([part, out]) => {
+      Object.keys(mine[part]).forEach(q => {
+        const have = theirs[part][q] || [];
+        const extra = mine[part][q].filter(e => !have.some(y => same(e, y)));
+        if (extra.length) out[q] = extra;
+      });
     });
     Object.keys(mine.m).forEach(q => {
       if (!theirs.m[q] || (theirs.m[q].t || 0) < (mine.m[q].t || 0)) m[q] = mine.m[q];
     });
-    return { a, m };
+    return { a, x, m };
   }
 
-  const empty = patch => !Object.keys(patch.a).length && !Object.keys(patch.m).length;
+  const empty = patch => !Object.keys(patch.a).length && !Object.keys(patch.x).length && !Object.keys(patch.m).length;
 
   function absorb(into, patch) {
     Object.keys(patch.a).forEach(q => { into.a[q] = (into.a[q] || []).concat(patch.a[q]); });
+    Object.keys(patch.x).forEach(q => { into.x[q] = (into.x[q] || []).concat(patch.x[q]); });
     Object.keys(patch.m).forEach(q => { into.m[q] = patch.m[q]; });
   }
 
@@ -116,10 +130,11 @@
     return cloud.then(c => {
       if (!c || c.uid !== ns) return;
       const data = {};
-      if (Object.keys(patch.a).length) {
-        data.a = {};
-        Object.keys(patch.a).forEach(q => { data.a[q] = c.fs.arrayUnion(...patch.a[q]); });
-      }
+      ['a', 'x'].forEach(part => {
+        if (!Object.keys(patch[part]).length) return;
+        data[part] = {};
+        Object.keys(patch[part]).forEach(q => { data[part][q] = c.fs.arrayUnion(...patch[part][q]); });
+      });
       if (Object.keys(patch.m).length) data.m = patch.m;
       return c.fs.setDoc(c.fs.doc(c.db, 'users', c.uid, 'lectures', id), data, { merge: true });
     }).catch(() => { /* still on the device; goes up with the next pull */ });
@@ -162,6 +177,38 @@
       try { localStorage.removeItem(k); } catch (e) {}
     });
   }
+
+  // Take back the attempts made in a deleted test. Each attempt names its
+  // test; ones from before they did are matched by having been made in the
+  // test's lectures while it was open. Safe to run again: nothing is taken
+  // back twice.
+  function purge(id, line) {
+    const q = new URLSearchParams(line.q || '');
+    const block = q.get('block') || '';
+    const scope = q.get('lecture') ? [docIdOf(block, q.get('lecture'))]
+      : q.get('set') ? q.get('set').split(',').map(s => docIdOf(...(s.includes('/') ? s.split('/') : [block, s])))
+      : null;   // a week or a whole block: anything in the block
+    const inScope = doc => scope ? scope.includes(doc) : doc.startsWith(block + '__');
+
+    keysUnder(`jeff-h:${ns}:`).forEach(k => {
+      const doc = k.slice(`jeff-h:${ns}:`.length);
+      const h = hist(doc);
+      const patch = { a: {}, x: {}, m: {} };
+      Object.keys(h.a).forEach(qid => {
+        const out = live(h, qid).filter(a => a.r
+          ? a.r === id
+          : !!(a.t && line.started && a.t >= line.started && a.t <= line.updated && inScope(doc)));
+        if (out.length) patch.x[qid] = out.map(a => ({ p: a.p, t: a.t }));
+      });
+      if (empty(patch)) return;
+      absorb(h, patch);
+      keep(doc);
+      send(doc, patch);
+    });
+  }
+
+  const docIdOf = (block, file) =>
+    `${block}__${String(file || '').replace(/\.json$/, '')}`.replace(/[^\w.-]/g, '_');
 
   // ── Tests ──
   const pending = {};     // test id -> { updated, state } not yet in Firestore
@@ -206,9 +253,7 @@
     },
 
     // The document a question's history is filed in.
-    docId(block, file) {
-      return `${block}__${String(file || '').replace(/\.json$/, '')}`.replace(/[^\w.-]/g, '_');
-    },
+    docId(block, file) { return docIdOf(block, file); },
 
     // A run's key: the block, plus whatever names the run within it (a
     // lecture, 'week-2', 'all', a custom set).
@@ -246,17 +291,20 @@
     // Every attempt at a question, oldest first. `t` is 0 for answers carried
     // over from before attempts were dated.
     attempts(id, qid) {
-      return (hist(id).a[qid] || []).slice().sort((x, y) => x.t - y.t);
+      return live(hist(id), qid).sort((x, y) => x.t - y.t);
     },
 
-    addAttempt(id, qid, picked, ok, t) {
+    // `test` is the test the answer was given in, so deleting the test can
+    // take the answer with it.
+    addAttempt(id, qid, picked, ok, t, test) {
       const entry = { p: picked, ok: !!ok, t: t === undefined ? Date.now() : t };
+      if (test) entry.r = test;
       const h = hist(id);
       const list = h.a[qid] || (h.a[qid] = []);
       if (list.some(x => same(x, entry))) return;
       list.push(entry);
       keep(id);
-      send(id, { a: { [qid]: [entry] }, m: {} });
+      send(id, { a: { [qid]: [entry] }, x: {}, m: {} });
     },
 
     // { flagged, highlights } for a question, or null if it has neither.
@@ -275,19 +323,20 @@
       if (prev ? (prev.f === next.f && prev.h === next.h) : (!next.f && next.h === '{}')) return;
       h.m[qid] = next;
       keep(id);
-      send(id, { a: {}, m: { [qid]: next } });
+      send(id, { a: {}, x: {}, m: { [qid]: next } });
     },
 
     // How a lecture stands: questions tried, how many of those were right
     // the last time, how many are due for review, and how many are flagged.
     stats(id) {
-      const { a, m } = hist(id);
+      const h = hist(id), m = h.m;
       let seen = 0, right = 0, due = 0;
-      Object.keys(a).forEach(q => {
-        if (!a[q].length) return;
+      Object.keys(h.a).forEach(q => {
+        const tries = live(h, q);
+        if (!tries.length) return;
         seen++;
-        if (a[q].reduce((x, y) => (y.t >= x.t ? y : x)).ok) right++;
-        if (isDue(a[q])) due++;
+        if (tries.reduce((x, y) => (y.t >= x.t ? y : x)).ok) right++;
+        if (isDue(tries)) due++;
       });
       const flagged = Object.keys(m).filter(q => m[q].f).length;
       return { seen, right, due, flagged };
@@ -344,11 +393,13 @@
         .sort((a, b) => (b.updated || 0) - (a.updated || 0));
     },
 
-    // Remove a test for good. Its line is left as a marker saying so, or
-    // another device that still has it would put it straight back. The
-    // attempts made in it are history, and stay.
+    // Remove a test for good, and the answers given in it with it. Its line is
+    // left as a marker saying so, or another device that still has it would
+    // put it straight back — and so that device can drop the answers too.
     deleteTest(id) {
-      tests()[id] = { gone: true, updated: Date.now() };
+      const was = Object.assign({}, tests()[id], { updated: Date.now() });
+      purge(id, was);
+      tests()[id] = { gone: true, updated: was.updated, started: was.started, q: was.q };
       keepTests();
       pendingIndex[id] = tests()[id];
       delete pending[id];
@@ -386,8 +437,10 @@
         const remote = snap.exists() ? snap.data() : {};
         const mine = tests();
         Object.keys(remote).forEach(id => {
-          if (!mine[id] || (mine[id].updated || 0) < (remote[id].updated || 0)) mine[id] = remote[id];
+          if (!mine[id] || (mine[id].updated || 0) <= (remote[id].updated || 0)) mine[id] = remote[id];
         });
+        // A test deleted on another device takes its answers from this one too.
+        Object.keys(mine).forEach(id => { if (mine[id].gone) purge(id, mine[id]); });
         Object.keys(mine).forEach(id => {
           if (!remote[id] || (remote[id].updated || 0) < (mine[id].updated || 0)) pendingIndex[id] = mine[id];
         });
@@ -403,7 +456,9 @@
       const out = {};
       keysUnder(`jeff-h:${ns}:`).forEach(k => {
         const id = k.slice(`jeff-h:${ns}:`.length);
-        out[id] = hist(id).a;
+        const h = hist(id);
+        out[id] = {};
+        Object.keys(h.a).forEach(q => { out[id][q] = live(h, q); });
       });
       return out;
     },

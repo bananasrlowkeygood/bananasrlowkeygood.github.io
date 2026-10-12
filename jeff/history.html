@@ -58,23 +58,6 @@
       padding: 2rem 1.5rem 4rem;
     }
 
-    /* ── Where you stand ── */
-    .figures {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
-      gap: 0.6rem;
-    }
-    .figure {
-      background: #f0ecf8;
-      border: 1px solid #c5bee0;
-      border-radius: 10px;
-      padding: 0.8rem 0.5rem;
-      text-align: center;
-    }
-    .figure .val { font-size: 1.3rem; color: #14111a; }
-    .figure .val small { font-size: 0.78rem; color: #5c4f7a; opacity: 0.7; }
-    .figure .lbl { font-size: 0.72rem; color: #5c4f7a; opacity: 0.7; margin-top: 0.15rem; }
-
     /* ── Lists ── */
     section { display: flex; flex-direction: column; gap: 0.3rem; }
     section[hidden] { display: none; }
@@ -150,7 +133,6 @@
   </div>
 
   <div class="content">
-    <div class="figures" id="figures"></div>
     <p class="empty-msg" id="nothing" hidden>nothing yet</p>
 
     <section id="openSec" hidden><h2>in progress</h2><div id="openList"></div></section>
@@ -166,8 +148,6 @@
     const BLOCKS = [
       { id: 'endorepro', name: 'Endo / Repro' },
     ];
-
-    const DAY = 86400000;
 
     const esc = t => String(t).replace(/[&<>"]/g, c =>
       ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
@@ -194,48 +174,21 @@
       return all.flat();
     }
 
-    const dayOf = t => { const d = new Date(t); d.setHours(0, 0, 0, 0); return d.getTime(); };
-
     function paint(lectures) {
       const all = STORE.everything();
-      const today = dayOf(Date.now());
-      let total = 0, tried = 0, rightLast = 0, rightFirst = 0, nToday = 0, nWeek = 0;
-      const days = new Set();
       const weak = [];
+      let tried = 0;
 
       lectures.forEach(l => {
-        total += l.count || 0;
         let seen = 0, right = 0;
         Object.values(all[l.doc] || {}).forEach(list => {
           if (!list.length) return;
-          const tries = list.slice().sort((x, y) => x.t - y.t);
           seen++;
-          if (tries[tries.length - 1].ok) right++;
-          if (tries[0].ok) rightFirst++;
-          tries.forEach(a => {
-            if (!a.t) return;                 // carried over undated
-            days.add(dayOf(a.t));
-            if (a.t >= today) nToday++;
-            if (a.t >= today - 6 * DAY) nWeek++;
-          });
+          if (list.reduce((x, y) => (y.t >= x.t ? y : x)).ok) right++;
         });
         tried += seen;
-        rightLast += right;
         if (seen >= 5 && right < seen) weak.push({ l, seen, right });
       });
-
-      // Days in a row with at least one answer, ending today or yesterday.
-      let streak = 0;
-      for (let d = days.has(today) ? today : today - DAY; days.has(d); d = dayOf(d - DAY / 2)) streak++;
-
-      document.getElementById('figures').innerHTML = [
-        [`${tried}<small> / ${total}</small>`, 'tried'],
-        [pct(rightLast, tried), 'right, last try'],
-        [pct(rightFirst, tried), 'right, first try'],
-        [nToday, 'today'],
-        [nWeek, 'last 7 days'],
-        [streak, streak === 1 ? 'day in a row' : 'days in a row'],
-      ].map(([val, lbl]) => `<div class="figure"><div class="val">${val}</div><div class="lbl">${lbl}</div></div>`).join('');
 
       weak.sort((a, b) => a.right / a.seen - b.right / b.seen);
       fill('weak', weak.slice(0, 5).map(({ l, seen, right }) => row(
