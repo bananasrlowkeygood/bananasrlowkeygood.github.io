@@ -47,44 +47,86 @@
         position: fixed; inset: 0; z-index: 9999;
         display: flex; align-items: center; justify-content: center;
         padding: 1.25rem;
-        background: #eae6f0;
+        background:
+          radial-gradient(60rem 34rem at 50% 38%, #f6f2fc 0%, rgba(246,242,252,0) 70%),
+          #eae6f0;
       }
       .gate-card {
-        width: 100%; max-width: 430px;
-        display: flex; flex-direction: column; gap: 1rem;
-        padding: 1.75rem 1.6rem;
-        background: #f0ecf8;
-        border: 1px solid #c5bee0;
-        border-radius: 12px;
-        box-shadow: 0 10px 40px rgba(92,79,122,0.14);
+        position: relative;
+        width: 100%; max-width: 340px;
+        display: flex; flex-direction: column; align-items: stretch; gap: 1.1rem;
+        padding: 4.4rem 1.75rem 1.75rem;
+        background: #fbf9fe;
+        border: 1px solid #d6cfe8;
+        border-radius: 20px;
+        box-shadow: 0 1px 2px rgba(92,79,122,0.08), 0 18px 50px rgba(92,79,122,0.16);
+        text-align: center;
+        animation: gate-in 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both;
       }
-      .gate-title { font-family: "Klee One", cursive; font-size: 1.05rem; color: #14111a; }
-      .gate-form { display: flex; gap: 0.45rem; }
+      /* The sloths sit on the card's top edge. */
+      .gate-logo {
+        position: absolute; left: 50%; top: -62px;
+        width: 150px; height: auto;
+        transform: translateX(-50%);
+        filter: drop-shadow(0 6px 10px rgba(92,79,122,0.18));
+        pointer-events: none;
+        -webkit-user-select: none; user-select: none;
+      }
+      .gate-title {
+        font-family: "Klee One", cursive;
+        font-size: 1.7rem; line-height: 1.1;
+        color: #2c2440;
+      }
+      .gate-form { display: flex; gap: 0.5rem; }
       .gate-input {
         flex: 1 1 auto; min-width: 0;
-        padding: 0 0.7rem; height: 34px;
+        padding: 0 0.8rem; height: 42px;
         font-family: inherit; font-size: 0.9rem; color: #14111a;
         background: #fff;
-        border: 1px solid #c5bee0; border-radius: 6px;
+        border: 1px solid #d6cfe8; border-radius: 10px;
       }
-      .gate-input:focus { outline: none; border-color: #5c4f7a; }
+      .gate-input:focus { outline: none; border-color: #5c4f7a; box-shadow: 0 0 0 3px rgba(92,79,122,0.14); }
       .gate-go {
-        height: 34px; padding: 0 14px;
-        border: none; border-radius: 6px; cursor: pointer;
-        background: #5c4f7a; color: #f0ecf8;
-        font-family: "Klee One", cursive; font-size: 0.82rem;
+        display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem;
+        height: 42px; padding: 0 16px;
+        border: none; border-radius: 10px; cursor: pointer;
+        background: #5c4f7a; color: #f6f2fc;
+        font-family: "Klee One", cursive; font-size: 0.9rem;
+        transition: background-color 0.15s, box-shadow 0.15s, transform 0.08s;
       }
       .gate-go:hover { background: #6e5f90; }
+      .gate-go:active { transform: translateY(1px); }
+      .gate-go:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(92,79,122,0.28); }
+
+      /* Google's own button: white, with the mark. */
+      .gate-go.google {
+        background: #fff; color: #2c2440;
+        border: 1px solid #d6cfe8;
+        box-shadow: 0 1px 2px rgba(92,79,122,0.10);
+      }
+      .gate-go.google:hover {
+        background: #fff; border-color: #5c4f7a;
+        box-shadow: 0 4px 14px rgba(92,79,122,0.16);
+      }
+      .gate-go.google svg { width: 18px; height: 18px; flex-shrink: 0; }
+
       .gate-note {
-        font-family: "Klee One", cursive; font-size: 0.82rem; color: #5c4f7a;
+        font-family: "Klee One", cursive; font-size: 0.85rem; color: #5c4f7a;
         overflow-wrap: anywhere;
       }
       .gate-note:empty { display: none; }
       .gate-card.wrong { animation: gate-shake 0.32s; }
+      @keyframes gate-in {
+        from { opacity: 0; transform: translateY(10px) scale(0.98); }
+        to   { opacity: 1; transform: none; }
+      }
       @keyframes gate-shake {
         0%,100% { transform: translateX(0); }
         25%     { transform: translateX(-6px); }
         75%     { transform: translateX(6px); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .gate-card { animation: none; }
       }
     `;
     document.head.appendChild(style);
@@ -94,7 +136,9 @@
     paintStyle();
     const veil = document.createElement('div');
     veil.className = 'gate-veil';
-    veil.innerHTML = `<div class="gate-card"><div class="gate-title">jeff</div>${inner}</div>`;
+    veil.innerHTML = `<div class="gate-card">
+        <img class="gate-logo" src="../static/assets/logo.png" alt="">
+        <div class="gate-title">jeff</div>${inner}</div>`;
     document.body.appendChild(veil);
     return veil;
   }
@@ -149,6 +193,13 @@
     try { localStorage.removeItem(WHO_KEY); } catch (e) {}
   }
 
+  const GOOGLE_MARK = '<svg viewBox="0 0 48 48" aria-hidden="true">' +
+    '<path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>' +
+    '<path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>' +
+    '<path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>' +
+    '<path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>' +
+    '</svg>';
+
   let sdkP = null;
 
   function loadSdk() {
@@ -186,7 +237,7 @@
 
   function askSignIn(sdk) {
     const veil = paintVeil(`
-        <button class="gate-go" type="button">sign in with Google</button>
+        <button class="gate-go google" type="button">${GOOGLE_MARK}sign in with Google</button>
         <div class="gate-note"></div>`);
     const note = veil.querySelector('.gate-note');
 
