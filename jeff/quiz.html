@@ -982,23 +982,29 @@
   // scope, else begin a new one. A run saved before tests were kept apart
   // lives under the scope's own key and is picked up as it is.
   async function settleTest() {
-    await STORE.pullTests(4000);
+    await STORE.pullTests(PATIENCE);
     const asked = params.get('test');
     if (asked) RUN_KEY = asked.replace(/[^\w-]/g, '_');
     else {
       const open = STORE.openTest(SCOPE);
       if (open) RUN_KEY = open;
       else if (!STORE.test(SCOPE)) {
-        await STORE.pullRun(SCOPE, 4000);
+        await STORE.pullRun(SCOPE, PATIENCE);
         RUN_KEY = STORE.readRun(SCOPE) ? SCOPE : newTestId();
       } else RUN_KEY = newTestId();
     }
-    await STORE.pullRun(RUN_KEY, 4000);
+    await STORE.pullRun(RUN_KEY, PATIENCE);
     const line = STORE.test(RUN_KEY);
     if (line && line.started) started = line.started;
   }
 
   const newTestId = () => `${SCOPE}-${Date.now().toString(36)}`;
+
+  // How long to wait on the account. Starting without it would deal a test
+  // begun on another device a fresh shuffle and then save that over it, so
+  // this is long; with no connection at all it is known at once and not
+  // waited for.
+  let PATIENCE = 20000;
 
   // Short and stable — only there to tell one custom set's run from another's.
   function hash(text) {
@@ -1214,13 +1220,21 @@
 
     if (!questions.length) { show('no questions found.'); return; }
 
-    // Catch up with the account before deciding where to resume. Neither
-    // waits long: with no connection the run on this device is used as is.
+    // Catch up with the account before deciding where to resume. With no
+    // connection the test on this device is used as it is.
+    if (await STORE.online(PATIENCE) === false) PATIENCE = 0;
     await Promise.all([
-      STORE.pull([...new Set(questions.map(docOf))], 4000),
+      STORE.pull([...new Set(questions.map(docOf))], PATIENCE),
       settleTest(),
       loadPdfs([...new Set(questions.map(q => q._block || block))])
     ]);
+
+    // A test this account is known to have, whose answers could not be
+    // fetched, is not one to start over.
+    if (STORE.test(RUN_KEY) && !readSession()) {
+      show("couldn't load this test. check your connection and reload.");
+      return;
+    }
 
     // A narrowed test, or one opened from the history page, is a snapshot: it
     // keeps exactly the questions it started with, even ones you have since
@@ -1822,6 +1836,7 @@
     updateProgress();
     renderNavigator();
     saveSession();
+    STORE.flush();   // an answer goes to the account now, not in a moment
   }
 
   function nextQuestion() {

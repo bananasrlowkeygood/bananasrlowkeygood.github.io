@@ -252,6 +252,16 @@
       if (user) adopt();
     },
 
+    // Whether the account can be reached: true once the sign-in is confirmed,
+    // false when there is nothing to reach (no accounts, or offline), and
+    // undefined if it still isn't known after `ms`.
+    online(ms) {
+      return within(cloud.then(c => !!(c && c.uid === ns), () => false), ms);
+    },
+
+    // Send what is waiting now rather than in a moment.
+    flush() { flushRuns(); },
+
     // The document a question's history is filed in.
     docId(block, file) { return docIdOf(block, file); },
 

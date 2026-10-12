@@ -1,6 +1,6 @@
-/* The Firebase web app config, pasted from the Firebase console (README.md
- * walks through it). None of it is secret — access is decided by the Firestore
- * rules, not by hiding these values.
+/* The Firebase web app config, pasted from the Firebase console (Project
+ * settings, Your apps). None of it is secret — access is decided by the
+ * Firestore rules, not by hiding these values.
  *
  * While this is null the site runs without accounts: the shared password, and
  * progress kept in this browser only.
