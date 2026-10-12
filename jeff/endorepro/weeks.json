@@ -18,6 +18,14 @@
         "clinical-skills-session-1.json",
         "week-1-cbl.json"
       ]
+    },
+    {
+      "id": "2",
+      "name": "Week 2",
+      "dates": "10/12 – 10/16",
+      "lectures": [
+        "histology-lab-endocrine-organs.json"
+      ]
     }
   ]
 }
