@@ -887,6 +887,18 @@
   const lecture = params.get('lecture') || '';
   const week    = params.get('week') || '';
 
+  // A custom set: lectures picked by hand on the home page, each as
+  // block/file-name-without-.json, so a set can reach across blocks.
+  const set = (params.get('set') || '').split(',').filter(Boolean).map(s => {
+    const cut = s.indexOf('/');
+    return cut === -1 ? { block, name: s } : { block: s.slice(0, cut), name: s.slice(cut + 1) };
+  });
+
+  // Narrow whatever was asked for by your history with it: 'due' (missed
+  // before and back for review), 'missed' (wrong the last time you tried it),
+  // 'unseen' (never tried) or 'flagged'.
+  const only = ['due', 'missed', 'unseen', 'flagged'].includes(params.get('only')) ? params.get('only') : '';
+
   let questions = [];   // every question in the lecture, in its own order
 
   // Which of them are in play, as indices into `questions`, and where we are
@@ -925,20 +937,72 @@
   // The run is saved through the store: on this device at once, and to the
   // signed-in account, so a refresh, a new tab, or another device tomorrow all
   // resume where you left off. One saved run per quiz.
-  const RUN_KEY = STORE.runId(block, lecture, week);
+  // What this page was asked for, as a key. Every test of the same thing
+  // shares it; RUN_KEY is the one test being played, settled once loaded.
+  const SCOPE = STORE.runId(block || 'mixed',
+    (lecture ? lecture.replace(/\.json$/, '')
+      : set.length ? 'set-' + hash(set.map(s => s.block + '/' + s.name).sort().join(','))
+      : week ? 'week-' + week
+      : 'all') + (only ? '-' + only : ''));
+
+  let RUN_KEY = SCOPE;
+  let started = Date.now();
+
+  // The query that reopens this scope, kept on the test so the history page
+  // can link back to it.
+  const SCOPE_QUERY = ['block', 'lecture', 'set', 'week', 'only']
+    .filter(k => params.get(k))
+    .map(k => `${k}=${encodeURIComponent(params.get(k))}`).join('&');
+
+  // Carry on with the test named in the URL, else the unfinished one for this
+  // scope, else begin a new one. A run saved before tests were kept apart
+  // lives under the scope's own key and is picked up as it is.
+  async function settleTest() {
+    await STORE.pullTests(4000);
+    const asked = params.get('test');
+    if (asked) RUN_KEY = asked.replace(/[^\w-]/g, '_');
+    else {
+      const open = STORE.openTest(SCOPE);
+      if (open) RUN_KEY = open;
+      else if (!STORE.test(SCOPE)) {
+        await STORE.pullRun(SCOPE, 4000);
+        RUN_KEY = STORE.readRun(SCOPE) ? SCOPE : newTestId();
+      } else RUN_KEY = newTestId();
+    }
+    await STORE.pullRun(RUN_KEY, 4000);
+    const line = STORE.test(RUN_KEY);
+    if (line && line.started) started = line.started;
+  }
+
+  const newTestId = () => `${SCOPE}-${Date.now().toString(36)}`;
+
+  // Short and stable — only there to tell one custom set's run from another's.
+  function hash(text) {
+    let h = 5381;
+    for (let i = 0; i < text.length; i++) h = ((h * 33) ^ text.charCodeAt(i)) >>> 0;
+    return h.toString(36);
+  }
 
   function qKey(q) {
     return q.id || `${q._lecture || lecture || block}|${(q.question || '').slice(0, 120)}`;
   }
 
   // The store document a question's history and marks are filed in.
-  function docOf(q) { return STORE.docId(block, q._file); }
+  function docOf(q) { return STORE.docId(q._block || block, q._file); }
 
   function saveSession() {
     const byKey = {};
     responses.forEach((r, i) => {
       if (touched(r)) byKey[qKey(questions[i])] =
         { selected: r.selected, answered: r.answered, struck: r.struck, skipped: r.skipped };
+    });
+    // A test nobody has touched isn't worth keeping; one that has been is
+    // kept from then on, even reset back to blank.
+    if (!Object.keys(byKey).length && !STORE.test(RUN_KEY)) return;
+
+    let right = 0, wrong = 0;
+    responses.forEach((r, i) => {
+      if (r && r.answered) r.selected === questions[i].correct ? right++ : wrong++;
     });
     STORE.saveRun(RUN_KEY, {
       v: 2,
@@ -947,6 +1011,16 @@
       order: questions.map(qKey),
       redo: redo && redo.map(i => qKey(questions[i])),
       responses: byKey
+    }, {
+      scope: SCOPE,
+      q: SCOPE_QUERY,
+      where: document.getElementById('topTitle').textContent,
+      label: document.getElementById('topSubtitle').textContent,
+      n: questions.length,
+      right,
+      wrong,
+      done: right + wrong === questions.length,
+      started
     });
   }
 
@@ -966,6 +1040,7 @@
   function importOldSession() {
     const oldKey = `jeff-quiz:${block}:${lecture || (week ? 'week-' + week : '*')}`;
     let old = null;
+    if (set.length || only || params.get('test')) return null;   // none of these existed then
     try { old = JSON.parse(localStorage.getItem(oldKey) || 'null'); } catch (e) {}
     if (!old || old.v !== 1 || !Array.isArray(old.order)) return null;
 
@@ -1065,8 +1140,10 @@
   const blockNames = { neuro: 'Neurology', endorepro: 'Endo / Repro', msk: 'MSK' };
 
   async function load() {
-    if (!block) { show('no block specified.'); return; }
-    document.getElementById('topTitle').textContent = blockNames[block] || block;
+    if (!block && !set.length) { show('no block specified.'); return; }
+    const from = block ? [block] : [...new Set(set.map(s => s.block))];
+    document.getElementById('topTitle').textContent =
+      from.length === 1 ? (blockNames[from[0]] || from[0]) : 'Mixed';
 
     try {
       if (lecture) {
@@ -1077,31 +1154,36 @@
         document.getElementById('topSubtitle').textContent = data.lecture || lecture;
       } else {
         let files, label;
+        const here = name => ({ block, name });
 
-        if (week) {
+        if (set.length) {
+          files = set.map(s => ({ block: s.block, name: s.name + '.json' }));
+          label = `${files.length} lecture${files.length !== 1 ? 's' : ''}, shuffled`;
+        } else if (week) {
           // A week names its own lectures.
           const wr = await fetch(`${block}/weeks.json?t=${Date.now()}`);
           if (!wr.ok) throw new Error('this block has no weeks');
           const wd = await wr.json();
           const w = (wd.weeks || []).find(x => String(x.id) === week);
           if (!w) throw new Error(`no week "${week}" in this block`);
-          files = w.lectures || [];
-          label = `${w.name}${w.dates ? ' · ' + w.dates : ''} · shuffled`;
+          files = (w.lectures || []).map(here);
+          label = `${w.name}${w.dates ? ', ' + w.dates : ''}, shuffled`;
         } else {
-          files = await listBlock();
-          label = 'all lectures · shuffled';
+          files = (await listBlock()).map(here);
+          label = 'all lectures, shuffled';
         }
 
         if (!files.length) { show(`no questions in this ${week ? 'week' : 'block'} yet.`); return; }
-        const all = await Promise.all(files.map(async name => {
-          const r = await fetch(`${block}/${name}?t=${Date.now()}`);
+        const all = await Promise.all(files.map(async f => {
+          const r = await fetch(`${f.block}/${f.name}?t=${Date.now()}`);
           if (!r.ok) return [];
           const d = await r.json();
-          return (d.questions || []).map(q => ({ ...q, _lecture: d.lecture, _file: name }));
+          return (d.questions || []).map(q => ({ ...q, _lecture: d.lecture, _file: f.name, _block: f.block }));
         }));
         questions = all.flat();
         document.getElementById('topSubtitle').textContent = label;
       }
+      if (only) document.getElementById('topSubtitle').textContent += ', ' + only;
     } catch(e) {
       show('failed to load questions: ' + e.message); return;
     }
@@ -1112,8 +1194,23 @@
     // waits long: with no connection the run on this device is used as is.
     await Promise.all([
       STORE.pull([...new Set(questions.map(docOf))], 4000),
-      STORE.pullRun(RUN_KEY, 4000)
+      settleTest()
     ]);
+
+    // A narrowed test, or one opened from the history page, is a snapshot: it
+    // keeps exactly the questions it started with, even ones you have since
+    // got right or that were added later. A new narrowed test takes a fresh
+    // cut of your history.
+    if (only || params.get('test')) {
+      const saved = readSession();
+      if (saved) {
+        const kept = new Set(saved.order);
+        questions = questions.filter(q => kept.has(qKey(q)));
+      } else if (only) {
+        questions = questions.filter(wanted);
+      }
+      if (!questions.length) { show(only ? `nothing ${only} here.` : 'that test is gone.'); return; }
+    }
 
     const resumed = restoreSession();
     if (!resumed) {
@@ -1133,6 +1230,17 @@
   }
 
   function show(msg) { document.getElementById('stateMsg').textContent = msg; }
+
+  // Whether a question belongs in an `only` run.
+  function wanted(q) {
+    if (only === 'flagged') {
+      const m = STORE.mark(docOf(q), qKey(q));
+      return !!(m && m.flagged);
+    }
+    const tries = STORE.attempts(docOf(q), qKey(q));
+    if (only === 'due') return STORE.due(tries);
+    return only === 'unseen' ? !tries.length : !!tries.length && !tries[tries.length - 1].ok;
+  }
 
   // The block's lecture files, from its index.json. The GitHub API is only a
   // fallback: it is rate-limited per IP, which a shared network runs through.
@@ -1488,7 +1596,13 @@
     STORE.attempts(docOf(q), qKey(q)).forEach(a => {
       const chip = document.createElement('span');
       chip.className = 'try ' + (a.ok ? 'ok' : 'bad');
-      chip.textContent = when(a.t) + (open ? ' \u00b7 ' + a.p : '') + (a.ok ? ' \u2713' : ' \u2717');
+      chip.textContent = when(a.t) + ' ';
+      if (open) {
+        const pick = document.createElement('b');
+        pick.textContent = a.p + ' ';
+        chip.appendChild(pick);
+      }
+      chip.appendChild(document.createTextNode(a.ok ? '\u2713' : '\u2717'));
       if (a.t) chip.title = new Date(a.t).toLocaleString();
       el.appendChild(chip);
     });
@@ -1958,7 +2072,12 @@
 
   // Restart always comes back to the whole lecture, refined or not, in the
   // order you just played it — the shuffle happens once, when the run loads.
+  // The test you just played is put aside, as it stands, and a new one begins.
   function restartQuiz() {
+    saveSession();
+    STORE.endTest(RUN_KEY);
+    RUN_KEY = newTestId();
+    started = Date.now();
     restartWith(questions.map((q, i) => i), false);
   }
 
