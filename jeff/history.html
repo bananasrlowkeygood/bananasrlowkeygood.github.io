@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jeff — history</title>
+  <link rel="icon" type="image/x-icon" href="../static/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: "Klee One", cursive;
+    }
+
+    body {
+      background-color: #eae6f0;
+      color: #14111a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .topbar {
+      background: #f0ecf8;
+      border-bottom: 1px solid #c5bee0;
+      display: flex;
+      align-items: center;
+      padding: 0.7rem 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .back-link {
+      font-size: 0.85rem;
+      color: #5c4f7a;
+      opacity: 0.7;
+      transition: opacity 0.15s;
+      white-space: nowrap;
+    }
+    .back-link:hover { opacity: 1; }
+
+    .topbar-title { font-size: 0.95rem; color: #14111a; }
+
+    .content {
+      width: 100%;
+      max-width: 720px;
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* ── Where you stand ── */
+    .figures {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
+      gap: 0.6rem;
+    }
+    .figure {
+      background: #f0ecf8;
+      border: 1px solid #c5bee0;
+      border-radius: 10px;
+      padding: 0.8rem 0.5rem;
+      text-align: center;
+    }
+    .figure .val { font-size: 1.3rem; color: #14111a; }
+    .figure .val small { font-size: 0.78rem; color: #5c4f7a; opacity: 0.7; }
+    .figure .lbl { font-size: 0.72rem; color: #5c4f7a; opacity: 0.7; margin-top: 0.15rem; }
+
+    /* ── Lists ── */
+    section { display: flex; flex-direction: column; gap: 0.3rem; }
+    section[hidden] { display: none; }
+
+    h2 {
+      font-size: 0.78rem;
+      font-weight: 400;
+      color: #5c4f7a;
+      opacity: 0.7;
+      margin-bottom: 0.2rem;
+    }
+
+    .row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.5rem 0.75rem;
+      background: #f0ecf8;
+      border: 1px solid #c5bee0;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .row:hover { border-color: #5c4f7a; box-shadow: 0 4px 16px rgba(92,79,122,0.1); }
+    .row .what { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .row .how {
+      display: inline-flex;
+      gap: 0.8em;
+      font-size: 0.74rem;
+      color: #5c4f7a;
+      opacity: 0.75;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .row .where { color: #5c4f7a; opacity: 0.7; margin-right: 0.6em; }
+
+    /* A test and the button that deletes it. */
+    .test { display: flex; align-items: stretch; gap: 0.3rem; }
+    .test .row { flex: 1 1 auto; min-width: 0; }
+    .del {
+      flex-shrink: 0;
+      width: 2rem;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      background: none;
+      color: #5c4f7a;
+      font-size: 0.95rem;
+      opacity: 0.4;
+      cursor: pointer;
+      transition: opacity 0.15s, background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .del:hover { opacity: 1; background: #e4dcf4; }
+    /* Armed, it says so — it throws the test away. */
+    .del.armed {
+      width: auto;
+      padding: 0 0.6rem;
+      opacity: 1;
+      color: #b03030;
+      border-color: #e0b4b4;
+      background: #fdf0f0;
+      font-size: 0.72rem;
+    }
+
+    .empty-msg { font-size: 0.8rem; opacity: 0.45; font-style: italic; }
+    .empty-msg[hidden] { display: none; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="back-link" href="index.html">← jeff</a>
+    <div class="topbar-title">history</div>
+  </div>
+
+  <div class="content">
+    <div class="figures" id="figures"></div>
+    <p class="empty-msg" id="nothing" hidden>nothing yet</p>
+
+    <section id="openSec" hidden><h2>in progress</h2><div id="openList"></div></section>
+    <section id="weakSec" hidden><h2>weakest lectures</h2><div id="weakList"></div></section>
+    <section id="pastSec" hidden><h2>past tests</h2><div id="pastList"></div></section>
+  </div>
+
+  <script src="firebase-config.js"></script>
+  <script src="gate.js"></script>
+  <script src="store.js"></script>
+  <script>
+    // The same blocks the home page lists.
+    const BLOCKS = [
+      { id: 'endorepro', name: 'Endo / Repro' },
+      { id: 'msk',       name: 'MSK'          },
+      { id: 'neuro',     name: 'Neurology'   },
+    ];
+
+    const DAY = 86400000;
+
+    const esc = t => String(t).replace(/[&<>"]/g, c =>
+      ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+
+    const pct = (a, b) => (b ? Math.round(a / b * 100) + '%' : '–');
+
+    function when(t) {
+      if (!t) return '';
+      const d = new Date(t);
+      const opts = { month: 'short', day: 'numeric' };
+      if (d.getFullYear() !== new Date().getFullYear()) opts.year = 'numeric';
+      return d.toLocaleDateString(undefined, opts);
+    }
+
+    // Every lecture in every block, from the blocks' index.json.
+    async function loadLectures() {
+      const all = await Promise.all(BLOCKS.map(async b => {
+        try {
+          const r = await fetch(`${b.id}/index.json?t=${Date.now()}`);
+          if (!r.ok) return [];
+          return ((await r.json()).lectures || []).map(l => ({ ...l, block: b.id, doc: STORE.docId(b.id, l.file) }));
+        } catch { return []; }
+      }));
+      return all.flat();
+    }
+
+    const dayOf = t => { const d = new Date(t); d.setHours(0, 0, 0, 0); return d.getTime(); };
+
+    function paint(lectures) {
+      const all = STORE.everything();
+      const today = dayOf(Date.now());
+      let total = 0, tried = 0, rightLast = 0, rightFirst = 0, nToday = 0, nWeek = 0;
+      const days = new Set();
+      const weak = [];
+
+      lectures.forEach(l => {
+        total += l.count || 0;
+        let seen = 0, right = 0;
+        Object.values(all[l.doc] || {}).forEach(list => {
+          if (!list.length) return;
+          const tries = list.slice().sort((x, y) => x.t - y.t);
+          seen++;
+          if (tries[tries.length - 1].ok) right++;
+          if (tries[0].ok) rightFirst++;
+          tries.forEach(a => {
+            if (!a.t) return;                 // carried over undated
+            days.add(dayOf(a.t));
+            if (a.t >= today) nToday++;
+            if (a.t >= today - 6 * DAY) nWeek++;
+          });
+        });
+        tried += seen;
+        rightLast += right;
+        if (seen >= 5 && right < seen) weak.push({ l, seen, right });
+      });
+
+      // Days in a row with at least one answer, ending today or yesterday.
+      let streak = 0;
+      for (let d = days.has(today) ? today : today - DAY; days.has(d); d = dayOf(d - DAY / 2)) streak++;
+
+      document.getElementById('figures').innerHTML = [
+        [`${tried}<small> / ${total}</small>`, 'tried'],
+        [pct(rightLast, tried), 'right, last try'],
+        [pct(rightFirst, tried), 'right, first try'],
+        [nToday, 'today'],
+        [nWeek, 'last 7 days'],
+        [streak, streak === 1 ? 'day in a row' : 'days in a row'],
+      ].map(([val, lbl]) => `<div class="figure"><div class="val">${val}</div><div class="lbl">${lbl}</div></div>`).join('');
+
+      weak.sort((a, b) => a.right / a.seen - b.right / b.seen);
+      fill('weak', weak.slice(0, 5).map(({ l, seen, right }) => row(
+        `quiz.html?block=${l.block}&lecture=${encodeURIComponent(l.file)}&only=missed`,
+        '', l.name, [`${seen - right} missed`, pct(right, seen)])));
+
+      const tests = STORE.listTests();
+      const line = t => `<div class="test">` +
+        row(`quiz.html?${t.q}&test=${encodeURIComponent(t.id)}`, t.where, t.label,
+          [`${t.right + t.wrong}/${t.n}`, pct(t.right, t.right + t.wrong), when(t.updated)]) +
+        `<button class="del" type="button" data-id="${esc(t.id)}" title="Delete this test">&times;</button></div>`;
+      fill('open', tests.filter(t => !t.done && !t.ended).map(line));
+      fill('past', tests.filter(t => t.done || t.ended).map(line));
+
+      document.getElementById('nothing').hidden = !!(tried || tests.length);
+    }
+
+    function row(href, where, what, how) {
+      return `<a class="row" href="${esc(href)}"><span class="what">` +
+        (where ? `<span class="where">${esc(where)}</span>` : '') + `${esc(what)}</span>` +
+        `<span class="how">${how.map(h => `<span>${esc(h)}</span>`).join('')}</span></a>`;
+    }
+
+    // Deleting asks once: the first click arms the button, the second does it.
+    let lectureList = [];
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('.del');
+      document.querySelectorAll('.del.armed').forEach(b => {
+        if (b !== btn) { b.classList.remove('armed'); b.innerHTML = '&times;'; }
+      });
+      if (!btn) return;
+      if (!btn.classList.contains('armed')) {
+        btn.classList.add('armed');
+        btn.textContent = 'delete?';
+        return;
+      }
+      STORE.deleteTest(btn.dataset.id);
+      paint(lectureList);
+    });
+
+    function fill(name, rows) {
+      document.getElementById(name + 'Sec').hidden = !rows.length;
+      const list = document.getElementById(name + 'List');
+      list.innerHTML = rows.join('');
+      list.style.cssText = 'display:flex;flex-direction:column;gap:0.3rem';
+    }
+
+    GATE.ready().then(async user => {
+      STORE.open(user, GATE.cloud());
+      const lectures = lectureList = await loadLectures();
+      paint(lectures);
+      // What this device has shows at once; the account's copy fills in after.
+      const got = await Promise.all([STORE.pull(null, 15000), STORE.pullTests(15000)]);
+      if (got.some(Boolean)) paint(lectures);
+    });
+  </script>
+</body>
+</html>

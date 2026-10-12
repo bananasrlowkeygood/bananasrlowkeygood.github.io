@@ -6,11 +6,33 @@ A question bank: Step 1-style questions per lecture, grouped by block and week.
 
 - **Attempts.** Every answer you submit is kept with its date: what you picked and whether it was right. They show as chips above the question, oldest first. Before you answer, a chip shows only the date and right/wrong; the letter appears once you have answered. Attempts are never deleted by a reset, a restart or a refine.
 - **Marks.** Flags and highlights belong to the question, not the run, so they also survive resets.
-- **Runs.** Where you are in a quiz (order, position, answers on screen). One per lecture, week shuffle or block shuffle.
+- **Tests.** One sitting of a quiz (order, position, answers on screen). Opening a lecture, week, block or custom set carries on with its unfinished test if there is one, and otherwise starts a new one. Finishing every question, or pressing restart, puts the test aside; it stays on the history page, where any test can be reopened as it was left.
 - **Refine** turns the questions you missed into a redo, cleared to answer cold. The rest keep their answers: the `redo / all` switch in the question rail moves between the two without clearing anything.
-- The home page shows, per lecture, `tried/total · % right on the last try`.
+- The home page shows tried/total and % right on the last try per lecture, and the same rolled up per week and block.
 
-Everything is saved in the browser first. Signed in, it is also saved to your account and merged on load, so it follows you between devices and survives clearing the browser. Answers made offline go up the next time the page loads with a connection. Two devices open on the same quiz at once: the attempts from both are kept, but the run position is whichever saved last.
+## Custom sets
+
+**Custom** turns every lecture into something you tick, across blocks (a week's **select** ticks the whole week). The bar at the bottom shows what the ticked lectures hold and starts the set:
+
+- **all**: every question in them, shuffled.
+- **due**: questions due for review (below).
+- **missed**: questions you got wrong the last time you tried them.
+- **unseen**: questions you have never answered.
+- **flagged**: questions you flagged.
+
+A due, missed, unseen or flagged test is a snapshot taken when it starts: it keeps its questions until you finish it, and the next one takes a fresh cut.
+
+## Due for review
+
+A question you get wrong comes back the next day. Each time in a row you then get it right, it comes back later: after 3 days, then after 7. Three right in a row and it is settled; miss it again and it starts over. Questions you have never missed are never due.
+
+When anything is due, **due for review** appears at the top of the home page and opens all of it as one set, across blocks.
+
+## History
+
+**history** (top right of the home page) shows where you stand overall (tried, right on the last try, right on the first try, today, last 7 days, days in a row), your weakest lectures (each opens that lecture's missed questions), tests in progress, and past tests. The × beside a test deletes it (it asks once); the answers given in it stay in each question's history.
+
+Everything is saved in the browser first. Signed in, it is also saved to your account and merged on load, so it follows you between devices and survives clearing the browser. Answers made offline go up the next time the page loads with a connection. Two devices open on the same test at once: the attempts from both are kept, but the position is whichever saved last. If the browser's storage fills up, the oldest tests' details are dropped from that browser first; signed in, they are still in your account.
 
 ## Keys
 
