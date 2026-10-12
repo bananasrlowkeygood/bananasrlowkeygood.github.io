@@ -12,7 +12,7 @@ A question bank: Step 1-style questions per lecture, grouped by block and week.
 
 ## Custom sets
 
-**Custom** turns every lecture into something you tick, across blocks (a week's **select** ticks the whole week). The bar at the bottom shows what the ticked lectures hold and starts the set:
+Every lecture has a box to tick, and every week one that ticks all of it. Tick any and a bar appears at the bottom showing what the ticked lectures hold; it starts the set:
 
 - **all**: every question in them, shuffled.
 - **due**: questions due for review (below).
@@ -26,7 +26,7 @@ A due, missed, unseen or flagged test is a snapshot taken when it starts: it kee
 
 A question you get wrong comes back the next day. Each time in a row you then get it right, it comes back later: after 3 days, then after 7. Three right in a row and it is settled; miss it again and it starts over. Questions you have never missed are never due.
 
-When anything is due, **due for review** appears at the top of the home page and opens all of it as one set, across blocks.
+When anything is due, **due for review** appears at the top of the home page and opens all of it as one set.
 
 ## History
 
@@ -55,6 +55,10 @@ To let someone in, add their email to `allowlist`. To remove them, delete it.
 The first time each person signs in, the progress already in that browser is moved into their account.
 
 The questions themselves are public JSON in this repo. Accounts keep each person's history private; they do not hide the questions.
+
+## Blocks
+
+The home page shows one block, Endo / Repro. Neurology is parked: its questions and everyone's history with them are untouched, and adding it back to `BLOCKS` in `index.html` and `history.html` brings it back.
 
 ## Adding lectures
 
