@@ -1,0 +1,578 @@
+{
+  "lecture": "Histology Lab: Endocrine Organs",
+  "block": "endorepro",
+  "generated": "2026-10-12",
+  "questions": [
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-001",
+      "question": "A 34-year-old woman, gravida 4 para 3, at 36 weeks' gestation undergoes brain MRI for a first-time seizure. The study shows a symmetrically enlarged pituitary gland without a focal mass, and her visual fields are full. Her three previous pregnancies were uncomplicated and she breastfed each child. Hypertrophy and hyperplasia of which cell type best explains the pituitary enlargement?",
+      "answers": {
+        "A": "Corticotropes",
+        "B": "Gonadotropes",
+        "C": "Lactotropes",
+        "D": "Somatotropes",
+        "E": "Thyrotropes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Corticotropes are basophils that make POMC/ACTH; they do not expand physiologically with pregnancy and lactation.",
+        "B": "Gonadotropes secrete LH and FSH and are scattered basophils; they are not the population that expands in pregnancy.",
+        "C": "Lactotropes undergo hypertrophy and hyperplasia during pregnancy and lactation, which enlarges the whole gland in multiparous patients.",
+        "D": "Somatotropes are acidophils that secrete GH; their expansion would suggest a GH-secreting adenoma, not a pregnancy change.",
+        "E": "Thyrotropes are basophils that secrete TSH; they enlarge with long-standing primary hypothyroidism, not with repeated pregnancy."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-002",
+      "question": "A 46-year-old man has noticed that his rings and shoes no longer fit, and his jaw has become more prominent over 4 years. Serum IGF-1 is markedly elevated and MRI shows a 1.4-cm pituitary mass. The resected tumor stains strongly for growth hormone on immunohistochemistry. On routine H&E, the normal pars distalis cells that secrete this hormone are classified as which of the following?",
+      "answers": {
+        "A": "Acidophils",
+        "B": "Basophils",
+        "C": "Chromophobes",
+        "D": "Folliculostellate cells",
+        "E": "Pituicytes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Somatotropes secrete GH and usually stain as acidophils, with red granular cytoplasm.",
+        "B": "Basophils are the corticotropes, gonadotropes and thyrotropes (ACTH, LH/FSH, TSH), not GH-secreting cells.",
+        "C": "Chromophobes have clear cytoplasm and are thought to be cells that have already released their granules.",
+        "D": "Folliculostellate cells are support cells with long processes and gap junctions that secrete no hormone.",
+        "E": "Pituicytes are the astrocyte-like glial cells of the pars nervosa, not hormone-secreting cells of the pars distalis."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-003",
+      "question": "A 38-year-old woman has 6 months of fatigue, weight loss and salt craving. Blood pressure is 88/54 mm Hg, and she has diffuse darkening of the skin, most marked in the palmar creases and gums. Laboratory results are shown. Her skin findings are best explained by increased pituitary synthesis of which precursor molecule?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "128 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "5.8 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Morning cortisol",
+          "2 µg/dL",
+          "5–23 µg/dL"
+        ],
+        [
+          "ACTH",
+          "480 pg/mL",
+          "10–60 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Arachidonic acid",
+        "B": "Cholesterol",
+        "C": "Proopiomelanocortin",
+        "D": "Thyroglobulin",
+        "E": "Tyrosine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Arachidonic acid is the precursor of local lipid mediators such as prostaglandins and leukotrienes, not of pituitary hormones.",
+        "B": "Cholesterol is the precursor of adrenal and gonadal steroids; it is not synthesized into a pigment-stimulating peptide in the pituitary.",
+        "C": "Loss of cortisol feedback drives corticotropes to make more POMC, which is cleaved into ACTH and also melanocyte-stimulating hormone.",
+        "D": "Thyroglobulin is the iodinated glycoprotein of thyroid colloid that stores thyroid hormone in an inactive state.",
+        "E": "Tyrosine is the base for thyroid hormones and catecholamines; it is not the pituitary precursor that yields ACTH and MSH."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-004",
+      "question": "A 29-year-old woman has 8 months of fatigue, cold intolerance, constipation and irregular menses. For the past month she has noticed milky discharge from both nipples. She takes no medications and a pregnancy test is negative. The thyroid is diffusely enlarged and nontender. Laboratory results are shown. Increased secretion of which hypothalamic factor best explains her nipple discharge?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "62 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Free T4",
+          "0.3 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "Prolactin",
+          "58 ng/mL",
+          "<25 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Corticotropin-releasing hormone",
+        "B": "Dopamine",
+        "C": "Gonadotropin-releasing hormone",
+        "D": "Growth hormone-releasing hormone",
+        "E": "Thyrotropin-releasing hormone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "CRH drives ACTH release from corticotropes and has no stimulatory effect on lactotropes.",
+        "B": "Dopamine reaches the anterior lobe by the tuberoinfundibular pathway; an increase would not raise prolactin.",
+        "C": "GnRH regulates LH and FSH release from gonadotropes, not prolactin release.",
+        "D": "GHRH stimulates GH release from somatotropes and does not account for galactorrhea in hypothyroidism.",
+        "E": "Low thyroid hormone removes feedback and raises TRH, which stimulates TSH and can also stimulate prolactin secretion."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-005",
+      "question": "A 41-year-old man has passed 7 to 8 liters of dilute urine daily since resection of a tumor confined to the posterior lobe of the pituitary. Two months later his urine output returns to normal without treatment. Recovery is possible because the cell bodies that synthesize the deficient hormone were spared. In which structure are these cell bodies located?",
+      "answers": {
+        "A": "Median eminence",
+        "B": "Pars distalis",
+        "C": "Pars nervosa",
+        "D": "Pars tuberalis",
+        "E": "Supraoptic nucleus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The median eminence holds the first capillary bed of the portal system, not the cell bodies of ADH-producing neurons.",
+        "B": "The pars distalis is glandular epithelium that makes anterior pituitary hormones, not ADH.",
+        "C": "The pars nervosa only stores and releases neurosecretions; it contains axon terminals and pituicytes but no neuronal cell bodies.",
+        "D": "The pars tuberalis is anterior lobe tissue wrapping the infundibulum whose cells stain for ACTH, FSH and LH.",
+        "E": "ADH is made by neurons whose cell bodies lie in the supraoptic and paraventricular nuclei of the hypothalamus; only their axon terminals are in the pars nervosa."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-006",
+      "question": "A 55-year-old woman dies of a myocardial infarction. At autopsy, a section taken from the sellar region shows numerous unmyelinated axons, astrocyte-like cells with many cytoplasmic processes, abundant capillaries, and scattered pale dilated structures filled with secretory vesicles. No neuronal cell bodies are present. This tissue developed from which of the following?",
+      "answers": {
+        "A": "Endoderm of the pharyngeal floor",
+        "B": "Intermediate mesoderm near the kidney",
+        "C": "Neural crest cells of the trunk",
+        "D": "Neuroectoderm of the third ventricle floor",
+        "E": "Oropharyngeal ectoderm of Rathke's pouch"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Pharyngeal floor endoderm forms the thyroid follicular cells by way of the thyroglossal duct.",
+        "B": "Intermediate mesoderm gives rise to the three zones of the adrenal cortex.",
+        "C": "Neural crest cells migrate into the adrenal gland to form the chromaffin cells of the medulla.",
+        "D": "Unmyelinated axons, pituicytes and Herring bodies identify the pars nervosa, which grows down from neuroectoderm in the floor of the third ventricle.",
+        "E": "Rathke's pouch forms the anterior lobe, which appears as cords and nests of epithelial cells, not axons and glia."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-007",
+      "question": "A 37-year-old man undergoes brain MRI after a motor vehicle collision. The study incidentally shows a 6-mm nonenhancing cyst within the pituitary gland; pituitary hormone levels are normal. If sampled, the lesion would be a colloid-filled follicle lined by epithelium, a remnant of the lumen of Rathke's pouch. In which region of the pituitary is this lesion most likely located?",
+      "answers": {
+        "A": "Infundibulum",
+        "B": "Pars distalis",
+        "C": "Pars intermedia",
+        "D": "Pars nervosa",
+        "E": "Pars tuberalis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The infundibulum is the neural stalk carrying hypothalamic axons and portal vessels; it does not hold Rathke's pouch remnants.",
+        "B": "The pars distalis is the bulk of the anterior lobe, made of cords of acidophils, basophils and chromophobes.",
+        "C": "Small colloid-filled cystic follicles that are remnants of Rathke's pouch mark the pars intermedia, between the pars distalis and pars nervosa.",
+        "D": "The pars nervosa is neural tissue of pituicytes and axons; the Rathke's remnant lies beside it rather than within it.",
+        "E": "The pars tuberalis wraps around the infundibulum and contains epithelioid clusters among the portal veins."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-008",
+      "question": "A 26-year-old man sustains a skull base fracture in a fall. Six weeks later he has fatigue, cold intolerance and loss of libido. MRI shows transection of the pituitary stalk at the infundibulum with an intact anterior lobe. Laboratory results are shown. Interruption of which vessels best explains the pattern of anterior pituitary hormone changes?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "0.2 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Morning cortisol",
+          "3 µg/dL",
+          "5–23 µg/dL"
+        ],
+        [
+          "LH",
+          "0.8 mIU/mL",
+          "1.5–9.0 mIU/mL"
+        ],
+        [
+          "Prolactin",
+          "64 ng/mL",
+          "<20 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Capsular arteries",
+        "B": "Hypophyseal portal veins",
+        "C": "Hypophyseal veins",
+        "D": "Inferior hypophyseal artery",
+        "E": "Inferior thyroid veins"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Capsular arteries supply the adrenal gland and have no role in delivering hypothalamic signals to the pituitary.",
+        "B": "Portal veins carry hypothalamic releasing hormones and dopamine through the infundibulum to the pars distalis; cutting them lowers trophic hormones and releases prolactin from control.",
+        "C": "Hypophyseal veins carry pituitary hormones away to the systemic circulation; they do not deliver hypothalamic signals to the gland.",
+        "D": "The inferior hypophyseal artery supplies the posterior lobe and does not carry releasing hormones to the anterior lobe.",
+        "E": "Inferior thyroid veins drain the thyroid gland in the neck and are unrelated to hypothalamic control of the pituitary."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-009",
+      "question": "A 31-year-old woman has 3 months of weight loss, palpitations, heat intolerance and tremor. Pulse is 112/min, and the thyroid is diffusely enlarged with an audible bruit. Laboratory results are shown. A biopsy of her thyroid gland would most likely show which appearance of the follicular epithelium?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "<0.01 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Free T4",
+          "4.6 ng/dL",
+          "0.8–1.8 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Columnar cells with apical endocytic vesicles",
+        "B": "Flattened squamous cells around distended colloid",
+        "C": "Large pale cells within the basal lamina",
+        "D": "Low cuboidal cells around abundant colloid",
+        "E": "Polygonal cells arranged in cords and nests"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Active follicles have tall columnar epithelium with apical endocytic vesicles as the cells resorb colloid to release hormone.",
+        "B": "Squamous follicular cells around abundant colloid indicate an inactive follicle, the opposite of a hyperthyroid gland.",
+        "C": "Large pale cells at the follicle periphery are parafollicular C-cells, which secrete calcitonin rather than thyroid hormone.",
+        "D": "Low cuboidal epithelium reflects a resting follicle storing colloid, not one actively releasing hormone.",
+        "E": "Cords and nests of small polygonal cells describe parathyroid chief cells, not thyroid follicular epithelium."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-010",
+      "question": "A 44-year-old man has a firm 2-cm thyroid nodule and several months of watery diarrhea. Serum calcitonin is markedly elevated. Fine-needle aspiration shows a tumor arising from large, pale-staining cells that normally lie at the periphery of the follicle within its basal lamina. According to their embryologic migration, these cells entered the thyroid from which structure?",
+      "answers": {
+        "A": "First pharyngeal pouch",
+        "B": "Fourth pharyngeal pouch",
+        "C": "Rathke's pouch",
+        "D": "Second pharyngeal pouch",
+        "E": "Third pharyngeal pouch"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The first pouch forms the auditory tube and primitive tympanic cavity, not thyroid cells.",
+        "B": "Parafollicular C-cells migrate into the thyroid from the ultimobranchial body, a region of the 4th pharyngeal pouch.",
+        "C": "Rathke's pouch is oropharyngeal ectoderm that forms the anterior pituitary.",
+        "D": "The second pouch contributes to the palatine tonsil and gives no cells to the thyroid.",
+        "E": "The third pouch gives rise to the inferior parathyroid glands and the thymus."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-011",
+      "question": "A 6-year-old boy is brought in for a painless midline neck mass first noticed after an upper respiratory infection. The 2-cm mass lies just below the hyoid bone and moves upward when he swallows or protrudes his tongue. Thyroid function tests are normal. This mass is a remnant of which embryonic structure?",
+      "answers": {
+        "A": "Rathke's pouch",
+        "B": "Second pharyngeal cleft",
+        "C": "Third pharyngeal pouch",
+        "D": "Thyroglossal duct",
+        "E": "Ultimobranchial body"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Rathke's pouch remnants form colloid cysts in the pars intermedia of the pituitary, not neck masses.",
+        "B": "A second cleft remnant presents as a lateral neck cyst that does not move with tongue protrusion.",
+        "C": "The third pouch forms the inferior parathyroids and thymus; its remnants are not midline cysts attached to the tongue.",
+        "D": "The thyroid descends from the foramen cecum as the thyroglossal duct, which normally obliterates; a persistent segment forms a midline cyst tethered to the tongue.",
+        "E": "The ultimobranchial body contributes parafollicular cells to the thyroid and does not leave a midline duct."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-012",
+      "question": "A 49-year-old woman has perioral numbness, tingling of the fingertips and painful hand cramps 2 days after total thyroidectomy for multinodular goiter. Tapping over the facial nerve produces twitching of the lip. Laboratory results are shown. Inadvertent removal of which cells is most likely responsible for her symptoms?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "6.9 mg/dL",
+          "8.4–10.2 mg/dL"
+        ],
+        [
+          "Phosphate",
+          "5.4 mg/dL",
+          "3.0–4.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "4 pg/mL",
+          "10–65 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Chief cells",
+        "B": "Chromaffin cells",
+        "C": "Follicular cells",
+        "D": "Oxyphil cells",
+        "E": "Parafollicular cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Chief (principal) cells are the abundant parathyroid cells that make PTH; the glands sit on the posterior thyroid and are at risk during thyroidectomy.",
+        "B": "Chromaffin cells are catecholamine-secreting cells of the adrenal medulla and are not in the neck.",
+        "C": "Follicular cells make T3 and T4; their loss causes hypothyroidism over weeks, not acute hypocalcemia with low PTH.",
+        "D": "Oxyphils are fewer, accumulate with age and are not the main source of PTH.",
+        "E": "Parafollicular cells secrete calcitonin; losing them does not lower serum calcium or PTH."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-013",
+      "question": "A 67-year-old man with end-stage kidney disease on hemodialysis has bone pain and pruritus that persist despite phosphate binders. He undergoes subtotal parathyroidectomy. Laboratory results before surgery are shown. Histology shows increased numbers of large cells with intensely eosinophilic cytoplasm and small dark nuclei. Electron microscopy of these cells would show an abundance of which organelle?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Creatinine",
+          "8.2 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "Calcium",
+          "8.0 mg/dL",
+          "8.4–10.2 mg/dL"
+        ],
+        [
+          "Phosphate",
+          "7.1 mg/dL",
+          "3.0–4.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "1,250 pg/mL",
+          "10–65 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Lipid droplets",
+        "B": "Lysosomes",
+        "C": "Mitochondria",
+        "D": "Rough endoplasmic reticulum",
+        "E": "Smooth endoplasmic reticulum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Abundant lipid droplets characterize steroid-secreting cells of the zona fasciculata, giving them a vacuolated look.",
+        "B": "Lysosomes are not the organelle responsible for the eosinophilic cytoplasm of oxyphil cells.",
+        "C": "These are oxyphil cells, which increase with age and in uremic secondary hyperparathyroidism; their large eosinophilic cytoplasm is packed with mitochondria.",
+        "D": "Abundant rough ER would make the cytoplasm basophilic rather than intensely eosinophilic.",
+        "E": "Abundant smooth ER is the hallmark of steroid-producing adrenal cortical cells, not parathyroid oxyphils."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-014",
+      "question": "A 58-year-old woman with recurrent kidney stones has a serum calcium of 11.8 mg/dL and an elevated PTH. During neck exploration the surgeon identifies both superior parathyroid glands and the left inferior gland, all normal in size. The right inferior gland cannot be found in its usual position. Based on its embryologic origin, the missing gland is most likely located in which site?",
+      "answers": {
+        "A": "At the foramen cecum",
+        "B": "Beside the adrenal gland",
+        "C": "Inside the sella turcica",
+        "D": "Near the palatine tonsil",
+        "E": "Within the thymus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The foramen cecum marks the origin of the thyroglossal duct; ectopic thyroid, not parathyroid, is found there.",
+        "B": "The adrenal region is retroperitoneal and unrelated to pharyngeal pouch derivatives.",
+        "C": "The sella holds the pituitary, derived from Rathke's pouch and neuroectoderm, not from pharyngeal pouches.",
+        "D": "The palatine tonsil region derives from the second pouch, which gives rise to no parathyroid tissue.",
+        "E": "Inferior parathyroids arise from the 3rd pharyngeal pouch, as does the thymus, and are often carried into it during descent."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-015",
+      "question": "A 43-year-old woman has episodes of pounding headache, sweating and palpitations lasting 20 minutes. During one episode her blood pressure is 212/118 mm Hg. Plasma metanephrines are elevated and CT shows a 4-cm adrenal mass. In the normal gland, the cells that gave rise to this tumor release their hormones in response to which neurotransmitter?",
+      "answers": {
+        "A": "Acetylcholine",
+        "B": "Dopamine",
+        "C": "GABA",
+        "D": "Norepinephrine",
+        "E": "Serotonin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Chromaffin cells act as a giant sympathetic ganglion: acetylcholine from preganglionic fibers triggers release of epinephrine and norepinephrine into blood.",
+        "B": "Dopamine is the hypothalamic signal of the tuberoinfundibular pathway to the anterior pituitary, not the trigger for chromaffin cells.",
+        "C": "GABA is an inhibitory neurotransmitter and is not released by preganglionic sympathetic fibers onto chromaffin cells.",
+        "D": "Norepinephrine is a product secreted by chromaffin cells, not the preganglionic signal that stimulates them.",
+        "E": "Serotonin is not the neurotransmitter of preganglionic sympathetic fibers entering the medulla."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-016",
+      "question": "A 61-year-old man with antiphospholipid syndrome develops sudden flank pain, hypotension and hyponatremia. CT shows bilateral adrenal enlargement with hemorrhage, and thrombosis of the adrenal veins is suspected. Which feature of the adrenal vasculature most predisposes the gland to congestion and hemorrhage when venous outflow is blocked?",
+      "answers": {
+        "A": "Dual arterial supply to the medulla",
+        "B": "Fenestrated sinusoids within the cortex",
+        "C": "Lymphatics confined to the capsule",
+        "D": "Numerous arteries drained by a single vein",
+        "E": "Portal veins linking two capillary beds"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The medulla does receive both medullary arterioles and cortical blood, but this is an inflow feature and does not explain outflow obstruction.",
+        "B": "Fenestrated sinusoids allow hormone exchange and are common to all endocrine organs; they do not limit venous drainage.",
+        "C": "Capsular lymphatics distribute chromogranin A and are unrelated to venous congestion.",
+        "D": "Each adrenal receives many arteries but drains through one central vein, so obstruction of that vein leaves no alternative outflow.",
+        "E": "A portal arrangement between two capillary beds describes the hypophyseal system, not the cause of adrenal hemorrhage."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-017",
+      "question": "A 45-year-old woman has hypertension that remains uncontrolled on three medications, along with muscle weakness and nocturia. Laboratory results are shown. CT shows a 1.5-cm nodule in the left adrenal gland. The cells that normally secrete the hormone produced by this nodule have which histologic arrangement?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "K+",
+          "2.9 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Plasma renin activity",
+          "0.1 ng/mL/h",
+          "0.6–4.3 ng/mL/h"
+        ],
+        [
+          "Aldosterone",
+          "38 ng/dL",
+          "2–9 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Follicles of epithelium enclosing colloid",
+        "B": "Long cords separated by sinusoidal capillaries",
+        "C": "Pale cells in groups around venules",
+        "D": "Short anastomosing cords near the medulla",
+        "E": "Tightly packed clusters beneath the capsule"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Epithelium surrounding colloid describes thyroid follicles, which store thyroglobulin rather than secrete aldosterone.",
+        "B": "Long radial cords of lipid-rich cells form the zona fasciculata, which secretes glucocorticoids.",
+        "C": "Large pale cells in short cords around capillaries and venules are chromaffin cells of the medulla, which secrete catecholamines.",
+        "D": "Short anastomosing cords with small dark nuclei form the zona reticularis, which secretes adrenal androgens.",
+        "E": "Aldosterone is made by the zona glomerulosa, a narrow zone of tightly packed cell clusters just under the capsule."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-018",
+      "question": "A 57-year-old woman with rheumatoid arthritis has taken prednisone daily for 6 years. She dies of a pulmonary embolism, and at autopsy both adrenal glands are small. Blood pressure and serum potassium had been normal throughout her illness. Microscopic examination of the adrenal glands would most likely show atrophy of which regions?",
+      "answers": {
+        "A": "Adrenal medulla only",
+        "B": "Zona fasciculata and zona reticularis",
+        "C": "Zona glomerulosa and zona fasciculata",
+        "D": "Zona glomerulosa and zona reticularis",
+        "E": "Zona glomerulosa only"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Chromaffin cells are driven by preganglionic sympathetic fibers, not ACTH, so the medulla does not atrophy.",
+        "B": "Both zones depend on the CRH–ACTH axis, which exogenous glucocorticoid suppresses; the glomerulosa is spared because it is regulated by the RAAS.",
+        "C": "The glomerulosa is controlled by the RAAS, which is intact here as shown by her normal blood pressure and potassium.",
+        "D": "The reticularis would atrophy, but the glomerulosa does not depend on ACTH and is preserved.",
+        "E": "Isolated glomerulosa atrophy would follow chronic RAAS suppression, not loss of ACTH."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-019",
+      "question": "A 7-year-old boy is evaluated for pubic hair, body odor and a growth spurt over the past year. Blood pressure is at the 50th percentile. Genetic testing identifies a newly described mutation that drives expression of 17α-hydroxylase in the zona glomerulosa, a zone that does not normally express this enzyme. Which set of changes in adrenal hormone production is most likely?",
+      "answers": {
+        "A": "Decreased aldosterone, decreased cortisol, decreased androgens",
+        "B": "Decreased aldosterone, decreased cortisol, increased androgens",
+        "C": "Decreased aldosterone, increased cortisol, increased androgens",
+        "D": "Increased aldosterone, decreased cortisol, decreased androgens",
+        "E": "Increased aldosterone, increased cortisol, increased androgens"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A fall in all three classes would suggest global loss of cortical function, not gain of an enzyme in one zone.",
+        "B": "Gaining 17α-hydroxylase adds a route to cortisol; it would not lower cortisol output.",
+        "C": "17α-hydroxylase is needed for cortisol and sex steroids but not aldosterone, so glomerulosa cholesterol is diverted away from aldosterone toward cortisol and androgens.",
+        "D": "This is the pattern of losing 17α-hydroxylase, which shunts precursors toward mineralocorticoids.",
+        "E": "Aldosterone cannot rise when its precursors are being diverted into the 17-hydroxylated pathways."
+      }
+    },
+    {
+      "id": "endorepro-histology-lab-endocrine-organs-020",
+      "question": "A 10-day-old newborn is brought to the emergency department with vomiting, poor feeding and lethargy. The infant has ambiguous genitalia and appears dehydrated. Laboratory results are shown. Ultrasonography shows enlarged adrenal glands. Deficiency of which enzyme is the most common genetic cause of this condition?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "122 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "7.0 mEq/L",
+          "3.5–5.5 mEq/L"
+        ],
+        [
+          "Glucose",
+          "48 mg/dL",
+          "60–100 mg/dL"
+        ],
+        [
+          "17-Hydroxyprogesterone",
+          "9,800 ng/dL",
+          "<200 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "11β-Hydroxylase",
+        "B": "17α-Hydroxylase",
+        "C": "21-Hydroxylase",
+        "D": "5α-Reductase",
+        "E": "Aromatase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "11β-hydroxylase deficiency also causes virilization but with hypertension rather than salt wasting, and is less common.",
+        "B": "17α-hydroxylase deficiency blocks cortisol and sex steroid synthesis, giving hypertension and absent virilization.",
+        "C": "21-hydroxylase deficiency is the most common genetic cause of congenital adrenal hyperplasia.",
+        "D": "5α-reductase deficiency impairs conversion of testosterone to dihydrotestosterone and does not cause adrenal hyperplasia or salt wasting.",
+        "E": "Aromatase deficiency impairs estrogen synthesis from androgens and does not cause adrenal insufficiency with electrolyte loss."
+      }
+    }
+  ]
+}
