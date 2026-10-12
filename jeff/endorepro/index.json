@@ -4,7 +4,17 @@
     {
       "file": "chronic-complications-of-diabetes.json",
       "name": "Chronic Complications of Diabetes",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "cases",
+          "file": "10.09.26_CM_-Case-Vignettes_Chronic-Complications-of-Diabetes-1bc7fa0c7b.pdf"
+        },
+        {
+          "label": "answers",
+          "file": "10.09.2026-CM-CV-Chronic-Complications-Diabetes-Simon-Answers-cdfdb414f9.pdf"
+        }
+      ]
     },
     {
       "file": "clinical-skills-session-1.json",
@@ -14,52 +24,148 @@
     {
       "file": "dysregulation-of-glycemic-control.json",
       "name": "Dysregulation of Glycemic Control",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.06.26-BCM_Dysregulation-of-Glycemic-Control_Scott_Notes-d8f77b6427.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.06.26-BCM_Dysregulation-of-Glycemic-Control_Slides-9c2e9f6c8f.pdf"
+        }
+      ]
     },
     {
       "file": "histology-lab-endocrine-organs.json",
       "name": "Histology Lab: Endocrine Organs",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.12.26-ANAT_HistologyLab_Endocrine-Organs_Spudich_Notes-4d1b0d985d.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.12.26-ANAT_HistologyLab_Endocrine-Organs_Spudich_PrelabSlides-c082794324.pdf"
+        }
+      ]
     },
     {
       "file": "management-of-type-2-diabetes.json",
       "name": "Management of Type 2 Diabetes",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.08.26_PHARM_Management-of-Type-2-Diabetes_Simon_Notes-884cc8c9ad.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.08.26_PHARM_Management-of-Type-2-Diabetes_Simon_Slides-2d6e0a9072.pdf"
+        }
+      ]
     },
     {
       "file": "mechanisms-of-obesity-and-obesity-management.json",
       "name": "Mechanisms of Obesity & Obesity Management",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.08.26-CM_PHYS-Mechanisms-of-Obesity-and-Obesity-Management_Lent_Notes_v.9.24.-6c42888f17.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.08.26-CM_PHYS-Mechanisms-of-Obesity-and-Obesity-Management_Lent_Slides-fb1d4c37b3.pdf"
+        }
+      ]
     },
     {
       "file": "obesity-patient-panel.json",
       "name": "Obesity Patient Panel",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.08.26-HSS-Patient-Panel_Obesity_Kyrillos_Notes.v.10.06.26-a9d6c52c54.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.08.26-HSS-Patient-Panel_Obesity_Kyrillos_Slides.v.10.06.26-15bb9dd899.pdf"
+        }
+      ]
     },
     {
       "file": "pituitary-and-hypothalamus.json",
       "name": "Pituitary & Hypothalamus",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.09.26-PHYS-Pituitary-Hypothalamus_Haines_Notes-0b59c4cdda.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.09.26-PHYS-Pituitary-Hypothalamus_Haines_Slides-4bf0231c08.pdf"
+        }
+      ]
     },
     {
       "file": "regulation-of-plasma-glucose.json",
       "name": "Regulation of Plasma Glucose",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.06.26-BCM_Regulation-of-Plasma-Glucose_Scott_Notes-dbf2b3d43f.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.06.26-BCM_Regulation-of-Plasma-Glucose_Scott_Slides-85fdbeeb3b.pdf"
+        }
+      ]
     },
     {
       "file": "tbl-hypo-and-hyperglycemia.json",
       "name": "TBL: Hypo- & Hyperglycemia",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "slides",
+          "file": "10.07.26-BCM_TBL_Hypo-Hyperglycemia_Scott_Slides-w.answers-9055dcd3de.pdf"
+        },
+        {
+          "label": "objectives",
+          "file": "10.07.26-BCM_TBL_Hypo_and_Hyperglycemia_Scott_LOs-7bdf679376.pdf"
+        }
+      ]
     },
     {
       "file": "type-1-diabetes-and-insulin.json",
       "name": "Type 1 Diabetes & Insulin",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.06.26_-PHARM_Type-I-Diabetes-Insulin_Simon_Notes-faeeb74e29.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.06.26_PHARM_Type-I-Diabetes-Insulin_Simon_Slides-52c26af780.pdf"
+        }
+      ]
     },
     {
       "file": "week-1-cbl.json",
       "name": "CBL Week 1: Diabetes Mellitus",
-      "count": 40
+      "count": 40,
+      "pdfs": [
+        {
+          "label": "handout",
+          "file": "Week_1_CBL-19290a0431.pdf"
+        }
+      ]
     }
   ]
 }

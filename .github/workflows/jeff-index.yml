@@ -1,13 +1,15 @@
 name: jeff index
 
-# Keeps each block's index.json in step with its lecture files, however they
-# were added — a push or an upload through the website.
+# Keeps each block's index.json in step with its lecture files and the PDFs
+# that go with them, however they were added — a push, an upload through the
+# website, or the Anki add-on.
 on:
   push:
     branches: [main]
     paths:
       - 'jeff/**.json'
       - 'jeff/build_index.py'
+      - 'pdfs/**'
 
 permissions:
   contents: write
