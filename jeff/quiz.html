@@ -319,6 +319,27 @@
       margin-bottom: 0.1rem;
     }
 
+    /* The lecture's notes and slides, offered once you have answered. */
+    .exp-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-bottom: 0.1rem;
+    }
+    .exp-head .exp-title { margin-bottom: 0; }
+    .exp-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.3rem; }
+    .exp-link {
+      font-size: 0.72rem;
+      padding: 0.12rem 0.55rem;
+      border: 1px solid #c8c8c8;
+      border-radius: 99px;
+      color: #3a6ea8;
+      white-space: nowrap;
+      transition: border-color 0.12s, background 0.12s;
+    }
+    .exp-link:hover { border-color: #3a6ea8; background: #edf3fb; }
+
     .exp-item {
       display: flex;
       gap: 0.6rem;
@@ -820,7 +841,10 @@
     <div class="answers" id="answers"></div>
 
     <div class="explanations" id="explanations">
-      <div class="exp-title">answer explanations</div>
+      <div class="exp-head">
+        <div class="exp-title">answer explanations</div>
+        <div class="exp-links" id="expLinks"></div>
+      </div>
       <div id="expItems"></div>
     </div>
 
@@ -1194,7 +1218,8 @@
     // waits long: with no connection the run on this device is used as is.
     await Promise.all([
       STORE.pull([...new Set(questions.map(docOf))], 4000),
-      settleTest()
+      settleTest(),
+      loadPdfs([...new Set(questions.map(q => q._block || block))])
     ]);
 
     // A narrowed test, or one opened from the history page, is a snapshot: it
@@ -1240,6 +1265,22 @@
     const tries = STORE.attempts(docOf(q), qKey(q));
     if (only === 'due') return STORE.due(tries);
     return only === 'unseen' ? !tries.length : !!tries.length && !tries[tries.length - 1].ok;
+  }
+
+  // Each lecture's notes and slides, as its block's index.json lists them
+  // (build_index.py matches them up from the names in /pdfs).
+  const lecturePdfs = {};   // 'block/file.json' -> [{ label, file }]
+
+  async function loadPdfs(blocks) {
+    await Promise.all(blocks.map(async b => {
+      try {
+        const r = await fetch(`${b}/index.json?t=${Date.now()}`);
+        if (!r.ok) return;
+        ((await r.json()).lectures || []).forEach(l => {
+          if (l.pdfs) lecturePdfs[`${b}/${l.file}`] = l.pdfs;
+        });
+      } catch (e) { /* no links, nothing else lost */ }
+    }));
   }
 
   // The block's lecture files, from its index.json. The GitHub API is only a
@@ -1751,6 +1792,18 @@
       div.appendChild(body);
       expItems.appendChild(div);
     });
+    const links = document.getElementById('expLinks');
+    links.innerHTML = '';
+    (lecturePdfs[`${q._block || block}/${q._file}`] || []).forEach(p => {
+      const a = document.createElement('a');
+      a.className = 'exp-link';
+      a.href = `../pdfs/${encodeURIComponent(p.file)}`;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = p.label;
+      links.appendChild(a);
+    });
+
     document.getElementById('explanations').classList.add('visible');
 
     updateActionButtons();

@@ -34,6 +34,10 @@ When anything is due, **due for review** appears at the top of the home page and
 
 Everything is saved in the browser first. Signed in, it is also saved to your account and merged on load, so it follows you between devices and survives clearing the browser. Answers made offline go up the next time the page loads with a connection. Two devices open on the same test at once: the attempts from both are kept, but the position is whichever saved last. If the browser's storage fills up, the oldest tests' details are dropped from that browser first; signed in, they are still in your account.
 
+## Notes and slides
+
+Once a question is answered, links to its lecture's notes and slides (and any objectives, cases or answer sheets) appear beside "answer explanations" and open the PDF in a new tab. They are matched automatically: a PDF in `/pdfs` belongs to a lecture when its file name contains every word of the lecture's file name.
+
 ## Keys
 
 `A`–`E` or `1`–`5` pick · `Enter` submit, then next · `←` `→` move · `S` skip · `F` flag · `H` highlight the selection · right-click a choice to strike it
