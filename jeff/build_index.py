@@ -66,7 +66,8 @@ for block in sorted(p for p in ROOT.iterdir() if p.is_dir()):
             "name": data.get("lecture") or f.name,
             "count": len(data.get("questions") or []),
         }
-        pdfs = pdfs_for(f.stem, pdf_files)
+        # A lecture may name its PDFs itself, for files whose names do not carry its title.
+        pdfs = data.get("pdfs") or pdfs_for(f.stem, pdf_files)
         if pdfs:
             entry["pdfs"] = pdfs
         lectures.append(entry)

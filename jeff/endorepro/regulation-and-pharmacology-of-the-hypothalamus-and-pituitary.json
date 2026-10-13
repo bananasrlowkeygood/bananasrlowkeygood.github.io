@@ -1,0 +1,495 @@
+{
+  "lecture": "Regulation and Pharmacology of the Hypothalamus and Pituitary",
+  "block": "endorepro",
+  "generated": "2026-10-13",
+  "pdfs": [
+    {
+      "label": "notes",
+      "file": "10.13.26-PHYS_PHARM-Regulation-and-Pharmacology-of-the-Hypothalamus-and-Pituitar-46484fcd1c.pdf"
+    },
+    {
+      "label": "slides",
+      "file": "10.13.26-PHYS_PHARM-Regulation-and-Pharmacology-of-the-Hypothalamus-and-Pituitar-82849f895b.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-001",
+      "question": "A 34-year-old woman has 4 months of fatigue, weight loss, salt craving, and lightheadedness on standing. Examination shows darkening of the palmar creases, gums, and a recent scar. Laboratory studies are shown. Increased production of which of the following precursor molecules best explains her skin findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Sodium",
+          "129 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Potassium",
+          "5.6 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Cortisol (8 AM)",
+          "2.1 mcg/dL",
+          "5–23 mcg/dL"
+        ],
+        [
+          "ACTH (8 AM)",
+          "680 pg/mL",
+          "10–60 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Angiotensinogen",
+        "B": "Pregnenolone",
+        "C": "Pro-opiomelanocortin",
+        "D": "Proinsulin",
+        "E": "Thyroglobulin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Angiotensinogen is the renin substrate; renin activity rises in Addison's disease but does not pigment the skin.",
+        "B": "Pregnenolone is the steroid made from cholesterol in the adrenal cortex; its production falls when the cortex is destroyed.",
+        "C": "ACTH is cleaved from POMC, which also contains melanocyte stimulating hormone; loss of cortisol feedback in Addison's disease raises POMC and so MSH.",
+        "D": "Proinsulin is the beta cell precursor of insulin and C-peptide and is unrelated to the corticotrope.",
+        "E": "Thyroglobulin is the scaffold for thyroid hormone synthesis in the follicle."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-002",
+      "question": "A 50-year-old man with a 2.6-cm pituitary adenoma has fatigue, poor appetite, and occasional lightheadedness. Morning serum cortisol is 6 mcg/dL (reference 5–23). The physician suspects that cortisol production is suboptimal because of ACTH deficiency. Which of the following is the best test to confirm this suspicion?",
+      "answers": {
+        "A": "Cosyntropin stimulation test",
+        "B": "24-hour urinary free cortisol",
+        "C": "Late-night salivary cortisol",
+        "D": "Overnight dexamethasone test",
+        "E": "Repeat morning serum cortisol"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A morning cortisol between 3 and 11 mcg/dL is indeterminate; cortisol is measured before and 30 and 60 minutes after synthetic ACTH, and a peak of at least 18 mcg/dL is normal.",
+        "B": "Urinary free cortisol screens for cortisol excess and is not a test of adrenal reserve.",
+        "C": "Late-night salivary cortisol detects loss of the evening nadir in Cushing's syndrome.",
+        "D": "Dexamethasone suppression tests look for cortisol excess; it would only suppress this patient's axis further.",
+        "E": "Another indeterminate basal value would not show whether the adrenals can respond; stimulation testing is needed."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-003",
+      "question": "A 46-year-old woman had a craniopharyngioma resected 1 year ago. She has fatigue and nausea but no salt craving, and her skin is pale. Blood pressure is 108/68 mm Hg without orthostatic change. Laboratory studies are shown. She is started on hydrocortisone alone. Which of the following best explains why fludrocortisone is not needed?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Sodium",
+          "136 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Potassium",
+          "4.1 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Cortisol after cosyntropin",
+          "9 mcg/dL",
+          "≥18 mcg/dL"
+        ],
+        [
+          "ACTH (8 AM)",
+          "4 pg/mL",
+          "10–60 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Aldosterone is controlled by the renin-angiotensin system",
+        "B": "Aldosterone is stored in large amounts in the adrenal cortex",
+        "C": "Hydrocortisone at replacement dose blocks renal potassium loss",
+        "D": "Low ACTH directly increases renal sodium reabsorption",
+        "E": "The zona glomerulosa is stimulated by melanocyte stimulating hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "ACTH has only an indirect, lesser effect on aldosterone, which stays under renin-angiotensin control, so mineralocorticoid is preserved in secondary adrenal insufficiency.",
+        "B": "Steroid hormones are made on demand from cholesterol and are not stored.",
+        "C": "Glucocorticoids do not block potassium loss; at high doses they promote it.",
+        "D": "ACTH does not act on the renal tubule; sodium reabsorption depends on aldosterone.",
+        "E": "MSH is a POMC product that acts on melanocytes; her POMC output is low, as her pale skin shows."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-004",
+      "question": "A 28-year-old woman who had pituitary surgery for a nonfunctioning macroadenoma is found to have central hypothyroidism and is started on weight-based levothyroxine. Which of the following should be measured to ensure that her replacement dose is appropriate?",
+      "answers": {
+        "A": "Free T3",
+        "B": "Free T4",
+        "C": "Reverse T3",
+        "D": "Thyroglobulin",
+        "E": "TSH"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "T3 is not the target of levothyroxine titration and may be normal despite inadequate replacement.",
+        "B": "With pituitary disease TSH no longer reflects thyroid status, so the dose is titrated to a normal free T4.",
+        "C": "Reverse T3 is an inactive metabolite and is not used to adjust replacement.",
+        "D": "Thyroglobulin is a tumor marker after thyroidectomy for thyroid cancer, not a measure of hormone replacement.",
+        "E": "TSH guides therapy in primary hypothyroidism; in central hypothyroidism it is low or inappropriately normal regardless of dose."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-005",
+      "question": "A 55-year-old man received cranial irradiation for a brain tumor 6 years ago. He has fatigue, cold intolerance, constipation, and dry skin. Pulse is 54/min and reflexes show delayed relaxation. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "1.1 mU/L",
+          "0.4–4.0 mU/L"
+        ],
+        [
+          "Free T4",
+          "0.5 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "Prolactin",
+          "12 ng/mL",
+          "<20 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Central hypothyroidism",
+        "B": "Primary hypothyroidism",
+        "C": "Subclinical hyperthyroidism",
+        "D": "Subclinical hypothyroidism",
+        "E": "TSH-secreting adenoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A low free T4 with a TSH that is low or inappropriately normal means the pituitary or hypothalamus is failing to respond.",
+        "B": "Failure of the thyroid gland itself produces a low free T4 with an elevated TSH.",
+        "C": "Subclinical hyperthyroidism is a suppressed TSH with normal thyroid hormone levels.",
+        "D": "Subclinical hypothyroidism is an elevated TSH with a normal free T4.",
+        "E": "A TSH-secreting adenoma gives a normal or high TSH with a high free T4 and hyperthyroid symptoms."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-006",
+      "question": "A 43-year-old woman with Cushing's disease cannot undergo transsphenoidal surgery because of severe heart failure. She is started on an injectable drug that lowers ACTH secretion through its high affinity for somatostatin receptor subtype 5. Urinary free cortisol normalizes over 3 months. Which of the following adverse effects is this patient most likely to develop?",
+      "answers": {
+        "A": "Gynecomastia",
+        "B": "Hyperglycemia",
+        "C": "Hyponatremia",
+        "D": "Orthostatic hypotension",
+        "E": "Valvular heart disease"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Gynecomastia follows ketoconazole, which inhibits androgen synthesis, and is seen in men.",
+        "B": "Pasireotide causes GI effects like other somatostatin analogues and can also cause hyperglycemia, sometimes requiring glucose-lowering medication.",
+        "C": "Hyponatremia is the main adverse effect of desmopressin.",
+        "D": "Orthostatic hypotension is an effect of the dopamine agonists bromocriptine and cabergoline.",
+        "E": "Valvular disease is linked to high-dose cabergoline used for Parkinson's disease."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-007",
+      "question": "A 48-year-old man with Cushing's disease awaiting surgery is started on an oral medication to lower his cortisol. Two months later his urinary free cortisol has fallen, but he reports breast enlargement, decreased libido, and erectile dysfunction. Liver enzymes are mildly elevated. Which of the following is the primary mechanism of action of this drug?",
+      "answers": {
+        "A": "Agonism at somatostatin receptor subtype 5",
+        "B": "Antagonism at the glucocorticoid receptor",
+        "C": "Destruction of adrenocortical cells",
+        "D": "Inhibition of 11-beta-hydroxylase alone",
+        "E": "Inhibition of cholesterol side-chain cleavage"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Pasireotide acts this way to reduce ACTH release; it is injected and causes GI effects and hyperglycemia.",
+        "B": "Mifepristone blocks the receptor, so cortisol levels would not fall.",
+        "C": "Mitotane is adrenocorticolytic and is used mainly for adrenal carcinoma.",
+        "D": "Metyrapone blocks only this final step and does not inhibit androgen synthesis.",
+        "E": "Ketoconazole inhibits the first step of steroid synthesis, so androgen production falls too, causing gynecomastia, low libido and impotence, along with reversible hepatotoxicity."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-008",
+      "question": "A 39-year-old woman with Cushing's disease has persistent hypercortisolism after surgery. She is started on metyrapone, and her serum cortisol falls into the normal range. Serum concentration of which of the following is most likely to be increased as a direct result of this drug?",
+      "answers": {
+        "A": "Aldosterone",
+        "B": "Cholesterol",
+        "C": "Corticosterone",
+        "D": "Cortisone",
+        "E": "11-Deoxycortisol"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Aldosterone synthesis also requires 11-beta-hydroxylation, so it does not rise with metyrapone.",
+        "B": "Cholesterol would accumulate in the gland if side-chain cleavage, the first step, were blocked, as with ketoconazole.",
+        "C": "Corticosterone is a product of 11-beta-hydroxylase in the mineralocorticoid pathway, so it falls.",
+        "D": "Cortisone is formed peripherally from cortisol and falls as cortisol falls.",
+        "E": "Metyrapone inhibits 11-beta-hydroxylase, the final step in cortisol synthesis, so its substrate 11-deoxycortisol accumulates."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-009",
+      "question": "A 57-year-old man with Cushing's syndrome and type 2 diabetes mellitus has persistent disease after surgery. He is started on a once-daily oral drug, and his hemoglobin A1c falls from 9.1% to 7.2%. His serum cortisol and ACTH remain elevated. The same drug is used at much lower doses to terminate pregnancy. Which of the following is the mechanism by which this drug improved his glucose control?",
+      "answers": {
+        "A": "Antagonism at the glucocorticoid receptor",
+        "B": "Inhibition of 11-beta-hydroxylase",
+        "C": "Inhibition of pituitary ACTH release",
+        "D": "Inhibition of side-chain cleavage",
+        "E": "Lysis of adrenocortical cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "At high doses mifepristone blocks the glucocorticoid receptor, improving hyperglycemia while cortisol and ACTH stay high.",
+        "B": "Metyrapone blocks this enzyme and would lower serum cortisol.",
+        "C": "Pasireotide reduces ACTH release, which would lower both ACTH and cortisol, and it tends to raise glucose.",
+        "D": "Ketoconazole blocks the first step of cortisol synthesis and would lower serum cortisol.",
+        "E": "Mitotane destroys adrenocortical cells, producing a medical adrenalectomy with falling cortisol."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-010",
+      "question": "A 51-year-old woman has hyperthyroidism with a free T4 of 3.1 ng/dL (reference 0.8–1.8) and a TSH of 6.2 mU/L (reference 0.4–4.0). MRI shows a 1.8-cm pituitary adenoma. She has severe coronary artery disease and is not a candidate for surgery. Which of the following is the most appropriate pharmacotherapy?",
+      "answers": {
+        "A": "Cabergoline",
+        "B": "Levothyroxine",
+        "C": "Octreotide",
+        "D": "Pegvisomant",
+        "E": "Prednisone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cabergoline is first line for prolactinoma and an adjuvant in acromegaly, not the recommended agent here.",
+        "B": "Levothyroxine treats hypothyroidism and would worsen her thyrotoxicosis.",
+        "C": "For a TSH-secreting adenoma that cannot be resected, most experts recommend a long-acting somatostatin analog such as octreotide.",
+        "D": "Pegvisomant blocks the GH receptor and has no effect on TSH secretion.",
+        "E": "Glucocorticoids do not treat a TSH-secreting adenoma."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-011",
+      "question": "A 44-year-old man has persistent acromegaly after surgery, and his IGF-1 remains elevated despite octreotide. A daily subcutaneous drug is added. Three months later his IGF-1 is normal, but his serum GH is unchanged and the residual tumor is the same size on MRI. Which of the following should be monitored because of this new drug?",
+      "answers": {
+        "A": "Echocardiogram",
+        "B": "Gallbladder ultrasound",
+        "C": "Liver enzymes",
+        "D": "Serum potassium",
+        "E": "Serum sodium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Echocardiography watches for the valvular disease associated with high-dose cabergoline.",
+        "B": "Gallstones and sludge are an effect of somatostatin analogs, usually asymptomatic.",
+        "C": "Pegvisomant blocks the GH receptor, lowering IGF-1 without acting on the tumor, and requires liver enzyme monitoring.",
+        "D": "Potassium is not specifically affected by a GH receptor antagonist.",
+        "E": "Serum sodium is followed during desmopressin therapy because of hyponatremia."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-012",
+      "question": "A 50-year-old woman with acromegaly has been treated with monthly lanreotide injections for 2 years with good control of her IGF-1. She had loose stools and abdominal cramping when the drug was started. An abdominal ultrasound is done for an unrelated reason. Which of the following findings is most likely attributable to her medication?",
+      "answers": {
+        "A": "Adrenal atrophy",
+        "B": "Gallbladder stones",
+        "C": "Hepatic necrosis",
+        "D": "Renal calculi",
+        "E": "Splenic infarct"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Adrenal atrophy follows suppression of ACTH by exogenous glucocorticoids.",
+        "B": "Gallbladder stones and sludge occur in about 25% of patients on somatostatin analogs and are usually asymptomatic.",
+        "C": "Somatostatin analogs are not hepatotoxic; liver monitoring belongs to pegvisomant and ketoconazole.",
+        "D": "Kidney stones are not an effect of somatostatin analogs.",
+        "E": "Splenic infarction is unrelated to somatostatin analog therapy."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-013",
+      "question": "A 36-year-old man with panhypopituitarism after surgery for a craniopharyngioma is started on nightly subcutaneous recombinant human growth hormone. Six weeks later he has ankle swelling, joint aches, and tingling of the first three fingers of both hands. The physician wants to know whether the dose is appropriate. Which of the following is the best single test to assess this?",
+      "answers": {
+        "A": "Fasting plasma glucose",
+        "B": "Glucose-suppressed serum GH",
+        "C": "Random serum GH",
+        "D": "Serum IGF-1",
+        "E": "Serum prolactin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "GH worsens glucose tolerance, so glucose is watched, but it does not show whether the dose is adequate.",
+        "B": "GH after a glucose load confirms GH excess in acromegaly; it does not assess replacement.",
+        "C": "GH levels vary markedly over a day, more so after an injection, and say little about the dose.",
+        "D": "IGF-1 mediates most of GH's actions and is the best single test of adequacy; the goal is the age-adjusted mid-normal range.",
+        "E": "Prolactin does not reflect GH replacement."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-014",
+      "question": "A 26-year-old man with central diabetes insipidus after a head injury uses intranasal desmopressin. Because of persistent nighttime urination he doubled his dose 1 week ago and has continued to drink large amounts of water out of habit. He now has nausea, vomiting, and confusion. Which of the following laboratory abnormalities is most likely?",
+      "answers": {
+        "A": "Hypercalcemia",
+        "B": "Hyperkalemia",
+        "C": "Hypernatremia",
+        "D": "Hypoglycemia",
+        "E": "Hyponatremia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Hypercalcemia causes polyuria through ADH resistance and is not an effect of desmopressin.",
+        "B": "Desmopressin acts on water permeability and does not raise potassium.",
+        "C": "Hypernatremia is the risk of untreated diabetes insipidus without access to water, the opposite of this picture.",
+        "D": "Desmopressin has no effect on glucose.",
+        "E": "Hyponatremia is the most important side effect of desmopressin, from retained water; it is avoided by using the lowest dose that controls polyuria and by following serum sodium."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-015",
+      "question": "A 40-year-old woman with AVP deficiency is treated with desmopressin at bedtime, and her nocturia resolves. Her blood pressure is unchanged. Which of the following best describes the effect of this drug on the kidney?",
+      "answers": {
+        "A": "Blockade of sodium channels in the collecting duct",
+        "B": "Constriction of the efferent glomerular arteriole",
+        "C": "Inhibition of sodium-chloride cotransport in the distal tubule",
+        "D": "Inhibition of the sodium-potassium-chloride cotransporter",
+        "E": "Insertion of aquaporin 2 channels in the collecting duct"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Blocking the epithelial sodium channel is how potassium-sparing diuretics work and would increase urine output.",
+        "B": "Vasoconstriction belongs to the vasopressor action of ADH, which desmopressin lacks.",
+        "C": "This is the action of thiazide diuretics.",
+        "D": "This is the action of loop diuretics in the thick ascending limb.",
+        "E": "Desmopressin acts on V2 receptors and, through cAMP, inserts aquaporin 2 channels that are otherwise stored in endosomes, making the duct permeable to water."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-016",
+      "question": "A 32-year-old woman with schizophrenia has been treated with haloperidol for 5 months. She reports no menstrual periods for 3 months and milky discharge from both breasts. Pregnancy test is negative, and TSH and creatinine are normal. Serum prolactin is 88 ng/mL (reference <25). Which of the following best explains these findings?",
+      "answers": {
+        "A": "Blockade of dopamine receptors on lactotrophs",
+        "B": "Direct stimulation of lactotrophs by TRH",
+        "C": "Increased estrogen effect on lactotrophs",
+        "D": "Inhibition of hypothalamic GnRH pulses",
+        "E": "Stimulation by a prolactin-releasing hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Prolactin is under tonic inhibition by hypothalamic dopamine; typical antipsychotics block dopamine receptors and release the lactotroph from that inhibition.",
+        "B": "TRH raises prolactin in primary hypothyroidism, but her TSH is normal.",
+        "C": "Estrogen increases the number of lactotrophs in pregnancy; she is not pregnant and in fact has low gonadotropins.",
+        "D": "Suppressed gonadotropin pulsatility is the result of high prolactin and explains her amenorrhea, not the galactorrhea.",
+        "E": "A prolactin-releasing hormone has been hypothesized but never definitively identified."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-017",
+      "question": "A 66-year-old man with Parkinson's disease has taken high-dose cabergoline for 4 years. He now has exertional dyspnea and leg swelling. Examination shows a new holosystolic murmur at the apex. Which of the following adverse effects of his medication is most likely responsible?",
+      "answers": {
+        "A": "Adrenal insufficiency",
+        "B": "Cholelithiasis",
+        "C": "Hepatotoxicity",
+        "D": "Hyponatremia",
+        "E": "Valvular heart disease"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Adrenal insufficiency is a risk of drugs that block cortisol synthesis, not of dopamine agonists.",
+        "B": "Gallstones are an effect of somatostatin analogs.",
+        "C": "Liver toxicity is associated with ketoconazole and monitored with pegvisomant.",
+        "D": "Hyponatremia is the main adverse effect of desmopressin.",
+        "E": "High-dose cabergoline, as used for Parkinson's disease, is associated with valvular heart disease; the lower doses used for hyperprolactinemia are not."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-018",
+      "question": "A 24-year-old woman who is trying to conceive uses a home urine test to detect her luteinizing hormone surge, which appears on day 13 of a 28-day cycle. Which of the following is the immediate cause of this surge?",
+      "answers": {
+        "A": "Negative feedback by estradiol on the pituitary",
+        "B": "Negative feedback by progesterone on the pituitary",
+        "C": "Positive feedback by estradiol on the pituitary",
+        "D": "Positive feedback by inhibin on the pituitary",
+        "E": "Withdrawal of dopamine from the pituitary"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Estradiol feedback is negative in the follicular phase, restraining GnRH, FSH and LH before midcycle.",
+        "B": "Progesterone provides negative feedback in the luteal phase, after ovulation.",
+        "C": "At midcycle estradiol switches to positive feedback on the hypothalamus and anterior pituitary, increasing GnRH, FSH and LH.",
+        "D": "Inhibin feeds back negatively on the anterior pituitary.",
+        "E": "Dopamine tonically inhibits lactotrophs; its withdrawal raises prolactin, not LH."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-019",
+      "question": "A 30-year-old man is evaluated for infertility. Semen analysis shows severe oligospermia. He has normal libido, normal body hair, and normal testicular volume. Laboratory studies are shown. Decreased secretion of which of the following best explains his laboratory findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "FSH",
+          "24 mIU/mL",
+          "1.5–12 mIU/mL"
+        ],
+        [
+          "LH",
+          "5 mIU/mL",
+          "1.5–9 mIU/mL"
+        ],
+        [
+          "Total testosterone",
+          "520 ng/dL",
+          "300–1000 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Dihydrotestosterone",
+        "B": "Estradiol",
+        "C": "GnRH",
+        "D": "Inhibin",
+        "E": "Testosterone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "DHT is made peripherally from testosterone; its deficiency would not selectively raise FSH.",
+        "B": "Estradiol deficiency in a man would not explain an isolated rise in FSH with failed spermatogenesis.",
+        "C": "Decreased GnRH would lower both FSH and LH.",
+        "D": "Sertoli cells make inhibin in response to FSH, and inhibin feeds back on the anterior pituitary; with Sertoli dysfunction that feedback is lost while Leydig androgen feedback keeps LH normal.",
+        "E": "Low androgen feedback from Leydig cells would raise LH, which is normal here."
+      }
+    },
+    {
+      "id": "endorepro-regulation-and-pharmacology-of-the-hypothalamus-and-pituitary-020",
+      "question": "A 31-year-old woman at 40 weeks' gestation is admitted for induction of labor with intravenous oxytocin, and regular contractions begin within an hour at a low infusion rate. A similar dose given to a non-pregnant woman would have little effect on the uterus. Which of the following best explains the response of this patient's uterus?",
+      "answers": {
+        "A": "Decreased clearance of oxytocin by the placenta",
+        "B": "Increased density of oxytocin receptors in the myometrium",
+        "C": "Increased release of prolactin from the lactotrophs",
+        "D": "Increased stores of oxytocin in the posterior pituitary",
+        "E": "Negative feedback of contractions on oxytocin neurons"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Reduced clearance is not the mechanism that makes the term uterus sensitive to oxytocin.",
+        "B": "At the onset of labor oxytocin receptors in uterine muscle are upregulated up to 200 times those of the non-pregnant uterus.",
+        "C": "Prolactin stimulates milk production and does not contract the uterus.",
+        "D": "Her response is to exogenous oxytocin, so pituitary stores do not explain it.",
+        "E": "Uterine contraction feeds back positively, not negatively, on oxytocin neurons during parturition."
+      }
+    }
+  ]
+}
