@@ -226,6 +226,20 @@
     .inbox .lecture-list { margin-top: 0.4rem; }
     .inbox-row { display: flex; align-items: center; gap: 0.4rem; }
     .inbox-row .lecture-link { flex: 1 1 auto; min-width: 0; }
+    /* One chip per question sent; the ones done since are struck out, and a
+       message with all of them done is read. */
+    .inbox-qs { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.3rem; padding: 0 0.5rem; }
+    .inbox-q {
+      padding: 0.05rem 0.4rem;
+      border: 1px solid #c5bee0;
+      border-radius: 4px;
+      font-size: 0.68rem;
+      color: #5c4f7a;
+      text-decoration: none;
+    }
+    .inbox-q:hover { background: rgba(92,79,122,0.14); }
+    .inbox-q.done { border-color: #dcdcdc; color: #9a9a9a; text-decoration: line-through; }
+    .inbox-item.read .lecture-link { background: transparent; color: #9a9a9a; }
 
     /* ── Questions by id ── */
     .ids-row { flex-direction: row; align-items: center; gap: 0.4rem; }
@@ -690,27 +704,72 @@
     }
 
     // ── Inbox ──
+    let mail = null;      // what is in the inbox, once asked for
+    let located = null;   // short id -> { doc, id }: where its history is filed
+    let loading = null;   // both of those being fetched, the once
+
+    // Find the questions the inbox names: qids.json says which lecture each
+    // is in, and the lecture gives the long id its attempts are filed under.
+    async function locate(ids) {
+      const found = {};
+      try {
+        const where = await (await fetch(`qids.json?t=${Date.now()}`)).json();
+        await Promise.all(Object.keys(where).filter(f => where[f].some(id => ids.includes(id))).map(async f => {
+          const cut = f.indexOf('/');
+          const qs = (await (await fetch(f)).json()).questions.filter(q => q.id);
+          where[f].forEach((id, i) => {
+            if (qs[i]) found[id] = { doc: STORE.docId(f.slice(0, cut), f.slice(cut + 1)), id: qs[i].id };
+          });
+        }));
+      } catch (e) {}
+      return found;
+    }
+
+    const idsOf = m => m.qids.map(q => String(q).toLowerCase().replace(/[^a-z0-9]/g, '')).filter(Boolean);
+
+    // Done means answered since it was sent, not at some time before.
+    const doneSince = (id, t) => !!located[id] &&
+      STORE.attempts(located[id].doc, located[id].id).some(a => a.t >= (t || 0));
+
     async function paintInbox() {
-      const mail = await STORE.inbox(15000);
+      await (loading || (loading = (async () => {
+        mail = await STORE.inbox(15000);
+        located = await locate(mail.flatMap(idsOf));
+      })()));
+      // One row per person, however many times they sent: every question of
+      // theirs once, dated by the last time it was sent.
+      const from = {};
+      mail.forEach(m => {
+        const g = from[m.from || m.name] || (from[m.from || m.name] = { name: m.name, t: 0, at: {}, drop: [] });
+        g.drop.push(m.id);
+        if ((m.t || 0) >= g.t) { g.t = m.t || 0; g.name = m.name; }
+        idsOf(m).forEach(id => { g.at[id] = Math.max(g.at[id] || 0, m.t || 0); });
+      });
       const list = document.getElementById('inboxList');
-      list.innerHTML = mail.map(m => {
-        const day = m.t ? new Date(m.t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : '';
-        const ids = m.qids.map(q => String(q).toLowerCase().replace(/[^a-z0-9]/g, '')).filter(Boolean);
-        return `<div class="inbox-row">` +
+      let left = 0;
+      list.innerHTML = Object.values(from).sort((a, b) => b.t - a.t).map(g => {
+        const day = g.t ? new Date(g.t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : '';
+        const ids = Object.keys(g.at).sort((a, b) => g.at[b] - g.at[a]);
+        const done = ids.filter(id => doneSince(id, g.at[id]));
+        left += ids.length - done.length;
+        return `<div class="inbox-item${done.length === ids.length ? ' read' : ''}"><div class="inbox-row">` +
           `<a class="lecture-link" href="quiz.html?q=${ids.join(',')}">` +
-            `<span class="lecture-name">${esc(String(m.name || 'someone').toLowerCase())}</span>` +
-            `<span class="lecture-stat"><span>${ids.length} q</span><span>${esc(day)}</span></span></a>` +
-          `<button class="week-shuffle" type="button" data-drop="${esc(m.id)}">clear</button></div>`;
+            `<span class="lecture-name">${esc(String(g.name || 'someone').toLowerCase())}</span>` +
+            `<span class="lecture-stat"><span>${done.length}/${ids.length} done</span><span>${esc(day)}</span></span></a>` +
+          `<button class="week-shuffle" type="button" data-drop="${esc(g.drop.join(' '))}">clear</button></div>` +
+          `<div class="inbox-qs">${ids.map(id =>
+            `<a class="inbox-q${done.includes(id) ? ' done' : ''}" href="quiz.html?q=${id}">${id}</a>`).join('')}</div></div>`;
       }).join('');
-      const n = mail.reduce((s, m) => s + m.qids.length, 0);
-      document.getElementById('inboxCount').textContent = `${n} q`;
+      document.getElementById('inboxCount').textContent = `${left} q`;
       document.getElementById('inbox').hidden = !mail.length;
     }
 
     document.getElementById('inboxList').addEventListener('click', async e => {
       const b = e.target.closest('[data-drop]');
       if (!b) return;
-      await STORE.dropInbox(b.dataset.drop);
+      const gone = b.dataset.drop.split(' ');
+      await Promise.all(gone.map(id => STORE.dropInbox(id)));
+      mail = mail.filter(m => !gone.includes(m.id));
       paintInbox();
     });
 
@@ -786,7 +845,7 @@
       // What this device has shows at once; the account's copy fills in after.
       // The tests list comes too: a test deleted elsewhere takes its answers.
       const got = await Promise.all([STORE.pull(null, 15000), STORE.pullTests(15000)]);
-      if (got.some(Boolean)) paintStats();
+      if (got.some(Boolean)) { paintStats(); if (user) paintInbox(); }
     });
   </script>
 </body>
