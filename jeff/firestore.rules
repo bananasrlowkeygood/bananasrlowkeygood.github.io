@@ -9,6 +9,10 @@ rules_version = '2';
 // users/{uid}/inbox   questions sent to that person. Anyone on the list may
 //                     add to it, under their own name; only its owner reads
 //                     or clears it.
+// users/{uid}/receipts  what became of the questions that person sent: who
+//                     opened one, and whether they got it right. Whoever was
+//                     sent the question writes it, under their own name;
+//                     only the sender reads or clears it.
 // people/{uid}        each person's name, so the others can pick who to send
 //                     to. Readable by everyone on the list.
 service cloud.firestore {
@@ -38,6 +42,20 @@ service cloud.firestore {
           && request.resource.data.qids is list
           && request.resource.data.qids.size() > 0
           && request.resource.data.qids.size() <= 200;
+    }
+
+    match /users/{uid}/receipts/{item} {
+      function mine() {
+        return onList()
+            && request.resource.data.keys().hasOnly(['from', 'name', 'qid', 'opened', 'done', 'ok'])
+            && request.resource.data.from == request.auth.uid
+            && request.resource.data.name is string
+            && request.resource.data.name.size() <= 100
+            && request.resource.data.qid is string
+            && request.resource.data.qid.size() <= 20;
+      }
+      allow create: if mine();
+      allow update: if mine() && resource.data.from == request.auth.uid;
     }
 
     match /people/{uid} {

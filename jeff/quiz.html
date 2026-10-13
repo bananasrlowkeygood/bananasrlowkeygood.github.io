@@ -1598,9 +1598,47 @@
   window.addEventListener('scroll', hidePop, { passive: true });
   window.addEventListener('resize', hidePop);
 
+  // ── Receipts ──
+  // The questions someone sent you: short id -> { whoSentIt: when }. Opening
+  // one, and the first answer to it since it was sent, is reported back.
+  let sentBy = null;
+  let shown = false;
+  const told = new Set();
+
+  async function watchInbox() {
+    const mail = await STORE.inbox(15000);
+    sentBy = {};
+    mail.forEach(m => m.from && m.qids.forEach(id => {
+      const by = sentBy[id] || (sentBy[id] = {});
+      by[m.from] = Math.max(by[m.from] || 0, m.t || 0);
+    }));
+    tellOpened();
+  }
+
+  function tellOpened() {
+    if (!sentBy || !shown) return;
+    const id = qidOf(questions[cur()]);
+    Object.keys(sentBy[id] || {}).forEach(from => {
+      if (told.has(`${from} ${id}`)) return;
+      told.add(`${from} ${id}`);
+      STORE.receipt(from, id, { opened: Date.now() });
+    });
+  }
+
+  // Call before the answer is filed, so an earlier one can be told apart.
+  function tellDone(q, ok) {
+    const by = (sentBy || {})[qidOf(q)] || {};
+    const before = STORE.attempts(docOf(q), qKey(q));
+    Object.keys(by).forEach(from => {
+      if (!before.some(a => a.t >= by[from])) STORE.receipt(from, qidOf(q), { done: Date.now(), ok });
+    });
+  }
+
   function render() {
     const q = questions[cur()];
     const resp = response(cur());
+    shown = true;
+    tellOpened();
 
     document.getElementById('qMeta').textContent = `question ${cur() + 1} of ${questions.length}`;
     const idBtn = document.getElementById('qIdBtn');
@@ -1905,6 +1943,7 @@
     resp.answered = true;
     resp.skipped = false;
     const q = questions[cur()];
+    tellDone(q, resp.selected === q.correct);
     STORE.addAttempt(docOf(q), qKey(q), resp.selected, resp.selected === q.correct, undefined, RUN_KEY);
     reveal();
     renderHistory();
@@ -2285,6 +2324,7 @@
     STORE.open(user, GATE.cloud());
     load();
     if (user) SHARE.able().then(ok => { document.getElementById('qSendBtn').hidden = !ok; });
+    if (user) watchInbox();
   });
 </script>
 </body>
