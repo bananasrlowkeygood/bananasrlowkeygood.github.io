@@ -108,7 +108,8 @@
       max-width: 720px;
     }
 
-    .block-card {
+    /* A side card looks the same but is not a block: the inbox, the ids box. */
+    .block-card, .side-card {
       border: 1px solid #c5bee0;
       border-radius: 10px;
       padding: 0.65rem 1rem;
@@ -119,7 +120,7 @@
       transition: border-color 0.2s, box-shadow 0.2s;
     }
 
-    .block-card:hover {
+    .block-card:hover, .side-card:hover {
       border-color: #5c4f7a;
       box-shadow: 0 4px 16px rgba(92,79,122,0.1);
     }
@@ -231,6 +232,37 @@
     .due-row[hidden] { display: none; }
     .due-row:hover { box-shadow: 0 4px 16px rgba(92,79,122,0.16); }
     .due-row .block-count { opacity: 1; }
+
+    /* ── Inbox ──
+       Questions other people sent you. Only there when there are some. */
+    .inbox[hidden] { display: none; }
+    .inbox .lecture-list { margin-top: 0.4rem; }
+    .inbox-row { display: flex; align-items: center; gap: 0.4rem; }
+    .inbox-row .lecture-link { flex: 1 1 auto; min-width: 0; }
+
+    /* ── Questions by id ── */
+    .ids-row { flex-direction: row; align-items: center; gap: 0.4rem; }
+    .ids-row input {
+      flex: 1 1 auto;
+      min-width: 0;
+      height: 30px;
+      padding: 0 0.6rem;
+      border: 1px solid #c5bee0;
+      border-radius: 6px;
+      background: #fbf9fe;
+      color: #14111a;
+      font-size: 0.82rem;
+      outline: none;
+    }
+    .ids-row input:focus { border-color: #5c4f7a; }
+    .ids-row input::placeholder { color: #5c4f7a; opacity: 0.5; }
+    .ids-row button:disabled, .ids-row button:disabled:hover {
+      background: #e4e4e4;
+      border-color: #e4e4e4;
+      color: #9a9a9a;
+      cursor: default;
+    }
+    .ids-row button[hidden] { display: none; }
 
     /* ── Custom sets ──
        Every lecture has a box to tick, and every week one that ticks the lot.
@@ -418,6 +450,19 @@
   <div class="content">
     <div class="blocks">
       <a class="due-row" id="dueRow" hidden><span>due for review</span><span class="block-count" id="dueCount"></span></a>
+      <div class="side-card inbox" id="inbox" hidden>
+        <div class="block-left">
+          <div class="block-name">inbox</div>
+          <div class="block-count" id="inboxCount"></div>
+        </div>
+        <div class="lecture-list" id="inboxList"></div>
+      </div>
+      <form class="side-card ids-row" id="idsRow" onsubmit="goIds(event)">
+        <input id="idsInput" type="text" placeholder="question ids" aria-label="question ids"
+               autocomplete="off" autocapitalize="none" spellcheck="false">
+        <button type="submit" id="idsGo" disabled>start</button>
+        <button type="button" class="btn-outline" id="idsSend" onclick="SHARE.pick(this, typedIds())" disabled hidden>send</button>
+      </form>
     </div>
     <div class="blocks" id="blocks" style="margin-top:0.65rem"></div>
   </div>
@@ -438,6 +483,7 @@
   <script src="firebase-config.js"></script>
   <script src="gate.js"></script>
   <script src="store.js"></script>
+  <script src="share.js"></script>
   <script>
     // Files in a block folder that describe it rather than hold questions.
     const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
@@ -637,6 +683,48 @@
       location.href = `quiz.html?${what}` + (pickOnly !== 'all' ? `&only=${pickOnly}` : '');
     }
 
+    // ── Questions by id ──
+    // Ids typed or pasted, however they are separated.
+    const typedIds = () => [...new Set(document.getElementById('idsInput').value
+      .toLowerCase().split(/[^a-z0-9]+/).filter(Boolean))];
+
+    document.getElementById('idsInput').addEventListener('input', () => {
+      const none = !typedIds().length;
+      document.getElementById('idsGo').disabled = none;
+      document.getElementById('idsSend').disabled = none;
+    });
+
+    function goIds(e) {
+      e.preventDefault();
+      const ids = typedIds();
+      if (ids.length) location.href = `quiz.html?q=${ids.join(',')}`;
+    }
+
+    // ── Inbox ──
+    async function paintInbox() {
+      const mail = await STORE.inbox(15000);
+      const list = document.getElementById('inboxList');
+      list.innerHTML = mail.map(m => {
+        const day = m.t ? new Date(m.t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : '';
+        const ids = m.qids.map(q => String(q).toLowerCase().replace(/[^a-z0-9]/g, '')).filter(Boolean);
+        return `<div class="inbox-row">` +
+          `<a class="lecture-link" href="quiz.html?q=${ids.join(',')}">` +
+            `<span class="lecture-name">${esc(String(m.name || 'someone').toLowerCase())}</span>` +
+            `<span class="lecture-stat"><span>${ids.length} q</span><span>${esc(day)}</span></span></a>` +
+          `<button class="week-shuffle" type="button" data-drop="${esc(m.id)}">clear</button></div>`;
+      }).join('');
+      const n = mail.reduce((s, m) => s + m.qids.length, 0);
+      document.getElementById('inboxCount').textContent = `${n} q`;
+      document.getElementById('inbox').hidden = !mail.length;
+    }
+
+    document.getElementById('inboxList').addEventListener('click', async e => {
+      const b = e.target.closest('[data-drop]');
+      if (!b) return;
+      await STORE.dropInbox(b.dataset.drop);
+      paintInbox();
+    });
+
     function weekGroup(block, g) {
       const qs = g.items.reduce((s, l) => s + (l.count || 0), 0);
       const shuffle = g.id
@@ -699,6 +787,10 @@
         const btn = document.getElementById('lockBtn');
         btn.textContent = 'sign out';
         btn.title = `Sign out ${user.email}`;
+      }
+      if (user) {
+        paintInbox();
+        SHARE.able().then(ok => { document.getElementById('idsSend').hidden = !ok; });
       }
       await init();
       paintStats();

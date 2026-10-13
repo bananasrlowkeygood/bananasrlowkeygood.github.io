@@ -6,6 +6,11 @@ rules_version = '2';
 //                     their Google email in lowercase. Edited only from the
 //                     console; nobody can write it from the site.
 // users/{uid}/...     that person's history and saved runs. Theirs alone.
+// users/{uid}/inbox   questions sent to that person. Anyone on the list may
+//                     add to it, under their own name; only its owner reads
+//                     or clears it.
+// people/{uid}        each person's name, so the others can pick who to send
+//                     to. Readable by everyone on the list.
 service cloud.firestore {
   match /databases/{database}/documents {
 
@@ -22,6 +27,25 @@ service cloud.firestore {
 
     match /users/{uid}/{document=**} {
       allow read, write: if request.auth.uid == uid && onList();
+    }
+
+    match /users/{uid}/inbox/{item} {
+      allow create: if onList()
+          && request.resource.data.keys().hasOnly(['from', 'name', 'qids', 't'])
+          && request.resource.data.from == request.auth.uid
+          && request.resource.data.name is string
+          && request.resource.data.name.size() <= 100
+          && request.resource.data.qids is list
+          && request.resource.data.qids.size() > 0
+          && request.resource.data.qids.size() <= 200;
+    }
+
+    match /people/{uid} {
+      allow read: if onList();
+      allow write: if request.auth.uid == uid && onList()
+          && request.resource.data.keys().hasOnly(['name'])
+          && request.resource.data.name is string
+          && request.resource.data.name.size() <= 100;
     }
   }
 }

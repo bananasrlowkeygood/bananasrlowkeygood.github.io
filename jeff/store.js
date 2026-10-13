@@ -13,6 +13,9 @@
  *             line in the tests index — what it covered, when, the score —
  *             so they can be listed without loading every one.
  *
+ * Signed in, there is also an inbox: questions other people sent you, as
+ * lists of question ids under users/{uid}/inbox. It lives in Firestore only.
+ *
  * All of it is written to this browser first, so the site works signed out,
  * offline, or with no Firebase project at all. When someone is signed in it is
  * also copied to Firestore under users/{uid}, and merged back in on load, so
@@ -207,6 +210,18 @@
     });
   }
 
+  // Say who you are, so other people can pick you to send questions to.
+  // Written once per browser, and again if the name changes.
+  let me = null;
+  function announce() {
+    const key = `jeff-me:${ns}`, name = me.name || '';
+    if (!name || read(key) === name) return;
+    cloud.then(c => {
+      if (!c || c.uid !== ns) return;
+      return c.fs.setDoc(c.fs.doc(c.db, 'people', c.uid), { name }).then(() => write(key, name));
+    }).catch(() => {});
+  }
+
   const docIdOf = (block, file) =>
     `${block}__${String(file || '').replace(/\.json$/, '')}`.replace(/[^\w.-]/g, '_');
 
@@ -249,7 +264,49 @@
       cloud = cloudPromise || Promise.resolve(null);
       cache = {};
       index = null;
-      if (user) adopt();
+      me = user || null;
+      if (user) { adopt(); announce(); }
+    },
+
+    // Everyone else who has signed in: [{ uid, name }], by name.
+    people(ms) {
+      const work = cloud.then(async c => {
+        if (!c || c.uid !== ns) return [];
+        const snap = await c.fs.getDocs(c.fs.collection(c.db, 'people'));
+        return snap.docs.filter(d => d.id !== c.uid)
+          .map(d => ({ uid: d.id, name: d.data().name || '' }))
+          .filter(p => p.name)
+          .sort((a, b) => a.name.localeCompare(b.name));
+      }).catch(() => []);
+      return within(work, ms).then(list => list || []);
+    },
+
+    // Put these questions in someone's inbox. Resolves true once it is there.
+    sendTo(uid, qids) {
+      return cloud.then(async c => {
+        if (!c || c.uid !== ns || !qids.length) return false;
+        await c.fs.addDoc(c.fs.collection(c.db, 'users', uid, 'inbox'),
+          { from: c.uid, name: (me && me.name) || '', qids: qids.slice(0, 200), t: Date.now() });
+        return true;
+      }).catch(() => false);
+    },
+
+    // What has been sent to you, newest first: [{ id, name, qids, t }].
+    inbox(ms) {
+      const work = cloud.then(async c => {
+        if (!c || c.uid !== ns) return [];
+        const snap = await c.fs.getDocs(c.fs.collection(c.db, 'users', c.uid, 'inbox'));
+        return snap.docs.map(d => Object.assign({ id: d.id }, d.data()))
+          .filter(m => Array.isArray(m.qids) && m.qids.length)
+          .sort((a, b) => (b.t || 0) - (a.t || 0));
+      }).catch(() => []);
+      return within(work, ms).then(list => list || []);
+    },
+
+    dropInbox(id) {
+      return cloud.then(c => {
+        if (c && c.uid === ns) return c.fs.deleteDoc(c.fs.doc(c.db, 'users', c.uid, 'inbox', id));
+      }).catch(() => {});
     },
 
     // Whether the account can be reached: true once the sign-in is confirmed,
