@@ -132,7 +132,7 @@
     .side-card.shut > :not(.card-head) { display: none; }
 
     /* ── Review ──
-       What is due today, and the lectures going worst. */
+       What is due today. */
     .side-link {
       display: flex;
       align-items: baseline;
@@ -689,20 +689,13 @@
       paintPick();
     }
 
-    // What is due, then the lectures you have tried that are going worst,
-    // each opening on the questions you last got wrong.
+    // What is due today.
     function paintReview() {
-      const links = [...document.querySelectorAll('#blocks .lecture-link')];
-      const stat = a => standing([a.querySelector('.lecture-stat')]);
       const due = document.getElementById('dueRow');
-      const weak = links.map(a => ({ a, s: stat(a) })).filter(x => x.s.seen && x.s.right < x.s.seen)
-        .sort((x, y) => x.s.pct - y.s.pct).slice(0, 5);
-      document.getElementById('reviewList').innerHTML =
-        (due.hidden ? '' : `<a class="side-link" href="${esc(due.getAttribute('href'))}"><span>due today</span><span>${esc(document.getElementById('dueCount').textContent)} q</span></a>`) +
-        weak.map(({ a, s }) =>
-          `<a class="side-link" href="quiz.html?set=${setOf([a])}&only=missed">` +
-          `<span>${esc(a.querySelector('.lecture-name').textContent.replace(/ \(\d+ Qs\)$/, ''))}</span><span>${s.pct}%</span></a>`).join('');
-      document.getElementById('review').hidden = due.hidden && !weak.length;
+      document.getElementById('reviewList').innerHTML = due.hidden ? '' :
+        `<a class="side-link" href="${esc(due.getAttribute('href'))}"><span>due today</span>` +
+        `<span>${esc(document.getElementById('dueCount').textContent)} q</span></a>`;
+      document.getElementById('review').hidden = due.hidden;
     }
 
     // ── Folding ──
