@@ -717,7 +717,8 @@
 
     // ── Inbox ──
     let mail = null;      // what is in the inbox, once asked for
-    let receipts = null;  // and what became of the questions you sent
+    let sent = null;      // what you sent
+    let receipts = null;  // and what became of it
     let located = null;   // short id -> where it is from, and where its history is filed
     let loading = null;   // both of those being fetched, the once
 
@@ -766,8 +767,8 @@
 
     async function paintInbox() {
       await (loading || (loading = (async () => {
-        [mail, receipts] = await Promise.all([STORE.inbox(15000), STORE.receipts(15000)]);
-        located = await locate([...mail.flatMap(idsOf), ...receipts.map(r => r.qid)]);
+        [mail, sent, receipts] = await Promise.all([STORE.inbox(15000), STORE.sent(15000), STORE.receipts(15000)]);
+        located = await locate([...mail.flatMap(idsOf), ...sent.flatMap(idsOf), ...receipts.map(r => r.qid)]);
       })()));
       paintMail();
       paintSent();
@@ -821,24 +822,36 @@
       document.getElementById('inbox').hidden = !mail.length;
     }
 
-    // What became of the questions you sent, a row per person: each one they
-    // have opened, and how the first answer went.
+    // What you sent, a row per person: each question as sent, then opened,
+    // then how the first answer went. Sending one again starts it over.
     function paintSent() {
       const to = {};
+      const row = (uid, name) => to[uid] || (to[uid] = { name, t: 0, at: {}, of: {}, drop: [], receipts: [] });
+      sent.forEach(m => {
+        const g = row(m.to, m.name);
+        g.drop.push(m.id);
+        g.t = Math.max(g.t, m.t || 0);
+        idsOf(m).forEach(id => { g.at[id] = Math.max(g.at[id] || 0, m.t || 0); });
+      });
       receipts.forEach(r => {
-        const g = to[r.from] || (to[r.from] = { name: r.name, t: 0, of: {}, drop: [] });
-        g.drop.push(r.id);
+        const g = row(r.from, r.name);
+        g.receipts.push(r.id);
         g.of[r.qid] = r;
-        const t = Math.max(r.opened || 0, r.done || 0);
-        if (t >= g.t) { g.t = t; g.name = r.name; }
+        g.at[r.qid] = g.at[r.qid] || 0;
+        g.t = Math.max(g.t, r.opened || 0, r.done || 0);
+        if (r.name) g.name = r.name;
       });
       document.getElementById('sentList').innerHTML = Object.values(to).sort((a, b) => b.t - a.t).map(g => {
-        const state = id => !g.of[id].done ? 'opened' : g.of[id].ok ? 'right' : 'wrong';
-        return `<div class="inbox-item">` + personRow(g.name, Object.keys(g.of), '', g.t, g.drop) +
-          lectureLines(Object.keys(g.of), (id, label) =>
+        const state = id => {
+          const r = g.of[id] || {};
+          if ((r.done || 0) >= g.at[id] && r.done) return r.ok ? 'right' : 'wrong';
+          return (r.opened || 0) >= g.at[id] && r.opened ? 'opened' : 'sent';
+        };
+        return `<div class="inbox-item">` + personRow(g.name, Object.keys(g.at), '', g.t, g.drop.concat(g.receipts)) +
+          lectureLines(Object.keys(g.at), (id, label) =>
             `<a class="inbox-q ${state(id)}" href="quiz.html?q=${id}">${label} ${state(id)}</a>`) + `</div>`;
       }).join('');
-      document.getElementById('sent').hidden = !receipts.length;
+      document.getElementById('sent').hidden = !sent.length && !receipts.length;
     }
 
     document.getElementById('inboxList').addEventListener('click', async e => {
@@ -854,10 +867,14 @@
       const b = e.target.closest('[data-drop]');
       if (!b) return;
       const gone = b.dataset.drop.split(' ');
-      await Promise.all(gone.map(id => STORE.dropReceipt(id)));
+      await Promise.all(gone.map(id => Promise.all([STORE.dropSent(id), STORE.dropReceipt(id)])));
+      sent = sent.filter(m => !gone.includes(m.id));
       receipts = receipts.filter(r => !gone.includes(r.id));
       paintSent();
     });
+
+    // Sent from this page: show it without a reload.
+    document.addEventListener('jeff-sent', () => { loading = null; paintInbox(); });
 
     function weekGroup(block, g) {
       const qs = g.items.reduce((s, l) => s + (l.count || 0), 0);

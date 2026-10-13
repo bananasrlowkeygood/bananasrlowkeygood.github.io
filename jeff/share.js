@@ -97,7 +97,9 @@
         b.onclick = async e => {
           e.stopPropagation();
           close();
-          flash(button, await STORE.sendTo(p.uid, qids) ? 'sent' : 'not sent');
+          const ok = await STORE.sendTo(p.uid, qids, p.name);
+          flash(button, ok ? 'sent' : 'not sent');
+          if (ok) document.dispatchEvent(new Event('jeff-sent'));
         };
         pop.appendChild(b);
       });

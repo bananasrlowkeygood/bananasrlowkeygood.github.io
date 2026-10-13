@@ -9,6 +9,8 @@ rules_version = '2';
 // users/{uid}/inbox   questions sent to that person. Anyone on the list may
 //                     add to it, under their own name; only its owner reads
 //                     or clears it.
+// users/{uid}/sent    a note of what that person sent, and to whom. Theirs
+//                     alone, like the rest of their account.
 // users/{uid}/receipts  what became of the questions that person sent: who
 //                     opened one, and whether they got it right. Whoever was
 //                     sent the question writes it, under their own name;
