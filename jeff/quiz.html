@@ -119,6 +119,30 @@
       text-transform: uppercase;
     }
 
+    /* The question's number on the left; its id and a way to send it on the
+       right. */
+    .q-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+    .q-tools { display: flex; align-items: center; gap: 0.35rem; }
+    .q-tools button {
+      height: 22px;
+      padding: 0 8px;
+      border: 1px solid #d0d0d0;
+      border-radius: 5px;
+      background: transparent;
+      color: #777;
+      font-family: inherit;
+      font-size: 0.7rem;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .q-tools button:hover { border-color: #3a6ea8; color: #3a6ea8; }
+    .q-tools button[hidden] { display: none; }
+
     /* ── History ──
        Every earlier try at this question, oldest first. */
     .q-history {
@@ -833,7 +857,13 @@
 
   <div class="card" id="quizCard" style="display:none">
     <div>
-      <div class="q-meta" id="qMeta"></div>
+      <div class="q-top">
+        <div class="q-meta" id="qMeta"></div>
+        <div class="q-tools">
+          <button type="button" id="qIdBtn" onclick="copyId()" title="Copy this question's id"></button>
+          <button type="button" id="qSendBtn" onclick="sendQuestion()" hidden>send</button>
+        </div>
+      </div>
       <div class="q-history" id="qHistory"></div>
       <div class="q-text" id="qText"></div>
     </div>
@@ -902,6 +932,7 @@
 <script src="firebase-config.js"></script>
 <script src="gate.js"></script>
 <script src="store.js"></script>
+<script src="share.js"></script>
 <script>
   // Files in a block folder that describe it rather than hold questions.
   const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
@@ -917,6 +948,10 @@
     const cut = s.indexOf('/');
     return cut === -1 ? { block, name: s } : { block: s.slice(0, cut), name: s.slice(cut + 1) };
   });
+
+  // Questions picked one by one, by their short ids, from any lecture. They
+  // are played in the order given.
+  const ids = [...new Set((params.get('q') || '').toLowerCase().split(/[^a-z0-9]+/).filter(Boolean))];
 
   // Narrow whatever was asked for by your history with it: 'due' (missed
   // before and back for review), 'missed' (wrong the last time you tried it),
@@ -966,6 +1001,7 @@
   const SCOPE = STORE.runId(block || 'mixed',
     (lecture ? lecture.replace(/\.json$/, '')
       : set.length ? 'set-' + hash(set.map(s => s.block + '/' + s.name).sort().join(','))
+      : ids.length ? 'q-' + hash(ids.slice().sort().join(','))
       : week ? 'week-' + week
       : 'all') + (only ? '-' + only : ''));
 
@@ -974,7 +1010,7 @@
 
   // The query that reopens this scope, kept on the test so the history page
   // can link back to it.
-  const SCOPE_QUERY = ['block', 'lecture', 'set', 'week', 'only']
+  const SCOPE_QUERY = ['block', 'lecture', 'set', 'week', 'q', 'only']
     .filter(k => params.get(k))
     .map(k => `${k}=${encodeURIComponent(params.get(k))}`).join('&');
 
@@ -1015,6 +1051,14 @@
 
   function qKey(q) {
     return q.id || `${q._lecture || lecture || block}|${(q.question || '').slice(0, 120)}`;
+  }
+
+  // A question's short id: its long one, hashed and stirred so neighbours do
+  // not look alike. build_index.py computes the same for qids.json.
+  function qidOf(q) {
+    let h = parseInt(hash(q.id || ''), 36);
+    h = Math.imul(h ^ (h >>> 16), 0x45d9f3b) >>> 0;
+    return ((h ^ (h >>> 16)) >>> 0).toString(36);
   }
 
   // The store document a question's history and marks are filed in.
@@ -1070,7 +1114,7 @@
   function importOldSession() {
     const oldKey = `jeff-quiz:${block}:${lecture || (week ? 'week-' + week : '*')}`;
     let old = null;
-    if (set.length || only || params.get('test')) return null;   // none of these existed then
+    if (set.length || ids.length || only || params.get('test')) return null;   // none of these existed then
     try { old = JSON.parse(localStorage.getItem(oldKey) || 'null'); } catch (e) {}
     if (!old || old.v !== 1 || !Array.isArray(old.order)) return null;
 
@@ -1170,10 +1214,12 @@
   const blockNames = { neuro: 'Neurology', endorepro: 'Endo / Repro', msk: 'MSK' };
 
   async function load() {
-    if (!block && !set.length) { show('no block specified.'); return; }
-    const from = block ? [block] : [...new Set(set.map(s => s.block))];
-    document.getElementById('topTitle').textContent =
-      from.length === 1 ? (blockNames[from[0]] || from[0]) : 'Mixed';
+    if (!block && !set.length && !ids.length) { show('no block specified.'); return; }
+    const title = from => {
+      document.getElementById('topTitle').textContent =
+        from.length === 1 ? (blockNames[from[0]] || from[0]) : 'Mixed';
+    };
+    title(block ? [block] : [...new Set(set.map(s => s.block))]);
 
     try {
       if (lecture) {
@@ -1186,7 +1232,17 @@
         let files, label;
         const here = name => ({ block, name });
 
-        if (set.length) {
+        if (ids.length) {
+          // qids.json says which lecture each short id is in.
+          const qr = await fetch(`qids.json?t=${Date.now()}`);
+          if (!qr.ok) throw new Error('no question ids to look up');
+          const where = await qr.json();
+          files = Object.keys(where).filter(f => where[f].some(id => ids.includes(id))).map(f => {
+            const cut = f.indexOf('/');
+            return { block: f.slice(0, cut), name: f.slice(cut + 1) };
+          });
+          title([...new Set(files.map(f => f.block))]);
+        } else if (set.length) {
           files = set.map(s => ({ block: s.block, name: s.name + '.json' }));
           label = `${files.length} lecture${files.length !== 1 ? 's' : ''}, shuffled`;
         } else if (week) {
@@ -1203,7 +1259,7 @@
           label = 'all lectures, shuffled';
         }
 
-        if (!files.length) { show(`no questions in this ${week ? 'week' : 'block'} yet.`); return; }
+        if (!files.length) { show(ids.length ? 'no questions with those ids.' : `no questions in this ${week ? 'week' : 'block'} yet.`); return; }
         const all = await Promise.all(files.map(async f => {
           const r = await fetch(`${f.block}/${f.name}?t=${Date.now()}`);
           if (!r.ok) return [];
@@ -1211,6 +1267,11 @@
           return (d.questions || []).map(q => ({ ...q, _lecture: d.lecture, _file: f.name, _block: f.block }));
         }));
         questions = all.flat();
+        if (ids.length) {
+          const at = new Map(ids.map((id, i) => [id, i]));
+          questions = questions.filter(q => at.has(qidOf(q))).sort((a, b) => at.get(qidOf(a)) - at.get(qidOf(b)));
+          label = `${questions.length} question${questions.length !== 1 ? 's' : ''} by id`;
+        }
         document.getElementById('topSubtitle').textContent = label;
       }
       if (only) document.getElementById('topSubtitle').textContent += ', ' + only;
@@ -1253,7 +1314,7 @@
 
     const resumed = restoreSession();
     if (!resumed) {
-      if (!lecture) shuffle(questions);
+      if (!lecture && !ids.length) shuffle(questions);
       syncView();
     }
     applyMarks();
@@ -1542,6 +1603,9 @@
     const resp = response(cur());
 
     document.getElementById('qMeta').textContent = `question ${cur() + 1} of ${questions.length}`;
+    const idBtn = document.getElementById('qIdBtn');
+    clearTimeout(idBtn._flash);
+    idBtn.textContent = idBtn.dataset.label = qidOf(q);
 
     hidePop();
     hlSources = {};
@@ -1629,6 +1693,18 @@
     updateProgress();
     renderNavigator();
     saveSession();
+  }
+
+  // ── The question's id ──
+  function copyId() {
+    const btn = document.getElementById('qIdBtn');
+    const id = qidOf(questions[cur()]);
+    const done = () => SHARE.flash(btn, 'copied');
+    if (navigator.clipboard) navigator.clipboard.writeText(id).then(done, () => {});
+  }
+
+  function sendQuestion() {
+    SHARE.pick(document.getElementById('qSendBtn'), [qidOf(questions[cur()])]);
   }
 
   // ── History ──
@@ -2205,7 +2281,11 @@
     if (idx >= 0 && idx < letters.length) { e.preventDefault(); selectAnswer(letters[idx]); }
   });
 
-  GATE.ready().then(user => { STORE.open(user, GATE.cloud()); load(); });
+  GATE.ready().then(user => {
+    STORE.open(user, GATE.cloud());
+    load();
+    if (user) SHARE.able().then(ok => { document.getElementById('qSendBtn').hidden = !ok; });
+  });
 </script>
 </body>
 </html>

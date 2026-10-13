@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Write each block's index.json: its lecture files, their names, question
-counts, and the notes and slides that go with each.
+counts, and the notes and slides that go with each. Also write qids.json:
+every question's short id, by the lecture it is in.
 
 The site reads this instead of asking the GitHub API to list a block, so it
 never trips the API's per-IP rate limit. Run it after adding or changing a
@@ -52,7 +53,24 @@ def pdfs_for(slug, files):
     return sorted(found, key=lambda p: (order.index(p["label"]), p["file"]))
 
 
+def qid(text):
+    """A question's short id, from its long one. quiz.html computes the same."""
+    h = 5381
+    for ch in text:
+        h = ((h * 33) ^ ord(ch)) & 0xFFFFFFFF
+    # Stir it, so neighbouring questions do not get near-identical ids.
+    h = ((h ^ (h >> 16)) * 0x45D9F3B) & 0xFFFFFFFF
+    h ^= h >> 16
+    out = ""
+    while h:
+        h, r = divmod(h, 36)
+        out = "0123456789abcdefghijklmnopqrstuvwxyz"[r] + out
+    return out or "0"
+
+
 pdf_files = sorted(PDFS.glob("*.pdf")) if PDFS.is_dir() else []
+qids = {}     # 'block/file.json' -> its questions' short ids
+owner = {}    # short id -> the long id it came from, to catch two that collide
 
 for block in sorted(p for p in ROOT.iterdir() if p.is_dir()):
     files = sorted(f for f in block.glob("*.json") if f.name not in MANIFESTS)
@@ -68,6 +86,11 @@ for block in sorted(p for p in ROOT.iterdir() if p.is_dir()):
         }
         # A lecture may name its PDFs itself, for files whose names do not carry its title.
         pdfs = data.get("pdfs") or pdfs_for(f.stem, pdf_files)
+        ids = [q["id"] for q in data.get("questions") or [] if q.get("id")]
+        for i in ids:
+            if owner.setdefault(qid(i), i) != i:
+                raise SystemExit(f"{i} and {owner[qid(i)]} share the short id {qid(i)}; rename one")
+        qids[f"{block.name}/{f.name}"] = [qid(i) for i in ids]
         if pdfs:
             entry["pdfs"] = pdfs
         lectures.append(entry)
@@ -75,3 +98,6 @@ for block in sorted(p for p in ROOT.iterdir() if p.is_dir()):
     (block / "index.json").write_text(
         json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"{block.name}: {len(lectures)} lectures, {sum(1 for l in lectures if 'pdfs' in l)} with PDFs")
+
+(ROOT / "qids.json").write_text(json.dumps(qids, separators=(",", ":")) + "\n", encoding="utf-8")
+print(f"qids: {len(owner)} questions")
