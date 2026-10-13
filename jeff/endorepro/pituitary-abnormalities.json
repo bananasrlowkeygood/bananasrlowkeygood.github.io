@@ -1,0 +1,549 @@
+{
+  "lecture": "Pituitary Abnormalities",
+  "block": "endorepro",
+  "generated": "2026-10-13",
+  "pdfs": [
+    {
+      "label": "notes",
+      "file": "10.13.26-CM_Pituitary-Abnormalities_Simon_Notes-d615a47c20.pdf"
+    },
+    {
+      "label": "slides",
+      "file": "10.13.26-CM_Pituitary-Abnormailities_Simon_Slides-a157c3fa6a.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "id": "endorepro-pituitary-abnormalities-001",
+      "question": "A 52-year-old man comes to the physician because of 6 months of dull frontal headaches. He has had two minor car accidents while changing lanes and says he keeps bumping his shoulders on door frames. Confrontation testing shows loss of the outer half of the visual field in both eyes. MRI of the brain shows a 2.2-cm mass arising from the sella turcica and extending upward. Compression of which of the following structures best explains this patient's visual findings?",
+      "answers": {
+        "A": "Cavernous sinus",
+        "B": "Internal carotid artery",
+        "C": "Oculomotor nerve",
+        "D": "Optic chiasm",
+        "E": "Sphenoid sinus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The cavernous sinuses lie lateral to the pituitary and carry CN III, IV, V and VI; lateral extension gives ophthalmoplegia or facial numbness, not a bitemporal field cut.",
+        "B": "The carotid arteries run lateral to the sella; encasing one does not produce loss of both temporal visual fields.",
+        "C": "Oculomotor nerve compression in the cavernous sinus causes ptosis and a down-and-out eye, not a visual field defect.",
+        "D": "The optic chiasm sits directly superior to the pituitary, so upward growth of a macroadenoma compresses the crossing nasal fibers and produces bitemporal hemianopsia.",
+        "E": "The sphenoid sinus lies below the sella and is the surgical route to the pituitary; downward extension does not affect vision."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-002",
+      "question": "A 45-year-old man comes to the physician because his wedding ring no longer fits and his shoe size has gone up two sizes over several years. He has new carpal tunnel syndrome, heavy sweating, and loud snoring with witnessed apneas. Examination shows a prominent brow, a protruding jaw, and widely spaced teeth. Blood pressure is 152/94 mm Hg. Which of the following is the most appropriate initial test?",
+      "answers": {
+        "A": "MRI of the pituitary gland",
+        "B": "Overnight dexamethasone suppression",
+        "C": "Random serum growth hormone",
+        "D": "Serum insulin-like growth factor 1",
+        "E": "Serum prolactin concentration"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Imaging comes only after the biochemical diagnosis is made, since about 10% of healthy people have an incidental pituitary lesion.",
+        "B": "The 1-mg dexamethasone suppression test screens for cortisol excess; this patient's bony and soft tissue overgrowth points to GH excess.",
+        "C": "Growth hormone is released in pulses and fluctuates through the day, so a single random value gives little information.",
+        "D": "IGF-1 is made by the liver in response to GH and does not fluctuate as GH does, making it the screening test of choice for GH overproduction.",
+        "E": "Prolactin is checked in the workup of a pituitary mass but does not screen for the GH excess that this presentation suggests."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-003",
+      "question": "A 38-year-old woman is evaluated for coarsening facial features, enlarging hands, and new type 2 diabetes mellitus. Laboratory studies are shown. Which of the following is the most appropriate next step in diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "IGF-1",
+          "612 ng/mL",
+          "90–360 ng/mL"
+        ],
+        [
+          "Random GH",
+          "3.1 ng/mL",
+          "<5 ng/mL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "7.4%",
+          "<5.7%"
+        ],
+        [
+          "Prolactin",
+          "14 ng/mL",
+          "<25 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "CT scan of the chest",
+        "B": "GH measurement after oral glucose",
+        "C": "MRI of the pituitary gland",
+        "D": "Repeat random GH measurement",
+        "E": "Trial of octreotide injections"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ectopic GHRH or GH from a chest tumor is rare and is sought only after GH hypersecretion is confirmed and the pituitary is unrevealing.",
+        "B": "An elevated IGF-1 is confirmed with a glucose tolerance test: glucose suppresses GH in healthy people, and a GH above 1 ng/mL after 100 g confirms hypersecretion.",
+        "C": "Pituitary MRI is done once the biochemical diagnosis is confirmed, not on a screening test alone.",
+        "D": "Random GH is unreliable because secretion is pulsatile; repeating it does not confirm or exclude acromegaly.",
+        "E": "Somatostatin analogues are a treatment for confirmed acromegaly, usually after surgery, not a diagnostic step."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-004",
+      "question": "A 58-year-old man was diagnosed with acromegaly from a GH-secreting pituitary macroadenoma 3 years ago and declined treatment. He now has hypertension, obstructive sleep apnea, and type 2 diabetes mellitus. Echocardiography shows cardiomegaly. If he remains untreated, he is at greatest risk of death from which of the following?",
+      "answers": {
+        "A": "Cardiovascular disease",
+        "B": "Colorectal carcinoma",
+        "C": "Diabetic ketoacidosis",
+        "D": "Pituitary apoplexy",
+        "E": "Respiratory failure"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Untreated acromegaly carries a very high risk of cardiovascular morbidity and mortality, through cardiomegaly, hypertension and diabetes.",
+        "B": "Acromegaly is associated with colon polyps and possibly carcinoma, but this is not the leading cause of death.",
+        "C": "GH excess causes insulin resistance and type 2 diabetes; ketoacidosis is not the typical fatal complication.",
+        "D": "Hemorrhage into an adenoma can occur with any macroadenoma but is an uncommon event rather than the main cause of death.",
+        "E": "Soft tissue overgrowth causes sleep apnea, yet the excess mortality in acromegaly is cardiovascular."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-005",
+      "question": "A 38-year-old woman with poorly controlled diabetes and hypertension is noted to have a round face, supraclavicular fat pads, and wide purple abdominal striae. Her medications are metformin, insulin, lisinopril, amlodipine, metoprolol, and a combined oral contraceptive pill. The physician orders a 24-hour urinary free cortisol and a late-night salivary cortisol rather than a 1-mg overnight dexamethasone suppression test. Which of the following best explains why the dexamethasone test would be misleading in this patient?",
+      "answers": {
+        "A": "Decreased renal clearance of cortisol",
+        "B": "Increased cortisol binding globulin",
+        "C": "Increased pituitary ACTH secretion",
+        "D": "Reduced absorption of dexamethasone",
+        "E": "Suppressed hypothalamic CRH release"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Renal clearance of cortisol is not changed by oral contraceptives; it matters for interpreting urinary free cortisol in kidney disease.",
+        "B": "Estrogen in oral contraceptives raises cortisol binding globulin, so total serum cortisol stays high after dexamethasone and the test is falsely positive.",
+        "C": "Oral contraceptives do not drive ACTH secretion; a truly raised ACTH would indicate pituitary or ectopic Cushing's.",
+        "D": "Poor absorption could cause a false positive, but oral contraceptives do not impair dexamethasone absorption.",
+        "E": "CRH suppression would lower cortisol, which would not produce a falsely positive suppression test."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-006",
+      "question": "A 44-year-old woman has 1 year of central weight gain, proximal muscle weakness, and easy bruising. Two different screening tests confirm cortisol excess. She takes no glucocorticoids. Further laboratory studies are shown. Which of the following is the most appropriate next step?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "24-hour urinary free cortisol",
+          "410 mcg/day",
+          "<50 mcg/day"
+        ],
+        [
+          "Plasma ACTH (8 AM)",
+          "3 pg/mL",
+          "10–60 pg/mL"
+        ],
+        [
+          "Potassium",
+          "3.4 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Glucose (fasting)",
+          "138 mg/dL",
+          "70–99 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "CT scan of the adrenal glands",
+        "B": "CT scan of the chest",
+        "C": "High-dose dexamethasone test",
+        "D": "Inferior petrosal sinus sampling",
+        "E": "MRI of the pituitary gland"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "An ACTH below 5 pg/mL means cortisol is being made independently of ACTH, so the source is adrenal and the adrenals are imaged with CT.",
+        "B": "Chest CT looks for an ectopic ACTH-secreting tumor, which would give a high ACTH, not a suppressed one.",
+        "C": "High-dose dexamethasone is used, unreliably, to separate pituitary from ectopic ACTH; it has no role when ACTH is suppressed.",
+        "D": "Petrosal sampling separates pituitary from ectopic sources in ACTH-dependent disease; this patient's disease is ACTH-independent.",
+        "E": "Pituitary MRI is indicated when ACTH is high or inappropriately normal, pointing to Cushing's disease."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-007",
+      "question": "A 62-year-old man with a 50-pack-year smoking history has 2 months of rapidly progressive proximal muscle weakness, leg edema, and a 5-kg weight loss. Blood pressure is 178/102 mm Hg. Cortisol excess is confirmed on two screening tests. Pituitary MRI is normal. Results of further studies are shown. Which of the following is the most appropriate next step?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Plasma ACTH",
+          "310 pg/mL",
+          "10–60 pg/mL"
+        ],
+        [
+          "Potassium",
+          "2.7 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Petrosal:peripheral ACTH ratio",
+          "1.2",
+          ">3 suggests pituitary source"
+        ]
+      ],
+      "answers": {
+        "A": "Bilateral adrenalectomy",
+        "B": "CT scan of the adrenal glands",
+        "C": "CT scan of the chest",
+        "D": "Pituitary irradiation",
+        "E": "Transsphenoidal exploration"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Removing both adrenals treats the cortisol excess without finding the tumor; first-line treatment of ectopic ACTH is resection of the source.",
+        "B": "Adrenal CT is for ACTH-independent Cushing's, in which ACTH is below 5 pg/mL.",
+        "C": "A very high ACTH with a petrosal-to-peripheral ratio below 3 indicates ectopic ACTH, and over 90% of these come from chest tumors such as small cell carcinoma or carcinoid.",
+        "D": "Radiation is an adjunct for Cushing's disease after incomplete surgery; the sampling result argues against a pituitary source.",
+        "E": "Pituitary surgery treats Cushing's disease, which would show a petrosal-to-peripheral ACTH ratio above 3."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-008",
+      "question": "A 35-year-old woman has confirmed hypercortisolism with a plasma ACTH of 68 pg/mL (reference 10–60). Pituitary MRI shows no definite lesion and chest CT is normal. Inferior petrosal sinus sampling after CRH administration shows a petrosal-to-peripheral ACTH ratio of 6. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "ACTH-secreting pituitary microadenoma",
+        "B": "Cortisol-secreting adrenal adenoma",
+        "C": "Ectopic ACTH from bronchial carcinoid",
+        "D": "Exogenous glucocorticoid exposure",
+        "E": "Primary bilateral adrenal hyperplasia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A petrosal-to-peripheral ACTH ratio above 3 localizes ACTH production to the pituitary; Cushing's disease is usually due to a microadenoma that MRI may miss.",
+        "B": "An adrenal adenoma suppresses ACTH to below 5 pg/mL through negative feedback.",
+        "C": "Ectopic ACTH gives a ratio below 3, because the pituitary is not the source of the hormone.",
+        "D": "Exogenous steroids suppress ACTH and would not produce a central ACTH gradient.",
+        "E": "Primary adrenal disease is ACTH-independent, with a suppressed rather than elevated ACTH."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-009",
+      "question": "A 41-year-old woman has persistent Cushing's disease after two transsphenoidal operations. Ketoconazole was stopped because of side effects, and she remains severely hypercortisolemic with uncontrolled diabetes. Her physicians plan bilateral adrenalectomy. Which of the following should be done before this operation?",
+      "answers": {
+        "A": "CT scan of the chest",
+        "B": "High-dose dexamethasone suppression",
+        "C": "Inferior petrosal sinus sampling",
+        "D": "Irradiation of the pituitary gland",
+        "E": "Thyroid ablation with radioiodine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Chest CT searches for ectopic ACTH; her disease has already been localized to the pituitary.",
+        "B": "This test attempts to localize an ACTH source and is not relied upon; it does not prepare her for adrenalectomy.",
+        "C": "Petrosal sampling distinguishes pituitary from ectopic ACTH and adds nothing once Cushing's disease is established.",
+        "D": "Removing both adrenals takes away cortisol feedback, so the pituitary is always irradiated first out of concern that the tumor will then grow.",
+        "E": "Destroying the thyroid is unrelated to Cushing's disease; it is the step to avoid in a TSH-secreting adenoma."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-010",
+      "question": "A 47-year-old man has 4 months of palpitations, heat intolerance, tremor, and a 6-kg weight loss, along with daily headaches. Examination shows a diffusely enlarged thyroid without nodules and no eye findings. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "4.8 mU/L",
+          "0.4–4.0 mU/L"
+        ],
+        [
+          "Free T4",
+          "3.4 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "Total T3",
+          "290 ng/dL",
+          "80–180 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Graves disease",
+        "B": "Primary hypothyroidism",
+        "C": "Surreptitious levothyroxine use",
+        "D": "Toxic thyroid adenoma",
+        "E": "TSH-secreting pituitary adenoma"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Graves disease is primary hyperthyroidism: the high thyroid hormone suppresses TSH toward zero.",
+        "B": "Primary hypothyroidism raises TSH but with a low free T4 and symptoms of hormone deficiency.",
+        "C": "Taking thyroid hormone raises free T4 and suppresses TSH; it does not leave TSH inappropriately high.",
+        "D": "An autonomous nodule makes hormone independently of TSH, so TSH is suppressed.",
+        "E": "A TSH that is normal or slightly high in the face of high thyroid hormone is inappropriate and indicates secondary hyperthyroidism from a TSH-secreting adenoma."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-011",
+      "question": "A 27-year-old woman comes to the physician because she has not had a menstrual period in 3 months. Menarche was at age 12 and her cycles were regular until 7 months ago. She takes no medications and has no headaches or visual changes. Serum prolactin is 120 ng/mL (reference <25). Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Formal visual field testing",
+        "B": "MRI of the pituitary gland",
+        "C": "Serum beta-hCG measurement",
+        "D": "Serum IGF-1 measurement",
+        "E": "Treatment with cabergoline"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Visual fields are tested when imaging shows a macroadenoma near the chiasm, after common causes of high prolactin are excluded.",
+        "B": "MRI is appropriate once pregnancy, hypothyroidism, medications and organ failure have been excluded as causes.",
+        "C": "Pregnancy is the physiologic stimulus for prolactin release and a cause of amenorrhea, so a pregnancy test comes first, with a TSH and a medication review.",
+        "D": "IGF-1 screens for GH excess; it is part of an adenoma workup, not the first step in hyperprolactinemia.",
+        "E": "Dopamine agonists treat a prolactinoma, which has not been established before pregnancy and other causes are ruled out."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-012",
+      "question": "A 33-year-old woman has 8 months of fatigue, weight gain, constipation, and irregular menses, and has recently noticed milky discharge from both breasts. She takes no medications and a pregnancy test is negative. Laboratory studies are shown. Which of the following best explains her galactorrhea?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "48 mU/L",
+          "0.4–4.0 mU/L"
+        ],
+        [
+          "Free T4",
+          "0.4 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "Prolactin",
+          "62 ng/mL",
+          "<25 ng/mL"
+        ],
+        [
+          "Creatinine",
+          "0.8 mg/dL",
+          "0.6–1.1 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Autonomous secretion by a lactotroph adenoma",
+        "B": "Blockade of dopamine receptors on lactotrophs",
+        "C": "Compression of the pituitary stalk by a mass",
+        "D": "Decreased renal clearance of prolactin",
+        "E": "Stimulation of lactotrophs by increased TRH"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A prolactinoma is possible with any high prolactin, but here primary hypothyroidism explains the level and should be treated first.",
+        "B": "Dopamine receptor blockade is how phenothiazines and metoclopramide raise prolactin; she takes no such drugs.",
+        "C": "Stalk effect interrupts dopamine delivery from a large mass; nothing here suggests a sellar tumor.",
+        "D": "Renal failure raises prolactin, but her creatinine is normal.",
+        "E": "In primary hypothyroidism loss of thyroid hormone feedback raises TRH, and TRH stimulates prolactin release as well as TSH."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-013",
+      "question": "A 56-year-old man has decreased libido, fatigue, and progressive loss of peripheral vision. MRI shows a 2.8-cm sellar mass with suprasellar extension. Serum prolactin is 58 ng/mL (reference <20), and testosterone, free T4 and morning cortisol are all low. After resection, immunostaining of the tumor is negative for prolactin. Which of the following best explains the preoperative prolactin level?",
+      "answers": {
+        "A": "Decreased hepatic clearance of prolactin",
+        "B": "Ectopic secretion of prolactin by the tumor",
+        "C": "Increased TRH from primary hypothyroidism",
+        "D": "Interrupted delivery of hypothalamic dopamine",
+        "E": "Loss of gonadal steroid negative feedback"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Liver failure can raise prolactin, but nothing suggests liver disease and a mass lesion is present.",
+        "B": "The tumor does not stain for prolactin, so it is not the source of the hormone.",
+        "C": "His low free T4 is secondary to pituitary failure, in which TRH-driven prolactin release is not the mechanism.",
+        "D": "Any large mass disrupting the stalk interrupts tonic dopamine inhibition of lactotrophs, so prolactin rises modestly even when the tumor makes none.",
+        "E": "Low testosterone is a result of the high prolactin and gonadotroph compression, not a cause of hyperprolactinemia."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-014",
+      "question": "A 31-year-old woman has 1 year of amenorrhea, galactorrhea, and inability to conceive. Pregnancy test is negative, TSH and creatinine are normal, and she takes no medications. Serum prolactin is 340 ng/mL (reference <25). MRI shows a 1.4-cm pituitary adenoma that does not touch the optic chiasm. Which of the following is the most appropriate initial treatment?",
+      "answers": {
+        "A": "Cabergoline",
+        "B": "Ketoconazole",
+        "C": "Octreotide",
+        "D": "Pituitary irradiation",
+        "E": "Transsphenoidal resection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Prolactinomas are the one adenoma treated medically first: dopamine agonists shrink the tumor and can restore menses and fertility.",
+        "B": "Ketoconazole blocks adrenal glucocorticoid synthesis and is used in Cushing's disease.",
+        "C": "Somatostatin analogues inhibit GH and are used for acromegaly, not prolactinoma.",
+        "D": "Radiation is an adjunct after incomplete surgery for other adenomas, not initial therapy for a prolactinoma.",
+        "E": "Surgery is reserved for prolactinomas that fail medication or cause severe mass effect."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-015",
+      "question": "Two days after transsphenoidal resection of a pituitary macroadenoma, a 49-year-old man has intense thirst and asks repeatedly for ice water. Urine output is 7 L over 24 hours. He is alert and drinking freely. Laboratory studies are shown. Which of the following is the most appropriate pharmacotherapy?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum sodium",
+          "147 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Serum osmolality",
+          "302 mOsm/kg",
+          "275–295 mOsm/kg"
+        ],
+        [
+          "Urine osmolality",
+          "95 mOsm/kg",
+          "300–900 mOsm/kg"
+        ],
+        [
+          "Glucose",
+          "96 mg/dL",
+          "70–99 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Desmopressin",
+        "B": "Fludrocortisone",
+        "C": "Hydrocortisone",
+        "D": "Hypertonic saline",
+        "E": "Insulin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Polyuria with dilute urine and a craving for cold water after pituitary surgery is AVP deficiency, treated by giving back AVP, which concentrates the urine again.",
+        "B": "Fludrocortisone replaces mineralocorticoid in primary adrenal insufficiency and does not concentrate the urine.",
+        "C": "Glucocorticoid replaces an ACTH deficiency; it does not correct the water loss of AVP deficiency.",
+        "D": "Hypertonic saline is for severe symptomatic hyponatremia from SIADH; his sodium is high.",
+        "E": "Insulin treats the osmotic diuresis of diabetes mellitus; his glucose is normal."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-016",
+      "question": "A 68-year-old woman being treated for pneumonia is brought to the emergency department after a generalized seizure. For 3 days she has had nausea and increasing lethargy. She appears euvolemic. Serum sodium is 112 mEq/L, serum osmolality is 238 mOsm/kg, and urine osmolality is 520 mOsm/kg. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Desmopressin administration",
+        "B": "Hypertonic saline infusion",
+        "C": "Isotonic saline infusion",
+        "D": "Oral water restriction alone",
+        "E": "Thiazide diuretic therapy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Desmopressin would add to the ADH effect and worsen water retention and hyponatremia.",
+        "B": "SIADH with severe signs such as seizures or coma is treated with hypertonic saline rather than water restriction alone.",
+        "C": "Isotonic saline does not correct the water retention of SIADH and is not the treatment for severe symptomatic hyponatremia.",
+        "D": "Water restriction treats SIADH that is not severe; a seizure demands faster correction.",
+        "E": "A thiazide promotes sodium loss and would lower the serum sodium further."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-017",
+      "question": "A 29-year-old woman is evaluated 6 weeks after a delivery complicated by massive hemorrhage requiring transfusion of 6 units of blood. She has been unable to produce breast milk and has profound fatigue, lightheadedness on standing, and nausea. Blood pressure is 86/52 mm Hg. Endocrine testing is sent. Replacement of which of the following is most important to begin now?",
+      "answers": {
+        "A": "Estrogen",
+        "B": "Growth hormone",
+        "C": "Hydrocortisone",
+        "D": "Levothyroxine",
+        "E": "Prolactin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gonadotropin deficiency is replaced with estrogen, but this is not urgent.",
+        "B": "GH is often lost early in hypopituitarism, yet its replacement is never an emergency.",
+        "C": "In Sheehan's syndrome all axes are tested, but ACTH deficiency causes secondary adrenal insufficiency, a medical emergency in which glucocorticoid is replaced immediately.",
+        "D": "TSH deficiency is replaced with thyroid hormone, but steroids are the most important and most urgent replacement.",
+        "E": "Failure to lactate is the first sign of Sheehan's syndrome, but there is no prolactin replacement."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-018",
+      "question": "A 30-year-old woman comes to the physician 3 weeks after an uncomplicated vaginal delivery with minimal blood loss. She has persistent headaches, fatigue, marked thirst, and urine output of several liters a day. She is producing little breast milk. MRI shows no sellar mass but a thickened pituitary stalk. Morning cortisol and free T4 are low. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Lymphocytic hypophysitis",
+        "B": "Pituitary apoplexy",
+        "C": "Primary empty sella",
+        "D": "Prolactin-secreting adenoma",
+        "E": "Sheehan syndrome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Autoimmune lymphocytic infiltration of the pituitary and stalk appears in late pregnancy or postpartum, may show only stalk thickening, and causes anterior pituitary failure with diabetes insipidus.",
+        "B": "Apoplexy is hemorrhagic infarction of an adenoma, presenting abruptly with headache, visual loss and ophthalmoplegia.",
+        "C": "A primary empty sella is a CSF-filled sella that usually causes no pituitary dysfunction.",
+        "D": "A prolactinoma would show a sellar mass and galactorrhea rather than failure to lactate.",
+        "E": "Sheehan's syndrome follows postpartum hemorrhage; her delivery had minimal blood loss."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-019",
+      "question": "A 61-year-old man with a known 2.4-cm nonfunctioning pituitary macroadenoma is brought to the emergency department with the sudden onset of the worst headache of his life. He is confused. Examination shows a right-sided ptosis, impaired movement of the right eye, and decreased visual acuity in both eyes. Which of the following is the most likely underlying process?",
+      "answers": {
+        "A": "Autoimmune infiltration of the gland",
+        "B": "Granulomatous infiltration of the stalk",
+        "C": "Hemorrhagic infarction of the adenoma",
+        "D": "Herniation of CSF into the sella",
+        "E": "Ischemic necrosis after hypovolemia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Lymphocytic hypophysitis is autoimmune and occurs around pregnancy with a gradual course.",
+        "B": "Sarcoid infiltration causes slowly progressive hypopituitarism, not an abrupt catastrophe.",
+        "C": "Pituitary apoplexy is hemorrhagic infarction of an adenoma, presenting acutely with headache, mental status change, ophthalmoplegia and visual loss.",
+        "D": "CSF entering the sella through a diaphragm defect produces a primary empty sella, usually without symptoms.",
+        "E": "Sheehan's syndrome affects the postpartum pituitary after obstetric hemorrhage."
+      }
+    },
+    {
+      "id": "endorepro-pituitary-abnormalities-020",
+      "question": "A 60-year-old man has a brain MRI after a car accident, which shows a 6-mm pituitary adenoma. He has no headaches, visual symptoms, erectile dysfunction, or change in ring or hat size, and examination is normal. Prolactin, IGF-1, TSH, free T4, LH, FSH and a late-night salivary cortisol are all normal. Which of the following is the most appropriate management?",
+      "answers": {
+        "A": "Formal visual field testing",
+        "B": "No further follow-up imaging",
+        "C": "Repeat pituitary MRI in 1 year",
+        "D": "Repeat pituitary MRI in 6 months",
+        "E": "Transsphenoidal resection"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Visual field testing and testing for hypopituitarism are added for macroadenomas, which lie near the optic chiasm.",
+        "B": "Skipping repeat imaging is considered only for very small lesions under 4 mm.",
+        "C": "A nonfunctional microadenoma is followed with MRI at 1 year, then at 2 and 5 years if stable.",
+        "D": "Imaging at 6 months is the schedule for a macroadenoma of 10 mm or more.",
+        "E": "Surgery is for functioning tumors other than prolactinomas or for compression; this lesion is small and nonfunctional."
+      }
+    }
+  ]
+}

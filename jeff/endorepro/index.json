@@ -97,6 +97,21 @@
       ]
     },
     {
+      "file": "pituitary-abnormalities.json",
+      "name": "Pituitary Abnormalities",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.13.26-CM_Pituitary-Abnormalities_Simon_Notes-d615a47c20.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.13.26-CM_Pituitary-Abnormailities_Simon_Slides-a157c3fa6a.pdf"
+        }
+      ]
+    },
+    {
       "file": "pituitary-and-hypothalamus.json",
       "name": "Pituitary & Hypothalamus",
       "count": 20,
@@ -108,6 +123,21 @@
         {
           "label": "slides",
           "file": "10.09.26-PHYS-Pituitary-Hypothalamus_Haines_Slides-4bf0231c08.pdf"
+        }
+      ]
+    },
+    {
+      "file": "regulation-and-pharmacology-of-the-hypothalamus-and-pituitary.json",
+      "name": "Regulation and Pharmacology of the Hypothalamus and Pituitary",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.13.26-PHYS_PHARM-Regulation-and-Pharmacology-of-the-Hypothalamus-and-Pituitar-46484fcd1c.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.13.26-PHYS_PHARM-Regulation-and-Pharmacology-of-the-Hypothalamus-and-Pituitar-82849f895b.pdf"
         }
       ]
     },
