@@ -326,12 +326,6 @@
       return within(work, ms).then(list => list || []);
     },
 
-    dropSent(id) {
-      return cloud.then(c => {
-        if (c && c.uid === ns) return c.fs.deleteDoc(c.fs.doc(c.db, 'users', c.uid, 'sent', id));
-      }).catch(() => {});
-    },
-
     // What has been sent to you, newest first: [{ id, name, qids, t }].
     inbox(ms) {
       const work = cloud.then(async c => {
@@ -370,12 +364,6 @@
         return snap.docs.map(d => Object.assign({ id: d.id }, d.data())).filter(r => r.from && r.qid);
       }).catch(() => []);
       return within(work, ms).then(list => list || []);
-    },
-
-    dropReceipt(id) {
-      return cloud.then(c => {
-        if (c && c.uid === ns) return c.fs.deleteDoc(c.fs.doc(c.db, 'users', c.uid, 'receipts', id));
-      }).catch(() => {});
     },
 
     // Where a conversation stands, now and whenever that changes:
