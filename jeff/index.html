@@ -108,6 +108,49 @@
       max-width: 720px;
     }
 
+    /* ── The desk ──
+       One column on a narrow screen: what people sent you, the lectures, the
+       ids box, the chat. With room, and an account to fill them, the sides
+       are used: ids, inbox and sent down the left, chat down the right, both
+       staying put while the lectures scroll between them. */
+    .desk {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      width: 100%;
+      max-width: 720px;
+    }
+    .rail { display: contents; }
+    .desk > .blocks { order: 2; }
+    .ids-row { order: 3; }
+    .chat-card { order: 4; height: 26rem; }
+    .chat-card[hidden] { display: none; }
+
+    @media (min-width: 1180px) {
+      body.acct .content { padding-top: 1.25rem; }
+      body.acct .desk {
+        display: grid;
+        grid-template-columns: minmax(250px, 330px) minmax(0, 720px) minmax(280px, 380px);
+        justify-content: center;
+        align-items: start;
+        gap: 1rem;
+        max-width: none;
+      }
+      body.acct .rail {
+        display: flex;
+        flex-direction: column;
+        gap: 0.65rem;
+        position: sticky;
+        top: 4.25rem;
+        max-height: calc(100vh - 5.5rem);
+        min-width: 0;
+      }
+      body.acct .rail-left { overflow-y: auto; scrollbar-width: thin; }
+      body.acct .desk > .blocks, body.acct .ids-row, body.acct .chat-card { order: 0; }
+      body.acct .rail .side-card { flex-shrink: 0; }
+      body.acct .chat-card { height: calc(100vh - 5.5rem); }
+    }
+
     /* A side card looks the same but is not a block: the inbox, the ids box. */
     .block-card, .side-card {
       border: 1px solid #c5bee0;
@@ -456,7 +499,14 @@
   </div>
 
   <div class="content">
-    <div class="blocks">
+    <div class="desk">
+    <aside class="rail rail-left">
+      <form class="side-card ids-row" id="idsRow" onsubmit="goIds(event)">
+        <input id="idsInput" type="text" placeholder="question ids" aria-label="question ids"
+               autocomplete="off" autocapitalize="none" spellcheck="false">
+        <button type="submit" id="idsGo" disabled>start</button>
+        <button type="button" class="btn-outline" id="idsSend" onclick="SHARE.pick(this, typedIds())" disabled hidden>send</button>
+      </form>
       <div class="side-card inbox" id="inbox" hidden>
         <div class="block-left">
           <div class="block-name">inbox</div>
@@ -470,15 +520,11 @@
         </div>
         <div class="lecture-list" id="sentList"></div>
       </div>
-    </div>
-    <div class="blocks" id="blocks" style="margin-top:0.65rem"></div>
-    <div class="blocks" style="margin-top:0.65rem">
-      <form class="side-card ids-row" id="idsRow" onsubmit="goIds(event)">
-        <input id="idsInput" type="text" placeholder="question ids" aria-label="question ids"
-               autocomplete="off" autocapitalize="none" spellcheck="false">
-        <button type="submit" id="idsGo" disabled>start</button>
-        <button type="button" class="btn-outline" id="idsSend" onclick="SHARE.pick(this, typedIds())" disabled hidden>send</button>
-      </form>
+    </aside>
+    <div class="blocks" id="blocks"></div>
+    <aside class="rail rail-right">
+      <div class="side-card chat-card" id="chat" hidden></div>
+    </aside>
     </div>
   </div>
 
@@ -499,6 +545,7 @@
   <script src="gate.js"></script>
   <script src="store.js"></script>
   <script src="share.js"></script>
+  <script src="chat.js"></script>
   <script>
     // Files in a block folder that describe it rather than hold questions.
     const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
@@ -941,7 +988,13 @@
       }
       if (user) {
         paintInbox();
-        SHARE.able().then(ok => { document.getElementById('idsSend').hidden = !ok; });
+        SHARE.able().then(ok => {
+          document.getElementById('idsSend').hidden = !ok;
+          if (!ok) return;
+          document.body.classList.add('acct');
+          document.getElementById('chat').hidden = false;
+          CHAT.mount(document.getElementById('chat'));
+        });
       }
       await init();
       paintStats();

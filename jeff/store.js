@@ -16,7 +16,8 @@
  * Signed in, there is also an inbox: questions other people sent you, as
  * lists of question ids under users/{uid}/inbox. What you sent is noted
  * under users/{uid}/sent. And receipts, under users/{uid}/receipts: what
- * became of the ones you sent. Both live in
+ * became of the ones you sent. And chat: what two people have said to each
+ * other, under chats/{their two uids}. These live in
  * Firestore only.
  *
  * All of it is written to this browser first, so the site works signed out,
@@ -260,6 +261,19 @@
   document.addEventListener('visibilitychange', () => { if (document.hidden) flushRuns(); });
   window.addEventListener('pagehide', flushRuns);
 
+  // ── Chat ──
+  // A conversation is between two people, under chats/{their two uids in
+  // order}: the document says when it was last added to and how far each of
+  // them has read, and the messages are beneath it.
+  const pairOf = (a, b) => [a, b].sort().join('_');
+
+  // Listen to something in the account until the function this returns is called.
+  function listen(start) {
+    let stop = null, over = false;
+    cloud.then(c => { if (c && c.uid === ns && !over) stop = start(c); }).catch(() => {});
+    return () => { over = true; if (stop) stop(); };
+  }
+
   window.STORE = {
     // Call once, before anything else, with whoever GATE let in.
     open(user, cloudPromise) {
@@ -361,6 +375,48 @@
     dropReceipt(id) {
       return cloud.then(c => {
         if (c && c.uid === ns) return c.fs.deleteDoc(c.fs.doc(c.db, 'users', c.uid, 'receipts', id));
+      }).catch(() => {});
+    },
+
+    // Where a conversation stands, now and whenever that changes:
+    // cb({ t, unread, seen }), `seen` being how far the other person has
+    // read. cb(null) when it can't be read. Returns a way to stop.
+    watchChat(uid, cb) {
+      return listen(c => c.fs.onSnapshot(c.fs.doc(c.db, 'chats', pairOf(c.uid, uid)), snap => {
+        const d = snap.data() || {}, read = d.read || {};
+        cb({ t: d.t || 0, unread: !!d.t && d.from !== c.uid && d.t > (read[c.uid] || 0), seen: read[uid] || 0 });
+      }, e => { console.warn('jeff: chat', e); cb(null); }));
+    },
+
+    // Its messages, oldest first, now and whenever one arrives:
+    // cb([{ id, mine, name, text, qids, t }]), or cb(null) when they can't be read.
+    watchThread(uid, cb) {
+      return listen(c => c.fs.onSnapshot(
+        c.fs.query(c.fs.collection(c.db, 'chats', pairOf(c.uid, uid), 'messages'), c.fs.orderBy('t'), c.fs.limitToLast(200)),
+        snap => cb(snap.docs.map(d => Object.assign({ id: d.id, mine: d.data().from === c.uid }, d.data()))),
+        e => { console.warn('jeff: chat', e); cb(null); }));
+    },
+
+    // Say something to someone, about these questions if any. Resolves true
+    // once it is there.
+    say(uid, text, qids) {
+      return cloud.then(async c => {
+        text = String(text || '').trim().slice(0, 2000);
+        qids = (qids || []).slice(0, 200);
+        if (!c || c.uid !== ns || !(text || qids.length)) return false;
+        const t = Date.now(), at = c.fs.doc(c.db, 'chats', pairOf(c.uid, uid));
+        await c.fs.addDoc(c.fs.collection(at, 'messages'), { from: c.uid, name: (me && me.name) || '', text, qids, t });
+        c.fs.setDoc(at, { t, from: c.uid, read: { [c.uid]: t } }, { merge: true }).catch(() => {});
+        return true;
+      }).catch(e => { console.warn('jeff: say', e); return false; });
+    },
+
+    // You have read a conversation up to now.
+    readChat(uid) {
+      return cloud.then(c => {
+        if (c && c.uid === ns) {
+          return c.fs.setDoc(c.fs.doc(c.db, 'chats', pairOf(c.uid, uid)), { read: { [c.uid]: Date.now() } }, { merge: true });
+        }
       }).catch(() => {});
     },
 

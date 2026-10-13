@@ -15,6 +15,9 @@ rules_version = '2';
 //                     opened one, and whether they got it right. Whoever was
 //                     sent the question writes it, under their own name;
 //                     only the sender reads or clears it.
+// chats/{a_b}         what two people have said to each other, named by their
+//                     two uids in order. Only those two read it or add to it,
+//                     each under their own name.
 // people/{uid}        each person's name, so the others can pick who to send
 //                     to. Readable by everyone on the list.
 service cloud.firestore {
@@ -58,6 +61,26 @@ service cloud.firestore {
       }
       allow create: if mine();
       allow update: if mine() && resource.data.from == request.auth.uid;
+    }
+
+    match /chats/{pair} {
+      function between() {
+        return onList() && request.auth.uid in pair.split('_');
+      }
+      allow read, write: if between();
+
+      match /messages/{message} {
+        allow read: if between();
+        allow create: if between()
+            && request.resource.data.keys().hasOnly(['from', 'name', 'text', 'qids', 't'])
+            && request.resource.data.from == request.auth.uid
+            && request.resource.data.name is string
+            && request.resource.data.name.size() <= 100
+            && request.resource.data.text is string
+            && request.resource.data.text.size() <= 2000
+            && request.resource.data.qids is list
+            && request.resource.data.qids.size() <= 200;
+      }
     }
 
     match /people/{uid} {
