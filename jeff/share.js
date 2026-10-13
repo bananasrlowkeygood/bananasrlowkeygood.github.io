@@ -99,7 +99,10 @@
           close();
           const ok = await STORE.sendTo(p.uid, qids, p.name);
           flash(button, ok ? 'sent' : 'not sent');
-          if (ok) document.dispatchEvent(new Event('jeff-sent'));
+          if (ok) {
+            if (window.CHAT) CHAT.note(p.uid, qids);   // so there is something to reply to
+            document.dispatchEvent(new Event('jeff-sent'));
+          }
         };
         pop.appendChild(b);
       });
