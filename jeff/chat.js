@@ -1,12 +1,9 @@
 /* ── Chat ──
  *
- * CHAT.mount(el, { about, fold }) fills `el` with everyone else who has signed
+ * CHAT.mount(el, { fold }) fills `el` with everyone else who has signed
  * in, a card each. Pick one and it turns to what has passed between you: the
  * questions you sent each other, as cards saying what became of them, and
- * what you have said, with a box to say more. `about` is the question ids a
- * message is about, shown as a chip you can take off; change them later with
- * the returned handle.about(ids), and turn to someone with handle.to(uid).
- * `fold` puts a hide button in the title. Needs store.js and an account.
+ * what you have said, with a box to say more. `fold` puts a hide button in the title. Needs store.js and an account.
  */
 (function () {
   'use strict';
@@ -163,20 +160,6 @@
       padding-top: 0.55rem;
       border-top: 1px solid #c5bee0;
     }
-    .chat-about { display: flex; flex-wrap: wrap; gap: 0.25rem; width: 100%; }
-    .chat-about:empty { display: none; }
-    .chat-about button {
-      height: 20px;
-      padding: 0 0.4rem;
-      border: 1px solid #c5bee0;
-      border-radius: 4px;
-      background: transparent;
-      color: #9a9a9a;
-      font-size: 0.68rem;
-      text-decoration: line-through;
-      cursor: pointer;
-    }
-    .chat-about button.on { background: rgba(92,79,122,0.1); border-color: #5c4f7a; color: #5c4f7a; text-decoration: none; }
     .chat-box textarea {
       flex: 1 1 8rem;
       min-width: 0;
@@ -256,12 +239,12 @@
         `${opts.fold ? '<button type="button" class="week-shuffle" data-fold>hide</button>' : ''}</div>` +
       `<div class="chat-people"><span class="chat-none">…</span></div>` +
       `<div class="chat-thread" hidden><div class="chat-log"></div>` +
-        `<form class="chat-box"><div class="chat-about"></div>` +
+        `<form class="chat-box">` +
           `<textarea rows="1" placeholder="message" aria-label="message"></textarea>` +
           `<button type="submit" class="chat-send" disabled>send</button></form></div>`;
     const $ = sel => el.querySelector(sel);
     const peopleEl = $('.chat-people'), threadEl = $('.chat-thread'), log = $('.chat-log');
-    const box = $('textarea'), sendBtn = $('.chat-send'), aboutEl = $('.chat-about');
+    const box = $('textarea'), sendBtn = $('.chat-send');
 
     let people = null;      // everyone else: [{ uid, name }]; null until known
     const meta = {};        // uid -> where the talk with them stands
@@ -270,8 +253,6 @@
     let msgs = null;        // what has been said with them; null until known
     let failed = false;     // their messages can't be read
     let stopThread = null;
-    let about = clean(opts.about), off = new Set();   // ids on offer, and the ones taken off
-    let asked = null;       // someone to turn to, asked for before the list was in
 
     // Everything that has passed between you and this person, oldest first:
     // the questions sent either way, and what was said.
@@ -318,17 +299,9 @@
           `<span class="chat-last">${esc(r.last)}</span>${r.unread ? '<i class="chat-dot" title="unread"></i>' : ''}</button>`).join('');
     }
 
-    function paintAbout() {
-      aboutEl.innerHTML = about.map(id =>
-        `<button type="button" class="${off.has(id) ? '' : 'on'}" data-id="${esc(id)}" title="About this question">${esc(id)}</button>`).join('');
-      ready();
-    }
-
-    const attached = () => about.filter(id => !off.has(id));
-
     function ready() {
       box.disabled = !open || failed || !msgs;
-      sendBtn.disabled = box.disabled || !(box.value.trim() || attached().length);
+      sendBtn.disabled = box.disabled || !box.value.trim();
     }
 
     function card(uid, id, item) {
@@ -405,13 +378,6 @@
       if (b) { pick(b.dataset.uid); if (!box.disabled) box.focus(); }
     });
 
-    aboutEl.addEventListener('click', e => {
-      const b = e.target.closest('[data-id]');
-      if (!b) return;
-      if (!off.delete(b.dataset.id)) off.add(b.dataset.id);
-      paintAbout();
-    });
-
     const fit = () => { box.style.height = 'auto'; box.style.height = `${Math.min(box.scrollHeight + 2, 120)}px`; };
     box.addEventListener('input', () => { fit(); ready(); });
     box.addEventListener('keydown', e => {
@@ -420,16 +386,11 @@
 
     $('.chat-box').addEventListener('submit', async e => {
       e.preventDefault();
-      const text = box.value.trim(), ids = attached();
-      if (!open || box.disabled || !(text || ids.length)) return;
-      box.value = ''; fit();
-      // Said once about a question, the next message needn't say it again.
-      ids.forEach(id => off.add(id));
-      paintAbout();
-      if (!await STORE.say(open, text, ids)) {
-        box.value = text; fit();
-        ids.forEach(id => off.delete(id));
-        paintAbout();
+      const text = box.value.trim();
+      if (!open || box.disabled || !text) return;
+      box.value = ''; fit(); ready();
+      if (!await STORE.say(open, text)) {
+        box.value = text; fit(); ready();
         SHARE.flash(sendBtn, 'not sent');
       }
     });
@@ -454,22 +415,9 @@
         if (m.unread) STORE.readChat(p.uid);
         if (msgs) paintLog(true);
       }));
-      if (asked) pick(asked);
     })();
 
-    paintAbout();
-
-    return {
-      // The questions the next message is about.
-      about(ids) {
-        ids = clean(ids);
-        if (ids.join() === about.join()) return;
-        about = ids; off = new Set();
-        paintAbout();
-      },
-      // Turn to this person.
-      to(uid) { asked = uid; pick(uid); }
-    };
+    ready();
   }
 
   window.CHAT = { mount };
