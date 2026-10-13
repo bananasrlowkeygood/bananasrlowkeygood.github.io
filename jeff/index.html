@@ -243,6 +243,8 @@
     }
     .inbox-q:hover { background: rgba(92,79,122,0.14); }
     .inbox-q.done { border-color: #dcdcdc; color: #9a9a9a; text-decoration: line-through; }
+    .inbox-q.right { background: #edf7f1; border-color: #2e7d4f; color: #2e7d4f; }
+    .inbox-q.wrong { background: #fdf0f0; border-color: #b03030; color: #b03030; }
     .inbox-item.read .lecture-link { background: transparent; color: #9a9a9a; }
 
     /* ── Questions by id ── */
@@ -461,6 +463,12 @@
           <div class="block-count" id="inboxCount"></div>
         </div>
         <div class="lecture-list" id="inboxList"></div>
+      </div>
+      <div class="side-card inbox" id="sent" hidden>
+        <div class="block-left">
+          <div class="block-name">sent</div>
+        </div>
+        <div class="lecture-list" id="sentList"></div>
       </div>
     </div>
     <div class="blocks" id="blocks" style="margin-top:0.65rem"></div>
@@ -709,6 +717,7 @@
 
     // ── Inbox ──
     let mail = null;      // what is in the inbox, once asked for
+    let receipts = null;  // and what became of the questions you sent
     let located = null;   // short id -> where it is from, and where its history is filed
     let loading = null;   // both of those being fetched, the once
 
@@ -757,9 +766,38 @@
 
     async function paintInbox() {
       await (loading || (loading = (async () => {
-        mail = await STORE.inbox(15000);
-        located = await locate(mail.flatMap(idsOf));
+        [mail, receipts] = await Promise.all([STORE.inbox(15000), STORE.receipts(15000)]);
+        located = await locate([...mail.flatMap(idsOf), ...receipts.map(r => r.qid)]);
       })()));
+      paintMail();
+      paintSent();
+    }
+
+    // A person's questions, a line per lecture in the page's order, each a
+    // chip made by `chip(id, itsNumberInTheLecture)`. Ones no longer on the
+    // site go last, under their ids.
+    function lectureLines(ids, chip) {
+      const lecs = [...new Set(ids.map(id => located[id] && located[id].lec).filter(Boolean))].sort(byOrder);
+      const lost = ids.filter(id => !located[id]);
+      return lecs.map(lec => {
+        const mine = ids.filter(id => located[id] && located[id].lec === lec).sort((a, b) => located[a].n - located[b].n);
+        return `<div class="inbox-qs"><a class="inbox-lec" href="quiz.html?q=${mine.join(',')}">` +
+          `${lec.week ? `<span class="inbox-week">${esc(lec.week)}</span>` : ''}${esc(lec.name)}</a>` +
+          `${mine.map(id => chip(id, located[id].n)).join('')}</div>`;
+      }).join('') + (lost.length ? `<div class="inbox-qs">${lost.map(id => chip(id, id)).join('')}</div>` : '');
+    }
+
+    const dayOf = t => t ? new Date(t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : '';
+
+    function personRow(name, ids, stat, t, drop) {
+      return `<div class="inbox-row">` +
+        `<a class="lecture-link" href="quiz.html?q=${ids.join(',')}">` +
+          `<span class="lecture-name">${esc(String(name || 'someone').toLowerCase())}</span>` +
+          `<span class="lecture-stat">${stat}<span>${esc(dayOf(t))}</span></span></a>` +
+        `<button class="week-shuffle" type="button" data-drop="${esc(drop.join(' '))}">clear</button></div>`;
+    }
+
+    function paintMail() {
       // One row per person, however many times they sent: every question of
       // theirs once, dated by the last time it was sent.
       const from = {};
@@ -769,32 +807,38 @@
         if ((m.t || 0) >= g.t) { g.t = m.t || 0; g.name = m.name; }
         idsOf(m).forEach(id => { g.at[id] = Math.max(g.at[id] || 0, m.t || 0); });
       });
-      const list = document.getElementById('inboxList');
       let left = 0;
-      list.innerHTML = Object.values(from).sort((a, b) => b.t - a.t).map(g => {
-        const day = g.t ? new Date(g.t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : '';
+      document.getElementById('inboxList').innerHTML = Object.values(from).sort((a, b) => b.t - a.t).map(g => {
         const ids = Object.keys(g.at);
         const done = ids.filter(id => doneSince(id, g.at[id]));
         left += ids.length - done.length;
-        const chip = (id, label) =>
-          `<a class="inbox-q${done.includes(id) ? ' done' : ''}" href="quiz.html?q=${id}">${label}</a>`;
-        const lecs = [...new Set(ids.map(id => located[id] && located[id].lec).filter(Boolean))].sort(byOrder);
-        const lost = ids.filter(id => !located[id]);   // no longer on the site
-        return `<div class="inbox-item${done.length === ids.length ? ' read' : ''}"><div class="inbox-row">` +
-          `<a class="lecture-link" href="quiz.html?q=${ids.join(',')}">` +
-            `<span class="lecture-name">${esc(String(g.name || 'someone').toLowerCase())}</span>` +
-            `<span class="lecture-stat"><span>${done.length}/${ids.length} done</span><span>${esc(day)}</span></span></a>` +
-          `<button class="week-shuffle" type="button" data-drop="${esc(g.drop.join(' '))}">clear</button></div>` +
-          lecs.map(lec => {
-            const mine = ids.filter(id => located[id] && located[id].lec === lec).sort((a, b) => located[a].n - located[b].n);
-            return `<div class="inbox-qs"><a class="inbox-lec" href="quiz.html?q=${mine.join(',')}">` +
-              `${lec.week ? `<span class="inbox-week">${esc(lec.week)}</span>` : ''}${esc(lec.name)}</a>` +
-              `${mine.map(id => chip(id, located[id].n)).join('')}</div>`;
-          }).join('') +
-          (lost.length ? `<div class="inbox-qs">${lost.map(id => chip(id, id)).join('')}</div>` : '') + `</div>`;
+        return `<div class="inbox-item${done.length === ids.length ? ' read' : ''}">` +
+          personRow(g.name, ids, `<span>${done.length}/${ids.length} done</span>`, g.t, g.drop) +
+          lectureLines(ids, (id, label) =>
+            `<a class="inbox-q${done.includes(id) ? ' done' : ''}" href="quiz.html?q=${id}">${label}</a>`) + `</div>`;
       }).join('');
       document.getElementById('inboxCount').textContent = `${left} q`;
       document.getElementById('inbox').hidden = !mail.length;
+    }
+
+    // What became of the questions you sent, a row per person: each one they
+    // have opened, and how the first answer went.
+    function paintSent() {
+      const to = {};
+      receipts.forEach(r => {
+        const g = to[r.from] || (to[r.from] = { name: r.name, t: 0, of: {}, drop: [] });
+        g.drop.push(r.id);
+        g.of[r.qid] = r;
+        const t = Math.max(r.opened || 0, r.done || 0);
+        if (t >= g.t) { g.t = t; g.name = r.name; }
+      });
+      document.getElementById('sentList').innerHTML = Object.values(to).sort((a, b) => b.t - a.t).map(g => {
+        const state = id => !g.of[id].done ? 'opened' : g.of[id].ok ? 'right' : 'wrong';
+        return `<div class="inbox-item">` + personRow(g.name, Object.keys(g.of), '', g.t, g.drop) +
+          lectureLines(Object.keys(g.of), (id, label) =>
+            `<a class="inbox-q ${state(id)}" href="quiz.html?q=${id}">${label} ${state(id)}</a>`) + `</div>`;
+      }).join('');
+      document.getElementById('sent').hidden = !receipts.length;
     }
 
     document.getElementById('inboxList').addEventListener('click', async e => {
@@ -803,7 +847,16 @@
       const gone = b.dataset.drop.split(' ');
       await Promise.all(gone.map(id => STORE.dropInbox(id)));
       mail = mail.filter(m => !gone.includes(m.id));
-      paintInbox();
+      paintMail();
+    });
+
+    document.getElementById('sentList').addEventListener('click', async e => {
+      const b = e.target.closest('[data-drop]');
+      if (!b) return;
+      const gone = b.dataset.drop.split(' ');
+      await Promise.all(gone.map(id => STORE.dropReceipt(id)));
+      receipts = receipts.filter(r => !gone.includes(r.id));
+      paintSent();
     });
 
     function weekGroup(block, g) {

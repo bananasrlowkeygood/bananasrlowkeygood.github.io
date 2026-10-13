@@ -14,7 +14,9 @@
  *             so they can be listed without loading every one.
  *
  * Signed in, there is also an inbox: questions other people sent you, as
- * lists of question ids under users/{uid}/inbox. It lives in Firestore only.
+ * lists of question ids under users/{uid}/inbox. And receipts, under
+ * users/{uid}/receipts: what became of the ones you sent. Both live in
+ * Firestore only.
  *
  * All of it is written to this browser first, so the site works signed out,
  * offline, or with no Firebase project at all. When someone is signed in it is
@@ -307,6 +309,34 @@
     dropInbox(id) {
       return cloud.then(c => {
         if (c && c.uid === ns) return c.fs.deleteDoc(c.fs.doc(c.db, 'users', c.uid, 'inbox', id));
+      }).catch(() => {});
+    },
+
+    // Tell whoever sent you a question what became of it: `what` is
+    // { opened } or { done, ok }. One receipt per question per person, kept in
+    // the sender's account.
+    receipt(to, qid, what) {
+      return cloud.then(c => {
+        if (!c || c.uid !== ns || !to || to === c.uid) return;
+        return c.fs.setDoc(c.fs.doc(c.db, 'users', to, 'receipts', `${c.uid}_${qid}`),
+          Object.assign({ from: c.uid, name: (me && me.name) || '', qid }, what), { merge: true });
+      }).catch(e => console.warn('jeff: receipt', e));
+    },
+
+    // What became of the questions you sent:
+    // [{ id, from, name, qid, opened, done, ok }].
+    receipts(ms) {
+      const work = cloud.then(async c => {
+        if (!c || c.uid !== ns) return [];
+        const snap = await c.fs.getDocs(c.fs.collection(c.db, 'users', c.uid, 'receipts'));
+        return snap.docs.map(d => Object.assign({ id: d.id }, d.data())).filter(r => r.from && r.qid);
+      }).catch(() => []);
+      return within(work, ms).then(list => list || []);
+    },
+
+    dropReceipt(id) {
+      return cloud.then(c => {
+        if (c && c.uid === ns) return c.fs.deleteDoc(c.fs.doc(c.db, 'users', c.uid, 'receipts', id));
       }).catch(() => {});
     },
 
