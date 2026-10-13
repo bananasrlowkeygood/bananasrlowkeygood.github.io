@@ -623,37 +623,6 @@
       color: #c98a00;
     }
 
-    /* ── Chat ──
-       A rail down the right, opened from the top bar: the question stays
-       where it is and the talk about it sits beside it. Without the room, it
-       slides over instead. */
-    .topbar-btn[hidden] { display: none; }
-    .chat-toggle { padding: 0 0.6rem; border-color: #c5bee0; font-size: 0.74rem; opacity: 0.8; }
-    .chat-toggle.on, .chat-toggle.on:not(:disabled):hover { background: #5c4f7a; border-color: #5c4f7a; color: #f0ecf8; opacity: 1; }
-    .chat-rail {
-      display: none;
-      position: sticky;
-      top: var(--topbar-h, 58px);
-      align-self: flex-start;
-      flex: 0 0 340px;
-      width: 340px;
-      height: calc(100vh - var(--topbar-h, 58px));
-      padding: 0.9rem 1rem 1rem;
-      background: #f0ecf8;
-      border-left: 1px solid #c5bee0;
-    }
-    .chat-rail.open { display: flex; }
-    .chat-rail > div { flex: 1 1 auto; min-width: 0; min-height: 0; }
-    @media (max-width: 1100px) {
-      .chat-rail {
-        position: fixed;
-        right: 0;
-        z-index: 9;
-        max-width: 100%;
-        box-shadow: -10px 0 34px rgba(92,79,122,0.22);
-      }
-    }
-
     /* Narrow screens: the rail lies down across the top and scrolls sideways */
     @media (max-width: 760px) {
       /* The reset button costs the topbar width — take it back off the
@@ -861,7 +830,6 @@
         <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
       </div>
     </div>
-    <button class="topbar-btn chat-toggle" id="chatBtn" onclick="toggleChat()" hidden>chat</button>
     <button class="topbar-btn" id="resetTestBtn" onclick="resetTest()" title="Reset this test">&#10227;</button>
   </div>
 </div>
@@ -954,8 +922,6 @@
 
 </div>
 
-<aside class="chat-rail" id="chatRail"><div id="chat"></div></aside>
-
 </div>
 
 <div class="hl-pop" id="hlPop" role="toolbar" aria-label="highlight">
@@ -967,7 +933,6 @@
 <script src="gate.js"></script>
 <script src="store.js"></script>
 <script src="share.js"></script>
-<script src="chat.js"></script>
 <script>
   // Files in a block folder that describe it rather than hold questions.
   const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
@@ -1648,31 +1613,6 @@
       by[m.from] = Math.max(by[m.from] || 0, m.t || 0);
     }));
     tellOpened();
-    turnToSender();
-  }
-
-  // ── Chat ──
-  let chat = null;
-
-  // The talk starts with whoever sent you the question on screen.
-  function turnToSender() {
-    if (!chat || !sentBy || !shown) return;
-    const from = Object.keys(sentBy[qidOf(questions[cur()])] || {})[0];
-    if (from) chat.to(from);
-  }
-
-  function toggleChat(on) {
-    const rail = document.getElementById('chatRail');
-    if (on === undefined) {
-      on = !rail.classList.contains('open');
-      try { localStorage.setItem('jeff-chat-open', on ? '1' : '0'); } catch (e) {}
-    }
-    rail.classList.toggle('open', on);
-    document.getElementById('chatBtn').classList.toggle('on', on);
-    if (on && !chat) {
-      chat = CHAT.mount(document.getElementById('chat'), { about: shown ? [qidOf(questions[cur()])] : [] });
-      turnToSender();
-    }
   }
 
   function tellOpened() {
@@ -1699,7 +1639,6 @@
     const resp = response(cur());
     shown = true;
     tellOpened();
-    if (chat) chat.about([qidOf(q)]);
 
     document.getElementById('qMeta').textContent = `question ${cur() + 1} of ${questions.length}`;
     const idBtn = document.getElementById('qIdBtn');
@@ -2384,15 +2323,7 @@
   GATE.ready().then(user => {
     STORE.open(user, GATE.cloud());
     load();
-    if (user) SHARE.able().then(ok => {
-      document.getElementById('qSendBtn').hidden = !ok;
-      if (!ok) return;
-      document.getElementById('chatBtn').hidden = false;
-      // Open where there is room for it, unless it was closed last time.
-      let was = null;
-      try { was = localStorage.getItem('jeff-chat-open'); } catch (e) {}
-      if (was !== '0' && window.innerWidth > 1100) toggleChat(true);
-    });
+    if (user) SHARE.able().then(ok => { document.getElementById('qSendBtn').hidden = !ok; });
     if (user) watchInbox();
   });
 </script>
