@@ -216,22 +216,9 @@
     .week-pct:empty { display: none; }
 
     /* ── Due for review ──
-       Only there on a day something is due. */
-    .due-row {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: 1rem;
-      padding: 0.65rem 1rem;
-      border: 1px solid #5c4f7a;
-      border-radius: 10px;
-      background: #f0ecf8;
-      font-size: 1rem;
-      transition: box-shadow 0.2s;
-    }
-    .due-row[hidden] { display: none; }
-    .due-row:hover { box-shadow: 0 4px 16px rgba(92,79,122,0.16); }
-    .due-row .block-count { opacity: 1; }
+       Beside history, and only there on a day something is due. */
+    .history-link[hidden] { display: none; }
+    .history-link { gap: 0.4em; }
 
     /* ── Inbox ──
        Questions other people sent you. Only there when there are some. */
@@ -440,6 +427,7 @@
       <div class="topbar-title">jeff</div>
     </div>
     <div class="topbar-right">
+      <a class="history-link" id="dueRow" title="Due for review" hidden><span>due</span><span id="dueCount"></span></a>
       <a class="history-link" href="history.html">history</a>
       <span class="bar-rule"></span>
       <span class="who" id="who"></span>
@@ -449,7 +437,6 @@
 
   <div class="content">
     <div class="blocks">
-      <a class="due-row" id="dueRow" hidden><span>due for review</span><span class="block-count" id="dueCount"></span></a>
       <div class="side-card inbox" id="inbox" hidden>
         <div class="block-left">
           <div class="block-name">inbox</div>
@@ -457,6 +444,9 @@
         </div>
         <div class="lecture-list" id="inboxList"></div>
       </div>
+    </div>
+    <div class="blocks" id="blocks" style="margin-top:0.65rem"></div>
+    <div class="blocks" style="margin-top:0.65rem">
       <form class="side-card ids-row" id="idsRow" onsubmit="goIds(event)">
         <input id="idsInput" type="text" placeholder="question ids" aria-label="question ids"
                autocomplete="off" autocapitalize="none" spellcheck="false">
@@ -464,7 +454,6 @@
         <button type="button" class="btn-outline" id="idsSend" onclick="SHARE.pick(this, typedIds())" disabled hidden>send</button>
       </form>
     </div>
-    <div class="blocks" id="blocks" style="margin-top:0.65rem"></div>
   </div>
 
   <div class="pickbar" id="pickbar">
@@ -604,7 +593,7 @@
       const row = document.getElementById('dueRow');
       row.hidden = !due;
       row.href = `quiz.html?set=${setOf(links)}&only=due`;
-      document.getElementById('dueCount').textContent = `${due} q`;
+      document.getElementById('dueCount').textContent = due;
     }
 
     // ── Custom sets ──
