@@ -84,9 +84,9 @@
       const people = await STORE.people(15000);
       if (pop !== mine) return;   // closed while waiting
       pop.innerHTML = '';
-      if (!people.length) {
+      if (!people || !people.length) {
         const none = document.createElement('span');
-        none.textContent = 'no one else yet';
+        none.textContent = people ? 'no one else yet' : "can't load the list";
         pop.appendChild(none);
         return;
       }

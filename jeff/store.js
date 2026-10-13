@@ -219,7 +219,7 @@
     cloud.then(c => {
       if (!c || c.uid !== ns) return;
       return c.fs.setDoc(c.fs.doc(c.db, 'people', c.uid), { name }).then(() => write(key, name));
-    }).catch(() => {});
+    }).catch(e => console.warn('jeff: announce', e));
   }
 
   const docIdOf = (block, file) =>
@@ -268,7 +268,8 @@
       if (user) { adopt(); announce(); }
     },
 
-    // Everyone else who has signed in: [{ uid, name }], by name.
+    // Everyone else who has signed in: [{ uid, name }], by name. null when
+    // the list couldn't be read, which is not the same as nobody being on it.
     people(ms) {
       const work = cloud.then(async c => {
         if (!c || c.uid !== ns) return [];
@@ -277,8 +278,8 @@
           .map(d => ({ uid: d.id, name: d.data().name || '' }))
           .filter(p => p.name)
           .sort((a, b) => a.name.localeCompare(b.name));
-      }).catch(() => []);
-      return within(work, ms).then(list => list || []);
+      }).catch(e => { console.warn('jeff: people', e); return null; });
+      return within(work, ms).then(list => list || null);
     },
 
     // Put these questions in someone's inbox. Resolves true once it is there.
