@@ -123,8 +123,31 @@
     .rail { display: contents; }
     .desk > .blocks { order: 2; }
     .ids-row { order: 3; }
-    .chat-card { order: 4; height: 26rem; }
-    .chat-card[hidden] { display: none; }
+    .review { order: 3; }
+    .chat-card { order: 4; max-height: 30rem; }
+    .chat-card[hidden], .review[hidden] { display: none; }
+
+    /* A card with a hide button shuts down to its title. */
+    .card-head { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+    .side-card.shut > :not(.card-head) { display: none; }
+
+    /* ── Review ──
+       What is due today, and the lectures going worst. */
+    .side-link {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.3rem 0.5rem;
+      border-radius: 5px;
+      background: rgba(92,79,122,0.06);
+      font-size: 0.82rem;
+      color: #5c4f7a;
+      transition: background 0.15s;
+    }
+    .side-link:hover { background: rgba(92,79,122,0.14); }
+    .side-link > span:first-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .side-link > span:last-child { flex-shrink: 0; font-size: 0.72rem; opacity: 0.65; }
 
     @media (min-width: 1180px) {
       body.acct .content { padding-top: 1.25rem; }
@@ -146,9 +169,9 @@
         min-width: 0;
       }
       body.acct .rail-left { overflow-y: auto; scrollbar-width: thin; }
-      body.acct .desk > .blocks, body.acct .ids-row, body.acct .chat-card { order: 0; }
+      body.acct .desk > .blocks, body.acct .ids-row, body.acct .review, body.acct .chat-card { order: 0; }
       body.acct .rail .side-card { flex-shrink: 0; }
-      body.acct .chat-card { height: calc(100vh - 5.5rem); }
+      body.acct .chat-card { max-height: calc(100vh - 5.5rem); }
     }
 
     /* A side card looks the same but is not a block: the inbox, the ids box. */
@@ -507,16 +530,27 @@
         <button type="submit" id="idsGo" disabled>start</button>
         <button type="button" class="btn-outline" id="idsSend" onclick="SHARE.pick(this, typedIds())" disabled hidden>send</button>
       </form>
+      <div class="side-card review" id="review" hidden>
+        <div class="card-head">
+          <div class="block-name">review</div>
+          <button class="week-shuffle" type="button" data-fold>hide</button>
+        </div>
+        <div class="lecture-list" id="reviewList"></div>
+      </div>
       <div class="side-card inbox" id="inbox" hidden>
-        <div class="block-left">
-          <div class="block-name">inbox</div>
-          <div class="block-count" id="inboxCount"></div>
+        <div class="card-head">
+          <div class="block-left">
+            <div class="block-name">inbox</div>
+            <div class="block-count" id="inboxCount"></div>
+          </div>
+          <button class="week-shuffle" type="button" data-fold>hide</button>
         </div>
         <div class="lecture-list" id="inboxList"></div>
       </div>
       <div class="side-card inbox" id="sent" hidden>
-        <div class="block-left">
+        <div class="card-head">
           <div class="block-name">sent</div>
+          <button class="week-shuffle" type="button" data-fold>hide</button>
         </div>
         <div class="lecture-list" id="sentList"></div>
       </div>
@@ -651,8 +685,41 @@
         card.querySelector('.block-stat').innerHTML = s.seen ? `<span>${s.seen} tried</span><span>${s.pct}%</span>` : '';
       });
       paintDue();
+      paintReview();
       paintPick();
     }
+
+    // What is due, then the lectures you have tried that are going worst,
+    // each opening on the questions you last got wrong.
+    function paintReview() {
+      const links = [...document.querySelectorAll('#blocks .lecture-link')];
+      const stat = a => standing([a.querySelector('.lecture-stat')]);
+      const due = document.getElementById('dueRow');
+      const weak = links.map(a => ({ a, s: stat(a) })).filter(x => x.s.seen && x.s.right < x.s.seen)
+        .sort((x, y) => x.s.pct - y.s.pct).slice(0, 5);
+      document.getElementById('reviewList').innerHTML =
+        (due.hidden ? '' : `<a class="side-link" href="${esc(due.getAttribute('href'))}"><span>due today</span><span>${esc(document.getElementById('dueCount').textContent)} q</span></a>`) +
+        weak.map(({ a, s }) =>
+          `<a class="side-link" href="quiz.html?set=${setOf([a])}&only=missed">` +
+          `<span>${esc(a.querySelector('.lecture-name').textContent.replace(/ \(\d+ Qs\)$/, ''))}</span><span>${s.pct}%</span></a>`).join('');
+      document.getElementById('review').hidden = due.hidden && !weak.length;
+    }
+
+    // ── Folding ──
+    // A card with a hide button shuts down to its title, and stays that way.
+    function foldable(card) {
+      const key = `jeff-shut:${card.id}`, btn = card.querySelector('[data-fold]');
+      const set = shut => { card.classList.toggle('shut', shut); btn.textContent = shut ? 'show' : 'hide'; };
+      let was = false;
+      try { was = localStorage.getItem(key) === '1'; } catch (e) {}
+      set(was);
+      btn.addEventListener('click', () => {
+        const shut = !card.classList.contains('shut');
+        set(shut);
+        try { localStorage.setItem(key, shut ? '1' : '0'); } catch (e) {}
+      });
+    }
+    ['review', 'inbox', 'sent'].forEach(id => foldable(document.getElementById(id)));
 
     // A set's lectures as the quiz page reads them: block/file-name, no .json.
     const setOf = links => links
@@ -993,7 +1060,8 @@
           if (!ok) return;
           document.body.classList.add('acct');
           document.getElementById('chat').hidden = false;
-          CHAT.mount(document.getElementById('chat'));
+          CHAT.mount(document.getElementById('chat'), { fold: true });
+          foldable(document.getElementById('chat'));
         });
       }
       await init();

@@ -1,14 +1,12 @@
 /* ── Chat ──
  *
- * CHAT.mount(el, { about }) fills `el` with a conversation: everyone else who
- * has signed in along the top, what you and the one picked have said beneath,
- * and a box to say more. `about` is the question ids a message is about, shown
- * as a chip you can take off; change them later with the returned
- * handle.about(ids), and turn to someone with handle.to(uid). Needs store.js
- * and an account.
- *
- * CHAT.note(uid, qids) leaves those questions in the conversation, for when
- * they were sent some other way.
+ * CHAT.mount(el, { about, fold }) fills `el` with everyone else who has signed
+ * in, a card each. Pick one and it turns to what has passed between you: the
+ * questions you sent each other, as cards saying what became of them, and
+ * what you have said, with a box to say more. `about` is the question ids a
+ * message is about, shown as a chip you can take off; change them later with
+ * the returned handle.about(ids), and turn to someone with handle.to(uid).
+ * `fold` puts a hide button in the title. Needs store.js and an account.
  */
 (function () {
   'use strict';
@@ -17,54 +15,72 @@
   css.textContent = `
     .chat, .chat * { font-family: "Klee One", cursive; box-sizing: border-box; }
     .chat { display: flex; flex-direction: column; min-height: 0; color: #14111a; }
-    .chat-head { display: flex; align-items: baseline; gap: 0.6rem; flex-shrink: 0; }
+    .chat-head { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; min-height: 22px; }
     .chat-title { font-size: 1rem; }
-    .chat-with { font-size: 0.78rem; color: #5c4f7a; opacity: 0.7; text-transform: lowercase; }
+    .chat-with { flex: 1 1 auto; min-width: 0; font-size: 1rem; text-transform: lowercase; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .chat-back {
+      height: 22px;
+      padding: 0 0.5rem;
+      border: 1px solid #c5bee0;
+      border-radius: 5px;
+      background: transparent;
+      color: #5c4f7a;
+      font-size: 0.74rem;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .chat-back:hover { border-color: #5c4f7a; background: rgba(92,79,122,0.06); }
+    .chat-head [data-fold] { margin-left: auto; }
+    .chat [hidden] { display: none; }
 
+    /* Everyone, a card each. */
     .chat-people {
       display: flex;
-      flex-wrap: wrap;
-      gap: 0.3rem;
-      flex-shrink: 0;
-      max-height: 4.6rem;
+      flex-direction: column;
+      gap: 0.25rem;
+      min-height: 0;
       overflow-y: auto;
       margin-top: 0.5rem;
       padding-top: 0.5rem;
       border-top: 1px solid #c5bee0;
     }
-    .chat-people:empty { display: none; }
     .chat-person {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      height: 24px;
-      padding: 0 0.6rem;
-      border: 1px solid #c5bee0;
-      border-radius: 99px;
-      background: transparent;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 0.1rem 0.6rem;
+      align-items: baseline;
+      width: 100%;
+      height: auto;
+      padding: 0.4rem 0.55rem;
+      border: none;
+      border-radius: 6px;
+      background: rgba(92,79,122,0.06);
       color: #5c4f7a;
-      font-size: 0.74rem;
-      text-transform: lowercase;
-      white-space: nowrap;
+      text-align: left;
       cursor: pointer;
-      transition: background 0.15s, border-color 0.15s;
+      transition: background 0.15s;
     }
-    .chat-person:hover { background: rgba(92,79,122,0.08); border-color: #5c4f7a; }
-    .chat-person.on, .chat-person.on:hover { background: #5c4f7a; border-color: #5c4f7a; color: #f0ecf8; }
-    .chat-person i { width: 6px; height: 6px; border-radius: 50%; background: #c98a00; }
+    .chat-person:hover { background: rgba(92,79,122,0.14); }
+    .chat-name { font-size: 0.84rem; color: #14111a; text-transform: lowercase; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .chat-at { font-size: 0.66rem; opacity: 0.65; white-space: nowrap; }
+    .chat-last { font-size: 0.72rem; opacity: 0.75; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .chat-last:empty { display: none; }
+    .chat-dot { align-self: center; justify-self: end; width: 7px; height: 7px; border-radius: 50%; background: #c98a00; }
 
+    .chat-thread { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; margin-top: 0.5rem; border-top: 1px solid #c5bee0; }
     .chat-log {
       flex: 1 1 auto;
-      min-height: 0;
+      min-height: 5rem;
       display: flex;
       flex-direction: column;
       gap: 0.2rem;
       overflow-y: auto;
-      margin: 0.5rem -0.35rem 0;
-      padding: 0.25rem 0.35rem 0.5rem;
+      margin: 0 -0.35rem;
+      padding: 0.6rem 0.35rem 0.5rem;
       overscroll-behavior: contain;
+      scrollbar-width: thin;
     }
-    .chat-none { margin: auto; font-size: 0.78rem; color: #9a9a9a; }
+    .chat-none { margin: auto; padding: 0.6rem 0; font-size: 0.78rem; color: #9a9a9a; }
     .chat-day { align-self: center; margin: 0.6rem 0 0.25rem; font-size: 0.68rem; color: #5c4f7a; opacity: 0.6; }
     .chat-day:first-child { margin-top: 0; }
 
@@ -87,22 +103,54 @@
       background: #5c4f7a;
       color: #f0ecf8;
     }
-    .chat-msg.new { margin-top: 0.35rem; }
-    .chat-qs { display: flex; flex-wrap: wrap; gap: 0.25rem; padding: 0.1rem 0; }
-    .chat-qs + .chat-text { margin-top: 0.2rem; }
-    .chat-q, .chat-more {
-      padding: 0.02rem 0.4rem;
+    .chat-turn { margin-top: 0.35rem; }
+
+    /* A question that passed between you: where it is from, how it starts,
+       and what became of it. */
+    .chat-q {
+      align-self: flex-start;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      width: 86%;
+      padding: 0.45rem 0.6rem 0.5rem;
+      border: 1px solid #dcd6ee;
+      border-left: 3px solid #c5bee0;
+      border-radius: 8px;
+      background: #fbf9fe;
+      color: #14111a;
+      text-decoration: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .chat-q.mine { align-self: flex-end; border-left: 1px solid #dcd6ee; border-right: 3px solid #5c4f7a; }
+    .chat-q:hover { border-color: #5c4f7a; box-shadow: 0 3px 12px rgba(92,79,122,0.12); }
+    .chat-q-top { display: flex; align-items: baseline; justify-content: space-between; gap: 0.6rem; font-size: 0.68rem; color: #5c4f7a; }
+    .chat-q-lec { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .chat-q-n { flex-shrink: 0; opacity: 0.7; }
+    .chat-q-stem {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      font-size: 0.76rem;
+      line-height: 1.4;
+    }
+    .chat-q-stem:empty { display: none; }
+    .chat-q-state {
+      align-self: flex-start;
+      margin-top: 0.1rem;
+      padding: 0 0.4rem;
       border: 1px solid #c5bee0;
       border-radius: 4px;
-      font-size: 0.68rem;
+      font-size: 0.66rem;
       color: #5c4f7a;
-      text-decoration: none;
     }
-    a.chat-q:hover { background: rgba(92,79,122,0.14); }
-    .chat-more { border-color: transparent; padding-left: 0; }
-    .chat-msg.mine .chat-q, .chat-msg.mine .chat-more { border-color: rgba(240,236,248,0.45); color: #f0ecf8; }
-    .chat-msg.mine a.chat-q:hover { background: rgba(240,236,248,0.16); }
-    .chat-msg.mine .chat-more { border-color: transparent; }
+    .chat-q-state:empty { display: none; }
+    .chat-q-state.right { background: #edf7f1; border-color: #2e7d4f; color: #2e7d4f; }
+    .chat-q-state.wrong { background: #fdf0f0; border-color: #b03030; color: #b03030; }
+    .chat-rest { align-self: flex-start; margin: 0 0.3rem; font-size: 0.7rem; color: #5c4f7a; text-decoration: none; }
+    .chat-rest.mine { align-self: flex-end; }
+    .chat-rest:hover { text-decoration: underline; }
     .chat-when { align-self: flex-start; margin: 0 0.3rem; font-size: 0.64rem; color: #9a9a9a; }
     .chat-when.mine { align-self: flex-end; }
 
@@ -146,6 +194,7 @@
     }
     .chat-box textarea:focus { border-color: #5c4f7a; }
     .chat-box textarea::placeholder { color: #5c4f7a; opacity: 0.5; }
+    .chat-box textarea:disabled { background: #efefef; border-color: #e0e0e0; }
     .chat-send {
       height: 30px;
       padding: 0 12px;
@@ -167,43 +216,102 @@
   const clean = ids => (ids || []).map(q => String(q).toLowerCase().replace(/[^a-z0-9]/g, '')).filter(Boolean);
   const dayOf = t => new Date(t).toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' }).toLowerCase();
   const timeOf = t => new Date(t).toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' }).toLowerCase();
-  const SHOWN = 12;   // question chips in one message before the rest are counted
+  // Today by the clock, any other day by its date.
+  const whenOf = t => !t ? '' : new Date(t).toDateString() === new Date().toDateString() ? timeOf(t)
+    : new Date(t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }).toLowerCase();
+  const count = n => `${n} question${n === 1 ? '' : 's'}`;
+  const SHOWN = 3;   // question cards in one go before the rest are counted
 
-  const LAST = 'jeff-chat-to';
+  // Where a question is from and how it starts, by its short id:
+  // { lec, n, stem, doc, id }. Asked for once each.
+  const known = {};
+  let whereP = null;
+  const files = {};
+  async function learn(ids) {
+    ids = ids.filter(id => !(id in known));
+    if (!ids.length) return false;
+    ids.forEach(id => { known[id] = null; });
+    try {
+      const where = await (whereP || (whereP = fetch(`qids.json?t=${Date.now()}`).then(r => r.json())));
+      await Promise.all(Object.keys(where).filter(f => where[f].some(id => ids.includes(id))).map(async f => {
+        const data = await (files[f] || (files[f] = fetch(f).then(r => r.json())));
+        const cut = f.indexOf('/'), qs = data.questions.filter(q => q.id);
+        where[f].forEach((id, i) => {
+          if (qs[i] && ids.includes(id)) {
+            known[id] = { lec: data.lecture || f.slice(cut + 1), n: i + 1, stem: String(qs[i].question || ''),
+              doc: STORE.docId(f.slice(0, cut), f.slice(cut + 1)), id: qs[i].id };
+          }
+        });
+      }));
+    } catch (e) {}
+    return true;
+  }
 
   function mount(el, opts) {
     opts = opts || {};
     el.classList.add('chat');
     el.innerHTML =
-      `<div class="chat-head"><span class="chat-title">chat</span><span class="chat-with"></span></div>` +
-      `<div class="chat-people"></div>` +
-      `<div class="chat-log"><span class="chat-none">…</span></div>` +
-      `<form class="chat-box"><div class="chat-about"></div>` +
-        `<textarea rows="1" placeholder="message" aria-label="message" disabled></textarea>` +
-        `<button type="submit" class="chat-send" disabled>send</button></form>`;
+      `<div class="chat-head card-head"><button type="button" class="chat-back" hidden>←</button>` +
+        `<span class="chat-title">chat</span><span class="chat-with" hidden></span>` +
+        `${opts.fold ? '<button type="button" class="week-shuffle" data-fold>hide</button>' : ''}</div>` +
+      `<div class="chat-people"><span class="chat-none">…</span></div>` +
+      `<div class="chat-thread" hidden><div class="chat-log"></div>` +
+        `<form class="chat-box"><div class="chat-about"></div>` +
+          `<textarea rows="1" placeholder="message" aria-label="message"></textarea>` +
+          `<button type="submit" class="chat-send" disabled>send</button></form></div>`;
     const $ = sel => el.querySelector(sel);
-    const peopleEl = $('.chat-people'), log = $('.chat-log'), box = $('textarea'), sendBtn = $('.chat-send'), aboutEl = $('.chat-about');
+    const peopleEl = $('.chat-people'), threadEl = $('.chat-thread'), log = $('.chat-log');
+    const box = $('textarea'), sendBtn = $('.chat-send'), aboutEl = $('.chat-about');
 
-    let people = [];        // everyone else: [{ uid, name }]
-    const meta = {};        // uid -> where the conversation with them stands
-    let open = null;        // who is picked
+    let people = null;      // everyone else: [{ uid, name }]; null until known
+    const meta = {};        // uid -> where the talk with them stands
+    let sent = [], inbox = [], receipts = [];   // the questions that have passed
+    let open = null;        // whose thread is showing; nobody's until one is picked
     let msgs = null;        // what has been said with them; null until known
-    let failed = false;
+    let failed = false;     // their messages can't be read
     let stopThread = null;
     let about = clean(opts.about), off = new Set();   // ids on offer, and the ones taken off
     let asked = null;       // someone to turn to, asked for before the list was in
 
-    const none = text => { log.innerHTML = `<span class="chat-none">${esc(text)}</span>`; };
+    // Everything that has passed between you and this person, oldest first:
+    // the questions sent either way, and what was said.
+    function passed(uid) {
+      const out = [];
+      sent.filter(m => m.to === uid).forEach(m => out.push({ t: m.t || 0, mine: true, qids: clean(m.qids), sent: true }));
+      inbox.filter(m => m.from === uid).forEach(m => out.push({ t: m.t || 0, mine: false, qids: clean(m.qids), sent: true }));
+      if (uid === open) (msgs || []).forEach(m => out.push({ t: m.t || 0, mine: m.mine, qids: clean(m.qids), text: m.text || '' }));
+      return out.sort((a, b) => a.t - b.t);
+    }
+
+    // What became of a question sent at `t`: for one of yours, what they did
+    // with it; for one of theirs, what you did.
+    function stateOf(uid, id, item) {
+      if (!item.sent) return '';
+      if (item.mine) {
+        const r = receipts.find(x => x.from === uid && x.qid === id) || {};
+        if (r.done && r.done >= item.t) return r.ok ? 'right' : 'wrong';
+        return r.opened && r.opened >= item.t ? 'opened' : 'sent';
+      }
+      const k = known[id];
+      const since = k ? STORE.attempts(k.doc, k.id).filter(a => a.t >= item.t).sort((a, b) => a.t - b.t) : [];
+      return !since.length ? 'to do' : since[0].ok ? 'right' : 'wrong';
+    }
 
     function paintPeople() {
-      // Whoever spoke last comes first; the rest by name.
-      const order = people.slice().sort((a, b) =>
-        ((meta[b.uid] || {}).t || 0) - ((meta[a.uid] || {}).t || 0) || a.name.localeCompare(b.name));
-      peopleEl.innerHTML = order.map(p =>
-        `<button type="button" class="chat-person${p.uid === open ? ' on' : ''}" data-uid="${esc(p.uid)}">` +
-        `${esc(p.name)}${(meta[p.uid] || {}).unread && p.uid !== open ? '<i title="unread"></i>' : ''}</button>`).join('');
-      const who = people.find(p => p.uid === open);
-      $('.chat-with').textContent = who ? who.name : '';
+      if (!people) return;
+      if (!people.length) { peopleEl.innerHTML = '<span class="chat-none">no one else yet</span>'; return; }
+      const rows = people.map(p => {
+        const all = passed(p.uid), q = all[all.length - 1], m = meta[p.uid] || {};
+        // The last thing either of you did: said something, or sent questions.
+        const said = m.t && (!q || m.t >= q.t);
+        const last = said ? (m.text ? `${m.mine ? 'you: ' : ''}${m.text}` : m.mine ? 'you sent a question' : 'sent you a question')
+          : q ? (q.mine ? `you sent ${count(q.qids.length)}` : `sent you ${count(q.qids.length)}`) : '';
+        return { p, t: Math.max(m.t || 0, q ? q.t : 0), last, unread: !!m.unread };
+      }).sort((a, b) => b.t - a.t || a.p.name.localeCompare(b.p.name));
+      peopleEl.innerHTML = rows.map(r =>
+        `<button type="button" class="chat-person" data-uid="${esc(r.p.uid)}">` +
+          `<span class="chat-name">${esc(r.p.name)}</span><span class="chat-at">${esc(whenOf(r.t))}</span>` +
+          `<span class="chat-last">${esc(r.last)}</span>${r.unread ? '<i class="chat-dot" title="unread"></i>' : ''}</button>`).join('');
     }
 
     function paintAbout() {
@@ -215,44 +323,61 @@
     const attached = () => about.filter(id => !off.has(id));
 
     function ready() {
-      box.disabled = !open || failed;
+      box.disabled = !open || failed || !msgs;
       sendBtn.disabled = box.disabled || !(box.value.trim() || attached().length);
     }
 
+    function card(uid, id, item) {
+      const k = known[id], state = stateOf(uid, id, item);
+      return `<a class="chat-q${item.mine ? ' mine' : ''}" href="quiz.html?q=${id}">` +
+        `<span class="chat-q-top"><span class="chat-q-lec">${esc(k ? k.lec : id)}</span>` +
+          `${k ? `<span class="chat-q-n">q ${k.n}</span>` : ''}</span>` +
+        `<span class="chat-q-stem">${esc(k ? k.stem : '')}</span>` +
+        `<span class="chat-q-state ${state === 'right' || state === 'wrong' ? state : ''}">${state}</span></a>`;
+    }
+
     function paintLog(stay) {
-      if (failed) return none("can't load chat");
-      if (!msgs) return none('…');
-      if (!msgs.length) return none('no messages yet');
+      if (!open) return;
+      const uid = open, all = passed(uid);
+      learn(all.flatMap(x => x.qids)).then(fresh => { if (fresh && open === uid) paintLog(true); });
+      const note = failed ? "can't load messages" : !msgs ? '…' : !all.length ? 'no messages yet' : '';
       const pinned = !stay || log.scrollHeight - log.scrollTop - log.clientHeight < 40;
-      const seen = (meta[open] || {}).seen || 0;
+      const seen = (meta[uid] || {}).seen || 0;
       let html = '', day = '';
-      msgs.forEach((m, i) => {
-        const d = dayOf(m.t || 0), prev = msgs[i - 1], next = msgs[i + 1];
+      all.forEach((m, i) => {
+        const d = dayOf(m.t), prev = all[i - 1], next = all[i + 1];
         if (d !== day) { day = d; html += `<div class="chat-day">${esc(d)}</div>`; }
-        const ids = clean(m.qids);
-        const chips = ids.slice(0, SHOWN).map(id => `<a class="chat-q" href="quiz.html?q=${id}">${id}</a>`).join('') +
-          (ids.length > SHOWN ? `<a class="chat-q chat-more" href="quiz.html?q=${ids.join(',')}">and ${ids.length - SHOWN} more</a>` : '');
-        const turn = !prev || prev.mine !== m.mine || dayOf(prev.t || 0) !== d;
-        html += `<div class="chat-msg${m.mine ? ' mine' : ''}${turn ? ' new' : ''}">` +
-          (chips ? `<div class="chat-qs">${chips}</div>` : '') +
-          (m.text ? `<div class="chat-text">${esc(m.text)}</div>` : '') + `</div>`;
-        // The time goes under the last of a run, and "seen" under your last.
-        const last = !next || next.mine !== m.mine || (next.t || 0) - (m.t || 0) > 5 * 60000;
+        const side = m.mine ? ' mine' : '';
+        const turn = !prev || prev.mine !== m.mine || dayOf(prev.t) !== d;
+        if (turn && prev) html += `<div class="chat-turn"></div>`;
+        html += m.qids.slice(0, SHOWN).map(id => card(uid, id, m)).join('');
+        if (m.qids.length > SHOWN) {
+          html += `<a class="chat-rest${side}" href="quiz.html?q=${m.qids.join(',')}">and ${m.qids.length - SHOWN} more</a>`;
+        }
+        if (m.text) html += `<div class="chat-msg${side}">${esc(m.text)}</div>`;
+        // The time goes under the last of a run, and "seen" under the last thing you said.
+        const last = !next || next.mine !== m.mine || next.t - m.t > 5 * 60000;
         if (last) {
-          html += `<div class="chat-when${m.mine ? ' mine' : ''}">${esc(timeOf(m.t || 0))}` +
-            `${m.mine && !next && seen >= (m.t || 0) ? ', seen' : ''}</div>`;
+          html += `<div class="chat-when${side}">${esc(timeOf(m.t))}` +
+            `${m.mine && !next && !m.sent && seen >= m.t ? ', seen' : ''}</div>`;
         }
       });
-      log.innerHTML = html;
+      log.innerHTML = html + (note ? `<span class="chat-none">${esc(note)}</span>` : '');
       if (pinned) log.scrollTop = log.scrollHeight;
     }
 
+    function show() {
+      const who = (people || []).find(p => p.uid === open);
+      $('.chat-back').hidden = $('.chat-with').hidden = threadEl.hidden = !who;
+      $('.chat-title').hidden = peopleEl.hidden = !!who;
+      $('.chat-with').textContent = who ? who.name : '';
+    }
+
     function pick(uid) {
-      if (uid === open || !people.some(p => p.uid === uid)) return;
+      if (uid === open || !(people || []).some(p => p.uid === uid)) return;
       if (stopThread) stopThread();
       open = uid; msgs = null; failed = false;
-      try { localStorage.setItem(LAST, uid); } catch (e) {}
-      paintPeople(); paintLog(); ready();
+      show(); paintLog(); ready();
       stopThread = STORE.watchThread(uid, list => {
         if (open !== uid) return;
         const first = !msgs;
@@ -262,9 +387,18 @@
       });
     }
 
+    // Back to everyone.
+    function leave() {
+      if (stopThread) stopThread();
+      stopThread = null; open = null; msgs = null; failed = false;
+      show(); paintPeople();
+    }
+
+    $('.chat-back').addEventListener('click', leave);
+
     peopleEl.addEventListener('click', e => {
       const b = e.target.closest('[data-uid]');
-      if (b) { pick(b.dataset.uid); box.focus(); }
+      if (b) { pick(b.dataset.uid); if (!box.disabled) box.focus(); }
     });
 
     aboutEl.addEventListener('click', e => {
@@ -283,7 +417,7 @@
     $('.chat-box').addEventListener('submit', async e => {
       e.preventDefault();
       const text = box.value.trim(), ids = attached();
-      if (!open || !(text || ids.length)) return;
+      if (!open || box.disabled || !(text || ids.length)) return;
       box.value = ''; fit();
       // Said once about a question, the next message needn't say it again.
       ids.forEach(id => off.add(id));
@@ -296,24 +430,27 @@
       }
     });
 
+    // The questions that have passed, asked for again whenever some are sent.
+    async function fetchPassed() {
+      [sent, inbox, receipts] = await Promise.all([STORE.sent(15000), STORE.inbox(15000), STORE.receipts(15000)]);
+      paintPeople();
+      if (open) paintLog(true);
+    }
+    document.addEventListener('jeff-sent', fetchPassed);
+
     (async () => {
-      const list = await STORE.people(15000);
-      if (!list) { failed = true; paintLog(); return; }
+      const [list] = await Promise.all([STORE.people(15000), fetchPassed()]);
+      if (!list) { peopleEl.innerHTML = `<span class="chat-none">can't load chat</span>`; return; }
       people = list;
-      if (!people.length) { paintPeople(); none('no one else yet'); return; }
+      paintPeople();
       people.forEach(p => STORE.watchChat(p.uid, m => {
         if (!m) return;
         meta[p.uid] = m;
-        paintPeople();
-        if (p.uid === open) {
-          if (m.unread) STORE.readChat(p.uid);
-          if (msgs) paintLog(true);
-        }
+        if (p.uid !== open) return paintPeople();
+        if (m.unread) STORE.readChat(p.uid);
+        if (msgs) paintLog(true);
       }));
-      let was = null;
-      try { was = localStorage.getItem(LAST); } catch (e) {}
-      paintPeople();
-      pick(people.some(p => p.uid === asked) ? asked : people.some(p => p.uid === was) ? was : people[0].uid);
+      if (asked) pick(asked);
     })();
 
     paintAbout();
@@ -331,8 +468,5 @@
     };
   }
 
-  window.CHAT = {
-    mount,
-    note(uid, qids) { return STORE.say(uid, '', qids); }
-  };
+  window.CHAT = { mount };
 })();
