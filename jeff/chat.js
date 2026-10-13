@@ -278,6 +278,10 @@
     function passed(uid) {
       const out = [];
       sent.filter(m => m.to === uid).forEach(m => out.push({ t: m.t || 0, mine: true, qids: clean(m.qids), sent: true }));
+      // One sent before sends were noted shows once they have opened it.
+      const noted = new Set(out.flatMap(m => m.qids));
+      receipts.filter(r => r.from === uid && !noted.has(r.qid) && (r.opened || r.done))
+        .forEach(r => out.push({ t: Math.min(r.opened || r.done, r.done || r.opened), mine: true, qids: [r.qid], sent: true }));
       inbox.filter(m => m.from === uid).forEach(m => out.push({ t: m.t || 0, mine: false, qids: clean(m.qids), sent: true }));
       if (uid === open) (msgs || []).forEach(m => out.push({ t: m.t || 0, mine: m.mine, qids: clean(m.qids), text: m.text || '' }));
       return out.sort((a, b) => a.t - b.t);
