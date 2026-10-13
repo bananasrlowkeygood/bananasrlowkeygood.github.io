@@ -473,14 +473,21 @@
       return out;
     },
 
-    // Take Firestore's copy of a run if it is newer than this device's.
+    // Level a test with Firestore's copy of it: whichever is newer wins.
     pullRun(key, ms) {
       const work = cloud.then(async c => {
         if (!c || c.uid !== ns) return false;
         const snap = await c.fs.getDoc(c.fs.doc(c.db, 'users', c.uid, 'runs', key));
-        if (!snap.exists()) return false;
-        const remote = snap.data();
+        const remote = snap.exists() ? snap.data() : null;
         const local = read(rKey(key));
+        // This device's copy is the newer one — a save that never got out
+        // before the page closed. Send it now.
+        if (local && local.state && (!remote || (local.updated || 0) > (remote.updated || 0))) {
+          pending[key] = local;
+          soon();
+          return false;
+        }
+        if (!remote) return false;
         if (local && (local.updated || 0) >= (remote.updated || 0)) return false;
         write(rKey(key), { updated: remote.updated, state: JSON.parse(remote.state) });
         delete last[key];

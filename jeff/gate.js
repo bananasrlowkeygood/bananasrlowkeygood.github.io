@@ -202,37 +202,45 @@
 
   let sdkP = null;
 
+  // Nothing here may wait for ever: a step that never answers would leave a
+  // blank page with no way forward.
+  const within = (promise, ms) => Promise.race([
+    promise,
+    new Promise((_, fail) => setTimeout(() => fail(new Error('timed out')), ms))
+  ]);
+
   function loadSdk() {
     if (!sdkP) {
-      sdkP = Promise.all(['app', 'auth', 'firestore'].map(n => import(SDK + 'firebase-' + n + '.js')))
+      sdkP = within(Promise.all(['app', 'auth', 'firestore'].map(n => import(SDK + 'firebase-' + n + '.js'))), 20000)
         .then(([appM, A, fs]) => {
           const app = appM.initializeApp(CFG);
-          let db;
-          // Keeps a copy on the device and queues writes made offline. Not
-          // every browser allows it (private windows), so fall back quietly.
-          try {
-            db = fs.initializeFirestore(app, {
-              localCache: fs.persistentLocalCache({ tabManager: fs.persistentMultipleTabManager() })
-            });
-          } catch (e) { db = fs.getFirestore(app); }
-          return { A, fs, db, auth: A.getAuth(app) };
+          // Firestore's own on-device cache is left off: store.js already
+          // keeps a copy in the browser and settles up on load, and the
+          // cache's cross-tab bookkeeping is one more thing that can stall.
+          return { A, fs, db: fs.getFirestore(app), auth: A.getAuth(app) };
         });
     }
     return sdkP;
   }
 
   // Whoever the browser already has signed in, once Firebase has worked it out.
-  const currentUser = sdk => new Promise(resolve => {
+  const currentUser = sdk => within(new Promise(resolve => {
     const off = sdk.A.onAuthStateChanged(sdk.auth, u => { off(); resolve(u); });
-  });
+  }), 15000);
 
-  // true / false, or null when it couldn't be checked (offline).
+  // true / false, or null when it couldn't be checked (offline, or no answer).
   async function onList(sdk, user) {
     try {
-      return (await sdk.fs.getDoc(sdk.fs.doc(sdk.db, 'allowlist', user.email || '-'))).exists();
+      return (await within(sdk.fs.getDoc(sdk.fs.doc(sdk.db, 'allowlist', user.email || '-')), 15000)).exists();
     } catch (e) {
       return e && e.code === 'permission-denied' ? false : null;
     }
+  }
+
+  // Something is being worked out; the card says so rather than showing an
+  // empty page.
+  function busy() {
+    return paintVeil('<div class="gate-note">one moment</div>');
   }
 
   function askSignIn(sdk) {
@@ -258,13 +266,11 @@
   }
 
   // Signed in, but not someone this is open to. Resolves once they sign out.
-  function turnAway(sdk, user, checked) {
+  function turnAway(sdk, user) {
     const veil = paintVeil(`
         <div class="gate-note"></div>
         <button class="gate-go" type="button">switch account</button>`);
-    veil.querySelector('.gate-note').textContent = checked
-      ? `${user.email} isn't on the list`
-      : `couldn't check ${user.email}`;
+    veil.querySelector('.gate-note').textContent = `${user.email} isn't on the list`;
 
     return new Promise(resolve => {
       veil.querySelector('.gate-go').addEventListener('click', async () => {
@@ -283,21 +289,35 @@
     return new Promise(() => {});
   }
 
-  // Runs until someone on the list is signed in.
+  // Runs until someone on the list is signed in. With nobody remembered on
+  // this browser there is nothing to show behind the gate yet, so the card is
+  // up throughout; fails if a step can't be reached.
   async function enter(who) {
-    const sdk = await loadSdk();
-    let user = await currentUser(sdk);
-    for (;;) {
-      if (!user) user = await askSignIn(sdk);
-      const ok = await onList(sdk, user);
-      // Offline, someone already let in on this browser stays in.
-      if (ok || (ok === null && who && who.uid === user.uid)) break;
-      forgetWho();
-      await turnAway(sdk, user, ok !== null);
-      user = null;
+    let wait = who ? null : busy();
+    const done = () => { if (wait) { wait.remove(); wait = null; } };
+    try {
+      const sdk = await loadSdk();
+      let user = await currentUser(sdk);
+      for (;;) {
+        if (!user) {
+          done();
+          user = await askSignIn(sdk);
+          wait = busy();
+        }
+        const ok = await onList(sdk, user);
+        // Offline, someone already let in on this browser stays in.
+        if (ok || (ok === null && who && who.uid === user.uid)) break;
+        done();
+        if (ok === null) throw new Error("couldn't check the list");
+        forgetWho();
+        await turnAway(sdk, user);
+        user = null;
+      }
+      remember(user);
+      return { sdk, user };
+    } finally {
+      done();
     }
-    remember(user);
-    return { sdk, user };
   }
 
   let opened = null;
