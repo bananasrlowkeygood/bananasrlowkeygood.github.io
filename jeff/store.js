@@ -14,8 +14,9 @@
  *             so they can be listed without loading every one.
  *
  * Signed in, there is also an inbox: questions other people sent you, as
- * lists of question ids under users/{uid}/inbox. And receipts, under
- * users/{uid}/receipts: what became of the ones you sent. Both live in
+ * lists of question ids under users/{uid}/inbox. What you sent is noted
+ * under users/{uid}/sent. And receipts, under users/{uid}/receipts: what
+ * became of the ones you sent. Both live in
  * Firestore only.
  *
  * All of it is written to this browser first, so the site works signed out,
@@ -285,13 +286,36 @@
     },
 
     // Put these questions in someone's inbox. Resolves true once it is there.
-    sendTo(uid, qids) {
+    // A note of it is kept in your own account, so it shows as sent before
+    // they have opened anything.
+    sendTo(uid, qids, name) {
       return cloud.then(async c => {
         if (!c || c.uid !== ns || !qids.length) return false;
+        const t = Date.now();
+        qids = qids.slice(0, 200);
         await c.fs.addDoc(c.fs.collection(c.db, 'users', uid, 'inbox'),
-          { from: c.uid, name: (me && me.name) || '', qids: qids.slice(0, 200), t: Date.now() });
+          { from: c.uid, name: (me && me.name) || '', qids, t });
+        await c.fs.addDoc(c.fs.collection(c.db, 'users', c.uid, 'sent'), { to: uid, name: name || '', qids, t })
+          .catch(e => console.warn('jeff: sent', e));
         return true;
       }).catch(() => false);
+    },
+
+    // What you have sent: [{ id, to, name, qids, t }].
+    sent(ms) {
+      const work = cloud.then(async c => {
+        if (!c || c.uid !== ns) return [];
+        const snap = await c.fs.getDocs(c.fs.collection(c.db, 'users', c.uid, 'sent'));
+        return snap.docs.map(d => Object.assign({ id: d.id }, d.data()))
+          .filter(m => m.to && Array.isArray(m.qids) && m.qids.length);
+      }).catch(() => []);
+      return within(work, ms).then(list => list || []);
+    },
+
+    dropSent(id) {
+      return cloud.then(c => {
+        if (c && c.uid === ns) return c.fs.deleteDoc(c.fs.doc(c.db, 'users', c.uid, 'sent', id));
+      }).catch(() => {});
     },
 
     // What has been sent to you, newest first: [{ id, name, qids, t }].
