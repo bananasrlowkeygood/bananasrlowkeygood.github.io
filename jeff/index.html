@@ -226,9 +226,13 @@
     .inbox .lecture-list { margin-top: 0.4rem; }
     .inbox-row { display: flex; align-items: center; gap: 0.4rem; }
     .inbox-row .lecture-link { flex: 1 1 auto; min-width: 0; }
-    /* One chip per question sent; the ones done since are struck out, and a
-       message with all of them done is read. */
-    .inbox-qs { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.3rem; padding: 0 0.5rem; }
+    /* Under each person, the lectures their questions are from, with a chip
+       per question: its number in the lecture. The ones done since are struck
+       out, and a person with all of theirs done is read. */
+    .inbox-qs { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem; margin-top: 0.3rem; padding: 0 0.5rem; }
+    .inbox-lec { margin-right: 0.3rem; font-size: 0.76rem; color: #5c4f7a; }
+    .inbox-lec:hover { text-decoration: underline; }
+    .inbox-week { margin-right: 0.5rem; font-size: 0.72rem; color: #9a9a9a; }
     .inbox-q {
       padding: 0.05rem 0.4rem;
       border: 1px solid #c5bee0;
@@ -705,25 +709,45 @@
 
     // ── Inbox ──
     let mail = null;      // what is in the inbox, once asked for
-    let located = null;   // short id -> { doc, id }: where its history is filed
+    let located = null;   // short id -> where it is from, and where its history is filed
     let loading = null;   // both of those being fetched, the once
 
     // Find the questions the inbox names: qids.json says which lecture each
-    // is in, and the lecture gives the long id its attempts are filed under.
+    // is in, the lecture gives its name and the long id attempts are filed
+    // under, and the block's weeks say where the lecture falls.
     async function locate(ids) {
       const found = {};
       try {
         const where = await (await fetch(`qids.json?t=${Date.now()}`)).json();
-        await Promise.all(Object.keys(where).filter(f => where[f].some(id => ids.includes(id))).map(async f => {
-          const cut = f.indexOf('/');
-          const qs = (await (await fetch(f)).json()).questions.filter(q => q.id);
+        const files = Object.keys(where).filter(f => where[f].some(id => ids.includes(id)));
+        const weeks = {};
+        await Promise.all([...new Set(files.map(f => f.split('/')[0]))].map(async b => {
+          weeks[b] = await loadWeeks({ id: b });
+        }));
+        await Promise.all(files.map(async f => {
+          const cut = f.indexOf('/'), block = f.slice(0, cut), file = f.slice(cut + 1);
+          const data = await (await fetch(f)).json();
+          const qs = data.questions.filter(q => q.id);
+          const w = weeks[block].findIndex(x => (x.lectures || []).includes(file));
+          const lec = {
+            key: f, name: data.lecture || file, week: w < 0 ? '' : weeks[block][w].name,
+            // Blocks, then weeks, then lectures, as the page lists them.
+            order: [block, w < 0 ? 1e6 : w, w < 0 ? 0 : weeks[block][w].lectures.indexOf(file), file]
+          };
           where[f].forEach((id, i) => {
-            if (qs[i]) found[id] = { doc: STORE.docId(f.slice(0, cut), f.slice(cut + 1)), id: qs[i].id };
+            if (qs[i]) found[id] = { doc: STORE.docId(block, file), id: qs[i].id, n: i + 1, lec };
           });
         }));
       } catch (e) {}
       return found;
     }
+
+    const byOrder = (a, b) => {
+      for (let i = 0; i < a.order.length; i++) {
+        if (a.order[i] !== b.order[i]) return a.order[i] < b.order[i] ? -1 : 1;
+      }
+      return 0;
+    };
 
     const idsOf = m => m.qids.map(q => String(q).toLowerCase().replace(/[^a-z0-9]/g, '')).filter(Boolean);
 
@@ -749,16 +773,25 @@
       let left = 0;
       list.innerHTML = Object.values(from).sort((a, b) => b.t - a.t).map(g => {
         const day = g.t ? new Date(g.t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : '';
-        const ids = Object.keys(g.at).sort((a, b) => g.at[b] - g.at[a]);
+        const ids = Object.keys(g.at);
         const done = ids.filter(id => doneSince(id, g.at[id]));
         left += ids.length - done.length;
+        const chip = (id, label) =>
+          `<a class="inbox-q${done.includes(id) ? ' done' : ''}" href="quiz.html?q=${id}">${label}</a>`;
+        const lecs = [...new Set(ids.map(id => located[id] && located[id].lec).filter(Boolean))].sort(byOrder);
+        const lost = ids.filter(id => !located[id]);   // no longer on the site
         return `<div class="inbox-item${done.length === ids.length ? ' read' : ''}"><div class="inbox-row">` +
           `<a class="lecture-link" href="quiz.html?q=${ids.join(',')}">` +
             `<span class="lecture-name">${esc(String(g.name || 'someone').toLowerCase())}</span>` +
             `<span class="lecture-stat"><span>${done.length}/${ids.length} done</span><span>${esc(day)}</span></span></a>` +
           `<button class="week-shuffle" type="button" data-drop="${esc(g.drop.join(' '))}">clear</button></div>` +
-          `<div class="inbox-qs">${ids.map(id =>
-            `<a class="inbox-q${done.includes(id) ? ' done' : ''}" href="quiz.html?q=${id}">${id}</a>`).join('')}</div></div>`;
+          lecs.map(lec => {
+            const mine = ids.filter(id => located[id] && located[id].lec === lec).sort((a, b) => located[a].n - located[b].n);
+            return `<div class="inbox-qs"><a class="inbox-lec" href="quiz.html?q=${mine.join(',')}">` +
+              `${lec.week ? `<span class="inbox-week">${esc(lec.week)}</span>` : ''}${esc(lec.name)}</a>` +
+              `${mine.map(id => chip(id, located[id].n)).join('')}</div>`;
+          }).join('') +
+          (lost.length ? `<div class="inbox-qs">${lost.map(id => chip(id, id)).join('')}</div>` : '') + `</div>`;
       }).join('');
       document.getElementById('inboxCount').textContent = `${left} q`;
       document.getElementById('inbox').hidden = !mail.length;
