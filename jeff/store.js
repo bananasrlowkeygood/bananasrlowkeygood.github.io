@@ -379,12 +379,12 @@
     },
 
     // Where a conversation stands, now and whenever that changes:
-    // cb({ t, unread, seen }), `seen` being how far the other person has
-    // read. cb(null) when it can't be read. Returns a way to stop.
+    // cb({ t, text, mine, unread, seen }): when it was last added to, how
+    // that began and whether it was you, and how far the other person has read. cb(null) when it can't be read. Returns a way to stop.
     watchChat(uid, cb) {
       return listen(c => c.fs.onSnapshot(c.fs.doc(c.db, 'chats', pairOf(c.uid, uid)), snap => {
         const d = snap.data() || {}, read = d.read || {};
-        cb({ t: d.t || 0, unread: !!d.t && d.from !== c.uid && d.t > (read[c.uid] || 0), seen: read[uid] || 0 });
+        cb({ t: d.t || 0, text: d.text || '', mine: d.from === c.uid, unread: !!d.t && d.from !== c.uid && d.t > (read[c.uid] || 0), seen: read[uid] || 0 });
       }, e => { console.warn('jeff: chat', e); cb(null); }));
     },
 
@@ -406,7 +406,7 @@
         if (!c || c.uid !== ns || !(text || qids.length)) return false;
         const t = Date.now(), at = c.fs.doc(c.db, 'chats', pairOf(c.uid, uid));
         await c.fs.addDoc(c.fs.collection(at, 'messages'), { from: c.uid, name: (me && me.name) || '', text, qids, t });
-        c.fs.setDoc(at, { t, from: c.uid, read: { [c.uid]: t } }, { merge: true }).catch(() => {});
+        c.fs.setDoc(at, { t, from: c.uid, text: text.slice(0, 80), read: { [c.uid]: t } }, { merge: true }).catch(() => {});
         return true;
       }).catch(e => { console.warn('jeff: say', e); return false; });
     },
