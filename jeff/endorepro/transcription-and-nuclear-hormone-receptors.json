@@ -1,0 +1,595 @@
+{
+  "lecture": "Transcription & Nuclear Hormone Receptors",
+  "block": "endorepro",
+  "generated": "2026-10-13",
+  "pdfs": [
+    {
+      "label": "notes",
+      "file": "10.13.26-BCM_Transcription-Nuclear-Hormone-Receptors_Scott_Notes-dadbef6f49.pdf"
+    },
+    {
+      "label": "slides",
+      "file": "10.13.26-BCM_Transcription-Nuclear-Hormone-Receptors_Scott_Slides-d74d6315a4.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-001",
+      "question": "A 16-year-old girl is brought to the physician because she has never had a menstrual period. Breast development began at age 12 years. Examination shows Tanner stage 4 breasts, scant pubic and axillary hair, and a short, blind-ended vagina. Firm masses are palpable in both inguinal canals. Pelvic ultrasonography shows no uterus. Karyotype is 46,XY and serum testosterone is above the adult male reference range. Which of the following best explains this patient's breast development?",
+      "answers": {
+        "A": "Aromatization of testosterone to estradiol",
+        "B": "Autonomous estrogen secretion by ovarian tissue",
+        "C": "Ectopic hCG secretion by a gonadal tumor",
+        "D": "Increased 5α-reductase activity in breast tissue",
+        "E": "Loss of sex hormone-binding globulin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In complete androgen insensitivity the internal testes make testosterone at puberty, the nonfunctional androgen receptor cannot respond to it, and aromatase converts it to estradiol, which drives breast development.",
+        "B": "This patient is 46,XY with testes in the inguinal canals; there is no ovarian tissue to secrete estrogen.",
+        "C": "An hCG-secreting tumor would not explain the absent uterus, the blind vagina present since birth, or the lack of androgen-dependent hair despite high testosterone.",
+        "D": "5α-reductase makes the more potent androgen DHT; more DHT would not feminize, and neither androgen can act without a working androgen receptor.",
+        "E": "Low SHBG would raise free androgen and, with a normal receptor, cause virilization rather than breast development with scant body hair."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-002",
+      "question": "A 9-year-old child reared as a girl is evaluated for bilateral inguinal masses. A blind-ended vagina was noted at birth. Pelvic ultrasonography shows no Müllerian structures. Karyotype is 46,XY. Serum testosterone and dihydrotestosterone rise normally after hCG stimulation. Sequencing of the androgen receptor gene shows a C-to-T transition in exon 6 that converts a CAG codon to TAG at the beginning of the ligand-binding domain. Which of the following best describes the receptor produced in this patient's cells?",
+      "answers": {
+        "A": "Full-length receptor that cannot dimerize on DNA",
+        "B": "Full-length receptor with reduced affinity for DHT",
+        "C": "Receptor lacking its N-terminal activation domain",
+        "D": "Truncated receptor lacking most of the ligand-binding domain",
+        "E": "Truncated receptor lacking the zinc finger domain"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "TAG is a stop codon, so the protein is truncated rather than full length; a missense change would be needed to produce a full-length receptor with a dimerization defect.",
+        "B": "A missense mutation in the ligand-binding domain could lower hormone affinity and tends to give partial insensitivity; a nonsense codon removes the domain altogether.",
+        "C": "The N-terminal A/B domain lies upstream of the mutation and is still translated.",
+        "D": "CAG (glutamine) to TAG creates a premature stop at the start of the ligand-binding domain, so the receptor is truncated and cannot respond to testosterone or DHT, producing complete androgen insensitivity.",
+        "E": "The zinc finger DNA-binding domain (domain C) is N-terminal to the ligand-binding domain (domain E), so it is upstream of the stop codon and retained."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-003",
+      "question": "A 4-year-old boy is brought to the physician because of headaches and poor growth. His blood pressure is 142/94 mm Hg on three visits. He takes no medications and does not eat licorice. Renal ultrasonography with Doppler is normal. Laboratory studies are shown. Genetic testing identifies a homozygous loss-of-function mutation in an enzyme of the distal nephron that uses NAD+. Which of the following best explains this patient's hypertension?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "146 mEq/L",
+          "136–145 mEq/L"
+        ],
+        [
+          "K+",
+          "2.8 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "HCO3−",
+          "31 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Plasma renin activity",
+          "Undetectable",
+          "0.5–4.0 ng/mL/h"
+        ],
+        [
+          "Aldosterone",
+          "Undetectable",
+          "3–35 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Aldosterone-secreting adrenal adenoma",
+        "B": "Cortisol activation of the mineralocorticoid receptor",
+        "C": "Excess renin secretion by juxtaglomerular cells",
+        "D": "Gain-of-function mutation of the epithelial sodium channel",
+        "E": "Renal artery stenosis with secondary hyperaldosteronism"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An aldosterone-producing adenoma causes hypertension and hypokalemia with low renin, but serum aldosterone would be high, not undetectable.",
+        "B": "11β-HSD2 normally oxidizes cortisol to inactive cortisone in aldosterone target cells; without it, cortisol, which is about 1000-fold more abundant than aldosterone and binds the mineralocorticoid receptor equally well, drives sodium retention and potassium loss (apparent mineralocorticoid excess).",
+        "C": "A renin-secreting state would show high renin and high aldosterone; both are suppressed here.",
+        "D": "An overactive ENaC also gives low-renin, low-aldosterone hypertension, but the defect described is in an NAD+-dependent enzyme, not a channel.",
+        "E": "Renal artery stenosis raises renin and aldosterone, and the Doppler study is normal."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-004",
+      "question": "A 31-year-old man comes to the physician because of progressive thinning of hair over the frontal and temporal scalp for 3 years. His father had a similar pattern of hair loss. He is started on a medication, and 12 months later hair density over the crown has improved. Serum testosterone is slightly higher than before treatment. Which of the following is the most likely mechanism of the drug's effect on the hair follicle?",
+      "answers": {
+        "A": "Competitive antagonism at the androgen receptor",
+        "B": "Decreased pituitary gonadotropin release",
+        "C": "Increased aromatization of testosterone",
+        "D": "Increased sex hormone-binding globulin synthesis",
+        "E": "Reduced conversion of testosterone to dihydrotestosterone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A receptor antagonist would block both testosterone and DHT at the ligand site; finasteride does not bind the androgen receptor.",
+        "B": "Suppressing gonadotropins would lower serum testosterone, but this patient's testosterone rose slightly.",
+        "C": "The drug does not induce aromatase; follicle miniaturization is driven by DHT-bound receptor, not by lack of estrogen.",
+        "D": "Raising SHBG would lower free androgen systemically; that is not how the treatment for androgenic alopecia works.",
+        "E": "Hair follicles express high levels of 5α-reductase, and DHT-bound androgen receptor (not testosterone-bound receptor) shortens the growth phase; finasteride inhibits 5α-reductase, lowering DHT and stopping miniaturization."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-005",
+      "question": "A 62-year-old woman comes to the physician for follow-up of osteoporosis found on screening bone densitometry. Her mother and sister had estrogen receptor-positive breast cancer. She is started on raloxifene. The drug acts as an estrogen receptor agonist in bone and as an antagonist in breast. Which of the following best explains these opposite effects of one drug on the same receptor?",
+      "answers": {
+        "A": "Conversion of the drug to estradiol in bone",
+        "B": "Expression of 11β-HSD2 in breast tissue",
+        "C": "Homodimerization of the receptor only in bone",
+        "D": "Relative tissue levels of coactivators and corepressors",
+        "E": "Transporter-mediated drug uptake only in bone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "SERMs are not converted to estradiol; the drug itself occupies the receptor in both tissues.",
+        "B": "11β-HSD2 inactivates cortisol to protect the mineralocorticoid receptor; it has no role in estrogen receptor signaling.",
+        "C": "The estrogen receptor binds DNA as a dimer in both tissues; dimerization does not differ between bone and breast.",
+        "D": "SERM binding changes the receptor's affinity for coactivators and corepressors, so its activity follows whichever is abundant: SRC in bone gives activation, NCoR in breast and ovary gives repression.",
+        "E": "Steroidal and steroid-like ligands diffuse across membranes and reach the receptor in both tissues; uptake is not what differs."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-006",
+      "question": "A 58-year-old woman with metastatic estrogen receptor-positive breast cancer is started on monthly intramuscular fulvestrant. Which of the following best describes how this drug reduces transcription of estrogen-responsive genes in tumor cells?",
+      "answers": {
+        "A": "Blocks conversion of androgens to estrogens by aromatase",
+        "B": "Competes with estradiol at the receptor and prevents coactivator recruitment",
+        "C": "Inhibits pituitary gonadotropin release by negative feedback",
+        "D": "Prevents diffusion of estradiol across the plasma membrane",
+        "E": "Stimulates receptor heterodimerization with RXR on DNA"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "That is the mechanism of aromatase inhibitors, which lower the ligand rather than act at the receptor.",
+        "B": "Fulvestrant is an ER antagonist: it binds the same site as estrogen, and the drug-bound receptor cannot recruit coactivators, so ER transcriptional activity is blocked.",
+        "C": "Feedback inhibition of gonadotropins is how combined estrogen-progestin contraceptives prevent ovulation.",
+        "D": "Free steroid diffuses passively across the membrane; no drug in this class blocks that step.",
+        "E": "The estrogen receptor is a Type I receptor that works as a homodimer; RXR is the partner of Type II receptors such as TR, VDR and RAR."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-007",
+      "question": "A 54-year-old man with type 2 diabetes mellitus has hemoglobin A1c of 8.6% despite metformin. Pioglitazone is added. The receptor that mediates the therapeutic effect of this drug is best described by which of the following?",
+      "answers": {
+        "A": "Cytosolic receptor that forms a homodimer after ligand binding",
+        "B": "Cytosolic receptor that pairs with RXR after ligand binding",
+        "C": "Membrane receptor coupled to a stimulatory G protein",
+        "D": "Membrane receptor with intrinsic tyrosine kinase activity",
+        "E": "Nuclear receptor held on DNA by corepressors before ligand binding"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This describes canonical Type I steroid receptors (glucocorticoid, mineralocorticoid, androgen, progesterone, estrogen).",
+        "B": "Thiazolidinediones act on PPAR-γ; PPARs mix both classes, being mostly cytosolic when unliganded (like Type I) and then heterodimerizing with RXR and binding PPREs (like Type II).",
+        "C": "Gs-coupled receptors mediate hormones such as glucagon; thiazolidinediones are membrane-permeable ligands of an intracellular receptor.",
+        "D": "This describes the insulin receptor, whose signaling TZDs improve only indirectly through changed gene expression.",
+        "E": "This describes canonical Type II receptors such as the thyroid hormone receptor, which sit on DNA with RXR and corepressors without ligand."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-008",
+      "question": "A 66-year-old woman with type 2 diabetes mellitus comes to the physician because of a 4-kg weight gain, ankle swelling, and dyspnea when lying flat. Rosiglitazone was added to her regimen 3 months ago. Examination shows jugular venous distension, bibasilar crackles, and 2+ pitting edema of both legs. Which of the following effects of the drug most likely contributed to these findings?",
+      "answers": {
+        "A": "Decreased hepatic albumin synthesis",
+        "B": "Increased capillary permeability from histamine release",
+        "C": "Increased renal sodium absorption",
+        "D": "Inhibition of the cardiac Na+/K+-ATPase",
+        "E": "Obstruction of lymphatic drainage"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hypoalbuminemia causes edema in liver disease or nephrotic syndrome; TZDs do not lower albumin synthesis.",
+        "B": "Histamine-mediated permeability causes urticaria or angioedema, not volume overload with raised jugular pressure.",
+        "C": "PPAR-γ activation in the kidney stimulates sodium absorption, which promotes fluid retention and raises the risk of heart failure; this is the main liability of thiazolidinediones.",
+        "D": "Na+/K+-ATPase inhibition is the mechanism of digoxin, which increases contractility and does not cause fluid retention.",
+        "E": "Lymphatic obstruction gives non-pitting, usually asymmetric swelling without pulmonary congestion."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-009",
+      "question": "A 49-year-old man comes to the physician for follow-up after an episode of acute pancreatitis. He does not drink alcohol. Fasting laboratory studies are shown. He is started on a fibrate. Activation of this drug's receptor most likely produces which of the following effects?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Triglycerides",
+          "1120 mg/dL",
+          "< 150 mg/dL"
+        ],
+        [
+          "HDL cholesterol",
+          "28 mg/dL",
+          "> 40 mg/dL"
+        ],
+        [
+          "LDL cholesterol",
+          "96 mg/dL",
+          "< 100 mg/dL"
+        ],
+        [
+          "Glucose",
+          "98 mg/dL",
+          "70–99 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased cholesterol synthesis by HMG-CoA reductase",
+        "B": "Decreased intestinal absorption of cholesterol",
+        "C": "Increased adiponectin production by adipocytes",
+        "D": "Increased hepatic fatty acid β-oxidation",
+        "E": "Increased renal sodium absorption"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Inhibition of HMG-CoA reductase is the mechanism of statins, which mainly lower LDL cholesterol.",
+        "B": "Blocking intestinal cholesterol absorption is the mechanism of ezetimibe and has little effect on triglycerides.",
+        "C": "Adiponectin production is a PPAR-γ effect in adipocytes that improves insulin sensitivity; it is how thiazolidinediones work.",
+        "D": "Fibrates activate PPAR-α, expressed mainly in the liver, where it stimulates fatty acid β-oxidation and ketone body synthesis; the result is lower plasma triglycerides and higher HDL.",
+        "E": "Renal sodium absorption is a PPAR-γ side effect seen with thiazolidinediones, not with PPAR-α agonists."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-010",
+      "question": "A 23-year-old woman with persistent asthma has nighttime cough three times a week despite as-needed albuterol. An inhaled glucocorticoid is added, and her symptoms resolve over 6 weeks. In airway cells, the drug lowers expression of cytokines and chemokines even though the promoters of these genes contain no glucocorticoid response element. Which of the following mechanisms best explains this effect?",
+      "answers": {
+        "A": "Cis-repression at negative glucocorticoid response elements",
+        "B": "Direct transactivation at glucocorticoid response elements",
+        "C": "Heterodimerization of the receptor with RXR",
+        "D": "Histone acetylation by CBP/p300",
+        "E": "Tethering of the receptor to NF-κB"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cis-repression requires the receptor to bind a negative GRE on DNA; it accounts for side effects through genes such as POMC and osteocalcin.",
+        "B": "Transactivation at GREs induces anti-inflammatory genes such as annexin-1; it does not repress genes that lack a GRE.",
+        "C": "The glucocorticoid receptor is a Type I receptor that acts as a homodimer; RXR partners with Type II receptors.",
+        "D": "Histone acetylation by coactivators opens chromatin and activates transcription, the opposite of what is described.",
+        "E": "In trans-repression (tethering) the ligand-bound receptor binds another transcription factor, here NF-κB, through protein-protein contact and inhibits it without binding DNA itself."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-011",
+      "question": "A 37-year-old woman with rheumatoid arthritis comes to the physician because of fatigue and increased thirst. She has taken prednisone 20 mg daily for 5 months. Examination shows a rounded face, a dorsocervical fat pad, and thin arms and legs. Laboratory studies are shown. Compared with before treatment, which of the following sets of changes is most likely present in this patient?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Fasting glucose",
+          "168 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "7.4%",
+          "< 5.7%"
+        ],
+        [
+          "K+",
+          "3.4 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Morning cortisol",
+          "1.1 μg/dL",
+          "5–23 μg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased hepatic gluconeogenesis; decreased muscle glucose uptake",
+        "B": "Decreased hepatic gluconeogenesis; increased muscle glucose uptake",
+        "C": "Increased hepatic gluconeogenesis; decreased muscle glucose uptake",
+        "D": "Increased hepatic gluconeogenesis; increased muscle glucose uptake",
+        "E": "Unchanged hepatic gluconeogenesis; increased muscle glucose uptake"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Muscle glucose uptake does fall, but glucocorticoids induce gluconeogenic enzymes such as PEPCK rather than suppress them.",
+        "B": "This is the pattern of insulin action and would lower, not raise, blood glucose.",
+        "C": "Glucocorticoids are named for these metabolic effects: they increase hepatic gluconeogenesis and decrease insulin sensitivity, and they reduce glucose uptake in muscle while increasing proteolysis, which also explains her thin limbs.",
+        "D": "Gluconeogenesis rises, but glucocorticoids reduce peripheral glucose uptake; increased uptake would blunt the hyperglycemia.",
+        "E": "Glucocorticoids change both variables, and increased muscle uptake would lower glucose."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-012",
+      "question": "A 57-year-old man with a refractory solid tumor enrolls in a phase 1 trial of an inhibitor of heat shock protein 90. During the trial he requires dexamethasone for cerebral edema, and investigators find that his leukocytes show a much weaker transcriptional response to dexamethasone than before enrollment. Which of the following steps in glucocorticoid signaling is most directly impaired by the trial drug?",
+      "answers": {
+        "A": "Assembly and nuclear transport of the glucocorticoid receptor",
+        "B": "Binding of TATA-binding protein to the promoter",
+        "C": "Diffusion of steroid across the plasma membrane",
+        "D": "Heterodimerization of the receptor with RXR",
+        "E": "Release of corepressors from DNA-bound receptor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Newly made steroid receptors are held in the cytoplasm in an aporeceptor complex (foldosome) with heat shock proteins that stabilize the poorly folded unliganded receptor; Hsp90 is also needed for efficient transport of the receptor into the nucleus.",
+        "B": "TBP binding is a late step that depends on chromatin relaxation after the receptor has bound DNA; heat shock proteins act upstream in the cytoplasm.",
+        "C": "Free steroid crosses the membrane by passive diffusion, which needs no chaperone.",
+        "D": "Type I receptors such as the glucocorticoid receptor form homodimers; RXR is not involved.",
+        "E": "Corepressor release on ligand binding is how Type II receptors, which are already on DNA and are not chaperone-bound, are activated."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-013",
+      "question": "A 44-year-old woman comes to the physician because of fatigue, constipation, cold intolerance, and a 5-kg weight gain over 6 months. Examination shows dry skin and delayed relaxation of the ankle reflexes. Laboratory studies are shown. In this patient's hepatocytes, the thyroid hormone receptor is most likely in which of the following states?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "38 μU/mL",
+          "0.4–4.0 μU/mL"
+        ],
+        [
+          "Free T4",
+          "0.4 ng/dL",
+          "0.9–1.7 ng/dL"
+        ],
+        [
+          "Total T3",
+          "52 ng/dL",
+          "80–180 ng/dL"
+        ],
+        [
+          "Total cholesterol",
+          "288 mg/dL",
+          "< 200 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Bound to DNA as a heterodimer with corepressors",
+        "B": "Bound to DNA as a homodimer with coactivators",
+        "C": "Cytosolic and bound to heat shock proteins",
+        "D": "Cytosolic as a monomer awaiting RXR",
+        "E": "Nuclear but released from its response elements"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The thyroid hormone receptor is a Type II receptor: without hormone it stays in the nucleus on its response element as a heterodimer with RXR, holding corepressors (and histone deacetylase) that repress target genes.",
+        "B": "Homodimers with coactivators describe ligand-bound Type I steroid receptors, not an unliganded Type II receptor.",
+        "C": "Cytosolic retention with heat shock proteins is the unliganded state of Type I receptors such as the estrogen receptor.",
+        "D": "Being cytosolic before ligand binding and then pairing with RXR describes PPARs.",
+        "E": "Type II receptors bind DNA in both the presence and absence of hormone; ligand swaps corepressors for coactivators rather than changing DNA occupancy."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-014",
+      "question": "A 52-year-old woman comes to the physician for a routine examination. She began combined estrogen-progestin therapy 2 months ago for hot flashes and feels well. Pulse is 72/min. The thyroid gland is not enlarged and there is no tremor. Laboratory studies are shown. Which of the following is the most likely explanation for these findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "1.8 μU/mL",
+          "0.4–4.0 μU/mL"
+        ],
+        [
+          "Total T4",
+          "14.2 μg/dL",
+          "5–12 μg/dL"
+        ],
+        [
+          "Total T3",
+          "214 ng/dL",
+          "80–180 ng/dL"
+        ],
+        [
+          "Free T4",
+          "1.2 ng/dL",
+          "0.9–1.7 ng/dL"
+        ],
+        [
+          "Free T3",
+          "3.1 pg/mL",
+          "2.3–4.2 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Autonomous thyroid nodule",
+        "B": "Decreased peripheral deiodination of T4",
+        "C": "Exogenous levothyroxine ingestion",
+        "D": "Increased thyroxine-binding globulin",
+        "E": "TSH-secreting pituitary adenoma"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A toxic nodule raises free hormone and suppresses TSH, and the patient would have symptoms.",
+        "B": "Reduced conversion of T4 to T3 would lower total T3 rather than raise it.",
+        "C": "Taking thyroid hormone raises free T4 and suppresses TSH.",
+        "D": "Estrogen therapy raises thyroxine-binding globulin, so more hormone is carried in the bound pool and total levels rise, while free T4, free T3 and TSH stay normal and the patient remains euthyroid; only free hormone enters cells.",
+        "E": "A TSH-secreting adenoma gives high free hormone with an inappropriately normal or high TSH and clinical hyperthyroidism."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-015",
+      "question": "A 14-month-old boy is brought to the physician because he cannot sit unsupported and has poor head control. Examination shows truncal hypotonia and limb spasticity. Serum T3 is elevated, free T4 is low, and TSH is at the upper limit of normal. Sequencing shows a loss-of-function mutation in the gene for monocarboxylate transporter 8. Which of the following steps of thyroid hormone signaling is most directly impaired in this patient's neurons?",
+      "answers": {
+        "A": "Binding of T4 to thyroxine-binding globulin",
+        "B": "Deiodination of T4 to T3",
+        "C": "Entry of thyroid hormone into the cell",
+        "D": "Heterodimerization of the receptor with RXR",
+        "E": "Iodination of tyrosine residues in thyroglobulin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Thyroxine-binding globulin carries T4 in blood; a defect there changes total but not free hormone and does not cause disease.",
+        "B": "Deiodinases act inside the cell on hormone that has already entered; the mutated protein is a membrane transporter.",
+        "C": "Unlike steroids, thyroid hormones do not simply diffuse into cells: they need specific transporters such as OATPs and the monocarboxylate transporters MCT8 and MCT10, so without MCT8 hormone cannot reach the nuclear receptor in dependent cells.",
+        "D": "TR-RXR pairing on DNA is intact; the receptor simply never sees its ligand.",
+        "E": "Iodination of thyroglobulin is a step of hormone synthesis in the thyroid gland, and this patient makes hormone."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-016",
+      "question": "A 12-year-old girl is evaluated for fatigue, hypotension, and hypoglycemia. Serum cortisol and ACTH are both markedly elevated, and she has no features of Cushing syndrome. Sequencing of the glucocorticoid receptor gene shows a missense mutation that replaces a conserved cysteine in domain C of the receptor. Cortisol binds the mutant receptor with normal affinity, and the receptor enters the nucleus normally. Which of the following receptor functions is most likely lost?",
+      "answers": {
+        "A": "Binding to cortisol",
+        "B": "Binding to heat shock proteins",
+        "C": "Binding to hormone response elements",
+        "D": "Exposure of the nuclear localization signal",
+        "E": "Release from the foldosome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ligand binding is a function of domain E (the ligand-binding domain) and is stated to be normal.",
+        "B": "Chaperone association keeps the unliganded receptor in the cytoplasm; nuclear entry after hormone binding shows this cycle is working.",
+        "C": "Domain C is the DNA-binding domain, which contacts DNA through zinc finger motifs built on conserved cysteines; losing one prevents the receptor from binding its response elements, so target genes are not regulated.",
+        "D": "The nuclear localization signal is exposed by the ligand-induced conformational change, and nuclear entry is normal here.",
+        "E": "Release from foldosome components follows hormone binding and precedes nuclear import, both of which are intact."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-017",
+      "question": "A 2-year-old girl has a rapidly growing renal mass. Tumor cells carry biallelic loss-of-function mutations in the gene for BRG1. In culture, cortisol-treated tumor cells show glucocorticoid receptor dimers bound to response elements and normal recruitment of SRC and CBP/p300, but RNA polymerase II is not found at target promoters. Which of the following steps most likely failed in these cells?",
+      "answers": {
+        "A": "Acetylation of histones near the response element",
+        "B": "ATP-dependent remodeling of chromatin",
+        "C": "Dimerization of the hormone-bound receptor",
+        "D": "Nuclear import of the receptor",
+        "E": "Passive diffusion of cortisol into the cell"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Histone acetylation is carried out by the coactivators CBP/p300, which are recruited normally.",
+        "B": "BRG1 is the ATPase subunit of the SWI/SNF complex, which is recruited after histone acetylation and relaxes chromatin so that TBP can reach the TATA sequence and Mediator can bring in RNA polymerase II.",
+        "C": "Receptor dimers are found on DNA, so dimerization occurred.",
+        "D": "The receptor is bound to response elements in the nucleus, so import occurred.",
+        "E": "Hormone-bound receptor is on DNA, so cortisol entered the cell."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-018",
+      "question": "A 24-year-old woman comes to the physician because of coarse dark hair on her chin and upper lip for 4 years. Menses are irregular. She is started on a combined estrogen-progestin contraceptive. Six months later the hair growth has slowed. Laboratory studies before and after treatment are shown. Which of the following best explains the improvement in this patient's symptoms?",
+      "table": [
+        [
+          "Test",
+          "Before",
+          "After",
+          "Reference Range"
+        ],
+        [
+          "Total testosterone",
+          "68 ng/dL",
+          "61 ng/dL",
+          "15–70 ng/dL"
+        ],
+        [
+          "Sex hormone-binding globulin",
+          "18 nmol/L",
+          "96 nmol/L",
+          "20–130 nmol/L"
+        ],
+        [
+          "Free testosterone",
+          "1.9 ng/dL",
+          "0.5 ng/dL",
+          "0.1–0.9 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased androgen receptor expression in hair follicles",
+        "B": "Increased hepatic clearance of total testosterone",
+        "C": "Inhibition of 5α-reductase in the skin",
+        "D": "Less free testosterone available to diffuse into cells",
+        "E": "Receptor-mediated uptake of SHBG-bound testosterone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Nothing in the treatment changes receptor expression; the change shown is in the serum binding protein.",
+        "B": "Total testosterone fell only slightly; the larger change is in how much of it is bound.",
+        "C": "5α-reductase inhibition is the mechanism of finasteride, not of estrogen-progestin contraceptives.",
+        "D": "Free and protein-bound steroid are in equilibrium and only unbound hormone diffuses across the cell membrane; estrogen raises SHBG, so the free fraction that can reach the androgen receptor falls.",
+        "E": "There is no evidence that steroid is taken up while bound to SHBG or CBG; bound hormone is the inactive reservoir."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-019",
+      "question": "A 61-year-old man with stage 4 chronic kidney disease comes to the physician for follow-up. Laboratory studies are shown. He is started on calcitriol, and 3 months later his serum parathyroid hormone concentration has fallen by half. Which of the following events in parathyroid chief cells best explains this response?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Creatinine",
+          "3.4 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "Ca2+",
+          "8.1 mg/dL",
+          "8.4–10.2 mg/dL"
+        ],
+        [
+          "Phosphorus",
+          "5.6 mg/dL",
+          "3.0–4.5 mg/dL"
+        ],
+        [
+          "Parathyroid hormone",
+          "412 pg/mL",
+          "10–65 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Activation of a Gq-coupled calcium-sensing receptor",
+        "B": "Cytosolic receptor homodimer binding a response element",
+        "C": "Inhibition of hormone exocytosis by cyclic AMP",
+        "D": "Receptor tyrosine kinase phosphorylation of STAT proteins",
+        "E": "VDR–RXR heterodimer repressing PTH gene transcription"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The calcium-sensing receptor responds to extracellular calcium (and to calcimimetic drugs), not to calcitriol.",
+        "B": "Homodimers that move from the cytosol are Type I steroid receptors; the vitamin D receptor is a Type II receptor.",
+        "C": "Calcitriol is a membrane-permeable ligand of a nuclear receptor; it does not act through a second messenger on secretion.",
+        "D": "Tyrosine kinase-associated receptors with STAT signaling mediate hormones such as growth hormone and prolactin.",
+        "E": "Calcitriol binds the vitamin D receptor, which heterodimerizes with RXR, binds vitamin D response elements, and regulates transcription; one result is decreased PTH mRNA."
+      }
+    },
+    {
+      "id": "endorepro-transcription-and-nuclear-hormone-receptors-020",
+      "question": "A 63-year-old man comes to the physician because of weight gain, proximal muscle weakness, and easy bruising for 4 months. Examination shows facial plethora, purple abdominal striae, and blood pressure of 164/98 mm Hg. Serum cortisol and ACTH are markedly elevated, and CT of the chest shows a lung mass with widespread metastases that is not resectable. Which of the following drugs would most directly block the receptor responsible for this patient's findings?",
+      "answers": {
+        "A": "Finasteride",
+        "B": "Fulvestrant",
+        "C": "Mifepristone",
+        "D": "Raloxifene",
+        "E": "Rosiglitazone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Finasteride inhibits 5α-reductase, lowering DHT; it is used for androgenic alopecia.",
+        "B": "Fulvestrant is a competitive estrogen receptor antagonist used in ER-positive breast cancer.",
+        "C": "Endogenous Cushing syndrome is treated surgically when possible; when it is inoperable, mifepristone (RU486) is used to block the glucocorticoid receptor, and ketoconazole is the other option named for this setting.",
+        "D": "Raloxifene is a selective estrogen receptor modulator, an agonist in bone and antagonist in breast.",
+        "E": "Rosiglitazone is a PPAR-γ agonist; it improves insulin sensitivity but does not block cortisol action."
+      }
+    }
+  ]
+}
