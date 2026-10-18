@@ -1,0 +1,923 @@
+{
+  "lecture": "CBL Week 2: Pituitary, Thyroid and Parathyroid",
+  "block": "endorepro",
+  "generated": "2026-10-18",
+  "questions": [
+    {
+      "id": "endorepro-week-2-cbl-001",
+      "question": "A 47-year-old man has 2 days of worsening double vision. On examination his right eye is deviated down and out with ptosis and a dilated pupil, and he cannot abduct the right eye. MRI shows a pituitary macroadenoma extending laterally from the sella. Into which structure has the tumor most likely grown?",
+      "answers": {
+        "A": "Cavernous sinus",
+        "B": "Optic chiasm",
+        "C": "Sphenoid sinus",
+        "D": "Third ventricle",
+        "E": "Tuber cinereum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "CN III, IV and VI run through the cavernous sinus beside the sella, so lateral tumor growth produces ophthalmoplegia with diplopia, CN III being most vulnerable.",
+        "B": "Chiasmal compression from upward growth causes bitemporal visual field loss, not ocular motor palsies.",
+        "C": "Downward erosion into the sphenoid sinus causes CSF rhinorrhea rather than cranial nerve palsies.",
+        "D": "Upward growth that obstructs the third ventricle causes hydrocephalus with vomiting and papilledema, not isolated ocular palsies.",
+        "E": "Hypothalamic involvement causes diabetes insipidus, appetite and temperature changes, not CN III and VI palsies."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-002",
+      "question": "A 34-year-old woman undergoes resection of a pituitary lesion. A pathologist examines the pars distalis and identifies cells with basophilic cytoplasm on routine staining. Which hormone is most likely produced by these cells?",
+      "answers": {
+        "A": "Antidiuretic hormone",
+        "B": "Growth hormone",
+        "C": "Oxytocin",
+        "D": "Prolactin",
+        "E": "Thyroid-stimulating hormone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "ADH is made in hypothalamic nuclei and stored in axon terminals of the posterior pituitary, not secreted by pars distalis cells.",
+        "B": "GH is secreted by acidophils of the pars distalis, along with prolactin.",
+        "C": "Oxytocin is a hypothalamic neuropeptide released from the posterior pituitary, not produced by anterior pituitary cells.",
+        "D": "Prolactin is an acidophil product of the pars distalis, not a basophil product.",
+        "E": "Basophils of the pars distalis secrete FSH, LH, ACTH and TSH, so TSH is the basophil product here."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-003",
+      "question": "A 29-year-old woman has an MRI for chronic headaches. It shows a small, non-enhancing, fluid-filled cyst lying between the anterior and posterior lobes of the pituitary. Her pituitary hormone levels are normal. Failure of which developmental process most likely produced this lesion?",
+      "answers": {
+        "A": "Descent of the thyroid primordium",
+        "B": "Fusion of the neural tube",
+        "C": "Growth of the diencephalic floor",
+        "D": "Migration of neural crest cells",
+        "E": "Rathke's pouch closure"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Failed thyroid descent produces ectopic or lingual thyroid tissue in the neck, not a sellar cyst.",
+        "B": "Neural tube closure defects produce anencephaly or spina bifida, not a cyst between pituitary lobes.",
+        "C": "The diencephalic outgrowth forms the infundibulum and pars nervosa; it does not leave a cleft between the lobes.",
+        "D": "Neural crest gives rise to C cells and adrenal medulla, not to the cleft between pituitary lobes.",
+        "E": "Incomplete closure of Rathke's pouch leaves a fluid collection between the anterior and posterior lobes, a Rathke cleft cyst, usually asymptomatic."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-004",
+      "question": "A researcher traces the developmental origin of human pituitary tissue. She finds that one lobe arises from the floor of the diencephalon, consists of neural tissue, and contains axon terminals that store hormones made in the hypothalamus. Which tissue is she describing?",
+      "answers": {
+        "A": "Adenohypophysis",
+        "B": "Neurohypophysis",
+        "C": "Pars distalis",
+        "D": "Pars intermedia",
+        "E": "Pars tuberalis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The adenohypophysis arises from oropharyngeal surface ectoderm (Rathke's pouch) and is glandular, not neural.",
+        "B": "The posterior pituitary grows down from neuroectoderm at the base of the diencephalon and is an extension of the hypothalamus.",
+        "C": "The pars distalis is the largest part of the anterior pituitary and derives from Rathke's pouch.",
+        "D": "The pars intermedia derives from the back wall of Rathke's pouch, which is surface ectoderm.",
+        "E": "The pars tuberalis wraps the infundibular stem but derives from Rathke's pouch ectoderm."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-005",
+      "question": "A 58-year-old woman has a thyroid mass. Biopsy shows a tumor of large cells with pale cytoplasm that originate between the follicles along the basement membrane, and serum levels of a hormone made by these cells are elevated. What is the normal action of the hormone made by these cells?",
+      "answers": {
+        "A": "Increases calcium reabsorption in the DCT",
+        "B": "Increases renal 1α-hydroxylase activity",
+        "C": "Raises basal metabolic rate in tissues",
+        "D": "Reduces bone resorption by osteoclasts",
+        "E": "Upregulates intestinal calbindin levels"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Increasing distal tubular calcium reabsorption is an action of PTH, made by parathyroid chief cells.",
+        "B": "Stimulating 1α-hydroxylase is a PTH action that activates vitamin D, not a C-cell product action.",
+        "C": "Raising metabolic rate is the action of T3 and T4 from follicular cells, not the parafollicular cells.",
+        "D": "Parafollicular C cells make calcitonin, which lowers blood calcium by inhibiting osteoclast bone resorption.",
+        "E": "Calbindin is upregulated by calcitriol acting on the nuclear VDR in the gut, not by C-cell hormone."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-006",
+      "question": "A 66-year-old man on long-term hemodialysis has a parathyroid gland removed. Histology shows many large cells with small dark nuclei and abundant granular eosinophilic cytoplasm packed with mitochondria. These cells are known to increase with age and in uremia. Which cells are these?",
+      "answers": {
+        "A": "C cells (parafollicular)",
+        "B": "Chief cells",
+        "C": "Follicular cells",
+        "D": "Oxyphil cells",
+        "E": "Stromal adipocytes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Parafollicular C cells are pale neuroendocrine cells between thyroid follicles that secrete calcitonin.",
+        "B": "Chief cells are small polygonal cells in cords and nests and are the main PTH secretors; they lack the abundant mitochondria-rich cytoplasm.",
+        "C": "Follicular cells line thyroid follicles and make thyroglobulin; they are not found in parathyroid tissue.",
+        "D": "Oxyphil cells are large, mitochondria-packed, eosinophilic cells that increase with age and in uremic secondary hyperparathyroidism.",
+        "E": "Stromal fat cells are interspersed in the parathyroid but are empty-looking adipocytes, not granular eosinophilic cells."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-007",
+      "question": "A 41-year-old man has his pituitary stalk transected in a motor vehicle collision. Two weeks later his serum hormone levels are measured. Which hormone is most likely to be elevated?",
+      "answers": {
+        "A": "Adrenocorticotropic hormone",
+        "B": "Growth hormone",
+        "C": "Luteinizing hormone",
+        "D": "Prolactin",
+        "E": "Thyroid-stimulating hormone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "ACTH depends on CRH delivered through the portal system, so it falls after stalk transection.",
+        "B": "GH depends on GHRH stimulation from the hypothalamus, so it falls when the stalk is cut.",
+        "C": "LH depends on pulsatile GnRH from the hypothalamus, so it falls when the stalk is cut.",
+        "D": "Prolactin is under tonic dopamine inhibition, so cutting the stalk removes the brake and prolactin rises while the others fall.",
+        "E": "TSH depends on TRH stimulation from the hypothalamus, so it falls after stalk transection."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-008",
+      "question": "A 27-year-old woman with regular 28-day cycles has serial hormone measurements. On day 12 her estradiol has been elevated for about 36 hours, and on day 13 her LH rises sharply. Which mechanism best explains the LH rise?",
+      "answers": {
+        "A": "Estradiol flips to stimulating GnRH",
+        "B": "Inhibin loss releases FSH and LH secretion",
+        "C": "Progesterone from the corpus luteum rises",
+        "D": "Prolactin stops inhibiting the hypothalamus",
+        "E": "Short-loop feedback by LH on GnRH neurons"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Sustained high estradiol at midcycle flips from inhibiting to stimulating GnRH and LH, the main physiologic positive feedback that produces the LH surge.",
+        "B": "Inhibin mainly restrains FSH; its fall does not explain a sharp LH surge after sustained estradiol.",
+        "C": "The corpus luteum forms after ovulation; progesterone in the luteal phase suppresses rather than triggers the LH surge.",
+        "D": "Prolactin suppresses GnRH, but a fall in prolactin is not what times the midcycle LH surge.",
+        "E": "Short-loop feedback is inhibitory, like GH inhibiting its own secretion; it would blunt rather than drive the surge."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-009",
+      "question": "A 52-year-old woman is found to have primary hyperparathyroidism. Which combination of renal effects of her excess PTH best explains her laboratory findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "11.6 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "Phosphate",
+          "2.1 mg/dL",
+          "2.5–4.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "112 pg/mL",
+          "10–65 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased Ca2+ and decreased PO4 reabsorption",
+        "B": "Decreased Ca2+ and increased PO4 reabsorption",
+        "C": "Increased Ca2+ and decreased PO4 reabsorption",
+        "D": "Increased Ca2+ and increased PO4 reabsorption",
+        "E": "Unchanged Ca2+ and decreased PO4 reabsorption"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "PTH increases rather than decreases calcium reabsorption, so this would not raise serum calcium.",
+        "B": "This is the opposite of PTH's renal actions and would give low calcium and high phosphate.",
+        "C": "PTH increases calcium reabsorption in the DCT and TAL and decreases phosphate reabsorption, raising serum calcium and lowering phosphate.",
+        "D": "Increased reabsorption of both is the pattern of calcitriol acting on the kidney, not of PTH.",
+        "E": "Lowering phosphate reabsorption alone describes FGF23, which does not raise calcium reabsorption."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-010",
+      "question": "A 38-year-old man has mild lifelong hypercalcemia with a normal-to-high PTH and low urine calcium. Genetic testing shows a loss-of-function mutation in the receptor that parathyroid chief cells use to detect extracellular calcium. Which type of receptor is mutated?",
+      "answers": {
+        "A": "Calcium-sensing G protein–coupled receptor",
+        "B": "Ligand-gated calcium channel in the membrane",
+        "C": "Nuclear receptor that heterodimerizes with RXR",
+        "D": "PTH1 receptor on osteoblast-lineage cells",
+        "E": "Receptor tyrosine kinase encoded by RET"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The CaSR on chief cells is a GPCR; when it senses less calcium, PTH secretion rises, so loss of function shifts the set point upward.",
+        "B": "Chief cells sense calcium through a GPCR, not through a ligand-gated channel.",
+        "C": "Nuclear receptors partnering with RXR include the VDR and thyroid hormone receptor, not the calcium sensor.",
+        "D": "PTH1R is the PTH receptor on bone and kidney cells; it does not sense extracellular calcium.",
+        "E": "RET is the proto-oncogene in MEN2, not the calcium sensor on parathyroid cells."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-011",
+      "question": "A 63-year-old man with small cell lung cancer has confusion. Serum sodium is 124 mEq/L, serum osmolality is low, and urine osmolality is 580 mOsm/kg. Activation of which receptor and effector most directly causes his urine findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Sodium",
+          "124 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Serum osmolality",
+          "258 mOsm/kg",
+          "275–295 mOsm/kg"
+        ],
+        [
+          "Urine osmolality",
+          "580 mOsm/kg",
+          "—"
+        ]
+      ],
+      "answers": {
+        "A": "Mineralocorticoid receptor and ENaC",
+        "B": "Natriuretic peptide receptor and cGMP",
+        "C": "Oxytocin receptor and Gq signaling",
+        "D": "V1 receptor and vascular contraction",
+        "E": "V2 receptor and AQP2 insertion"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Aldosterone acting through ENaC reabsorbs sodium, raising rather than lowering serum sodium.",
+        "B": "ANP signals through cGMP to promote natriuresis and also blocks ADH release; it would not concentrate urine.",
+        "C": "Oxytocin receptors act through Gq to contract uterine and myoepithelial cells; they do not concentrate urine.",
+        "D": "V1 receptors on vessels cause vasoconstriction; they are not what concentrates the urine.",
+        "E": "Excess ADH (SIADH) acts on V2 receptors in the collecting duct to insert AQP2, reabsorbing water and producing concentrated urine with low serum sodium."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-012",
+      "question": "A 31-year-old woman is in labor. As the fetal head stretches the cervix, a hormone is released that further strengthens uterine contractions, which in turn increases cervical stretch. From which hypothalamic nucleus does this hormone primarily originate?",
+      "answers": {
+        "A": "Arcuate nucleus",
+        "B": "Paraventricular nucleus",
+        "C": "Suprachiasmatic nucleus",
+        "D": "Supraoptic nucleus",
+        "E": "Ventromedial nucleus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The arcuate nucleus makes dopamine and GHRH that act on the anterior pituitary, not oxytocin.",
+        "B": "Oxytocin is made mainly in the paraventricular nucleus and released from the posterior pituitary in a positive-feedback loop with cervical stretch.",
+        "C": "The suprachiasmatic nucleus sets circadian rhythm and does not produce oxytocin.",
+        "D": "The supraoptic nucleus is the main source of ADH, not oxytocin.",
+        "E": "The ventromedial nucleus regulates satiety and does not make posterior pituitary hormones."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-013",
+      "question": "A 7-year-old boy has goiter, tachycardia and elevated free T4 with an inappropriately normal TSH. He carries a mutation in the thyroid hormone receptor that prevents T3 binding. In his cells, what is the most likely state of thyroid hormone–responsive genes?",
+      "answers": {
+        "A": "Activated by β-arrestin recruited to the receptor",
+        "B": "Activated through cAMP and protein kinase A",
+        "C": "Repressed because the receptor stays in cytosol",
+        "D": "Repressed by co-repressors recruiting HDACs",
+        "E": "Transcribed by receptor homodimers on DNA"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "β-arrestin acts on cell-surface GPCRs, not on a nuclear receptor bound to DNA.",
+        "B": "cAMP–PKA signaling describes the PTH1 receptor, not the thyroid hormone receptor.",
+        "C": "TR is a type 2 nuclear receptor that is already bound to DNA in the nucleus, not held in the cytosol.",
+        "D": "Unliganded TR–RXR heterodimers sit on DNA and recruit co-repressors with histone deacetylases, keeping target genes silent.",
+        "E": "TR acts as a heterodimer with RXR, and without T3 it represses rather than drives transcription."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-014",
+      "question": "A 61-year-old woman with osteoporosis is started on daily injections of a PTH analog. In osteoblast-lineage cells, binding of the drug to its receptor predominantly activates which signaling pathway?",
+      "answers": {
+        "A": "Gq, phospholipase C and IP3/DAG",
+        "B": "Gs, adenylyl cyclase and cAMP",
+        "C": "JAK2 and STAT phosphorylation",
+        "D": "Nuclear receptor bound to RXR",
+        "E": "Tyrosine kinase autophosphorylation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "PTH1R can also couple to Gq, but this is the secondary pathway; Gs–cAMP predominates in bone and kidney.",
+        "B": "PTH1R is a GPCR whose predominant pathway in bone and kidney is Gs → adenylyl cyclase → cAMP → PKA.",
+        "C": "JAK–STAT signaling is used by GH and prolactin receptors, not the PTH receptor.",
+        "D": "Nuclear receptor signaling describes calcitriol and thyroid hormone, not peptide PTH.",
+        "E": "Receptor tyrosine kinases include the insulin receptor and RET, not the PTH receptor."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-015",
+      "question": "A 4-year-old girl has thick lips, bumpy nodules on her tongue and eyelids, a tall thin body habitus and chronic constipation. Her parents are unaffected. A firm thyroid nodule is found and serum calcitonin is markedly elevated. Which genetic finding is most likely?",
+      "answers": {
+        "A": "CDKN1B loss-of-function variant",
+        "B": "MEN1 (menin) loss of function",
+        "C": "RET codon 634 germline variant",
+        "D": "RET M918T germline variant",
+        "E": "VHL tumor suppressor deletion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "CDKN1B causes a MEN1-like syndrome with parathyroid and pituitary disease, not mucosal neuromas or medullary carcinoma.",
+        "B": "Menin loss causes MEN1 with parathyroid, pancreatic and pituitary tumors, not medullary thyroid carcinoma.",
+        "C": "Codon 634 is the most common MEN2A mutation, which lacks mucosal neuromas and marfanoid habitus.",
+        "D": "RET M918T causes MEN2B, with near-universal early, aggressive medullary carcinoma and about half of cases arising de novo.",
+        "E": "VHL causes pheochromocytoma, renal cell carcinoma and hemangioblastomas, not medullary thyroid carcinoma."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-016",
+      "question": "A 39-year-old man has recurrent duodenal ulcers and diarrhea despite PPI therapy. He had kidney stones at age 30 and his brother has a prolactinoma. Labs are shown. Which test result would most strongly support the cause of his ulcers?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "11.2 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "88 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "Fasting gastrin",
+          "640 pg/mL",
+          "<100 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Fall in gastrin after secretin injection",
+        "B": "Low calcitonin and normal CEA levels",
+        "C": "Paradoxical gastrin rise after secretin",
+        "D": "Raised plasma free metanephrines",
+        "E": "Suppressed insulin with low C-peptide"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gastrin normally falls or stays flat after secretin; a fall argues against gastrinoma.",
+        "B": "Calcitonin and CEA are markers of medullary thyroid carcinoma in MEN2 and do not address ulcers.",
+        "C": "In MEN1 the most common functional pancreatic or duodenal NET is gastrinoma, which shows a paradoxical gastrin rise after secretin.",
+        "D": "Metanephrines screen for pheochromocytoma, a feature of MEN2, not of MEN1 ulcer disease.",
+        "E": "Insulin and C-peptide are checked in hypoglycemia to look for insulinoma, not in ulcer disease."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-017",
+      "question": "A 45-year-old woman has weight gain, purple abdominal striae, easy bruising and proximal muscle weakness. A 7-mm pituitary adenoma is resected. Immunohistochemistry is positive for ACTH. Which transcription factor defines the lineage of this tumor?",
+      "answers": {
+        "A": "GATA3",
+        "B": "PIT-1",
+        "C": "SF-1",
+        "D": "T-PIT",
+        "E": "TTF-1"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "GATA3 is a marker used in breast, urothelial and parathyroid tissue, not a pituitary lineage factor.",
+        "B": "PIT-1 defines the somatotroph, lactotroph and thyrotroph lineages, not corticotrophs.",
+        "C": "SF-1 defines the gonadotroph lineage, the usual source of nonfunctioning adenomas.",
+        "D": "Corticotroph adenomas, which make ACTH and cause Cushing disease, belong to the T-PIT lineage.",
+        "E": "TTF-1 marks thyroid follicular and lung cells, not pituitary lineages."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-018",
+      "question": "A 50-year-old man has enlarging hands and feet, a deepening voice and snoring. IGF-1 is elevated. He drinks a 75-g oral glucose load and serum GH is measured. Which result confirms the diagnosis?",
+      "answers": {
+        "A": "GH falls below 1 ng/mL",
+        "B": "GH rises then normalizes",
+        "C": "Insulin fails to rise",
+        "D": "Prolactin falls by half",
+        "E": "Unsuppressed GH level"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Normal people suppress GH with glucose, so suppression would argue against acromegaly.",
+        "B": "A transient rise with normalization is not the defining abnormality; failure to suppress is.",
+        "C": "The OGTT here assesses GH suppression; insulin response does not establish acromegaly.",
+        "D": "Prolactin is not the measured response in the glucose suppression test for acromegaly.",
+        "E": "Non-suppressible GH after an oral glucose load with a raised IGF-1 confirms a somatotroph adenoma."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-019",
+      "question": "An 8-year-old boy has slowing height growth, headaches and excessive thirst and urination. Imaging shows a suprasellar mass with cystic and calcified components. What is the most likely diagnosis?",
+      "answers": {
+        "A": "Craniopharyngioma",
+        "B": "Germinoma",
+        "C": "Meningioma",
+        "D": "Optic glioma",
+        "E": "Pituitary adenoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Craniopharyngioma, cystic and calcified, is the most common sellar tumor in children and causes growth failure, DI and headache.",
+        "B": "Germinomas occur in children and cause DI, but they are solid and not typically calcified and cystic.",
+        "C": "Meningiomas are adult parasellar tumors and are not the classic cystic, calcified childhood lesion.",
+        "D": "Optic gliomas are childhood tumors associated with NF1 and cause visual loss rather than a calcified cystic mass.",
+        "E": "Adenomas are rare in children (about 3%) and are the most common sellar mass in adults."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-020",
+      "question": "A 52-year-old man has bumped into door frames on both sides for several months. Visual field testing shows loss of the superior temporal quadrants in both eyes, worse on the left. Which retinal fibers are being compressed?",
+      "answers": {
+        "A": "Fibers from both temporal hemiretinas",
+        "B": "Fibers from the inferior nasal retinas",
+        "C": "Fibers from the left optic nerve only",
+        "D": "Fibers from the superior nasal retinas",
+        "E": "Fibers in the right optic tract only"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Temporal retinal fibers do not cross at the chiasm and see nasal fields, so their loss would not give temporal field defects.",
+        "B": "Inferior nasal retinal fibers cross in the inferior chiasm and are compressed first by a tumor from below, so the superior temporal fields go first.",
+        "C": "Damage to one optic nerve causes monocular loss, not a bilateral temporal pattern.",
+        "D": "Superior nasal fibers see the inferior temporal fields; they are involved later as compression progresses.",
+        "E": "An optic tract lesion causes a contralateral homonymous hemianopia, not a bitemporal defect."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-021",
+      "question": "A 58-year-old man with a known nonfunctioning pituitary macroadenoma has a sudden, severe headache followed by vomiting, blurred vision and drooping of his right eyelid. Blood pressure is 86/50 mm Hg. What is the most appropriate immediate step in management?",
+      "answers": {
+        "A": "Cabergoline by mouth",
+        "B": "Desmopressin injection",
+        "C": "IV hydrocortisone",
+        "D": "IV levothyroxine",
+        "E": "Octreotide infusion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Dopamine agonists treat prolactinomas and do not address the acute adrenal crisis of apoplexy.",
+        "B": "Desmopressin treats central diabetes insipidus, which is not the immediate threat here.",
+        "C": "Pituitary apoplexy can cause acute adrenal insufficiency with severe hypotension, so IV glucocorticoids are given immediately, without waiting for labs.",
+        "D": "Thyroid hormone before glucocorticoids speeds cortisol clearance and can worsen adrenal crisis.",
+        "E": "Somatostatin analogs treat acromegaly and TSH-secreting tumors, not apoplexy."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-022",
+      "question": "A 44-year-old woman has fatigue, weight gain and constipation. On examination the lateral third of each eyebrow is thin, her skin is cool and dry and there is non-pitting edema of the shins. Which additional examination finding is most consistent with her condition?",
+      "answers": {
+        "A": "Brisk reflexes with clonus",
+        "B": "Delayed reflex relaxation",
+        "C": "Fine tremor and warm skin",
+        "D": "Lid lag and proptosis",
+        "E": "Resting tachycardia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hyperreflexia is a feature of hyperthyroidism, the opposite of her picture.",
+        "B": "Delayed relaxation of tendon reflexes (Woltman sign) is a classic sign of hypothyroidism.",
+        "C": "Tremor and warm, sweaty skin are signs of hyperthyroidism.",
+        "D": "Lid lag and proptosis are signs of hyperthyroidism and Graves disease.",
+        "E": "Hypothyroidism causes bradycardia, not tachycardia."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-023",
+      "question": "A 36-year-old woman has fatigue and constipation. Her laboratory results are shown. Which etiology is most consistent with these findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "14.2 mIU/L",
+          "0.5–4.5 mIU/L"
+        ],
+        [
+          "Free T4",
+          "0.5 ng/dL",
+          "0.8–1.8 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Hashimoto thyroiditis",
+        "B": "Hypothalamic tumor",
+        "C": "Sheehan syndrome",
+        "D": "Thyroid hormone resistance",
+        "E": "TSH-secreting adenoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A high TSH with low free T4 means primary hypothyroidism, and Hashimoto thyroiditis is a leading cause.",
+        "B": "A hypothalamic lesion causes tertiary hypothyroidism with low or normal TSH, not a high TSH.",
+        "C": "Postpartum pituitary infarction causes secondary hypothyroidism with low or inappropriately normal TSH.",
+        "D": "Resistance gives high T3 and T4 with normal or high TSH, not low free T4.",
+        "E": "A thyrotroph adenoma causes high free T4 with high or normal TSH, not hypothyroidism."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-024",
+      "question": "A 30-year-old woman cannot breastfeed after a delivery complicated by massive postpartum hemorrhage requiring transfusion. Over the next months she has fatigue, amenorrhea and cold intolerance. Which pituitary hormone deficiency is typically the first sign of her condition?",
+      "answers": {
+        "A": "ACTH",
+        "B": "ADH",
+        "C": "GH",
+        "D": "Prolactin",
+        "E": "TSH"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "ACTH deficiency is usually among the last axes lost and is the most dangerous, not the first sign here.",
+        "B": "ADH is stored in the posterior pituitary and is usually spared; it is lost late if at all.",
+        "C": "GH is often lost early in hypopituitarism but has no specific early sign in a postpartum adult woman.",
+        "D": "In Sheehan syndrome, failure to lactate from prolactin deficiency is often the first sign and should prompt testing of all axes.",
+        "E": "TSH deficiency causes her cold intolerance but is a later loss than prolactin failure in Sheehan syndrome."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-025",
+      "question": "A 47-year-old woman has central obesity, a dorsal fat pad, purple striae and hypertension. Late-night salivary cortisol is elevated twice. Her plasma ACTH is 4 pg/mL. What is the most likely source of her hypercortisolism?",
+      "answers": {
+        "A": "Bronchial carcinoid tumor",
+        "B": "CRH-secreting tumor",
+        "C": "Exogenous ACTH use",
+        "D": "Pituitary corticotroph adenoma",
+        "E": "Unilateral adrenal adenoma"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "An ectopic ACTH-secreting tumor gives an ACTH above about 20 pg/mL.",
+        "B": "Ectopic CRH drives pituitary ACTH, so ACTH would be high, not suppressed.",
+        "C": "Exogenous ACTH would raise measured ACTH, not suppress it.",
+        "D": "Cushing disease from a pituitary adenoma gives a high or inappropriately normal ACTH, above about 20 pg/mL.",
+        "E": "An ACTH below about 5 pg/mL indicates an ACTH-independent adrenal source suppressing pituitary ACTH."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-026",
+      "question": "A 49-year-old woman has a 2.1-cm sellar mass found on head CT after a fall. Prolactin, IGF-1, TSH and free T4 have been drawn. Which test should be part of her initial hormonal screening for excess secretion?",
+      "answers": {
+        "A": "Cosyntropin stimulation test",
+        "B": "Overnight dexamethasone test",
+        "C": "Plasma renin activity",
+        "D": "Serum calcitonin level",
+        "E": "Water deprivation test"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cosyntropin tests for adrenal insufficiency, a deficiency, not for excess secretion.",
+        "B": "Screening a sellar mass for hormone excess includes a Cushing screen such as overnight dexamethasone suppression.",
+        "C": "Renin is used for primary aldosteronism, not pituitary hormone excess.",
+        "D": "Calcitonin screens for medullary thyroid carcinoma, not pituitary hormone excess.",
+        "E": "Water deprivation tests for diabetes insipidus, a deficiency state."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-027",
+      "question": "A 55-year-old man's labs confirm acromegaly. Which imaging study is the gold standard to locate the source of the excess hormone?",
+      "answers": {
+        "A": "CT of the sella without contrast",
+        "B": "FDG PET of the head and neck",
+        "C": "MRI of the sella with IV contrast",
+        "D": "Plain skull radiograph of the sella",
+        "E": "Ultrasound of the neck and thyroid"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "CT is second line, used when MRI is contraindicated or for bony anatomy before surgery.",
+        "B": "PET is not the standard test to locate a pituitary adenoma.",
+        "C": "Contrast-enhanced MRI of the sella is the gold-standard and most sensitive study for pituitary lesions.",
+        "D": "Skull films may show sellar enlargement but cannot characterize the tumor.",
+        "E": "Neck ultrasound images the thyroid, not the pituitary."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-028",
+      "question": "A 62-year-old man has fatigue and cold intolerance after transsphenoidal resection of a macroadenoma. His labs are shown. What is the most likely level of dysfunction?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "1.2 mIU/L",
+          "0.5–4.5 mIU/L"
+        ],
+        [
+          "Free T4",
+          "0.4 ng/dL",
+          "0.8–1.8 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Hypothalamic, from loss of TRH",
+        "B": "Pituitary, from loss of TSH",
+        "C": "Primary thyroid gland failure",
+        "D": "Thyroid hormone resistance syndrome",
+        "E": "TSH assay interference by antibody"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Tertiary disease also gives low TSH and free T4, but after pituitary surgery a pituitary cause is far more likely and a stimulation test would be needed to separate the two.",
+        "B": "Low free T4 with an inappropriately normal TSH after pituitary surgery indicates secondary (central) hypothyroidism.",
+        "C": "Primary hypothyroidism raises TSH through lost feedback; a normal TSH with low free T4 is inappropriate.",
+        "D": "Resistance gives high T3 and T4 with normal or high TSH, not low free T4.",
+        "E": "Heterophilic antibodies can distort TSH, but this is a pitfall to exclude, not the most likely diagnosis after pituitary surgery."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-029",
+      "question": "A 34-year-old woman has fatigue, dizziness on standing and darkening of her palmar creases. Her morning labs are shown. Which pattern of dysfunction do they indicate?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Cortisol (8 AM)",
+          "2.1 µg/dL",
+          "5–25 µg/dL"
+        ],
+        [
+          "ACTH",
+          "310 pg/mL",
+          "10–60 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Adrenal, primary insufficiency",
+        "B": "Ectopic ACTH-secreting tumor",
+        "C": "Exogenous steroid suppression",
+        "D": "Hypothalamic, low CRH output",
+        "E": "Pituitary, with low ACTH output"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Low cortisol with a high ACTH means the target organ has failed while feedback to the pituitary is intact: primary adrenal insufficiency (Addison disease).",
+        "B": "Ectopic ACTH raises both ACTH and cortisol, not low cortisol.",
+        "C": "Exogenous glucocorticoids suppress ACTH and cortisol, rather than raising ACTH.",
+        "D": "Tertiary disease gives low cortisol with a low or normal ACTH.",
+        "E": "Secondary disease gives low cortisol with a low or inappropriately normal ACTH."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-030",
+      "question": "A 71-year-old woman is in the ICU on day 4 of septic shock. Routine labs show a low T3, a low-normal T4 and a TSH of 0.6 mIU/L. She has no history of thyroid or pituitary disease. What is the most likely explanation for these values?",
+      "answers": {
+        "A": "Central hypothyroidism",
+        "B": "Hashimoto thyroiditis",
+        "C": "Nonthyroidal illness",
+        "D": "Subclinical hyperthyroidism",
+        "E": "Thyroid hormone resistance"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Low thyroid hormone with low-normal TSH mimics central disease, but in acute illness this pattern should be interpreted cautiously.",
+        "B": "Hashimoto causes primary hypothyroidism with a high TSH.",
+        "C": "Sick euthyroid syndrome gives low T3/T4 with low or normal TSH in acutely ill patients and mimics central hypothyroidism.",
+        "D": "Subclinical hyperthyroidism has a low TSH with normal thyroid hormones, not low T3.",
+        "E": "Resistance causes high T3 and T4 with normal or high TSH."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-031",
+      "question": "A 28-year-old woman with a prolactinoma is started on cabergoline. Activation of which receptor and pathway in lactotrophs mediates the drug's effect?",
+      "answers": {
+        "A": "5-HT2B receptor coupled to Gq",
+        "B": "D1 receptor coupled to Gs",
+        "C": "D2 receptor coupled to Gi/o",
+        "D": "SSTR2 receptor coupled to Gi",
+        "E": "V2 receptor coupled to Gs"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "5-HT2B agonism is cabergoline's off-target action, causing valvulopathy and fibrosis, not the antiprolactin effect.",
+        "B": "D1 receptors couple to Gs and raise cAMP; cabergoline is highly selective for D2.",
+        "C": "Cabergoline is a D2 agonist; D2 couples to Gi/o, inhibiting adenylyl cyclase and calcium influx and suppressing prolactin release and transcription.",
+        "D": "Somatostatin receptors are the target of octreotide in acromegaly, not cabergoline.",
+        "E": "V2 receptors mediate ADH action in the kidney and are the target of desmopressin."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-032",
+      "question": "A 33-year-old woman has taken cabergoline for a macroprolactinoma for 3 years. A new holosystolic murmur is heard at the apex and echocardiography shows mitral regurgitation with thickened leaflets. Agonism at which receptor most likely caused this finding?",
+      "answers": {
+        "A": "Alpha-1 adrenergic receptor",
+        "B": "Beta-1 adrenergic receptor",
+        "C": "Dopamine D2 receptor",
+        "D": "Histamine H1 receptor",
+        "E": "Serotonin 5-HT2B receptor"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alpha-1 agonism causes vasoconstriction, not valvular fibrosis.",
+        "B": "Beta-1 stimulation raises heart rate and contractility but does not thicken valve leaflets.",
+        "C": "D2 agonism is the therapeutic action that lowers prolactin, not the cause of valvulopathy.",
+        "D": "H1 receptors mediate allergy and sedation, not valve fibrosis.",
+        "E": "Cabergoline's off-target 5-HT2B agonism causes valvulopathy and pleural, pulmonary and retroperitoneal fibrosis."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-033",
+      "question": "A 64-year-old man has headaches and bitemporal hemianopia from a 3.5-cm pituitary macroadenoma. Serum prolactin is reported as 38 ng/mL. A dilution of the sample is ordered. What does the dilution most likely aim to detect?",
+      "answers": {
+        "A": "A hook effect masking the true level",
+        "B": "A stalk effect from a nonfunctioning adenoma",
+        "C": "Biotin interference with the immunoassay",
+        "D": "Heterophilic antibodies altering the assay",
+        "E": "Macroprolactin in a patient with few symptoms"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In a giant prolactinoma, extremely high prolactin saturates the assay and gives a falsely low result; diluting the sample reveals the true level.",
+        "B": "Stalk effect explains a modestly raised prolactin from nonfunctioning tumors, but it is not uncovered by dilution.",
+        "C": "Biotin interference is handled by stopping biotin before testing, not by diluting the sample.",
+        "D": "Heterophilic antibodies are a recognised pitfall for TSH, not the reason for diluting prolactin here.",
+        "E": "Macroprolactin is considered when prolactin is raised with few symptoms, not when it is unexpectedly low."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-034",
+      "question": "A 46-year-old woman with Hashimoto hypothyroidism has been stable on levothyroxine for 2 years. Three months ago she started calcium carbonate and ferrous sulfate, taken with her morning levothyroxine. Her TSH is now 9.8 mIU/L. What is the most likely explanation?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH (2 years stable)",
+          "2.1 mIU/L",
+          "0.5–4.5 mIU/L"
+        ],
+        [
+          "TSH (now)",
+          "9.8 mIU/L",
+          "0.5–4.5 mIU/L"
+        ]
+      ],
+      "answers": {
+        "A": "Increased hepatic clearance of T4",
+        "B": "Increased TBG binding of T4",
+        "C": "Reduced gut absorption of T4",
+        "D": "Reduced peripheral conversion to T3",
+        "E": "Thyroid hormone receptor resistance"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Rifampin and anticonvulsants increase clearance, not calcium or iron.",
+        "B": "Oral estrogen, pregnancy and tamoxifen raise TBG; calcium and iron do not.",
+        "C": "Calcium and iron reduce levothyroxine absorption and should be separated from the dose by about 4 hours.",
+        "D": "Impaired deiodination would not explain a rise in TSH after adding calcium and iron.",
+        "E": "Resistance is genetic and would not appear after a medication change."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-035",
+      "question": "A 29-year-old woman on levothyroxine for primary hypothyroidism has a positive home pregnancy test confirmed in clinic at 5 weeks. Her TSH was 1.8 mIU/L last month. What is the most appropriate change to her therapy?",
+      "answers": {
+        "A": "Continue the dose and recheck TSH after delivery",
+        "B": "Decrease the dose to avoid fetal thyrotoxicosis",
+        "C": "Increase the dose by about 25–30% now",
+        "D": "Stop levothyroxine for the first trimester",
+        "E": "Switch to liothyronine for better transfer"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "TSH must be checked every 4 weeks through mid-pregnancy, not deferred until after delivery.",
+        "B": "Requirements rise in pregnancy; decreasing the dose risks maternal and fetal hypothyroidism.",
+        "C": "Rising TBG in pregnancy raises levothyroxine needs, so the dose is increased by about 25–30% as soon as pregnancy is confirmed.",
+        "D": "Stopping levothyroxine causes hypothyroidism, which harms fetal neurodevelopment.",
+        "E": "Levothyroxine remains the treatment; there is no reason to switch to T3."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-036",
+      "question": "A 57-year-old man with a large nonfunctioning macroadenoma has fatigue, hypotension and hyponatremia. Labs show low free T4 with low TSH and a low morning cortisol with low ACTH. Before surgery, which treatment should be started first?",
+      "answers": {
+        "A": "Desmopressin",
+        "B": "Fludrocortisone",
+        "C": "Hydrocortisone",
+        "D": "Levothyroxine",
+        "E": "Testosterone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "There is no evidence of diabetes insipidus, and cortisol replacement may unmask it later.",
+        "B": "Mineralocorticoid is not needed in secondary adrenal insufficiency because the renin–angiotensin system still controls aldosterone.",
+        "C": "Glucocorticoids are given before levothyroxine, because thyroid hormone speeds cortisol clearance and can trigger adrenal crisis.",
+        "D": "Starting levothyroxine before glucocorticoids can precipitate adrenal crisis.",
+        "E": "Sex steroid replacement is not urgent and does not address the dangerous cortisol deficiency."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-037",
+      "question": "A 48-year-old woman has a 2.4-cm nonfunctioning macroadenoma compressing the stalk, and her prolactin is 62 ng/mL. She is started on cabergoline, and three months later her prolactin is normal but the tumor is unchanged in size. What is the most likely explanation?",
+      "answers": {
+        "A": "Cabergoline resistance in a prolactinoma",
+        "B": "Hook effect hiding a giant prolactinoma",
+        "C": "Pituitary apoplexy within the adenoma",
+        "D": "Secretion of macroprolactin by tumor cells",
+        "E": "Stalk effect on normal lactotrophs"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Resistance means prolactin fails to normalize despite maximal doses; here prolactin did normalize.",
+        "B": "The hook effect occurs with very high prolactin in large prolactinomas, where cabergoline would shrink the tumor.",
+        "C": "Apoplexy is an acute hemorrhage with sudden headache and vision loss, not a quiet normalization of prolactin.",
+        "D": "Macroprolactin is a lab artifact, and it does not explain why the tumor did not shrink.",
+        "E": "Stalk compression blocks dopamine from normal lactotrophs; cabergoline normalizes their prolactin without shrinking the nonfunctioning tumor, which still needs surgery."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-038",
+      "question": "A 40-year-old man undergoes transsphenoidal resection of a macroadenoma. On postoperative day 2 he has 6 L of dilute urine and a serum sodium of 149 mEq/L. Which complication should his care team anticipate around days 5–10?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Sodium",
+          "149 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Urine output",
+          "6 L/24 h",
+          "<3 L/24 h"
+        ],
+        [
+          "Urine osmolality",
+          "110 mOsm/kg",
+          "—"
+        ]
+      ],
+      "answers": {
+        "A": "Adrenal crisis from excess cortisol",
+        "B": "Hypercalcemia from the PTH surge",
+        "C": "Nelson syndrome from ACTH excess",
+        "D": "SIADH with hyponatremia",
+        "E": "Thyroid storm from TSH release"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cortisol deficiency, not excess, would cause adrenal crisis, and it is covered with perioperative steroids.",
+        "B": "Pituitary surgery does not affect PTH secretion.",
+        "C": "Nelson syndrome follows bilateral adrenalectomy for Cushing disease, not routine adenoma resection.",
+        "D": "After transsphenoidal surgery, early DI can be followed by SIADH and hyponatremia around days 5–10, part of the triphasic response.",
+        "E": "Surgery does not cause a TSH surge with thyroid storm."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-039",
+      "question": "A health system wants to redesign care for patients with pituitary tumors, who see an endocrinologist, a neurosurgeon, an ophthalmologist and a radiation oncologist over a defined episode from diagnosis to recovery. Which care model is best suited to this group?",
+      "answers": {
+        "A": "Accountable care organization",
+        "B": "Integrated practice unit",
+        "C": "Patient-centered medical home",
+        "D": "Retail walk-in clinic",
+        "E": "Traditional referral network"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "ACOs are payment models for broad populations, not teams organized around one condition's care cycle.",
+        "B": "IPUs are co-located clinical and nonclinical teams organized around a specific condition, treating patients over the full care cycle.",
+        "C": "PCMHs provide longitudinal primary care for all patients regardless of condition, not a condition-specific care cycle.",
+        "D": "Walk-in clinics provide episodic, uncoordinated acute care.",
+        "E": "Separate referrals between specialists are the fragmented model that team-based care aims to replace."
+      }
+    },
+    {
+      "id": "endorepro-week-2-cbl-040",
+      "question": "A primary care practice adopts a team-based model. Team members, including the patient and family, agree on goals that reflect what matters most to the patient, and each member has defined responsibilities. Performance is tracked and the team receives timely feedback. Which demonstrated benefit of this model is most expected?",
+      "answers": {
+        "A": "Decreased emergency department visits",
+        "B": "Decreased need for any specialist care",
+        "C": "Higher reimbursement for each visit",
+        "D": "Longer visits with each physician",
+        "E": "More repeat testing to ensure accuracy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Team-based care has been shown to reduce emergency visits, along with improved patient care, preventive care and staff experience.",
+        "B": "Team-based care coordinates specialist input; it does not remove the need for it.",
+        "C": "Reimbursement models are listed as a challenge for team-based care, not a demonstrated benefit.",
+        "D": "The model divides labor among clear roles rather than lengthening physician visits.",
+        "E": "Repeat testing is a consequence of uncoordinated care that team-based care aims to reduce."
+      }
+    }
+  ]
+}

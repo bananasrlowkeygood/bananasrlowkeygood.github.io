@@ -1,0 +1,461 @@
+{
+  "lecture": "Pelvic Viscera Part 1",
+  "block": "endorepro",
+  "generated": "2026-10-18",
+  "questions": [
+    {
+      "id": "endorepro-pelvic-viscera-part-1-001",
+      "question": "A 44-year-old woman presents with intermittent bright red blood on the toilet paper after bowel movements. She denies any anal pain, and digital exam is painless. Anoscopy shows engorged, prolapsing mucosal cushions located above the pectinate line. Sensory fibers from this lesion travel in which of the following structures?",
+      "answers": {
+        "A": "Inferior gluteal nerve",
+        "B": "Inferior hypogastric plexus",
+        "C": "Inferior rectal nerve",
+        "D": "Obturator nerve",
+        "E": "Posterior femoral cutaneous nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Supplies gluteus maximus and carries no sensation from the anal canal.",
+        "B": "Internal hemorrhoids lie above the pectinate line, which receives visceral afferents via the inferior hypogastric plexus that sense stretch but not pain, so they are painless.",
+        "C": "Carries somatic pain, touch, and temperature from below the pectinate line; it would make external hemorrhoids painful.",
+        "D": "Supplies the medial thigh and has no anal canal distribution.",
+        "E": "Supplies skin of the posterior thigh and leg, not the anal mucosa."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-002",
+      "question": "A 62-year-old man with long-standing constipation develops an exquisitely painful, bluish, tender perianal lump after straining. Examination shows a thrombosed vein at the anal verge below the pectinate line. Venous blood from this region normally drains into which system?",
+      "answers": {
+        "A": "Azygos system via the vertebral plexus",
+        "B": "Caval system via the inferior rectal vein",
+        "C": "Hepatic portal system via the superior rectal vein",
+        "D": "Left renal vein via the gonadal vein",
+        "E": "Splenic vein via the inferior mesenteric vein"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lateral sacral veins can reach the vertebral plexus, but anal canal blood below the pectinate line does not normally drain this way.",
+        "B": "Below the pectinate line the inferior rectal vein drains to the internal pudendal and internal iliac veins and then the IVC (caval system).",
+        "C": "This is the drainage of the anal canal above the pectinate line, the site of internal hemorrhoids.",
+        "D": "The left gonadal vein drains the gonad, not the anal canal.",
+        "E": "The IMV receives the superior rectal vein, i.e., drainage above the pectinate line."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-003",
+      "question": "A 58-year-old man has a 2-cm squamous cell carcinoma arising in the anal canal just above the anal verge, well below the pectinate line. Which lymph node group is the first site to examine for regional spread?",
+      "answers": {
+        "A": "Internal iliac nodes",
+        "B": "Lumbar (aortic) nodes",
+        "C": "Pararectal nodes",
+        "D": "Sacral nodes",
+        "E": "Superficial inguinal nodes"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Drain the superior anal canal (above the pectinate line) and distal rectum.",
+        "B": "Receive gonadal lymph, not lymph from the distal anal canal.",
+        "C": "Together with sacral nodes these drain the proximal rectum.",
+        "D": "Drain the proximal rectum, not the somatic distal anal canal.",
+        "E": "The distal anal canal below the pectinate line is somatic (ectodermal) and drains to the superficial inguinal nodes."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-004",
+      "question": "A 47-year-old woman with cirrhosis and ascites has a hepatic venous pressure gradient of 18 mmHg. Colonoscopy shows dilated submucosal veins in the distal rectum. These collaterals form because blood from which vein is rerouted into the middle and inferior rectal veins?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference"
+        ],
+        [
+          "Hepatic venous pressure gradient",
+          "18 mmHg",
+          "1–5 mmHg"
+        ],
+        [
+          "Albumin",
+          "2.6 g/dL",
+          "3.5–5.0 g/dL"
+        ],
+        [
+          "Platelets",
+          "82,000/mm³",
+          "150,000–400,000/mm³"
+        ]
+      ],
+      "answers": {
+        "A": "Inferior mesenteric vein",
+        "B": "Internal pudendal vein",
+        "C": "Lateral sacral vein",
+        "D": "Superior rectal vein",
+        "E": "Uterine vein"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The IMV receives the superior rectal vein but is not itself the rectal vein that anastomoses with the caval rectal veins.",
+        "B": "This is a caval-side vein that receives the inferior rectal vein.",
+        "C": "Connects pelvic veins to the internal vertebral venous plexus, not a portocaval site.",
+        "D": "The superior rectal vein drains to the portal system via the IMV; in portal hypertension its blood shunts through anastomoses with the caval middle and inferior rectal veins.",
+        "E": "Anastomoses with ovarian veins; it is caval and not part of the rectal portocaval anastomosis."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-005",
+      "question": "A 68-year-old man with metastatic prostate adenocarcinoma presents with headache and a new cerebellar lesion; he has no lung or liver metastases. Spread to the brain that bypasses the lungs is best explained by tumor cells entering which of the following?",
+      "answers": {
+        "A": "Hepatic portal vein",
+        "B": "Inferior vena cava",
+        "C": "Internal vertebral venous plexus",
+        "D": "Superficial inguinal lymph nodes",
+        "E": "Thoracic duct"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Portal blood passes through the liver first; the absence of liver metastases argues against this route, and the prostate does not drain to the portal system.",
+        "B": "IVC blood goes to the right heart and lungs, which are spared here.",
+        "C": "Lateral sacral veins connect pelvic veins to the valveless internal vertebral venous plexus, which communicates with dural venous sinuses, bypassing the lungs.",
+        "D": "Lymphatic spread to inguinal nodes would not explain direct cranial metastasis.",
+        "E": "Lymph from the thoracic duct enters the systemic veins and then the lungs."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-006",
+      "question": "A 42-year-old woman undergoes laparoscopic removal of a right ovarian mass. Postoperatively she has difficulty bringing her right leg toward the midline and numbness over the medial thigh. Which nerve was most likely injured?",
+      "answers": {
+        "A": "Femoral nerve",
+        "B": "Genitofemoral nerve",
+        "C": "Obturator nerve",
+        "D": "Pudendal nerve",
+        "E": "Superior gluteal nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Supplies the anterior thigh extensors and anteromedial skin; it is not related to the ovarian fossa.",
+        "B": "Supplies a small area of the anterior thigh and genitalia; it does not cause adductor weakness.",
+        "C": "Arising from L2–L4, the obturator nerve runs on the lateral pelvic wall next to the ovarian fossa and supplies the medial thigh adductors and skin.",
+        "D": "Supplies the perineum, not the thigh adductors.",
+        "E": "Supplies gluteus medius and minimus; injury gives a Trendelenburg gait, not adductor weakness."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-007",
+      "question": "During an oophorectomy for a 6-cm left ovarian mass, the surgeon ligates the left ovarian vessels in the suspensory ligament at the pelvic brim. Postoperatively the patient has left flank pain, and CT shows hydronephrosis. Which structure was most likely injured?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference"
+        ],
+        [
+          "Creatinine",
+          "1.6 mg/dL",
+          "0.6–1.1 mg/dL"
+        ],
+        [
+          "BUN",
+          "28 mg/dL",
+          "7–20 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Internal iliac artery",
+        "B": "Obturator nerve",
+        "C": "Sigmoid colon",
+        "D": "Ureter",
+        "E": "Uterine artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Damage would cause bleeding or ischemia rather than obstructive hydronephrosis.",
+        "B": "Lies near the ovarian fossa but its injury causes medial thigh deficits, not hydronephrosis.",
+        "C": "Injury would cause peritonitis or a fistula, not hydronephrosis.",
+        "D": "At the pelvic brim the ureter lies closely associated with the ovarian vessels, so ligating them risks ligating the ureter and causing hydronephrosis.",
+        "E": "Crosses over the ureter near the cervix, not at the pelvic brim where the ovarian vessels are ligated."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-008",
+      "question": "A 51-year-old woman undergoes total abdominal hysterectomy for fibroids. On postoperative day 3 she has persistent watery vaginal leakage, and imaging shows a urinary fistula on one side. During clamping of which vessel was the injured structure most at risk?",
+      "answers": {
+        "A": "Inferior vesical artery",
+        "B": "Middle rectal artery",
+        "C": "Ovarian artery",
+        "D": "Superior gluteal artery",
+        "E": "Uterine artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Supplies the bladder base in testosterone-driven anatomy; it is replaced by vaginal branches in this patient.",
+        "B": "Supplies the rectum and lies posterior; not the classic site of injury during hysterectomy.",
+        "C": "Its ligation endangers the ureter at the pelvic brim, but the classic hysterectomy injury is near the cervix.",
+        "D": "Leaves the pelvis through the greater sciatic foramen above piriformis, away from the operative field.",
+        "E": "The ureter passes under the uterine artery near the cervix, so it must be identified and protected when the uterine artery is clamped during hysterectomy."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-009",
+      "question": "A 39-year-old man has sudden colicky flank pain radiating to the groin. Urinalysis shows hematuria, and CT shows a 5-mm stone lodged where the ureter crosses over the bifurcation of the common iliac artery. Which statement best describes this location?",
+      "table": [
+        [
+          "Urinalysis",
+          "Result"
+        ],
+        [
+          "RBC",
+          ">50/hpf"
+        ],
+        [
+          "WBC",
+          "2/hpf"
+        ],
+        [
+          "Nitrite",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "It is a natural narrowing of the ureter at the pelvic brim",
+        "B": "It is where the ureter joins the renal pelvis",
+        "C": "It is where the ureter passes under the ductus deferens",
+        "D": "It is where the ureter passes under the uterine artery",
+        "E": "It is where the ureter traverses the detrusor obliquely"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The ureter has three relative constrictions: the ureteropelvic junction, the crossing of the common iliac at the pelvic brim, and the passage through the bladder wall.",
+        "B": "The ureteropelvic junction is the most proximal constriction, near the kidney.",
+        "C": "That relationship is on the posterior bladder wall, distal to the pelvic brim.",
+        "D": "That crossing is near the cervix, distal to the pelvic brim.",
+        "E": "The intramural segment is a separate constriction at the bladder wall."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-010",
+      "question": "A 34-year-old man undergoes open repair of a strangulated femoral hernia. While incising the lacunar ligament to enlarge the femoral ring, the surgeon encounters brisk arterial bleeding medial to the hernia neck. Which variant vessel was most likely lacerated?",
+      "answers": {
+        "A": "Accessory obturator artery from the inferior epigastric artery",
+        "B": "Deep circumflex iliac artery from the external iliac artery",
+        "C": "Iliolumbar artery from the posterior division",
+        "D": "Inferior gluteal artery from the anterior division",
+        "E": "Superior vesical artery from the umbilical artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Present in about 20% of people, this variant crosses near the femoral ring and neck of a femoral hernia and can be lacerated during reduction or repair.",
+        "B": "Runs laterally along the iliac crest, away from the femoral ring.",
+        "C": "Ascends to the lumbar region, far from the femoral canal.",
+        "D": "Exits the pelvis below piriformis to the gluteal region.",
+        "E": "Supplies the superior bladder surface and is unrelated to the femoral ring."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-011",
+      "question": "A 70-year-old man has buttock claudication after endovascular coiling of an internal iliac artery aneurysm. Arteriography shows occlusion of a branch that leaves the pelvis superior to piriformis through the greater sciatic foramen, usually passing between the lumbosacral trunk and the S1 ventral ramus. Which artery is occluded?",
+      "answers": {
+        "A": "Inferior gluteal artery",
+        "B": "Internal pudendal artery",
+        "C": "Lateral sacral artery",
+        "D": "Obturator artery",
+        "E": "Superior gluteal artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Is the distal end of the anterior division and leaves inferior to piriformis.",
+        "B": "Leaves through the greater sciatic foramen below piriformis and re-enters the perineum through the lesser.",
+        "C": "Supplies the lateral mass of the sacrum and does not leave through the greater sciatic foramen.",
+        "D": "Picks up the obturator nerve and exits through the obturator foramen to the medial thigh.",
+        "E": "This posterior-division branch leaves superior to piriformis through the greater sciatic foramen, usually between the lumbosacral trunk and S1, supplying the gluteal muscles."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-012",
+      "question": "A 57-year-old woman develops perineal numbness and loss of voluntary anal sphincter control after a pelvic fracture. The injured nerve arises from S2–S4 and leaves the pelvis through the greater sciatic foramen. By which route does it re-enter to reach its target region?",
+      "answers": {
+        "A": "Inguinal canal",
+        "B": "Lesser sciatic foramen",
+        "C": "Obturator canal",
+        "D": "Suprapiriform greater sciatic foramen",
+        "E": "Urogenital hiatus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Carries the ilioinguinal nerve and spermatic cord or round ligament, not the pudendal nerve.",
+        "B": "The pudendal nerve leaves the pelvis through the greater sciatic foramen and enters the perineum through the lesser sciatic foramen.",
+        "C": "Transmits the obturator nerve and vessels to the medial thigh.",
+        "D": "Transmits the superior gluteal nerve and vessels to the gluteal region.",
+        "E": "Opening in the levator ani for the urethra and vagina; it is not a nerve route."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-013",
+      "question": "A 66-year-old man has urinary retention after an abdominoperineal resection with extensive dissection near the S2–S4 ventral rami. Postvoid residual volume is 650 mL. Loss of which fibers best explains his inability to empty the bladder?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference"
+        ],
+        [
+          "Postvoid residual",
+          "650 mL",
+          "<50 mL"
+        ],
+        [
+          "Creatinine",
+          "1.0 mg/dL",
+          "0.7–1.3 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Postganglionic sympathetic fibers from prevertebral ganglia",
+        "B": "Preganglionic parasympathetic fibers in pelvic splanchnic nerves",
+        "C": "Preganglionic sympathetic fibers in lumbar splanchnic nerves",
+        "D": "Somatic fibers in the obturator nerve",
+        "E": "Visceral afferent fibers to T11–L2 ganglia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "These contract the internal urethral sphincter at ejaculation; their loss does not prevent voiding.",
+        "B": "S2–S4 parasympathetics contract the detrusor and relax the internal urethral sphincter; their loss causes retention.",
+        "C": "These arise from T11–L2/3 and do not drive detrusor contraction.",
+        "D": "Supply the medial thigh, not the bladder.",
+        "E": "These carry pain from the bladder roof; their loss would not stop detrusor contraction."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-014",
+      "question": "A 45-year-old man has retrograde ejaculation after retroperitoneal lymph node dissection around the lower aorta. Semen is found in his postejaculatory urine. Damage to presynaptic fibers from which source best explains this finding?",
+      "answers": {
+        "A": "Inferior rectal nerve",
+        "B": "Lumbar splanchnic nerves (T11–L2/3)",
+        "C": "Pelvic splanchnic nerves (S2–S4)",
+        "D": "Pudendal nerve (S2–S4)",
+        "E": "Sacral sympathetic trunk"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Somatic supply to the external anal sphincter; it is not involved in bladder neck closure.",
+        "B": "Sympathetic fibers from T11–L2/3 travel in lumbar splanchnics, synapse in prevertebral ganglia, and contract the internal urethral sphincter to prevent retrograde flow of semen.",
+        "C": "Parasympathetics relax the internal urethral sphincter; their loss would not cause retrograde ejaculation.",
+        "D": "Supplies the external urethral sphincter and perineum, not the smooth muscle internal sphincter.",
+        "E": "Its main function is vasomotor, pilomotor, and sudomotor supply of the lower limb."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-015",
+      "question": "A 52-year-old woman with bladder outlet irritation reports pain referred to the lower abdomen. Cystoscopy shows inflammation confined to the bladder roof, which is covered by peritoneum. Afferent fibers from this region reach the spinal cord along which pathway?",
+      "answers": {
+        "A": "With parasympathetic fibers to S2–S4 spinal ganglia",
+        "B": "With somatic fibers of the pudendal nerve to S2–S4",
+        "C": "With sympathetic fibers to T11–L2/3 spinal ganglia",
+        "D": "With the obturator nerve to L2–L4 spinal ganglia",
+        "E": "With the vagus nerve to the nodose ganglion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This is the route for regions below the pelvic pain line: the bladder body, fundus, neck, and inferolateral surfaces.",
+        "B": "Carries somatic sensation from the perineum, not visceral bladder pain.",
+        "C": "The bladder roof lies above the pelvic pain line (covered by peritoneum), so its pain afferents follow sympathetic fibers to the T11–L2/3 ganglia.",
+        "D": "The obturator nerve is somatic to the medial thigh.",
+        "E": "Vagal afferents do not supply the pelvic viscera."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-016",
+      "question": "A 74-year-old man with a known 3-cm right common iliac artery aneurysm has buttock and posterior thigh pain. Which branches arise from the posterior division of the internal iliac artery and supply the walls and muscles rather than the viscera?",
+      "answers": {
+        "A": "Iliolumbar, lateral sacral, and superior gluteal",
+        "B": "Inferior gluteal, internal pudendal, and obturator",
+        "C": "Median sacral, superior rectal, and ovarian",
+        "D": "Middle rectal, uterine, and vaginal",
+        "E": "Superior vesical, inferior vesical, and umbilical"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "These three posterior-division branches supply the lumbar region, the sacrum, and the gluteal muscles: walls and muscles rather than organs.",
+        "B": "These are anterior-division branches.",
+        "C": "These are aortic tributaries to the true pelvis, not internal iliac branches.",
+        "D": "These are anterior-division visceral branches.",
+        "E": "These are anterior-division branches to the bladder and fetal circulation remnant."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-017",
+      "question": "A 63-year-old man has chronic constipation with excessive straining. Defecography shows that the anorectal angle stays near 80° and fails to widen during attempted defecation. Failure of which muscle to relax best explains these findings?",
+      "answers": {
+        "A": "External urethral sphincter",
+        "B": "Internal anal sphincter",
+        "C": "Obturator internus",
+        "D": "Piriformis",
+        "E": "Puborectalis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Controls urine flow and is not responsible for the anorectal angle.",
+        "B": "Smooth muscle under autonomic control; it does not create the anorectal flexure.",
+        "C": "Lateral pelvic wall muscle that rotates the hip; it does not sling the rectum.",
+        "D": "Leaves through the greater sciatic foramen and does not affect anorectal angulation.",
+        "E": "The puborectalis slings the anorectal junction and keeps the 80° flexure; a non-relaxing puborectalis causes chronic constipation."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-018",
+      "question": "A 72-year-old man undergoes a routine digital rectal examination. Which structure is palpable through the anterior wall of the inferior rectum in this patient?",
+      "answers": {
+        "A": "Bladder apex",
+        "B": "Internal iliac artery bifurcation",
+        "C": "Prostate",
+        "D": "Sacral promontory",
+        "E": "Ureteropelvic junction"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Projects anteriorly toward the abdominal wall, away from the rectum.",
+        "B": "Lies high on the lateral pelvic wall, out of reach of the examining finger.",
+        "C": "Structures anterior to the inferior rectum (prostate and seminal glands, or the cervix) can be palpated through its wall on DRE.",
+        "D": "Lies posteriorly and too high; posteriorly, only the lower sacrum and coccyx are palpable.",
+        "E": "Lies at the kidney, far above the pelvis."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-019",
+      "question": "A 29-year-old man has penile urethral trauma, and a urologist warns that a catheter is most likely to meet resistance in the urethral segment that is the shortest and least distensible as it penetrates the deep perineal pouch. Which part is this?",
+      "answers": {
+        "A": "Intermediate (membranous) urethra",
+        "B": "Intramural (preprostatic) urethra",
+        "C": "Navicular fossa",
+        "D": "Prostatic urethra",
+        "E": "Spongy urethra"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The membranous urethra is the shortest and least distensible part, passing through the deep perineal pouch, levator ani, and perineal membrane.",
+        "B": "Lies within the bladder neck wall and is not described as the least distensible.",
+        "C": "A distal dilation within the spongy urethra.",
+        "D": "The widest and most distensible part, where the ejaculatory ducts open.",
+        "E": "The longest part (15–16 cm), running in the corpus spongiosum."
+      }
+    },
+    {
+      "id": "endorepro-pelvic-viscera-part-1-020",
+      "question": "A 64-year-old woman with a carcinoma of the distal urethra opening into the vaginal vestibule is being staged. Bladder lymph would drain to the iliac chains, but which node group should be evaluated first for this tumor?",
+      "answers": {
+        "A": "Common iliac nodes",
+        "B": "Deep inguinal nodes",
+        "C": "External iliac nodes",
+        "D": "Lumbar (aortic) nodes",
+        "E": "Superficial inguinal nodes"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Are a downstream pelvic group, not first-echelon for the vestibular urethra.",
+        "B": "Receive part of the mixed drainage of the prostatic and spongy urethra in testosterone-driven anatomy.",
+        "C": "Drain the bladder along with the internal iliac nodes.",
+        "D": "Drain the gonads.",
+        "E": "The distal urethra in the vaginal vestibule drains to the superficial inguinal nodes."
+      }
+    }
+  ]
+}

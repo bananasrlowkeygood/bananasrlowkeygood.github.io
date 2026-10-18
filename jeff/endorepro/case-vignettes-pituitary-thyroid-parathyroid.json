@@ -1,0 +1,588 @@
+{
+  "lecture": "Case Vignettes: Pituitary, Thyroid, & Parathyroid",
+  "block": "endorepro",
+  "generated": "2026-10-18",
+  "questions": [
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-001",
+      "question": "A 45-year-old woman has fatigue, weight gain, cold intolerance, irregular menses and 6 months of headaches. Exam shows dry skin, periorbital puffiness and bitemporal hemianopia without goiter. MRI shows a 2.5-cm sellar mass compressing the optic chiasm. Which pattern of thyroid tests is most consistent with her thyroid dysfunction?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "0.8 mIU/L",
+          "0.5–5.0 mIU/L"
+        ],
+        [
+          "Free T4",
+          "0.5 ng/dL",
+          "Low"
+        ],
+        [
+          "Cortisol",
+          "7 µg/dL",
+          "Low-normal"
+        ],
+        [
+          "Na+",
+          "132 mEq/L",
+          "135–145 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "High TSH, low free T4, low T3",
+        "B": "High TSH, normal free T4, normal T3",
+        "C": "Low TSH, high free T4, high T3",
+        "D": "Low TSH, normal free T4, normal T3",
+        "E": "Normal TSH, low free T4, low T3"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This is primary hypothyroidism, in which an intact pituitary raises TSH in response to thyroid failure.",
+        "B": "This is subclinical hypothyroidism, which reflects early primary thyroid failure with a normal pituitary.",
+        "C": "This is primary hyperthyroidism with appropriate pituitary suppression of TSH.",
+        "D": "This is subclinical hyperthyroidism and would not cause hypothyroid symptoms.",
+        "E": "A macroadenoma impairs thyrotroph function, so TSH is low or inappropriately normal despite low thyroid hormone, defining central hypothyroidism."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-002",
+      "question": "A 45-year-old woman with a 2.5-cm pituitary macroadenoma has a free T4 of 0.5 ng/dL and a TSH of 0.8 mIU/L. Her morning cortisol is 7 µg/dL and sodium is 132 mEq/L. Thyroid hormone replacement is planned. Which step should be completed before the first dose of levothyroxine?",
+      "answers": {
+        "A": "Check serum calcium and phosphate",
+        "B": "Exclude adrenal insufficiency",
+        "C": "Measure TSH receptor antibodies",
+        "D": "Obtain a thyroid ultrasound",
+        "E": "Start growth hormone replacement"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Calcium is not affected by starting levothyroxine and does not need to be checked first.",
+        "B": "Levothyroxine increases cortisol turnover and can precipitate adrenal crisis in a patient with unrecognized ACTH deficiency.",
+        "C": "TSH receptor antibodies are used for Graves disease and are irrelevant in central hypothyroidism.",
+        "D": "Imaging the thyroid adds nothing when the defect is in the pituitary and there is no goiter.",
+        "E": "GH replacement is not a prerequisite for thyroid replacement, and her IGF-1 is normal."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-003",
+      "question": "A 45-year-old woman with central hypothyroidism from a pituitary macroadenoma passes a cosyntropin stimulation test and begins levothyroxine. Six weeks later her symptoms are improving. Her TSH remains 0.6 mIU/L. Which laboratory value should guide adjustment of her dose?",
+      "answers": {
+        "A": "Free T4",
+        "B": "Reverse T3",
+        "C": "Serum TSH",
+        "D": "Thyroglobulin",
+        "E": "TRH level"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Because the pituitary cannot secrete TSH appropriately, dosing in central hypothyroidism is titrated to free T4.",
+        "B": "Reverse T3 is not used to monitor replacement therapy.",
+        "C": "TSH is unreliable here because pituitary secretion of TSH is impaired regardless of thyroid hormone status.",
+        "D": "Thyroglobulin is a tumor marker for differentiated thyroid cancer, not a dosing guide.",
+        "E": "TRH is a hypothalamic hormone that is not measured clinically to titrate levothyroxine."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-004",
+      "question": "A 50-year-old woman with central hypothyroidism needs evaluation of her adrenal axis before levothyroxine. She receives 250 mcg of cosyntropin intravenously. Which serum cortisol result one hour later indicates an adequate adrenal response?",
+      "answers": {
+        "A": "Cortisol above 1.8 µg/dL",
+        "B": "Cortisol above 15 µg/dL",
+        "C": "Cortisol below 5 µg/dL",
+        "D": "Cortisol rise of 1 µg/dL",
+        "E": "Cortisol unchanged from baseline"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "1.8 µg/dL is the cutoff for suppression after a 1-mg dexamethasone test, not a stimulation threshold.",
+        "B": "A cortisol above about 14–16 µg/dL one hour after 250 mcg cosyntropin is a passing result.",
+        "C": "A very low stimulated cortisol indicates adrenal insufficiency.",
+        "D": "A minimal rise is a failed test, consistent with adrenal insufficiency.",
+        "E": "No response to cosyntropin indicates adrenal insufficiency."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-005",
+      "question": "A 58-year-old woman with a multinodular goiter has lost 8 lb, has occasional palpitations, a pulse of 98 and a fine tremor. Prior FNA of her nodules was benign. Free T4 and free T3 are elevated and an elevated serum alpha subunit is found. MRI shows a sellar mass. Which category best describes her thyroid dysfunction?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "5.4 mIU/L",
+          "0.45–4.5 mIU/L"
+        ],
+        [
+          "Free T4",
+          "Elevated",
+          ""
+        ],
+        [
+          "Free T3",
+          "Elevated",
+          ""
+        ]
+      ],
+      "answers": {
+        "A": "Central hyperthyroidism",
+        "B": "Central hypothyroidism",
+        "C": "Primary hyperthyroidism",
+        "D": "Subclinical hyperthyroidism",
+        "E": "Subclinical hypothyroidism"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A non-suppressed TSH with high free T4 and T3 points to TSH overproduction by the pituitary, supported by the elevated alpha subunit.",
+        "B": "Central hypothyroidism has low free T4, not elevated thyroid hormone.",
+        "C": "Primary hyperthyroidism (e.g., toxic multinodular goiter) suppresses TSH, which is not low here.",
+        "D": "Subclinical hyperthyroidism has normal free T4 and T3 with a low TSH.",
+        "E": "Subclinical hypothyroidism has a high TSH with normal thyroid hormone levels."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-006",
+      "question": "A 58-year-old woman with a TSH-secreting pituitary adenoma has palpitations and weight loss while awaiting transsphenoidal surgery. Her free T4 and T3 are high and TSH is inappropriately normal. A resident suggests methimazole to lower thyroid hormone. Why is antithyroid therapy not indicated for this patient?",
+      "answers": {
+        "A": "It causes agranulocytosis in most patients",
+        "B": "It increases TSH secretion and tumor growth",
+        "C": "It is ineffective because TSH is pulsatile",
+        "D": "It masks symptoms needed for diagnosis",
+        "E": "It requires prior radioiodine ablation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Agranulocytosis is a rare adverse effect, not the reason thionamides are avoided here.",
+        "B": "Lowering thyroid hormone removes negative feedback on the adenoma, raising TSH secretion and stimulating tumor growth.",
+        "C": "Pulsatility of TSH does not prevent thionamides from blocking hormone synthesis.",
+        "D": "The diagnosis is already established; symptom masking is not the concern.",
+        "E": "Thionamides do not require prior ablation; radioiodine is also contraindicated here."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-007",
+      "question": "A 58-year-old woman has a TSH-producing pituitary adenoma with high free T4 and T3, tremor and palpitations. Surgery is scheduled in two months. Her endocrinologist wants to restore euthyroidism before the operation. Which medication is most appropriate?",
+      "answers": {
+        "A": "Cabergoline",
+        "B": "Methimazole",
+        "C": "Octreotide",
+        "D": "Pegvisomant",
+        "E": "Radioactive iodine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cabergoline is the mainstay for prolactinoma, not the agent named for restoring euthyroidism in TSH adenoma.",
+        "B": "Antithyroid drugs raise TSH and stimulate growth of a TSH-secreting adenoma.",
+        "C": "Somatostatin analogs suppress TSH secretion from the adenoma and can restore euthyroidism before surgery.",
+        "D": "A GH-receptor antagonist treats acromegaly and has no effect on TSH secretion.",
+        "E": "Radioiodine ablation lowers thyroid hormone and so drives further TSH secretion and tumor growth."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-008",
+      "question": "A 24-year-old woman has a small diffuse goiter found on exam. She has no palpitations, weight loss or tremor, and her pulse is 72. Her father had similar thyroid test results. Free T4 and T3 are high with a slightly high TSH, and pituitary MRI is normal. Which mechanism best explains her findings?",
+      "answers": {
+        "A": "Autonomous thyroid nodule hormone production",
+        "B": "Inherited reduced tissue response to thyroid hormone",
+        "C": "Pituitary adenoma secreting excess TSH",
+        "D": "Stimulating antibodies to the TSH receptor",
+        "E": "Thyroid inflammation releasing stored hormone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A toxic nodule would suppress TSH and cause hyperthyroid symptoms.",
+        "B": "Resistance to thyroid hormone is inherited; reduced feedback keeps TSH normal-high despite high T4/T3, with few symptoms and often a goiter.",
+        "C": "A TSH-secreting adenoma would be visible on MRI and usually causes thyrotoxic symptoms.",
+        "D": "Graves disease suppresses TSH and causes thyrotoxicosis.",
+        "E": "Thyroiditis causes thyrotoxicosis with a suppressed TSH and is not familial."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-009",
+      "question": "A 60-year-old man with prediabetes, hypertension, colonic polyps, sleep apnea and osteoarthritis is sent by his dentist for an enlarged tongue and new spacing between his teeth. He has skin tags on his neck and upper back. Which single test is the best initial screen for his likely diagnosis?",
+      "answers": {
+        "A": "Morning cortisol",
+        "B": "Random growth hormone",
+        "C": "Serum IGF-1",
+        "D": "Serum prolactin",
+        "E": "TRH stimulation test"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Morning cortisol evaluates adrenal function and does not screen for GH excess.",
+        "B": "GH is secreted in pulses and varies with food, exercise and sleep, so a random level is unreliable.",
+        "C": "IGF-1 reflects integrated GH secretion over the prior day and is elevated in virtually all patients with acromegaly.",
+        "D": "Prolactin screens for prolactinoma, which would not explain macroglossia and dental spacing.",
+        "E": "TRH testing is not used to diagnose acromegaly."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-010",
+      "question": "A 60-year-old man with macroglossia, dental spacing and skin tags has an IGF-1 of 540 ng/mL (normal ~100–300). He is given a 75-g oral glucose load and GH is measured at 2 hours. Which result confirms the diagnosis of acromegaly?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference"
+        ],
+        [
+          "IGF-1",
+          "540 ng/mL",
+          "~100–300 ng/mL"
+        ],
+        [
+          "2-hour GH after 75-g OGTT",
+          "3.8 ng/mL",
+          "Abnormal if >0.4 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "GH falls below 0.1 ng/mL",
+        "B": "GH remains 3.8 ng/mL",
+        "C": "Glucose exceeds 200 mg/dL",
+        "D": "IGF-1 falls by 50%",
+        "E": "Insulin rises appropriately"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Suppression of GH by glucose is the normal response and argues against acromegaly.",
+        "B": "Failure of GH to suppress below 0.4 ng/mL after a glucose load confirms acromegaly.",
+        "C": "A high 2-hour glucose diagnoses diabetes, not GH excess.",
+        "D": "IGF-1 does not change acutely with a glucose load and is not measured in this test.",
+        "E": "An insulin response does not distinguish acromegaly from normal."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-011",
+      "question": "A 60-year-old man with acromegaly undergoes transsphenoidal resection of a 2-cm pituitary adenoma. Six months later he feels well, but his IGF-1 remains elevated. Postoperative MRI shows no residual tumor. Which is the next best step in management?",
+      "answers": {
+        "A": "Exploratory pituitary surgery",
+        "B": "Ketoconazole",
+        "C": "Levothyroxine",
+        "D": "Observation with repeat IGF-1",
+        "E": "Somatostatin analog"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "With no visible residual tumor, repeat surgery has no target and is not the next step.",
+        "B": "Ketoconazole inhibits steroidogenesis and is used for hypercortisolism, not GH excess.",
+        "C": "Thyroid hormone does not treat persistent GH excess.",
+        "D": "Persistently elevated IGF-1 means active disease that needs treatment.",
+        "E": "A somatostatin analog suppresses residual GH secretion when surgery fails to normalize IGF-1."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-012",
+      "question": "A 50-year-old man has bitemporal hemianopsia, left ptosis, decreased libido and low testosterone. MRI shows a 3.5-cm pituitary mass. Labs are shown. Which is the most appropriate initial treatment?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Prolactin",
+          "3688 ng/mL",
+          "4–15.2 ng/mL"
+        ],
+        [
+          "Testosterone",
+          "46 ng/dL",
+          "264–916 ng/dL"
+        ],
+        [
+          "LH / FSH",
+          "Low",
+          ""
+        ],
+        [
+          "8 AM cortisol",
+          "14 µg/dL",
+          "6–19 µg/dL"
+        ],
+        [
+          "IGF-1",
+          "Normal",
+          ""
+        ]
+      ],
+      "answers": {
+        "A": "Dopamine agonist",
+        "B": "Radiation to the sella",
+        "C": "Somatostatin analogue",
+        "D": "Testosterone replacement alone",
+        "E": "Transsphenoidal resection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Prolactinoma, even a macroadenoma with visual compromise, is treated first with a dopamine agonist, which lowers prolactin and usually shrinks the tumor.",
+        "B": "Radiation is not first-line and works slowly.",
+        "C": "Somatostatin analogs treat GH- and TSH-secreting adenomas; IGF-1 is normal here.",
+        "D": "Testosterone does not treat the tumor, and hypogonadism should improve once prolactin falls.",
+        "E": "Surgery is reserved for prolactinoma with immediate danger, drug failure or intolerance."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-013",
+      "question": "A 34-year-old woman has a 6-mm pituitary adenoma found during evaluation for amenorrhea and galactorrhea. Her visual fields are normal. Before her MRI, labs showed an elevated prolactin. Which additional concern applies to a macroadenoma but not to this tumor?",
+      "answers": {
+        "A": "Hormonal deficiencies from compression",
+        "B": "Hormonal hypersecretion",
+        "C": "Hyperprolactinemia from dopamine excess",
+        "D": "Pituitary apoplexy from dopamine agonists",
+        "E": "Secondary hyperparathyroidism"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Adenomas 10 mm or larger must be assessed for hormone deficiencies; with microadenomas only hypersecretion is a concern.",
+        "B": "Hypersecretion is a concern for adenomas of any size, including microadenomas.",
+        "C": "Dopamine inhibits prolactin, so dopamine excess would lower prolactin.",
+        "D": "This is not the size-based distinction the evaluation turns on.",
+        "E": "Parathyroid disease is not a consequence of pituitary adenoma size."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-014",
+      "question": "A 42-year-old woman with PCOS, type 2 diabetes, hypertension and obesity reports years of weight gain and easy bruising. She takes no glucocorticoids. Exam shows moon facies, proximal weakness and abdominal striae. MRI shows a 7-mm pituitary adenoma. Which is the recommended initial treatment?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "24-hr urine free cortisol",
+          "150 mcg/24 hr",
+          "4–40 mcg/24 hr"
+        ],
+        [
+          "1-mg dexamethasone suppression",
+          "6.2 µg/dL",
+          "<1.8 µg/dL"
+        ],
+        [
+          "ACTH",
+          "80 pmol/L",
+          "10–60 pmol/L"
+        ],
+        [
+          "K+",
+          "3.3 mEq/L",
+          "3.5–5.0 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Ketoconazole",
+        "B": "Mifepristone",
+        "C": "Radiation to the sella",
+        "D": "Somatostatin analogue",
+        "E": "Transsphenoidal surgery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Steroidogenesis inhibitors are adjuncts when surgery fails or is delayed, not first-line.",
+        "B": "Glucocorticoid receptor blockade is a medical option, not the initial treatment for Cushing disease.",
+        "C": "Radiation is reserved for persistent disease after surgery.",
+        "D": "Somatostatin analogs are used for GH- and TSH-secreting adenomas.",
+        "E": "Resection of the ACTH-secreting pituitary adenoma is the recommended initial treatment of Cushing disease."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-015",
+      "question": "A 59-year-old woman is told at her annual exam that her calcium is high. She feels well, takes no medications and has no family history of stones or calcium disorders. Labs are shown. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "10.8 mg/dL",
+          "8.1–10.3 mg/dL"
+        ],
+        [
+          "iPTH",
+          "59 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "25-OH vitamin D",
+          "15 ng/mL",
+          "20–75 ng/mL"
+        ],
+        [
+          "1,25-OH vitamin D",
+          "50 pg/mL",
+          "16–65 pg/mL"
+        ],
+        [
+          "Urinary calcium",
+          "230 mg/24 hr",
+          "Normal"
+        ],
+        [
+          "Creatinine",
+          "1.0 mg/dL",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "Familial hypocalciuric hypercalcemia",
+        "B": "Primary hyperparathyroidism",
+        "C": "PTHrP-mediated hypercalcemia",
+        "D": "Sarcoidosis",
+        "E": "Secondary hyperparathyroidism"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "FHH causes low urinary calcium, but her urinary calcium excretion is normal.",
+        "B": "Hypercalcemia with an inappropriately normal (unsuppressed) PTH defines primary hyperparathyroidism.",
+        "C": "Malignancy-associated hypercalcemia suppresses PTH, which is not suppressed here.",
+        "D": "Granulomatous disease raises 1,25-vitamin D and suppresses PTH.",
+        "E": "Secondary hyperparathyroidism is a response to low calcium, not hypercalcemia."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-016",
+      "question": "A 59-year-old woman has asymptomatic primary hyperparathyroidism with a calcium of 10.8 mg/dL (ULN 10.3), urinary calcium 230 mg/24 hr and creatinine 1.0 mg/dL. Abdominal x-ray shows no stones. DXA shows a T-score of −2.7 at the left hip. Which finding is the indication for parathyroidectomy in this patient?",
+      "answers": {
+        "A": "Her age",
+        "B": "Her bone density",
+        "C": "Her renal function",
+        "D": "Her serum calcium",
+        "E": "Her urinary calcium"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Age is an indication only when under 50.",
+        "B": "A T-score of −2.5 or lower at the hip, spine, femoral neck or distal radius is an indication for surgery.",
+        "C": "Surgery is indicated for eGFR below 60 mL/min, and her creatinine is normal.",
+        "D": "Calcium must be more than 1.0 mg/dL above the upper limit; hers is only 0.5 above.",
+        "E": "The threshold for women is above 250 mg/day; hers is 230."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-017",
+      "question": "A 47-year-old man is found to have primary hyperparathyroidism on routine labs. He has no stones, normal bone density and normal renal function. His serum calcium is 10.6 mg/dL (ULN 10.3). Which additional finding would by itself make him a candidate for parathyroidectomy?",
+      "answers": {
+        "A": "His 25-OH vitamin D of 18 ng/mL",
+        "B": "His age of 47 years",
+        "C": "His phosphate in the low-normal range",
+        "D": "His PTH within the normal range",
+        "E": "His urinary calcium of 280 mg/day"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Low vitamin D is not a listed indication for surgery.",
+        "B": "Age under 50 is an indication for parathyroidectomy.",
+        "C": "Low or normal phosphate is an expected finding, not a surgical indication.",
+        "D": "An inappropriately normal PTH is part of the diagnosis, not an indication for surgery.",
+        "E": "For men the urinary calcium threshold is above 300 mg/day."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-018",
+      "question": "A 63-year-old woman with primary hyperparathyroidism and a T-score of −2.8 at the lumbar spine has decided to proceed with parathyroidectomy. Her diagnosis was made from serum calcium and PTH. Her surgeon now orders imaging. What is the purpose of the sestamibi scan and neck ultrasound in this setting?",
+      "answers": {
+        "A": "Confirm the biochemical diagnosis",
+        "B": "Detect nephrocalcinosis",
+        "C": "Exclude parathyroid carcinoma",
+        "D": "Localize the parathyroid glands",
+        "E": "Screen for MEN 1 tumors"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Imaging is not used for diagnosis, which rests on calcium and PTH.",
+        "B": "Kidney imaging, not neck imaging, assesses stones and nephrocalcinosis.",
+        "C": "Carcinoma is rare and not the stated purpose of preoperative imaging.",
+        "D": "Parathyroid imaging is done only when planning surgery, to localize the abnormal gland.",
+        "E": "MEN screening is genetic and biochemical, not by sestamibi."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-019",
+      "question": "A 72-year-old man with a smoking history has cough, weight loss and lethargy. Chest x-ray shows a 6-cm right hilar mass. Serum calcium is 13 mg/dL and creatinine 1.4 mg/dL. He is given IV normal saline. Which additional drug will lower his calcium within hours?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "13 mg/dL",
+          "8.1–10.3 mg/dL"
+        ],
+        [
+          "Creatinine",
+          "1.4 mg/dL",
+          "0.7–1.4 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Calcitonin",
+        "B": "Cinacalcet",
+        "C": "Denosumab",
+        "D": "Prednisone",
+        "E": "Zoledronic acid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Calcitonin works within hours by blocking bone calcium release and renal reabsorption, though it is less potent than bisphosphonates.",
+        "B": "Cinacalcet lowers PTH-driven calcium and does not act on PTH-independent hypercalcemia of malignancy.",
+        "C": "Denosumab is reserved for cases refractory to bisphosphonates or with low eGFR.",
+        "D": "Glucocorticoids treat 1,25-vitamin D-mediated hypercalcemia such as sarcoidosis or lymphoma.",
+        "E": "Zoledronic acid is more potent but may take several days to work."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-pituitary-thyroid-parathyroid-020",
+      "question": "A 38-year-old man with fatigue, cough and bilateral hilar adenopathy on chest x-ray has a serum calcium of 12.4 mg/dL. PTH is suppressed and 1,25-OH vitamin D is elevated. After IV fluids, his calcium remains high. Which drug best targets the mechanism of his hypercalcemia?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "12.4 mg/dL",
+          "8.1–10.3 mg/dL"
+        ],
+        [
+          "PTH",
+          "Suppressed",
+          ""
+        ],
+        [
+          "1,25-OH vitamin D",
+          "Elevated",
+          "16–65 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Calcitonin",
+        "B": "Cinacalcet",
+        "C": "Denosumab",
+        "D": "Prednisone",
+        "E": "Zoledronic acid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Calcitonin acts on bone and kidney and does not address the excess 1,25-vitamin D.",
+        "B": "Cinacalcet acts on the parathyroid calcium receptor; PTH is already suppressed.",
+        "C": "Denosumab reduces bone resorption and does not reduce gut calcium absorption.",
+        "D": "Glucocorticoids inhibit gut calcium absorption driven by 1,25-vitamin D in granulomatous disease.",
+        "E": "Bisphosphonates block bone release but do not target increased gut absorption."
+      }
+    }
+  ]
+}

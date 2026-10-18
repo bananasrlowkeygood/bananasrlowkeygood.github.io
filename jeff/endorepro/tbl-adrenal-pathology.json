@@ -1,0 +1,505 @@
+{
+  "lecture": "TBL - Adrenal Pathology",
+  "block": "endorepro",
+  "generated": "2026-10-18",
+  "questions": [
+    {
+      "id": "endorepro-tbl-adrenal-pathology-001",
+      "question": "A 47-year-old man has hypertension of 162/98 mm Hg despite a thiazide, a calcium-channel blocker, and an ACE inhibitor. He reports proximal leg weakness. He takes potassium chloride daily. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "K+",
+          "2.8 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "CO2",
+          "31 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Plasma renin activity",
+          "0.2 ng/mL/hr",
+          "0.7–3.3 ng/mL/hr"
+        ],
+        [
+          "Plasma aldosterone",
+          "38 ng/dL",
+          "7–30 ng/dL"
+        ],
+        [
+          "Aldosterone:renin ratio",
+          "190",
+          "≤30"
+        ]
+      ],
+      "answers": {
+        "A": "Adrenal cortical adenoma secreting aldosterone",
+        "B": "Bilateral adrenal hemorrhage",
+        "C": "Pheochromocytoma of the adrenal medulla",
+        "D": "Renal artery stenosis activating renin release",
+        "E": "Small cell lung carcinoma secreting ACTH"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Autonomous aldosterone secretion suppresses renin through negative feedback, giving a high aldosterone, low renin, and markedly elevated ARR with hypokalemic alkalosis.",
+        "B": "Bilateral adrenal hemorrhage destroys the cortex and produces low aldosterone with hyperkalemia and hypotension, the opposite of this picture.",
+        "C": "Pheochromocytoma causes episodic catecholamine-driven hypertension but does not produce high aldosterone with suppressed renin.",
+        "D": "Renal artery stenosis lowers renal perfusion and raises renin, producing secondary hyperaldosteronism with a normal or low ARR.",
+        "E": "Ectopic ACTH causes Cushing syndrome with hyperglycemia and markedly elevated ACTH; aldosterone is usually not increased because it is regulated mainly by angiotensin II."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-002",
+      "question": "A 52-year-old woman with refractory hypertension and hypokalemia has an elevated plasma aldosterone concentration and suppressed renin activity. She is given 2 L of 0.9% saline over 4 hours, after which plasma aldosterone remains 14 ng/dL. Which of the following best explains the failure of aldosterone to fall?",
+      "answers": {
+        "A": "Aldosterone production independent of normal feedback",
+        "B": "Angiotensin II overproduction by the lung",
+        "C": "Decreased renal perfusion activating juxtaglomerular cells",
+        "D": "Excess ACTH from a pituitary adenoma",
+        "E": "Impaired hepatic clearance of aldosterone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A sodium load should suppress aldosterone through negative feedback, so non-suppressible aldosterone confirms autonomous (primary) hyperaldosteronism.",
+        "B": "ACE in the lung converts angiotensin I to II but does not act independently of renin, which is suppressed here.",
+        "C": "Decreased renal perfusion would raise renin, but renin is suppressed in this patient.",
+        "D": "ACTH only weakly drives aldosterone; excess ACTH causes hypercortisolism rather than isolated hyperaldosteronism.",
+        "E": "Hepatic clearance is not the mechanism tested by saline suppression, which assesses whether production responds to feedback."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-003",
+      "question": "A 44-year-old man undergoes right adrenalectomy for primary hyperaldosteronism. The cut surface shows a 2.1-cm well-circumscribed, bright golden-yellow nodule with pushing borders and no necrosis. Microscopy shows nests and cords of pale, vesicular cells with fine intervening vessels. From which region of the gland did this tumor most likely arise?",
+      "answers": {
+        "A": "Adrenal medulla",
+        "B": "Central vein wall",
+        "C": "Zona fasciculata",
+        "D": "Zona glomerulosa",
+        "E": "Zona reticularis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The medulla is red-brown to tan and gives rise to catecholamine-secreting pheochromocytomas, not lipid-rich yellow tumors.",
+        "B": "The central vein runs through the medulla and does not produce hormones.",
+        "C": "The zona fasciculata produces cortisol; a tumor from it would cause Cushing syndrome rather than hyperaldosteronism.",
+        "D": "The zona glomerulosa is the aldosterone-producing layer, and the golden-yellow, lipid-rich cells indicate a cortical steroid-producing origin.",
+        "E": "The zona reticularis produces sex hormones such as DHEA-S and androstenedione, not aldosterone."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-004",
+      "question": "A 33-year-old woman with type 1 diabetes presents with 3 days of vomiting, dizziness, and fatigue. She has darkening of her knuckles and dorsal tongue. Blood pressure is 98/60 mm Hg and pulse is 122/min. Laboratory studies are shown. Which of the following is the most likely cause of her condition?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "127 mEq/L",
+          "136–145 mEq/L"
+        ],
+        [
+          "K+",
+          "6.4 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Glucose",
+          "58 mg/dL",
+          "70–110 mg/dL"
+        ],
+        [
+          "Cortisol (8 am)",
+          "<1.0 mcg/dL",
+          "5–23 mcg/dL"
+        ],
+        [
+          "ACTH (8 am)",
+          ">2000 pg/mL",
+          "10–60 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Autoimmune destruction of the adrenal cortex",
+        "B": "Exogenous glucocorticoid withdrawal",
+        "C": "Hypopituitarism from a pituitary infarct",
+        "D": "Insulin overdose with reduced oral intake",
+        "E": "Tuberculous granulomatous infection of both adrenals"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Low cortisol and aldosterone with markedly elevated ACTH indicate primary adrenal insufficiency, and autoimmune adrenalitis is the most common U.S. cause, especially with another autoimmune disease.",
+        "B": "Steroid withdrawal suppresses the HPA axis, so ACTH would be low and there would be no ACTH-driven hyperpigmentation.",
+        "C": "Hypopituitarism causes secondary insufficiency with low ACTH, which would not cause hyperpigmentation.",
+        "D": "Insulin excess could explain hypoglycemia but not hyperkalemia, hyponatremia, or an ACTH above 2000 pg/mL.",
+        "E": "Tuberculosis is the most common cause worldwide, but autoimmune destruction is most likely in a U.S. patient with type 1 diabetes."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-005",
+      "question": "A 30-year-old man with Addison disease asks why the skin over his knuckles and his oral mucosa have darkened. Which of the following best explains this finding?",
+      "answers": {
+        "A": "Cortisol deficiency directly activating tyrosinase",
+        "B": "Hyperkalemia stimulating melanocyte proliferation",
+        "C": "Increased POMC processing to ACTH and α-MSH",
+        "D": "Loss of aldosterone suppression of melanocytes",
+        "E": "Lymphocytic infiltration of the dermis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cortisol does not act directly on tyrosinase; pigmentation follows the rise in POMC-derived peptides.",
+        "B": "Potassium has no role in melanocyte stimulation.",
+        "C": "Loss of cortisol feedback upregulates POMC, yielding ACTH and α-MSH, and high ACTH itself cross-reacts with melanocyte receptors.",
+        "D": "Aldosterone does not regulate melanocytes; its deficiency explains salt wasting and hyperkalemia.",
+        "E": "Lymphocytic infiltration occurs in the adrenal cortex in autoimmune adrenalitis, not in the skin."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-006",
+      "question": "A 35-year-old woman with an equivocal 8 AM cortisol of 9 mcg/dL is evaluated for fatigue and orthostasis. She receives an IV bolus of cosyntropin, and cortisol measured 60 minutes later is 11 mcg/dL. Her endogenous ACTH is 8 pg/mL (N 10–60). Which of the following is the most likely site of the defect?",
+      "answers": {
+        "A": "Adrenal cortex",
+        "B": "Adrenal medulla",
+        "C": "Juxtaglomerular apparatus",
+        "D": "Peripheral cortisol receptors",
+        "E": "Pituitary or hypothalamus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Primary adrenal insufficiency would show a weak cosyntropin response with an elevated, not low, ACTH.",
+        "B": "The medulla produces catecholamines and is not assessed by cosyntropin stimulation.",
+        "C": "Juxtaglomerular cells regulate renin and do not determine the cortisol response to ACTH.",
+        "D": "Receptor resistance would produce high cortisol and ACTH, not low levels of both.",
+        "E": "A weak cosyntropin response confirms adrenal insufficiency, and a low/normal ACTH localizes it to the pituitary or hypothalamus (secondary or tertiary)."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-007",
+      "question": "A 6-year-old boy is admitted with fever, a rapidly spreading petechial rash, and hypotension unresponsive to fluids. He dies within 24 hours. At autopsy, both adrenal glands and the surrounding perirenal fat are diffusely dark red. Which of the following organisms is most commonly associated with this finding?",
+      "answers": {
+        "A": "Mycobacterium tuberculosis",
+        "B": "Neisseria meningitidis",
+        "C": "Pseudomonas aeruginosa",
+        "D": "Staphylococcus aureus",
+        "E": "Streptococcus pneumoniae"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Tuberculosis is the leading worldwide cause of chronic Addison disease, not acute bilateral adrenal hemorrhage in sepsis.",
+        "B": "Bilateral adrenal hemorrhage in sepsis is Waterhouse–Friderichsen syndrome, most commonly associated with meningococcal infection.",
+        "C": "Pseudomonas was the most common pathogen in one pediatric case series, but N. meningitidis is the most common association overall.",
+        "D": "S. aureus is not one of the organisms classically highlighted for Waterhouse–Friderichsen syndrome.",
+        "E": "S. pneumoniae can cause it, but it is less commonly associated than N. meningitidis."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-008",
+      "question": "A 68-year-old woman on warfarin for atrial fibrillation presents with abdominal pain, hypotension, and confusion. Her INR is 6.2. Sodium is 129 mEq/L and potassium is 6.0 mEq/L. Imaging shows bilateral enlarged adrenal glands with high-attenuation contents. She has no fever and blood cultures are negative. Which of the following best describes the mechanism of her adrenal failure?",
+      "answers": {
+        "A": "ACTH deficiency from pituitary apoplexy",
+        "B": "Autoimmune lymphocytic destruction of the cortex",
+        "C": "Bilateral adrenal hemorrhage from anticoagulation",
+        "D": "Granulomatous tuberculous infection of both adrenals",
+        "E": "Metastatic carcinoma replacing both adrenals"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Pituitary apoplexy causes secondary insufficiency, which spares aldosterone and would not produce adrenal hemorrhage on imaging.",
+        "B": "Autoimmune adrenalitis produces small atrophic glands over months, not acute hemorrhagic enlargement.",
+        "C": "Anticoagulant medications are a noninfectious cause of bilateral adrenal hemorrhage, destroying the cortex acutely.",
+        "D": "Tuberculous adrenalitis develops chronically and would not explain acute high-attenuation hemorrhage with a supratherapeutic INR.",
+        "E": "Metastases can cause insufficiency but would not present acutely with hemorrhage in the setting of an INR of 6.2."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-009",
+      "question": "A 58-year-old man with rheumatoid arthritis has taken prednisone 20 mg daily for 2 years. He stops it abruptly before a trip and 4 days later presents with hypotension, vomiting, and hypoglycemia. If his adrenal glands were examined, which of the following would most likely be seen?",
+      "answers": {
+        "A": "Bilateral cortical atrophy",
+        "B": "Bilateral hemorrhagic necrosis",
+        "C": "Bilateral nodular cortical hyperplasia",
+        "D": "Lymphocytic infiltration with hyperplastic foci",
+        "E": "Unilateral golden-yellow cortical nodule"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Chronic exogenous steroids suppress ACTH, causing cortical atrophy; abrupt cessation leaves the gland unable to ramp up production.",
+        "B": "Bilateral hemorrhage is seen in Waterhouse–Friderichsen syndrome or anticoagulation, not steroid withdrawal.",
+        "C": "Bilateral nodular hyperplasia reflects excess ACTH, as in Cushing disease, the opposite of HPA suppression.",
+        "D": "Lymphocytic infiltration indicates autoimmune adrenalitis, not iatrogenic suppression.",
+        "E": "A unilateral golden-yellow nodule is an adrenal cortical adenoma, which would cause hormone excess."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-010",
+      "question": "A 2-week-old infant has vomiting, poor feeding, hyponatremia, and hyperkalemia. ACTH is markedly elevated, and cortisol and aldosterone are low. If the adrenal glands were examined, which of the following would most likely be seen, and why?",
+      "answers": {
+        "A": "Atrophic glands from autoimmune destruction",
+        "B": "Atrophic glands from suppressed ACTH",
+        "C": "Hemorrhagic glands from meningococcemia",
+        "D": "Hyperplastic glands from excess ACTH stimulation",
+        "E": "Normal glands with absent medulla"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Autoimmune adrenalitis is the common U.S. cause in older patients and produces atrophy, not the picture of a newborn with an enzyme defect.",
+        "B": "Suppressed ACTH causes atrophy, but ACTH here is markedly elevated.",
+        "C": "Meningococcal hemorrhage causes acute crisis with fever and purpura, not a neonatal enzyme defect with high ACTH.",
+        "D": "In congenital adrenal hyperplasia (e.g., 21-hydroxylase deficiency), failure to make cortisol and aldosterone raises ACTH, making the glands hyperplastic but nonfunctional.",
+        "E": "The medulla makes catecholamines, and its absence would not explain cortisol and aldosterone deficiency."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-011",
+      "question": "A 27-year-old woman with Addison disease and type 1 diabetes is evaluated in clinic. She has no history of mucocutaneous candidiasis or hypoparathyroidism. Which of the following is the most appropriate additional screening test for an associated condition?",
+      "answers": {
+        "A": "Fasting lipid panel",
+        "B": "Plasma metanephrines",
+        "C": "Serum calcitonin",
+        "D": "Thyroid function panel",
+        "E": "Urine 5-HIAA"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Lipid screening is unrelated to autoimmune polyendocrine syndromes.",
+        "B": "Plasma metanephrines screen for pheochromocytoma, which is associated with MEN2, VHL, and NF1, not APS-2.",
+        "C": "Calcitonin screens for medullary thyroid carcinoma in MEN2, not autoimmune syndromes.",
+        "D": "Addison disease plus type 1 diabetes suggests APS-2, which also includes autoimmune thyroid disease, so a thyroid panel is warranted.",
+        "E": "Urine 5-HIAA screens for carcinoid tumors and is unrelated."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-012",
+      "question": "A 36-year-old man has several daily episodes of pounding heartbeat, drenching sweats, and a sense he is about to die, each lasting minutes. Blood pressure is 150/100 mm Hg. Laboratory studies are shown. Which of the following enzymes produced the most elevated metabolite?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Urine normetanephrine",
+          "1450 mcg/24 hr",
+          "111–419 mcg/24 hr"
+        ],
+        [
+          "Urine metanephrine",
+          "1520 mcg/24 hr",
+          "200–614 mcg/24 hr"
+        ],
+        [
+          "Serum normetanephrine",
+          "4.5 nmol/L",
+          "<0.90 nmol/L"
+        ],
+        [
+          "Urine dopamine",
+          "220 mcg/24 hr",
+          "65–400 mcg/24 hr"
+        ]
+      ],
+      "answers": {
+        "A": "Aromatase",
+        "B": "Catechol-O-methyltransferase",
+        "C": "Dopamine β-hydroxylase",
+        "D": "Monoamine oxidase",
+        "E": "Tyrosine hydroxylase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Aromatase converts androgens to estrogens and has no role in catecholamine metabolism.",
+        "B": "COMT methylates norepinephrine to normetanephrine and epinephrine to metanephrine, the elevated metabolites in this pheochromocytoma.",
+        "C": "Dopamine β-hydroxylase synthesizes norepinephrine from dopamine and does not form metanephrines.",
+        "D": "MAO also degrades catecholamines but the metanephrines are specifically O-methylated products.",
+        "E": "Tyrosine hydroxylase is the rate-limiting step of catecholamine synthesis, not their metabolism."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-013",
+      "question": "A 40-year-old woman with episodic headaches, palpitations, and diaphoresis has markedly elevated plasma metanephrines and a 4-cm left adrenal mass that is avid on [123I]MIBG scan. She is scheduled for adrenalectomy. Which of the following preoperative regimens is most appropriate?",
+      "answers": {
+        "A": "No preoperative adrenergic receptor blockade",
+        "B": "Spironolactone alone for two weeks before surgery",
+        "C": "α-Blocker first, then β-blocker if tachycardic",
+        "D": "β-Blocker alone",
+        "E": "β-Blocker first, then α-blocker"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Without blockade, catecholamine release during tumor handling can cause a hypertensive crisis.",
+        "B": "Spironolactone blocks mineralocorticoid receptors and is used for hyperaldosteronism, not pheochromocytoma.",
+        "C": "α-Blockade prevents catecholamine-induced vasoconstriction and hypertensive crisis during tumor manipulation, with β-blockers added only afterward if needed.",
+        "D": "β-Blockade alone causes unopposed α-mediated vasoconstriction.",
+        "E": "Giving β-blockers first leaves α receptors unopposed and can precipitate hypertensive crisis."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-014",
+      "question": "A resected adrenal mass from a hypertensive patient with elevated metanephrines is tan-brown with central hemorrhage. Microscopy shows nests of cells separated by fine fibrovascular septa; the cells have granular cytoplasm and speckled chromatin. Which of the following best explains the staining of the cytoplasmic granules?",
+      "answers": {
+        "A": "Acidic catecholamines staining basophilic",
+        "B": "Glycogen staining with PAS",
+        "C": "Hemosiderin from prior hemorrhage",
+        "D": "Intracellular lipid washed out in processing",
+        "E": "Mucin within secretory vacuoles"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Pheochromocytoma granules contain catecholamines, which are acidic at physiologic pH and therefore stain basophilic.",
+        "B": "Glycogen is not the characteristic granule content of pheochromocytoma cells.",
+        "C": "Hemosiderin would be brown pigment in macrophages, not the uniform granular cytoplasm of tumor cells.",
+        "D": "Lipid washout gives pale vesicular cytoplasm, characteristic of adrenal cortical adenomas.",
+        "E": "Mucin is produced by glandular epithelia such as adenocarcinomas, not neuroendocrine tumors."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-015",
+      "question": "A 34-year-old man has a left adrenal pheochromocytoma, a cystic cervical spinal cord tumor with a mural nodule composed of numerous blood vessels, and bilateral renal cysts. His uncle had an eye tumor. Loss of function of the mutated gene product most directly causes which of the following?",
+      "answers": {
+        "A": "Constitutive RET tyrosine kinase signaling",
+        "B": "Failure to degrade HIF-1α under normoxia",
+        "C": "Impaired succinate dehydrogenase activity",
+        "D": "Increased Ras activity from loss of neurofibromin",
+        "E": "Loss of menin tumor suppression"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Activating RET mutations cause MEN 2A/2B, with medullary thyroid carcinoma rather than hemangioblastomas.",
+        "B": "Von Hippel–Lindau syndrome results from loss of VHL protein, which normally inactivates HIF-1α; unchecked HIF-1α drives angiogenesis and glucose uptake in vascular tumors.",
+        "C": "SDHB/SDHD mutations cause hereditary paraganglioma–pheochromocytoma syndrome without hemangioblastomas or renal cysts.",
+        "D": "NF1 loss causes café-au-lait spots and optic gliomas along with pheochromocytoma.",
+        "E": "Menin loss causes MEN1 and is not among the pheochromocytoma syndromes presented."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-016",
+      "question": "A 29-year-old woman has a thyroid nodule found to be medullary thyroid carcinoma. She also has elevated calcium and PTH. Her father died during surgery of a hypertensive crisis. Before thyroidectomy, which test is most important to perform?",
+      "answers": {
+        "A": "24-hour urine free cortisol",
+        "B": "Aldosterone-to-renin ratio",
+        "C": "Plasma metanephrines",
+        "D": "Serum gastrin",
+        "E": "Thyroid peroxidase antibodies"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Urine free cortisol screens for Cushing syndrome, which is not part of MEN 2A.",
+        "B": "The ARR screens for primary hyperaldosteronism, not a feature of MEN 2A.",
+        "C": "Medullary thyroid carcinoma with parathyroid hyperplasia suggests MEN 2A (RET), so pheochromocytoma must be excluded before surgery to avoid hypertensive crisis.",
+        "D": "Gastrin screens for gastrinoma, a MEN1 tumor.",
+        "E": "TPO antibodies indicate autoimmune thyroiditis, unrelated to MEN 2A."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-017",
+      "question": "A 38-year-old woman has weight gain, moon facies, a dorsocervical fat pad, and violaceous abdominal striae. She takes no medications. Laboratory studies are shown. Which of the following is the most likely source of her hypercortisolism?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "24-hr urine free cortisol",
+          "210 mcg/24 hr",
+          "<50 mcg/24 hr"
+        ],
+        [
+          "Cortisol after 1-mg dexamethasone",
+          "13 mcg/dL",
+          "<5 mcg/dL"
+        ],
+        [
+          "Plasma ACTH",
+          "120 pg/mL",
+          "<20 pg/mL (late afternoon)"
+        ],
+        [
+          "Cortisol after high-dose dexamethasone",
+          "2 mcg/dL",
+          ">50% reduction expected if suppressible"
+        ]
+      ],
+      "answers": {
+        "A": "Adrenal cortical adenoma",
+        "B": "Adrenal cortical carcinoma",
+        "C": "Ectopic ACTH from small cell lung carcinoma",
+        "D": "Exogenous glucocorticoids",
+        "E": "Pituitary corticotroph adenoma"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "An adrenal adenoma is ACTH-independent, so ACTH would be suppressed.",
+        "B": "An adrenal carcinoma is also ACTH-independent with suppressed ACTH.",
+        "C": "Ectopic ACTH is ACTH-dependent but does not respond to negative feedback, so cortisol would not suppress with high-dose dexamethasone.",
+        "D": "Exogenous steroids suppress ACTH and she takes no medications.",
+        "E": "ACTH-dependent hypercortisolism that suppresses >50% with high-dose dexamethasone indicates a pituitary source (Cushing disease)."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-018",
+      "question": "A 64-year-old man with a 50-pack-year smoking history has rapid-onset weakness, hypertension, hyperglycemia, and hypokalemia. Plasma ACTH is 450 pg/mL. Cortisol does not suppress after high-dose dexamethasone. Which of the following would most likely be seen in his adrenal glands?",
+      "answers": {
+        "A": "Bilateral cortical atrophy",
+        "B": "Bilateral cortical hyperplasia",
+        "C": "Bilateral hemorrhage",
+        "D": "Lymphocytic adrenalitis",
+        "E": "Unilateral golden-yellow cortical nodule"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Atrophy follows ACTH suppression from exogenous steroids, not ACTH excess.",
+        "B": "Ectopic ACTH (e.g., small cell lung carcinoma) markedly elevates ACTH and stimulates both adrenal cortices to become hyperplastic.",
+        "C": "Bilateral hemorrhage is seen in Waterhouse–Friderichsen syndrome and causes insufficiency.",
+        "D": "Lymphocytic adrenalitis is the autoimmune lesion of Addison disease.",
+        "E": "A unilateral cortical nodule is the ACTH-independent adrenal neoplasm, in which ACTH would be low."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-019",
+      "question": "A 42-year-old woman with Cushing disease has new-onset diabetes. Laboratory studies show fasting glucose of 240 mg/dL. Which mechanism of cortisol best explains her hyperglycemia?",
+      "answers": {
+        "A": "Decreased hepatic gluconeogenesis and increased glycogen storage",
+        "B": "Destruction of pancreatic β cells",
+        "C": "Increased hepatic gluconeogenesis and decreased GLUT-4 expression",
+        "D": "Increased insulin secretion causing receptor downregulation",
+        "E": "Mineralocorticoid-driven potassium loss impairing insulin release"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cortisol increases, not decreases, hepatic gluconeogenesis.",
+        "B": "β-cell destruction is the autoimmune mechanism of type 1 diabetes, not a cortisol effect.",
+        "C": "Cortisol increases hepatic gluconeogenesis and decreases peripheral glucose uptake by downregulating GLUT-4, causing impaired glucose tolerance.",
+        "D": "Cortisol acts as a counterregulatory hormone rather than by stimulating insulin secretion.",
+        "E": "Cortisol's weak mineralocorticoid activity explains hypertension, not the primary mechanism of hyperglycemia."
+      }
+    },
+    {
+      "id": "endorepro-tbl-adrenal-pathology-020",
+      "question": "A pathologist examines the adrenal glands of a patient with ACTH-secreting pituitary adenoma. Both glands are thickened with vague, unencapsulated nodularity throughout the cortex. Which zone is expected to show the least hyperplasia, and why?",
+      "answers": {
+        "A": "Adrenal medulla, because it lacks ACTH receptors and is compressed",
+        "B": "Zona fasciculata, because cortisol feedback limits growth",
+        "C": "Zona glomerulosa, because angiotensin II is its main regulator",
+        "D": "Zona reticularis, because it is less than 10% of the cortex",
+        "E": "Zona reticularis, because sex hormones suppress ACTH"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The medulla is not part of the cortex and the question asks about cortical zones responding to ACTH.",
+        "B": "The zona fasciculata is the most markedly hyperplastic zone in Cushing disease.",
+        "C": "ACTH only weakly drives aldosterone; the zona glomerulosa is regulated mainly by angiotensin II, so it is not notably hyperplastic.",
+        "D": "The zona reticularis is normally thin, but it may be hyperplastic in Cushing disease, so thinness does not explain absent hyperplasia.",
+        "E": "Adrenal sex hormones do not suppress ACTH, and the zona reticularis may become hyperplastic."
+      }
+    }
+  ]
+}

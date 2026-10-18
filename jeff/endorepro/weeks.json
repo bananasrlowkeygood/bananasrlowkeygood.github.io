@@ -4,7 +4,7 @@
     {
       "id": "1",
       "name": "Week 1",
-      "dates": "10/5 – 10/9",
+      "dates": "10/5 \u2013 10/9",
       "lectures": [
         "regulation-of-plasma-glucose.json",
         "dysregulation-of-glycemic-control.json",
@@ -22,12 +22,20 @@
     {
       "id": "2",
       "name": "Week 2",
-      "dates": "10/12 – 10/16",
+      "dates": "10/12 \u2013 10/16",
       "lectures": [
         "histology-lab-endocrine-organs.json",
         "pituitary-abnormalities.json",
         "regulation-and-pharmacology-of-the-hypothalamus-and-pituitary.json",
-        "transcription-and-nuclear-hormone-receptors.json"
+        "transcription-and-nuclear-hormone-receptors.json",
+        "tbl-adrenal-pathology.json",
+        "foundations-of-pelvis-and-perineum.json",
+        "approach-to-a-patient-with-thyroid-disease.json",
+        "pathology-of-the-thyroid-and-parathyroid.json",
+        "case-vignettes-pituitary-thyroid-parathyroid.json",
+        "pelvic-viscera-part-1.json",
+        "pelvic-viscera-part-2.json",
+        "week-2-cbl.json"
       ]
     }
   ]

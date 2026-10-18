@@ -1,0 +1,497 @@
+{
+  "lecture": "Pathology of the Thyroid and Parathyroid",
+  "block": "endorepro",
+  "generated": "2026-10-18",
+  "questions": [
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-001",
+      "question": "A 34-year-old woman has 3 months of palpitations, heat intolerance, and a 6-kg weight loss despite increased appetite. Exam shows proptosis and a diffusely, symmetrically enlarged nontender thyroid. Labs are shown. Which mechanism best explains her thyroid dysfunction?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "<0.01 mU/L",
+          "0.4–4.0 mU/L"
+        ],
+        [
+          "Free T4",
+          "4.1 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "Total T3",
+          "310 ng/dL",
+          "80–180 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Antibodies against thyroid peroxidase",
+        "B": "Autonomous hyperfunctioning thyroid nodule",
+        "C": "Excess TSH from a pituitary adenoma",
+        "D": "Stimulating antibodies to the TSH receptor",
+        "E": "Thyroid follicle destruction with hormone leak"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anti-TPO antibodies mediate destruction in Hashimoto thyroiditis and lead to hypothyroidism, not proptosis.",
+        "B": "A toxic nodule causes hyperthyroidism but not exophthalmos, and the gland would be nodular rather than diffusely enlarged.",
+        "C": "A TSH-secreting adenoma causes secondary hyperthyroidism with an elevated or inappropriately normal TSH, not a suppressed one.",
+        "D": "Graves autoantibodies activate the TSH receptor and escape feedback inhibition, giving high T3/T4, suppressed TSH, diffuse goiter, and exophthalmos.",
+        "E": "Destructive thyroiditis can release hormone transiently but does not explain exophthalmos, which reflects TSH-receptor stimulation of orbital fibroblasts."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-002",
+      "question": "A 41-year-old woman with Graves disease develops firm, waxy, nonpitting thickening of the skin over both anterior shins. Which process is most directly responsible for this finding?",
+      "answers": {
+        "A": "Deposition of immune complexes in dermal vessels",
+        "B": "Fibroblast secretion of ECM after TSH-receptor stimulation",
+        "C": "Lymphocytic destruction of dermal adnexal structures",
+        "D": "Thyroid hormone-induced increase in dermal blood flow",
+        "E": "Venous stasis from high-output cardiac failure"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Immune complex vasculitis produces palpable purpura, not myxedematous thickening.",
+        "B": "Pretibial fibroblasts express the TSH receptor; autoantibody stimulation causes them to secrete excess extracellular matrix, producing pretibial myxedema.",
+        "C": "Lymphocytic destruction of adnexa is not the mechanism of Graves dermopathy, which is matrix accumulation.",
+        "D": "Increased blood flow from thyrotoxicosis causes warm skin, not localized nonpitting plaques.",
+        "E": "Stasis changes cause pitting edema and pigmentation, and Graves dermopathy occurs independent of cardiac status."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-003",
+      "question": "A thyroidectomy specimen from a 29-year-old woman shows a diffusely enlarged gland. Histology shows hyperplastic columnar follicular epithelium forming papillary infoldings into the follicle lumens, with scalloped colloid at the epithelial edge. What would her preoperative laboratory profile most likely have shown?",
+      "answers": {
+        "A": "High T4 and high TSH",
+        "B": "High T4 and low TSH",
+        "C": "Low T4 and high TSH",
+        "D": "Low T4 and low TSH",
+        "E": "Normal T4 and normal TSH"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "High T4 with high TSH suggests secondary hyperthyroidism from a TSH-secreting pituitary adenoma.",
+        "B": "Diffuse hyperplasia with columnar cells and colloid scalloping (resorption vacuoles) is Graves disease, with high hormone and feedback-suppressed TSH.",
+        "C": "Low T4 with high TSH is primary hypothyroidism, as in Hashimoto thyroiditis.",
+        "D": "Low T4 with low TSH indicates secondary hypothyroidism from hypothalamic or pituitary damage.",
+        "E": "Euthyroid labs fit multinodular goiter, whose histology is nodular with mixed small and large follicles, not diffuse hyperplasia."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-004",
+      "question": "A 52-year-old woman reports fatigue, cold intolerance, constipation, and weight gain. Her thyroid is diffusely enlarged and firm. Labs are shown. Biopsy would most likely show which finding?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "18.2 mU/L",
+          "0.4–4.0 mU/L"
+        ],
+        [
+          "Free T4",
+          "0.5 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "Anti-TPO antibody",
+          "Strongly positive",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Columnar epithelium with scalloped colloid",
+        "B": "Lymphoplasmacytic infiltrate with germinal centers",
+        "C": "Microfollicles surrounded by a fibrous capsule",
+        "D": "Nested cells with salt-and-pepper chromatin",
+        "E": "Variably sized nodules of small and large follicles"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Columnar cells with scalloped colloid describe Graves disease, which causes hyperthyroidism.",
+        "B": "Positive anti-TPO antibodies with primary hypothyroidism point to Hashimoto thyroiditis: chronic lymphocytic thyroiditis with germinal centers, follicular atrophy, and oncocytic metaplasia.",
+        "C": "An encapsulated microfollicular proliferation is a follicular adenoma, typically nonfunctional and a solitary nodule.",
+        "D": "Nested cells with salt-and-pepper chromatin describe medullary carcinoma, which does not cause hypothyroidism.",
+        "E": "Mixed small and large follicles in nodules describe multinodular goiter, usually euthyroid and without antibodies."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-005",
+      "question": "A thyroid biopsy from a 47-year-old woman with long-standing hypothyroidism shows many follicular cells with abundant granular, intensely eosinophilic cytoplasm. Electron microscopy of these cells would most likely show an increase in which organelle?",
+      "answers": {
+        "A": "Glycogen granules",
+        "B": "Lysosomes",
+        "C": "Mitochondria",
+        "D": "Neurosecretory granules",
+        "E": "Rough endoplasmic reticulum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Glycogen accumulation gives clear, not pink granular, cytoplasm, as in some parathyroid chief cells.",
+        "B": "Lysosome-rich cells are not the basis of oncocytic change.",
+        "C": "These are oncocytic (formerly Hürthle) cells of Hashimoto thyroiditis, whose granular pink cytoplasm reflects increased mitochondria.",
+        "D": "Neurosecretory granules characterize C cells and medullary carcinoma, which show salt-and-pepper chromatin.",
+        "E": "Abundant RER gives basophilic cytoplasm, as in plasma cells, not granular eosinophilia."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-006",
+      "question": "A 58-year-old woman with a 15-year history of Hashimoto thyroiditis notices a rapidly enlarging neck mass. Besides papillary thyroid carcinoma, for which other neoplasm is she at increased risk?",
+      "answers": {
+        "A": "Anaplastic thyroid carcinoma",
+        "B": "B-cell lymphoma of the thyroid",
+        "C": "Follicular thyroid carcinoma",
+        "D": "Medullary thyroid carcinoma",
+        "E": "Parathyroid carcinoma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anaplastic carcinoma is a follicular cell-derived tumor not specifically linked to Hashimoto thyroiditis in this lecture.",
+        "B": "The chronic lymphoid infiltrate of Hashimoto thyroiditis predisposes to B-cell lymphoma of the thyroid as well as papillary carcinoma.",
+        "C": "Follicular carcinoma is associated with RAS mutations and PAX8/PPARG fusions, not with Hashimoto thyroiditis.",
+        "D": "Medullary carcinoma arises from C cells and is linked to RET mutations and MEN2, not autoimmune thyroiditis.",
+        "E": "Parathyroid carcinoma is a rare cause of primary hyperparathyroidism unrelated to Hashimoto thyroiditis."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-007",
+      "question": "A 61-year-old man from a mountainous, iodine-poor region has a slowly enlarging neck mass and recent difficulty swallowing. The gland is asymmetrically enlarged with multiple nodules. TSH and free T4 are normal. Which sequence best explains how the gland became enlarged?",
+      "answers": {
+        "A": "Antibody activation of TSH receptor → diffuse hyperplasia",
+        "B": "Autoimmune destruction → fibrosis → gland expansion",
+        "C": "Low hormone → raised TSH → follicular hyperplasia",
+        "D": "RAS mutation → clonal proliferation → capsular invasion",
+        "E": "TSH-secreting adenoma → unregulated thyroid growth"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "TSH-receptor-stimulating antibodies cause diffuse toxic goiter with suppressed TSH, not a euthyroid multinodular gland.",
+        "B": "Autoimmune destruction is Hashimoto thyroiditis, which ends in hypothyroidism rather than a euthyroid nodular goiter.",
+        "C": "In endemic multinodular goiter, impaired hormone synthesis raises TSH, driving follicular hyperplasia; increased functional mass restores euthyroidism and heterogeneous responses produce nodules.",
+        "D": "A RAS mutation with invasion describes follicular carcinoma, a single invasive tumor rather than multiple nodules.",
+        "E": "A TSH-secreting adenoma would cause hyperthyroidism with elevated TSH."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-008",
+      "question": "A 66-year-old woman undergoes thyroidectomy for a large compressive goiter. Grossly, the cut surface shows multiple nodules, some with cystic change, hemorrhage, and fibrosis. Which microscopic finding is expected?",
+      "answers": {
+        "A": "Diffuse hyperplasia with columnar cells",
+        "B": "Follicles with grooved, cleared nuclei",
+        "C": "Lymphoid follicles and oncocytic cells",
+        "D": "Microfollicles inside an intact capsule",
+        "E": "Nodules of mixed small and large follicles"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Diffuse columnar hyperplasia is Graves disease, which gives a symmetric gland without nodules.",
+        "B": "Grooved, cleared nuclei are features of papillary thyroid carcinoma.",
+        "C": "Lymphoid follicles with oncocytic cells describe Hashimoto thyroiditis.",
+        "D": "An encapsulated microfollicular nodule is a follicular adenoma, typically solitary.",
+        "E": "Multinodular goiter (thyroid follicular nodular disease) shows variably sized nodules of small and large follicles lined by benign follicular cells, with secondary degenerative changes."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-009",
+      "question": "A 38-year-old woman has a solitary 2-cm thyroid nodule. Lobectomy shows a well-circumscribed, encapsulated lesion of microfollicles lined by cells with small, round, hyperchromatic, evenly spaced nuclei. Which finding on additional sections would change the diagnosis to carcinoma?",
+      "answers": {
+        "A": "Colloid scalloping at the follicle edge",
+        "B": "Lymphocytes with germinal centers",
+        "C": "Oncocytic cells with pink cytoplasm",
+        "D": "Psammoma bodies in the stroma",
+        "E": "Tumor cells within a capsular vessel"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Colloid scalloping is a feature of Graves disease, not of malignancy.",
+        "B": "Lymphoid infiltrates with germinal centers indicate thyroiditis, not invasion.",
+        "C": "Oncocytic change reflects increased mitochondria and does not by itself indicate malignancy.",
+        "D": "Psammoma bodies suggest papillary carcinoma, but these nuclei lack papillary features; the adenoma-vs-carcinoma question here turns on invasion.",
+        "E": "Follicular carcinoma looks identical to follicular adenoma except for vascular or capsular invasion, so tumor in a vessel lumen establishes carcinoma."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-010",
+      "question": "A 50-year-old woman has a thyroid nodule resected. Histology shows a follicular-patterned tumor with small round nuclei and a mushroom-shaped protrusion of tumor through its fibrous capsule. Molecular testing would most likely reveal which alteration?",
+      "answers": {
+        "A": "BRAF V600E point mutation",
+        "B": "Germline RET mutation",
+        "C": "RAS point mutation",
+        "D": "RET/PTC rearrangement",
+        "E": "Somatic RET point mutation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "BRAF V600E is the most common alteration in papillary carcinoma, which has characteristic nuclear features absent here.",
+        "B": "Germline RET mutations cause hereditary medullary carcinoma in MEN2, a C-cell tumor without follicles.",
+        "C": "Capsular invasion in a follicular tumor lacking papillary nuclear features is follicular carcinoma, most commonly driven by RAS mutations (PAX8/PPARG fusion is the other).",
+        "D": "RET/PTC fusions occur in papillary carcinoma, not follicular carcinoma.",
+        "E": "Somatic RET mutations occur in some sporadic medullary carcinomas."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-011",
+      "question": "A 31-year-old woman has a firm thyroid nodule and an enlarged ipsilateral cervical lymph node. FNA of the nodule shows enlarged, overlapping nuclei with clear chromatin, longitudinal grooves, and intranuclear pseudoinclusions. Which alteration is most likely present in the tumor?",
+      "answers": {
+        "A": "BRAF V600E mutation",
+        "B": "Germline RET mutation",
+        "C": "PAX8/PPARG fusion",
+        "D": "PIK3CA mutation",
+        "E": "RAS point mutation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Papillary carcinoma nuclear features with lymphatic spread to cervical nodes point to PTC, whose most common alteration is BRAF V600E, activating MAP kinase signaling.",
+        "B": "Germline RET mutations underlie hereditary medullary carcinoma, which has salt-and-pepper chromatin, not grooves.",
+        "C": "PAX8/PPARG fusion is seen in follicular carcinoma, which lacks papillary nuclear features.",
+        "D": "PIK3CA mutations occur in follicular carcinoma via PI3K signaling.",
+        "E": "RAS mutations are the most common alteration in follicular carcinoma."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-012",
+      "question": "A 27-year-old woman undergoes total thyroidectomy for papillary thyroid carcinoma with metastases in two cervical lymph nodes. She asks about her outlook. Which statement best describes her prognosis?",
+      "answers": {
+        "A": "Excellent, with >90% long-term survival",
+        "B": "Guarded, as nodal spread implies distant spread",
+        "C": "Poor, because lymphatic spread is present",
+        "D": "Poor, unless prophylactic surgery is done",
+        "E": "Uncertain until RET testing is completed"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Papillary carcinoma has an excellent prognosis (>90% 20-year survival) even with cervical nodal metastases.",
+        "B": "Lymph node involvement in papillary carcinoma does not imply hematogenous distant metastasis.",
+        "C": "Lymphatic spread to cervical nodes is the usual pattern of PTC and does not make the prognosis poor.",
+        "D": "Prophylactic thyroidectomy applies to germline RET carriers at risk for medullary carcinoma, not established PTC.",
+        "E": "RET germline testing is relevant for medullary carcinoma, not for prognosis in papillary carcinoma."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-013",
+      "question": "A cystic thyroid mass from a 35-year-old woman shows finger-like projections with fibrovascular cores and scattered round, purple, concentrically laminated calcifications. What do these calcified structures represent?",
+      "answers": {
+        "A": "Calcified colloid within atrophic follicles",
+        "B": "Dystrophic calcification of amyloid",
+        "C": "Mineralized necrotic tumor papillae",
+        "D": "Ossification of the fibrous capsule",
+        "E": "Resorption vacuoles in hyperactive follicles"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Colloid does not form laminated calcified bodies in atrophic follicles.",
+        "B": "Amyloid stroma is not described as the source of these structures in papillary carcinoma.",
+        "C": "Psammoma bodies are concentric lamellated calcifications representing the ghosts of necrotic papillae, characteristic of papillary carcinoma.",
+        "D": "Capsular changes are not the origin of psammoma bodies, which lie within the tumor.",
+        "E": "Resorption vacuoles produce colloid scalloping in Graves disease, not calcified bodies."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-014",
+      "question": "A 22-year-old man has a thyroid nodule. His father had bilateral thyroid cancer and a pheochromocytoma. Biopsy shows nests of spindled and plasmacytoid cells with granular salt-and-pepper chromatin and no follicles or papillae. His 8-year-old sister carries the same germline mutation. What is the most appropriate recommendation for her?",
+      "answers": {
+        "A": "Annual neck ultrasound until a nodule appears",
+        "B": "Fine-needle aspiration of the thyroid",
+        "C": "Prophylactic total thyroidectomy",
+        "D": "Radioactive iodine ablation",
+        "E": "Thyroid lobectomy if calcitonin rises"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Waiting for a nodule is inappropriate because germline RET carriers develop bilateral, multifocal medullary carcinoma.",
+        "B": "FNA requires a lesion to sample and does not address the inherited risk.",
+        "C": "Hereditary medullary carcinoma (germline RET, MEN2) is bilateral and multifocal, so prophylactic total thyroidectomy is indicated in carriers.",
+        "D": "Radioactive iodine targets follicular cells; medullary carcinoma arises from C cells.",
+        "E": "Lobectomy leaves the contralateral lobe at risk in a bilateral, multifocal disease."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-015",
+      "question": "A thyroid tumor from a 55-year-old man shows solid nests and trabeculae of cells without follicles, and immunostains highlight a hormone that lowers serum calcium. From which cell is this tumor derived?",
+      "answers": {
+        "A": "Chief cell",
+        "B": "Follicular cell",
+        "C": "Oncocytic cell",
+        "D": "Oxyphil cell",
+        "E": "Parafollicular C cell"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Chief cells are in the parathyroid and secrete PTH, which raises calcium.",
+        "B": "Follicular cells give rise to papillary, follicular, poorly differentiated, and anaplastic carcinomas, which make thyroglobulin rather than calcitonin.",
+        "C": "Oncocytic cells are metaplastic follicular cells, seen in Hashimoto thyroiditis.",
+        "D": "Oxyphil cells are parathyroid cells of unknown function.",
+        "E": "A nested neuroendocrine tumor producing calcitonin is medullary carcinoma, derived from parafollicular (C) cells."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-016",
+      "question": "A 57-year-old woman is found to have hypercalcemia on routine labs. She has had two kidney stones and vague abdominal pain. Labs are shown. What is the most likely cause?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "11.8 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "142 pg/mL",
+          "15–65 pg/mL"
+        ],
+        [
+          "Creatinine",
+          "0.8 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Chronic renal failure",
+        "B": "Parathyroid adenoma",
+        "C": "Parathyroid carcinoma",
+        "D": "Parathyroid hyperplasia",
+        "E": "Vitamin D deficiency"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Chronic renal failure causes secondary hyperparathyroidism with low or normal calcium, not hypercalcemia.",
+        "B": "Hypercalcemia with high PTH is primary hyperparathyroidism, and 85–95% of cases are a parathyroid adenoma.",
+        "C": "Parathyroid carcinoma causes only about 1% of primary hyperparathyroidism.",
+        "D": "Primary hyperplasia accounts for only 5–10% of primary hyperparathyroidism.",
+        "E": "Vitamin D deficiency causes secondary hyperparathyroidism driven by hypocalcemia."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-017",
+      "question": "A 63-year-old man on hemodialysis for end-stage renal disease has bone pain. Labs are shown. If his parathyroid glands were examined, which finding would be expected?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "7.9 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "Phosphate",
+          "6.8 mg/dL",
+          "2.5–4.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "610 pg/mL",
+          "15–65 pg/mL"
+        ],
+        [
+          "Creatinine",
+          "7.4 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Atrophic glands with abundant adipose tissue",
+        "B": "Hypercellular gland with a normocellular rim",
+        "C": "Invasive tumor through the gland capsule",
+        "D": "Multiple hypercellular glands with little fat",
+        "E": "Single enlarged gland, three normal glands"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Atrophic, fatty glands occur with chronic PTH suppression from hypercalcemia, the opposite of this setting.",
+        "B": "A hypercellular mass with a compressed normocellular rim is a parathyroid adenoma, the usual cause of primary disease.",
+        "C": "Capsular invasion suggests parathyroid carcinoma, a rare cause of primary hyperparathyroidism.",
+        "D": "Chronic renal failure causes hypocalcemia and secondary hyperparathyroidism with compensatory hyperplasia of multiple glands, which are hypercellular with decreased fat.",
+        "E": "A single enlarged gland with normal others describes an adenoma."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-018",
+      "question": "During parathyroidectomy in a 49-year-old woman with primary hyperparathyroidism, one enlarged gland is removed. Histology shows a nodular proliferation of chief cells with almost no fat, and at one edge a compressed band of parathyroid tissue with normal cellularity and adipocytes. What is the diagnosis?",
+      "answers": {
+        "A": "Normal parathyroid gland",
+        "B": "Parathyroid adenoma",
+        "C": "Parathyroid carcinoma",
+        "D": "Primary parathyroid hyperplasia",
+        "E": "Secondary parathyroid hyperplasia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A normal gland has about 50% cellularity throughout (range 30–70%), not a fat-free nodule.",
+        "B": "A hypercellular nodule with a compressed rim of normocellular parathyroid at the periphery is characteristic of a parathyroid adenoma.",
+        "C": "Carcinoma would require evidence of malignancy such as invasion, which is not described.",
+        "D": "Hyperplasia makes the entire gland hypercellular, usually in several glands, without a normal rim.",
+        "E": "Secondary hyperplasia also involves whole glands diffusely and occurs with hypocalcemia, not primary disease."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-019",
+      "question": "A 44-year-old man with hypercalcemia, elevated PTH, and recurrent peptic ulcers has all four parathyroid glands enlarged at surgery. Each is diffusely hypercellular with chief cells and almost no fat. Which underlying condition should be investigated?",
+      "answers": {
+        "A": "Chronic renal failure",
+        "B": "Graves disease",
+        "C": "Hashimoto thyroiditis",
+        "D": "MEN1 syndrome",
+        "E": "Vitamin D deficiency"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Renal failure causes secondary hyperplasia with hypocalcemia, but this patient is hypercalcemic.",
+        "B": "Graves disease affects the thyroid via TSH-receptor antibodies and does not cause parathyroid hyperplasia.",
+        "C": "Hashimoto thyroiditis causes hypothyroidism and is not associated with parathyroid hyperplasia.",
+        "D": "Four-gland primary hyperplasia is associated with MEN1 or MEN2A in about one-third of cases, and peptic ulcers suggest an MEN1-associated gastrinoma.",
+        "E": "Vitamin D deficiency produces secondary hyperparathyroidism with low or normal calcium."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-the-thyroid-and-parathyroid-020",
+      "question": "A 36-year-old woman has fatigue, weight gain, and cold intolerance after pituitary surgery and radiation for a macroadenoma. Her thyroid is small and nontender. Labs are shown. Which mechanism best explains her hypothyroidism?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "0.2 mU/L",
+          "0.4–4.0 mU/L"
+        ],
+        [
+          "Free T4",
+          "0.4 ng/dL",
+          "0.8–1.8 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Antibodies to thyroglobulin and TPO",
+        "B": "Defective hormone synthesis from iodine lack",
+        "C": "Feedback suppression by exogenous T4",
+        "D": "Inadequate TSH secretion",
+        "E": "Lymphocytic destruction of the thyroid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anti-TPO and anti-thyroglobulin antibodies cause Hashimoto thyroiditis, a primary hypothyroidism with high TSH.",
+        "B": "Iodine deficiency causes primary hypothyroidism with a compensatory rise in TSH and goiter.",
+        "C": "Exogenous T4 suppresses TSH but would raise, not lower, free T4.",
+        "D": "Low T4 with an inappropriately low TSH after pituitary surgery and radiation is secondary hypothyroidism from inadequate TSH secretion.",
+        "E": "Lymphocytic thyroid destruction is primary hypothyroidism and would elevate TSH."
+      }
+    }
+  ]
+}
