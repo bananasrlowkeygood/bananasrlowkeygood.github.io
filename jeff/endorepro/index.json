@@ -2,6 +2,36 @@
   "block": "endorepro",
   "lectures": [
     {
+      "file": "approach-to-a-patient-with-thyroid-disease.json",
+      "name": "Approach to a Patient with Thyroid Disease",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.15.26-CM_Approach-to-a-Patient-with-Thyroid-Disease_Jumani_Notes-4e6017ca5a.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.15.26-CM_Approach-to-a-Patient-with-Thyroid-Disease_Jumani_Slides.v.10.05.25-7561dd06d2.pdf"
+        }
+      ]
+    },
+    {
+      "file": "case-vignettes-pituitary-thyroid-parathyroid.json",
+      "name": "Case Vignettes: Pituitary, Thyroid, & Parathyroid",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.15.26_CM_Case-Vignettes_Pituitary_Thyroid_Parathyroid_Shiffrin_Notes-fe1ed4ed52.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.15.26_CM_Case-Vignettes_Pituitary_Thyroid_Parathyroid_Shiffrin_Slides_Student-73ae3f3702.pdf"
+        }
+      ]
+    },
+    {
       "file": "chronic-complications-of-diabetes.json",
       "name": "Chronic Complications of Diabetes",
       "count": 20,
@@ -33,6 +63,21 @@
         {
           "label": "slides",
           "file": "10.06.26-BCM_Dysregulation-of-Glycemic-Control_Slides-9c2e9f6c8f.pdf"
+        }
+      ]
+    },
+    {
+      "file": "foundations-of-pelvis-and-perineum.json",
+      "name": "Foundations of Pelvis and Perineum",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.15.2026-ANAT_Foundations-of-Pelvis-and-Perineum_Spudich_Notes-c152d08fcc.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.15.2026-ANAT_Foundations-of-Pelvis-and-Perineum_Spudich_Slides-907fc72416.pdf"
         }
       ]
     },
@@ -97,6 +142,37 @@
       ]
     },
     {
+      "file": "pathology-of-the-thyroid-and-parathyroid.json",
+      "name": "Pathology of the Thyroid and Parathyroid",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.15.26-PATH_Pathology-of-the-Thyroid-and-Parathyroid_Gargano_Notes.v.10.11.26-87a7c6232b.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.15.26-PATH_Pathology-of-the-Thyroid-and-Parathyroid_Gargano_Slides.v.10.11.26-5612bad532.pdf"
+        }
+      ]
+    },
+    {
+      "file": "pelvic-viscera-part-1.json",
+      "name": "Pelvic Viscera Part 1",
+      "count": 20
+    },
+    {
+      "file": "pelvic-viscera-part-2.json",
+      "name": "Pelvic Viscera Part 2",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "slides",
+          "file": "10.16.2026-ANAT_PelvicViscera-Part-2_Spudich_Slides-dc1eca53f8.pdf"
+        }
+      ]
+    },
+    {
       "file": "pituitary-abnormalities.json",
       "name": "Pituitary Abnormalities",
       "count": 20,
@@ -157,6 +233,21 @@
       ]
     },
     {
+      "file": "tbl-adrenal-pathology.json",
+      "name": "TBL - Adrenal Pathology",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.14.26-PATH_TBL---Adrenal-Pathology_Macnow_Notes_Learning-Objectives-49c8a03ca5.pdf"
+        },
+        {
+          "label": "handout",
+          "file": "10.14.26-PATH_TBL---Adrenal-Pathology_Macnow_Answer-Key-8d180881e5.pdf"
+        }
+      ]
+    },
+    {
       "file": "tbl-hypo-and-hyperglycemia.json",
       "name": "TBL: Hypo- & Hyperglycemia",
       "count": 20,
@@ -209,6 +300,17 @@
         {
           "label": "handout",
           "file": "Week_1_CBL-19290a0431.pdf"
+        }
+      ]
+    },
+    {
+      "file": "week-2-cbl.json",
+      "name": "CBL Week 2: Pituitary, Thyroid and Parathyroid",
+      "count": 40,
+      "pdfs": [
+        {
+          "label": "handout",
+          "file": "Week_2_CBL-41ea6372c7.pdf"
         }
       ]
     }

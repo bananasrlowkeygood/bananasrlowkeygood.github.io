@@ -1,0 +1,578 @@
+{
+  "lecture": "Approach to a Patient with Thyroid Disease",
+  "block": "endorepro",
+  "generated": "2026-10-18",
+  "questions": [
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-001",
+      "question": "A 29-year-old woman has 2 months of palpitations, heat intolerance, and weight loss despite a good appetite. She has a diffuse, nontender goiter with a bruit and bilateral proptosis. Laboratory studies are shown. Which of the following best explains her thyroid hormone excess?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "<0.05 mcIU/mL",
+          "0.45–4.5 mcIU/mL"
+        ],
+        [
+          "Free T4",
+          "3.6 ng/dL",
+          "0.70–1.77 ng/dL"
+        ],
+        [
+          "Total T3",
+          "290 ng/dL",
+          "80–180 ng/dL"
+        ],
+        [
+          "TSI",
+          "Positive",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Autonomous hyperfunctioning follicular nodule",
+        "B": "IgG antibodies activating the TSH receptor",
+        "C": "Leakage of preformed hormone from inflamed gland",
+        "D": "Pituitary adenoma secreting excess TSH",
+        "E": "Stimulation of TSH receptor by β-hCG"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A toxic adenoma would not cause ophthalmopathy and would show focal, not diffuse, glandular stimulation.",
+        "B": "Correct: TSI are IgG antibodies that stimulate the TSH receptor across the whole gland, causing diffuse goiter, bruit, and ophthalmopathy in Graves disease.",
+        "C": "Thyroiditis releases stored hormone but does not cause proptosis or a bruit, and TSI would be negative.",
+        "D": "A TSH-secreting adenoma would give a normal or elevated TSH, not a suppressed one.",
+        "E": "β-hCG–driven hyperthyroidism occurs with trophoblastic disease or multiple gestation and does not cause ophthalmopathy."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-002",
+      "question": "A 41-year-old woman has 1 week of anterior neck pain radiating to the jaw, low-grade fever, myalgias, and palpitations that began 2 weeks after an upper respiratory infection. The thyroid is exquisitely tender. TSH is suppressed and free T4 is elevated. A 24-hour radioiodine uptake is 2%. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Methimazole",
+        "B": "NSAIDs",
+        "C": "Propylthiouracil",
+        "D": "Radioactive iodine ablation",
+        "E": "Total thyroidectomy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Thionamides block new hormone synthesis, but in thyroiditis the excess hormone is preformed hormone leaking from the gland, so they are not useful.",
+        "B": "Correct: subacute (de Quervain) thyroiditis is self-limited, and supportive care with analgesics such as NSAIDs (± glucocorticoids, beta blockers) is the treatment.",
+        "C": "PTU, like methimazole, inhibits synthesis by thyroid peroxidase and does not address release of stored hormone.",
+        "D": "RAI requires iodine uptake to work; the gland here takes up almost none, and the disease resolves spontaneously.",
+        "E": "Surgery is definitive therapy for Graves or toxic nodules, not for a self-limited inflammatory thyroiditis."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-003",
+      "question": "A 62-year-old man has 3 months of palpitations and weight loss. Examination shows a single 3-cm firm nodule in the left thyroid lobe; there is no proptosis. TSH is suppressed, free T4 and total T3 are elevated, and TSI is negative. Which of the following findings would be expected on a radioiodine uptake and scan?",
+      "answers": {
+        "A": "Absent uptake throughout the gland",
+        "B": "Diffuse, uniformly increased uptake",
+        "C": "Focal uptake with suppressed remaining gland",
+        "D": "Multiple cold areas with normal background",
+        "E": "Uptake localized to the pelvis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Absent uptake (<5%) indicates thyroiditis with release of preformed hormone.",
+        "B": "Uniform uptake throughout the gland is characteristic of Graves disease, which is unlikely with negative TSI and no ophthalmopathy.",
+        "C": "Correct: an autonomous (toxic) adenoma makes hormone independent of TSH, and the suppressed TSH silences the rest of the gland.",
+        "D": "Cold nodules are nonfunctioning and would not explain hyperthyroidism with a suppressed TSH.",
+        "E": "Pelvic uptake would suggest struma ovarii, which is ectopic thyroid tissue in an ovarian teratoma and not possible in this man."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-004",
+      "question": "A 28-year-old woman with Graves disease controlled on methimazole tells her physician that she plans to stop contraception and try to conceive in the next month. TSH is 0.3 mcIU/mL and free T4 is normal. Which of the following is the most appropriate change to her therapy?",
+      "answers": {
+        "A": "Add levothyroxine to methimazole",
+        "B": "Continue methimazole unchanged",
+        "C": "Stop methimazole and start propranolol",
+        "D": "Switch methimazole to prednisone",
+        "E": "Switch methimazole to propylthiouracil"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Block-and-replace adds thyroid hormone but does not remove methimazole's first-trimester teratogenic risk.",
+        "B": "Methimazole has greater teratogenicity than PTU in the first trimester (aplasia cutis, tracheoesophageal fistulae).",
+        "C": "Beta blockers control adrenergic symptoms but do not treat the underlying hormone overproduction.",
+        "D": "Glucocorticoids are used in thyroid storm or thyroiditis, not as maintenance therapy for Graves disease.",
+        "E": "Correct: PTU is preferred for people attempting pregnancy and in the first trimester because methimazole is more teratogenic."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-005",
+      "question": "A 35-year-old man began methimazole for Graves disease 6 weeks ago. He now has a temperature of 39.2°C (102.6°F), sore throat, and painful oral ulcers. Pulse is 96/min. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Increase the methimazole dose",
+        "B": "Measure free T4 and total T3",
+        "C": "Obtain a complete blood count",
+        "D": "Obtain a hepatic function panel",
+        "E": "Start oral diphenhydramine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Fever and pharyngitis on a thionamide suggest a drug toxicity, not undertreated hyperthyroidism.",
+        "B": "Thyroid function tests would not identify the dangerous complication suggested by fever and sore throat.",
+        "C": "Correct: agranulocytosis usually occurs in the first 3 months of thionamide therapy and should be suspected with fever or pharyngitis; a CBC is needed.",
+        "D": "Hepatotoxicity presents with jaundice or liver injury, not fever, pharyngitis, and oral ulcers.",
+        "E": "Diphenhydramine treats the common benign side effects (pruritus, nausea), not possible agranulocytosis."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-006",
+      "question": "A 33-year-old woman with Graves disease takes propylthiouracil, started 5 months ago when she was trying to conceive; she is not pregnant. She now has fatigue, jaundice, and right upper quadrant discomfort. Laboratory studies are shown. Which of the following is the most likely cause?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "AST",
+          "1,240 U/L",
+          "10–40 U/L"
+        ],
+        [
+          "ALT",
+          "1,580 U/L",
+          "7–56 U/L"
+        ],
+        [
+          "Total bilirubin",
+          "6.8 mg/dL",
+          "0.1–1.2 mg/dL"
+        ],
+        [
+          "INR",
+          "2.1",
+          "0.8–1.1"
+        ]
+      ],
+      "answers": {
+        "A": "Agranulocytosis from propylthiouracil",
+        "B": "Autoimmune hepatitis from Graves",
+        "C": "Fulminant hepatic necrosis from propylthiouracil",
+        "D": "Hepatic congestion from thyroid storm",
+        "E": "Methimazole embryopathy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Agranulocytosis presents with fever and pharyngitis, not jaundice and transaminase elevation.",
+        "B": "Graves autoimmunity targets the TSH receptor; the lecture associates this liver injury with the drug, not the disease.",
+        "C": "Correct: PTU carries a higher risk of hepatotoxicity than methimazole, including fulminant hepatic necrosis.",
+        "D": "Thyroid storm would present with fever, altered mental status, and tachycardia; she has no such features.",
+        "E": "Methimazole embryopathy (aplasia cutis, tracheoesophageal fistula) affects a fetus, and she is taking PTU."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-007",
+      "question": "A 45-year-old woman is brought to the emergency department with confusion 2 days after an emergency appendectomy. She has a known untreated hyperthyroid goiter. Temperature is 40.1°C (104.2°F), pulse is 158/min and irregular, and she has profuse diarrhea and bibasilar crackles. Propranolol and methimazole are started. Which of the following should be given next to block the release of preformed thyroid hormone?",
+      "answers": {
+        "A": "Hydrocortisone",
+        "B": "Levothyroxine",
+        "C": "Potassium iodide",
+        "D": "Propylthiouracil",
+        "E": "Radioactive iodine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Glucocorticoids are also used in storm, but they act by blocking deiodinases (and promoting vasomotor stability), not by blocking hormone release.",
+        "B": "Levothyroxine is thyroid hormone and would worsen thyrotoxicosis.",
+        "C": "Correct: in thyroid storm, iodine solution (potassium iodide) blocks the release of thyroid hormone from the gland.",
+        "D": "PTU is a second thionamide; it blocks synthesis, which methimazole is already doing, not release.",
+        "E": "RAI destroys the gland over weeks to months and is not an acute therapy for thyroid storm."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-008",
+      "question": "A 37-year-old woman has 2 months of anxiety, tremor, and palpitations. She has a regular menstrual cycle and a negative pregnancy test. There is no goiter. Laboratory studies are shown. MRI of the pituitary shows a 1.2-cm sellar mass. Which of the following best explains the TSH value?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "3.1 mcIU/mL",
+          "0.45–4.5 mcIU/mL"
+        ],
+        [
+          "Free T4",
+          "2.9 ng/dL",
+          "0.70–1.77 ng/dL"
+        ],
+        [
+          "Total T3",
+          "240 ng/dL",
+          "80–180 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Assay interference from heterophile antibodies",
+        "B": "Autonomous TSH secretion by a pituitary adenoma",
+        "C": "Ectopic TSH receptor stimulation by β-hCG",
+        "D": "Exogenous ingestion of levothyroxine",
+        "E": "Thyroid-stimulating immunoglobulin production"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The lecture explains the pattern by an autonomous pituitary source of TSH, not by laboratory artifact.",
+        "B": "Correct: TSH is 'inappropriately normal' because elevated free T4 should suppress it; nonsuppressed TSH points to a TSH-secreting pituitary adenoma (central hyperthyroidism).",
+        "C": "β-hCG stimulation (trophoblastic disease or twin gestation) causes suppressed TSH, and she is not pregnant.",
+        "D": "Exogenous thyroid hormone suppresses TSH.",
+        "E": "Graves disease drives hormone secretion independent of TSH, which is suppressed by feedback."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-009",
+      "question": "A 31-year-old woman at 11 weeks' gestation has severe nausea and vomiting, palpitations, and vaginal bleeding. Her uterus is larger than expected for dates. TSH is suppressed and free T4 is elevated; TSI is negative. Serum β-hCG is markedly elevated. Which of the following is the mechanism of her hyperthyroidism?",
+      "answers": {
+        "A": "Antibody stimulation of the TSH receptor",
+        "B": "Autonomous hormone secretion by a nodule",
+        "C": "Ectopic thyroid tissue in a teratoma",
+        "D": "High β-hCG stimulating the TSH receptor",
+        "E": "Pituitary overproduction of TSH"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "TSI is negative, so Graves disease is unlikely.",
+        "B": "A toxic adenoma would not explain the elevated β-hCG or enlarged uterus.",
+        "C": "Struma ovarii is ectopic thyroid tissue in an ovarian teratoma and is unrelated to β-hCG.",
+        "D": "Correct: in trophoblastic disease or twin gestation, very high β-hCG can stimulate the TSH receptor, giving ectopic hyperthyroidism with suppressed TSH.",
+        "E": "Central hyperthyroidism would show a normal or elevated TSH, not a suppressed one."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-010",
+      "question": "A 26-year-old nurse has palpitations, tremor, and weight loss. She has no goiter, ophthalmopathy, or neck tenderness. TSH is suppressed and free T4 and T3 are elevated. TSI is negative, and 24-hour radioiodine uptake is 1%. Serum thyroglobulin is undetectable. Which of the following is the most likely cause?",
+      "answers": {
+        "A": "Exogenous thyroid hormone intake",
+        "B": "Graves disease",
+        "C": "Silent thyroiditis",
+        "D": "Toxic multinodular goiter",
+        "E": "TSH-secreting pituitary adenoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: exogenous thyroid hormone suppresses TSH and the gland's own production (low uptake), and the absent thyroglobulin shows the hormone is not coming from the gland.",
+        "B": "Graves would show diffuse high uptake and positive TSI.",
+        "C": "Silent thyroiditis also gives low uptake without pain, but leakage from the gland would release thyroglobulin, so it would not be undetectable.",
+        "D": "A toxic multinodular goiter would show patchy increased uptake and a palpable goiter.",
+        "E": "A TSH adenoma would produce a normal or high TSH and increased glandular uptake."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-011",
+      "question": "A 58-year-old woman has 6 months of fatigue, cold intolerance, constipation, and a 5-kg weight gain. Her skin is dry, the lateral thirds of her eyebrows are thin, and the relaxation phase of her ankle reflexes is delayed. Laboratory studies are shown. Which of the following is the most likely cause of her condition?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "18.6 mcIU/mL",
+          "0.45–4.5 mcIU/mL"
+        ],
+        [
+          "Free T4",
+          "0.48 ng/dL",
+          "0.70–1.77 ng/dL"
+        ],
+        [
+          "TPO antibody",
+          "Positive",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Central hypothyroidism from pituitary adenoma",
+        "B": "Hashimoto thyroiditis",
+        "C": "Iodine deficiency",
+        "D": "Nonthyroidal illness syndrome",
+        "E": "Subacute thyroiditis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Central hypothyroidism would show a low or inappropriately normal TSH with low free T4.",
+        "B": "Correct: high TSH with low free T4 and positive TPO antibodies indicates primary hypothyroidism from autoimmune thyroid destruction, the most common cause in the US.",
+        "C": "Iodine deficiency is the most common cause worldwide but would not produce TPO antibodies.",
+        "D": "Nonthyroidal illness occurs in critical illness with low T3 and low or normal TSH, not a markedly high TSH.",
+        "E": "Subacute thyroiditis is painful, follows a viral illness, and usually starts with a hyperthyroid phase."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-012",
+      "question": "A 47-year-old man had transsphenoidal resection of a nonfunctioning pituitary macroadenoma 4 months ago. He now reports fatigue, cold intolerance, and constipation. TSH is 0.6 mcIU/mL (reference 0.45–4.5) and free T4 is 0.5 ng/dL (reference 0.70–1.77). He is started on levothyroxine. Which of the following should be used to adjust his dose?",
+      "answers": {
+        "A": "Free T4",
+        "B": "Reverse T3",
+        "C": "Thyroglobulin",
+        "D": "TPO antibody titer",
+        "E": "TSH"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: in central hypothyroidism the pituitary cannot produce TSH normally, so free T4 is monitored to titrate replacement.",
+        "B": "Reverse T3 is not used to monitor thyroid hormone replacement.",
+        "C": "Serum thyroglobulin is used to monitor for thyroid cancer recurrence after thyroidectomy and RAI.",
+        "D": "TPO antibodies help diagnose Hashimoto's and are not used to titrate levothyroxine.",
+        "E": "TSH is monitored in primary hypothyroidism; with pituitary damage it does not reflect thyroid hormone status."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-013",
+      "question": "A 64-year-old woman with primary hypothyroidism takes levothyroxine 100 mcg daily. Eight weeks after her last dose change, she still has fatigue and constipation. Laboratory studies are shown. Which of the following is the most appropriate next step?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "9.8 mcIU/mL",
+          "0.45–4.5 mcIU/mL"
+        ],
+        [
+          "Free T4",
+          "0.82 ng/dL",
+          "0.70–1.77 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Add liothyronine (T3)",
+        "B": "Decrease the levothyroxine dose",
+        "C": "Increase the levothyroxine dose",
+        "D": "Measure TPO antibodies",
+        "E": "Titrate dose to the free T4 level"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The lecture's approach is to titrate levothyroxine (synthetic T4) to a normal TSH, not to add T3.",
+        "B": "A suppressed TSH would call for decreasing the dose; her TSH is high.",
+        "C": "Correct: in primary hypothyroidism TSH reflects adequacy of replacement; a persistently high TSH means the dose should be increased.",
+        "D": "Antibodies help establish Hashimoto's etiology but do not guide dose titration.",
+        "E": "Free T4 is used to titrate therapy only in central hypothyroidism."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-014",
+      "question": "An 81-year-old woman with poorly controlled hypothyroidism is brought to the emergency department in January after being found at home confused. Temperature is 33.8°C (92.8°F), pulse is 44/min, and blood pressure is 82/50 mm Hg. She has periorbital and generalized nonpitting edema. Laboratory studies are shown. Intravenous thyroid hormone is started. Which additional therapy should be given until coexisting adrenal insufficiency is excluded?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "124 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Glucose",
+          "52 mg/dL",
+          "70–100 mg/dL"
+        ],
+        [
+          "TSH",
+          "68 mcIU/mL",
+          "0.45–4.5 mcIU/mL"
+        ],
+        [
+          "Free T4",
+          "<0.2 ng/dL",
+          "0.70–1.77 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Glucocorticoids",
+        "B": "Hypertonic saline",
+        "C": "Methimazole",
+        "D": "Potassium iodide",
+        "E": "Propranolol"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: in myxedema coma, glucocorticoids are given until coexisting adrenal insufficiency has been excluded.",
+        "B": "Hyponatremia is part of myxedema coma, but the lecture's treatment is thyroid hormone, glucocorticoids, and supportive care.",
+        "C": "Methimazole lowers thyroid hormone synthesis and would worsen hypothyroidism.",
+        "D": "Potassium iodide blocks thyroid hormone release in thyroid storm and has no role in myxedema coma.",
+        "E": "Beta blockers would worsen her bradycardia and hypotension."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-015",
+      "question": "A 72-year-old man is in the intensive care unit for 5 days with septic shock from pneumonia, requiring norepinephrine. He has no history of thyroid or pituitary disease. Thyroid studies are obtained. Which of the following is the most appropriate management of these findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "0.2 mcIU/mL",
+          "0.4–4.5 mcIU/mL"
+        ],
+        [
+          "Free T4",
+          "0.6 ng/dL",
+          "0.7–1.77 ng/dL"
+        ],
+        [
+          "Total T3",
+          "62 ng/dL",
+          "80–180 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Intravenous hydrocortisone for adrenal crisis",
+        "B": "Levothyroxine replacement",
+        "C": "Liothyronine (T3) replacement",
+        "D": "MRI of the pituitary",
+        "E": "No treatment and repeat testing after recovery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Nothing in the thyroid pattern indicates adrenal insufficiency; the lecture's advice is not to treat the thyroid values.",
+        "B": "Treating nonthyroidal illness syndrome is not indicated; the pattern is thought to be protective against excessive catabolism.",
+        "C": "Low T3 here reflects adaptation to critical illness; replacement is not indicated.",
+        "D": "The pattern resembles central hypothyroidism, but in a critically ill patient without pituitary history it reflects nonthyroidal illness.",
+        "E": "Correct: nonthyroidal illness syndrome (low T3, low-normal T4, low-normal TSH) is a protective response — \"don't just do something, stand there.\""
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-016",
+      "question": "A 52-year-old woman has a 1.8-cm right thyroid nodule found incidentally on a CT angiogram of the neck. She has no symptoms of thyroid dysfunction, and there is no palpable lymphadenopathy. TSH is 1.9 mcIU/mL (reference 0.45–4.5). Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "MRI of the neck",
+        "B": "Radioiodine uptake and scan",
+        "C": "Repeat TSH in 3 months",
+        "D": "Thyroid ultrasound",
+        "E": "Total thyroidectomy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "MRI is not part of the routine initial evaluation of a thyroid nodule.",
+        "B": "Uptake and scan is indicated when TSH is suppressed, to look for a hyperfunctioning (toxic) nodule.",
+        "C": "Her TSH is already normal and does not need repeating.",
+        "D": "Correct: with a normal TSH, ultrasound is the most sensitive test to characterize the nodule and decide whether FNA is needed.",
+        "E": "Surgery is for proven cancer or specific indications; the nodule has not been characterized."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-017",
+      "question": "A 57-year-old man is found to have a 2-cm thyroid nodule. Ultrasound shows a solid nodule. Which of the following additional ultrasound findings would most increase concern for malignancy and prompt fine needle aspiration?",
+      "answers": {
+        "A": "Cystic composition with smooth margins",
+        "B": "Hyperechoic, wider-than-tall shape",
+        "C": "Hypoechoic with microcalcifications",
+        "D": "Spongiform appearance without calcification",
+        "E": "Well-defined halo with peripheral flow"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cystic composition and smooth margins are reassuring rather than suspicious features.",
+        "B": "Hyperechoic (light) appearance and wider-than-tall shape are not among the suspicious features.",
+        "C": "Correct: hypoechoic (dark) appearance and calcifications are suspicious ultrasound features, along with solid composition, taller-than-wide shape, and ill-defined margins.",
+        "D": "A spongiform, noncalcified nodule lacks the listed suspicious features.",
+        "E": "A well-defined margin is the opposite of the suspicious ill-defined margin."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-018",
+      "question": "A 15-year-old boy is evaluated for a neck mass. He is tall and thin with long limbs, and he has multiple small nodules on his lips and tongue. His father died of a thyroid cancer and also had an adrenal tumor that caused episodic hypertension. A gene mutation is suspected. The thyroid cancer in this family arises from which of the following cells?",
+      "answers": {
+        "A": "Follicular cells",
+        "B": "Hurthle cells",
+        "C": "Lymphocytes",
+        "D": "Parafollicular C cells",
+        "E": "Undifferentiated epithelial cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Papillary and follicular (differentiated) cancers arise from follicular cells and are not the cancer of MEN2.",
+        "B": "Hurthle cell lesions are listed among benign nodules (adenomas) in the lecture.",
+        "C": "Primary thyroid lymphoma arises from lymphocytes and is not associated with MEN2B.",
+        "D": "Correct: MEN2B (RET mutation: MTC, pheochromocytoma, mucosal neuromas, marfanoid habitus) causes medullary thyroid carcinoma, which arises from C cells.",
+        "E": "Anaplastic carcinoma is undifferentiated, rare, and not associated with MEN2."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-019",
+      "question": "A 43-year-old woman has had recurrent kidney stones. She has a firm left thyroid nodule, and her blood pressure rises in paroxysms with headache and sweating. Laboratory studies are shown. Genetic testing reveals an activating germline mutation. Which of the following genes is most likely affected?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "11.6 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "112 pg/mL",
+          "15–65 pg/mL"
+        ],
+        [
+          "Plasma metanephrines",
+          "Elevated",
+          "Normal"
+        ],
+        [
+          "Calcitonin",
+          "Elevated",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "AIRE",
+        "B": "APC",
+        "C": "MEN1",
+        "D": "RET",
+        "E": "TP53"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "AIRE defects cause autoimmune polyglandular syndrome (hypothyroidism, T1DM, Addison disease, ovarian insufficiency), not endocrine tumors.",
+        "B": "APC is not part of the lecture's thyroid cancer syndromes.",
+        "C": "MEN1 is not associated with medullary thyroid carcinoma or pheochromocytoma in this lecture's MEN2 scheme.",
+        "D": "Correct: medullary thyroid carcinoma, pheochromocytoma, and primary hyperparathyroidism define MEN 2A, caused by activating RET proto-oncogene mutations.",
+        "E": "TP53 is not the gene associated with MEN2."
+      }
+    },
+    {
+      "id": "endorepro-approach-to-a-patient-with-thyroid-disease-020",
+      "question": "A 49-year-old woman undergoes total thyroidectomy followed by radioactive iodine ablation for papillary thyroid carcinoma. She is started on levothyroxine. Which of the following serum markers is used to monitor for recurrence of her cancer?",
+      "answers": {
+        "A": "Calcitonin",
+        "B": "Free T4",
+        "C": "Thyroglobulin",
+        "D": "TPO antibody",
+        "E": "TSH receptor antibody"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Calcitonin is made by C cells and relates to medullary carcinoma, not papillary carcinoma from follicular cells.",
+        "B": "Free T4 reflects her levothyroxine dose, not tumor burden.",
+        "C": "Correct: after thyroidectomy and RAI ablation, there should be no thyroid tissue left, so rising serum thyroglobulin (with ultrasound) signals recurrence.",
+        "D": "TPO antibodies are used to diagnose Hashimoto thyroiditis.",
+        "E": "TSI/TRAb is used to diagnose Graves disease."
+      }
+    }
+  ]
+}
