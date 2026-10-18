@@ -159,13 +159,27 @@
     {
       "file": "pelvic-viscera-part-1.json",
       "name": "Pelvic Viscera Part 1",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.16.2026-ANAT_PelvicVisceraPart1_Spudich_Notes-6f40c4ea98.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.16.2026-ANAT_PelvicViscera_NeuroVasc-1_Spudich_Slides.v.10.16.26-609be9487c.pdf"
+        }
+      ]
     },
     {
       "file": "pelvic-viscera-part-2.json",
       "name": "Pelvic Viscera Part 2",
       "count": 20,
       "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.16.2026-ANAT_PelvicVisceraPart2_Spudich_Notes-8b50de826e.pdf"
+        },
         {
           "label": "slides",
           "file": "10.16.2026-ANAT_PelvicViscera-Part-2_Spudich_Slides-dc1eca53f8.pdf"

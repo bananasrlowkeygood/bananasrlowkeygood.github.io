@@ -21,7 +21,9 @@ ROMAN = {"i": "1", "ii": "2", "iii": "3", "iv": "4", "v": "5"}
 
 
 def words(text):
-    return [ROMAN.get(w, w) for w in re.split(r"[^a-z0-9]+", text.lower()) if w and w not in FILLER]
+    # Letters and digits are separate words, so PelvicVisceraPart1 ends in the word 1.
+    text = re.sub(r"(?<=[a-z])(?=\d)|(?<=\d)(?=[a-z])", " ", text.lower())
+    return [ROMAN.get(w, w) for w in re.split(r"[^a-z0-9]+", text) if w and w not in FILLER]
 
 
 def kind(stem):
