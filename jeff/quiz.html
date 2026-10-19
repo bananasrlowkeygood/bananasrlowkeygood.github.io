@@ -143,6 +143,11 @@
     .q-tools button:hover { border-color: #3a6ea8; color: #3a6ea8; }
     .q-tools button[hidden] { display: none; }
 
+    /* Optional 1:30 per question; it only runs once clicked. */
+    .q-tools .q-timer { font-variant-numeric: tabular-nums; min-width: 42px; }
+    .q-tools .q-timer.running { border-color: #3a6ea8; color: #3a6ea8; }
+    .q-tools .q-timer.done { border-color: #b03030; color: #b03030; background: #fdf0f0; }
+
     /* ── History ──
        Every earlier try at this question, oldest first. */
     .q-history {
@@ -860,6 +865,7 @@
       <div class="q-top">
         <div class="q-meta" id="qMeta"></div>
         <div class="q-tools">
+          <button type="button" class="q-timer" id="qTimer" onclick="toggleTimer()" title="Start a 1:30 timer">1:30</button>
           <button type="button" id="qIdBtn" onclick="copyId()" title="Copy this question's id"></button>
           <button type="button" id="qSendBtn" onclick="sendQuestion()" hidden>send</button>
         </div>
@@ -1639,6 +1645,7 @@
     const resp = response(cur());
     shown = true;
     tellOpened();
+    resetTimer();
 
     document.getElementById('qMeta').textContent = `question ${cur() + 1} of ${questions.length}`;
     const idBtn = document.getElementById('qIdBtn');
@@ -1731,6 +1738,47 @@
     updateProgress();
     renderNavigator();
     saveSession();
+  }
+
+  // ── Timer ──
+  // Each question gets 1:30, counted only if you click the card. Click again
+  // to pause; once it runs out, a click sets it back to 1:30.
+  const TIMER_MS = 90 * 1000;
+  const timer = { left: TIMER_MS, end: 0, tick: 0 };
+
+  function paintTimer() {
+    const el = document.getElementById('qTimer');
+    const s = Math.ceil(timer.left / 1000);
+    el.textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+    el.classList.toggle('running', !!timer.tick);
+    el.classList.toggle('done', timer.left <= 0);
+    el.title = timer.left <= 0 ? 'Reset the timer'
+             : timer.tick ? 'Pause the timer' : 'Start a 1:30 timer';
+  }
+
+  function stopTimer() {
+    if (timer.tick) timer.left = Math.max(timer.end - Date.now(), 0);
+    clearInterval(timer.tick);
+    timer.tick = 0;
+  }
+
+  function resetTimer() {
+    clearInterval(timer.tick);
+    timer.tick = 0;
+    timer.left = TIMER_MS;
+    paintTimer();
+  }
+
+  function toggleTimer() {
+    if (timer.left <= 0) { resetTimer(); return; }
+    if (timer.tick) { stopTimer(); paintTimer(); return; }
+    timer.end = Date.now() + timer.left;
+    timer.tick = setInterval(() => {
+      timer.left = Math.max(timer.end - Date.now(), 0);
+      if (timer.left <= 0) stopTimer();
+      paintTimer();
+    }, 200);
+    paintTimer();
   }
 
   // ── The question's id ──
@@ -1942,6 +1990,8 @@
     if (!resp.selected || resp.answered) return;
     resp.answered = true;
     resp.skipped = false;
+    stopTimer();
+    paintTimer();
     const q = questions[cur()];
     tellDone(q, resp.selected === q.correct);
     STORE.addAttempt(docOf(q), qKey(q), resp.selected, resp.selected === q.correct, undefined, RUN_KEY);
@@ -2098,6 +2148,7 @@
 
   function showResults() {
     hidePop();
+    stopTimer();
     document.getElementById('quizCard').style.display = 'none';
     updateProgress();
 
