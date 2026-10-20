@@ -1,9 +1,11 @@
 /* ── Chat ──
  *
- * CHAT.mount(el, { fold }) fills `el` with everyone else who has signed
+ * CHAT.mount(el, { fold, onUnread }) fills `el` with everyone else who has signed
  * in, a card each. Pick one and it turns to what has passed between you: the
  * questions you sent each other, as cards saying what became of them, and
- * what you have said, with a box to say more. `fold` puts a hide button in the title. Needs store.js and an account.
+ * what you have said, with a box to say more. `fold` puts a hide button in the title.
+ * `onUnread(n)` hears how many people have said something you haven't read.
+ * It returns { back() }, which goes back to everyone. Needs store.js and an account.
  */
 (function () {
   'use strict';
@@ -411,6 +413,7 @@
       people.forEach(p => STORE.watchChat(p.uid, m => {
         if (!m) return;
         meta[p.uid] = m;
+        if (opts.onUnread) opts.onUnread(Object.values(meta).filter(x => x.unread).length);
         if (p.uid !== open) return paintPeople();
         if (m.unread) STORE.readChat(p.uid);
         if (msgs) paintLog(true);
@@ -418,6 +421,7 @@
     })();
 
     ready();
+    return { back: leave };
   }
 
   window.CHAT = { mount };
