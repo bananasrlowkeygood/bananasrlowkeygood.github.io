@@ -128,7 +128,8 @@ adds the cards within a few seconds of Anki closing (it waits up to 30 minutes).
 once it has finished.
 
 What it does: publishes the two PDFs through the add-on's own hosting so the buttons work on
-every device, copies the collection to `collection.before-ankify.anki2` beside it, adds the
+every device, copies the collection to `collection.before-ankify-<timestamp>.anki2` beside it
+(keeping the newest 5), adds the
 slide screenshots to Anki's media, and creates the notes in the deck as new cards. It refuses if
 the deck already has cards; stop and ask in that case, and use `--force` only if Ravi says so.
 

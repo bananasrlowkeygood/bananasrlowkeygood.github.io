@@ -852,9 +852,15 @@ def _install_cards(a, src):
     pages_dir = os.path.join(os.path.dirname(src), "pages")
 
     if not a.collection:
-        backup = os.path.join(os.path.dirname(col_path), "collection.before-ankify.anki2")
+        # One backup per install, so a run of installs doesn't overwrite the copy
+        # from before the first. The collection is ~160 MB, so keep the newest 5.
+        stamp = time.strftime("%Y%m%d-%H%M%S")
+        backup = os.path.join(os.path.dirname(col_path), f"collection.before-ankify-{stamp}.anki2")
         shutil.copy2(col_path, backup)
         print("collection backed up to", backup)
+        old = sorted(glob.glob(os.path.join(os.path.dirname(col_path), "collection.before-ankify-*.anki2")))
+        for path in old[:-5]:
+            os.remove(path)
 
     col = Collection(col_path)
     try:
