@@ -1,0 +1,458 @@
+{
+  "lecture": "Lower Tract GU Malignancy",
+  "block": "endorepro",
+  "generated": "2026-10-20",
+  "questions": [
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-001",
+      "question": "A 71-year-old woman presents with new urinary frequency and urgency. She smoked 1 pack per day for 40 years. Urinalysis shows 15 RBCs/hpf with no casts or dysmorphic RBCs. Cystoscopy reveals a papillary mass on the lateral bladder wall. Which of the following is the most appropriate next step to establish the diagnosis?",
+      "answers": {
+        "A": "Intravesical BCG instillation",
+        "B": "Neoadjuvant cisplatin-based chemotherapy",
+        "C": "Radical cystectomy with urinary diversion",
+        "D": "Transurethral resection of the bladder tumor",
+        "E": "Urine cytology with repeat in 3 months"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "BCG is given after TURBT for high-grade NMIBC or recurrence; it is not diagnostic.",
+        "B": "Neoadjuvant chemotherapy is for proven muscle-invasive disease, which requires TURBT staging first.",
+        "C": "Cystectomy is reserved for muscle-invasive or BCG-refractory disease, which has not yet been established.",
+        "D": "TURBT is required for diagnosis (grade and depth of invasion) and can also be therapeutic for superficial disease.",
+        "E": "Delaying tissue diagnosis of a visible papillary mass is inappropriate; tissue is required."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-002",
+      "question": "A 66-year-old man undergoes TURBT for a bladder mass. Pathology shows high-grade urothelial carcinoma with tumor cells permeating thick bundles of detrusor muscle. CT shows no lymphadenopathy or distant disease. Creatinine is 0.9 mg/dL and he has good performance status. Which of the following is the most appropriate management?",
+      "answers": {
+        "A": "Induction and maintenance intravesical BCG",
+        "B": "Intravesical doxorubicin instillation",
+        "C": "Neoadjuvant cisplatin chemotherapy then radical cystectomy",
+        "D": "Observation with cystoscopy every 3 months",
+        "E": "Repeat TURBT with single-dose mitomycin C"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "BCG treats high-grade NMIBC (CIS, T1), not muscle-invasive disease.",
+        "B": "Intravesical agents do not penetrate to treat muscle-invasive tumor.",
+        "C": "Detrusor (muscularis propria) invasion is T2 muscle-invasive disease, treated with neoadjuvant cisplatin-based chemotherapy then cystectomy if tolerated.",
+        "D": "Observation is for low-grade, superficial (Ta) disease only.",
+        "E": "A single post-TURBT chemotherapy instillation is used for low-risk non-invasive tumors."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-003",
+      "question": "A 58-year-old man has TURBT for painless gross hematuria. Pathology shows flat, high-grade urothelial carcinoma in situ with no invasion of the lamina propria; muscularis propria is present in the specimen and uninvolved. Which of the following is the most appropriate next treatment?",
+      "answers": {
+        "A": "Adjuvant pelvic external beam radiation",
+        "B": "Induction intravesical BCG with maintenance",
+        "C": "Neoadjuvant chemotherapy and cystectomy",
+        "D": "Observation with surveillance cystoscopy",
+        "E": "Systemic cisplatin-based chemotherapy alone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Radiation is not the treatment described for NMIBC in this lecture.",
+        "B": "High-grade NMIBC, including CIS, is an indication for intravesical BCG plus maintenance.",
+        "C": "Upfront cystectomy is reserved for muscle invasion or CIS refractory to BCG or extending into the prostatic urethra.",
+        "D": "Observation suits solitary low-grade Ta tumors, not high-grade CIS.",
+        "E": "Systemic chemotherapy is for muscle-invasive or metastatic disease."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-004",
+      "question": "A 64-year-old man receiving weekly intravesical therapy for high-grade T1 urothelial carcinoma develops dysuria, frequency, and a temperature of 104.2°F with rigors and hypotension 6 hours after his last instillation. Blood pressure is 82/50 mm Hg. Which agent was most likely instilled?",
+      "answers": {
+        "A": "Bacillus Calmette-Guérin",
+        "B": "Doxorubicin",
+        "C": "Gemcitabine",
+        "D": "Mitomycin C",
+        "E": "Thiotepa"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "BCG is a live attenuated mycobacterium; cystitis is common and high fever/sepsis is a rare serious complication.",
+        "B": "Doxorubicin mainly causes chemical cystitis and occasional allergic reactions, not sepsis.",
+        "C": "Intravesical chemotherapy agents cause local chemical irritation rather than live-organism sepsis.",
+        "D": "Mitomycin C causes chemical cystitis, myelosuppression, rash and contracture, not systemic infection.",
+        "E": "Thiotepa causes chemical cystitis and myelosuppression from systemic absorption, not sepsis."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-005",
+      "question": "A 50-year-old man who worked 25 years in an aniline dye manufacturing plant presents with painless gross hematuria. He has never smoked. Ultrasound shows a 2-cm intraluminal bladder mass. Exposure to which of the following is the most likely cause?",
+      "answers": {
+        "A": "Asbestos fibers inhaled over decades",
+        "B": "Benzene from petroleum solvents",
+        "C": "Ionizing radiation from industrial sources",
+        "D": "Occupational aromatic amines (beta-naphthylamine)",
+        "E": "Vinyl chloride from plastics manufacturing"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Asbestos causes mesothelioma and lung cancer, not bladder cancer.",
+        "B": "Benzene is associated with leukemia, not urothelial carcinoma in this lecture's list.",
+        "C": "Pelvic therapeutic radiation is an iatrogenic risk, but dye work implicates aromatic amines.",
+        "D": "Aromatic amines used in chemical dyes and pharmaceuticals are occupational bladder carcinogens.",
+        "E": "Vinyl chloride causes hepatic angiosarcoma."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-006",
+      "question": "A 35-year-old man who emigrated from Egypt presents with hematuria and suprapubic discomfort. He grew up swimming in the Nile. Cystoscopy shows a large mass, and biopsy shows keratin pearls and intercellular bridges. Which of the following is the most likely underlying risk factor?",
+      "answers": {
+        "A": "Chronic cyclophosphamide exposure",
+        "B": "Chronic Schistosoma infection of the bladder",
+        "C": "Exposure to arsenic in well water",
+        "D": "Long history of cigarette smoking",
+        "E": "Prior pelvic radiation therapy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cyclophosphamide is an iatrogenic risk factor, but there is no such history here.",
+        "B": "Squamous cell bladder carcinoma (keratin pearls) is more common where urinary schistosomiasis is endemic.",
+        "C": "Arsenic is a chemical risk factor, but the history and squamous histology point to schistosomiasis.",
+        "D": "Smoking is the main overall risk for urothelial cancer, but this patient's exposure and histology suggest schistosomiasis.",
+        "E": "He has had no radiation therapy."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-007",
+      "question": "A 52-year-old man has a screening PSA of 6.2 ng/mL. DRE shows a smooth, normal-consistency gland. A 12-core biopsy shows Gleason 4+3 adenocarcinoma in 2 of 12 cores. Which of the following best describes his clinical T stage and the reason active surveillance is not appropriate?",
+      "answers": {
+        "A": "T1c; Gleason score 7 places him above low risk",
+        "B": "T1c; PSA above 4 ng/mL excludes surveillance",
+        "C": "T2a; a palpable nodule mandates treatment",
+        "D": "T2c; tumor is present in two cores",
+        "E": "T3a; extracapsular extension is suspected"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cancer detected only by elevated PSA with a normal DRE is cT1c; Gleason 4+3=7 makes him intermediate risk, so active surveillance (very low/low risk only) is not appropriate.",
+        "B": "PSA <10 ng/mL is compatible with low risk; the Gleason score, not the PSA, excludes surveillance.",
+        "C": "His DRE is normal, so there is no palpable tumor and he is not T2.",
+        "D": "Number of positive cores does not define clinical T stage; clinical T stage uses PSA and DRE.",
+        "E": "Nothing suggests extracapsular extension; DRE is normal."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-008",
+      "question": "A 68-year-old man with recently diagnosed prostate adenocarcinoma has the following findings. Which of the following is the most appropriate next step in staging?",
+      "table": [
+        [
+          "Finding",
+          "Result"
+        ],
+        [
+          "PSA",
+          "24 ng/mL"
+        ],
+        [
+          "DRE",
+          "Firm, irregular left lobe"
+        ],
+        [
+          "Biopsy",
+          "Gleason 4+4=8 in 7/12 cores"
+        ],
+        [
+          "Alkaline phosphatase",
+          "Mildly elevated"
+        ]
+      ],
+      "answers": {
+        "A": "MRI of the brain with contrast",
+        "B": "PET scan of the whole body alone",
+        "C": "Repeat PSA in 6 weeks",
+        "D": "Scrotal ultrasound",
+        "E": "Staging CT abdomen/pelvis and bone scan"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Prostate cancer metastasizes to nodes and axial bone, not typically brain.",
+        "B": "PET is not the staging modality described for prostate cancer here.",
+        "C": "Repeating PSA does not stage his disease.",
+        "D": "Scrotal ultrasound evaluates testicular masses, not prostate cancer spread.",
+        "E": "N and M staging of prostate cancer uses CT and bone scan; high-risk disease warrants both."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-009",
+      "question": "A 63-year-old man with BPH has been taking finasteride for 2 years. His PSA today is 3.4 ng/mL. Before starting finasteride, his PSA was 2.0 ng/mL. DRE shows a smooth enlarged gland. Which of the following best interprets his current PSA?",
+      "answers": {
+        "A": "Falsely elevated by finasteride-induced prostatitis",
+        "B": "Normal because it remains below 4 ng/mL",
+        "C": "Reflects BPH progression and needs no workup",
+        "D": "Suppressed by half; true value near 6.8 ng/mL",
+        "E": "Uninterpretable while on 5α-reductase inhibitors"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Finasteride lowers rather than elevates PSA.",
+        "B": "Ignoring the 50% suppression from finasteride masks a significant rise.",
+        "C": "BPH alone does not explain a rising PSA while on finasteride.",
+        "D": "5α-reductase inhibitors lower PSA by about 50% at any dose, so the value should be doubled; his true PSA has risen substantially.",
+        "E": "PSA remains interpretable if doubled."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-010",
+      "question": "A pathologist examines a prostate needle biopsy. Some glands show cells with prominent nucleoli. Immunohistochemistry is performed with a cocktail stain. Which of the following staining patterns in a gland most strongly supports invasive adenocarcinoma rather than benign glands or HGPIN?",
+      "answers": {
+        "A": "AMACR negative, basal cell markers negative",
+        "B": "AMACR negative, basal cell markers positive",
+        "C": "AMACR positive, basal cell markers negative",
+        "D": "AMACR positive, basal cell markers positive",
+        "E": "AMACR weak, basal cell markers patchy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "AMACR is typically positive in cancer.",
+        "B": "This is the pattern of benign glands.",
+        "C": "Cancer expresses AMACR (red) and lacks a basal cell layer (no brown).",
+        "D": "AMACR-positive glands that retain basal cells are HGPIN, not invasive cancer.",
+        "E": "Patchy basal cells argue against invasion."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-011",
+      "question": "A 61-year-old man with very-low-risk prostate cancer chooses radical prostatectomy rather than active surveillance. He asks which outcome is certain after surgery. Which of the following will he definitely experience?",
+      "answers": {
+        "A": "Fecal urgency and rectal bleeding",
+        "B": "Loss of ejaculate on orgasm",
+        "C": "Permanent erectile dysfunction",
+        "D": "Permanent stress urinary incontinence",
+        "E": "Urinary urgency requiring anticholinergics"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Fecal side effects follow radiation, not prostatectomy.",
+        "B": "Removal of the prostate and seminal vesicles permanently eliminates ejaculate, causing permanent infertility.",
+        "C": "Impotence may be temporary and is reduced by nerve sparing.",
+        "D": "Stress incontinence after prostatectomy is usually transient.",
+        "E": "Urgency/frequency is typical after radiation."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-012",
+      "question": "A 72-year-old man with prostate cancer metastatic to the lumbar spine starts leuprolide monotherapy. Ten days later he has worsening back pain and new urinary retention. Which of the following should have been co-administered to prevent this?",
+      "answers": {
+        "A": "Bicalutamide",
+        "B": "Dutasteride",
+        "C": "Finasteride",
+        "D": "Goserelin",
+        "E": "Tamsulosin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "An androgen receptor antagonist blocks the initial testosterone surge caused by GnRH agonists (tumor flare).",
+        "B": "5α-reductase inhibitors lower PSA but are not used to block the GnRH agonist flare.",
+        "C": "Finasteride does not block the testosterone surge.",
+        "D": "Goserelin is another GnRH agonist and would also cause a surge.",
+        "E": "An alpha-1 blocker eases BPH voiding symptoms but does not block the GnRH agonist testosterone surge."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-013",
+      "question": "A 70-year-old man has been on androgen deprivation therapy for metastatic prostate cancer for 3 years. Labs are shown below. Which of the following is the most likely explanation?",
+      "table": [
+        [
+          "Test",
+          "18 months ago",
+          "Today"
+        ],
+        [
+          "PSA",
+          "0.4 ng/mL",
+          "9.8 ng/mL"
+        ],
+        [
+          "Testosterone",
+          "18 ng/dL",
+          "15 ng/dL"
+        ],
+        [
+          "Bone scan",
+          "Stable lesions",
+          "New rib and pelvic lesions"
+        ]
+      ],
+      "answers": {
+        "A": "Inadequate GnRH agonist dosing",
+        "B": "Non-adherence to androgen deprivation therapy",
+        "C": "Progression to castrate-resistant disease",
+        "D": "Prostatitis elevating serum PSA",
+        "E": "Testosterone flare from GnRH agonist"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Testosterone is at castrate levels, so ADT is effective.",
+        "B": "Castrate testosterone confirms adherence.",
+        "C": "Rising PSA and radiographic progression despite castrate testosterone defines CRPC.",
+        "D": "Prostatitis would not explain new bone lesions.",
+        "E": "Flare occurs at initiation, not after years of therapy, and testosterone is low."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-014",
+      "question": "A 74-year-old man has been on continuous leuprolide for metastatic prostate cancer for 5 years. He falls from standing and sustains a hip fracture. DEXA T-score is −3.1. Which of the following measures was most indicated to reduce this complication?",
+      "answers": {
+        "A": "Daily flutamide to block androgen effects",
+        "B": "Intermittent testosterone replacement",
+        "C": "Supplemental calcium, vitamin D and weight-bearing exercise",
+        "D": "Switching to bilateral orchiectomy",
+        "E": "Thyroid hormone supplementation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "An anti-androgen would worsen, not prevent, hypogonadal bone loss.",
+        "B": "Testosterone replacement would stimulate the androgen-dependent cancer.",
+        "C": "Men on long-term ADT should take calcium and vitamin D and do weight-bearing exercise to counter osteoporosis.",
+        "D": "Surgical castration has the same hypogonadal effects on bone.",
+        "E": "Thyroid hormone does not prevent ADT-related osteoporosis."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-015",
+      "question": "A 28-year-old man notices a firm, painless lump on his right testicle during self-examination. Scrotal ultrasound shows a hypoechoic intratesticular mass. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Antibiotics and repeat ultrasound in 4 weeks",
+        "B": "Fine-needle aspiration through the scrotum",
+        "C": "Radical inguinal orchiectomy",
+        "D": "Scrotal orchiectomy",
+        "E": "Transscrotal open biopsy with frozen section"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A solid intratesticular mass is cancer until proven otherwise; delay is inappropriate.",
+        "B": "Biopsy is avoided because of tumor spread risk.",
+        "C": "Inguinal orchiectomy gives histology, may be curative, and avoids scrotal seeding and disruption of lymphatics.",
+        "D": "A scrotal approach risks seeding the scrotum and altering lymphatic drainage.",
+        "E": "Transscrotal biopsy risks tumor spread."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-016",
+      "question": "A 31-year-old man undergoes radical orchiectomy. Pathology reports a pure classic seminoma with sheets of clear polygonal cells and lymphocytic infiltrate. Preoperative markers are shown. Which of the following is the most appropriate interpretation?",
+      "table": [
+        [
+          "Marker",
+          "Value",
+          "Reference"
+        ],
+        [
+          "AFP",
+          "410 ng/mL",
+          "<10 ng/mL"
+        ],
+        [
+          "β-hCG",
+          "32 mIU/mL",
+          "<5 mIU/mL"
+        ],
+        [
+          "LDH",
+          "290 U/L",
+          "100–250 U/L"
+        ],
+        [
+          "AST/ALT",
+          "22/24 U/L",
+          "<40 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Elevated AFP reflects occult hepatic dysfunction",
+        "B": "Elevated LDH indicates choriocarcinoma",
+        "C": "Elevated β-hCG excludes the diagnosis of seminoma",
+        "D": "Markers are consistent with pure seminoma",
+        "E": "Presence of AFP indicates a nonseminomatous component"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Normal transaminases make liver-related AFP elevation unlikely.",
+        "B": "LDH is nonspecific with many false positives.",
+        "C": "5–10% of seminomas raise β-hCG via syncytiotrophoblasts.",
+        "D": "Pure seminoma does not explain the AFP.",
+        "E": "Pure seminoma does not produce AFP; AFP in a presumed pure seminoma suggests a mixed tumor."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-017",
+      "question": "A 2-year-old boy has a painless enlarging left testicular mass. Serum AFP is markedly elevated and β-hCG is normal. Orchiectomy shows a tumor of poorly differentiated, endothelium-like cuboidal cells. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Choriocarcinoma",
+        "B": "Embryonal carcinoma",
+        "C": "Seminoma",
+        "D": "Teratoma",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Choriocarcinoma produces hCG in 100% and is not AFP-producing; peak age is 20–30.",
+        "B": "Pure embryonal carcinoma is marker-negative and peaks at 20–30.",
+        "C": "Seminoma peaks at 40–50 and does not produce AFP.",
+        "D": "Pure teratoma is marker-negative and has tissue from all three germ layers.",
+        "E": "Yolk sac tumor peaks around age 3, has endothelium-like cuboidal/columnar cells, and 90% produce AFP."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-018",
+      "question": "A 30-year-old man presents with hemoptysis and a right testicular mass. β-hCG is 180,000 mIU/mL, AFP is normal. Orchiectomy shows sheets of cytotrophoblasts and syncytiotrophoblasts without villi. He also has mild hyperthyroid symptoms. Which property of β-hCG best explains the thyroid symptoms?",
+      "answers": {
+        "A": "It has a half-life of 24–36 hours",
+        "B": "It is cleared by the liver like AFP",
+        "C": "It is elevated in hypogonadism",
+        "D": "It is produced by cytotrophoblasts",
+        "E": "It shares an alpha subunit with TSH"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Half-life determines marker kinetics after orchiectomy, not receptor effects.",
+        "B": "AFP clearance is unrelated to thyroid stimulation.",
+        "C": "False elevation in hypogonadism does not explain hyperthyroid symptoms.",
+        "D": "hCG is produced by syncytiotrophoblastic tissue.",
+        "E": "hCG's alpha subunit is shared with LH, FSH and TSH, so very high levels can stimulate TSH receptors."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-019",
+      "question": "A 33-year-old man undergoes radical orchiectomy for a mixed germ cell tumor. Preoperative AFP was 2,400 ng/mL. Four weeks later, AFP is 1,850 ng/mL. CT abdomen shows no adenopathy. Which of the following is the best interpretation?",
+      "answers": {
+        "A": "AFP elevation is from marijuana use",
+        "B": "AFP is falling appropriately after orchiectomy",
+        "C": "Normal CT excludes metastatic disease",
+        "D": "Persistent AFP elevation indicates residual metastatic disease",
+        "E": "Recheck AFP only after 6 months"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Marijuana falsely elevates β-hCG, not AFP.",
+        "B": "With a half-life of 5–7 days, AFP should have fallen far more after 4 weeks.",
+        "C": "Normal imaging does not override persistent markers.",
+        "D": "Marker elevation persisting after orchiectomy, beyond expected half-life decay, represents metastatic disease even with negative CT.",
+        "E": "Markers are rechecked after 5 half-lives, about 4–5 weeks for AFP."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-malignancy-020",
+      "question": "A 29-year-old man with a history of right cryptorchidism corrected by orchidopexy at age 6 is treated for a right testicular seminoma. He asks about future risk. Which of the following statements is most accurate?",
+      "answers": {
+        "A": "His cancer most likely arose from Sertoli cells",
+        "B": "His contralateral testis remains at increased risk",
+        "C": "His risk was due to the surgical trauma of orchidopexy",
+        "D": "Orchidopexy eliminated his cancer risk on the right",
+        "E": "Seminoma does not recur after orchiectomy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Testicular cancer after cryptorchidism is germ cell, arising from intratubular germ cell neoplasia.",
+        "B": "5–10% of testis cancer patients with cryptorchidism develop cancer in the contralateral testis.",
+        "C": "Trauma only prompts evaluation; it is not an established cause.",
+        "D": "Orchidopexy does not prevent cancer; it only allows detection.",
+        "E": "Stage I seminoma has relapse rates of 3–16% depending on management."
+      }
+    }
+  ]
+}

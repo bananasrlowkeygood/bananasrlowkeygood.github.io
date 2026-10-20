@@ -29,8 +29,8 @@ def words(text):
 def kind(stem):
     """What a PDF is, from how its name ends: notes, slides, ..."""
     low = stem.lower()
-    for mark, label in (("notes", "notes"), ("slides", "slides"), ("los", "objectives"),
-                        ("answers", "answers"), ("vignettes", "cases")):
+    for mark, label in (("notes", "notes"), ("narrative", "notes"), ("slides", "slides"), ("los", "objectives"),
+                        ("answer", "answers"), ("vignettes", "cases")):
         if mark in low:
             return label
     return "handout"

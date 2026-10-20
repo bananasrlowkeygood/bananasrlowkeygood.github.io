@@ -1,0 +1,453 @@
+{
+  "lecture": "Physiology of Testicular Function",
+  "block": "endorepro",
+  "generated": "2026-10-20",
+  "questions": [
+    {
+      "id": "endorepro-physiology-of-testicular-function-001",
+      "question": "A 16-year-old with primary amenorrhea has a 46,XY karyotype. Exam shows normal breast development, sparse pubic and axillary hair, and a short blind-ending vagina; no uterus is seen on ultrasound and intra-abdominal testes are found. Serum testosterone is elevated for age. Which structure is absent because of an intact Sertoli cell product?",
+      "answers": {
+        "A": "Epididymis",
+        "B": "Prostate",
+        "C": "Scrotum",
+        "D": "Uterus",
+        "E": "Vas deferens"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Absent here, but because androgen signaling is lost, not because of a Sertoli product.",
+        "B": "Prostate depends on DHT acting on AR; its absence reflects androgen insensitivity, not AMH.",
+        "C": "Scrotal development is DHT-dependent, so it fails from AR loss, not from a Sertoli product.",
+        "D": "Sertoli cells still secrete AMH, which regresses the Müllerian ducts, so no uterus or upper vagina forms.",
+        "E": "Wolffian structures regress from lack of testosterone signaling, not from AMH."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-002",
+      "question": "A newborn with a 46,XY karyotype has bilateral inguinal testes, a normal penis and scrotum, and at hernia repair is found to have a uterus and fallopian tubes alongside a normal vas deferens and epididymis. Which defect best explains these findings?",
+      "answers": {
+        "A": "5α-reductase deficiency",
+        "B": "AMH signal deficiency",
+        "C": "Androgen receptor deficiency",
+        "D": "SRY deficiency",
+        "E": "XXY karyotype"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Would give undervirilized external genitalia (DHT-dependent) without persistent Müllerian structures.",
+        "B": "Without AMH signaling the Müllerian ducts persist, while intact testosterone develops Wolffian ducts and a male phenotype.",
+        "C": "Would cause regressed Wolffian ducts and female-appearing external genitalia, with Müllerian regression intact.",
+        "D": "Would give immature gonads, regressed Wolffian ducts and a female phenotype.",
+        "E": "Klinefelter has regressed Müllerian ducts; the karyotype here is XY."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-003",
+      "question": "A 15-year-old girl with short stature and primary amenorrhea has a 45,X karyotype. Pelvic imaging shows a uterus and fallopian tubes but no identifiable ovarian follicles. Which gonadal and ductal pattern is expected?",
+      "answers": {
+        "A": "Immature testis; Müllerian regressed; Wolffian developed",
+        "B": "Ovary; Müllerian developed; Wolffian regressed",
+        "C": "Streak gonad; Müllerian developed; Wolffian regressed",
+        "D": "Testis; both ducts developed",
+        "E": "Testis; both ducts regressed"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Describes Klinefelter or XX with SRY translocation.",
+        "B": "Describes a normal XX individual; Turner gonads are streaks.",
+        "C": "With no Y chromosome there is no SRY, so Müllerian ducts persist, Wolffian ducts regress and the gonad is a streak.",
+        "D": "Describes XY with AMH signal deficiency.",
+        "E": "Describes XY with impaired testosterone signaling."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-004",
+      "question": "A phenotypically male infant with a 46,XX karyotype has small testes, no Müllerian structures and normal Wolffian derivatives. FISH shows Y-chromosome material on an X chromosome. As an adult, this patient is most likely to resemble which condition?",
+      "answers": {
+        "A": "Androgen insensitivity",
+        "B": "Klinefelter syndrome",
+        "C": "Normal fertile male",
+        "D": "Persistent Müllerian duct syndrome",
+        "E": "Turner syndrome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Would produce a female external phenotype from an XY karyotype.",
+        "B": "XX with SRY translocation gives a phenotype similar to XXY: male, with immature, mostly sterile testes.",
+        "C": "Testes in SRY translocation are immature and the patient is generally infertile.",
+        "D": "Requires AMH deficiency; here Müllerian ducts regressed normally.",
+        "E": "XO individuals lack SRY and have streak gonads and a female phenotype."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-005",
+      "question": "A 13-year-old boy is evaluated for delayed puberty. He is given a continuous subcutaneous infusion of a GnRH analog as a diagnostic trial. After two weeks, which change in serum hormone levels is most likely?",
+      "answers": {
+        "A": "Decreased LH and decreased testosterone",
+        "B": "Decreased LH and increased testosterone",
+        "C": "Increased FSH and decreased inhibin B",
+        "D": "Increased LH and increased testosterone",
+        "E": "Unchanged LH and markedly increased testosterone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Continuous GnRH desensitizes the pituitary and reduces LH release, so Leydig testosterone output falls.",
+        "B": "Testosterone production depends on LH and cannot rise when LH falls.",
+        "C": "FSH would also fall with pituitary desensitization; inhibin B would not drive this pattern.",
+        "D": "This is the response to pulsatile, not continuous, GnRH.",
+        "E": "LH is reduced by continuous exposure, and testosterone follows LH."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-006",
+      "question": "A 24-year-old competitive weightlifter has been injecting testosterone for 6 months. Semen analysis shows severe oligospermia with sperm of normal morphology and motility. Which hormone pattern is most consistent with his findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Sperm concentration",
+          "2 million/mL",
+          "≥15 million/mL"
+        ],
+        [
+          "Motility",
+          "Normal",
+          "—"
+        ],
+        [
+          "Morphology",
+          "Normal",
+          "—"
+        ]
+      ],
+      "answers": {
+        "A": "High LH, high FSH, high testosterone",
+        "B": "High LH, low FSH, low testosterone",
+        "C": "Low LH, high FSH, high testosterone",
+        "D": "Low LH, low FSH, high testosterone",
+        "E": "Normal LH, normal FSH, high testosterone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Exogenous testosterone suppresses rather than raises gonadotropins.",
+        "B": "Does not match exogenous androgen use, which raises total testosterone.",
+        "C": "FSH is also suppressed by negative feedback.",
+        "D": "Exogenous testosterone suppresses LH and FSH by negative feedback, lowering sperm count even though plasma testosterone is high.",
+        "E": "Negative feedback lowers both gonadotropins."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-007",
+      "question": "A 30-year-old man with infertility has a seminiferous tubule disorder that selectively reduces germ cell number while Leydig cells are spared. Which change in serum hormones is expected?",
+      "table": [
+        [
+          "Test",
+          "Patient",
+          "Reference range"
+        ],
+        [
+          "Sperm concentration",
+          "4 million/mL",
+          "≥15 million/mL"
+        ],
+        [
+          "Testosterone",
+          "5.8 ng/mL",
+          "3–10 ng/mL"
+        ],
+        [
+          "LH",
+          "5 IU/L",
+          "2–9 IU/L"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased FSH and increased inhibin B",
+        "B": "Decreased LH and decreased testosterone",
+        "C": "Increased FSH and decreased inhibin B",
+        "D": "Increased LH and increased inhibin B",
+        "E": "Unchanged FSH and decreased inhibin B"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Inhibin B falls, not rises, when germ cells are lost.",
+        "B": "Leydig cells are spared, so the LH–testosterone loop is not primarily affected.",
+        "C": "Fewer germ cells reduce Sertoli inhibin B, removing feedback on the pituitary so FSH rises.",
+        "D": "Inhibin B tracks sperm count and would fall.",
+        "E": "Inhibin B normally suppresses FSH, so its fall raises FSH."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-008",
+      "question": "A researcher selectively knocks out the FSH receptor in adult mouse testes. Which Sertoli cell product would be expected to decline most directly?",
+      "answers": {
+        "A": "Androgen-binding protein",
+        "B": "Anti-Müllerian hormone (AMH)",
+        "C": "Dihydrotestosterone",
+        "D": "Luteinizing hormone",
+        "E": "Testosterone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "FSH raises Sertoli cAMP, inducing inhibin B, growth factors, aromatase and ABP.",
+        "B": "AMH is a fetal Sertoli product causing Müllerian regression, not the adult FSH-cAMP target listed in the lecture.",
+        "C": "DHT is made by 5α-reductase in target tissues, not by FSH-stimulated Sertoli cells.",
+        "D": "LH is a pituitary hormone.",
+        "E": "Testosterone is made by Leydig cells in response to LH."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-009",
+      "question": "A 26-year-old man with hypogonadotropic hypogonadism wishes to father a child. His testosterone is low and sperm count is near zero. Supplemental testosterone alone has not restored spermatogenesis. Which regimen is most appropriate to restore sperm production?",
+      "answers": {
+        "A": "Aromatase inhibitor alone",
+        "B": "Continuous GnRH infusion",
+        "C": "FSH plus hCG",
+        "D": "Higher-dose testosterone",
+        "E": "Inhibin B supplementation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Not the lecture's described therapy; it does not supply the missing gonadotropins.",
+        "B": "Continuous GnRH suppresses LH release.",
+        "C": "FSH and hCG (as an LH substitute) restore Sertoli and Leydig activation and are used to treat testicular infertility.",
+        "D": "Testosterone alone is not sufficient for spermatogonial proliferation and further suppresses gonadotropins.",
+        "E": "Inhibin B would suppress FSH and worsen spermatogenesis."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-010",
+      "question": "A 19-year-old XY individual has ambiguous genitalia at birth that virilized at puberty. He has normal epididymis, vas deferens and seminal vesicles, but a small prostate, sparse facial and body hair, and no acne. Which enzyme deficiency best explains this?",
+      "answers": {
+        "A": "17α-hydroxylase",
+        "B": "5α-reductase",
+        "C": "Aromatase",
+        "D": "Cholesterol side-chain cleavage",
+        "E": "Steroid sulfatase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Would impair testosterone synthesis itself, affecting Wolffian structures as well.",
+        "B": "Without DHT, prostate, external genitalia, body hair and sebaceous activity are underdeveloped while testosterone-dependent Wolffian structures are normal.",
+        "C": "Would impair estradiol, causing delayed epiphyseal closure rather than poor prostate development.",
+        "D": "Would abolish all steroidogenesis including Wolffian development.",
+        "E": "Not involved in the lecture's androgen actions."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-011",
+      "question": "A 25-year-old man is unusually tall with persistently open epiphyseal growth plates and low bone mineral density. Testosterone is elevated, while estradiol is undetectable. Deficiency of which enzyme is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Testosterone",
+          "12 ng/mL",
+          "3–10 ng/mL"
+        ],
+        [
+          "Estradiol",
+          "Undetectable",
+          "10–40 pg/mL"
+        ],
+        [
+          "Bone age",
+          "14 years",
+          "—"
+        ]
+      ],
+      "answers": {
+        "A": "5α-reductase",
+        "B": "Aromatase",
+        "C": "Cholesterol desmolase",
+        "D": "Hepatic glucuronidase",
+        "E": "Steroid 21-hydroxylase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Would impair DHT actions (prostate, external genitalia, hair), not bone maturation.",
+        "B": "Without conversion of testosterone to estradiol, growth plates do not close and bone mass is not preserved.",
+        "C": "Would abolish testosterone production as well.",
+        "D": "Liver metabolism of androgens does not drive epiphyseal closure.",
+        "E": "An adrenal enzyme; deficiency causes androgen excess but would not remove estradiol."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-012",
+      "question": "A 70-year-old man reports decreased libido, fatigue and loss of muscle mass. Serum testosterone is low. According to the physiology of andropause, which pair of mechanisms underlies his decline?",
+      "answers": {
+        "A": "Increased aromatase and increased inhibin B",
+        "B": "Increased SHBG and decreased DHT",
+        "C": "Pituitary resistance to GnRH with compensatory FSH excess",
+        "D": "Reduced GnRH release and Leydig unresponsiveness",
+        "E": "Sertoli cell loss and increased ABP"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Not the described mechanisms of andropause.",
+        "B": "Not presented as causes of andropause in the lecture.",
+        "C": "Not the mechanism described.",
+        "D": "Andropause results from reduced hypothalamic GnRH release and loss of Leydig cell responsiveness to LH.",
+        "E": "Sertoli function does not determine plasma testosterone."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-013",
+      "question": "A 32-year-old man undergoes bilateral orchiectomy for trauma. Which fraction of his prior total circulating testosterone is he most likely to retain from peripheral conversion of DHEA and androstenedione?",
+      "answers": {
+        "A": "About 2%",
+        "B": "About 20%",
+        "C": "About 5%",
+        "D": "About 50%",
+        "E": "About 95%"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "2% refers to the fraction of testosterone excreted in urine, not peripheral production.",
+        "B": "20% refers to the testicular share of total estrogen.",
+        "C": "Leydig cells make about 95% of testosterone; about 5% comes from peripheral conversion of DHEA and androstenedione.",
+        "D": "Peripheral tissues make only a small fraction.",
+        "E": "This is the Leydig cell contribution, lost with orchiectomy."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-014",
+      "question": "In a man with normal testicular function, testosterone concentration within the seminiferous tubule lumen is far higher than in plasma. Which mechanism best explains this?",
+      "answers": {
+        "A": "Albumin binding in plasma",
+        "B": "Aromatase conversion in Sertoli cells",
+        "C": "Binding to androgen-binding protein",
+        "D": "Hepatic conversion to 17-ketosteroids",
+        "E": "Peripheral conversion from DHEA"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Plasma binding transports testosterone to peripheral tissues, not into the lumen.",
+        "B": "Aromatase reduces testosterone by converting it to estradiol.",
+        "C": "ABP from Sertoli cells binds testosterone, which then cannot cross the blood–testis barrier and remains concentrated in the lumen.",
+        "D": "Liver metabolism inactivates testosterone for excretion.",
+        "E": "Peripheral tissues contribute only about 5% of testosterone."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-015",
+      "question": "A 28-year-old man with infertility has bilateral undescended testes that were never corrected. Leydig cell testosterone output is adequate. What is the main reason for his impaired spermatogenesis?",
+      "answers": {
+        "A": "Absent AMH secretion",
+        "B": "Excess inhibin B",
+        "C": "Failure of Wolffian duct development in utero",
+        "D": "Lack of SRY expression",
+        "E": "Temperature above that tolerated by sperm"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "AMH acts on Müllerian ducts and does not affect adult spermatogenesis.",
+        "B": "Inhibin B falls, not rises, with fewer germ cells.",
+        "C": "Wolffian development depends on testosterone, which is adequate.",
+        "D": "SRY is required for testis formation, which occurred.",
+        "E": "Sperm will not mature at core body temperature, so cryptorchidism causes infertility."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-016",
+      "question": "A 40-year-old man starts finasteride, a 5α-reductase inhibitor, for symptoms of an enlarged prostate. Which additional effect would be expected from reduced DHT action?",
+      "answers": {
+        "A": "Earlier closure of growth plates",
+        "B": "Improved male-pattern balding",
+        "C": "Increased acne",
+        "D": "Loss of vas deferens function",
+        "E": "Regression of the larynx"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Growth plate closure is estradiol-mediated.",
+        "B": "Male-pattern balding is a DHT action, so reducing DHT tends to improve it.",
+        "C": "Sebaceous activity is DHT-driven and would decrease.",
+        "D": "Wolffian structures depend on testosterone, not DHT.",
+        "E": "Laryngeal growth is a testosterone action and is already established."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-017",
+      "question": "A 62-year-old man undergoes radical prostatectomy with injury to the pelvic parasympathetic nerves. Which step of the male sexual response is most directly impaired?",
+      "answers": {
+        "A": "Detumescence via corporeal vasoconstriction",
+        "B": "Ejaculation via perineal muscle reflex",
+        "C": "Emission via vas deferens peristalsis",
+        "D": "Erection via nitric oxide release",
+        "E": "Internal sphincter closure during emission"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Detumescence is sympathetically mediated.",
+        "B": "Ejaculation is a striated-muscle reflex triggered by semen in the bulbous urethra.",
+        "C": "Emission is sympathetically mediated.",
+        "D": "Parasympathetic ACh stimulates endothelial NO, relaxing corporeal smooth muscle so the corpus cavernosum fills.",
+        "E": "Internal sphincter contraction is sympathetic."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-018",
+      "question": "A 55-year-old man taking an α1-adrenergic antagonist for urinary symptoms reports dry orgasms, and post-orgasm urine contains sperm. Failure of which mechanism best explains this?",
+      "answers": {
+        "A": "Bulbous urethral reflex",
+        "B": "Corporeal NO release",
+        "C": "Internal bladder sphincter contraction",
+        "D": "Leydig cell testosterone release",
+        "E": "Parasympathetic endothelial nitric oxide signaling"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The reflex that expels semen depends on semen reaching the bulbous urethra, which is downstream.",
+        "B": "NO-mediated vasodilation governs erection, not antegrade ejaculation.",
+        "C": "Sympathetic contraction of the internal sphincter normally blocks entry of semen into the bladder; loss causes retrograde ejaculation.",
+        "D": "Testosterone does not control the immediate mechanics of emission.",
+        "E": "Parasympathetic signaling drives erection."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-019",
+      "question": "A 23-year-old man's semen analysis reveals oligospermia. A clinician wants to know how long after correcting the cause a new semen analysis will reflect a full cycle of sperm production. Which interval is closest?",
+      "answers": {
+        "A": "16 days",
+        "B": "2–4 weeks",
+        "C": "3–5 days",
+        "D": "6 months",
+        "E": "70 days"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This is the interval between successive waves of spermatogenesis, not the full maturation time.",
+        "B": "This is the time for further maturation in the epididymis only.",
+        "C": "This is sperm lifespan after ejaculation.",
+        "D": "Longer than the maturation process described.",
+        "E": "Maturation from spermatogonium to sperm takes about 70 days."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-testicular-function-020",
+      "question": "A 12-year-old boy begins puberty. Which initiating event in the hypothalamus is primarily responsible for the rise in his plasma testosterone?",
+      "answers": {
+        "A": "Continuous high-level GnRH secretion from neurons",
+        "B": "Dis-inhibition of the GnRH pulse generator",
+        "C": "Increased hepatic testosterone clearance",
+        "D": "Increased inhibin B secretion",
+        "E": "Increased Sertoli cell aromatase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Continuous GnRH reduces LH release.",
+        "B": "Puberty starts when the suppressed GnRH pulse generator is released, producing pulsatile GnRH that drives LH and FSH.",
+        "C": "Would lower, not raise, plasma testosterone.",
+        "D": "Inhibin B is a Sertoli product that suppresses FSH.",
+        "E": "Aromatase converts testosterone to estradiol and is not the initiating event."
+      }
+    }
+  ]
+}

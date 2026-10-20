@@ -97,6 +97,36 @@
       ]
     },
     {
+      "file": "histology-of-the-testis-and-sperm-release-pathway.json",
+      "name": "Histology of the Testis and Sperm Release Pathway",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.19.26-ANAT_Histology-of-the-Testis-and-Sperm-Release-Pathway_Macnow_Narrative-da3620697f.pdf"
+        },
+        {
+          "label": "answers",
+          "file": "10.19.26-ANAT_Histology-of-the-Testis-and-Sperm-Release-Pathway_Macnow_Answer-Ke-508042f83d.pdf"
+        }
+      ]
+    },
+    {
+      "file": "lower-tract-gu-malignancy.json",
+      "name": "Lower Tract GU Malignancy",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.20.26-CM_Lower_Tract-GU-Malignancy_Shah_Notes.v.10.14.26-c28375e9bd.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.20.26-CM_Lower_Tract-GU-Malignancy_Shah_Slides.v.10.14.26-d1b66c2637.pdf"
+        }
+      ]
+    },
+    {
       "file": "management-of-type-2-diabetes.json",
       "name": "Management of Type 2 Diabetes",
       "count": 20,
@@ -187,6 +217,21 @@
       ]
     },
     {
+      "file": "physiology-of-testicular-function.json",
+      "name": "Physiology of Testicular Function",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.20.26-PHYS_Physiology-of-Testicular-Function_Haines_Notes-777677a70c.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.20.26-PHYS_Physiology-of-Testicular-Function_Haines_Slides-9a4f670a0c.pdf"
+        }
+      ]
+    },
+    {
       "file": "pituitary-abnormalities.json",
       "name": "Pituitary Abnormalities",
       "count": 20,
@@ -247,6 +292,21 @@
       ]
     },
     {
+      "file": "steroidogenesis.json",
+      "name": "Steroidogenesis",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.20.26-BCM_Steroidogenesis_Root_Notes-4246c4afbb.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.20.26-BCM_Steroidogenesis_Root_Slides-6b68966c3a.pdf"
+        }
+      ]
+    },
+    {
       "file": "tbl-adrenal-pathology.json",
       "name": "TBL - Adrenal Pathology",
       "count": 20,
@@ -256,7 +316,7 @@
           "file": "10.14.26-PATH_TBL---Adrenal-Pathology_Macnow_Notes_Learning-Objectives-49c8a03ca5.pdf"
         },
         {
-          "label": "handout",
+          "label": "answers",
           "file": "10.14.26-PATH_TBL---Adrenal-Pathology_Macnow_Answer-Key-8d180881e5.pdf"
         }
       ]
