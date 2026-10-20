@@ -109,10 +109,7 @@
     }
 
     /* ── The desk ──
-       One column on a narrow screen: what people sent you, the lectures, the
-       ids box, the chat. With room, and an account to fill them, the sides
-       are used: ids, inbox and sent down the left, chat down the right, both
-       staying put while the lectures scroll between them. */
+       One column: the lectures, what is due, and the ids box at the bottom. */
     .desk {
       display: flex;
       flex-direction: column;
@@ -120,12 +117,7 @@
       width: 100%;
       max-width: 720px;
     }
-    .rail { display: contents; }
-    .desk > .blocks { order: 2; }
-    .ids-row { order: 3; }
-    .review { order: 3; }
-    .chat-card { order: 4; max-height: 30rem; }
-    .chat-card[hidden], .review[hidden] { display: none; }
+    .review[hidden] { display: none; }
 
     /* A card with a hide button shuts down to its title. */
     .card-head { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
@@ -149,32 +141,45 @@
     .side-link > span:first-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .side-link > span:last-child { flex-shrink: 0; font-size: 0.72rem; opacity: 0.65; }
 
-    @media (min-width: 1180px) {
-      body.acct .content { padding-top: 1.25rem; }
-      body.acct .desk {
-        display: grid;
-        grid-template-columns: minmax(250px, 330px) minmax(0, 720px) minmax(280px, 380px);
-        justify-content: center;
-        align-items: start;
-        gap: 1rem;
-        max-width: none;
-      }
-      body.acct .rail {
-        display: flex;
-        flex-direction: column;
-        gap: 0.65rem;
-        position: sticky;
-        top: 4.25rem;
-        max-height: calc(100vh - 5.5rem);
-        min-width: 0;
-      }
-      body.acct .rail-left { overflow-y: auto; scrollbar-width: thin; }
-      body.acct .desk > .blocks, body.acct .ids-row, body.acct .review, body.acct .chat-card { order: 0; }
-      body.acct .rail .side-card { flex-shrink: 0; }
-      body.acct .chat-card { max-height: calc(100vh - 5.5rem); }
+    /* ── Chat ──
+       A button in the top bar, with how many people have said something you
+       haven't read, that opens the chat under it. */
+    .chat-btn { background: transparent; }
+    .chat-btn:active, .chat-btn.on { background: rgba(92,79,122,0.14); }
+    .history-link[hidden], .badge[hidden] { display: none; }
+    .badge {
+      min-width: 16px;
+      height: 16px;
+      padding: 0 4px;
+      border-radius: 8px;
+      background: #c98a00;
+      color: #fff;
+      font-size: 0.62rem;
+      line-height: 16px;
+      text-align: center;
+    }
+    .chat-pop {
+      position: fixed;
+      top: calc(var(--bar, 3.1rem) + 0.5rem);
+      right: 1rem;
+      z-index: 30;
+      width: min(380px, calc(100vw - 2rem));
+      height: min(34rem, calc(100vh - var(--bar, 3.1rem) - 1.5rem));
+      background: #f0ecf8;
+      box-shadow: 0 10px 34px rgba(92,79,122,0.22);
+    }
+    .chat-pop:hover { box-shadow: 0 10px 34px rgba(92,79,122,0.22); }
+    .chat-pop[hidden] { display: none; }
+
+    /* On a phone the buttons get a row of their own under the title. */
+    @media (max-width: 560px) {
+      .topbar { flex-wrap: wrap; row-gap: 0.55rem; padding: 0.6rem 1rem; }
+      .topbar-right { width: 100%; gap: 0.5rem; }
+      .who, .bar-rule { display: none; }
+      .lock-btn { margin-left: auto; white-space: nowrap; }
     }
 
-    /* A side card looks the same but is not a block: the inbox, the ids box. */
+    /* A side card looks the same but is not a block: review, the ids box, the chat. */
     .block-card, .side-card {
       border: 1px solid #c5bee0;
       border-radius: 10px;
@@ -283,38 +288,10 @@
 
     /* ── Due for review ──
        Beside history, and only there on a day something is due. */
-    .history-link[hidden] { display: none; }
     .history-link { gap: 0.4em; }
 
-    /* ── Inbox ──
-       Questions other people sent you. Only there when there are some. */
-    .inbox[hidden] { display: none; }
-    .inbox .lecture-list { margin-top: 0.4rem; }
-    .inbox-row { display: flex; align-items: center; gap: 0.4rem; }
-    .inbox-row .lecture-link { flex: 1 1 auto; min-width: 0; }
-    /* Under each person, the lectures their questions are from, with a chip
-       per question: its number in the lecture. The ones done since are struck
-       out, and a person with all of theirs done is read. */
-    .inbox-qs { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem; margin-top: 0.3rem; padding: 0 0.5rem; }
-    .inbox-lec { margin-right: 0.3rem; font-size: 0.76rem; color: #5c4f7a; }
-    .inbox-lec:hover { text-decoration: underline; }
-    .inbox-week { margin-right: 0.5rem; font-size: 0.72rem; color: #9a9a9a; }
-    .inbox-q {
-      padding: 0.05rem 0.4rem;
-      border: 1px solid #c5bee0;
-      border-radius: 4px;
-      font-size: 0.68rem;
-      color: #5c4f7a;
-      text-decoration: none;
-    }
-    .inbox-q:hover { background: rgba(92,79,122,0.14); }
-    .inbox-q.done { border-color: #dcdcdc; color: #9a9a9a; text-decoration: line-through; }
-    .inbox-q.right { background: #edf7f1; border-color: #2e7d4f; color: #2e7d4f; }
-    .inbox-q.wrong { background: #fdf0f0; border-color: #b03030; color: #b03030; }
-    .inbox-item.read .lecture-link { background: transparent; color: #9a9a9a; }
-
     /* ── Questions by id ── */
-    .ids-row { flex-direction: row; align-items: center; gap: 0.4rem; }
+    .ids-row { flex-direction: row; align-items: center; gap: 0.4rem; margin-top: 0.6rem; }
     .ids-row input {
       flex: 1 1 auto;
       min-width: 0;
@@ -515,6 +492,8 @@
     <div class="topbar-right">
       <a class="history-link" id="dueRow" title="Due for review" hidden><span>due</span><span id="dueCount"></span></a>
       <a class="history-link" href="history.html">history</a>
+      <a class="history-link" id="inboxLink" href="inbox.html" hidden>inbox</a>
+      <button type="button" class="history-link chat-btn" id="chatBtn" aria-expanded="false" hidden>chat<span class="badge" id="chatBadge" hidden></span></button>
       <span class="bar-rule"></span>
       <span class="who" id="who"></span>
       <button class="btn-outline lock-btn" id="lockBtn" onclick="GATE.forget()" title="Forget this browser — ask for the password again">lock</button>
@@ -523,13 +502,7 @@
 
   <div class="content">
     <div class="desk">
-    <aside class="rail rail-left">
-      <form class="side-card ids-row" id="idsRow" onsubmit="goIds(event)">
-        <input id="idsInput" type="text" placeholder="question ids" aria-label="question ids"
-               autocomplete="off" autocapitalize="none" spellcheck="false">
-        <button type="submit" id="idsGo" disabled>start</button>
-        <button type="button" class="btn-outline" id="idsSend" onclick="SHARE.pick(this, typedIds())" disabled hidden>send</button>
-      </form>
+      <div class="blocks" id="blocks"></div>
       <div class="side-card review" id="review" hidden>
         <div class="card-head">
           <div class="block-name">review</div>
@@ -537,30 +510,16 @@
         </div>
         <div class="lecture-list" id="reviewList"></div>
       </div>
-      <div class="side-card inbox" id="inbox" hidden>
-        <div class="card-head">
-          <div class="block-left">
-            <div class="block-name">inbox</div>
-            <div class="block-count" id="inboxCount"></div>
-          </div>
-          <button class="week-shuffle" type="button" data-fold>hide</button>
-        </div>
-        <div class="lecture-list" id="inboxList"></div>
-      </div>
-      <div class="side-card inbox" id="sent" hidden>
-        <div class="card-head">
-          <div class="block-name">sent</div>
-          <button class="week-shuffle" type="button" data-fold>hide</button>
-        </div>
-        <div class="lecture-list" id="sentList"></div>
-      </div>
-    </aside>
-    <div class="blocks" id="blocks"></div>
-    <aside class="rail rail-right">
-      <div class="side-card chat-card" id="chat" hidden></div>
-    </aside>
+      <form class="side-card ids-row" id="idsRow" onsubmit="goIds(event)">
+        <input id="idsInput" type="text" placeholder="question ids" aria-label="question ids"
+               autocomplete="off" autocapitalize="none" spellcheck="false">
+        <button type="submit" id="idsGo" disabled>start</button>
+        <button type="button" class="btn-outline" id="idsSend" onclick="SHARE.pick(this, typedIds())" disabled hidden>send</button>
+      </form>
     </div>
   </div>
+
+  <div class="side-card chat-pop" id="chat" hidden></div>
 
   <div class="pickbar" id="pickbar">
     <span class="pick-count" id="pickCount"></span>
@@ -712,7 +671,7 @@
         try { localStorage.setItem(key, shut ? '1' : '0'); } catch (e) {}
       });
     }
-    ['review', 'inbox', 'sent'].forEach(id => foldable(document.getElementById(id)));
+    foldable(document.getElementById('review'));
 
     // A set's lectures as the quiz page reads them: block/file-name, no .json.
     const setOf = links => links
@@ -822,154 +781,32 @@
       if (ids.length) location.href = `quiz.html?q=${ids.join(',')}`;
     }
 
-    // ── Inbox ──
-    let mail = null;      // what is in the inbox, once asked for
-    let sent = null;      // what you sent
-    let receipts = null;  // and what became of it
-    let located = null;   // short id -> where it is from, and where its history is filed
-    let loading = null;   // both of those being fetched, the once
+    // ── Chat ──
+    // Open under its button; shut by the button again, Escape, or a click
+    // anywhere else. Shutting it goes back to everyone, so nothing that
+    // arrives while it is shut counts as read.
+    let chat = null;
+    const chatPop = document.getElementById('chat'), chatBtn = document.getElementById('chatBtn');
 
-    // Find the questions the inbox names: qids.json says which lecture each
-    // is in, the lecture gives its name and the long id attempts are filed
-    // under, and the block's weeks say where the lecture falls.
-    async function locate(ids) {
-      const found = {};
-      try {
-        const where = await (await fetch(`qids.json?t=${Date.now()}`)).json();
-        const files = Object.keys(where).filter(f => where[f].some(id => ids.includes(id)));
-        const weeks = {};
-        await Promise.all([...new Set(files.map(f => f.split('/')[0]))].map(async b => {
-          weeks[b] = await loadWeeks({ id: b });
-        }));
-        await Promise.all(files.map(async f => {
-          const cut = f.indexOf('/'), block = f.slice(0, cut), file = f.slice(cut + 1);
-          const data = await (await fetch(f)).json();
-          const qs = data.questions.filter(q => q.id);
-          const w = weeks[block].findIndex(x => (x.lectures || []).includes(file));
-          const lec = {
-            key: f, name: data.lecture || file, week: w < 0 ? '' : weeks[block][w].name,
-            // Blocks, then weeks, then lectures, as the page lists them.
-            order: [block, w < 0 ? 1e6 : w, w < 0 ? 0 : weeks[block][w].lectures.indexOf(file), file]
-          };
-          where[f].forEach((id, i) => {
-            if (qs[i]) found[id] = { doc: STORE.docId(block, file), id: qs[i].id, n: i + 1, lec };
-          });
-        }));
-      } catch (e) {}
-      return found;
+    function showChat(on) {
+      chatPop.style.setProperty('--bar', `${document.querySelector('.topbar').getBoundingClientRect().bottom}px`);
+      chatPop.hidden = !on;
+      chatBtn.classList.toggle('on', on);
+      chatBtn.setAttribute('aria-expanded', on ? 'true' : 'false');
+      if (!on && chat) chat.back();
     }
-
-    const byOrder = (a, b) => {
-      for (let i = 0; i < a.order.length; i++) {
-        if (a.order[i] !== b.order[i]) return a.order[i] < b.order[i] ? -1 : 1;
-      }
-      return 0;
-    };
-
-    const idsOf = m => m.qids.map(q => String(q).toLowerCase().replace(/[^a-z0-9]/g, '')).filter(Boolean);
-
-    // Done means answered since it was sent, not at some time before.
-    const doneSince = (id, t) => !!located[id] &&
-      STORE.attempts(located[id].doc, located[id].id).some(a => a.t >= (t || 0));
-
-    async function paintInbox() {
-      await (loading || (loading = (async () => {
-        [mail, sent, receipts] = await Promise.all([STORE.inbox(15000), STORE.sent(15000), STORE.receipts(15000)]);
-        located = await locate([...mail.flatMap(idsOf), ...sent.flatMap(idsOf), ...receipts.map(r => r.qid)]);
-      })()));
-      paintMail();
-      paintSent();
-    }
-
-    // A person's questions, a line per lecture in the page's order, each a
-    // chip made by `chip(id, itsNumberInTheLecture)`. Ones no longer on the
-    // site go last, under their ids.
-    function lectureLines(ids, chip) {
-      const lecs = [...new Set(ids.map(id => located[id] && located[id].lec).filter(Boolean))].sort(byOrder);
-      const lost = ids.filter(id => !located[id]);
-      return lecs.map(lec => {
-        const mine = ids.filter(id => located[id] && located[id].lec === lec).sort((a, b) => located[a].n - located[b].n);
-        return `<div class="inbox-qs"><a class="inbox-lec" href="quiz.html?q=${mine.join(',')}">` +
-          `${lec.week ? `<span class="inbox-week">${esc(lec.week)}</span>` : ''}${esc(lec.name)}</a>` +
-          `${mine.map(id => chip(id, located[id].n)).join('')}</div>`;
-      }).join('') + (lost.length ? `<div class="inbox-qs">${lost.map(id => chip(id, id)).join('')}</div>` : '');
-    }
-
-    const dayOf = t => t ? new Date(t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : '';
-
-    function personRow(name, ids, stat, t, drop) {
-      return `<div class="inbox-row">` +
-        `<a class="lecture-link" href="quiz.html?q=${ids.join(',')}">` +
-          `<span class="lecture-name">${esc(String(name || 'someone').toLowerCase())}</span>` +
-          `<span class="lecture-stat">${stat}<span>${esc(dayOf(t))}</span></span></a>` +
-        (drop ? `<button class="week-shuffle" type="button" data-drop="${esc(drop.join(' '))}">clear</button>` : '') + `</div>`;
-    }
-
-    function paintMail() {
-      // One row per person, however many times they sent: every question of
-      // theirs once, dated by the last time it was sent.
-      const from = {};
-      mail.forEach(m => {
-        const g = from[m.from || m.name] || (from[m.from || m.name] = { name: m.name, t: 0, at: {}, drop: [] });
-        g.drop.push(m.id);
-        if ((m.t || 0) >= g.t) { g.t = m.t || 0; g.name = m.name; }
-        idsOf(m).forEach(id => { g.at[id] = Math.max(g.at[id] || 0, m.t || 0); });
-      });
-      let left = 0;
-      document.getElementById('inboxList').innerHTML = Object.values(from).sort((a, b) => b.t - a.t).map(g => {
-        const ids = Object.keys(g.at);
-        const done = ids.filter(id => doneSince(id, g.at[id]));
-        left += ids.length - done.length;
-        return `<div class="inbox-item${done.length === ids.length ? ' read' : ''}">` +
-          personRow(g.name, ids, `<span>${done.length}/${ids.length} done</span>`, g.t, g.drop) +
-          lectureLines(ids, (id, label) =>
-            `<a class="inbox-q${done.includes(id) ? ' done' : ''}" href="quiz.html?q=${id}">${label}</a>`) + `</div>`;
-      }).join('');
-      document.getElementById('inboxCount').textContent = `${left} q`;
-      document.getElementById('inbox').hidden = !mail.length;
-    }
-
-    // What you sent, a row per person: each question as sent, then opened,
-    // then how the first answer went. Sending one again starts it over.
-    function paintSent() {
-      const to = {};
-      const row = (uid, name) => to[uid] || (to[uid] = { name, t: 0, at: {}, of: {} });
-      sent.forEach(m => {
-        const g = row(m.to, m.name);
-        g.t = Math.max(g.t, m.t || 0);
-        idsOf(m).forEach(id => { g.at[id] = Math.max(g.at[id] || 0, m.t || 0); });
-      });
-      receipts.forEach(r => {
-        const g = row(r.from, r.name);
-        g.of[r.qid] = r;
-        g.at[r.qid] = g.at[r.qid] || 0;
-        g.t = Math.max(g.t, r.opened || 0, r.done || 0);
-        if (r.name) g.name = r.name;
-      });
-      document.getElementById('sentList').innerHTML = Object.values(to).sort((a, b) => b.t - a.t).map(g => {
-        const state = id => {
-          const r = g.of[id] || {};
-          if ((r.done || 0) >= g.at[id] && r.done) return r.ok ? 'right' : 'wrong';
-          return (r.opened || 0) >= g.at[id] && r.opened ? 'opened' : 'sent';
-        };
-        return `<div class="inbox-item">` + personRow(g.name, Object.keys(g.at), '', g.t) +
-          lectureLines(Object.keys(g.at), (id, label) =>
-            `<a class="inbox-q ${state(id)}" href="quiz.html?q=${id}">${label} ${state(id)}</a>`) + `</div>`;
-      }).join('');
-      document.getElementById('sent').hidden = !sent.length && !receipts.length;
-    }
-
-    document.getElementById('inboxList').addEventListener('click', async e => {
-      const b = e.target.closest('[data-drop]');
-      if (!b) return;
-      const gone = b.dataset.drop.split(' ');
-      await Promise.all(gone.map(id => STORE.dropInbox(id)));
-      mail = mail.filter(m => !gone.includes(m.id));
-      paintMail();
+    chatBtn.addEventListener('click', () => showChat(chatPop.hidden));
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !chatPop.hidden) showChat(false); });
+    document.addEventListener('click', e => {
+      if (!chatPop.hidden && e.target.isConnected && !chatPop.contains(e.target) && !chatBtn.contains(e.target)) showChat(false);
     });
 
-    // Sent from this page: show it without a reload.
-    document.addEventListener('jeff-sent', () => { loading = null; paintInbox(); });
+    function paintUnread(n) {
+      const badge = document.getElementById('chatBadge');
+      badge.hidden = !n;
+      badge.textContent = n;
+      chatBtn.title = n ? `${n} unread` : '';
+    }
 
     function weekGroup(block, g) {
       const qs = g.items.reduce((s, l) => s + (l.count || 0), 0);
@@ -1035,14 +872,12 @@
         btn.title = `Sign out ${user.email}`;
       }
       if (user) {
-        paintInbox();
         SHARE.able().then(ok => {
           document.getElementById('idsSend').hidden = !ok;
           if (!ok) return;
-          document.body.classList.add('acct');
-          document.getElementById('chat').hidden = false;
-          CHAT.mount(document.getElementById('chat'), { fold: true });
-          foldable(document.getElementById('chat'));
+          document.getElementById('inboxLink').hidden = false;
+          chatBtn.hidden = false;
+          chat = CHAT.mount(chatPop, { onUnread: paintUnread });
         });
       }
       await init();
@@ -1050,7 +885,7 @@
       // What this device has shows at once; the account's copy fills in after.
       // The tests list comes too: a test deleted elsewhere takes its answers.
       const got = await Promise.all([STORE.pull(null, 15000), STORE.pullTests(15000)]);
-      if (got.some(Boolean)) { paintStats(); if (user) paintInbox(); }
+      if (got.some(Boolean)) paintStats();
     });
   </script>
 </body>
