@@ -492,7 +492,7 @@
     <div class="topbar-right">
       <a class="history-link" id="dueRow" title="Due for review" hidden><span>due</span><span id="dueCount"></span></a>
       <a class="history-link" href="history.html">history</a>
-      <a class="history-link" id="inboxLink" href="inbox.html" hidden>inbox</a>
+      <a class="history-link" id="inboxLink" href="inbox.html" hidden>inbox<span class="badge" id="inboxBadge" hidden></span></a>
       <button type="button" class="history-link chat-btn" id="chatBtn" aria-expanded="false" hidden>chat<span class="badge" id="chatBadge" hidden></span></button>
       <span class="bar-rule"></span>
       <span class="who" id="who"></span>
@@ -801,6 +801,44 @@
       if (!chatPop.hidden && e.target.isConnected && !chatPop.contains(e.target) && !chatBtn.contains(e.target)) showChat(false);
     });
 
+    // ── Inbox ──
+    // How many of the questions people sent you are still to do: not
+    // answered since they were last sent, as the inbox page counts them.
+    let mail = null, located = null;
+
+    async function loadMail() {
+      mail = await STORE.inbox(15000);
+      const ids = [...new Set(mail.flatMap(m => m.qids.map(q => String(q).toLowerCase().replace(/[^a-z0-9]/g, '')).filter(Boolean)))];
+      located = {};
+      if (!ids.length) return;
+      try {
+        const where = await (await fetch(`qids.json?t=${Date.now()}`)).json();
+        await Promise.all(Object.keys(where).filter(f => where[f].some(id => ids.includes(id))).map(async f => {
+          const cut = f.indexOf('/'), qs = (await (await fetch(f)).json()).questions.filter(q => q.id);
+          where[f].forEach((id, i) => {
+            if (qs[i]) located[id] = { doc: STORE.docId(f.slice(0, cut), f.slice(cut + 1)), id: qs[i].id };
+          });
+        }));
+      } catch (e) {}
+    }
+
+    function paintMail() {
+      if (!mail) return;
+      const at = {};   // whoever sent it and the question -> when it was last sent
+      mail.forEach(m => m.qids.forEach(q => {
+        const k = `${m.from || m.name} ${String(q).toLowerCase().replace(/[^a-z0-9]/g, '')}`;
+        at[k] = Math.max(at[k] || 0, m.t || 0);
+      }));
+      const left = Object.keys(at).filter(k => {
+        const l = located[k.slice(k.lastIndexOf(' ') + 1)];
+        return !l || !STORE.attempts(l.doc, l.id).some(a => a.t >= at[k]);
+      }).length;
+      const badge = document.getElementById('inboxBadge');
+      badge.hidden = !left;
+      badge.textContent = left;
+      document.getElementById('inboxLink').title = left ? `${left} to do` : '';
+    }
+
     function paintUnread(n) {
       const badge = document.getElementById('chatBadge');
       badge.hidden = !n;
@@ -876,6 +914,7 @@
           document.getElementById('idsSend').hidden = !ok;
           if (!ok) return;
           document.getElementById('inboxLink').hidden = false;
+          loadMail().then(paintMail);
           chatBtn.hidden = false;
           chat = CHAT.mount(chatPop, { onUnread: paintUnread });
         });
@@ -885,7 +924,7 @@
       // What this device has shows at once; the account's copy fills in after.
       // The tests list comes too: a test deleted elsewhere takes its answers.
       const got = await Promise.all([STORE.pull(null, 15000), STORE.pullTests(15000)]);
-      if (got.some(Boolean)) paintStats();
+      if (got.some(Boolean)) { paintStats(); paintMail(); }
     });
   </script>
 </body>
