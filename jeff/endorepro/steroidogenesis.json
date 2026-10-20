@@ -1,0 +1,471 @@
+{
+  "lecture": "Steroidogenesis",
+  "block": "endorepro",
+  "generated": "2026-10-20",
+  "questions": [
+    {
+      "id": "endorepro-steroidogenesis-001",
+      "question": "A 10-day-old infant is brought to the emergency department with 3 days of poor feeding and lethargy. Heart rate is 65/min and the infant appears dehydrated. ECG shows broad-complex bradycardia. The external genitalia are ambiguous with fused labioscrotal folds, and ultrasonography shows a uterus and ovaries. Laboratory studies are shown. Which of the following enzymes is most likely deficient?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "121 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "7.4 mEq/L",
+          "3.5–5.5 mEq/L"
+        ],
+        [
+          "Glucose",
+          "48 mg/dL",
+          "70–110 mg/dL"
+        ],
+        [
+          "17-hydroxyprogesterone",
+          "Markedly elevated",
+          "—"
+        ]
+      ],
+      "answers": {
+        "A": "11β-hydroxylase",
+        "B": "21-hydroxylase",
+        "C": "5α-reductase",
+        "D": "Aromatase",
+        "E": "Cholesterol side-chain cleavage enzyme"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "11β-hydroxylase deficiency also raises 17-OHP and virilizes XX infants, but accumulated DOC causes hypernatremia, hypokalemia and hypertension rather than salt wasting.",
+        "B": "Loss of 21-hydroxylase blocks aldosterone and cortisol synthesis (salt wasting, hyperkalemia, hypoglycemia), while accumulated 17-OHP and high ACTH drive adrenal androgens that virilize an XX fetus.",
+        "C": "5α-reductase deficiency impairs DHT formation in XY individuals and does not affect adrenal mineralocorticoid or glucocorticoid synthesis.",
+        "D": "Aromatase deficiency can virilize XX infants through androgen accumulation but does not impair aldosterone or cortisol, so it would not cause salt wasting.",
+        "E": "Loss of side-chain cleavage blocks all steroid synthesis, so 17-OHP would be low and an XX infant would not be virilized."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-002",
+      "question": "A 40-year-old patient with phenotypically female external genitalia is evaluated for absent breast development and absent axillary and pubic hair. Height is 175 cm and BMI is 20.9. Blood pressure is persistently about 170/110 mm Hg. Karyotype is 46,XY. Laboratory studies are shown. Accumulation of which of the following steroids best explains this patient's hypertension?",
+      "table": [
+        [
+          "Test",
+          "Result"
+        ],
+        [
+          "Plasma renin activity",
+          "Undetectable"
+        ],
+        [
+          "Aldosterone",
+          "Low-normal"
+        ],
+        [
+          "ACTH",
+          "High"
+        ],
+        [
+          "Progesterone",
+          "High"
+        ],
+        [
+          "17-hydroxyprogesterone",
+          "Undetectable"
+        ],
+        [
+          "Testosterone, DHEAS",
+          "Undetectable"
+        ]
+      ],
+      "answers": {
+        "A": "11-Deoxycortisol",
+        "B": "17-Hydroxypregnenolone",
+        "C": "Androstenedione",
+        "D": "Cortisone",
+        "E": "Deoxycorticosterone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "11-Deoxycortisol has mineralocorticoid activity but requires 17α-hydroxylase to form; it accumulates in 11β-hydroxylase deficiency, not here.",
+        "B": "17-Hydroxypregnenolone cannot be made without 17α-hydroxylase and has no mineralocorticoid activity.",
+        "C": "Androstenedione requires 17α-hydroxylase and is undetectable in this patient; it would virilize rather than raise blood pressure.",
+        "D": "Cortisone is the inactive product of 11βHSD2 acting on cortisol and does not bind the mineralocorticoid receptor.",
+        "E": "In 17α-hydroxylase deficiency, all pregnenolone flows down the mineralocorticoid branch, and high ACTH drives excess DOC, whose mineralocorticoid activity causes hypertension and suppresses renin."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-003",
+      "question": "A 2-year-old girl is evaluated for clitoromegaly noted since birth. Blood pressure is 128/84 mm Hg, well above the 95th percentile for age. Newborn screening reported an elevated 17-hydroxyprogesterone. Serum sodium is 147 mEq/L and potassium is 3.1 mEq/L. Which of the following sets of findings is most likely?",
+      "answers": {
+        "A": "Aldosterone high, renin high, 11-deoxycortisol low",
+        "B": "Aldosterone high, renin low, 11-deoxycortisol low",
+        "C": "Aldosterone low, renin high, 11-deoxycortisol low",
+        "D": "Aldosterone low, renin low, 11-deoxycortisol high",
+        "E": "Aldosterone normal, renin high, 11-deoxycortisol high"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "High aldosterone with high renin suggests secondary hyperaldosteronism (e.g., renovascular disease), not a steroidogenic enzyme defect.",
+        "B": "High aldosterone with low renin suggests primary hyperaldosteronism, which would not raise 17-OHP or virilize.",
+        "C": "Low aldosterone with high renin and salt wasting fits 21-hydroxylase deficiency, which causes hypotension and hyponatremia, not hypertension.",
+        "D": "In 11β-hydroxylase deficiency, 11-deoxycortisol and DOC accumulate; their mineralocorticoid activity raises blood pressure and suppresses renin, so aldosterone is low even though aldosterone synthase is intact.",
+        "E": "Mineralocorticoid excess from DOC and 11-deoxycortisol suppresses renin, so renin would not be high."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-004",
+      "question": "A researcher studies cells isolated from the three zones of the human adrenal cortex. Cells from one zone produce mainly DHEA and DHEAS, but when transfected to remove one protein they instead accumulate 17-hydroxypregnenolone without producing DHEA. 17α-hydroxylase activity is preserved. Which of the following proteins was most likely removed?",
+      "answers": {
+        "A": "11β-hydroxylase",
+        "B": "21-hydroxylase",
+        "C": "3β-hydroxysteroid dehydrogenase",
+        "D": "Cytochrome b5",
+        "E": "Steroidogenic acute regulatory protein"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "11β-hydroxylase acts in the zona fasciculata on DOC and 11-deoxycortisol and is not needed for DHEA synthesis.",
+        "B": "21-hydroxylase acts on progesterone and 17-OHP toward aldosterone and cortisol and is not expressed in the zona reticularis.",
+        "C": "Loss of 3βHSD would block conversion of DHEA to androstenedione but would not prevent DHEA formation.",
+        "D": "Cytochrome b5, expressed in the zona reticularis, is the cofactor that lets 17α-hydroxylase cleave C20–21 and convert 17-hydroxypregnenolone into DHEA.",
+        "E": "Loss of StAR would block cholesterol delivery to mitochondria, so 17-hydroxypregnenolone would not accumulate."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-005",
+      "question": "A 28-year-old man undergoes a laboratory study in which intravenous angiotensin II is infused. Within 10 minutes, plasma aldosterone rises sharply, while plasma cortisol is unchanged. The rapid aldosterone rise occurs before any change in steroidogenic enzyme expression. Which of the following intracellular events most directly accounts for the early rise in aldosterone?",
+      "answers": {
+        "A": "Gs-mediated activation of adenylyl cyclase in zona fasciculata cells",
+        "B": "Increased transcription of aldosterone synthase via MAPK signaling",
+        "C": "Proliferation of zona glomerulosa cells via MAPK signaling",
+        "D": "Protein kinase A phosphorylation of 11β-hydroxylase in the zona glomerulosa",
+        "E": "Protein kinase C phosphorylation of StAR in zona glomerulosa cells"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Gs/adenylyl cyclase signaling in the zona fasciculata is the ACTH pathway, and cortisol did not change.",
+        "B": "Increased enzyme expression is an intermediate-term (hours to days) effect, not a 10-minute response.",
+        "C": "Increased zona glomerulosa cell mass is a long-term (weeks) effect of chronic stimulation.",
+        "D": "The zona glomerulosa does not express 11β-hydroxylase, and AGTR1 signals through PKC rather than PKA.",
+        "E": "AGTR1 is Gq-coupled; PLC raises Ca2+ and activates PKC, which phosphorylates StAR to speed cholesterol delivery to the inner mitochondrial membrane within minutes."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-006",
+      "question": "A 6-year-old boy with salt-wasting congenital adrenal hyperplasia has been poorly adherent to hydrocortisone for several months. He now has accelerated growth, early pubic hair and an adrenal CT showing bilateral gland enlargement. Which of the following best explains the bilateral adrenal enlargement?",
+      "answers": {
+        "A": "Accumulation of stored steroid hormone in cortical lipid droplets",
+        "B": "Chronic ACTH and angiotensin II receptor stimulation activating MAPK",
+        "C": "Direct mitogenic effect of 17-hydroxyprogesterone on cortical cells",
+        "D": "Loss of negative feedback by DHEA on CRH secretion",
+        "E": "Mineralocorticoid receptor activation by deoxycorticosterone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Steroids are membrane permeable and cannot be stored; enlargement reflects increased cell mass.",
+        "B": "Without cortisol and aldosterone feedback, chronically high ACTH and angiotensin II stimulate their GPCRs long term, activating proliferative pathways such as MAPK and causing hyperplasia.",
+        "C": "17-OHP is a precursor that feeds androgen synthesis; the lecture attributes hyperplasia to receptor signaling, not direct mitogenicity of intermediates.",
+        "D": "DHEA exerts no feedback on CRH or ACTH under normal conditions, so its loss cannot explain enlargement.",
+        "E": "21-hydroxylase deficiency does not generate DOC excess; DOC excess occurs in 11β- and 17α-hydroxylase deficiency."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-007",
+      "question": "A 9-year-old boy is evaluated for severe hypertension (165/105 mm Hg) and muscle weakness. Serum potassium is 2.6 mEq/L. Plasma renin and aldosterone are both very low. Serum cortisol and ACTH are normal and urine shows a markedly elevated cortisol-to-cortisone ratio. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "ACE inhibitor",
+        "B": "Aldosterone receptor antagonist",
+        "C": "Fludrocortisone",
+        "D": "Hydrocortisone",
+        "E": "Loop diuretic"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Renin and angiotensin II are already suppressed, so ACE inhibition would not address the cause.",
+        "B": "Loss of 11βHSD2 (apparent mineralocorticoid excess) lets cortisol activate renal mineralocorticoid receptors; blocking the receptor plus a low-salt diet is the treatment.",
+        "C": "Fludrocortisone is a mineralocorticoid agonist and would worsen hypertension and hypokalemia.",
+        "D": "Hydrocortisone is used for cortisol-deficient CAH; cortisol is normal here and is the very hormone over-activating the MR.",
+        "E": "A loop diuretic would worsen hypokalemia and does not target the mineralocorticoid receptor."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-008",
+      "question": "A newborn girl has a normal-appearing female external genitalia. Newborn screening shows a low 17-hydroxyprogesterone. At age 15 she has primary amenorrhea, no breast development and sparse pubic hair. Blood pressure is 150/95 mm Hg and serum potassium is 3.0 mEq/L. Karyotype is 46,XX. Which of the following best explains why she was not detected on newborn screening?",
+      "answers": {
+        "A": "Maternal aldosterone masked the defect until puberty",
+        "B": "Placental aromatase lowered fetal 17-hydroxyprogesterone",
+        "C": "The defect blocks 17-hydroxyprogesterone synthesis upstream",
+        "D": "The newborn screen measures DHEAS, which was normal",
+        "E": "Transplacental maternal cortisol suppressed fetal ACTH"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Maternal aldosterone protects against salt wasting in utero, but this patient has mineralocorticoid excess and the screen measures 17-OHP.",
+        "B": "Placental aromatase protects the mother from fetal androgens and does not alter 17-OHP measurements.",
+        "C": "17α-hydroxylase deficiency prevents formation of 17-OHP, so the CAH screen (which detects elevated 17-OHP) is low or normal and the disorder is missed.",
+        "D": "US newborn screening for CAH measures 17-OHP by ELISA, not DHEAS.",
+        "E": "Placental 11βHSD inactivates maternal cortisol, so it cannot suppress fetal ACTH."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-009",
+      "question": "A 24-year-old woman has irregular menses, acne and mild hirsutism since adolescence. Newborn screening history is unknown. Basal 17-hydroxyprogesterone is borderline. An ACTH stimulation test is performed with results shown. Which of the following enzymes is most likely partially deficient?",
+      "table": [
+        [
+          "Analyte",
+          "Baseline",
+          "60 min after IV ACTH"
+        ],
+        [
+          "17-hydroxyprogesterone",
+          "Borderline",
+          "Markedly increased"
+        ],
+        [
+          "Cortisol",
+          "Low-normal",
+          "Fails to rise appropriately"
+        ],
+        [
+          "DHEA",
+          "Mildly high",
+          "Markedly increased"
+        ],
+        [
+          "Blood pressure",
+          "112/70 mm Hg",
+          "—"
+        ]
+      ],
+      "answers": {
+        "A": "17α-hydroxylase",
+        "B": "21-hydroxylase",
+        "C": "3β-hydroxysteroid dehydrogenase",
+        "D": "Aromatase",
+        "E": "Sulfotransferase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "17α-hydroxylase deficiency shows no rise in 17-OHP or DHEA after ACTH and causes hypertension.",
+        "B": "Late-onset (cryptic) 21-hydroxylase deficiency shows exaggerated 17-OHP and DHEA rises with a poor cortisol response after ACTH, with normal blood pressure, presenting with hyperandrogenism in adulthood.",
+        "C": "3βHSD loss would block conversion of pregnenolone to progesterone and 17-hydroxypregnenolone to 17-OHP, so 17-OHP would not rise markedly.",
+        "D": "Aromatase deficiency raises androgens by blocking estrogen synthesis but does not affect cortisol or 17-OHP.",
+        "E": "Sulfotransferase converts DHEA to DHEAS and does not affect cortisol or 17-OHP responses to ACTH."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-010",
+      "question": "A 30-year-old woman with a history of breast cancer is treated with a drug that causes a fall in serum estradiol but a rise in serum testosterone. If this drug had been given chronically to a 12-year-old with normal puberty, which of the following would most likely result?",
+      "answers": {
+        "A": "Early epiphyseal closure and short stature",
+        "B": "Failure of adrenarche",
+        "C": "Hyperkalemia from aldosterone deficiency",
+        "D": "Impaired epiphyseal maturation and tall stature",
+        "E": "Suppressed DHEAS from the zona reticularis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Estrogen drives epiphyseal closure, so lowering estrogen delays rather than hastens it.",
+        "B": "Adrenarche reflects zona reticularis DHEA production, which does not depend on aromatase.",
+        "C": "Aromatase does not participate in aldosterone synthesis.",
+        "D": "Aromatase in bone is required for epiphyseal maturation; blocking it (as in aromatase deficiency) prevents plate closure and produces tall stature.",
+        "E": "DHEAS is made by sulfotransferase in the zona reticularis independent of aromatase."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-011",
+      "question": "A 64-year-old man with urinary hesitancy and nocturia has an enlarged, smooth prostate. He is started on finasteride. Six months later his prostate volume has decreased. Which of the following changes in serum hormone levels is most likely?",
+      "answers": {
+        "A": "DHT decreased, testosterone slightly increased",
+        "B": "DHT increased, testosterone decreased",
+        "C": "DHT unchanged, estradiol decreased",
+        "D": "Testosterone decreased, LH decreased",
+        "E": "Testosterone unchanged, androstenedione decreased"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Finasteride inhibits 5α-reductase, blocking conversion of testosterone to the more potent DHT; testosterone accumulates slightly as substrate.",
+        "B": "Inhibiting 5α-reductase lowers rather than raises DHT.",
+        "C": "DHT falls with 5α-reductase inhibition; estradiol is made by aromatase, not 5α-reductase.",
+        "D": "Leydig cell testosterone synthesis is preserved, and LH is not suppressed by finasteride.",
+        "E": "Androstenedione is upstream of testosterone and is not produced by 5α-reductase."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-012",
+      "question": "A 26-year-old woman undergoes ovarian stimulation for IVF. During the follicular phase, her granulosa cells are harvested and cultured with FSH alone; they produce no estradiol. When androstenedione is added to the medium, estradiol production begins. Which of the following best explains why granulosa cells require an external androgen source in the follicular phase?",
+      "answers": {
+        "A": "They lack 17βHSD and cannot convert estrone to estradiol",
+        "B": "They lack aromatase until LH induces it",
+        "C": "They lack FSH receptors until ovulation",
+        "D": "They lack sulfotransferase needed to activate androgens",
+        "E": "They lack the enzymes for de novo synthesis from cholesterol"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Activated granulosa cells express high levels of 17βHSD, converting estrone to estradiol.",
+        "B": "FSH, not LH, induces aromatase in granulosa cells, and estradiol appeared once substrate was supplied.",
+        "C": "FSH receptors are found exclusively on granulosa cells during the follicular phase.",
+        "D": "Sulfotransferase produces DHEAS, which does not activate steroid receptors and is unrelated to estrogen synthesis.",
+        "E": "Follicular-phase granulosa cells are non-steroidogenic; they rely on LH-stimulated theca cells for androstenedione, which they aromatize to estrogens."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-013",
+      "question": "A 32-year-old woman is in the luteal phase of her menstrual cycle. Serum progesterone is markedly higher than during the follicular phase. Which of the following best explains the rise in progesterone production by the corpus luteum?",
+      "answers": {
+        "A": "FSH-induced aromatase activity in theca-lutein cells",
+        "B": "Inhibin-mediated stimulation of 3βHSD in theca cells",
+        "C": "LH and FSH induction of StAR and 3βHSD in granulosa-lutein cells",
+        "D": "LH stimulation of 17α-hydroxylase in granulosa-lutein cells",
+        "E": "Loss of cytochrome b5 in theca cells shunting to progesterone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Aromatase converts androgens to estrogens and is located in granulosa cells, not theca-lutein cells.",
+        "B": "Inhibin feeds back to suppress pituitary FSH and does not regulate 3βHSD.",
+        "C": "After ovulation, granulosa-lutein cells stimulated by both LH and FSH express StAR and 3βHSD and begin making progesterone from cholesterol.",
+        "D": "17α-hydroxylase would divert progesterone toward androgens rather than increase progesterone output.",
+        "E": "The lecture attributes luteal progesterone to new steroidogenic capacity in granulosa-lutein cells, not altered theca cofactors."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-014",
+      "question": "A 25-year-old man has infertility. Serum testosterone is normal, but sperm count is low. Serum FSH is markedly elevated while LH is normal. Testicular biopsy shows damaged seminiferous tubules. Reduced secretion of which of the following best explains the selective FSH elevation?",
+      "answers": {
+        "A": "Androgen-binding protein from Leydig cells",
+        "B": "Dihydrotestosterone from Sertoli cells",
+        "C": "Estradiol from Leydig cells",
+        "D": "Inhibin B from Sertoli cells",
+        "E": "Testosterone from Sertoli cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Androgen-binding protein is secreted by Sertoli cells, not Leydig cells, and maintains local testosterone rather than regulating FSH.",
+        "B": "DHT is formed peripherally by 5α-reductase and does not selectively regulate FSH.",
+        "C": "Testosterone-derived estradiol mediates feedback on GnRH and LH; LH is normal here.",
+        "D": "FSH acts on Sertoli cells, which secrete inhibin B to selectively suppress pituitary FSH; tubular damage lowers inhibin B and raises FSH with normal LH and testosterone.",
+        "E": "Testosterone is made by Leydig cells under LH, and serum testosterone is normal."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-015",
+      "question": "A pharmacologist compares adrenal responses in a healthy volunteer given a 1-hour infusion of synthetic ACTH. Cortisol and DHEA rise substantially, but aldosterone changes little. Which of the following best explains the minimal aldosterone response?",
+      "answers": {
+        "A": "ACTH receptor is absent from the zona glomerulosa",
+        "B": "Aldosterone is stored in granules released only by angiotensin II",
+        "C": "Cortisol inhibits aldosterone synthase in the zona glomerulosa",
+        "D": "DHEA exerts negative feedback on the zona glomerulosa",
+        "E": "The zona glomerulosa lacks StAR protein"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "ACTHR is expressed in the zona fasciculata and reticularis but not the zona glomerulosa, which is driven by angiotensin II via AGTR1.",
+        "B": "Steroids are membrane permeable and cannot be stored; regulation occurs at synthesis.",
+        "C": "Cortisol does not inhibit aldosterone synthase; it feeds back on CRH and ACTH.",
+        "D": "DHEA exerts no feedback control, including on the zona glomerulosa.",
+        "E": "StAR is required by all steroidogenic tissue, including the zona glomerulosa."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-016",
+      "question": "A 3-week-old 46,XX infant with virilized genitalia, vomiting and dehydration is diagnosed with salt-wasting 21-hydroxylase deficiency. The parents ask why the baby was well at birth but became ill in the second week. Which of the following best explains the delayed onset of salt wasting?",
+      "answers": {
+        "A": "Fetal adrenal androgens had mineralocorticoid activity",
+        "B": "Fetal zone DOC production stopped at birth",
+        "C": "Maternal aldosterone protected the fetus in utero",
+        "D": "Maternal cortisol crossed the placenta and supported sodium retention",
+        "E": "Placental aromatase protected the fetus from hyperkalemia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Adrenal androgens act on the androgen receptor and have no mineralocorticoid effect.",
+        "B": "21-hydroxylase deficiency prevents DOC formation, so DOC was never protective.",
+        "C": "Maternal aldosterone is sufficient to protect the fetus in utero; salt wasting develops postpartum once that supply is lost.",
+        "D": "Placental 11βHSD inactivates maternal cortisol, so it does not reach the fetus in active form.",
+        "E": "Placental aromatase protects the mother from fetal androgens and has no role in fetal potassium balance."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-017",
+      "question": "A 15-year-old 46,XY patient raised as a girl presents with primary amenorrhea and no breast development. Blood pressure is 160/100 mm Hg. Serum potassium is 2.9 mEq/L. ACTH is elevated, and serum glucose is 78 mg/dL despite very low cortisol. Elevation of which steroid best explains the preserved glucose?",
+      "answers": {
+        "A": "11-Deoxycortisol",
+        "B": "17-Hydroxyprogesterone",
+        "C": "Androstenedione",
+        "D": "Corticosterone",
+        "E": "DHEAS"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "11-Deoxycortisol requires 17α-hydroxylase to form and is low in this disorder.",
+        "B": "17-OHP is low in 17α-hydroxylase deficiency and is not a glucocorticoid.",
+        "C": "Androstenedione cannot be made without 17α-hydroxylase and is an androgen, not a glucocorticoid.",
+        "D": "In 17α-hydroxylase deficiency, high ACTH drives the non-17-hydroxylated branch to corticosterone, a glucocorticoid that partially compensates for absent cortisol, keeping glucose low-normal.",
+        "E": "DHEAS synthesis requires 17α-hydroxylase and is undetectable here."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-018",
+      "question": "A 58-year-old postmenopausal woman has undergone bilateral oophorectomy 5 years ago and takes no hormone therapy. Serum estrone remains detectable. Which of the following is the most important source of her circulating estrogen?",
+      "answers": {
+        "A": "Aromatization of adrenal DHEA/DHEAS in peripheral tissue",
+        "B": "Granulosa-lutein cell aromatase activity",
+        "C": "Hepatic conversion of cortisol to estrone",
+        "D": "Placental-type aromatase in the adrenal medulla",
+        "E": "Zona fasciculata 17βHSD activity on corticosterone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "DHEA/DHEAS from the zona reticularis is the source of most estrogens in post-menopausal women, converted to estrogens in peripheral tissues such as fat.",
+        "B": "Granulosa-lutein cells are ovarian and were removed.",
+        "C": "Cortisol is a 21-carbon glucocorticoid and is not converted to estrogens.",
+        "D": "The adrenal medulla makes catecholamines, not estrogens.",
+        "E": "Corticosterone is a glucocorticoid, not an androgen substrate for estrogen synthesis."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-019",
+      "question": "A healthy 8-year-old girl develops pubic and axillary hair, body odor and oily skin over 6 months. Breast development and growth velocity are normal, as are serum LH, FSH and estradiol. Serum DHEAS is mildly elevated for a 5-year-old but normal for her age. Which adrenal zone is the source of the hormone responsible for her findings?",
+      "answers": {
+        "A": "Adrenal medulla",
+        "B": "Fetal zone",
+        "C": "Zona fasciculata",
+        "D": "Zona glomerulosa",
+        "E": "Zona reticularis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The adrenal medulla secretes epinephrine and norepinephrine.",
+        "B": "The fetal zone produces neonatal androgens but involutes at birth.",
+        "C": "The zona fasciculata produces cortisol; it lacks cytochrome b5 needed for DHEA.",
+        "D": "The zona glomerulosa produces aldosterone and lacks 17α-hydroxylase.",
+        "E": "Adrenarche at age 7–8 reflects rising DHEA/DHEAS from the zona reticularis, which expresses cytochrome b5 and sulfotransferase."
+      }
+    },
+    {
+      "id": "endorepro-steroidogenesis-020",
+      "question": "An 18-year-old with tall, slender build has had hypertension since age 15 (maximum 180/110 mm Hg) despite telmisartan and amlodipine. Serum potassium is 3.1 mEq/L and renin is suppressed. After diagnosis, the antihypertensives are stopped and a single drug normalizes her blood pressure, ACTH and progesterone. Which of the following drugs was most likely started?",
+      "answers": {
+        "A": "Finasteride",
+        "B": "Fludrocortisone",
+        "C": "Hydrocortisone",
+        "D": "Letrozole",
+        "E": "Spironolactone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Finasteride inhibits 5α-reductase and has no effect on ACTH or mineralocorticoid excess.",
+        "B": "Fludrocortisone is a mineralocorticoid and would worsen hypertension.",
+        "C": "In 17α-hydroxylase deficiency, hydrocortisone replaces cortisol, suppressing ACTH and thereby the excess DOC that drives hypertension, normalizing blood pressure and progesterone.",
+        "D": "Letrozole is an aromatase inhibitor and would not lower ACTH or DOC.",
+        "E": "Spironolactone blocks the MR and lowers blood pressure but would not normalize ACTH or progesterone."
+      }
+    }
+  ]
+}

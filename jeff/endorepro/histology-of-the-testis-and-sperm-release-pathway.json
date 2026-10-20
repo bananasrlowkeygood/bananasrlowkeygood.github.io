@@ -1,0 +1,409 @@
+{
+  "lecture": "Histology of the Testis and Sperm Release Pathway",
+  "block": "endorepro",
+  "generated": "2026-10-20",
+  "questions": [
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-001",
+      "question": "A 24-year-old man undergoes testicular biopsy for infertility. On H&E, cells lying in the basal third of the seminiferous epithelium have large, pale nuclei with a prominent nucleolus, elongated perpendicular to the basement membrane, with cytoplasm extending between germ cells. Serum inhibin B is markedly low. Which hormone most directly regulates the activity of these cells?",
+      "answers": {
+        "A": "Follicle-stimulating hormone",
+        "B": "Luteinizing hormone",
+        "C": "Oxytocin",
+        "D": "Prolactin",
+        "E": "Testosterone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "These are Sertoli cells, which respond to FSH to support spermatogenesis and secrete inhibin, ABP and AMH.",
+        "B": "LH acts on interstitial Leydig cells to stimulate testosterone synthesis, not on Sertoli cells.",
+        "C": "Oxytocin from Leydig cells stimulates contraction of peritubular myoid cells, not Sertoli function.",
+        "D": "Prolactin is not the trophic hormone for Sertoli cells; excess prolactin suppresses GnRH.",
+        "E": "Testosterone acts on many targets, but the gonadotropin specifically driving Sertoli cell support and inhibin secretion is FSH."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-002",
+      "question": "A 30-year-old man has a history of blunt scrotal trauma. Months later he is azoospermic and serum testing shows antisperm antibodies. Biopsy shows lymphocytic infiltration within seminiferous tubules. Disruption of which structure most likely exposed germ cell antigens to the immune system?",
+      "answers": {
+        "A": "Basement membrane of myoid cells",
+        "B": "Gap junctions between Leydig cells",
+        "C": "Tight junctions between Sertoli cells",
+        "D": "Tunica albuginea capsule",
+        "E": "Tunica vaginalis mesothelium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The basement membrane separates epithelium from myoid cells but does not form the immunologic barrier.",
+        "B": "Leydig cells lie in the interstitium and do not form the barrier around meiotic cells.",
+        "C": "Sertoli–Sertoli tight junctions form the blood–testis barrier that sequesters meiotic germ cells expressing novel antigens; breach causes autoimmune orchitis.",
+        "D": "The tunica albuginea is a fibrous capsule, not the barrier that isolates meiotic germ cells.",
+        "E": "The tunica vaginalis is a serous lining of the scrotal cavity, not an immunologic barrier."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-003",
+      "question": "A histology student examines a seminiferous tubule from a 22-year-old man. The most numerous germ cells are large cells with condensed, thread-like chromosomes located just luminal to the blood–testis barrier. Which feature best explains why this cell type is so frequently observed?",
+      "answers": {
+        "A": "Prolonged mitotic self-renewal",
+        "B": "Prolonged prophase of meiosis I",
+        "C": "Rapid completion of meiosis II",
+        "D": "Retention until spermiation",
+        "E": "Slow nuclear elongation of spermatids"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Mitotic self-renewal is a property of type A spermatogonia, which lie basally and are not the most abundant.",
+        "B": "Primary spermatocytes spend about 22 days in prophase I, so they are the most abundant germ cell seen.",
+        "C": "Meiosis II is fast, which is why secondary spermatocytes are rarely seen.",
+        "D": "Late spermatids are released at spermiation; they lie at the lumen and are not the condensed-chromosome cells described.",
+        "E": "Nuclear elongation occurs in spermiogenesis and produces small dark nuclei, not large cells with condensed chromosomes."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-004",
+      "question": "A pathologist reviewing a testicular section notes that one germ cell stage, described in textbooks as haploid with prominent chromatin, is almost never identified despite normal spermatogenesis in a 28-year-old man. Which cell is this most likely to be?",
+      "answers": {
+        "A": "Early spermatid",
+        "B": "Primary spermatocyte",
+        "C": "Secondary spermatocyte",
+        "D": "Spermatozoon",
+        "E": "Type B spermatogonium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Early spermatids are numerous, found in large clusters near the lumen.",
+        "B": "Primary spermatocytes are the most frequently seen germ cell because of prolonged prophase I.",
+        "C": "Secondary spermatocytes complete meiosis II very quickly and so are rarely found.",
+        "D": "Spermatozoa are readily seen at the luminal surface with tails in the lumen.",
+        "E": "Type B spermatogonia are diploid basal cells seen along the basement membrane."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-005",
+      "question": "A 26-year-old man with infertility has semen analysis showing normal sperm count but abnormal sperm heads lacking an enzyme-containing cap over the anterior nucleus. A defect in which organelle's function during spermiogenesis most likely accounts for this finding?",
+      "answers": {
+        "A": "Centriole",
+        "B": "Golgi complex",
+        "C": "Mitochondria",
+        "D": "Nucleolus",
+        "E": "Residual body"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The distal centriole gives rise to the flagellum, not the acrosomal cap.",
+        "B": "The acrosome, which covers the anterior half of the nucleus, is formed by the Golgi during spermiogenesis.",
+        "C": "Mitochondria migrate to form the middle piece and power flagellar movement.",
+        "D": "The nucleolus does not form the acrosome; the nucleus condenses during spermiogenesis.",
+        "E": "The residual body is excess cytoplasm shed and phagocytosed by Sertoli cells."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-006",
+      "question": "Sperm collected by aspiration directly from the rete testis of a 32-year-old man undergoing fertility treatment are morphologically mature with well-formed flagella. Under microscopy they show no forward movement. What is the most likely explanation?",
+      "answers": {
+        "A": "Immobilin is secreted by the rete",
+        "B": "Motility is acquired in the epididymis",
+        "C": "Myoid cells have degenerated",
+        "D": "Sertoli cells retain flagellar proteins",
+        "E": "The acrosome reaction has occurred"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Immobilin is secreted by epididymal cells, not the rete testis.",
+        "B": "Spermatozoa leave the testis immotile and gain flagellar motility during maturation in the epididymis.",
+        "C": "Myoid cells propel immotile sperm along tubules; their status does not confer sperm motility.",
+        "D": "Sertoli cells do not withhold flagellar proteins; flagella are already formed at this point.",
+        "E": "A premature acrosome reaction would affect fertilization, not explain normal immotility of testicular sperm."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-007",
+      "question": "A 45-year-old man has a testicular mass removed. Histology shows sheets of large polygonal cells with abundant eosinophilic, somewhat foamy cytoplasm located between seminiferous tubules near capillaries. Before surgery he had gynecomastia and elevated sex steroids. Which hormone normally stimulates the cell of origin of this tumor?",
+      "answers": {
+        "A": "Follicle-stimulating hormone",
+        "B": "Inhibin",
+        "C": "Luteinizing hormone",
+        "D": "Oxytocin",
+        "E": "Thyroid-stimulating hormone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "FSH acts on Sertoli cells within tubules, not on interstitial cells.",
+        "B": "Inhibin is a Sertoli cell product that feeds back on the pituitary to suppress FSH.",
+        "C": "Interstitial Leydig cells, between tubules near capillaries, secrete androgens under LH stimulation.",
+        "D": "Oxytocin is produced by Leydig cells and acts on myoid cells; it does not drive Leydig steroidogenesis.",
+        "E": "TSH acts on thyroid follicular cells and does not regulate testicular steroidogenesis."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-008",
+      "question": "A newborn with a 46,XY karyotype and normal testes has a uterus and fallopian tubes identified on pelvic ultrasound, while external genitalia are normally masculinized. Deficient secretion from which cell type most likely explains this finding?",
+      "answers": {
+        "A": "Germ cells",
+        "B": "Leydig cells",
+        "C": "Myoid cells",
+        "D": "Rete testis epithelium",
+        "E": "Sertoli cells"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Germ cells such as spermatogonia do not secrete AMH.",
+        "B": "Leydig cell androgens drive Wolffian and external genital development, which are normal here.",
+        "C": "Myoid cells are contractile peritubular cells without a role in duct regression.",
+        "D": "The rete testis is a conduit for sperm with no endocrine role in duct differentiation.",
+        "E": "Fetal Sertoli cells secrete anti-Müllerian hormone, which causes regression of the Müllerian ducts."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-009",
+      "question": "A section through the mediastinum testis shows two types of thin-walled channels. Channel X is lined by a single layer of cuboidal cells and contains spermatozoa; channel Y is lined by flattened cells and contains erythrocytes. What is channel X?",
+      "answers": {
+        "A": "Efferent ductule",
+        "B": "Epididymis proper",
+        "C": "Lymphatic vessel",
+        "D": "Rete testis",
+        "E": "Seminiferous tubule"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Efferent ductules have a scalloped lumen with pseudostratified columnar epithelium and lie outside the mediastinum.",
+        "B": "The epididymis has tall pseudostratified stereociliated epithelium and lies outside the testis.",
+        "C": "Lymphatics are lined by squamous endothelium and do not carry sperm.",
+        "D": "The rete testis is a network of channels lined by simple cuboidal epithelium carrying sperm; veins have simple squamous endothelium.",
+        "E": "Seminiferous tubules have a thick stratified germinal epithelium, not a single cuboidal layer."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-010",
+      "question": "Tubules connecting the ends of U-shaped seminiferous tubules to the mediastinum are examined in a 35-year-old man. Their walls contain only Sertoli cells, with no germ cells undergoing division. What are these structures?",
+      "answers": {
+        "A": "Convoluted seminiferous tubules",
+        "B": "Ductuli efferentes",
+        "C": "Ductus epididymis",
+        "D": "Rete testis channels",
+        "E": "Straight tubules"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Convoluted seminiferous tubules contain germinal epithelium with dividing germ cells.",
+        "B": "Efferent ductules have scalloped pseudostratified epithelium and drain the rete to the epididymis.",
+        "C": "The epididymis is extratesticular and lined by stereociliated pseudostratified epithelium.",
+        "D": "The rete testis is lined by simple cuboidal epithelium without Sertoli cells.",
+        "E": "Straight tubules link seminiferous tubules to the rete testis and are lined by Sertoli cells only."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-011",
+      "question": "A biopsy from the head of the epididymis shows two populations of ducts. One has a 'scalloped' lumen with alternating tall ciliated and shorter cells; the other has a smooth lumen lined by tall cells bearing long, non-motile apical projections. What cytoskeletal element forms the core of these apical projections?",
+      "answers": {
+        "A": "Actin filaments",
+        "B": "Intermediate filaments",
+        "C": "Microtubule doublets",
+        "D": "Microtubule triplets",
+        "E": "Spectrin network"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Epididymal stereocilia are long branched microvilli with an actin core, not microtubules, and lack basal bodies.",
+        "B": "Intermediate filaments provide tensile strength in cells but do not form microvillus cores.",
+        "C": "9+2 microtubule doublets form motile cilia, as in the efferent ductules, not stereocilia.",
+        "D": "Microtubule triplets form centrioles and basal bodies, which stereocilia lack.",
+        "E": "Spectrin supports the plasma membrane but is not the core of stereocilia."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-012",
+      "question": "A 38-year-old man has impaired sperm concentration in the epididymis. Electron microscopy shows loss of the long branched microvilli on epididymal principal cells. Which function of the epididymis is most directly impaired?",
+      "answers": {
+        "A": "Phagocytosis of residual bodies",
+        "B": "Production of fructose",
+        "C": "Propulsion of sperm by cilia",
+        "D": "Resorption of testicular fluid",
+        "E": "Secretion of acid phosphatase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Residual bodies are phagocytosed by Sertoli cells in the seminiferous tubule.",
+        "B": "Fructose is secreted by seminal vesicle epithelium.",
+        "C": "Motile cilia occur in efferent ductules; stereocilia are non-motile.",
+        "D": "Stereocilia absorb testicular fluid used to carry sperm out of the testis, concentrating spermatozoa.",
+        "E": "Acid phosphatase is a prostatic secretion."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-013",
+      "question": "A 29-year-old man undergoes vasectomy. The excised segment is a thick muscular tube with a small stellate lumen lined by pseudostratified stereociliated columnar epithelium. How is the muscular wall of this structure arranged from lumen outward?",
+      "answers": {
+        "A": "Inner circular, middle longitudinal, outer circular",
+        "B": "Inner circular, outer longitudinal only",
+        "C": "Inner longitudinal, middle circular, outer longitudinal",
+        "D": "Inner oblique, middle circular, outer longitudinal",
+        "E": "Single circular layer of smooth muscle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This is not a pattern described for the ductus deferens.",
+        "B": "Two layers, inner circular and outer longitudinal, describe the seminal vesicle muscularis.",
+        "C": "The ductus deferens has an unusual inner longitudinal layer plus intermediate circular and outer longitudinal smooth muscle.",
+        "D": "An inner oblique layer is characteristic of the stomach, not the ductus deferens.",
+        "E": "A single circular layer surrounds the epididymis proper, not the ductus."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-014",
+      "question": "During ejaculation, spermatozoa are moved from the tail of the epididymis into the ejaculatory duct before rhythmic expulsion. A 50-year-old man with retroperitoneal lymph node dissection loses this first phase. Which fibers normally drive peristalsis of the ductus deferens in this phase?",
+      "answers": {
+        "A": "Genital branch of genitofemoral nerve",
+        "B": "Pelvic splanchnic parasympathetic fibers",
+        "C": "Postganglionic sympathetic fibers",
+        "D": "Pudendal somatic motor fibers",
+        "E": "Sensory dorsal nerve of penis fibers"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This nerve supplies the cremaster muscle.",
+        "B": "Parasympathetic pelvic splanchnics drive erection via NO-mediated vasodilation, not emission.",
+        "C": "Emission is caused by sympathetic fibers (from the inferior hypogastric plexus) producing ductus deferens peristalsis.",
+        "D": "Pudendal fibers drive skeletal muscle contractions of ejaculation, not ductal peristalsis.",
+        "E": "The dorsal nerve is sensory to the penis and does not drive smooth muscle peristalsis."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-015",
+      "question": "A 72-year-old man has nocturia, hesitancy, and a weak urinary stream. Digital rectal examination reveals a smooth, symmetrically enlarged prostate without nodules. Which zone of the prostate is the site of his most likely condition?",
+      "answers": {
+        "A": "Anterior fibromuscular stroma",
+        "B": "Central zone",
+        "C": "Peripheral zone",
+        "D": "Periurethral seminal vesicle",
+        "E": "Transitional zone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior stroma is gland-poor and not the site of BPH.",
+        "B": "The central zone surrounds the ejaculatory ducts and is not the typical site of BPH.",
+        "C": "The peripheral zone is the site of 70–80% of adenocarcinomas, palpable on DRE as nodules.",
+        "D": "The seminal vesicle is a separate gland posterior to the prostate.",
+        "E": "BPH arises in the transitional zone surrounding the prostatic urethra, explaining obstructive urinary symptoms."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-016",
+      "question": "A 66-year-old man has an elevated PSA. Prostate biopsy shows small, simple, pale-staining glands. Compared with surrounding normal glands, which histologic finding most strongly supports adenocarcinoma?",
+      "answers": {
+        "A": "Absent basal cell layer",
+        "B": "Columnar secretory cells",
+        "C": "Corpora amylacea in lumina",
+        "D": "Fibromuscular stroma around glands",
+        "E": "Lipofuscin within epithelium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Normal prostatic glands have a secretory and a basal cell layer; loss of basal cells indicates malignancy.",
+        "B": "Secretory cell height varies normally from squamous to columnar with activity.",
+        "C": "Corpora amylacea are lamellated concretions with no pathological significance.",
+        "D": "Fibromuscular stroma surrounds normal glands as well.",
+        "E": "Lipofuscin is a wear-and-tear pigment typical of seminal vesicle epithelium."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-017",
+      "question": "Semen analysis in a 34-year-old man shows low ejaculate volume and absent seminal fructose, with acidic pH. Testicular biopsy is normal. Absence or obstruction of which structure best explains these findings?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference"
+        ],
+        [
+          "Ejaculate volume",
+          "0.8 mL",
+          "≥1.5 mL"
+        ],
+        [
+          "Seminal fructose",
+          "Absent",
+          "Present"
+        ],
+        [
+          "pH",
+          "6.8",
+          "≥7.2"
+        ]
+      ],
+      "answers": {
+        "A": "Bulbourethral glands",
+        "B": "Epididymis",
+        "C": "Prostate gland",
+        "D": "Rete testis",
+        "E": "Seminal vesicles"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cowper's glands contribute under 5% of volume as pre-ejaculate mucus.",
+        "B": "The epididymis stores and matures sperm but contributes little volume and no fructose.",
+        "C": "The prostate contributes 20–30% of volume, with acid phosphatase, citrate and zinc.",
+        "D": "The rete testis conducts sperm within the testis and adds no fructose.",
+        "E": "The seminal vesicles produce 65–75% of ejaculate and secrete fructose."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-018",
+      "question": "A 19-year-old man with sickle cell disease presents with a painful erection lasting 6 hours. Failure of which normal process within the corpora cavernosa is most directly responsible?",
+      "answers": {
+        "A": "cGMP breakdown by PDE5",
+        "B": "Helicine artery relaxation",
+        "C": "Ischiocavernosus contraction",
+        "D": "Nitric oxide release",
+        "E": "Venous outflow from sinusoids"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Increased PDE5 activity would end erection; blockade, not failure, of cGMP breakdown prolongs erection.",
+        "B": "Helicine artery relaxation initiates erection by increasing inflow; it does not cause priapism in sickle cell disease.",
+        "C": "Ischiocavernosus clamping helps maintain normal erection and is not the primary defect.",
+        "D": "NO release initiates erection; its failure would cause erectile dysfunction.",
+        "E": "Priapism results from blocked outflow of blood from cavernous vascular sinusoids, sustaining high intracorporal pressure."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-019",
+      "question": "A 58-year-old man with erectile dysfunction is started on sildenafil. Which effect within the erectile tissue mediates the drug's therapeutic action?",
+      "answers": {
+        "A": "Contraction of cavernosal smooth muscle",
+        "B": "Decreased nitric oxide production",
+        "C": "Increased cAMP in venous endothelium",
+        "D": "Increased cGMP relaxing arterial smooth muscle",
+        "E": "Sympathetic activation of sinusoids"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Smooth muscle contraction reduces inflow and causes detumescence.",
+        "B": "Sildenafil does not reduce NO; reduced NO would impair erection.",
+        "C": "Sildenafil acts on cGMP, not cAMP, and targets arterial smooth muscle.",
+        "D": "PDE5 inhibition prevents cGMP breakdown, relaxing helicine artery smooth muscle and increasing inflow.",
+        "E": "Sympathetic activity mediates emission and detumescence, not erection."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-testis-and-sperm-release-pathway-020",
+      "question": "A urethral biopsy is taken from a 61-year-old man during cystoscopy. It shows a multilayered epithelium with dome-shaped superficial cells, and the section is surrounded by glandular tissue with tubuloalveolar glands. From which segment of the urethra was it most likely obtained?",
+      "answers": {
+        "A": "Membranous urethra",
+        "B": "Navicular fossa",
+        "C": "Penile urethra",
+        "D": "Prostatic urethra",
+        "E": "Urethral meatus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The membranous urethra is lined by pseudostratified columnar epithelium.",
+        "B": "The terminal penile urethra is lined by stratified squamous epithelium.",
+        "C": "The penile urethra is mainly pseudostratified columnar and is surrounded by corpus spongiosum, not glands.",
+        "D": "The prostatic urethra, surrounded by prostatic glands, is lined by transitional epithelium (urothelium).",
+        "E": "The meatus is lined by stratified squamous epithelium."
+      }
+    }
+  ]
+}
