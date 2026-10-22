@@ -223,6 +223,10 @@ p {
   font-size: 0.82rem;
   color: var(--accent);
   cursor: pointer;
+  height: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .cmd-suggest .sg:hover,
 .cmd-suggest .sg.on { background: var(--bg); color: var(--ink); }
