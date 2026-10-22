@@ -1,0 +1,579 @@
+{
+  "lecture": "Reproductive System Embryology",
+  "block": "endorepro",
+  "generated": "2026-10-22",
+  "questions": [
+    {
+      "id": "endorepro-reproductive-system-embryo-001",
+      "question": "A 29-year-old woman, gravida 3, para 1, comes for evaluation after two spontaneous abortions at 14 and 16 weeks' gestation. Her one live birth was delivered by cesarean section because of breech presentation. Speculum examination shows a single cervix and a normal vagina. Three-dimensional ultrasonography shows the uterine configuration in the image. Which embryologic error best explains this finding?",
+      "image": {
+        "src": "images/reproductive-system-embryo/001.png",
+        "caption": "Uterine configuration on 3D ultrasonography",
+        "credit": "Slides p. 27"
+      },
+      "answers": {
+        "A": "Absent anti-Müllerian hormone signaling",
+        "B": "Agenesis of one paramesonephric duct",
+        "C": "Failure of mesonephric duct regression",
+        "D": "Failure of urogenital sinus canalization",
+        "E": "Incomplete paramesonephric duct fusion"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Anti-Müllerian hormone is not made in a 46,XX fetus at all; its absence is normal and is what allows the paramesonephric ducts to persist.",
+        "B": "Agenesis of one paramesonephric duct would leave a single horn with one uterine tube, not two horns joined above a single cervix.",
+        "C": "Persistent mesonephric duct remnants in a female form small cysts beside the uterus and vagina (such as a Gartner cyst) and do not change the shape of the uterine cavity.",
+        "D": "The urogenital sinus forms the lower vagina; a canalization failure causes vaginal atresia with a normal uterus.",
+        "E": "The uterus forms by fusion of the caudal paramesonephric ducts; incomplete fusion leaves two uterine horns (bicornuate uterus), the most common uterine structural difference, causing spontaneous abortion and abnormal fetal presentation."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-002",
+      "question": "A 17-year-old girl is brought to the physician because she has not had a menstrual period. She has normal breast development and female-appearing external genitalia. Pelvic examination shows a short, blind-ending vagina. Firm, nontender masses are palpated in both inguinal canals. Ultrasonography shows no uterus. Laboratory results are shown. A defect in which protein is the most likely cause of her condition?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range (adult female)"
+        ],
+        [
+          "Karyotype",
+          "46,XY",
+          "46,XX"
+        ],
+        [
+          "Testosterone",
+          "620 ng/dL",
+          "15–70 ng/dL"
+        ],
+        [
+          "LH",
+          "28 mIU/mL",
+          "2–15 mIU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "21-Hydroxylase",
+        "B": "5α-Reductase",
+        "C": "Androgen receptor",
+        "D": "Anti-Müllerian hormone",
+        "E": "Testis-determining factor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "21-Hydroxylase deficiency virilizes 46,XX individuals and causes high ACTH; it would not produce female genitalia with inguinal testes in a 46,XY patient.",
+        "B": "5α-Reductase deficiency gives 46,XY individuals ambiguous, difficult-to-characterize genitalia rather than fully female-appearing genitalia.",
+        "C": "Androgen insensitivity syndrome is a defect in the androgen receptor: a 46,XY individual with high testosterone has phenotypically female external genitalia, undescended testes, and no uterus because Sertoli cells still secrete AMH.",
+        "D": "Loss of anti-Müllerian hormone would leave a uterus and uterine tubes in a 46,XY individual with normal male external genitalia, the opposite of this picture.",
+        "E": "Without testis-determining factor (SRY) no testes would form, so there would be no inguinal testes and no high testosterone, and the paramesonephric ducts would persist as a uterus."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-003",
+      "question": "A newborn is evaluated for ambiguous genitalia. Examination shows a 1.5-cm phallus, a urethral opening on the perineum, and a bifid, scrotum-like sac containing palpable gonads. Pelvic ultrasonography shows no uterus. Laboratory results are shown. At age 14 years, imaging confirms that the epididymides, vasa deferentia, and seminal vesicles are normal. A deficiency of which enzyme is the most likely cause of this patient's external genital findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Karyotype",
+          "46,XY",
+          "—"
+        ],
+        [
+          "Testosterone",
+          "Normal for a male newborn",
+          "—"
+        ],
+        [
+          "Anti-Müllerian hormone",
+          "Normal for a male newborn",
+          "—"
+        ],
+        [
+          "Cortisol",
+          "12 μg/dL",
+          "5–25 μg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "21-Hydroxylase",
+        "B": "5α-Reductase",
+        "C": "Aromatase",
+        "D": "Cholesterol desmolase",
+        "E": "Tyrosine hydroxylase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "21-Hydroxylase deficiency causes virilization of 46,XX infants with a uterus and abnormal cortisol and ACTH, none of which is present here.",
+        "B": "Testosterone from Leydig cells drives the mesonephric ducts (normal here), but dihydrotestosterone drives the external genitalia; 5α-reductase deficiency in a 46,XY individual therefore leaves difficult-to-characterize external genitalia with normal Wolffian structures.",
+        "C": "Aromatase converts androgens to estrogens; its deficiency would not prevent masculinization of the external genitalia in a 46,XY infant.",
+        "D": "Cholesterol desmolase deficiency blocks all steroid synthesis, so testosterone and cortisol would both be low and the mesonephric ducts would not develop.",
+        "E": "Tyrosine hydroxylase makes catecholamines and has no role in sexual differentiation."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-004",
+      "question": "A 6-day-old infant is brought to the emergency department because of vomiting and poor feeding. The infant was born at term with an enlarged clitoris and partially fused labioscrotal folds. Karyotype is 46,XX, and ultrasonography shows a normal uterus and ovaries. Laboratory results are shown. A deficiency of which enzyme is the most likely cause?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Sodium",
+          "126 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Potassium",
+          "6.8 mEq/L",
+          "3.5–6.0 mEq/L"
+        ],
+        [
+          "Glucose",
+          "48 mg/dL",
+          "60–100 mg/dL"
+        ],
+        [
+          "Cortisol",
+          "2 μg/dL",
+          "5–25 μg/dL"
+        ],
+        [
+          "ACTH",
+          "480 pg/mL",
+          "10–60 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "11β-Hydroxylase",
+        "B": "17α-Hydroxylase",
+        "C": "21-Hydroxylase",
+        "D": "5α-Reductase",
+        "E": "Aromatase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "11β-Hydroxylase deficiency also virilizes 46,XX infants, but the build-up of mineralocorticoid precursors causes hypertension and low potassium rather than salt wasting.",
+        "B": "17α-Hydroxylase deficiency blocks sex steroid synthesis, so a 46,XX infant would not be virilized.",
+        "C": "21-Hydroxylase deficiency, the most common form of congenital adrenal hyperplasia, decreases cortisol and aldosterone production, raises ACTH, and shunts precursors to androgens that virilize 46,XX individuals; salt wasting explains the hyponatremia and hyperkalemia.",
+        "D": "5α-Reductase deficiency affects 46,XY individuals, who are undervirilized; it does not virilize a 46,XX infant or cause electrolyte loss.",
+        "E": "Aromatase deficiency can virilize a 46,XX fetus, but it does not impair cortisol synthesis or raise ACTH."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-005",
+      "question": "A newborn boy is examined in the nursery. The penis is small and curves ventrally. The urethral opening is not at the tip of the glans but on the underside of the shaft. The scrotum contains both testes. The image shows the sites where the urethral opening can occur in this condition. Failure of which embryonic structures to fuse is the most likely cause?",
+      "image": {
+        "src": "images/reproductive-system-embryo/005.png",
+        "caption": "Sites of the urethral opening in this condition",
+        "credit": "Slides p. 28"
+      },
+      "answers": {
+        "A": "Genital swellings",
+        "B": "Genital tubercle halves",
+        "C": "Paramesonephric ducts",
+        "D": "Urethral folds",
+        "E": "Urogenital sinus walls"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Failure of the genital swellings to fuse gives a bifid scrotum; the scrotum here is normal.",
+        "B": "The genital tubercle elongates into the phallus rather than fusing from two halves; its failure would give a small phallus without a ventral opening.",
+        "C": "Failure of the paramesonephric ducts to fuse produces uterine structural differences such as a bicornuate uterus, not a penile defect.",
+        "D": "Under testosterone the urethral folds wrap around the urethral plate and fuse along the ventral side to form the penile urethra; incomplete fusion leaves the opening on the ventral surface (hypospadias, 3–5 per 1000 births).",
+        "E": "The urogenital sinus gives rise to the lower vagina in females; it does not fuse to form the penile urethra."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-006",
+      "question": "A newborn boy is evaluated in the delivery room because of an exposed, red mucosal surface on the lower abdominal wall from which urine is seen dripping. The pubic bones are widely separated. The testes are descended. Examination of the penis is most likely to show the urethral opening at which location?",
+      "answers": {
+        "A": "Dorsal surface of the penile shaft",
+        "B": "Perineum next to the anal opening",
+        "C": "Scrotal raphe between the testes",
+        "D": "Tip of the glans penis",
+        "E": "Ventral surface of the penile shaft"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "This infant has exstrophy of the bladder, which is often seen with epispadias, in which the urethra opens along the dorsal surface of the penis (about 1 in 30,000 births).",
+        "B": "A urethral opening near the anus with no external genitalia is seen in the very rare complete agenesis of the external genitalia.",
+        "C": "A scrotal opening represents severe hypospadias from failed ventral fusion of the urethral folds, which is not the defect associated with bladder exstrophy.",
+        "D": "An opening at the tip of the glans is normal and would be unexpected with bladder exstrophy.",
+        "E": "A ventral opening is hypospadias, which is far more common than epispadias but is not the urethral defect associated with bladder exstrophy."
+      },
+      "explanationImage": {
+        "src": "images/reproductive-system-embryo/006-exp.png",
+        "caption": "Exstrophy of the bladder with epispadias",
+        "credit": "Slides p. 28"
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-007",
+      "question": "A 46,XX newborn is examined because of abnormal-appearing genitalia. During the pregnancy the mother developed hirsutism and deepening of her voice, and an androgen-secreting ovarian tumor was removed postpartum. The infant has a normal uterus and ovaries. The labia majora are replaced by a single midline, scrotum-like sac with a central raphe. Fusion of which embryonic structures explains this sac?",
+      "answers": {
+        "A": "Anal folds",
+        "B": "Cloacal membrane",
+        "C": "Genital swellings",
+        "D": "Genital tubercle",
+        "E": "Urethral folds"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anal folds are the caudal parts of the cloacal folds and form the region around the anus, not the labia or scrotum.",
+        "B": "The cloacal membrane is the thin membrane between the cloacal folds and breaks down; it does not form the labia or scrotum.",
+        "C": "The genital swellings become the labia majora under estrogen and fuse into the scrotum under androgen; maternal androgen excess has fused them in this 46,XX infant.",
+        "D": "The genital tubercle becomes the clitoris or the phallus; androgen enlarges it but does not form a midline sac.",
+        "E": "The urethral folds become the labia minora, or fuse ventrally to enclose the penile urethra; they lie medial to the genital swellings and do not form the scrotum."
+      },
+      "explanationImage": {
+        "src": "images/reproductive-system-embryo/007-exp.png",
+        "caption": "Indifferent (A) and estrogen-driven (B) external genitalia",
+        "credit": "Slides p. 25"
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-008",
+      "question": "An 11-year-old boy is brought to the emergency department because of left scrotal pain that began 6 hours ago. Examination shows a small, tender nodule at the upper pole of the left testis, visible as a bluish dot through the scrotal skin. The testis itself is not tender, and the cremasteric reflex is present. The twisted structure is a remnant of a duct system whose regression is normally triggered by a hormone secreted by which fetal cell?",
+      "answers": {
+        "A": "Follicular cells",
+        "B": "Leydig cells",
+        "C": "Primordial germ cells",
+        "D": "Sertoli cells",
+        "E": "Theca cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Follicular cells come from the gonadal cords of the ovary and surround the oogonia; they do not secrete anti-Müllerian hormone in the male fetus.",
+        "B": "Leydig cells make testosterone, which maintains the mesonephric ducts; testosterone does not cause the paramesonephric ducts to regress.",
+        "C": "Primordial germ cells migrate from the yolk sac to the gonadal cords and become gametes; they secrete no hormones that shape the ducts.",
+        "D": "The appendix of the testis is a remnant of the paramesonephric duct that can undergo torsion; the paramesonephric ducts regress in response to anti-Müllerian hormone secreted by Sertoli cells.",
+        "E": "Theca cells are ovarian cells that make androgens for estrogen synthesis; they are not present in the testis."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-009",
+      "question": "A 2-year-old boy undergoes orchiopexy for bilateral undescended testes. He has a normally formed penis and scrotum. During surgery, a small uterus and two uterine tubes are found attached to the testes. Karyotype is 46,XY, and serum testosterone is normal for age. A defect in which of the following is the most likely cause?",
+      "answers": {
+        "A": "Androgen receptor",
+        "B": "Anti-Müllerian hormone",
+        "C": "Aromatase",
+        "D": "Luteinizing hormone receptor",
+        "E": "Testis-determining factor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An androgen receptor defect would give female-appearing external genitalia, and AMH from Sertoli cells would still remove the uterus.",
+        "B": "Sertoli cells secrete anti-Müllerian hormone, which causes the paramesonephric ducts to degenerate; without it a 46,XY boy with normal testosterone and male genitalia keeps a uterus and uterine tubes.",
+        "C": "Aromatase deficiency affects estrogen synthesis and would not preserve paramesonephric derivatives in a male.",
+        "D": "A luteinizing hormone receptor defect would leave Leydig cells unable to make testosterone, giving undervirilized genitalia; testosterone is normal here.",
+        "E": "Without testis-determining factor no testes would form, so there would be no testosterone and no male external genitalia."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-010",
+      "question": "A 34-year-old woman undergoes in vitro fertilization. Oocytes are retrieved shortly before the expected time of ovulation. Microscopy shows that each oocyte has its chromosomes lined up on a spindle, with the kinetochores of each pair of sister chromatids facing opposite directions. Which event is required for these oocytes to complete their current division?",
+      "answers": {
+        "A": "Calcium influx at fertilization",
+        "B": "FSH rise in the follicular phase",
+        "C": "LH surge before ovulation",
+        "D": "Onset of puberty",
+        "E": "Selection of a follicle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Sister kinetochores facing opposite directions marks metaphase II, where the ovulated oocyte is arrested; meiosis II is completed only at fertilization, reactivated by calcium influx.",
+        "B": "The follicular-phase FSH rise supports follicle growth before ovulation; it has already occurred and does not release the metaphase II arrest.",
+        "C": "The LH surge restarts meiosis I in the selected primary oocyte and has already happened in an oocyte that has reached metaphase II.",
+        "D": "Puberty ends the long prophase I arrest by allowing cyclic follicle maturation; it does not complete meiosis II.",
+        "E": "Selection of a follicle each cycle lets one primary oocyte resume meiosis I; this oocyte has already passed that point."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-011",
+      "question": "A 7-year-old girl undergoes laparoscopic removal of a benign ovarian cyst. Histologic examination of the adjacent normal ovarian cortex shows numerous primordial follicles, each consisting of a single layer of flattened follicular cells around a large primary oocyte. In which stage of cell division are these oocytes arrested?",
+      "answers": {
+        "A": "Diakinesis of prophase I",
+        "B": "Diplotene of prophase I",
+        "C": "Metaphase of meiosis I",
+        "D": "Metaphase of meiosis II",
+        "E": "Pachytene of prophase I"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Diakinesis, when homologous pairs are readied for separation and the spindle forms, occurs only after sexual maturation when a primary oocyte is reactivated.",
+        "B": "Primary oocytes enter meiosis I before birth and arrest in the diplotene stage of prophase I, a very long stage with intense metabolic activity, until a follicle is selected after puberty.",
+        "C": "Metaphase I follows prophase I and is reached only after the oocyte resumes meiosis in an ovarian cycle.",
+        "D": "Metaphase II is the second arrest, found in the secondary oocyte at ovulation, not in primordial follicles of a child.",
+        "E": "Pachytene, when recombination occurs, is passed through before the oocyte arrests."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-012",
+      "question": "A 34-year-old man is evaluated for infertility. Semen analysis shows no sperm. Testicular biopsy shows spermatocytes in early prophase of meiosis I with condensed chromosomes, but the homologous chromosomes never form the ladder-like synaptonemal complex between them. Genetic testing shows a mutation in a gene encoding a synaptonemal complex protein. At which stage of prophase I does meiosis first fail in this patient?",
+      "answers": {
+        "A": "Diakinesis",
+        "B": "Diplotene",
+        "C": "Leptotene",
+        "D": "Pachytene",
+        "E": "Zygotene"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Diakinesis is the final stage of prophase I, when homologous pairs are readied for separation; the defect stops meiosis well before this.",
+        "B": "In diplotene the synaptonemal complex breaks down and chiasmata appear; this cannot happen if the complex never formed.",
+        "C": "In leptotene the chromosomes condense and become visible, which this patient's spermatocytes do normally.",
+        "D": "Pachytene recombination nodules form between tetrads already joined by the synaptonemal complex; pachytene is affected only secondarily.",
+        "E": "During zygotene homologous chromosomes pair (synapsis) and form the synaptonemal complex, so this is the first stage to fail."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-013",
+      "question": "A 43-year-old woman, gravida 2, para 1, undergoes amniocentesis at 16 weeks' gestation. The fetal karyotype is 47,XX,+21. DNA marker analysis shows that the fetus carries two different chromosome 21 homologues from the mother and one from the father. Which error most likely caused this abnormality?",
+      "answers": {
+        "A": "Crossover between nonhomologous chromosomes",
+        "B": "Homolog nondisjunction in meiosis I",
+        "C": "Loss of part of one chromosome 21",
+        "D": "Postzygotic mitotic nondisjunction",
+        "E": "Sister chromatid nondisjunction in meiosis II"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Crossover between nonhomologous chromosomes is a translocation, which moves material between chromosomes rather than adding a whole extra chromosome 21 with two distinct maternal homologues.",
+        "B": "Two different maternal homologues in the fetus means the homologous pair failed to separate in meiosis I, producing a 24-chromosome oocyte; this risk rises with maternal age.",
+        "C": "Loss of part of a chromosome is a deletion, which reduces rather than increases chromosome 21 material.",
+        "D": "Postzygotic mitotic nondisjunction would cause mosaicism and would duplicate one chromosome rather than include two different maternal homologues.",
+        "E": "Nondisjunction of sister chromatids in meiosis II would give two identical copies of one maternal chromosome 21, not two different homologues."
+      },
+      "explanationImage": {
+        "src": "images/reproductive-system-embryo/013-exp.png",
+        "caption": "Normal meiosis (A) compared with nondisjunction in the first (B) and second (C) meiotic divisions",
+        "credit": "Slides p. 51"
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-014",
+      "question": "A 15-year-old girl is brought to the physician because she has not had a menstrual period. She is at the 2nd percentile for height and has no breast development. She has female external genitalia with a clitoris, vagina, and labia. Laboratory results are shown. Molecular analysis is performed to find the origin of the chromosomal error. Which mechanism is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Karyotype",
+          "45,X",
+          "46,XX"
+        ],
+        [
+          "FSH",
+          "96 mIU/mL",
+          "1–12 mIU/mL"
+        ],
+        [
+          "LH",
+          "42 mIU/mL",
+          "1–12 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "<10 pg/mL",
+          "20–150 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Maternal meiosis I nondisjunction",
+        "B": "Maternal meiosis II nondisjunction",
+        "C": "Paternal meiotic nondisjunction",
+        "D": "Postzygotic mitotic loss",
+        "E": "Robertsonian translocation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Maternal nondisjunction is the usual cause of trisomies associated with maternal age, but most 45,X cases do not come from the mother.",
+        "B": "Maternal meiosis II errors give two identical maternal chromosomes in trisomies and are not the main source of 45,X.",
+        "C": "In Turner syndrome (45,XO), about 75% of cases come from paternal nondisjunction, so the remaining X is maternal.",
+        "D": "Loss of a sex chromosome after fertilization causes mosaic Turner syndrome, which is less common than meiotic errors.",
+        "E": "A Robertsonian translocation joins two acrocentric autosomes (such as 14 and 21) and does not produce a 45,X karyotype."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-015",
+      "question": "A 28-year-old man comes to the physician because he and his wife have been unable to conceive for 2 years. He is 190 cm (6 ft 3 in) tall and has bilateral breast enlargement. Both testes are small and firm. Semen analysis shows no sperm. Laboratory results are shown. Which karyotype is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "FSH",
+          "48 mIU/mL",
+          "1–12 mIU/mL"
+        ],
+        [
+          "LH",
+          "30 mIU/mL",
+          "2–12 mIU/mL"
+        ],
+        [
+          "Testosterone",
+          "190 ng/dL",
+          "300–1000 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "45,X",
+        "B": "46,XY",
+        "C": "47,XXX",
+        "D": "47,XXY",
+        "E": "47,XYY"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "45,X is Turner syndrome, which causes a female phenotype without secondary sexual maturation.",
+        "B": "A normal 46,XY karyotype would not explain small testes, absent sperm, gynecomastia, and high gonadotropins together.",
+        "C": "47,XXX individuals are female with normal ovaries and fertility, and about 25% have mild intellectual disability.",
+        "D": "XXY (Klinefelter syndrome) causes testicular hypogonadism with no sperm production and gynecomastia, with high FSH and LH from loss of testicular feedback.",
+        "E": "47,XYY men are usually tall but have normal testes, normal testosterone, and usually normal fertility."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-016",
+      "question": "A 30-year-old man is evaluated for infertility. He has normal male external genitalia and small testes, and semen analysis shows no sperm. Karyotype is 46,XX. Fluorescence in situ hybridization shows that the SRY gene has been translocated onto one X chromosome. Pelvic imaging is most likely to show which internal anatomy?",
+      "answers": {
+        "A": "Absent uterus and absent vas deferens",
+        "B": "Absent uterus and present vas deferens",
+        "C": "Ovotestes with a uterus",
+        "D": "Present uterus and absent vas deferens",
+        "E": "Present uterus and present vas deferens"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Absence of the vas deferens would require a lack of testosterone, but the testes here contain Leydig cells that drive the mesonephric ducts.",
+        "B": "SRY encodes testis-determining factor, so testes form: Sertoli cells secrete AMH, which removes the paramesonephric ducts (no uterus), and Leydig cells make testosterone, which keeps the mesonephric ducts as the epididymis and vas deferens.",
+        "C": "Ovotestes contain mixed ovarian and testicular tissue and are seen in intersex individuals without a clear SRY-driven testis; this patient has testes.",
+        "D": "A uterus with no vas deferens is the pattern of a 46,XX individual without SRY, with no AMH and no testosterone.",
+        "E": "A uterus persists only when AMH is missing; Sertoli cells in these SRY-driven testes secrete AMH."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-017",
+      "question": "A 32-year-old woman comes to the physician because she has been unable to conceive for 3 years. Her menstrual cycles are regular. Hysterosalpingography shows a small, irregular uterine cavity. Her mother, who had several miscarriages, was prescribed a medication during this pregnancy in 1962 to prevent another miscarriage. In utero exposure to which drug most likely explains this patient's infertility?",
+      "answers": {
+        "A": "Clomiphene",
+        "B": "Danazol",
+        "C": "Diethylstilbestrol",
+        "D": "Methimazole",
+        "E": "Thalidomide"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Clomiphene induces ovulation and is not given during pregnancy to prevent miscarriage.",
+        "B": "Danazol is an androgenic drug that can virilize a female fetus's external genitalia; it was not used to prevent miscarriage.",
+        "C": "Diethylstilbestrol (DES), a synthetic estrogen given to prevent miscarriages from 1938 to 1971, causes uterine structural changes in exposed daughters, leading to primary infertility.",
+        "D": "Methimazole treats hyperthyroidism and is associated with scalp defects in the newborn, not uterine anomalies.",
+        "E": "Thalidomide was given for nausea and causes limb defects rather than uterine structural changes."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-018",
+      "question": "A newborn is evaluated for ambiguous genitalia. Examination shows an enlarged phallus and partially fused labioscrotal folds, with a palpable gonad in the right fold. Pelvic ultrasonography shows a uterus. Karyotype is 46,XX. Laboratory results are shown. Biopsy of the right gonad shows ovarian follicles and seminiferous tubules within the same gonad. Which diagnosis is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Cortisol",
+          "14 μg/dL",
+          "5–25 μg/dL"
+        ],
+        [
+          "ACTH",
+          "35 pg/mL",
+          "10–60 pg/mL"
+        ],
+        [
+          "Sodium",
+          "139 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Potassium",
+          "4.9 mEq/L",
+          "3.5–6.0 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "5α-Reductase deficiency",
+        "B": "Androgen insensitivity syndrome",
+        "C": "Congenital adrenal hyperplasia",
+        "D": "Ovotesticular DSD",
+        "E": "Turner syndrome"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "5α-Reductase deficiency affects 46,XY individuals, who have testes only and no uterus.",
+        "B": "Androgen insensitivity syndrome occurs in 46,XY individuals with testes and no uterus.",
+        "C": "Congenital adrenal hyperplasia is a common cause of virilization in 46,XX infants, but cortisol and ACTH are normal here, and the gonads would be ovaries only.",
+        "D": "Ovotestes contain mixed ovarian and testicular tissue; about 70% of affected individuals are 46,XX with a uterus and genitalia that are difficult to classify.",
+        "E": "Turner syndrome (45,XO) gives female external genitalia without virilization and streak gonads, not ovotestes."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-019",
+      "question": "A 14-year-old girl is brought to the physician because of cyclic lower abdominal pain every month for the past 6 months. She has not had a menstrual period. She has normal breast development and normal labia. Examination shows a vaginal dimple with no vaginal opening. MRI shows a normal uterus and cervix with the upper vagina distended by blood, as drawn in the image. Failure of development of which embryonic structure is the most likely cause?",
+      "image": {
+        "src": "images/reproductive-system-embryo/019.png",
+        "caption": "Drawing of the patient's MRI findings",
+        "credit": "Slides p. 27"
+      },
+      "answers": {
+        "A": "Genital swellings",
+        "B": "Mesonephric ducts",
+        "C": "Paramesonephric ducts",
+        "D": "Urethral folds",
+        "E": "Urogenital sinus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The genital swellings become the labia majora, which are normal here.",
+        "B": "The mesonephric ducts regress in the female and do not contribute to the vagina.",
+        "C": "The paramesonephric ducts form the uterus, cervix, and upper vagina, all of which are present here.",
+        "D": "The urethral folds become the labia minora and do not form the vaginal canal.",
+        "E": "The vagina has two origins: the upper part from the uterine canal (paramesonephric ducts) and the lower part from the urogenital sinus, so failure of the sinus part leaves vaginal atresia with blood trapped above it."
+      }
+    },
+    {
+      "id": "endorepro-reproductive-system-embryo-020",
+      "question": "A 16-year-old with female-appearing external genitalia is evaluated for absent menses. Karyotype is 46,XY. Two gonads are found in the inguinal canals, and biopsy shows seminiferous tubules with Sertoli cells but no Leydig cells. Serum testosterone is very low and LH is markedly elevated. Which internal duct derivatives are most likely present?",
+      "answers": {
+        "A": "Both Müllerian and Wolffian duct derivatives",
+        "B": "Müllerian derivatives only",
+        "C": "Neither Müllerian nor Wolffian derivatives",
+        "D": "Ovotestes with Müllerian derivatives",
+        "E": "Wolffian derivatives only"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Both duct systems persist only when there is testosterone but no AMH, the reverse of this patient's hormone pattern.",
+        "B": "Müllerian derivatives would remain only if AMH were absent, but the Sertoli cells here secrete AMH.",
+        "C": "Sertoli cells secrete AMH, so the paramesonephric (Müllerian) ducts degenerate; without Leydig cells there is no testosterone, so the mesonephric (Wolffian) ducts are not maintained, leaving neither set of derivatives.",
+        "D": "The gonads are testes containing only testicular tissue, not ovotestes.",
+        "E": "The mesonephric ducts require testosterone from Leydig cells to persist as the epididymis, vas deferens, and seminal vesicles, and there is none here."
+      },
+      "explanationImage": {
+        "src": "images/reproductive-system-embryo/020-exp.png",
+        "caption": "Hormonal control of genital duct and external genitalia development",
+        "credit": "Slides p. 22"
+      }
+    }
+  ]
+}

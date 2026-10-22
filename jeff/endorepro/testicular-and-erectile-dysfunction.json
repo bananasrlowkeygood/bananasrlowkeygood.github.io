@@ -1,0 +1,564 @@
+{
+  "lecture": "Testicular & Erectile Dysfunction",
+  "block": "endorepro",
+  "generated": "2026-10-22",
+  "questions": [
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-001",
+      "question": "A 29-year-old competitive bodybuilder and his 27-year-old wife have been unable to conceive after 14 months of regular unprotected intercourse. He has injected testosterone cypionate for the past 2 years. Examination shows marked muscularity, acne, and small, soft testes bilaterally. Two semen analyses show no sperm on a centrifuged specimen. Laboratory studies are shown. Which of the following best explains his azoospermia?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "FSH",
+          "<0.5 mIU/mL",
+          "1.5–12.4 mIU/mL"
+        ],
+        [
+          "LH",
+          "<0.5 mIU/mL",
+          "1.7–8.6 mIU/mL"
+        ],
+        [
+          "Total testosterone",
+          "1,450 ng/dL",
+          "300–1,000 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Antisperm antibody formation within the seminiferous tubules",
+        "B": "Bilateral obstruction of the vas deferens by fibrosis",
+        "C": "Germ cell loss from an underlying 47,XXY karyotype",
+        "D": "Primary Leydig cell failure from direct androgen toxicity",
+        "E": "Suppression of intratesticular testosterone via negative feedback"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Antisperm antibodies are a rarely tested cause of impaired sperm function and would not suppress FSH and LH to undetectable levels.",
+        "B": "Obstructive azoospermia features normal spermatogenesis with normal gonadotropins and normal-sized testes, not undetectable FSH/LH and atrophy.",
+        "C": "Klinefelter syndrome causes primary testicular failure with elevated FSH and LH, the opposite of this suppressed gonadotropin pattern.",
+        "D": "Primary Leydig cell failure would cause low testosterone with elevated LH; here serum testosterone is high from the injections and LH is suppressed.",
+        "E": "Exogenous testosterone suppresses pituitary FSH and LH by negative feedback, so Leydig cells stop producing intratesticular testosterone (normally >80 times serum levels), which halts spermatogenesis and causes testicular atrophy."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-002",
+      "question": "A 32-year-old man is evaluated for 18 months of infertility. He had reading and speech difficulties as a child. He is 191 cm (6 ft 3 in) tall with sparse facial hair and bilateral gynecomastia. Both testes are firm and measure about 4 cc. Both vasa deferentia are palpable. Two semen analyses show azoospermia with normal semen volume. Laboratory studies are shown. Which of the following is the most appropriate next step in diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "FSH",
+          "38 mIU/mL",
+          "1.5–12.4 mIU/mL"
+        ],
+        [
+          "LH",
+          "24 mIU/mL",
+          "1.7–8.6 mIU/mL"
+        ],
+        [
+          "Total testosterone",
+          "210 ng/dL",
+          "300–1,000 ng/dL"
+        ],
+        [
+          "Prolactin",
+          "9 ng/mL",
+          "4–15 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "CFTR mutation analysis with renal ultrasonography",
+        "B": "MRI of the pituitary gland with gadolinium",
+        "C": "Peripheral blood karyotype analysis",
+        "D": "Scrotal ultrasonography with Valsalva maneuver",
+        "E": "Transrectal ultrasonography of the seminal vesicles"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "CFTR testing and renal ultrasound are for congenital absence of the vas deferens; his vasa are palpable and his testicular failure is primary.",
+        "B": "Pituitary imaging is for hypogonadotropic hypogonadism (low FSH/LH) or hyperprolactinemia; his gonadotropins are high and prolactin is normal.",
+        "C": "Small firm testes, gynecomastia, tall stature, and nonobstructive azoospermia with high FSH/LH suggest Klinefelter syndrome, which is diagnosed by karyotype (indicated when concentration is <5 million/mL).",
+        "D": "Scrotal ultrasound is not part of the routine infertility workup; varicocele is a clinical diagnosis and would not explain this endocrine pattern.",
+        "E": "Transrectal imaging evaluates ejaculatory duct obstruction, which causes low-volume obstructive azoospermia with normal gonadotropins."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-003",
+      "question": "A 34-year-old man and his 31-year-old wife have been unable to conceive for 2 years. He has small, firm testes and mild gynecomastia. Repeated centrifuged semen analyses show no sperm. FSH and LH are elevated and testosterone is low. His karyotype is shown. The couple strongly prefers to have a child who is biologically related to both of them. Which of the following is the most appropriate next step?",
+      "image": {
+        "src": "images/testicular-and-erectile-dysfunction/003.png",
+        "caption": "Patient's karyotype",
+        "credit": "Slides p. 19 (Wikimedia Commons, Human_chromosomesXXY01.png)"
+      },
+      "answers": {
+        "A": "Exogenous testosterone replacement to restore spermatogenesis",
+        "B": "Intrauterine insemination with an ejaculated sample",
+        "C": "Microsurgical testicular sperm extraction followed by ICSI",
+        "D": "Percutaneous epididymal sperm aspiration followed by IUI",
+        "E": "Vasovasostomy to restore patency of the vas deferens"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Exogenous testosterone suppresses FSH/LH and intratesticular testosterone and would further impair spermatogenesis.",
+        "B": "IUI requires sperm in the ejaculate, which is present in only about 8% of men with Klinefelter syndrome and absent here.",
+        "C": "The karyotype shows 47,XXY; in Klinefelter syndrome with no sperm in the ejaculate, microTESE locates focal spermatogenesis (about 50% retrieval) and the sperm are used for intracytoplasmic sperm injection.",
+        "D": "PESA retrieves sperm from the epididymis in obstructive azoospermia; Klinefelter azoospermia is nonobstructive, so no sperm reach the epididymis.",
+        "E": "Vasovasostomy reverses a vasectomy; his azoospermia is due to impaired spermatogenesis, not obstruction."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-004",
+      "question": "A 28-year-old man and his 26-year-old wife have been unable to conceive for 14 months; her gynecologic evaluation is normal. He reports a dull ache in the scrotum after standing for long periods. Examination while standing is shown; the dilated veins are visible through the skin and the testes are normal in size. Two semen analyses obtained 3 weeks apart show similar results (shown). Which of the following is the most appropriate next step in management?",
+      "image": {
+        "src": "images/testicular-and-erectile-dysfunction/004.jpg",
+        "caption": "Scrotal examination with the patient standing",
+        "credit": "Slides p. 12"
+      },
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "WHO Lower Reference"
+        ],
+        [
+          "Volume",
+          "2.5 mL",
+          "≥1.5 mL"
+        ],
+        [
+          "Concentration",
+          "8 million/mL",
+          "≥15 million/mL"
+        ],
+        [
+          "Total motility",
+          "25%",
+          "≥40%"
+        ],
+        [
+          "Normal morphology",
+          "3%",
+          "≥4%"
+        ]
+      ],
+      "answers": {
+        "A": "Exogenous testosterone therapy for 3 months",
+        "B": "Laparoscopic ligation of the spermatic veins",
+        "C": "Microsurgical subinguinal varicocelectomy",
+        "D": "Observation with repeat semen analysis in 1 year",
+        "E": "Scrotal ultrasonography to confirm the diagnosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Exogenous testosterone suppresses FSH/LH and intratesticular testosterone and would worsen his semen parameters.",
+        "B": "Laparoscopic varicocelectomy is an option but has higher complication and recurrence rates (up to 15%) than the microsurgical approach.",
+        "C": "A grade 3 (visible, 'bag of worms') varicocele with abnormal semen analysis is an indication for repair, and microsurgical varicocelectomy is the gold standard with the lowest complication and recurrence (≤1%) rates.",
+        "D": "Varicocele is the most common reversible cause of male infertility; with abnormal semen parameters and pain, delaying treatment is not appropriate.",
+        "E": "Varicocele is a clinical diagnosis; ultrasound is reserved for difficult exams (body habitus, robust cremasteric reflex), and this one is visible."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-005",
+      "question": "A 25-year-old man is evaluated for a soft, nontender scrotal mass that he noticed while showering. On standing, a cluster of dilated veins is palpable above the left testis without Valsalva and becomes more prominent with Valsalva. The veins decompress when he lies supine. The right hemiscrotum is normal. Which of the following anatomic features best explains the side of his finding?",
+      "answers": {
+        "A": "Left gonadal artery originates directly from the aorta",
+        "B": "Left testicular vein drains into the IVC at an oblique angle",
+        "C": "Left testicular vein enters the left renal vein at a right angle",
+        "D": "Right testicular vein drains into the right renal vein",
+        "E": "Right testicular vein lacks valves at its proximal end"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Both gonadal arteries arise from the aorta; arterial origin does not explain venous pooling on one side.",
+        "B": "It is the right, not the left, testicular vein that drains obliquely into the IVC.",
+        "C": "About 85% of varicoceles are left-sided because the left testicular vein inserts at a right angle into the left renal vein, raising hydrostatic pressure in the left pampiniform plexus.",
+        "D": "The right testicular vein drains into the IVC, not the right renal vein.",
+        "E": "Valve absence on the right would predict right-sided varicoceles, which account for a minority of cases."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-006",
+      "question": "A 33-year-old man undergoes evaluation after 13 months of infertility. Physical examination, including testicular volume and both vasa deferentia, is normal. Results of a semen analysis, confirmed on repeat testing 3 weeks later, are shown. Which of the following best describes these findings?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "WHO Lower Reference"
+        ],
+        [
+          "Volume",
+          "2.0 mL",
+          "≥1.5 mL"
+        ],
+        [
+          "Concentration",
+          "10 million/mL",
+          "≥15 million/mL"
+        ],
+        [
+          "Total motility",
+          "30%",
+          "≥40%"
+        ],
+        [
+          "Normal morphology",
+          "6%",
+          "≥4%"
+        ],
+        [
+          "Vitality",
+          "70%",
+          "≥58%"
+        ]
+      ],
+      "answers": {
+        "A": "Asthenozoospermia alone with a normal total motile count",
+        "B": "Azoospermia requiring classification as obstructive or not",
+        "C": "Normal semen analysis requiring no further male testing",
+        "D": "Oligoasthenozoospermia with a low total motile count",
+        "E": "Teratozoospermia with a normal total motile count"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Motility is low, but concentration is also low, and the TMSC (6 million) is well below normal.",
+        "B": "Azoospermia means no sperm are seen; this sample contains 10 million/mL.",
+        "C": "Concentration and motility are below WHO 5th-percentile cutoffs, so the analysis is abnormal.",
+        "D": "Low concentration (oligozoospermia) and low motility (asthenozoospermia) are both present; TMSC = 2.0 mL × 10 million/mL × 0.30 = 6 million, far below the normal ≥40 million and the most important parameter.",
+        "E": "Morphology (6% normal forms) is above the 4% cutoff, so teratozoospermia is not present."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-007",
+      "question": "A 30-year-old man is evaluated for 2 years of infertility. He has had chronic sinusitis since childhood but no pulmonary disease. Testes are 18 cc bilaterally, but neither vas deferens is palpable. Semen volume is 0.6 mL with no sperm on two centrifuged samples. FSH, LH, and testosterone are within normal limits. In addition to genetic counseling, which of the following is the most appropriate evaluation?",
+      "answers": {
+        "A": "CFTR mutation testing and renal ultrasonography",
+        "B": "Karyotype and Y chromosome microdeletion testing",
+        "C": "Pituitary MRI and serum prolactin measurement",
+        "D": "Scrotal ultrasonography and sperm DNA fragmentation",
+        "E": "Testicular biopsy and serum anti-Müllerian hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Congenital absence of the vas deferens is most commonly due to CFTR mutation, and renal ultrasound is needed because absent vas is associated with renal anomalies (agenesis, horseshoe kidney) from common embryologic origin.",
+        "B": "Karyotype and Y microdeletion testing are for nonobstructive azoospermia; his normal testes and gonadotropins indicate obstruction.",
+        "C": "Pituitary evaluation is for hypogonadotropic hypogonadism or suspected prolactinoma, not normal gonadotropins with absent vasa.",
+        "D": "Neither test is useful in azoospermia from an absent vas; sperm DFI requires sperm and scrotal ultrasound is not routine.",
+        "E": "AMH is a marker of ovarian reserve and has no role in male infertility; biopsy is not needed to diagnose an absent vas."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-008",
+      "question": "A 35-year-old man with nonobstructive azoospermia is being counseled about surgical sperm retrieval. His testes are 10 cc bilaterally and his FSH is elevated. Semen volume is normal and both vasa deferentia are palpable. He asks which test result would most strongly indicate that microsurgical testicular sperm extraction will not find sperm. Which of the following findings would most strongly predict that sperm retrieval is impossible?",
+      "answers": {
+        "A": "AZFa deletion of the Y chromosome",
+        "B": "AZFc deletion of the Y chromosome",
+        "C": "Grade 2 left-sided varicocele",
+        "D": "Karyotype of 47,XXY",
+        "E": "Serum FSH of 25 mIU/mL"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Y chromosome AZFa (or AZFb) deletions are incompatible with spermatogenesis, so microTESE would be futile and donor sperm or adoption should be discussed.",
+        "B": "With AZFc deletions, spermatogenesis is still possible in some patients, so sperm retrieval may succeed.",
+        "C": "A varicocele can impair spermatogenesis but is reversible and does not preclude sperm retrieval.",
+        "D": "In Klinefelter syndrome, microTESE retrieves sperm in about 50% of men.",
+        "E": "Elevated FSH reflects testicular failure but does not rule out focal spermatogenesis; NOA retrieval rates are about 40–50%."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-009",
+      "question": "A 19-year-old man is evaluated for absent pubertal development. He has never been able to smell coffee or smoke. He has a high-pitched voice, sparse body hair, and prepubertal testes. He has a girlfriend and says he would like to father children within the next few years. Laboratory studies are shown. Which of the following is the most appropriate treatment?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "FSH",
+          "0.4 mIU/mL",
+          "1.5–12.4 mIU/mL"
+        ],
+        [
+          "LH",
+          "0.3 mIU/mL",
+          "1.7–8.6 mIU/mL"
+        ],
+        [
+          "Total testosterone",
+          "45 ng/dL",
+          "300–1,000 ng/dL"
+        ],
+        [
+          "Prolactin",
+          "8 ng/mL",
+          "4–15 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Cabergoline taken twice weekly",
+        "B": "Daily transdermal testosterone gel",
+        "C": "hCG and recombinant FSH injections",
+        "D": "Pseudoephedrine taken before intercourse",
+        "E": "Tadalafil taken daily at low dose"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Dopamine agonists treat hyperprolactinemia; his prolactin is normal.",
+        "B": "Testosterone replacement treats hypogonadism when fertility is not desired but suppresses intratesticular testosterone and would not induce spermatogenesis.",
+        "C": "Anosmia with hypogonadotropic hypogonadism is Kallmann syndrome (congenital failure of GnRH secretion); when fertility is desired, hCG (an LH analogue) and recombinant FSH stimulate intratesticular testosterone and spermatogenesis.",
+        "D": "Alpha-adrenergic agonists treat retrograde ejaculation, not failure of spermatogenesis.",
+        "E": "PDE5 inhibitors treat erectile dysfunction and do not correct gonadotropin deficiency."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-010",
+      "question": "A 64-year-old man reports that for the past 3 months he has had orgasms with little or no ejaculate. Erections are normal. He underwent transurethral resection of the prostate (TURP) for benign prostatic hyperplasia 4 months ago. His urine after sexual activity sometimes appears cloudy. Which of the following is the most appropriate test to confirm the diagnosis?",
+      "answers": {
+        "A": "Penile duplex Doppler ultrasonography",
+        "B": "Post-ejaculatory urinalysis for sperm",
+        "C": "Scrotal ultrasonography with Valsalva",
+        "D": "Serum FSH, LH, and testosterone",
+        "E": "Sperm DNA fragmentation index"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Penile Doppler evaluates vasculogenic erectile dysfunction; his erections are normal.",
+        "B": "TURP disrupts the bladder neck, causing retrograde ejaculation (dry orgasm); a significant number of sperm in post-ejaculatory urine is diagnostic.",
+        "C": "Scrotal ultrasound evaluates varicocele and would not explain a dry orgasm after prostate surgery.",
+        "D": "Endocrine testing evaluates oligozoospermia or hypogonadism, not loss of antegrade ejaculation after bladder neck surgery.",
+        "E": "Sperm DFI assesses DNA integrity in an ejaculated sample, which he cannot provide."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-011",
+      "question": "A 36-year-old man with a 20-year history of poorly controlled type 1 diabetes mellitus is evaluated for infertility. He has orthostatic dizziness and gastroparesis. He reports normal erections and orgasm but almost no ejaculate. Post-ejaculatory urinalysis shows numerous motile sperm. Which of the following medications is most likely to restore antegrade ejaculation?",
+      "answers": {
+        "A": "Cabergoline",
+        "B": "Finasteride",
+        "C": "Pseudoephedrine",
+        "D": "Sildenafil",
+        "E": "Tamsulosin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cabergoline lowers prolactin and has no effect on bladder neck closure.",
+        "B": "Finasteride is a 5-α-reductase inhibitor associated with ED and does not treat retrograde ejaculation.",
+        "C": "Diabetic autonomic neuropathy impairs sympathetic closure of the bladder neck; alpha-adrenergic agonists such as pseudoephedrine contract the bladder neck, vas, and seminal vesicles and can restore antegrade ejaculation.",
+        "D": "Sildenafil treats erectile dysfunction; his erections are normal.",
+        "E": "Tamsulosin is an alpha blocker that relaxes the bladder neck and is the most common medication cause of retrograde ejaculation."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-012",
+      "question": "A 41-year-old man is evaluated for 1 year of infertility, decreased libido, and erectile dysfunction. He reports milky discharge from both nipples and has been bumping into door frames on both sides. Visual field testing shows bitemporal hemianopia. Serum testosterone is low with inappropriately low LH, and serum prolactin is 310 ng/mL (N 4–15). Which of the following is the most appropriate initial treatment?",
+      "answers": {
+        "A": "Cabergoline",
+        "B": "Human chorionic gonadotropin",
+        "C": "Sildenafil",
+        "D": "Testosterone cypionate",
+        "E": "Trimix injection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A prolactinoma causes hyperprolactinemia that lowers testosterone (galactorrhea, ED, infertility) and compresses the optic chiasm; dopamine agonists such as cabergoline restore normal prolactin and testosterone.",
+        "B": "Gonadotropin therapy treats Kallmann syndrome and does not address the prolactin-secreting tumor causing his hypogonadism.",
+        "C": "A PDE5 inhibitor treats the erectile symptom only and leaves the prolactinoma and infertility untreated.",
+        "D": "Exogenous testosterone would worsen fertility by suppressing intratesticular testosterone and does not treat the tumor.",
+        "E": "Intracavernosal injection treats ED symptomatically and does not correct hyperprolactinemia or visual field loss."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-013",
+      "question": "A 31-year-old man with oligozoospermia undergoes microsurgical left varicocelectomy. He also stopped smoking cigarettes 1 week before surgery. He asks when a repeat semen analysis would show the full effect of these interventions. Which of the following is the earliest time at which repeat testing best reflects the true effect of treatment?",
+      "answers": {
+        "A": "About 10 days after surgery",
+        "B": "About 4 weeks after surgery",
+        "C": "About 3 months after surgery",
+        "D": "About 18 months after surgery",
+        "E": "About 2 years after surgery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ten days is shorter than even the 14-day transport time and would reflect sperm produced before treatment.",
+        "B": "Four weeks samples sperm that began development well before surgery.",
+        "C": "Spermatogenesis takes 64–74 days and transport through the epididymis and vas takes another 14 days, so semen analysis about 90 days after an intervention reflects its true effect.",
+        "D": "Improvement after varicocele repair appears within 3–6 months, so waiting 18 months needlessly delays decisions.",
+        "E": "Two years far exceeds the duration of spermatogenesis and would delay fertility management."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-014",
+      "question": "A 52-year-old man reports 8 months of gradually worsening difficulty maintaining erections. He has lost his morning erections and has the same difficulty during masturbation. He has hypertension and hyperlipidemia and smokes 1 pack of cigarettes daily. He has no chest pain. Serum testosterone and HbA1c are normal. Which of the following is the most appropriate additional evaluation?",
+      "answers": {
+        "A": "Cardiovascular risk evaluation",
+        "B": "Karyotype analysis",
+        "C": "MRI of the lumbosacral spine",
+        "D": "Psychiatric evaluation alone",
+        "E": "Serum prolactin measurement"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Gradual ED with vascular risk factors in a man over 50 is vasculogenic; because penile arteries are smaller than coronary arteries, ED is a harbinger of cardiac events and new vasculogenic ED warrants cardiovascular evaluation.",
+        "B": "Karyotype is used for nonobstructive azoospermia, not for ED in a middle-aged man.",
+        "C": "Spine imaging would be considered for neurogenic ED with neurologic symptoms, which he does not have.",
+        "D": "Loss of erections in all settings, including nocturnal and with masturbation, argues against psychogenic ED.",
+        "E": "Prolactin is checked when hormonal ED is suspected (low libido, low testosterone); his testosterone is normal."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-015",
+      "question": "A 26-year-old man reports 4 months of inability to maintain an erection with his new partner. Erections during masturbation are firm and sustained, and he often wakes with erections. He started a demanding new job 5 months ago and reports worrying about 'performing'. He takes no medications and does not smoke. Examination and serum testosterone are normal. Which of the following is the most likely type of erectile dysfunction?",
+      "answers": {
+        "A": "Drug-induced",
+        "B": "Hormonal",
+        "C": "Neurogenic",
+        "D": "Psychogenic",
+        "E": "Vasculogenic"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "He takes no medications associated with ED, such as beta blockers, thiazides, SSRIs, or 5-α-reductase inhibitors.",
+        "B": "Hormonal ED is due to hypogonadism or hyperprolactinemia; his testosterone is normal.",
+        "C": "Neurogenic ED follows stroke, spinal cord injury, pelvic surgery, or diabetic neuropathy and would impair all erections.",
+        "D": "Psychogenic ED is more common in younger men and is suggested by normal erections with masturbation and preserved nocturnal/morning erections, indicating intact blood flow and nerve function.",
+        "E": "Vasculogenic ED is most common in men over 50 with vascular risk factors and impairs erections in all settings."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-016",
+      "question": "A 38-year-old man has 1 year of erectile dysfunction that has not responded to sildenafil. He reports that erections begin normally but are lost within a minute. He has obesity and anxiety. To distinguish vasculogenic from psychogenic ED, Trimix is injected into the corpus cavernosum, and duplex Doppler ultrasonography of the cavernosal arteries is performed after erection develops. Results are shown. Which of the following best explains his erectile dysfunction?",
+      "table": [
+        [
+          "Measurement",
+          "Value"
+        ],
+        [
+          "Peak systolic velocity (PSV)",
+          "38 cm/s"
+        ],
+        [
+          "End-diastolic velocity (EDV)",
+          "9 cm/s"
+        ]
+      ],
+      "answers": {
+        "A": "Cavernosal arterial insufficiency",
+        "B": "Excess androgen deprivation",
+        "C": "Failure of veno-occlusion",
+        "D": "Interrupted cavernous nerve impulses",
+        "E": "Performance anxiety alone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Arterial insufficiency is indicated by a PSV <25 cm/s; his arterial inflow is normal.",
+        "B": "Androgen deprivation causes hormonal ED via undetectable testosterone and would not produce an abnormal Doppler with a normal PSV.",
+        "C": "An EDV >5 cm/s with normal PSV indicates venous leak (veno-occlusive dysfunction), a form of vasculogenic ED in which erections cannot be maintained.",
+        "D": "Neurogenic ED follows nerve injury; a direct vasodilator injection bypasses nerves, and the abnormal EDV points to a vascular cause.",
+        "E": "Psychogenic ED would show normal Doppler parameters after vasodilator injection."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-017",
+      "question": "A 65-year-old widower wishes to resume sexual activity with a new partner but has erectile dysfunction. He has well-controlled type 2 diabetes mellitus and hypertension, and he uses sublingual nitroglycerin for occasional exertional angina. Which of the following treatments is contraindicated for this patient?",
+      "answers": {
+        "A": "Inflatable penile prosthesis",
+        "B": "Intracavernosal Trimix injection",
+        "C": "Sex and couples therapy",
+        "D": "Tadalafil taken daily at low dose",
+        "E": "Vacuum erection device with band"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Penile implant surgery does not interact with nitrates and remains an option, offering the highest satisfaction of ED treatments.",
+        "B": "Intracavernosal injection acts directly on corporal smooth muscle and is safe in patients who use nitrates.",
+        "C": "Sex therapy is a behavioral option with no drug interaction.",
+        "D": "PDE5 inhibitors such as tadalafil raise cGMP and, combined with nitrates, can cause severe hypotension; they are contraindicated in men with nitrate prescriptions.",
+        "E": "A vacuum erection device with a constriction band is mechanical and safe with nitrates."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-018",
+      "question": "A 58-year-old man presents to the emergency department with a painful erection that began 6 hours ago after he self-injected Trimix for erectile dysfunction. The penile shaft is rigid and tender, but the glans is soft. Results of a blood gas from aspirated cavernosal blood are shown. Which of the following is the most appropriate initial management?",
+      "table": [
+        [
+          "Cavernosal blood gas",
+          "Value"
+        ],
+        [
+          "PO2",
+          "22 mmHg"
+        ],
+        [
+          "PCO2",
+          "74 mmHg"
+        ],
+        [
+          "pH",
+          "7.15"
+        ]
+      ],
+      "answers": {
+        "A": "Aspiration, saline irrigation, and phenylephrine injection",
+        "B": "Observation at home with ice packs and oral analgesics",
+        "C": "Oral pseudoephedrine and reassessment in 24 hours",
+        "D": "Penile duplex Doppler before any intervention",
+        "E": "Surgical shunt as the first intervention"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A painful erection ≥4 hours with rigid shaft, soft glans, and hypoxic, acidotic cavernosal blood (PO2 <30, PCO2 >60, pH <7.25) is ischemic priapism; initial treatment is bedside aspiration and irrigation plus phenylephrine, an alpha-1 agonist that causes detumescence.",
+        "B": "Ischemic priapism is a urologic emergency; delay risks permanent ED and penile scarring.",
+        "C": "Waiting 24 hours on an oral agent allows progressive ischemic damage and is not the standard approach.",
+        "D": "The cavernosal blood gas already confirms ischemic priapism, so further imaging only delays treatment.",
+        "E": "Shunt procedures are reserved for cases refractory to aspiration, irrigation, and phenylephrine."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-019",
+      "question": "A 57-year-old man reports 6 months of erectile dysfunction. He has normal libido and nocturnal erections are reduced. Nine months ago his physician added two medications to lisinopril for poorly controlled blood pressure. He also takes atorvastatin, which he has used for 5 years without problems. Serum testosterone is normal. Which of the following medications is most likely contributing to his ED?",
+      "answers": {
+        "A": "Amlodipine",
+        "B": "Doxazosin",
+        "C": "Losartan",
+        "D": "Metoprolol",
+        "E": "Spironolactone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Calcium channel blockers are not among the antihypertensives this lecture highlights as causes of ED.",
+        "B": "Alpha blockers relax the bladder neck and are associated with ejaculatory dysfunction rather than being a classic cause of ED.",
+        "C": "Angiotensin receptor blockers are not among the antihypertensives this lecture highlights as causes of ED.",
+        "D": "Beta blockers (along with thiazide diuretics) are the antihypertensives most associated with drug-induced ED, and medication adjustment, such as changing antihypertensive class, is a first-line ED intervention.",
+        "E": "Spironolactone can cause gynecomastia and libido changes from antiandrogen effects, but the lecture specifically highlights beta blockers and thiazides for ED."
+      }
+    },
+    {
+      "id": "endorepro-testicular-and-erectile-dysfunction-020",
+      "question": "A 66-year-old man with diabetes underwent first-time placement of an inflatable penile prosthesis 3 weeks ago after failing oral PDE5 inhibitors and intracavernosal injections. He now has fever to 38.6°C (101.5°F), scrotal erythema and swelling around the pump, and purulent drainage from the incision. Which of the following is the most appropriate management?",
+      "answers": {
+        "A": "Intravenous antibiotics alone, keeping the implant",
+        "B": "Removal of all implant components plus antibiotics",
+        "C": "Removal of the pump alone, keeping the cylinders",
+        "D": "Topical antibiotics and warm compresses at home",
+        "E": "Wound drainage and cylinder deflation only"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Antibiotics alone cannot clear an infected prosthesis; the device acts as a nidus for persistent infection.",
+        "B": "Penile implant infection (1–4% of first-time cases, 10% of revisions) requires explantation of all implant components in addition to antibiotic therapy.",
+        "C": "Leaving any component behind leaves infected foreign material; all components must be removed.",
+        "D": "Fever and purulent drainage indicate a deep device infection that topical therapy cannot treat.",
+        "E": "Drainage and deflation do not remove the infected device and would leave the infection untreated."
+      }
+    }
+  ]
+}

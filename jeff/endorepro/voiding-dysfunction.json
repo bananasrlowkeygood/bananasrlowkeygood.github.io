@@ -1,0 +1,512 @@
+{
+  "lecture": "Voiding Dysfunction",
+  "block": "endorepro",
+  "generated": "2026-10-22",
+  "questions": [
+    {
+      "id": "endorepro-voiding-dysfunction-001",
+      "question": "A 51-year-old woman, gravida 4 para 4, reports leaking small amounts of urine when she coughs, sneezes, or lifts her grandchildren. She has no urgency and voids 6 times daily. BMI is 33 kg/m². Urinalysis is normal. On pelvic exam, the urethra rotates downward and urine spurts from the meatus with each cough and Valsalva maneuver. Which mechanism best explains her incontinence?",
+      "answers": {
+        "A": "Involuntary detrusor contractions during filling",
+        "B": "Loss of peri-urethral support of the urethra",
+        "C": "Loss of urethral mucosal coaptation",
+        "D": "Over-distension from chronic urinary retention",
+        "E": "Urethral obstruction from a kinked outlet"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Involuntary detrusor contractions cause urgency incontinence with a sudden urge, not leakage triggered only by cough and lifting.",
+        "B": "Correct: visible urethral hypermobility on cough/Valsalva shows loss of peri-urethral support, letting sudden rises in abdominal pressure overcome urethral resistance (stress incontinence).",
+        "C": "Loss of mucosal coaptation is intrinsic sphincter deficiency, the other stress incontinence mechanism; it does not produce a visibly hypermobile urethra.",
+        "D": "Retention with over-distension causes overflow incontinence, which needs urinary retention as a prerequisite; she voids normally.",
+        "E": "A cystocele that kinks the urethra causes outlet obstruction and impaired emptying, not leakage with cough."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-002",
+      "question": "A 69-year-old man has had severe urinary leakage with coughing, standing, and walking since a radical prostatectomy 2 years ago. He uses 6 pads daily despite a year of supervised pelvic floor physical therapy. He has no urgency, and post-void residual is 20 mL. He is a retired watchmaker with excellent manual dexterity. Which treatment is most appropriate?",
+      "answers": {
+        "A": "Artificial urinary sphincter",
+        "B": "Autologous pubovaginal fascial sling",
+        "C": "Mirabegron",
+        "D": "OnabotulinumtoxinA injection",
+        "E": "Peri-urethral bulking agent"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the artificial sphincter is used for male patients with moderate-severe stress incontinence and the manual dexterity to work its pump (~80% success).",
+        "B": "Fascial slings are used only in female patients; men receive synthetic slings.",
+        "C": "Mirabegron is a β3 agonist for overactive bladder; it relaxes the detrusor and does nothing for sphincter weakness.",
+        "D": "Bladder onabotulinumtoxinA treats refractory urgency incontinence by blocking ACh release and would not improve stress leakage.",
+        "E": "Bulking agents target mild-moderate stress incontinence; six pads a day is severe."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-003",
+      "question": "A 33-year-old man undergoes retroperitoneal surgery near the aortic bifurcation and the superior hypogastric plexus is inadvertently transected bilaterally. The pelvic and pudendal nerves are intact. Which receptor-mediated effect on the lower urinary tract is most likely lost?",
+      "explanationImage": {
+        "src": "images/voiding-dysfunction/003-exp.png",
+        "caption": "Lower urinary tract innervation: pelvic (parasympathetic, M3+), hypogastric (sympathetic, β3− and α1+), pudendal (somatic, nicotinic+)",
+        "credit": "Slides p. 24"
+      },
+      "answers": {
+        "A": "ATP-mediated non-adrenergic detrusor contraction",
+        "B": "Muscarinic-mediated detrusor contraction",
+        "C": "Nicotinic-mediated external sphincter contraction",
+        "D": "Somatic contraction of the striated pelvic floor",
+        "E": "β3-mediated detrusor relaxation during filling"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "ATP- and NO-mediated (NANC) transmission travels with the parasympathetic pelvic nerves, which are intact.",
+        "B": "Muscarinic (M2 > M3) detrusor contraction is driven by ACh from the parasympathetic pelvic nerve, which is intact.",
+        "C": "Nicotinic contraction of the striated external sphincter is driven by the somatic pudendal nerve, which is intact.",
+        "D": "Pelvic floor and external sphincter striated muscle are controlled by somatic pudendal fibers, which are intact.",
+        "E": "Correct: the hypogastric nerve carries most sympathetic input (T10-L2); its noradrenaline relaxes the bladder via β3 receptors and contracts the bladder neck via α receptors."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-004",
+      "question": "A 22-year-old medical student volunteers for a urodynamic study with simultaneous detrusor pressure and external sphincter EMG recordings. Her bladder is filled to 400 mL and she reports a strong desire to void. When she is given permission to void, the investigators note the sequence of events. Which event is the first step of the normal micturition reflex?",
+      "answers": {
+        "A": "Involuntary contraction of the bladder neck",
+        "B": "Involuntary relaxation of the trigone",
+        "C": "Simultaneous detrusor contraction and urethral relaxation",
+        "D": "Sympathetic activation of β3 receptors",
+        "E": "Voluntary relaxation of the external sphincter"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Bladder neck (α-adrenergic) contraction occurs during storage; during voiding urethral smooth muscle relaxes.",
+        "B": "The trigone is not described as the initiating event; the first step is voluntary and involves striated muscle.",
+        "C": "This is the second step, an involuntary event that follows sphincter relaxation.",
+        "D": "β3 activation relaxes the detrusor and supports storage, not voiding.",
+        "E": "Correct: micturition begins with voluntary relaxation of the striated external urethral sphincter, followed by simultaneous detrusor contraction and urethral smooth muscle relaxation."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-005",
+      "question": "A 57-year-old woman reports a sudden, compelling need to urinate that is hard to defer, and she sometimes cannot make it to the bathroom in time. She drinks 5 cups of coffee and 3 diet sodas daily. She has no leakage with coughing. Urinalysis is normal, and pelvic exam shows no prolapse. A 3-day voiding diary is shown. Which is the most appropriate initial management?",
+      "table": [
+        [
+          "Voiding diary (daily average)",
+          "Value",
+          "Typical"
+        ],
+        [
+          "Daytime voids",
+          "13",
+          "≤ 8"
+        ],
+        [
+          "Nighttime voids",
+          "2",
+          "0–1"
+        ],
+        [
+          "Urgency episodes",
+          "9",
+          "0"
+        ],
+        [
+          "Urgency leakage episodes",
+          "2",
+          "0"
+        ],
+        [
+          "Fluid intake",
+          "2.9 L",
+          "1.5–2 L"
+        ]
+      ],
+      "answers": {
+        "A": "Augmentation cystoplasty",
+        "B": "Behavioral therapy",
+        "C": "OnabotulinumtoxinA injection",
+        "D": "Oral solifenacin",
+        "E": "Sacral neuromodulation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bladder augmentation with bowel is fourth-line, after behavioral, medical and neuromodulation therapy.",
+        "B": "Correct: first-line OAB treatment is behavioral therapy (fluid management and cutting caffeine, artificial sweeteners and carbonated drinks); it has no risks and is offered to all.",
+        "C": "Chemodenervation is a third-line option after behavioral and medical therapy.",
+        "D": "Antimuscarinics are second-line; behavioral changes come first, especially with heavy caffeine intake.",
+        "E": "Sacral neuromodulation is third-line therapy for overactive bladder."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-006",
+      "question": "A 79-year-old woman with overactive bladder started oxybutynin 3 months ago, and her urgency has improved. Her daughter now reports that she has become forgetful and confused, and she complains of dry mouth and constipation. Mini-mental status score has dropped from 28 to 23. Which medication is the most appropriate replacement?",
+      "answers": {
+        "A": "Darifenacin",
+        "B": "Mirabegron",
+        "C": "Phenylephrine",
+        "D": "Tamsulosin",
+        "E": "Tolterodine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Darifenacin is another antimuscarinic and shares the same class side effects, including impaired cognition.",
+        "B": "Correct: mirabegron is a β3 agonist that inhibits detrusor contraction without antimuscarinic effects such as cognitive impairment, dry mouth and constipation.",
+        "C": "An α agonist contracts the bladder neck and is a risk factor for retention and overflow incontinence, not an OAB treatment.",
+        "D": "An α antagonist treats bladder neck and prostatic obstruction, not detrusor overactivity.",
+        "E": "Tolterodine is an antimuscarinic and can also impair cognitive function."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-007",
+      "question": "A 63-year-old woman with overactive bladder was started on a new once-daily medication 6 weeks ago. Her urgency has improved, but at follow-up she reports palpitations and headaches. She has no history of hypertension. Her vital signs are shown. Which mechanism of action best describes the drug responsible?",
+      "table": [
+        [
+          "Vital sign",
+          "Before drug",
+          "Now"
+        ],
+        [
+          "Blood pressure",
+          "124/78 mm Hg",
+          "152/94 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "72/min",
+          "94/min"
+        ],
+        [
+          "Temperature",
+          "36.8°C",
+          "36.9°C"
+        ]
+      ],
+      "answers": {
+        "A": "Agonism at β3-adrenergic receptors",
+        "B": "Antagonism at muscarinic receptors",
+        "C": "Antagonism at α1-adrenergic receptors",
+        "D": "Blockade of presynaptic acetylcholine release",
+        "E": "Inhibition of 5-α reductase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: β3 agonists (mirabegron, vibegron) relax the detrusor and can cause elevated blood pressure, palpitations, nasopharyngitis and headache.",
+        "B": "Antimuscarinics cause dry mouth, constipation, blurred vision and cognitive impairment rather than hypertension.",
+        "C": "α antagonists relax the bladder neck for obstruction and would lower blood pressure, not raise it.",
+        "D": "OnabotulinumtoxinA is injected into the bladder, not taken daily; its risks are UTI and retention.",
+        "E": "5-α reductase inhibitors shrink the prostate and are not used for OAB in women."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-008",
+      "question": "A 66-year-old woman with refractory urgency incontinence failed behavioral therapy and two different oral medications. Cystoscopy is performed and a drug is injected at multiple sites across the bladder wall. Two weeks later she has difficulty emptying her bladder, and post-void residual is 400 mL. Which mechanism of the injected drug explains her new symptom?",
+      "answers": {
+        "A": "Activation of β3 receptors on the detrusor",
+        "B": "Blockade of postsynaptic nicotinic receptors",
+        "C": "Blockade of presynaptic acetylcholine release",
+        "D": "Denervation of the hypogastric nerve",
+        "E": "Stimulation of α1 receptors at the bladder neck"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "β3 agonists are oral drugs; bladder injection describes chemodenervation with onabotulinumtoxinA.",
+        "B": "Nicotinic receptors are at the striated external sphincter; blocking them would weaken the sphincter rather than cause retention.",
+        "C": "Correct: onabotulinumtoxinA blocks presynaptic ACh release, inhibiting detrusor contraction; 1–5% develop temporary retention, so patients must be willing to catheterize.",
+        "D": "Loss of sympathetic input would remove β3 relaxation, favouring overactivity rather than retention.",
+        "E": "α agonism can cause retention, but no α agonist is injected into the detrusor for OAB."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-009",
+      "question": "A 24-year-old man is admitted after a motorcycle crash with a complete spinal cord injury at T6. Three days later the nurse notes he has not voided since his Foley catheter was removed 10 hours ago. His lower abdomen is distended and dull to percussion. Bladder scan findings are shown. Which best explains his urinary findings?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference"
+        ],
+        [
+          "Bladder scan volume",
+          "950 mL",
+          "< 400–500 mL"
+        ],
+        [
+          "Hours since last void",
+          "10",
+          "—"
+        ],
+        [
+          "Serum creatinine",
+          "0.9 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Acontractile detrusor from spinal shock",
+        "B": "Failure of the internal sphincter to relax",
+        "C": "Involuntary detrusor contractions",
+        "D": "Lower motor neuron injury to the pelvic nerves",
+        "E": "Urethral stricture from trauma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: spinal shock causes an initial hypocontractile or acontractile detrusor with urinary retention, lasting about 6 weeks after spinal cord injury.",
+        "B": "Primary bladder neck obstruction is a non-traumatic outlet problem treated with α antagonists, not the cause of retention right after SCI.",
+        "C": "Involuntary detrusor contractions (OAB, urgency incontinence) develop after spinal shock resolves, not in the first days.",
+        "D": "Lower motor neuron lesions (cauda equina, radical pelvic surgery) cause permanent acontractility; a T6 cord lesion is upper motor neuron.",
+        "E": "A stricture causes obstruction with a weak stream, but there is no urethral injury and retention follows the cord injury itself."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-010",
+      "question": "A 31-year-old man had a complete spinal cord injury at T8 nine months ago. Early after the injury he needed catheterization for retention. Now he reports sudden leaking episodes between catheterizations, often with little warning, at bladder volumes of about 150 mL. Urinalysis shows no infection. Which mechanism best explains his current symptoms?",
+      "answers": {
+        "A": "Acontractile detrusor with overflow",
+        "B": "Involuntary detrusor contractions",
+        "C": "Loss of urethral mucosal coaptation",
+        "D": "Loss of urothelial barrier function",
+        "E": "Urethral hypermobility from pelvic floor laxity"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An acontractile detrusor was the spinal shock phase, which resolves by about 6 weeks.",
+        "B": "Correct: after spinal shock, spinal cord lesions remove central inhibition, so involuntary detrusor contractions cause overactive bladder and urgency incontinence.",
+        "C": "Intrinsic sphincter deficiency causes stress incontinence with exertion, not leakage at low volumes with no warning.",
+        "D": "The urothelium is an impermeable barrier; its loss does not explain low-volume involuntary emptying.",
+        "E": "Urethral hypermobility causes stress incontinence with cough/Valsalva, especially in women."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-011",
+      "question": "A 64-year-old man undergoes abdominoperineal resection for low rectal cancer. After the catheter is removed on postoperative day 5, he cannot void, and a bladder scan shows 1,100 mL. Three months later he still requires catheterization. He has no prostatic enlargement and urethral calibration is normal. Which pattern of lower urinary tract dysfunction is most likely?",
+      "answers": {
+        "A": "Acontractile detrusor from lower motor neuron injury",
+        "B": "Detrusor overactivity from loss of central inhibition",
+        "C": "Dysfunctional voiding from a non-relaxing external sphincter",
+        "D": "Spinal shock with expected recovery at 6 weeks",
+        "E": "Stress incontinence from sphincter deficiency"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: nerve injury during radical pelvic surgery is a lower motor neuron lesion, which causes an acontractile detrusor and urinary retention.",
+        "B": "Loss of central inhibition follows lesions above the sacral cord (CVA, SCI, MS) and causes urgency incontinence, not persistent retention.",
+        "C": "Dysfunctional voiding is failure of voluntary sphincter relaxation, treated with biofeedback; it is not a nerve injury pattern.",
+        "D": "Spinal shock follows spinal cord injury, and he still has retention at 3 months.",
+        "E": "His problem is inability to empty, not leakage with exertion."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-012",
+      "question": "A 34-year-old woman has had two episodes of painful monocular vision loss and one episode of leg numbness over the past 3 years. She now reports urinary urgency, frequency of 12 voids daily, and leaking before she reaches the toilet. Urinalysis is normal and post-void residual is 30 mL. MRI of the brain shows periventricular white matter lesions. Which finding is most likely on urodynamic testing?",
+      "answers": {
+        "A": "Acontractile detrusor with a large bladder capacity",
+        "B": "Involuntary detrusor contractions during filling",
+        "C": "Leakage only with increased abdominal pressure",
+        "D": "Non-relaxing internal sphincter during voiding",
+        "E": "Reduced sensation with delayed first desire"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An acontractile detrusor causes retention and is typical of lower motor neuron lesions; her residual is low.",
+        "B": "Correct: demyelinating lesions such as multiple sclerosis cause loss of central inhibition, with involuntary detrusor contractions producing overactive bladder and urgency incontinence.",
+        "C": "Leakage with rises in abdominal pressure is stress incontinence, not urgency with neurologic disease.",
+        "D": "Failure of the internal sphincter to relax is primary bladder neck obstruction, which causes a weak stream and incomplete emptying.",
+        "E": "Reduced sensation would suggest a peripheral or sensory neuropathy, not urgency at low volumes."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-013",
+      "question": "A 73-year-old man is admitted with a left middle cerebral artery stroke. On hospital day 2 he is unable to void and requires catheterization for a bladder volume of 800 mL. He has no history of voiding problems and his prostate is normal-sized on exam. Assuming the typical course, which urinary problem is he most likely to have in the chronic phase?",
+      "answers": {
+        "A": "Overflow incontinence from persistent retention",
+        "B": "Stress incontinence with coughing",
+        "C": "Urethral stricture with weak stream",
+        "D": "Urgency incontinence from detrusor overactivity",
+        "E": "Voiding dysfunction from a non-relaxing sphincter"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The acontractile detrusor of acute CVA is usually temporary, so persistent retention with overflow is not the typical chronic pattern.",
+        "B": "Stroke does not weaken urethral support or the sphincter mechanism.",
+        "C": "A stricture is scar tissue in the urethra and is unrelated to stroke.",
+        "D": "Correct: lesions above the brain stem remove central inhibition of micturition, so involuntary detrusor contractions cause OAB and urgency incontinence; CVA may first present with retention from an acontractile detrusor.",
+        "E": "Dysfunctional voiding is a learned failure to relax the external sphincter, not a consequence of stroke."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-014",
+      "question": "A 76-year-old man reports constant dribbling of urine day and night for 2 months. He has had a weak stream and hesitancy for years. He has a palpable, nontender suprapubic mass that disappears after catheterization. Digital rectal exam shows a smooth, symmetrically enlarged prostate. Laboratory results are shown. Which type of incontinence is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference"
+        ],
+        [
+          "Post-void residual",
+          "850 mL",
+          "< 100 mL"
+        ],
+        [
+          "Serum creatinine",
+          "1.8 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "Urinalysis",
+          "No leukocytes or nitrites",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Functional incontinence",
+        "B": "Overflow incontinence",
+        "C": "Stress incontinence",
+        "D": "Total incontinence from fistula",
+        "E": "Urgency incontinence"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Functional incontinence implies an intact lower urinary tract with a barrier to reaching the toilet; he has retention.",
+        "B": "Correct: overflow incontinence results from bladder over-distension; urinary retention is a prerequisite, here from bladder outlet obstruction by prostatic enlargement.",
+        "C": "Stress incontinence is leakage with cough or Valsalva and requires a low post-void residual.",
+        "D": "A fistula causes continuous leakage but no retention or palpable bladder.",
+        "E": "Urgency incontinence is leakage with a sudden compelling urge from involuntary detrusor contractions, not constant dribbling with retention."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-015",
+      "question": "A 32-year-old man has had a weak, slow urinary stream and a feeling of incomplete emptying since adolescence. Digital rectal exam shows a small, normal prostate. Urethral calibration and cystoscopy show no stricture. Video-urodynamics shows a strong detrusor contraction with a quiet external sphincter EMG, but the bladder neck fails to open during voiding. Uroflow results are shown. Which treatment is most appropriate?",
+      "table": [
+        [
+          "Uroflowmetry",
+          "Value",
+          "Reference"
+        ],
+        [
+          "Maximum flow rate",
+          "7 mL/s",
+          "> 15 mL/s"
+        ],
+        [
+          "Voided volume",
+          "310 mL",
+          "> 150 mL"
+        ],
+        [
+          "Post-void residual",
+          "160 mL",
+          "< 100 mL"
+        ]
+      ],
+      "answers": {
+        "A": "Finasteride",
+        "B": "Oxybutynin",
+        "C": "Pelvic floor biofeedback",
+        "D": "Phenylephrine",
+        "E": "Tamsulosin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "5-α reductase inhibitors shrink an enlarged prostate; his prostate is normal.",
+        "B": "An antimuscarinic weakens detrusor contraction and would worsen emptying.",
+        "C": "Biofeedback treats dysfunctional voiding (non-relaxing external sphincter); his external sphincter EMG is quiet.",
+        "D": "An α agonist would further contract the bladder neck and worsen obstruction.",
+        "E": "Correct: primary bladder neck obstruction is failure of the involuntary internal sphincter (bladder neck) to relax, treated with an α receptor antagonist."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-016",
+      "question": "A 25-year-old woman reports a hesitant, interrupted urinary stream and straining to void for 3 years. Neurologic exam and spinal MRI are normal. During urodynamic testing, the detrusor contracts normally, but external sphincter EMG activity increases instead of falling silent during the voiding phase. Which treatment is most appropriate?",
+      "answers": {
+        "A": "Bladder augmentation with bowel",
+        "B": "Indwelling urethral catheter",
+        "C": "Mirabegron",
+        "D": "Pelvic floor biofeedback",
+        "E": "Tamsulosin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Augmentation cystoplasty is fourth-line therapy for refractory overactive bladder, not for a sphincter that will not relax.",
+        "B": "A chronic indwelling catheter carries UTI risk and needs changing every 4 weeks; it does not address the cause.",
+        "C": "A β3 agonist relaxes the detrusor and would not improve sphincter coordination.",
+        "D": "Correct: dysfunctional voiding is failure of the voluntary external sphincter to relax; biofeedback teaches patients to control the pelvic floor and coordinate sphincter relaxation with detrusor contraction.",
+        "E": "α antagonists treat failure of the involuntary internal sphincter (bladder neck), not the striated external sphincter."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-017",
+      "question": "A 54-year-old woman underwent a synthetic midurethral sling for stress incontinence 4 weeks ago. Since surgery she has had a weak stream, straining to void, and a sensation of incomplete emptying. Her stress leakage has resolved. Post-void residual is 350 mL and urinalysis is negative. Pelvic exam shows no prolapse. Which is the most appropriate management?",
+      "answers": {
+        "A": "Anterior repair of a cystocele",
+        "B": "Artificial urinary sphincter placement",
+        "C": "Loosening or removal of the sling",
+        "D": "Oral oxybutynin",
+        "E": "Peri-urethral bulking agent"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Correcting a cystocele treats prolapse-related kinking; she has no prolapse.",
+        "B": "An artificial sphincter treats severe stress incontinence in men and would increase outlet resistance further.",
+        "C": "Correct: a sling placed too tight causes bladder outlet obstruction, treated by loosening or removing (part of) the sling.",
+        "D": "An antimuscarinic reduces detrusor contraction and would worsen retention.",
+        "E": "Bulking agents add outlet resistance for stress incontinence and can themselves cause transient retention."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-018",
+      "question": "A 68-year-old woman, gravida 5 para 5, reports a vaginal bulge, slow stream, and needing to push the bulge back to finish voiding. Post-void residual is 240 mL. On exam, the anterior vaginal wall descends beyond the hymen with Valsalva. Which mechanism best explains her impaired bladder emptying?",
+      "answers": {
+        "A": "Acontractile detrusor from pelvic nerve injury",
+        "B": "Failure of the bladder neck to relax",
+        "C": "Involuntary detrusor contractions",
+        "D": "Kinking of the urethra by a cystocele",
+        "E": "Loss of urethral mucosal coaptation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Lower motor neuron injury causes retention but would not improve when the bulge is reduced.",
+        "B": "Primary bladder neck obstruction is a functional failure of the internal sphincter, typically in young men without prolapse.",
+        "C": "Involuntary contractions cause urgency incontinence, not impaired emptying relieved by reducing a bulge.",
+        "D": "Correct: pelvic organ prolapse with a cystocele mechanically kinks the urethra/bladder neck, obstructing the outlet; treatment is to correct the cystocele.",
+        "E": "Intrinsic sphincter deficiency causes stress leakage, not obstruction."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-019",
+      "question": "A 71-year-old man with weak stream, nocturia, and incomplete emptying is found to have a smooth, markedly enlarged prostate (estimated 80 g). PSA is consistent with benign enlargement. He is started on a medication and told that his symptoms will improve gradually over 6 months as his prostate shrinks. Which mechanism of action best describes this medication?",
+      "answers": {
+        "A": "Blockade of muscarinic receptors on the detrusor",
+        "B": "Blockade of testosterone conversion to DHT",
+        "C": "Blockade of α1 receptors at the bladder neck",
+        "D": "Inhibition of phosphodiesterase-5",
+        "E": "Stimulation of β3 receptors on the detrusor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Antimuscarinics treat overactive bladder and can worsen retention in outlet obstruction.",
+        "B": "Correct: 5-α reductase inhibitors block conversion of testosterone to dihydrotestosterone and thereby reduce prostate size over months.",
+        "C": "α antagonists relax smooth muscle at the bladder neck quickly but do not shrink the prostate.",
+        "D": "PDE-5 inhibitors relax smooth muscle at the bladder neck rather than shrinking the gland.",
+        "E": "β3 agonists relax the detrusor for OAB and do not change prostate size."
+      }
+    },
+    {
+      "id": "endorepro-voiding-dysfunction-020",
+      "question": "A 29-year-old woman has acute bacterial cystitis with dysuria. She describes an intense desire to void at bladder volumes of only 60–80 mL, compared with about 300 mL when she is well. Bladder afferent fibers that normally signal bladder fullness during routine filling have become hyperexcitable. Which fibers are these, and where are they located?",
+      "answers": {
+        "A": "Aδ fibers in the detrusor muscle",
+        "B": "Aδ fibers in the urothelium",
+        "C": "C fibers in the adventitia",
+        "D": "C fibers in the urothelium",
+        "E": "Somatic fibers in the pudendal nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: Aδ fibers in the detrusor sense bladder fullness (wall tension), and inflammation makes them discharge more at a lower threshold.",
+        "B": "Aδ fibers lie in the detrusor muscle; the urothelium contains unmyelinated C fibers.",
+        "C": "C fibers lie in the urothelium, not the adventitia, and do not signal routine filling.",
+        "D": "Urothelial C fibers have a higher threshold, are silent during normal filling, and sense overdistension and noxious stimuli.",
+        "E": "Pudendal somatic fibers control the striated sphincter and pelvic floor; bladder afferents travel in the pelvic and hypogastric nerves."
+      }
+    }
+  ]
+}
