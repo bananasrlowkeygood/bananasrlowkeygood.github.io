@@ -6,7 +6,8 @@ description: >
   for questions, quizzes, or to "quizify" content. Also trigger for "Step 1 questions",
   "board-style questions", "add to jeff", or "add to question bank".
   Infers the lecture name and block (neuro, endorepro, msk) from the content and writes a JSON
-  file to ~/Downloads/jeff/{block}/{slug}.json — the exact path needed for manual upload to the repo.
+  file to ~/Downloads/jeff/{block}/{slug}.json (plus any images under images/{slug}/) — the exact
+  paths needed for manual upload to the repo.
 ---
 
 # Quizify — Jeff Question Bank
@@ -95,6 +96,32 @@ Table format — first row is headers:
 
 Use tables for at least 3–4 questions per set where clinically appropriate (lab interpretation questions, management questions where values drive decision-making).
 
+### When to Include an Image
+
+Most questions need no image. Add one only when seeing something is the point of the question or makes the answer clearer: histology, gross pathology, imaging (X-ray, CT, MRI), skin or eye findings, peripheral smears, ECGs, or an anatomy or pathway diagram from the lecture. Lab values go in a `"table"`, never an image. There is no quota; a set with no images is fine.
+
+Two optional fields, each a path or an object:
+
+```json
+"image": { "src": "images/{slug}/003.jpg", "caption": "Thyroid biopsy, H&E", "credit": "Slides p. 14" },
+"explanationImage": { "src": "images/{slug}/003-exp.png", "caption": "Papillary architecture with Orphan Annie nuclei", "credit": "Wikimedia Commons, CC BY-SA 4.0" }
+```
+
+- `image` shows under the stem. Its caption must not give the answer away ("Biopsy of the nodule, H&E", not "Papillary carcinoma").
+- `explanationImage` shows under the explanations once the question is answered. Use it when showing the picture earlier would give away the answer, or for a labelled diagram that explains the mechanism.
+- `src` is relative to the block folder, so it always starts `images/{slug}/`. `caption` and `credit` are optional; always give `credit` (the slide page, or the source and license for web images).
+
+**Where to get the image, in this order:**
+
+1. **The lecture PDFs.** List the embedded images with `pdfimages -list file.pdf`, (images the size of the whole page are usually the slide template's background; skip them), then pull one page's images with `pdfimages -png -f N -l N file.pdf <dir>/p`. Slide images are often split into pieces or carry masks; if so, render just that region of the page instead: `pdftoppm -png -r 200 -f N -l N -x X -y Y -W W -H H file.pdf <dir>/crop` (pixels at 200 dpi). Crop out slide titles and labels that name the answer.
+2. **The web**, when the lecture has no suitable picture. Prefer Wikimedia Commons and other openly licensed sources (CC BY, CC BY-SA, public domain); note the license in `credit`. Download the original file with `curl -L` into a new, empty directory, and check it is an image with `file`.
+
+**Before using any image, open it with the Read tool and confirm it shows what the question says it shows.** Wrong or ambiguous images are worse than none.
+
+**Size.** Shrink to at most 1200 px on the long side: `sips -Z 1200 in.png --out out.png`. Save photos (histology, imaging, skin) as JPEG (`sips -s format jpeg -s formatOptions 80 in.png --out out.jpg`) and diagrams as PNG. Aim for under 300 KB each.
+
+**Naming.** `{NNN}.jpg` or `{NNN}.png` after the question number (`003.jpg`), with `-exp` for an explanation image (`003-exp.png`).
+
 ### Per-Question Explanation
 
 Each choice gets its own explanation:
@@ -115,6 +142,7 @@ Each choice gets its own explanation:
       "id": "{block}-{slug}-001",
       "question": "Full vignette question stem ending with a question mark",
       "table": [["Col1", "Col2", "Col3"], ["row1a", "row1b", "row1c"]],
+      "image": { "src": "images/{slug}/001.jpg", "caption": "Neutral description", "credit": "Slides p. 7" },
       "answers": {
         "A": "First choice",
         "B": "Second choice",
@@ -135,7 +163,7 @@ Each choice gets its own explanation:
 }
 ```
 
-**Omit `"table"` entirely for questions that do not use one.** Do not include it as null or empty.
+**Omit `"table"`, `"image"` and `"explanationImage"` entirely for questions that do not use them.** Do not include them as null or empty.
 
 Use today's date (`date +%Y-%m-%d`) for the `generated` field.
 
@@ -149,9 +177,11 @@ Create the directory and write the JSON file to the path that matches the repo s
 mkdir -p ~/Downloads/jeff/{block}
 # Write JSON to:
 ~/Downloads/jeff/{block}/{slug}.json
+# Images, if any, to:
+~/Downloads/jeff/{block}/images/{slug}/
 ```
 
-Report back: lecture name inferred, block assigned, number of questions written, and the full file path saved.
+Report back: lecture name inferred, block assigned, number of questions written, how many have images and where each came from, and the full file path saved. If there are images, say to upload the `images` folder along with the JSON (both go in the repo's `jeff/{block}/`).
 
 ---
 
@@ -169,3 +199,4 @@ Before saving, verify each question:
 - [ ] Tests reasoning, not pure recall
 - [ ] Explanation covers all 5 choices individually
 - [ ] Table included where lab values are referenced
+- [ ] Any image was opened and checked, its caption does not give the answer away, and its file is saved under `images/{slug}/`

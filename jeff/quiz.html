@@ -244,6 +244,23 @@
     }
     .lab-table tr:nth-child(even) td { background: #fafafa; }
 
+    /* ── Question images ── */
+    .q-figure { margin: 0.75rem 0 0; }
+    .q-figure img {
+      display: block;
+      max-width: 100%;
+      max-height: 380px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      cursor: zoom-in;
+    }
+    .q-figure figcaption {
+      margin-top: 0.3rem;
+      font-size: 0.75rem;
+      line-height: 1.45;
+      color: #777;
+    }
+
     /* ── Answers ── */
     .answers {
       display: flex;
@@ -1394,6 +1411,35 @@
     return `<table class="lab-table"><thead><tr>${ths}</tr></thead><tbody>${trs}</tbody></table>`;
   }
 
+  // A question may carry an image: "image" sits under the stem, "explanationImage"
+  // under the explanations. Either is a path relative to the lecture's block
+  // folder (or a full URL), or { src, caption, credit }.
+  function renderFigure(img, q) {
+    if (typeof img === 'string') img = { src: img };
+    if (!img || !img.src) return null;
+    const src = /^(https?:)?\/\//.test(img.src) ? img.src
+              : `${q._block || block}/${img.src.replace(/^\.?\//, '')}`;
+    const fig = document.createElement('figure');
+    fig.className = 'q-figure';
+    const a = document.createElement('a');
+    a.href = src;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    const el = document.createElement('img');
+    el.src = src;
+    el.alt = img.alt || img.caption || '';
+    el.loading = 'lazy';
+    a.appendChild(el);
+    fig.appendChild(a);
+    const note = [img.caption, img.credit].filter(Boolean).join(', ');
+    if (note) {
+      const cap = document.createElement('figcaption');
+      cap.textContent = note;
+      fig.appendChild(cap);
+    }
+    return fig;
+  }
+
   function parseMarkdownTable(text) {
     const lines = text.split('\n');
     const tableLines = [];
@@ -1676,6 +1722,9 @@
       wrap.innerHTML = tableHtml;
       qTextEl.appendChild(wrap);
     }
+
+    const fig = renderFigure(q.image, q);
+    if (fig) qTextEl.appendChild(fig);
 
     const answersEl = document.getElementById('answers');
     answersEl.innerHTML = '';
@@ -1968,6 +2017,8 @@
       div.appendChild(body);
       expItems.appendChild(div);
     });
+    const expFig = renderFigure(q.explanationImage, q);
+    if (expFig) expItems.appendChild(expFig);
     const links = document.getElementById('expLinks');
     links.innerHTML = '';
     (lecturePdfs[`${q._block || block}/${q._file}`] || []).forEach(p => {
