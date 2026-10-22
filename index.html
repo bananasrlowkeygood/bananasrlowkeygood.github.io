@@ -83,7 +83,7 @@
       const score = p => {
         const name = p.replace(/\/$/, "").split("/").pop().toLowerCase();
         const page = p.endsWith("/") ? 0 : 4;
-        if (name.startsWith(v)) return page;
+        if (name.startsWith(v) || p.toLowerCase().startsWith(v)) return page;
         if (name.includes(v)) return page + 1;
         if (p.toLowerCase().includes(v)) return page + 2;
         return -1;
