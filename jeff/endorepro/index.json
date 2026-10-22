@@ -32,6 +32,11 @@
       ]
     },
     {
+      "file": "case-vignettes-urologic-emergencies.json",
+      "name": "Case Vignettes - Urologic Emergencies",
+      "count": 20
+    },
+    {
       "file": "chronic-complications-of-diabetes.json",
       "name": "Chronic Complications of Diabetes",
       "count": 20,
@@ -95,6 +100,11 @@
           "file": "10.12.26-ANAT_HistologyLab_Endocrine-Organs_Spudich_PrelabSlides-c082794324.pdf"
         }
       ]
+    },
+    {
+      "file": "histology-of-the-ovary-and-organs-of-the-ovum-pathway.json",
+      "name": "Histology of the Ovary and Organs of the Ovum Pathway",
+      "count": 20
     },
     {
       "file": "histology-of-the-testis-and-sperm-release-pathway.json",
@@ -232,6 +242,11 @@
       ]
     },
     {
+      "file": "physiology-of-the-uterus-and-ovary.json",
+      "name": "Physiology of the Uterus and Ovary",
+      "count": 20
+    },
+    {
       "file": "pituitary-abnormalities.json",
       "name": "Pituitary Abnormalities",
       "count": 20,
@@ -292,6 +307,11 @@
       ]
     },
     {
+      "file": "reproductive-system-embryo.json",
+      "name": "Reproductive System Embryology",
+      "count": 20
+    },
+    {
       "file": "steroidogenesis.json",
       "name": "Steroidogenesis",
       "count": 20,
@@ -337,6 +357,11 @@
       ]
     },
     {
+      "file": "testicular-and-erectile-dysfunction.json",
+      "name": "Testicular & Erectile Dysfunction",
+      "count": 20
+    },
+    {
       "file": "transcription-and-nuclear-hormone-receptors.json",
       "name": "Transcription & Nuclear Hormone Receptors",
       "count": 20,
@@ -367,6 +392,16 @@
       ]
     },
     {
+      "file": "uropharmacology.json",
+      "name": "Uropharmacology",
+      "count": 20
+    },
+    {
+      "file": "voiding-dysfunction.json",
+      "name": "Voiding Dysfunction",
+      "count": 20
+    },
+    {
       "file": "week-1-cbl.json",
       "name": "CBL Week 1: Diabetes Mellitus",
       "count": 40,
@@ -387,6 +422,11 @@
           "file": "Week_2_CBL-41ea6372c7.pdf"
         }
       ]
+    },
+    {
+      "file": "week-3-cbl.json",
+      "name": "Week 3 CBL",
+      "count": 40
     }
   ]
 }

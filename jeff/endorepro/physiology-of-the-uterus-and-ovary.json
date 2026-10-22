@@ -1,0 +1,515 @@
+{
+  "lecture": "Physiology of the Uterus and Ovary",
+  "block": "endorepro",
+  "generated": "2026-10-22",
+  "questions": [
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-001",
+      "question": "An 11-year-old girl is brought to the clinic because her mother noticed small, tender lumps beneath both nipples over the past 2 months. She has sparse pubic hair. Height velocity has increased over the past year. Breast exam shows Tanner stage 2 breast buds bilaterally. Serum LH, drawn at 2 AM during a sleep study, is clearly higher than a daytime sample. Which of the following changes most directly initiated this process?",
+      "answers": {
+        "A": "Decreased hypothalamic sensitivity to GH",
+        "B": "Increased adrenal secretion of DHEAS",
+        "C": "Increased GnRH pulse amplitude and frequency",
+        "D": "Increased hypothalamic sensitivity to steroid feedback",
+        "E": "Increased placental steroid withdrawal"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Growth hormone is a partner in the growth spurt (via IGF-1), but changes in GH sensitivity do not start the reproductive axis.",
+        "B": "Adrenarche raises DHEA/DHEAS and drives pubic and axillary hair, but it does not trigger breast development or nocturnal LH pulses.",
+        "C": "Puberty begins when the hypothalamic GnRH pulse generator matures and CNS inhibition wanes; GnRH pulses rise in amplitude and frequency, first at night, which drives LH/FSH and ovarian estradiol.",
+        "D": "Prepubertal suppression is maintained by extreme sensitivity to steroid negative feedback; puberty requires this sensitivity to decrease, not increase.",
+        "E": "Withdrawal of placental steroids causes the transient gonadotropin rise in the newborn period, not puberty a decade later."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-002",
+      "question": "A 7-year-old girl is brought to the clinic for new axillary odor and a few fine pubic hairs over the past 6 months. She has no breast tissue on exam, and her growth is tracking along the 50th percentile. A bone age is consistent with chronological age. Laboratory studies are shown. Which of the following is the most likely source of the hormone responsible for her findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference (prepubertal)"
+        ],
+        [
+          "DHEAS",
+          "65 µg/dL",
+          "5–40 µg/dL"
+        ],
+        [
+          "LH",
+          "<0.1 mIU/mL",
+          "<0.3 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "<10 pg/mL",
+          "<10 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Adrenal cortex",
+        "B": "Anterior pituitary",
+        "C": "Granulosa cells",
+        "D": "Hypothalamus",
+        "E": "Theca interna cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "DHEA and DHEAS from the maturing adrenal cortex (adrenarche) drive pubic and axillary hair and precede gonadal maturation by about 2 years, which fits isolated hair growth with prepubertal LH and estradiol.",
+        "B": "The anterior pituitary secretes LH and FSH, which are prepubertal here; it does not secrete androgens.",
+        "C": "Granulosa cells aromatize androgens to estradiol under FSH; estradiol is prepubertal and would cause breast budding, which is absent.",
+        "D": "The hypothalamus secretes GnRH; central activation would raise LH and estradiol and cause breast budding.",
+        "E": "Ovarian theca cells make androgens only under LH stimulation, and LH remains prepubertal."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-003",
+      "question": "A 24-year-old woman with regular 28-day cycles has unprotected intercourse on day 11 of her cycle and takes a single high-dose progestin tablet (levonorgestrel) the next morning. The figure shows the normal hormone pattern for her cycle. Which event in this figure is the drug most likely to prevent?",
+      "image": {
+        "src": "images/physiology-of-the-uterus-and-ovary/003.jpg",
+        "caption": "Ovarian, endometrial and hormonal changes over a 28-day cycle",
+        "credit": "Slides p. 11 and 22"
+      },
+      "answers": {
+        "A": "Estradiol fall at the start of the cycle",
+        "B": "FSH rise in the early follicular phase",
+        "C": "LH peak at about day 14",
+        "D": "Progesterone fall at the end of the cycle",
+        "E": "Temperature drop at the start of menses"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The early-cycle fall in estradiol happens before day 11 and is caused by regression of the previous corpus luteum, not prevented by a progestin.",
+        "B": "The early follicular FSH rise is driven by loss of negative feedback after menses and has already occurred by day 11.",
+        "C": "A progesterone bolus before the LH surge prevents the surge (progesterone blocks the estradiol positive-feedback switch), delaying or preventing ovulation; this is how Plan B works.",
+        "D": "The late-luteal progesterone fall results from corpus luteum regression and triggers menses; it is not the contraceptive target.",
+        "E": "Basal temperature falls as progesterone declines at the end of the luteal phase; this is not what emergency contraception prevents."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-004",
+      "question": "A 27-year-old woman uses a home urine LH kit to time intercourse. On cycle day 14 the kit turns positive in the morning, and she has unprotected intercourse that evening. She takes levonorgestrel emergency contraception on day 15. Three weeks later, her pregnancy test is positive. Which of the following best explains why the emergency contraception failed?",
+      "answers": {
+        "A": "Estradiol had not yet reached threshold",
+        "B": "Inhibin A suppressed the progestin effect",
+        "C": "Progesterone stimulates corpus luteum growth",
+        "D": "The LH surge had already occurred",
+        "E": "The oocyte was arrested in prophase I"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "If estradiol were still below threshold, the surge would not have happened yet and a progestin could still have blocked it.",
+        "B": "Inhibin A suppresses FSH; it does not oppose the antiovulatory action of a progestin.",
+        "C": "Progesterone does not stimulate the corpus luteum; LH (and hCG in pregnancy) maintains it.",
+        "D": "A progestin prevents ovulation only if given before the LH surge; once the surge has begun, ovulation proceeds about 12–24 hours later and Plan B no longer works.",
+        "E": "The surge had already restarted meiosis; the ovulated oocyte is arrested in metaphase II, and arrest stage is not why the drug failed."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-005",
+      "question": "A 34-year-old woman comes to the clinic because of periods every 2–4 months with occasional heavy, prolonged bleeding for the past 3 years. BMI is 36 kg/m². She has acne and coarse hair on her chin. A pregnancy test is negative. A day-21 progesterone level is 0.4 ng/mL. Endometrial biopsy shows crowded, proliferative-type glands without secretory change. Which of the following best explains the endometrial finding?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Day-21 progesterone",
+          "0.4 ng/mL",
+          ">3 ng/mL suggests ovulation"
+        ],
+        [
+          "Fasting insulin",
+          "32 µU/mL",
+          "2–20 µU/mL"
+        ],
+        [
+          "Total testosterone",
+          "85 ng/dL",
+          "15–70 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Absence of corpus luteum progesterone",
+        "B": "Excess FSH stimulating endometrial glands",
+        "C": "Excess hCG maintaining the functionalis",
+        "D": "Premature LH surge in each cycle",
+        "E": "Progesterone excess causing gland coiling"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Without ovulation no corpus luteum forms, so there is no luteal progesterone to stop endometrial mitoses; estrogen is unopposed and the endometrium over-proliferates (hyperplasia).",
+        "B": "FSH acts on ovarian granulosa cells, not on the endometrium.",
+        "C": "hCG is produced only after implantation; the pregnancy test is negative.",
+        "D": "A premature surge would cause ovulation and a corpus luteum, producing secretory change and a normal day-21 progesterone.",
+        "E": "Progesterone is low; progesterone effect would produce coiled, secretory glands, the opposite of this biopsy."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-006",
+      "question": "A 26-year-old woman has irregular menses, acne, and hirsutism. She is obese and has acanthosis nigricans on the back of her neck. Fasting insulin is markedly elevated. Ultrasound shows enlarged ovaries with many small antral follicles. Her clinician explains that her high insulin acts together with LH on a specific ovarian cell population to raise her androgen levels. Which of the following cells is most directly responsible for her excess androgen production?",
+      "answers": {
+        "A": "Cumulus oophorus cells",
+        "B": "Granulosa lutein cells of the corpus luteum",
+        "C": "Mural granulosa cells",
+        "D": "Theca externa cells",
+        "E": "Theca interstitial cells"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cumulus cells are granulosa cells that surround the oocyte; they do not carry the insulin and LH receptors that drive androgen production.",
+        "B": "Granulosa lutein cells in the corpus luteum produce progesterone and estradiol after ovulation.",
+        "C": "Granulosa cells are FSH-responsive and convert androgens to estrogens by aromatization; they do not make the androgens.",
+        "D": "The theca externa differentiates into smooth muscle that helps expel the oocyte at ovulation; it is not steroidogenic.",
+        "E": "Theca interna cells become steroid-producing theca interstitial cells with insulin and LH receptors; with LH and insulin stimulation they produce high androgen levels, part of PCOS pathophysiology."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-007",
+      "question": "A 19-year-old woman is evaluated for primary amenorrhea. She has sparse breast development. Serum LH and FSH are both markedly elevated, and estradiol is low. Pelvic ultrasound shows ovaries containing follicles that do not progress past the early antral stage. Genetic testing reveals an inactivating mutation of the FSH receptor. Which step of ovarian steroid synthesis is most directly impaired?",
+      "answers": {
+        "A": "Androgen diffusion from theca to granulosa",
+        "B": "Aromatization of androstenedione in granulosa cells",
+        "C": "Cholesterol uptake into theca cells",
+        "D": "LH-driven androgen synthesis by theca interna cells",
+        "E": "Progesterone synthesis by the corpus luteum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Androgen diffusion between cell layers is passive and does not depend on FSH receptor signaling.",
+        "B": "In the two-cell model, LH drives theca androgen synthesis and FSH supports aromatase in granulosa cells, which converts androstenedione to estrogens; loss of the FSH receptor blocks this step and estradiol stays low.",
+        "C": "Cholesterol delivery to theca cells is supported by LH and vascular supply, not by FSH receptors.",
+        "D": "Theca androgen synthesis depends on LH receptors, which are intact; LH is elevated, so this step is preserved.",
+        "E": "There is no ovulation and no corpus luteum, but the primary block is earlier, at FSH-dependent estradiol synthesis."
+      },
+      "explanationImage": {
+        "src": "images/physiology-of-the-uterus-and-ovary/007-exp.jpg",
+        "caption": "Two-cell model: LH acts on theca cells to make androstenedione, and FSH supports aromatase in granulosa cells",
+        "credit": "Slides p. 27"
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-008",
+      "question": "A 31-year-old woman and her partner have been unable to conceive for 14 months. Her cycles are regular at 28 days. As part of the evaluation, she has serum progesterone drawn on cycle day 21 in two consecutive cycles. Results are shown. Which structure most likely failed to form in these cycles?",
+      "table": [
+        [
+          "Test",
+          "Cycle 1",
+          "Cycle 2",
+          "Expected mid-luteal"
+        ],
+        [
+          "Progesterone (day 21)",
+          "0.5 ng/mL",
+          "0.6 ng/mL",
+          "4–20 ng/mL"
+        ],
+        [
+          "Estradiol (day 21)",
+          "60 pg/mL",
+          "55 pg/mL",
+          "75–300 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Corpus albicans",
+        "B": "Corpus luteum",
+        "C": "Primary follicle",
+        "D": "Primordial follicle",
+        "E": "Secondary follicle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The corpus albicans is the scar left after the corpus luteum regresses; it does not secrete progesterone.",
+        "B": "After ovulation, luteinized granulosa cells of the corpus luteum produce high levels of progesterone that peak in the mid-luteal phase; a low day-21 progesterone indicates no ovulation and no corpus luteum.",
+        "C": "Primary follicles are recruited continuously and independently of gonadotropins; they do not produce luteal progesterone.",
+        "D": "Primordial follicles are formed before birth and make up the ovarian reserve; they are not the source of luteal progesterone.",
+        "E": "Secondary (antral) follicles produce estradiol, not the luteal progesterone rise."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-009",
+      "question": "A 30-year-old woman undergoes endometrial biopsy on cycle day 23 as part of an infertility evaluation. Her cycles are regular. Histology shows highly coiled glands with glycogen-rich secretions, stromal edema, and well-developed spiral arteries. Mitotic figures are rare. Which of the following is the main source of the hormone responsible for this appearance?",
+      "answers": {
+        "A": "Anterior pituitary gonadotrophs",
+        "B": "Corpus luteum",
+        "C": "Dominant follicle granulosa cells",
+        "D": "Syncytiotrophoblast",
+        "E": "Theca interna cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Gonadotrophs secrete LH and FSH, which act on the ovary rather than directly on the endometrium, and they are suppressed in the luteal phase.",
+        "B": "Progesterone from the corpus luteum stops endometrial mitoses and causes gland coiling, secretion of glycogen-rich fluid and spiral artery development: the secretory endometrium.",
+        "C": "Before ovulation, granulosa cells of the dominant follicle make estradiol, which drives proliferative, mitotically active endometrium.",
+        "D": "Trophoblast produces hCG only after implantation, which has not occurred in an evaluation cycle.",
+        "E": "Theca interna cells produce androgens under LH stimulation, not the progesterone that drives secretory change."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-010",
+      "question": "A 29-year-old woman comes to the clinic because she has had little interest in sex for the past 5 months, which is distressing to her and causing conflict with her partner. When she does engage in sexual activity, arousal and orgasm are normal. She started sertraline 6 months ago for generalized anxiety, which has improved. She has no pelvic pain. Which of the following best describes her sexual dysfunction and its most likely cause?",
+      "answers": {
+        "A": "Arousal disorder from low estrogen",
+        "B": "Hypoactive desire from serotonergic drug effect",
+        "C": "Orgasmic disorder from anxiety",
+        "D": "Prolactin-mediated desire disorder",
+        "E": "Vaginal pain disorder from involuntary vaginismus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Arousal disorder means desire is present but arousal is hard to achieve; her arousal is normal and she has no low-estrogen state.",
+        "B": "Lack of interest is hypoactive sexual desire, the most common type; SSRIs used for depression or anxiety often decrease libido, since serotonin acting via some receptors inhibits sexual response.",
+        "C": "Orgasmic disorder is difficulty achieving orgasm; her orgasm is normal.",
+        "D": "Prolactin inhibits sexual response, but nothing suggests hyperprolactinemia, and the timing points to the new medication.",
+        "E": "Vaginal pain disorders (dyspareunia, vaginismus) involve pain or spasm, which she does not have."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-011",
+      "question": "A 23-year-old woman comes to the clinic because of light vaginal spotting lasting 1 day, occurring midway between her periods for the past 3 cycles. Her cycles are regular at 28 days, and the spotting occurs on about day 14. A home LH test is positive the day before the spotting starts. Pelvic exam and pregnancy test are normal. Which hormonal change most likely accounts for her spotting?",
+      "answers": {
+        "A": "Drop in estradiol around ovulation",
+        "B": "Drop in progesterone after luteolysis",
+        "C": "Rise in FSH from luteal feedback loss",
+        "D": "Rise in hCG from early implantation",
+        "E": "Rise in progesterone before the LH surge"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Estradiol peaks before the LH surge and drops around ovulation (as granulosa cells luteinize); this brief withdrawal can cause mid-cycle spotting.",
+        "B": "The fall in progesterone from corpus luteum regression causes menses at the end of the cycle, not spotting at day 14.",
+        "C": "The FSH rise after corpus luteum death occurs at the end of the cycle and recruits new follicles; it does not cause bleeding.",
+        "D": "Implantation occurs 9–10 days after ovulation and her pregnancy test is negative.",
+        "E": "Progesterone stays low until after ovulation; a progesterone rise before the surge would block the surge rather than cause bleeding."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-012",
+      "question": "A 28-year-old woman has a positive home pregnancy test 4 days after her missed period. Her cycles have been regular. Transvaginal ultrasound shows an intrauterine gestational sac and a 2-cm cystic structure in the right ovary. Serum progesterone is 22 ng/mL. In a non-pregnant cycle, this ovarian structure would have regressed about 2 weeks after ovulation. Which of the following is most directly preventing its regression?",
+      "answers": {
+        "A": "Estradiol from the dominant follicle",
+        "B": "FSH from the anterior pituitary",
+        "C": "hCG from the implanted embryo",
+        "D": "Inhibin A from granulosa lutein cells",
+        "E": "Prolactin from lactotrophs"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "There is no dominant follicle in early pregnancy, and estradiol does not maintain the corpus luteum.",
+        "B": "FSH is suppressed by luteal estradiol and progesterone and does not sustain the corpus luteum.",
+        "C": "After implantation, trophoblast produces hCG, which supports the corpus luteum so it keeps making progesterone and estradiol to maintain the pregnancy.",
+        "D": "Inhibin A suppresses FSH; it does not prevent luteolysis.",
+        "E": "Prolactin does not maintain the human corpus luteum in early pregnancy."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-013",
+      "question": "A 32-year-old woman undergoes serial transvaginal ultrasound during a natural cycle. On day 5, several antral follicles of 6–8 mm are seen. By day 10, one follicle measures 15 mm while the others have stopped growing and are shrinking. Serum estradiol has risen steadily from day 5 to day 10, while FSH has fallen slightly. Which feature best explains why the 15-mm follicle continued to grow?",
+      "table": [
+        [
+          "Day",
+          "Estradiol (pg/mL)",
+          "FSH (mIU/mL)"
+        ],
+        [
+          "5",
+          "45",
+          "7.8"
+        ],
+        [
+          "8",
+          "110",
+          "6.9"
+        ],
+        [
+          "10",
+          "190",
+          "5.6"
+        ]
+      ],
+      "answers": {
+        "A": "Earlier formation of a zona pellucida",
+        "B": "Greater density of FSH receptors",
+        "C": "Higher inhibin A from smaller follicles",
+        "D": "Lower expression of LH receptors",
+        "E": "Resumption of meiosis in its oocyte"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "All growing follicles form a zona pellucida at the primary stage; it protects the oocyte and does not determine dominance.",
+        "B": "The dominant follicle has more FSH receptors (and twice the vascular supply), so it keeps growing on the slightly reduced FSH while follicles with fewer receptors undergo atresia.",
+        "C": "Inhibin A suppresses FSH; it would hinder all follicles, not select one.",
+        "D": "FSH induces LH receptors on the dominant follicle, so it has more, not fewer.",
+        "E": "Meiosis resumes only with the LH surge at ovulation, not during follicle selection."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-014",
+      "question": "A 43-year-old woman, gravida 1, para 0, at 12 weeks' gestation has cell-free DNA screening that shows a high risk for trisomy 21, later confirmed by chorionic villus sampling. Her partner is 35 years old. She asks why her age increases this risk. Which of the following best explains the association?",
+      "answers": {
+        "A": "Accumulated mutations in spermatogonia",
+        "B": "Decreased ovarian reserve of primordial follicles",
+        "C": "Failure of the second polar body to form",
+        "D": "Mitotic errors in oogonia after birth",
+        "E": "Prolonged arrest of oocytes in prophase I"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Spermatogonia divide throughout life, but paternal age is not the main driver of trisomy 21 and does not explain her risk.",
+        "B": "Ovarian reserve declines with age, but follicle number does not cause chromosomal missegregation.",
+        "C": "The second polar body forms at fertilization; the age-related problem arises from the long arrest in meiosis I.",
+        "D": "Oogonia divide only before birth; no new oocytes are made after birth.",
+        "E": "Oocytes arrest in prophase I before birth until the LH surge before ovulation; the longer the arrest, the greater the risk of nondisjunction and aneuploidy such as trisomy 21."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-015",
+      "question": "A 35-year-old woman undergoes IVF. Thirty-six hours after an hCG trigger that mimics the LH surge, oocytes are retrieved. The embryologist notes that each mature oocyte has a single small cell beside it within the zona pellucida, and the chromosomes are aligned on a spindle. Which of the following best describes the state of these oocytes?",
+      "answers": {
+        "A": "Primary oocytes arrested in metaphase I",
+        "B": "Primary oocytes arrested in prophase I",
+        "C": "Secondary oocytes arrested in metaphase II",
+        "D": "Secondary oocytes arrested in prophase II",
+        "E": "Zygotes containing two separate haploid pronuclei"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Primary oocytes are arrested in prophase I, not metaphase I, and have not yet extruded a polar body.",
+        "B": "Prophase I arrest ends with the LH surge; the presence of a polar body shows meiosis I is complete.",
+        "C": "The LH surge completes meiosis I with an unequal division that makes the first polar body; the secondary oocyte then arrests in metaphase II until fertilization.",
+        "D": "Secondary oocytes progress through prophase II and arrest at metaphase II, where chromosomes line up again.",
+        "E": "Pronuclei appear only after fertilization, which has not yet occurred at retrieval."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-016",
+      "question": "A 30-year-old woman tracking ovulation with daily basal temperature and urine LH kits confirms ovulation on cycle day 15. She had intercourse on day 14. She asks when the earliest point is that a pregnancy, if present, could be detected by a serum hCG test. Which of the following is the earliest time that hCG would reliably become detectable?",
+      "answers": {
+        "A": "14 days after ovulation, at the missed period",
+        "B": "1–2 days after ovulation, during fertilization",
+        "C": "2–3 days after ovulation, during tubal transport",
+        "D": "3–4 days after ovulation, on uterine entry",
+        "E": "9–10 days after ovulation, after implantation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "hCG is already detectable a few days before the expected menses, after implantation on day 9–10.",
+        "B": "Fertilization happens in the tube within about a day of ovulation, but the zygote does not yet produce detectable hCG.",
+        "C": "The zygote travels through the tube for 2–3 days dividing into a morula; it is not yet implanted.",
+        "D": "The blastocyst forms and enters the uterus by day 3–4, but implantation and trophoblast invasion have not yet occurred.",
+        "E": "Implantation occurs on day 9–10 after ovulation; trophoblast invades, blood supply is established, and pregnancy can then be detected by hCG."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-017",
+      "question": "A 25-year-old woman had a levonorgestrel IUD placed 1 year ago. She tracks her cycles with urine LH kits and notes a positive LH surge most months, with mild mid-cycle pelvic discomfort. She asks how the device prevents pregnancy if she is still ovulating. Serum levonorgestrel is barely detectable. Which of the following best explains the contraceptive effect?",
+      "answers": {
+        "A": "Increased estrogen-driven endometrial growth",
+        "B": "Local thickening of cervical mucus",
+        "C": "Positive feedback on hypothalamic GnRH",
+        "D": "Suppression of the midcycle LH surge",
+        "E": "Thinning of cervical mucus for sperm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Estrogen-driven proliferation prepares the endometrium; it does not prevent pregnancy.",
+        "B": "A progestin IUD acts locally: it is not seen systemically, about 85% of users still ovulate, and the mucus becomes very difficult for sperm to navigate.",
+        "C": "Positive feedback of estradiol produces the LH surge, which she still has.",
+        "D": "Systemic progestins (pill, implant, injection) block the surge, but her LH kits show it still occurs.",
+        "E": "Thin, stretchy mucus (spinnbarkeit) is an estrogen effect that helps sperm pass, the opposite of the contraceptive effect."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-018",
+      "question": "A 52-year-old woman comes to the clinic because she has had no menstrual period for the past 13 months. She reports hot flashes several times a day, night sweats that wake her, and trouble concentrating. She takes no medications and is not pregnant. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference (premenopausal follicular)"
+        ],
+        [
+          "FSH",
+          "88 mIU/mL",
+          "2–10 mIU/mL"
+        ],
+        [
+          "LH",
+          "54 mIU/mL",
+          "2.5–15 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "15 pg/mL",
+          "70–200 pg/mL"
+        ],
+        [
+          "Progesterone",
+          "0.2 ng/mL",
+          "≤0.5 ng/mL"
+        ],
+        [
+          "Prolactin",
+          "12 ng/mL",
+          "<25 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Functional hypothalamic amenorrhea",
+        "B": "Hyperprolactinemia",
+        "C": "Menopause",
+        "D": "Perimenopause",
+        "E": "Primary ovarian insufficiency"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hypothalamic amenorrhea causes low or normal LH and FSH from reduced GnRH, not markedly elevated gonadotropins.",
+        "B": "Prolactin is normal, and hyperprolactinemia suppresses rather than raises gonadotropins.",
+        "C": "Cessation of menses for 12 months without other cause, with vasomotor symptoms, very low estradiol and progesterone, and elevated FSH and LH from loss of ovarian negative feedback, defines menopause.",
+        "D": "Perimenopause is the variable period before the final menstrual period with irregular cycles; 13 months without menses meets the definition of menopause.",
+        "E": "Primary ovarian insufficiency produces the same hormone pattern but occurs before age 40; at 52 this is natural menopause."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-019",
+      "question": "A 51-year-old woman whose last menstrual period was 14 months ago comes to the clinic because of frequent hot flashes and irritability. Over the past 3 months she has had low mood, poor sleep, and less enjoyment of activities; her PHQ-9 score is 14. She wants a single medication that will help both problems. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Fezolinetant",
+        "B": "Gabapentin",
+        "C": "Oxybutynin",
+        "D": "Topical vaginal estrogen",
+        "E": "Venlafaxine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Fezolinetant blocks neurokinin B in the hypothalamus to relieve vasomotor symptoms but does not treat mood.",
+        "B": "Gabapentin, an antiepileptic, can reduce hot flashes and help insomnia but is not a first choice for depressed mood.",
+        "C": "Oxybutynin is an anticholinergic option for vasomotor symptoms and does not treat depression.",
+        "D": "Topical estrogen treats genitourinary syndrome of menopause and has no systemic effect on hot flashes or mood.",
+        "E": "SSRIs and SNRIs raise serotonin levels, decreasing hyperthermia, and are first choice for menopausal mood changes because they also help hot flashes."
+      }
+    },
+    {
+      "id": "endorepro-physiology-of-the-uterus-and-ovary-020",
+      "question": "A 58-year-old woman, postmenopausal for 7 years, comes to the clinic because of pain with intercourse and vaginal dryness that have worsened over 2 years. She also reports urinary urgency and occasional leakage when she coughs. Her hot flashes resolved several years ago. Pelvic exam shows pale, thin vaginal mucosa with loss of rugae. Urinalysis is normal. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Fezolinetant",
+        "B": "Gabapentin",
+        "C": "Oxybutynin",
+        "D": "Sertraline",
+        "E": "Topical estrogen"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Fezolinetant is a hypothalamic neurokinin B blocker for vasomotor symptoms, which have resolved.",
+        "B": "Gabapentin is used for vasomotor symptoms and insomnia, not for atrophic vaginal and urethral tissue.",
+        "C": "Oxybutynin may lessen urgency or hot flashes but does not reverse the estrogen-deficient thinning of vaginal and urethral tissue.",
+        "D": "SSRIs help hot flashes and mood and can worsen sexual function by decreasing libido.",
+        "E": "Genitourinary syndrome of menopause (dryness, dyspareunia, urgency, stress incontinence) results from loss of estrogen effects on the vagina and urethra, with thinning and decreased lubrication, and is treated with topical estrogen therapy."
+      }
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "lecture": "Uropharmacology",
+  "block": "endorepro",
+  "generated": "2026-10-22",
+  "questions": [
+    {
+      "id": "endorepro-uropharmacology-001",
+      "question": "A 72-year-old man with benign prostatic hyperplasia reports nocturia, hesitancy, and a weak stream. Digital rectal exam shows a smooth, enlarged prostate without nodules. He starts a new once-daily medication that needs no dose titration, and within 2 weeks his stream is noticeably stronger. He mentions that he is scheduled for cataract surgery next month. His ophthalmologist should be informed because this medication increases the risk of which intraoperative complication?",
+      "answers": {
+        "A": "Acute angle-closure glaucoma",
+        "B": "Endophthalmitis",
+        "C": "Floppy iris syndrome",
+        "D": "Retinal detachment",
+        "E": "Suprachoroidal hemorrhage"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Acute angle closure is a concern with antimuscarinic drugs, which are contraindicated in narrow-angle glaucoma, not with alpha blockers.",
+        "B": "Endophthalmitis is a postoperative infection that is not linked to any BPH medication.",
+        "C": "Rapid symptom relief without titration points to a 3rd-generation alpha blocker such as tamsulosin; floppy iris syndrome has been reported with all alpha blockers, can persist after stopping, and makes cataract surgery difficult.",
+        "D": "Retinal detachment is not a recognized effect of alpha-1 blockade.",
+        "E": "Suprachoroidal hemorrhage relates to vascular and anticoagulation factors, not to alpha blockers."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-002",
+      "question": "An 84-year-old woman in a nursing home has urge incontinence; she says she cannot reach the bathroom in time. Urinalysis is normal, and urodynamics show uninhibited detrusor contractions. She has had gradually progressive memory loss over several years but is oriented to person, place, and time. Which medication is least likely to worsen her cognition?",
+      "answers": {
+        "A": "Darifenacin",
+        "B": "Oxybutynin immediate release",
+        "C": "Solifenacin",
+        "D": "Tolterodine",
+        "E": "Trospium"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Darifenacin is a tertiary antimuscarinic that can cross the blood-brain barrier and cause cognitive side effects.",
+        "B": "Immediate-release oxybutynin has high peak levels and readily enters the CNS, making cognitive and anticholinergic effects most likely.",
+        "C": "Solifenacin crosses the blood-brain barrier and carries cognitive risk in elderly or demented patients.",
+        "D": "Tolterodine can cross the blood-brain barrier and cause cognitive side effects.",
+        "E": "Trospium is a quaternary amine, so it is less likely to cross the blood-brain barrier and has fewer cognitive side effects in elderly patients."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-003",
+      "question": "A 66-year-old man has taken two medications for bladder outlet obstruction from BPH for the past year. He now presents with tender bilateral breast enlargement. Repeat transrectal ultrasound shows that his prostate volume has decreased by 25% compared with a year ago, and his serum PSA has fallen by about half. Which mechanism best explains both his breast findings and the change in prostate size?",
+      "answers": {
+        "A": "Agonism of β3 receptors in the detrusor",
+        "B": "Blockade of α1A receptors in prostatic stroma",
+        "C": "Competitive antagonism of detrusor M3 receptors",
+        "D": "Inhibition of PDE5 in prostatic smooth muscle",
+        "E": "Inhibition of type I and II 5α-reductase"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "β3 agonists (mirabegron, vibegron) relax the detrusor for OAB and do not shrink the prostate or cause gynecomastia.",
+        "B": "Alpha-1 blockers relax prostatic smooth muscle but do not reduce prostate volume or lower PSA.",
+        "C": "Antimuscarinics treat irritative symptoms and do not alter prostate size or androgen activity.",
+        "D": "PDE5 inhibitors such as daily tadalafil can ease BPH symptoms but do not shrink the prostate or cause gynecomastia.",
+        "E": "A 5α-reductase inhibitor such as dutasteride lowers DHT, which shrinks the prostate, halves PSA, and causes gynecomastia and breast tenderness."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-004",
+      "question": "A 63-year-old man comes for prostate cancer screening. He has taken finasteride 5 mg daily for BPH for the past 2 years. His prostate is smooth and enlarged without nodules. His PSA results are shown. Which is the most appropriate interpretation of today's PSA?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Timing"
+        ],
+        [
+          "PSA",
+          "2.1 ng/mL",
+          "3 years ago, before finasteride"
+        ],
+        [
+          "PSA",
+          "2.4 ng/mL",
+          "Today, on finasteride for 2 years"
+        ]
+      ],
+      "answers": {
+        "A": "Adjusted PSA is about 4.8 ng/mL, a rise warranting evaluation",
+        "B": "Finasteride raises PSA, so the true value is about 1.2 ng/mL",
+        "C": "No adjustment is needed because finasteride does not affect PSA",
+        "D": "PSA cannot be interpreted until finasteride is stopped for a year",
+        "E": "Stable PSA shows that prostate cancer risk is unchanged"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "5α-reductase inhibitors lower PSA by about 50% by 6 months, so the measured value should be doubled; an adjusted 4.8 ng/mL is a real rise from 2.1 ng/mL.",
+        "B": "Finasteride lowers PSA rather than raising it, so halving the value is the wrong correction.",
+        "C": "Finasteride reduces PSA by about half, and failing to correct for this can mask prostate cancer.",
+        "D": "PSA remains interpretable on finasteride once corrected; stopping the drug is not required.",
+        "E": "The unadjusted values look stable only because finasteride has halved the PSA, which hides a meaningful increase."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-005",
+      "question": "A 68-year-old man with stable angina takes isosorbide mononitrate daily. Without telling his physician, he takes a friend's pill for erectile dysfunction before intercourse. One hour later he becomes lightheaded and nearly faints. His vital signs in the emergency department are shown. Which mechanism best explains his presentation?",
+      "table": [
+        [
+          "Vital sign",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "74/40 mm Hg",
+          "<120/80 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "118/min",
+          "60–100/min"
+        ],
+        [
+          "Respiratory rate",
+          "20/min",
+          "12–20/min"
+        ]
+      ],
+      "answers": {
+        "A": "Blockade of α1B receptors in vascular smooth muscle",
+        "B": "Excess cGMP from added NO and blocked cGMP breakdown",
+        "C": "Increased cAMP from adenylyl cyclase stimulation",
+        "D": "Prolonged QT interval causing ventricular arrhythmia",
+        "E": "Reflex bradycardia from baroreceptor activation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Vascular α1B blockade explains first-dose hypotension from alpha blockers, which he was not taking.",
+        "B": "Nitrates supply NO, which activates guanylate cyclase to make cGMP, while the PDE5 inhibitor stops cGMP breakdown; the combined rise in cGMP causes profound vasodilation and hypotension, so the combination is contraindicated.",
+        "C": "Raised cAMP from adenylyl cyclase is the mechanism of alprostadil (PGE1), not of oral ED pills or nitrates.",
+        "D": "QT prolongation is a property of vardenafil, but his tachycardia and hypotension are explained by vasodilation, not arrhythmia.",
+        "E": "Hypotension produces reflex tachycardia, as seen here, not bradycardia."
+      },
+      "explanationImage": {
+        "src": "images/uropharmacology/005-exp.jpg",
+        "caption": "NO activates guanylate cyclase to make cGMP, which relaxes smooth muscle; PDE5 breaks down cGMP",
+        "credit": "Slides p. 26"
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-006",
+      "question": "A 59-year-old man with erectile dysfunction takes an oral medication about an hour before intercourse; he has noticed it works more slowly when taken after a heavy meal. He reports that for a few hours after each dose, objects look tinged blue and lights have a bluish halo. Visual acuity and fundoscopic exam are normal. Which mechanism best explains his visual symptom?",
+      "answers": {
+        "A": "Inhibition of PDE3 in cardiac myocytes",
+        "B": "Inhibition of PDE6 in retinal photoreceptors",
+        "C": "Ischemia of the anterior optic nerve head",
+        "D": "Mydriasis from α1 receptor stimulation",
+        "E": "Raised intraocular pressure from M3 blockade"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "PDE3 inhibition affects cardiac contractility and does not cause color vision changes.",
+        "B": "Sildenafil, whose onset is delayed by food, also inhibits PDE6 in the eye, causing transient blue-green vision changes or a blue halo.",
+        "C": "Optic nerve ischemia (NAION) causes sudden, often irreversible visual field loss, not a transient blue tint with normal acuity.",
+        "D": "PDE5 inhibitors do not stimulate α1 receptors, and mydriasis would not explain a blue color tint.",
+        "E": "M3 blockade by antimuscarinics can precipitate angle closure, but PDE5 inhibitors have no antimuscarinic action."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-007",
+      "question": "A 52-year-old man with erectile dysfunction wants an oral medication that will remain effective over a whole weekend and that he can take with meals. His physician prescribes a drug with a time to onset of about 2 hours. Three weeks later he reports aching muscles and low back pain since starting it. Which drug was most likely prescribed?",
+      "answers": {
+        "A": "Avanafil",
+        "B": "Papaverine",
+        "C": "Sildenafil",
+        "D": "Tadalafil",
+        "E": "Vardenafil"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Avanafil is unaffected by food but has a 60-minute onset and 5-hour half-life, too short to last a weekend.",
+        "B": "Papaverine is an intracavernosal injection, not an oral agent, and causes priapism and corporal fibrosis.",
+        "C": "Sildenafil has a 4-hour half-life, is delayed by food, and causes blue vision rather than myalgia.",
+        "D": "Tadalafil has a 120-minute onset, a 17.5-hour half-life, no food effect, and a specific side effect of myalgia and back pain.",
+        "E": "Vardenafil has a 4-hour half-life, is delayed by food, and is notable for QT prolongation."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-008",
+      "question": "A 64-year-old man with hypertension, type 2 diabetes, and hyperlipidemia takes a PDE5 inhibitor for erectile dysfunction. He wakes with painless loss of the lower half of the visual field in his right eye. He has no headache, jaw claudication, or scalp tenderness. Laboratory results are shown. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "ESR",
+          "12 mm/h",
+          "0–20 mm/h"
+        ],
+        [
+          "C-reactive protein",
+          "0.4 mg/dL",
+          "<1.0 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "7.9%",
+          "<5.7%"
+        ]
+      ],
+      "answers": {
+        "A": "Arteritic anterior ischemic optic neuropathy",
+        "B": "Central retinal artery occlusion",
+        "C": "Demyelinating optic neuritis",
+        "D": "Non-arteritic anterior ischemic optic neuropathy",
+        "E": "Rhegmatogenous retinal detachment"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Arteritic optic neuropathy from giant cell arteritis comes with headache, jaw claudication, and raised ESR and CRP, all absent here.",
+        "B": "Central retinal artery occlusion causes sudden near-total monocular vision loss rather than a sectoral field defect.",
+        "C": "Optic neuritis typically affects younger patients and causes painful vision loss with eye movement.",
+        "D": "NAION, a recognized concern with all PDE5 inhibitors, causes sudden visual field defects from optic nerve ischemia, mostly in patients with cardiovascular risk factors; the drug should be stopped at once.",
+        "E": "Retinal detachment is preceded by flashes and floaters and is not linked to PDE5 inhibitors."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-009",
+      "question": "A 70-year-old man with BPH takes the first dose of terazosin after dinner. About an hour later he gets up to urinate, feels lightheaded, and briefly loses consciousness. He recovers fully within a minute. His orthostatic vital signs are shown. Blockade of which receptor most directly caused this event?",
+      "table": [
+        [
+          "Position",
+          "Blood pressure",
+          "Heart rate"
+        ],
+        [
+          "Supine",
+          "128/78 mm Hg",
+          "76/min"
+        ],
+        [
+          "Standing (2 min)",
+          "92/58 mm Hg",
+          "104/min"
+        ]
+      ],
+      "answers": {
+        "A": "Alpha-1A receptors in prostatic stroma",
+        "B": "Alpha-1B receptors in vascular smooth muscle",
+        "C": "Alpha-2 receptors on presynaptic nerve terminals",
+        "D": "Beta-1 receptors in the sinoatrial node",
+        "E": "Muscarinic M2 receptors in the heart"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Alpha-1A blockade in the prostate and bladder neck relieves obstruction but does not lower blood pressure.",
+        "B": "Terazosin, a 2nd-generation alpha blocker, also blocks vascular α1B receptors, causing the first-dose phenomenon of sudden postural hypotension and syncope; this is why it must be titrated.",
+        "C": "Alpha-2 blockade was a feature of 1st-generation agents such as phentolamine, not of α1-selective terazosin.",
+        "D": "Terazosin does not block β1 receptors, and his intact reflex tachycardia argues against β1 blockade.",
+        "E": "M2 blockade would raise heart rate without causing vasodilation and is not an action of terazosin."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-010",
+      "question": "A 58-year-old man with BPH starts a once-daily medication that requires no dose titration. Within a week his urinary stream improves. He then reports that he has orgasms with little or no ejaculate, and his urine is cloudy afterward. His creatinine clearance is 85 mL/min. Which medication was he most likely prescribed?",
+      "answers": {
+        "A": "Alfuzosin",
+        "B": "Doxazosin",
+        "C": "Finasteride",
+        "D": "Silodosin",
+        "E": "Terazosin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alfuzosin is a 3rd-generation alpha blocker with less ejaculatory dysfunction than tamsulosin and silodosin.",
+        "B": "Doxazosin is a 2nd-generation agent that requires titration and is known mainly for first-dose syncope and dizziness.",
+        "C": "Finasteride takes 6–12 months for maximum effect, so it would not improve flow within a week.",
+        "D": "Silodosin is a 3rd-generation, α1A-selective blocker that needs no titration and is notable for retrograde ejaculation (cloudy post-orgasm urine).",
+        "E": "Terazosin is a 2nd-generation agent that requires titration and is notable for first-dose syncope."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-011",
+      "question": "A 61-year-old man with long-standing type 2 diabetes has erectile dysfunction that has not responded to maximum doses of sildenafil and tadalafil. His urologist gives him a test dose in the office of a medication delivered as a small pellet into the urethra, and he achieves a firm erection. What is the mechanism of action of this medication?",
+      "answers": {
+        "A": "Activates adenylyl cyclase to raise cAMP",
+        "B": "Activates guanylyl cyclase to raise cGMP",
+        "C": "Blocks α1 receptors in corporal smooth muscle",
+        "D": "Inhibits PDE5 to prevent cGMP breakdown",
+        "E": "Releases nitric oxide from cavernosal nerves"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Intraurethral alprostadil (MUSE) is synthetic PGE1, which stimulates adenylyl cyclase to raise cAMP, causing arteriolar vasodilation and increased inflow even after PDE5 inhibitor failure.",
+        "B": "Guanylyl cyclase activation by NO is the physiologic pathway that PDE5 inhibitors amplify, and it has already failed here.",
+        "C": "Alpha blockade is the mechanism of intracavernosal phentolamine, which is not effective on its own.",
+        "D": "PDE5 inhibition is the mechanism of the oral agents that have already failed.",
+        "E": "NO release from parasympathetic nerve terminals is the body's own signal, not the action of a drug."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-012",
+      "question": "A 66-year-old man whose erectile dysfunction did not respond to oral therapy receives an in-office test dose of a single intracavernosal agent. Within minutes he becomes lightheaded and diaphoretic. He has no prolonged erection. His vital signs are shown. Which agent did he most likely receive?",
+      "table": [
+        [
+          "Vital sign",
+          "Before injection",
+          "15 min after"
+        ],
+        [
+          "Blood pressure",
+          "134/82 mm Hg",
+          "88/54 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "74/min",
+          "122/min"
+        ]
+      ],
+      "answers": {
+        "A": "Alprostadil",
+        "B": "Nitroglycerin",
+        "C": "Papaverine",
+        "D": "Phentolamine",
+        "E": "Sildenafil"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Intracavernosal alprostadil mainly causes penile pain, fibrosis, hematoma, and rarely priapism, with few systemic effects.",
+        "B": "Nitroglycerin is not an intracavernosal ED agent; it is contraindicated with PDE5 inhibitors.",
+        "C": "Papaverine's main risks are priapism and corporal fibrosis rather than systemic hypotension.",
+        "D": "Phentolamine is an alpha blocker whose listed side effects are hypotension and reflex tachycardia; it is used to potentiate other injections.",
+        "E": "Sildenafil is an oral agent, and he had already failed oral therapy."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-013",
+      "question": "A 67-year-old woman has urinary urgency, frequency, nocturia, and urge incontinence. Urinalysis is normal and post-void residual is low. Her history includes narrow-angle glaucoma treated by her ophthalmologist. She asks for medication to control her symptoms. Which medication is most appropriate?",
+      "answers": {
+        "A": "Darifenacin",
+        "B": "Mirabegron",
+        "C": "Oxybutynin",
+        "D": "Tamsulosin",
+        "E": "Tolterodine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Darifenacin is an antimuscarinic, and antimuscarinics are contraindicated in narrow-angle glaucoma.",
+        "B": "Mirabegron is a β3 agonist that relaxes the detrusor without anticholinergic effects, making it the choice when antimuscarinics are contraindicated.",
+        "C": "Oxybutynin is an antimuscarinic and is contraindicated in narrow-angle glaucoma.",
+        "D": "Tamsulosin is an alpha blocker for BPH obstruction and does not treat detrusor overactivity in this patient.",
+        "E": "Tolterodine is an antimuscarinic and is contraindicated in narrow-angle glaucoma."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-014",
+      "question": "A 71-year-old woman with overactive bladder starts a new medication after stopping oxybutynin because of severe dry mouth and constipation. Her urgency and incontinence improve, and she has no dry mouth. At follow-up 4 weeks later her blood pressure is 156/94 mm Hg; before the medication it was 128/80 mm Hg. What is the mechanism of the new medication?",
+      "answers": {
+        "A": "Agonism of β3 receptors on the detrusor",
+        "B": "Antagonism of M3 receptors on the detrusor",
+        "C": "Blockade of α1A receptors at the bladder neck",
+        "D": "Inhibition of 5α-reductase type II",
+        "E": "Inhibition of PDE5 in bladder smooth muscle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Mirabegron stimulates detrusor β3 receptors to relax the bladder, avoids anticholinergic side effects, and can cause hypertension, so BP should be checked after starting it.",
+        "B": "M3 antagonism is the mechanism of oxybutynin and other antimuscarinics, which cause the dry mouth and constipation she was avoiding.",
+        "C": "Alpha-1A blockers treat outlet obstruction and lower rather than raise blood pressure.",
+        "D": "5α-reductase inhibitors shrink the prostate and have no role in OAB in women.",
+        "E": "PDE5 inhibitors treat ED and are not used for OAB; they lower blood pressure."
+      },
+      "explanationImage": {
+        "src": "images/uropharmacology/014-exp.jpg",
+        "caption": "ACh on M3 contracts the detrusor; NE on β3 relaxes it",
+        "credit": "Slides p. 53"
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-015",
+      "question": "A 74-year-old man with prostate cancer metastatic to the lumbar spine receives his first monthly depot injection of leuprolide. Ten days later he returns with worsening low back pain. His serum testosterone values are shown. What is the mechanism of this worsening?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Timing"
+        ],
+        [
+          "Testosterone",
+          "410 ng/dL",
+          "Before injection"
+        ],
+        [
+          "Testosterone",
+          "690 ng/dL",
+          "Day 10 after injection"
+        ]
+      ],
+      "answers": {
+        "A": "Competitive blockade of pituitary GnRH receptors",
+        "B": "Inhibition of androgen receptor nuclear translocation",
+        "C": "Inhibition of CYP17 in the adrenal gland",
+        "D": "Initial stimulation of pituitary GnRH receptors",
+        "E": "Loss of feedback from 5α-reductase inhibition"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Competitive GnRH receptor blockade by degarelix or relugolix produces castration with no initial testosterone surge.",
+        "B": "Blocking AR nuclear translocation is an action of 2nd-generation antiandrogens and would lessen, not worsen, tumor stimulation.",
+        "C": "CYP17 inhibition by abiraterone lowers androgen production rather than raising testosterone.",
+        "D": "Leuprolide is an LHRH agonist that first stimulates GnRH receptors, raising LH and testosterone (a surge lasting 2 weeks or more), before receptor desensitization shuts the axis down.",
+        "E": "5α-reductase inhibitors lower DHT and do not cause a testosterone surge with tumor flare."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-016",
+      "question": "A 70-year-old man with metastatic castration-resistant prostate cancer starts an oral androgen biosynthesis inhibitor taken on an empty stomach. He did not fill the co-prescribed prednisone. Three weeks later he has bilateral ankle edema and his blood pressure is 162/98 mm Hg. Laboratory results are shown. Which mechanism best explains his findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "144 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "2.9 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "HCO3-",
+          "31 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "1.0 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "ACTH rise from blocked cortisol synthesis",
+        "B": "Androgen receptor blockade in the distal nephron",
+        "C": "Hepatic CYP450 induction speeding cortisol clearance",
+        "D": "Primary aldosterone-producing adrenal adenoma",
+        "E": "Testosterone surge from GnRH receptor stimulation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Abiraterone inhibits CYP17, cutting cortisol synthesis; ACTH rises and drives mineralocorticoid excess (hypokalemia, fluid retention, hypertension), which prednisone is given to prevent.",
+        "B": "Androgen receptor blockade (enzalutamide, bicalutamide) does not cause mineralocorticoid excess.",
+        "C": "Abiraterone does induce CYP450, but the lecture links its hypokalemia and hypertension to mineralocorticoid excess, not cortisol clearance.",
+        "D": "A primary adenoma would not appear 3 weeks after starting a drug known to cause this syndrome.",
+        "E": "A testosterone surge comes from LHRH agonists such as leuprolide and does not cause hypokalemia."
+      },
+      "explanationImage": {
+        "src": "images/uropharmacology/016-exp.png",
+        "caption": "Abiraterone (Abi) blocks CYP17 17α-hydroxylase and 17,20-lyase, shunting precursors toward mineralocorticoids",
+        "credit": "Slides p. 70"
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-017",
+      "question": "A 79-year-old man with non-metastatic castration-resistant prostate cancer on androgen deprivation therapy is to start a second-generation antiandrogen. He has epilepsy controlled with levetiracetam and has fallen twice in the past year because of an unsteady gait. Which agent is most appropriate?",
+      "answers": {
+        "A": "Apalutamide",
+        "B": "Bicalutamide",
+        "C": "Darolutamide",
+        "D": "Enzalutamide",
+        "E": "Flutamide"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Apalutamide is contraindicated with seizures and is associated with falls and fractures.",
+        "B": "Bicalutamide is a first-generation antiandrogen, not a second-generation agent.",
+        "C": "Darolutamide does not cross the blood-brain barrier, so it carries no contraindication for seizures or falls and is preferred for elderly, frail, or unsteady patients.",
+        "D": "Enzalutamide is contraindicated with seizures and is associated with falls, fractures, and ischemic heart disease.",
+        "E": "Flutamide is a first-generation antiandrogen with the shortest half-life and GI upset."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-018",
+      "question": "A 72-year-old man with advanced prostate cancer takes an LHRH agonist plus a once-daily oral antiandrogen with a 2-day half-life. Over 2 months he develops a dry cough and exertional dyspnea, and chest x-ray shows bilateral interstitial infiltrates. He also reports trouble seeing when entering a dark room. Which drug is most likely responsible?",
+      "answers": {
+        "A": "Abiraterone",
+        "B": "Bicalutamide",
+        "C": "Enzalutamide",
+        "D": "Flutamide",
+        "E": "Nilutamide"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Abiraterone is an androgen biosynthesis inhibitor whose main toxicities are hepatotoxicity and mineralocorticoid excess.",
+        "B": "Bicalutamide has a 7-day half-life and requires LFT monitoring but is not linked to pneumonitis or dark adaptation.",
+        "C": "Enzalutamide is associated with seizures, falls, ischemic heart disease, and rare PRES.",
+        "D": "Flutamide has a 6-hour half-life and causes hepatitis and GI upset or diarrhea.",
+        "E": "Nilutamide has a 2-day half-life and can rarely cause interstitial pneumonitis (follow CXR) and visual disturbance in the dark."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-019",
+      "question": "A 48-year-old man reports 6 months of fatigue, low libido, and erectile dysfunction. He has no gynecomastia, and testes are normal in size. A total testosterone drawn at 4:30 PM is low. Other labs are shown. Which is the most appropriate next step?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Total testosterone (4:30 PM)",
+          "245 ng/dL",
+          "300–1000 ng/dL"
+        ],
+        [
+          "Hemoglobin",
+          "13.8 g/dL",
+          "13.5–17.5 g/dL"
+        ],
+        [
+          "TSH",
+          "1.9 μU/mL",
+          "0.4–4.0 μU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Begin intramuscular testosterone cypionate",
+        "B": "Begin oral testosterone undecanoate",
+        "C": "Obtain MRI of the pituitary",
+        "D": "Repeat total testosterone in the early morning",
+        "E": "Start daily tadalafil 5 mg"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Replacement should begin only after hypogonadism is confirmed on multiple early-morning measurements.",
+        "B": "Oral undecanoate is an option once deficiency is documented, but a single afternoon value is not enough to diagnose it.",
+        "C": "Pituitary imaging is premature before low testosterone is confirmed and LH and FSH are measured.",
+        "D": "Testosterone has a circadian rhythm and is lowest in the afternoon, so diagnosis requires multiple early-morning total testosterone measurements.",
+        "E": "Daily tadalafil treats ED but skips confirming a possible endocrine cause of his symptoms."
+      }
+    },
+    {
+      "id": "endorepro-uropharmacology-020",
+      "question": "A 34-year-old competitive weightlifter and his partner have been unable to conceive for 14 months. He admits to injecting testosterone obtained at his gym for the past 2 years. Exam shows muscular build, acne, and small, soft testes. Semen analysis shows azoospermia. Laboratory results are shown. Which mechanism best explains his infertility?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Total testosterone",
+          "1450 ng/dL",
+          "300–1000 ng/dL"
+        ],
+        [
+          "LH",
+          "0.3 mIU/mL",
+          "1.5–9.3 mIU/mL"
+        ],
+        [
+          "FSH",
+          "0.4 mIU/mL",
+          "1.4–18.1 mIU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Direct toxicity of testosterone to Sertoli cells",
+        "B": "Increased conversion of testosterone to DHT",
+        "C": "Negative feedback suppression of LH and FSH",
+        "D": "Primary testicular failure from Leydig cell injury",
+        "E": "Retrograde ejaculation from bladder neck relaxation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Testosterone does not directly poison Sertoli cells; spermatogenesis fails because FSH and intratesticular testosterone fall.",
+        "B": "DHT conversion by 5α-reductase drives prostate growth and does not explain suppressed gonadotropins or azoospermia.",
+        "C": "High peak testosterone levels suppress pituitary LH and FSH by negative feedback, shutting down spermatogenesis and causing infertility.",
+        "D": "Primary testicular failure would raise LH and FSH, not suppress them.",
+        "E": "Retrograde ejaculation (as with alpha blockers) reduces ejaculate volume but would not lower LH and FSH."
+      }
+    }
+  ]
+}

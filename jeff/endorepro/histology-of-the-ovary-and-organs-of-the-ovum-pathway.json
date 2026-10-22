@@ -1,0 +1,537 @@
+{
+  "lecture": "Histology of the Ovary and Organs of the Ovum Pathway",
+  "block": "endorepro",
+  "generated": "2026-10-22",
+  "questions": [
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-001",
+      "question": "A 29-year-old woman undergoes laparoscopy on day 21 of a regular 28-day cycle for acute pelvic pain, and a hemorrhagic ovarian lesion is resected. Serum β-hCG is negative. A section of the lesion is shown: a thick, folded wall of large, pale polygonal cells surrounds a central area of hemorrhage. What do the cells forming most of this folded wall predominantly secrete?",
+      "image": {
+        "src": "images/histology-of-the-ovary-and-organs-of-the-ovum-pathway/001.jpg",
+        "caption": "Resected ovarian lesion, H&E",
+        "credit": "Narrative Notes p. 12"
+      },
+      "answers": {
+        "A": "Androstenedione",
+        "B": "Estradiol",
+        "C": "Inhibin B",
+        "D": "Progesterone",
+        "E": "Testosterone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Androgen precursors such as androstenedione come from the smaller theca lutein cells at the periphery and folds, not the large granulosa lutein cells that form the bulk of the wall.",
+        "B": "Granulosa lutein cells do make some estrogens, but after ovulation their output shifts to predominantly progesterone.",
+        "C": "Inhibin B is a product of granulosa cells of developing follicles in the follicular phase; the corpus luteum secretes inhibin A.",
+        "D": "This is a corpus luteum on day 21; its large, pale granulosa lutein cells derive from granulosa cells left after ovulation and secrete predominantly progesterone (plus estrogens and inhibin A).",
+        "E": "Testosterone is not a principal secretory product of the corpus luteum; theca-derived androgen precursors are converted by granulosa lutein cells."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-002",
+      "question": "A 32-year-old woman is evaluated for infertility. She has regular 28-day cycles. An endometrial biopsy taken on cycle day 24 is shown, with coiled, corkscrew-shaped glands with pale cytoplasm and intraluminal secretions, and patchy stromal edema. The hormone chiefly responsible for these glandular changes is secreted by which cells?",
+      "image": {
+        "src": "images/histology-of-the-ovary-and-organs-of-the-ovum-pathway/002.jpg",
+        "caption": "Endometrial biopsy, cycle day 24, H&E",
+        "credit": "Narrative Notes p. 25"
+      },
+      "answers": {
+        "A": "Anterior pituitary gonadotrophs",
+        "B": "Granulosa cells of antral follicles",
+        "C": "Granulosa lutein cells",
+        "D": "Theca externa cells",
+        "E": "Theca interna cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gonadotrophs secrete FSH and LH, which act on the ovary; they do not act directly on the endometrium and are suppressed during the luteal phase.",
+        "B": "Granulosa cells of developing follicles produce estrogen, which drives the earlier proliferative phase with straight tubular glands.",
+        "C": "This is secretory-phase endometrium; its corkscrew glands with glycogen-rich secretions, coiled spiral arteries and stromal edema are driven mainly by progesterone from granulosa lutein cells of the corpus luteum.",
+        "D": "Theca externa cells are spindle-shaped, contractile cells that help extrude the oocyte at ovulation; they are not a hormone source.",
+        "E": "Theca interna cells of follicles make androstenedione under LH; after ovulation they become theca lutein cells, but the main progesterone source is the granulosa lutein cells."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-003",
+      "question": "A 26-year-old woman presents with vaginal bleeding and cramping 8 weeks after her last menstrual period. Ultrasound shows retained products of conception, and dilation and curettage is performed. The endometrial stroma in the specimen is shown: large cells with abundant glassy, eosinophilic cytoplasm and sharply defined cell borders. Formation of these stromal cells depended most directly on sustained secretion of which hormone from which source?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum β-hCG",
+          "18,000 mIU/mL",
+          "<5 mIU/mL (nonpregnant)"
+        ]
+      ],
+      "image": {
+        "src": "images/histology-of-the-ovary-and-organs-of-the-ovum-pathway/003.jpg",
+        "caption": "Endometrial stroma from curettage specimen, H&E",
+        "credit": "Narrative Notes p. 27"
+      },
+      "answers": {
+        "A": "Estradiol from a Graafian follicle",
+        "B": "Follicle-stimulating hormone from the pituitary",
+        "C": "Luteinizing hormone from the pituitary",
+        "D": "Progesterone from the corpus luteum",
+        "E": "Prolactin from the pituitary"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Estradiol from developing follicles drives proliferative-phase growth; no Graafian follicle is maintained in pregnancy.",
+        "B": "FSH stimulates follicle development and is suppressed by high ovarian hormone levels in the luteal phase and pregnancy.",
+        "C": "β-hCG from the embryo, not pituitary LH, keeps the corpus luteum alive in early pregnancy; pituitary LH is suppressed.",
+        "D": "These are decidual cells; β-hCG from the implanting embryo stabilizes the corpus luteum, whose ongoing progesterone production converts predecidual stroma into decidua.",
+        "E": "Prolactin rises in pregnancy for lactation but is not the hormone driving the decidual reaction."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-004",
+      "question": "A 35-year-old woman undergoes endometrial curettage on day 2 of her cycle as part of an evaluation for heavy menstrual bleeding. The specimen is shown, with dense, basophilic balls of collapsed stromal cells, fragmented glands and extensive hemorrhage. Which hormonal change most directly triggered the changes seen in this tissue?",
+      "image": {
+        "src": "images/histology-of-the-ovary-and-organs-of-the-ovum-pathway/004.jpg",
+        "caption": "Endometrial curettage, cycle day 2, H&E",
+        "credit": "Narrative Notes p. 26"
+      },
+      "answers": {
+        "A": "Decline in progesterone",
+        "B": "Peak in estradiol",
+        "C": "Rise in follicle-stimulating hormone",
+        "D": "Rise in inhibin A",
+        "E": "Surge in luteinizing hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Without fertilization the corpus luteum involutes, and progesterone withdrawal causes spiral artery breakdown, endometrial stromal condensation, hemorrhage and sloughing of the stratum functionalis.",
+        "B": "Peak estradiol occurs late in the follicular phase, when the endometrium is proliferating, and it triggers the LH surge rather than menses.",
+        "C": "FSH begins to rise during menses as ovarian suppression lifts, but it is a consequence of luteal regression, not the cause of endometrial breakdown.",
+        "D": "Inhibin A is secreted by the corpus luteum and falls, not rises, at the end of the luteal phase.",
+        "E": "The LH surge at mid-cycle triggers ovulation, about two weeks before menses."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-005",
+      "question": "A 30-year-old woman has been unable to conceive for 3 years. She has chronic sinusitis and bronchiectasis, and a chest x-ray shows dextrocardia. Her cycles are regular and ovulatory, and hysterosalpingography shows patent tubes. A section of normal epithelium from the organ most likely responsible for her infertility is shown. A defect in which component of these cells best explains her infertility?",
+      "image": {
+        "src": "images/histology-of-the-ovary-and-organs-of-the-ovum-pathway/005.jpg",
+        "caption": "Epithelium of the affected organ (normal), H&E",
+        "credit": "Narrative Notes p. 18"
+      },
+      "answers": {
+        "A": "Apical microvilli",
+        "B": "Axonemal dynein arms of cilia",
+        "C": "Basal hemidesmosomes",
+        "D": "Lateral gap junctions",
+        "E": "Secretory granules of peg cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Microvilli increase surface area for absorption; they are not motile and do not move the oocyte.",
+        "B": "This is Kartagener syndrome (primary ciliary dyskinesia): defective dynein makes the cilia of the uterine tube's ciliated columnar cells immotile, impairing transport of the oocyte toward the uterus and causing infertility and a higher risk of ectopic pregnancy.",
+        "C": "Hemidesmosomes anchor cells to the basement membrane; their defects cause blistering diseases, not ciliary dysfunction with situs inversus.",
+        "D": "Gap junctions allow cell-to-cell communication; they do not generate the current that moves the oocyte.",
+        "E": "Peg cell secretions nourish the oocyte and activate sperm, but the sinusitis, bronchiectasis and dextrocardia point to a ciliary defect."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-006",
+      "question": "A 31-year-old woman has had no menses for 6 months. Eight months ago she had two curettage procedures for retained products of conception complicated by endometritis. Pregnancy test is negative. She has no withdrawal bleeding after a progestin challenge or after a combined estrogen-progestin course. Damage to which layer best explains her amenorrhea?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "FSH",
+          "6 mIU/mL",
+          "3–10 mIU/mL (follicular)"
+        ],
+        [
+          "LH",
+          "7 mIU/mL",
+          "2–15 mIU/mL (follicular)"
+        ],
+        [
+          "Estradiol",
+          "85 pg/mL",
+          "30–120 pg/mL (follicular)"
+        ],
+        [
+          "Prolactin",
+          "12 ng/mL",
+          "<25 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Endocervical glandular mucosa",
+        "B": "Mesometrium",
+        "C": "Myometrial stratum vasculare",
+        "D": "Stratum basalis",
+        "E": "Stratum functionalis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Damage to the endocervix could reduce cervical mucus, but it would not stop the endometrium from regenerating and responding to hormones.",
+        "B": "The mesometrium is the serosal covering of the uterus and has no role in cyclic endometrial regeneration.",
+        "C": "The stratum vasculare is the vascular middle layer of the myometrium; curettage that damages it would not explain loss of the endometrial response.",
+        "D": "The stratum basalis is the stem-cell compartment that regenerates the stratum functionalis each cycle; destroying it with aggressive curettage leaves no tissue to respond to estrogen and progesterone, so no bleeding follows hormone withdrawal.",
+        "E": "The stratum functionalis is shed every cycle and regrows from the basalis, so losing it alone does not cause lasting amenorrhea."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-007",
+      "question": "A 56-year-old woman reports vaginal dryness and pain with intercourse. Her last menstrual period was 5 years ago. Vaginal pH is elevated, and a wet mount shows few lactobacilli. For comparison, normal vaginal mucosa from a 30-year-old woman is shown. Loss of which feature of the superficial epithelial cells in the normal specimen best explains this patient's elevated vaginal pH?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Vaginal pH",
+          "6.2",
+          "3.8–4.5 (reproductive age)"
+        ],
+        [
+          "FSH",
+          "78 mIU/mL",
+          "3–10 mIU/mL (premenopausal, follicular)"
+        ]
+      ],
+      "image": {
+        "src": "images/histology-of-the-ovary-and-organs-of-the-ovum-pathway/007.jpg",
+        "caption": "Normal vaginal mucosa, 30-year-old woman, H&E",
+        "credit": "Narrative Notes p. 32"
+      },
+      "answers": {
+        "A": "Apical cilia",
+        "B": "Cytoplasmic glycogen",
+        "C": "Keratohyalin granules",
+        "D": "Microvilli",
+        "E": "Mucous secretory granules"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The vaginal epithelium is not ciliated; cilia line the uterine tube.",
+        "B": "Estrogen induces glycogen storage in the superficial vaginal cells (the pale cytoplasm in the normal specimen); lactobacilli ferment it to lactic acid, so loss of estrogen after menopause reduces glycogen, lactobacilli and acidity.",
+        "C": "Keratohyalin granules belong to keratinizing epithelium such as skin; the vagina is nonkeratinizing.",
+        "D": "Microvilli are an absorptive surface feature, not the source of the substrate that keeps vaginal pH low.",
+        "E": "The vaginal lamina propria has no glands and the epithelium does not secrete mucus; vaginal mucus comes from the endocervix."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-008",
+      "question": "A 24-year-old woman has an ovarian wedge biopsy during surgery for an unrelated condition. One structure in the cortex is shown: a central remnant of degenerated cells with no recognizable oocyte nucleus, surrounded by a thick, glassy, eosinophilic band within the stroma. Which process does this structure represent?",
+      "image": {
+        "src": "images/histology-of-the-ovary-and-organs-of-the-ovum-pathway/008.jpg",
+        "caption": "Ovarian cortex, H&E",
+        "credit": "Narrative Notes p. 9"
+      },
+      "answers": {
+        "A": "Corpus albicans formation",
+        "B": "Follicular atresia",
+        "C": "Luteinization of granulosa cells",
+        "D": "Ovulation of a Graafian follicle",
+        "E": "Recruitment of primordial follicles"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A corpus albicans is the larger, irregular fibrous scar left after the corpus luteum involutes; it does not contain a degenerated oocyte ringed by a glassy membrane.",
+        "B": "This is a late atretic follicle: the oocyte and granulosa cells have degenerated, leaving a thickened glassy membrane; atresia affects follicles that are not selected for ovulation, at any stage.",
+        "C": "Luteinization produces the large, pale, hormone-secreting granulosa lutein cells of a corpus luteum, not degenerated cells.",
+        "D": "Ovulation releases the oocyte through a stigma on the ovarian surface; the remaining cells form a corpus luteum, not a glassy membrane.",
+        "E": "Recruited primordial follicles become primary follicles with cuboidal follicular cells around an intact, enlarging oocyte."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-009",
+      "question": "A 27-year-old woman undergoes salpingectomy for a ruptured ectopic pregnancy. A cross-section of the resected organ away from the pregnancy is shown. The pregnancy was located in the longest segment of this organ, where fertilization usually occurs. Compared with the segment that joins the uterus, the epithelium of the segment containing the pregnancy has relatively more of which cell type?",
+      "image": {
+        "src": "images/histology-of-the-ovary-and-organs-of-the-ovum-pathway/009.jpg",
+        "caption": "Cross-section of the resected organ, H&E",
+        "credit": "Narrative Notes p. 16"
+      },
+      "answers": {
+        "A": "Ciliated columnar cells",
+        "B": "Goblet cells",
+        "C": "Non-ciliated peg cells",
+        "D": "Paneth cells",
+        "E": "Stratified squamous cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The organ is the uterine tube and the pregnancy was in the ampulla; ciliated cells predominate toward the ovarian end (infundibulum and ampulla), while secretory peg cells predominate at the isthmus.",
+        "B": "Goblet cells line the intestine and airways, not the uterine tube.",
+        "C": "Peg cells are relatively more numerous at the isthmus near the uterus, not in the ampulla.",
+        "D": "Paneth cells are found in small intestinal crypts and are not part of the tubal epithelium.",
+        "E": "The uterine tube has a simple columnar epithelium; stratified squamous epithelium lines the ectocervix and vagina."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-010",
+      "question": "A 28-year-old woman undergoes endometrial biopsy on day 10 of a regular 28-day cycle during an infertility workup. The biopsy is shown, with straight, tubular glands in a densely cellular stroma above the myometrium. In which cells does the final step in synthesis of the hormone driving this glandular growth occur?",
+      "image": {
+        "src": "images/histology-of-the-ovary-and-organs-of-the-ovum-pathway/010.jpg",
+        "caption": "Endometrial biopsy, cycle day 10, H&E",
+        "credit": "Narrative Notes p. 24"
+      },
+      "answers": {
+        "A": "Endometrial stromal cells",
+        "B": "Granulosa cells of developing follicles",
+        "C": "Granulosa lutein cells of the corpus luteum",
+        "D": "Theca externa cells",
+        "E": "Theca interna cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Endometrial stromal cells respond to ovarian hormones but are not the source of the estrogen driving proliferation.",
+        "B": "This is proliferative-phase endometrium driven by estrogen; theca interna cells make androstenedione under LH, and granulosa cells of developing follicles convert it to estrogen with FSH-induced aromatase.",
+        "C": "Granulosa lutein cells of the corpus luteum produce mainly progesterone after ovulation, driving the secretory phase.",
+        "D": "Theca externa cells are contractile, fibroblast-like cells that help extrude the oocyte; they do not make steroid hormones.",
+        "E": "Theca interna cells make the androgen precursor androstenedione, but they lack the aromatase step that produces estrogen in granulosa cells."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-011",
+      "question": "An 8-year-old girl undergoes oophorectomy for ovarian torsion with necrosis. Sections of the viable cortex show numerous follicles, each a large oocyte with a prominent nucleolus surrounded by a single layer of flattened follicular cells. At which stage of meiosis are these oocytes arrested?",
+      "answers": {
+        "A": "Anaphase of meiosis I",
+        "B": "Metaphase of meiosis II",
+        "C": "Prophase I (diplotene)",
+        "D": "Prophase of meiosis II",
+        "E": "Telophase of meiosis I"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anaphase I does not occur until just before ovulation, when the oocyte of a Graafian follicle completes meiosis I.",
+        "B": "Metaphase II arrest is reached only just before ovulation, in the oocyte of a mature follicle, and persists until fertilization.",
+        "C": "These are primordial follicles, which are the only follicles present until menarche; their primary oocytes are arrested in prophase of meiosis I, specifically the diplotene stage.",
+        "D": "Prophase II is passed through briefly after meiosis I is completed shortly before ovulation; it is not a resting stage.",
+        "E": "Telophase I, with release of the first polar body, happens just before ovulation, not in a prepubertal primordial follicle."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-012",
+      "question": "A 33-year-old woman undergoing in vitro fertilization has oocytes retrieved 36 hours after a trigger that mimics the luteinizing hormone surge. Light microscopy of one oocyte shows a single small polar body in the perivitelline space and condensed chromosomes aligned on a spindle. This oocyte will remain arrested at this stage until which event?",
+      "answers": {
+        "A": "Fertilization",
+        "B": "Follicle-stimulating hormone rise",
+        "C": "Implantation of the blastocyst",
+        "D": "Luteinizing hormone surge",
+        "E": "Menarche"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The oocyte completed meiosis I (releasing the first polar body) just before ovulation and is arrested in metaphase II; it completes meiosis II only if fertilized.",
+        "B": "The FSH rise recruits and grows follicles early in the cycle; it does not release the metaphase II arrest.",
+        "C": "Implantation occurs about a week after fertilization, long after meiosis II has been completed.",
+        "D": "The LH surge (mimicked by the trigger) already caused completion of meiosis I and arrest in metaphase II; it does not end that arrest.",
+        "E": "Menarche ends the long dormancy of primordial follicles in prophase I, not the metaphase II arrest."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-013",
+      "question": "A 17-year-old girl is evaluated for primary amenorrhea and progressive hirsutism with clitoromegaly at puberty. She is tall, with absent breast development. Karyotype is 46,XX, and pelvic ultrasound shows a uterus and enlarged multicystic ovaries. Laboratory results are shown. The deficient enzyme is normally most active in which ovarian cells?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Estradiol",
+          "<10 pg/mL",
+          "30–400 pg/mL"
+        ],
+        [
+          "Testosterone",
+          "110 ng/dL",
+          "15–70 ng/dL"
+        ],
+        [
+          "Androstenedione",
+          "480 ng/dL",
+          "30–200 ng/dL"
+        ],
+        [
+          "FSH",
+          "42 mIU/mL",
+          "3–10 mIU/mL"
+        ],
+        [
+          "LH",
+          "38 mIU/mL",
+          "2–15 mIU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Corpus albicans fibroblasts",
+        "B": "Granulosa cells",
+        "C": "Mesovarium cells",
+        "D": "Theca externa cells",
+        "E": "Theca interna cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The corpus albicans is inactive fibrous scar tissue and has no steroidogenic role.",
+        "B": "This is aromatase deficiency; theca interna cells make androstenedione under LH, and granulosa cells convert it to estrogens with aromatase, so its loss causes low estrogen and androgen excess.",
+        "C": "The mesovarium is the simple squamous to cuboidal mesothelium covering the ovary; it does not make steroid hormones.",
+        "D": "Theca externa cells are spindle-shaped contractile cells involved in ovulation, not estrogen synthesis.",
+        "E": "Theca interna cells make the androgen substrate; they are intact here, which is why androgens accumulate."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-014",
+      "question": "A 30-year-old woman undergoing ovarian stimulation for in vitro fertilization is given a GnRH antagonist starting on stimulation day 6 to prevent premature ovulation. By preventing the midcycle hormonal surge, this drug prevents contraction of which follicular layer that mechanically extrudes the oocyte?",
+      "answers": {
+        "A": "Corona radiata",
+        "B": "Cumulus oophorus",
+        "C": "Theca externa",
+        "D": "Theca interna",
+        "E": "Tunica albuginea"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The corona radiata is the layer of granulosa cells immediately around the oocyte that leaves with it at ovulation; it is not contractile.",
+        "B": "The cumulus oophorus anchors the oocyte to the zona granulosa and partly leaves with it; it does not contract.",
+        "C": "The GnRH antagonist blocks the LH surge; normally the surge makes the smooth muscle-like cells of the theca externa contract, extruding the oocyte through the ovarian surface.",
+        "D": "The theca interna is the steroid-producing layer that makes androstenedione under LH; it is not the contractile layer.",
+        "E": "The tunica albuginea is the dense connective tissue capsule of the ovary that the follicle breaches at ovulation; it does not contract."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-015",
+      "question": "A 34-year-old woman undergoes oocyte retrieval for in vitro fertilization. The embryologist identifies each oocyte by the cloud of granulosa cells surrounding it in the aspirated fluid. In a natural cycle, which granulosa cell population stays in the ovary after ovulation and becomes the main source of progesterone?",
+      "answers": {
+        "A": "Corona radiata cells",
+        "B": "Cumulus oophorus cells",
+        "C": "Granulosa cells of atretic follicles",
+        "D": "Squamous follicular cells",
+        "E": "Zona granulosa cells"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The corona radiata surrounds the oocyte and is released with it at ovulation.",
+        "B": "At least part of the cumulus oophorus leaves with the oocyte at ovulation, anchoring the corona radiata to the follicle wall until then.",
+        "C": "Granulosa cells of atretic follicles degenerate with pyknotic nuclei and are resorbed; they do not form hormone-producing tissue.",
+        "D": "Squamous follicular cells surround the oocyte of a primordial follicle and have not yet proliferated into granulosa cells.",
+        "E": "The zona granulosa lines the follicle wall and stays in the ovary after ovulation, maturing into granulosa lutein cells of the corpus luteum, which secrete mainly progesterone."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-016",
+      "question": "A 24-year-old woman at 11 weeks' gestation presents with vaginal bleeding and severe nausea. Ultrasound shows a 'snowstorm' pattern in the uterus and bilateral enlarged multicystic ovaries. Laboratory results are shown. The very high level of the measured hormone keeps the corpus luteum active by activating which receptor?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum β-hCG",
+          "310,000 mIU/mL",
+          "25,000–150,000 mIU/mL (11 weeks)"
+        ],
+        [
+          "TSH",
+          "0.3 μU/mL",
+          "0.5–5.0 μU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Follicle-stimulating hormone receptor",
+        "B": "Gonadotropin-releasing hormone receptor",
+        "C": "Luteinizing hormone receptor",
+        "D": "Progesterone receptor",
+        "E": "Prolactin receptor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "β-hCG is structurally an LH analogue; although FSH also acts on follicles, it is not the receptor that keeps the corpus luteum alive.",
+        "B": "GnRH receptors are on pituitary gonadotrophs, not on the corpus luteum.",
+        "C": "β-hCG is a luteinizing hormone analogue that stimulates the LH receptor on luteal cells, overriding the corpus luteum's programmed involution; very high levels in this molar pregnancy overstimulate the ovaries.",
+        "D": "Progesterone receptors are on target tissues such as the endometrium; they mediate the corpus luteum's product, not its maintenance.",
+        "E": "Prolactin receptors mediate breast development and lactation and do not maintain the corpus luteum in humans."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-017",
+      "question": "A 34-year-old woman has a Pap smear showing a high-grade squamous intraepithelial lesion, and testing is positive for HPV type 16. At colposcopy, biopsies are taken from the junction between the endocervix and ectocervix, the site where HPV infection begins. What type of epithelium normally lines this site?",
+      "answers": {
+        "A": "Glycogenated stratified squamous",
+        "B": "Keratinized stratified squamous",
+        "C": "Metaplastic squamous",
+        "D": "Simple ciliated columnar",
+        "E": "Simple mucinous columnar"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Glycogenated nonkeratinizing stratified squamous epithelium lines the ectocervix and vagina, on the outer side of the transformation zone.",
+        "B": "Neither the cervix nor the vagina is normally keratinized.",
+        "C": "The transformation zone between the endocervix and ectocervix is lined by originally glandular cells that have undergone squamous metaplasia; it is where HPV infection begins.",
+        "D": "Simple ciliated columnar epithelium lines the uterine tube, not the cervix.",
+        "E": "Simple columnar mucus-producing epithelium lines the endocervical canal, on the inner side of the transformation zone."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-018",
+      "question": "A 33-year-old woman has a routine pelvic examination. Several smooth, yellow-white, dome-shaped nodules 3–5 mm in diameter are seen on the cervix near the external os. Biopsy of one nodule shows a mucus-filled cyst lined by simple columnar, mucin-producing epithelium. From which structures did these cysts most likely arise?",
+      "answers": {
+        "A": "Bartholin glands",
+        "B": "Ectocervical squamous epithelium",
+        "C": "Endocervical glands",
+        "D": "Endometrial glands",
+        "E": "Gartner duct remnants"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Bartholin glands lie in the vestibule at the vaginal opening, not on the cervix.",
+        "B": "The ectocervix is lined by stratified squamous epithelium and does not produce mucin-lined cysts.",
+        "C": "These are Nabothian (mucinous retention) cysts: blocked endocervical glands with the same simple columnar mucinous lining as the endocervix, a common benign finding.",
+        "D": "Endometrial glands lie in the uterine body above the internal os and change with the menstrual cycle; they do not form cervical surface cysts.",
+        "E": "Gartner duct cysts are mesonephric remnants in the lateral vaginal wall and are not lined by endocervical-type mucinous epithelium."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-019",
+      "question": "A 23-year-old woman has an ovarian biopsy. Around a large antral follicle, a layer of plump cells with abundant pale, lipid-rich cytoplasm lies just outside a distinct basal lamina that separates it from the granulosa cells. Which hormone stimulates these cells, and what do they produce in response?",
+      "answers": {
+        "A": "Follicle-stimulating hormone; estradiol",
+        "B": "Follicle-stimulating hormone; inhibin",
+        "C": "Luteinizing hormone; androstenedione",
+        "D": "Luteinizing hormone; progesterone",
+        "E": "Prolactin; androstenedione"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "FSH acts on granulosa cells, which make estradiol with aromatase; the pale cells outside the basal lamina are theca interna.",
+        "B": "Inhibin is a granulosa cell product under FSH, not a theca product.",
+        "C": "These are theca interna cells; their pale, lipid-rich cytoplasm reflects steroid synthesis, and under LH they make androstenedione, which granulosa cells convert to estrogens.",
+        "D": "Progesterone becomes a major product only after ovulation, when theca interna and granulosa cells luteinize; before ovulation the theca interna's main product is androstenedione.",
+        "E": "Prolactin does not drive theca interna steroidogenesis; LH does."
+      }
+    },
+    {
+      "id": "endorepro-histology-of-the-ovary-and-organs-of-the-ovum-pathway-020",
+      "question": "A 27-year-old woman at 39 weeks' gestation is in active labor. Over 6 hours her cervix goes from 1 cm dilated and 20% effaced to 7 cm dilated and fully effaced. Which feature of the cervical stroma best allows this thinning and opening?",
+      "answers": {
+        "A": "Dense fibrous tissue rich in elastic fibers",
+        "B": "Interlacing fascicles of smooth muscle cells",
+        "C": "Loose areolar tissue with lymphoid nodules",
+        "D": "Reticular tissue with vascular sinusoids",
+        "E": "Skeletal muscle with fibrous septa"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The cervical stroma is mainly dense fibrous connective tissue rich in elastic fibers, which allows effacement and dilation during labor.",
+        "B": "Interlacing smooth muscle fascicles make up the myometrium of the uterine body; smooth muscle is only a minor part of the cervical stroma.",
+        "C": "Loose connective tissue that may contain lymphoid nodules is typical of the vaginal lamina propria, not the cervical stroma.",
+        "D": "Reticular tissue with sinusoids is found in lymphoid organs and the liver, not in the cervix.",
+        "E": "The cervix contains no skeletal muscle; skeletal muscle in the pelvis belongs to the pelvic floor and perineum."
+      }
+    }
+  ]
+}

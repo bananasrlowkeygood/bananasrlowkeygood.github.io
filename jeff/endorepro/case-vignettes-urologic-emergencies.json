@@ -1,0 +1,572 @@
+{
+  "lecture": "Case Vignettes - Urologic Emergencies",
+  "block": "endorepro",
+  "generated": "2026-10-22",
+  "questions": [
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-001",
+      "question": "A 74-year-old man with benign prostatic hyperplasia undergoes inguinal hernia repair under general anesthesia. Ten hours later he has not voided and is restless with severe lower abdominal discomfort. A tender, dullness-to-percussion mass is palpable above the pubic symphysis. A bladder scan shows 1,100 mL of urine. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "CT of the abdomen and pelvis",
+        "B": "Intravenous furosemide",
+        "C": "Oral tamsulosin alone",
+        "D": "Transurethral prostate resection",
+        "E": "Urethral catheterization"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The bladder scan has already shown retention; CT adds delay and does nothing to decompress the bladder.",
+        "B": "A loop diuretic increases urine production and would worsen bladder distension when the outlet is obstructed.",
+        "C": "An alpha-blocker may help later voiding trials, but it does not empty an over-distended bladder now.",
+        "D": "Prostate resection is an elective procedure for refractory BPH, not emergency treatment of acute retention.",
+        "E": "Bladder catheterization both relieves and confirms acute urinary retention, a sudden complete inability to void that can follow general anesthesia in a man with BPH."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-002",
+      "question": "An 81-year-old man is brought to the emergency department with acute urinary retention. A urethral catheter drains 1.9 L of urine. Over the next 6 hours, his urine output is 550 mL/h. He is alert and not taking diuretics. Laboratory studies at admission are shown. Which of the following best explains his urine output?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "141 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "5.3 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Glucose",
+          "104 mg/dL",
+          "70–100 mg/dL"
+        ],
+        [
+          "BUN",
+          "48 mg/dL",
+          "7–20 mg/dL"
+        ],
+        [
+          "Creatinine",
+          "2.4 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Central diabetes insipidus",
+        "B": "Glucose-induced osmotic diuresis",
+        "C": "Nephrogenic diabetes insipidus",
+        "D": "Postobstructive diuresis",
+        "E": "Primary polydipsia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Central diabetes insipidus follows pituitary or hypothalamic injury and is not triggered by relieving a urinary obstruction.",
+        "B": "Osmotic diuresis from glucose requires marked hyperglycemia, and his glucose is normal.",
+        "C": "Nephrogenic diabetes insipidus is usually a drug or electrolyte effect (lithium, hypercalcemia), none of which is present.",
+        "D": "Postobstructive diuresis can follow decompression of a chronically distended bladder, with retained urea and solute being excreted; it needs monitoring and possible fluid and electrolyte replacement.",
+        "E": "Primary polydipsia requires excessive water intake, which a patient in acute retention has not had."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-003",
+      "question": "A 69-year-old man with benign prostatic hyperplasia has had a cold for 3 days. Today he cannot void at all and has severe suprapubic pain. His medications are diphenhydramine, furosemide, lisinopril, metformin, and tamsulosin; he bought one of them yesterday from a pharmacy shelf to help him sleep through his cough. The bladder is distended on examination. Which of the following medications most likely precipitated his condition?",
+      "answers": {
+        "A": "Diphenhydramine",
+        "B": "Furosemide",
+        "C": "Lisinopril",
+        "D": "Metformin",
+        "E": "Tamsulosin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Diphenhydramine is an anticholinergic, a drug class that impairs detrusor contraction and can precipitate acute urinary retention in a man with BPH.",
+        "B": "Furosemide increases urine volume and frequency but does not block bladder emptying.",
+        "C": "Lisinopril can cause cough and hyperkalemia but has no effect on bladder outlet function.",
+        "D": "Metformin can cause GI upset and lactic acidosis, not urinary retention.",
+        "E": "Tamsulosin relaxes prostatic smooth muscle and treats, rather than causes, BPH-related retention."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-004",
+      "question": "A 27-year-old woman comes to the emergency department with 4 hours of severe, colicky left flank pain and fever. She cannot find a comfortable position and has vomited once. She has left costovertebral angle tenderness and cool extremities. Non-contrast CT shows a 7-mm stone in the proximal left ureter with hydronephrosis. Blood cultures are drawn, and intravenous fluids and broad-spectrum antibiotics are started. Results are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "103.1°F",
+          "97.7–99.5°F"
+        ],
+        [
+          "Blood pressure",
+          "98/64 mm Hg",
+          "90–120/60–80 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "111/min",
+          "60–100/min"
+        ],
+        [
+          "WBC",
+          "25,200/mm³ (left shift)",
+          "4,500–11,000/mm³"
+        ],
+        [
+          "BUN/Creatinine",
+          "26/1.5 mg/dL",
+          "7–20/0.6–1.2 mg/dL"
+        ],
+        [
+          "Urinalysis",
+          "250+ RBC, (+) LE, (+) nitrite",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Discharge with tamsulosin and antibiotics",
+        "B": "Extracorporeal shock wave lithotripsy",
+        "C": "Percutaneous nephrostomy placement",
+        "D": "Repeat CT scan in 48 hours",
+        "E": "Ureteroscopy with laser lithotripsy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "An infected, obstructed kidney cannot drain while the stone stays in place; sending her home to pass it risks sepsis and death.",
+        "B": "Shock wave lithotripsy treats the stone itself, and the cause of obstruction should not be addressed during the acute infection.",
+        "C": "Obstructive pyelonephritis needs immediate decompression of the kidney, with a percutaneous nephrostomy tube or a ureteral stent, alongside antibiotics.",
+        "D": "Waiting 48 hours leaves pus trapped behind the stone in a patient who is already hypotensive.",
+        "E": "Definitive stone removal is deferred until the infection has cleared; the acute step is drainage only."
+      },
+      "explanationImage": {
+        "src": "images/case-vignettes-urologic-emergencies/004-exp.jpg",
+        "caption": "Coronal non-contrast CT: obstructing ureteral stone with infection trapped behind it",
+        "credit": "Slides p. 27"
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-005",
+      "question": "A 34-year-old woman is admitted with fever, right flank pain, and hypotension. CT shows a proximal right ureteral stone with hydronephrosis, and a ureteral stent is placed emergently. Two days later, the urine culture grows a gram-negative rod that ferments lactose and forms colonies with a green metallic sheen on eosin-methylene blue agar. Which of the following organisms is most likely responsible?",
+      "answers": {
+        "A": "Enterococcus faecalis",
+        "B": "Escherichia coli",
+        "C": "Proteus mirabilis",
+        "D": "Pseudomonas aeruginosa",
+        "E": "Staphylococcus saprophyticus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Enterococcus is a gram-positive coccus and does not grow as a lactose-fermenting rod.",
+        "B": "E. coli is the most common cause of obstructive pyelonephritis (over 80% of cases) and is a lactose fermenter with a green metallic sheen on EMB agar.",
+        "C": "Proteus is a non-lactose-fermenting, urease-positive rod associated with struvite stones and swarming motility.",
+        "D": "Pseudomonas is a non-lactose-fermenting, oxidase-positive rod that often produces a blue-green pigment.",
+        "E": "Staphylococcus saprophyticus is a gram-positive coccus that causes cystitis in young sexually active women."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-006",
+      "question": "A 46-year-old man is brought to the emergency department with fever, rigors, and right flank pain. Temperature is 39.4°C (103°F), blood pressure is 84/50 mm Hg, and heart rate is 124/min. He is confused. Ultrasound shows right hydronephrosis with an obstructing proximal ureteral stone. A CBC with differential, BMP, urinalysis, and urine and blood cultures have been sent. Which additional laboratory study best assesses the severity of his illness?",
+      "answers": {
+        "A": "Serum calcium",
+        "B": "Serum lactate",
+        "C": "Serum lipase",
+        "D": "Serum uric acid",
+        "E": "Urine cytology"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Serum calcium helps in the later workup of stone disease but says nothing about sepsis severity.",
+        "B": "Lactate, with a blood gas, is the advanced laboratory study for a septic patient with obstructive pyelonephritis, as it reflects tissue hypoperfusion.",
+        "C": "Lipase evaluates pancreatitis, which does not explain fever with hydronephrosis.",
+        "D": "Uric acid helps identify the stone type later but does not guide resuscitation.",
+        "E": "Urine cytology screens for urothelial cancer and has no role in acute sepsis."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-007",
+      "question": "A 35-year-old man comes to the emergency department with a painful erection that has lasted 5 hours. He used cocaine last night. The penis is fully rigid and tender, and the glans is soft. A corporal blood gas is obtained. Results are shown. Which of the following is the most appropriate initial treatment?",
+      "table": [
+        [
+          "Corporal blood gas",
+          "Value",
+          "Normal arterial"
+        ],
+        [
+          "pH",
+          "6.92",
+          "7.35–7.45"
+        ],
+        [
+          "pO2",
+          "18 mm Hg",
+          "75–100 mm Hg"
+        ],
+        [
+          "pCO2",
+          "82 mm Hg",
+          "35–45 mm Hg"
+        ],
+        [
+          "Appearance",
+          "Dark, viscous",
+          "Bright red"
+        ]
+      ],
+      "answers": {
+        "A": "Corporal aspiration and irrigation",
+        "B": "Observation with ice packs and reassurance",
+        "C": "Penile prosthesis placement",
+        "D": "Selective arterial embolization",
+        "E": "Surgical shunt decompression"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Corporal aspiration and saline irrigation is the initial treatment for ischemic priapism, which these acidotic, hypoxic corporal blood gas values confirm.",
+        "B": "Observation suits non-ischemic priapism; ischemic priapism is an emergency that progresses to penile compartment syndrome.",
+        "C": "A prosthesis is a late option for erectile dysfunction after fibrosis, not an initial treatment.",
+        "D": "Embolization targets the arterial-cavernosal fistula of high-flow priapism, not a low-flow ischemic state.",
+        "E": "Surgical decompression is reserved for ischemic priapism that fails aspiration and intracorporal phenylephrine."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-008",
+      "question": "A 52-year-old man with erectile dysfunction comes to the emergency department 6 hours after an intracavernous injection, with a rigid, painful erection. Corporal blood gas shows pH 6.95 and pO2 20 mm Hg. Corporal aspiration and saline irrigation are performed, but the erection returns within 20 minutes and remains painful. Vital signs are normal. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Embolization of cavernosal artery",
+        "B": "Heparin infusion",
+        "C": "Intracorporal phenylephrine",
+        "D": "Oral sildenafil",
+        "E": "Penile prosthesis placement"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Embolization treats a high-flow arterial fistula; this blood gas shows a low-flow ischemic state.",
+        "B": "Anticoagulants are listed as a risk factor for priapism and do not restore venous outflow.",
+        "C": "Intracorporal phenylephrine, an alpha-agonist that contracts cavernosal smooth muscle, is given for ischemic priapism that persists after aspiration and irrigation.",
+        "D": "Sildenafil is a PDE5 inhibitor, itself a cause of ischemic priapism.",
+        "E": "A prosthesis is considered only after irreversible fibrosis, not during an acute episode."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-009",
+      "question": "A 22-year-old man comes to the clinic because of a partial erection that has persisted for 3 days. It is not painful. Four days ago he slipped while mounting his bicycle and struck his perineum on the crossbar. The penis is partially rigid and non-tender. A corporal blood gas is obtained. Results are shown. Which of the following best explains his condition?",
+      "table": [
+        [
+          "Corporal blood gas",
+          "Value",
+          "Normal arterial"
+        ],
+        [
+          "pH",
+          "7.40",
+          "7.35–7.45"
+        ],
+        [
+          "pO2",
+          "94 mm Hg",
+          "75–100 mm Hg"
+        ],
+        [
+          "pCO2",
+          "39 mm Hg",
+          "35–45 mm Hg"
+        ],
+        [
+          "Appearance",
+          "Bright red",
+          "Bright red"
+        ]
+      ],
+      "answers": {
+        "A": "Arterial-cavernosal fistula",
+        "B": "Cavernosal smooth muscle paralysis",
+        "C": "Sickled erythrocyte sludging",
+        "D": "Tunica albuginea rupture",
+        "E": "Venous outflow occlusion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Blunt trauma can create a fistula between the cavernosal artery and the corpus cavernosum, giving the high inflow without reduced outflow of non-ischemic priapism; the blood gas is arterial.",
+        "B": "Paralysis of cavernosal smooth muscle impairs drainage and causes ischemic priapism, with acidotic, hypoxic blood.",
+        "C": "Sickled cells obstruct outflow and cause painful ischemic priapism, the most common cause in children.",
+        "D": "Rupture of the tunica albuginea is a penile fracture, with a pop, loss of erection, and an eggplant deformity.",
+        "E": "Venous outflow occlusion creates a low-inflow, low-outflow ischemic state with dark, acidotic blood."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-010",
+      "question": "A 9-year-old boy is brought to the emergency department with a painful erection that began 6 hours ago while he slept. He had painful swelling of his hands and feet as a toddler and has been hospitalized twice for severe chest pain with fever. The penis is fully rigid and tender. Hemoglobin is 7.8 g/dL and the reticulocyte count is 12%. Which of the following is the most likely underlying condition?",
+      "answers": {
+        "A": "Acute myeloid leukemia",
+        "B": "Congenital arterial malformation",
+        "C": "Hereditary spherocytosis",
+        "D": "Sickle cell disease",
+        "E": "Spinal cord injury"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Leukemia is a cause of ischemic priapism, but it does not explain dactylitis, acute chest episodes, and a high reticulocyte count.",
+        "B": "A congenital arterial malformation causes non-ischemic priapism, which is partial and painless.",
+        "C": "Hereditary spherocytosis causes hemolysis and splenomegaly but not vaso-occlusive crises or priapism.",
+        "D": "Sickle cell disease is the most common cause of ischemic priapism in children; hand-foot swelling and acute chest syndrome point to it.",
+        "E": "Spinal cord injury and neurologic shock can cause priapism, but this child has no such history."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-011",
+      "question": "A 46-year-old man comes to the emergency department with a painful, fully rigid erection for 7 hours. He has major depressive disorder and insomnia, and 2 weeks ago his psychiatrist added a new bedtime medication. He denies drug use or injections. He takes atorvastatin, lisinopril, metformin, omeprazole, and trazodone. Which of the following medications most likely caused his condition?",
+      "answers": {
+        "A": "Atorvastatin",
+        "B": "Lisinopril",
+        "C": "Metformin",
+        "D": "Omeprazole",
+        "E": "Trazodone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Atorvastatin can cause myalgia and transaminase elevation, not priapism.",
+        "B": "Lisinopril can cause cough and angioedema, not priapism.",
+        "C": "Metformin can cause GI upset and lactic acidosis, not priapism.",
+        "D": "Omeprazole can cause hypomagnesemia and B12 deficiency, not priapism.",
+        "E": "Trazodone, used at bedtime for insomnia in depression, is a recognized cause of ischemic priapism, as is bupropion."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-012",
+      "question": "A 30-year-old man comes to the emergency department 1 hour after an injury during sexual intercourse. He heard a popping sound followed by immediate severe pain and loss of his erection. The penile shaft is markedly swollen, purple, and deviated to one side. He can void normally. Which of the following is the most appropriate management?",
+      "answers": {
+        "A": "Cold compresses and observation",
+        "B": "Corporal aspiration and irrigation",
+        "C": "Immediate surgical repair",
+        "D": "Intracorporal phenylephrine injection",
+        "E": "Oral NSAIDs and clinic follow-up"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Conservative care leaves the tunica defect unrepaired and raises the risk of curvature, plaques, and erectile dysfunction.",
+        "B": "Aspiration and irrigation treat ischemic priapism, not a ruptured corporal body that has already lost its erection.",
+        "C": "Penile fracture, diagnosed from the history and exam (pop, sudden detumescence, eggplant deformity), is treated with immediate surgical repair.",
+        "D": "Phenylephrine treats ischemic priapism that persists after aspiration; there is no erection to reverse here.",
+        "E": "NSAIDs and delayed follow-up miss the window for repair and risk permanent deformity."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-013",
+      "question": "A 28-year-old man comes to the emergency department after his erect penis was forcibly bent during vigorous masturbation. He felt a pop, then immediate pain and detumescence. Examination shows extensive shaft ecchymosis with an eggplant-shaped swelling. Which of the following structures is most likely torn?",
+      "answers": {
+        "A": "Buck fascia only",
+        "B": "Corpus spongiosum",
+        "C": "Dartos fascia",
+        "D": "Deep dorsal vein",
+        "E": "Tunica albuginea"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Buck fascia contains the hematoma when intact; its tearing alone does not cause the pop and loss of erection.",
+        "B": "The corpus spongiosum surrounds the urethra and does not maintain rigidity; its injury suggests a urethral tear.",
+        "C": "Dartos fascia is the superficial layer beneath the skin and does not hold corporal pressure.",
+        "D": "A deep dorsal vein tear can cause swelling but without the pop and sudden detumescence of corporal rupture.",
+        "E": "Penile fracture is rupture of the tunica albuginea of the corporal bodies when the erect penis is forcibly bent."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-014",
+      "question": "A 78-year-old man with severe dementia, BPH, and a history of TURP is brought from his nursing home with 12 hours of agitation and poor oral intake. He is non-communicative. He is afebrile, blood pressure is 186/87 mm Hg, and heart rate is 111/min. Genital examination is shown. Which of the following is the most appropriate next step in management?",
+      "image": {
+        "src": "images/case-vignettes-urologic-emergencies/014.jpg",
+        "caption": "Genital examination",
+        "credit": "Slides p. 11"
+      },
+      "answers": {
+        "A": "Emergent circumcision",
+        "B": "Manual reduction with analgesia",
+        "C": "Oral cephalexin for 7 days",
+        "D": "Scrotal Doppler ultrasound",
+        "E": "Topical corticosteroid cream twice daily"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Surgical reduction is reserved for paraphimosis that cannot be reduced manually.",
+        "B": "This is paraphimosis, a retracted foreskin trapped behind the coronal sulcus with a swollen glans; it is treated with pain control and manual reduction.",
+        "C": "Antibiotics do not relieve the constricting band that threatens arterial inflow to the glans.",
+        "D": "Diagnosis of paraphimosis is clinical; imaging delays treatment and has a limited role.",
+        "E": "Topical steroids are used for chronic phimosis, not for an acutely trapped, edematous foreskin."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-015",
+      "question": "A 2-year-old uncircumcised boy is brought to the emergency department because of irritability and refusal to walk for 8 hours. His father retracted the foreskin while bathing him the night before. The glans is swollen, there is a tight ring of tissue at the coronal sulcus, and the shaft is flaccid. Which of the following is the initial process responsible for the swelling?",
+      "answers": {
+        "A": "Arterial thrombosis of the dorsal artery",
+        "B": "Bacterial cellulitis of the prepuce",
+        "C": "Contact dermatitis from bath soap",
+        "D": "IgE-mediated angioedema",
+        "E": "Venous and lymphatic outflow obstruction"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Arterial inflow is lost only late, after edema becomes severe; it is not the first event.",
+        "B": "Cellulitis would cause fever and spreading erythema, not a constricting band at the corona after retraction.",
+        "C": "Contact dermatitis causes itchy eczematous skin, not a tight ring with glans edema.",
+        "D": "Angioedema is not triggered by foreskin retraction and lacks a constricting band.",
+        "E": "In paraphimosis, the retracted foreskin first obstructs venous and lymphatic outflow, making the foreskin and glans edematous; untreated, arterial inflow is occluded and necrosis follows."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-016",
+      "question": "A 10-year-old boy is brought to the emergency department 2 hours after sudden, severe left scrotal pain that began when he was struck in the groin playing tetherball. He has vomited once. He is voiding normally and has no fever. The left testis is exquisitely tender and lies high with a horizontal orientation. Examination is shown. Which of the following is the most appropriate next step in management?",
+      "image": {
+        "src": "images/case-vignettes-urologic-emergencies/016.jpg",
+        "caption": "Scrotal examination",
+        "credit": "Slides p. 17"
+      },
+      "answers": {
+        "A": "Ceftriaxone and doxycycline",
+        "B": "Elective orchidopexy in 2 weeks",
+        "C": "Immediate scrotal exploration",
+        "D": "Nuclear testicular scintigraphy",
+        "E": "Scrotal elevation and NSAIDs"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Antibiotics treat epididymo-orchitis, which is gradual in onset with fever or urinary symptoms.",
+        "B": "Delay is the main cause of testis loss; salvage approaches 100% within 6 hours and falls to about 20% after 12 hours.",
+        "C": "A tender testis with a high, horizontal lie is classic testicular torsion; with a diagnostic exam, urgent surgical exploration with detorsion and orchidopexy should not wait for imaging.",
+        "D": "Scintigraphy is slow and not the adjunct used; scrotal Doppler ultrasound is reserved for an equivocal exam.",
+        "E": "Supportive care suits epididymitis and would let a torsed testis infarct."
+      },
+      "explanationImage": {
+        "src": "images/case-vignettes-urologic-emergencies/016-exp.jpg",
+        "caption": "Intraoperative view: twisted spermatic cord and dark, ischemic testis",
+        "credit": "Slides p. 20"
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-017",
+      "question": "A 13-year-old boy undergoes emergency scrotal exploration 3 hours after the onset of right testicular pain. The right testis is twisted 720 degrees on its cord and lies transversely, suspended freely within the tunica vaginalis. After detorsion, the testis turns pink and is fixed in place. Which of the following procedures should also be performed during this operation?",
+      "answers": {
+        "A": "Contralateral orchidopexy",
+        "B": "Contralateral orchiectomy",
+        "C": "Inguinal hernia repair",
+        "D": "Ipsilateral orchiectomy",
+        "E": "Varicocele ligation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "This transverse, freely suspended lie is the bell clapper deformity; the contralateral testis is also at risk and is pexed in the same surgery.",
+        "B": "Removing a healthy contralateral testis would leave him with a single testis for no reason.",
+        "C": "Nothing in the history or findings suggests a hernia.",
+        "D": "Orchiectomy is for a necrotic testis; this one reperfused after detorsion within 6 hours.",
+        "E": "A varicocele is a dilated pampiniform plexus and is unrelated to torsion."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-018",
+      "question": "A 15-year-old boy has had left scrotal pain for 5 hours. The pain began during sleep, and he has mild nausea. The left hemiscrotum is swollen and tender, but examination is limited by guarding and the lie of the testis cannot be determined. Urinalysis is normal. Scrotal ultrasonography with Doppler is performed. Which of the following findings would most strongly support the need for immediate surgery?",
+      "answers": {
+        "A": "Bowel loops within the scrotum",
+        "B": "Dilated pampiniform venous plexus",
+        "C": "Hyperemic, enlarged epididymis",
+        "D": "No intratesticular arterial flow",
+        "E": "Simple fluid around the testis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Bowel in the scrotum indicates an inguinal hernia, which ultrasound can identify but which is a different emergency.",
+        "B": "A dilated pampiniform plexus is a varicocele, a chronic and usually painless finding.",
+        "C": "Increased epididymal flow suggests acute epididymo-orchitis, which ultrasound can distinguish from torsion.",
+        "D": "When the exam is not diagnostic, scrotal Doppler ultrasound is the most useful adjunct; absent arterial flow in the affected testis makes torsion highly likely.",
+        "E": "A simple hydrocele is common and nonspecific, and it does not indicate testicular ischemia."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-019",
+      "question": "A 58-year-old woman with poorly controlled type 2 diabetes mellitus and obesity comes to the emergency department with 2 days of rapidly worsening perineal pain, fever, and swelling that has spread toward the labia and gluteal folds. She had a perianal abscess drained 1 week ago. Examination shows tense, dusky skin with bullae and crepitus. Which of the following best describes the organisms most likely responsible?",
+      "answers": {
+        "A": "Candida albicans alone",
+        "B": "Group A Streptococcus alone",
+        "C": "Methicillin-resistant Staphylococcus aureus alone",
+        "D": "Mixed facultative and anaerobic bacteria",
+        "E": "Pseudomonas aeruginosa alone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Candida causes intertrigo and vulvovaginitis, not gas-forming necrotizing infection.",
+        "B": "Group A Streptococcus causes single-organism necrotizing fasciitis of the limbs; perineal Fournier gangrene from a colonic source is polymicrobial.",
+        "C": "MRSA causes abscesses and cellulitis, but a single organism does not explain gas from a bowel source.",
+        "D": "Fournier gangrene is a necrotizing perineal infection from mixed facultative and anaerobic organisms (E. coli, Klebsiella, enterococci, Bacteroides, Fusobacterium, Clostridium), usually after a breach in the colon or urethra.",
+        "E": "Pseudomonas alone causes hot tub folliculitis and ecthyma gangrenosum, not this mixed gas-forming picture."
+      }
+    },
+    {
+      "id": "endorepro-case-vignettes-urologic-emergencies-020",
+      "question": "A 63-year-old man with poorly controlled type 2 diabetes mellitus who smokes 1 pack per day comes to the emergency department with 2 days of worsening perineal pain, swelling, and fever. He appears toxic. Temperature is 38.7°C (101.7°F), blood pressure is 100/65 mm Hg, heart rate is 110/min, and respirations are 30/min. The scrotum and perineum are swollen and erythematous, with crepitus and foul-smelling necrotic tissue. Laboratory results are shown, and a CT of the pelvis is obtained. Which of the following is the most appropriate management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "WBC",
+          "18,000/mm³ (left shift)",
+          "4,500–11,000/mm³"
+        ],
+        [
+          "Glucose",
+          "320 mg/dL",
+          "70–100 mg/dL"
+        ],
+        [
+          "Creatinine",
+          "1.6 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "CRP",
+          "Elevated",
+          "< 1.0 mg/dL"
+        ],
+        [
+          "Urinalysis",
+          "No infection",
+          "Negative"
+        ],
+        [
+          "Acid-base",
+          "Metabolic acidosis",
+          "Normal"
+        ]
+      ],
+      "image": {
+        "src": "images/case-vignettes-urologic-emergencies/020.jpg",
+        "caption": "Axial CT of the pelvis",
+        "credit": "Slides p. 35"
+      },
+      "answers": {
+        "A": "Antibiotics and surgical debridement",
+        "B": "Bedside incision and drainage",
+        "C": "Hyperbaric oxygen therapy alone",
+        "D": "Intravenous antibiotics with observation",
+        "E": "Oral antibiotics with clinic follow-up"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Fournier gangrene, with soft-tissue gas on CT, is treated with broad-spectrum antibiotics plus emergent, extensive surgical debridement and drainage; mortality is high.",
+        "B": "Bedside drainage cannot remove the extensive necrotic tissue of Fournier gangrene.",
+        "C": "Hyperbaric oxygen does not replace surgical removal of necrotic tissue.",
+        "D": "Antibiotics alone do not penetrate necrotic tissue, and the infection spreads quickly.",
+        "E": "Outpatient care is inappropriate for a toxic patient with sepsis and necrotizing infection."
+      }
+    }
+  ]
+}
