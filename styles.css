@@ -230,13 +230,13 @@ p {
 /* direct link under the prompt */
 .jump {
   display: inline-block;
-  margin-top: 6px;
-  padding: 9px 22px;
-  border-radius: 9px;
+  margin-top: 4px;
+  padding: 5px 14px;
+  border-radius: 7px;
   background: var(--accent);
   color: var(--light);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 .jump:hover { background: var(--accent-hi); }
