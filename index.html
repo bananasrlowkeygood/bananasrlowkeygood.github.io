@@ -40,6 +40,8 @@
         <div class="cmd-suggest" id="suggest" hidden></div>
       </form>
       <div class="cmd-msg" id="cmdMsg" aria-live="polite"></div>
+
+      <a class="jump" href="jeff/">jeff</a>
     </div>
   </main>
 
@@ -61,26 +63,76 @@
           .filter(i => i.type === "blob")
           .map(i => i.path)
           .filter(p => !p.split("/").some(seg => seg.startsWith("."))); // skip dotfiles/dirs
+        index();
       } catch (e) { /* autocomplete is a nice-to-have */ }
     }
 
-    input.addEventListener("input", () => {
-      updateCursor();
-      const v = input.value.trim().replace(/^\.\//, "").toLowerCase();
-      if (!v) { suggest.hidden = true; return; }
-      const matches = allPaths.filter(p => p.toLowerCase().includes(v)).slice(0, 7);
-      if (!matches.length) { suggest.hidden = true; return; }
-      suggest.innerHTML = matches.map(p => `<button type="button" class="sg" data-p="./${p}">./${p}</button>`).join("");
+    // Pages are folders with an index.html; they come first and open as ./name/.
+    const SHOWN = /\.(pdf|png|jpe?g|gif|mp4|html)$/i;
+    let pages = [], files = [], items = [], active = -1;
+
+    function index() {
+      pages = allPaths.filter(p => /^[^/]+\/index\.html$/.test(p)).map(p => p.replace(/index\.html$/, ""));
+      files = allPaths.filter(p => SHOWN.test(p) && !p.endsWith("index.html") && !p.startsWith("static/"));
+    }
+
+    function clean(v) { return v.trim().replace(/^\.?\//, "").toLowerCase(); }
+
+    function matches(v) {
+      if (!v) return pages;
+      const score = p => {
+        const name = p.replace(/\/$/, "").split("/").pop().toLowerCase();
+        const page = p.endsWith("/") ? 0 : 4;
+        if (name.startsWith(v)) return page;
+        if (name.includes(v)) return page + 1;
+        if (p.toLowerCase().includes(v)) return page + 2;
+        return -1;
+      };
+      return [...pages, ...files]
+        .map(p => [p, score(p)])
+        .filter(([, sc]) => sc >= 0)
+        .sort((x, y) => x[1] - y[1] || x[0].length - y[0].length)
+        .slice(0, 7)
+        .map(([p]) => p);
+    }
+
+    function render() {
+      if (!items.length) { suggest.hidden = true; return; }
+      suggest.innerHTML = items.map((p, i) =>
+        `<button type="button" class="sg${i === active ? " on" : ""}" data-p="${p}">./${p}</button>`).join("");
       suggest.hidden = false;
+    }
+
+    function show(v) {
+      items = matches(clean(v));
+      active = items.length && v.trim() ? 0 : -1;
+      render();
+    }
+
+    function go(path) { window.location.href = baseURL + path; }
+
+    input.addEventListener("input", () => { updateCursor(); show(input.value); });
+    input.addEventListener("mousedown", () => { if (!input.value) show(""); });
+
+    input.addEventListener("keydown", e => {
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault();
+        if (suggest.hidden) { show(input.value); return; }
+        const n = items.length;
+        active = (active + (e.key === "ArrowDown" ? 1 : -1) + n) % n;
+        render();
+      } else if (e.key === "Tab" && !suggest.hidden && items.length) {
+        e.preventDefault();
+        input.value = "./" + items[Math.max(active, 0)];
+        show(input.value);
+      } else if (e.key === "Escape") {
+        suggest.hidden = true;
+      }
     });
 
     suggest.addEventListener("click", e => {
       const b = e.target.closest(".sg");
-      if (!b) return;
-      input.value = b.dataset.p;
-      suggest.hidden = true;
-      updateCursor();
-      input.focus();
+      if (b) go(b.dataset.p);
     });
 
     document.addEventListener("click", e => {
@@ -96,11 +148,16 @@
 
     function redirectToURL(event) {
       event.preventDefault();
+      const v = clean(input.value);
+      if (!suggest.hidden && active >= 0) { go(items[active]); return; }
       suggest.hidden = true;
-      const inputPath = input.value.trim();
-      if (!inputPath) { say("you didn't type anything, silly \u{1F34C}"); return; }
-      if (!inputPath.startsWith("./")) { say("psst — relative paths start with ./"); return; }
-      window.location.href = baseURL + inputPath.slice(2);
+      if (!v) { say("you didn't type anything, silly \u{1F34C}"); return; }
+      // Exact path or page name first, then the best match, then try it as typed.
+      const exact = [...pages, ...files].find(p => p.toLowerCase() === v || p.toLowerCase() === v + "/");
+      const best = exact || matches(v)[0];
+      if (best) { go(best); return; }
+      if (!allPaths.length) { go(v); return; }
+      say(`nothing called ${v} here`);
     }
 
     function updateCursor() {

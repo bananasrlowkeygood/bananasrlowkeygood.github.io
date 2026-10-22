@@ -224,7 +224,23 @@ p {
   color: var(--accent);
   cursor: pointer;
 }
-.cmd-suggest .sg:hover { background: var(--bg); color: var(--ink); }
+.cmd-suggest .sg:hover,
+.cmd-suggest .sg.on { background: var(--bg); color: var(--ink); }
+
+/* direct link under the prompt */
+.jump {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 9px 22px;
+  border-radius: 9px;
+  background: var(--accent);
+  color: var(--light);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.jump:hover { background: var(--accent-hi); }
+.jump:active { background: var(--accent-lo); transform: translateY(1px); }
 
 .cmd-msg {
   min-height: 1.2em;
