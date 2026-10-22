@@ -495,8 +495,14 @@
     },
     {
       "file": "week-3-cbl.json",
-      "name": "Week 3 CBL",
-      "count": 40
+      "name": "CBL Week 3: Male Lower GU Tract and Prostate",
+      "count": 40,
+      "pdfs": [
+        {
+          "label": "handout",
+          "file": "Week-3-c4e8987cd2.pdf"
+        }
+      ]
     }
   ]
 }
