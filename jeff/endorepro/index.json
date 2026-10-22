@@ -34,7 +34,17 @@
     {
       "file": "case-vignettes-urologic-emergencies.json",
       "name": "Case Vignettes - Urologic Emergencies",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.22.26-CM_Case-Vignettes---Urologic-Emergencies_Lallas_Notes-53be5c8d5b.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.22.26-CM_Case-Vignettes---Urologic-Emergencies_Lallas_Slides-51df9c6bba.pdf"
+        }
+      ]
     },
     {
       "file": "chronic-complications-of-diabetes.json",
@@ -104,7 +114,17 @@
     {
       "file": "histology-of-the-ovary-and-organs-of-the-ovum-pathway.json",
       "name": "Histology of the Ovary and Organs of the Ovum Pathway",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "handout",
+          "file": "10.23.26-ANAT_Histology-of-the-Ovary-and-Organs-of-the-Ovum-Pathway_Macnow_Narra-7fad209a2f.pdf"
+        },
+        {
+          "label": "handout",
+          "file": "10.23.26-ANAT_Histology-of-the-Ovary-and-Organs-of-the-Ovum-Pathway_Macnow_Outli-4624149a68.pdf"
+        }
+      ]
     },
     {
       "file": "histology-of-the-testis-and-sperm-release-pathway.json",
@@ -244,7 +264,13 @@
     {
       "file": "physiology-of-the-uterus-and-ovary.json",
       "name": "Physiology of the Uterus and Ovary",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "handout",
+          "file": "10.23.26-PHYS_Physiology-of-the-Uterus-and-Ovary_Lackritz.v.10.15.26-f62aec217b.pdf"
+        }
+      ]
     },
     {
       "file": "pituitary-abnormalities.json",
@@ -309,7 +335,17 @@
     {
       "file": "reproductive-system-embryo.json",
       "name": "Reproductive System Embryology",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.2026-ANAT_Reproductive-System-Embryo_Spudich_Notes-a7a315c3bc.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.2026-ANAT_Reproductive-System-Embryo_Spudich_Slides-5871abd529.pdf"
+        }
+      ]
     },
     {
       "file": "steroidogenesis.json",
@@ -359,7 +395,17 @@
     {
       "file": "testicular-and-erectile-dysfunction.json",
       "name": "Testicular & Erectile Dysfunction",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.22.26-CM_Testicular-Erectile-Dysfunction_Jimbo_Notes-6016b21d6c.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.22.26-CM_Testicular-Erectile-Dysfunction_Jimbo_Slides-76a8f4ca1a.pdf"
+        }
+      ]
     },
     {
       "file": "transcription-and-nuclear-hormone-receptors.json",
@@ -394,12 +440,32 @@
     {
       "file": "uropharmacology.json",
       "name": "Uropharmacology",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.22.26-PHARM_Uropharmacology_Trabulsi_Notes.v.10.16.26-529fa1ccbb.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.22.26-PHARM_Uropharmacology_Trabulsi_Slides.v.10.16.26-174502507d.pdf"
+        }
+      ]
     },
     {
       "file": "voiding-dysfunction.json",
       "name": "Voiding Dysfunction",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.22.26-CM_Voiding-Dysfunction_Murphy_Notes.v.10.16.26-fcd1107893.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.22.26-CM_Voiding-Dysfunction_Murphy_Slides.v.10.16.26-3a2729a93f.pdf"
+        }
+      ]
     },
     {
       "file": "week-1-cbl.json",
