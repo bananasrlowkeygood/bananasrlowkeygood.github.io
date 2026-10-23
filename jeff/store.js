@@ -13,13 +13,6 @@
  *             line in the tests index — what it covered, when, the score —
  *             so they can be listed without loading every one.
  *
- * Signed in, there is also an inbox: questions other people sent you, as
- * lists of question ids under users/{uid}/inbox. What you sent is noted
- * under users/{uid}/sent. And receipts, under users/{uid}/receipts: what
- * became of the ones you sent. And chat: what two people have said to each
- * other, under chats/{their two uids}. These live in
- * Firestore only.
- *
  * All of it is written to this browser first, so the site works signed out,
  * offline, or with no Firebase project at all. When someone is signed in it is
  * also copied to Firestore under users/{uid}, and merged back in on load, so
@@ -214,18 +207,6 @@
     });
   }
 
-  // Say who you are, so other people can pick you to send questions to.
-  // Written once per browser, and again if the name changes.
-  let me = null;
-  function announce() {
-    const key = `jeff-me:${ns}`, name = me.name || '';
-    if (!name || read(key) === name) return;
-    cloud.then(c => {
-      if (!c || c.uid !== ns) return;
-      return c.fs.setDoc(c.fs.doc(c.db, 'people', c.uid), { name }).then(() => write(key, name));
-    }).catch(e => console.warn('jeff: announce', e));
-  }
-
   const docIdOf = (block, file) =>
     `${block}__${String(file || '').replace(/\.json$/, '')}`.replace(/[^\w.-]/g, '_');
 
@@ -261,19 +242,6 @@
   document.addEventListener('visibilitychange', () => { if (document.hidden) flushRuns(); });
   window.addEventListener('pagehide', flushRuns);
 
-  // ── Chat ──
-  // A conversation is between two people, under chats/{their two uids in
-  // order}: the document says when it was last added to and how far each of
-  // them has read, and the messages are beneath it.
-  const pairOf = (a, b) => [a, b].sort().join('_');
-
-  // Listen to something in the account until the function this returns is called.
-  function listen(start) {
-    let stop = null, over = false;
-    cloud.then(c => { if (c && c.uid === ns && !over) stop = start(c); }).catch(() => {});
-    return () => { over = true; if (stop) stop(); };
-  }
-
   window.STORE = {
     // Call once, before anything else, with whoever GATE let in.
     open(user, cloudPromise) {
@@ -281,131 +249,7 @@
       cloud = cloudPromise || Promise.resolve(null);
       cache = {};
       index = null;
-      me = user || null;
-      if (user) { adopt(); announce(); }
-    },
-
-    // Everyone else who has signed in: [{ uid, name }], by name. null when
-    // the list couldn't be read, which is not the same as nobody being on it.
-    people(ms) {
-      const work = cloud.then(async c => {
-        if (!c || c.uid !== ns) return [];
-        const snap = await c.fs.getDocs(c.fs.collection(c.db, 'people'));
-        return snap.docs.filter(d => d.id !== c.uid)
-          .map(d => ({ uid: d.id, name: d.data().name || '' }))
-          .filter(p => p.name)
-          .sort((a, b) => a.name.localeCompare(b.name));
-      }).catch(e => { console.warn('jeff: people', e); return null; });
-      return within(work, ms).then(list => list || null);
-    },
-
-    // Put these questions in someone's inbox. Resolves true once it is there.
-    // A note of it is kept in your own account, so it shows as sent before
-    // they have opened anything.
-    sendTo(uid, qids, name) {
-      return cloud.then(async c => {
-        if (!c || c.uid !== ns || !qids.length) return false;
-        const t = Date.now();
-        qids = qids.slice(0, 200);
-        await c.fs.addDoc(c.fs.collection(c.db, 'users', uid, 'inbox'),
-          { from: c.uid, name: (me && me.name) || '', qids, t });
-        await c.fs.addDoc(c.fs.collection(c.db, 'users', c.uid, 'sent'), { to: uid, name: name || '', qids, t })
-          .catch(e => console.warn('jeff: sent', e));
-        return true;
-      }).catch(() => false);
-    },
-
-    // What you have sent: [{ id, to, name, qids, t }].
-    sent(ms) {
-      const work = cloud.then(async c => {
-        if (!c || c.uid !== ns) return [];
-        const snap = await c.fs.getDocs(c.fs.collection(c.db, 'users', c.uid, 'sent'));
-        return snap.docs.map(d => Object.assign({ id: d.id }, d.data()))
-          .filter(m => m.to && Array.isArray(m.qids) && m.qids.length);
-      }).catch(() => []);
-      return within(work, ms).then(list => list || []);
-    },
-
-    // What has been sent to you, newest first: [{ id, name, qids, t }].
-    inbox(ms) {
-      const work = cloud.then(async c => {
-        if (!c || c.uid !== ns) return [];
-        const snap = await c.fs.getDocs(c.fs.collection(c.db, 'users', c.uid, 'inbox'));
-        return snap.docs.map(d => Object.assign({ id: d.id }, d.data()))
-          .filter(m => Array.isArray(m.qids) && m.qids.length)
-          .sort((a, b) => (b.t || 0) - (a.t || 0));
-      }).catch(() => []);
-      return within(work, ms).then(list => list || []);
-    },
-
-    dropInbox(id) {
-      return cloud.then(c => {
-        if (c && c.uid === ns) return c.fs.deleteDoc(c.fs.doc(c.db, 'users', c.uid, 'inbox', id));
-      }).catch(() => {});
-    },
-
-    // Tell whoever sent you a question what became of it: `what` is
-    // { opened } or { done, ok }. One receipt per question per person, kept in
-    // the sender's account.
-    receipt(to, qid, what) {
-      return cloud.then(c => {
-        if (!c || c.uid !== ns || !to || to === c.uid) return;
-        return c.fs.setDoc(c.fs.doc(c.db, 'users', to, 'receipts', `${c.uid}_${qid}`),
-          Object.assign({ from: c.uid, name: (me && me.name) || '', qid }, what), { merge: true });
-      }).catch(e => console.warn('jeff: receipt', e));
-    },
-
-    // What became of the questions you sent:
-    // [{ id, from, name, qid, opened, done, ok }].
-    receipts(ms) {
-      const work = cloud.then(async c => {
-        if (!c || c.uid !== ns) return [];
-        const snap = await c.fs.getDocs(c.fs.collection(c.db, 'users', c.uid, 'receipts'));
-        return snap.docs.map(d => Object.assign({ id: d.id }, d.data())).filter(r => r.from && r.qid);
-      }).catch(() => []);
-      return within(work, ms).then(list => list || []);
-    },
-
-    // Where a conversation stands, now and whenever that changes:
-    // cb({ t, text, mine, unread, seen }): when it was last added to, how
-    // that began and whether it was you, and how far the other person has read. cb(null) when it can't be read. Returns a way to stop.
-    watchChat(uid, cb) {
-      return listen(c => c.fs.onSnapshot(c.fs.doc(c.db, 'chats', pairOf(c.uid, uid)), snap => {
-        const d = snap.data() || {}, read = d.read || {};
-        cb({ t: d.t || 0, text: d.text || '', mine: d.from === c.uid, unread: !!d.t && d.from !== c.uid && d.t > (read[c.uid] || 0), seen: read[uid] || 0 });
-      }, e => { console.warn('jeff: chat', e); cb(null); }));
-    },
-
-    // Its messages, oldest first, now and whenever one arrives:
-    // cb([{ id, mine, name, text, qids, t }]), or cb(null) when they can't be read.
-    watchThread(uid, cb) {
-      return listen(c => c.fs.onSnapshot(
-        c.fs.query(c.fs.collection(c.db, 'chats', pairOf(c.uid, uid), 'messages'), c.fs.orderBy('t'), c.fs.limitToLast(200)),
-        snap => cb(snap.docs.map(d => Object.assign({ id: d.id, mine: d.data().from === c.uid }, d.data()))),
-        e => { console.warn('jeff: chat', e); cb(null); }));
-    },
-
-    // Say something to someone, about these questions if any. Resolves true
-    // once it is there.
-    say(uid, text, qids) {
-      return cloud.then(async c => {
-        text = String(text || '').trim().slice(0, 2000);
-        qids = (qids || []).slice(0, 200);
-        if (!c || c.uid !== ns || !(text || qids.length)) return false;
-        const t = Date.now(), at = c.fs.doc(c.db, 'chats', pairOf(c.uid, uid));
-        await c.fs.addDoc(c.fs.collection(at, 'messages'), { from: c.uid, name: (me && me.name) || '', text, qids, t });
-        c.fs.setDoc(at, { t, from: c.uid, text: text.slice(0, 80), read: { [c.uid]: t } }, { merge: true }).catch(() => {});
-        return true;
-      }).catch(e => { console.warn('jeff: say', e); return false; });
-    },
-
-    // You have read a conversation up to now.
-    readChat(uid) {
-      return cloud.then(c => {
-        if (c && c.uid === ns) {
-          return c.fs.setDoc(c.fs.doc(c.db, 'chats', pairOf(c.uid, uid)), { read: { [c.uid]: Date.now() } }, { merge: true });
-        }
-      }).catch(() => {});
+      if (user) adopt();
     },
 
     // Whether the account can be reached: true once the sign-in is confirmed,
