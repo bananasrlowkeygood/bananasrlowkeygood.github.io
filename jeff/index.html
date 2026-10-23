@@ -141,35 +141,7 @@
     .side-link > span:first-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .side-link > span:last-child { flex-shrink: 0; font-size: 0.72rem; opacity: 0.65; }
 
-    /* ── Chat ──
-       A button in the top bar, with how many people have said something you
-       haven't read, that opens the chat under it. */
-    .chat-btn { background: transparent; }
-    .chat-btn:active, .chat-btn.on { background: rgba(92,79,122,0.14); }
-    .history-link[hidden], .badge[hidden] { display: none; }
-    .badge {
-      min-width: 16px;
-      height: 16px;
-      padding: 0 4px;
-      border-radius: 8px;
-      background: #c98a00;
-      color: #fff;
-      font-size: 0.62rem;
-      line-height: 16px;
-      text-align: center;
-    }
-    .chat-pop {
-      position: fixed;
-      top: calc(var(--bar, 3.1rem) + 0.5rem);
-      right: 1rem;
-      z-index: 30;
-      width: min(380px, calc(100vw - 2rem));
-      height: min(34rem, calc(100vh - var(--bar, 3.1rem) - 1.5rem));
-      background: #f0ecf8;
-      box-shadow: 0 10px 34px rgba(92,79,122,0.22);
-    }
-    .chat-pop:hover { box-shadow: 0 10px 34px rgba(92,79,122,0.22); }
-    .chat-pop[hidden] { display: none; }
+    .history-link[hidden] { display: none; }
 
     /* On a phone the buttons get a row of their own under the title. */
     @media (max-width: 560px) {
@@ -179,7 +151,7 @@
       .lock-btn { margin-left: auto; white-space: nowrap; }
     }
 
-    /* A side card looks the same but is not a block: review, the ids box, the chat. */
+    /* A side card looks the same but is not a block: review, the ids box. */
     .block-card, .side-card {
       border: 1px solid #c5bee0;
       border-radius: 10px;
@@ -312,7 +284,6 @@
       color: #9a9a9a;
       cursor: default;
     }
-    .ids-row button[hidden] { display: none; }
 
     /* ── Custom sets ──
        Every lecture has a box to tick, and every week one that ticks the lot.
@@ -492,8 +463,6 @@
     <div class="topbar-right">
       <a class="history-link" id="dueRow" title="Due for review" hidden><span>due</span><span id="dueCount"></span></a>
       <a class="history-link" href="history.html">history</a>
-      <a class="history-link" id="inboxLink" href="inbox.html" hidden>inbox<span class="badge" id="inboxBadge" hidden></span></a>
-      <button type="button" class="history-link chat-btn" id="chatBtn" aria-expanded="false" hidden>chat<span class="badge" id="chatBadge" hidden></span></button>
       <span class="bar-rule"></span>
       <span class="who" id="who"></span>
       <button class="btn-outline lock-btn" id="lockBtn" onclick="GATE.forget()" title="Forget this browser — ask for the password again">lock</button>
@@ -514,12 +483,9 @@
         <input id="idsInput" type="text" placeholder="question ids" aria-label="question ids"
                autocomplete="off" autocapitalize="none" spellcheck="false">
         <button type="submit" id="idsGo" disabled>start</button>
-        <button type="button" class="btn-outline" id="idsSend" onclick="SHARE.pick(this, typedIds())" disabled hidden>send</button>
       </form>
     </div>
   </div>
-
-  <div class="side-card chat-pop" id="chat" hidden></div>
 
   <div class="pickbar" id="pickbar">
     <span class="pick-count" id="pickCount"></span>
@@ -537,8 +503,6 @@
   <script src="firebase-config.js"></script>
   <script src="gate.js"></script>
   <script src="store.js"></script>
-  <script src="share.js"></script>
-  <script src="chat.js"></script>
   <script>
     // Files in a block folder that describe it rather than hold questions.
     const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
@@ -770,80 +734,13 @@
       .toLowerCase().split(/[^a-z0-9]+/).filter(Boolean))];
 
     document.getElementById('idsInput').addEventListener('input', () => {
-      const none = !typedIds().length;
-      document.getElementById('idsGo').disabled = none;
-      document.getElementById('idsSend').disabled = none;
+      document.getElementById('idsGo').disabled = !typedIds().length;
     });
 
     function goIds(e) {
       e.preventDefault();
       const ids = typedIds();
       if (ids.length) location.href = `quiz.html?q=${ids.join(',')}`;
-    }
-
-    // ── Chat ──
-    // Open under its button; shut by the button again, Escape, or a click
-    // anywhere else. Shutting it goes back to everyone, so nothing that
-    // arrives while it is shut counts as read.
-    let chat = null;
-    const chatPop = document.getElementById('chat'), chatBtn = document.getElementById('chatBtn');
-
-    function showChat(on) {
-      chatPop.style.setProperty('--bar', `${document.querySelector('.topbar').getBoundingClientRect().bottom}px`);
-      chatPop.hidden = !on;
-      chatBtn.classList.toggle('on', on);
-      chatBtn.setAttribute('aria-expanded', on ? 'true' : 'false');
-      if (!on && chat) chat.back();
-    }
-    chatBtn.addEventListener('click', () => showChat(chatPop.hidden));
-    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !chatPop.hidden) showChat(false); });
-    document.addEventListener('click', e => {
-      if (!chatPop.hidden && e.target.isConnected && !chatPop.contains(e.target) && !chatBtn.contains(e.target)) showChat(false);
-    });
-
-    // ── Inbox ──
-    // How many of the questions people sent you are still to do: not
-    // answered since they were last sent, as the inbox page counts them.
-    let mail = null, located = null;
-
-    async function loadMail() {
-      mail = await STORE.inbox(15000);
-      const ids = [...new Set(mail.flatMap(m => m.qids.map(q => String(q).toLowerCase().replace(/[^a-z0-9]/g, '')).filter(Boolean)))];
-      located = {};
-      if (!ids.length) return;
-      try {
-        const where = await (await fetch(`qids.json?t=${Date.now()}`)).json();
-        await Promise.all(Object.keys(where).filter(f => where[f].some(id => ids.includes(id))).map(async f => {
-          const cut = f.indexOf('/'), qs = (await (await fetch(f)).json()).questions.filter(q => q.id);
-          where[f].forEach((id, i) => {
-            if (qs[i]) located[id] = { doc: STORE.docId(f.slice(0, cut), f.slice(cut + 1)), id: qs[i].id };
-          });
-        }));
-      } catch (e) {}
-    }
-
-    function paintMail() {
-      if (!mail) return;
-      const at = {};   // whoever sent it and the question -> when it was last sent
-      mail.forEach(m => m.qids.forEach(q => {
-        const k = `${m.from || m.name} ${String(q).toLowerCase().replace(/[^a-z0-9]/g, '')}`;
-        at[k] = Math.max(at[k] || 0, m.t || 0);
-      }));
-      const left = Object.keys(at).filter(k => {
-        const l = located[k.slice(k.lastIndexOf(' ') + 1)];
-        return !l || !STORE.attempts(l.doc, l.id).some(a => a.t >= at[k]);
-      }).length;
-      const badge = document.getElementById('inboxBadge');
-      badge.hidden = !left;
-      badge.textContent = left;
-      document.getElementById('inboxLink').title = left ? `${left} to do` : '';
-    }
-
-    function paintUnread(n) {
-      const badge = document.getElementById('chatBadge');
-      badge.hidden = !n;
-      badge.textContent = n;
-      chatBtn.title = n ? `${n} unread` : '';
     }
 
     function weekGroup(block, g) {
@@ -909,22 +806,12 @@
         btn.textContent = 'sign out';
         btn.title = `Sign out ${user.email}`;
       }
-      if (user) {
-        SHARE.able().then(ok => {
-          document.getElementById('idsSend').hidden = !ok;
-          if (!ok) return;
-          document.getElementById('inboxLink').hidden = false;
-          loadMail().then(paintMail);
-          chatBtn.hidden = false;
-          chat = CHAT.mount(chatPop, { onUnread: paintUnread });
-        });
-      }
       await init();
       paintStats();
       // What this device has shows at once; the account's copy fills in after.
       // The tests list comes too: a test deleted elsewhere takes its answers.
       const got = await Promise.all([STORE.pull(null, 15000), STORE.pullTests(15000)]);
-      if (got.some(Boolean)) { paintStats(); paintMail(); }
+      if (got.some(Boolean)) paintStats();
     });
   </script>
 </body>
