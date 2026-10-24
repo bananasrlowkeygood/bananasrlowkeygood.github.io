@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jeff for mac</title>
+  <link rel="icon" type="image/x-icon" href="../static/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <!-- Google won't sign anyone in inside an app's own window, so jeff for
+       mac sends people here, in their browser. The sign-in is handed back to
+       the app as a Google ID token on a jeffmac:// link, and the app signs
+       its copy of the site in with it. -->
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Klee One", cursive; }
+    body {
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      background: radial-gradient(60rem 34rem at 50% 38%, #f6f2fc 0%, rgba(246,242,252,0) 70%), #eae6f0;
+      color: #14111a; padding: 1.25rem;
+    }
+    .card {
+      width: 100%; max-width: 340px; display: flex; flex-direction: column; align-items: stretch;
+      gap: 1rem; padding: 2rem 1.75rem 1.75rem; text-align: center;
+      background: #f0ecf8; border: 1px solid #c5bee0; border-radius: 14px;
+      box-shadow: 0 10px 34px rgba(92,79,122,0.16);
+    }
+    img { width: 96px; align-self: center; }
+    h1 { font-size: 1.3rem; font-weight: 600; }
+    button, a.go {
+      display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+      height: 40px; border: none; border-radius: 8px; background: #5c4f7a; color: #f0ecf8;
+      font-size: 0.9rem; cursor: pointer; text-decoration: none;
+    }
+    button:hover, a.go:hover { background: #6e5f90; }
+    .note { font-size: 0.8rem; color: #5c4f7a; opacity: 0.8; min-height: 1em; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="../static/assets/logo.png" alt="">
+    <h1>jeff for mac</h1>
+    <button id="go" type="button">sign in with Google</button>
+    <a class="go" id="back" hidden>back to jeff</a>
+    <div class="note" id="note"></div>
+  </div>
+
+  <script src="firebase-config.js"></script>
+  <script type="module">
+    const SDK = 'https://www.gstatic.com/firebasejs/10.12.2/';
+    const [{ initializeApp }, A] = await Promise.all(
+      ['app', 'auth'].map(n => import(SDK + 'firebase-' + n + '.js')));
+    const auth = A.getAuth(initializeApp(window.FIREBASE_CONFIG));
+    const note = document.getElementById('note');
+
+    document.getElementById('go').addEventListener('click', async () => {
+      note.textContent = '';
+      try {
+        const provider = new A.GoogleAuthProvider();
+        provider.setCustomParameters({ prompt: 'select_account' });
+        const result = await A.signInWithPopup(auth, provider);
+        const token = A.GoogleAuthProvider.credentialFromResult(result)?.idToken;
+        if (!token) throw { code: 'no token' };
+        const link = `jeffmac://signin#id_token=${encodeURIComponent(token)}`;
+        const back = document.getElementById('back');
+        back.href = link;
+        back.hidden = false;
+        document.getElementById('go').hidden = true;
+        note.textContent = `signed in as ${result.user.email}`;
+        location.href = link;
+      } catch (e) {
+        const code = (e && e.code) || '';
+        if (code === 'auth/popup-closed-by-user' || code === 'auth/cancelled-popup-request') return;
+        note.textContent = code.replace('auth/', '').replace(/-/g, ' ') || 'sign-in failed';
+      }
+    });
+  </script>
+</body>
+</html>
