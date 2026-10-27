@@ -319,16 +319,16 @@
       "answers": {
         "A": "CDKN1B loss-of-function variant",
         "B": "MEN1 (menin) loss of function",
-        "C": "RET codon 634 germline variant",
-        "D": "RET M918T germline variant",
+        "C": "NF1 loss-of-function variant",
+        "D": "RET gain-of-function germline variant",
         "E": "VHL tumor suppressor deletion"
       },
       "correct": "D",
       "explanations": {
         "A": "CDKN1B causes a MEN1-like syndrome with parathyroid and pituitary disease, not mucosal neuromas or medullary carcinoma.",
         "B": "Menin loss causes MEN1 with parathyroid, pancreatic and pituitary tumors, not medullary thyroid carcinoma.",
-        "C": "Codon 634 is the most common MEN2A mutation, which lacks mucosal neuromas and marfanoid habitus.",
-        "D": "RET M918T causes MEN2B, with near-universal early, aggressive medullary carcinoma and about half of cases arising de novo.",
+        "C": "NF1 causes neurofibromas, café-au-lait macules and pheochromocytoma, not mucosal neuromas or medullary thyroid carcinoma.",
+        "D": "A gain-of-function RET variant causes MEN2B: mucosal neuromas, marfanoid habitus, intestinal ganglioneuromatosis and early, aggressive medullary thyroid carcinoma. Unaffected parents fit a de novo variant.",
         "E": "VHL causes pheochromocytoma, renal cell carcinoma and hemangioblastomas, not medullary thyroid carcinoma."
       }
     },
