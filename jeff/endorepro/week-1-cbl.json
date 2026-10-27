@@ -336,25 +336,6 @@
       }
     },
     {
-      "id": "endorepro-week-1-cbl-012",
-      "question": "A 48-year-old man with a BMI of 37 kg/m2 and a waist circumference of 118 cm has velvety dark plaques on the back of his neck. Fasting glucose is 104 mg/dL, and fasting insulin is three times the upper limit of normal. Which molecular change in his skeletal muscle best explains these laboratory findings?",
-      "answers": {
-        "A": "Autoantibody blockade of the insulin receptor",
-        "B": "Inactivating mutation of the glucokinase gene",
-        "C": "Proteasomal degradation of the GLUT2 transporter",
-        "D": "Serine phosphorylation of insulin receptor substrate-1",
-        "E": "Tyrosine phosphorylation of insulin receptor substrate-1"
-      },
-      "correct": "D",
-      "explanations": {
-        "A": "This rare autoimmune cause of severe insulin resistance is not the mechanism linking visceral obesity to hyperinsulinemia.",
-        "B": "This raises the glucose set point for insulin secretion in a monogenic form of diabetes and does not cause resistance or high insulin levels.",
-        "C": "GLUT2 is the insulin-independent transporter of liver and beta cells, not the transporter that insulin recruits in muscle.",
-        "D": "Excess fatty acids activate serine kinases that phosphorylate insulin receptor substrate-1, reducing its coupling to PI3K and therefore GLUT4 translocation.",
-        "E": "This is the normal activating step of insulin signaling and would enhance rather than impair glucose uptake."
-      }
-    },
-    {
       "id": "endorepro-week-1-cbl-013",
       "question": "A 44-year-old man with central obesity has a blood pressure of 148/94 mm Hg on three visits. Fasting glucose is 108 mg/dL, triglycerides are 290 mg/dL, HDL cholesterol is 32 mg/dL, and fasting insulin is elevated. Which effect of his hyperinsulinemia most directly contributes to his hypertension?",
       "answers": {

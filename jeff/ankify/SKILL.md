@@ -240,6 +240,27 @@ earlier slides (but read them, since they show what the lecturer thinks matters)
 
 ---
 
+### CBL and other student-written LO documents
+
+A CBL document (`Week_N_CBL.pdf`) is classmates' answers to the week's learning objectives,
+not a lecture. It runs well past what each LO asks, and its extra detail is not taught
+anywhere else in the block, so it is unlikely to be tested. Ravi flagged all three ENDO/REPRO
+CBL decks in October 2026 as full of "random stuff" (GSK3, FOXO, calbindin, FGF23 on
+1α-hydroxylase); a trim kept about 55% of the cards.
+
+- Card the core answer to each LO as written: what the LO's verb asks, at the depth a lecture
+  would teach it. Calcium homeostasis for a PTH LO, yes; the transcription factors under it, no.
+- Skipping facts the lecture decks already hold is right, but what is left is not card-worthy
+  by default. Leftover detail is usually the classmate's extra and is the first thing to cut.
+- Cut: signalling intermediates below the level of the LO, second-order mechanisms (the "why
+  of the why"), drug half-lives and metabolism, codons and genetic loci beyond the gene,
+  eponyms for minor signs, follow-up intervals and day counts, statistics from a single source,
+  and anything in a different subject the LO does not name.
+- Expect roughly one to four notes for each LO, more for a broad LO (a full drug's MOA,
+  adverse effects and monitoring), not one per bullet.
+
+---
+
 ## Occlusion cards
 
 Use this part instead of steps 4 to 7 when occlusion cards are wanted. You are doing the job
