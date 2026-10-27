@@ -1,0 +1,591 @@
+{
+  "lecture": "Primary and Secondary Amenorrhea",
+  "block": "endorepro",
+  "generated": "2026-10-27",
+  "questions": [
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-001",
+      "question": "A 16-year-old patient is brought in because she has never had a menstrual period. She has Tanner 4 breast development but sparse axillary and pubic hair. As an infant she had bilateral inguinal hernia repairs. Pelvic exam shows a short, blind-ending vagina, and ultrasound shows no uterus. Serum testosterone is in the male reference range. Which of the following best explains her breast development?",
+      "answers": {
+        "A": "Aromatization of excess testosterone to estradiol",
+        "B": "Estrogen secretion from functional ovarian follicles",
+        "C": "Exogenous estrogen from an undisclosed source",
+        "D": "Normal type 1 5α-reductase activity in breast tissue",
+        "E": "Peripheral conversion of DHEA-S by adrenal tissue"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In complete androgen insensitivity, LH rises because the hypothalamus and pituitary cannot sense androgen feedback; the resulting excess testosterone is aromatized to estrogen, which drives breast development.",
+        "B": "This 46,XY patient with inguinal testes and male-range testosterone has no ovaries; functional follicles would point to a 46,XX cause such as Müllerian agenesis.",
+        "C": "Nothing in the history suggests exogenous hormone use, and the elevated testosterone has a better explanation.",
+        "D": "5α-reductase converts testosterone to DHT, not to estrogen; in 5α-reductase deficiency estrogen stays in the normal XY range and breasts do not develop.",
+        "E": "Adrenal androgens are not the main source of estrogen here; the high testicular testosterone driven by elevated LH is."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-002",
+      "question": "A 15-year-old patient has not had a menstrual period. Growth and development have matched her peers, her BMI is 23, and she has normal breast and pubic hair development. On pelvic exam the vagina is shortened with no visible or palpable cervix; the uterus cannot be assessed because of discomfort. What is the most appropriate next step in evaluation?",
+      "answers": {
+        "A": "Karyotype analysis",
+        "B": "MRI of the pituitary",
+        "C": "Pelvic ultrasound",
+        "D": "Progestin withdrawal challenge",
+        "E": "Serum FSH and LH levels"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Karyotype comes after imaging, once ultrasound shows no uterus, to separate Müllerian agenesis (46,XX) from androgen insensitivity (46,XY).",
+        "B": "Pituitary MRI is for an abnormal prolactin or signs of a CNS mass; this patient's normal secondary sexual development points to an outflow tract problem.",
+        "C": "With normal secondary sex characteristics and an abnormal vagina, the key branch point is whether a uterus is present, which a pelvic ultrasound answers.",
+        "D": "A withdrawal challenge assumes there is an endometrium and an open outflow tract, which is exactly what is in question here.",
+        "E": "Gonadotropins guide the work-up once a uterus is confirmed; with an outflow tract abnormality suspected, imaging comes first."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-003",
+      "question": "A 16-year-old patient with primary amenorrhea has normal breast development and normal pubic and axillary hair. Ultrasound shows normal ovaries but no uterus or upper vagina. A renal ultrasound shows a solitary right kidney. Which of the following karyotype and serum testosterone results would be expected?",
+      "table": [
+        [
+          "Option",
+          "Karyotype",
+          "Serum testosterone"
+        ],
+        [
+          "A",
+          "45,X",
+          "Female range"
+        ],
+        [
+          "B",
+          "46,XX",
+          "Female range"
+        ],
+        [
+          "C",
+          "46,XX",
+          "Male range"
+        ],
+        [
+          "D",
+          "46,XY",
+          "Female range"
+        ],
+        [
+          "E",
+          "46,XY",
+          "Male range"
+        ]
+      ],
+      "answers": {
+        "A": "45,X with female-range testosterone",
+        "B": "46,XX with female-range testosterone",
+        "C": "46,XX with male-range testosterone",
+        "D": "46,XY with female-range testosterone",
+        "E": "46,XY with male-range testosterone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Turner syndrome causes ovarian failure with streak gonads and poor breast development, not normal ovaries with an absent uterus.",
+        "B": "Müllerian agenesis (MRKH) is 46,XX with normal ovaries and female-range testosterone; 25–50% have urologic anomalies such as unilateral renal agenesis.",
+        "C": "Male-range testosterone in a 46,XX patient would suggest an androgen-secreting tumor or CAH, which would also cause virilization.",
+        "D": "46,XY with female-range testosterone suggests gonadal dysgenesis (Swyer syndrome), in which Müllerian structures persist and a uterus would be present.",
+        "E": "Androgen insensitivity is 46,XY with male-range testosterone, but those patients have little or no pubic and axillary hair."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-004",
+      "question": "A 14-year-old patient has cyclic lower abdominal pain each month but has never had a period. Breast and pubic hair development are normal. On exam there is a bulging, blue-tinged membrane at the vaginal introitus. Which of the following findings would best confirm the suspected diagnosis over the main alternative?",
+      "answers": {
+        "A": "A 1–2 cm thick septum high in the vagina",
+        "B": "A 1–2 mm thick membrane at the vaginal opening",
+        "C": "A 46,XY karyotype on genetic testing",
+        "D": "An absent uterus on pelvic ultrasound",
+        "E": "An elevated serum FSH level"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A thick (1–2 cm) septum, most often two-thirds of the way up the vagina, describes a transverse vaginal septum, the main alternative.",
+        "B": "The hymen is always at the vaginal opening and is thin (1–2 mm); blood trapped behind it (hematocolpos) gives the blue hue of an imperforate hymen.",
+        "C": "A 46,XY karyotype points to androgen insensitivity or 5α-reductase deficiency, which have no uterus to produce cyclic bleeding.",
+        "D": "Cyclic pain with trapped blood implies a functioning uterus; an absent uterus suggests Müllerian agenesis or AIS.",
+        "E": "Elevated FSH indicates primary ovarian insufficiency, which would not fit normal breast development and cyclic symptoms."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-005",
+      "question": "A 15-year-old patient has not had a period or breast development. She is at the 2nd percentile for height and has a short, webbed neck and widely spaced nipples. Echocardiography shows a bicuspid aortic valve. Which hormone profile is most likely?",
+      "table": [
+        [
+          "Option",
+          "FSH",
+          "Estradiol",
+          "Inhibin B"
+        ],
+        [
+          "A",
+          "High",
+          "Low",
+          "Low"
+        ],
+        [
+          "B",
+          "High",
+          "Normal",
+          "High"
+        ],
+        [
+          "C",
+          "Low",
+          "High",
+          "High"
+        ],
+        [
+          "D",
+          "Low",
+          "Low",
+          "Low"
+        ],
+        [
+          "E",
+          "Normal",
+          "Normal",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "FSH high, estradiol low, inhibin B low",
+        "B": "FSH high, estradiol normal, inhibin B high",
+        "C": "FSH low, estradiol high, inhibin B high",
+        "D": "FSH low, estradiol low, inhibin B low",
+        "E": "FSH normal, estradiol normal, inhibin B normal"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In Turner syndrome, oocytes are depleted largely in utero, so estradiol and inhibin B fall and FSH rises markedly from lost negative feedback.",
+        "B": "High inhibin B would suppress FSH; this mismatched pattern does not fit ovarian failure.",
+        "C": "This pattern suggests an estrogen- and inhibin-secreting process suppressing FSH, not dysgenetic ovaries.",
+        "D": "Low FSH with low estradiol is hypogonadotropic hypogonadism (GnRH deficiency, functional hypothalamic amenorrhea), not gonadal failure.",
+        "E": "Normal values with primary amenorrhea point toward an outflow tract cause, which would not explain absent breast development."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-006",
+      "question": "A 17-year-old patient has never had a period and has no breast development. She reports she has never been able to smell her food. Her height is normal for her family. Which of the following lab patterns is expected?",
+      "table": [
+        [
+          "Option",
+          "FSH",
+          "LH",
+          "Estradiol"
+        ],
+        [
+          "A",
+          "Elevated",
+          "Elevated",
+          "Low"
+        ],
+        [
+          "B",
+          "Elevated",
+          "Normal",
+          "Normal"
+        ],
+        [
+          "C",
+          "Low",
+          "Low",
+          "Low"
+        ],
+        [
+          "D",
+          "Normal",
+          "Elevated",
+          "Elevated"
+        ],
+        [
+          "E",
+          "Normal",
+          "Normal",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "Elevated FSH, elevated LH, low estradiol",
+        "B": "Elevated FSH, normal LH, normal estradiol",
+        "C": "Low FSH, low LH, low estradiol",
+        "D": "Normal FSH, elevated LH, elevated estradiol",
+        "E": "Normal FSH, normal LH, normal estradiol"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "High gonadotropins with low estradiol is primary ovarian insufficiency (e.g., Turner syndrome), where the defect is in the ovary.",
+        "B": "Isolated high FSH with normal estradiol does not fit any classic primary amenorrhea pattern.",
+        "C": "Anosmia with absent puberty is Kallmann syndrome; deficient GnRH gives inappropriately low or low-normal FSH and LH with prepubertal (low) sex steroids.",
+        "D": "An elevated LH:FSH pattern with estrogen present fits PMOS, not GnRH deficiency.",
+        "E": "Normal hormones with primary amenorrhea suggest an outflow tract obstruction, which would come with normal breast development."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-007",
+      "question": "A 14-year-old patient with absent breast development and low FSH and LH is suspected of having isolated GnRH deficiency. Her parent asks how the diagnosis can be confirmed, since GnRH is hard to measure directly. Which finding would best support GnRH deficiency rather than a pituitary defect?",
+      "answers": {
+        "A": "Absent LH response to repeated pulsatile GnRH doses",
+        "B": "Elevated prolactin on two fasting samples",
+        "C": "Empty sella on pituitary MRI",
+        "D": "Persistent high-frequency LH pulses on serial sampling",
+        "E": "Robust LH and FSH response to pulsatile GnRH doses"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "No response to GnRH means the pituitary itself cannot make gonadotropins, pointing to a pituitary defect.",
+        "B": "Hyperprolactinemia suppresses GnRH but is a different diagnosis, investigated with imaging and medication review.",
+        "C": "Empty sella is a structural pituitary cause, not isolated GnRH deficiency.",
+        "D": "The lecture notes that GnRH deficiency is supported by a lack of LH pulses on frequent sampling, not by frequent pulses.",
+        "E": "A robust gonadotropin response to pulsatile GnRH shows the pituitary works, so the defect lies in GnRH production or action."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-008",
+      "question": "A newborn with ambiguous genitalia has a small phallus with hypospadias and palpable gonads in the labioscrotal folds. Karyotype is 46,XY. Serum testosterone is normal for age, but the testosterone:DHT ratio is markedly elevated. At puberty, which change is most likely?",
+      "answers": {
+        "A": "Breast development from aromatized testosterone",
+        "B": "Cyclic menses through a hypoplastic uterus",
+        "C": "Loss of all pubic and axillary hair",
+        "D": "Regression of the gonads to fibrous streaks",
+        "E": "Virilization from rising testosterone and type 1 enzyme"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Testosterone and estrogen stay in the normal XY range in 5α-reductase deficiency, so gynecomastia does not develop, unlike androgen insensitivity.",
+        "B": "Testes secrete AMH normally, so Müllerian structures regress and there is no uterus.",
+        "C": "Sparse body hair is typical of androgen insensitivity, where the androgen receptor is defective; here the receptor works.",
+        "D": "Streak gonads occur in gonadal dysgenesis, not in 5α-reductase deficiency, where the testes are functional.",
+        "E": "In 5α-reductase type 2 deficiency, puberty can bring virilization because testosterone rises and the normal type 1 isoenzyme makes more DHT."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-009",
+      "question": "A 17-year-old patient has primary amenorrhea and minimal breast development. Karyotype is 46,XY. Ultrasound shows a uterus, cervix and fallopian tubes, and the gonads appear as thin fibrous streaks. Which of the following best explains the presence of the uterus?",
+      "answers": {
+        "A": "Absent anti-Müllerian hormone from the streak gonads",
+        "B": "Defective androgen receptor in Müllerian tissue",
+        "C": "Deficient conversion of testosterone to DHT",
+        "D": "Excess estrogen from peripheral aromatization",
+        "E": "Mosaicism with a 45,X cell line in the gonads"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In 46,XY gonadal dysgenesis (Swyer syndrome), the streak gonad secretes no AMH, so Müllerian structures persist.",
+        "B": "Androgen receptor defects (AIS) leave AMH secretion intact, so the uterus is absent.",
+        "C": "5α-reductase deficiency affects external virilization; functional testes still make AMH, so there is no uterus.",
+        "D": "Estrogen does not maintain Müllerian ducts; the lack of AMH is what lets them persist.",
+        "E": "45,X mosaicism describes Turner variants, not a 46,XY karyotype with persistent Müllerian structures."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-010",
+      "question": "A 32-year-old patient has had no menstrual period for 7 months since a dilation and curettage for retained products after a miscarriage. Before that, her cycles were regular. Urine hCG is negative and TSH, prolactin, FSH and LH are normal. Which of the following is the most likely cause of her amenorrhea?",
+      "answers": {
+        "A": "Functional hypothalamic amenorrhea",
+        "B": "Intrauterine adhesions",
+        "C": "Polyendocrine metabolic ovarian syndrome",
+        "D": "Premature ovarian insufficiency",
+        "E": "Sheehan syndrome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Functional hypothalamic amenorrhea lowers gonadotropins and follows energy deficit or stress, not a uterine procedure.",
+        "B": "Asherman syndrome is acquired endometrial scarring that follows a preceding event such as D&C; hormones are normal because the defect is in the uterus.",
+        "C": "PMOS usually shows hyperandrogenism and often an elevated LH:FSH ratio, and is not triggered by a procedure.",
+        "D": "Premature ovarian insufficiency would raise FSH from loss of negative feedback.",
+        "E": "Sheehan syndrome follows severe postpartum hemorrhage and causes pituitary failure, which would lower gonadotropins."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-011",
+      "question": "A 27-year-old G1P0010 has had no period for 4 months after years of regular cycles. Over the past year she has gained 15 lb and has worsening acne. She also reports fatigue and constipation. BMI is 29 and the exam is unremarkable. She uses condoms inconsistently. Which of the following is the most appropriate first set of tests?",
+      "answers": {
+        "A": "hCG, TSH, prolactin, FSH/LH, androgens, 17-OHP",
+        "B": "Karyotype and pelvic MRI",
+        "C": "Pituitary MRI and visual field testing",
+        "D": "Serum estradiol and bone density scan",
+        "E": "Transvaginal ultrasound and hysteroscopy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The differential is pregnancy, thyroid disease, PMOS, ovarian insufficiency and hyperprolactinemia, so the first step is bloodwork covering each of them.",
+        "B": "Karyotype is reserved for elevated gonadotropins (especially with short stature) or an absent uterus in primary amenorrhea.",
+        "C": "Pituitary imaging follows a confirmed elevated prolactin or signs of high intracranial pressure, neither of which is present yet.",
+        "D": "Estradiol is added when FSH and LH are elevated; bone density is not a first-line diagnostic test.",
+        "E": "Hysteroscopy is for suspected intrauterine adhesions after a uterine procedure, and she has had none."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-012",
+      "question": "A 24-year-old patient has had irregular periods every 2–4 months since menarche and now has none for 6 months. She has acne and coarse hair on her chin and abdomen. BMI is 33, with dark velvety skin on her neck. Labs are shown. Which additional finding would most likely be present?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "hCG",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "TSH",
+          "2.1 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Prolactin",
+          "14 ng/mL",
+          "<25 ng/mL"
+        ],
+        [
+          "LH",
+          "18 mIU/mL",
+          "2–15 mIU/mL"
+        ],
+        [
+          "FSH",
+          "6 mIU/mL",
+          "3–10 mIU/mL"
+        ],
+        [
+          "17-OHP (morning)",
+          "90 ng/dL",
+          "<200 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Elevated SHBG with low free testosterone",
+        "B": "Endometrial atrophy on ultrasound",
+        "C": "Low SHBG with high free testosterone",
+        "D": "Single dominant follicle in each ovary",
+        "E": "Thin endometrium with low estradiol"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "High SHBG lowers free testosterone; in PMOS, SHBG is typically low.",
+        "B": "Endometrial atrophy suggests an androgen-secreting tumor or low estrogen; PMOS causes unopposed estrogen and endometrial thickening.",
+        "C": "This PMOS picture (elevated LH:FSH, acanthosis, normal 17-OHP) is linked to low SHBG, a marker of insulin resistance that raises free testosterone.",
+        "D": "PMOS causes follicular arrest with many small follicles and no dominant follicle.",
+        "E": "PMOS involves chronic estrogen without progesterone withdrawal, which thickens rather than thins the endometrium."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-013",
+      "question": "A 23-year-old patient has 5 months of amenorrhea and new hirsutism. Serum testosterone is mildly elevated. An early-morning 17-hydroxyprogesterone level is markedly elevated. Which enzyme is most likely deficient?",
+      "answers": {
+        "A": "11β-hydroxylase",
+        "B": "17α-hydroxylase",
+        "C": "21-hydroxylase",
+        "D": "3β-hydroxysteroid dehydrogenase",
+        "E": "5α-reductase type 2"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "11β-hydroxylase deficiency is a different CAH form; the lecture links elevated 17-OHP in late-onset CAH to 21-hydroxylase.",
+        "B": "17α-hydroxylase deficiency lowers sex steroids and would not cause hirsutism.",
+        "C": "Non-classic (late-onset) CAH is a milder 21-hydroxylase deficiency that builds up 17-OHP and shunts precursors toward androgens.",
+        "D": "3β-HSD deficiency is not the cause the lecture associates with elevated 17-OHP and adult-onset hyperandrogenism.",
+        "E": "5α-reductase deficiency is a 46,XY disorder of DHT synthesis causing primary amenorrhea, not adult-onset hirsutism."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-014",
+      "question": "A 30-year-old patient has had amenorrhea for 5 months and reports milky nipple discharge. She was started on a new medication 6 months ago. TSH is normal, hCG is negative, and prolactin is 68 ng/mL on two fasting samples. Which medication is most likely responsible?",
+      "answers": {
+        "A": "Atorvastatin",
+        "B": "Ibuprofen",
+        "C": "Levothyroxine",
+        "D": "Metformin",
+        "E": "Risperidone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Statins are not among the prolactin-raising drugs listed in the lecture.",
+        "B": "NSAIDs do not raise prolactin.",
+        "C": "Levothyroxine would correct, not cause, hypothyroidism-related hyperprolactinemia.",
+        "D": "Metformin is used in PMOS and does not raise prolactin.",
+        "E": "Antipsychotics such as risperidone raise prolactin, which suppresses GnRH and causes amenorrhea and galactorrhea."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-015",
+      "question": "A 34-year-old patient has had amenorrhea for 4 months with fatigue, cold intolerance, constipation and weight gain. Prolactin is mildly elevated. Pituitary MRI shows diffuse enlargement but no discrete adenoma. Which of the following best explains the elevated prolactin?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "TSH",
+          "38 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Free T4",
+          "0.4 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "Prolactin",
+          "42 ng/mL",
+          "<25 ng/mL"
+        ],
+        [
+          "hCG",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Compression of the pituitary stalk by a macroadenoma",
+        "B": "Hyperplasia of lactotrophs and thyrotrophs",
+        "C": "Infarction of the anterior pituitary",
+        "D": "Loss of dopamine from hypothalamic injury",
+        "E": "Prolactin release from a lactotroph adenoma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "No discrete mass is seen, and the thyroid labs provide a better explanation.",
+        "B": "Primary hypothyroidism causes lactotroph and thyrotroph hyperplasia, raising prolactin without a prolactinoma.",
+        "C": "Pituitary infarction (Sheehan) lowers all anterior pituitary hormones, including TSH.",
+        "D": "Hypothalamic injury is not suggested, and the TSH elevation points to the thyroid.",
+        "E": "There is no adenoma on MRI; checking thyroid function and medications first avoids this misdiagnosis."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-016",
+      "question": "A 19-year-old collegiate distance runner has had no period for 8 months. She runs 70 miles a week and has lost 6 kg this season. BMI is 17.5 and her resting heart rate is 48/min. hCG is negative, TSH and prolactin are normal, and FSH and LH are low. If untreated, which long-term complication is she at greatest risk for?",
+      "answers": {
+        "A": "Endometrial hyperplasia",
+        "B": "Hirsutism",
+        "C": "Loss of bone density",
+        "D": "Ovarian hyperstimulation",
+        "E": "Type 2 diabetes mellitus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Endometrial hyperplasia follows unopposed estrogen in anovulation with estrogen present (PMOS), not the low-estrogen state here.",
+        "B": "Hirsutism reflects androgen excess, which is not part of functional hypothalamic amenorrhea.",
+        "C": "Functional hypothalamic amenorrhea lowers GnRH, gonadotropins and estrogen, and low estrogen leads to bone loss over time.",
+        "D": "Ovarian hyperstimulation requires high gonadotropin stimulation, the opposite of her low FSH and LH.",
+        "E": "Diabetes risk is tied to insulin resistance in PMOS, not to energy-deficient amenorrhea."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-017",
+      "question": "A 36-year-old patient has had no period for 6 months and reports hot flashes and night sweats. hCG is negative. FSH is 68 mIU/mL and estradiol is low, and both are the same on repeat testing one month later. Her sister had ovarian failure at 38, and a maternal uncle has an intellectual disability. Which genetic test is most appropriate?",
+      "answers": {
+        "A": "CAG repeat analysis of the androgen receptor gene",
+        "B": "CGG repeat analysis of the FMR1 gene",
+        "C": "CYP21A2 sequencing",
+        "D": "KAL1 sequencing",
+        "E": "SRY gene analysis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Androgen receptor analysis evaluates androgen insensitivity, which causes primary amenorrhea in a 46,XY patient.",
+        "B": "Premature ovarian insufficiency (oocyte depletion before 40 with high FSH) can result from a fragile X premutation, suggested by the family history.",
+        "C": "CYP21A2 encodes 21-hydroxylase; non-classic CAH causes hyperandrogenism with elevated 17-OHP, not high FSH.",
+        "D": "KAL1 mutations cause Kallmann syndrome, with low rather than high gonadotropins.",
+        "E": "SRY abnormalities cause 46,XY gonadal dysgenesis, which presents as primary amenorrhea."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-018",
+      "question": "A 41-year-old patient has 6 months of amenorrhea. hCG is negative. Transvaginal ultrasound shows a solid ovarian mass. Serum inhibin B is markedly elevated. Which hormone pattern is most likely?",
+      "table": [
+        [
+          "Option",
+          "FSH",
+          "Estradiol"
+        ],
+        [
+          "A",
+          "High",
+          "High"
+        ],
+        [
+          "B",
+          "High",
+          "Low"
+        ],
+        [
+          "C",
+          "Low",
+          "High"
+        ],
+        [
+          "D",
+          "Low",
+          "Low"
+        ],
+        [
+          "E",
+          "Normal",
+          "High"
+        ]
+      ],
+      "answers": {
+        "A": "FSH high, estradiol high",
+        "B": "FSH high, estradiol low",
+        "C": "FSH low, estradiol high",
+        "D": "FSH low, estradiol low",
+        "E": "FSH normal, estradiol high"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "High FSH with high estradiol does not fit inhibin excess, which suppresses FSH.",
+        "B": "High FSH with low estradiol is ovarian insufficiency, where inhibin B is low, not high.",
+        "C": "An estrogen-secreting tumor could cause this, but inhibin B lowers FSH and then estradiol.",
+        "D": "An inhibin B-secreting tumor suppresses FSH, which in turn suppresses estradiol production.",
+        "E": "Inhibin excess would not leave FSH normal."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-019",
+      "question": "A 26-year-old patient has 4 months of amenorrhea with new headaches, morning vomiting and blurred vision. hCG is negative; TSH, prolactin, FSH and LH are normal. She has no hirsutism and no history of uterine procedures. What is the most appropriate next step?",
+      "answers": {
+        "A": "Hysteroscopy for intrauterine adhesions",
+        "B": "Karyotype analysis",
+        "C": "MRI of the head",
+        "D": "Progestin withdrawal challenge",
+        "E": "Serum DHEA-S and testosterone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hysteroscopy is for a history of obstetric or gynecologic procedures, which she does not have.",
+        "B": "Karyotype is used when FSH and LH are elevated, to rule out Turner syndrome or a variant.",
+        "C": "In secondary amenorrhea with signs of high intracranial pressure (headache, vomiting, vision changes), head MRI evaluates for a neoplasm.",
+        "D": "A withdrawal challenge does not address the red-flag neurologic symptoms.",
+        "E": "Androgen testing is for hyperandrogenism, which she does not have."
+      }
+    },
+    {
+      "id": "endorepro-primary-and-secondary-amenorrhea-020",
+      "question": "A 29-year-old patient with PMOS has had only 3 periods in the past 2 years. She is not trying to conceive and is mostly bothered by the irregular cycles. Ultrasound shows a thickened endometrium. Beyond addressing her goals, which of the following is the main health reason to treat her anovulation?",
+      "answers": {
+        "A": "Prevent bone loss from estrogen deficiency",
+        "B": "Prevent endometrial hyperplasia from unopposed estrogen",
+        "C": "Prevent ovarian failure from follicle depletion",
+        "D": "Prevent pituitary hyperplasia from high LH",
+        "E": "Prevent virilization from adrenal androgens"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bone loss is a concern with low estrogen (functional hypothalamic amenorrhea), not in PMOS, where estrogen is present.",
+        "B": "Anovulation means estrogen without progesterone withdrawal, which thickens the endometrium and raises hyperplasia and cancer risk, so endometrial protection is the priority.",
+        "C": "PMOS involves arrested follicles, not accelerated depletion leading to ovarian failure.",
+        "D": "An elevated LH:FSH ratio in PMOS does not cause pituitary hyperplasia.",
+        "E": "The androgen excess in PMOS is mainly ovarian, and virilization is not the complication that treating anovulation prevents."
+      }
+    }
+  ]
+}

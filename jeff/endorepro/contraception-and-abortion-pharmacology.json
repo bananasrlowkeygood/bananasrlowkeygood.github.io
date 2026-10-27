@@ -1,0 +1,409 @@
+{
+  "lecture": "Contraception and Abortion Pharmacology",
+  "block": "endorepro",
+  "generated": "2026-10-27",
+  "questions": [
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-001",
+      "question": "A 45-year-old patient with two children wants contraception. She smokes a pack of cigarettes a day and takes lisinopril for hypertension. She wants to keep having a monthly period. Which method is most appropriate?",
+      "answers": {
+        "A": "Combined oral contraceptive pill",
+        "B": "Copper intrauterine device",
+        "C": "Etonogestrel implant",
+        "D": "Levonorgestrel intrauterine device",
+        "E": "Medroxyprogesterone injection"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Smoking over age 35 and hypertension both contraindicate estrogen-containing contraception.",
+        "B": "The copper IUD has no hormones, is more than 99% effective, and preserves monthly menses, which meets all of her needs.",
+        "C": "The implant is effective and estrogen-free but causes unpredictable, irregular bleeding rather than monthly periods.",
+        "D": "The LNG IUD suppresses the endometrium and often causes amenorrhea or irregular bleeding.",
+        "E": "DMPA causes amenorrhea in 40–50% of users at 1 year and irregular bleeding before that."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-002",
+      "question": "A 30-year-old patient with one child has no medical problems. She missed her period, and ultrasound shows an intrauterine pregnancy of 8 weeks' gestation. She requests medication abortion. Labs are shown. What is the most appropriate response?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "10.5 g/dL",
+          "12.0–16.0 g/dL"
+        ],
+        [
+          "Platelets",
+          "240,000/µL",
+          "150,000–400,000/µL"
+        ],
+        [
+          "PT/INR",
+          "1.0",
+          "0.8–1.2"
+        ]
+      ],
+      "answers": {
+        "A": "Decline, because gestation exceeds the limit",
+        "B": "Decline, because her hemoglobin is too low",
+        "C": "Offer mifepristone then misoprostol",
+        "D": "Offer misoprostol alone, avoiding mifepristone",
+        "E": "Offer procedural abortion only"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Medication abortion is available up to 10 weeks (70 days), and she is at 8 weeks.",
+        "B": "Anemia contraindicates medication abortion only when hemoglobin is below 9.0 g/dL; 10.5 g/dL is acceptable.",
+        "C": "She is within 10 weeks with no contraindication, so mifepristone 200 mg followed 24–48 h later by buccal misoprostol 800 mcg is appropriate.",
+        "D": "Misoprostol alone is an alternative regimen; with no contraindication to mifepristone, the combination is preferred.",
+        "E": "She is also a good candidate for procedural abortion, but nothing limits her to it."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-003",
+      "question": "A 24-year-old patient had unprotected intercourse 2 days ago and wants to prevent pregnancy. Her BMI is 36 kg/m². Which option is the most effective emergency contraception for her?",
+      "answers": {
+        "A": "Combined pill (Yuzpe) regimen",
+        "B": "Copper intrauterine device",
+        "C": "Levonorgestrel 1.5 mg tablet",
+        "D": "Progestin-only daily pill",
+        "E": "Ulipristal 30 mg tablet"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The Yuzpe regimen is rarely used, less effective (about 75% reduction) and has more side effects.",
+        "B": "An IUD placed within 5 days is the most effective emergency contraception and works at any weight.",
+        "C": "Plan B is less effective with BMI over 30.",
+        "D": "A daily progestin-only pill is not an emergency contraceptive.",
+        "E": "Ulipristal is the most effective EC pill but is less effective with BMI over 35."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-004",
+      "question": "A 19-year-old patient had unprotected intercourse 4 days ago and wants an oral emergency contraceptive. Her BMI is 24 kg/m². She does not want an IUD. Which option is most appropriate?",
+      "answers": {
+        "A": "Combined pill (Yuzpe) regimen",
+        "B": "Levonorgestrel 1.5 mg tablet",
+        "C": "Mifepristone 200 mg tablet",
+        "D": "Misoprostol 800 mcg buccal",
+        "E": "Ulipristal 30 mg tablet"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Yuzpe is less effective and has more side effects than the other EC pills.",
+        "B": "Levonorgestrel is labeled for use within 3 days, and she is at day 4.",
+        "C": "Mifepristone is used for medication abortion, not emergency contraception.",
+        "D": "Misoprostol causes uterine contractions for abortion, not emergency contraception.",
+        "E": "Ulipristal works up to 5 days after intercourse and is equally effective on days 1 and 5."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-005",
+      "question": "A 28-year-old patient asks how levonorgestrel emergency contraception works, because she is worried it causes an abortion. Which statement is most accurate?",
+      "answers": {
+        "A": "It blocks implantation of a fertilized egg",
+        "B": "It causes shedding of an implanted embryo",
+        "C": "It induces uterine contractions",
+        "D": "It kills sperm in the uterine cavity",
+        "E": "It prevents the LH surge and delays ovulation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "EC does not appear to inhibit implantation.",
+        "B": "EC does not interrupt or affect an established pregnancy and is not an abortifacient.",
+        "C": "Uterine contractions are misoprostol's effect, not levonorgestrel's.",
+        "D": "Killing sperm and inhibiting tubal motility is how the copper IUD works as EC.",
+        "E": "Oral EC prevents the LH surge, which delays or inhibits ovulation so fertilization does not occur."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-006",
+      "question": "A 26-year-old patient on a combined oral contraceptive has spotting on days 4–8 of each pack. She takes her pills consistently. Which change is most likely to help?",
+      "answers": {
+        "A": "Decrease the estrogen dose",
+        "B": "Increase the estrogen dose",
+        "C": "Increase the progestin dose",
+        "D": "Switch to a progestin-only pill",
+        "E": "Take the placebo week continuously"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lowering estrogen would worsen early-cycle bleeding, which already reflects too little estrogen.",
+        "B": "Early-cycle (days 1–9) breakthrough bleeding reflects estrogen deficiency, so more estrogen should stabilize the endometrium.",
+        "C": "Late-cycle (days 10–21) breakthrough bleeding is the sign of progestin deficiency.",
+        "D": "Progestin-only pills have a variable bleeding profile and would not fix this.",
+        "E": "Continuous placebo makes no pharmacologic sense and would leave her unprotected."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-007",
+      "question": "A 33-year-old patient started a combined oral contraceptive 3 months ago. She reports breast tenderness, nausea, bloating and headaches that started with the pill. Which adjustment best addresses her symptoms?",
+      "answers": {
+        "A": "Add a second progestin",
+        "B": "Decrease the estrogen dose",
+        "C": "Decrease the progestin dose",
+        "D": "Increase the estrogen dose",
+        "E": "Increase the progestin dose"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Adding progestin does not address estrogen-excess symptoms.",
+        "B": "Nausea, breast tenderness, headaches and fluid retention are signs of estrogen excess.",
+        "C": "Progestin excess causes increased appetite, acne, hirsutism and mood changes, not these symptoms.",
+        "D": "More estrogen would worsen these estrogen-excess symptoms.",
+        "E": "More progestin would add progestin side effects without fixing estrogen excess."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-008",
+      "question": "A 27-year-old patient with migraines wants combined hormonal contraception. Before her headaches, she sees flashing zigzag lines for about 20 minutes. She does not smoke and her blood pressure is 118/74 mm Hg. Which mechanism underlies the main concern with combined hormonal contraception in her?",
+      "answers": {
+        "A": "Decreased SHBG and increased free testosterone",
+        "B": "Increased factors V, VIII and X and fibrinogen",
+        "C": "Increased hepatic first-pass metabolism",
+        "D": "Increased progesterone receptor concentration",
+        "E": "Suppression of the midcycle LH surge"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Combined OCs increase SHBG and lower free testosterone, which is a benefit.",
+        "B": "Estrogen raises procoagulant factors (V, VIII, X, fibrinogen) and lowers anticoagulants; with migraine with aura, the stroke risk makes estrogen contraindicated.",
+        "C": "First-pass metabolism affects oral drug levels, not her stroke risk.",
+        "D": "Increased PR concentration lets a lower progestin dose work; it is not a safety concern.",
+        "E": "LH surge suppression is how the method works, not why it is dangerous for her."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-009",
+      "question": "A 25-year-old patient with acne and mild hirsutism starts a combined oral contraceptive. After 6 months her skin has improved. Which hormonal change best explains this?",
+      "answers": {
+        "A": "Decreased hepatic SHBG and less ovarian androgen",
+        "B": "Decreased hepatic SHBG and more ovarian androgen",
+        "C": "Increased hepatic SHBG and less ovarian androgen",
+        "D": "Increased hepatic SHBG and more ovarian androgen",
+        "E": "Unchanged SHBG and blocked androgen receptors"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Lower SHBG would raise free testosterone and worsen acne.",
+        "B": "Both changes would raise free androgens.",
+        "C": "Combined OCs increase liver SHBG and suppress LH-driven ovarian testosterone, lowering free testosterone; the progestin also inhibits 5α-reductase.",
+        "D": "More ovarian androgen would offset any SHBG benefit, and the pill suppresses ovarian androgen.",
+        "E": "Combined OCs work through SHBG and less androgen synthesis, not by blocking androgen receptors."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-010",
+      "question": "A 22-year-old patient wants contraception that lasts several years without daily attention. She is told the device is more than 99% effective, lasts 3–5 years, and is inserted in the upper inner arm. After insertion, which side effect is most likely?",
+      "answers": {
+        "A": "Hyperkalemia",
+        "B": "Increased acne from SHBG suppression",
+        "C": "Irregular unpredictable bleeding",
+        "D": "Regular heavier menses with cramping",
+        "E": "Significant weight gain"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hyperkalemia is a caution with drospirenone, which is spironolactone-derived.",
+        "B": "The implant does not suppress SHBG to cause acne.",
+        "C": "The etonogestrel implant's main disadvantage is unpredictable, irregular bleeding.",
+        "D": "Heavier, crampier periods are typical of the copper IUD.",
+        "E": "DMPA is the only contraceptive associated with weight gain."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-011",
+      "question": "A 17-year-old patient has received depot medroxyprogesterone acetate every 3 months for 2 years. She has not had a period in 14 months and has gained 5 kg. A DXA scan shows reduced bone density. Which statement about her bone loss is most accurate?",
+      "answers": {
+        "A": "It is caused by a direct toxic effect on osteoblasts",
+        "B": "It is due to hyperestrogenism and is permanent",
+        "C": "It is due to hypoestrogenism and is reversible",
+        "D": "It is due to secondary hyperparathyroidism",
+        "E": "It is unrelated to the medication"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "DMPA is not directly toxic to osteoblasts.",
+        "B": "DMPA lowers estrogen, and the bone loss is transient.",
+        "C": "DMPA suppresses ovulation and estrogen, causing transient, reversible bone mineral density loss.",
+        "D": "Hyperparathyroidism is not the mechanism.",
+        "E": "Bone density loss is a known DMPA side effect."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-012",
+      "question": "A 29-year-old patient with lupus and a history of DVT wants a daily pill. She is started on a norethindrone 0.35 mg pill. Which counseling point is most important for its effectiveness?",
+      "answers": {
+        "A": "Skip pills during the fourth week each month",
+        "B": "Take it at the same time daily, within 3 hours",
+        "C": "Take it with a high-fat meal for absorption",
+        "D": "Take it within 24 hours of the usual time",
+        "E": "Use it only on days of intercourse"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Progestin-only pills are taken continuously with no hormone-free week.",
+        "B": "Norethindrone works mainly by thickening cervical mucus and must be taken within a 3-hour window or effectiveness drops.",
+        "C": "There is no food requirement.",
+        "D": "A 24-hour window applies to the drospirenone pill, not norethindrone.",
+        "E": "It is a daily method, not coitus-dependent."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-013",
+      "question": "A 36-year-old patient with chronic kidney disease (creatinine 2.1 mg/dL) who takes lisinopril wants an estrogen-free daily pill with a forgiving dosing window. A drospirenone 4 mg pill is being considered. Which laboratory value most warrants monitoring?",
+      "answers": {
+        "A": "Calcium",
+        "B": "Glucose",
+        "C": "Hemoglobin",
+        "D": "Potassium",
+        "E": "Sodium"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Drospirenone does not affect calcium.",
+        "B": "Glucose monitoring is not a drospirenone concern.",
+        "C": "Hemoglobin matters before medication abortion, not with drospirenone.",
+        "D": "Drospirenone is derived from spironolactone and can cause hyperkalemia, especially with CKD and an ACE inhibitor.",
+        "E": "Sodium is not the key concern."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-014",
+      "question": "A 34-year-old patient with heavy menstrual bleeding and dysmenorrhea wants long-acting contraception that will also lighten her periods. She has a levonorgestrel IUD placed. Which mechanism does this device NOT use?",
+      "answers": {
+        "A": "Atrophy of endometrial glands",
+        "B": "Inhibition of ovulation",
+        "C": "Inhibition of sperm function",
+        "D": "Local progestin effect",
+        "E": "Thickening of cervical mucus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Endometrial atrophy is part of its effect and explains the lighter bleeding.",
+        "B": "The LNG IUD acts locally and does not inhibit ovulation, unlike the implant and DMPA.",
+        "C": "It inhibits sperm motility and function.",
+        "D": "Its mechanism is a local progestin effect.",
+        "E": "It thickens cervical mucus, keeping sperm from the upper tract."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-015",
+      "question": "A 31-year-old patient with Wilson disease wants a long-acting, reversible intrauterine method. Which device is contraindicated?",
+      "answers": {
+        "A": "Kyleena",
+        "B": "Liletta",
+        "C": "Mirena",
+        "D": "ParaGard",
+        "E": "Skyla"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Kyleena is a levonorgestrel IUD and has no copper.",
+        "B": "Liletta is a levonorgestrel IUD.",
+        "C": "Mirena is a levonorgestrel IUD.",
+        "D": "ParaGard is the copper IUD, which is contraindicated with Wilson disease or copper allergy.",
+        "E": "Skyla is a levonorgestrel IUD."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-016",
+      "question": "A 23-year-old patient weighing 105 kg (BMI 34) wants a weekly contraceptive patch. Which counseling point is most accurate?",
+      "answers": {
+        "A": "Both patches are less effective at her weight",
+        "B": "Both patches avoid all estrogen side effects",
+        "C": "Patches undergo first-pass hepatic metabolism",
+        "D": "The levonorgestrel patch is preferred at her BMI",
+        "E": "The norelgestromin patch lowers estrogen exposure"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The norelgestromin patch is less effective above about 90 kg, and the levonorgestrel patch is not approved for BMI over 30.",
+        "B": "The norelgestromin patch's estrogen exposure is 60% higher than a 35 mcg pill, possibly raising VTE risk.",
+        "C": "Patches avoid first-pass metabolism by delivering hormone continuously to the systemic circulation.",
+        "D": "The levonorgestrel patch is not approved for BMI over 30, with lower efficacy and higher DVT risk.",
+        "E": "The norelgestromin patch raises estrogen exposure (AUC) compared with a pill."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-017",
+      "question": "A 27-year-old patient stopped her combined oral contraceptive because of nausea. She wants an estrogen-containing method with the lowest estrogen dose, no nausea, and the least breakthrough bleeding, and she does not want to remember a daily or weekly step. Which method best fits?",
+      "answers": {
+        "A": "Extended-cycle oral pill",
+        "B": "Levonorgestrel patch",
+        "C": "Monthly vaginal ring",
+        "D": "Norelgestromin patch",
+        "E": "Triphasic oral pill"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Oral pills undergo first-pass metabolism, which can cause nausea, and must be taken daily.",
+        "B": "Patches must be changed weekly.",
+        "C": "The monthly ring (EE + etonogestrel) gives a low, continuous estrogen dose with no first-pass metabolism, no nausea and less breakthrough bleeding.",
+        "D": "The norelgestromin patch gives higher estrogen exposure than a pill and is changed weekly.",
+        "E": "A triphasic pill is still daily and oral."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-018",
+      "question": "A 26-year-old patient takes mifepristone 200 mg orally for a medication abortion at 7 weeks. Thirty-six hours later she takes a second drug buccally and develops cramping, bleeding, nausea, diarrhea and a low-grade fever. What is the mechanism of the second drug?",
+      "answers": {
+        "A": "Estrogen receptor antagonist",
+        "B": "Oxytocin receptor agonist",
+        "C": "Progesterone receptor antagonist",
+        "D": "Prostaglandin E1 receptor agonist",
+        "E": "Prostaglandin F2α receptor antagonist"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "No ER antagonist is part of the medication abortion regimen.",
+        "B": "Oxytocin is not part of the medication abortion regimen.",
+        "C": "PR blockade describes the first drug, mifepristone.",
+        "D": "Misoprostol is a PGE1 analog that causes uterine contractions and cervical dilation; GI upset, fever and cramping are its side effects.",
+        "E": "Blocking a prostaglandin receptor would reduce, not cause, uterine contractions."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-019",
+      "question": "A 30-year-old patient requests medication abortion at 6 weeks. She has had Addison disease (primary adrenal insufficiency) for 4 years and takes hydrocortisone and fludrocortisone. Hemoglobin is 12.4 g/dL. What is the most appropriate response?",
+      "answers": {
+        "A": "Mifepristone is contraindicated; consider other options",
+        "B": "Proceed after doubling the misoprostol dose",
+        "C": "Proceed after holding hydrocortisone for 48 hours",
+        "D": "Proceed after transfusion to raise hemoglobin",
+        "E": "Proceed with standard dosing"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Mifepristone also blocks glucocorticoid receptors, so in chronic adrenal failure or long-term steroid therapy it risks acute adrenal insufficiency; both are label contraindications.",
+        "B": "Changing the misoprostol dose does not remove the contraindication.",
+        "C": "Holding steroid replacement in adrenal insufficiency risks adrenal crisis.",
+        "D": "Her hemoglobin is above the 9.0 g/dL threshold; anemia is not the problem.",
+        "E": "Her adrenal failure is a listed contraindication, so standard dosing is not appropriate."
+      }
+    },
+    {
+      "id": "endorepro-contraception-and-abortion-pharmacology-020",
+      "question": "A 25-year-old patient is choosing among methods based on their mechanism. Her clinician explains that one method releases ions into the uterus, producing a sterile inflammatory reaction that is spermicidal and decreases tubal motility, and that it can also be used as emergency contraception. How long is this method FDA-approved?",
+      "answers": {
+        "A": "3 years",
+        "B": "5 years",
+        "C": "8 years",
+        "D": "10 years",
+        "E": "12 years"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Three years is the duration of Skyla and the implant's FDA approval.",
+        "B": "Five years is Kyleena's duration and the implant's effective duration.",
+        "C": "Eight years is the duration of the 52 mg LNG IUDs (Mirena, Liletta).",
+        "D": "The copper IUD is FDA-approved for 10 years.",
+        "E": "Clinical data support 12 years of copper IUD use, but FDA approval is for 10."
+      }
+    }
+  ]
+}

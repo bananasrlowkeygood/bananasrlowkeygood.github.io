@@ -67,6 +67,21 @@
       "count": 20
     },
     {
+      "file": "contraception-and-abortion-pharmacology.json",
+      "name": "Contraception and Abortion Pharmacology",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.27.26-PHARM_Contraception-Abortion-Pharmacology_Bynum_Notes-b563bef364.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.27.26-PHARM_Contraception-Abortion-Pharmacology_Bynum_Slides-708aad911e.pdf"
+        }
+      ]
+    },
+    {
       "file": "dysregulation-of-glycemic-control.json",
       "name": "Dysregulation of Glycemic Control",
       "count": 20,
@@ -78,6 +93,21 @@
         {
           "label": "slides",
           "file": "10.06.26-BCM_Dysregulation-of-Glycemic-Control_Slides-9c2e9f6c8f.pdf"
+        }
+      ]
+    },
+    {
+      "file": "estrogens-and-progestins.json",
+      "name": "Estrogens and Progestins",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.27.26-PHARM_Estrogens-Progestins_Beck_Notes-925a9864eb.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.27.26-PHARM_Estrogens-Progestins_Beck_Slides-977939c6da.pdf"
         }
       ]
     },
@@ -303,6 +333,21 @@
         {
           "label": "slides",
           "file": "10.09.26-PHYS-Pituitary-Hypothalamus_Haines_Slides-4bf0231c08.pdf"
+        }
+      ]
+    },
+    {
+      "file": "primary-and-secondary-amenorrhea.json",
+      "name": "Primary and Secondary Amenorrhea",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.27.26_CM_Primary_and_Secondary_Amenorrhea_Cullen_Notes-ee02931630.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.27.26_CM_Primary_and_Secondary_Amenorrhea_Cullen_Slides-343c873488.pdf"
         }
       ]
     },
