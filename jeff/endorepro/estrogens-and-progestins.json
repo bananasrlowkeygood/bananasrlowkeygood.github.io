@@ -1,0 +1,387 @@
+{
+  "lecture": "Estrogens and Progestins",
+  "block": "endorepro",
+  "generated": "2026-10-27",
+  "questions": [
+    {
+      "id": "endorepro-estrogens-and-progestins-001",
+      "question": "A 52-year-old patient with estrogen receptor-positive breast cancer completes surgery and starts an oral adjuvant drug. Fourteen months later she has postmenopausal vaginal bleeding, and transvaginal ultrasound shows a thickened endometrium with a polyp. Which property of her drug best explains this finding?",
+      "answers": {
+        "A": "Aromatase inhibition in peripheral adipose tissue",
+        "B": "Downregulation of estrogen receptor protein",
+        "C": "Estrogen agonist activity at the endometrium",
+        "D": "Progesterone receptor antagonism in the uterus",
+        "E": "Pure estrogen antagonism in all tissues"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Aromatase inhibitors lower estrogen everywhere and would not stimulate the endometrium.",
+        "B": "ER downregulation describes fulvestrant, a SERD with no uterine agonist activity.",
+        "C": "Tamoxifen is an ER antagonist in breast but an agonist in the uterus, causing endometrial hyperplasia, polyps and vaginal bleeding.",
+        "D": "PR antagonism describes mifepristone, which is not used as adjuvant breast cancer therapy.",
+        "E": "Tamoxifen is a SERM with tissue-specific mixed activity, not a pure antagonist."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-002",
+      "question": "A 64-year-old postmenopausal patient has a T-score of −2.7 at the lumbar spine. Her mother had breast cancer at 58. She asks for a single drug that protects bone and may lower her breast cancer risk without stimulating the endometrium. Which condition in her history would contraindicate this drug?",
+      "answers": {
+        "A": "Prior cholecystectomy",
+        "B": "Prior deep vein thrombosis",
+        "C": "Prior hypothyroidism",
+        "D": "Prior hysterectomy",
+        "E": "Prior migraine without aura"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Gallbladder surgery is not a contraindication to raloxifene.",
+        "B": "Raloxifene is an estrogen agonist on coagulation and raises DVT/PE risk, so a DVT or PE history contraindicates it.",
+        "C": "Treated hypothyroidism is not a contraindication to SERMs.",
+        "D": "Hysterectomy does not matter, since raloxifene has no adverse effect on the uterus.",
+        "E": "Migraine with aura is a concern for combined estrogen contraceptives, not raloxifene, and this patient's migraine has no aura."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-003",
+      "question": "A 58-year-old patient on raloxifene for osteoporosis asks whether it will also help her bothersome hot flashes. Which response is most accurate?",
+      "answers": {
+        "A": "It may worsen hot flashes and does not treat them",
+        "B": "It treats hot flashes by acting as a progestin",
+        "C": "It treats hot flashes by antagonizing hypothalamic ER",
+        "D": "It treats hot flashes through central ER agonism",
+        "E": "It treats hot flashes through ER-β agonism in bone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Raloxifene can increase hot flashes and is not effective for hot flashes of estrogen deficiency.",
+        "B": "Raloxifene acts at the estrogen receptor, not the progesterone receptor.",
+        "C": "Central estrogen antagonism would worsen, not relieve, vasomotor symptoms.",
+        "D": "Raloxifene is an estrogen antagonist centrally, which is why it can worsen hot flashes.",
+        "E": "Agonism in bone explains its osteoporosis benefit but has nothing to do with hot flashes."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-004",
+      "question": "A 61-year-old patient with hormone receptor-positive metastatic breast cancer progressed after 2 years of tamoxifen. She starts a monthly intramuscular drug that competes with estradiol for the estrogen receptor at similar affinity. What additional action of this drug distinguishes it from tamoxifen?",
+      "answers": {
+        "A": "Agonist activity at the endometrium",
+        "B": "Agonist activity in bone",
+        "C": "Degradation of estrogen receptor protein",
+        "D": "Inhibition of peripheral aromatase",
+        "E": "Partial agonism at the progesterone receptor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Endometrial agonism belongs to tamoxifen, the drug she progressed on.",
+        "B": "Bone agonism is a SERM property (tamoxifen, raloxifene), not a SERD property.",
+        "C": "Fulvestrant is a SERD: a pure ER antagonist that also downregulates ER protein in breast cancer cells.",
+        "D": "Aromatase inhibitors block estrogen synthesis; fulvestrant acts at the receptor.",
+        "E": "Partial PR agonism describes ulipristal, an SPRM."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-005",
+      "question": "Investigators find that tamoxifen bound to the estrogen receptor blocks transcription in breast cells but activates it in endometrial cells. Both tissues express the same receptor isoform. Which mechanism best explains the difference?",
+      "answers": {
+        "A": "Different binding affinity for estrogen response elements",
+        "B": "Different numbers of receptors per cell in each tissue",
+        "C": "Different rates of tamoxifen metabolism in each tissue",
+        "D": "Different rates of tamoxifen uptake across membranes",
+        "E": "Different tissue levels of co-activators and co-repressors"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Antiestrogen-ER complexes can bind response elements; the key difference is whether co-activators can be recruited.",
+        "B": "Receptor number changes how strong a response is, not whether the drug acts as an agonist or an antagonist.",
+        "C": "Metabolism differences do not explain opposite effects of the same bound receptor.",
+        "D": "Steroid-like drugs enter cells by diffusion; uptake differences would change the size of the effect, not reverse it.",
+        "E": "Tissue-specific co-regulator levels decide whether the ligand-bound receptor activates or represses genes, which explains SERM selectivity."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-006",
+      "question": "A 55-year-old postmenopausal patient with an intact uterus starts estrogen for hot flashes. Her physician also prescribes a progestin. Which of the following best explains why the progestin is added?",
+      "answers": {
+        "A": "Progesterone receptor enhances ER signaling in breast",
+        "B": "Progesterone receptor increases estrogen bioavailability",
+        "C": "Progesterone receptor opposes ER stimulation in uterus",
+        "D": "Progesterone receptor reduces estrogen hepatic metabolism",
+        "E": "Progesterone receptor suppresses hypothalamic hot flashes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "PR does enhance ER signaling in the breast, but that is a downside of progestins, not why they are added.",
+        "B": "Progestins do not raise estrogen bioavailability.",
+        "C": "In the uterus, PR opposes ER-driven proliferation; adding a progestin lowers the 4–20× endometrial cancer risk of unopposed estrogen.",
+        "D": "Progestins are not added to change estrogen metabolism.",
+        "E": "Estrogen treats the vasomotor symptoms; the progestin is there to protect the endometrium."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-007",
+      "question": "A 54-year-old patient, 2 years past her last menstrual period, has disabling hot flashes and night sweats. Which item in her history is an absolute contraindication to systemic estrogen-progestin therapy?",
+      "answers": {
+        "A": "BMI of 31 kg/m²",
+        "B": "Family history of osteoporosis",
+        "C": "Lumpectomy for ER+ breast cancer",
+        "D": "Prior cesarean delivery",
+        "E": "Well-controlled hypothyroidism"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Obesity is not among the listed contraindications to HT.",
+        "B": "A family history of osteoporosis is not a contraindication; HT is approved for osteoporosis prevention.",
+        "C": "Hormone-sensitive cancer (breast cancer history) contraindicates systemic HT, along with unexplained bleeding, active liver disease, DVT/PE and CVD.",
+        "D": "Prior cesarean delivery does not affect HT eligibility.",
+        "E": "Treated thyroid disease is not a contraindication."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-008",
+      "question": "A 67-year-old patient, 15 years past menopause, has a T-score of −2.8 and new mild hot flashes. She asks to start estrogen-progestin therapy to treat her osteoporosis and protect her heart. Which statement best reflects current practice?",
+      "answers": {
+        "A": "HT is first-line because it treats osteoporosis",
+        "B": "HT is indicated because she is past menopause",
+        "C": "HT is not used to treat osteoporosis or protect the heart",
+        "D": "HT is preferred because it lowers cardiovascular events",
+        "E": "HT is safe because her hot flashes are only mild"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "HT is FDA-approved to prevent postmenopausal osteoporosis, not to treat it.",
+        "B": "Being postmenopausal is not an indication; HT is generally safe for vasomotor symptoms within 10 years of menopause, and she is 15 years out.",
+        "C": "HT is not used to improve cardiovascular health or treat osteoporosis, and she is more than 10 years past menopause.",
+        "D": "The WHI found increased cardiovascular events with HT, with risk depending on age and time since menopause.",
+        "E": "Symptom severity does not offset the risk of starting HT more than 10 years after menopause."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-009",
+      "question": "A 46-year-old patient with a history of ER+ breast cancer, treated 6 years ago, has dyspareunia and vaginal dryness. Exam shows pale, thin vaginal mucosa. She declines systemic hormones. Which option is most appropriate to discuss?",
+      "answers": {
+        "A": "Low-dose vaginal estrogen",
+        "B": "Oral conjugated equine estrogen",
+        "C": "Oral raloxifene",
+        "D": "Transdermal estradiol patch",
+        "E": "Unopposed oral estradiol"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Low-dose topical (vaginal or vulvar) estrogen limits systemic exposure and can be safe even with a history of hormone-sensitive cancer.",
+        "B": "Systemic oral estrogen is contraindicated with hormone-sensitive cancer.",
+        "C": "Raloxifene is an ER antagonist on the uterus and is not used for atrophic vaginitis.",
+        "D": "A transdermal patch still gives systemic estrogen, which is contraindicated here.",
+        "E": "Unopposed systemic estrogen is contraindicated with breast cancer and, with a uterus, raises endometrial cancer risk."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-010",
+      "question": "A 22-year-old patient had unprotected intercourse 4 days ago, around the middle of her cycle. She asks for an oral pill. She is given a single tablet that binds the progesterone receptor as a partial agonist/antagonist. Which statement about this drug is most accurate?",
+      "answers": {
+        "A": "It acts by blocking glucocorticoid receptors",
+        "B": "It acts by causing decidual necrosis",
+        "C": "It acts by delaying ovulation",
+        "D": "It acts by inducing uterine contractions",
+        "E": "It acts by terminating an implanted pregnancy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Glucocorticoid receptor antagonism is a property of mifepristone, not ulipristal.",
+        "B": "Decidual necrosis is mifepristone's role in medication abortion.",
+        "C": "Ulipristal, an SPRM, prevents ovulation; its effect depends on timing in the cycle.",
+        "D": "Uterine contractions are caused by misoprostol, a PGE1 analog.",
+        "E": "Ulipristal will not terminate an existing pregnancy."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-011",
+      "question": "A 44-year-old patient has a 2-year history of weight gain, proximal muscle weakness, purple abdominal striae and new hyperglycemia. Workup confirms endogenous Cushing syndrome, and surgery has failed. She starts a drug that is also used for medical abortion. What is the mechanism of its benefit in Cushing syndrome?",
+      "answers": {
+        "A": "Blockade of cortisol receptors",
+        "B": "Blockade of the ACTH receptor",
+        "C": "Inhibition of 11β-hydroxylase",
+        "D": "Inhibition of CRH release",
+        "E": "Partial agonism at the progesterone receptor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Mifepristone antagonizes cortisol (glucocorticoid) receptors as well as progesterone receptors, so it is used in Cushing syndrome.",
+        "B": "Mifepristone does not act at the ACTH receptor.",
+        "C": "11β-hydroxylase inhibitors (e.g., metyrapone) block cortisol synthesis; mifepristone blocks cortisol's receptor.",
+        "D": "Mifepristone does not reduce hypothalamic CRH.",
+        "E": "Partial PR agonism describes ulipristal; it is mifepristone's cortisol receptor blockade that helps in Cushing syndrome."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-012",
+      "question": "A 50-year-old patient is on an oral estrogen. Her total serum estradiol is unchanged, but she starts a medication that lowers hepatic SHBG production. What is the expected effect?",
+      "answers": {
+        "A": "Decreased free estradiol and decreased estrogen effect",
+        "B": "Decreased free estradiol and increased estrogen effect",
+        "C": "Increased free estradiol and decreased estrogen effect",
+        "D": "Increased free estradiol and increased estrogen effect",
+        "E": "Unchanged free estradiol and unchanged estrogen effect"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Lower SHBG frees more hormone, not less.",
+        "B": "Free hormone and effect move together; less free estradiol would mean less effect.",
+        "C": "More free hormone means more receptor binding, so the effect increases.",
+        "D": "Only about 5% of estrogen is free, and only free hormone binds receptors; lower SHBG raises free estradiol and its effect.",
+        "E": "Total and free hormone can diverge; with less SHBG, the free fraction rises even if the total does not."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-013",
+      "question": "A drug developer wants a selective estrogen receptor ligand that preserves bone density with minimal effect on the uterus. Which receptor isoform should the ligand preferentially activate?",
+      "answers": {
+        "A": "ER-α, found mainly in reproductive tissue",
+        "B": "ER-β, found in bone, brain and urinary tract",
+        "C": "GPR30, a G protein-coupled estrogen receptor",
+        "D": "PR-α, a repressor of ER signaling",
+        "E": "PR-β, the more active progesterone receptor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "ER-α predominates in the reproductive system, so activating it would stimulate the uterus.",
+        "B": "ER-β is found in bone, brain and urinary tract, so a selective ER-β agonist could favor bone over uterus.",
+        "C": "GPR30 mediates some fast nongenomic estrogen responses but is not the isoform split the lecture links to tissue selectivity.",
+        "D": "PR-α is a progesterone receptor isoform and does not mediate estrogen's bone effect.",
+        "E": "PR-β is a progesterone receptor, not an estrogen receptor."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-014",
+      "question": "A 40-year-old patient taking tamoxifen for ER+ breast cancer has a poor response. Genotyping reveals she is a poor metabolizer for a hepatic enzyme involved in tamoxifen's activation. Which enzyme is most likely involved?",
+      "answers": {
+        "A": "CYP1A2",
+        "B": "CYP2C19",
+        "C": "CYP2D6",
+        "D": "CYP3A4",
+        "E": "UGT1A1"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "CYP1A2 is not the polymorphic enzyme the lecture links to tamoxifen response.",
+        "B": "CYP2C19 polymorphisms matter for drugs such as clopidogrel, not tamoxifen in this lecture.",
+        "C": "Polymorphisms in CYP2D6, which metabolizes tamoxifen, may predict response, although pre-use testing is not required.",
+        "D": "CYP3A4 is not the pharmacogenetic marker discussed for tamoxifen.",
+        "E": "UGT1A1 conjugates drugs such as irinotecan and is not the tamoxifen marker."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-015",
+      "question": "A 31-year-old patient has had 9 months of anovulatory infertility. Her clinician prescribes an oral drug that is a partial ER agonist and competitively inhibits endogenous estrogen at the hypothalamus, raising gonadotropin output. Which drug is this?",
+      "answers": {
+        "A": "Clomiphene",
+        "B": "Fulvestrant",
+        "C": "Mifepristone",
+        "D": "Raloxifene",
+        "E": "Ulipristal"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Clomiphene is a partial ER agonist and competitive estrogen inhibitor used to induce ovulation, not to treat breast cancer.",
+        "B": "Fulvestrant is a SERD for metastatic breast cancer, not ovulation induction.",
+        "C": "Mifepristone is a PR (and cortisol receptor) blocker used for abortion and Cushing syndrome.",
+        "D": "Raloxifene is a SERM for postmenopausal osteoporosis and breast cancer prevention, not indicated before menopause.",
+        "E": "Ulipristal prevents ovulation and is used for emergency contraception."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-016",
+      "question": "A 58-year-old patient begins oral estrogen therapy. Three months later she develops left calf swelling, and duplex ultrasound shows a deep vein thrombosis. Which estrogen effect most directly explains this complication?",
+      "answers": {
+        "A": "Decreased bone resorption by osteoclasts",
+        "B": "Increased circulating coagulation factors",
+        "C": "Increased platelet production in marrow",
+        "D": "Increased SHBG production by the liver",
+        "E": "Suppressed cellular immune responses"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Reduced osteoclast activity explains estrogen's bone benefit, not thrombosis.",
+        "B": "Estrogen increases coagulation factors (more coagulability), which is why DVT/PE history contraindicates estrogen therapy.",
+        "C": "Raised platelet production is not the mechanism of estrogen's thrombotic risk.",
+        "D": "Higher SHBG changes free hormone levels but does not cause clotting.",
+        "E": "Estrogen does suppress cellular immunity, but that does not cause venous thrombosis."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-017",
+      "question": "A 26-year-old patient tracks her basal body temperature and notes a sustained rise of about 0.4 °C in the second half of each cycle. Which hormone, produced by which structure, is responsible?",
+      "answers": {
+        "A": "Estradiol from the dominant follicle",
+        "B": "FSH from the anterior pituitary",
+        "C": "Inhibin from granulosa cells",
+        "D": "LH from the anterior pituitary",
+        "E": "Progesterone from the corpus luteum"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Estradiol peaks before ovulation from the dominant follicle and is not the thermogenic hormone.",
+        "B": "FSH drives follicle recruitment in the follicular phase and does not raise body temperature.",
+        "C": "Inhibin regulates FSH and has no thermogenic effect.",
+        "D": "The LH surge triggers ovulation but does not cause the sustained luteal temperature rise.",
+        "E": "Progesterone from the corpus luteum raises body temperature, which explains the luteal-phase rise."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-018",
+      "question": "A 50-year-old patient with active hepatitis and elevated transaminases has severe vasomotor symptoms. Her clinician wants to minimize hepatic exposure if estrogen is ever used. Which route of estrogen would be the greatest concern in active liver disease?",
+      "answers": {
+        "A": "Oral",
+        "B": "Topical vulvar",
+        "C": "Transdermal",
+        "D": "Vaginal cream",
+        "E": "Vaginal ring"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Active liver disease contraindicates estrogen therapy, especially oral estrogen, which goes straight to the liver.",
+        "B": "Low-dose topical estrogen limits systemic exposure.",
+        "C": "Transdermal estrogen avoids first-pass hepatic metabolism.",
+        "D": "Vaginal creams limit systemic exposure.",
+        "E": "Vaginal rings can limit systemic exposure."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-019",
+      "question": "A 45-year-old patient with an intact uterus, on unopposed oral estrogen for 3 years after a previous clinician stopped her progestin, now has irregular vaginal bleeding. Compared with a patient on estrogen plus progestin, about how much higher is her endometrial cancer risk?",
+      "answers": {
+        "A": "About 1.2 to 1.5 times",
+        "B": "About 2 to 3 times",
+        "C": "About 4 to 20 times",
+        "D": "About 50 to 100 times",
+        "E": "No difference in risk"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This understates the effect of unopposed estrogen on the endometrium.",
+        "B": "Two to three times is too low for unopposed estrogen therapy.",
+        "C": "Unopposed estrogen therapy raises endometrial cancer risk 4–20 times; adding a progestogen lowers it.",
+        "D": "This overstates the risk.",
+        "E": "Progestin's main menopause-related role is endometrial protection, so there is a clear difference."
+      }
+    },
+    {
+      "id": "endorepro-estrogens-and-progestins-020",
+      "question": "A 48-year-old patient at high risk for breast cancer is choosing between tamoxifen and raloxifene for prevention. She is perimenopausal, with her last period 3 months ago, and has an intact uterus. Which feature most favors tamoxifen for her?",
+      "answers": {
+        "A": "Agonist activity in bone",
+        "B": "Lower endometrial cancer risk",
+        "C": "Lower risk of hot flashes",
+        "D": "Lower risk of venous thrombosis",
+        "E": "Usable before menopause"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Both drugs are ER agonists in bone, so this does not separate them.",
+        "B": "Tamoxifen carries about 3 times the endometrial cancer risk of raloxifene, which favors raloxifene.",
+        "C": "Both cause hot flashes.",
+        "D": "Both raise DVT risk.",
+        "E": "Raloxifene has no indication before menopause and appears to have the opposite effect, so tamoxifen fits a perimenopausal patient."
+      }
+    }
+  ]
+}
