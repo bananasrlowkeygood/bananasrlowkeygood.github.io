@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<link rel="icon" type="image/x-icon" href="../static/assets/favicon.ico">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px/1.4 -apple-system,system-ui,sans-serif}img{max-width:100%}</style>
+<title>Pelvic Viscera Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap">
+<style>
+/* Layout: specimen viewer fills the stage; a quiet index of structures sits beside it (below it on phones). */
+:root {
+  --bg: #e7ebe9;
+  --panel: #f5f7f6;
+  --ink: #1b2321;
+  --muted: #5a6864;
+  --line: #c6cfcb;
+  --accent: #23617f;
+  --accent-ink: #ffffff;
+  --label-bg: rgba(250, 252, 251, 0.92);
+  --label-ink: #1b2321;
+  --leader: rgba(27, 35, 33, 0.55);
+  --off: #9aa3a0;
+  --stage: #dfe4e2;
+  --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --f-body: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+  --f-label: "IBM Plex Sans Condensed", "Arial Narrow", -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111615; --panel: #171d1c; --ink: #e2e8e5; --muted: #8f9d99; --line: #2a3432;
+    --accent: #79b3cf; --accent-ink: #0c1416; --label-bg: rgba(20, 27, 26, 0.9); --label-ink: #e8eeeb;
+    --leader: rgba(226, 232, 229, 0.5); --off: #4a5451; --stage: #0d1211; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111615; --panel: #171d1c; --ink: #e2e8e5; --muted: #8f9d99; --line: #2a3432;
+  --accent: #79b3cf; --accent-ink: #0c1416; --label-bg: rgba(20, 27, 26, 0.9); --label-ink: #e8eeeb;
+  --leader: rgba(226, 232, 229, 0.5); --off: #4a5451; --stage: #0d1211; color-scheme: dark;
+}
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+button { font: inherit; color: inherit; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 0;
+}
+aside {
+  background: var(--panel);
+  border-right: 1px solid var(--line);
+  display: flex; flex-direction: column; min-height: 0; min-width: 0;
+}
+.head { padding: 20px 20px 14px; display: grid; gap: 4px; border-bottom: 1px solid var(--line); }
+.head h1 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: 26px; letter-spacing: -0.01em; text-wrap: balance; }
+.head p { margin: 0; color: var(--muted); font-size: 12.5px; }
+
+.index { overflow-y: auto; flex: 1; min-height: 0; padding: 8px 0 16px; }
+.group { padding: 10px 20px 4px; }
+.group-row { display: flex; align-items: center; gap: 10px; }
+.swatch { width: 12px; height: 12px; border-radius: 3px; flex: none; border: 1px solid rgba(0,0,0,0.15); }
+.group-name { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; color: var(--muted); flex: 1; }
+.toggle {
+  border: 1px solid var(--line); background: transparent; border-radius: 999px;
+  font-size: 11px; padding: 2px 9px; cursor: pointer; color: var(--muted);
+}
+.toggle[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.items { list-style: none; margin: 6px 0 0; padding: 0; display: grid; }
+.items button {
+  width: 100%; text-align: left; background: none; border: 0; padding: 5px 8px; margin-left: -8px;
+  border-radius: 6px; cursor: pointer; font-size: 13.5px; display: flex; gap: 8px; align-items: baseline;
+}
+.items button:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.items button.sel { background: var(--accent); color: var(--accent-ink); }
+.items .num { font-family: var(--f-label); font-size: 11.5px; color: var(--muted); min-width: 24px; font-variant-numeric: tabular-nums; }
+.items button.sel .num { color: inherit; }
+.items.off button { color: var(--off); }
+.quiz-hidden .items .nm { filter: blur(5px); user-select: none; }
+.quiz-hidden .items button.revealed .nm { filter: none; }
+
+.credit { padding: 12px 20px; border-top: 1px solid var(--line); font-size: 11px; color: var(--muted); line-height: 1.45; }
+.credit a { color: inherit; }
+
+.stage { position: relative; min-width: 0; min-height: 0; background: var(--stage); overflow: hidden; touch-action: none; }
+.stage canvas { display: block; width: 100%; height: 100%; }
+#leaders { position: absolute; inset: 0; pointer-events: none; width: 100%; height: 100%; }
+#labels { position: absolute; inset: 0; pointer-events: none; }
+.lbl {
+  position: absolute; left: 0; top: 0; pointer-events: auto; cursor: pointer;
+  font-family: var(--f-label); font-size: 12.5px; font-weight: 500; line-height: 1;
+  color: var(--label-ink); background: var(--label-bg);
+  border: 1px solid var(--line); border-radius: 5px; padding: 4px 7px; white-space: nowrap;
+  transition: opacity 160ms ease; will-change: transform;
+}
+.lbl.sel { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); z-index: 2; }
+.lbl.hide { opacity: 0; pointer-events: none; }
+.lbl .n { color: var(--muted); margin-right: 5px; font-variant-numeric: tabular-nums; }
+.lbl.sel .n { color: inherit; }
+
+.bar {
+  position: absolute; top: 12px; left: 12px; right: 12px;
+  display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; pointer-events: none;
+}
+.bar-left { display: flex; flex-wrap: wrap; gap: 8px; min-width: 0; max-width: 100%; }
+.seg { min-width: 0; max-width: 100%; display: flex; flex-wrap: wrap; gap: 4px; pointer-events: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 9px; padding: 4px; }
+.seg button { border: 0; background: transparent; padding: 6px 10px; border-radius: 6px; font-size: 12.5px; cursor: pointer; }
+.seg button:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+
+.card {
+  position: absolute; left: 12px; bottom: 12px; max-width: min(440px, calc(100% - 24px));
+  max-height: calc(100% - 90px); overflow-y: auto;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
+  display: grid; gap: 4px; box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+.card h2 { margin: 0; font-family: var(--f-display); font-size: 19px; font-weight: 600; }
+.card .bone { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.card p { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--ink); }
+.loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 760px) {
+  .app { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 64vh auto; height: auto; }
+  aside { display: contents; }
+  .head { grid-row: 1; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); background: var(--panel); }
+  .stage { grid-row: 2; }
+  .index, .credit { grid-row: 3; background: var(--panel); }
+  .index { overflow: visible; padding-left: max(0px, env(safe-area-inset-left, 0px)); padding-right: max(0px, env(safe-area-inset-right, 0px)); }
+  .group { padding-left: 16px; padding-right: 16px; }
+  .credit { grid-row: 4; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .lbl { font-size: 11px; padding: 3px 5px; }
+  .bar-left { display: contents; }
+  .seg button { padding: 5px 8px; font-size: 12px; }
+  .card { right: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { .lbl { transition: none; } }
+</style>
+
+</head>
+<body>
+<div class="app" id="app">
+  <aside>
+    <div class="head">
+      <h1>Pelvic Viscera</h1>
+      <p>Organs, peritoneum, vessels, nerves and lymph nodes of the female and male pelvis</p>
+    </div>
+    <div class="index" id="index"></div>
+    <div class="credit">
+      Organs, bones and the vessels named below are 3D Reference Organs from the <a href="https://humanatlas.io" target="_blank" rel="noopener">Human Reference Atlas</a> (HuBMAP), CC BY 4.0, built from the Visible Human female and male. Real meshes: the aorta, inferior vena cava, iliac, pudendal and rectal veins, median sacral and inferior mesenteric veins, inferior mesenteric artery, and in the female the uterine and superior rectal arteries and uterine veins. Pelvic floor muscles and the sacrospinous and sacrotuberous ligaments are from <a href="https://lifesciencedb.jp/bp3d/" target="_blank" rel="noopener">BodyParts3D</a> (DBCLS, CC BY-SA 2.1 JP), warped to fit each pelvis. Every other artery, vein and nerve, the plexuses, lymph nodes, bladder ligaments, female urethra, lower female anal canal, sphincters and bulbourethral glands are drawn along their usual course and are approximate.
+    </div>
+  </aside>
+
+  <div class="stage" id="stage">
+    <div class="loading" id="loading">Loading specimen</div>
+    <svg id="leaders"></svg>
+    <div id="labels"></div>
+    <div class="bar">
+      <div class="bar-left">
+        <div class="seg" id="sex">
+          <button data-sex="f" aria-pressed="true">Female</button>
+          <button data-sex="m" aria-pressed="false">Male</button>
+        </div>
+        <div class="seg" id="views">
+          <button data-view="anterior" aria-pressed="true">Anterior</button>
+          <button data-view="posterior">Posterior</button>
+          <button data-view="superior">Superior</button>
+          <button data-view="inferior">Inferior</button>
+          <button data-view="left">Left</button>
+          <button data-view="right">Right</button>
+          <button data-view="sagittal">Midsagittal</button>
+        </div>
+      </div>
+      <div class="seg">
+        <button id="t-labels" aria-pressed="true">Labels</button>
+        <button id="t-quiz" aria-pressed="false">Quiz</button>
+      </div>
+    </div>
+    <div class="card" id="card" hidden>
+      <div class="bone" id="card-bone"></div>
+      <h2 id="card-name"></h2>
+      <p id="card-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const GROUPS = [{"id": "bones", "name": "Bones", "color": "#e6dcc6"}, {"id": "urinary", "name": "Urinary", "color": "#7fb3a4"}, {"id": "gi", "name": "Rectum and anal canal", "color": "#b07a62"}, {"id": "repro", "name": "Reproductive organs", "color": {"f": "#d98ca0", "m": "#c48aa6"}}, {"id": "ligaments", "name": "Peritoneum and ligaments", "color": "#a9bdd6"}, {"id": "arteries", "name": "Arteries", "color": "#c73b35"}, {"id": "veins", "name": "Veins", "color": "#4762b8", "defaultOn": false}, {"id": "nerves", "name": "Nerves", "color": "#dcbc32", "defaultOn": false}, {"id": "lymph", "name": "Lymph nodes", "color": "#6fbf5f", "defaultOn": false}, {"id": "muscles", "name": "Muscles", "color": "#b65e54", "defaultOn": false}];
+const DATA = { f: {"parts":[{"id":"vagina","group":"repro","side":"M","color":"#cf7c93","opacity":1},{"id":"fornix","group":"repro","side":"M","color":"#c06d85","opacity":1},{"id":"ampulla_tube","group":"repro","side":"R","color":"#df93a8","opacity":1},{"id":"isthmus_tube","group":"repro","side":"R","color":"#d98aa0","opacity":1},{"id":"fimbriae","group":"repro","side":"R","color":"#eaa9ba","opacity":1},{"id":"infundibulum","group":"repro","side":"R","color":"#e39aae","opacity":1},{"id":"infundibulum","group":"repro","side":"L","color":"#e39aae","opacity":1},{"id":"fimbriae","group":"repro","side":"L","color":"#eaa9ba","opacity":1},{"id":"isthmus_tube","group":"repro","side":"L","color":"#d98aa0","opacity":1},{"id":"ampulla_tube","group":"repro","side":"L","color":"#df93a8","opacity":1},{"id":"vesicouterine_pouch","group":"ligaments","side":"M","color":"#a9bdd6","opacity":0.55},{"id":"round_ligament","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"round_ligament","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"uterosacral_ligament","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"uterosacral_ligament","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"cardinal_ligament","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"cardinal_ligament","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"suspensory_ovary","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"suspensory_ovary","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"ovarian_ligament","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"ovarian_ligament","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"broad_ligament","group":"ligaments","side":"M","color":"#a9bdd6","opacity":0.5},{"id":"mesosalpinx","group":"ligaments","side":"L","color":"#b6c8dd","opacity":0.6},{"id":"mesosalpinx","group":"ligaments","side":"R","color":"#b6c8dd","opacity":0.6},{"id":"mesovarium","group":"ligaments","side":"R","color":"#b6c8dd","opacity":0.6},{"id":"mesovarium","group":"ligaments","side":"L","color":"#b6c8dd","opacity":0.6},{"id":"ovary","group":"repro","side":"L","color":"#e8c7a4","opacity":1},{"id":"ovary","group":"repro","side":"R","color":"#e8c7a4","opacity":1},{"id":"uterine_part_tube","group":"repro","side":"L","color":"#c76f88","opacity":1},{"id":"uterine_part_tube","group":"repro","side":"R","color":"#c76f88","opacity":1},{"id":"body_uterus","group":"repro","side":"M","color":"#d98ca0","opacity":1},{"id":"fundus_uterus","group":"repro","side":"M","color":"#dc8ea2","opacity":1},{"id":"body_uterus","group":"repro","side":"M","color":"#d98ca0","opacity":1},{"id":"body_uterus","group":"repro","side":"M","color":"#d98ca0","opacity":1},{"id":"cervix","group":"repro","side":"M","color":"#c9768c","opacity":1},{"id":"internal_os","group":"repro","side":"M","color":"#8f4058","opacity":1},{"id":"external_os","group":"repro","side":"M","color":"#8f4058","opacity":1},{"id":"sigmoid","group":"gi","side":"M","color":"#b9876f","opacity":1},{"id":"ureter","group":"urinary","side":"R","color":"#93c1b3","opacity":1},{"id":"ureter","group":"urinary","side":"L","color":"#93c1b3","opacity":1},{"id":"bladder_body","group":"urinary","side":"M","color":"#86b8a9","opacity":1},{"id":"bladder_neck","group":"urinary","side":"M","color":"#6a9a8b","opacity":1},{"id":"bladder_fundus","group":"urinary","side":"M","color":"#78ab9b","opacity":1},{"id":"trigone","group":"urinary","side":"M","color":"#b2d6ca","opacity":1},{"id":"ureteric_orifice","group":"urinary","side":"R","color":"#3f6f62","opacity":1},{"id":"ureteric_orifice","group":"urinary","side":"L","color":"#3f6f62","opacity":1},{"id":"uterine_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"uterine_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"uterine_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"uterine_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"superior_rectal_v","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"common_iliac_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"common_iliac_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"inferior_rectal_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"inferior_rectal_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"internal_iliac_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"internal_iliac_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"internal_pudendal_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"internal_pudendal_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"middle_rectal_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"middle_rectal_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"median_sacral_v","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"imv","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"superior_rectal_a","group":"arteries","side":"M","color":"#c73b35","opacity":1},{"id":"ima","group":"arteries","side":"M","color":"#c73b35","opacity":1},{"id":"ivc","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"aorta","group":"arteries","side":"M","color":"#c73b35","opacity":1},{"id":null,"group":"bones","side":"M","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"M","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"R","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"L","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"M","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"M","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"M","color":"#e6dcc6","opacity":1},{"id":"uterine_horn","group":"repro","side":"L","color":"#d2849a","opacity":1},{"id":"uterine_horn","group":"repro","side":"R","color":"#d2849a","opacity":1},{"id":"isthmus_uterus","group":"repro","side":"M","color":"#cd7e94","opacity":1},{"id":null,"group":"bones","side":"R","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"L","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"R","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"L","color":"#e6dcc6","opacity":1},{"id":"rectum","group":"gi","side":"M","color":"#b07a62","opacity":1},{"id":"anal_canal","group":"gi","side":"M","color":"#9c6650","opacity":1},{"id":"urethra_f","group":"urinary","side":"M","color":"#93c3b5","opacity":1},{"id":"pectinate_line","group":"gi","side":"M","color":"#f2efe6","opacity":1},{"id":"anal_columns","group":"gi","side":"M","color":"#c8957f","opacity":1},{"id":"ganglion_impar","group":"nerves","side":"M","color":"#dcbc32","opacity":1},{"id":"common_iliac_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"external_iliac_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"internal_iliac_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"post_division","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"iliolumbar_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"lateral_sacral_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"superior_gluteal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"ant_division","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"internal_pudendal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"inferior_gluteal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"obturator_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"umbilical_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"superior_vesical_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"medial_umbilical_lig","group":"ligaments","side":"L","color":"#cdb9b4","opacity":1},{"id":"vaginal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"uterine_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"middle_rectal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"ovarian_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"ovarian_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"external_iliac_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"lateral_sacral_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"lumbosacral_trunk","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"lumbosacral_trunk","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sciatic_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"superior_gluteal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"inferior_gluteal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"post_femoral_cut_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pudendal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pudendal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"obturator_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sympathetic_trunk","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sympathetic_trunk","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"common_iliac_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"external_iliac_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"internal_iliac_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"post_division","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"iliolumbar_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"lateral_sacral_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"superior_gluteal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"ant_division","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"internal_pudendal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"inferior_gluteal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"obturator_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"umbilical_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"superior_vesical_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"medial_umbilical_lig","group":"ligaments","side":"R","color":"#cdb9b4","opacity":1},{"id":"vaginal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"uterine_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"middle_rectal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"ovarian_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"ovarian_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"external_iliac_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"lateral_sacral_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"lumbosacral_trunk","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"lumbosacral_trunk","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sciatic_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"superior_gluteal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"inferior_gluteal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"post_femoral_cut_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pudendal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pudendal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"obturator_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sympathetic_trunk","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sympathetic_trunk","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"median_sacral_a","group":"arteries","side":"M","color":"#c73b35","opacity":1},{"id":"anal_canal","group":"gi","side":"M","color":"#9c6650","opacity":1},{"id":"internal_anal_sphincter","group":"gi","side":"M","color":"#c98a74","opacity":1},{"id":"external_anal_sphincter","group":"gi","side":"M","color":"#b65e54","opacity":1},{"id":"inferior_rectal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"inferior_rectal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"perineal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"inferior_rectal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"inferior_rectal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"perineal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"ext_rectal_plexus","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"int_rectal_plexus","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"vesical_plexus","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"uterine_plexus","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"vaginal_plexus","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"uterine_plexus","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"vaginal_plexus","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"shp","group":"nerves","side":"M","color":"#dcbc32","opacity":1},{"id":"ihp","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"hypogastric_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"ihp","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"hypogastric_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"lumbar_nodes","group":"lymph","side":"M","color":"#6fbf5f","opacity":1},{"id":"common_iliac_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"external_iliac_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"internal_iliac_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"superficial_inguinal_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"deep_inguinal_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"common_iliac_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"external_iliac_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"internal_iliac_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"superficial_inguinal_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"deep_inguinal_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"sacral_nodes","group":"lymph","side":"M","color":"#6fbf5f","opacity":1},{"id":"pararectal_nodes","group":"lymph","side":"M","color":"#6fbf5f","opacity":1},{"id":"pubovesical","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"tendinous_arch_fascia","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"lateral_lig_bladder","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"pubovesical","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"tendinous_arch_fascia","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"lateral_lig_bladder","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"piriformis","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"piriformis","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"obturator_internus","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"obturator_internus","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"levator_ani","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"levator_ani","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"puborectalis","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"puborectalis","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"levator_ani","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"levator_ani","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"coccygeus","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"coccygeus","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"sacrospinous","group":"ligaments","side":"L","color":"#b3c4d4","opacity":1},{"id":"sacrospinous","group":"ligaments","side":"R","color":"#b3c4d4","opacity":1},{"id":"sacrotuberous","group":"ligaments","side":"L","color":"#b3c4d4","opacity":1},{"id":"sacrotuberous","group":"ligaments","side":"R","color":"#b3c4d4","opacity":1}],"landmarks":[{"id":"ureter","name":"Ureter","group":"urinary","desc":"Retroperitoneal muscular tube. It crosses the pelvic brim at the bifurcation of the common iliac artery, then runs inferior to the uterine artery beside the cervix. Ureteric branches reach it from the lateral side in the pelvis, so retract it medially in pelvic surgery.","p":[41.0,28.9,18.6],"n":[0.482,-0.11,0.869],"p2":[-65.0,19.3,4.1],"n2":[-0.421,0.047,0.906],"mesh":true,"both":true},{"id":"bladder_body","name":"Body of bladder","group":"urinary","desc":"Hollow organ with a strong muscular wall (detrusor) that stores urine. Its superior surface is covered by peritoneum. Supplied by the superior and inferior vesical arteries (vaginal arteries in place of the inferior vesical); drained by the vesical venous plexus to the internal iliac veins.","p":[-7.4,-37.8,91.3],"n":[0.343,0.61,0.715],"mesh":true,"both":true},{"id":"bladder_neck","name":"Neck of bladder","group":"urinary","desc":"Where the fundus and inferolateral surfaces meet and the urethra begins. Held by the pubovesical ligament and the lateral ligaments of the bladder. There is no defined internal urethral sphincter in the female.","p":[-13.2,-76.2,38.1],"n":[0.243,-0.744,0.622],"mesh":true,"both":true},{"id":"bladder_fundus","name":"Fundus of bladder","group":"urinary","desc":"The base, facing posteriorly toward the vagina.","p":[-3.2,-61.1,36.4],"n":[0.631,-0.479,-0.611],"mesh":true,"both":true},{"id":"trigone","name":"Trigone of bladder","group":"urinary","desc":"Smooth triangle on the inside of the fundus between the two ureteric orifices and the internal urethral orifice.","p":[-20.6,-55.7,36.2],"n":[0.276,0.196,0.941],"mesh":true,"both":true},{"id":"ureteric_orifice","name":"Ureteric orifice","group":"urinary","desc":"Slit-like opening of the ureter at a posterolateral corner of the trigone.","p":[9.6,-49.7,40.1],"n":[-0.643,0.758,0.11],"p2":[-35.2,-47.8,35.5],"n2":[0.558,0.499,0.664],"mesh":true,"both":true},{"id":"urethra_f","name":"Urethra","group":"urinary","desc":"Short (about 4 cm) and estrogen driven. It runs anteroinferiorly in the anterior wall of the vagina and opens into the vaginal vestibule. Distal urethra drains to the superficial inguinal nodes.","p":[-12.8,-90.0,41.5],"n":[-0.063,-0.059,0.996],"mesh":true,"both":true},{"id":"sigmoid","name":"Sigmoid colon","group":"gi","desc":"Shown cut short. Continuous with the rectum at the rectosigmoid junction.","p":[11.0,2.6,25.7],"n":[0.191,0.838,0.511],"mesh":true,"both":true},{"id":"rectum","name":"Rectum","group":"gi","desc":"S-shaped in lateral view. Supplied by the superior rectal artery (from the inferior mesenteric) and the middle and inferior rectal arteries, which anastomose. Proximal rectum drains to the sacral and pararectal nodes, distal rectum to the internal iliac nodes.","p":[-9.1,-13.3,-27.0],"n":[0.523,0.367,-0.769],"mesh":true,"both":true},{"id":"anal_canal","name":"Anal canal","group":"gi","desc":"Terminal part of the gut, from where the ampulla narrows to the anus. Above the pectinate line: superior rectal artery, superior rectal vein to the portal system, internal iliac nodes, visceral sensation (stretch only). Below: inferior rectal artery and vein to the caval system, superficial inguinal nodes, somatic sensation (pain, touch, temperature) by the inferior rectal nerve.","p":[-4.1,-75.4,-38.6],"n":[0.154,0.412,-0.898],"mesh":true,"both":true},{"id":"pectinate_line","name":"Pectinate line","group":"gi","desc":"Divides the anal canal into a visceral upper part from the hindgut and a somatic lower part from the proctodeum. Internal hemorrhoids arise above it and are painless; external hemorrhoids below it are painful.","p":[-5.1,-67.1,-37.7],"n":[0.038,-0.73,-0.683],"mesh":true,"both":true},{"id":"anal_columns","name":"Anal columns","group":"gi","desc":"Longitudinal mucosal ridges above the pectinate line containing terminal branches of the superior rectal artery and vein.","p":[-5.1,-68.4,-32.4],"n":[0.04,-0.885,-0.463],"mesh":true,"both":true},{"id":"internal_anal_sphincter","name":"Internal anal sphincter","group":"gi","desc":"Thickened circular smooth muscle. Tonic contraction from sympathetic fibers; relaxes briefly with parasympathetic stimulation.","p":[-3.1,-68.8,-42.4],"n":[0.229,-0.058,-0.972],"mesh":true,"both":true},{"id":"external_anal_sphincter","name":"External anal sphincter","group":"gi","desc":"Voluntary striated muscle around the lower anal canal, supplied by the inferior rectal nerve.","p":[-2.8,-69.8,-45.6],"n":[0.182,-0.115,-0.976],"mesh":true,"both":true},{"id":"vagina","name":"Vagina","group":"repro","desc":"Distensible musculomembranous tube from the cervix to the vaginal orifice: menstrual outflow, birth canal and sex organ. Bladder fundus and urethra in front, rectouterine pouch, rectum and anal canal behind, levator ani and ureters beside it. Upper part supplied by the uterine artery, middle by the vaginal artery, lower by the internal pudendal. Upper three quarters have visceral sensation to S2 to S4; the lower quarter is somatic, by the deep perineal nerve.","p":[5.5,-83.0,24.4],"n":[0.945,-0.186,0.268],"mesh":true,"both":true},{"id":"fornix","name":"Vaginal fornix","group":"repro","desc":"Recess around the vaginal part of the cervix. The posterior fornix is the deepest and lies right below the rectouterine pouch.","p":[-8.1,-46.9,4.7],"n":[0.13,-0.412,-0.902],"mesh":true,"both":true},{"id":"ampulla_tube","name":"Ampulla of uterine tube","group":"repro","desc":"Widest and longest part. The usual site of fertilization and of ectopic tubal pregnancy.","p":[49.6,11.1,51.3],"n":[0.326,0.464,0.824],"p2":[-72.8,21.5,44.8],"n2":[-0.189,0.706,0.683],"mesh":true,"both":true},{"id":"isthmus_tube","name":"Isthmus of uterine tube","group":"repro","desc":"Thick-walled narrow part next to the uterine horn.","p":[17.1,-14.5,52.1],"n":[-0.125,0.849,0.514],"p2":[-43.4,-15.7,51.6],"n2":[0.332,0.791,0.513],"mesh":true,"both":true},{"id":"fimbriae","name":"Fimbriae","group":"repro","desc":"Finger-like processes of the infundibulum that sweep over the ovary.","p":[37.3,13.3,41.8],"n":[0.604,-0.061,-0.794],"p2":[-67.1,13.8,34.3],"n2":[-0.222,0.114,-0.968],"mesh":true,"both":true},{"id":"infundibulum","name":"Infundibulum of uterine tube","group":"repro","desc":"Funnel-shaped distal end with the abdominal ostium, opening into the peritoneal cavity beside the ovary.","p":[42.5,20.3,43.0],"n":[0.986,0.023,0.164],"p2":[-71.8,20.5,36.3],"n2":[-0.97,0.209,-0.123],"mesh":true,"both":true},{"id":"ovary","name":"Ovary","group":"repro","desc":"Almond-shaped gonad that makes oocytes and hormones. Hangs from the mesovarium, is tethered to the uterus by the ligament of the ovary and receives its vessels through the suspensory ligament. The obturator nerve runs just lateral to it on the pelvic wall and is at risk in oophorectomy. Drains to the lumbar (aortic) nodes.","p":[49.6,2.5,47.4],"n":[0.855,-0.027,0.517],"p2":[-76.6,5.4,45.9],"n2":[-0.96,0.048,0.277],"mesh":true,"both":true},{"id":"uterine_part_tube","name":"Uterine part of tube","group":"repro","desc":"Intramural segment passing through the wall of the uterus.","p":[9.9,-16.4,50.1],"n":[-0.295,0.941,0.166],"p2":[-36.1,-17.7,50.4],"n2":[0.276,0.903,0.33],"mesh":true,"both":true},{"id":"body_uterus","name":"Body of uterus","group":"repro","desc":"Upper two thirds of the uterus, enclosed in the mesometrium of the broad ligament. The non-gravid uterus is anteverted and anteflexed with its body resting on the bladder; the vesicouterine pouch is in front and the rectouterine pouch behind.","p":[-22.8,-21.9,47.1],"n":[0.595,0.26,0.761],"mesh":true,"both":true},{"id":"fundus_uterus","name":"Fundus of uterus","group":"repro","desc":"Rounded top of the body above the openings of the uterine tubes.","p":[-12.5,-7.7,55.9],"n":[0.094,0.866,0.492],"mesh":true,"both":true},{"id":"cervix","name":"Cervix of uterus","group":"repro","desc":"Cylindrical lower third, lying between the bladder and the rectum. It has a supravaginal part and a vaginal part. Cervix drains to the internal iliac and superficial inguinal nodes. Palpable on rectal examination.","p":[-12.1,-38.0,14.9],"n":[0.975,-0.212,0.069],"mesh":true,"both":true},{"id":"internal_os","name":"Internal os","group":"repro","desc":"Upper end of the cervical canal, opening into the uterine cavity.","p":[-11.0,-35.2,24.0],"n":[-0.052,-0.924,0.379],"mesh":true,"both":true},{"id":"external_os","name":"External os","group":"repro","desc":"Lower end of the cervical canal, opening into the vagina.","p":[-10.3,-42.3,12.0],"n":[-0.18,-0.673,0.717],"mesh":true,"both":true},{"id":"uterine_horn","name":"Uterine horn","group":"repro","desc":"Superolateral corner of the body where the uterine tube enters.","p":[10.0,-13.8,51.7],"n":[0.36,0.896,0.258],"p2":[-35.5,-15.3,50.9],"n2":[-0.331,0.93,0.162],"mesh":true,"both":true},{"id":"isthmus_uterus","name":"Isthmus of uterus","group":"repro","desc":"Constricted segment between the body and the cervix.","p":[-12.7,-31.8,27.3],"n":[0.942,-0.223,0.25],"mesh":true,"both":true},{"id":"vesicouterine_pouch","name":"Vesicouterine pouch","group":"ligaments","desc":"Peritoneal recess between the bladder and the uterus.","p":[-13.4,-35.9,59.5],"n":[0.102,0.974,-0.204],"mesh":true,"both":true},{"id":"round_ligament","name":"Round ligament of uterus","group":"ligaments","desc":"From the uterine horn through the deep inguinal ring and inguinal canal to the labium majus. Passive support. Drains to the superficial inguinal nodes.","p":[47.9,-16.8,94.4],"n":[0.269,0.543,0.796],"p2":[-83.4,-33.7,90.2],"n2":[-0.066,0.607,0.792],"mesh":true,"both":true},{"id":"uterosacral_ligament","name":"Uterosacral ligament","group":"ligaments","desc":"From the cervix back to the sacrum, under the rectouterine folds. Passive uterine support; the pelvic diaphragm gives active support.","p":[6.5,-11.5,-29.2],"n":[0.824,0.44,0.358],"p2":[-30.6,-8.4,-34.9],"n2":[-0.752,0.468,0.464],"mesh":true,"both":true},{"id":"cardinal_ligament","name":"Cardinal ligament","group":"ligaments","desc":"Transverse cervical ligament from the cervix and lateral fornix to the pelvic wall. The uterine vessels run in its upper edge. Passive uterine support.","p":[55.4,-21.0,17.9],"n":[0.931,-0.324,0.168],"p2":[-63.0,-37.0,0.8],"n2":[-0.603,-0.669,0.436],"mesh":true,"both":true},{"id":"suspensory_ovary","name":"Suspensory ligament of ovary","group":"ligaments","desc":"Fold from the ovary to the pelvic wall that carries the ovarian vessels and nerves.","p":[44.0,30.7,32.8],"n":[0.953,0.295,0.062],"p2":[-74.3,26.8,37.0],"n2":[-0.945,-0.022,0.325],"mesh":true,"both":true},{"id":"ovarian_ligament","name":"Ligament of ovary","group":"ligaments","desc":"Attaches the ovary to the uterus just below the uterine tube.","p":[23.3,-18.3,47.5],"n":[-0.079,0.968,-0.237],"p2":[-47.2,-18.3,47.2],"n2":[0.158,0.976,-0.149],"mesh":true,"both":true},{"id":"broad_ligament","name":"Broad ligament","group":"ligaments","desc":"Double fold of peritoneum from the sides of the uterus to the lateral pelvic walls. It encloses the uterus, uterine tubes, ligament of the ovary and round ligament, but not the ovaries. Its parts are the mesometrium, mesosalpinx and mesovarium.","p":[-23.4,-23.2,36.3],"n":[0.718,0.502,0.483],"mesh":true,"both":true},{"id":"mesosalpinx","name":"Mesosalpinx","group":"ligaments","desc":"Part of the broad ligament that encloses the uterine tube.","p":[46.3,25.8,45.5],"n":[0.051,0.969,0.242],"p2":[-73.3,11.2,47.2],"n2":[-0.424,0.741,0.521],"mesh":true,"both":true},{"id":"mesovarium","name":"Mesovarium","group":"ligaments","desc":"Fold from the back of the broad ligament that suspends the ovary.","p":[51.2,2.6,46.6],"n":[0.061,-0.317,-0.946],"p2":[-77.9,4.5,47.0],"n2":[-0.366,0.039,-0.93],"mesh":true,"both":true},{"id":"medial_umbilical_lig","name":"Medial umbilical ligament","group":"ligaments","desc":"Occluded distal part of the umbilical artery, running up the anterior abdominal wall toward the umbilicus.","p":[-3.0,7.6,87.2],"n":[0.099,-0.092,0.991],"p2":[-13.2,2.7,87.3],"n2":[-0.069,-0.107,0.992],"mesh":true,"both":true},{"id":"pubovesical","name":"Pubovesical ligament","group":"ligaments","desc":"Condensation of pelvic fascia from the pubis to the bladder neck.","p":[-5.3,-75.0,54.8],"n":[-0.042,-0.989,0.142],"p2":[-14.1,-74.8,56.0],"n2":[-0.062,-0.973,0.224],"mesh":true,"both":true},{"id":"tendinous_arch_fascia","name":"Tendinous arch of pelvic fascia","group":"ligaments","desc":"Fascial thickening from the pubis to the ischial spine that anchors the bladder neck supports.","p":[32.4,-50.9,27.1],"n":[0.894,-0.425,0.142],"p2":[-50.5,-50.0,25.2],"n2":[-0.897,-0.426,0.118],"mesh":true,"both":true},{"id":"lateral_lig_bladder","name":"Lateral ligament of bladder","group":"ligaments","desc":"Fascial band from the bladder base to the pelvic wall, carrying the vesical vessels.","p":[20.9,-47.6,31.7],"n":[0.632,-0.576,0.518],"p2":[-42.7,-47.8,30.4],"n2":[-0.804,-0.442,0.398],"mesh":true,"both":true},{"id":"sacrospinous","name":"Sacrospinous ligament","group":"ligaments","desc":"From the sacrum and coccyx to the ischial spine. The pudendal nerve crosses its spinous end.","p":[36.3,-14.8,-43.0],"n":[-0.128,0.609,0.783],"p2":[-47.3,-28.3,-47.5],"n2":[0.321,0.719,0.616],"mesh":true,"both":true},{"id":"sacrotuberous","name":"Sacrotuberous ligament","group":"ligaments","desc":"From the sacrum to the ischial tuberosity, closing the sciatic foramina.","p":[43.8,-31.0,-51.8],"n":[0.432,-0.307,-0.848],"p2":[-61.3,-26.3,-52.4],"n2":[-0.464,-0.28,-0.841],"mesh":true,"both":true},{"id":"uterine_a","name":"Uterine artery","group":"arteries","desc":"Runs medially in the base of the broad ligament and crosses superior to the ureter beside the cervix (\"water under the bridge\"), so the ureter is at risk when it is ligated. Ascends the side of the uterus and anastomoses with the ovarian artery; a descending branch supplies the upper vagina.","p":[48.9,1.0,17.5],"n":[0.949,-0.185,0.255],"p2":[-68.5,1.3,19.2],"n2":[-0.952,-0.007,0.305],"mesh":true,"both":true},{"id":"superior_rectal_a","name":"Superior rectal artery","group":"arteries","desc":"Continuation of the inferior mesenteric artery. Supplies the rectum and the anal canal above the pectinate line.","p":[-1.3,38.9,-19.6],"n":[0.831,0.498,-0.246],"mesh":true,"both":true},{"id":"ima","name":"Inferior mesenteric artery","group":"arteries","desc":"Shown cut. Its sigmoid branches and the superior rectal artery reach the pelvis.","p":[23.0,92.6,37.1],"n":[0.679,0.328,0.656],"mesh":true,"both":true},{"id":"aorta","name":"Abdominal aorta","group":"arteries","desc":"Shown cut. It ends by bifurcating into the common iliac arteries.","p":[11.4,128.8,41.3],"n":[0.528,-0.129,0.839],"mesh":true,"both":true},{"id":"common_iliac_a","name":"Common iliac artery","group":"arteries","desc":"Divides anterior to the sacroiliac joint into external and internal iliac arteries. The ureter crosses at the division.","p":[27.0,82.7,30.4],"n":[0.805,0.425,0.415],"p2":[-32.5,82.8,33.6],"n2":[-0.612,0.585,0.531],"mesh":true,"both":true},{"id":"external_iliac_a","name":"External iliac artery","group":"arteries","desc":"Runs along the pelvic brim on psoas and becomes the femoral artery under the inguinal ligament.","p":[57.5,-9.6,51.6],"n":[0.957,0.073,0.28],"p2":[-74.9,-10.4,53.2],"n2":[-0.924,0.077,0.375],"mesh":true,"both":true},{"id":"internal_iliac_a","name":"Internal iliac artery","group":"arteries","desc":"Principal artery of the pelvis: pelvic viscera, musculoskeletal pelvis, gluteal region, medial thigh and perineum. Divides at the greater sciatic notch into an anterior division (mostly organs) and a posterior division (mostly walls). Origins vary; learn where branches go.","p":[46.8,35.7,12.1],"n":[0.979,0.185,0.085],"p2":[-70.3,31.3,17.9],"n2":[-0.983,0.158,0.094],"mesh":true,"both":true},{"id":"post_division","name":"Posterior division","group":"arteries","desc":"Iliolumbar, lateral sacral and superior gluteal arteries.","p":[56.2,28.4,-0.6],"n":[0.733,0.523,0.435],"p2":[-79.0,28.7,3.5],"n2":[-0.911,0.068,-0.408],"mesh":true,"both":true},{"id":"iliolumbar_a","name":"Iliolumbar artery","group":"arteries","desc":"Posterior division. Ascends to the lumbar region and iliac fossa.","p":[81.2,56.2,8.9],"n":[0.283,0.858,-0.429],"p2":[-99.6,57.3,7.6],"n2":[-0.237,0.854,-0.463],"mesh":true,"both":true},{"id":"lateral_sacral_a","name":"Lateral sacral artery","group":"arteries","desc":"Posterior division. Runs down the front of the sacrum, supplying its lateral parts and sending branches into the sacral foramina.","p":[17.2,45.2,-37.8],"n":[0.528,0.638,-0.56],"p2":[-33.4,49.0,-37.6],"n2":[-0.523,0.674,-0.523],"mesh":true,"both":true},{"id":"superior_gluteal_a","name":"Superior gluteal artery","group":"arteries","desc":"Posterior division. Leaves between the lumbosacral trunk and the S1 ventral ramus, through the greater sciatic foramen above piriformis.","p":[73.7,46.7,-32.3],"n":[0.794,-0.005,-0.608],"p2":[-95.2,50.9,-34.0],"n2":[-0.802,0.202,-0.563],"mesh":true,"both":true},{"id":"ant_division","name":"Anterior division","group":"arteries","desc":"Umbilical, superior vesical, vaginal, middle rectal, uterine, obturator, internal pudendal and inferior gluteal arteries.","p":[56.0,20.3,7.0],"n":[0.979,0.177,0.105],"p2":[-74.5,22.7,8.5],"n2":[-0.994,-0.074,0.085],"mesh":true,"both":true},{"id":"internal_pudendal_a","name":"Internal pudendal artery","group":"arteries","desc":"Leaves below piriformis, hooks around the ischial spine, re-enters through the lesser sciatic foramen and runs in the pudendal canal to supply the perineum, including the perineal urethra.","p":[67.4,-57.9,29.7],"n":[0.822,-0.405,0.399],"p2":[-81.4,-60.7,22.9],"n2":[-0.803,-0.443,0.399],"mesh":true,"both":true},{"id":"inferior_gluteal_a","name":"Inferior gluteal artery","group":"arteries","desc":"Anterior division. Leaves through the greater sciatic foramen below piriformis to the gluteal region.","p":[59.7,-20.7,-43.1],"n":[0.899,0.435,0.052],"p2":[-77.2,-20.0,-44.1],"n2":[-0.895,0.444,0.042],"mesh":true,"both":true},{"id":"obturator_a","name":"Obturator artery","group":"arteries","desc":"Runs on the lateral pelvic wall with the obturator nerve to the obturator canal and the medial thigh. An abnormal obturator artery from the inferior epigastric crosses the femoral ring and can be cut in femoral hernia repair.","p":[47.6,-22.8,29.5],"n":[0.844,-0.26,0.47],"p2":[-66.5,-23.3,28.9],"n2":[-0.852,-0.26,0.454],"mesh":true,"both":true},{"id":"umbilical_a","name":"Umbilical artery","group":"arteries","desc":"Anterior division. The patent part gives the superior vesical arteries; the occluded distal part continues as the medial umbilical ligament.","p":[37.1,-6.6,44.6],"n":[0.817,0.056,0.574],"p2":[-61.0,-8.1,47.4],"n2":[-0.859,0.103,0.501],"mesh":true,"both":true},{"id":"superior_vesical_a","name":"Superior vesical artery","group":"arteries","desc":"To the superior bladder. Also gives the artery to the ductus deferens in males.","p":[9.9,-40.5,72.1],"n":[0.149,-0.377,0.914],"p2":[-39.8,-40.5,73.7],"n2":[-0.181,-0.436,0.882],"mesh":true,"both":true},{"id":"vaginal_a","name":"Vaginal artery","group":"arteries","desc":"Supplies the middle vagina and the bladder fundus, taking the place of the inferior vesical artery.","p":[31.2,-42.9,20.6],"n":[0.727,-0.568,0.385],"p2":[-53.9,-41.7,19.7],"n2":[-0.799,-0.489,0.351],"mesh":true,"both":true},{"id":"middle_rectal_a","name":"Middle rectal artery","group":"arteries","desc":"To the lower rectum, anastomosing with the superior and inferior rectal arteries.","p":[26.6,-18.7,-10.1],"n":[0.696,-0.515,-0.5],"p2":[-35.8,-19.1,-16.0],"n2":[-0.631,-0.448,-0.633],"mesh":true,"both":true},{"id":"ovarian_a","name":"Ovarian artery","group":"arteries","desc":"From the aorta. Crosses the pelvic brim next to the ureter and runs in the suspensory ligament to the ovary; its tubal branch anastomoses with the uterine artery.","p":[35.1,90.6,24.0],"n":[0.884,0.295,0.364],"p2":[-63.3,94.2,33.6],"n2":[-0.643,0.657,0.394],"mesh":true,"both":true},{"id":"median_sacral_a","name":"Median sacral artery","group":"arteries","desc":"Small artery from the back of the aorta just above its bifurcation, running down the middle of the sacrum.","p":[-9.3,36.7,-35.3],"n":[-0.916,0.374,0.146],"mesh":true,"both":true},{"id":"inferior_rectal_a","name":"Inferior rectal artery","group":"arteries","desc":"Branch of the internal pudendal that crosses the ischioanal fossa to the anal canal below the pectinate line.","p":[34.1,-67.5,-16.8],"n":[0.442,-0.748,-0.494],"p2":[-45.1,-68.6,-20.2],"n2":[-0.359,-0.777,-0.517],"mesh":true,"both":true},{"id":"uterine_v","name":"Uterine vein","group":"veins","desc":"Drains the uterine plexus to the internal iliac vein. Its branches anastomose with the ovarian veins.","p":[37.9,-31.1,24.5],"n":[0.814,-0.207,0.542],"p2":[-60.9,-35.1,30.5],"n2":[-0.762,-0.335,0.554],"mesh":true,"both":true},{"id":"superior_rectal_v","name":"Superior rectal vein","group":"veins","desc":"Drains the upper anal canal and rectum to the inferior mesenteric vein and so to the portal system. Its anastomoses with the middle and inferior rectal veins are a portocaval anastomosis that opens up when the portal vein is obstructed.","p":[-1.2,30.5,-41.3],"n":[0.142,0.7,-0.7],"mesh":true,"both":true},{"id":"common_iliac_v","name":"Common iliac vein","group":"veins","desc":"Formed by the external and internal iliac veins; the two join to form the inferior vena cava.","p":[28.5,80.1,19.3],"n":[0.704,0.624,0.34],"p2":[-44.2,70.9,18.9],"n2":[-0.858,0.309,0.41],"mesh":true,"both":true},{"id":"inferior_rectal_v","name":"Inferior rectal vein","group":"veins","desc":"Drains the anal canal below the pectinate line to the internal pudendal vein (caval system).","p":[21.4,-60.4,-19.1],"n":[0.432,-0.785,-0.444],"p2":[-31.5,-59.2,-21.0],"n2":[-0.507,-0.735,-0.451],"mesh":true,"both":true},{"id":"internal_iliac_v","name":"Internal iliac vein","group":"veins","desc":"Receives the pelvic venous plexuses (rectal, vesical, uterine and vaginal) and drains to the common iliac vein.","p":[55.5,16.5,11.2],"n":[0.95,0.293,0.106],"p2":[-61.1,19.8,4.1],"n2":[-0.996,0.04,0.083],"mesh":true,"both":true},{"id":"internal_pudendal_v","name":"Internal pudendal vein","group":"veins","desc":"Accompanies the internal pudendal artery from the perineum.","p":[64.1,-36.3,-20.8],"n":[0.997,-0.047,-0.063],"p2":[-74.3,-42.4,-24.3],"n2":[-0.945,-0.048,-0.324],"mesh":true,"both":true},{"id":"middle_rectal_v","name":"Middle rectal vein","group":"veins","desc":"Drains the rectal plexus to the internal iliac vein (caval system).","p":[33.2,-5.6,-8.5],"n":[0.608,0.004,-0.794],"p2":[-37.9,-8.1,-14.3],"n2":[-0.748,0.138,-0.65],"mesh":true,"both":true},{"id":"median_sacral_v","name":"Median sacral vein","group":"veins","desc":"Runs up the middle of the sacrum to the left common iliac vein.","p":[-6.4,36.5,-16.2],"n":[0.374,0.907,-0.193],"mesh":true,"both":true},{"id":"imv","name":"Inferior mesenteric vein","group":"veins","desc":"Shown cut. Carries superior rectal blood to the portal system.","p":[27.7,86.5,40.0],"n":[0.563,0.596,0.573],"mesh":true,"both":true},{"id":"ivc","name":"Inferior vena cava","group":"veins","desc":"Shown cut. Formed by the common iliac veins.","p":[-22.6,127.2,32.8],"n":[-0.582,0.051,0.812],"mesh":true,"both":true},{"id":"ovarian_v","name":"Ovarian vein","group":"veins","desc":"Right drains to the inferior vena cava, left to the left renal vein (both above this view).","p":[39.8,84.7,20.7],"n":[0.931,0.205,0.302],"p2":[-70.6,89.7,30.6],"n2":[-0.716,0.603,0.351],"mesh":true,"both":true},{"id":"external_iliac_v","name":"External iliac vein","group":"veins","desc":"Continuation of the femoral vein, medial to the external iliac artery.","p":[48.7,-12.1,47.3],"n":[0.973,0.103,0.208],"p2":[-68.1,-8.7,46.0],"n2":[-0.846,0.001,0.533],"mesh":true,"both":true},{"id":"lateral_sacral_v","name":"Lateral sacral vein","group":"veins","desc":"Connects through the sacral foramina with the internal vertebral venous plexus.","p":[19.9,33.9,-53.8],"n":[0.483,0.683,-0.548],"p2":[-35.1,35.6,-51.0],"n2":[-0.243,0.785,-0.57],"mesh":true,"both":true},{"id":"ext_rectal_plexus","name":"External rectal venous plexus","group":"veins","desc":"Outside the muscular wall of the anal canal. Thrombosis here causes external hemorrhoids.","p":[-8.9,-79.0,-38.9],"n":[-0.099,-0.642,-0.76],"mesh":true,"both":true},{"id":"int_rectal_plexus","name":"Internal rectal venous plexus","group":"veins","desc":"Under the mucosa of the anorectal junction. Prolapse of mucosa containing these veins makes internal hemorrhoids, which bleed bright red because of arteriovenous anastomoses.","p":[-6.1,-57.5,-32.7],"n":[-0.114,-0.589,-0.8],"mesh":true,"both":true},{"id":"vesical_plexus","name":"Vesical venous plexus","group":"veins","desc":"Around the bladder base; drains to the internal iliac veins and can reach the internal vertebral plexus through the sacral veins.","p":[-11.9,-64.1,44.9],"n":[0.0,-0.526,0.851],"mesh":true,"both":true},{"id":"uterine_plexus","name":"Uterine venous plexus","group":"veins","desc":"In the broad ligament beside the uterus; drains through the uterine veins.","p":[5.0,-23.8,39.1],"n":[0.665,-0.361,0.653],"p2":[-32.8,-20.5,38.6],"n2":[-0.616,-0.24,0.75],"mesh":true,"both":true},{"id":"vaginal_plexus","name":"Vaginal venous plexus","group":"veins","desc":"Along the sides of the vagina, continuous with the uterine and vesical plexuses.","p":[10.8,-68.8,22.8],"n":[0.15,-0.914,0.377],"p2":[-36.8,-75.1,23.4],"n2":[-0.526,-0.851,0.0],"mesh":true,"both":true},{"id":"ganglion_impar","name":"Ganglion impar","group":"nerves","desc":"Where the two sacral sympathetic trunks meet, in front of the coccyx.","p":[-9.0,-23.5,-61.9],"n":[0.0,-0.26,-0.966],"mesh":true,"both":true},{"id":"lumbosacral_trunk","name":"Lumbosacral trunk","group":"nerves","desc":"Part of L4 and all of L5. Crosses the sacral ala into the pelvis to join the sacral plexus.","p":[31.1,52.4,-0.3],"n":[0.945,0.315,0.093],"p2":[-50.1,50.5,1.8],"n2":[-0.845,0.532,0.056],"mesh":true,"both":true},{"id":"sacral_rami","name":"Sacral ventral rami","group":"nerves","desc":"S1 to S4 leave the anterior sacral foramina on piriformis and form the sacral plexus with the lumbosacral trunk.","p":[33.5,16.9,-37.9],"n":[0.893,-0.105,-0.438],"p2":[-51.2,18.3,-38.1],"n2":[-0.894,-0.123,-0.43],"mesh":true,"both":true},{"id":"sciatic_n","name":"Sciatic nerve","group":"nerves","desc":"L4 to S3. Leaves below piriformis to supply the lower limb.","p":[95.0,-82.4,-26.2],"n":[0.977,-0.023,-0.212],"p2":[-109.6,-85.6,-31.9],"n2":[-0.972,-0.027,-0.232],"mesh":true,"both":true},{"id":"superior_gluteal_n","name":"Superior gluteal nerve","group":"nerves","desc":"L4 to S1. Leaves above piriformis to the gluteal muscles.","p":[73.3,38.8,-29.2],"n":[0.878,0.217,-0.426],"p2":[-93.0,39.0,-34.7],"n2":[-0.848,0.208,-0.487],"mesh":true,"both":true},{"id":"inferior_gluteal_n","name":"Inferior gluteal nerve","group":"nerves","desc":"L5 to S2. Leaves below piriformis to gluteus maximus.","p":[57.7,-26.6,-47.2],"n":[0.857,0.505,-0.104],"p2":[-75.2,-25.9,-48.1],"n2":[-0.851,0.513,-0.115],"mesh":true,"both":true},{"id":"post_femoral_cut_n","name":"Posterior femoral cutaneous nerve","group":"nerves","desc":"S1 to S3. Skin of the posterior thigh.","p":[85.3,-100.8,-30.4],"n":[0.964,-0.14,-0.228],"p2":[-100.1,-103.7,-37.0],"n2":[-0.969,-0.05,-0.241],"mesh":true,"both":true},{"id":"pudendal_n","name":"Pudendal nerve","group":"nerves","desc":"S2 to S4. Leaves below piriformis, crosses behind the ischial spine and sacrospinous ligament, and enters the perineum through the lesser sciatic foramen. A pudendal block numbs the perineum and distal vagina but still lets the patient feel contractions; it can be repeated.","p":[54.7,-38.3,-31.6],"n":[0.717,0.102,-0.689],"p2":[-71.8,-37.0,-34.0],"n2":[-0.659,0.196,-0.726],"mesh":true,"both":true},{"id":"obturator_n","name":"Obturator nerve","group":"nerves","desc":"L2 to L4. Runs along the lateral pelvic wall to the obturator canal and supplies the medial thigh. It lies right beside the ovary and is vulnerable in ovarian surgery or disease.","p":[57.2,-2.0,9.2],"n":[0.992,0.043,0.118],"p2":[-76.8,3.2,12.2],"n2":[-0.98,0.14,0.143],"mesh":true,"both":true},{"id":"sympathetic_trunk","name":"Sacral sympathetic trunk","group":"nerves","desc":"Runs down the sacrum medial to the foramina. Sends small branches to the inferior hypogastric plexus, but mainly provides vasomotor, pilomotor and sudomotor fibers to the lower limb.","p":[8.6,48.8,-34.0],"n":[0.444,0.894,0.064],"p2":[-25.0,50.8,-33.8],"n2":[-0.589,0.807,0.046],"mesh":true,"both":true},{"id":"inferior_rectal_n","name":"Inferior rectal nerve","group":"nerves","desc":"Branch of the pudendal. Supplies the external anal sphincter and the somatic lower anal canal, which feels pain.","p":[30.8,-68.4,-18.7],"n":[0.467,-0.78,-0.416],"p2":[-44.7,-68.2,-21.4],"n2":[-0.399,-0.805,-0.439],"mesh":true,"both":true},{"id":"perineal_n","name":"Perineal nerve","group":"nerves","desc":"Branch of the pudendal. Its deep branch gives somatic sensation to the lower quarter of the vagina.","p":[31.9,-82.0,26.5],"n":[0.449,-0.807,0.384],"p2":[-51.5,-82.7,21.1],"n2":[-0.677,-0.673,0.298],"mesh":true,"both":true},{"id":"shp","name":"Superior hypogastric plexus","group":"nerves","desc":"Sympathetic plexus at the aortic bifurcation, continuing the inferior mesenteric and intermesenteric plexuses.","p":[-5.6,86.1,34.2],"n":[-0.167,0.743,0.648],"mesh":true,"both":true},{"id":"ihp","name":"Inferior hypogastric plexus","group":"nerves","desc":"Formed by the hypogastric nerves (sympathetic) and pelvic splanchnic nerves (parasympathetic) beside the rectum. Its extensions supply the rectum, bladder, uterus and vagina. Sympathetic fibers come from T12 to L2/3; sensory fibers follow the pelvic pain line.","p":[16.3,-33.1,-4.8],"n":[0.556,-0.683,-0.474],"p2":[-34.0,-28.7,-12.2],"n2":[-0.794,-0.603,-0.076],"mesh":true,"both":true},{"id":"hypogastric_n","name":"Hypogastric nerve","group":"nerves","desc":"Connects the superior hypogastric plexus to the inferior hypogastric plexus.","p":[17.5,40.3,-44.2],"n":[0.46,0.608,-0.647],"p2":[-35.1,45.4,-44.8],"n2":[-0.445,0.425,-0.788],"mesh":true,"both":true},{"id":"pelvic_splanchnic","name":"Pelvic splanchnic nerves","group":"nerves","desc":"Parasympathetic fibers from S2 to S4 to the inferior hypogastric plexus. Motor to the detrusor and inhibitory to the internal urethral sphincter. Visceral pain from below the pelvic pain line and reflex afferents return along them.","p":[29.9,7.4,-42.5],"n":[0.519,-0.446,-0.729],"p2":[-35.8,-14.7,-48.1],"n2":[-0.178,-0.894,-0.412],"mesh":true,"both":true},{"id":"lumbar_nodes","name":"Lumbar (aortic) nodes","group":"lymph","desc":"Receive the gonads: ovaries and distal uterine tubes, or testes.","p":[7.7,151.7,41.8],"n":[0.333,0.914,0.231],"mesh":true,"both":true},{"id":"common_iliac_nodes","name":"Common iliac nodes","group":"lymph","desc":"Receive the external and internal iliac groups and drain to the lumbar nodes.","p":[27.2,79.5,35.1],"n":[0.697,0.457,0.552],"p2":[-38.3,76.2,39.3],"n2":[-0.595,0.736,0.323],"mesh":true,"both":true},{"id":"external_iliac_nodes","name":"External iliac nodes","group":"lymph","desc":"Receive the bladder, along with the internal iliac nodes.","p":[60.4,-11.4,58.2],"n":[0.743,-0.029,0.669],"p2":[-76.8,-4.0,48.2],"n2":[-0.734,0.008,0.679],"mesh":true,"both":true},{"id":"internal_iliac_nodes","name":"Internal iliac nodes","group":"lymph","desc":"Receive the distal rectum, upper anal canal, bladder, vagina and cervix.","p":[52.2,20.2,13.7],"n":[0.985,0.111,0.134],"p2":[-70.2,22.1,12.8],"n2":[-0.947,0.268,-0.18],"mesh":true,"both":true},{"id":"superficial_inguinal_nodes","name":"Superficial inguinal nodes","group":"lymph","desc":"Below the inguinal ligament. Receive the anal canal below the pectinate line, distal urethra, vulva, round ligament and part of the cervix.","p":[61.4,-39.7,96.1],"n":[0.334,-0.334,0.881],"p2":[-81.4,-40.7,95.8],"n2":[-0.492,-0.393,0.776],"mesh":true,"both":true},{"id":"deep_inguinal_nodes","name":"Deep inguinal nodes","group":"lymph","desc":"Medial to the femoral vein. Receive the external genitalia with the superficial nodes.","p":[43.9,-44.9,82.4],"n":[0.639,-0.491,0.592],"p2":[-60.0,-55.9,78.3],"n2":[-0.551,-0.374,0.746],"mesh":true,"both":true},{"id":"sacral_nodes","name":"Sacral nodes","group":"lymph","desc":"Receive the proximal rectum and the vagina.","p":[-8.6,19.1,-60.0],"n":[0.071,0.208,-0.976],"mesh":true,"both":true},{"id":"pararectal_nodes","name":"Pararectal nodes","group":"lymph","desc":"Beside the rectum; receive the proximal rectum.","p":[-17.6,-7.1,-43.1],"n":[0.184,-0.178,-0.967],"mesh":true,"both":true},{"id":"piriformis","name":"Piriformis","group":"muscles","desc":"Fills the greater sciatic foramen; the sacral plexus lies on its front.","p":[79.9,-14.2,-11.3],"n":[-0.324,0.147,0.935],"p2":[-90.0,-5.3,-15.4],"n2":[0.219,0.039,0.975],"mesh":true,"both":true},{"id":"obturator_internus","name":"Obturator internus","group":"muscles","desc":"Lines the lateral pelvic wall. The pudendal canal runs in its fascia.","p":[46.1,-53.3,8.9],"n":[-0.892,0.45,-0.029],"p2":[-64.9,-55.7,10.4],"n2":[0.93,0.358,-0.079],"mesh":true,"both":true},{"id":"levator_ani","name":"Levator ani","group":"muscles","desc":"Pubococcygeus, puborectalis and iliococcygeus. With coccygeus it forms the pelvic diaphragm, whose tonic contraction is the active support of the pelvic organs.","p":[28.2,-52.3,-16.8],"n":[0.299,0.939,0.169],"p2":[-47.6,-52.7,-17.0],"n2":[-0.4,0.905,0.142],"mesh":true,"both":true},{"id":"puborectalis","name":"Puborectalis","group":"muscles","desc":"Sling behind the anorectal junction that keeps the anorectal flexure.","p":[26.0,-62.7,-5.3],"n":[0.611,0.762,-0.215],"p2":[-45.8,-62.9,-3.0],"n2":[-0.502,0.845,-0.185],"mesh":true,"both":true},{"id":"coccygeus","name":"Coccygeus","group":"muscles","desc":"Back part of the pelvic diaphragm, on the sacrospinous ligament.","p":[15.1,-5.1,-65.1],"n":[0.306,0.825,-0.475],"p2":[-32.0,-5.6,-64.5],"n2":[-0.256,0.799,-0.544],"mesh":true,"both":true},{"id":"promontory","name":"Sacral promontory","group":"bones","desc":"Anterior lip of the S1 body. The aorta bifurcates above it and the superior hypogastric plexus lies in front of it.","p":[-8.1,51.9,16.8],"n":[0.0,0.447,0.894]},{"id":"ant_sacral_foramina","name":"Anterior sacral foramina","group":"bones","desc":"The ventral rami of S1 to S4 leave through these. Lateral sacral veins here connect to the internal vertebral venous plexus, a route for prostatic or ovarian cancer to reach the vertebrae and skull.","p":[17.0,36.2,-55.2],"n":[0.192,0.192,0.962],"p2":[-34.8,37.2,-55.2],"n2":[-0.192,0.192,0.962],"free":true},{"id":"ischial_spine","name":"Ischial spine","group":"bones","desc":"The pudendal nerve crosses just medial and posterior to it, so it is the landmark for a pudendal nerve block.","p":[54.6,-36.6,-26.2],"n":[-0.768,0.512,0.384],"p2":[-71.6,-35.6,-28.0],"n2":[0.768,0.512,0.384]},{"id":"pubic_symphysis","name":"Pubic symphysis","group":"bones","desc":"The empty bladder sits superoposterior to the pubic bones, with the retropubic space between them.","p":[-9.2,-64.0,77.9],"n":[0.0,0.1,0.995]},{"id":"coccyx","name":"Coccyx","group":"bones","desc":"Palpable on rectal examination along with the lower sacrum.","p":[-7.4,-30.8,-66.8],"n":[0.0,-0.287,-0.958]},{"id":"gsf","name":"Greater sciatic foramen","group":"bones","desc":"Piriformis fills it. The superior gluteal vessels and nerve pass above piriformis; the sciatic, inferior gluteal, posterior femoral cutaneous and pudendal nerves and the internal pudendal and inferior gluteal vessels pass below it.","p":[56.6,-8.7,-22.9],"n":[0.196,0.0,-0.981],"p2":[-74.4,-8.2,-23.5],"n2":[-0.196,0.0,-0.981],"free":true,"both":true},{"id":"lsf","name":"Lesser sciatic foramen","group":"bones","desc":"The pudendal nerve and internal pudendal vessels re-enter here to reach the perineum through the pudendal canal.","p":[61.0,-49.9,-24.0],"n":[0.276,-0.276,-0.921],"p2":[-78.7,-49.1,-25.8],"n2":[-0.276,-0.276,-0.921],"free":true,"both":true},{"id":"obturator_canal","name":"Obturator canal","group":"bones","desc":"The obturator nerve and vessels leave the pelvis here for the medial thigh.","p":[40.8,-49.3,46.6],"n":[-0.707,0.0,0.707],"p2":[-60.2,-49.7,45.5],"n2":[0.707,0.0,0.707],"free":true,"both":true},{"id":"ureter_brim","name":"Ureter at the pelvic brim","group":"urinary","desc":"One of three narrow points where stones lodge: the ureteropelvic junction, the crossing of the pelvic brim and the passage through the bladder wall. In the female the ovarian vessels lie right beside it here, so the ureter is at risk when they are ligated.","p":[36.6,39.9,23.2],"n":[0.807,0.424,0.411],"p2":[-58.2,43.5,19.1],"n2":[-0.836,0.443,0.324],"mesh":false},{"id":"ureter_intramural","name":"Intramural ureter","group":"urinary","desc":"Runs obliquely through the bladder wall, which acts as a valve against reflux of urine. The third narrow point for stones.","p":[10.8,-49.8,38.3],"n":[0.512,0.384,-0.768],"p2":[-35.3,-47.7,32.8],"n2":[-0.512,0.384,-0.768],"both":true,"free":true},{"id":"bladder_apex","name":"Apex of bladder","group":"urinary","desc":"Points toward the top of the pubic symphysis. The median umbilical ligament (urachus) runs from it to the umbilicus.","p":[-13.4,-38.8,93.5],"n":[0.0,0.514,0.857]},{"id":"internal_urethral_orifice","name":"Internal urethral orifice","group":"urinary","desc":"Opening of the urethra at the lowest point of the trigone.","p":[-12.5,-74.1,38.6],"n":[0.384,0.768,0.512],"free":true,"both":true},{"id":"uvula","name":"Uvula of bladder","group":"urinary","desc":"Small elevation of the trigone just behind the internal urethral orifice, raised by the middle lobe of the prostate in males.","p":[-13.1,-68.4,38.0],"n":[0.236,0.943,-0.236],"free":true,"both":true},{"id":"retropubic_space","name":"Retropubic space","group":"urinary","desc":"Fat-filled space of Retzius between the pubic bones and the bladder, which lets the filling bladder expand upward.","p":[-9.1,-49.5,80.9],"n":[0.333,0.667,0.667],"free":true,"both":true},{"id":"rectosigmoid","name":"Rectosigmoid junction","group":"gi","desc":"Where the sigmoid colon becomes the rectum, at about the level of S3.","p":[-3.6,31.9,-2.9],"n":[0.287,0.575,0.766],"free":true},{"id":"sacral_flexure","name":"Sacral flexure","group":"gi","desc":"The rectum follows the concavity of the sacrum and coccyx.","p":[-6.5,-3.5,-55.4],"n":[0.286,0.095,-0.953]},{"id":"ampulla","name":"Ampulla of rectum","group":"gi","desc":"Dilated distal part that holds feces until defecation.","p":[-4.2,-38.5,-14.0],"n":[0.282,-0.188,0.941]},{"id":"transverse_folds","name":"Transverse rectal folds","group":"gi","desc":"Three shelves inside the rectum that match its lateral flexures: superior and inferior on the left, intermediate on the right.","p":[-1.4,1.5,-18.5],"n":[0.962,0.192,0.192],"free":true,"both":true},{"id":"anorectal_flexure","name":"Anorectal flexure","group":"gi","desc":"About 80 degree bend held by the puborectalis sling. Important for fecal continence.","p":[-6.4,-51.9,-39.7],"n":[0.188,-0.282,-0.941]},{"id":"anus","name":"Anus","group":"gi","desc":"External opening of the anal canal.","p":[-3.6,-87.5,-44.0],"n":[0.04,-0.911,-0.41],"free":true},{"id":"supravaginal_cervix","name":"Supravaginal part of cervix","group":"repro","desc":"Above the vagina, separated from the bladder in front by loose tissue. The ureter passes beside it, under the uterine artery.","p":[-8.6,-40.6,29.1],"n":[0.276,0.276,0.921]},{"id":"vaginal_cervix","name":"Vaginal part of cervix","group":"repro","desc":"Projects into the vagina and is surrounded by the vaginal fornix.","p":[-16.5,-45.9,8.7],"n":[0.485,-0.485,-0.728],"both":true},{"id":"cervical_canal","name":"Cervical canal","group":"repro","desc":"Lumen of the cervix from the internal to the external os. Sampled in a Pap smear to detect premalignant change.","p":[-10.5,-37.8,16.9],"n":[1.0,0.0,0.0],"free":true,"both":true},{"id":"rectouterine_pouch","name":"Rectouterine pouch","group":"ligaments","desc":"Deepest point of the peritoneal cavity in the female, between the uterus and the rectum, just above the posterior fornix.","p":[-8.2,-30.5,-7.8],"n":[0.958,0.287,0.0],"free":true,"both":true},{"id":"mesometrium","name":"Mesometrium","group":"ligaments","desc":"Largest part of the broad ligament, beside the body of the uterus.","p":[20.2,-23.5,47.9],"n":[0.318,0.424,0.848],"p2":[-46.2,-25.6,47.5],"n2":[-0.318,0.424,0.848],"both":true},{"id":"pain_line","name":"Pelvic pain line","group":"ligaments","desc":"The inferior limit of the peritoneum. Visceral pain from above it travels with sympathetic fibers to the lower thoracic and upper lumbar ganglia; pain from below it travels with the pelvic splanchnic nerves to S2 to S4.","p":[-8.2,-34.5,-7.8],"n":[0.981,-0.196,0.0],"free":true,"both":true},{"id":"pararectal_fossa","name":"Pararectal fossa","group":"ligaments","desc":"Peritoneal recess on each side of the rectum.","p":[37.1,12.7,2.0],"n":[0.894,0.447,0.0],"p2":[-31.9,10.7,-22.0],"n2":[-0.894,0.447,0.0],"free":true,"both":true}],"mid":-9.0}, m: {"parts":[{"id":"ductus_deferens","group":"repro","side":"R","color":"#e6c9d5","opacity":1},{"id":"ductus_deferens","group":"repro","side":"L","color":"#e6c9d5","opacity":1},{"id":"seminal_gland","group":"repro","side":"L","color":"#d6a5b9","opacity":1},{"id":"seminal_gland","group":"repro","side":"R","color":"#d6a5b9","opacity":1},{"id":"ejaculatory_duct","group":"repro","side":"R","color":"#f0dbe4","opacity":1},{"id":"utricle","group":"repro","side":"M","color":"#fbeff4","opacity":1},{"id":"seminal_colliculus","group":"repro","side":"M","color":"#f3e3ea","opacity":1},{"id":"prostatic_ducts","group":"repro","side":"R","color":"#f0dde6","opacity":1},{"id":"prostatic_ducts","group":"repro","side":"L","color":"#f0dde6","opacity":1},{"id":"prostatic_ducts","group":"repro","side":"R","color":"#f0dde6","opacity":1},{"id":"prostate_apex","group":"repro","side":"M","color":"#c08aa6","opacity":1},{"id":"prostate_base","group":"repro","side":"M","color":"#c08aa6","opacity":1},{"id":"peripheral_zone","group":"repro","side":"R","color":"#b8789a","opacity":1},{"id":"peripheral_zone","group":"repro","side":"L","color":"#b8789a","opacity":1},{"id":"transition_zone","group":"repro","side":"R","color":"#d6a0bb","opacity":1},{"id":"transition_zone","group":"repro","side":"R","color":"#d6a0bb","opacity":1},{"id":"central_zone","group":"repro","side":"R","color":"#a6698a","opacity":1},{"id":"central_zone","group":"repro","side":"R","color":"#a6698a","opacity":1},{"id":"sigmoid","group":"gi","side":"M","color":"#b9876f","opacity":1},{"id":"ureter","group":"urinary","side":"R","color":"#93c1b3","opacity":1},{"id":"ureter","group":"urinary","side":"L","color":"#93c1b3","opacity":1},{"id":"bladder_neck","group":"urinary","side":"M","color":"#6a9a8b","opacity":1},{"id":"bladder_body","group":"urinary","side":"M","color":"#86b8a9","opacity":1},{"id":"ureteric_orifice","group":"urinary","side":"R","color":"#3f6f62","opacity":1},{"id":"ureteric_orifice","group":"urinary","side":"L","color":"#3f6f62","opacity":1},{"id":"bladder_fundus","group":"urinary","side":"M","color":"#78ab9b","opacity":1},{"id":"trigone","group":"urinary","side":"M","color":"#b2d6ca","opacity":1},{"id":"prostatic_urethra","group":"urinary","side":"M","color":"#9fcabd","opacity":1},{"id":"imv","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"median_sacral_v","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"superior_rectal_v","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"common_iliac_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"common_iliac_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"external_iliac_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"external_iliac_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"inferior_rectal_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"inferior_rectal_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"internal_pudendal_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"internal_pudendal_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"internal_iliac_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"internal_iliac_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"middle_rectal_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"middle_rectal_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"ima","group":"arteries","side":"M","color":"#c73b35","opacity":1},{"id":"aorta","group":"arteries","side":"M","color":"#c73b35","opacity":1},{"id":"ivc","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":null,"group":"bones","side":"M","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"M","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"L","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"R","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"L","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"R","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"L","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"R","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"M","color":"#e6dcc6","opacity":1},{"id":null,"group":"bones","side":"M","color":"#e6dcc6","opacity":1},{"id":"anterior_stroma","group":"repro","side":"R","color":"#cbb0bd","opacity":1},{"id":"anterior_stroma","group":"repro","side":"R","color":"#cbb0bd","opacity":1},{"id":"rectum","group":"gi","side":"M","color":"#b07a62","opacity":1},{"id":"anal_canal","group":"gi","side":"M","color":"#9c6650","opacity":1},{"id":"membranous_urethra","group":"urinary","side":"M","color":"#93c3b5","opacity":1},{"id":"spongy_urethra","group":"urinary","side":"M","color":"#93c3b5","opacity":1},{"id":"bulbourethral","group":"repro","side":"L","color":"#d9a7bd","opacity":1},{"id":"bulbourethral","group":"repro","side":"R","color":"#d9a7bd","opacity":1},{"id":"pectinate_line","group":"gi","side":"M","color":"#f2efe6","opacity":1},{"id":"anal_columns","group":"gi","side":"M","color":"#c8957f","opacity":1},{"id":"ganglion_impar","group":"nerves","side":"M","color":"#dcbc32","opacity":1},{"id":"common_iliac_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"external_iliac_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"internal_iliac_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"post_division","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"iliolumbar_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"lateral_sacral_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"superior_gluteal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"ant_division","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"internal_pudendal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"inferior_gluteal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"obturator_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"umbilical_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"superior_vesical_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"medial_umbilical_lig","group":"ligaments","side":"L","color":"#cdb9b4","opacity":1},{"id":"inferior_vesical_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"inferior_vesical_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"middle_rectal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"testicular_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"testicular_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"ductus_deferens","group":"repro","side":"L","color":"#e6c9d5","opacity":1},{"id":"lateral_sacral_v","group":"veins","side":"L","color":"#4762b8","opacity":1},{"id":"lumbosacral_trunk","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"lumbosacral_trunk","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sciatic_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"superior_gluteal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"inferior_gluteal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"post_femoral_cut_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pudendal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pudendal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"obturator_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sympathetic_trunk","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"sympathetic_trunk","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"common_iliac_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"external_iliac_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"internal_iliac_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"post_division","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"iliolumbar_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"lateral_sacral_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"superior_gluteal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"ant_division","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"internal_pudendal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"inferior_gluteal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"obturator_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"umbilical_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"superior_vesical_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"medial_umbilical_lig","group":"ligaments","side":"R","color":"#cdb9b4","opacity":1},{"id":"inferior_vesical_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"inferior_vesical_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"middle_rectal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"testicular_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"testicular_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"ductus_deferens","group":"repro","side":"R","color":"#e6c9d5","opacity":1},{"id":"lateral_sacral_v","group":"veins","side":"R","color":"#4762b8","opacity":1},{"id":"lumbosacral_trunk","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"lumbosacral_trunk","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sacral_rami","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sciatic_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"superior_gluteal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"inferior_gluteal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"post_femoral_cut_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pudendal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pudendal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"obturator_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sympathetic_trunk","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"sympathetic_trunk","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"median_sacral_a","group":"arteries","side":"M","color":"#c73b35","opacity":1},{"id":"superior_rectal_a","group":"arteries","side":"M","color":"#c73b35","opacity":1},{"id":"internal_anal_sphincter","group":"gi","side":"M","color":"#c98a74","opacity":1},{"id":"external_anal_sphincter","group":"gi","side":"M","color":"#b65e54","opacity":1},{"id":"inferior_rectal_a","group":"arteries","side":"L","color":"#c73b35","opacity":1},{"id":"inferior_rectal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"perineal_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"inferior_rectal_a","group":"arteries","side":"R","color":"#c73b35","opacity":1},{"id":"inferior_rectal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"perineal_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"ext_rectal_plexus","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"int_rectal_plexus","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"vesical_plexus","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"prostatic_plexus","group":"veins","side":"M","color":"#4762b8","opacity":1},{"id":"shp","group":"nerves","side":"M","color":"#dcbc32","opacity":1},{"id":"ihp","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"hypogastric_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"cavernous_n","group":"nerves","side":"L","color":"#dcbc32","opacity":1},{"id":"ihp","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"hypogastric_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"pelvic_splanchnic","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"cavernous_n","group":"nerves","side":"R","color":"#dcbc32","opacity":1},{"id":"lumbar_nodes","group":"lymph","side":"M","color":"#6fbf5f","opacity":1},{"id":"common_iliac_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"external_iliac_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"internal_iliac_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"superficial_inguinal_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"deep_inguinal_nodes","group":"lymph","side":"L","color":"#6fbf5f","opacity":1},{"id":"common_iliac_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"external_iliac_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"internal_iliac_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"superficial_inguinal_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"deep_inguinal_nodes","group":"lymph","side":"R","color":"#6fbf5f","opacity":1},{"id":"sacral_nodes","group":"lymph","side":"M","color":"#6fbf5f","opacity":1},{"id":"pararectal_nodes","group":"lymph","side":"M","color":"#6fbf5f","opacity":1},{"id":"puboprostatic","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"tendinous_arch_fascia","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"lateral_lig_bladder","group":"ligaments","side":"L","color":"#9fb6cf","opacity":1},{"id":"puboprostatic","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"tendinous_arch_fascia","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"lateral_lig_bladder","group":"ligaments","side":"R","color":"#9fb6cf","opacity":1},{"id":"piriformis","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"piriformis","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"obturator_internus","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"obturator_internus","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"levator_ani","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"levator_ani","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"puborectalis","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"puborectalis","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"levator_ani","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"levator_ani","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"coccygeus","group":"muscles","side":"L","color":"#b65e54","opacity":1},{"id":"coccygeus","group":"muscles","side":"R","color":"#b65e54","opacity":1},{"id":"sacrospinous","group":"ligaments","side":"L","color":"#b3c4d4","opacity":1},{"id":"sacrospinous","group":"ligaments","side":"R","color":"#b3c4d4","opacity":1},{"id":"sacrotuberous","group":"ligaments","side":"L","color":"#b3c4d4","opacity":1},{"id":"sacrotuberous","group":"ligaments","side":"R","color":"#b3c4d4","opacity":1}],"landmarks":[{"id":"ureter","name":"Ureter","group":"urinary","desc":"Retroperitoneal muscular tube. It crosses the pelvic brim at the bifurcation of the common iliac artery and runs posterolateral to the ductus deferens. Ureteric branches reach it from the lateral side in the pelvis, so retract it medially in pelvic surgery.","p":[36.3,40.7,39.2],"n":[0.488,-0.328,0.809],"p2":[-22.7,39.4,39.2],"n2":[-0.601,-0.256,0.757],"mesh":true,"both":true},{"id":"bladder_neck","name":"Neck of bladder and internal urethral sphincter","group":"urinary","desc":"Held by the puboprostatic ligament. Its smooth muscle forms the internal urethral sphincter: sympathetic fibers contract it at ejaculation so semen does not reflux into the bladder, and parasympathetic fibers relax it during voiding.","p":[0.6,-63.5,31.6],"n":[0.246,-0.934,0.261],"mesh":true,"both":true},{"id":"bladder_body","name":"Body of bladder","group":"urinary","desc":"Hollow organ with a strong muscular wall (detrusor) that stores urine. Its superior surface is covered by peritoneum. Supplied by the superior and inferior vesical arteries (and prostatic branches); drained by the vesical and prostatic venous plexus to the internal iliac veins.","p":[-2.3,-30.1,50.6],"n":[0.155,0.943,0.294],"mesh":true,"both":true},{"id":"ureteric_orifice","name":"Ureteric orifice","group":"urinary","desc":"Slit-like opening of the ureter at a posterolateral corner of the trigone.","p":[23.9,-36.7,21.2],"n":[-0.682,0.565,0.464],"p2":[-26.7,-24.7,20.8],"n2":[0.351,0.91,0.222],"mesh":true,"both":true},{"id":"bladder_fundus","name":"Fundus of bladder","group":"urinary","desc":"The base, facing posteriorly toward the rectum. The seminal glands and ampullae of the ductus deferens lie against it.","p":[7.4,-55.2,26.6],"n":[0.696,-0.375,-0.613],"mesh":true,"both":true},{"id":"trigone","name":"Trigone of bladder","group":"urinary","desc":"Smooth triangle on the inside of the fundus between the two ureteric orifices and the internal urethral orifice.","p":[-1.8,-45.1,23.3],"n":[-0.018,0.573,0.819],"mesh":true,"both":true},{"id":"prostatic_urethra","name":"Prostatic urethra","group":"urinary","desc":"Widest and most distensible part. The ejaculatory ducts and prostatic ducts open into it, so this is where the urinary and reproductive tracts merge.","p":[-2.0,-70.4,18.7],"n":[-0.117,-0.866,0.486],"mesh":true,"both":true},{"id":"membranous_urethra","name":"Intermediate (membranous) urethra","group":"urinary","desc":"Shortest and least distensible part. It passes through the deep perineal pouch, surrounded by the external urethral sphincter.","p":[0.3,-79.4,19.9],"n":[-0.134,-0.126,0.983],"mesh":true,"both":true},{"id":"spongy_urethra","name":"Spongy urethra","group":"urinary","desc":"About 15 cm long, running in the corpus spongiosum (not shown). The bulbourethral ducts open into its proximal part. Distal urethra drains to the superficial inguinal nodes.","p":[11.3,-182.6,143.9],"n":[0.068,-0.35,0.934],"mesh":true,"both":true},{"id":"sigmoid","name":"Sigmoid colon","group":"gi","desc":"Shown cut short. Continuous with the rectum at the rectosigmoid junction.","p":[-3.8,45.7,50.2],"n":[0.171,0.941,0.291],"mesh":true,"both":true},{"id":"rectum","name":"Rectum","group":"gi","desc":"S-shaped in lateral view. Supplied by the superior rectal artery (from the inferior mesenteric) and the middle and inferior rectal arteries, which anastomose. Proximal rectum drains to the sacral and pararectal nodes, distal rectum to the internal iliac nodes.","p":[-0.9,-8.3,-20.7],"n":[0.664,0.224,-0.713],"mesh":true,"both":true},{"id":"anal_canal","name":"Anal canal","group":"gi","desc":"Terminal part of the gut, from where the ampulla narrows to the anus. Above the pectinate line: superior rectal artery, superior rectal vein to the portal system, internal iliac nodes, visceral sensation (stretch only). Below: inferior rectal artery and vein to the caval system, superficial inguinal nodes, somatic sensation (pain, touch, temperature) by the inferior rectal nerve.","p":[2.7,-93.0,-33.4],"n":[0.998,-0.05,0.045],"mesh":true,"both":true},{"id":"pectinate_line","name":"Pectinate line","group":"gi","desc":"Divides the anal canal into a visceral upper part from the hindgut and a somatic lower part from the proctodeum. Internal hemorrhoids arise above it and are painless; external hemorrhoids below it are painful.","p":[1.0,-90.7,-34.3],"n":[-0.0,-0.846,-0.533],"mesh":true,"both":true},{"id":"anal_columns","name":"Anal columns","group":"gi","desc":"Longitudinal mucosal ridges above the pectinate line containing terminal branches of the superior rectal artery and vein.","p":[2.4,-91.3,-30.7],"n":[-0.038,-0.884,-0.465],"mesh":true,"both":true},{"id":"internal_anal_sphincter","name":"Internal anal sphincter","group":"gi","desc":"Thickened circular smooth muscle. Tonic contraction from sympathetic fibers; relaxes briefly with parasympathetic stimulation.","p":[0.4,-91.9,-28.3],"n":[-0.3,-0.674,0.675],"mesh":true,"both":true},{"id":"external_anal_sphincter","name":"External anal sphincter","group":"gi","desc":"Voluntary striated muscle around the lower anal canal, supplied by the inferior rectal nerve.","p":[1.3,-101.0,-31.8],"n":[-0.046,0.002,-0.999],"mesh":true,"both":true},{"id":"ductus_deferens","name":"Ductus deferens","group":"repro","desc":"Continues from the epididymis, runs in the spermatic cord through the inguinal canal and enters the pelvis at the deep inguinal ring. It crosses over the ureter near the posterolateral angle of the bladder, then descends on the bladder fundus. Supplied by the artery to the ductus; drains to the internal iliac nodes.","p":[80.5,2.4,72.2],"n":[0.562,0.481,0.673],"p2":[-69.6,2.2,72.5],"n2":[-0.044,0.32,0.946],"mesh":true,"both":true},{"id":"seminal_gland","name":"Seminal gland","group":"repro","desc":"Adds a thick alkaline secretion to the sperm. Lies on the bladder fundus lateral to the ampulla. Palpable on rectal examination.","p":[24.4,-31.3,-1.8],"n":[0.84,0.407,-0.358],"p2":[-25.6,-28.1,-7.0],"n2":[-0.789,0.5,-0.358],"mesh":true,"both":true},{"id":"ejaculatory_duct","name":"Ejaculatory duct","group":"repro","desc":"Union of the ductus deferens and the duct of the seminal gland. Traverses the prostate and opens on the seminal colliculus.","p":[-0.8,-73.1,20.9],"n":[-0.039,-0.951,0.307],"mesh":true,"both":true},{"id":"utricle","name":"Prostatic utricle","group":"repro","desc":"Small blind pouch on the seminal colliculus, an embryonic remnant.","p":[0.2,-71.8,22.0],"n":[-0.041,-0.972,0.23],"mesh":true,"both":true},{"id":"seminal_colliculus","name":"Seminal colliculus","group":"repro","desc":"Mound on the posterior wall of the prostatic urethra where the ejaculatory ducts open.","p":[-1.0,-73.4,20.9],"n":[-0.415,-0.78,0.468],"mesh":true,"both":true},{"id":"prostatic_ducts","name":"Prostatic ducts","group":"repro","desc":"Empty prostatic secretions into the prostatic sinuses beside the colliculus.","p":[6.9,-73.6,20.6],"n":[0.025,-0.72,0.693],"p2":[-1.6,-74.5,18.6],"n2":[-0.065,-0.915,0.398],"mesh":true,"both":true},{"id":"prostate_apex","name":"Apex of prostate","group":"repro","desc":"Lower end, resting on the external urethral sphincter.","p":[5.9,-79.2,19.6],"n":[0.132,-0.914,0.384],"mesh":true,"both":true},{"id":"prostate_base","name":"Base of prostate","group":"repro","desc":"Upper surface, against the bladder neck.","p":[-2.2,-57.4,21.6],"n":[0.474,0.86,0.189],"mesh":true,"both":true},{"id":"peripheral_zone","name":"Peripheral zone","group":"repro","desc":"Most of the glandular tissue, posterior and lateral. This is what you feel on rectal examination and where most carcinomas arise.","p":[12.5,-68.6,8.9],"n":[0.92,-0.141,-0.365],"p2":[-11.4,-67.8,8.0],"n2":[-0.91,-0.118,-0.397],"mesh":true,"both":true},{"id":"transition_zone","name":"Transition zone","group":"repro","desc":"Surrounds the proximal prostatic urethra. Site of benign prostatic hyperplasia.","p":[2.8,-65.0,19.5],"n":[-0.824,-0.145,0.548],"mesh":true,"both":true},{"id":"central_zone","name":"Central zone","group":"repro","desc":"Surrounds the ejaculatory ducts.","p":[1.3,-55.0,11.0],"n":[-0.801,0.393,-0.451],"mesh":true,"both":true},{"id":"anterior_stroma","name":"Anterior fibromuscular stroma","group":"repro","desc":"Non-glandular front of the prostate.","p":[-2.5,-69.7,31.0],"n":[-0.488,-0.062,0.871],"mesh":true,"both":true},{"id":"bulbourethral","name":"Bulbourethral gland","group":"repro","desc":"Pea-sized gland embedded in the external urethral sphincter in the deep perineal space. Its duct opens into the proximal spongy urethra.","p":[7.5,-96.2,21.5],"n":[0.128,-0.953,0.273],"p2":[-5.5,-96.2,21.5],"n2":[-0.128,-0.953,0.273],"mesh":true,"both":true},{"id":"medial_umbilical_lig","name":"Medial umbilical ligament","group":"ligaments","desc":"Occluded distal part of the umbilical artery, running up the anterior abdominal wall toward the umbilicus.","p":[-5.0,-14.5,86.9],"n":[-0.124,-0.097,0.988],"p2":[-6.1,-22.0,86.4],"n2":[-0.127,-0.081,0.989],"mesh":true,"both":true},{"id":"puboprostatic","name":"Puboprostatic ligament","group":"ligaments","desc":"Condensation of pelvic fascia from the pubis to the prostate and bladder neck.","p":[7.8,-78.1,45.7],"n":[0.021,-0.823,0.567],"p2":[-4.4,-77.2,45.3],"n2":[-0.29,-0.949,0.119],"mesh":true,"both":true},{"id":"tendinous_arch_fascia","name":"Tendinous arch of pelvic fascia","group":"ligaments","desc":"Fascial thickening from the pubis to the ischial spine that anchors the bladder neck supports.","p":[25.7,-48.6,24.7],"n":[0.761,-0.633,0.141],"p2":[-32.4,-51.3,29.8],"n2":[-0.911,-0.407,0.073],"mesh":true,"both":true},{"id":"lateral_lig_bladder","name":"Lateral ligament of bladder","group":"ligaments","desc":"Fascial band from the bladder base to the pelvic wall, carrying the vesical vessels.","p":[30.2,-45.1,24.9],"n":[0.534,-0.628,0.566],"p2":[-33.7,-43.0,29.1],"n2":[-0.717,-0.522,0.462],"mesh":true,"both":true},{"id":"sacrospinous","name":"Sacrospinous ligament","group":"ligaments","desc":"From the sacrum and coccyx to the ischial spine. The pudendal nerve crosses its spinous end.","p":[38.0,-19.6,-42.5],"n":[-0.207,0.61,0.765],"p2":[-34.2,-15.5,-36.7],"n2":[0.217,0.513,0.831],"mesh":true,"both":true},{"id":"sacrotuberous","name":"Sacrotuberous ligament","group":"ligaments","desc":"From the sacrum to the ischial tuberosity, closing the sciatic foramina.","p":[41.2,-35.9,-54.1],"n":[0.268,-0.308,-0.913],"p2":[-38.2,-30.0,-51.7],"n2":[-0.291,-0.221,-0.931],"mesh":true,"both":true},{"id":"ima","name":"Inferior mesenteric artery","group":"arteries","desc":"Shown cut. Its sigmoid branches and the superior rectal artery reach the pelvis.","p":[17.1,117.3,61.2],"n":[0.405,0.7,0.588],"mesh":true,"both":true},{"id":"aorta","name":"Abdominal aorta","group":"arteries","desc":"Shown cut. It ends by bifurcating into the common iliac arteries.","p":[15.1,129.8,61.9],"n":[0.503,0.161,0.849],"mesh":true,"both":true},{"id":"common_iliac_a","name":"Common iliac artery","group":"arteries","desc":"Divides anterior to the sacroiliac joint into external and internal iliac arteries. The ureter crosses at the division.","p":[36.5,82.8,46.0],"n":[0.805,0.236,0.544],"p2":[-17.1,84.9,49.1],"n2":[-0.7,0.321,0.638],"mesh":true,"both":true},{"id":"external_iliac_a","name":"External iliac artery","group":"arteries","desc":"Runs along the pelvic brim on psoas and becomes the femoral artery under the inguinal ligament.","p":[58.0,-11.2,54.2],"n":[0.985,0.148,0.084],"p2":[-52.4,-10.3,54.0],"n2":[-0.931,0.124,0.345],"mesh":true,"both":true},{"id":"internal_iliac_a","name":"Internal iliac artery","group":"arteries","desc":"Principal artery of the pelvis: pelvic viscera, musculoskeletal pelvis, gluteal region, medial thigh and perineum. Divides at the greater sciatic notch into an anterior division (mostly organs) and a posterior division (mostly walls). Origins vary; learn where branches go.","p":[55.4,28.8,17.2],"n":[0.993,0.084,-0.079],"p2":[-45.4,29.7,24.5],"n2":[-0.999,0.028,0.046],"mesh":true,"both":true},{"id":"post_division","name":"Posterior division","group":"arteries","desc":"Iliolumbar, lateral sacral and superior gluteal arteries.","p":[59.2,20.2,-0.8],"n":[0.463,0.411,0.785],"p2":[-54.8,22.4,6.5],"n2":[-0.752,-0.095,0.652],"mesh":true,"both":true},{"id":"iliolumbar_a","name":"Iliolumbar artery","group":"arteries","desc":"Posterior division. Ascends to the lumbar region and iliac fossa.","p":[81.3,55.8,19.0],"n":[-0.207,0.435,0.876],"p2":[-68.9,63.3,24.2],"n2":[0.034,0.781,0.624],"mesh":true,"both":true},{"id":"lateral_sacral_a","name":"Lateral sacral artery","group":"arteries","desc":"Posterior division. Runs down the front of the sacrum, supplying its lateral parts and sending branches into the sacral foramina.","p":[22.2,39.4,-31.6],"n":[0.403,0.703,-0.586],"p2":[-11.8,42.3,-26.1],"n2":[-0.451,0.673,-0.586],"mesh":true,"both":true},{"id":"superior_gluteal_a","name":"Superior gluteal artery","group":"arteries","desc":"Posterior division. Leaves between the lumbosacral trunk and the S1 ventral ramus, through the greater sciatic foramen above piriformis.","p":[68.9,41.9,-28.7],"n":[0.767,0.261,-0.587],"p2":[-65.4,48.7,-28.3],"n2":[-0.782,0.196,-0.592],"mesh":true,"both":true},{"id":"ant_division","name":"Anterior division","group":"arteries","desc":"Umbilical, superior vesical, inferior vesical, middle rectal, obturator, internal pudendal and inferior gluteal arteries.","p":[55.6,15.6,5.6],"n":[0.984,-0.065,0.165],"p2":[-49.0,16.8,12.5],"n2":[-0.962,-0.042,0.269],"mesh":true,"both":true},{"id":"internal_pudendal_a","name":"Internal pudendal artery","group":"arteries","desc":"Leaves below piriformis, hooks around the ischial spine, re-enters through the lesser sciatic foramen and runs in the pudendal canal to supply the perineum, including the perineal urethra.","p":[61.7,-65.2,12.0],"n":[0.835,-0.542,0.099],"p2":[-57.3,-62.3,16.8],"n2":[-0.872,-0.462,0.161],"mesh":true,"both":true},{"id":"inferior_gluteal_a","name":"Inferior gluteal artery","group":"arteries","desc":"Anterior division. Leaves through the greater sciatic foramen below piriformis to the gluteal region.","p":[56.6,-22.9,-45.1],"n":[0.852,0.522,-0.037],"p2":[-52.5,-19.5,-37.8],"n2":[-0.96,0.243,0.139],"mesh":true,"both":true},{"id":"obturator_a","name":"Obturator artery","group":"arteries","desc":"Runs on the lateral pelvic wall with the obturator nerve to the obturator canal and the medial thigh. An abnormal obturator artery from the inferior epigastric crosses the femoral ring and can be cut in femoral hernia repair.","p":[50.6,-25.0,26.8],"n":[0.857,-0.202,0.475],"p2":[-40.7,-24.1,30.3],"n2":[-0.574,-0.528,0.626],"mesh":true,"both":true},{"id":"umbilical_a","name":"Umbilical artery","group":"arteries","desc":"Anterior division. The patent part gives the superior vesical arteries; the occluded distal part continues as the medial umbilical ligament.","p":[44.8,-11.7,25.6],"n":[0.833,-0.134,0.537],"p2":[-51.2,-0.5,28.4],"n2":[-0.921,0.136,0.364],"mesh":true,"both":true},{"id":"superior_vesical_a","name":"Superior vesical artery","group":"arteries","desc":"To the superior bladder. Also gives the artery to the ductus deferens in males.","p":[28.1,-36.7,31.2],"n":[0.83,-0.322,0.455],"p2":[-39.1,-28.6,39.7],"n2":[-0.232,-0.7,0.676],"mesh":true,"both":true},{"id":"inferior_vesical_a","name":"Inferior vesical artery","group":"arteries","desc":"To the bladder fundus, prostate, seminal glands and ductus. Replaced by the vaginal artery when a vagina is present.","p":[43.4,-28.8,27.1],"n":[0.813,-0.244,0.528],"p2":[-41.1,-20.4,30.7],"n2":[-0.778,-0.299,0.553],"mesh":true,"both":true},{"id":"middle_rectal_a","name":"Middle rectal artery","group":"arteries","desc":"To the lower rectum, anastomosing with the superior and inferior rectal arteries.","p":[27.1,-28.4,-19.3],"n":[0.799,-0.398,-0.451],"p2":[-29.2,-25.3,-7.8],"n2":[-0.861,-0.443,-0.25],"mesh":true,"both":true},{"id":"testicular_a","name":"Testicular artery","group":"arteries","desc":"From the aorta. Runs on psoas to the deep inguinal ring and through the inguinal canal in the spermatic cord.","p":[76.7,64.7,53.8],"n":[0.765,0.221,0.606],"p2":[-69.0,62.3,54.6],"n2":[-0.778,0.224,0.587],"mesh":true,"both":true},{"id":"median_sacral_a","name":"Median sacral artery","group":"arteries","desc":"Small artery from the back of the aorta just above its bifurcation, running down the middle of the sacrum.","p":[5.7,52.2,-24.4],"n":[-0.194,0.965,0.178],"mesh":true,"both":true},{"id":"superior_rectal_a","name":"Superior rectal artery","group":"arteries","desc":"Continuation of the inferior mesenteric artery. Supplies the rectum and the anal canal above the pectinate line.","p":[11.8,27.7,-3.0],"n":[0.245,0.552,-0.797],"mesh":true,"both":true},{"id":"inferior_rectal_a","name":"Inferior rectal artery","group":"arteries","desc":"Branch of the internal pudendal that crosses the ischioanal fossa to the anal canal below the pectinate line.","p":[34.7,-84.0,-24.0],"n":[0.551,-0.763,-0.337],"p2":[-32.6,-81.7,-21.9],"n2":[-0.606,-0.729,-0.318],"mesh":true,"both":true},{"id":"imv","name":"Inferior mesenteric vein","group":"veins","desc":"Shown cut. Carries superior rectal blood to the portal system.","p":[30.6,115.2,64.9],"n":[0.138,-0.026,0.99],"mesh":true,"both":true},{"id":"median_sacral_v","name":"Median sacral vein","group":"veins","desc":"Runs up the middle of the sacrum to the left common iliac vein.","p":[-1.2,43.8,11.8],"n":[-0.391,0.903,-0.178],"mesh":true,"both":true},{"id":"superior_rectal_v","name":"Superior rectal vein","group":"veins","desc":"Drains the upper anal canal and rectum to the inferior mesenteric vein and so to the portal system. Its anastomoses with the middle and inferior rectal veins are a portocaval anastomosis that opens up when the portal vein is obstructed.","p":[10.1,31.0,-13.6],"n":[0.181,0.847,-0.501],"mesh":true,"both":true},{"id":"common_iliac_v","name":"Common iliac vein","group":"veins","desc":"Formed by the external and internal iliac veins; the two join to form the inferior vena cava.","p":[26.3,76.0,48.7],"n":[0.795,0.303,0.526],"p2":[-24.0,73.5,52.3],"n2":[-0.63,0.108,0.769],"mesh":true,"both":true},{"id":"external_iliac_v","name":"External iliac vein","group":"veins","desc":"Continuation of the femoral vein, medial to the external iliac artery.","p":[51.3,14.2,59.0],"n":[0.469,0.576,0.67],"p2":[-46.3,13.6,67.2],"n2":[-0.518,0.411,0.75],"mesh":true,"both":true},{"id":"inferior_rectal_v","name":"Inferior rectal vein","group":"veins","desc":"Drains the anal canal below the pectinate line to the internal pudendal vein (caval system).","p":[7.4,-112.7,-49.7],"n":[0.237,-0.724,-0.648],"p2":[-18.6,-69.9,-19.0],"n2":[-0.576,-0.7,-0.423],"mesh":true,"both":true},{"id":"internal_pudendal_v","name":"Internal pudendal vein","group":"veins","desc":"Accompanies the internal pudendal artery from the perineum.","p":[56.7,-49.0,-19.8],"n":[0.854,-0.312,-0.416],"p2":[-49.8,-53.1,-19.2],"n2":[-0.764,-0.467,-0.445],"mesh":true,"both":true},{"id":"internal_iliac_v","name":"Internal iliac vein","group":"veins","desc":"Receives the pelvic venous plexuses (rectal, vesical, and prostatic) and drains to the common iliac vein.","p":[42.7,10.3,-17.3],"n":[0.921,0.17,-0.351],"p2":[-36.7,4.4,-13.2],"n2":[-0.923,0.081,-0.377],"mesh":true,"both":true},{"id":"middle_rectal_v","name":"Middle rectal vein","group":"veins","desc":"Drains the rectal plexus to the internal iliac vein (caval system).","p":[25.5,-40.9,-22.0],"n":[0.422,-0.798,-0.43],"p2":[-18.7,-43.2,-24.2],"n2":[-0.299,-0.793,-0.531],"mesh":true,"both":true},{"id":"ivc","name":"Inferior vena cava","group":"veins","desc":"Shown cut. Formed by the common iliac veins.","p":[-9.6,121.0,55.5],"n":[-0.448,0.102,0.888],"mesh":true,"both":true},{"id":"testicular_v","name":"Testicular vein","group":"veins","desc":"Right drains to the inferior vena cava, left to the left renal vein (both above this view).","p":[80.0,55.8,53.0],"n":[0.775,0.149,0.614],"p2":[-72.2,50.8,54.6],"n2":[-0.785,0.133,0.605],"mesh":true,"both":true},{"id":"lateral_sacral_v","name":"Lateral sacral vein","group":"veins","desc":"Connects through the sacral foramina with the internal vertebral venous plexus.","p":[26.8,23.8,-41.5],"n":[0.419,0.205,-0.885],"p2":[-18.5,25.6,-39.3],"n2":[-0.498,0.534,-0.683],"mesh":true,"both":true},{"id":"ext_rectal_plexus","name":"External rectal venous plexus","group":"veins","desc":"Outside the muscular wall of the anal canal. Thrombosis here causes external hemorrhoids.","p":[4.6,-103.1,-42.4],"n":[-0.048,-0.891,-0.451],"mesh":true,"both":true},{"id":"int_rectal_plexus","name":"Internal rectal venous plexus","group":"veins","desc":"Under the mucosa of the anorectal junction. Prolapse of mucosa containing these veins makes internal hemorrhoids, which bleed bright red because of arteriovenous anastomoses.","p":[1.1,-82.1,-26.3],"n":[0.158,-0.907,-0.391],"mesh":true,"both":true},{"id":"vesical_plexus","name":"Vesical venous plexus","group":"veins","desc":"Around the bladder base; drains to the internal iliac veins and can reach the internal vertebral plexus through the sacral veins.","p":[-5.9,-58.4,52.9],"n":[0.0,-0.526,0.851],"mesh":true,"both":true},{"id":"prostatic_plexus","name":"Prostatic venous plexus","group":"veins","desc":"Around the front and sides of the prostate, continuous with the vesical plexus.","p":[0.4,-67.9,18.3],"n":[0.218,-0.945,0.244],"mesh":true,"both":true},{"id":"ganglion_impar","name":"Ganglion impar","group":"nerves","desc":"Where the two sacral sympathetic trunks meet, in front of the coccyx.","p":[6.0,-38.2,-66.6],"n":[-0.0,-0.26,-0.966],"mesh":true,"both":true},{"id":"lumbosacral_trunk","name":"Lumbosacral trunk","group":"nerves","desc":"Part of L4 and all of L5. Crosses the sacral ala into the pelvis to join the sacral plexus.","p":[48.4,50.5,13.2],"n":[0.951,0.099,0.294],"p2":[-27.0,54.9,19.1],"n2":[-0.756,0.21,0.62],"mesh":true,"both":true},{"id":"sacral_rami","name":"Sacral ventral rami","group":"nerves","desc":"S1 to S4 leave the anterior sacral foramina on piriformis and form the sacral plexus with the lumbosacral trunk.","p":[37.7,14.7,-28.1],"n":[0.863,-0.118,-0.49],"p2":[-30.2,16.0,-25.1],"n2":[-0.909,-0.017,-0.417],"mesh":true,"both":true},{"id":"sciatic_n","name":"Sciatic nerve","group":"nerves","desc":"L4 to S3. Leaves below piriformis to supply the lower limb.","p":[89.5,-90.2,-41.6],"n":[0.935,-0.014,-0.355],"p2":[-85.2,-86.7,-38.7],"n2":[-0.951,0.001,-0.309],"mesh":true,"both":true},{"id":"superior_gluteal_n","name":"Superior gluteal nerve","group":"nerves","desc":"L4 to S1. Leaves above piriformis to the gluteal muscles.","p":[67.7,35.1,-32.4],"n":[0.867,0.298,-0.4],"p2":[-62.6,39.2,-24.8],"n2":[-0.825,0.2,-0.528],"mesh":true,"both":true},{"id":"inferior_gluteal_n","name":"Inferior gluteal nerve","group":"nerves","desc":"L5 to S2. Leaves below piriformis to gluteus maximus.","p":[54.8,-28.7,-49.1],"n":[0.765,0.596,-0.246],"p2":[-51.4,-26.9,-44.0],"n2":[-0.848,0.516,-0.122],"mesh":true,"both":true},{"id":"post_femoral_cut_n","name":"Posterior femoral cutaneous nerve","group":"nerves","desc":"S1 to S3. Skin of the posterior thigh.","p":[79.5,-108.2,-46.4],"n":[0.917,-0.105,-0.385],"p2":[-75.6,-104.4,-43.4],"n2":[-0.934,-0.098,-0.343],"mesh":true,"both":true},{"id":"pudendal_n","name":"Pudendal nerve","group":"nerves","desc":"S2 to S4. Leaves below piriformis, crosses behind the ischial spine and sacrospinous ligament, and enters the perineum through the lesser sciatic foramen. A pudendal block numbs the perineum and distal vagina but still lets the patient feel contractions; it can be repeated.","p":[50.6,-42.2,-35.1],"n":[0.561,0.126,-0.818],"p2":[-48.1,-37.1,-31.3],"n2":[-0.662,0.182,-0.727],"mesh":true,"both":true},{"id":"obturator_n","name":"Obturator nerve","group":"nerves","desc":"L2 to L4. Runs along the lateral pelvic wall to the obturator canal and supplies the medial thigh. It lies right beside the ovary and is vulnerable in ovarian surgery or disease.","p":[61.1,1.7,11.8],"n":[0.96,-0.162,0.227],"p2":[-54.3,2.9,16.9],"n2":[-0.959,0.097,0.265],"mesh":true,"both":true},{"id":"sympathetic_trunk","name":"Sacral sympathetic trunk","group":"nerves","desc":"Runs down the sacrum medial to the foramina. Sends small branches to the inferior hypogastric plexus, but mainly provides vasomotor, pilomotor and sudomotor fibers to the lower limb.","p":[22.6,51.7,-14.4],"n":[0.444,0.88,-0.167],"p2":[-5.2,51.0,-24.2],"n2":[-0.281,0.766,-0.579],"mesh":true,"both":true},{"id":"inferior_rectal_n","name":"Inferior rectal nerve","group":"nerves","desc":"Branch of the pudendal. Supplies the external anal sphincter and the somatic lower anal canal, which feels pain.","p":[38.0,-80.6,-25.2],"n":[0.703,-0.599,-0.383],"p2":[-34.1,-79.1,-23.8],"n2":[-0.733,-0.595,-0.331],"mesh":true,"both":true},{"id":"perineal_n","name":"Perineal nerve","group":"nerves","desc":"Branch of the pudendal to the perineal muscles and skin.","p":[32.2,-83.8,19.5],"n":[0.664,-0.7,0.263],"p2":[-30.3,-83.2,20.9],"n2":[-0.588,-0.745,0.316],"mesh":true,"both":true},{"id":"shp","name":"Superior hypogastric plexus","group":"nerves","desc":"Sympathetic plexus at the aortic bifurcation, continuing the inferior mesenteric and intermesenteric plexuses.","p":[6.6,91.0,54.8],"n":[0.032,0.596,0.803],"mesh":true,"both":true},{"id":"ihp","name":"Inferior hypogastric plexus","group":"nerves","desc":"Formed by the hypogastric nerves (sympathetic) and pelvic splanchnic nerves (parasympathetic) beside the rectum. Its vesical and prostatic extensions supply the bladder, ductus, seminal glands and prostate. Sympathetic stimulation closes the internal urethral sphincter, drives peristalsis of the ductus and secretion of the seminal glands and prostate.","p":[31.3,-31.4,-23.0],"n":[0.721,-0.274,-0.637],"p2":[-34.0,-31.9,-13.5],"n2":[-0.95,-0.279,-0.142],"mesh":true,"both":true},{"id":"hypogastric_n","name":"Hypogastric nerve","group":"nerves","desc":"Connects the superior hypogastric plexus to the inferior hypogastric plexus.","p":[22.8,39.1,-32.0],"n":[0.389,0.643,-0.66],"p2":[-24.7,44.6,-27.4],"n2":[-0.616,0.623,-0.482],"mesh":true,"both":true},{"id":"pelvic_splanchnic","name":"Pelvic splanchnic nerves","group":"nerves","desc":"Parasympathetic fibers from S2 to S4 to the inferior hypogastric plexus. Motor to the detrusor and inhibitory to the internal urethral sphincter. Visceral pain from below the pelvic pain line and reflex afferents return along them.","p":[36.2,-1.3,-35.0],"n":[0.37,-0.356,-0.858],"p2":[-34.2,2.6,-29.5],"n2":[-0.782,-0.17,-0.6],"mesh":true,"both":true},{"id":"cavernous_n","name":"Cavernous nerves","group":"nerves","desc":"Parasympathetic fibers from the prostatic plexus to the erectile bodies, causing erection.","p":[7.0,-81.9,17.8],"n":[0.604,-0.79,-0.103],"p2":[-7.2,-81.2,16.7],"n2":[-0.603,-0.794,0.072],"mesh":true,"both":true},{"id":"lumbar_nodes","name":"Lumbar (aortic) nodes","group":"lymph","desc":"Receive the gonads: ovaries and distal uterine tubes, or testes.","p":[18.2,158.4,61.3],"n":[0.146,0.769,0.623],"mesh":true,"both":true},{"id":"common_iliac_nodes","name":"Common iliac nodes","group":"lymph","desc":"Receive the external and internal iliac groups and drain to the lumbar nodes.","p":[36.2,79.5,50.0],"n":[0.697,0.457,0.552],"p2":[-21.0,75.8,54.2],"n2":[-0.489,0.372,0.788],"mesh":true,"both":true},{"id":"external_iliac_nodes","name":"External iliac nodes","group":"lymph","desc":"Receive the bladder, along with the internal iliac nodes.","p":[64.1,-11.3,57.8],"n":[0.743,-0.029,0.669],"p2":[-58.0,-10.6,61.3],"n2":[-0.839,-0.086,0.538],"mesh":true,"both":true},{"id":"internal_iliac_nodes","name":"Internal iliac nodes","group":"lymph","desc":"Receive the distal rectum, upper anal canal, bladder, prostate, seminal glands, ductus and epididymis.","p":[51.4,18.6,12.3],"n":[0.985,0.111,0.134],"p2":[-44.5,20.9,19.5],"n2":[-0.884,0.185,0.429],"mesh":true,"both":true},{"id":"superficial_inguinal_nodes","name":"Superficial inguinal nodes","group":"lymph","desc":"Below the inguinal ligament. Receive the anal canal below the pectinate line and the distal urethra.","p":[70.8,-37.6,92.5],"n":[0.334,-0.334,0.881],"p2":[-63.1,-38.8,92.9],"n2":[-0.492,-0.393,0.776],"mesh":true,"both":true},{"id":"deep_inguinal_nodes","name":"Deep inguinal nodes","group":"lymph","desc":"Medial to the femoral vein. Receive the external genitalia with the superficial nodes.","p":[51.4,-43.5,79.4],"n":[0.303,-0.677,0.671],"p2":[-41.7,-54.0,75.4],"n2":[-0.551,-0.374,0.746],"mesh":true,"both":true},{"id":"sacral_nodes","name":"Sacral nodes","group":"lymph","desc":"Receive the proximal rectum.","p":[0.8,14.6,-43.6],"n":[0.071,0.208,-0.976],"mesh":true,"both":true},{"id":"pararectal_nodes","name":"Pararectal nodes","group":"lymph","desc":"Beside the rectum; receive the proximal rectum.","p":[-13.6,-5.5,-34.2],"n":[0.184,-0.178,-0.967],"mesh":true,"both":true},{"id":"piriformis","name":"Piriformis","group":"muscles","desc":"Fills the greater sciatic foramen; the sacral plexus lies on its front.","p":[81.7,-13.2,-14.9],"n":[-0.164,0.305,0.938],"p2":[-82.0,-8.3,-8.4],"n2":[0.128,0.215,0.968],"mesh":true,"both":true},{"id":"obturator_internus","name":"Obturator internus","group":"muscles","desc":"Lines the lateral pelvic wall. The pudendal canal runs in its fascia.","p":[45.3,-58.2,5.6],"n":[-0.905,0.426,-0.011],"p2":[-43.4,-53.4,4.9],"n2":[0.94,0.341,-0.028],"mesh":true,"both":true},{"id":"levator_ani","name":"Levator ani","group":"muscles","desc":"Pubococcygeus, puborectalis and iliococcygeus. With coccygeus it forms the pelvic diaphragm, whose tonic contraction is the active support of the pelvic organs.","p":[30.0,-57.8,-19.3],"n":[0.435,0.9,0.038],"p2":[-24.9,-53.9,-28.1],"n2":[-0.234,0.948,0.214],"mesh":true,"both":true},{"id":"puborectalis","name":"Puborectalis","group":"muscles","desc":"Sling behind the anorectal junction that keeps the anorectal flexure.","p":[27.7,-66.7,-6.3],"n":[0.397,0.88,-0.26],"p2":[-25.7,-65.7,-4.3],"n2":[-0.52,0.81,-0.272],"mesh":true,"both":true},{"id":"coccygeus","name":"Coccygeus","group":"muscles","desc":"Back part of the pelvic diaphragm, on the sacrospinous ligament.","p":[22.0,-17.2,-60.6],"n":[0.24,0.862,-0.446],"p2":[-22.9,-24.3,-56.8],"n2":[-0.631,0.575,-0.521],"mesh":true,"both":true},{"id":"promontory","name":"Sacral promontory","group":"bones","desc":"Anterior lip of the S1 body. The aorta bifurcates above it and the superior hypogastric plexus lies in front of it.","p":[12.4,55.7,33.8],"n":[0.0,0.447,0.894]},{"id":"ant_sacral_foramina","name":"Anterior sacral foramina","group":"bones","desc":"The ventral rami of S1 to S4 leave through these. Lateral sacral veins here connect to the internal vertebral venous plexus, a route for prostatic or ovarian cancer to reach the vertebrae and skull.","p":[23.5,31.1,-39.7],"n":[0.192,0.192,0.962],"p2":[-14.9,31.9,-37.3],"n2":[-0.192,0.192,0.962],"free":true},{"id":"ischial_spine","name":"Ischial spine","group":"bones","desc":"The pudendal nerve crosses just medial and posterior to it, so it is the landmark for a pudendal nerve block.","p":[50.2,-39.3,-28.9],"n":[-0.768,0.512,0.384],"p2":[-48.9,-37.0,-24.8],"n2":[0.768,0.512,0.384]},{"id":"pubic_symphysis","name":"Pubic symphysis","group":"bones","desc":"The empty bladder sits superoposterior to the pubic bones, with the retropubic space between them.","p":[3.0,-62.6,77.5],"n":[0.0,0.1,0.995]},{"id":"coccyx","name":"Coccyx","group":"bones","desc":"Palpable on rectal examination along with the lower sacrum.","p":[2.8,-45.5,-71.5],"n":[0.0,-0.287,-0.958]},{"id":"gsf","name":"Greater sciatic foramen","group":"bones","desc":"Piriformis fills it. The superior gluteal vessels and nerve pass above piriformis; the sciatic, inferior gluteal, posterior femoral cutaneous and pudendal nerves and the internal pudendal and inferior gluteal vessels pass below it.","p":[54.3,-10.8,-24.8],"n":[0.196,0.0,-0.981],"p2":[-49.9,-9.0,-19.1],"n2":[-0.196,0.0,-0.981],"free":true,"both":true},{"id":"lsf","name":"Lesser sciatic foramen","group":"bones","desc":"The pudendal nerve and internal pudendal vessels re-enter here to reach the perineum through the pudendal canal.","p":[56.8,-53.9,-30.5],"n":[0.276,-0.276,-0.921],"p2":[-55.5,-50.3,-25.3],"n2":[-0.276,-0.276,-0.921],"free":true,"both":true},{"id":"obturator_canal","name":"Obturator canal","group":"bones","desc":"The obturator nerve and vessels leave the pelvis here for the medial thigh.","p":[45.4,-51.8,43.3],"n":[-0.707,0.0,0.707],"p2":[-40.6,-49.9,44.8],"n2":[0.707,0.0,0.707],"free":true,"both":true},{"id":"ureter_brim","name":"Ureter at the pelvic brim","group":"urinary","desc":"One of three narrow points where stones lodge: the ureteropelvic junction, the crossing of the pelvic brim and the passage through the bladder wall. In the female the ovarian vessels lie right beside it here, so the ureter is at risk when they are ligated.","p":[41.3,32.6,30.3],"n":[0.7,0.388,0.6],"p2":[-28.8,32.0,30.7],"n2":[-0.693,0.382,0.612],"mesh":false},{"id":"ureter_intramural","name":"Intramural ureter","group":"urinary","desc":"Runs obliquely through the bladder wall, which acts as a valve against reflux of urine. The third narrow point for stones.","p":[23.2,-37.2,19.9],"n":[0.512,0.384,-0.768],"p2":[-29.2,-29.8,18.5],"n2":[-0.512,0.384,-0.768],"both":true,"free":true},{"id":"bladder_apex","name":"Apex of bladder","group":"urinary","desc":"Points toward the top of the pubic symphysis. The median umbilical ligament (urachus) runs from it to the umbilicus.","p":[-8.9,-32.6,86.6],"n":[0.0,0.514,0.857]},{"id":"internal_urethral_orifice","name":"Internal urethral orifice","group":"urinary","desc":"Opening of the urethra at the lowest point of the trigone.","p":[-3.0,-59.8,27.4],"n":[0.384,0.768,0.512],"free":true,"both":true},{"id":"uvula","name":"Uvula of bladder","group":"urinary","desc":"Small elevation of the trigone just behind the internal urethral orifice, raised by the middle lobe of the prostate in males.","p":[-4.0,-55.8,25.4],"n":[0.236,0.943,-0.236],"free":true,"both":true},{"id":"retropubic_space","name":"Retropubic space","group":"urinary","desc":"Fat-filled space of Retzius between the pubic bones and the bladder, which lets the filling bladder expand upward.","p":[2.7,-49.2,75.8],"n":[0.333,0.667,0.667],"free":true,"both":true},{"id":"intramural_urethra","name":"Intramural (preprostatic) urethra","group":"urinary","desc":"First part of the male urethra, within the bladder neck.","p":[-0.6,-60.9,29.5],"n":[0.688,0.229,0.688],"free":true,"both":true},{"id":"rectosigmoid","name":"Rectosigmoid junction","group":"gi","desc":"Where the sigmoid colon becomes the rectum, at about the level of S3.","p":[-4.6,36.5,10.4],"n":[0.287,0.575,0.766],"free":true},{"id":"sacral_flexure","name":"Sacral flexure","group":"gi","desc":"The rectum follows the concavity of the sacrum and coccyx.","p":[-1.9,-11.4,-52.6],"n":[0.286,0.095,-0.953]},{"id":"ampulla","name":"Ampulla of rectum","group":"gi","desc":"Dilated distal part that holds feces until defecation.","p":[-8.3,-43.5,-13.6],"n":[0.282,-0.188,0.941]},{"id":"transverse_folds","name":"Transverse rectal folds","group":"gi","desc":"Three shelves inside the rectum that match its lateral flexures: superior and inferior on the left, intermediate on the right.","p":[2.7,-4.8,-15.0],"n":[0.962,0.192,0.192],"free":true,"both":true},{"id":"anorectal_flexure","name":"Anorectal flexure","group":"gi","desc":"About 80 degree bend held by the puborectalis sling. Important for fecal continence.","p":[1.3,-69.5,-31.2],"n":[0.188,-0.282,-0.941]},{"id":"anus","name":"Anus","group":"gi","desc":"External opening of the anal canal.","p":[1.3,-112.4,-41.2],"n":[0.0,-0.902,-0.431],"free":true},{"id":"rectovesical_pouch","name":"Rectovesical pouch","group":"ligaments","desc":"Peritoneal recess between the bladder and the rectum, the lowest point of the peritoneal cavity in the male.","p":[0.4,-31.9,-8.3],"n":[0.958,0.287,0.0],"free":true,"both":true},{"id":"ampulla_ductus","name":"Ampulla of ductus deferens","group":"repro","desc":"Dilated end behind the bladder that joins the duct of the seminal gland.","p":[5.8,-33.4,1.4],"n":[0.365,-0.183,-0.913],"p2":[-1.3,-35.5,7.4],"n2":[-0.365,-0.183,-0.913],"both":true},{"id":"pain_line","name":"Pelvic pain line","group":"ligaments","desc":"The inferior limit of the peritoneum. Visceral pain from above it travels with sympathetic fibers to the lower thoracic and upper lumbar ganglia; pain from below it travels with the pelvic splanchnic nerves to S2 to S4.","p":[0.4,-35.9,-8.3],"n":[0.981,-0.196,0.0],"free":true,"both":true},{"id":"pararectal_fossa","name":"Pararectal fossa","group":"ligaments","desc":"Peritoneal recess on each side of the rectum.","p":[31.9,5.3,-15.3],"n":[0.894,0.447,0.0],"p2":[-36.7,18.7,16.6],"n2":[-0.894,0.447,0.0],"free":true,"both":true}],"mid":6.0} };
+
+const stage = document.getElementById('stage');
+const labelsEl = document.getElementById('labels');
+const leaders = document.getElementById('leaders');
+const indexEl = document.getElementById('index');
+const SVGNS = 'http://www.w3.org/2000/svg';
+
+const state = {
+  sex: 'f',
+  view: 'anterior',
+  showLabels: true,
+  quiz: false,
+  selected: null,
+  groupOn: Object.fromEntries(GROUPS.map(g => [g.id, g.defaultOn !== false])),
+  revealed: new Set(),
+  cut: false,
+};
+let LANDMARKS = [];
+let PARTS = [];
+let MID = 0;
+const groupColor = g => typeof g.color === 'string' ? g.color : g.color[state.sex];
+
+// ---------- three.js scene ----------
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+stage.prepend(renderer.domElement);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(30, 1, 10, 5000);
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.dampingFactor = 0.12;
+controls.minDistance = 120;
+controls.maxDistance = 1400;
+const cutPlane = new THREE.Plane(new THREE.Vector3(-1, 0, 0), 0);
+
+// Lights ride with the camera so the shading reads the same from every side.
+scene.add(new THREE.HemisphereLight(0xfffaf0, 0x2e2a26, 0.36));
+const lightTarget = new THREE.Object3D();
+camera.add(lightTarget);
+lightTarget.position.set(0, 0, -1);
+const key = new THREE.DirectionalLight(0xffffff, 0.62);
+camera.add(key);
+key.position.set(-0.9, 1.1, 0.2);
+key.target = lightTarget;
+const fill = new THREE.DirectionalLight(0xdfe8ff, 0.24);
+camera.add(fill);
+fill.position.set(1.0, -0.4, 0.1);
+fill.target = lightTarget;
+scene.add(camera);
+
+function readVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+function applyTheme() { renderer.setClearColor(new THREE.Color(readVar('--stage') || '#dfe4e2')); highlight(); requestRender(); }
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
+new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+let parts3d = [];      // { info, mesh, proxy }
+const meshCache = {};  // sex -> parsed parts
+
+function parseBin(buf) {
+  const parts = [];
+  const dv = new DataView(buf);
+  let off = 0;
+  const count = dv.getUint32(off, true); off += 4;
+  for (let p = 0; p < count; p++) {
+    const nv = dv.getUint32(off, true), nt = dv.getUint32(off + 4, true); off += 8;
+    const q = new Int16Array(buf, off, nv * 3); off += Math.ceil(nv * 6 / 4) * 4;
+    const pos = new Float32Array(nv * 3);
+    for (let i = 0; i < q.length; i++) pos[i] = q[i] / 20;
+    let idx;
+    if (nv < 65536) { idx = new Uint16Array(buf, off, nt * 3); off += Math.ceil(nt * 6 / 4) * 4; }
+    else { idx = new Uint32Array(buf, off, nt * 3); off += nt * 12; }
+    parts.push({ pos, idx });
+  }
+  return parts;
+}
+
+function loadMesh(sex) {
+  if (meshCache[sex]) return Promise.resolve(meshCache[sex]);
+  return fetch('viscera-' + sex + '.txt').then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.text();
+  }).then(b64 => {
+    const bin = atob(b64.trim());
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return (meshCache[sex] = parseBin(bytes.buffer));
+  });
+}
+
+function clearScene() {
+  parts3d.forEach(p => { scene.remove(p.mesh); p.mesh.geometry.dispose(); p.mesh.material.dispose(); if (p.proxy) p.proxy.geometry.dispose(); });
+  parts3d = [];
+  requestRender();
+}
+
+function buildScene(parts) {
+  clearScene();
+  const proxyMat = new THREE.MeshBasicMaterial({ side: THREE.DoubleSide });
+  const n = PARTS.length;
+  parts.forEach((p, i) => {
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(p.pos, 3));
+    g.setIndex(new THREE.BufferAttribute(p.idx, 1));
+    g.computeVertexNormals();
+    g.computeBoundingSphere();
+    if (i >= n) {
+      const pm = new THREE.Mesh(g, proxyMat);
+      pm.updateMatrixWorld();
+      pm.userData = { id: PARTS[i - n].id, group: PARTS[i - n].group, opacity: PARTS[i - n].opacity };
+      parts3d[i - n].proxy = pm;
+      return;
+    }
+    const info = PARTS[i];
+    const sheet = info.opacity < 1;
+    const mat = new THREE.MeshStandardMaterial({
+      color: new THREE.Color(info.color), roughness: info.group === 'bones' ? 0.8 : 0.55, metalness: 0,
+      side: THREE.DoubleSide, transparent: sheet, opacity: info.opacity, depthWrite: !sheet,
+    });
+    const m = new THREE.Mesh(g, mat);
+    m.userData.base = new THREE.Color(info.color);
+    if (sheet) m.renderOrder = 5;
+    scene.add(m);
+    parts3d.push({ info, mesh: m, proxy: null });
+  });
+}
+
+// ---------- landmarks ----------
+let groupById = {};
+function buildLabels() {
+  labelsEl.innerHTML = '';
+  leaders.innerHTML = '';
+  LANDMARKS.forEach((lm, i) => {
+    lm.num = i + 1;
+    lm.copies = [{ p: new THREE.Vector3(...lm.p), n: new THREE.Vector3(...lm.n).normalize() }];
+    if (lm.p2) lm.copies.push({ p: new THREE.Vector3(...lm.p2), n: new THREE.Vector3(...lm.n2).normalize() });
+    const el = document.createElement('div');
+    el.className = 'lbl hide';
+    el.innerHTML = '<span class="n"></span><span class="t"></span>';
+    el.querySelector('.n').textContent = lm.num;
+    el.addEventListener('click', e => { e.stopPropagation(); select(lm, false); });
+    labelsEl.appendChild(el);
+    lm.el = el;
+    const line = document.createElementNS(SVGNS, 'line');
+    line.setAttribute('stroke', 'var(--leader)');
+    line.setAttribute('stroke-width', '1');
+    const dot = document.createElementNS(SVGNS, 'circle');
+    dot.setAttribute('r', '2.6');
+    dot.setAttribute('fill', 'var(--leader)');
+    leaders.append(line, dot);
+    lm.line = line; lm.dot = dot;
+    lm.vis = false; lm.side = 0;
+  });
+}
+
+function labelText(lm) {
+  if (state.quiz && !state.revealed.has(lm.id) && state.selected !== lm) return '?';
+  return lm.name;
+}
+
+// ---------- index ----------
+function buildIndex() {
+  indexEl.innerHTML = '';
+  GROUPS.forEach(g => {
+    const items = LANDMARKS.filter(l => l.group === g.id);
+    if (!items.length) return;
+    const sec = document.createElement('section');
+    sec.className = 'group';
+    const row = document.createElement('div');
+    row.className = 'group-row';
+    const sw = document.createElement('span');
+    sw.className = 'swatch';
+    sw.style.background = groupColor(g);
+    const nm = document.createElement('span');
+    nm.className = 'group-name';
+    nm.textContent = g.name;
+    const tg = document.createElement('button');
+    tg.className = 'toggle';
+    tg.setAttribute('aria-pressed', String(state.groupOn[g.id]));
+    tg.textContent = state.groupOn[g.id] ? 'Shown' : 'Hidden';
+    tg.addEventListener('click', () => {
+      state.groupOn[g.id] = !state.groupOn[g.id];
+      if (!state.groupOn[g.id] && state.selected && state.selected.group === g.id) deselect();
+      buildIndex();
+      applyPartVisibility();
+      scheduleVis();
+    });
+    row.append(sw, nm, tg);
+    const ul = document.createElement('ul');
+    ul.className = 'items' + (state.groupOn[g.id] ? '' : ' off');
+    items.forEach(lm => {
+      const li = document.createElement('li');
+      const b = document.createElement('button');
+      b.className = (state.selected === lm ? 'sel ' : '') + (state.revealed.has(lm.id) ? 'revealed' : '');
+      b.innerHTML = '<span class="num"></span><span class="nm"></span>';
+      b.querySelector('.num').textContent = lm.num;
+      b.querySelector('.nm').textContent = lm.name;
+      b.addEventListener('click', () => select(lm, true));
+      li.appendChild(b);
+      ul.appendChild(li);
+    });
+    sec.append(row, ul);
+    indexEl.appendChild(sec);
+  });
+  document.getElementById('app').classList.toggle('quiz-hidden', state.quiz);
+}
+
+function select(lm, fly) {
+  if (state.quiz && !state.revealed.has(lm.id)) state.revealed.add(lm.id);
+  state.selected = lm;
+  if (!state.groupOn[lm.group]) { state.groupOn[lm.group] = true; applyPartVisibility(); }
+  const card = document.getElementById('card');
+  card.hidden = false;
+  document.getElementById('card-bone').textContent = groupById[lm.group].name;
+  document.getElementById('card-name').textContent = lm.name;
+  document.getElementById('card-desc').textContent = lm.desc;
+  buildIndex();
+  if (fly) flyTo(lm);
+  highlight();
+  scheduleVis();
+}
+
+function deselect() {
+  state.selected = null;
+  document.getElementById('card').hidden = true;
+  highlight();
+}
+
+stage.addEventListener('pointerdown', e => { stage._down = [e.clientX, e.clientY]; });
+stage.addEventListener('click', e => {
+  if (e.target.closest('.lbl, .seg, .card')) return;
+  const d = stage._down;
+  if (d && Math.hypot(e.clientX - d[0], e.clientY - d[1]) > 4) return;
+  deselect();
+  buildIndex();
+  scheduleVis();
+});
+
+// ---------- views ----------
+const VIEWS = {
+  anterior: [0, 0.1, 1],
+  posterior: [0, 0.1, -1],
+  superior: [0, 1, 0.6],
+  inferior: [0, -1, 0.3],
+  left: [1, 0.06, 0.04],
+  right: [-1, 0.06, 0.04],
+  sagittal: [1, 0.06, 0.0],
+};
+const DIST = 640;
+function fitDist(d) { return d / Math.min(1, camera.aspect * 0.95); }
+let anim = null;
+
+function viewTarget() { return new THREE.Vector3(MID, -12, 8); }
+
+function setView(name, instant) {
+  state.view = name;
+  document.querySelectorAll('#views button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.view === name)));
+  const dir = new THREE.Vector3(...VIEWS[name]).normalize();
+  const target = viewTarget();
+  animateTo(target, target.clone().addScaledVector(dir, fitDist(name === 'sagittal' ? 520 : DIST)), instant);
+  setCut(name === 'sagittal');
+}
+
+function setCut(on) {
+  state.cut = on;
+  cutPlane.constant = MID;
+  renderer.clippingPlanes = on ? [cutPlane] : [];
+  applyPartVisibility();
+  scheduleVis();
+}
+
+function partVisible(info) {
+  return !!state.groupOn[info.group];
+}
+
+function applyPartVisibility() {
+  parts3d.forEach(p => { p.mesh.visible = partVisible(p.info); });
+  requestRender();
+}
+
+function highlight() {
+  const accent = new THREE.Color(readVar('--accent'));
+  parts3d.forEach(p => {
+    const on = state.selected && state.selected.id === p.info.id;
+    p.mesh.material.color.copy(on ? accent : p.mesh.userData.base);
+    p.mesh.material.emissive.copy(on ? accent : new THREE.Color(0));
+    p.mesh.material.emissiveIntensity = 0.3;
+  });
+  requestRender();
+}
+
+function flyTo(lm) {
+  // Choose the copy (left or right) nearest the current camera; in the cut view, the right copy.
+  let best = lm.copies[0];
+  if (lm.copies.length > 1) {
+    const c = camera.position;
+    if (state.cut) best = lm.copies[1];
+    else if (lm.copies[1].p.distanceTo(c) < best.p.distanceTo(c)) best = lm.copies[1];
+  }
+  if (state.cut && best.p.x > MID + 1) setView('anterior', true);
+  const dir = best.n.clone();
+  if (state.cut) { dir.x = Math.abs(dir.x) + 0.6; }
+  dir.normalize();
+  const target = viewTarget().lerp(best.p, 0.5);
+  document.querySelectorAll('#views button').forEach(b => b.setAttribute('aria-pressed', String(state.cut && b.dataset.view === 'sagittal')));
+  animateTo(target, target.clone().addScaledVector(dir, fitDist(520)), false);
+}
+
+function animateTo(target, pos, instant) {
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (instant || reduce) {
+    controls.target.copy(target);
+    camera.position.copy(pos);
+    camera.up.set(0, 1, 0);
+    controls.update();
+    scheduleVis(); requestRender();
+    return;
+  }
+  anim = { t0: performance.now(), dur: 650, fromT: controls.target.clone(), toT: target, fromP: camera.position.clone(), toP: pos };
+  requestRender();
+}
+
+document.getElementById('views').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (b) setView(b.dataset.view, false);
+});
+
+function pressed(id, v) { document.getElementById(id).setAttribute('aria-pressed', String(v)); }
+document.getElementById('t-labels').addEventListener('click', () => {
+  state.showLabels = !state.showLabels;
+  pressed('t-labels', state.showLabels);
+  scheduleVis();
+});
+document.getElementById('t-quiz').addEventListener('click', () => {
+  state.quiz = !state.quiz;
+  state.revealed.clear();
+  pressed('t-quiz', state.quiz);
+  if (state.quiz) deselect();
+  buildIndex();
+  scheduleVis();
+});
+
+// ---------- sex switch ----------
+let loadToken = 0;
+function setSex(sex, first) {
+  state.sex = sex;
+  document.querySelectorAll('#sex button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.sex === sex)));
+  const d = DATA[sex];
+  PARTS = d.parts; MID = d.mid;
+  const sel = state.selected && state.selected.id;
+  LANDMARKS = d.landmarks.map(l => Object.assign({}, l));
+  state.selected = null;
+  state.revealed.clear();
+  document.getElementById('card').hidden = true;
+  buildLabels();
+  buildIndex();
+  clearScene();
+  const token = ++loadToken;
+  const loading = document.getElementById('loading');
+  if (!meshCache[sex]) { loading.hidden = false; loading.textContent = 'Loading specimen'; }
+  loadMesh(sex).then(parts => {
+    if (token !== loadToken) return;
+    buildScene(parts);
+    applyPartVisibility();
+    loading.hidden = true;
+    setView(state.view, true);
+    const again = sel && LANDMARKS.find(l => l.id === sel);
+    if (again) select(again, false); else highlight();
+    requestRender();
+  }).catch(err => {
+    loading.hidden = false;
+    loading.textContent = 'The specimen did not load (' + err.message + '). Reload the page to try again.';
+  });
+}
+document.getElementById('sex').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (b && b.dataset.sex !== state.sex) setSex(b.dataset.sex, false);
+});
+
+// ---------- visibility (occlusion) ----------
+const ray = new THREE.Raycaster();
+let visTimer = 0;
+function scheduleVis() { visTimer = 0; requestRender(); }
+
+function computeVisibility() {
+  if (!parts3d.length || !parts3d[0].proxy) return;
+  const cam = camera.position;
+  const occluders = parts3d.filter(p => p.mesh.visible && p.proxy && p.info.opacity >= 1).map(p => p.proxy);
+  LANDMARKS.forEach(lm => {
+    lm.vis = false;
+    if (!state.showLabels || !state.groupOn[lm.group]) return;
+    let best = -1, bestScore = -Infinity;
+    lm.copies.forEach((c, i) => {
+      if (state.cut && c.p.x > MID + 1) return;
+      const toCam = cam.clone().sub(c.p);
+      const dist = toCam.length();
+      toCam.divideScalar(dist);
+      const facing = lm.both ? Math.abs(c.n.dot(toCam)) : c.n.dot(toCam);
+      if (facing < (lm.free || lm.both ? -1 : -0.15)) return;
+      // Ignore the structure's own surface right at the anchor; anything else in the way hides the label.
+      ray.set(c.p.clone().addScaledVector(toCam, 0.4), toCam);
+      ray.far = dist;
+      const hits = ray.intersectObjects(occluders, false);
+      const blocked = hits.some(h => !(h.object.userData.id === lm.id && h.distance < 5) && !(state.cut && h.point.x > MID + 0.5));
+      if (blocked) return;
+      const score = facing - dist * 0.001;
+      if (score > bestScore) { bestScore = score; best = i; }
+    });
+    if (best >= 0) { lm.vis = true; lm.side = best; }
+  });
+  const s = state.selected;
+  if (s && state.groupOn[s.group] && state.showLabels && !s.vis) {
+    // Keep the selected structure labeled even when it is hidden behind something.
+    s.vis = true;
+    const cp = camera.position;
+    s.side = s.copies.length > 1 && (state.cut || s.copies[1].p.distanceTo(cp) < s.copies[0].p.distanceTo(cp)) ? 1 : 0;
+    s.ghost = true;
+  } else if (s) s.ghost = false;
+}
+
+// ---------- label layout ----------
+const tmp = new THREE.Vector3();
+function layoutLabels() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  const cs = tmp.copy(controls.target).project(camera);
+  const cx = (cs.x + 1) / 2 * w, cy = (1 - cs.y) / 2 * h;
+  const items = [];
+  LANDMARKS.forEach(lm => {
+    const el = lm.el;
+    const txt = labelText(lm);
+    const t = el.querySelector('.t');
+    if (t.textContent !== txt) t.textContent = txt;
+    el.classList.toggle('sel', state.selected === lm);
+    if (!lm.vis) { el.classList.add('hide'); lm.line.style.display = 'none'; lm.dot.style.display = 'none'; return; }
+    const c = lm.copies[lm.side];
+    const s = tmp.copy(c.p).project(camera);
+    if (s.z > 1) { el.classList.add('hide'); lm.line.style.display = 'none'; lm.dot.style.display = 'none'; return; }
+    const ax = (s.x + 1) / 2 * w, ay = (1 - s.y) / 2 * h;
+    let dx = ax - cx, dy = ay - cy;
+    const len = Math.hypot(dx, dy) || 1;
+    dx /= len; dy /= len;
+    const reach = w < 600 ? 26 : 44;
+    const right = dx >= 0;
+    if (!lm.size || lm.sizeTxt !== txt) { lm.size = [el.offsetWidth, el.offsetHeight]; lm.sizeTxt = txt; }
+    items.push({ lm, ax, ay, right, lx: ax + dx * reach, ly: ay + dy * reach * 0.8, wdt: lm.size[0], hgt: lm.size[1] });
+  });
+  // Push overlapping labels apart vertically.
+  const box = i => [i.right ? i.lx : i.lx - i.wdt, i.ly - i.hgt / 2];
+  for (let iter = 0; iter < 30; iter++) {
+    let moved = false;
+    for (let a = 0; a < items.length; a++) {
+      for (let b = a + 1; b < items.length; b++) {
+        const A = items[a], B = items[b];
+        const [ax0] = box(A), [bx0] = box(B);
+        if (ax0 >= bx0 + B.wdt + 4 || bx0 >= ax0 + A.wdt + 4) continue;
+        const need = (A.hgt + B.hgt) / 2 + 3;
+        const gap = B.ly - A.ly;
+        if (Math.abs(gap) >= need) continue;
+        const push = (need - Math.abs(gap)) / 2 + 0.5;
+        const dir = gap > 0 || (gap === 0 && b > a) ? 1 : -1;
+        A.ly -= push * dir; B.ly += push * dir;
+        moved = true;
+      }
+    }
+    if (!moved) break;
+  }
+  items.forEach(i => {
+    const x = Math.max(6, Math.min(w - i.wdt - 6, i.right ? i.lx : i.lx - i.wdt));
+    const y = Math.max(4, Math.min(h - i.hgt - 4, i.ly - i.hgt / 2));
+    i.lm.el.style.transform = `translate(${Math.round(x)}px, ${Math.round(y)}px)`;
+    i.lm.el.classList.remove('hide');
+    i.lm.el.style.opacity = i.lm.ghost ? '0.85' : '';
+    const L = i.lm.line, D = i.lm.dot;
+    L.style.display = ''; D.style.display = '';
+    L.setAttribute('x1', i.ax); L.setAttribute('y1', i.ay);
+    L.setAttribute('x2', i.ax > x + i.wdt / 2 ? x + i.wdt : x); L.setAttribute('y2', y + i.hgt / 2);
+    D.setAttribute('cx', i.ax); D.setAttribute('cy', i.ay);
+    const selCol = state.selected === i.lm ? 'var(--accent)' : 'var(--leader)';
+    L.setAttribute('stroke', selCol); D.setAttribute('fill', selCol);
+    L.setAttribute('stroke-dasharray', i.lm.ghost ? '3 3' : '');
+  });
+}
+
+// ---------- render loop ----------
+let needsRender = true;
+function requestRender() { needsRender = true; }
+controls.addEventListener('change', () => { requestRender(); visTimer = Math.min(visTimer, 90); });
+controls.addEventListener('end', scheduleVis);
+
+function resize() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  renderer.setSize(w, h, false);
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+  leaders.setAttribute('viewBox', `0 0 ${w} ${h}`);
+  requestRender();
+}
+new ResizeObserver(resize).observe(stage);
+
+let last = performance.now();
+function tick(now) {
+  const dt = now - last; last = now;
+  if (anim) {
+    const k = Math.min(1, (now - anim.t0) / anim.dur);
+    const e = k < 0.5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2;
+    controls.target.lerpVectors(anim.fromT, anim.toT, e);
+    camera.position.lerpVectors(anim.fromP, anim.toP, e);
+    if (k >= 1) { anim = null; scheduleVis(); }
+    needsRender = true;
+  }
+  const changed = controls.update();
+  if (changed) needsRender = true;
+  else if (tick.moving) { visTimer = 0; needsRender = true; }
+  tick.moving = changed || !!anim;
+  if (needsRender) {
+    visTimer -= dt;
+    if (visTimer <= 0) { computeVisibility(); visTimer = 120; }
+    renderer.render(scene, camera);
+    layoutLabels();
+    needsRender = false;
+  }
+  requestAnimationFrame(tick);
+}
+
+groupById = Object.fromEntries(GROUPS.map(g => [g.id, g]));
+resize();
+applyTheme();
+setSex('f', true);
+requestAnimationFrame(tick);
+</script>
+
+</body>
+</html>
