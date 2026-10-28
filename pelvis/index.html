@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<link rel="icon" type="image/x-icon" href="../static/assets/favicon.ico">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px/1.4 -apple-system,system-ui,sans-serif}img{max-width:100%}</style>
+<title>Bony Pelvis Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap">
+<style>
+/* Layout: specimen viewer fills the stage; a quiet index of structures sits beside it (below it on phones). */
+:root {
+  --bg: #e7ebe9;
+  --panel: #f5f7f6;
+  --ink: #1b2321;
+  --muted: #5a6864;
+  --line: #c6cfcb;
+  --accent: #23617f;
+  --accent-ink: #ffffff;
+  --label-bg: rgba(250, 252, 251, 0.92);
+  --label-ink: #1b2321;
+  --leader: rgba(27, 35, 33, 0.55);
+  --off: #9aa3a0;
+  --stage: #dfe4e2;
+  --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --f-body: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+  --f-label: "IBM Plex Sans Condensed", "Arial Narrow", -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111615; --panel: #171d1c; --ink: #e2e8e5; --muted: #8f9d99; --line: #2a3432;
+    --accent: #79b3cf; --accent-ink: #0c1416; --label-bg: rgba(20, 27, 26, 0.9); --label-ink: #e8eeeb;
+    --leader: rgba(226, 232, 229, 0.5); --off: #4a5451; --stage: #0d1211; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111615; --panel: #171d1c; --ink: #e2e8e5; --muted: #8f9d99; --line: #2a3432;
+  --accent: #79b3cf; --accent-ink: #0c1416; --label-bg: rgba(20, 27, 26, 0.9); --label-ink: #e8eeeb;
+  --leader: rgba(226, 232, 229, 0.5); --off: #4a5451; --stage: #0d1211; color-scheme: dark;
+}
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+button { font: inherit; color: inherit; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 0;
+}
+aside {
+  background: var(--panel);
+  border-right: 1px solid var(--line);
+  display: flex; flex-direction: column; min-height: 0; min-width: 0;
+}
+.head { padding: 20px 20px 14px; display: grid; gap: 4px; border-bottom: 1px solid var(--line); }
+.head h1 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: 26px; letter-spacing: -0.01em; text-wrap: balance; }
+.head p { margin: 0; color: var(--muted); font-size: 12.5px; }
+
+.index { overflow-y: auto; flex: 1; min-height: 0; padding: 8px 0 16px; }
+.group { padding: 10px 20px 4px; }
+.group-row { display: flex; align-items: center; gap: 10px; }
+.swatch { width: 12px; height: 12px; border-radius: 3px; flex: none; border: 1px solid rgba(0,0,0,0.15); }
+.group-name { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; color: var(--muted); flex: 1; }
+.toggle {
+  border: 1px solid var(--line); background: transparent; border-radius: 999px;
+  font-size: 11px; padding: 2px 9px; cursor: pointer; color: var(--muted);
+}
+.toggle[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.items { list-style: none; margin: 6px 0 0; padding: 0; display: grid; }
+.items button {
+  width: 100%; text-align: left; background: none; border: 0; padding: 5px 8px; margin-left: -8px;
+  border-radius: 6px; cursor: pointer; font-size: 13.5px; display: flex; gap: 8px; align-items: baseline;
+}
+.items button:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.items button.sel { background: var(--accent); color: var(--accent-ink); }
+.items .num { font-family: var(--f-label); font-size: 11.5px; color: var(--muted); min-width: 20px; font-variant-numeric: tabular-nums; }
+.items button.sel .num { color: inherit; }
+.items.off button { color: var(--off); }
+.quiz-hidden .items .nm { filter: blur(5px); user-select: none; }
+.quiz-hidden .items button.revealed .nm { filter: none; }
+
+.credit { padding: 12px 20px; border-top: 1px solid var(--line); font-size: 11px; color: var(--muted); line-height: 1.45; }
+.credit a { color: inherit; }
+
+.stage { position: relative; min-width: 0; min-height: 0; background: var(--stage); overflow: hidden; touch-action: none; }
+.stage canvas { display: block; width: 100%; height: 100%; }
+#leaders { position: absolute; inset: 0; pointer-events: none; width: 100%; height: 100%; }
+#labels { position: absolute; inset: 0; pointer-events: none; }
+.lbl {
+  position: absolute; left: 0; top: 0; pointer-events: auto; cursor: pointer;
+  font-family: var(--f-label); font-size: 12.5px; font-weight: 500; line-height: 1;
+  color: var(--label-ink); background: var(--label-bg);
+  border: 1px solid var(--line); border-radius: 5px; padding: 4px 7px; white-space: nowrap;
+  transition: opacity 160ms ease; will-change: transform;
+}
+.lbl.sel { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); z-index: 2; }
+.lbl.hide { opacity: 0; pointer-events: none; }
+.lbl .n { color: var(--muted); margin-right: 5px; font-variant-numeric: tabular-nums; }
+.lbl.sel .n { color: inherit; }
+
+.bar {
+  position: absolute; top: 12px; left: 12px; right: 12px;
+  display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; pointer-events: none;
+}
+.seg { min-width: 0; max-width: 100%; display: flex; flex-wrap: wrap; gap: 4px; pointer-events: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 9px; padding: 4px; }
+.seg button { border: 0; background: transparent; padding: 6px 10px; border-radius: 6px; font-size: 12.5px; cursor: pointer; }
+.seg button:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+
+.card {
+  position: absolute; left: 12px; bottom: 12px; max-width: min(420px, calc(100% - 24px));
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
+  display: grid; gap: 4px; box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+.card h2 { margin: 0; font-family: var(--f-display); font-size: 19px; font-weight: 600; }
+.card .bone { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.card p { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--ink); }
+.loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 760px) {
+  .app { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 64vh auto; height: auto; }
+  aside { display: contents; }
+  .head { grid-row: 1; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); background: var(--panel); }
+  .stage { grid-row: 2; }
+  .index, .credit { grid-row: 3; background: var(--panel); }
+  .index { overflow: visible; padding-left: max(0px, env(safe-area-inset-left, 0px)); padding-right: max(0px, env(safe-area-inset-right, 0px)); }
+  .group { padding-left: 16px; padding-right: 16px; }
+  .credit { grid-row: 4; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .lbl { font-size: 11px; padding: 3px 5px; }
+  .card { right: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { .lbl { transition: none; } }
+</style>
+
+</head>
+<body>
+<div class="app" id="app">
+  <aside>
+    <div class="head">
+      <h1>Bony Pelvis</h1>
+      <p>Hip bones, sacrum and coccyx</p>
+    </div>
+    <div class="index" id="index"></div>
+    <div class="credit">
+      Mesh from <a href="https://lifesciencedb.jp/bp3d/" target="_blank" rel="noopener">BodyParts3D</a>, © The Database Center for Life Science, CC BY-SA 2.1 JP. Adult male specimen. Ilium, ischium and pubis boundaries are drawn where the bones fuse in the adult and are approximate.
+    </div>
+  </aside>
+
+  <div class="stage" id="stage">
+    <div class="loading" id="loading">Loading specimen</div>
+    <svg id="leaders"></svg>
+    <div id="labels"></div>
+    <div class="bar">
+      <div class="seg" id="views">
+        <button data-view="anterior" aria-pressed="true">Anterior</button>
+        <button data-view="posterior">Posterior</button>
+        <button data-view="superior">Superior</button>
+        <button data-view="inferior">Inferior</button>
+        <button data-view="left">Lateral</button>
+        <button data-view="medial">Medial</button>
+      </div>
+      <div class="seg">
+        <button id="t-color" aria-pressed="true">Color by bone</button>
+        <button id="t-labels" aria-pressed="true">Labels</button>
+        <button id="t-quiz" aria-pressed="false">Quiz</button>
+      </div>
+    </div>
+    <div class="card" id="card" hidden>
+      <div class="bone" id="card-bone"></div>
+      <h2 id="card-name"></h2>
+      <p id="card-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const GROUPS = [{"id": "ilium", "name": "Ilium", "color": "#e6d3a6"}, {"id": "ischium", "name": "Ischium", "color": "#a9cbbd"}, {"id": "pubis", "name": "Pubis", "color": "#e2b3a6"}, {"id": "sacrum", "name": "Sacrum", "color": "#c3bde0"}, {"id": "coccyx", "name": "Coccyx", "color": "#a8c2e0"}, {"id": "hip", "name": "Hip bone as a whole", "color": "#d9d4c7"}, {"id": "pelvis", "name": "Pelvis as a whole", "color": "#b9b4a6"}];
+const LANDMARKS = [{"id": "iliac_crest", "name": "Iliac crest", "group": "ilium", "desc": "Thickened superior border of the ilium from ASIS to PSIS. Attachment for the abdominal wall muscles, latissimus dorsi, quadratus lumborum and the iliac fascia. Top of the crest sits at about the L4 level, the landmark for lumbar puncture.", "p": [104.7, 101.7, -2.8], "n": [0.658, 0.507, -0.556], "p2": [-102.8, 102.4, -3.0], "n2": [-0.565, 0.713, -0.415]}, {"id": "tubercle_crest", "name": "Tubercle of iliac crest", "group": "ilium", "desc": "Widest point of the crest, about 5 cm behind the ASIS. Marks the L5 level and is a common bone marrow biopsy site.", "p": [131.0, 74.9, 34.5], "n": [0.924, 0.357, 0.138], "p2": [-130.1, 74.5, 35.1], "n2": [-0.904, 0.361, 0.229]}, {"id": "asis", "name": "Anterior superior iliac spine", "group": "ilium", "desc": "ASIS. Anterior end of the iliac crest. Origin of sartorius and attachment of the inguinal ligament; easily palpated.", "p": [121.5, 41.6, 70.6], "n": [0.769, -0.057, 0.636], "p2": [-121.4, 41.8, 69.8], "n2": [-0.91, -0.013, 0.414]}, {"id": "aiis", "name": "Anterior inferior iliac spine", "group": "ilium", "desc": "AIIS. Origin of the straight head of rectus femoris and attachment of the iliofemoral ligament.", "p": [100.1, -5.2, 46.0], "n": [0.769, -0.221, 0.6], "p2": [-99.2, -6.8, 45.7], "n2": [-0.809, -0.249, 0.532]}, {"id": "psis", "name": "Posterior superior iliac spine", "group": "ilium", "desc": "PSIS. Posterior end of the iliac crest, seen as the skin dimples over the sacroiliac joints at S2.", "p": [53.8, 54.0, -63.2], "n": [0.418, 0.016, -0.908], "p2": [-52.9, 53.9, -63.2], "n2": [-0.369, 0.044, -0.928]}, {"id": "piis", "name": "Posterior inferior iliac spine", "group": "ilium", "desc": "PIIS. Lies below the PSIS at the upper end of the greater sciatic notch, at the inferior end of the auricular surface.", "p": [41.8, 37.5, -58.2], "n": [-0.001, -0.78, -0.625], "p2": [-41.5, 38.5, -59.9], "n2": [-0.118, -0.71, -0.695]}, {"id": "iliac_fossa", "name": "Iliac fossa", "group": "ilium", "desc": "Smooth concave inner surface of the ala. Origin of iliacus.", "p": [99.8, 44.3, 18.3], "n": [-0.81, 0.356, 0.466], "p2": [-98.9, 44.2, 17.7], "n2": [0.788, 0.354, 0.504]}, {"id": "arcuate_line", "name": "Arcuate line", "group": "ilium", "desc": "Ridge on the inner ilium separating the iliac fossa above from the body below. Part of the pelvic brim (linea terminalis).", "p": [60.2, -3.4, 14.1], "n": [-0.868, 0.408, 0.283], "p2": [-60.8, -2.5, 16.1], "n2": [0.865, 0.358, 0.352]}, {"id": "iliac_tuberosity", "name": "Iliac tuberosity", "group": "ilium", "desc": "Rough area above and behind the auricular surface for the interosseous and posterior sacroiliac ligaments.", "p": [46.1, 55.7, -41.5], "n": [-0.588, 0.326, 0.74], "p2": [-47.0, 56.2, -40.6], "n2": [0.609, 0.325, 0.723]}, {"id": "auricular_ilium", "name": "Auricular surface of ilium", "group": "ilium", "desc": "Ear-shaped articular surface that meets the sacrum at the sacroiliac joint.", "p": [46.0, 25.5, -19.5], "n": [-0.719, 0.349, 0.602], "p2": [-45.3, 24.7, -19.2], "n2": [0.731, 0.298, 0.614]}, {"id": "gluteal_surface", "name": "Gluteal surface", "group": "ilium", "desc": "Outer surface of the ala. Origin of gluteus maximus, medius and minimus, separated by the gluteal lines.", "p": [107.0, 51.9, 13.3], "n": [0.679, -0.276, -0.681], "p2": [-109.0, 54.9, 14.4], "n2": [-0.668, -0.295, -0.683]}, {"id": "post_gluteal_line", "name": "Posterior gluteal line", "group": "ilium", "desc": "Shortest gluteal line. Gluteus maximus arises behind it.", "p": [63.9, 59.9, -43.0], "n": [0.997, 0.056, -0.044], "p2": [-63.2, 63.3, -41.7], "n2": [-0.995, 0.037, -0.09]}, {"id": "ant_gluteal_line", "name": "Anterior gluteal line", "group": "ilium", "desc": "Gluteus medius arises between the anterior and posterior gluteal lines.", "p": [79.5, 36.9, -6.4], "n": [0.743, -0.182, -0.644], "p2": [-79.3, 38.9, -6.5], "n2": [-0.723, -0.226, -0.653]}, {"id": "inf_gluteal_line", "name": "Inferior gluteal line", "group": "ilium", "desc": "Gluteus minimus arises between the anterior and inferior gluteal lines.", "p": [102.5, 2.9, 35.7], "n": [0.897, -0.423, -0.124], "p2": [-101.9, 2.7, 36.0], "n2": [-0.836, -0.547, -0.036]}, {"id": "ala_ilium", "name": "Ala of ilium", "group": "ilium", "desc": "The broad wing of the ilium above the arcuate line.", "p": [86.4, 79.5, -4.0], "n": [-0.57, 0.069, 0.819], "p2": [-84.5, 79.2, -4.8], "n2": [0.584, 0.132, 0.801]}, {"id": "body_ilium", "name": "Body of ilium", "group": "ilium", "desc": "Thick lower part of the ilium that forms the upper two fifths of the acetabulum.", "p": [97.3, -6.4, 15.5], "n": [0.892, 0.266, -0.365], "p2": [-96.4, -6.0, 15.5], "n2": [-0.931, 0.127, -0.343]}, {"id": "body_ischium", "name": "Body of ischium", "group": "ischium", "desc": "Forms the posteroinferior two fifths of the acetabulum.", "p": [76.2, -50.6, -15.7], "n": [0.502, -0.223, -0.836], "p2": [-76.2, -51.9, -14.9], "n2": [-0.378, -0.41, -0.83]}, {"id": "ischial_spine", "name": "Ischial spine", "group": "ischium", "desc": "Separates the greater and lesser sciatic notches. Attachment of the sacrospinous ligament; landmark for a pudendal nerve block.", "p": [46.3, -38.1, -31.4], "n": [0.517, -0.056, -0.854], "p2": [-45.4, -38.8, -31.4], "n2": [-0.456, -0.139, -0.879]}, {"id": "ischial_tuberosity", "name": "Ischial tuberosity", "group": "ischium", "desc": "The bone you sit on. Origin of the hamstrings and attachment of the sacrotuberous ligament.", "p": [67.2, -84.2, -29.8], "n": [0.841, -0.39, -0.374], "p2": [-65.9, -85.1, -30.4], "n2": [-0.794, -0.424, -0.436]}, {"id": "ischial_ramus", "name": "Ischial ramus", "group": "ischium", "desc": "Runs forward from the tuberosity to join the inferior pubic ramus as the ischiopubic ramus.", "p": [34.9, -91.3, 10.2], "n": [0.792, -0.387, 0.472], "p2": [-35.0, -89.8, 10.5], "n2": [-0.772, -0.402, 0.493]}, {"id": "lesser_sciatic_notch", "name": "Lesser sciatic notch", "group": "ischium", "desc": "Between the ischial spine and tuberosity. Converted to the lesser sciatic foramen by the sacrospinous and sacrotuberous ligaments; obturator internus tendon and the pudendal nerve and vessels pass through.", "p": [61.4, -51.4, -29.7], "n": [0.04, 0.496, -0.867], "p2": [-61.2, -50.5, -28.9], "n2": [-0.115, 0.489, -0.865]}, {"id": "body_pubis", "name": "Body of pubis", "group": "pubis", "desc": "Medial part of the pubis carrying the symphyseal surface and pubic crest.", "p": [13.2, -66.2, 62.2], "n": [-0.266, -0.713, 0.648], "p2": [-14.0, -65.4, 63.9], "n2": [-0.338, -0.798, 0.498]}, {"id": "pubic_tubercle", "name": "Pubic tubercle", "group": "pubis", "desc": "Lateral end of the pubic crest. Medial attachment of the inguinal ligament.", "p": [22.6, -51.4, 68.5], "n": [0.36, 0.749, 0.556], "p2": [-21.8, -52.0, 68.7], "n2": [-0.346, 0.766, 0.541]}, {"id": "pubic_crest", "name": "Pubic crest", "group": "pubis", "desc": "Upper border of the pubic body. Attachment of rectus abdominis and pyramidalis.", "p": [10.4, -50.4, 67.5], "n": [-0.47, 0.723, 0.507], "p2": [-10.0, -50.7, 67.7], "n2": [0.485, 0.694, 0.532]}, {"id": "pecten_pubis", "name": "Pecten pubis", "group": "pubis", "desc": "Pectineal line. Sharp ridge on the superior pubic ramus, part of the pelvic brim. Attachment of the pectineal (Cooper) ligament and pectineus.", "p": [37.1, -41.9, 49.7], "n": [-0.672, 0.739, -0.037], "p2": [-35.9, -42.9, 50.3], "n2": [0.675, 0.738, -0.004]}, {"id": "sup_pubic_ramus", "name": "Superior pubic ramus", "group": "pubis", "desc": "Runs from the pubic body to the acetabulum, forming the upper border of the obturator foramen.", "p": [49.4, -43.0, 49.7], "n": [0.373, 0.166, 0.913], "p2": [-51.4, -43.0, 48.6], "n2": [-0.353, -0.069, 0.933]}, {"id": "inf_pubic_ramus", "name": "Inferior pubic ramus", "group": "pubis", "desc": "Runs down and back from the pubic body to join the ischial ramus.", "p": [18.3, -90.2, 27.4], "n": [-0.334, -0.841, 0.426], "p2": [-17.8, -91.0, 27.0], "n2": [0.414, -0.844, 0.34]}, {"id": "symphyseal_surface", "name": "Symphyseal surface", "group": "pubis", "desc": "Oval medial surface covered by hyaline cartilage, joined to its partner by the fibrocartilaginous disc of the pubic symphysis.", "p": [8.1, -59.9, 64.4], "n": [-0.751, -0.43, 0.501], "p2": [-7.3, -59.8, 64.8], "n2": [0.715, -0.297, 0.633]}, {"id": "obturator_groove", "name": "Obturator groove", "group": "pubis", "desc": "Groove on the underside of the superior pubic ramus where the obturator nerve and vessels leave the pelvis through the obturator canal.", "p": [43.9, -44.9, 35.2], "n": [-0.264, -0.305, -0.915], "p2": [-43.7, -45.2, 34.9], "n2": [0.277, -0.313, -0.909]}, {"id": "iliopubic_eminence", "name": "Iliopubic eminence", "group": "pubis", "desc": "Raised area where the ilium and pubis fuse, above the acetabulum on the pelvic brim.", "p": [51.3, -26.7, 38.8], "n": [-0.711, 0.673, 0.204], "p2": [-51.3, -26.1, 38.0], "n2": [0.725, 0.647, 0.236]}, {"id": "acetabulum", "name": "Acetabulum", "group": "hip", "desc": "Cup-shaped socket for the femoral head, formed by all three bones meeting at the triradiate cartilage (ilium about two fifths, ischium two fifths, pubis one fifth).", "p": [67.1, -29.3, 1.6], "n": [0.627, -0.553, 0.548], "p2": [-66.0, -30.0, 1.8], "n2": [-0.703, -0.509, 0.497]}, {"id": "lunate_surface", "name": "Lunate surface", "group": "hip", "desc": "Horseshoe-shaped articular surface of the acetabulum, covered with hyaline cartilage.", "p": [88.8, -21.5, 0.6], "n": [-0.156, -0.794, 0.587], "p2": [-89.4, -22.2, 0.9], "n2": [0.237, -0.826, 0.511]}, {"id": "acetabular_fossa", "name": "Acetabular fossa", "group": "hip", "desc": "Non-articular floor of the acetabulum that holds a fat pad and the ligament of the head of the femur.", "p": [55.3, -37.3, 11.7], "n": [0.971, -0.116, -0.209], "p2": [-54.6, -37.8, 11.9], "n2": [-0.976, -0.121, -0.179]}, {"id": "acetabular_notch", "name": "Acetabular notch", "group": "hip", "desc": "Gap in the inferior rim, bridged by the transverse acetabular ligament. Vessels to the femoral head pass under it.", "p": [55.6, -54.5, 8.0], "n": [0.19, -0.184, 0.964], "p2": [-54.9, -55.0, 8.0], "n2": [-0.145, -0.221, 0.964]}, {"id": "acetabular_rim", "name": "Acetabular margin", "group": "hip", "desc": "Rim of the acetabulum. The fibrocartilaginous labrum attaches here and deepens the socket.", "p": [78.1, -32.6, 38.1], "n": [0.7, -0.659, -0.276], "p2": [-78.5, -32.6, 38.8], "n2": [-0.621, -0.742, -0.252]}, {"id": "obturator_foramen", "name": "Obturator foramen", "group": "hip", "desc": "Large opening bounded by the pubis and ischium, closed by the obturator membrane except at the obturator canal.", "p": [47.4, -70.0, 20.5], "n": [0.815, -0.448, 0.367], "free": true, "p2": [-47.4, -70.0, 20.5], "n2": [-0.815, -0.448, 0.367], "both": true}, {"id": "greater_sciatic_notch", "name": "Greater sciatic notch", "group": "hip", "desc": "Deep notch between the PIIS and ischial spine. Becomes the greater sciatic foramen with the sacrospinous ligament; piriformis, the sciatic nerve and the gluteal vessels pass through.", "p": [64.7, 8.9, -15.4], "n": [0.072, -0.758, -0.648], "p2": [-63.2, 8.1, -15.0], "n2": [0.064, -0.736, -0.674]}, {"id": "ischiopubic_ramus", "name": "Ischiopubic ramus", "group": "hip", "desc": "Conjoined ischial and inferior pubic rami, forming the side of the pubic arch. Attachment of the crura of the penis or clitoris.", "p": [23.4, -93.0, 9.2], "n": [-0.849, -0.293, -0.439], "p2": [-23.7, -94.2, 8.0], "n2": [0.822, -0.407, -0.399]}, {"id": "sacral_base", "name": "Base of sacrum", "group": "sacrum", "desc": "Superior surface of S1, which articulates with L5 through the lumbosacral disc.", "p": [1.4, 49.4, 0.5], "n": [-0.097, 0.831, 0.548]}, {"id": "promontory", "name": "Sacral promontory", "group": "sacrum", "desc": "Anterior lip of the S1 body. The posterior landmark of the pelvic inlet and the reference for the obstetric conjugate.", "p": [1.2, 39.7, 15.2], "n": [-0.021, -0.587, 0.81]}, {"id": "sacral_ala", "name": "Ala of sacrum", "group": "sacrum", "desc": "Wing-like lateral part of the sacral base, crossed by the lumbosacral trunk and the obturator nerve.", "p": [42.8, 43.2, -2.3], "n": [0.019, 0.404, 0.915], "p2": [-40.7, 41.7, -4.5], "n2": [-0.084, 0.477, 0.875]}, {"id": "sup_articular_process", "name": "Superior articular process", "group": "sacrum", "desc": "Faces backward and inward to form the L5/S1 facet joint.", "p": [25.9, 68.3, -15.6], "n": [0.282, 0.0, 0.959], "p2": [-24.7, 68.0, -18.6], "n2": [-0.507, 0.235, 0.83]}, {"id": "ant_sacral_foramina", "name": "Anterior sacral foramina", "group": "sacrum", "desc": "Four pairs of openings for the anterior rami of S1 to S4.", "p": [14.8, -1.1, -57.1], "n": [0.25, 0.3, 1], "p2": [-14.4, -2.2, -57.8], "n2": [-0.25, 0.3, 1]}, {"id": "post_sacral_foramina", "name": "Posterior sacral foramina", "group": "sacrum", "desc": "Four pairs of openings for the posterior rami of S1 to S4.", "p": [25.1, 4.2, -55.8], "n": [-0.857, -0.195, -0.477], "p2": [-23.6, 3.6, -57.0], "n2": [0.596, 0.147, -0.79]}, {"id": "median_sacral_crest", "name": "Median sacral crest", "group": "sacrum", "desc": "Fused spinous processes of the sacral vertebrae.", "p": [0.6, 10.1, -68.4], "n": [0.212, 0.476, -0.853]}, {"id": "intermediate_sacral_crest", "name": "Intermediate sacral crest", "group": "sacrum", "desc": "Fused articular processes, just medial to the posterior sacral foramina.", "p": [8.5, -19.3, -71.2], "n": [-0.537, -0.204, -0.819], "p2": [-9.5, -18.3, -70.0], "n2": [0.55, -0.092, -0.83]}, {"id": "lateral_sacral_crest", "name": "Lateral sacral crest", "group": "sacrum", "desc": "Fused transverse processes, lateral to the posterior sacral foramina.", "p": [31.0, -7.6, -56.4], "n": [0.062, -0.275, -0.96], "p2": [-30.3, -7.0, -57.2], "n2": [-0.01, -0.327, -0.945]}, {"id": "sacral_canal", "name": "Sacral canal", "group": "sacrum", "desc": "Continuation of the vertebral canal. Contains the cauda equina and the end of the dural sac (S2).", "p": [0.2, 54.2, -17.1], "n": [0.0, 0.958, 0.287], "free": true}, {"id": "sacral_hiatus", "name": "Sacral hiatus", "group": "sacrum", "desc": "Inferior opening of the sacral canal where the S5 laminae fail to fuse. Entry point for caudal epidural anesthesia.", "p": [-1.0, -24.3, -66.9], "n": [-0.092, -0.58, -0.81]}, {"id": "sacral_cornu", "name": "Sacral cornu", "group": "sacrum", "desc": "Paired inferior articular processes of S5 that flank the sacral hiatus; palpated to find it.", "p": [8.6, -33.4, -71.1], "n": [0.161, -0.302, -0.94], "p2": [-10.4, -29.8, -68.1], "n2": [0.501, -0.674, -0.544]}, {"id": "transverse_ridges", "name": "Transverse ridges", "group": "sacrum", "desc": "Lines on the pelvic surface marking where the five sacral vertebral bodies fused.", "p": [1.2, -3.0, -48.5], "n": [0, 0.35, 1]}, {"id": "auricular_sacrum", "name": "Auricular surface of sacrum", "group": "sacrum", "desc": "Ear-shaped surface on the lateral sacrum for the sacroiliac joint.", "p": [48.7, 27.0, -15.8], "n": [0.959, -0.073, -0.273], "p2": [-47.0, 25.9, -15.2], "n2": [-0.681, -0.346, -0.645]}, {"id": "sacral_apex", "name": "Apex of sacrum", "group": "sacrum", "desc": "Inferior end of S5, articulating with the coccyx.", "p": [0.2, -34.7, -55.1], "n": [0.054, 0.126, 0.991]}, {"id": "coccyx", "name": "Coccyx", "group": "coccyx", "desc": "Tailbone, three to five fused rudimentary vertebrae. Attachment of gluteus maximus, coccygeus and the anococcygeal ligament.", "p": [-0.5, -55.7, -51.9], "n": [-0.053, 0.476, 0.878]}, {"id": "coccygeal_cornu", "name": "Coccygeal cornu", "group": "coccyx", "desc": "Paired processes of Co1 that articulate with the sacral cornua.", "p": [6.6, -43.7, -66.1], "n": [-0.426, 0.054, -0.903], "p2": [-6.6, -44.6, -62.8], "n2": [0.097, 0.276, -0.956]}, {"id": "pubic_symphysis", "name": "Pubic symphysis", "group": "pelvis", "desc": "Secondary cartilaginous joint between the two pubic bones.", "p": [0.0, -59.9, 66.4], "n": [0, 0, 1], "free": true}, {"id": "si_joint", "name": "Sacroiliac joint", "group": "pelvis", "desc": "Synovial joint (anteriorly) and syndesmosis (posteriorly) between the auricular surfaces of the sacrum and ilium. Transmits the weight of the trunk to the lower limbs.", "p": [61.6, 29.9, 1.2], "n": [0.3, 0.2, 1.0], "p2": [-60.1, 29.4, 0.5], "n2": [-0.3, 0.2, 1.0]}, {"id": "pelvic_brim", "name": "Pelvic brim", "group": "pelvis", "desc": "Linea terminalis: promontory, sacral ala, arcuate line, pecten pubis, pubic crest and top of the symphysis. Divides the greater from the lesser pelvis.", "p": [60.2, -3.4, 14.1], "n": [0.4, 0.7, 0.6], "p2": [-60.2, -3.4, 14.1], "n2": [-0.4, 0.7, 0.6], "outline": "brim"}, {"id": "pelvic_inlet", "name": "Pelvic inlet", "group": "pelvis", "desc": "Opening bounded by the pelvic brim. The obstetric conjugate runs from the promontory to the back of the symphysis.", "p": [-0.0, -7.5, 23.7], "n": [0, 1, 0.3], "free": true, "outline": "brim"}, {"id": "pelvic_outlet", "name": "Pelvic outlet", "group": "pelvis", "desc": "Diamond-shaped opening bounded by the pubic arch, ischial tuberosities, sacrotuberous ligaments and coccyx.", "p": [0.0, -85.3, -7.5], "n": [0, -1, 0], "free": true, "outline": "outlet"}, {"id": "greater_pelvis", "name": "Greater pelvis", "group": "pelvis", "desc": "False pelvis above the brim, between the iliac alae. Part of the abdominal cavity.", "p": [0.0, 84.7, 33.7], "n": [0, 0.6, 0.8], "free": true}, {"id": "lesser_pelvis", "name": "Lesser pelvis", "group": "pelvis", "desc": "True pelvis below the brim, containing the pelvic viscera. Its dimensions matter in childbirth.", "p": [0.0, -42.5, 23.7], "n": [0, 0, 1], "free": true}, {"id": "pubic_arch", "name": "Pubic arch", "group": "pelvis", "desc": "Formed by the two ischiopubic rami. The subpubic angle between them is under 70 degrees in males and over 80 degrees in females.", "p": [0.0, -81.9, 60.4], "n": [0, -0.5, 1], "free": true, "outline": "arch"}];
+const LINES = {"brim": [[1.2, 39.7, 15.2], [18.8, 24.3, -18.2], [38.2, 21.6, -11.3], [55.1, 12.1, -0.4], [60.2, -3.4, 14.1], [55.9, -17.0, 28.8], [37.1, -41.9, 49.7], [22.6, -51.4, 68.5], [8.6, -51.2, 66.7], [-8.6, -51.2, 66.7], [-22.6, -51.4, 68.5], [-37.1, -41.9, 49.7], [-55.9, -17.0, 28.8], [-60.2, -3.4, 14.1], [-55.1, 12.1, -0.4], [-38.2, 21.6, -11.3], [-18.8, 24.3, -18.2], [-1.2, 39.7, 15.2]], "outlet": [[7.1, -76.9, 40.5], [20.4, -92.6, 20.3], [36.8, -97.9, -0.4], [49.9, -99.9, -25.4], [67.3, -76.6, -33.9], [-0.5, -67.8, -45.9], [-67.3, -76.6, -33.9], [-49.9, -99.9, -25.4], [-36.8, -97.9, -0.4], [-20.4, -92.6, 20.3], [-7.1, -76.9, 40.5]], "arch": [[18.3, -90.2, 27.4], [0.0, -77.9, 64.4], [-18.3, -90.2, 27.4]]};
+
+const stage = document.getElementById('stage');
+const labelsEl = document.getElementById('labels');
+const leaders = document.getElementById('leaders');
+const indexEl = document.getElementById('index');
+const SVGNS = 'http://www.w3.org/2000/svg';
+
+const state = {
+  colorByBone: true,
+  showLabels: true,
+  quiz: false,
+  selected: null,
+  groupOn: Object.fromEntries(GROUPS.map(g => [g.id, g.defaultOn !== false])),
+  revealed: new Set(),
+};
+
+// ---------- three.js scene ----------
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+stage.prepend(renderer.domElement);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(30, 1, 10, 5000);
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.dampingFactor = 0.12;
+controls.minDistance = 180;
+controls.maxDistance = 1400;
+
+// Lights ride with the camera so the shading reads the same from every side.
+scene.add(new THREE.HemisphereLight(0xfffaf0, 0x2e2a26, 0.32));
+const lightTarget = new THREE.Object3D();
+camera.add(lightTarget);
+lightTarget.position.set(0, 0, -1);
+const key = new THREE.DirectionalLight(0xffffff, 0.62);
+camera.add(key);
+key.position.set(-0.9, 1.1, 0.2);
+key.target = lightTarget;
+const fill = new THREE.DirectionalLight(0xdfe8ff, 0.2);
+camera.add(fill);
+fill.position.set(1.0, -0.4, 0.1);
+fill.target = lightTarget;
+scene.add(camera);
+
+function readVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+function applyTheme() { renderer.setClearColor(new THREE.Color(readVar('--stage') || '#dfe4e2')); if (typeof updateLines === 'function') updateLines(); requestRender(); }
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
+new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+const meshes = [];
+const proxies = [];
+const lineMeshes = {};
+let boneMaterial;
+
+function parseBin(buf) {
+  const parts = [];
+  const dv = new DataView(buf);
+  let off = 0;
+  const count = dv.getUint32(off, true); off += 4;
+  for (let p = 0; p < count; p++) {
+    const nv = dv.getUint32(off, true), nt = dv.getUint32(off + 4, true); off += 8;
+    const pos = new Float32Array(buf, off, nv * 3); off += nv * 12;
+    const reg = new Uint8Array(buf, off, nv); off += Math.ceil(nv / 4) * 4;
+    const idx = new Uint32Array(buf, off, nt * 3); off += nt * 12;
+    parts.push({ pos, reg, idx });
+  }
+  return parts;
+}
+
+function regionColors(reg) {
+  const cols = new Float32Array(reg.length * 3);
+  const palette = GROUPS.map(g => new THREE.Color(g.color));
+  const plain = new THREE.Color('#e3dac4');
+  for (let i = 0; i < reg.length; i++) {
+    const c = state.colorByBone ? (palette[reg[i]] || plain) : plain;
+    cols[i * 3] = c.r; cols[i * 3 + 1] = c.g; cols[i * 3 + 2] = c.b;
+  }
+  return cols;
+}
+
+fetch('pelvis-mesh.txt').then(r => {
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  return r.text();
+}).then(b64 => {
+  const bin = atob(b64.trim());
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  const buf = bytes.buffer;
+  const parts = parseBin(buf);
+  boneMaterial = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.78, metalness: 0.0 });
+  parts.forEach((p, i) => {
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(p.pos, 3));
+    g.setIndex(new THREE.BufferAttribute(p.idx, 1));
+    g.computeVertexNormals();
+    g.computeBoundingSphere();
+    if (i >= 3) {
+      const pm = new THREE.Mesh(g, new THREE.MeshBasicMaterial({ side: THREE.DoubleSide }));
+      pm.updateMatrixWorld();
+      proxies.push(pm);
+      return;
+    }
+    g.setAttribute('color', new THREE.BufferAttribute(regionColors(p.reg), 3));
+    g.userData.reg = p.reg;
+    const m = new THREE.Mesh(g, boneMaterial);
+    scene.add(m);
+    meshes.push(m);
+  });
+  buildLines();
+  document.getElementById('loading').remove();
+  setView('anterior', true);
+  requestRender();
+}).catch(err => {
+  document.getElementById('loading').textContent = 'The specimen did not load (' + err.message + '). Reload the page to try again.';
+});
+
+// ---------- landmarks ----------
+const groupById = Object.fromEntries(GROUPS.map(g => [g.id, g]));
+LANDMARKS.forEach((lm, i) => {
+  lm.num = i + 1;
+  lm.copies = [{ p: new THREE.Vector3(...lm.p), n: new THREE.Vector3(...lm.n).normalize() }];
+  if (lm.p2) lm.copies.push({ p: new THREE.Vector3(...lm.p2), n: new THREE.Vector3(...lm.n2).normalize() });
+  const el = document.createElement('div');
+  el.className = 'lbl hide';
+  el.innerHTML = '<span class="n"></span><span class="t"></span>';
+  el.querySelector('.n').textContent = lm.num;
+  el.addEventListener('click', e => { e.stopPropagation(); select(lm, false); });
+  labelsEl.appendChild(el);
+  lm.el = el;
+  const line = document.createElementNS(SVGNS, 'line');
+  line.setAttribute('stroke', 'var(--leader)');
+  line.setAttribute('stroke-width', '1');
+  const dot = document.createElementNS(SVGNS, 'circle');
+  dot.setAttribute('r', '2.6');
+  dot.setAttribute('fill', 'var(--leader)');
+  leaders.append(line, dot);
+  lm.line = line; lm.dot = dot;
+  lm.vis = false; lm.side = 0;
+});
+
+function buildLines() {
+  const mat = new THREE.MeshBasicMaterial({ color: new THREE.Color(readVar('--accent')), depthTest: false, transparent: true, opacity: 0.9 });
+  Object.entries(LINES).forEach(([key, pts]) => {
+    const closed = key !== 'arch';
+    const curve = new THREE.CatmullRomCurve3(pts.map(p => new THREE.Vector3(...p)), closed, 'centripetal');
+    const m = new THREE.Mesh(new THREE.TubeGeometry(curve, 160, 1.3, 6, closed), mat);
+    m.renderOrder = 10;
+    m.visible = false;
+    scene.add(m);
+    lineMeshes[key] = m;
+  });
+}
+
+function updateLines() {
+  const key = state.selected && state.selected.outline;
+  Object.entries(lineMeshes).forEach(([k, m]) => { m.visible = k === key && !state.hideLeft; });
+  Object.values(lineMeshes).forEach(m => m.material.color.set(readVar('--accent')));
+}
+
+function labelText(lm) {
+  if (state.quiz && !state.revealed.has(lm.id) && state.selected !== lm) return '?';
+  return lm.name;
+}
+
+// ---------- index ----------
+function buildIndex() {
+  indexEl.innerHTML = '';
+  GROUPS.forEach(g => {
+    const sec = document.createElement('section');
+    sec.className = 'group';
+    const row = document.createElement('div');
+    row.className = 'group-row';
+    const sw = document.createElement('span');
+    sw.className = 'swatch';
+    sw.style.background = g.color;
+    const nm = document.createElement('span');
+    nm.className = 'group-name';
+    nm.textContent = g.name;
+    const tg = document.createElement('button');
+    tg.className = 'toggle';
+    tg.setAttribute('aria-pressed', String(state.groupOn[g.id]));
+    tg.textContent = state.groupOn[g.id] ? 'Shown' : 'Hidden';
+    tg.addEventListener('click', () => {
+      state.groupOn[g.id] = !state.groupOn[g.id];
+      buildIndex();
+      scheduleVis();
+    });
+    row.append(sw, nm, tg);
+    const ul = document.createElement('ul');
+    ul.className = 'items' + (state.groupOn[g.id] ? '' : ' off');
+    LANDMARKS.filter(l => l.group === g.id).forEach(lm => {
+      const li = document.createElement('li');
+      const b = document.createElement('button');
+      b.className = (state.selected === lm ? 'sel ' : '') + (state.revealed.has(lm.id) ? 'revealed' : '');
+      b.innerHTML = '<span class="num"></span><span class="nm"></span>';
+      b.querySelector('.num').textContent = lm.num;
+      b.querySelector('.nm').textContent = lm.name;
+      b.addEventListener('click', () => select(lm, true));
+      li.appendChild(b);
+      ul.appendChild(li);
+    });
+    sec.append(row, ul);
+    indexEl.appendChild(sec);
+  });
+  document.getElementById('app').classList.toggle('quiz-hidden', state.quiz);
+}
+
+function select(lm, fly) {
+  if (state.quiz && !state.revealed.has(lm.id)) state.revealed.add(lm.id);
+  state.selected = lm;
+  if (!state.groupOn[lm.group]) state.groupOn[lm.group] = true;
+  const card = document.getElementById('card');
+  card.hidden = false;
+  document.getElementById('card-bone').textContent = groupById[lm.group].name;
+  document.getElementById('card-name').textContent = lm.name;
+  document.getElementById('card-desc').textContent = lm.desc;
+  buildIndex();
+  if (fly) flyTo(lm);
+  updateLines();
+  scheduleVis();
+}
+
+stage.addEventListener('pointerdown', e => { stage._down = [e.clientX, e.clientY]; });
+stage.addEventListener('click', e => {
+  if (e.target.closest('.lbl, .seg, .card')) return;
+  const d = stage._down;
+  if (d && Math.hypot(e.clientX - d[0], e.clientY - d[1]) > 4) return;
+  state.selected = null;
+  document.getElementById('card').hidden = true;
+  buildIndex();
+  updateLines();
+  scheduleVis();
+});
+
+// ---------- views ----------
+const VIEWS = {
+  anterior: [0, 0.08, 1],
+  posterior: [0, 0.08, -1],
+  superior: [0, 1, 0.12],
+  inferior: [0, -1, 0.35],
+  left: [1, 0.05, 0.05],
+  medial: [1, 0.12, 0.22],
+};
+const CENTER = new THREE.Vector3(0, 0, 0);
+const DIST = 600;
+function fitDist(d) { return d / Math.min(1, camera.aspect * 0.95); }
+let anim = null;
+
+function setView(name, instant) {
+  document.querySelectorAll('#views button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.view === name)));
+  const dir = new THREE.Vector3(...VIEWS[name]).normalize();
+  let target = CENTER.clone();
+  // Medial view: the inner face of the right hip bone, with the left hip bone and sacrum out of the way.
+  if (name === 'medial') target = new THREE.Vector3(-68, 0, 0);
+  animateTo(target, target.clone().addScaledVector(dir, fitDist(name === 'medial' ? 560 : DIST)), instant);
+  medialMode(name === 'medial');
+}
+
+const MEDIAL_GROUPS = new Set(['ilium', 'ischium', 'pubis', 'hip']);
+function medialMode(on) {
+  if (meshes.length) { meshes[0].visible = !on; meshes[2].visible = !on; }
+  state.hideLeft = on;
+  updateLines();
+  scheduleVis();
+}
+
+function flyTo(lm) {
+  medialMode(false);
+  document.querySelectorAll('#views button').forEach(b => b.setAttribute('aria-pressed', 'false'));
+  // Choose the copy (left or right) nearest the current camera.
+  let best = lm.copies[0];
+  if (lm.copies.length > 1) {
+    const c = camera.position;
+    if (lm.copies[1].p.distanceTo(c) < best.p.distanceTo(c)) best = lm.copies[1];
+  }
+  const dir = (lm.view ? new THREE.Vector3(...lm.view) : best.n.clone());
+  if (lm.view && best === lm.copies[1]) dir.x = -dir.x;
+  dir.normalize();
+  const target = best.p.clone().multiplyScalar(0.55);
+  animateTo(target, target.clone().addScaledVector(dir, fitDist(560)), false);
+}
+
+function animateTo(target, pos, instant) {
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (instant || reduce) {
+    controls.target.copy(target);
+    camera.position.copy(pos);
+    camera.up.set(0, 1, 0);
+    controls.update();
+    scheduleVis(); requestRender();
+    return;
+  }
+  anim = { t0: performance.now(), dur: 650, fromT: controls.target.clone(), toT: target, fromP: camera.position.clone(), toP: pos };
+  requestRender();
+}
+
+document.getElementById('views').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (b) setView(b.dataset.view, false);
+});
+
+function pressed(id, v) { document.getElementById(id).setAttribute('aria-pressed', String(v)); }
+document.getElementById('t-color').addEventListener('click', () => {
+  state.colorByBone = !state.colorByBone;
+  pressed('t-color', state.colorByBone);
+  meshes.forEach(m => { m.geometry.attributes.color.array.set(regionColors(m.geometry.userData.reg)); m.geometry.attributes.color.needsUpdate = true; });
+  requestRender();
+});
+document.getElementById('t-labels').addEventListener('click', () => {
+  state.showLabels = !state.showLabels;
+  pressed('t-labels', state.showLabels);
+  scheduleVis();
+});
+document.getElementById('t-quiz').addEventListener('click', () => {
+  state.quiz = !state.quiz;
+  state.revealed.clear();
+  pressed('t-quiz', state.quiz);
+  if (state.quiz) { state.selected = null; document.getElementById('card').hidden = true; }
+  buildIndex();
+  scheduleVis();
+});
+
+// ---------- visibility (occlusion) ----------
+const ray = new THREE.Raycaster();
+let visTimer = 0;
+function scheduleVis() { visTimer = 0; requestRender(); }
+
+function computeVisibility() {
+  if (!proxies.length) return;
+  const cam = camera.position;
+  const occluders = state.hideLeft ? [proxies[1]] : proxies;
+  LANDMARKS.forEach(lm => {
+    lm.vis = false;
+    if (!state.showLabels || !state.groupOn[lm.group]) return;
+    if (state.hideLeft && !MEDIAL_GROUPS.has(lm.group)) return;
+    let best = -1, bestScore = -Infinity;
+    lm.copies.forEach((c, i) => {
+      if (state.hideLeft && c.p.x > -3) return;
+      const toCam = cam.clone().sub(c.p);
+      const dist = toCam.length();
+      toCam.divideScalar(dist);
+      const facing = lm.both ? Math.abs(c.n.dot(toCam)) : c.n.dot(toCam);
+      if (facing < (lm.free ? 0 : -0.15)) return;
+      ray.set(c.p.clone().addScaledVector(toCam, 3), toCam);
+      ray.far = dist;
+      const hits = ray.intersectObjects(occluders, false);
+      if (hits.length && hits[0].distance > 1.5) return;
+      const score = facing - dist * 0.001;
+      if (score > bestScore) { bestScore = score; best = i; }
+    });
+    if (best >= 0) { lm.vis = true; lm.side = best; }
+  });
+  if (state.selected && state.groupOn[state.selected.group] && state.showLabels && !state.selected.vis) {
+    // Keep the selected structure labeled even when it is around a corner.
+    state.selected.vis = true;
+    const cp = camera.position;
+    state.selected.side = state.selected.copies.length > 1 && state.selected.copies[1].p.distanceTo(cp) < state.selected.copies[0].p.distanceTo(cp) ? 1 : 0;
+    state.selected.ghost = true;
+  } else if (state.selected) state.selected.ghost = false;
+}
+
+// ---------- label layout ----------
+const tmp = new THREE.Vector3();
+function layoutLabels() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  const cs = tmp.copy(controls.target).project(camera);
+  const cx = (cs.x + 1) / 2 * w, cy = (1 - cs.y) / 2 * h;
+  const items = [];
+  LANDMARKS.forEach(lm => {
+    const el = lm.el;
+    const txt = labelText(lm);
+    const t = el.querySelector('.t');
+    if (t.textContent !== txt) t.textContent = txt;
+    el.classList.toggle('sel', state.selected === lm);
+    if (!lm.vis) { el.classList.add('hide'); lm.line.style.display = 'none'; lm.dot.style.display = 'none'; return; }
+    const c = lm.copies[lm.side];
+    const s = tmp.copy(c.p).project(camera);
+    const ax = (s.x + 1) / 2 * w, ay = (1 - s.y) / 2 * h;
+    let dx = ax - cx, dy = ay - cy;
+    const len = Math.hypot(dx, dy) || 1;
+    dx /= len; dy /= len;
+    const reach = w < 600 ? 26 : 44;
+    const right = dx >= 0;
+    if (!lm.size || lm.sizeTxt !== txt) { lm.size = [el.offsetWidth, el.offsetHeight]; lm.sizeTxt = txt; }
+    items.push({ lm, ax, ay, right, lx: ax + dx * reach, ly: ay + dy * reach * 0.8, wdt: lm.size[0], hgt: lm.size[1] });
+  });
+  // Push overlapping labels apart vertically.
+  const box = i => [i.right ? i.lx : i.lx - i.wdt, i.ly - i.hgt / 2];
+  for (let iter = 0; iter < 24; iter++) {
+    let moved = false;
+    for (let a = 0; a < items.length; a++) {
+      for (let b = a + 1; b < items.length; b++) {
+        const A = items[a], B = items[b];
+        const [ax0, ay0] = box(A), [bx0, by0] = box(B);
+        if (ax0 >= bx0 + B.wdt + 4 || bx0 >= ax0 + A.wdt + 4) continue;
+        const need = (A.hgt + B.hgt) / 2 + 3;
+        const gap = B.ly - A.ly;
+        if (Math.abs(gap) >= need) continue;
+        const push = (need - Math.abs(gap)) / 2 + 0.5;
+        const dir = gap > 0 || (gap === 0 && b > a) ? 1 : -1;
+        A.ly -= push * dir; B.ly += push * dir;
+        moved = true;
+      }
+    }
+    if (!moved) break;
+  }
+  items.forEach(i => {
+    const x = Math.max(6, Math.min(w - i.wdt - 6, i.right ? i.lx : i.lx - i.wdt));
+    const y = i.ly - i.hgt / 2;
+    i.lm.el.style.transform = `translate(${Math.round(x)}px, ${Math.round(y)}px)`;
+    i.lm.el.classList.remove('hide');
+    i.lm.el.style.opacity = i.lm.ghost ? '0.85' : '';
+    const L = i.lm.line, D = i.lm.dot;
+    L.style.display = ''; D.style.display = '';
+    L.setAttribute('x1', i.ax); L.setAttribute('y1', i.ay);
+    L.setAttribute('x2', i.ax > x + i.wdt / 2 ? x + i.wdt : x); L.setAttribute('y2', i.ly);
+    D.setAttribute('cx', i.ax); D.setAttribute('cy', i.ay);
+    const selCol = state.selected === i.lm ? 'var(--accent)' : 'var(--leader)';
+    L.setAttribute('stroke', selCol); D.setAttribute('fill', selCol);
+    L.setAttribute('stroke-dasharray', i.lm.ghost ? '3 3' : '');
+  });
+}
+
+// ---------- render loop ----------
+let needsRender = true;
+function requestRender() { needsRender = true; }
+controls.addEventListener('change', () => { requestRender(); visTimer = Math.min(visTimer, 90); });
+controls.addEventListener('end', scheduleVis);
+
+function resize() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  renderer.setSize(w, h, false);
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+  leaders.setAttribute('viewBox', `0 0 ${w} ${h}`);
+  requestRender();
+}
+new ResizeObserver(resize).observe(stage);
+
+let last = performance.now();
+function tick(now) {
+  const dt = now - last; last = now;
+  if (anim) {
+    const k = Math.min(1, (now - anim.t0) / anim.dur);
+    const e = k < 0.5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2;
+    controls.target.lerpVectors(anim.fromT, anim.toT, e);
+    camera.position.lerpVectors(anim.fromP, anim.toP, e);
+    if (k >= 1) { anim = null; scheduleVis(); }
+    needsRender = true;
+  }
+  const changed = controls.update();
+  if (changed) needsRender = true;
+  else if (tick.moving) { visTimer = 0; needsRender = true; }
+  tick.moving = changed || !!anim;
+  if (needsRender) {
+    visTimer -= dt;
+    if (visTimer <= 0) { computeVisibility(); visTimer = 120; }
+    renderer.render(scene, camera);
+    layoutLabels();
+    needsRender = false;
+  }
+  requestAnimationFrame(tick);
+}
+
+buildIndex();
+resize();
+applyTheme();
+requestAnimationFrame(tick);
+</script>
+
+</body>
+</html>
