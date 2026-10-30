@@ -1,0 +1,955 @@
+{
+  "lecture": "CBL Week 4: Female Reproductive Tract, Amenorrhea and STIs",
+  "block": "endorepro",
+  "generated": "2026-10-29",
+  "questions": [
+    {
+      "id": "endorepro-week-4-cbl-001",
+      "question": "A 23-year-old woman has 3 days of vulvar pain that worsens with walking and sitting. Examination shows a tender, fluctuant, 3-cm mass in the posterior part of the left labium minus at about the 4 o'clock position, beside the vaginal orifice. The overlying skin is erythematous. The structure most likely involved normally performs which function?",
+      "answers": {
+        "A": "Erectile tissue that flanks the vaginal orifice",
+        "B": "Homolog of the prostate that drains beside the urethra",
+        "C": "Partial closure of the external vaginal opening",
+        "D": "Secretion of alkaline fluid to lubricate the vestibule",
+        "E": "Secretion of alkaline mucus that aids sperm transport"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The bulbs of the vestibule are erectile tissue beside the orifice; they do not form a fluid-filled cyst or abscess.",
+        "B": "The lesser vestibular (Skene) glands lie beside the urethral meatus anteriorly, not posterolaterally at the vaginal orifice.",
+        "C": "The hymen is a thin membrane partly covering the vaginal opening; it has no glandular secretion.",
+        "D": "The greater vestibular (Bartholin) glands sit posterolateral to the vaginal orifice and secrete alkaline lubricating fluid; duct obstruction produces this cyst or abscess.",
+        "E": "Cervical glands secrete alkaline mucus to promote sperm flow, but the cervix is not at the vulvar vestibule."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-002",
+      "question": "A 27-year-old woman is brought to the emergency department with sudden lower abdominal pain and lightheadedness 7 weeks after her last menstrual period. Blood pressure is 88/54 mm Hg. Serum hCG is positive. With the patient supine, transvaginal ultrasound shows free fluid collecting directly between the posterior uterine wall and the rectum. In which space has the fluid collected?",
+      "answers": {
+        "A": "Broad ligament",
+        "B": "Ischioanal fossa",
+        "C": "Rectouterine pouch",
+        "D": "Retropubic space",
+        "E": "Uterovesical pouch"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The broad ligament is a peritoneal fold that suspends the tubes and ovaries laterally; it does not lie between the uterus and rectum.",
+        "B": "The ischioanal fossa lies below the pelvic floor beside the anal canal and is not part of the peritoneal cavity.",
+        "C": "The rectouterine pouch lies between the rectum and uterus and is the lowest point of the peritoneal cavity, so blood from a ruptured ectopic pregnancy collects there.",
+        "D": "The retropubic space lies between the pubic symphysis and bladder, anterior to the uterus.",
+        "E": "The uterovesical pouch lies between the bladder and the anterior uterine wall, not behind the uterus."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-003",
+      "question": "A 31-year-old woman with 18 months of infertility has regular 28-day cycles. As part of her evaluation, an endometrial biopsy is taken on cycle day 23. A photomicrograph is shown. The glandular appearance in the upper layer of this tissue is produced mainly by which hormone and source?",
+      "image": {
+        "src": "images/week-4-cbl/003.jpg",
+        "caption": "Endometrial biopsy, cycle day 23, H&E",
+        "credit": "Week 4 CBL p. 9"
+      },
+      "answers": {
+        "A": "Estradiol from granulosa cells of the dominant follicle",
+        "B": "Follicle-stimulating hormone from the anterior pituitary",
+        "C": "Inhibin B from granulosa cells of growing follicles",
+        "D": "Luteinizing hormone from the anterior pituitary",
+        "E": "Progesterone from the corpus luteum"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Estradiol produces the proliferative pattern of straight tubular glands in which functionalis and basalis look alike.",
+        "B": "FSH acts on ovarian granulosa cells; it has no direct action on endometrial glands.",
+        "C": "Inhibin B feeds back on the pituitary to lower FSH; it does not shape the endometrium.",
+        "D": "LH triggers ovulation and luteinization but acts on the ovary, not directly on the endometrium.",
+        "E": "Coiled corkscrew glands with pale, glycogen-rich cytoplasm in the functionalis are the secretory phase, driven by corpus luteum progesterone."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-004",
+      "question": "A 29-year-old woman undergoes laparoscopy on cycle day 21 for suspected endometriosis. A small ovarian wedge is removed, and the low-power photomicrograph shown is obtained. The large pale cells that make up most of the folded wall of this structure arose from cells that lined the follicle before ovulation. What do these cells mainly secrete?",
+      "image": {
+        "src": "images/week-4-cbl/004.jpg",
+        "caption": "Ovary, cycle day 21, H&E, low power",
+        "credit": "Week 4 CBL p. 7"
+      },
+      "answers": {
+        "A": "Androstenedione for conversion elsewhere",
+        "B": "Anti-Müllerian hormone and inhibin B",
+        "C": "Follicle-stimulating hormone",
+        "D": "Progesterone, estrogen and inhibin A",
+        "E": "Testosterone and DHEA sulfate"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Theca interna cells make androstenedione before ovulation; they become the smaller theca lutein cells, not the bulk of the wall.",
+        "B": "Inhibin B is a follicular-phase granulosa product; after luteinization granulosa lutein cells secrete inhibin A.",
+        "C": "FSH is made by the anterior pituitary, not by ovarian cells.",
+        "D": "This is a corpus luteum; granulosa cells become granulosa lutein cells after ovulation and secrete progesterone, estrogen and inhibin A.",
+        "E": "DHEA sulfate comes mainly from the adrenal glands (adrenarche), not from luteinized granulosa cells."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-005",
+      "question": "A 33-year-old woman undergoing in vitro fertilization receives an injection that mimics the LH surge. Thirty-six hours later, oocytes are aspirated from mature follicles each larger than 10 mm. Microscopy of one oocyte, still surrounded by a corona radiata, shows a single polar body. At what stage is this oocyte arrested?",
+      "answers": {
+        "A": "Anaphase of meiosis I",
+        "B": "Diplotene of prophase I",
+        "C": "Metaphase of meiosis II",
+        "D": "Prophase of meiosis II",
+        "E": "Telophase of meiosis II"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anaphase I is transient; the oocyte does not arrest there.",
+        "B": "Oocytes in primordial and growing follicles are arrested in prophase I; the LH surge releases this arrest.",
+        "C": "Just before ovulation the oocyte completes meiosis I, extrudes the first polar body and arrests in metaphase II until fertilization.",
+        "D": "The oocyte passes through prophase II quickly and arrests later, at metaphase II.",
+        "E": "Meiosis II is completed only after fertilization, producing the second polar body."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-006",
+      "question": "A hospital laboratory replaces its PCR-based assay for Chlamydia trachomatis and Neisseria gonorrhoeae with transcription-mediated amplification (TMA) on vaginal swabs. In a validation study, TMA detects several low-burden infections that PCR missed. Which property of TMA best explains its higher sensitivity?",
+      "answers": {
+        "A": "It amplifies an RNA with thousands of copies per cell",
+        "B": "It detects host antibodies made against the organism",
+        "C": "It relies on thermal cycling to separate DNA strands",
+        "D": "It uses a heat-stable DNA polymerase for extension",
+        "E": "It yields stable DNA products that accumulate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "TMA amplifies rRNA, which is present in thousands of copies per bacterial cell, versus one to a few copies of the DNA target used by PCR.",
+        "B": "Both are nucleic acid amplification tests; neither detects antibodies.",
+        "C": "PCR, not TMA, uses repeated heating and cooling; TMA runs at a single temperature.",
+        "D": "Taq DNA polymerase is the PCR enzyme; TMA uses reverse transcriptase and T7 RNA polymerase.",
+        "E": "TMA produces RNA copies that break down quickly; stable DNA amplicons are a PCR feature."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-007",
+      "question": "After switching from PCR to transcription-mediated amplification (TMA) for gonorrhea testing, a high-volume laboratory finds that sporadic positive results in negative-control wells, previously traced to carryover from earlier runs, have nearly disappeared. Which feature of TMA best explains this change?",
+      "answers": {
+        "A": "Higher primer annealing temperatures",
+        "B": "Proofreading activity of reverse transcriptase",
+        "C": "Rapid degradation of its RNA amplicons",
+        "D": "Removal of host DNA by RNase H",
+        "E": "Use of a single thermostable enzyme"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "TMA runs at a single moderate temperature (about 41 °C); annealing temperature is not what prevents carryover.",
+        "B": "Reverse transcriptase copies rRNA into DNA; proofreading does not affect contamination between samples.",
+        "C": "TMA makes RNA copies that break down quickly, so leftover amplicons cannot contaminate the next sample, reducing false positives.",
+        "D": "RNase H degrades the RNA strand of RNA-DNA hybrids within the reaction; it does not remove carryover amplicons.",
+        "E": "TMA uses two enzymes (reverse transcriptase and T7 RNA polymerase); enzyme number does not explain fewer false positives."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-008",
+      "question": "Cultured endometrial cells are pretreated with actinomycin D, which blocks transcription, and then exposed to estradiol. Within 5 minutes, phosphorylated ERK and AKT rise sharply. Without estradiol, no rise occurs. Which mechanism best explains this response?",
+      "answers": {
+        "A": "Estradiol binding a receptor tyrosine kinase",
+        "B": "Estradiol release of HSP90 to form new kinases",
+        "C": "Estradiol-driven synthesis of new kinase proteins",
+        "D": "Estrogen receptor activation of protein kinase cascades",
+        "E": "Estrogen receptor dimers binding DNA via zinc fingers"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Estradiol is a steroid that acts through nuclear receptors, not receptor tyrosine kinases.",
+        "B": "Release of HSP90 precedes dimerization and DNA binding; it does not create kinases.",
+        "C": "New protein synthesis would require transcription, which is blocked here.",
+        "D": "Estrogen and progesterone receptors can signal rapidly through kinase cascades (MAPK/ERK, PI3K/AKT) without transcription or new protein synthesis.",
+        "E": "The classic genomic pathway needs transcription, which actinomycin D blocks, and it takes much longer than minutes."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-009",
+      "question": "A 26-year-old woman has primary infertility and very low serum estradiol despite normal androstenedione production by her ovaries. Ultrasound shows no follicles beyond the early stage. Genetic testing shows an inactivating mutation in a gonadotropin receptor. Loss of which step best explains her low estradiol?",
+      "answers": {
+        "A": "FSH-driven androstenedione synthesis in theca cells",
+        "B": "FSH-driven aromatization in granulosa cells",
+        "C": "LH-driven aromatization in theca externa cells",
+        "D": "LH-driven cholesterol conversion in theca interna",
+        "E": "LH-driven inhibin B secretion by granulosa cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Theca cells make androstenedione under LH, not FSH, and her androstenedione is normal.",
+        "B": "In the two-cell model, FSH acts on granulosa cells to convert theca-derived androstenedione to estradiol with aromatase; loss of the FSH receptor stops this step.",
+        "C": "The theca externa is contractile connective tissue and does not aromatize androgens.",
+        "D": "This step makes androstenedione, which is normal here.",
+        "E": "Inhibin B is a granulosa product under FSH and does not produce estradiol."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-010",
+      "question": "A 30-year-old woman with regular cycles has daily serum hormone measurements during one cycle. Selected values are shown. Which mechanism best explains the change between days 12 and 14?",
+      "table": [
+        [
+          "Cycle day",
+          "Estradiol (pg/mL)",
+          "LH (mIU/mL)",
+          "Progesterone (ng/mL)"
+        ],
+        [
+          "8",
+          "90",
+          "7",
+          "0.4"
+        ],
+        [
+          "12",
+          "310",
+          "9",
+          "0.6"
+        ],
+        [
+          "14",
+          "240",
+          "62",
+          "1.5"
+        ],
+        [
+          "21",
+          "150",
+          "6",
+          "14"
+        ]
+      ],
+      "answers": {
+        "A": "Positive feedback of sustained high estradiol",
+        "B": "Progesterone from the corpus luteum stimulating GnRH",
+        "C": "Reduced inhibin B removing feedback on FSH",
+        "D": "Rise in FSH stimulating LH-producing cells",
+        "E": "Withdrawal of estradiol negative feedback"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "When late-follicular estradiol stays above a threshold, its pituitary feedback switches from negative to positive, triggering the LH surge.",
+        "B": "The corpus luteum forms after the surge, and luteal progesterone exerts negative feedback.",
+        "C": "Inhibin B suppresses FSH; a fall would raise FSH, not produce a large LH surge.",
+        "D": "FSH does not stimulate LH secretion; both respond to GnRH and ovarian feedback.",
+        "E": "Estradiol is at its peak before the surge, not withdrawn."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-011",
+      "question": "A 28-year-old woman trying to conceive charts her basal body temperature. It is stable for the first 2 weeks of each cycle, then rises by about 0.4 °C and stays up until menses. The hormone responsible for this rise also has which effect?",
+      "answers": {
+        "A": "Increases HDL and lowers LDL",
+        "B": "Increases myometrial excitability",
+        "C": "Increases prolactin secretion",
+        "D": "Stimulates endometrial proliferation",
+        "E": "Thickens cervical mucus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Estrogen raises HDL and lowers LDL; progesterone has the opposite lipid effect.",
+        "B": "Estrogen increases uterine excitability; progesterone relaxes smooth muscle and represses contractions.",
+        "C": "Estrogen increases prolactin; progesterone inhibits it.",
+        "D": "Estrogen drives proliferation; progesterone converts the lining to secretory tissue and inhibits hyperplasia.",
+        "E": "Progesterone raises body temperature after ovulation and makes cervical mucus thick, whereas estrogen makes it thin."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-012",
+      "question": "A 34-year-old transgender woman taking high-dose oral estradiol develops left calf swelling. Duplex ultrasound shows a popliteal vein thrombosis. She does not smoke, and her blood pressure is normal. Which effect of estrogen most directly contributed to this thrombosis?",
+      "answers": {
+        "A": "Blocked hepatic production of plasminogen",
+        "B": "Decreased antithrombin III with more clotting factors",
+        "C": "Endothelial injury from hypertension",
+        "D": "Increased LDL with decreased HDL",
+        "E": "Suppressed cellular immune responses"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Estrogen increases, not decreases, plasminogen.",
+        "B": "Estrogen lowers antithrombin III and raises factors II, VII, IX and X, increasing coagulability.",
+        "C": "Her blood pressure is normal, and hypertension is not estrogen's main thrombotic mechanism.",
+        "D": "Estrogen does the opposite (more HDL, less LDL), and lipids do not explain venous thrombosis.",
+        "E": "Estrogen does suppress cellular immunity, but that does not cause venous thrombosis."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-013",
+      "question": "A 15-year-old girl who trains as a competitive ballet dancer 25 hours a week has never had a menstrual period. Her breasts are Tanner stage 2, and she has a normal sense of smell. BMI is 16 kg/m². Laboratory results are shown. Which mechanism best explains her delayed menarche?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "FSH",
+          "1.2 mIU/mL",
+          "1.5–9 mIU/mL"
+        ],
+        [
+          "LH",
+          "0.4 mIU/mL",
+          "1–12 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "12 pg/mL",
+          "30–400 pg/mL"
+        ],
+        [
+          "Prolactin",
+          "9 ng/mL",
+          "<25 ng/mL"
+        ],
+        [
+          "TSH",
+          "1.8 μU/mL",
+          "0.5–4.5 μU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Failed migration of GnRH neurons from the olfactory placode",
+        "B": "Hyperprolactinemia suppressing GnRH secretion",
+        "C": "Loss of ovarian follicles with low estradiol",
+        "D": "Low leptin removing a permissive signal for GnRH pulses",
+        "E": "Resistance of the ovary to gonadotropins"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Failed GnRH neuron migration (Kallmann syndrome) comes with anosmia, and her smell is normal.",
+        "B": "Her prolactin is normal.",
+        "C": "Primary ovarian failure would raise FSH and LH through lost negative feedback; hers are low.",
+        "D": "Leptin signals adequate fat stores; low body fat lowers leptin, so the GnRH pulse generator does not mature and menarche is delayed.",
+        "E": "Ovarian resistance would also raise FSH and LH, not lower them."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-014",
+      "question": "A 12-year-old girl had her first menstrual period 4 months ago. Since then she has bled twice at irregular intervals. Thelarche began at age 10. Her growth has slowed over the past year. Which mechanism best explains the bleeding at her first period?",
+      "answers": {
+        "A": "Corpus luteum regression with progesterone withdrawal",
+        "B": "Fall in estradiol shedding the proliferated lining",
+        "C": "LH surge rupturing the dominant follicle",
+        "D": "Prostaglandin release from a secretory endometrium",
+        "E": "Spiral artery rupture from rising hCG"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Progesterone withdrawal after corpus luteum regression causes menses only in ovulatory cycles, which come later.",
+        "B": "Early cycles are anovulatory, so menarche is usually an estrogen-withdrawal (breakthrough) bleed of the estrogen-proliferated functionalis.",
+        "C": "The positive-feedback LH surge is not mature at menarche, and follicle rupture does not cause uterine bleeding.",
+        "D": "Prostaglandin release after progesterone withdrawal causes primary dysmenorrhea once cycles are ovulatory.",
+        "E": "hCG is a pregnancy hormone and does not cause menses."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-015",
+      "question": "A 25-year-old woman has her third episode in a year of painful grouped vesicles on erythematous bases on the right labium majus, with burning pain and tender inguinal nodes. Each episode heals within a week. Between episodes she is asymptomatic, but she can still transmit the infection. Where does the causative virus persist between episodes?",
+      "answers": {
+        "A": "Basal keratinocytes with viral DNA integrated",
+        "B": "Inguinal lymph node macrophages",
+        "C": "Langerhans cells of the vulvar epidermis",
+        "D": "Sensory neurons of the sacral ganglia",
+        "E": "Vaginal squamous epithelial cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Integration into basal epithelial cells is the mechanism of high-risk HPV, not of HSV.",
+        "B": "Tender nodes reflect local inflammation; the virus does not persist in nodal macrophages.",
+        "C": "HSV infects skin and mucosal epithelium during outbreaks but does not stay latent in Langerhans cells.",
+        "D": "HSV establishes latency in sensory nerve ganglia, which explains recurrent outbreaks at the same site and asymptomatic shedding.",
+        "E": "Epithelial cells are lysed during active infection; they are not the reservoir between outbreaks."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-016",
+      "question": "A 29-year-old woman has a cervical cytology result of a high-grade squamous intraepithelial lesion, and testing detects HPV type 16. Her partner was treated last year for cauliflower-shaped genital warts caused by HPV type 6. Which property of HPV 16 best explains why it, unlike HPV 6, leads to dysplasia and cancer?",
+      "answers": {
+        "A": "Envelope glycoproteins allow entry into sensory nerves",
+        "B": "Infection is limited to superficial squamous cells",
+        "C": "Integration of viral DNA into the host genome",
+        "D": "Replication in sensory ganglia causes recurrence",
+        "E": "Reverse transcription of an RNA genome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "HPV is non-enveloped and does not infect nerves; neural latency is a feature of HSV.",
+        "B": "HPV infects basal epithelial cells; superficial infection would not explain dysplasia.",
+        "C": "High-risk HPV types integrate their DNA into the host genome, disrupting cell-cycle regulation and causing dysplasia.",
+        "D": "Latency in ganglia is an HSV feature.",
+        "E": "HPV is a DNA virus and does not use reverse transcription."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-017",
+      "question": "A 27-year-old man has 6 weeks of dysuria and a thin mucoid urethral discharge that persisted after a single injection of ceftriaxone. NAAT of first-void urine is negative for Chlamydia trachomatis and Neisseria gonorrhoeae. A Gram stain of the discharge shows neutrophils but no organisms. The most likely pathogen has which characteristic?",
+      "answers": {
+        "A": "Corkscrew-shaped spirochete seen on darkfield",
+        "B": "Flagellated protozoan with an undulating membrane",
+        "C": "Gram-negative diplococcus with antigenically variable pili",
+        "D": "Lacks a peptidoglycan cell wall",
+        "E": "Obligate intracellular elementary body"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Treponema pallidum causes painless chancres, not persistent urethritis with discharge.",
+        "B": "Trichomonas can cause mild urethritis in men, but it is a protozoan; failure of a β-lactam with no organisms on Gram stain points to a wall-less bacterium.",
+        "C": "N. gonorrhoeae would be seen on Gram stain and is NAAT-negative here.",
+        "D": "Mycoplasma genitalium has no peptidoglycan cell wall, so it cannot be Gram stained and is resistant to β-lactams such as ceftriaxone; it causes persistent nongonococcal urethritis.",
+        "E": "C. trachomatis is excluded by the negative NAAT."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-018",
+      "question": "A 20-year-old woman has mucopurulent cervical discharge and postcoital bleeding. NAAT detects Chlamydia trachomatis. In her endocervical columnar cells, the organism is replicating inside membrane-bound inclusions. Which form of the organism, released when the inclusion lyses or is extruded, transmits the infection to new cells and partners?",
+      "answers": {
+        "A": "Cyst",
+        "B": "Elementary body",
+        "C": "Endospore",
+        "D": "Reticulate body",
+        "E": "Trophozoite"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cysts are dormant protozoan forms; chlamydia has none.",
+        "B": "Elementary bodies are the small infectious, non-replicating form that enters columnar cells and is released to infect new cells.",
+        "C": "Endospores are formed by some Gram-positive bacteria, not chlamydia.",
+        "D": "Reticulate bodies are the replicating, noninfectious form inside the inclusion.",
+        "E": "Trophozoites are the active stage of protozoa such as Trichomonas."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-019",
+      "question": "A 22-year-old woman has 4 days of fever and lower abdominal pain and 1 day of sharp right upper quadrant pain that is worse with deep breaths and radiates to the right shoulder. She has multiple sexual partners and uses condoms inconsistently. Pelvic examination shows mucopurulent cervical discharge and cervical motion tenderness. Liver enzymes and gallbladder ultrasound are normal. Which best explains her upper abdominal pain?",
+      "answers": {
+        "A": "Acute calculous cholecystitis with gallstones",
+        "B": "Hematogenous liver abscess",
+        "C": "Perihepatitis of the liver capsule",
+        "D": "Right pyelonephritis",
+        "E": "Tubo-ovarian abscess"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gallbladder ultrasound is normal.",
+        "B": "Liver abscess is not a complication of PID, and liver enzymes are normal.",
+        "C": "Fitz-Hugh–Curtis syndrome is perihepatitis with adhesions between liver capsule and abdominal wall, causing RUQ pain that may refer to the shoulder, as a complication of PID.",
+        "D": "Pyelonephritis causes flank pain and urinary findings, not cervical motion tenderness.",
+        "E": "A tubo-ovarian abscess is a pelvic (adnexal) collection, not a cause of RUQ pleuritic pain."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-020",
+      "question": "A 26-year-old woman has a thin, gray-white vaginal discharge with a fishy odor that is worse after intercourse. She douches weekly. There is no itching. Findings on examination and microscopy are shown. Which process best explains her findings?",
+      "table": [
+        [
+          "Finding",
+          "Result"
+        ],
+        [
+          "Vaginal pH",
+          "5.2"
+        ],
+        [
+          "Whiff test (10% KOH)",
+          "Positive (amine odor)"
+        ],
+        [
+          "Saline wet mount",
+          "Squamous cells coated with bacteria (30% of cells); few neutrophils"
+        ],
+        [
+          "KOH preparation",
+          "No hyphae or budding yeast"
+        ]
+      ],
+      "answers": {
+        "A": "Ascending infection of the endometrium and tubes",
+        "B": "Flagellated protozoan damaging squamous epithelium",
+        "C": "Fungal overgrowth invading the vaginal epithelium",
+        "D": "Loss of lactobacilli with anaerobic overgrowth",
+        "E": "Viral infection of mucosal epithelial cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "PID causes pelvic pain and cervical motion tenderness, not an isolated malodorous vaginal discharge.",
+        "B": "Trichomoniasis is inflammatory, with many neutrophils, motile trophozoites and often frothy yellow-green discharge.",
+        "C": "Candidiasis causes thick, clumpy discharge, itching and a normal pH (≤4.5).",
+        "D": "Bacterial vaginosis is a dysbiosis: Lactobacillus depletion with Gardnerella and anaerobes, producing amines (fishy odor), pH >4.5, clue cells and minimal inflammation.",
+        "E": "HSV causes painful vesicles and ulcers, not this discharge."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-021",
+      "question": "A 24-year-old woman has had irregular menses every 2–4 months since menarche and increasing hair on her chin and abdomen. BMI is 34 kg/m². There are velvety, hyperpigmented plaques on the back of her neck. Laboratory results are shown. Which mechanism most directly raises her free testosterone above what her total testosterone alone would predict?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "LH",
+          "16 mIU/mL",
+          "2–12 mIU/mL"
+        ],
+        [
+          "FSH",
+          "5 mIU/mL",
+          "2–10 mIU/mL"
+        ],
+        [
+          "Total testosterone",
+          "68 ng/dL",
+          "15–70 ng/dL"
+        ],
+        [
+          "SHBG",
+          "14 nmol/L",
+          "20–130 nmol/L"
+        ],
+        [
+          "17-hydroxyprogesterone",
+          "90 ng/dL",
+          "<200 ng/dL"
+        ],
+        [
+          "Fasting insulin",
+          "32 μU/mL",
+          "2–20 μU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Excess aromatase activity in granulosa cells",
+        "B": "Hyperinsulinemia suppressing hepatic SHBG",
+        "C": "Low GnRH pulse frequency favoring FSH",
+        "D": "Nonclassic 21-hydroxylase deficiency",
+        "E": "Progesterone excess from luteinized follicles"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Low FSH stimulation in PMOS means granulosa cells aromatize little androgen; more aromatase would lower androgen.",
+        "B": "Insulin resistance raises insulin, which suppresses SHBG; less SHBG binding means more biologically active free testosterone.",
+        "C": "PMOS has increased GnRH pulse frequency, which favors LH over FSH, as her ratio shows.",
+        "D": "Nonclassic CAH would raise 17-hydroxyprogesterone, which is normal.",
+        "E": "She is anovulatory, so progesterone is low, and progesterone does not raise free androgen."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-022",
+      "question": "A 22-year-old woman with oligomenorrhea, acne and hirsutism has polycystic-appearing ovaries on ultrasound. Serum LH is about 3 times her FSH. Ovarian androgen production is high, but her follicles do not mature to ovulation. Which hypothalamic change best explains her LH-to-FSH ratio?",
+      "answers": {
+        "A": "Increased GnRH pulse frequency",
+        "B": "Loss of GnRH secretion",
+        "C": "Slower GnRH pulse frequency",
+        "D": "Steady continuous GnRH secretion",
+        "E": "Suppression of GnRH by prolactin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In PMOS, faster GnRH pulses raise LH relative to FSH; LH drives theca androgen production while relatively low FSH leaves follicles unstimulated.",
+        "B": "Absent GnRH would lower both LH and FSH, as in hypothalamic amenorrhea.",
+        "C": "Slower pulses favor FSH, the opposite of her pattern.",
+        "D": "Continuous GnRH (as with leuprolide) suppresses gonadotropin release rather than raising LH.",
+        "E": "Hyperprolactinemia suppresses GnRH and lowers LH, causing amenorrhea without a high LH-to-FSH ratio."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-023",
+      "question": "A 30-year-old woman has had two second-trimester pregnancy losses. Menarche was at 12 years, and her cycles are regular. Pelvic MRI shows a single cervix and a uterus whose outer fundal contour is indented, dividing it into two horns, as in the schematic shown. Which embryologic error best explains this anomaly?",
+      "image": {
+        "src": "images/week-4-cbl/023.png",
+        "caption": "Schematic of the patient's uterus",
+        "credit": "Week 4 CBL p. 29"
+      },
+      "answers": {
+        "A": "Complete failure of Müllerian duct fusion",
+        "B": "Failed canalization of the vaginal plate",
+        "C": "Failed development of one Müllerian duct",
+        "D": "Failed resorption of the septum after fusion",
+        "E": "Incomplete fusion of the Müllerian ducts"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Complete failure of fusion produces uterus didelphys, with two uteri and two cervices.",
+        "B": "Vaginal canalization failure causes a transverse vaginal septum, not a uterine anomaly.",
+        "C": "Failure of one duct produces a unicornuate uterus with a single horn.",
+        "D": "A persistent septum produces a septate uterus, which has a normal outer contour.",
+        "E": "Incomplete fusion produces a bicornuate uterus: two horns with an indented outer fundus and one or two cervices."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-024",
+      "question": "A 15-year-old girl has 5 months of monthly lower abdominal pain and has never had a menstrual period. She has Tanner stage 4 breast and pubic hair development. The external genitalia appear normal, but where the vaginal opening should be there is only a shallow dimple, with no bulging membrane. Ultrasound shows a normal uterus, cervix and ovaries, with blood distending the upper vagina. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Imperforate hymen",
+        "B": "Lower vaginal agenesis",
+        "C": "Müllerian agenesis",
+        "D": "Septate uterus",
+        "E": "Uterus didelphys"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An imperforate hymen sits at the vaginal opening and appears as a thin, bulging, bluish membrane over trapped blood.",
+        "B": "Abnormal development of the sinovaginal bulbs and vaginal plate leaves the lower vagina absent with a normal uterus, cervix and upper vagina, so blood is trapped and cyclic pain occurs.",
+        "C": "Müllerian agenesis leaves the uterus and upper vagina absent, so no blood can collect and there is no cyclic pain.",
+        "D": "A septate uterus usually does not cause primary amenorrhea because outflow is open.",
+        "E": "Didelphys gives two uteri and cervices with an open outflow, so menses occur."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-025",
+      "question": "An 11-year-old girl is seen for a well-child visit. Breast tissue extends beyond the edge of the areola, without a separate mound of areola and nipple above the breast contour. There is sparse, lightly pigmented, straight hair along the labia. Which Tanner stages best describe her development?",
+      "answers": {
+        "A": "Breast 2, pubic hair 2",
+        "B": "Breast 2, pubic hair 3",
+        "C": "Breast 3, pubic hair 2",
+        "D": "Breast 3, pubic hair 3",
+        "E": "Breast 4, pubic hair 2"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Breast stage 2 is only a breast bud beneath a slightly enlarged areola.",
+        "B": "Pubic hair stage 3 is darker, coarser, curlier hair spreading over the pubis.",
+        "C": "Breast tissue extending beyond the areola without a secondary mound is B3, and sparse lightly pigmented hair is PH2.",
+        "D": "Her pubic hair is sparse and lightly pigmented, which is stage 2.",
+        "E": "Breast stage 4 has the areola and nipple forming a secondary mound, which she lacks."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-026",
+      "question": "A 10-year-old boy is brought for evaluation because his parents think he is starting puberty early. He has no hair growth, voice change or growth acceleration yet. Which examination finding, if present, would be the first sign that his gonadal puberty has begun (Tanner genital stage 2)?",
+      "answers": {
+        "A": "Adult-pattern pubic hair extending onto the inner thighs",
+        "B": "Darkened scrotal skin with development of the glans",
+        "C": "Lengthening of the penis with continued testicular growth",
+        "D": "Sparse, lightly pigmented hair at the base of the penis",
+        "E": "Testicular enlargement to about 4–5 mL"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Hair onto the inner thighs is pubic hair stage 5, the last stage.",
+        "B": "Scrotal darkening and glans development are genital stage 4.",
+        "C": "Penile growth begins at genital stage 3.",
+        "D": "This is pubic hair stage 2, which is rated separately from genital development and is not its first sign.",
+        "E": "Genital stage 2 begins with testicular enlargement to about 4–5 mL and scrotal enlargement, before penile growth."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-027",
+      "question": "A 15-year-old girl is brought by her mother because she has not had a menstrual period. A 29-year-old woman is seen the same afternoon for 5 months without menses after years of regular cycles. Both will have vital signs, a pelvic exam, and skin and thyroid examinations. Which part of the physical examination is emphasized for the 15-year-old but not for the 29-year-old?",
+      "answers": {
+        "A": "Body habitus assessment",
+        "B": "Exam of the skin for acne and hirsutism",
+        "C": "Examination of the thyroid gland",
+        "D": "External and pelvic exam for normal anatomy",
+        "E": "Growth parameters and Tanner staging"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Body habitus is the element emphasized in secondary amenorrhea.",
+        "B": "Skin findings of androgen excess are sought in both.",
+        "C": "Thyroid examination is part of the workup for both.",
+        "D": "A pelvic exam assessing normal anatomy is part of the evaluation of both.",
+        "E": "Primary amenorrhea evaluation focuses on growth history and pubertal development, assessed with growth parameters and Tanner staging."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-028",
+      "question": "A 16-year-old girl has never menstruated. She has Tanner stage 4 breasts but scant pubic and axillary hair. The vagina is short and ends blindly, no cervix is seen, and there are firm, mobile masses in both inguinal canals. Ultrasound shows no uterus. Serum testosterone is in the male reference range. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Androgen insensitivity syndrome",
+        "B": "Kallmann syndrome",
+        "C": "Müllerian agenesis",
+        "D": "Pure (46,XY) gonadal dysgenesis",
+        "E": "Turner syndrome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A 46,XY karyotype with a nonfunctional androgen receptor gives female external genitalia, breasts from aromatized testosterone, scant hair, no Müllerian structures and undescended testes.",
+        "B": "Kallmann syndrome causes absent puberty with low gonadotropins and anosmia; breasts would not develop.",
+        "C": "Müllerian agenesis (46,XX) has normal pubic hair, ovaries and female-range testosterone.",
+        "D": "Streak gonads make no hormones (including AMH), so breasts would not develop and Müllerian structures would persist.",
+        "E": "Turner syndrome causes short stature and absent breast development with streak ovaries."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-029",
+      "question": "A 16-year-old girl has never menstruated and has no breast development. Her height is at the 55th percentile, she has a normal sense of smell, and she has no webbed neck or other dysmorphic features. Pelvic ultrasound shows a small uterus and no visible ovarian follicles. Laboratory results are shown. Which is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "FSH",
+          "92 mIU/mL",
+          "1.5–9 mIU/mL"
+        ],
+        [
+          "LH",
+          "48 mIU/mL",
+          "1–12 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "<10 pg/mL",
+          "30–400 pg/mL"
+        ],
+        [
+          "Karyotype",
+          "46,XX",
+          ""
+        ]
+      ],
+      "answers": {
+        "A": "Constitutional delay of puberty",
+        "B": "Functional hypothalamic amenorrhea",
+        "C": "Kallmann syndrome",
+        "D": "Müllerian agenesis",
+        "E": "Pure (46,XX) gonadal dysgenesis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Constitutional delay has low gonadotropins for age, not markedly high FSH and LH.",
+        "B": "Hypothalamic suppression lowers FSH and LH.",
+        "C": "Kallmann syndrome has low FSH and LH and usually anosmia.",
+        "D": "Müllerian agenesis has normal ovaries, normal breast development and normal FSH, with an absent uterus.",
+        "E": "Failed gonads (streak ovaries) make no estrogen, so FSH and LH are high; with a normal karyotype and height, this is pure gonadal dysgenesis, an ovarian cause."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-030",
+      "question": "A 27-year-old woman has had no menses for 5 months after years of regular cycles. She reports occasional headaches and milky nipple discharge. Urine and serum hCG are negative. TSH is normal. Serum prolactin is elevated on two separate fasting measurements, and she takes no medications. Which is the most appropriate next step in evaluation?",
+      "answers": {
+        "A": "Brain MRI of the pituitary",
+        "B": "Hemoglobin A1c",
+        "C": "Karyotype",
+        "D": "Pelvic ultrasound",
+        "E": "Repeat serum hCG in 1 week"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Persistent hyperprolactinemia with a normal TSH and no causative drugs calls for pituitary imaging to look for a prolactinoma.",
+        "B": "A1c is checked when PMOS is suspected, not for isolated hyperprolactinemia.",
+        "C": "Karyotype is reserved for primary amenorrhea when a chromosomal cause is suspected.",
+        "D": "Pelvic ultrasound assesses uterine and ovarian anatomy but does not address a high prolactin.",
+        "E": "Pregnancy has already been excluded by negative urine and serum hCG."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-031",
+      "question": "A 22-year-old woman comes for a routine visit. She has had two male sexual partners in the past year and uses condoms most of the time. She has no symptoms, and her examination is normal. She is not pregnant. Which screening test is recommended for her today?",
+      "answers": {
+        "A": "Chlamydia and gonorrhea NAAT on a vaginal swab",
+        "B": "Endocervical culture for gonorrhea susceptibility",
+        "C": "HSV type-specific IgG serology",
+        "D": "No testing unless symptoms develop",
+        "E": "Trichomonas wet mount"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Sexually active women younger than 25 are screened annually for chlamydia and gonorrhea, and a vaginal swab (self-collected is fine) is the preferred NAAT specimen.",
+        "B": "Culture is used mainly for antibiotic susceptibility, such as after a positive test of cure; NAAT is preferred for screening.",
+        "C": "Routine HSV serologic screening is not recommended.",
+        "D": "Chlamydia and gonorrhea are often asymptomatic in women, which is why young women are screened.",
+        "E": "Trichomonas screening is mainly for women with HIV, and the wet mount is insensitive."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-032",
+      "question": "A 35-year-old man is screened for sexually transmitted infections before starting HIV pre-exposure prophylaxis. Six years ago he was treated with benzathine penicillin G for secondary syphilis, and his RPR titer later became nonreactive. He has no symptoms, rash or lesions now. Results are shown. Which is the most likely interpretation?",
+      "table": [
+        [
+          "Test",
+          "Result"
+        ],
+        [
+          "Treponemal antibody (EIA)",
+          "Reactive"
+        ],
+        [
+          "RPR",
+          "Nonreactive"
+        ],
+        [
+          "HIV antigen/antibody",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Early latent syphilis needing treatment",
+        "B": "Neurosyphilis with a negative serum RPR",
+        "C": "Previously treated infection",
+        "D": "Primary syphilis before antibodies appear",
+        "E": "Reinfection since his treatment"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Active infection would make the nontreponemal (RPR) test reactive.",
+        "B": "He has no neurologic findings, and nothing suggests neurosyphilis.",
+        "C": "Treponemal antibodies stay positive for life after infection, while a nonreactive RPR after treatment shows there is no current infection.",
+        "D": "He has no chancre, and his reactive treponemal test is explained by the old infection.",
+        "E": "Reinfection would cause a rise in RPR titer (a 4-fold rise), not a nonreactive RPR."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-033",
+      "question": "A 34-year-old woman with polyendocrine metabolic ovarian syndrome has had menses every 3–5 months for years and now has 2 months of prolonged spotting. BMI is 36 kg/m². Pregnancy test is negative. An endometrial biopsy is shown; the glandular nuclei show no atypia. Which mechanism best explains this endometrial change?",
+      "image": {
+        "src": "images/week-4-cbl/033.jpg",
+        "caption": "Endometrial biopsy, H&E",
+        "credit": "Week 4 CBL p. 45"
+      },
+      "answers": {
+        "A": "Absent cyclic progesterone from chronic anovulation",
+        "B": "Excess progesterone from luteinized follicles",
+        "C": "HPV integration into endometrial cells",
+        "D": "Loss of estrogen receptors in the endometrium",
+        "E": "Prostaglandin release after progesterone withdrawal"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Without ovulation there is no corpus luteum and no progesterone, so estrogen stimulates the endometrium unopposed, producing hyperplasia without atypia (dilated cystic glands in abundant stroma).",
+        "B": "Progesterone converts and limits endometrial growth; it protects against hyperplasia.",
+        "C": "HPV causes squamous dysplasia of the cervix, vagina and vulva, not endometrial hyperplasia.",
+        "D": "Hyperplasia needs estrogen action through its receptors.",
+        "E": "Prostaglandins cause menstrual cramps; they do not cause glandular proliferation."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-034",
+      "question": "A 58-year-old woman with obesity has 3 weeks of postmenopausal vaginal bleeding. Transvaginal ultrasound shows a thickened endometrium, and an endometrial biopsy is performed. Which histologic description in the pathology report would indicate the highest risk of an endometrioid carcinoma being present or developing?",
+      "answers": {
+        "A": "Crowded back-to-back glands with nuclear atypia",
+        "B": "Dilated cystic glands in abundant stroma",
+        "C": "Secretory coiled glands with pale cytoplasm",
+        "D": "Straight tubular glands in cellular stroma",
+        "E": "Stromal breakdown with hemorrhage and neutrophils"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Hyperplasia with atypia (endometrial intraepithelial neoplasia) shows crowded glands with little stroma and atypical nuclei and carries a very high risk of carcinoma.",
+        "B": "Hyperplasia without atypia (Swiss cheese pattern) carries a low risk of carcinoma.",
+        "C": "This describes normal secretory endometrium.",
+        "D": "This describes normal proliferative endometrium.",
+        "E": "This describes menstrual endometrium."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-035",
+      "question": "A 37-year-old woman who smokes a pack of cigarettes a day and has migraine with aura asks for contraception. She has very heavy, painful periods and would like them to be lighter. She does not plan another pregnancy for several years. Which method is most appropriate?",
+      "answers": {
+        "A": "Combined oral contraceptive",
+        "B": "Copper IUD",
+        "C": "Levonorgestrel IUD",
+        "D": "Transdermal patch",
+        "E": "Vaginal ring"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Estrogen is contraindicated in a smoker 35 or older and with migraine with aura.",
+        "B": "The copper IUD is estrogen-free but makes periods heavier and more crampy.",
+        "C": "The levonorgestrel IUD is estrogen-free, over 99% effective, and makes heavy, painful periods lighter.",
+        "D": "The patch contains estrogen, which is contraindicated here.",
+        "E": "The ring contains estrogen, which is contraindicated here."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-036",
+      "question": "A 24-year-old woman with no medical problems is choosing between combined hormonal contraceptives. She asks which option carries the greatest risk of venous thromboembolism. Which answer is correct?",
+      "answers": {
+        "A": "All three, because they carry identical estrogen exposure",
+        "B": "Combined pill, because first-pass liver metabolism adds clotting factors",
+        "C": "Contraceptive ring, because vaginal delivery raises estrogen levels",
+        "D": "Mini-pill, because norethindrone raises fibrinogen",
+        "E": "Patch, because skipping first-pass metabolism raises estrogen exposure"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Exposure differs by route; the patch is highest and the ring lowest.",
+        "B": "The pill does undergo first-pass metabolism, but the patch gives higher overall estrogen exposure.",
+        "C": "The ring has the lowest estrogen dose of the combined methods.",
+        "D": "Progestin-only pills contain no estrogen and are used when estrogen is contraindicated.",
+        "E": "The patch avoids first-pass metabolism and delivers about 60% more estrogen than the pill, giving the highest VTE risk."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-037",
+      "question": "A 20-year-old woman's NAAT is positive for both Neisseria gonorrhoeae and Chlamydia trachomatis. She is treated in clinic. Her only partner in the past month is a man who has no primary care physician and says he will not come in to be examined. She asks whether she can take medication to him. Which regimen is appropriate for expedited partner therapy?",
+      "answers": {
+        "A": "Azithromycin alone",
+        "B": "Benzathine penicillin G intramuscularly",
+        "C": "Ceftriaxone intramuscularly plus oral doxycycline",
+        "D": "Metronidazole as a single oral dose",
+        "E": "Oral cefixime plus oral doxycycline"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Azithromycin alone is not adequate gonorrhea therapy because of rising resistance.",
+        "B": "Penicillin G treats syphilis, not gonorrhea or chlamydia, and cannot be given as take-home therapy.",
+        "C": "Ceftriaxone is preferred but requires an in-person injection, which this partner refuses.",
+        "D": "Metronidazole treats trichomonas and anaerobes, not gonorrhea or chlamydia.",
+        "E": "Expedited partner therapy treats partners without examination using oral drugs: cefixime for gonorrhea and doxycycline for chlamydia."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-038",
+      "question": "A 23-year-old woman is treated for chlamydial cervicitis with a 7-day oral regimen. On day 4 she develops a sunburn-like rash on her forearms after an afternoon outdoors and burning retrosternal pain when swallowing, having taken each dose just before lying down at night. What is the mechanism of the drug she was given?",
+      "answers": {
+        "A": "Binds penicillin-binding proteins to block cross-linking",
+        "B": "Binds the 30S subunit and blocks aminoacyl-tRNA attachment",
+        "C": "Binds the 30S subunit and causes mRNA misreading",
+        "D": "Binds the 50S subunit and blocks translocation",
+        "E": "Blocks cell-wall synthesis as an oral β-lactam"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This is ceftriaxone, given intramuscularly for gonorrhea.",
+        "B": "Doxycycline, the preferred chlamydia drug, binds 30S to block tRNA attachment; photosensitivity and pill esophagitis are its classic adverse effects.",
+        "C": "This is gentamicin, an IM aminoglycoside whose toxicities are kidney and ear damage.",
+        "D": "This is azithromycin, a single-dose alternative whose key adverse effects are GI upset and QT prolongation.",
+        "E": "Amoxicillin is a β-lactam used for chlamydia only in pregnancy; it does not cause photosensitivity or pill esophagitis."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-039",
+      "question": "A 21-year-old man with dysuria and urethral discharge receives a single intramuscular dose of ceftriaxone at an urgent care clinic. One week later his symptoms persist, and NAAT results return positive for Chlamydia trachomatis and negative for Neisseria gonorrhoeae. Which feature of the organism explains why the treatment failed?",
+      "answers": {
+        "A": "Altered penicillin-binding proteins",
+        "B": "Antigenic variation of surface pili",
+        "C": "Efflux of cephalosporins from the cytoplasm",
+        "D": "Lack of a classic peptidoglycan cell wall",
+        "E": "Production of an extended-spectrum β-lactamase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Altered PBPs explain resistance in some organisms that have a cell wall; chlamydia lacks the classic target altogether.",
+        "B": "Pilus variation is how N. gonorrhoeae evades immunity; it does not affect antibiotic action.",
+        "C": "Efflux is not the reason; the drug's target is missing.",
+        "D": "Chlamydia lacks a classic peptidoglycan wall, so β-lactams such as ceftriaxone do not work and a 30S or 50S protein synthesis inhibitor is needed.",
+        "E": "Chlamydia is not treated with ceftriaxone because of its missing wall, not because of β-lactamase."
+      }
+    },
+    {
+      "id": "endorepro-week-4-cbl-040",
+      "question": "A 16-year-old girl who has never received an HPV vaccine comes for a sports physical. She has had one sexual partner. She is healthy, not pregnant and has no allergies. Her mother asks whether vaccination is still worthwhile and how many doses are needed. Which recommendation is correct?",
+      "answers": {
+        "A": "One dose now, since she is already sexually active",
+        "B": "Three doses given over 6 months",
+        "C": "Two doses given 6 to 12 months apart",
+        "D": "Vaccination is no longer indicated after sexual debut",
+        "E": "Wait until cervical screening begins at age 21"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A single dose is not the recommended schedule, and sexual activity does not rule out benefit.",
+        "B": "Teens who start the series on or after their 15th birthday need 3 doses over 6 months.",
+        "C": "Two doses are enough only when the series starts before the 15th birthday.",
+        "D": "Catch-up vaccination is recommended through age 26; it works best before exposure but still protects against types she has not acquired.",
+        "E": "Screening starts at 21 regardless of vaccination; vaccination should not be delayed."
+      }
+    }
+  ]
+}

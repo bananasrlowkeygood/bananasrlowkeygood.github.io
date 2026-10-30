@@ -1,0 +1,513 @@
+{
+  "lecture": "Abnormal Uterine Bleeding and Pelvic Pain",
+  "block": "endorepro",
+  "generated": "2026-10-29",
+  "questions": [
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-001",
+      "question": "A 38-year-old woman, G1P1, comes to the office because of pelvic pain and heavy menstrual bleeding that have worsened over the past 2 years. She reports increasing fatigue and says her abdomen feels more distended. Pulse is 98/min. Bimanual examination shows a firm pelvic mass contiguous with the uterus. A urine pregnancy test is negative. Which of the following is the most appropriate next step in evaluation?",
+      "answers": {
+        "A": "CBC and pelvic ultrasound",
+        "B": "Coagulation panel and von Willebrand testing",
+        "C": "CT of the abdomen and pelvis",
+        "D": "Endometrial biopsy",
+        "E": "Hysterosalpingogram"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A likely uterine mass with symptoms of anemia calls for a CBC to assess anemia and pelvic imaging (ultrasound) to characterize the mass and guide management.",
+        "B": "Coagulopathy workup fits heavy menses since menarche with a personal or family bleeding history, not new symptoms with a pelvic mass.",
+        "C": "CT is not good for defining or characterizing pelvic masses; ultrasound (or MRI) is preferred.",
+        "D": "She may eventually need tissue sampling, but with a pelvic mass and anemia symptoms the first step is CBC and pelvic imaging.",
+        "E": "HSG evaluates the uterine cavity and tubal patency (e.g., infertility); it does not characterize a pelvic mass or assess anemia."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-002",
+      "question": "A 14-year-old girl is brought to the office because of heavy menstrual bleeding. Menarche was 1 year ago, and since then her monthly menses soak through her clothes. She bled heavily after a tonsillectomy several years ago. Her mother has always had heavy periods and hemorrhaged after childbirth. Vital signs and examination are normal except for pallor. Laboratory studies are shown. A deficiency of which of the following is the most likely cause of her bleeding?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "9.0 g/dL",
+          "12–16 g/dL"
+        ],
+        [
+          "Platelet count",
+          "260,000/mm³",
+          "150,000–400,000/mm³"
+        ],
+        [
+          "TSH",
+          "2.1 μU/mL",
+          "0.5–4.5 μU/mL"
+        ],
+        [
+          "Prolactin",
+          "9 ng/mL",
+          "<25 ng/mL"
+        ],
+        [
+          "β-hCG",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Antithrombin III",
+        "B": "Factor IX",
+        "C": "Protein C",
+        "D": "Protein S",
+        "E": "von Willebrand factor"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Antithrombin deficiency causes a hypercoagulable state (thrombosis), not heavy bleeding.",
+        "B": "Factor IX deficiency (hemophilia B) is X-linked and rarely causes symptomatic bleeding in females; it is not the most common inherited coagulopathy behind AUB.",
+        "C": "Protein C deficiency predisposes to venous thrombosis, not to heavy menstrual bleeding.",
+        "D": "Protein S deficiency is a thrombophilia and would not cause mucosal bleeding.",
+        "E": "Correct. Heavy menses since menarche, surgical bleeding, and a family history of heavy menses and postpartum hemorrhage point to an inherited coagulopathy, most commonly von Willebrand disease."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-003",
+      "question": "A 44-year-old woman, G3P3, comes to the office because of 2 years of progressively heavy, painful menses and pain with intercourse. All three of her children were delivered by cesarean section. Pelvic examination shows a mobile, soft, diffusely enlarged, globular uterus about the size of a 12-week pregnancy. Ultrasound shows a diffusely enlarged uterus with heterogeneous myometrium and no discrete masses. Medical therapy fails, and she undergoes hysterectomy. Which of the following is most likely to be found on pathologic examination of the uterus?",
+      "explanationImage": {
+        "src": "images/abnormal-uterine-bleeding-and-pelvic-pain/003-exp.jpg",
+        "caption": "Bisected uterus in adenomyosis: diffusely enlarged, globular, thickened myometrium",
+        "credit": "Slides p. 15"
+      },
+      "answers": {
+        "A": "Discrete benign smooth muscle nodules",
+        "B": "Endometrial glands and stroma on the ovarian surface",
+        "C": "Endometrial glands and stroma within the myometrium",
+        "D": "Hyperplastic glands with cytologic atypia",
+        "E": "Polypoid overgrowth projecting into the cavity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Leiomyomas give an enlarged, irregular uterus with discrete masses on ultrasound, not a diffusely enlarged globular one.",
+        "B": "Ectopic endometrium outside the uterus is endometriosis, which typically gives an immobile uterus and uterosacral nodularity rather than a globular uterus.",
+        "C": "Correct. Heavy, painful menses with a diffusely enlarged, globular uterus after uterine surgery is adenomyosis, whose only definitive diagnosis is surgical pathology showing endometrial glands and stroma in the myometrium.",
+        "D": "Atypical endometrial hyperplasia presents with irregular, prolonged bleeding (often with anovulation) and is not a cause of a globular, tender uterus.",
+        "E": "An endometrial polyp causes intermenstrual or postcoital bleeding but does not diffusely enlarge the uterus."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-004",
+      "question": "A 36-year-old woman comes to the office because of 1 year of very heavy menses with clots. Cycles are regular every 28 days. She has no pelvic pressure, urinary frequency, or constipation. Hemoglobin is 9.6 g/dL. Pelvic examination shows a slightly enlarged, irregular uterus. Ultrasound shows a single 2-cm leiomyoma. The location of this leiomyoma is most likely which of the following?",
+      "answers": {
+        "A": "Cervical",
+        "B": "Intramural",
+        "C": "Pedunculated subserosal",
+        "D": "Submucosal",
+        "E": "Subserosal"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Leiomyomas are tumors of the uterine myometrium; the lecture classifies them as subserosal, intramural, submucosal, or pedunculated, and a cervical location does not explain HMB.",
+        "B": "Intramural fibroids in the wall may cause pain or bulk symptoms depending on size, but HMB comes mainly from fibroids with a submucosal component.",
+        "C": "A pedunculated subserosal fibroid hangs off the outer surface and causes pressure or pain rather than heavy bleeding.",
+        "D": "Correct. Heavy menstrual bleeding from fibroids is caused mainly by fibroids with a submucosal component, which is why PALM-COEIN separates submucosal myoma (AUB-L-SM) from other myomas.",
+        "E": "Subserosal fibroids bulge outward from the serosa and cause bulk/pressure symptoms, not heavy bleeding, especially when small."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-005",
+      "question": "A 47-year-old woman undergoes hysterectomy for an enlarged, irregular uterus and heavy menses. The bisected specimen is shown. Molecular analysis finds that each nodule carries a different somatic mutation. Which of the following best describes the origin of these nodules?",
+      "image": {
+        "src": "images/abnormal-uterine-bleeding-and-pelvic-pain/005.jpg",
+        "caption": "Bisected hysterectomy specimen",
+        "credit": "Slides p. 22"
+      },
+      "answers": {
+        "A": "Ectopic endometrial glands in the myometrium",
+        "B": "Hematogenous spread from a single primary",
+        "C": "Independent clonal growths of myometrial cells",
+        "D": "Polyclonal hyperplasia of uterine smooth muscle",
+        "E": "Unopposed estrogen–driven endometrial growth"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Endometrial glands and stroma in the myometrium is adenomyosis, which diffusely enlarges the uterus without discrete nodules.",
+        "B": "Fibroids are benign; each nodule arises from its own cell and is not a metastasis.",
+        "C": "Correct. Leiomyomas are benign monoclonal smooth muscle tumors, each arising from a single myometrial cell, which is why separate nodules carry different somatic mutations.",
+        "D": "Leiomyomas are monoclonal, not polyclonal; diffuse myometrial hypertrophy is a different (unclassified) entity.",
+        "E": "Unopposed estrogen thickens the endometrium (hyperplasia), not the myometrium; fibroids are estrogen responsive but arise from smooth muscle cells."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-006",
+      "question": "A 34-year-old woman comes to the office because of 3 weeks of heavy vaginal bleeding. For years her menses have come only every 2 to 4 months. BMI is 36 kg/m². Examination shows hair on the chin and upper lip and dark, velvety skin on the back of the neck. The uterus is normal in size. Laboratory studies are shown. Which of the following best explains her heavy bleeding?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "β-hCG",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "TSH",
+          "1.8 μU/mL",
+          "0.5–4.5 μU/mL"
+        ],
+        [
+          "Prolactin",
+          "12 ng/mL",
+          "<25 ng/mL"
+        ],
+        [
+          "Free testosterone",
+          "9.8 pg/mL",
+          "1.0–8.5 pg/mL"
+        ],
+        [
+          "17-hydroxyprogesterone",
+          "Normal",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "Deficient local endometrial vasoconstrictors",
+        "B": "Ectopic endometrium within the myometrium",
+        "C": "Impaired platelet adhesion to subendothelium",
+        "D": "Progesterone withdrawal after a luteal phase",
+        "E": "Unopposed estrogen thickening the endometrium"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Local hemostatic defects describe AUB-E, a diagnosis of exclusion in ovulatory women with a normal uterus; she is anovulatory.",
+        "B": "Adenomyosis causes heavy, painful menses with a globular uterus; her uterus is normal and her cycles are infrequent.",
+        "C": "von Willebrand disease presents with heavy menses since menarche and a bleeding history, not years of infrequent cycles.",
+        "D": "Progesterone withdrawal after ovulation produces normal menses; her infrequent cycles indicate anovulation.",
+        "E": "Correct. In ovulatory dysfunction such as PMOS, the endometrium is exposed to estrogen without progesterone, so it thickens markedly and bleeds heavily and irregularly."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-007",
+      "question": "A 63-year-old woman comes to the office because of a single episode of vaginal spotting 1 week ago. Menopause occurred at age 51, and she takes no hormones. Pelvic examination shows no vulvar, vaginal, or cervical lesions. Transvaginal ultrasound shows an endometrial thickness of 11 mm. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "CT of the pelvis",
+        "B": "Endometrial biopsy",
+        "C": "Hysterosalpingogram",
+        "D": "Reassurance and observation",
+        "E": "Topical vaginal estrogen"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "CT is not good for characterizing pelvic or endometrial pathology.",
+        "B": "Correct. All postmenopausal bleeding needs evaluation, and an endometrium thicker than 5 mm suggests hyperplasia or cancer, which is diagnosed by tissue sampling.",
+        "C": "HSG assesses the cavity and tubal patency, mostly in infertility; it does not provide tissue to rule out cancer.",
+        "D": "All bleeding after menopause is abnormal; a thickened endometrium must be sampled.",
+        "E": "Estrogen treats atrophy, which gives a thin endometrium; a thick endometrium needs tissue sampling first."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-008",
+      "question": "A 58-year-old woman comes to the office because of light spotting after intercourse for 2 months. Menopause occurred at age 50, and she takes no hormones. Speculum examination shows pale, dry vaginal epithelium with almost no rugae and a few small superficial erosions; the cervix appears normal. Transvaginal ultrasound shows a thin endometrium measuring 3 mm. Which of the following is the most likely cause of her bleeding?",
+      "answers": {
+        "A": "Atrophy from hypoestrogenism",
+        "B": "Cervical polyp",
+        "C": "Endometrial carcinoma",
+        "D": "Leiomyoma",
+        "E": "Submucosal adenomyosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Low estrogen thins the vaginal mucosa and endometrium; the dry tissue suffers friction microerosions and bleeds easily, and the exam shows pale, dry epithelium with little rugation.",
+        "B": "A cervical polyp would be seen on speculum exam as a lesion at the os; her cervix is normal.",
+        "C": "Endometrial cancer typically shows a thickened endometrium (>5 mm) on ultrasound, not 3 mm.",
+        "D": "Fibroids cause an enlarged, irregular uterus and heavy menses before menopause; they do not explain postcoital spotting with atrophic mucosa.",
+        "E": "Adenomyosis presents with heavy, painful menses in reproductive-age patients and an enlarged globular uterus."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-009",
+      "question": "A 13-year-old girl is brought to the office because of irregular periods. Menarche was 8 months ago. Since then, her cycles have ranged from 20 to 60 days, and some periods have been heavy. She has had no bleeding problems with dental work or injuries, and there is no family history of bleeding disorders. BMI is 21 kg/m². There is no acne or hirsutism. Hemoglobin is 12.2 g/dL; TSH and prolactin are normal, and β-hCG is negative. Which of the following is the most likely cause of her bleeding pattern?",
+      "answers": {
+        "A": "Adenomyosis",
+        "B": "Coagulopathy",
+        "C": "Endometrial polyp",
+        "D": "Immature hypothalamic-pituitary-ovarian axis",
+        "E": "Polyendocrine metabolic ovarian syndrome"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Adenomyosis causes heavy, painful menses with an enlarged uterus, usually in older parous patients.",
+        "B": "Coagulopathy is suggested by heavy regular menses since menarche with a personal or family bleeding history, which she lacks.",
+        "C": "Polyps are most common between 40 and 50 years and cause intermenstrual or postcoital bleeding.",
+        "D": "Correct. Adolescence is a physiologic cause of ovulatory dysfunction; at the extremes of reproductive age the HPO axis is deranged, giving irregular, sometimes heavy, anovulatory cycles.",
+        "E": "PMOS is a pathologic hyperandrogenic cause; she has a normal BMI and no acne or hirsutism."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-010",
+      "question": "A 29-year-old woman comes to the office because of 3 years of worsening menstrual cramps, pain with intercourse, and pain with bowel movements during menses. Pelvic examination shows nodularity along the uterosacral ligaments and an immobile uterus. Diagnostic laparoscopy shows the findings in the image. She does not desire pregnancy now. Which of the following is the most appropriate first-line medical therapy?",
+      "image": {
+        "src": "images/abnormal-uterine-bleeding-and-pelvic-pain/010.jpg",
+        "caption": "Laparoscopic view of the pelvic peritoneum",
+        "credit": "Slides p. 55"
+      },
+      "answers": {
+        "A": "Combined oral contraceptive pills",
+        "B": "Elagolix",
+        "C": "Leuprolide",
+        "D": "Metformin",
+        "E": "Tranexamic acid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Endometriosis (dysmenorrhea, dyspareunia, uterosacral nodularity, immobile uterus, peritoneal lesions) is treated first line with OCPs, along with NSAIDs.",
+        "B": "The GnRH antagonist elagolix is an option for endometriosis but is not first line.",
+        "C": "The GnRH agonist leuprolide is used for endometriosis after first-line therapy, not as initial treatment.",
+        "D": "Metformin is an insulin sensitizer used in PMOS, not endometriosis.",
+        "E": "Tranexamic acid reduces heavy bleeding (fibroids, coagulopathy, AUB-E) but does not treat endometriosis pain."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-011",
+      "question": "A 31-year-old woman with endometriosis has persistent pelvic pain despite OCPs and oral progestins. She is started on a monthly injection of a GnRH-targeted drug. Two weeks later she returns because her pain and bleeding transiently worsened after the first injection. Switching to which of the following drugs would most likely have avoided this initial worsening?",
+      "answers": {
+        "A": "Doxycycline",
+        "B": "Elagolix",
+        "C": "Leuprolide",
+        "D": "Metformin",
+        "E": "Tranexamic acid"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Doxycycline is an antibiotic suggested for AUB-E (endometritis); it does not act on the GnRH axis.",
+        "B": "Correct. She received a GnRH agonist (leuprolide), which first stimulates an LH surge before suppressing; the GnRH antagonist elagolix is effective immediately with no initial LH surge.",
+        "C": "Leuprolide is the GnRH agonist that causes the initial surge she experienced.",
+        "D": "Metformin treats insulin resistance in PMOS and has no role in endometriosis.",
+        "E": "Tranexamic acid is an antifibrinolytic for heavy bleeding; it does not suppress endometriosis."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-012",
+      "question": "A 30-year-old woman with dysmenorrhea and dyspareunia undergoes diagnostic laparoscopy, which confirms endometriosis. Which of the following sites is most likely to be involved?",
+      "answers": {
+        "A": "Appendix",
+        "B": "Fallopian tube",
+        "C": "Ovary",
+        "D": "Posterior cul-de-sac",
+        "E": "Round ligament"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The appendix is a recognized but less common site.",
+        "B": "The tubes are a common site but less frequent than the ovaries.",
+        "C": "Correct. The ovaries are the most common site of endometriosis (about 65%), followed by the uterosacral ligaments (45%) and posterior cul-de-sac (30%).",
+        "D": "The posterior cul-de-sac is involved in about 30%, less often than the ovaries.",
+        "E": "The round ligament is an uncommon site."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-013",
+      "question": "A 46-year-old woman comes to the office because of 6 months of bleeding between periods and after intercourse. Her cycles are otherwise regular. Pelvic examination shows a normal-sized, mobile uterus and a normal cervix. A sonohysterogram shows a focal intracavitary lesion, and the hysteroscopic view is shown. Which of the following is the most appropriate management?",
+      "image": {
+        "src": "images/abnormal-uterine-bleeding-and-pelvic-pain/013.jpg",
+        "caption": "Hysteroscopic view of the uterine cavity",
+        "credit": "Slides p. 11"
+      },
+      "answers": {
+        "A": "Hysterectomy",
+        "B": "Hysteroscopic excision with pathology",
+        "C": "Leuprolide injections",
+        "D": "Reassurance only",
+        "E": "Uterine artery embolization"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hysterectomy is definitive treatment for adenomyosis, fibroids, or cancer and is excessive for a focal polyp.",
+        "B": "Correct. A symptomatic endometrial polyp (smooth growth projecting from the endometrium causing IMB and postcoital bleeding) is removed hysteroscopically (polypectomy) and sent to pathology.",
+        "C": "A GnRH agonist is used for fibroid volume reduction or endometriosis, not to remove a polyp.",
+        "D": "Observation is appropriate only for an asymptomatic polyp; she is symptomatic.",
+        "E": "UAE treats leiomyomas, not endometrial polyps."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-014",
+      "question": "A 32-year-old woman comes to the office because of 2 years of heavy menstrual bleeding. Her cycles are regular every 28 days and last 6 days. She has no personal or family bleeding history and takes no medications. Pelvic examination shows a normal-sized uterus. Transvaginal ultrasound and sonohysterogram show a structurally normal uterus and cavity. Laboratory studies are shown. Which of the following is the most likely mechanism of her bleeding?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "10.8 g/dL",
+          "12–16 g/dL"
+        ],
+        [
+          "PT / INR",
+          "12 s / 1.0",
+          "11–13.5 s / 0.8–1.1"
+        ],
+        [
+          "aPTT",
+          "30 s",
+          "25–35 s"
+        ],
+        [
+          "von Willebrand factor antigen",
+          "110%",
+          "50–150%"
+        ],
+        [
+          "TSH",
+          "2.0 μU/mL",
+          "0.5–4.5 μU/mL"
+        ],
+        [
+          "β-hCG",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Arteriovenous malformation in the myometrium",
+        "B": "Ectopic endometrium within the myometrium",
+        "C": "Excess local endometrial plasminogen activator",
+        "D": "Reduced plasma von Willebrand factor",
+        "E": "Unopposed estrogen from anovulation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "AV malformations fall under the not-yet-classified (AUB-N) category, and her imaging shows a structurally normal uterus.",
+        "B": "Adenomyosis would give an enlarged, globular uterus and heterogeneous myometrium on imaging; her uterus is normal.",
+        "C": "Correct. HMB with regular cycles, a structurally normal uterus, and normal coagulation tests is AUB-E, thought to be a local hemostatic disorder of the endometrium such as excess local plasminogen activator.",
+        "D": "Her von Willebrand studies are normal, and she has no personal or family bleeding history.",
+        "E": "Unopposed estrogen causes irregular heavy bleeding in anovulatory women; her regular cycles indicate ovulation."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-015",
+      "question": "A 27-year-old woman with von Willebrand disease comes to the office because of heavy menses. She wants to avoid hormonal therapy. She is prescribed an oral medication to take only on heavy-flow days, and her menstrual blood loss decreases. Which of the following is the mechanism of action of this drug?",
+      "answers": {
+        "A": "Activates antithrombin to inhibit thrombin",
+        "B": "Blocks conversion of plasminogen to plasmin",
+        "C": "Increases endothelial release of vWF",
+        "D": "Suppresses pituitary gonadotropin release",
+        "E": "Thins the endometrium via progestin effect"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This is heparin's mechanism; an anticoagulant would worsen bleeding and is itself an iatrogenic cause of AUB.",
+        "B": "Correct. Tranexamic acid is an oral antifibrinolytic that blocks plasminogen activation to plasmin, preventing fibrinolysis of clots and reducing heavy menstrual bleeding.",
+        "C": "This is desmopressin's mechanism; the lecture reserves desmopressin for surgery or childbirth, and it is not an oral heavy-flow-day medication.",
+        "D": "GnRH agonists and antagonists act this way; they are hormonal and not taken only on heavy-flow days.",
+        "E": "Progestins (pills, LNG IUD) are hormonal therapy, which she wants to avoid."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-016",
+      "question": "A 30-year-old woman comes to the office because she has been unable to conceive for 18 months despite regular intercourse. She also has occasional intermenstrual spotting. Her physician wants a single study that shows both the shape of the uterine cavity and whether the fallopian tubes are open. Which of the following is the most appropriate study?",
+      "explanationImage": {
+        "src": "images/abnormal-uterine-bleeding-and-pelvic-pain/016-exp.jpg",
+        "caption": "Hysterosalpingogram: contrast fills the uterine cavity and both tubes",
+        "credit": "Slides p. 43"
+      },
+      "answers": {
+        "A": "Abdominal ultrasound",
+        "B": "CT of the pelvis",
+        "C": "Hysterosalpingogram",
+        "D": "Hysteroscopy",
+        "E": "Pelvic MRI"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ultrasound can suggest polyps, fibroids, or adenomyosis but cannot show whether the tubes are open.",
+        "B": "CT is not good for characterizing pelvic structures and does not show tubal patency.",
+        "C": "Correct. In HSG, contrast is introduced through a cervical catheter and fluoroscopy shows it filling the uterus and tubes and spilling from their ends, identifying intracavitary lesions and tubal disease.",
+        "D": "Hysteroscopy directly views (and can treat) intracavitary lesions but does not assess tubal patency.",
+        "E": "MRI helps diagnose adenomyosis and map fibroids before surgery; it does not test tubal patency."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-017",
+      "question": "A 41-year-old woman undergoes abdominal hysterectomy for symptomatic fibroids. To free the uterus laterally, the surgeon divides the broad ligament, a double layer of peritoneum on each side. The broad ligament is a lateral continuation of which of the following layers?",
+      "answers": {
+        "A": "Endometrial basal layer",
+        "B": "Endometrial functional layer",
+        "C": "Myometrium",
+        "D": "Perimetrium",
+        "E": "Vaginal mucosa"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The basal layer of the endometrium regenerates the functional layer after menses; it lines the cavity, not the outside of the uterus.",
+        "B": "The functional layer is the inner lining shed at menses.",
+        "C": "The myometrium is the middle smooth-muscle layer; it does not form peritoneal ligaments.",
+        "D": "Correct. The perimetrium is the outer serosal layer derived from peritoneum; laterally it becomes the broad ligament, and anteriorly and posteriorly it forms the vesico-uterine and rectouterine pouches.",
+        "E": "The vaginal mucosa lines the vagina and is not continuous with the broad ligament."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-018",
+      "question": "A 24-year-old woman comes to the office because of irregular light spotting since a 52-mg levonorgestrel IUD was placed 6 weeks ago. She has no pain or fever. Pelvic examination shows the IUD strings at the os and no lesions. A pregnancy test is negative. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Endometrial biopsy",
+        "B": "Hysteroscopy",
+        "C": "Pelvic MRI",
+        "D": "Reassurance and observation",
+        "E": "Removal of the IUD"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Tissue sampling is for suspected hyperplasia or malignancy; new spotting after hormonal IUD placement in a young woman does not need it.",
+        "B": "Hysteroscopy evaluates intracavitary lesions; the cause here is the medication itself.",
+        "C": "MRI is for adenomyosis diagnosis or fibroid mapping, not iatrogenic bleeding.",
+        "D": "Correct. Iatrogenic AUB from hormonal contraception often resolves over time; irregular bleeding with LNG IUDs decreases over the first 1–2 years and is least with the 52-mg device.",
+        "E": "Stopping the offending agent is an option if bleeding persists, but early spotting is expected and usually improves."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-019",
+      "question": "A 58-year-old woman who reached menopause 6 years ago has had known uterine fibroids for 15 years. Over the past 6 months her uterus has enlarged from the size of a 12-week to an 18-week pregnancy, and she has new pelvic pressure. She takes no hormones. Which of the following diagnoses is most important to consider?",
+      "answers": {
+        "A": "Adenomyosis",
+        "B": "Endometrial atrophy",
+        "C": "Endometrial polyp",
+        "D": "Endometriosis",
+        "E": "Uterine sarcoma"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Adenomyosis causes heavy, painful menses with a globular uterus in reproductive-age patients; it does not explain rapid postmenopausal growth.",
+        "B": "Atrophy causes bleeding from a thin endometrium, not uterine enlargement.",
+        "C": "A polyp is a small intracavitary growth and does not enlarge the uterus this much.",
+        "D": "Endometriosis causes pain from ectopic implants outside the uterus, not a growing uterine mass after menopause.",
+        "E": "Correct. Fibroids are estrogen responsive and should not grow after menopause; rapid growth or menopausal growth raises concern for uterine sarcoma."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-uterine-bleeding-and-pelvic-pain-020",
+      "question": "A 26-year-old woman comes to the office because her periods seem to come too often. Over the past year her cycles have lasted 19 to 22 days. Each period lasts 5 days with what she considers normal flow, and she has no bleeding between periods. Which of the following FIGO terms best describes her bleeding pattern?",
+      "answers": {
+        "A": "Frequent menses",
+        "B": "Heavy menstrual bleeding",
+        "C": "Infrequent menses",
+        "D": "Irregular menses",
+        "E": "Prolonged menses"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. FIGO defines normal cycle frequency as 24–38 days; cycles shorter than 24 days are frequent menses.",
+        "B": "Flow volume is patient determined, and she reports normal flow.",
+        "C": "Infrequent menses means cycles longer than 38 days.",
+        "D": "Irregular means a shortest-to-longest cycle variation of 8–10 days or more; her variation is 3 days.",
+        "E": "Prolonged menses means bleeding longer than 8 days; hers last 5."
+      }
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "lecture": "STI, PID, & Vaginitis",
+  "block": "endorepro",
+  "generated": "2026-10-29",
+  "questions": [
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-001",
+      "question": "A 22-year-old man comes to the clinic because of 3 days of dysuria and urethral discharge. One week ago he had unprotected intercourse with a new female partner. He is afebrile. Examination shows thick, purulent discharge at the urethral meatus; there are no genital ulcers. He has no drug allergies. A Gram stain of the discharge is shown. Urine NAAT results will not be available for 2 days. Which of the following is the most appropriate treatment at this visit?",
+      "image": {
+        "src": "images/sti-pid-and-vaginitis/001.jpg",
+        "caption": "Gram stain of urethral discharge",
+        "credit": "Lecture slides p. 27"
+      },
+      "answers": {
+        "A": "Amoxicillin 500 mg orally three times daily for 7 days",
+        "B": "Azithromycin 1 g orally once",
+        "C": "Ceftriaxone 500 mg IM plus 7 days of doxycycline",
+        "D": "Doxycycline 100 mg orally twice daily for 7 days alone",
+        "E": "Gentamicin 240 mg IM once plus azithromycin 2 g orally once"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Amoxicillin is the chlamydia regimen in pregnancy; it does not treat gonorrhea.",
+        "B": "Azithromycin alone is an alternative regimen for chlamydia; it does not treat the gonorrhea shown on Gram stain.",
+        "C": "Gram-negative diplococci indicate gonorrhea, treated with ceftriaxone 500 mg IM; doxycycline is added to cover chlamydia empirically even before it is confirmed.",
+        "D": "Doxycycline alone treats chlamydia but leaves the gonococcal infection seen on Gram stain untreated.",
+        "E": "Gentamicin plus azithromycin is reserved for a true cephalosporin allergy, which this patient does not have."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-002",
+      "question": "A 19-year-old woman is diagnosed with cervicitis after a pelvic examination shows a red, friable cervix with yellow mucopurulent discharge. Gram stain shows no organisms, and NAAT of a vaginal swab is positive for Chlamydia trachomatis. She asks how the infection is passed on. Which form of the organism, present in her genital secretions, is responsible for infecting a sexual partner's epithelial cells?",
+      "answers": {
+        "A": "Elementary body",
+        "B": "Endospore",
+        "C": "Inclusion body",
+        "D": "Reticulate body",
+        "E": "Trophozoite stage"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The elementary body is the small, infectious, nonreplicating form found in secretions; it attaches to and enters columnar epithelial cells of a new host.",
+        "B": "Endospores are dormant forms of some Gram-positive bacteria (Bacillus, Clostridium); Chlamydia does not form spores.",
+        "C": "The inclusion is the intracellular membrane-bound compartment where reticulate bodies replicate; it is not itself the transmissible particle.",
+        "D": "The reticulate body is the replicating but noninfectious intracellular form; it must reorganize into elementary bodies before release.",
+        "E": "Trophozoites are the active feeding stage of protozoa such as Trichomonas vaginalis, not a form of Chlamydia."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-003",
+      "question": "A 24-year-old man comes to the clinic with dysuria and thick purulent urethral discharge. Urine NAAT is positive for Neisseria gonorrhoeae. This is his third episode of gonococcal urethritis in 2 years; each prior episode was treated successfully. He asks why he has not become immune and why there is no vaccine. Which of the following best explains the lack of protective immunity?",
+      "answers": {
+        "A": "Absence of a peptidoglycan layer in its cell envelope",
+        "B": "Frequent recombination of the genes encoding its pili",
+        "C": "Intracellular replication within a protected inclusion",
+        "D": "Lack of a cyst stage outside the host",
+        "E": "Too small to be seen on Gram stain"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lacking a peptidoglycan wall is a feature of Chlamydia trachomatis, not N. gonorrhoeae.",
+        "B": "Gonococcal pilus genes recombine frequently, constantly changing the pilus antigens, so the body cannot mount lasting immunity and pili are a poor vaccine target.",
+        "C": "Replication within an inclusion describes the Chlamydia life cycle, not gonococcal immune evasion.",
+        "D": "Having no cyst stage explains why Trichomonas vaginalis is only sexually transmitted; it has nothing to do with immunity to gonorrhea.",
+        "E": "Being too small for Gram stain describes Treponema pallidum; N. gonorrhoeae is readily seen as Gram-negative diplococci."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-004",
+      "question": "A 29-year-old woman comes to the emergency department because of 1 day of left lower abdominal pain and light vaginal bleeding. Her last menstrual period was 7 weeks ago. At age 22 she had an episode of fever, lower abdominal pain, and cervical motion tenderness that she never had treated. Serum beta-hCG is 2,800 mIU/mL. Transvaginal ultrasound shows no intrauterine pregnancy and a left adnexal mass. Which of the following best explains the pathogenesis of her current condition?",
+      "answers": {
+        "A": "Ascending infection of the endometrium blocking implantation",
+        "B": "Hematogenous seeding of the ovary by a spirochete",
+        "C": "Inflammation of the liver capsule with adhesions",
+        "D": "Scarring of the fallopian tube impairing transit of the egg",
+        "E": "Volatile amines disrupting the cervical mucus barrier"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Active endometritis is not present; the problem is the location of implantation, not failure of the endometrium.",
+        "B": "Spirochetal (syphilis) infection does not cause tubal scarring and ectopic pregnancy; her prior illness was pelvic inflammatory disease.",
+        "C": "Liver capsule inflammation is Fitz-Hugh-Curtis perihepatitis, which causes right upper quadrant pain, not an ectopic pregnancy.",
+        "D": "Untreated PID scars the fallopian tubes, which inhibits transport of the fertilized egg to the uterus, so it implants in the tube (ectopic pregnancy).",
+        "E": "Volatile amines are produced by anaerobes in bacterial vaginosis and cause odor; they do not explain tubal implantation."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-005",
+      "question": "A 21-year-old woman comes to the emergency department because of 2 days of sharp right upper quadrant pain that worsens with deep breathing and radiates to her right shoulder. She has had mild lower abdominal discomfort for a week. She is sexually active with multiple partners and uses condoms inconsistently. Temperature is 38.2°C (100.8°F). There is right upper quadrant tenderness. Pelvic examination shows cervical motion tenderness and mucopurulent cervical discharge. Right upper quadrant ultrasound shows no gallstones. Laboratory results are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "WBC",
+          "13,200/mm³",
+          "4,500–11,000/mm³"
+        ],
+        [
+          "AST",
+          "28 U/L",
+          "8–40 U/L"
+        ],
+        [
+          "ALT",
+          "25 U/L",
+          "8–40 U/L"
+        ],
+        [
+          "Total bilirubin",
+          "0.7 mg/dL",
+          "0.1–1.0 mg/dL"
+        ],
+        [
+          "Urine beta-hCG",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Acute calculous cholecystitis",
+        "B": "Acute viral hepatitis",
+        "C": "Fitz-Hugh-Curtis syndrome",
+        "D": "Right lower lobe pneumonia",
+        "E": "Tubo-ovarian abscess"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cholecystitis does not explain cervical motion tenderness and mucopurulent cervicitis in a young, sexually active patient; ultrasound would usually show gallstones.",
+        "B": "Viral hepatitis raises aminotransferases markedly; her liver enzymes are normal.",
+        "C": "Perihepatitis from chlamydial or gonococcal PID inflames the liver capsule and local peritoneum, causing RUQ pain referred to the right shoulder with normal liver tests.",
+        "D": "Pneumonia can cause pleuritic upper abdominal pain, but it would not explain cervical motion tenderness and cervical discharge.",
+        "E": "A tubo-ovarian abscess is a PID complication, but it produces an adnexal mass and pelvic pain rather than isolated right upper quadrant pain."
+      },
+      "explanationImage": {
+        "src": "images/sti-pid-and-vaginitis/005-exp.jpg",
+        "caption": "Laparoscopy: string-like adhesions between the liver capsule and abdominal wall in perihepatitis",
+        "credit": "Lecture slides p. 47"
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-006",
+      "question": "A 25-year-old woman comes to the emergency department because of 3 days of fever, malaise, and pain in her wrists, knees, and ankles. Examination shows swelling and tenderness along the extensor tendon sheaths of the right wrist and several small painful pustules on an erythematous base over her ankles. She has a new male sexual partner. She has had no genital symptoms. Which of the following organisms is the most likely cause?",
+      "answers": {
+        "A": "Borrelia burgdorferi",
+        "B": "Chlamydia trachomatis",
+        "C": "Haemophilus ducreyi",
+        "D": "Neisseria gonorrhoeae",
+        "E": "Treponema pallidum"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Lyme disease causes erythema migrans and oligoarthritis after a tick bite, not tenosynovitis with pustular skin lesions after a new sexual partner.",
+        "B": "Chlamydia can trigger reactive arthritis (conjunctivitis, urethritis, arthritis), but it does not cause tenosynovitis with pustular dermatitis.",
+        "C": "H. ducreyi causes chancroid, a painful genital ulcer with painful lymphadenopathy, not a disseminated arthritis-dermatitis syndrome.",
+        "D": "Disseminated gonococcal infection (under 3% of cases) presents with fever, malaise, polyarthralgias, tenosynovitis, and dermatitis, often without genital symptoms, especially in women.",
+        "E": "Secondary syphilis causes a diffuse maculopapular rash including the palms and soles with lymphadenopathy, not tenosynovitis and pustules."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-007",
+      "question": "A 26-year-old man with HIV on antiretroviral therapy comes to the clinic because of a diffuse, mildly pruritic rash for 1 week. Six weeks ago he had intercourse with a new male partner. He does not recall any genital lesions. Examination shows a maculopapular rash over the trunk, arms, palms, and soles, whitish patches on the oral mucosa, and cervical lymphadenopathy. The appearance of his hands and feet is shown. Which of the following is the most likely diagnosis?",
+      "image": {
+        "src": "images/sti-pid-and-vaginitis/007.jpg",
+        "caption": "Palms and sole of the patient",
+        "credit": "Lecture slides p. 57"
+      },
+      "answers": {
+        "A": "Disseminated gonococcal infection",
+        "B": "Erythema multiforme from herpes simplex virus",
+        "C": "Primary syphilis",
+        "D": "Secondary syphilis",
+        "E": "Tertiary syphilis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Disseminated gonorrhea causes sparse pustular lesions with tenosynovitis and polyarthralgias, not a diffuse rash with mucous patches.",
+        "B": "HSV-associated erythema multiforme produces target lesions, not a maculopapular palm-and-sole rash with mucous patches and lymphadenopathy.",
+        "C": "Primary syphilis is a painless chancre at the site of inoculation, without a disseminated rash.",
+        "D": "Secondary syphilis reflects dissemination 2–6 weeks after the primary stage: diffuse maculopapular rash including palms and soles, mucous patches, and lymphadenopathy.",
+        "E": "Tertiary syphilis appears 15–30 years after untreated infection with cardiovascular, neurologic, and bony disease, not an acute rash."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-008",
+      "question": "A 30-year-old pregnant woman at 10 weeks' gestation undergoes routine prenatal screening. She has no symptoms and no history of syphilis or its treatment. Her laboratory uses the currently recommended (reverse) screening algorithm. Results are shown. Which of the following is the most appropriate next step in evaluation?",
+      "table": [
+        [
+          "Test",
+          "Result"
+        ],
+        [
+          "Treponemal enzyme immunoassay (EIA)",
+          "Reactive"
+        ],
+        [
+          "Rapid plasma reagin (RPR), qualitative",
+          "Nonreactive"
+        ],
+        [
+          "HIV antigen/antibody",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Culture of serum for treponemes",
+        "B": "Darkfield microscopy of a cervicovaginal swab",
+        "C": "No further testing; syphilis is ruled out",
+        "D": "Repeat the same treponemal EIA in 6 months",
+        "E": "Second, different treponemal test (TPPA)"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "T. pallidum is too picky to grow on routine culture, which is why diagnosis relies on indirect antibody tests.",
+        "B": "Darkfield microscopy requires a lesion to sample; she has none, and it is not part of the screening algorithm.",
+        "C": "A reactive treponemal test cannot be dismissed; discordant results require a second treponemal test.",
+        "D": "Repeating the same assay does not resolve whether the first result was a true or false positive.",
+        "E": "When the initial treponemal test is reactive and the RPR is nonreactive, a second treponemal test decides between prior/untreated syphilis (reactive) and syphilis unlikely (nonreactive)."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-009",
+      "question": "A 45-year-old man comes for a routine visit. He has no symptoms. He has had several male partners over the past decade and has never been tested for syphilis. Examination shows no rash, lesions, or neurologic abnormalities. He has no drug allergies. Laboratory results are shown. Which of the following is the most appropriate treatment?",
+      "table": [
+        [
+          "Test",
+          "Result"
+        ],
+        [
+          "Treponemal EIA",
+          "Reactive"
+        ],
+        [
+          "RPR",
+          "Reactive, titer 1:16"
+        ],
+        [
+          "HIV antigen/antibody",
+          "Negative"
+        ],
+        [
+          "Prior syphilis testing",
+          "None on record"
+        ]
+      ],
+      "answers": {
+        "A": "Aqueous penicillin G IV every 4 hours for 14 days total",
+        "B": "Ceftriaxone 500 mg IM once",
+        "C": "Doxycycline 100 mg orally twice daily for 14 days",
+        "D": "Penicillin G 2.4 million units IM once",
+        "E": "Penicillin G 2.4 million units IM weekly for 3 doses"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "IV aqueous penicillin G for 14 days is for neurosyphilis or ocular syphilis; he has no neurologic or ocular findings.",
+        "B": "Ceftriaxone 500 mg IM once is the treatment for gonorrhea, not syphilis.",
+        "C": "Doxycycline is the alternative only with penicillin allergy, and a 14-day course is for early syphilis, not late latent.",
+        "D": "A single IM dose treats primary, secondary, and early latent syphilis (infection within 12 months), not infection of unknown duration.",
+        "E": "He is asymptomatic with positive tests and unknown timing of infection, which is late latent syphilis, treated with penicillin G 2.4 million units IM weekly for 3 doses."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-010",
+      "question": "A 28-year-old man is diagnosed with secondary syphilis and receives penicillin G 2.4 million units IM in the clinic. Six hours later he returns with fever to 38.9°C (102°F), diffuse myalgias, and headache. His rash looks slightly more prominent. Blood pressure is 118/74 mm Hg, and there is no wheezing, urticaria, or angioedema. Which of the following best explains his symptoms?",
+      "answers": {
+        "A": "Antibody-mediated reaction to penicillin",
+        "B": "Dissemination of spirochetes to the central nervous system",
+        "C": "Inflammatory response to dying spirochetes",
+        "D": "New co-infection with herpes simplex virus",
+        "E": "Toxin release from Neisseria gonorrhoeae"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A penicillin allergy would cause urticaria, angioedema, wheezing, or hypotension, none of which he has.",
+        "B": "Neurosyphilis does not appear within hours of treatment as a self-limited febrile illness.",
+        "C": "The Jarisch-Herxheimer reaction is an acute, self-limited flu-like syndrome (fever, myalgias, headache) caused by inflammation from spirochetes killed by treatment.",
+        "D": "Primary HSV causes painful grouped vesicles; it would not begin within hours of a penicillin injection.",
+        "E": "There is no evidence of gonococcal infection, and gonococcal LOS does not cause a post-treatment febrile reaction."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-011",
+      "question": "A healthy 21-year-old man comes to the student clinic because of 2 days of a painful blister on his penis. He had unprotected intercourse with a new male partner 5 days ago. He is afebrile. There is no urethral discharge. There is mild bilateral inguinal lymphadenopathy. The lesion is shown. Which of the following is the most appropriate test to confirm the diagnosis?",
+      "image": {
+        "src": "images/sti-pid-and-vaginitis/011.jpg",
+        "caption": "Penile lesion",
+        "credit": "Lecture slides p. 72"
+      },
+      "answers": {
+        "A": "Biopsy with Wright-Giemsa stain for Donovan bodies",
+        "B": "Culture of the lesion for Haemophilus ducreyi",
+        "C": "PCR of fluid from an unroofed vesicle",
+        "D": "Serum HSV antibody testing",
+        "E": "Treponemal EIA followed by RPR"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Donovan bodies on biopsy diagnose granuloma inguinale, a painless beefy red destructive lesion, not clustered painful vesicles.",
+        "B": "H. ducreyi culture is used for chancroid, a painful ragged ulcer, not grouped vesicles.",
+        "C": "Painful grouped vesicles with local lymphadenopathy are classic for genital HSV; PCR of vesicle fluid is the confirmatory test (viral culture is under 50% sensitive).",
+        "D": "HSV serology is used for screening in pregnancy; it does not establish that this lesion is HSV, since most adults are seropositive for HSV-1.",
+        "E": "Syphilis serology evaluates a painless chancre; this lesion is painful and vesicular."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-012",
+      "question": "A 32-year-old man with HIV comes to the clinic because of painful genital sores for 1 week. He recently returned from travel during which he had sex with several partners. Examination shows two tender, ragged ulcers with red borders and a yellow base, one on the penile base and a matching one on the adjacent skin, along with tender, enlarged inguinal lymph nodes. The lesions are shown. Which of the following organisms is most likely responsible?",
+      "image": {
+        "src": "images/sti-pid-and-vaginitis/012.jpg",
+        "caption": "Genital lesions",
+        "credit": "Lecture slides p. 82"
+      },
+      "answers": {
+        "A": "Chlamydia trachomatis serotype L2",
+        "B": "Haemophilus ducreyi",
+        "C": "Herpes simplex virus type 2",
+        "D": "Klebsiella granulomatis",
+        "E": "Treponema pallidum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "LGV starts as a single painless papule or ulcer, followed by painful lymphadenopathy; the ulcers here are painful.",
+        "B": "Chancroid causes painful, indurated, ragged ulcers, often with a 'kissing' lesion on adjacent skin, and painful lymphadenopathy; outbreaks occur in MSM and people with HIV.",
+        "C": "HSV causes painful lesions, but as clusters of small vesicles that crust and heal within a week, not large ragged ulcers with a yellow base.",
+        "D": "Granuloma inguinale is painless and beefy red with high vascularity, not tender with a yellow base.",
+        "E": "The syphilitic chancre is painless and punched out with smooth, heaped-up borders."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-013",
+      "question": "A 30-year-old man who has sex with men comes to the clinic because of rectal pain, tenesmus, and bloody mucoid discharge for 2 weeks, along with a tender swelling in his left groin. Three weeks ago he noticed a small painless sore on his penis that healed on its own. Examination shows tender, enlarged left inguinal lymph nodes. Colonoscopy performed elsewhere was read as possible inflammatory bowel disease. Which of the following is the most likely cause?",
+      "answers": {
+        "A": "Chlamydia trachomatis",
+        "B": "Haemophilus ducreyi",
+        "C": "Herpes simplex virus type 1",
+        "D": "Klebsiella granulomatis",
+        "E": "Trichomonas vaginalis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Lymphogranuloma venereum, caused by C. trachomatis serotypes L1–L3, causes a single painless ulcer, then painful lymphadenopathy, and can cause proctitis mistaken for IBD; it is diagnosed by NAAT and treated with doxycycline for 3 weeks.",
+        "B": "Chancroid ulcers are painful, ragged, and persistent, and chancroid does not typically cause proctitis.",
+        "C": "HSV lesions are painful grouped vesicles, unlike the painless sore he describes.",
+        "D": "Granuloma inguinale is a painless, destructive, beefy red lesion that persists until treated, without prominent painful lymphadenopathy.",
+        "E": "Trichomonas causes vaginitis or urethritis; MSM are at low risk and it does not cause ulcers or proctitis."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-014",
+      "question": "A 21-year-old woman at 12 weeks' gestation comes for her first prenatal visit. She has no symptoms. Routine screening NAAT of a vaginal swab is positive for Chlamydia trachomatis and negative for Neisseria gonorrhoeae. She has no drug allergies. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Amoxicillin 500 mg orally three times daily for 7 days",
+        "B": "Ceftriaxone 500 mg IM once",
+        "C": "Doxycycline 100 mg orally twice daily for 7 days",
+        "D": "Metronidazole 500 mg orally twice daily for 7 days total",
+        "E": "No treatment because she is asymptomatic"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In pregnancy, chlamydia is treated with amoxicillin 500 mg three times daily for 7 days, with a test of cure because she is pregnant.",
+        "B": "Ceftriaxone treats gonorrhea, which was negative; it does not reliably treat Chlamydia.",
+        "C": "Doxycycline is first-line for chlamydia in nonpregnant patients, but the lecture lists amoxicillin as the regimen in pregnancy.",
+        "D": "Metronidazole treats trichomoniasis and bacterial vaginosis, not chlamydia.",
+        "E": "Asymptomatic chlamydia still needs treatment; untreated infection allows transmission and raises the risk of PID."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-015",
+      "question": "A 27-year-old woman comes to the clinic because of 1 week of malodorous yellow-green vaginal discharge and vulvar itching. She has one male partner, who has no symptoms. Speculum examination shows frothy yellow-green discharge, and the cervix appears as shown. Office test results are shown. Which of the following is the most appropriate management?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference"
+        ],
+        [
+          "Vaginal pH",
+          "5.6",
+          "3.8–4.5"
+        ],
+        [
+          "Saline wet mount",
+          "Motile flagellated organisms; many PMNs",
+          ""
+        ],
+        [
+          "KOH preparation",
+          "No hyphae or budding yeast; no fishy odor",
+          ""
+        ]
+      ],
+      "image": {
+        "src": "images/sti-pid-and-vaginitis/015.jpg",
+        "caption": "Speculum view of the cervix",
+        "credit": "Lecture slides p. 91"
+      },
+      "answers": {
+        "A": "Fluconazole 150 mg orally once",
+        "B": "Metronidazole 0.75% vaginal gel nightly for 5 days",
+        "C": "Metronidazole 2 g orally once, with no treatment of her partner",
+        "D": "Metronidazole 500 mg BID for 7 days plus partner treatment",
+        "E": "Vaginal boric acid 600 mg nightly for 14 days"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Fluconazole treats candidal vaginitis, which has a normal pH and pseudohyphae, not motile flagellated organisms.",
+        "B": "Intravaginal metronidazole gel is a regimen for bacterial vaginosis, not trichomoniasis.",
+        "C": "A single 2 g dose is less effective than the 7-day course, and the partner must be treated to prevent reinfection.",
+        "D": "Frothy yellow-green discharge, strawberry cervix, pH 5–6, and motile trichomonads with many PMNs indicate trichomoniasis, treated with metronidazole 500 mg BID for 7 days plus partner treatment.",
+        "E": "Vaginal boric acid is used for non-albicans Candida vaginitis."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-016",
+      "question": "A 24-year-old woman is diagnosed with trichomoniasis after a saline wet mount shows motile organisms with flagella and an undulating membrane. She is upset and says she must have caught it from a public hot tub or a shared towel, because her only partner has no symptoms. Which feature of this organism best explains why that route is very unlikely?",
+      "answers": {
+        "A": "It is a dimorphic fungus that grows as hyphae",
+        "B": "It lacks a peptidoglycan cell wall",
+        "C": "It replicates only within columnar epithelial cells of the host",
+        "D": "It survives on fomites by forming a biofilm",
+        "E": "Its trophozoites die outside the host; no cyst form"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Hyphae and pseudohyphae describe Candida, which is part of normal flora in some people, not a flagellated protozoan.",
+        "B": "Lacking peptidoglycan describes Chlamydia; it has no bearing on how this protozoan is transmitted.",
+        "C": "Obligate replication in columnar cells describes Chlamydia; Trichomonas trophozoites live on the epithelial surface.",
+        "D": "Biofilm formation on squamous cells describes Gardnerella in bacterial vaginosis; it does not let Trichomonas spread by fomites.",
+        "E": "T. vaginalis has no dormant cyst stage and its trophozoites die outside the body, so it is transmitted almost only by direct sexual contact."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-017",
+      "question": "A 31-year-old woman comes to the clinic because of a thin, off-white vaginal discharge with a fishy odor that is worse after intercourse. She has no itching or pain. She douches weekly. Speculum examination shows a thin, homogeneous, grey discharge coating the vaginal walls without erythema. A saline wet mount is shown, and office results are listed. Which of the following best explains the odor?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference"
+        ],
+        [
+          "Vaginal pH",
+          "5.2",
+          "3.8–4.5"
+        ],
+        [
+          "10% KOH 'whiff' test",
+          "Fishy odor",
+          "No odor"
+        ],
+        [
+          "PMNs on wet mount",
+          "Rare",
+          ""
+        ]
+      ],
+      "image": {
+        "src": "images/sti-pid-and-vaginitis/017.jpg",
+        "caption": "Saline wet mount of vaginal discharge",
+        "credit": "Lecture slides p. 101"
+      },
+      "answers": {
+        "A": "Inflammatory exudate rich in neutrophils",
+        "B": "Lactic acid production by lactobacilli",
+        "C": "Overgrowth of Candida albicans",
+        "D": "Protozoal trophozoites producing hydrogen peroxide",
+        "E": "Volatile amines produced by anaerobic bacteria"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "BV is non-inflammatory (a vaginosis), so there are few PMNs; neutrophil-rich discharge suggests trichomoniasis or yeast.",
+        "B": "Lactic acid production by lactobacilli keeps the normal vagina acidic; loss of lactobacilli is part of the problem, not the source of odor.",
+        "C": "Candida causes thick, clumpy, itchy discharge with a normal pH and no fishy odor.",
+        "D": "Trichomonads cause frothy yellow-green discharge with many PMNs; hydrogen peroxide is made by lactobacilli, not protozoa.",
+        "E": "In bacterial vaginosis, anaerobes replace lactobacilli and their proteolytic carboxylase enzymes break vaginal peptides into volatile amines, causing the fishy odor and raised pH."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-018",
+      "question": "A 24-year-old woman comes to the clinic because of a thin, malodorous vaginal discharge for 5 days. Vaginal pH is 5.5. The physician is deciding between the two most common infectious causes of malodorous discharge with a raised pH. Which additional finding on microscopy would most strongly favor one of these causes over the other?",
+      "answers": {
+        "A": "Budding yeast and pseudohyphae",
+        "B": "Many polymorphonuclear leukocytes",
+        "C": "Squamous epithelial cells",
+        "D": "Thin, homogeneous appearance of discharge",
+        "E": "Vaginal pH greater than 4.5"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Budding yeast and pseudohyphae indicate Candida, which is neither of the two malodorous, high-pH causes.",
+        "B": "Trichomoniasis is inflammatory with many PMNs, while bacterial vaginosis is a non-inflammatory vaginosis with few; this separates the two.",
+        "C": "Squamous epithelial cells are normally present on any vaginal wet mount and do not discriminate between causes.",
+        "D": "Both bacterial vaginosis and trichomoniasis produce thin discharge, so this does not distinguish them.",
+        "E": "Both bacterial vaginosis and trichomoniasis raise vaginal pH, so an elevated pH does not separate them."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-019",
+      "question": "A 47-year-old woman with poorly controlled type 2 diabetes comes to the clinic because of severe vulvar and vaginal itching and a thick, white, clumpy discharge for 4 days. She recently completed a course of antibiotics for cellulitis. She is not pregnant and has had no prior episodes. Examination shows vulvar erythema and adherent white discharge. A KOH preparation is shown. Vaginal pH is 4.4. Which of the following is the most appropriate treatment?",
+      "image": {
+        "src": "images/sti-pid-and-vaginitis/019.jpg",
+        "caption": "KOH preparation of vaginal discharge",
+        "credit": "Lecture slides p. 98"
+      },
+      "answers": {
+        "A": "Acyclovir 400 mg orally three times daily for 7 days",
+        "B": "Fluconazole 150 mg orally once",
+        "C": "Metronidazole 500 mg orally twice daily for 7 days",
+        "D": "No treatment because Candida is normal flora",
+        "E": "Tinidazole 2 g orally daily for 7 days"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Acyclovir treats HSV, which causes painful clustered vesicles, not itching with clumpy discharge.",
+        "B": "Itching, clumpy discharge, normal pH, and hyphae/pseudohyphae on KOH indicate uncomplicated vulvovaginal candidiasis in a non-pregnant patient, treated with a single oral fluconazole dose.",
+        "C": "Metronidazole treats bacterial vaginosis and trichomoniasis, both of which raise vaginal pH.",
+        "D": "Candida can colonize asymptomatically, but symptomatic infection with these findings should be treated.",
+        "E": "Tinidazole is the alternative treatment for trichomoniasis."
+      }
+    },
+    {
+      "id": "endorepro-sti-pid-and-vaginitis-020",
+      "question": "A 26-year-old woman at 9 weeks' gestation comes to the clinic because of 3 days of vulvar itching and a thick, white, cottage cheese–like discharge. She is otherwise healthy. Vaginal pH is 4.3, and KOH preparation shows pseudohyphae and budding yeast. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Clotrimazole vaginal cream for 7 days",
+        "B": "Fluconazole 150 mg orally every 72 hours for 3 doses",
+        "C": "Fluconazole 150 mg orally once",
+        "D": "Metronidazole 0.75% vaginal gel for 5 days",
+        "E": "Vaginal boric acid 600 mg nightly for 14 days"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In pregnancy, candidal vaginitis is treated with a 7-day topical azole such as clotrimazole or miconazole (sometimes 10–14 days).",
+        "B": "Repeated oral fluconazole is the regimen for immunocompromised patients; oral fluconazole is avoided in pregnancy because it may increase miscarriage risk.",
+        "C": "Single-dose oral fluconazole is for uncomplicated, non-pregnant patients; it is avoided in pregnancy, especially the first trimester.",
+        "D": "Metronidazole gel treats bacterial vaginosis, not yeast.",
+        "E": "Prolonged vaginal boric acid is reserved for non-albicans Candida; this presentation is typical C. albicans in pregnancy."
+      }
+    }
+  ]
+}
