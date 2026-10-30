@@ -93,6 +93,8 @@ Write `<work>/cards.json`:
 - `slide`: the 1-based number of the slide that states the fact best. Its screenshot goes on the
   back of the card. Use `null` when the fact is only in the notes; that card gets the buttons
   and no screenshot.
+- `image` (optional): a picture shown above the sentence on the front, as a path (relative
+  to the work folder). See "Pictures on the front" below; most cards have none.
 - `text`: the card, with Anki cloze marks. `{{c1::...}}` and `{{c2::...}}` in one sentence make
   two cards from it. The same number twice hides both at once on one card. Simple HTML is fine
   (`<b>`, `<i>`); write `&lt;` for a less-than sign.
@@ -224,6 +226,25 @@ Step Deck; build the lecture's deck from the lecture alone.
 
 **The back is the slide.** Do not write anything for the back of the card. The script puts the
 screenshot and the buttons there.
+
+### Pictures on the front
+
+Most cards need no picture. Add one only where seeing it is the point: a histology or gross
+pathology pattern, a scan, a clinical photo (a chancre, a strawberry cervix), a smear or wet
+mount, or a key diagram the card asks about. Ravi allowed this in October 2026 ("if and only
+if you think it's worthwhile").
+
+- The sentence still names its subject and stands on its own; the picture is the cue, so word
+  it to point at the picture ("The vulvar lesion shown, a painless indurated ulcer, is the
+  primary lesion of {{c1::syphilis}}").
+- The picture must not give the answer: crop away slide titles, labels and captions that
+  name it.
+- Take it from the lecture's slides first (`pdftoppm -png -r 200 -f N -l N -x X -y Y -W W
+  -H H` renders just the region), then from openly licensed sources on the web (Wikimedia
+  Commons). Open it and check it shows what the card says before using it.
+- Shrink to at most 800 px on the long side; photos as JPEG. Save them in `<work>/images/`
+  with names that say what they are (`syphilis-chancre.jpg`); `install` adds them to Anki's
+  media with the lecture's prefix.
 
 ### How many
 
