@@ -695,7 +695,12 @@ def cmd_cards(a):
                 warnings.append(f"card {i}: a {len(answer.split())}-word answer: {answer[:50]}...")
         if len(nums) > 3:
             warnings.append(f"card {i}: {len(nums)} cards from one sentence; split it")
-        cards.append({"slide": slide, "text": text})
+        image = card.get("image")
+        if image:
+            image = os.path.join(work, os.path.expanduser(image))
+            if not os.path.isfile(image):
+                errors.append(f"card {i}: no image file at {image}")
+        cards.append({"slide": slide, "text": text, **({"image": image} if image else {})})
         per_slide[slide] = per_slide.get(slide, 0) + 1
         n_cards += len(nums)
 
@@ -880,9 +885,17 @@ def _install_cards(a, src):
             for num in sorted({c["slide"] for c in portable["cards"] if c["slide"]}):
                 png = _slide_image(slides, num, pages_dir, tmp, f"{prefix}{num:03d}.png")
                 images[num] = col.media.add_file(png)
+            fronts = {}
+            for path in sorted({c["image"] for c in portable["cards"] if c.get("image")}):
+                if not os.path.isfile(path):
+                    die(f"image {path} is gone; nothing was added")
+                dst = os.path.join(tmp, f"{prefix[:-2]}_img_{os.path.basename(path)}")
+                shutil.copyfile(path, dst)
+                fronts[path] = col.media.add_file(dst)
         for card in portable["cards"]:
             note = col.new_note(model)
-            note["Text"] = card["text"]
+            front = f'<img src="{fronts[card["image"]]}"><br>' if card.get("image") else ""
+            note["Text"] = front + card["text"]
             img = f'<img src="{images[card["slide"]]}">' if card["slide"] else ""
             note["Extra"] = img + bar
             col.add_note(note, did)
