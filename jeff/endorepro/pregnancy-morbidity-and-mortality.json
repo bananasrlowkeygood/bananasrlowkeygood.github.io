@@ -1,0 +1,432 @@
+{
+  "lecture": "Pregnancy Morbidity & Mortality",
+  "block": "endorepro",
+  "generated": "2026-10-29",
+  "questions": [
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-001",
+      "question": "A 31-year-old woman, gravida 2 para 2, has an uncomplicated vaginal delivery. Thirty days later she presents with dyspnea and orthopnea, is found to have a dilated cardiomyopathy with an ejection fraction of 20%, and dies despite treatment. A maternal mortality review committee applies the World Health Organization (WHO) definitions. How should her death be classified?",
+      "answers": {
+        "A": "Accidental death, excluded from review",
+        "B": "Incidental death, excluded from review",
+        "C": "Late pregnancy-related death",
+        "D": "Maternal death, not pregnancy-related",
+        "E": "Pregnancy-related death"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Accidental causes (e.g., trauma) are excluded, but cardiomyopathy is a medical complication related to pregnancy.",
+        "B": "Incidental causes are those unrelated to pregnancy; postpartum cardiomyopathy is a pregnancy-related cause.",
+        "C": "A late pregnancy-related death occurs more than 42 days but less than 1 year after the end of pregnancy; day 30 is still within 42 days.",
+        "D": "The WHO term for a death from a cause related to or aggravated by pregnancy within 42 days is pregnancy-related death; this death meets that definition.",
+        "E": "Correct: a death from any cause related to or aggravated by pregnancy within 42 days of the end of pregnancy is a pregnancy-related death; day 30 falls inside that window."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-002",
+      "question": "A 36-year-old woman delivers by cesarean at 39 weeks. Five months later she is admitted with heart failure from peripartum cardiomyopathy and dies of a ventricular arrhythmia. Her case is reviewed using World Health Organization (WHO) definitions. Which classification applies to her death?",
+      "answers": {
+        "A": "Accidental non-obstetric death",
+        "B": "Late pregnancy-related death",
+        "C": "Not attributable to pregnancy",
+        "D": "Pregnancy-related death",
+        "E": "Severe pregnancy-related morbidity"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Accidental deaths (e.g., trauma) are excluded, but this death has an obstetric cause.",
+        "B": "Correct: a death from a direct or indirect obstetric cause more than 42 days but less than 1 year after the end of pregnancy is a late pregnancy-related death.",
+        "C": "Deaths up to 1 year after pregnancy from obstetric causes are still attributed to pregnancy as late pregnancy-related deaths.",
+        "D": "This category is limited to deaths during pregnancy or within 42 days of its end; 5 months is beyond that window.",
+        "E": "Severe morbidity describes serious complications of pregnancy, not a death; this death is classified by its timing and obstetric cause."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-003",
+      "question": "A 26-year-old woman who is 22 weeks pregnant is a restrained passenger in a high-speed motor vehicle collision and dies at the scene of a traumatic brain injury. The state's maternal mortality surveillance team is deciding whether to include her death using the World Health Organization (WHO) definition of pregnancy-related death. Which statement best describes how her death is handled?",
+      "answers": {
+        "A": "Excluded, because accidental causes are not counted",
+        "B": "Included as a late pregnancy-related death",
+        "C": "Included as severe pregnancy-related morbidity",
+        "D": "Included only if the fetus also died",
+        "E": "Included, because she was pregnant at the time"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the WHO definition excludes accidental or incidental causes, so a trauma death unrelated to pregnancy is not a pregnancy-related death.",
+        "B": "Late pregnancy-related deaths occur 42 days to 1 year after the end of pregnancy from obstetric causes.",
+        "C": "Severe morbidity describes serious complications of pregnancy, not deaths from unrelated trauma.",
+        "D": "Fetal outcome does not determine whether a maternal death is pregnancy-related.",
+        "E": "Pregnancy at the time of death is not enough; the cause must be related to or aggravated by pregnancy or its management."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-004",
+      "question": "A 29-year-old woman presents to the emergency department at 7 weeks' gestation with abdominal pain and hypotension. She has a ruptured tubal ectopic pregnancy and dies of hemorrhage before reaching the operating room. A reviewer argues her death should not be counted because the pregnancy was early and outside the uterus. Which element of the World Health Organization (WHO) definition of pregnancy-related death addresses this argument?",
+      "answers": {
+        "A": "Counted irrespective of the duration and site of pregnancy",
+        "B": "Counted only after fetal viability is reached",
+        "C": "Counted only if death occurs after delivery",
+        "D": "Excluded as an incidental cause of death",
+        "E": "Excluded unless the pregnancy was intrauterine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the WHO definition applies irrespective of the duration and site of the pregnancy, so an early ectopic pregnancy death is included.",
+        "B": "The WHO definition has no viability threshold.",
+        "C": "Deaths during pregnancy are explicitly included in the definition.",
+        "D": "Hemorrhage from an ectopic pregnancy is caused by the pregnancy, so it is not incidental.",
+        "E": "The definition applies regardless of the site of the pregnancy."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-005",
+      "question": "A public health analyst reviews Centers for Disease Control and Prevention (CDC) data on pregnancy-related deaths in the United States from 2017 to 2019. The deaths include myocardial infarction, valvular disease, coronary artery dissection, and endocarditis, among many other causes. Which cause category accounted for the largest percentage of pregnancy-related deaths in this period?",
+      "answers": {
+        "A": "Amniotic fluid embolism",
+        "B": "Anesthesia complications",
+        "C": "Cerebrovascular accidents",
+        "D": "Hypertensive disorders of pregnancy",
+        "E": "Other cardiovascular conditions"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Amniotic fluid embolism caused about 6% of deaths, well below the top four causes.",
+        "B": "Anesthesia complications caused only 0.2% of pregnancy-related deaths.",
+        "C": "Cerebrovascular accidents caused about 6% of deaths and are not among the four most common causes.",
+        "D": "Hypertensive disorders caused about 6% of deaths and are not among the four most common causes.",
+        "E": "Correct: 'other' cardiovascular conditions (MI, valvular disease, coronary dissection, endocarditis) were the leading cause at 14.5%, followed by infection/sepsis, cardiomyopathy and hemorrhage."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-006",
+      "question": "A 33-year-old woman develops fever, hypotension, and lactic acidosis 4 days after a cesarean delivery and dies despite ICU care. A medical student is asked which of the four most common causes of US pregnancy-related death (CDC, 2017–2019) this case represents. The student lists other cardiovascular conditions, cardiomyopathy, and hemorrhage. Which is the remaining cause among the top four?",
+      "answers": {
+        "A": "Amniotic fluid embolism",
+        "B": "Cerebrovascular accidents",
+        "C": "Hypertensive disorders of pregnancy",
+        "D": "Infection or sepsis",
+        "E": "Thrombotic pulmonary embolism"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Amniotic fluid embolism (about 6%) is not among the four most common causes.",
+        "B": "Cerebrovascular accidents (5.8%) are not among the top four causes.",
+        "C": "Hypertensive disorders (6.3%) are not among the top four causes.",
+        "D": "Correct: infection/sepsis (14.3%) is one of the four leading causes, along with other cardiovascular conditions, cardiomyopathy and hemorrhage.",
+        "E": "Thrombotic embolism (10.5%) is the fifth most common cause, just behind the top four."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-007",
+      "question": "The Philadelphia maternal mortality review committee examines all pregnancy-related deaths in the city from 2019 to 2023. It notes that deaths of this type had been rising both locally and nationwide, driven largely by opioids, and that the trend is mirrored in maternal mortality data. Which cause accounted for the largest share (32%) of pregnancy-related deaths in Philadelphia during this period?",
+      "answers": {
+        "A": "Cardiomyopathy",
+        "B": "Hemorrhage",
+        "C": "Homicide",
+        "D": "Infection or sepsis",
+        "E": "Unintentional drug overdose"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cardiomyopathy is a leading national cause in CDC 2017–2019 data, but not the leading Philadelphia cause in 2019–2023.",
+        "B": "Hemorrhage is among the top four national causes, but overdose led in Philadelphia in 2019–2023.",
+        "C": "Homicide is not identified in the lecture as the leading cause; overdose is.",
+        "D": "Sepsis is a top national cause but was not the leading Philadelphia cause.",
+        "E": "Correct: unintentional drug overdose was the leading cause of pregnancy-related death in Philadelphia from 2019 to 2023, at 32%."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-008",
+      "question": "A hospital quality team wants to time an outreach program for postpartum patients to the period when most pregnancy-related morbidity occurs. Reviewing their data, they confirm the national pattern that more than 70% of pregnancy-related morbidity occurs in one window. During which period should outreach be concentrated?",
+      "answers": {
+        "A": "First 2 weeks after hospital discharge",
+        "B": "First trimester of pregnancy",
+        "C": "Labor and delivery admission",
+        "D": "Second trimester of pregnancy",
+        "E": "Six to 12 months postpartum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: more than 70% of pregnancy-related morbidity occurs in the first 2 weeks after delivery and hospital discharge.",
+        "B": "Morbidity is concentrated after delivery, not early in pregnancy.",
+        "C": "Most morbidity occurs after discharge, not during the delivery admission.",
+        "D": "Morbidity is concentrated after delivery, not in mid-pregnancy.",
+        "E": "Late postpartum events occur, but over 70% of morbidity falls within the first 2 weeks after discharge."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-009",
+      "question": "A health equity researcher compares the risk of pregnancy-related death across racial and ethnic groups in the United States, using non-Hispanic White people as the reference group. Which group has the highest relative risk, almost 4.5 times that of non-Hispanic White people?",
+      "answers": {
+        "A": "American Indian or Alaska Native",
+        "B": "Hispanic",
+        "C": "Native Hawaiian or Pacific Islander",
+        "D": "Non-Hispanic Asian",
+        "E": "Non-Hispanic Black"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Native American people are about 2.3 times as likely to die.",
+        "B": "Hispanic people are not identified in the lecture as having the highest relative risk of pregnancy-related death.",
+        "C": "Correct: Native Hawaiian or Pacific Islander people are almost 4.5 times as likely to die of pregnancy-related causes as non-Hispanic White people.",
+        "D": "Asian people are not identified in the lecture as having the highest relative risk of pregnancy-related death.",
+        "E": "Non-Hispanic Black people are about 2.8 times as likely to die, the second-highest relative risk."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-010",
+      "question": "A 34-year-old Black woman with a master's degree asks her physician whether her education lowers her risk of dying from a pregnancy-related complication. The physician reviews CDC data on pregnancy-related mortality ratios (PRMR) by education level, shown below. For college graduates, how does the PRMR for Black women compare with that for White women?",
+      "table": [
+        [
+          "Education level",
+          "White PRMR",
+          "Black PRMR"
+        ],
+        [
+          "Less than high school",
+          "~25",
+          "~45"
+        ],
+        [
+          "High school",
+          "~25",
+          "~59"
+        ],
+        [
+          "Some college",
+          "~11",
+          "~41"
+        ],
+        [
+          "College graduate or higher",
+          "~8",
+          "~40"
+        ]
+      ],
+      "answers": {
+        "A": "About 1.5 times higher",
+        "B": "About 10 times higher",
+        "C": "About 5 times higher",
+        "D": "About equal",
+        "E": "Twice as high"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The gap among college graduates is far larger than 1.5-fold.",
+        "B": "The CDC data show about a 5-fold, not 10-fold, difference.",
+        "C": "Correct: the PRMR for Black women with at least a college degree is about 5 times that of White women with similar education (about 40 vs 8 per 100,000).",
+        "D": "Education does not erase the disparity; Black college graduates have a much higher PRMR than White college graduates.",
+        "E": "The gap among college graduates is about 5-fold, larger than at lower education levels."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-011",
+      "question": "A study of pregnancy-related deaths in the United States finds that racial and ethnic inequities persist after statistical adjustment for smoking, obesity, educational attainment, and income. Black birthing people remain more likely to die than White birthing people regardless of wealth or education. According to the lecture, which factor best explains this persistent disparity?",
+      "answers": {
+        "A": "Educational attainment",
+        "B": "Racism",
+        "C": "Severe obesity",
+        "D": "Tobacco smoking",
+        "E": "Wealth and income"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Education was adjusted for, and Black college graduates still have about 5 times the PRMR of White college graduates.",
+        "B": "Correct: because inequities persist after accounting for known risk factors and confounders, the lecture names racism as our greatest public health crisis.",
+        "C": "Obesity is a known risk factor that was accounted for, yet the inequity persisted.",
+        "D": "Smoking is a known risk factor that was accounted for, yet the inequity persisted.",
+        "E": "Income was adjusted for, and the disparity persists irrespective of wealth."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-012",
+      "question": "A 24-year-old woman, gravida 1 para 0, presents to labor and delivery at 39 weeks in active labor. She has had no prenatal visits because the nearest clinic is 90 miles away and she lacks transportation. Compared with a patient who received prenatal care, how is her risk of dying from a pregnancy-related complication best described?",
+      "answers": {
+        "A": "1.5 times higher",
+        "B": "10 times higher",
+        "C": "3 to 4 times higher",
+        "D": "Lower, because she is young and healthy",
+        "E": "Unchanged once she reaches the hospital"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The lecture cites a 3- to 4-fold increase, not 1.5-fold.",
+        "B": "The lecture cites a 3- to 4-fold increase, not 10-fold.",
+        "C": "Correct: people who do not receive prenatal care are 3 to 4 times more likely to die from pregnancy-related complications.",
+        "D": "Lack of prenatal care increases, not decreases, the risk of pregnancy-related death.",
+        "E": "Missing prenatal care raises the risk of death even when delivery occurs in a hospital."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-013",
+      "question": "A 30-year-old woman who moved to the United States from a Northern European country after the birth of her second child compares her two postpartum experiences. In her home country, a nurse visited her at home in the first postpartum weeks and she had months of paid leave; in the US she had one postpartum visit at 6 weeks and returned to work soon after. Which US post-birth care factor illustrated here is cited as a reason for higher US pregnancy-related mortality?",
+      "answers": {
+        "A": "Excess postpartum visits causing overtreatment",
+        "B": "Lack of home visits and paid parental leave",
+        "C": "More cesareans in Northern Europe",
+        "D": "Older maternal age at delivery in the US",
+        "E": "Overemphasis on parental over infant health"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The problem in the US is too little postpartum care, not too much.",
+        "B": "Correct: most developed countries provide postpartum home visits, paid parental leave and ongoing care, which the US largely lacks.",
+        "C": "Cesarean rates are not the post-birth care factor illustrated here.",
+        "D": "Maternal age is not the post-birth factor described in this scenario.",
+        "E": "The US has a long-standing emphasis on infant health over the health of the parent, the reverse of this choice."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-014",
+      "question": "A 220-bed community hospital in a rural county announces it will close its labor and delivery unit, citing financial losses on obstetric care. The next closest unit is a 75-minute drive away. This trend, seen nationwide, contributes to higher US pregnancy-related mortality mainly through which mechanism?",
+      "answers": {
+        "A": "Increased rates of elective induction",
+        "B": "Increased use of general anesthesia",
+        "C": "Overcrowding of midwifery-led units",
+        "D": "Reduced access to pregnancy care",
+        "E": "Reduced numbers of cesarean deliveries"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Unit closures are cited for reducing access, not for changing induction rates.",
+        "B": "Anesthesia complications account for only 0.2% of deaths and are not the mechanism cited.",
+        "C": "The US has far fewer midwives, not an excess of midwifery-led care.",
+        "D": "Correct: decreasing profitability is closing L&D units at small hospitals, often where access is already poor, worsening the shortage of pregnancy care.",
+        "E": "Closures are cited for reducing access to care, not for changing cesarean rates."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-015",
+      "question": "A hospital has had three cases of severe postpartum hemorrhage in one year in which blood products were delayed. The chief medical officer wants to adopt a standardized set of evidence-based best practices for obstetric hemorrhage developed by an ACOG initiative. Which resource is most appropriate?",
+      "answers": {
+        "A": "AIM patient safety bundle",
+        "B": "CHAP research trial",
+        "C": "Human Placenta Project",
+        "D": "nuMoM2b heart health study",
+        "E": "PRAMS surveillance survey"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the Alliance for Innovation on Maternal Health (AIM), an ACOG initiative, develops patient safety bundles (including obstetric hemorrhage) to support best practices and make birth safer.",
+        "B": "CHAP studies blood pressure treatment targets in chronic hypertension and pregnancy, not hemorrhage practices.",
+        "C": "The Human Placenta Project is an NIH research effort on placental biology, not a clinical practice bundle.",
+        "D": "nuMoM2b is a research study of cardiovascular health after pregnancy, not a clinical safety bundle.",
+        "E": "PRAMS is a CDC surveillance project collecting data on maternal experiences, not a bundle of clinical practices."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-016",
+      "question": "A 35-year-old woman delivers at a small rural hospital and develops severe preeclampsia with worsening pulmonary edema 12 hours postpartum. The hospital has no ICU or maternal-fetal medicine specialist but belongs to a health system with an affiliated academic center. Which systems approach, emphasized in the lecture as reducing pregnancy-related morbidity and mortality, applies here?",
+      "answers": {
+        "A": "Closure of low-volume obstetric units",
+        "B": "Deferral of care to outpatient follow-up",
+        "C": "Expansion of on-site research programs",
+        "D": "Regionalized care with stabilization and transfer",
+        "E": "Universal home birth with midwives"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Closing L&D units worsens access and is cited as a cause of high mortality, not a solution.",
+        "B": "Delaying care for an unstable patient does not provide the right level of care.",
+        "C": "Research is important, but it does not address this patient's need for a higher level of care.",
+        "D": "Correct: regionalized systems give 'the right resources to the right patient in the right place at the right time' by stabilizing and transferring to a higher level of care.",
+        "E": "Increasing midwifery access is a solution, but this unstable patient needs transfer to a higher level of care."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-017",
+      "question": "A hospital quality team reviews five postpartum patients to determine which experienced a condition on the Severe Pregnancy-Related Morbidity Disease Index. Which patient's condition would be counted as severe pregnancy-related morbidity?",
+      "answers": {
+        "A": "Woman with a second-degree perineal laceration",
+        "B": "Woman with amniotic fluid embolism at delivery",
+        "C": "Woman with breast engorgement on day 3",
+        "D": "Woman with mild anemia treated with oral iron",
+        "E": "Woman with transient postpartum blues"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An uncomplicated laceration is not on the severe morbidity index.",
+        "B": "Correct: amniotic fluid embolism, in which the fluid surrounding the fetus enters the maternal bloodstream, is on the severe morbidity index.",
+        "C": "Breast engorgement is not a severe pregnancy-related morbidity.",
+        "D": "Mild anemia is not on the severe pregnancy-related morbidity index.",
+        "E": "Transient postpartum blues are not on the severe morbidity index."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-018",
+      "question": "A health policy researcher compares pregnancy-related mortality between US states before and after new state laws restricting abortion. The researcher notes that restrictive states have fewer reproductive health providers and less access to care, with the greatest effect on patients with fewer resources. Which outcome does the lecture associate with these restrictions?",
+      "answers": {
+        "A": "Decreased pregnancy-related deaths",
+        "B": "Improved access to prenatal care",
+        "C": "Increased pregnancy-related deaths",
+        "D": "Narrowed racial disparities",
+        "E": "No change in pregnancy-related deaths"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The lecture reports an increase, not a decrease, in pregnancy-related deaths in restrictive states.",
+        "B": "Restrictive states have fewer providers and less access to care.",
+        "C": "Correct: abortion-restricted states have increased pregnancy-related death through fewer providers and less access to care.",
+        "D": "Restrictions disproportionately affect patients with fewer resources, which would not narrow disparities.",
+        "E": "The lecture reports increased pregnancy-related death in abortion-restricted states."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-019",
+      "question": "A 28-year-old woman with opioid use disorder delivers a healthy infant and is discharged on day 2. Her obstetric follow-up and her addiction treatment program are not in contact, and she misses both appointments. She dies of an unintentional overdose at home 4 months postpartum. Which systems goal from the lecture most directly addresses the gap in her care?",
+      "answers": {
+        "A": "Adding research on placental disease",
+        "B": "Avoiding scheduled cesarean deliveries",
+        "C": "Capping postpartum care at 6 weeks",
+        "D": "Coordinating care across health and social services",
+        "E": "Reducing the number of midwives"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Placental research does not address the failed transition of care in this case.",
+        "B": "Mode of delivery is unrelated to this postpartum overdose death.",
+        "C": "The 6- to 8-week postpartum standard is cited as a weakness; her death occurred after this window.",
+        "D": "Correct: many maternal deaths occur outside the health care setting and during transitions of care, so coordination and continuity across health care and social services is a key goal.",
+        "E": "The US already has too few midwives; reducing them would worsen access."
+      }
+    },
+    {
+      "id": "endorepro-pregnancy-morbidity-and-mortality-020",
+      "question": "A 32-year-old woman presents to an urgent care clinic 3 weeks after delivery with a severe headache and blood pressure of 168/112 mm Hg. She is given analgesics and discharged; no one asks whether she was recently pregnant. Two days later she has a stroke. Which goal for reducing pregnancy-related mortality does this case best illustrate?",
+      "table": [
+        [
+          "Finding",
+          "Value"
+        ],
+        [
+          "Days since delivery",
+          "21"
+        ],
+        [
+          "Blood pressure",
+          "168/112 mm Hg"
+        ],
+        [
+          "Chief complaint",
+          "Severe headache"
+        ]
+      ],
+      "answers": {
+        "A": "Building behavioral health systems for SUD",
+        "B": "Establishing medical trust with the community",
+        "C": "Expanding paid family and medical leave",
+        "D": "Increasing access to safe abortion",
+        "E": "Recognizing pregnancy risks in non-obstetric settings"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Behavioral health for substance use disorder is a separate goal not illustrated by this case.",
+        "B": "Trust-building addresses structural and historical harms, not missed recognition in urgent care.",
+        "C": "Paid leave is a structural solution, but the failure here was clinical recognition outside obstetrics.",
+        "D": "Abortion access is a separate solution unrelated to this missed postpartum diagnosis.",
+        "E": "Correct: awareness of pregnancy-related risks and complications must extend beyond obstetric care into broader health care environments and the community."
+      }
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "lecture": "Ovarian & Mullerian Infertility",
+  "block": "endorepro",
+  "generated": "2026-10-29",
+  "questions": [
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-001",
+      "question": "A 37-year-old nulligravid woman and her male partner have had regular unprotected intercourse for 7 months without conceiving. Her menses occur every 28-30 days. She has no history of pelvic infection or surgery, and her examination is unremarkable. Her partner is 38 and healthy. She asks whether she should keep trying for another 5 months before being seen. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Continue timed intercourse for 5 more months",
+        "B": "Order a semen analysis alone",
+        "C": "Prescribe clomiphene citrate empirically",
+        "D": "Proceed with full infertility evaluation",
+        "E": "Refer directly for oocyte donation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Waiting the full year applies to women under 35; at 37 her shorter window has already passed, and fecundity is falling with each year.",
+        "B": "Every potential cause must be evaluated; testing only the male partner would miss ovulatory, ovarian reserve and tubal factors.",
+        "C": "Treatment depends on testing; ovulation induction is chosen only after semen analysis, ovarian reserve and tubal testing.",
+        "D": "Correct: after age 35 the interval that defines infertility shortens from 1 year to 6 months, so at 7 months she already meets the definition and both partners should be evaluated.",
+        "E": "Donor oocytes are an option for age-related oocyte factor, but only after evaluation shows that is the problem."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-002",
+      "question": "A 41-year-old woman with regular 26-day cycles is evaluated for 8 months of infertility. Her day-3 serum FSH is 14 mIU/mL, higher than it was when measured at age 34. Her TSH and prolactin are normal. Which of the following best explains the rise in her early follicular FSH?",
+      "answers": {
+        "A": "Decreased negative feedback from a smaller follicle cohort",
+        "B": "Excess androgen production by theca cells",
+        "C": "Increased hypothalamic GnRH pulse frequency from chronic stress",
+        "D": "Pituitary adenoma secreting FSH",
+        "E": "Resistance of granulosa cells to FSH from autoantibodies"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: as follicles are depleted, the smaller follicle cohort gives less negative feedback on FSH and FSH rises, most visibly in the early follicular phase.",
+        "B": "Theca-cell androgen excess is the picture of PMOS (PCOS), which typically raises LH relative to FSH and causes irregular cycles.",
+        "C": "Stress-related hypothalamic changes cause hypothalamic amenorrhea with low or normal gonadotropins, not a progressive age-related FSH rise.",
+        "D": "Gonadotroph adenomas are rare and would not explain a gradual rise that tracks with ovarian aging in a woman with regular cycles.",
+        "E": "Autoimmune ovarian failure is uncommon; the expected cause in a 41-year-old is follicular depletion."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-003",
+      "question": "A 42-year-old woman conceives after 10 months of trying but miscarries at 8 weeks. Cytogenetic analysis of the products of conception shows trisomy 16. She asks why her risk of this outcome is higher than it was in her twenties. Which of the following processes, which worsens with oocyte age, best explains her loss?",
+      "answers": {
+        "A": "Disordered regulation of the meiotic spindle",
+        "B": "Endometrial resistance to progesterone",
+        "C": "Paternal age-related point mutations in sperm",
+        "D": "Reduced number of primordial follicles at birth",
+        "E": "Thrombosis of the placental vascular bed"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: oocyte and embryo aneuploidy rise with age because the regulatory mechanisms governing meiotic spindle formation and function become disordered.",
+        "B": "Luteal or endometrial problems would not produce a chromosomally abnormal embryo; the trisomy points to an oocyte meiotic error.",
+        "C": "Her partner's age is not given, and paternal age mainly raises new point mutations, not trisomies from nondisjunction.",
+        "D": "Follicle number at birth is fixed and does not cause aneuploidy; it is the aging of the remaining oocytes that matters.",
+        "E": "Placental thrombosis causes later losses in conditions like antiphospholipid syndrome and does not create a trisomic karyotype."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-004",
+      "question": "A 35-year-old woman planning IVF has a serum anti-Müllerian hormone (AMH) level drawn to predict how many oocytes stimulation will yield. Her level is 0.4 ng/mL, low for her age. Production of this hormone by which of the following cells has declined?",
+      "answers": {
+        "A": "Corpus luteum cells formed after ovulation",
+        "B": "Granulosa cells of preantral and small antral follicles",
+        "C": "Oocytes within resting primordial follicles in the cortex",
+        "D": "Sertoli cells of the developing fetal testis",
+        "E": "Theca interna cells surrounding the dominant follicle"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The corpus luteum makes progesterone and estradiol after ovulation; AMH comes from earlier follicles.",
+        "B": "Correct: AMH is made by granulosa cells of preantral and small antral follicles, so it tracks the size of the remaining follicle pool and predicts response to stimulation and oocyte yield.",
+        "C": "The oocyte itself does not secrete AMH; primordial follicles have not yet begun the growth that switches on AMH in granulosa cells.",
+        "D": "Fetal Sertoli cells make AMH to regress the Müllerian ducts in males, which is irrelevant to adult ovarian reserve.",
+        "E": "Theca cells make androgens under LH stimulation, not AMH."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-005",
+      "question": "A 39-year-old woman is evaluated for 7 months of infertility. Blood is drawn on day 3 of her menstrual cycle. Her physician says the FSH result cannot be taken as reassuring on its own. Which of the following best explains why?",
+      "table": [
+        [
+          "Test (cycle day 3)",
+          "Value",
+          "Reference"
+        ],
+        [
+          "FSH",
+          "8 mIU/mL",
+          "< 10 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "96 pg/mL",
+          "< 60 pg/mL (early follicular)"
+        ],
+        [
+          "TSH",
+          "1.9 µU/mL",
+          "0.4-4.0 µU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Elevated estradiol is suppressing FSH by negative feedback",
+        "B": "FSH should have been drawn in the mid-luteal phase of the cycle",
+        "C": "High prolactin is suppressing GnRH release",
+        "D": "Low AMH proves the FSH assay is in error",
+        "E": "Rising LH is cross-reacting in the FSH assay"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: early follicular estradiol should be low; a high value suppresses FSH by negative feedback, so a normal-looking FSH can hide diminished ovarian reserve. That is why estradiol is drawn with FSH.",
+        "B": "FSH for ovarian reserve is drawn on cycle days 2-5; mid-luteal timing is for progesterone to confirm ovulation.",
+        "C": "Prolactin is not part of this panel and hyperprolactinemia would cause irregular cycles; nothing here points to it.",
+        "D": "AMH and FSH are complementary; one does not invalidate the other's assay.",
+        "E": "Modern assays are specific, and LH is not elevated on day 3 in a normal cycle."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-006",
+      "question": "A 33-year-old woman with regular 30-day cycles has been unable to conceive for 16 months. As a teenager she was hospitalized for chlamydial pelvic infection. Her partner's semen analysis and her ovarian reserve testing are normal. Hysterosalpingography is shown. Which of the following is the treatment of choice?",
+      "image": {
+        "src": "images/ovarian-and-mullerian-infertility/006.jpg",
+        "caption": "Hysterosalpingogram",
+        "credit": "Lecture slides p. 21"
+      },
+      "answers": {
+        "A": "Clomiphene citrate with intrauterine insemination",
+        "B": "In vitro fertilization",
+        "C": "Laparoscopic tubal repair",
+        "D": "Letrozole for ovulation induction",
+        "E": "Tubal canalization followed by timed intercourse"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Ovulation induction with IUI still depends on a working tube to carry the egg and embryo; it is used when HSG is normal.",
+        "B": "Correct: the HSG shows a hydrosalpinx (distal tubal occlusion) after chlamydia; IVF bypasses the tubes and is the treatment of choice for tubal disease.",
+        "C": "Surgical tubal repair is typically not effective, so it is not the treatment of choice.",
+        "D": "She ovulates (regular cycles); her problem is tubal, which ovulation induction cannot fix.",
+        "E": "Canalization opens the tube in just over half of cases but fewer than half of those conceive, so it is not preferred over IVF."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-007",
+      "question": "A 30-year-old woman with regular 29-day cycles is being evaluated for 14 months of infertility. At age 19 she was treated for chlamydial cervicitis. Her partner's semen analysis is normal. Hysterosalpingography is scheduled for next week. Which of the following should be given in preparation for the procedure?",
+      "answers": {
+        "A": "Clomiphene citrate on cycle days 3-7",
+        "B": "GnRH agonist depot injection",
+        "C": "Mid-luteal progesterone supplementation",
+        "D": "Oral contraceptive pill for one month",
+        "E": "Prophylactic antibiotics"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Ovulation induction is a treatment decision made after testing, not preparation for HSG.",
+        "B": "A GnRH agonist suppresses the cycle and treats endometriosis; it has no role in preparing for HSG.",
+        "C": "Progesterone is measured mid-luteal to confirm ovulation, not given before HSG.",
+        "D": "Oral contraceptives would not protect against infection spread by dye injected through the tubes.",
+        "E": "Correct: with a history of chlamydia, she should receive prophylactic antibiotics for the HSG, because pushing dye through possibly damaged tubes can flare infection."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-008",
+      "question": "A 31-year-old woman has been trying to conceive for 13 months. Her menses come every 28-32 days with breast tenderness beforehand. Her partner's semen analysis is normal. Her physician wants to confirm that she is ovulating. On which day of a 28-day cycle should the confirmatory blood test be drawn, and what is measured?",
+      "answers": {
+        "A": "Day 14, luteinizing hormone",
+        "B": "Day 21, progesterone",
+        "C": "Day 25, prolactin",
+        "D": "Day 3, estradiol",
+        "E": "Day 3, FSH"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The LH surge precedes ovulation but a single serum LH can easily miss it, and a surge does not prove the follicle ruptured.",
+        "B": "Correct: ovulation is confirmed by a mid-luteal progesterone level (about day 21 of a 28-day cycle), reflecting a functioning corpus luteum.",
+        "C": "Prolactin is checked when ovulation is irregular, to look for hyperprolactinemia, not to confirm ovulation.",
+        "D": "Day-3 estradiol is drawn with FSH to assess ovarian reserve, not to confirm ovulation.",
+        "E": "Day-3 FSH assesses ovarian reserve and is inversely correlated with it; it does not show that ovulation occurred."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-009",
+      "question": "A 29-year-old woman presents with 15 months of infertility. Her menses occur every 45-70 days. Her BMI is 22, and she has no acne, hirsutism or galactorrhea. Pelvic examination is normal. Her partner's semen analysis is normal. Which of the following is the most appropriate initial laboratory evaluation of her menstrual irregularity?",
+      "answers": {
+        "A": "17-hydroxyprogesterone and DHEAS",
+        "B": "Anti-Müllerian hormone and antral follicle count",
+        "C": "Day-21 progesterone only",
+        "D": "Karyotype and fragile X testing",
+        "E": "TSH and prolactin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Androgen and adrenal testing is added when there is evidence of hyperandrogenism, which she lacks.",
+        "B": "These assess ovarian reserve, not the cause of oligo-ovulation.",
+        "C": "Her cycles over 35 days already show oligo-ovulation; the task is to find its cause.",
+        "D": "Genetic testing is not part of the initial evaluation of oligo-ovulation described in the lecture.",
+        "E": "Correct: an interval over 35 days means oligo-ovulation, and every such patient gets TSH and prolactin to look for thyroid dysfunction and hyperprolactinemia."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-010",
+      "question": "A 26-year-old woman has had menses every 40-60 days since menarche and has been unable to conceive for 14 months. She has moderate hirsutism and acne. TSH and prolactin are normal. Laboratory studies are shown. Which of the following is the most likely cause of her ovulatory dysfunction?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference"
+        ],
+        [
+          "Total testosterone",
+          "68 ng/dL",
+          "15-70 ng/dL"
+        ],
+        [
+          "DHEAS",
+          "310 µg/dL",
+          "35-430 µg/dL"
+        ],
+        [
+          "17-hydroxyprogesterone (morning, follicular)",
+          "1,250 ng/dL",
+          "< 200 ng/dL"
+        ],
+        [
+          "TSH",
+          "2.1 µU/mL",
+          "0.4-4.0 µU/mL"
+        ],
+        [
+          "Prolactin",
+          "12 ng/mL",
+          "< 25 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Cushing syndrome",
+        "B": "Hypothalamic amenorrhea",
+        "C": "Late-onset congenital adrenal hyperplasia",
+        "D": "Polyendocrine metabolic ovarian syndrome (PMOS)",
+        "E": "Primary hypothyroidism"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cushing syndrome would raise cortisol and usually brings central obesity, striae and hypertension, not a raised 17-hydroxyprogesterone.",
+        "B": "Hypothalamic amenorrhea causes low estrogen without hyperandrogenism.",
+        "C": "Correct: hyperandrogenism with a markedly raised 17-hydroxyprogesterone points to late-onset CAH, an adrenal cause of ovulatory dysfunction; this is why 17-OHP is part of the androgen work-up.",
+        "D": "PMOS (PCOS) also causes oligo-ovulation and hirsutism, but it does not raise 17-hydroxyprogesterone this much.",
+        "E": "Her TSH is normal, ruling out primary hypothyroidism."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-011",
+      "question": "A 27-year-old woman with polyendocrine metabolic ovarian syndrome (PMOS, formerly PCOS) has menses every 2-3 months and has been trying to conceive for 1 year. TSH and prolactin are normal, HSG shows patent tubes, and her partner's semen analysis is normal. Her physician chooses the oral agent shown in a large trial to produce more live births than the alternative in this population. Which of the following is the mechanism of this drug?",
+      "answers": {
+        "A": "Agonism at the GnRH receptor",
+        "B": "Binding to estrogen receptors in the hypothalamus",
+        "C": "Direct stimulation of FSH receptors",
+        "D": "Inhibition of aromatase",
+        "E": "Inhibition of hepatic gluconeogenesis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Continuous GnRH agonists (Lupron) suppress the pituitary; they block the LH surge during IVF and treat endometriosis.",
+        "B": "This is clomiphene, a SERM, which produced fewer live births than letrozole in ovulatory dysfunction.",
+        "C": "Injected FSH acts directly on the ovary but is not oral and carries a 15-20% multiple pregnancy rate.",
+        "D": "Correct: letrozole is an aromatase inhibitor; it gave more live births than clomiphene in ovulatory dysfunction and is usually better tolerated.",
+        "E": "Metformin is rarely used to treat ovulatory dysfunction."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-012",
+      "question": "A 34-year-old woman and her partner have 2 years of infertility. Her cycles are regular with a confirmed mid-luteal progesterone, ovarian reserve and HSG are normal, and the semen analysis is normal. She is started on the oral ovulation-induction agent that the lecture suggests may be better for unexplained infertility. Which of the following best describes this drug?",
+      "answers": {
+        "A": "Aromatase inhibitor",
+        "B": "Dopamine D2 receptor agonist acting on lactotrophs",
+        "C": "GnRH antagonist",
+        "D": "Insulin sensitizer",
+        "E": "Selective estrogen receptor modulator"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This is letrozole, which may be better for ovulatory dysfunction and did worse than clomiphene in unexplained infertility.",
+        "B": "Dopamine agonists treat hyperprolactinemia, which she does not have.",
+        "C": "GnRH antagonists suppress gonadotropins rather than induce ovulation.",
+        "D": "Metformin is an anti-hyperglycemic rarely used for ovulatory dysfunction and has no role in unexplained infertility.",
+        "E": "Correct: clomiphene citrate is a SERM and may be better than letrozole for unexplained infertility; multiples occur in under 10%, rarely more than twins."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-013",
+      "question": "A 32-year-old woman with unexplained infertility receives daily FSH injections for ovarian stimulation followed by intrauterine insemination. Eight days later she has abdominal bloating, nausea and a 3-kg weight gain. Ultrasound shows bilaterally enlarged ovaries (9 cm) and free fluid in the pelvis and abdomen. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference"
+        ],
+        [
+          "Hematocrit",
+          "49%",
+          "36-46%"
+        ],
+        [
+          "Sodium",
+          "133 mEq/L",
+          "135-145 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "1.0 mg/dL",
+          "0.6-1.1 mg/dL"
+        ],
+        [
+          "WBC",
+          "11,800/µL",
+          "4,500-11,000/µL"
+        ]
+      ],
+      "answers": {
+        "A": "Adnexal torsion",
+        "B": "Ectopic pregnancy",
+        "C": "Ovarian hyperstimulation syndrome",
+        "D": "Pelvic inflammatory disease",
+        "E": "Ruptured ovarian endometrioma with peritonitis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Torsion causes sudden severe one-sided pain with an enlarged ovary, not bilateral enlargement with ascites and hemoconcentration.",
+        "B": "A ruptured ectopic bleeds into the abdomen and lowers the hematocrit, the opposite of what is shown.",
+        "C": "Correct: gonadotropin therapy can cause OHSS, marked by significant ovarian enlargement, ascites and hemoconcentration (raised hematocrit).",
+        "D": "PID causes fever, cervical motion tenderness and leukocytosis without hemoconcentration or massive ovarian enlargement.",
+        "E": "A ruptured endometrioma causes acute peritonitis-like pain from one cyst, not bilateral enlargement after stimulation."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-014",
+      "question": "A 30-year-old woman has 18 months of infertility despite regular ovulatory cycles, normal ovarian reserve, patent tubes and a normal semen analysis. Sonohysterography shows a 2.5-cm fibroid that bulges into the endometrial cavity, along with a 3-cm intramural fibroid and a 2-cm subserous fibroid. Which of the following is the most appropriate management?",
+      "answers": {
+        "A": "Abdominal myomectomy of all three fibroids",
+        "B": "Expectant management for 6 more months",
+        "C": "GnRH agonist for 3 months, then retry",
+        "D": "Hysteroscopic resection of the submucous fibroid",
+        "E": "Laparoscopic myomectomy of the intramural fibroid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Removing intramural fibroids did not significantly improve pregnancy rates, and subserous fibroids outside the cavity are not the problem.",
+        "B": "Submucous fibroids significantly lower pregnancy, implantation and live birth rates, so waiting is unlikely to help.",
+        "C": "Medical suppression does not remove the cavity-distorting fibroid that is lowering her chance of pregnancy.",
+        "D": "Correct: submucous fibroids significantly reduce pregnancy and live birth rates and raise miscarriage, and intracavitary fibroids are removed by hysteroscopic myomectomy.",
+        "E": "Myomectomy of intramural fibroids did not significantly improve clinical pregnancy or live birth rates."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-015",
+      "question": "A 31-year-old woman has 2 years of infertility with worsening dysmenorrhea and deep dyspareunia. Her cycles are regular, ovarian reserve is normal, and HSG shows patent tubes. Transvaginal ultrasound is unremarkable. Her partner's semen analysis is normal. Which of the following is the best method to diagnose the most likely cause of her symptoms?",
+      "answers": {
+        "A": "CA-125 level",
+        "B": "Hysteroscopy",
+        "C": "Laparoscopy",
+        "D": "Pelvic MRI",
+        "E": "Repeat hysterosalpingography"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "CA-125 can be raised in endometriosis but is nonspecific and cannot make the diagnosis.",
+        "B": "Hysteroscopy is the gold standard for the uterine cavity, but endometriosis lies on the peritoneum outside it.",
+        "C": "Correct: her pain pattern suggests endometriosis, and laparoscopy, which directly views the peritoneum, is the best method to diagnose it.",
+        "D": "Imaging can show endometriomas or deep disease but misses superficial peritoneal implants, and her ultrasound is already normal.",
+        "E": "HSG shows tubal patency and cavity shape, not peritoneal implants."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-016",
+      "question": "A 44-year-old woman has two children aged 12 and 14 who were conceived easily. She has remarried and has not conceived after 6 months of unprotected intercourse. Her menses are regular every 26-28 days. She has no history of pelvic infection or surgery. Her 39-year-old partner has fathered two children. Her examination is unremarkable. Which of the following is the most likely cause of this couple's infertility?",
+      "answers": {
+        "A": "Age-related oocyte factor",
+        "B": "Asherman syndrome from prior deliveries",
+        "C": "Cervical mucus hostility",
+        "D": "Oligo-ovulation",
+        "E": "Tubal occlusion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: despite regular, likely ovulatory cycles, the most likely cause at 44 is age-related decline in oocyte number and quality.",
+        "B": "Intrauterine adhesions follow curettage or infection, and she has no such history.",
+        "C": "Cervical mucus abnormalities are a rare cause and are not evaluated routinely because the test predicts poorly.",
+        "D": "Her regular 26-28-day cycles are presumptive evidence of ovulation.",
+        "E": "She has no history of infection, surgery or endometriosis to suggest tubal disease, and tubal factor does not rise with age."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-017",
+      "question": "A 33-year-old woman and her partner seek IVF after two pregnancy losses. Karyotyping shows that the partner carries a balanced reciprocal translocation between chromosomes 11 and 22. They want to transfer only embryos that are chromosomally balanced. Which of the following tests should be performed on their embryos?",
+      "answers": {
+        "A": "PGT-A",
+        "B": "PGT-M",
+        "C": "PGT-P",
+        "D": "PGT-SR",
+        "E": "Semen DNA fragmentation testing"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "PGT-A screens for aneuploidy (whole-chromosome gains or losses) and is not designed to detect unbalanced segments from a known translocation.",
+        "B": "PGT-M tests for a single-gene disease such as cystic fibrosis, fragile X or BRCA.",
+        "C": "PGT-P estimates polygenic risk and does not address a structural rearrangement.",
+        "D": "Correct: PGT-SR tests embryos for structural rearrangements such as translocations and inversions.",
+        "E": "This is a sperm test and cannot tell which embryos are balanced."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-018",
+      "question": "A 34-year-old man provides a semen sample as part of his couple's infertility evaluation. He collected it at home after 2 days of abstinence, then ran errands; the sample sat in his car on a 2°C winter day for 3 hours before reaching the laboratory. Results are shown. Which of the following is the best next step?",
+      "table": [
+        [
+          "Parameter",
+          "Result",
+          "Lower reference limit"
+        ],
+        [
+          "Volume",
+          "2.8 mL",
+          "1.4 mL"
+        ],
+        [
+          "Concentration",
+          "48 million/mL",
+          "16 million/mL"
+        ],
+        [
+          "Motility",
+          "9%",
+          "42%"
+        ],
+        [
+          "Normal morphology",
+          "6%",
+          "4%"
+        ]
+      ],
+      "answers": {
+        "A": "Recommend intracytoplasmic sperm injection",
+        "B": "Refer for testicular biopsy",
+        "C": "Repeat the analysis with proper collection and transport",
+        "D": "Start clomiphene for the female partner",
+        "E": "Tell the couple that male factor infertility is now excluded"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "ICSI is for severe sperm abnormalities confirmed on proper testing, not for one mishandled sample.",
+        "B": "Count, volume and morphology are adequate; an invasive test is not justified by a single badly handled sample.",
+        "C": "Correct: specimens should reach the lab within 2 hours and be kept at body temperature (protected from cold); his low motility likely reflects handling, so the test should be repeated.",
+        "D": "The male evaluation is incomplete; treatment depends on valid testing.",
+        "E": "Motility is low, so male factor cannot be excluded until the test is repeated properly."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-019",
+      "question": "A 27-year-old nulligravid woman in a same-sex marriage wants to conceive. She took oral contraceptives from age 15 for cycle control and stopped them 9 months ago; she has had 2 menses since. Her BMI is 23.9 and she has mild hirsutism. TSH and prolactin are normal, and HSG shows a normal cavity and patent tubes. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Gonadotropin injections with timed intercourse",
+        "B": "In vitro fertilization using her own oocytes and donor sperm",
+        "C": "Laparoscopic ovarian drilling",
+        "D": "Oocyte donation with donor sperm IVF",
+        "E": "Oral ovulation induction with donor sperm insemination"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Intercourse cannot achieve pregnancy for this couple, and injectable FSH carries a 15-20% multiple rate when oral agents have not been tried.",
+        "B": "With patent tubes and young ovaries, IVF is not the first step; oral ovulation induction is simpler and appropriate.",
+        "C": "Ovarian drilling is rarely used because it is invasive and can cause adhesions.",
+        "D": "Donor oocytes are for age-related or ovarian-reserve problems, which a 27-year-old with oligo-ovulation does not have.",
+        "E": "Correct: she is likely anovulatory (2 menses in 9 months) and the couple needs donor sperm, so oral ovulation induction with insemination of donor sperm is the plan once testing is normal."
+      }
+    },
+    {
+      "id": "endorepro-ovarian-and-mullerian-infertility-020",
+      "question": "A 38-year-old woman is evaluated for 8 months of infertility. Her cycles are regular. On cycle day 3, transvaginal ultrasound of each ovary shows a similar appearance to the image shown, with 2 antral follicles on each side. Which of the following additional findings is most likely?",
+      "image": {
+        "src": "images/ovarian-and-mullerian-infertility/020.jpg",
+        "caption": "Transvaginal ultrasound of the right ovary, cycle day 3",
+        "credit": "Lecture slides p. 17"
+      },
+      "answers": {
+        "A": "Elevated 17-hydroxyprogesterone",
+        "B": "Elevated day-3 FSH",
+        "C": "Elevated LH-to-FSH ratio",
+        "D": "Elevated serum AMH",
+        "E": "Elevated serum prolactin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "17-OHP is raised in late-onset CAH, which presents with hyperandrogenism and irregular cycles.",
+        "B": "Correct: a low antral follicle count (follicles 2-10 mm) reflects few remaining primordial follicles, i.e. diminished ovarian reserve, and FSH rises as feedback from the shrinking cohort falls.",
+        "C": "A raised LH-to-FSH ratio fits PMOS, which shows many small follicles rather than few.",
+        "D": "AMH comes from granulosa cells of small follicles; with few antral follicles AMH would be low, not high.",
+        "E": "Hyperprolactinemia causes irregular cycles and does not lower the antral follicle count."
+      }
+    }
+  ]
+}

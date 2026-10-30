@@ -1,0 +1,603 @@
+{
+ "lecture": "Physiology of Pregnancy",
+ "block": "endorepro",
+ "generated": "2026-10-29",
+ "questions": [
+  {
+   "id": "endorepro-physiology-of-pregnancy-001",
+   "question": "A 24-year-old primigravid woman at 16 weeks' gestation is enrolled in a study of maternal hemodynamics. She feels well. Echocardiography is compared with a study done 6 months before conception. Systemic vascular resistance has decreased. Which of the following accounts for most of the rise in her cardiac output?",
+   "table": [
+    [
+     "Measure",
+     "Before pregnancy",
+     "16 weeks"
+    ],
+    [
+     "Heart rate",
+     "70/min",
+     "77/min"
+    ],
+    [
+     "Stroke volume",
+     "70 mL",
+     "90 mL"
+    ],
+    [
+     "Cardiac output",
+     "4.9 L/min",
+     "6.9 L/min"
+    ],
+    [
+     "Blood pressure",
+     "112/72 mm Hg",
+     "104/62 mm Hg"
+    ]
+   ],
+   "answers": {
+    "A": "Increased heart rate from sympathetic activation",
+    "B": "Increased myocardial contractility from hCG",
+    "C": "Increased stroke volume as resistance falls",
+    "D": "Increased systemic vascular resistance",
+    "E": "Increased venous return from uterine compression"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Heart rate rises only about 10% here (and 3-15% in the first two trimesters); it contributes, but less than stroke volume does in the first half of pregnancy.",
+    "B": "Direct cardiac stimulation by hCG is not the mechanism; the rise in output follows the fall in vascular resistance.",
+    "C": "Correct: in the first half of pregnancy the fall in peripheral vascular resistance (progesterone, nitric oxide) lets stroke volume rise, and the larger stroke volume is the main driver of the ~50% rise in cardiac output.",
+    "D": "Systemic vascular resistance falls in pregnancy, as shown here; a rise would reduce cardiac output, not increase it.",
+    "E": "The enlarging uterus compresses the vena cava late in pregnancy and lowers venous return when supine; it does not raise output at 16 weeks."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-002",
+   "question": "A 25-year-old woman at 28 weeks' gestation reviews routine laboratory results. Her hemoglobin was 13.2 g/dL at her first-trimester visit. She takes a prenatal vitamin, has no bleeding, and has very mild bilateral ankle edema. Results are shown. Which of the following best explains her hemoglobin concentration?",
+   "table": [
+    [
+     "Test",
+     "Value",
+     "Reference range (nonpregnant)"
+    ],
+    [
+     "Hemoglobin",
+     "10.5 g/dL",
+     "12-16 g/dL"
+    ],
+    [
+     "MCV",
+     "90 fL",
+     "80-100 fL"
+    ],
+    [
+     "Reticulocytes",
+     "1.2%",
+     "0.5-1.5%"
+    ],
+    [
+     "Ferritin",
+     "45 ng/mL",
+     "15-150 ng/mL"
+    ]
+   ],
+   "explanationImage": {
+    "src": "images/physiology-of-pregnancy/002-exp.png",
+    "caption": "Blood, plasma and red cell volume across gestation",
+    "credit": "Slides p. 12"
+   },
+   "answers": {
+    "A": "Bone marrow suppression by circulating placental hormones",
+    "B": "Hemolysis from increased cardiac output",
+    "C": "Iron loss through the gastrointestinal tract",
+    "D": "Plasma volume expansion exceeding red cell mass",
+    "E": "Red cell sequestration in the placenta"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Red cell mass actually rises in pregnancy (by roughly 15-20%), so the marrow is not suppressed; the reticulocyte count here is normal.",
+    "B": "A higher cardiac output does not destroy red cells; hemolysis would raise LDH and bilirubin and lower haptoglobin.",
+    "C": "GI iron loss would give a microcytic picture with low ferritin; her MCV and ferritin are normal.",
+    "D": "Correct: plasma volume rises early and by more than red cell mass, so hemoglobin is diluted. This is physiologic anemia of pregnancy.",
+    "E": "The placenta does not trap maternal red cells; total red cell mass is increased, not lost."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-003",
+   "question": "A 30-year-old woman at 34 weeks' gestation reports mild breathlessness when climbing stairs. She has no cough, fever or chest pain. Respiratory rate is 16/min and oxygen saturation is 99% on room air. Lungs are clear. An arterial blood gas is obtained. Which of the following best explains these results?",
+   "table": [
+    [
+     "Test",
+     "Value",
+     "Reference range (nonpregnant)"
+    ],
+    [
+     "pH",
+     "7.44",
+     "7.38-7.44"
+    ],
+    [
+     "PaCO2",
+     "29 mm Hg",
+     "35-45 mm Hg"
+    ],
+    [
+     "PaO2",
+     "102 mm Hg",
+     "80-100 mm Hg"
+    ],
+    [
+     "HCO3-",
+     "19 mEq/L",
+     "21-30 mEq/L"
+    ]
+   ],
+   "answers": {
+    "A": "Compensation for a primary metabolic acidosis",
+    "B": "Diaphragm elevation reducing vital capacity",
+    "C": "Hypoxemia stimulating a higher respiratory rate",
+    "D": "Progesterone-driven rise in tidal volume",
+    "E": "Renal bicarbonate wasting from glycosuria"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "A primary metabolic acidosis would give a low pH; her pH is high-normal, and the low bicarbonate is the renal response to a respiratory alkalosis.",
+    "B": "The diaphragm does rise, but vital capacity is unchanged in pregnancy and this would not lower PaCO2.",
+    "C": "Her PaO2 is high, not low, and respiratory rate stays about the same in pregnancy.",
+    "D": "Correct: progesterone increases brainstem respiratory drive; tidal volume rises about 40% with little change in rate, producing chronic mild hyperventilation, low PaCO2 and a compensated respiratory alkalosis.",
+    "E": "Glycosuria is common in pregnancy but does not cause bicarbonate loss; the primary change here is the low PaCO2."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-004",
+   "question": "A 29-year-old woman with mild intermittent asthma has pulmonary function testing at 36 weeks' gestation and compares the results with testing done 2 years earlier. She has no wheeze, and her asthma has been well controlled. Which of the following values is most likely to be lower now than before pregnancy?",
+   "explanationImage": {
+    "src": "images/physiology-of-pregnancy/004-exp.png",
+    "caption": "Lung volumes, nonpregnant vs at term, and spirometry in pregnancy",
+    "credit": "Slides p. 20"
+   },
+   "answers": {
+    "A": "Functional residual capacity",
+    "B": "Inspiratory capacity",
+    "C": "Peak expiratory flow rate (PEFR)",
+    "D": "Tidal volume",
+    "E": "Vital capacity"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct: the diaphragm is pushed up, so expiratory reserve volume and residual volume fall and functional residual capacity drops (about 1,700 to 1,350 mL).",
+    "B": "Inspiratory capacity increases in pregnancy (about 2,500 to 2,750 mL), as tidal volume rises.",
+    "C": "Spirometry (FEV1, FVC, FEV1/FVC, peak flow) does not change in pregnancy, so a falling peak flow would point to airway obstruction such as poorly controlled asthma.",
+    "D": "Tidal volume increases by about 40% in pregnancy.",
+    "E": "Vital capacity is unchanged in pregnancy (about 3,200 mL)."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-005",
+   "question": "A 31-year-old woman at 35 weeks' gestation has a routine complete blood count. Her platelet count was 230,000/mm3 in the first trimester. She has no bruising, bleeding, headache or abdominal pain. Blood pressure is 116/72 mm Hg. Urinalysis shows no protein. Liver enzymes are normal, and a peripheral smear shows normal red cells and large platelets. Which of the following is the most likely diagnosis?",
+   "table": [
+    [
+     "Test",
+     "Value",
+     "Reference range"
+    ],
+    [
+     "Hemoglobin",
+     "11.2 g/dL",
+     "12-16 g/dL"
+    ],
+    [
+     "Platelets",
+     "112,000/mm3",
+     "150,000-400,000/mm3"
+    ],
+    [
+     "AST",
+     "22 U/L",
+     "8-40 U/L"
+    ],
+    [
+     "LDH",
+     "160 U/L",
+     "100-250 U/L"
+    ]
+   ],
+   "answers": {
+    "A": "Gestational thrombocytopenia",
+    "B": "HELLP syndrome",
+    "C": "Heparin-induced thrombocytopenia",
+    "D": "Preeclampsia with severe features",
+    "E": "Thrombotic thrombocytopenic purpura"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct: about 8% of pregnancies develop mild thrombocytopenia (down to about 70,000) late in gestation, likely from an immune process like mild ITP plus increased consumption; it is benign.",
+    "B": "HELLP needs hemolysis and elevated liver enzymes, usually with hypertension; her pressure, liver enzymes and smear are normal.",
+    "C": "HIT requires heparin exposure, which she has not had.",
+    "D": "Preeclampsia needs new hypertension, usually with proteinuria or end-organ signs; her blood pressure and urinalysis are normal.",
+    "E": "TTP causes microangiopathic hemolysis with schistocytes and often neurologic or renal findings, all absent here."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-006",
+   "question": "A 27-year-old woman at 39 weeks' gestation is admitted in active labor. She is afebrile, heart rate is 92/min, and blood pressure is 118/74 mm Hg. Membranes ruptured 2 hours ago with clear fluid. The uterus is nontender between contractions, and fetal heart tracing is reassuring. Her white blood cell count is 24,000/mm3 with no left shift. Which of the following is the most appropriate next step in management?",
+   "answers": {
+    "A": "Administer empiric broad-spectrum antibiotics",
+    "B": "Obtain blood cultures and serum lactate",
+    "C": "Order flow cytometry of peripheral blood",
+    "D": "Perform emergency cesarean delivery",
+    "E": "Reassure and continue routine labor care"
+   },
+   "correct": "E",
+   "explanations": {
+    "A": "Antibiotics are for signs of infection (fever, uterine tenderness, foul fluid, fetal tachycardia), none of which she has.",
+    "B": "A sepsis workup is not indicated in a well-appearing, afebrile patient with an expected labor leukocytosis.",
+    "C": "Flow cytometry looks for a leukemia or lymphoma; a transient labor leukocytosis without blasts does not need it.",
+    "D": "Nothing in the maternal or fetal picture calls for urgent delivery.",
+    "E": "Correct: the WBC count rises progressively in pregnancy and can climb to 20,000-30,000 in labor; without other signs of infection this is not alarming."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-007",
+   "question": "A 33-year-old woman at 30 weeks' gestation has routine laboratory studies. She feels well and has no headache, visual change or edema beyond mild ankle swelling. Blood pressure is 118/70 mm Hg. Results are shown, with nonpregnant reference ranges. Which of the following results is most likely abnormal for her stage of pregnancy?",
+   "table": [
+    [
+     "Test",
+     "Value",
+     "Reference range (nonpregnant)"
+    ],
+    [
+     "Hemoglobin",
+     "11.0 g/dL",
+     "12-16 g/dL"
+    ],
+    [
+     "WBC",
+     "11,500/mm3",
+     "4,500-11,000/mm3"
+    ],
+    [
+     "Platelets",
+     "190,000/mm3",
+     "150,000-400,000/mm3"
+    ],
+    [
+     "Creatinine",
+     "1.0 mg/dL",
+     "0.6-1.1 mg/dL"
+    ],
+    [
+     "Alkaline phosphatase",
+     "180 U/L",
+     "40-120 U/L"
+    ]
+   ],
+   "answers": {
+    "A": "Alkaline phosphatase",
+    "B": "Creatinine",
+    "C": "Hemoglobin",
+    "D": "Platelet count",
+    "E": "White blood cell count"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Alkaline phosphatase normally rises in pregnancy; most other liver tests are unchanged.",
+    "B": "Correct: renal plasma flow and GFR rise about 50% or more, so serum creatinine normally falls well below nonpregnant values; a creatinine of 1.0 mg/dL is relatively high and suggests reduced renal function.",
+    "C": "A mildly low hemoglobin is expected from plasma volume expansion (physiologic anemia).",
+    "D": "Platelets stay normal or fall slightly late in pregnancy; 190,000/mm3 is normal.",
+    "E": "The WBC count rises progressively in pregnancy (about 5,000-13,000), so 11,500/mm3 is expected."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-008",
+   "question": "A 26-year-old woman at 28 weeks' gestation has a renal ultrasound to follow up a simple renal cyst found before pregnancy. The cyst is unchanged, but there is new mild bilateral dilation of the renal pelves, calyces and ureters. She has no flank pain or fever, and urinalysis is normal. Serum creatinine is 0.5 mg/dL. Which of the following best explains the ultrasound finding?",
+   "answers": {
+    "A": "Ascending infection with ureteral inflammation",
+    "B": "Bladder outlet obstruction with reflux",
+    "C": "Calcium stones from increased calcium excretion",
+    "D": "Decreased GFR with urinary stasis",
+    "E": "Progesterone-induced smooth muscle relaxation"
+   },
+   "correct": "E",
+   "explanations": {
+    "A": "Infection would bring fever, flank pain or pyuria; her urinalysis is normal.",
+    "B": "There is no outlet obstruction or reflux; the dilation is a normal structural change of pregnancy.",
+    "C": "Urinary calcium excretion does rise in pregnancy, but stones would usually be seen and would cause pain; bilateral smooth dilation is physiologic.",
+    "D": "GFR rises about 50% in pregnancy, and her low creatinine reflects that.",
+    "E": "Correct: progesterone relaxes the smooth muscle of the ureters and renal pelvis, producing pelvicalyceal dilation (physiologic hydronephrosis)."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-009",
+   "question": "A 28-year-old woman at 10 weeks' gestation has thyroid studies drawn at her first prenatal visit because her mother has hypothyroidism. She has nausea in the mornings but no tremor, heat intolerance or weight loss. Heart rate is 84/min. There is no goiter or eye finding. Results are shown. Which of the following best explains these results?",
+   "table": [
+    [
+     "Test",
+     "Value",
+     "Reference range (nonpregnant)"
+    ],
+    [
+     "TSH",
+     "0.3 μU/mL",
+     "0.4-4.0 μU/mL"
+    ],
+    [
+     "Free T4",
+     "1.7 ng/dL",
+     "0.8-1.8 ng/dL"
+    ]
+   ],
+   "answers": {
+    "A": "Autoantibodies stimulating the TSH receptor",
+    "B": "hCG stimulation of the TSH receptor",
+    "C": "Increased thyroid-binding globulin production",
+    "D": "Pituitary suppression by elevated cortisol",
+    "E": "Thyroid inflammation releasing stored hormone"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Graves disease would usually cause frank hyperthyroid symptoms, a goiter or eye findings, and a clearly high free T4.",
+    "B": "Correct: hCG has thyrotropic activity, so free T4 rises a little in the first trimester and TSH is transiently suppressed, usually still near the reference range; TSH normalizes later.",
+    "C": "A rise in TBG raises total T4 and T3, but free T4 and TSH stay normal; it does not suppress TSH.",
+    "D": "Cortisol rises in pregnancy, but the transient fall in TSH in the first trimester is attributed to hCG.",
+    "E": "Thyroiditis causes a painful or painless gland with a clearly high free T4 and later hypothyroidism; nothing suggests it here."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-010",
+   "question": "A 30-year-old woman at 20 weeks' gestation is referred because thyroid tests ordered by an outside clinic were \"abnormal.\" She feels well, with normal energy and no palpitations or weight change. Heart rate is 82/min, and the thyroid is not enlarged. Results are shown. Which of the following best explains these results?",
+   "table": [
+    [
+     "Test",
+     "Value",
+     "Reference range (nonpregnant)"
+    ],
+    [
+     "TSH",
+     "1.8 μU/mL",
+     "0.4-4.0 μU/mL"
+    ],
+    [
+     "Total T4",
+     "15.0 μg/dL",
+     "5-12 μg/dL"
+    ],
+    [
+     "Total T3",
+     "210 ng/dL",
+     "80-180 ng/dL"
+    ],
+    [
+     "Free T4",
+     "1.1 ng/dL",
+     "0.8-1.8 ng/dL"
+    ]
+   ],
+   "answers": {
+    "A": "Autonomous thyroid nodule",
+    "B": "Decreased peripheral conversion of T4 to T3",
+    "C": "Increased thyroid-binding globulin",
+    "D": "Pituitary resistance to thyroid hormone",
+    "E": "Thyrotropic effect of hCG"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "A toxic nodule would raise free T4 and suppress TSH; both are normal here.",
+    "B": "Total T3 would fall, not rise, and this would not explain a high total T4 with normal free T4.",
+    "C": "Correct: TBG production increases early in pregnancy, so more hormone is bound and total T4 and T3 rise, while free T4 and TSH stay normal.",
+    "D": "Thyroid hormone resistance raises free T4 with an inappropriately normal or high TSH; her free T4 is normal.",
+    "E": "hCG raises free T4 and lowers TSH, mainly in the first trimester; her free T4 and TSH are normal at 20 weeks."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-011",
+   "question": "A 29-year-old woman at 32 weeks' gestation has had three episodes of right upper quadrant pain lasting about an hour after fatty meals. Between episodes she is well. Temperature is 37.0°C. There is no jaundice, and liver enzymes and bilirubin are normal. Ultrasound shows a distended gallbladder with multiple mobile stones and no wall thickening. Which of the following physiologic changes of pregnancy most directly contributed to this condition?",
+   "answers": {
+    "A": "Accelerated small-intestinal transit",
+    "B": "Decreased gallbladder motility",
+    "C": "Decreased hepatic synthesis of albumin",
+    "D": "Increased gastric emptying rate",
+    "E": "Increased red cell destruction"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Intestinal transit slows in pregnancy (longer oral-cecal transit time), and this would not cause gallstones.",
+    "B": "Correct: in pregnancy gallbladder motility decreases and bile becomes more lithogenic, so the gallbladder enlarges and gallstones form more often.",
+    "C": "Albumin falls by dilution in pregnancy, but this has no role in gallstone formation.",
+    "D": "Gastric emptying is not changed in pregnancy, and faster emptying would not cause stones.",
+    "E": "Pregnancy does not increase hemolysis; pigment stones from hemolysis are not the mechanism here."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-012",
+   "question": "A 27-year-old woman at 28 weeks' gestation has a 1-hour 50-g glucose challenge test of 150 mg/dL. Her fasting glucose before pregnancy was 82 mg/dL. Her BMI is 24 kg/m2. Fetal growth is at the 60th percentile. The placental hormone chiefly responsible for her decreased insulin sensitivity also has which of the following effects?",
+   "answers": {
+    "A": "Decreases maternal lipolysis",
+    "B": "Increases maternal insulin sensitivity",
+    "C": "Increases maternal lipolysis",
+    "D": "Stimulates the maternal TSH receptor",
+    "E": "Suppresses maternal ACTH secretion"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "The hormone (human placental lactogen) increases, not decreases, maternal lipolysis.",
+    "B": "Human placental lactogen decreases maternal insulin sensitivity, which is what raises her glucose.",
+    "C": "Correct: human placental lactogen, made only in pregnancy, lowers maternal insulin sensitivity and promotes lipolysis; free fatty acids cannot cross the placenta but glucose can, which supports fetal growth even if the mother is malnourished.",
+    "D": "That is the thyrotropic effect of hCG, not of human placental lactogen.",
+    "E": "ACTH and cortisol rise in pregnancy, driven by placental CRH; human placental lactogen does not suppress ACTH."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-013",
+   "question": "A 32-year-old woman at 34 weeks' gestation comes to the emergency department with pain over the pubic bone that radiates down the inner thighs. She describes a snapping sensation in her pelvis when she walks and pain in both hips. There was no trauma. She is afebrile, and the pubic symphysis is tender. Which hormone, made by the placenta, contributes most directly to this condition?",
+   "answers": {
+    "A": "Corticotropin-releasing hormone",
+    "B": "Human chorionic gonadotropin",
+    "C": "Human placental lactogen",
+    "D": "Melanocyte-stimulating hormone",
+    "E": "Relaxin"
+   },
+   "correct": "E",
+   "explanations": {
+    "A": "Placental CRH drives the rise in maternal ACTH and cortisol; it does not loosen ligaments.",
+    "B": "hCG supports the corpus luteum and has a thyrotropic effect early in pregnancy; it does not cause ligamentous laxity.",
+    "C": "Human placental lactogen causes insulin resistance and lipolysis, not joint laxity.",
+    "D": "Placental MSH increases skin pigmentation (melasma, linea nigra).",
+    "E": "Correct: placental relaxin, along with progesterone, loosens ligaments; the pubic symphysis widens from about 3-4 mm to 8 mm by term, causing pain referred down the inner thighs."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-014",
+   "question": "A 30-year-old woman at 33 weeks' gestation develops a left femoral deep venous thrombosis and is started on low-molecular-weight heparin. A consultant considers testing for an inherited thrombophilia but notes that some results are altered by normal pregnancy. Which of the following laboratory findings is an expected effect of normal pregnancy?",
+   "answers": {
+    "A": "Decreased protein S activity",
+    "B": "Low factor VIII activity",
+    "C": "Low fibrinogen level",
+    "D": "Low von Willebrand factor level",
+    "E": "Prolonged prothrombin time"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct: protein S falls in normal pregnancy, part of the hypercoagulable state, so a low protein S during pregnancy cannot be read as an inherited deficiency.",
+    "B": "Factor VIII increases in pregnancy, along with fibrinogen and factors VII, X and XII.",
+    "C": "Fibrinogen increases in pregnancy; a low level would suggest consumption, as in DIC.",
+    "D": "Von Willebrand factor increases in pregnancy.",
+    "E": "PT and PTT are unchanged in pregnancy."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-015",
+   "question": "A 28-year-old woman comes for her first prenatal visit at 9 weeks' gestation. She is 165 cm (5 ft 5 in) tall and weighs 74 kg (163 lb), giving a BMI of 27 kg/m2. She is healthy and asks how much weight she should gain, since a friend told her she now needs to \"eat for two.\" Which of the following is the recommended total weight gain for this pregnancy?",
+   "answers": {
+    "A": "0-11 lb",
+    "B": "11-20 lb",
+    "C": "15-25 lb",
+    "D": "25-35 lb",
+    "E": "28-40 lb"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "This is the range for a BMI over 40 kg/m2.",
+    "B": "This is the range for an obese BMI of 30-39.9 kg/m2.",
+    "C": "Correct: for an overweight BMI (25-29.9 kg/m2) the recommended gain is 15-25 lb. Extra calories are not needed in the first trimester, and only about 350 and 450 kcal/day in the second and third.",
+    "D": "This is the range for a normal BMI of 18.5-24.9 kg/m2.",
+    "E": "This is the range for an underweight BMI below 18.5 kg/m2."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-016",
+   "question": "A 24-year-old woman at 8 weeks' gestation has fatigue, constipation and cold intolerance. She stopped her levothyroxine a year ago. TSH is 18 μU/mL (0.4-4.0), and free T4 is 0.5 ng/dL (0.8-1.8). Levothyroxine is restarted immediately. Which of the following best explains why prompt treatment is especially important at this gestational age?",
+   "answers": {
+    "A": "Fetal neurodevelopment depends on maternal thyroid hormone",
+    "B": "Maternal hypothyroidism blocks placental hCG production",
+    "C": "Maternal TSH crosses the placenta and suppresses the fetus",
+    "D": "The fetal thyroid is suppressed by maternal levothyroxine doses",
+    "E": "Thyroid-binding globulin falls in early pregnancy"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct: the fetus cannot synthesize thyroid hormone until after about 12 weeks, so early fetal thyroid metabolism depends entirely on the mother, and thyroid hormone is required for normal neurologic development.",
+    "B": "Hypothyroidism does not stop hCG production; hCG acts on the maternal thyroid, not the reverse.",
+    "C": "The concern is the lack of maternal thyroid hormone reaching the fetus, not maternal TSH acting on it.",
+    "D": "Replacement doses do not suppress the fetal thyroid, which is not yet functioning at 8 weeks.",
+    "E": "TBG rises in early pregnancy, which increases total hormone needs; it does not fall."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-017",
+   "question": "A 30-year-old woman at 30 weeks' gestation is found to have a low total serum calcium on routine chemistry. She has no paresthesias or muscle cramps, and Chvostek sign is absent. Results are shown. Fetal growth is normal. Which of the following is the main way the fetus's calcium needs are being met?",
+   "table": [
+    [
+     "Test",
+     "Value",
+     "Reference range (nonpregnant)"
+    ],
+    [
+     "Total calcium",
+     "8.3 mg/dL",
+     "8.5-10.5 mg/dL"
+    ],
+    [
+     "Albumin",
+     "3.0 g/dL",
+     "3.5-5.0 g/dL"
+    ],
+    [
+     "Ionized calcium",
+     "4.8 mg/dL",
+     "4.5-5.3 mg/dL"
+    ]
+   ],
+   "answers": {
+    "A": "Decreased maternal urinary calcium excretion",
+    "B": "Increased maternal intestinal calcium absorption",
+    "C": "Net loss of maternal bone that persists after pregnancy",
+    "D": "Placental synthesis of calcium-binding proteins",
+    "E": "Reduced fetal skeletal mineralization"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Urinary calcium excretion increases in pregnancy, not decreases.",
+    "B": "Correct: total calcium falls during pregnancy but ionized calcium is unchanged, and fetal needs are met by increased maternal intestinal calcium absorption.",
+    "C": "Pregnancy is a period of high bone turnover, but any bone loss is transient and reversible; parity is not linked to later osteoporosis.",
+    "D": "This is not the mechanism described; maternal absorption from the gut supplies the extra calcium.",
+    "E": "Fetal mineralization is not sacrificed; fetal calcium needs are met."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-018",
+   "question": "A 29-year-old woman at 24 weeks' gestation is concerned about darkening of her skin. She has symmetric brown patches on her cheeks, forehead and upper lip, and a dark vertical line from the umbilicus to the pubis. Blood pressure, glucose and electrolytes are normal, and she takes no medications. Which of the following best explains these skin changes?",
+   "answers": {
+    "A": "ACTH excess from a corticotroph pituitary adenoma",
+    "B": "Adrenal androgen excess",
+    "C": "Increased cutaneous blood flow",
+    "D": "Placental melanocyte-stimulating hormone",
+    "E": "Primary adrenal insufficiency"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "A corticotroph adenoma would bring Cushingoid features and electrolyte or glucose changes; these findings are normal in pregnancy.",
+    "B": "Androgen excess causes hirsutism and acne, not facial hyperpigmentation and linea nigra.",
+    "C": "Increased skin blood flow causes the generalized pregnancy \"glow,\" not hyperpigmentation.",
+    "D": "Correct: the placenta produces melanocyte-stimulating hormone, which increases skin pigmentation, giving melasma (the \"mask of pregnancy\") and a more prominent linea nigra.",
+    "E": "Addison disease darkens the skin through ACTH but causes hypotension, hyponatremia and hyperkalemia, which she does not have."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-019",
+   "question": "A 32-year-old woman with a dilated cardiomyopathy (ejection fraction 40%) is planning a pregnancy. Her cardiologist explains that the greatest volume and output load on her heart will come at a predictable time. At which of the following times is maternal cardiac output highest?",
+   "answers": {
+    "A": "Early third trimester",
+    "B": "End of the first trimester",
+    "C": "First stage of active labor",
+    "D": "Immediately after delivery",
+    "E": "Six weeks postpartum"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Cardiac output during pregnancy plateaus around 25-30 weeks at about 50% above baseline, but it is higher still around delivery.",
+    "B": "Cardiac output has risen only about 5-10% by the end of the first trimester.",
+    "C": "Output rises about 30% in stage 1 labor and about 50% in stage 2, still less than just after delivery.",
+    "D": "Correct: immediately after delivery cardiac output is 60-80% above baseline, as about 500 mL returns to the circulation by autotransfusion; it falls rapidly within the first hour.",
+    "E": "By 6 weeks postpartum heart rate and output are falling, and they return to prepregnancy values by 3-6 months."
+   }
+  },
+  {
+   "id": "endorepro-physiology-of-pregnancy-020",
+   "question": "A 30-year-old woman at 32 weeks' gestation has fatigue, mild ankle edema and a recent 1-hour glucose challenge of 145 mg/dL. Blood pressure is 114/70 mm Hg. She takes no medications. As part of a research protocol, serum cortisol, free cortisol and ACTH are all above nonpregnant reference ranges. MRI from an unrelated study shows normal-sized adrenal glands. Which of the following is the primary driver of these hormone changes?",
+   "answers": {
+    "A": "ACTH-secreting pituitary adenoma",
+    "B": "Adrenal cortical hyperplasia",
+    "C": "Decreased renal clearance of circulating cortisol",
+    "D": "Exogenous glucocorticoid use",
+    "E": "Placental corticotropin-releasing hormone"
+   },
+   "correct": "E",
+   "explanations": {
+    "A": "A corticotroph adenoma would be pathologic and would usually cause hypertension and Cushingoid features; the rise in ACTH and cortisol here is physiologic.",
+    "B": "The adrenals do not enlarge in pregnancy, and her adrenals are normal in size.",
+    "C": "Renal function (GFR) increases in pregnancy; reduced clearance would not explain a high ACTH.",
+    "D": "She takes no medications, and exogenous steroids would suppress ACTH.",
+    "E": "Correct: the placenta and fetal membranes secrete CRH into the maternal circulation, raising ACTH and cortisol (including free cortisol), a physiologic hypercortisolism that can cause fatigue, edema and hyperglycemia."
+   }
+  }
+ ]
+}

@@ -2,6 +2,21 @@
   "block": "endorepro",
   "lectures": [
     {
+      "file": "abnormal-uterine-bleeding-and-pelvic-pain.json",
+      "name": "Abnormal Uterine Bleeding and Pelvic Pain",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.29.26-CM_Abnormal-Uterine-Bleeding-and-Pelvic-pain_Cullen_Notes-83e6d33286.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.29.26-CM_Abnormal-Uterine-Bleeding-and-Pelvic-Pain_Cullen_Slides-768cf90c7c.pdf"
+        }
+      ]
+    },
+    {
       "file": "approach-to-a-patient-with-thyroid-disease.json",
       "name": "Approach to a Patient with Thyroid Disease",
       "count": 20,
@@ -232,6 +247,21 @@
       ]
     },
     {
+      "file": "ovarian-and-mullerian-infertility.json",
+      "name": "Ovarian & Mullerian Infertility",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.29.26-CM_Ovarian-Mullerian-Infertility_Gutmann_Notes-27fe9c6b22.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.29.26-CM_Ovarian-Mullerian-Infertility_Gutmann_Slides-658948e76a.pdf"
+        }
+      ]
+    },
+    {
       "file": "pathology-of-the-thyroid-and-parathyroid.json",
       "name": "Pathology of the Thyroid and Parathyroid",
       "count": 20,
@@ -273,6 +303,21 @@
         {
           "label": "slides",
           "file": "10.16.2026-ANAT_PelvicViscera-Part-2_Spudich_Slides-dc1eca53f8.pdf"
+        }
+      ]
+    },
+    {
+      "file": "physiology-of-pregnancy.json",
+      "name": "Physiology of Pregnancy",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.30.26-PHYS_Physiology-of-Pregnancy_Tran_Notes-191fa2edcb.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.30.26-PHYS_Physiology-of-Pregnancy_Tran_Slides-cc6896d932.pdf"
         }
       ]
     },
@@ -333,6 +378,21 @@
         {
           "label": "slides",
           "file": "10.09.26-PHYS-Pituitary-Hypothalamus_Haines_Slides-4bf0231c08.pdf"
+        }
+      ]
+    },
+    {
+      "file": "pregnancy-morbidity-and-mortality.json",
+      "name": "Pregnancy Morbidity & Mortality",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.30.26-HSS_Pregnancy-Morbidity-Mortality_Farmer_Notes-8ea40e1b73.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.30.26-HSS_Pregnancy-Morbidity-Mortality_Slides_Farmer.v.10.27.26-251ca9fbb2.pdf"
         }
       ]
     },
@@ -412,6 +472,21 @@
       ]
     },
     {
+      "file": "sti-pid-and-vaginitis.json",
+      "name": "STI, PID, & Vaginitis",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.29.26-INIM_STI-PID-Vaginitis_Weber-Cullen_Notes-8e1470d8fd.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.29.26-INIM_STI-PID-Vaginitis_Weber-Cullen_Slides_v.10.27.26-4e046930ff.pdf"
+        }
+      ]
+    },
+    {
       "file": "tbl-adrenal-pathology.json",
       "name": "TBL - Adrenal Pathology",
       "count": 20,
@@ -438,6 +513,21 @@
         {
           "label": "objectives",
           "file": "10.07.26-BCM_TBL_Hypo_and_Hyperglycemia_Scott_LOs-7bdf679376.pdf"
+        }
+      ]
+    },
+    {
+      "file": "tbl-pathology-of-the-labia-cervix-and-vagina.json",
+      "name": "TBL - Pathology of the Labia, Cervix, & Vagina",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.28.26-PATH_TBL---Pathology-of-the-Labia-Cervix-Vagina_Chan_Notes-67cceab2e7.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.28.26-PATH_TBL---Pathology-of-the-Labia-Cervix-Vagina_Chan_Slides-36c38be251.pdf"
         }
       ]
     },
@@ -546,6 +636,17 @@
         {
           "label": "handout",
           "file": "Week-3-c4e8987cd2.pdf"
+        }
+      ]
+    },
+    {
+      "file": "week-4-cbl.json",
+      "name": "CBL Week 4: Female Reproductive Tract, Amenorrhea and STIs",
+      "count": 40,
+      "pdfs": [
+        {
+          "label": "handout",
+          "file": "Week_4_CBL-9b2d6a8a3a.pdf"
         }
       ]
     }

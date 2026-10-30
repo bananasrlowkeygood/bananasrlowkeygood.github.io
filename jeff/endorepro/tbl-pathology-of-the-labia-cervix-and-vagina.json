@@ -1,0 +1,527 @@
+{
+  "lecture": "TBL - Pathology of the Labia, Cervix, & Vagina",
+  "block": "endorepro",
+  "generated": "2026-10-29",
+  "questions": [
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-001",
+      "question": "A 29-year-old woman has a Pap test reported as atypical squamous cells of uncertain significance, and co-testing is positive for high-risk HPV. Colposcopy shows an acetowhite lesion centered on the boundary between the pink ectocervix and the red endocervical canal, and biopsy of this area shows HPV-related dysplasia. Which of the following best explains why HPV-related dysplasia arises at this location?",
+      "answers": {
+        "A": "Glandular cells here secrete mucin that binds the virus",
+        "B": "Immature cells at the squamocolumnar junction are infectable",
+        "C": "Lymphoid follicles here concentrate virions from the vagina",
+        "D": "Mature superficial squamous cells here lack protective keratin",
+        "E": "Stromal fibroblasts here express the main viral receptor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Endocervical glandular cells are not described as trapping virus with mucin; HPV targets immature cells at the junction, not mucus.",
+        "B": "HPV infects immature squamous/glandular cells at the squamocolumnar junction (transformation zone), so dysplasia arises where the squamous ectocervix meets the glandular endocervix.",
+        "C": "The transformation zone is defined by its epithelial junction, not by lymphoid follicles; HPV infects epithelial cells, not lymphoid tissue.",
+        "D": "HPV gains entry through immature cells (at the junction or basal cells at epithelial breaks), not through mature superficial squamous cells.",
+        "E": "HPV is an epithelial virus; the stroma under the epithelium is not its target, and stromal involvement implies invasion, not infection."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-002",
+      "question": "A 24-year-old woman undergoes colposcopy after a Pap test showing atypical squamous cells; co-testing is positive for high-risk HPV. A cervical biopsy is shown. The upper epithelial cells have enlarged, hyperchromatic, wrinkled nuclei surrounded by a clear perinuclear zone, while cells near the base mature normally. The clear perinuclear zone in these cells is caused mainly by which viral protein?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/002.jpg",
+        "caption": "Cervical biopsy, H&E",
+        "credit": "Lecture slides p. 19"
+      },
+      "answers": {
+        "A": "E4",
+        "B": "E6",
+        "C": "E7",
+        "D": "L1",
+        "E": "L2"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "These are koilocytes; their perinuclear halo results from cytoskeleton disruption caused by HPV E4 during viral replication.",
+        "B": "E6 (with E7) causes the nuclear atypia of koilocytes, polyploidy and aneuploidy, not the perinuclear halo.",
+        "C": "E7 contributes to nuclear atypia and, when overexpressed after integration, drives proliferation by inactivating pRb; it does not create the halo.",
+        "D": "L1 is a late (capsid) gene of the viral episome; it is not responsible for koilocytic cytoplasmic clearing.",
+        "E": "L2 is the other late (capsid) gene; it does not disrupt the cytoskeleton to produce the halo."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-003",
+      "question": "A 23-year-old woman has a cervical biopsy showing abundant koilocytes in the superficial layers with minimal basal maturation defect, a low N:C ratio, and an intact basement membrane. Molecular studies of the lesion show the HPV genome and abundant intact virions. In what form does the viral genome most likely exist in this lesion?",
+      "answers": {
+        "A": "Episomal genome with full viral gene expression",
+        "B": "Integrated genome with disruption of the E2 reading frame",
+        "C": "Integrated genome with loss of the E6 and E7 genes",
+        "D": "Latent genome stored in sacral dorsal root ganglia",
+        "E": "RNA genome reverse-transcribed into host DNA"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In LSIL the HPV genome stays episomal, the entire genome is expressed in maturing squamous cells, and virions replicate, producing koilocytic atypia.",
+        "B": "Integration with E2 disruption is the HSIL state; it raises E7 and drives proliferation rather than producing abundant virions.",
+        "C": "E6 and E7 are retained (not lost) in transforming lesions; E7 is the oncoprotein whose expression rises after integration.",
+        "D": "Latency in sensory ganglia describes herpes simplex virus, not HPV.",
+        "E": "HPV is a DNA virus; reverse transcription of an RNA genome describes retroviruses such as HIV."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-004",
+      "question": "A 34-year-old woman with an ASCUS Pap test and positive high-risk HPV co-testing undergoes colposcopic biopsy. The pathologist compares her biopsy with normal cervix, as shown in the table. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Feature",
+          "Patient",
+          "Normal cervix"
+        ],
+        [
+          "N:C ratio",
+          "Low",
+          "Low"
+        ],
+        [
+          "Basal maturation defect",
+          "+",
+          "–"
+        ],
+        [
+          "Nuclear atypia",
+          "Koilocytic, superficial cells",
+          "None"
+        ],
+        [
+          "Basement membrane",
+          "Intact",
+          "Intact"
+        ],
+        [
+          "Atypical epithelium and stroma",
+          "No invasion",
+          "No invasion"
+        ]
+      ],
+      "answers": {
+        "A": "HSIL (CIN 2)",
+        "B": "HSIL (CIN 3)",
+        "C": "Invasive squamous cell carcinoma",
+        "D": "LSIL (CIN 1)",
+        "E": "Normal transformation zone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "CIN 2 is high grade: the N:C ratio is high and the maturation defect is marked, rather than a low N:C ratio with mild defect.",
+        "B": "CIN 3 shows high N:C ratio throughout with essentially no maturation; the whole epithelium looks basal.",
+        "C": "Invasive carcinoma requires a broken basement membrane with atypical epithelium invading the stroma, which is absent here.",
+        "D": "Koilocytic atypia of superficial cells with a low N:C ratio, only a mild (+) maturation defect and an intact basement membrane is LSIL, which equals CIN 1.",
+        "E": "Normal cervix has no maturation defect and no nuclear atypia, but this biopsy shows koilocytes."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-005",
+      "question": "A 26-year-old woman has a cervical biopsy, shown here, after an abnormal Pap test with positive high-risk HPV. The superficial cells show koilocytic change, maturation is largely preserved toward the surface, and the basement membrane is intact. She asks what will most likely happen to this lesion if it is simply observed. Which of the following is the most likely course?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/005.jpg",
+        "caption": "Cervical biopsy, H&E",
+        "credit": "Lecture slides p. 15"
+      },
+      "answers": {
+        "A": "Direct progression to invasive squamous carcinoma",
+        "B": "Lifelong persistence without any change",
+        "C": "Progression to high-grade lesion within months",
+        "D": "Spontaneous regression without treatment",
+        "E": "Transformation into endocervical adenocarcinoma"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "LSIL does not progress directly to invasive carcinoma; carcinoma arises from HSIL.",
+        "B": "Some LSIL persists, but the most common outcome on the natural-history chart is regression.",
+        "C": "Only about 10% of LSIL progresses to HSIL, so this is not the most likely course.",
+        "D": "This is LSIL, which generally regresses on its own; regression is the largest share of its natural history.",
+        "E": "LSIL is a squamous lesion with koilocytic atypia; it is not a precursor of glandular adenocarcinoma in this lecture."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-006",
+      "question": "A pathologist reviews two cervical biopsies from patients who are both positive for high-risk HPV. Both show nuclear atypia and an intact basement membrane without stromal invasion. In the first, koilocytes are abundant near the surface and cells still mature into low N:C squamous cells toward the top. In the second, cells with a high N:C ratio fill the full epithelial thickness. Which feature is the main basis for grading these lesions as low-grade versus high-grade?",
+      "answers": {
+        "A": "Basement membrane integrity at the epithelial base",
+        "B": "Extent of the squamous maturation defect",
+        "C": "Number of neutrophils within the epithelium",
+        "D": "Presence of HPV DNA in the lesional cells",
+        "E": "Stromal invasion by the atypical epithelium"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The basement membrane is intact in both LSIL and HSIL; its disruption marks invasive carcinoma, not grade.",
+        "B": "LSIL and HSIL are distinguished by the presence and extent of the squamous maturation defect: minimal in LSIL, full-thickness in HSIL.",
+        "C": "Neutrophil-rich inflammation without dysplasia suggests infection such as Candida or herpes, not SIL grade.",
+        "D": "Both lesions are HPV-related; all LSIL is associated with HPV, so HPV presence does not separate the grades.",
+        "E": "Stromal invasion defines invasive squamous cell carcinoma and is absent in both intraepithelial lesions."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-007",
+      "question": "A 38-year-old woman who was lost to follow-up after an abnormal Pap test 4 years ago now has a repeat abnormal Pap test. Colposcopic biopsy is shown: cells with a high N:C ratio occupy the full thickness of the epithelium with no surface maturation, and the basement membrane is intact. Molecular studies show HPV DNA integrated into the host genome. Disruption of which viral reading frame by integration most directly increases oncoprotein expression in these cells?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/007.jpg",
+        "caption": "Cervical biopsy, H&E",
+        "credit": "Lecture slides p. 31"
+      },
+      "answers": {
+        "A": "E2",
+        "B": "E4",
+        "C": "E5",
+        "D": "L1",
+        "E": "L2"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In HSIL, integration of HPV into host DNA disrupts the E2 open reading frame, which increases E7 and leads to uncontrolled proliferation.",
+        "B": "E4 disrupts the cytoskeleton to form the koilocyte halo during episomal replication; its loss does not raise E7.",
+        "C": "E5 is part of the viral episome but is not the reading frame whose disruption raises E7 in this lecture.",
+        "D": "L1 is a late capsid gene; integration-driven oncoprotein overexpression stems from E2 disruption, not L1.",
+        "E": "L2 is a late capsid gene and does not regulate E7 expression."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-008",
+      "question": "A 41-year-old woman has a cervical biopsy showing HSIL. Studies of the lesion show integrated HPV with overexpression of the oncoprotein E7. In normal resting cells, DNA synthesis is blocked, and cells enter S phase only after CDK acts on a regulatory protein. Which of the following best explains how E7 drives these cells into DNA synthesis?",
+      "answers": {
+        "A": "Constitutive activation of CDK by E7",
+        "B": "Degradation of E2F by E7",
+        "C": "Inactivation of pRb, releasing E2F",
+        "D": "Increased binding of pRb to E2F",
+        "E": "Upregulation of E4 to disrupt the cytoskeleton"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Normally CDK acts on pRb to release E2F; E7 bypasses this step by acting on pRb directly rather than activating CDK.",
+        "B": "E2F is the factor that drives synthesis; degrading it would block, not promote, S-phase entry.",
+        "C": "E7 binds and inactivates pRb, freeing E2F to activate DNA synthesis without normal CDK control, causing uncontrolled proliferation.",
+        "D": "pRb bound to E2F is the G0 state with no synthesis; increasing that binding would halt the cell cycle.",
+        "E": "E4 produces the perinuclear halo of koilocytes; it does not control entry into S phase."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-009",
+      "question": "A 36-year-old woman has a cervical biopsy with the findings below. She declines treatment and asks about the outlook if the lesion is left alone. Which statement best describes the natural history of this lesion?",
+      "table": [
+        [
+          "Feature",
+          "Patient"
+        ],
+        [
+          "N:C ratio",
+          "High throughout the epithelium"
+        ],
+        [
+          "Basal maturation defect",
+          "+++ (full thickness looks basal)"
+        ],
+        [
+          "Nuclear atypia",
+          "High-grade"
+        ],
+        [
+          "Basement membrane",
+          "Intact"
+        ],
+        [
+          "Atypical epithelium and stroma",
+          "No invasion"
+        ]
+      ],
+      "answers": {
+        "A": "Complete regression within two years in nearly all cases",
+        "B": "Direct progression to invasive cancer within one year",
+        "C": "Loss of malignant potential once HPV integrates into DNA",
+        "D": "Persistence in most; ~10% become cancer in 2–10 years",
+        "E": "Regression to LSIL first, then return to normal epithelium"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Regression in most cases is the natural history of LSIL, not of this high-grade lesion.",
+        "B": "Progression to carcinoma occurs in a minority and over years, not within one year.",
+        "C": "HPV integration increases E7 and malignant potential; it does not abolish it.",
+        "D": "This is HSIL, which is premalignant: most lesions persist, and about 10% progress to carcinoma within 2–10 years.",
+        "E": "Regression is a minority outcome for HSIL; the dominant course is persistence."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-010",
+      "question": "A 52-year-old woman who was lost to follow-up after a diagnosis of a high-grade cervical lesion 10 years ago presents with vaginal bleeding. Exam shows an ulcerated cervical mass extending into the parametrial soft tissue, and a cold knife cone is performed. The table compares the new specimen with her prior biopsy. Which finding most specifically establishes the new diagnosis?",
+      "table": [
+        [
+          "Feature",
+          "Prior biopsy",
+          "Cone specimen"
+        ],
+        [
+          "N:C ratio",
+          "High",
+          "High"
+        ],
+        [
+          "Basal maturation defect",
+          "+++",
+          "+++"
+        ],
+        [
+          "Nuclear atypia",
+          "High-grade",
+          "High-grade"
+        ],
+        [
+          "Basement membrane",
+          "Intact",
+          "Broken"
+        ],
+        [
+          "Atypical epithelium and stroma",
+          "None",
+          "Invasion"
+        ]
+      ],
+      "explanationImage": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/010-exp.jpg",
+        "caption": "Invasive squamous cell carcinoma of the cervix, cone specimen",
+        "credit": "Lecture slides p. 39"
+      },
+      "answers": {
+        "A": "Basement membrane breach with stromal invasion",
+        "B": "Full-thickness squamous maturation defect",
+        "C": "High N:C ratio throughout the epithelium",
+        "D": "High-grade nuclear atypia of squamous cells",
+        "E": "Koilocytic change of superficial squamous cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Invasive squamous cell carcinoma differs from HSIL only by a broken basement membrane with atypical epithelium invading the stroma.",
+        "B": "A full-thickness maturation defect is present in both HSIL and invasive carcinoma, so it does not separate them.",
+        "C": "A high N:C ratio is shared by HSIL and carcinoma and was already present in the prior biopsy.",
+        "D": "High-grade atypia is the same in HSIL and carcinoma; it shows dysplasia, not invasion.",
+        "E": "Koilocytic change is the hallmark of LSIL (HPV replication), not of invasive carcinoma."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-011",
+      "question": "A 27-year-old woman has 2 weeks of vaginal itching with thick, white, clumpy discharge. A month ago she took antibiotics for an upper respiratory infection; prior gynecologic visits were unremarkable. Her cervix is shown. A cervical biopsy shows numerous neutrophils in the epithelium and no dysplasia; a few faint filamentous structures are hard to make out on H&E. Which special stain would best highlight the suspected organisms?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/011.jpg",
+        "caption": "Colposcopic view of the cervix",
+        "credit": "Lecture slides p. 45"
+      },
+      "answers": {
+        "A": "Acid-fast (Ziehl-Neelsen) stain",
+        "B": "Congo red stain",
+        "C": "Gomori methenamine silver stain",
+        "D": "Immunohistochemistry for HSV-1 and -2",
+        "E": "Prussian blue iron stain"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Acid-fast stains highlight mycobacteria, not the yeast and hyphae of Candida.",
+        "B": "Congo red highlights amyloid deposits, not microorganisms.",
+        "C": "Fungal elements are easier to see on a silver stain; Gomori methenamine silver (GMS) stains fungal organisms black.",
+        "D": "HSV immunohistochemistry turns herpes-infected cells brown; it would not show fungal organisms.",
+        "E": "Prussian blue highlights iron (hemosiderin), not organisms."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-012",
+      "question": "A 25-year-old woman develops vaginal itching and thick white clumpy discharge three weeks after a 10-day course of amoxicillin for sinusitis. Cervical biopsy shows many neutrophils and no dysplasia, and a silver stain shows fungal organisms. She asks why the antibiotic led to this infection. Which of the following best explains the association?",
+      "answers": {
+        "A": "Antibiotic-induced neutropenia allowing invasion",
+        "B": "Direct toxicity of the antibiotic to squamous cells",
+        "C": "Disturbed flora allowing commensal yeast overgrowth",
+        "D": "Hypersensitivity reaction to the antibiotic in the vagina",
+        "E": "Sexual acquisition of a new fungal pathogen"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The biopsy shows abundant neutrophils, so neutropenia is not the mechanism.",
+        "B": "Antibiotics do not cause candidiasis by injuring squamous epithelium; the biopsy shows no epithelial atypia.",
+        "C": "Yeast is part of normal vaginal flora; symptomatic candidiasis follows a disturbance of the vaginal microbial system such as prolonged antibiotic use or douching.",
+        "D": "A hypersensitivity reaction would not produce fungal organisms on a silver stain.",
+        "E": "Candida is already a normal vaginal commensal; infection reflects overgrowth, not new sexual acquisition."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-013",
+      "question": "A 44-year-old woman has recurrent vaginal itching with thick white discharge. Cervical biopsy shows many neutrophils without dysplasia, and a special stain of the biopsy is shown. She has not taken antibiotics and does not douche. Which of the following additional findings would most increase her risk for this condition?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/013.jpg",
+        "caption": "Cervical biopsy, special stain",
+        "credit": "Lecture slides p. 50"
+      },
+      "answers": {
+        "A": "Barrier contraceptive use",
+        "B": "Cigarette smoking",
+        "C": "High-risk HPV infection",
+        "D": "Postmenopausal estrogen deficiency",
+        "E": "Uncontrolled diabetes mellitus"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Barrier contraception is not a risk factor for candidiasis; improper barrier use is a risk factor for herpes.",
+        "B": "Smoking is not among the lecture's risk factors for fungal infection.",
+        "C": "High-risk HPV causes squamous intraepithelial lesions with dysplasia, not fungal infection with neutrophils and no dysplasia.",
+        "D": "Increased, not decreased, estrogen levels predispose to Candida infection.",
+        "E": "The GMS stain shows black fungal organisms, most likely Candida; uncontrolled diabetes is a risk factor, along with immunosuppression, antibiotics, douching and increased estrogen."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-014",
+      "question": "A 32-year-old woman has a 3-day history of a painful, diffusely burning and itching vulvar rash. She also has a headache and feels generally unwell. Colposcopy of her cervix is shown. Biopsy of the cervical lesion shows denuded surface epithelium with an ulcer bed full of neutrophils and necrosis, without nuclear atypia. Which of the following is the most likely diagnosis?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/014.jpg",
+        "caption": "Colposcopic view of the cervix",
+        "credit": "Lecture slides p. 56"
+      },
+      "answers": {
+        "A": "Candida infection",
+        "B": "Herpes simplex infection",
+        "C": "High-grade squamous intraepithelial lesion",
+        "D": "Lichen sclerosus",
+        "E": "Squamous cell carcinoma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Candida causes itching with thick white clumpy discharge and is not typically ulcerative with systemic symptoms.",
+        "B": "A painful burning vulvar rash with headache and malaise plus an ulcer with denuded epithelium and marked acute inflammation and necrosis is herpes simplex infection.",
+        "C": "HSIL shows high-grade nuclear atypia with full-thickness maturation defect, not an inflamed ulcer without atypia.",
+        "D": "Lichen sclerosus is a vulvar condition of older women with thin, fragile skin and atrophic epithelium, not an acute painful ulcer.",
+        "E": "Squamous cell carcinoma shows atypical cells invading stroma; this biopsy has no nuclear atypia."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-015",
+      "question": "A 30-year-old woman presents with a painful vulvar rash, malaise and headache. A cervical ulcer is biopsied in its ulcerative phase and shows denuded epithelium with marked acute inflammation in the ulcer bed. Which additional finding at the edge of the ulcer would be most specific for the underlying cause?",
+      "explanationImage": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/015-exp.jpg",
+        "caption": "Squamous cells with herpes viral inclusions (Cowdry bodies), arrows",
+        "credit": "Lecture slides p. 63"
+      },
+      "answers": {
+        "A": "Band-like lymphocytic infiltrate in the dermis",
+        "B": "Full-thickness cells with a high N:C ratio",
+        "C": "Fungal hyphae highlighted black on silver stain",
+        "D": "Koilocytes with perinuclear halos",
+        "E": "Multinucleated cells with Cowdry bodies"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A dense band-like lymphocytic infiltrate is lichenoid inflammation, seen in lichen sclerosus and lichen simplex.",
+        "B": "Full-thickness high N:C ratio cells indicate HSIL, a dysplastic lesion rather than an infectious ulcer.",
+        "C": "Black fungal hyphae on GMS indicate Candida, which does not cause this painful ulcer with systemic symptoms.",
+        "D": "Koilocytes with perinuclear halos are the sign of HPV replication (LSIL).",
+        "E": "Herpes simplex virus produces multinucleated squamous cells with viral inclusions known as Cowdry bodies; IHC for HSV-1/2 can confirm it."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-016",
+      "question": "A 28-year-old woman is diagnosed with genital herpes after a cervical biopsy shows an ulcer with multinucleated squamous cells, and immunohistochemistry for HSV-1 and -2 stains the infected cells dark brown. She has no chronic illnesses and takes no medications. Which of the following elements of her history is a recognized risk factor for this infection?",
+      "answers": {
+        "A": "Douching after each menstrual period",
+        "B": "Improper use of barrier methods",
+        "C": "Increased circulating estrogen levels",
+        "D": "Postmenopausal vulvar atrophy",
+        "E": "Recent course of oral antibiotics"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Douching disturbs vaginal flora and predisposes to Candida, not herpes.",
+        "B": "Risk factors for herpes infection are sex with an infected person, improper use of barrier methods, prior STIs and immunosuppression.",
+        "C": "Increased estrogen is a risk factor for Candida infection, not herpes.",
+        "D": "Postmenopausal status is the setting of lichen sclerosus, not a herpes risk factor.",
+        "E": "Antibiotic use disturbs vaginal flora and predisposes to Candida, not herpes."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-017",
+      "question": "A 66-year-old woman has vulvar itching of uncertain duration that she thinks worsened after menopause. On examination, shown here, the vulva is thin, pale and fragile-appearing. A biopsy is taken and compared with normal vulvar skin. Which combination of findings is most likely?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/017.jpg",
+        "caption": "Vulvar examination",
+        "credit": "Lecture slides p. 67"
+      },
+      "answers": {
+        "A": "Full-thickness atypia with an intact basement membrane",
+        "B": "Koilocytes with perinuclear halos near the surface",
+        "C": "Multinucleated cells with viral nuclear inclusions",
+        "D": "Thickened atypical epithelium invading the stroma",
+        "E": "Thin epithelium, no rete ridges, homogenized dermis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Full-thickness atypia with an intact basement membrane is HSIL of the cervix, not this atrophic vulvar condition.",
+        "B": "Koilocytes indicate HPV infection (LSIL), not lichen sclerosus.",
+        "C": "Multinucleated cells with Cowdry bodies indicate herpes simplex infection.",
+        "D": "Thickened atypical epithelium invading stroma is squamous cell carcinoma, which may later develop in this condition but is not the initial finding.",
+        "E": "Lichen sclerosus shows very thin, atrophic flattened epithelium, absent rete ridges, and upper dermal edema/homogenization."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-018",
+      "question": "A 61-year-old woman has chronic vulvar itching. A vulvar biopsy report describes the pattern of inflammation as \"lichenoid.\" A medical student asks the pathologist what defines this pattern and whether it identifies a single disease. Which histologic finding defines lichenoid inflammation?",
+      "answers": {
+        "A": "Acute neutrophilic infiltrate within the epithelium",
+        "B": "Caseating granulomas within the dermis",
+        "C": "Clusters of eosinophils around dermal vessels",
+        "D": "Dense band-like lymphocytes in the dermis",
+        "E": "Plasma cells surrounding eccrine glands"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A neutrophil-rich epithelial infiltrate is the acute inflammation of infections such as Candida or herpes.",
+        "B": "Caseating granulomas suggest mycobacterial infection and are not lichenoid inflammation.",
+        "C": "Perivascular eosinophils are not the hallmark of lichenoid inflammation.",
+        "D": "Lichenoid inflammation is a dense band-like lymphocytic infiltrate in the dermis; it is not specific, occurring in lichen simplex and lichen sclerosus among others.",
+        "E": "Periadnexal plasma cells do not define the lichenoid pattern."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-019",
+      "question": "A 64-year-old woman is diagnosed with lichen sclerosus after a vulvar biopsy shows atrophic epithelium, loss of rete ridges and dermal homogenization. She asks whether the condition is precancerous. Her physician explains that it is not premalignant in itself but recommends long-term follow-up. For which malignancy is she at increased risk?",
+      "answers": {
+        "A": "Basal cell carcinoma of the vulva",
+        "B": "Endocervical adenocarcinoma",
+        "C": "Extramammary Paget disease",
+        "D": "Melanoma of the vulva",
+        "E": "Vulvar squamous cell carcinoma"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Basal cell carcinoma is not the malignancy associated with lichen sclerosus in this lecture.",
+        "B": "Endocervical adenocarcinoma arises in the cervix and is unrelated to vulvar lichen sclerosus.",
+        "C": "Extramammary Paget disease is not linked to lichen sclerosus in this lecture.",
+        "D": "Melanoma is not the malignancy associated with lichen sclerosus.",
+        "E": "Patients with lichen sclerosus have a slightly increased chance of developing squamous cell carcinoma of the vulva."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-labia-cervix-and-vagina-020",
+      "question": "A 67-year-old woman with biopsy-proven lichen sclerosus returns a year later; her vulva is still thin and fragile, but nodular areas have appeared. Biopsy of a nodule is shown: thickened epithelium with nuclear atypia extends into the underlying stroma, while adjacent skin resembles her prior biopsy. Which feature best distinguishes this tumor from a cervical squamous cell carcinoma arising from HSIL?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-labia-cervix-and-vagina/020.jpg",
+        "caption": "Vulvar biopsy, H&E",
+        "credit": "Lecture slides p. 75"
+      },
+      "answers": {
+        "A": "Arises from a koilocytic precursor lesion",
+        "B": "Driven by HPV E6 and E7 oncoproteins",
+        "C": "Has no association with HPV infection",
+        "D": "Lacks any invasion of the stroma",
+        "E": "Shows an intact basement membrane"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Koilocytic change marks HPV-related LSIL; this tumor arose in lichen sclerosus, not a koilocytic lesion.",
+        "B": "E6/E7-driven proliferation describes HPV-related cervical carcinoma; this vulvar tumor is not HPV-associated.",
+        "C": "This is well-differentiated squamous cell carcinoma arising in lichen sclerosus, which has no association with HPV, unlike cervical SCC that arises from HPV-driven HSIL.",
+        "D": "The atypical epithelium invades the stroma, which is what makes it carcinoma; invasion is shared with cervical SCC.",
+        "E": "Invasive carcinoma breaks the basement membrane, whether vulvar or cervical."
+      }
+    }
+  ]
+}
