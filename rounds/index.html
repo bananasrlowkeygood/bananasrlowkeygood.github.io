@@ -195,7 +195,7 @@
   <script type="module">
     import Anthropic from "https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@0.134.0/+esm";
 
-    const MODEL = "claude-opus-5-5";
+    const MODEL = "claude-sonnet-5-5";
     const QUESTIONS = 3;
 
     // Each rotation: presentation types with target length (seconds), plus the
@@ -283,8 +283,9 @@ Reassessment: response to treatment, repeat vitals and exam, results back, updat
       return content.filter((b) => b.type === "text").map((b) => b.text).join("");
     }
 
-    async function ask({ system, messages, schema, effort }) {
+    async function ask({ label, system, messages, schema, effort }) {
       let res;
+      const t0 = performance.now();
       try {
         res = await client().beta.messages.create({
           model: MODEL,
@@ -301,6 +302,7 @@ Reassessment: response to treatment, repeat vitals and exam, results back, updat
         if (e instanceof Anthropic.APIError) throw new Error(`api error ${e.status ?? ""}: ${e.message}`);
         throw e;
       }
+      console.log(`[rounds] ${label}: ${((performance.now() - t0) / 1000).toFixed(1)}s, ${res.usage?.output_tokens} output tokens`);
       if (res.stop_reason === "refusal") throw new Error("claude declined this one, try again");
       if (res.stop_reason === "max_tokens") throw new Error("response was cut off, try again");
       return { data: JSON.parse(blockText(res.content)), content: res.content };
@@ -325,8 +327,8 @@ Reassessment: response to treatment, repeat vitals and exam, results back, updat
       strengths: strs,
       missed: strs,
       cut: strs,
-      model_presentation: str,
     });
+    const MODEL_SCHEMA = obj({ presentation: str });
 
     const ATT_SCHEMA = obj({ reaction: str, question: str });
 
@@ -352,10 +354,11 @@ Fields:
 - answer_key: the working diagnosis, the facts a good presentation must mention, and the ideal assessment and plan. Hidden from the student.`;
       const avoid = recent.length ? `\n\nAvoid these recently used diagnoses: ${recent.join("; ")}.` : "";
       const { data } = await ask({
+        label: "case",
         system,
         messages: [{ role: "user", content: `Write a new ${r.name} case for a ${kindLabel()} presentation.${avoid}` }],
         schema: CASE_SCHEMA,
-        effort: "medium",
+        effort: "low",
       });
       store.set("recent", [data.answer_key.diagnosis, ...recent].slice(0, 15));
       return data;
@@ -380,6 +383,7 @@ The target length is about ${fmt(targetSec())}. The transcript comes from speech
       const words = wordCount(transcript);
       const timing = S.elapsed > 0 ? `The student spoke for ${fmt(S.elapsed)} (${words} words).` : `The presentation was typed, so length is not timed (${words} words).`;
       const { data } = await ask({
+        label: "grade",
         system: gradeSystem(),
         messages: [{
           role: "user",
@@ -388,13 +392,32 @@ The target length is about ${fmt(targetSec())}. The transcript comes from speech
 - scores: one entry for each of ${CATEGORIES.join(", ")}; score 1 to 5 where 3 meets expectations for a third-year student on this rotation; comment is one or two specific sentences quoting or paraphrasing what they said.
 - strengths: what they did well, specific.
 - missed: important facts or reasoning they left out or got wrong, most important first.
-- cut: things they said that should have been dropped or compressed. Empty if none.
-- model_presentation: the presentation a strong student would give for this case, written as it would be spoken, at about the target length, in paragraphs.`,
+- cut: things they said that should have been dropped or compressed. Empty if none.`,
         }],
         schema: GRADE_SCHEMA,
         effort: "medium",
       });
       return data;
+    }
+
+    // Depends only on the case, so it is written in the background while the
+    // student presents instead of making grading wait for it.
+    async function modelPresentation(c) {
+      const { data } = await ask({
+        label: "model presentation",
+        system: gradeSystem(),
+        messages: [{
+          role: "user",
+          content: `The case:
+
+${caseAsText(c)}
+
+Write the presentation a strong student would give for this case, as it would be spoken, at about the target length, in paragraphs.`,
+        }],
+        schema: MODEL_SCHEMA,
+        effort: "low",
+      });
+      return data.presentation;
     }
 
     async function attendingTurn(answer) {
@@ -413,7 +436,7 @@ The target length is about ${fmt(targetSec())}. The transcript comes from speech
             : `reaction: brief feedback on the answer, teaching the key point if they missed it. question: question ${a.asked + 1} of ${QUESTIONS}.`),
         });
       }
-      const { data, content } = await ask({ system: gradeSystem(), messages: a.messages, schema: ATT_SCHEMA, effort: "low" });
+      const { data, content } = await ask({ label: "attending", system: gradeSystem(), messages: a.messages, schema: ATT_SCHEMA, effort: "low" });
       a.messages.push({ role: "assistant", content });
       return data;
     }
@@ -543,6 +566,8 @@ The target length is about ${fmt(targetSec())}. The transcript comes from speech
       busy($("newCase"), "writing case...");
       try {
         S.caseData = await generateCase();
+        S.modelText = modelPresentation(S.caseData);
+        S.modelText.catch(() => {});
         renderCase();
         startPresenting();
       } catch (e) {
@@ -586,7 +611,12 @@ The target length is about ${fmt(targetSec())}. The transcript comes from speech
       }));
       const fill = (id, items) => $(id).replaceChildren(...(items.length ? items : ["none"]).map((t) => el("li", null, t)));
       fill("strengths", g.strengths); fill("missed", g.missed); fill("cut", g.cut);
-      $("model").textContent = g.model_presentation;
+      const c = S.caseData;
+      $("model").textContent = "writing...";
+      S.modelText.then(
+        (t) => { if (S.caseData === c) $("model").textContent = t; },
+        (e) => { if (S.caseData === c) $("model").textContent = e.message; },
+      );
       // fresh attending thread for this attempt
       S.att = { messages: [], asked: 0 };
       $("thread").replaceChildren();
