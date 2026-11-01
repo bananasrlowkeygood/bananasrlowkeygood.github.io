@@ -1363,7 +1363,7 @@
   }
 
   // Each lecture's notes and slides, as its block's index.json lists them
-  // (build_index.py matches them up from the names in /pdfs).
+  // (build_index.py matches them up from the names in ravibandaru-lab.github.io/pdfs/files.json).
   const lecturePdfs = {};   // 'block/file.json' -> [{ label, file }]
 
   async function loadPdfs(blocks) {
@@ -1982,7 +1982,7 @@
     (lecturePdfs[`${q._block || block}/${q._file}`] || []).forEach(p => {
       const a = document.createElement('a');
       a.className = 'exp-link';
-      a.href = `../pdfs/${encodeURIComponent(p.file)}`;
+      a.href = `https://ravibandaru-lab.github.io/pdfs/${encodeURIComponent(p.file)}`;
       a.target = '_blank';
       a.rel = 'noopener';
       a.textContent = p.label;

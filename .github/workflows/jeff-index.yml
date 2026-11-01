@@ -2,14 +2,17 @@ name: jeff index
 
 # Keeps each block's index.json in step with its lecture files and the PDFs
 # that go with them, however they were added — a push, an upload through the
-# website, or the Anki add-on.
+# website, or the Anki add-on. The PDFs live in ravibandaru-lab/pdfs, so a
+# daily run also picks up PDFs added after their lecture's questions.
 on:
   push:
     branches: [main]
     paths:
       - 'jeff/**.json'
       - 'jeff/build_index.py'
-      - 'pdfs/**'
+  schedule:
+    - cron: '17 9 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write

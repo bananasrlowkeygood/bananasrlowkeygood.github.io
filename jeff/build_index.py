@@ -10,9 +10,11 @@ lecture or a PDF; .github/workflows/jeff-index.yml does so on every push.
 import json
 import pathlib
 import re
+import urllib.request
 
 ROOT = pathlib.Path(__file__).parent
-PDFS = ROOT.parent / "pdfs"
+# The PDFs live in their own repo (ravibandaru-lab/pdfs), which publishes this list of them.
+PDF_LIST = "https://ravibandaru-lab.github.io/pdfs/files.json"
 MANIFESTS = {"index.json", "weeks.json", "gate.json"}
 
 # Words that say nothing about which lecture a file belongs to.
@@ -70,7 +72,12 @@ def qid(text):
     return out or "0"
 
 
-pdf_files = sorted(PDFS.glob("*.pdf")) if PDFS.is_dir() else []
+try:
+    with urllib.request.urlopen(PDF_LIST, timeout=30) as r:
+        pdf_files = sorted(pathlib.PurePath(n) for n in json.load(r))
+except Exception as e:
+    # Better to stop than to write an index with every lecture's PDFs missing.
+    raise SystemExit(f"could not read {PDF_LIST}: {e}")
 qids = {}     # 'block/file.json' -> its questions' short ids
 owner = {}    # short id -> the long id it came from, to catch two that collide
 
