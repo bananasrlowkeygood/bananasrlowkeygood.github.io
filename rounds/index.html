@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rounds</title>
+  <link rel="icon" type="image/x-icon" href="../static/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Klee One", cursive; }
+    :root {
+      --bg: #eae6f0;
+      --ink: #14111a;
+      --accent: #5c4f7a;
+      --accent-hi: #6e5f90;
+      --muted: #8a84a3;
+      --card: rgba(255, 255, 255, 0.6);
+      --line: rgba(92, 79, 122, 0.18);
+      --gray: #c9c5d1;
+      --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    }
+    body { background: var(--bg); color: var(--ink); min-height: 100vh; font-size: 15px; }
+    button {
+      font: inherit; cursor: pointer; border: 1px solid var(--line); background: var(--card);
+      color: var(--accent); border-radius: 10px; padding: 7px 14px;
+    }
+    button:hover:not(:disabled) { border-color: var(--accent); }
+    button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    button.primary:hover:not(:disabled) { background: var(--accent-hi); }
+    button:disabled, button.primary:disabled { background: var(--gray); border-color: var(--gray); color: #fff; cursor: default; }
+    button.rec { min-width: 92px; }
+    button.rec.on { background: #b3445a; border-color: #b3445a; color: #fff; }
+    textarea, input {
+      font: inherit; width: 100%; border: 1px solid var(--line); border-radius: 10px;
+      background: rgba(255, 255, 255, 0.75); color: var(--ink); padding: 10px 12px; resize: vertical;
+    }
+    textarea:focus, input:focus { outline: none; border-color: var(--accent); }
+
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      padding: 12px 20px; border-bottom: 1px solid var(--line);
+    }
+    .topbar-title { font-size: 1.05rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+    .topbar-actions { display: flex; gap: 8px; }
+    .topbar-actions button { font-size: 0.82rem; padding: 5px 11px; }
+
+    main { max-width: 1180px; margin: 0 auto; padding: 24px 20px 64px; }
+    h2 { font-size: 0.85rem; font-weight: 600; color: var(--muted); margin: 0 0 10px; }
+    .error { color: #b3445a; font-size: 0.88rem; margin-top: 12px; white-space: pre-wrap; }
+
+    /* setup */
+    #setup { max-width: 640px; margin: 40px auto 0; }
+    .group { margin-bottom: 28px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip.sel { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+    /* case */
+    .case-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+    .panel { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+    .case-head { font-size: 0.85rem; color: var(--muted); margin-bottom: 14px; }
+    .setting { font-size: 0.98rem; margin-bottom: 16px; }
+    .sec { margin-bottom: 16px; }
+    .sec h3 { font-size: 0.82rem; font-weight: 600; color: var(--accent); margin-bottom: 4px; }
+    .sec div { white-space: pre-wrap; font-size: 0.9rem; line-height: 1.5; }
+    .present { position: sticky; top: 16px; }
+    .clock { display: flex; align-items: baseline; gap: 12px; margin-bottom: 14px; }
+    .clock .t { font-family: var(--mono); font-size: 2rem; color: var(--accent); }
+    .clock .t.over { color: #b3445a; }
+    .clock .target { font-size: 0.85rem; color: var(--muted); }
+    .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+    #transcript { min-height: 260px; font-size: 0.9rem; line-height: 1.5; }
+
+    /* feedback */
+    .fb-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; margin-top: 24px; }
+    .verdict { font-size: 1.02rem; margin-bottom: 14px; }
+    .stats { display: flex; gap: 22px; flex-wrap: wrap; font-size: 0.85rem; color: var(--muted); margin-bottom: 16px; }
+    .stats b { font-family: var(--mono); font-weight: 500; color: var(--ink); margin-right: 4px; }
+    .score { display: grid; grid-template-columns: 150px 74px minmax(0, 1fr); gap: 10px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 0.88rem; }
+    .score .dots { font-family: var(--mono); color: var(--accent); letter-spacing: 2px; }
+    .list { margin: 6px 0 16px 18px; font-size: 0.88rem; line-height: 1.5; }
+    .list li { margin-bottom: 4px; }
+    .model { white-space: pre-wrap; font-size: 0.9rem; line-height: 1.55; }
+    details summary { cursor: pointer; color: var(--accent); font-size: 0.9rem; margin-bottom: 8px; }
+    .bubble { padding: 10px 12px; border-radius: 12px; margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; white-space: pre-wrap; }
+    .bubble.att { background: rgba(92, 79, 122, 0.1); }
+    .bubble.you { background: rgba(255, 255, 255, 0.8); border: 1px solid var(--line); margin-left: 32px; }
+    .bubble .who { display: block; font-size: 0.74rem; color: var(--muted); margin-bottom: 2px; }
+    #answer { min-height: 90px; margin-top: 4px; }
+
+    dialog { margin: auto; border: 1px solid var(--line); border-radius: 14px; padding: 20px; width: min(440px, 92vw); background: var(--bg); color: var(--ink); }
+    dialog::backdrop { background: rgba(20, 17, 26, 0.35); }
+    dialog .row { justify-content: flex-end; }
+
+    [hidden] { display: none !important; }
+    @media (max-width: 820px) {
+      .case-grid, .fb-grid { grid-template-columns: minmax(0, 1fr); }
+      .present { position: static; }
+      .score { grid-template-columns: 110px 66px minmax(0, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="topbar-title" href="./">rounds</a>
+    <div class="topbar-actions">
+      <button id="voiceBtn"></button>
+      <button id="keyBtn">api key</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="setup">
+      <div class="group">
+        <h2>rotation</h2>
+        <div class="chips" id="rotChips"></div>
+      </div>
+      <div class="group">
+        <h2>presentation</h2>
+        <div class="chips" id="kindChips"></div>
+      </div>
+      <button class="primary" id="newCase">new case</button>
+      <div class="error" id="setupErr"></div>
+    </section>
+
+    <section id="caseView" hidden>
+      <div class="case-grid">
+        <div class="panel">
+          <div class="case-head" id="caseHead"></div>
+          <div class="setting" id="caseSetting"></div>
+          <div id="chart"></div>
+        </div>
+        <div class="panel present">
+          <div class="clock"><span class="t" id="clock">0:00</span><span class="target" id="target"></span></div>
+          <textarea id="transcript" spellcheck="false"></textarea>
+          <div class="row">
+            <button class="rec" id="recBtn">record</button>
+            <button id="resetBtn">reset</button>
+            <button class="primary" id="gradeBtn">grade</button>
+          </div>
+          <div class="error" id="caseErr"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feedbackView" hidden>
+      <div class="row" style="margin-top:0">
+        <button id="againBtn">present again</button>
+        <button id="caseBtn">view case</button>
+        <button class="primary" id="nextBtn">new case</button>
+      </div>
+      <div class="fb-grid">
+        <div class="panel">
+          <div class="verdict" id="verdict"></div>
+          <div class="stats" id="stats"></div>
+          <div id="scores"></div>
+          <h2 style="margin-top:18px">strengths</h2>
+          <ul class="list" id="strengths"></ul>
+          <h2>missed</h2>
+          <ul class="list" id="missed"></ul>
+          <h2>cut</h2>
+          <ul class="list" id="cut"></ul>
+          <details>
+            <summary>model presentation</summary>
+            <div class="model" id="model"></div>
+          </details>
+        </div>
+        <div class="panel">
+          <h2>attending</h2>
+          <div id="thread"></div>
+          <div id="answerBox" hidden>
+            <textarea id="answer" spellcheck="false"></textarea>
+            <div class="row">
+              <button class="rec" id="ansRecBtn">record</button>
+              <button class="primary" id="sendBtn">answer</button>
+            </div>
+          </div>
+          <button class="primary" id="askBtn">start questions</button>
+          <div class="error" id="attErr"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="keyDialog">
+    <h2>anthropic api key</h2>
+    <input id="keyInput" type="password" autocomplete="off" spellcheck="false">
+    <div class="row">
+      <button id="keyCancel">cancel</button>
+      <button class="primary" id="keySave">save</button>
+    </div>
+  </dialog>
+
+  <script type="module">
+    import Anthropic from "https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@0.134.0/+esm";
+
+    const MODEL = "claude-opus-5-5";
+    const QUESTIONS = 3;
+
+    // Each rotation: presentation types with target length (seconds), plus the
+    // conventions an attending on that service expects. These drive both the
+    // case generator and the grader.
+    const ROTATIONS = {
+      im: {
+        name: "internal medicine",
+        kinds: { new: ["new admission", 300], progress: ["daily progress", 120] },
+        conventions: `New admission: one-liner with pertinent PMH and chief complaint; chronological HPI with pertinent positives and negatives; PMH, PSH, meds with doses, allergies, family and social history (tobacco, alcohol, drugs, living situation, functional status) kept brief and pertinent; focused ROS only if not covered in HPI; vitals with ranges, focused exam (general appearance first); labs, imaging, ECG with interpretation; summary statement; problem-based assessment and plan, most acute problem first, with a prioritized differential and reasoning for each problem, then chronic issues, then FEN/PPx/code status/dispo.
+Daily progress (SOAP): one-liner with hospital day; overnight events and subjective; vitals with ranges and trends, I/Os; focused exam emphasizing changes; new labs and studies with trends; problem-based plan for today.`,
+      },
+      surgery: {
+        name: "surgery",
+        kinds: { new: ["new consult", 120], progress: ["post-op day", 60] },
+        conventions: `Surgery wants short, fast presentations.
+New consult: one-liner with age, sex, relevant history, and the consult question; focused HPI (onset, character, location, migration of pain, fevers, last PO intake, last BM and flatus, anticoagulation); prior abdominal surgeries; focused exam with abdominal findings stated precisely (peritoneal signs); WBC, lactate, lipase, and imaging read; assessment stating whether this is a surgical problem, and a plan (OR vs nonoperative, NPO, fluids, antibiotics, consent).
+Post-op day: name, POD number, procedure; overnight events; pain control, diet tolerance, nausea, flatus/BM, ambulation, voiding; vitals with Tmax, I/Os including drain and NG output with character; incision appearance, abdominal exam; pertinent labs; plan (diet advancement, lines and drains, pain regimen, DVT ppx, dispo). Under 60 to 90 seconds.`,
+      },
+      peds: {
+        name: "pediatrics",
+        kinds: { new: ["new admission", 240], progress: ["daily progress", 120] },
+        conventions: `New admission: one-liner with age in appropriate units and source of history (parent/guardian); HPI; birth history (gestational age, delivery, NICU stay) for young children; PMH, hospitalizations, meds with weight-based doses, allergies; immunizations up to date or not; development (milestones) and feeding/diet; family and social history (who lives at home, daycare/school, smoke exposure); vitals interpreted against age norms, weight with percentile, hydration status; exam; labs; assessment and plan including fluids and weight-based dosing, and parent concerns/education.
+Daily progress: hospital day, overnight events, intake (PO, IVF) and output (wet diapers/UOP), weight change, vitals for age, exam changes, labs, plan and discharge criteria.`,
+      },
+      obgyn: {
+        name: "ob/gyn",
+        kinds: { new: ["new admission", 180], progress: ["postpartum day", 90] },
+        conventions: `New admission (L&D): one-liner with age, G P (TPAL), gestational age by best dating, and reason for presentation; HPI covering contractions, leakage of fluid, vaginal bleeding, fetal movement (LOF/VB/CTX/FM); prenatal course and labs (blood type and Rh, rubella, HIV, HBsAg, syphilis, GBS, glucose screen), ultrasounds; OB history by pregnancy, GYN history, PMH, meds, allergies, social history; vitals including BP; cervical exam (dilation/effacement/station), fetal heart tracing with baseline, variability, accels, decels, category; toco; assessment and plan (labor management, GBS ppx, pain plan, anticipated delivery).
+Postpartum day: PPD number, delivery type and date, EBL; pain, bleeding/lochia, voiding, flatus, ambulation, breastfeeding, mood; vitals, fundus, lochia, incision or perineum, legs; H/H, Rh and rubella status; plan (contraception, vaccines, dispo).`,
+      },
+      psych: {
+        name: "psychiatry",
+        kinds: { new: ["new admission", 300], progress: ["daily progress", 120] },
+        conventions: `New admission: identifying data with legal status (voluntary/involuntary) and how they came in; chief complaint in the patient's own words; HPI with timeline of current episode, symptom review (mood, psychosis, anxiety, sleep, appetite), stressors; past psychiatric history (diagnoses, hospitalizations, suicide attempts, self-harm, med trials and response); substance use with quantities and last use; medical history, meds, allergies; family psychiatric history; social history (housing, supports, employment, legal, trauma, access to firearms); mental status exam in standard order (appearance, behavior, speech, mood quoted, affect, thought process, thought content including SI/HI, perception, cognition, insight, judgment); risk assessment with risk and protective factors; biopsychosocial formulation and DSM diagnosis; plan (safety, meds, therapy, labs, dispo).
+Daily progress: overnight events, sleep, appetite, medication adherence and side effects, PRNs used, patient's report, collateral, MSE today, risk assessment, plan.`,
+      },
+      neuro: {
+        name: "neurology",
+        kinds: { new: ["new consult", 300], progress: ["daily progress", 120] },
+        conventions: `New consult: one-liner with consult question; HPI emphasizing time course (last known well, onset tempo), deficits, and pertinent negatives; vascular risk factors and relevant history; meds including antithrombotics; detailed neuro exam in order (mental status, cranial nerves, motor with grades, sensory, reflexes, coordination, gait), NIHSS if stroke; imaging and labs; localization stated explicitly before a differential (where is the lesion, then what is it); plan (workup, treatment, BP goals, secondary prevention).
+Daily progress: overnight events, symptom change, neuro exam with changes from prior, new studies, plan.`,
+      },
+      fm: {
+        name: "family medicine",
+        kinds: { new: ["new patient visit", 180], progress: ["follow-up visit", 120] },
+        conventions: `Outpatient presentations are brief and focused on the reason for visit.
+New patient visit: one-liner and reasons for visit; HPI for each concern; PMH, meds, allergies, family history, social history; focused exam and vitals; relevant data; assessment and plan per problem, plus health maintenance (screening, vaccines, counseling) due today.
+Follow-up visit: reason for follow-up, interval history, adherence, home readings, side effects, focused exam, data trends, plan per problem and follow-up interval.`,
+      },
+      em: {
+        name: "emergency medicine",
+        kinds: { new: ["new patient", 120], progress: ["reassessment", 60] },
+        conventions: `EM presentations are fast and organized around what could kill the patient.
+New patient: one-liner with chief complaint and arrival mode; focused HPI and pertinent history; vitals called out first if abnormal; focused exam; a differential that names the can't-miss diagnoses and how each will be ruled in or out; workup and treatment already started or ordered; anticipated disposition.
+Reassessment: response to treatment, repeat vitals and exam, results back, updated assessment, disposition decision and plan.`,
+      },
+    };
+
+    const $ = (id) => document.getElementById(id);
+    const store = {
+      get(k, d) { try { const v = localStorage.getItem("rounds-" + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+      set(k, v) { try { localStorage.setItem("rounds-" + k, JSON.stringify(v)); } catch {} },
+    };
+
+    const S = {
+      rotation: store.get("rotation", "im"),
+      kind: store.get("kind", "new"),
+      voice: store.get("voice", true),
+      caseData: null,
+      elapsed: 0,
+      att: null,
+    };
+    if (!ROTATIONS[S.rotation]) S.rotation = "im";
+
+    // ---------- claude ----------
+
+    function client() {
+      const apiKey = store.get("key", "");
+      if (!apiKey) { openKey(); throw new Error("add your api key first"); }
+      return new Anthropic({ apiKey, dangerouslyAllowBrowser: true });
+    }
+
+    function blockText(content) {
+      return content.filter((b) => b.type === "text").map((b) => b.text).join("");
+    }
+
+    async function ask({ system, messages, schema, effort }) {
+      let res;
+      try {
+        res = await client().beta.messages.create({
+          model: MODEL,
+          max_tokens: 16000,
+          betas: ["server-side-fallback-2026-07-01"],
+          fallbacks: "default",
+          output_config: { effort, format: { type: "json_schema", schema } },
+          system,
+          messages,
+        });
+      } catch (e) {
+        if (e instanceof Anthropic.AuthenticationError) throw new Error("api key was rejected");
+        if (e instanceof Anthropic.RateLimitError) throw new Error("rate limited, try again in a minute");
+        if (e instanceof Anthropic.APIError) throw new Error(`api error ${e.status ?? ""}: ${e.message}`);
+        throw e;
+      }
+      if (res.stop_reason === "refusal") throw new Error("claude declined this one, try again");
+      if (res.stop_reason === "max_tokens") throw new Error("response was cut off, try again");
+      return { data: JSON.parse(blockText(res.content)), content: res.content };
+    }
+
+    const obj = (props) => ({
+      type: "object", additionalProperties: false, required: Object.keys(props), properties: props,
+    });
+    const str = { type: "string" };
+    const strs = { type: "array", items: str };
+
+    const CASE_SCHEMA = obj({
+      setting: str,
+      sections: { type: "array", items: obj({ heading: str, body: str }) },
+      answer_key: obj({ diagnosis: str, must_mention: strs, assessment_and_plan: str }),
+    });
+
+    const CATEGORIES = ["organization", "completeness", "concision", "assessment and plan", "delivery"];
+    const GRADE_SCHEMA = obj({
+      verdict: str,
+      scores: { type: "array", items: obj({ category: { type: "string", enum: CATEGORIES }, score: { type: "integer" }, comment: str }) },
+      strengths: strs,
+      missed: strs,
+      cut: strs,
+      model_presentation: str,
+    });
+
+    const ATT_SCHEMA = obj({ reaction: str, question: str });
+
+    function rot() { return ROTATIONS[S.rotation]; }
+    function kindLabel() { return rot().kinds[S.kind][0]; }
+    function targetSec() { return rot().kinds[S.kind][1]; }
+
+    async function generateCase() {
+      const r = rot();
+      const recent = store.get("recent", []);
+      const system = `You write realistic practice cases for third-year medical students rehearsing oral presentations on their ${r.name} clerkship.
+
+What an attending on this service expects in the presentation:
+${r.conventions}
+
+Write the raw chart the student has in front of them before presenting a ${kindLabel()}. It must not already be organized as a presentation: the student's job is to select, order, and synthesize. Write it the way the information really arrives: the student's own interview and exam notes, nursing notes, vitals flowsheet values, lab results with units and reference flags, imaging reads, medication list, outside records as relevant. Include every fact a strong presentation needs, plus some realistic noise that a strong student would leave out or compress. Use a fictional patient with no real identifiers.
+
+Pick a condition that a student on this rotation could plausibly see, mostly common bread-and-butter problems, sometimes a can't-miss one. Vary age, sex, and background.
+
+Fields:
+- setting: one or two sentences placing the student, e.g. where they are, who they are presenting to, and the hospital day or visit context.
+- sections: the chart, in the order the student would look through it. Plain text bodies, no markdown.
+- answer_key: the working diagnosis, the facts a good presentation must mention, and the ideal assessment and plan. Hidden from the student.`;
+      const avoid = recent.length ? `\n\nAvoid these recently used diagnoses: ${recent.join("; ")}.` : "";
+      const { data } = await ask({
+        system,
+        messages: [{ role: "user", content: `Write a new ${r.name} case for a ${kindLabel()} presentation.${avoid}` }],
+        schema: CASE_SCHEMA,
+        effort: "medium",
+      });
+      store.set("recent", [data.answer_key.diagnosis, ...recent].slice(0, 15));
+      return data;
+    }
+
+    function caseAsText(c) {
+      return `Setting: ${c.setting}\n\n` + c.sections.map((s) => `${s.heading}\n${s.body}`).join("\n\n") +
+        `\n\nAnswer key (hidden from student)\nDiagnosis: ${c.answer_key.diagnosis}\nMust mention: ${c.answer_key.must_mention.join("; ")}\nIdeal assessment and plan: ${c.answer_key.assessment_and_plan}`;
+    }
+
+    function gradeSystem() {
+      const r = rot();
+      return `You are a supportive but demanding attending on the ${r.name} service, giving a third-year medical student feedback on an oral ${kindLabel()} presentation.
+
+What you expect in this presentation:
+${r.conventions}
+
+The target length is about ${fmt(targetSec())}. The transcript comes from speech recognition, so ignore misheard words, misspelled drug names, and missing punctuation; judge what the student meant to say.`;
+    }
+
+    async function grade(transcript) {
+      const words = wordCount(transcript);
+      const timing = S.elapsed > 0 ? `The student spoke for ${fmt(S.elapsed)} (${words} words).` : `The presentation was typed, so length is not timed (${words} words).`;
+      const { data } = await ask({
+        system: gradeSystem(),
+        messages: [{
+          role: "user",
+          content: `The case:\n\n${caseAsText(S.caseData)}\n\n${timing}\n\nThe student's presentation:\n\n${transcript}\n\nGrade it.
+- verdict: one or two sentences, the overall impression an attending would give.
+- scores: one entry for each of ${CATEGORIES.join(", ")}; score 1 to 5 where 3 meets expectations for a third-year student on this rotation; comment is one or two specific sentences quoting or paraphrasing what they said.
+- strengths: what they did well, specific.
+- missed: important facts or reasoning they left out or got wrong, most important first.
+- cut: things they said that should have been dropped or compressed. Empty if none.
+- model_presentation: the presentation a strong student would give for this case, written as it would be spoken, at about the target length, in paragraphs.`,
+        }],
+        schema: GRADE_SCHEMA,
+        effort: "medium",
+      });
+      return data;
+    }
+
+    async function attendingTurn(answer) {
+      const a = S.att;
+      if (!a.messages.length) {
+        a.messages.push({
+          role: "user",
+          content: `The case:\n\n${caseAsText(S.caseData)}\n\nThe student's presentation:\n\n${S.lastTranscript}\n\nNow question the student the way you would on rounds, ${QUESTIONS} questions total, one at a time. Mix clarifying questions about their patient with teaching questions on the reasoning, workup, and management of this case, pitched at a third-year student. Keep each question short enough to say out loud. This first turn: reaction is empty and question is your first question.`,
+        });
+      } else {
+        const last = a.asked >= QUESTIONS;
+        a.messages.push({
+          role: "user",
+          content: `Student's answer: ${answer}\n\n` + (last
+            ? "That was the last question. reaction: brief feedback on the answer, teaching the key point if they missed it, then one closing line. question: empty."
+            : `reaction: brief feedback on the answer, teaching the key point if they missed it. question: question ${a.asked + 1} of ${QUESTIONS}.`),
+        });
+      }
+      const { data, content } = await ask({ system: gradeSystem(), messages: a.messages, schema: ATT_SCHEMA, effort: "low" });
+      a.messages.push({ role: "assistant", content });
+      return data;
+    }
+
+    // ---------- speech ----------
+
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    class Dictation {
+      constructor(textarea, button, { onStart, onStop } = {}) {
+        this.ta = textarea; this.btn = button; this.onStart = onStart; this.onStop = onStop;
+        this.active = false;
+        if (!SR) { button.hidden = true; return; }
+        button.addEventListener("click", () => (this.active ? this.stop() : this.start()));
+      }
+      start() {
+        if (this.active) return;
+        speechSynthesis.cancel();
+        this.active = true;
+        this.btn.textContent = "stop"; this.btn.classList.add("on");
+        this.onStart?.();
+        this.session();
+      }
+      session() {
+        this.base = this.ta.value.trim() ? this.ta.value.trim() + " " : "";
+        const rec = (this.rec = new SR());
+        rec.continuous = true; rec.interimResults = true; rec.lang = "en-US";
+        rec.onresult = (e) => {
+          let t = "";
+          for (let i = 0; i < e.results.length; i++) t += e.results[i][0].transcript;
+          this.ta.value = this.base + t.replace(/\s+/g, " ").trimStart();
+          this.ta.scrollTop = this.ta.scrollHeight;
+        };
+        rec.onerror = (e) => {
+          if (e.error === "not-allowed" || e.error === "service-not-allowed") { this.error = "microphone access was blocked"; this.stop(); }
+        };
+        // Chrome ends a session after a pause; keep going until the user stops.
+        rec.onend = () => { if (this.active) this.session(); };
+        rec.start();
+      }
+      stop() {
+        if (!this.active) return;
+        this.active = false;
+        this.rec?.stop();
+        this.btn.textContent = "record"; this.btn.classList.remove("on");
+        this.onStop?.(this.error); this.error = null;
+      }
+    }
+
+    function speak(text) {
+      if (!S.voice || !text || !window.speechSynthesis) return;
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "en-US";
+      speechSynthesis.speak(u);
+    }
+
+    // ---------- ui ----------
+
+    function fmt(sec) { sec = Math.round(sec); return `${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, "0")}`; }
+    function wordCount(t) { return (t.trim().match(/\S+/g) || []).length; }
+    function show(view) { for (const v of ["setup", "caseView", "feedbackView"]) $(v).hidden = v !== view; window.scrollTo(0, 0); }
+    function busy(btn, label) { btn.dataset.label ??= btn.textContent; btn.textContent = label; btn.disabled = true; }
+    function idle(btn) { btn.textContent = btn.dataset.label; btn.disabled = false; }
+    function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+    function renderChips() {
+      const rc = $("rotChips"); rc.replaceChildren();
+      for (const [id, r] of Object.entries(ROTATIONS)) {
+        const b = el("button", "chip" + (id === S.rotation ? " sel" : ""), r.name);
+        b.onclick = () => { S.rotation = id; store.set("rotation", id); renderChips(); };
+        rc.append(b);
+      }
+      const kc = $("kindChips"); kc.replaceChildren();
+      for (const [id, [label, sec]] of Object.entries(rot().kinds)) {
+        const b = el("button", "chip" + (id === S.kind ? " sel" : ""), `${label}, ${fmt(sec)}`);
+        b.onclick = () => { S.kind = id; store.set("kind", id); renderChips(); };
+        kc.append(b);
+      }
+    }
+
+    function renderVoice() { $("voiceBtn").textContent = S.voice ? "voice on" : "voice off"; }
+    $("voiceBtn").onclick = () => { S.voice = !S.voice; store.set("voice", S.voice); if (!S.voice) speechSynthesis.cancel(); renderVoice(); };
+
+    // key dialog
+    function openKey() { $("keyInput").value = store.get("key", ""); $("keyDialog").showModal(); }
+    $("keyBtn").onclick = openKey;
+    $("keyCancel").onclick = () => $("keyDialog").close();
+    $("keySave").onclick = () => { store.set("key", $("keyInput").value.trim()); $("keyDialog").close(); };
+
+    // clock
+    let tick = null, tickFrom = 0;
+    function renderClock() {
+      const t = S.elapsed + (tick ? (Date.now() - tickFrom) / 1000 : 0);
+      $("clock").textContent = fmt(t);
+      $("clock").classList.toggle("over", t > targetSec());
+    }
+    function clockStart() { tickFrom = Date.now(); tick = setInterval(renderClock, 250); }
+    function clockStop() { if (!tick) return; S.elapsed += (Date.now() - tickFrom) / 1000; clearInterval(tick); tick = null; renderClock(); }
+
+    const mainDict = new Dictation($("transcript"), $("recBtn"), {
+      onStart: () => { $("gradeBtn").disabled = true; $("resetBtn").disabled = true; clockStart(); },
+      onStop: (err) => { clockStop(); $("gradeBtn").disabled = false; $("resetBtn").disabled = false; if (err) $("caseErr").textContent = err; },
+    });
+
+    function startPresenting() {
+      S.elapsed = 0; renderClock();
+      $("transcript").value = "";
+      $("caseErr").textContent = "";
+      show("caseView");
+    }
+
+    function renderCase() {
+      const c = S.caseData;
+      $("caseHead").textContent = `${rot().name}, ${kindLabel()}`;
+      $("caseSetting").textContent = c.setting;
+      $("target").textContent = `target ${fmt(targetSec())}`;
+      $("chart").replaceChildren(...c.sections.map((s) => {
+        const d = el("div", "sec");
+        d.append(el("h3", null, s.heading), el("div", null, s.body));
+        return d;
+      }));
+    }
+
+    $("newCase").onclick = async () => {
+      $("setupErr").textContent = "";
+      busy($("newCase"), "writing case...");
+      try {
+        S.caseData = await generateCase();
+        renderCase();
+        startPresenting();
+      } catch (e) {
+        $("setupErr").textContent = e.message;
+      } finally { idle($("newCase")); }
+    };
+
+    $("resetBtn").onclick = () => startPresenting();
+
+    $("gradeBtn").onclick = async () => {
+      const t = $("transcript").value.trim();
+      if (!t) { $("caseErr").textContent = "nothing to grade yet"; return; }
+      $("caseErr").textContent = "";
+      busy($("gradeBtn"), "grading...");
+      $("recBtn").disabled = true; $("resetBtn").disabled = true;
+      try {
+        S.lastTranscript = t;
+        renderFeedback(await grade(t), t);
+        show("feedbackView");
+      } catch (e) {
+        $("caseErr").textContent = e.message;
+      } finally { idle($("gradeBtn")); $("recBtn").disabled = false; $("resetBtn").disabled = false; }
+    };
+
+    function renderFeedback(g, transcript) {
+      $("verdict").textContent = g.verdict;
+      const words = wordCount(transcript);
+      const stats = [];
+      if (S.elapsed > 0) {
+        stats.push([fmt(S.elapsed), `of ${fmt(targetSec())}`]);
+        stats.push([Math.round(words / (S.elapsed / 60)), "words per minute"]);
+      }
+      stats.push([words, "words"]);
+      $("stats").replaceChildren(...stats.map(([v, k]) => { const s = el("span"); s.append(el("b", null, String(v)), k); return s; }));
+      $("scores").replaceChildren(...CATEGORIES.map((c) => {
+        const s = g.scores.find((x) => x.category === c);
+        const n = Math.max(0, Math.min(5, s?.score ?? 0));
+        const row = el("div", "score");
+        row.append(el("span", null, c), el("span", "dots", "●".repeat(n) + "○".repeat(5 - n)), el("span", null, s?.comment ?? ""));
+        return row;
+      }));
+      const fill = (id, items) => $(id).replaceChildren(...(items.length ? items : ["none"]).map((t) => el("li", null, t)));
+      fill("strengths", g.strengths); fill("missed", g.missed); fill("cut", g.cut);
+      $("model").textContent = g.model_presentation;
+      // fresh attending thread for this attempt
+      S.att = { messages: [], asked: 0 };
+      $("thread").replaceChildren();
+      $("answerBox").hidden = true;
+      $("askBtn").hidden = false;
+      $("attErr").textContent = "";
+    }
+
+    function bubble(who, text) {
+      const b = el("div", "bubble " + (who === "attending" ? "att" : "you"));
+      b.append(el("span", "who", who), text);
+      $("thread").append(b);
+      b.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+
+    function showAttending(r) {
+      const question = S.att.asked < QUESTIONS ? r.question : "";
+      const said = [r.reaction, question].filter(Boolean).join("\n\n");
+      bubble("attending", said);
+      speak(said);
+      if (question) { S.att.asked++; $("answerBox").hidden = false; $("answer").value = ""; $("answer").focus(); }
+      else { $("answerBox").hidden = true; }
+    }
+
+    const ansDict = new Dictation($("answer"), $("ansRecBtn"), {
+      onStart: () => { $("sendBtn").disabled = true; },
+      onStop: (err) => { $("sendBtn").disabled = false; if (err) $("attErr").textContent = err; },
+    });
+
+    $("askBtn").onclick = async () => {
+      $("attErr").textContent = "";
+      busy($("askBtn"), "thinking...");
+      try { showAttending(await attendingTurn()); $("askBtn").hidden = true; }
+      catch (e) { S.att.messages = []; $("attErr").textContent = e.message; }
+      finally { idle($("askBtn")); }
+    };
+
+    $("sendBtn").onclick = async () => {
+      ansDict.stop();
+      const t = $("answer").value.trim();
+      if (!t) return;
+      $("attErr").textContent = "";
+      bubble("you", t);
+      $("answer").value = "";
+      busy($("sendBtn"), "thinking...");
+      $("ansRecBtn").disabled = true;
+      try { showAttending(await attendingTurn(t)); }
+      catch (e) {
+        // drop the unanswered user turn so the thread can be retried
+        S.att.messages.pop(); $("thread").lastChild.remove(); $("answer").value = t;
+        $("attErr").textContent = e.message;
+      }
+      finally { idle($("sendBtn")); $("ansRecBtn").disabled = false; }
+    };
+
+    $("againBtn").onclick = () => { speechSynthesis.cancel(); startPresenting(); };
+    $("caseBtn").onclick = () => { speechSynthesis.cancel(); show("caseView"); };
+    $("nextBtn").onclick = () => { speechSynthesis.cancel(); show("setup"); };
+
+    renderChips();
+    renderVoice();
+  </script>
+</body>
+</html>
