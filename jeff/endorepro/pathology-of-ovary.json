@@ -1,0 +1,604 @@
+{
+  "lecture": "Pathology of Ovary",
+  "block": "endorepro",
+  "generated": "2026-11-03",
+  "questions": [
+    {
+      "id": "endorepro-pathology-of-ovary-001",
+      "question": "A 24-year-old woman comes to the physician because of irregular menses since menarche, with 4 periods in the past year. She has acne and coarse dark hair on her chin and lower abdomen. BMI is 33 kg/m². Pelvic ultrasound shows bilaterally enlarged ovaries with numerous small peripheral follicles. Laboratory studies are shown. Which cell type is the main source of this patient's excess androgen?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "LH",
+          "24 mIU/mL",
+          "2–15 mIU/mL"
+        ],
+        [
+          "FSH",
+          "6 mIU/mL",
+          "3–10 mIU/mL"
+        ],
+        [
+          "Total testosterone",
+          "92 ng/dL",
+          "15–70 ng/dL"
+        ],
+        [
+          "DHEA-S",
+          "210 µg/dL",
+          "65–380 µg/dL"
+        ],
+        [
+          "Fasting insulin",
+          "31 µU/mL",
+          "2–20 µU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Adrenal zona reticularis cells",
+        "B": "Corpus luteum cells",
+        "C": "Granulosa cells",
+        "D": "Ovarian surface epithelial cells",
+        "E": "Theca cells"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Adrenal androgen excess would raise DHEA-S, which is normal here; the elevated LH points to an ovarian source.",
+        "B": "Persistent anovulation in PCOS/PMOS means there is no corpus luteum at all.",
+        "C": "Granulosa cells, under FSH, convert androgens to estrogen; they do not produce the excess androgen.",
+        "D": "Surface epithelium gives rise to epithelial tumors and is not hormonally active.",
+        "E": "In PCOS/PMOS persistently elevated LH (high LH:FSH ratio), helped by hyperinsulinemia, drives theca cells to secrete androgens."
+      },
+      "explanationImage": {
+        "src": "images/pathology-of-ovary/001-exp.jpg",
+        "caption": "Enlarged ovary with multiple follicle cysts and a thick fibrous capsule; no corpus luteum",
+        "credit": "Lecture slides p. 13"
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-002",
+      "question": "A 31-year-old woman comes to the physician because of 2 years of worsening painful menses, pain with intercourse, and inability to conceive. Pelvic ultrasound shows a 6-cm complex left ovarian cyst. At laparoscopy, the cyst is removed; it is filled with thick dark-brown fluid (shown). Microscopic examination of the cyst wall is most likely to show which of the following?",
+      "image": {
+        "src": "images/pathology-of-ovary/002.jpg",
+        "caption": "Opened ovarian cyst",
+        "credit": "Lecture slides p. 14"
+      },
+      "answers": {
+        "A": "Ciliated tubal-type epithelium without atypia",
+        "B": "Endometrial glands, stroma and hemosiderin",
+        "C": "Follicle cysts under a thick fibrous capsule",
+        "D": "Mature skin with hair and sebaceous glands",
+        "E": "Tall columnar cells with cytoplasmic mucin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This describes a serous cystadenoma, a benign epithelial tumor that contains clear serous fluid, not old blood.",
+        "B": "This is an endometriotic cyst (chocolate cyst): endometriosis of the ovary with repeated hemorrhage, so the wall shows endometrial glands, endometrial stroma and hemosiderin-laden macrophages.",
+        "C": "Multiple follicle cysts with a thick capsule are the ovarian findings of PCOS/PMOS, which does not cause a blood-filled cyst.",
+        "D": "Skin adnexa line a mature cystic teratoma (dermoid cyst), which contains sebaceous material and hair.",
+        "E": "This lining defines a mucinous tumor, whose cyst contents are mucinous rather than old blood."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-003",
+      "question": "A 42-year-old woman with a known germline BRCA1 mutation undergoes risk-reducing bilateral salpingo-oophorectomy. The ovaries are grossly normal. Sectioning of the fallopian tube fimbriae shows a small focus of tubal epithelium with marked nuclear atypia and loss of polarity confined to the epithelium; the cells show strong, diffuse nuclear p53 staining. This lesion is the precursor of which ovarian malignancy?",
+      "answers": {
+        "A": "Clear cell carcinoma",
+        "B": "Endometrioid carcinoma",
+        "C": "High-grade serous carcinoma",
+        "D": "Low-grade serous carcinoma",
+        "E": "Mucinous carcinoma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Clear cell carcinoma is a rare epithelial type linked to endometriosis, not to tubal intraepithelial lesions.",
+        "B": "Endometrioid carcinoma is associated with endometriosis and CTNNB1/PTEN/ARID1A mutations, not with tubal precursors.",
+        "C": "This is serous tubal intraepithelial carcinoma (STIC), found in BRCA1/2 prophylactic specimens; HGSC arises from fallopian tube epithelium via STIC and carries TP53 mutations.",
+        "D": "Low-grade serous carcinoma develops stepwise from serous cystadenoma through serous borderline tumor and has wild-type TP53.",
+        "E": "Primary mucinous ovarian carcinoma is rare, KRAS-associated, and does not arise from tubal epithelium."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-004",
+      "question": "A 64-year-old postmenopausal woman comes to the physician because of 3 months of abdominal bloating, early satiety, and pelvic pressure. Examination shows shifting dullness and bilateral adnexal masses. Serum CA-125 is 1,450 U/mL (N < 35). Debulking surgery shows solid and cystic ovarian tumors with necrosis; microscopy shows sheets of cells with severe nuclear pleomorphism, numerous mitoses, and stromal invasion. Which genetic alteration is most likely present in this tumor?",
+      "answers": {
+        "A": "BRAF mutation",
+        "B": "FOXL2 mutation",
+        "C": "KRAS mutation",
+        "D": "PTEN mutation",
+        "E": "TP53 mutation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "BRAF (with KRAS) mutations characterize low-grade serous carcinoma, which shows low-grade atypia and follows the borderline pathway.",
+        "B": "Recurrent FOXL2 mutations define adult granulosa cell tumor, an estrogen-secreting sex cord–stromal tumor.",
+        "C": "KRAS mutations are seen in low-grade serous and mucinous tumors; high-grade serous carcinoma characteristically lacks them.",
+        "D": "PTEN mutations (with CTNNB1, ARID1A) are typical of endometrioid carcinoma, which forms back-to-back glands.",
+        "E": "Older age, high-grade atypia, high CA-125 and widespread disease indicate high-grade serous carcinoma, which has a high frequency of TP53 mutations (mutant p53 staining pattern)."
+      },
+      "explanationImage": {
+        "src": "images/pathology-of-ovary/004-exp.jpg",
+        "caption": "Diffuse strong p53 staining: the mutant pattern of high-grade serous carcinoma",
+        "credit": "Lecture slides p. 35"
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-005",
+      "question": "A 38-year-old woman undergoes oophorectomy for a 9-cm cystic and solid ovarian mass. Microscopy shows papillae lined by cells with low-grade nuclear atypia that invade the ovarian stroma; adjacent areas show hierarchically branching papillae without invasion. Which molecular profile is most likely in the invasive tumor?",
+      "answers": {
+        "A": "BRCA1 germline and TP53 mutations",
+        "B": "CTNNB1 and ARID1A mutations",
+        "C": "FOXL2 mutation only",
+        "D": "KRAS mutation, wild-type TP53",
+        "E": "TP53 mutation, wild-type KRAS"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This profile belongs to high-grade serous carcinoma, which has severe atypia and no association with a borderline precursor.",
+        "B": "These mutations characterize endometrioid carcinoma, which shows back-to-back cribriform glands, often with endometriosis.",
+        "C": "FOXL2 mutation defines adult granulosa cell tumor, a sex cord–stromal tumor with Call-Exner bodies.",
+        "D": "Low-grade atypia with invasion and an adjacent serous borderline component is low-grade serous carcinoma, which arises along the cystadenoma → borderline → LGSC pathway with KRAS/BRAF mutations and wild-type TP53.",
+        "E": "TP53 mutation without KRAS/BRAF mutation is the pattern of high-grade serous carcinoma."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-006",
+      "question": "A 33-year-old woman is found to have a 7-cm cystic right ovarian mass. At surgery the cyst lining has white-yellow friable excrescences. Microscopy of the papillary areas is shown; the papillae branch hierarchically and are lined by stratified tubal-type epithelium with mild atypia. Extensive sampling shows no stromal invasion. Which of the following is the most likely diagnosis?",
+      "image": {
+        "src": "images/pathology-of-ovary/006.jpg",
+        "caption": "Papillary area of the ovarian mass, H&E",
+        "credit": "Lecture slides p. 31"
+      },
+      "answers": {
+        "A": "High-grade serous carcinoma",
+        "B": "Low-grade serous carcinoma",
+        "C": "Mucinous borderline tumor",
+        "D": "Serous borderline tumor",
+        "E": "Serous cystadenoma"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "HGSC shows severe pleomorphism, high mitotic activity and invasion, none of which is present.",
+        "B": "LGSC has low-grade atypia like this tumor but, by definition, invades the stroma.",
+        "C": "A mucinous borderline tumor is lined by mucin-containing columnar cells, not tubal-type (ciliated) epithelium.",
+        "D": "Increased epithelial proliferation with branching papillae and low-grade atypia but no invasion is a serous borderline tumor, with behavior intermediate between benign and malignant.",
+        "E": "A serous cystadenoma is a unilocular cyst with a flat, single-layer lining and no proliferation or excrescences."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-007",
+      "question": "A 54-year-old woman with a long history of endometriosis comes to the physician because of increasing abdominal discomfort and pelvic fullness. Hysterectomy with bilateral salpingo-oophorectomy shows a large left ovarian mass. Microscopy (shown) reveals back-to-back glands with cribriform architecture, nuclear atypia and stromal invasion; foci of benign endometrial glands and stroma are present at the edge. Which genetic alteration is most likely in this tumor?",
+      "image": {
+        "src": "images/pathology-of-ovary/007.jpg",
+        "caption": "Ovarian mass, H&E",
+        "credit": "Lecture slides p. 39"
+      },
+      "answers": {
+        "A": "ARID1A mutation",
+        "B": "BRCA2 germline mutation",
+        "C": "ERBB2 amplification",
+        "D": "FOXL2 mutation",
+        "E": "TP53 mutation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Invasive back-to-back cribriform glands arising with endometriosis is ovarian endometrioid carcinoma, which carries CTNNB1, PIK3CA, KRAS, ARID1A and PTEN mutations.",
+        "B": "BRCA1/2 germline mutations are associated with high-grade serous carcinoma arising from fallopian tube STIC.",
+        "C": "ERBB2 alterations are listed for low-grade serous carcinoma, which forms papillae rather than cribriform endometrial-type glands.",
+        "D": "FOXL2 mutations define adult granulosa cell tumor, which forms Call-Exner bodies, not glands.",
+        "E": "High-frequency TP53 mutation is the hallmark of high-grade serous carcinoma."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-008",
+      "question": "A 29-year-old woman with irregular menses since adolescence, hirsutism, and obesity has bilaterally enlarged polycystic ovaries on ultrasound. Her LH:FSH ratio is 3:1. She has not had a menstrual period in 7 months and does not take any medications. Without treatment, she is at greatest risk of developing which of the following?",
+      "answers": {
+        "A": "Endometrial carcinoma",
+        "B": "Granulosa cell tumor",
+        "C": "High-grade serous carcinoma",
+        "D": "Mature cystic teratoma",
+        "E": "Sertoli-Leydig cell tumor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In PCOS/PMOS, excess androgen is converted to estrogen, and anovulation leaves that estrogen unopposed by progesterone, raising the risk of endometrial hyperplasia and carcinoma.",
+        "B": "Granulosa cell tumor is itself a source of estrogen; it is not a consequence of PCOS/PMOS.",
+        "C": "Ovulation suppression lowers, not raises, epithelial ovarian cancer risk, and HGSC is linked to BRCA1/2 mutations.",
+        "D": "Dermoid cysts are germ cell tumors unrelated to the hormonal disturbance of PCOS/PMOS.",
+        "E": "Sertoli-Leydig tumor causes virilization by its own androgen secretion; PCOS/PMOS does not predispose to it."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-009",
+      "question": "A 70-year-old woman comes to the physician because of black stools, weight loss, and a sensation of pelvic fullness. CT shows bilateral solid ovarian masses and diffuse thickening of the gastric wall. Upper endoscopy with biopsy confirms gastric carcinoma. Microscopic examination of the ovarian masses is most likely to show which of the following?",
+      "answers": {
+        "A": "Bland spindle cells in collagenous stroma",
+        "B": "Diffuse mucin-filled signet-ring cells",
+        "C": "Glomerulus-like perivascular structures",
+        "D": "Small follicle-like eosinophilic rosettes",
+        "E": "Uniform clear cells with lymphoid septa"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Spindle cells in collagenous stroma describe a fibroma/thecoma, a benign primary stromal tumor.",
+        "B": "Bilateral ovarian metastases from gastric carcinoma (Krukenberg tumor) are composed of diffusely infiltrating mucinous signet-ring cells.",
+        "C": "Schiller-Duval bodies are the hallmark of yolk sac tumor, a germ cell tumor of young patients with high AFP.",
+        "D": "Call-Exner bodies indicate adult granulosa cell tumor, an estrogen-secreting primary ovarian tumor.",
+        "E": "This describes dysgerminoma, the ovarian counterpart of seminoma."
+      },
+      "explanationImage": {
+        "src": "images/pathology-of-ovary/009-exp.jpg",
+        "caption": "Signet-ring cells of a Krukenberg tumor",
+        "credit": "Lecture slides p. 61"
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-010",
+      "question": "A 22-year-old woman is brought to the emergency department because of 1 week of anxiety, visual hallucinations, and insomnia, followed by a seizure. She now has orofacial dyskinesias and fluctuating blood pressure. CSF shows a lymphocytic pleocytosis. Antibodies against the GluN1 subunit of a glutamate receptor are detected. Pelvic imaging shows a 5-cm left ovarian cyst containing fat and calcification. Which of the following is the most likely ovarian lesion?",
+      "answers": {
+        "A": "Dysgerminoma",
+        "B": "Endometriotic cyst",
+        "C": "Granulosa cell tumor",
+        "D": "Mature cystic teratoma",
+        "E": "Serous cystadenoma"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dysgerminoma is a solid malignant germ cell tumor with elevated LDH; it does not contain fat and is not linked to this encephalitis.",
+        "B": "An endometrioma is filled with old blood and has no fat, calcification or neural tissue.",
+        "C": "Granulosa cell tumors secrete estrogen and inhibin; they are not associated with autoimmune encephalitis.",
+        "D": "A dermoid cyst (fat, calcification) contains mature neural tissue, and it is associated with anti-NMDA receptor encephalitis.",
+        "E": "Serous cystadenoma is a unilocular cyst with clear fluid lined by tubal epithelium, without fat or neural tissue."
+      },
+      "explanationImage": {
+        "src": "images/pathology-of-ovary/010-exp.jpg",
+        "caption": "Opened mature cystic teratoma with hair and sebaceous material",
+        "credit": "Lecture slides p. 45"
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-011",
+      "question": "A 58-year-old woman has had a known 6-cm ovarian dermoid cyst for 15 years that she declined to have removed. It has recently enlarged to 11 cm. Surgery shows a cyst containing hair and sebaceous material with a firm, infiltrative nodule arising from the cyst lining. Which malignancy is most likely to be found in the nodule?",
+      "answers": {
+        "A": "Adenocarcinoma",
+        "B": "Dysgerminoma",
+        "C": "Papillary thyroid carcinoma",
+        "D": "Squamous cell carcinoma",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Adenocarcinoma can arise in a mature teratoma but is less common than squamous cell carcinoma.",
+        "B": "Dysgerminoma is a primary malignant germ cell tumor of young patients, not a transformation of mature teratoma tissue.",
+        "C": "Papillary thyroid carcinoma arises from struma ovarii, a monodermal teratoma made entirely of thyroid tissue.",
+        "D": "About 1% of mature cystic teratomas undergo malignant transformation; squamous cell carcinoma, from the skin component, is the most common.",
+        "E": "Yolk sac tumor is a primary malignant germ cell tumor with elevated AFP, not a transformation of mature tissue."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-012",
+      "question": "A 34-year-old woman comes to the physician because of weight loss, heat intolerance, tremor, and palpitations. Her thyroid gland is not enlarged and has no nodules. Laboratory studies are shown; a radioactive iodine scan shows low uptake in the neck. Pelvic ultrasound shows a 6-cm solid right ovarian mass, whose microscopy is shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "TSH",
+          "< 0.01 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Free T4",
+          "3.4 ng/dL",
+          "0.8–1.8 ng/dL"
+        ]
+      ],
+      "image": {
+        "src": "images/pathology-of-ovary/012.jpg",
+        "caption": "Ovarian mass, H&E",
+        "credit": "Lecture slides p. 48"
+      },
+      "answers": {
+        "A": "Dysgerminoma",
+        "B": "Granulosa cell tumor",
+        "C": "Graves disease",
+        "D": "Struma ovarii",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dysgerminoma shows uniform clear cells in nests with lymphocytic septa and raises LDH, not thyroid hormone.",
+        "B": "Granulosa cell tumor secretes estrogen and inhibin and forms Call-Exner bodies, not colloid-filled follicles.",
+        "C": "Graves disease causes diffuse goiter with high radioiodine uptake in the neck, unlike this patient.",
+        "D": "A monodermal teratoma made exclusively of mature thyroid tissue (colloid-filled follicles) can be functional and cause hyperthyroidism with low neck uptake.",
+        "E": "Yolk sac tumor shows Schiller-Duval bodies and raises AFP; it does not make thyroid hormone."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-013",
+      "question": "A 16-year-old girl comes to the physician because of 1 month of abdominal enlargement and pain. Ultrasound shows a 14-cm predominantly solid right ovarian mass. Resection shows areas of mature glial tissue together with the area shown, composed of small round blue cells forming rosettes and tubules with frequent mitoses and apoptosis. Which of the following is the most likely diagnosis?",
+      "image": {
+        "src": "images/pathology-of-ovary/013.jpg",
+        "caption": "Ovarian mass, H&E",
+        "credit": "Lecture slides p. 47"
+      },
+      "answers": {
+        "A": "Dysgerminoma",
+        "B": "Immature teratoma",
+        "C": "Mature cystic teratoma",
+        "D": "Nongestational choriocarcinoma",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Dysgerminoma is made of large clear cells with fibrous septa containing lymphocytes, not primitive neuroepithelium.",
+        "B": "A malignant teratoma containing immature tissue, typically immature neuroepithelium (small round blue cells, rosettes), alongside mature tissue is an immature teratoma.",
+        "C": "A mature teratoma contains only mature tissues (skin, cartilage, fat, mature glia) and is benign.",
+        "D": "Choriocarcinoma consists of cytotrophoblast and syncytiotrophoblast and raises β-hCG.",
+        "E": "Yolk sac tumor shows Schiller-Duval bodies and hyaline globules and raises AFP."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-014",
+      "question": "A 19-year-old woman comes to the physician because of 2 months of pelvic pressure. Ultrasound shows a 10-cm solid left ovarian mass. Serum tumor marker results are shown. Resection shows the tumor shown: uniform cells with clear cytoplasm, distinct cell borders and central nuclei, arranged in nests separated by thin fibrous septa containing lymphocytes. This tumor is the counterpart of which testicular neoplasm?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "LDH",
+          "1,250 U/L",
+          "100–250 U/L"
+        ],
+        [
+          "AFP",
+          "4 ng/mL",
+          "< 10 ng/mL"
+        ],
+        [
+          "β-hCG",
+          "< 2 mIU/mL",
+          "< 5 mIU/mL"
+        ]
+      ],
+      "image": {
+        "src": "images/pathology-of-ovary/014.jpg",
+        "caption": "Ovarian mass, H&E",
+        "credit": "Lecture slides p. 49"
+      },
+      "answers": {
+        "A": "Embryonal carcinoma",
+        "B": "Leydig cell tumor",
+        "C": "Seminoma",
+        "D": "Sertoli cell tumor",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Embryonal carcinoma arises from early embryonic germ cells and is not the counterpart of a primitive clear-cell germ cell tumor.",
+        "B": "Leydig cell tumors are sex cord–stromal tumors, analogous to the Leydig component of a Sertoli-Leydig tumor.",
+        "C": "This is dysgerminoma (clear cells, lymphocytic septa, raised LDH), the most common malignant ovarian germ cell tumor and the ovarian counterpart of testicular seminoma.",
+        "D": "Sertoli cell tumors are sex cord–stromal tumors forming tubules, not germ cell tumors.",
+        "E": "Yolk sac tumor exists in both gonads but shows Schiller-Duval bodies and raises AFP, which is normal here."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-015",
+      "question": "A 17-year-old girl comes to the physician because of rapidly increasing abdominal girth and pain over 3 weeks. Ultrasound shows a 15-cm solid and cystic right ovarian mass. Serum tumor marker results are shown. Microscopic examination of the resected mass is most likely to show which of the following?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "AFP",
+          "8,400 ng/mL",
+          "< 10 ng/mL"
+        ],
+        [
+          "β-hCG",
+          "< 2 mIU/mL",
+          "< 5 mIU/mL"
+        ],
+        [
+          "LDH",
+          "290 U/L",
+          "100–250 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Coffee-bean nuclei around eosinophilic spaces",
+        "B": "Glomerulus-like structures with central vessels",
+        "C": "Sheets of cytotrophoblast and syncytiotrophoblast",
+        "D": "Small round blue cells forming rosettes",
+        "E": "Uniform clear cells with lymphocytic septa"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Grooved nuclei and Call-Exner bodies characterize adult granulosa cell tumor, which raises inhibin.",
+        "B": "A markedly elevated AFP points to yolk sac tumor, whose hallmark is the Schiller-Duval body: a central blood vessel within a space lined by tumor cells.",
+        "C": "Trophoblastic sheets mean choriocarcinoma, which raises β-hCG (normal here).",
+        "D": "Primitive neuroepithelium with rosettes is the immature component of an immature teratoma.",
+        "E": "This is dysgerminoma, whose marker is LDH rather than AFP."
+      },
+      "explanationImage": {
+        "src": "images/pathology-of-ovary/015-exp.jpg",
+        "caption": "Schiller-Duval body",
+        "credit": "Lecture slides p. 50"
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-016",
+      "question": "A 21-year-old woman who has never been sexually active is found to have a 9-cm hemorrhagic right ovarian mass and a markedly elevated serum β-hCG. The uterus is empty. Resection shows a mixed germ cell tumor; one component (shown) consists of sheets of atypical mononuclear cells intermixed with multinucleated syncytial cells, with hemorrhage. Compared with the morphologically identical tumor that arises after pregnancy, this component is characterized by which of the following?",
+      "image": {
+        "src": "images/pathology-of-ovary/016.jpg",
+        "caption": "Component of the ovarian tumor, H&E",
+        "credit": "Lecture slides p. 51"
+      },
+      "answers": {
+        "A": "Absence of syncytiotrophoblast",
+        "B": "Lower sensitivity to chemotherapy",
+        "C": "Lymphatic rather than blood-borne spread",
+        "D": "Normal serum β-hCG concentration",
+        "E": "Origin from placental villous tissue"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Both forms contain cytotrophoblast and syncytiotrophoblast, as seen in this image.",
+        "B": "Nongestational choriocarcinoma of germ cell origin is less chemosensitive than gestational choriocarcinoma.",
+        "C": "Nongestational choriocarcinoma spreads hematogenously, for example to the lungs.",
+        "D": "Both forms secrete β-hCG, which is elevated in this patient.",
+        "E": "Placental origin defines gestational choriocarcinoma; this tumor arises from germ cells differentiating along trophoblastic lines."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-017",
+      "question": "A 58-year-old woman comes to the physician because of vaginal bleeding 6 years after menopause. Endometrial biopsy shows endometrial hyperplasia. Ultrasound shows a 10-cm solid left ovarian mass. Laboratory studies are shown. Microscopy of the resected mass is shown; the cells have grooved, coffee-bean nuclei. Which genetic alteration is most likely present in this tumor?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range (postmenopausal)"
+        ],
+        [
+          "Estradiol",
+          "145 pg/mL",
+          "< 30 pg/mL"
+        ],
+        [
+          "Inhibin B",
+          "610 pg/mL",
+          "< 15 pg/mL"
+        ],
+        [
+          "CA-125",
+          "22 U/mL",
+          "< 35 U/mL"
+        ]
+      ],
+      "image": {
+        "src": "images/pathology-of-ovary/017.jpg",
+        "caption": "Ovarian mass, H&E",
+        "credit": "Lecture slides p. 57"
+      },
+      "answers": {
+        "A": "ARID1A mutation",
+        "B": "BRCA1 germline mutation",
+        "C": "FOXL2 mutation",
+        "D": "KRAS mutation",
+        "E": "TP53 mutation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "ARID1A mutations characterize endometrioid (and clear cell) carcinoma, gland-forming epithelial tumors.",
+        "B": "BRCA1 germline mutation predisposes to high-grade serous carcinoma, which is not hormone-secreting.",
+        "C": "An estrogen-secreting tumor with elevated inhibin, coffee-bean nuclei and Call-Exner bodies is an adult granulosa cell tumor, which carries recurrent FOXL2 mutations.",
+        "D": "KRAS mutations are typical of mucinous and low-grade serous tumors.",
+        "E": "TP53 mutation is the hallmark of high-grade serous carcinoma."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-018",
+      "question": "A 7-year-old girl is brought to the physician because of breast development over the past 4 months and an episode of vaginal bleeding. She is at the 90th percentile for height. Examination shows Tanner stage 3 breasts and a palpable right lower abdominal mass. Serum estradiol is markedly elevated, and LH and FSH are suppressed. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Dysgerminoma",
+        "B": "Granulosa cell tumor",
+        "C": "Mature cystic teratoma",
+        "D": "Sertoli-Leydig cell tumor",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Dysgerminoma is a germ cell tumor of young patients but secretes LDH, not estrogen.",
+        "B": "Granulosa cell tumors secrete estrogen; in children the excess estrogen causes peripheral precocious puberty with suppressed gonadotropins.",
+        "C": "Mature teratomas are hormonally inactive (except monodermal forms such as struma ovarii).",
+        "D": "Sertoli-Leydig tumors secrete androgens and would cause virilization rather than breast development.",
+        "E": "Yolk sac tumor raises AFP and does not secrete estrogen."
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-019",
+      "question": "A 37-year-old woman comes to the physician because of 8 months of absent menses, worsening acne, and coarse facial hair. Her voice has deepened. Examination shows clitoromegaly, temporal balding, and a right adnexal mass. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Total testosterone",
+          "310 ng/dL",
+          "15–70 ng/dL"
+        ],
+        [
+          "DHEA-S",
+          "180 µg/dL",
+          "65–380 µg/dL"
+        ],
+        [
+          "LH",
+          "3 mIU/mL",
+          "2–15 mIU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Adult granulosa cell tumor",
+        "B": "Fibrothecoma",
+        "C": "PCOS/PMOS",
+        "D": "Sertoli-Leydig cell tumor",
+        "E": "Struma ovarii"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Granulosa cell tumors secrete estrogen, causing bleeding and endometrial hyperplasia rather than virilization.",
+        "B": "Fibrothecomas are benign stromal tumors, best known for Meigs syndrome; they do not cause marked virilization.",
+        "C": "PCOS/PMOS causes hirsutism and acne with bilateral polycystic ovaries and high LH, but not rapid virilization or a solitary solid mass.",
+        "D": "A testosterone-secreting ovarian mass with virilization (clitoromegaly, voice change) is most commonly a Sertoli-Leydig cell tumor.",
+        "E": "Struma ovarii is a monodermal teratoma of thyroid tissue that can cause hyperthyroidism, not virilization."
+      },
+      "explanationImage": {
+        "src": "images/pathology-of-ovary/019-exp.jpg",
+        "caption": "Sertoli-Leydig cell tumor: Sertoli cell tubules and polygonal pink Leydig cells",
+        "credit": "Lecture slides p. 59"
+      }
+    },
+    {
+      "id": "endorepro-pathology-of-ovary-020",
+      "question": "A 61-year-old woman comes to the physician because of 2 months of shortness of breath and abdominal distension. Chest x-ray shows a right-sided pleural effusion, and ultrasound shows ascites and a 9-cm solid left ovarian mass. Cytology of the pleural and peritoneal fluid shows no malignant cells. The resected mass is shown. After surgery the effusion and ascites resolve. Microscopy of the mass is most likely to show which of the following?",
+      "image": {
+        "src": "images/pathology-of-ovary/020.jpg",
+        "caption": "Resected ovarian mass",
+        "credit": "Lecture slides p. 58"
+      },
+      "answers": {
+        "A": "Back-to-back cribriform glands",
+        "B": "Bland spindle cells in collagenous stroma",
+        "C": "Diffuse mucinous signet-ring cells",
+        "D": "Pleomorphic cells with aberrant p53",
+        "E": "Uniform clear cells with lymphocytic septa"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cribriform glands with invasion define endometrioid carcinoma, a malignancy that would not let the effusion resolve after removal.",
+        "B": "Ovarian fibroma with ascites and right-sided hydrothorax is Meigs syndrome; the fibroma consists of bland spindle cells in collagenous (fibromatous) stroma.",
+        "C": "Signet-ring cells mean a Krukenberg tumor, a usually bilateral metastasis from the stomach.",
+        "D": "High-grade serous carcinoma causes malignant ascites with positive cytology and does not resolve with removal of one mass.",
+        "E": "This describes dysgerminoma, a germ cell tumor of young patients."
+      },
+      "explanationImage": {
+        "src": "images/pathology-of-ovary/020-exp.jpg",
+        "caption": "Fibroma: bland spindle cells in collagenous stroma",
+        "credit": "Lecture slides p. 58"
+      }
+    }
+  ]
+}

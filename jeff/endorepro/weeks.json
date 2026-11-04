@@ -73,6 +73,16 @@
         "pregnancy-morbidity-and-mortality.json",
         "week-4-cbl.json"
       ]
+    },
+    {
+      "id": "5",
+      "name": "Week 5",
+      "dates": "11/2 \u2013 11/6",
+      "lectures": [
+        "genetic-testing-in-pregnancy.json",
+        "placental-and-fetal-physiology.json",
+        "pathology-of-ovary.json"
+      ]
     }
   ]
 }

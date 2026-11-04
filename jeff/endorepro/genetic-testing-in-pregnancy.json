@@ -1,0 +1,502 @@
+{
+  "lecture": "Genetic Testing in Pregnancy",
+  "block": "endorepro",
+  "generated": "2026-11-03",
+  "questions": [
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-001",
+      "question": "A 24-year-old woman, gravida 1, para 0, at 12 weeks' gestation undergoes first trimester screening. She has no medical problems and takes only a prenatal vitamin. Ultrasound shows a single live intrauterine fetus with a crown-rump length of 58 mm. Results are shown. Which of the following fetal conditions is this screening pattern most suggestive of?",
+      "table": [
+        [
+          "Measurement",
+          "Result",
+          "Reference"
+        ],
+        [
+          "Nuchal translucency",
+          "3.4 mm",
+          "< 3.0 mm"
+        ],
+        [
+          "Free β-hCG",
+          "3.54 MoM",
+          "1.00 MoM"
+        ],
+        [
+          "PAPP-A",
+          "0.45 MoM",
+          "1.00 MoM"
+        ]
+      ],
+      "answers": {
+        "A": "Down syndrome",
+        "B": "Klinefelter syndrome",
+        "C": "Open neural tube defect",
+        "D": "Trisomy 18",
+        "E": "Turner syndrome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: in the first trimester, Down syndrome raises free β-hCG and lowers PAPP-A, and an NT above 3 mm adds further risk.",
+        "B": "Klinefelter syndrome (47,XXY) is not one of the conditions the first trimester serum screen is designed to assess and has no characteristic hCG/PAPP-A pattern.",
+        "C": "Open neural tube defects are detected by an elevated maternal serum AFP in the second trimester; risk for ONTD is not available from the first trimester screen.",
+        "D": "Trisomy 18 lowers both hCG and PAPP-A in the first trimester, whereas this patient's hCG is elevated.",
+        "E": "Turner syndrome is classically suggested by a large cystic hygroma rather than this serum analyte pattern."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-002",
+      "question": "A 31-year-old woman, gravida 2, para 1, at 17 weeks' gestation comes for her first prenatal visit after moving from another state. She declined first trimester screening in her prior pregnancy and now requests serum screening. A quadruple screen is obtained, and results are shown. Which of the following is the most likely fetal karyotype?",
+      "table": [
+        [
+          "Analyte",
+          "Result"
+        ],
+        [
+          "AFP",
+          "0.60 MoM"
+        ],
+        [
+          "hCG",
+          "0.23 MoM"
+        ],
+        [
+          "Unconjugated estriol",
+          "0.62 MoM"
+        ],
+        [
+          "Inhibin A",
+          "0.53 MoM"
+        ]
+      ],
+      "answers": {
+        "A": "45,X",
+        "B": "46,XX",
+        "C": "47,XX,+18",
+        "D": "47,XX,+21",
+        "E": "47,XXY"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Monosomy X is suspected from a cystic hygroma on ultrasound; the quad screen is not designed to detect it.",
+        "B": "A normal karyotype would give analytes near 1.00 MoM, not uniformly low values.",
+        "C": "Correct: in trisomy 18 all four quad screen analytes (AFP, hCG, estriol, inhibin A) are decreased.",
+        "D": "Trisomy 21 lowers AFP and estriol but raises hCG and inhibin A.",
+        "E": "Klinefelter syndrome is not assessed by the quad screen and does not produce uniformly low analytes."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-003",
+      "question": "A 29-year-old woman, gravida 1, para 0, at 17 weeks' gestation has a quadruple screen. She has had type 1 diabetes mellitus since age 11, and her hemoglobin A1c at the first prenatal visit was 9.2%. Results are shown. A targeted ultrasound is performed. Which of the following findings is most likely?",
+      "table": [
+        [
+          "Analyte",
+          "Result"
+        ],
+        [
+          "AFP",
+          "3.74 MoM"
+        ],
+        [
+          "hCG",
+          "0.81 MoM"
+        ],
+        [
+          "Unconjugated estriol",
+          "1.28 MoM"
+        ],
+        [
+          "Inhibin A",
+          "1.35 MoM"
+        ]
+      ],
+      "answers": {
+        "A": "Cystic hygroma",
+        "B": "Duodenal atresia",
+        "C": "Lumbosacral myelomeningocele",
+        "D": "Single umbilical artery",
+        "E": "Thickened posterior nuchal fold"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cystic hygroma is strongly associated with aneuploidy (most often 45,X) and is seen on early ultrasound; it does not explain an isolated AFP elevation.",
+        "B": "Duodenal atresia is associated with aneuploidy (especially Down syndrome), which would lower rather than raise AFP.",
+        "C": "Correct: an isolated MSAFP above 2.50 MoM suggests an open neural tube defect, a risk that is increased by maternal diabetes mellitus.",
+        "D": "A single umbilical artery carries minimal aneuploidy risk and does not raise maternal serum AFP.",
+        "E": "A thickened nuchal region is a marker of aneuploidy or cardiac defects, not a cause of elevated AFP."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-004",
+      "question": "A 27-year-old woman, gravida 1, para 0, at 12 weeks' gestation undergoes first trimester screening. The ultrasound image is shown; the measured nuchal translucency is 4.2 mm (above the 99th percentile for crown-rump length). She elects chorionic villus sampling, and karyotype and chromosomal microarray are both normal. Which of the following is the most appropriate next step in management?",
+      "image": {
+        "src": "images/genetic-testing-in-pregnancy/004.jpg",
+        "caption": "First-trimester ultrasound, sagittal view of the fetus",
+        "credit": "Lecture slides p. 14"
+      },
+      "answers": {
+        "A": "Amniocentesis at 16 weeks",
+        "B": "Cell-free DNA screening",
+        "C": "Fetal echocardiogram",
+        "D": "Repeat NT measurement in 2 weeks",
+        "E": "Routine prenatal care only"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A second invasive procedure is unnecessary because CVS already gave a normal karyotype and microarray.",
+        "B": "Cell-free DNA is a screening test; a normal diagnostic result has already superseded it.",
+        "C": "Correct: an enlarged NT with a normal karyotype still carries an increased risk of structural anomalies, especially cardiac defects, so fetal echocardiography is indicated.",
+        "D": "NT is measured only in the first-trimester screening window; the finding has already been made and its implication is structural, not a measurement error.",
+        "E": "Normal chromosomes do not remove the increased risk of fetal death, major anomalies, and cardiac defects that rises with NT size."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-005",
+      "question": "A 38-year-old woman, gravida 3, para 2, at 11 weeks' gestation undergoes cell-free DNA screening. Her prior pregnancies were uncomplicated. The report states 'High risk for trisomy 21'. She is distressed and asks whether she should end the pregnancy. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Chorionic villus sampling",
+        "B": "First trimester serum screen",
+        "C": "Maternal serum AFP at 16 weeks",
+        "D": "Offer pregnancy termination",
+        "E": "Repeat cell-free DNA in 4 weeks"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: cell-free DNA is a screening test, so a positive result must be confirmed with a diagnostic test; at 11 weeks CVS gives the earliest answer.",
+        "B": "A serum screen has a lower detection rate than cell-free DNA and would not confirm the diagnosis.",
+        "C": "MSAFP screens for open neural tube defects and cannot confirm trisomy 21.",
+        "D": "Management decisions should not be based on a screening result alone because false positives occur (e.g., confined placental mosaicism).",
+        "E": "Repeating a screening test does not provide a diagnosis; confirmation requires CVS or amniocentesis."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-006",
+      "question": "A 33-year-old woman, gravida 2, para 1, at 11 weeks' gestation has cell-free DNA screening that reports a high risk for trisomy 13. Chorionic villus sampling at 12 weeks shows 47,XX,+13 in cultured villus cells. Amniocentesis at 16 weeks shows 46,XX, and detailed ultrasound shows a structurally normal fetus. Maternal peripheral blood karyotype is 46,XX. Which of the following best explains the discordant results?",
+      "answers": {
+        "A": "Confined placental mosaicism",
+        "B": "Laboratory sample mix-up",
+        "C": "Maternal chromosomal mosaicism",
+        "D": "Maternal occult malignancy",
+        "E": "Vanishing twin syndrome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the trisomic cell line is limited to the placenta, which is both the source of the cell-free 'fetal' DNA and the tissue sampled by CVS, while the fetus (amniocytes) is normal.",
+        "B": "Two independent placental-based tests agreeing on trisomy 13 makes a sample error an unlikely explanation.",
+        "C": "A maternal cell line would not appear in CVS tissue, and the maternal karyotype is normal.",
+        "D": "A maternal cancer can cause abnormal cell-free DNA results but would not produce trisomic chorionic villi.",
+        "E": "There is no history of a multiple gestation; a demised co-twin would not explain the trisomic villi of this pregnancy's placenta."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-007",
+      "question": "A 34-year-old woman, gravida 1, para 0, conceived dichorionic twins by in vitro fertilization. An ultrasound at 8 weeks showed one live embryo and one nonviable gestational sac without cardiac activity. She is now at 11 weeks with a single live fetus and requests cell-free DNA screening for aneuploidy. Which of the following is the most likely reason this test would be unreliable for her?",
+      "answers": {
+        "A": "DNA from the demised twin's placenta may circulate",
+        "B": "Fetal fraction is undetectable before 14 weeks",
+        "C": "IVF embryos have mostly maternal-origin DNA",
+        "D": "Maternal bone marrow DNA is reduced after IVF",
+        "E": "Sequencing cannot assess twin pregnancies at all"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: loss of one of multiples (a vanishing twin) leaves placental DNA in maternal blood that can produce a false-positive result, so cfDNA should not be used.",
+        "B": "Cell-free DNA can be performed from 9–10 weeks to term.",
+        "C": "Embryos conceived by IVF carry DNA from both gametes like any pregnancy; this is not a source of error.",
+        "D": "Maternal cell-free DNA arises from bone marrow apoptosis regardless of how conception occurred.",
+        "E": "The problem is DNA from the demised co-twin, not twin gestation as such."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-008",
+      "question": "A 23-year-old woman, gravida 1, para 0, at 12 weeks' gestation and a 41-year-old woman, gravida 4, para 3, at 12 weeks' gestation both receive cell-free DNA results reported as 'high risk for trisomy 18' from the same laboratory, which uses identical methods for all patients. The younger patient asks why her counselor says her positive result is much more likely to be a false positive than the older patient's. Which of the following best explains this difference?",
+      "answers": {
+        "A": "Higher fetal fraction in older patients",
+        "B": "Lower prevalence of trisomy 18 at her age",
+        "C": "Lower sensitivity of the test in young patients",
+        "D": "Lower specificity of the test in young patients",
+        "E": "More confined placental mosaicism at young age"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Fetal fraction is not what drives the difference; the test performs the same in high- and low-risk patients.",
+        "B": "Correct: PPV depends on disease prevalence; at a lower prior risk, the same sensitivity and specificity yield a larger share of false positives among positive results.",
+        "C": "Sensitivity is a property of the test and is similar across ages.",
+        "D": "Specificity is likewise unchanged with age; only the prevalence differs.",
+        "E": "Placental mosaicism is a cause of false positives at any age, not the reason PPV changes with age."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-009",
+      "question": "A 37-year-old woman, gravida 2, para 1, at 10 weeks' gestation comes for genetic counseling. Her first child has trisomy 21. She wants a definitive answer about the fetal chromosomes as early in the pregnancy as possible so that she has time to consider her options. Which of the following tests is most appropriate?",
+      "answers": {
+        "A": "Amniocentesis",
+        "B": "Cell-free DNA screening",
+        "C": "Chorionic villus sampling",
+        "D": "Quadruple screen",
+        "E": "Sequential screen"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Amniocentesis is diagnostic but is not performed until 15–20 weeks, later than she wishes.",
+        "B": "Cell-free DNA can be done early but is a screen, not a diagnostic test.",
+        "C": "Correct: CVS is a diagnostic test performed at 10–13 weeks; its primary advantage over amniocentesis is earlier timing.",
+        "D": "The quad screen is a second-trimester screening test (15–22 weeks) and is not diagnostic.",
+        "E": "The sequential screen gives a risk estimate only after its second-trimester component."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-010",
+      "question": "A 40-year-old woman, gravida 2, para 1, underwent chorionic villus sampling at 11 weeks' gestation, which showed a normal 46,XY karyotype and normal microarray. She is now at 16 weeks and asks whether any further genetic screening is recommended. Which of the following is the most appropriate test at this time?",
+      "answers": {
+        "A": "Amniocentesis for karyotype",
+        "B": "Cell-free DNA screening",
+        "C": "Inhibin A level",
+        "D": "Maternal serum AFP",
+        "E": "Nuchal translucency measurement"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The fetal karyotype is already known from CVS; repeat invasive testing is not needed.",
+        "B": "Cell-free DNA screens for aneuploidy, which CVS has already excluded diagnostically, and does not assess neural tube defects.",
+        "C": "Inhibin A is used in the quad screen for aneuploidy risk, not for neural tube defects.",
+        "D": "Correct: AFP cannot be measured on a CVS sample, so screening for open neural tube defects requires a maternal serum AFP in the second trimester.",
+        "E": "NT is measured only in the first trimester and assesses aneuploidy and structural risk, not open neural tube defects."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-011",
+      "question": "A 26-year-old woman, gravida 1, para 0, presents for her first prenatal visit at 18 weeks' gestation. She would like a single blood test that assesses the risk of Down syndrome, trisomy 18, and open neural tube defects, and she does not want an additional specialized ultrasound appointment. Which of the following is the most appropriate screening test?",
+      "answers": {
+        "A": "Cell-free DNA screening",
+        "B": "Chorionic villus sampling",
+        "C": "First trimester screen",
+        "D": "Nuchal translucency ultrasound",
+        "E": "Quadruple screen"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cell-free DNA screens for aneuploidy with high accuracy but does not assess open neural tube defects.",
+        "B": "CVS is a diagnostic procedure done at 10–13 weeks and cannot assess AFP.",
+        "C": "The first trimester screen must be done by 13 6/7 weeks, requires an NT ultrasound, and does not assess neural tube defects.",
+        "D": "NT is a first-trimester ultrasound measurement and is past its window.",
+        "E": "Correct: the quad screen is done at 15–22 weeks, needs no specialized ultrasound, and assesses Down syndrome, trisomy 18, and open neural tube defects."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-012",
+      "question": "A 22-year-old woman, gravida 1, para 0, at 16 weeks' gestation has a maternal serum AFP of 4.1 MoM. Targeted ultrasound shows a full-thickness paraumbilical abdominal wall defect to the right of a normally inserted umbilical cord, with free-floating bowel loops not covered by a membrane. The elevated protein in this patient's serum is normally produced mainly by which of the following?",
+      "answers": {
+        "A": "Corpus luteum",
+        "B": "Decidua",
+        "C": "Fetal liver",
+        "D": "Maternal liver",
+        "E": "Placental syncytiotrophoblast"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The corpus luteum produces progesterone under hCG stimulation, not AFP.",
+        "B": "The decidua, together with the syncytiotrophoblast, produces PAPP-A, not AFP.",
+        "C": "Correct: AFP is produced by the yolk sac and fetal liver, and leaks into amniotic fluid and maternal serum through open defects such as gastroschisis.",
+        "D": "AFP measured in maternal serum is of fetal origin.",
+        "E": "The syncytiotrophoblast produces hCG and PAPP-A, not AFP."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-013",
+      "question": "A 30-year-old woman, gravida 2, para 1, at 12 weeks' gestation undergoes first trimester screening. Ultrasound shows a nuchal translucency of 3.6 mm. Serum free β-hCG is 3.2 MoM and PAPP-A is 0.40 MoM. The analyte that is elevated in this patient's serum has which of the following normal functions in early pregnancy?",
+      "answers": {
+        "A": "Inhibits FSH secretion from the pituitary",
+        "B": "Promotes corpus luteum progesterone production",
+        "C": "Stimulates fetal hepatic AFP synthesis",
+        "D": "Stimulates placental estriol synthesis",
+        "E": "Transports fetal fatty acids into maternal blood"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Inhibiting FSH is the role of inhibin A, a quad screen analyte, not hCG.",
+        "B": "Correct: hCG, made by the placenta upon implantation, maintains progesterone production by the corpus luteum.",
+        "C": "hCG does not regulate AFP; AFP comes from the yolk sac and fetal liver.",
+        "D": "Estriol synthesis depends on fetal adrenal and liver precursors, not on hCG.",
+        "E": "This is not a role of hCG or of any screening analyte."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-014",
+      "question": "A 25-year-old woman, gravida 1, para 0, at 13 weeks' gestation has an ultrasound that shows a large, septated, fluid-filled cystic mass along the posterior fetal neck extending down the back, with generalized skin edema. Which of the following fetal karyotypes is most likely?",
+      "answers": {
+        "A": "45,X",
+        "B": "46,XX",
+        "C": "47,XX,+13",
+        "D": "47,XX,+21",
+        "E": "47,XXY"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: cystic hygroma carries a 60–75% risk of aneuploidy, most often 45,X (Turner syndrome).",
+        "B": "With cystic hygroma, the majority of fetuses are aneuploid, so a normal karyotype is less likely.",
+        "C": "Trisomy 13 can cause structural anomalies but is not the karyotype most often found with cystic hygroma.",
+        "D": "Trisomy 21 is associated with enlarged NT, but a large septated cystic hygroma is most often 45,X.",
+        "E": "Klinefelter syndrome is not typically associated with cystic hygroma."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-015",
+      "question": "Five pregnant women, all 27 years old and at 20 weeks' gestation, each have a single isolated finding on their anatomy ultrasound. Each has had normal cell-free DNA screening. For which of the following findings is the risk of fetal aneuploidy highest, making diagnostic testing most clearly worth offering?",
+      "answers": {
+        "A": "Clubfoot",
+        "B": "Gastroschisis",
+        "C": "Isolated cleft lip",
+        "D": "Omphalocele",
+        "E": "Single umbilical artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Isolated clubfoot carries about a 6% aneuploidy risk.",
+        "B": "Gastroschisis has minimal association with aneuploidy.",
+        "C": "Isolated facial clefts carry minimal aneuploidy risk.",
+        "D": "Correct: omphalocele carries a 30–40% risk of aneuploidy, much higher than gastroschisis or the other findings listed.",
+        "E": "A single umbilical artery has minimal association with aneuploidy."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-016",
+      "question": "A 26-year-old woman, gravida 1, para 0, at 12 weeks' gestation has cell-free DNA screening that is low risk for trisomies 21, 18, and 13. She asks whether this means her baby has no chromosomal problem. Which of the following types of chromosomal abnormality is most common in pregnant patients her age and is not assessed by her test?",
+      "answers": {
+        "A": "Deletions and duplications",
+        "B": "Sex chromosome aneuploidies",
+        "C": "Triploidy",
+        "D": "Trisomy 16",
+        "E": "Uniparental disomy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: in patients under 35, submicroscopic deletions and duplications are more common than the common trisomies; their risk does not rise with age and they are detected by microarray, not standard cfDNA.",
+        "B": "Sex chromosome aneuploidies are offered as an option on cfDNA and are less common than copy-number changes at her age.",
+        "C": "Triploidy is a rare abnormality and not the most common in young patients.",
+        "D": "Rare autosomal trisomies like trisomy 16 are uncommon and mostly cause early loss.",
+        "E": "Uniparental disomy is uncommon and is not the leading chromosomal abnormality in young patients."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-017",
+      "question": "A 29-year-old woman, gravida 2, para 0, at 11 weeks' gestation comes for prenatal care. Her first pregnancy ended in a second-trimester loss of a fetus with multiple anomalies. Her partner has since been found to carry a balanced reciprocal translocation between chromosomes 4 and 11. Cell-free DNA screening is low risk for trisomies 21, 18, and 13. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "CVS with karyotype and microarray",
+        "B": "Fetal echocardiogram at 20 weeks",
+        "C": "Maternal serum AFP at 16 weeks",
+        "D": "Reassurance given low-risk cfDNA",
+        "E": "Repeat cell-free DNA at 16 weeks"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: a parent carrying a balanced rearrangement is an indication for prenatal diagnosis, since cfDNA for the common trisomies does not detect an unbalanced translocation.",
+        "B": "Echocardiography looks for heart defects but cannot detect an unbalanced chromosomal rearrangement.",
+        "C": "MSAFP screens for open neural tube defects only.",
+        "D": "A low-risk cfDNA result screens only the targeted chromosomes and does not exclude an unbalanced rearrangement.",
+        "E": "Repeating a screen for trisomies does not address the risk from the parental translocation."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-018",
+      "question": "A 35-year-old woman, gravida 1, para 0, at 9 weeks' gestation is counseled about prenatal screening and diagnostic testing options. After hearing about cell-free DNA, serum screening, CVS, and amniocentesis, she asks the physician, 'If you were me, which would you choose?' Which of the following is the most appropriate response?",
+      "answers": {
+        "A": "\"Every patient your age should have amniocentesis.\"",
+        "B": "\"I would choose CVS because it is earliest.\"",
+        "C": "\"Let's talk about what results would mean for you.\"",
+        "D": "\"Most patients decline testing, so you can skip it.\"",
+        "E": "\"Your partner should decide which test to have.\""
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Testing is offered to all patients regardless of age, and each patient may pursue or decline it; age alone should not dictate the choice.",
+        "B": "This substitutes the physician's own preference for the patient's values, violating non-directive counseling.",
+        "C": "Correct: non-directive counseling keeps the provider's beliefs out of the decision and helps the patient choose based on her own goals and values.",
+        "D": "Steering the patient toward declining is directive and not based on her values.",
+        "E": "The decision belongs to the patient after informed consent; deferring to another person undermines her autonomy."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-019",
+      "question": "A 31-year-old woman, gravida 3, para 2, at 17 weeks' gestation has a quadruple screen. She presented late to prenatal care and had no first-trimester testing. Results are shown, and the laboratory reports the screen as positive. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Analyte",
+          "Result"
+        ],
+        [
+          "AFP",
+          "0.74 MoM"
+        ],
+        [
+          "hCG",
+          "2.06 MoM"
+        ],
+        [
+          "Unconjugated estriol",
+          "0.75 MoM"
+        ],
+        [
+          "Inhibin A",
+          "1.77 MoM"
+        ]
+      ],
+      "answers": {
+        "A": "Amniocentesis",
+        "B": "Chorionic villus sampling",
+        "C": "Fetal echocardiogram",
+        "D": "First trimester screen",
+        "E": "Repeat quad screen in 2 weeks"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the pattern (low AFP and estriol, high hCG and inhibin A) is screen positive for Down syndrome, and at 17 weeks amniocentesis (15–20 weeks) is the diagnostic test.",
+        "B": "CVS is performed at 10–13 weeks and is past its window at 17 weeks.",
+        "C": "Echocardiography may later be useful but does not diagnose aneuploidy.",
+        "D": "The first trimester screen must be done by 13 6/7 weeks.",
+        "E": "Repeating a screening test does not provide a diagnosis."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-in-pregnancy-020",
+      "question": "A health system reviews cell-free DNA screening for Down syndrome in 10,000 high-risk pregnancies (prevalence 3.3%). The outcomes are shown. A 39-year-old patient in this population receives a positive result and asks how likely it is that her fetus has Down syndrome. Which of the following is the best estimate?",
+      "table": [
+        [
+          "Outcome",
+          "Number"
+        ],
+        [
+          "True positives",
+          "324"
+        ],
+        [
+          "False positives",
+          "31"
+        ],
+        [
+          "True negatives",
+          "9,636"
+        ],
+        [
+          "False negatives",
+          "9"
+        ]
+      ],
+      "answers": {
+        "A": "3%",
+        "B": "9%",
+        "C": "91%",
+        "D": "97%",
+        "E": "99.7%"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "3% is roughly the prevalence (pretest probability), not the probability after a positive result.",
+        "B": "This value does not correspond to any calculation from the table.",
+        "C": "Correct: PPV = TP/(TP + FP) = 324/(324 + 31) ≈ 91%.",
+        "D": "97% is the sensitivity (TP/[TP + FN]), the chance an affected fetus screens positive.",
+        "E": "99.7% is the specificity (TN/[TN + FP]), the chance an unaffected fetus screens negative."
+      }
+    }
+  ]
+}
