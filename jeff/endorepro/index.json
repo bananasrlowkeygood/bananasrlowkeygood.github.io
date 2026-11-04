@@ -144,7 +144,17 @@
     {
       "file": "genetic-testing-in-pregnancy.json",
       "name": "Genetic Testing in Pregnancy",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.03.26-CM_Genetic-Testing-in-Pregnancy_Al-Kouatly_Notes.v.11.03.26-8feac2b961.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.03.26-CM_Genetic-Testing-in-Pregnancy_Slides_Al-Kouatly.v.11.03.26-f07bfe5b79.pdf"
+        }
+      ]
     },
     {
       "file": "histology-lab-endocrine-organs.json",
@@ -269,7 +279,17 @@
     {
       "file": "pathology-of-ovary.json",
       "name": "Pathology of Ovary",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.03.26-PATH_Pathology-of-Ovary_Ma_Outline-Notes-3e1c7c11f5.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.03.26-PATH_Pathology-of-Ovary_Ma_Slides-c8fda6f80f.pdf"
+        }
+      ]
     },
     {
       "file": "pathology-of-the-thyroid-and-parathyroid.json",
@@ -394,7 +414,17 @@
     {
       "file": "placental-and-fetal-physiology.json",
       "name": "Placental and Fetal Physiology",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.03.26-PHYS_Placental-and-Fetal-Physiology_Bender_Notes-c23c1fc7b7.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.03.26-PHYS_Placental-and-Fetal-Physiology_Bender_Slides_Answers-version-74285ea5f3.pdf"
+        }
+      ]
     },
     {
       "file": "pregnancy-morbidity-and-mortality.json",
