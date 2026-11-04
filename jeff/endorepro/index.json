@@ -142,6 +142,11 @@
       ]
     },
     {
+      "file": "genetic-testing-in-pregnancy.json",
+      "name": "Genetic Testing in Pregnancy",
+      "count": 20
+    },
+    {
       "file": "histology-lab-endocrine-organs.json",
       "name": "Histology Lab: Endocrine Organs",
       "count": 20,
@@ -262,6 +267,11 @@
       ]
     },
     {
+      "file": "pathology-of-ovary.json",
+      "name": "Pathology of Ovary",
+      "count": 20
+    },
+    {
       "file": "pathology-of-the-thyroid-and-parathyroid.json",
       "name": "Pathology of the Thyroid and Parathyroid",
       "count": 20,
@@ -380,6 +390,11 @@
           "file": "10.09.26-PHYS-Pituitary-Hypothalamus_Haines_Slides-4bf0231c08.pdf"
         }
       ]
+    },
+    {
+      "file": "placental-and-fetal-physiology.json",
+      "name": "Placental and Fetal Physiology",
+      "count": 20
     },
     {
       "file": "pregnancy-morbidity-and-mortality.json",
