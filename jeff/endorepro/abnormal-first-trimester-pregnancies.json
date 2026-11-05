@@ -1,0 +1,598 @@
+{
+  "lecture": "Abnormal First Trimester Pregnancies",
+  "block": "endorepro",
+  "generated": "2026-11-05",
+  "questions": [
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-001",
+      "question": "A 38-year-old woman, gravida 3, para 2, comes to the emergency department because of abdominal cramping and slow dark brown vaginal bleeding. Her last menstrual period was 8 weeks ago. Vital signs are normal. The uterus is small and mildly tender, and the cervical os is closed. Transvaginal ultrasound shows an intrauterine fetus with a crown-rump length of 10 mm and no cardiac activity; there is no adnexal mass or free fluid. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "11.5 g/dL",
+          "12-16 g/dL"
+        ],
+        [
+          "Hematocrit",
+          "35%",
+          "36-46%"
+        ],
+        [
+          "Leukocytes",
+          "8,200/mm³",
+          "4,500-11,000/mm³"
+        ],
+        [
+          "Platelets",
+          "250,000/mm³",
+          "150,000-400,000/mm³"
+        ]
+      ],
+      "answers": {
+        "A": "Complete abortion",
+        "B": "Incomplete abortion",
+        "C": "Inevitable abortion",
+        "D": "Missed abortion",
+        "E": "Threatened abortion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A complete abortion has a closed os, but all tissue has passed and the uterus is empty on ultrasound.",
+        "B": "An incomplete abortion has a dilated cervix with retained tissue after some tissue has passed.",
+        "C": "An inevitable abortion has a dilated cervix with a still-viable pregnancy.",
+        "D": "A closed os with light or no bleeding and an embryo large enough that a heartbeat should be seen but is absent is a non-viable intrauterine pregnancy, a missed abortion.",
+        "E": "A threatened abortion has bleeding and a closed os, but the ultrasound shows a viable pregnancy with cardiac activity."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-002",
+      "question": "A 29-year-old woman at 10 weeks' gestation comes to the emergency department because of vaginal bleeding and lower abdominal cramping for 6 hours. She has not passed any tissue. Pulse is 88/min and blood pressure is 118/74 mm Hg. Speculum examination shows blood in the vault and a cervical os dilated to 2 cm. Transvaginal ultrasound shows an intrauterine fetus with cardiac activity. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Complete abortion",
+        "B": "Incomplete abortion",
+        "C": "Inevitable abortion",
+        "D": "Missed abortion",
+        "E": "Threatened abortion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A complete abortion leaves an empty uterus and a closed cervix after all tissue has passed.",
+        "B": "An incomplete abortion has a dilated cervix but retained tissue rather than a viable fetus, after some tissue has passed.",
+        "C": "Bleeding with a dilated cervix while the pregnancy is still viable is an inevitable abortion; the open os means loss cannot be prevented.",
+        "D": "A missed abortion has a closed cervix and a non-viable pregnancy, often with little or no bleeding.",
+        "E": "A threatened abortion also shows a viable fetus, but the cervix is closed."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-003",
+      "question": "A 31-year-old woman comes to the emergency department because of fever, lower abdominal pain and foul-smelling vaginal discharge 5 days after she began bleeding at 9 weeks' gestation. Temperature is 39.1°C (102.4°F), pulse is 118/min and blood pressure is 96/60 mm Hg. The uterus is tender and purulent discharge is seen at the cervical os. Ultrasound shows retained tissue in the uterine cavity. Broad-spectrum antibiotics are started. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Leukocytes",
+          "19,400/mm³",
+          "4,500-11,000/mm³"
+        ],
+        [
+          "Hemoglobin",
+          "10.8 g/dL",
+          "12-16 g/dL"
+        ],
+        [
+          "Lactate",
+          "3.1 mmol/L",
+          "0.5-2.2 mmol/L"
+        ]
+      ],
+      "answers": {
+        "A": "Expectant management with outpatient follow-up",
+        "B": "Methotrexate intramuscular injection",
+        "C": "Mifepristone followed by misoprostol",
+        "D": "Misoprostol alone with repeat ultrasound",
+        "E": "Suction dilation and curettage"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Expectant management means heavy bleeding and cramping at home and is not appropriate when infection and instability are present.",
+        "B": "Methotrexate treats ectopic pregnancy by killing proliferating trophoblast; it does not evacuate infected retained tissue.",
+        "C": "Medical management is only considered when there is no infection, hemorrhage, severe anemia or bleeding disorder.",
+        "D": "Misoprostol alone is still medical management, which is avoided when there are signs of infection.",
+        "E": "A septic abortion with signs of infection and hemodynamic instability calls for urgent surgical evacuation of the infected retained tissue."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-004",
+      "question": "A 26-year-old woman, gravida 2, para 1, at 8 weeks' gestation is diagnosed with a complete spontaneous abortion. Her bleeding has slowed and vital signs are normal. Type and screen shows blood type A, Rh(D)-negative, with a negative antibody screen. Her first child is Rh(D)-positive. Before discharge she is given an intramuscular injection. Which of the following is the primary purpose of this treatment?",
+      "answers": {
+        "A": "Correcting her acute blood loss anemia",
+        "B": "Inhibiting maternal formation of anti-D antibodies",
+        "C": "Promoting expulsion of retained tissue",
+        "D": "Reducing her risk of endometritis",
+        "E": "Suppressing residual trophoblastic tissue"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anemia is managed with iron or transfusion; the injection given is RhD immune globulin, which has no effect on hemoglobin.",
+        "B": "RhD immune globulin (RhoGAM) prevents alloimmunization: it stops an Rh-negative mother from making anti-D antibodies to fetal Rh-positive cells, which could harm future Rh-positive pregnancies.",
+        "C": "Expulsion is promoted by misoprostol, a prostaglandin; RhoGAM has no uterotonic effect.",
+        "D": "Infection risk is addressed with antibiotics when indicated; RhoGAM is an immune globulin against the D antigen.",
+        "E": "Residual trophoblast is targeted by methotrexate in ectopic pregnancy, not by RhD immune globulin."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-005",
+      "question": "A 27-year-old woman has a spontaneous abortion at 9 weeks' gestation in her first pregnancy. She is healthy, does not smoke or drink alcohol and has regular menses. Physical examination and thyroid function tests are normal. Pelvic ultrasound before the loss showed a normal uterine cavity. She asks what most likely caused the loss. Which of the following is the most likely cause?",
+      "answers": {
+        "A": "Antiphospholipid antibodies",
+        "B": "Chromosomal abnormality of the embryo",
+        "C": "Luteal progesterone deficiency",
+        "D": "Submucosal uterine fibroid",
+        "E": "TORCH congenital infection"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Antiphospholipid syndrome is a thrombotic cause seen mainly in recurrent loss, not the most common cause of a single loss.",
+        "B": "Chromosomal abnormalities, such as trisomy 16 or 45,XO, cause more than half of spontaneous abortions, especially in the first trimester.",
+        "C": "Progesterone deficiency is not among the causes taught; chromosomal abnormalities account for the majority of losses.",
+        "D": "A submucous fibroid can cause loss, but her uterine cavity was normal on ultrasound.",
+        "E": "Infections are a recognized but much less common cause than chromosomal abnormalities, and she has no signs of infection."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-006",
+      "question": "A 33-year-old woman comes to the clinic after her third consecutive first-trimester pregnancy loss. Two years ago she had a deep venous thrombosis of the left leg after a long flight. Her mother has systemic lupus erythematosus. Examination is normal. Laboratory studies show a prolonged partial thromboplastin time that does not correct with mixing and a positive lupus anticoagulant on two occasions 12 weeks apart. Which of the following is the most likely cause of her pregnancy losses?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "PT",
+          "12 s",
+          "11-13.5 s"
+        ],
+        [
+          "aPTT",
+          "52 s (no correction on mixing)",
+          "25-35 s"
+        ],
+        [
+          "Platelets",
+          "190,000/mm³",
+          "150,000-400,000/mm³"
+        ],
+        [
+          "TSH",
+          "1.8 μU/mL",
+          "0.5-4.5 μU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Antiphospholipid syndrome",
+        "B": "Balanced parental translocation",
+        "C": "Cervical incompetence",
+        "D": "Polycystic ovary syndrome",
+        "E": "Uterine septum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Recurrent pregnancy loss with a prior thrombosis and a persistent lupus anticoagulant points to antiphospholipid syndrome, a thrombotic disorder that is a recurring risk factor for recurrent SAB.",
+        "B": "A balanced translocation causes recurrent loss through unbalanced embryos, but would not explain the thrombosis or the lupus anticoagulant.",
+        "C": "Cervical incompetence causes painless dilation with a viable pregnancy, typically later than the first trimester, and no coagulation abnormality.",
+        "D": "PCOS is an endocrine risk factor for recurrent loss but does not cause thrombosis or a prolonged PTT.",
+        "E": "A uterine septum is a structural cause of recurrent loss and would not explain her thrombotic history or abnormal coagulation tests."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-007",
+      "question": "A 30-year-old woman with a missed abortion at 8 weeks' gestation prefers to avoid surgery but wants to shorten the time to complete expulsion. She is hemodynamically stable, afebrile and has a hemoglobin of 12.8 g/dL. She takes one oral medication in the office and, 24 hours later, places misoprostol buccally at home. This combination is more effective than misoprostol alone. Which of the following is the mechanism of action of the first drug?",
+      "answers": {
+        "A": "Agonism at prostaglandin E1 receptors",
+        "B": "Antagonism at progesterone receptors",
+        "C": "Inhibition of dihydrofolate reductase",
+        "D": "Inhibition of oxytocin receptors",
+        "E": "Stimulation of estrogen receptors"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "PGE1 agonism is the mechanism of misoprostol, the second drug, which causes uterine contractions and cervical dilation.",
+        "B": "Mifepristone is a progesterone receptor antagonist; blocking progesterone support of the decidua primes the uterus so that misoprostol completes expulsion more often.",
+        "C": "DHFR inhibition is the mechanism of methotrexate, used for ectopic pregnancy, not for a missed abortion.",
+        "D": "Oxytocin receptor antagonists relax the uterus and would oppose expulsion.",
+        "E": "Estrogen receptor agonism does not promote expulsion and is not part of medical management of miscarriage."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-008",
+      "question": "A 34-year-old woman with von Willebrand disease is diagnosed with an incomplete abortion at 9 weeks' gestation. She has moderate ongoing bleeding. Pulse is 92/min and blood pressure is 112/70 mm Hg. The cervical os is dilated and ultrasound shows retained tissue in the uterine cavity. She asks about her options. Which of the following is the most appropriate management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "8.1 g/dL",
+          "12-16 g/dL"
+        ],
+        [
+          "Platelets",
+          "210,000/mm³",
+          "150,000-400,000/mm³"
+        ],
+        [
+          "von Willebrand factor activity",
+          "28%",
+          "50-150%"
+        ]
+      ],
+      "answers": {
+        "A": "Expectant management at home",
+        "B": "Methotrexate injection",
+        "C": "Mifepristone then misoprostol",
+        "D": "Misoprostol alone at home",
+        "E": "Suction dilation and curettage"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Expectant management can take up to 8 weeks with heavy bleeding at home, which is unsafe with a bleeding disorder and anemia.",
+        "B": "Methotrexate treats ectopic pregnancy; it is contraindicated with anemia and does not empty the uterus.",
+        "C": "Medical management is only considered when there is no hemorrhage, severe anemia or bleeding disorder.",
+        "D": "Misoprostol alone is still medical management, which a bleeding disorder rules out.",
+        "E": "Surgical evacuation is preferred in patients with significant anemia, a bleeding disorder or cardiovascular disease because it completes the process immediately."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-009",
+      "question": "A 24-year-old woman, gravida 1, para 0, comes to the office because of pelvic cramping; her menstrual period is 1 week late. She has no vaginal bleeding. She had a ruptured appendix at age 13 and smokes half a pack of cigarettes daily. Vital signs are normal. There is mild uterine and adnexal tenderness, and the cervical os is closed. Transvaginal ultrasound shows no intrauterine pregnancy and a 2-cm adnexal mass. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value"
+        ],
+        [
+          "Urine hCG",
+          "Positive"
+        ],
+        [
+          "Serum β-hCG",
+          "700 mIU/mL"
+        ],
+        [
+          "Hemoglobin",
+          "13.2 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Diagnostic laparoscopy today",
+        "B": "Dilation and curettage today",
+        "C": "Methotrexate injection today",
+        "D": "Reassurance and routine prenatal care",
+        "E": "Repeat serum hCG in 48 hours"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Surgery is for an unstable patient or a definite ectopic; she is stable and her hCG is below the level at which an IUP should be visible.",
+        "B": "D&C would end a possible early intrauterine pregnancy and is not used to evaluate a pregnancy of unknown location.",
+        "C": "Treating before ectopic is confirmed risks ending a normal early intrauterine pregnancy that is simply too early to see.",
+        "D": "An adnexal mass and no visible pregnancy with smoking and prior pelvic infection make ectopic a real concern that must be followed.",
+        "E": "With hCG below the discriminatory zone (about 3500 IU), this is a pregnancy of unknown location; a repeat hCG in 48 hours, with strict precautions for rupture, shows whether it is rising normally."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-010",
+      "question": "A 32-year-old woman is diagnosed with a tubal ectopic pregnancy. She has no history of sexually transmitted infection, pelvic surgery or infertility treatment. She has smoked one pack of cigarettes daily for 12 years. Which of the following best explains how her main risk factor predisposed her to this condition?",
+      "answers": {
+        "A": "Decreased uterine prostaglandin synthesis",
+        "B": "Fibrotic occlusion of the cervical canal",
+        "C": "Impaired tubal ciliary function",
+        "D": "Increased endometrial progesterone sensitivity",
+        "E": "Scarring from pelvic inflammatory disease"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Prostaglandins drive uterine contraction; their synthesis is not the link between smoking and tubal implantation.",
+        "B": "The cervix is not involved in tubal transport; cervical stenosis would not cause tubal implantation.",
+        "C": "Smoking impairs ciliary function in the fallopian tube, slowing transport of the embryo so it implants in the tube.",
+        "D": "Endometrial receptivity does not explain implantation outside the uterus.",
+        "E": "Tubal scarring is the mechanism for PID, prior surgery and endometriosis, but she has none of these."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-011",
+      "question": "A 28-year-old woman is brought to the emergency department because of sudden severe left lower quadrant pain and lightheadedness. Her last menstrual period was 7 weeks ago. She had pelvic inflammatory disease at age 20. Pulse is 128/min and blood pressure is 82/50 mm Hg. The abdomen is distended and diffusely tender with guarding. Transvaginal ultrasound shows an empty uterus, a left adnexal mass separate from the ovary and a large amount of free fluid in the pelvis. Which of the following is the most appropriate management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Serum β-hCG",
+          "4,800 mIU/mL",
+          "-"
+        ],
+        [
+          "Hemoglobin",
+          "7.9 g/dL",
+          "12-16 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Intramuscular methotrexate",
+        "B": "Mifepristone and misoprostol",
+        "C": "Repeat hCG in 48 hours",
+        "D": "Salpingectomy",
+        "E": "Suction dilation and curettage"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Methotrexate is absolutely contraindicated in a ruptured ectopic or a hemodynamically unstable patient.",
+        "B": "These drugs are used for miscarriage or medication abortion and do nothing for a tubal pregnancy.",
+        "C": "Waiting is dangerous; this is a ruptured ectopic with hemoperitoneum and shock.",
+        "D": "A ruptured ectopic with hemodynamic instability needs urgent surgery, removing the affected fallopian tube with the pregnancy.",
+        "E": "D&C evacuates the uterus; the pregnancy here is in the adnexa, not the uterine cavity."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-012",
+      "question": "A 30-year-old woman with a stable 2.5-cm unruptured tubal ectopic pregnancy and no embryonic cardiac activity is treated with a single intramuscular injection. Over the next 2 weeks her serum hCG falls steadily. She develops several painful oral ulcers during this time. Which of the following is the mechanism of action of the drug she received?",
+      "answers": {
+        "A": "Alkylation of DNA guanine residues",
+        "B": "Antagonism of progesterone receptors",
+        "C": "Inhibition of dihydrofolate reductase",
+        "D": "Inhibition of microtubule polymerization",
+        "E": "Stimulation of prostaglandin receptors"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alkylating agents such as cyclophosphamide cross-link DNA and are not the medical treatment of ectopic pregnancy.",
+        "B": "Progesterone receptor antagonism is the action of mifepristone, used with misoprostol for miscarriage, not ectopic pregnancy.",
+        "C": "Methotrexate is a folate antagonist that binds dihydrofolate reductase, blocking purine synthesis and DNA replication in all rapidly dividing tissue, including trophoblast and buccal mucosa (hence the oral ulcers).",
+        "D": "Microtubule inhibitors such as vincristine are not used to treat ectopic pregnancy.",
+        "E": "Prostaglandin agonism is the action of misoprostol, which causes uterine contractions rather than killing trophoblast."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-013",
+      "question": "A 35-year-old woman is diagnosed with an unruptured 2-cm right tubal ectopic pregnancy. She is hemodynamically stable and there is no embryonic cardiac activity. She has a history of alcohol use disorder. Her hCG is 1,900 mIU/mL. Laboratory studies are shown. She asks whether she can avoid surgery. Which of the following findings is the strongest reason not to give methotrexate?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "12.6 g/dL",
+          "12-16 g/dL"
+        ],
+        [
+          "Platelets",
+          "230,000/mm³",
+          "150,000-400,000/mm³"
+        ],
+        [
+          "Creatinine",
+          "0.8 mg/dL",
+          "0.6-1.2 mg/dL"
+        ],
+        [
+          "AST",
+          "214 U/L",
+          "8-40 U/L"
+        ],
+        [
+          "ALT",
+          "176 U/L",
+          "8-40 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Absence of embryonic cardiac activity",
+        "B": "Ectopic size of 2 cm",
+        "C": "Elevated serum aminotransferases",
+        "D": "Normal serum creatinine",
+        "E": "Serum hCG of 1,900 mIU/mL"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Embryonic cardiac activity is a relative contraindication; its absence favors medical management.",
+        "B": "Only an ectopic larger than 4 cm is a relative contraindication.",
+        "C": "Methotrexate is directly toxic to hepatocytes, so clinically important liver disease is an absolute contraindication.",
+        "D": "Methotrexate is cleared renally, so renal dysfunction would be a contraindication, but her creatinine is normal.",
+        "E": "Only a high initial hCG (above 5000) is a relative contraindication."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-014",
+      "question": "A 29-year-old woman is diagnosed with an unruptured left tubal ectopic pregnancy. She is hemodynamically stable with a hemoglobin of 12.9 g/dL and normal liver and kidney function. Transvaginal ultrasound shows a 4.6-cm adnexal mass containing a gestational sac, yolk sac and an embryo with cardiac activity. Serum hCG is 9,800 mIU/mL. Which of the following is the most appropriate management?",
+      "answers": {
+        "A": "Expectant management",
+        "B": "Laparoscopic salpingectomy",
+        "C": "Methotrexate injection",
+        "D": "Mifepristone and misoprostol",
+        "E": "Suction dilation and curettage"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "An ectopic with cardiac activity and a high hCG will not resolve on its own and risks rupture.",
+        "B": "Embryonic cardiac activity, hCG above 5000 and size over 4 cm are each relative contraindications to methotrexate, so surgical removal is preferred.",
+        "C": "With cardiac activity, an hCG above 5000 and a mass over 4 cm, methotrexate is likely to fail; these are relative contraindications.",
+        "D": "These drugs empty the uterus and do not treat a tubal pregnancy.",
+        "E": "D&C evacuates the uterine cavity, but this pregnancy is in the tube."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-015",
+      "question": "A 27-year-old woman at about 6 weeks by last menstrual period has mild vaginal spotting and pelvic cramping. She is hemodynamically stable. Transvaginal ultrasound shows no intrauterine or adnexal pregnancy and no free fluid. Serial serum hCG values are shown. Which of the following best describes this pregnancy?",
+      "table": [
+        [
+          "Day",
+          "Serum β-hCG"
+        ],
+        [
+          "Day 1",
+          "1,200 mIU/mL"
+        ],
+        [
+          "Day 3 (48 h later)",
+          "1,360 mIU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Abnormal pregnancy, ectopic or early loss",
+        "B": "Complete molar pregnancy",
+        "C": "Completed spontaneous abortion",
+        "D": "Normal intrauterine pregnancy, too early to see",
+        "E": "Twin intrauterine pregnancy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A 48-hour rise well below the expected minimum (about 49% from this starting level) is suspicious for an abnormal pregnancy, either an ectopic or an early pregnancy loss.",
+        "B": "A complete mole produces markedly elevated hCG, often above 100,000, with a snowstorm pattern on ultrasound.",
+        "C": "A completed loss shows a falling hCG (more than 35% in 48 hours), not a rising one.",
+        "D": "99% of normal intrauterine pregnancies rise faster than the expected minimum; a 13% rise is too slow.",
+        "E": "Multiple gestation produces higher hCG values and a normal rise, not a sluggish one."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-016",
+      "question": "A 22-year-old woman at 11 weeks' gestation comes to the emergency department because of vaginal bleeding and severe nausea and vomiting. Her uterus is palpable at the umbilicus. No fetal heart tones are heard. Serum hCG is 280,000 mIU/mL. Transvaginal ultrasound of the uterus is shown. Uterine evacuation is performed and no fetal parts are found. Which of the following is the most likely karyotype of the evacuated tissue?",
+      "image": {
+        "src": "images/abnormal-first-trimester-pregnancies/016.jpg",
+        "caption": "Transvaginal ultrasound of the uterus",
+        "credit": "Slides p. 34"
+      },
+      "answers": {
+        "A": "45,X",
+        "B": "46,XX of entirely paternal origin",
+        "C": "47,XX,+16",
+        "D": "69,XXY",
+        "E": "92,XXXX"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "45,XO is a common chromosomal cause of spontaneous abortion, not of a mole with markedly elevated hCG.",
+        "B": "A complete mole is diploid, usually 46,XX, formed from an ovum that has lost its DNA, so all of its genes are paternal; it has no fetus, a snowstorm ultrasound and very high hCG.",
+        "C": "Trisomy 16 is the most common chromosomal cause of spontaneous abortion, not of a molar pregnancy.",
+        "D": "A triploid 69,XXY karyotype is a partial mole, which has fetal parts and a lower hCG.",
+        "E": "Tetraploidy is not the karyotype of a complete mole, which is diploid."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-017",
+      "question": "A 33-year-old woman at 12 weeks' gestation undergoes uterine evacuation for what was thought to be a missed abortion. Ultrasound before the procedure showed a fetus with a heartbeat at 9 weeks and an enlarged placenta with scattered cystic spaces. Pathology shows a mixture of normal and swollen chorionic villi with focal trophoblast hyperplasia and identifiable fetal tissue. Her pre-procedure hCG was elevated but under 100,000 mIU/mL. Which of the following best explains the origin of this pregnancy?",
+      "answers": {
+        "A": "Duplication of one sperm in an empty ovum",
+        "B": "Fertilization of a haploid ovum by two sperm",
+        "C": "Maternal meiotic nondisjunction of chromosome 16",
+        "D": "Mitotic nondisjunction after fertilization",
+        "E": "Paternal balanced translocation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Fertilization of an ovum lacking DNA produces a diploid complete mole, which has no fetus and higher hCG.",
+        "B": "A partial mole is triploid, usually from a haploid ovum fertilized by two sperm (69,XXX, 69,XXY or 69,XYY); it has a fetus and is often misdiagnosed as a missed abortion.",
+        "C": "Maternal nondisjunction gives trisomy 16, the most common chromosomal cause of spontaneous abortion, without molar villi.",
+        "D": "Postzygotic nondisjunction causes mosaicism, not the triploid partial mole described.",
+        "E": "A balanced parental translocation causes recurrent loss with unbalanced embryos, not hydropic villi with trophoblast hyperplasia."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-018",
+      "question": "A 19-year-old woman at 10 weeks' gestation comes to the emergency department because of vaginal bleeding, palpitations and heat intolerance. Pulse is 124/min and she has a fine tremor. The uterus is larger than expected for dates. Serum hCG is 410,000 mIU/mL. Pelvic ultrasound of the left ovary is shown. Laboratory studies are shown. Which of the following best explains her thyroid findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "TSH",
+          "<0.01 μU/mL",
+          "0.5-4.5 μU/mL"
+        ],
+        [
+          "Free T4",
+          "3.4 ng/dL",
+          "0.9-1.7 ng/dL"
+        ],
+        [
+          "Serum β-hCG",
+          "410,000 mIU/mL",
+          "-"
+        ]
+      ],
+      "image": {
+        "src": "images/abnormal-first-trimester-pregnancies/018.jpg",
+        "caption": "Pelvic ultrasound, left ovary",
+        "credit": "Slides p. 32"
+      },
+      "answers": {
+        "A": "Antibodies stimulating the TSH receptor",
+        "B": "Exogenous thyroid hormone ingestion",
+        "C": "hCG stimulation of the TSH receptor",
+        "D": "Release of preformed hormone from thyroiditis",
+        "E": "TSH secretion by a pituitary adenoma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "TSH-receptor-stimulating antibodies cause Graves disease, which would not explain the very high hCG, large uterus and ovarian cysts.",
+        "B": "Factitious thyrotoxicosis would not explain the bleeding, large uterus or extremely high hCG.",
+        "C": "Trophoblast hyperplasia in a molar pregnancy markedly raises hCG, which stimulates the thyroid (its thyrotropic effect) and causes hyperthyroidism with suppressed TSH; the same high hCG causes theca lutein cysts.",
+        "D": "Thyroiditis releases stored hormone but is unrelated to the hCG level and ovarian findings.",
+        "E": "A TSH-secreting adenoma raises TSH, but her TSH is suppressed."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-019",
+      "question": "A 25-year-old woman undergoes suction dilation and curettage for a complete hydatidiform mole. Pathology confirms the diagnosis. She feels well and wishes to have children in the future. Her hCG before evacuation was 190,000 mIU/mL. Which of the following is the most appropriate follow-up?",
+      "answers": {
+        "A": "Hysterectomy within 6 weeks",
+        "B": "No follow-up needed after evacuation",
+        "C": "Repeat ultrasound only, in 3 months",
+        "D": "Serial hCG until undetectable, with contraception",
+        "E": "Single hCG measurement at 6 weeks"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Hysterectomy is an alternative to D&C only for those who have completed childbearing; she wants future children.",
+        "B": "A complete mole is premalignant, with GTN in about 20%, so surveillance is required.",
+        "C": "Ultrasound does not detect early post-molar GTN; the marker that tracks residual trophoblast is hCG.",
+        "D": "Serial hCG weekly until zero, then monthly for 3 months after a complete mole, with reliable contraception throughout, detects post-molar GTN.",
+        "E": "One value cannot show the steady fall to zero, or a plateau or rise, that defines post-molar GTN."
+      }
+    },
+    {
+      "id": "endorepro-abnormal-first-trimester-pregnancies-020",
+      "question": "A 30-year-old woman at 16 weeks' gestation comes to the emergency department of a hospital in a state that restricts abortion. She has rupture of membranes, a dilated cervix and a fever of 38.6°C (101.5°F) with uterine tenderness; fetal cardiac activity is still present. The team suspects early intrauterine infection. Which of the following federal laws requires the hospital to provide the treatment needed to stabilize her emergency condition, even if that means ending the pregnancy?",
+      "answers": {
+        "A": "Affordable Care Act",
+        "B": "Born-Alive Infants Protection Act",
+        "C": "Emergency Medical Treatment and Labor Act",
+        "D": "Hyde Amendment",
+        "E": "Patient Self-Determination Act"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The ACA governs insurance coverage, not a hospital's duty to stabilize emergency conditions.",
+        "B": "This act defines legal personhood for infants born alive and does not require stabilizing emergency care for the pregnant patient.",
+        "C": "EMTALA requires hospitals to provide abortion services when necessary to stabilize a pregnant person's emergency medical condition, which may conflict with state laws that allow abortion only to preserve life.",
+        "D": "The Hyde Amendment restricts federal funding for abortion; it does not require emergency treatment.",
+        "E": "This act concerns advance directives and does not require emergency stabilizing care."
+      }
+    }
+  ]
+}

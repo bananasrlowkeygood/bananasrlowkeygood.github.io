@@ -1,0 +1,473 @@
+{
+  "lecture": "Lactation",
+  "block": "endorepro",
+  "generated": "2026-11-05",
+  "questions": [
+    {
+      "id": "endorepro-lactation-001",
+      "question": "A 31-year-old primigravida at 36 weeks' gestation asks why she is not yet making milk. Her breasts have enlarged and become tender since early pregnancy, and the areolae have darkened. Serum prolactin is markedly elevated. She is told that full milk production will begin only after delivery. Which of the following best explains why lactogenesis is held back until after birth?",
+      "answers": {
+        "A": "Absent oxytocin release from the posterior pituitary",
+        "B": "High placental estrogen and progesterone levels",
+        "C": "Inadequate prolactin secretion by lactotrophs",
+        "D": "Lack of alveoli within the breast lobules",
+        "E": "Persistent dopamine inhibition of prolactin release"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Oxytocin governs milk ejection (let-down), not milk synthesis, and its absence would not explain why milk is not being made.",
+        "B": "Estrogen and progesterone stay high throughout pregnancy and hold back milk production; their drop after delivery of the placenta, with prolactin still elevated, is the signal for lactogenesis.",
+        "C": "Her prolactin is markedly elevated; prolactin rises through pregnancy, so a lack of prolactin is not the brake.",
+        "D": "The breasts have developed during pregnancy, and alveoli are present; the limiting factor is hormonal, not structural.",
+        "E": "Dopamine tonically inhibits prolactin, but her prolactin is already high, so dopamine is not what is holding lactation back."
+      }
+    },
+    {
+      "id": "endorepro-lactation-002",
+      "question": "A 29-year-old woman has a vaginal delivery complicated by massive postpartum hemorrhage requiring 6 units of packed red cells. Over the following week she is unable to breastfeed because no milk comes in despite frequent attempts with a good latch. She also feels fatigued and cold. Which of the following best explains her failure to lactate?",
+      "answers": {
+        "A": "Deficient prolactin from anterior pituitary necrosis",
+        "B": "Excess estrogen from retained luteal tissue",
+        "C": "Impaired oxytocin release from the posterior pituitary",
+        "D": "Infrequent feeding causing reduced breast emptying",
+        "E": "Insufficient glandular tissue in both breasts"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Postpartum hemorrhage can cause ischemic necrosis of the enlarged anterior pituitary (Sheehan syndrome); loss of prolactin, which drives milk production, makes failure to lactate the classic first sign.",
+        "B": "Estrogen does suppress milk supply, but nothing suggests a persistent estrogen source, and her other symptoms point to pituitary failure.",
+        "C": "Oxytocin drives ejection of milk already made; Sheehan syndrome mainly damages the anterior pituitary, and here no milk is produced at all.",
+        "D": "Infrequent emptying is the most common cause of low supply, but she is feeding frequently with a good latch.",
+        "E": "Insufficient glandular tissue causes low supply with signs such as widely spaced or tubular breasts, not complete failure after a hemorrhage with systemic symptoms."
+      }
+    },
+    {
+      "id": "endorepro-lactation-003",
+      "question": "A 27-year-old woman who is 2 weeks postpartum is exclusively breastfeeding. She notices that within a minute of her infant beginning to suckle, milk begins to spray from the opposite nipple and she feels mild uterine cramping. Which of the following cells is the direct target of the hormone responsible for the milk spraying?",
+      "answers": {
+        "A": "Alveolar secretory epithelial cells",
+        "B": "Ductal luminal epithelial cells",
+        "C": "Lactotrophs of the anterior pituitary",
+        "D": "Myoepithelial cells of the alveoli",
+        "E": "Smooth muscle cells of the areola"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Secretory epithelial cells synthesize milk in response to prolactin; they do not contract to push milk out.",
+        "B": "Luminal ductal cells line the milk ducts and carry milk to the nipple, but they are not the contractile target of let-down.",
+        "C": "Lactotrophs secrete prolactin in response to suckling, which drives milk production rather than ejection.",
+        "D": "Suckling releases oxytocin from the posterior pituitary, which contracts myoepithelial cells around the alveoli and pushes milk down the ducts (let-down); the same hormone causes uterine cramping.",
+        "E": "Areolar smooth muscle erects the nipple but does not expel milk from the alveoli."
+      }
+    },
+    {
+      "id": "endorepro-lactation-004",
+      "question": "A 24-year-old woman is visited on postpartum day 2 after an uncomplicated vaginal delivery. She is worried because her breasts produced only about 45 mL of thick, yellow fluid on the first day, and she thinks her milk is 'not ready.' Her newborn is feeding 10 times per day and has passed several dark, sticky stools. Compared with the milk she will produce at 2 weeks postpartum, the fluid she is producing now is best characterized by which of the following?",
+      "answers": {
+        "A": "Higher fat and higher lactose content",
+        "B": "Higher protein and lower fat content",
+        "C": "Lower beta carotene and higher fat content",
+        "D": "Lower immunoglobulin and higher iron content",
+        "E": "Lower protein and higher water content"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Colostrum has less fat and less lactose than mature milk; mature milk is the more calorie-dense, fattier milk.",
+        "B": "This is colostrum, made in the first 2 to 4 days; it has more protein and less fat and lactose than mature milk, is yellow from beta carotene, and 40 to 50 mL on day 1 is typical.",
+        "C": "Beta carotene is what makes colostrum yellow, so it is higher, not lower, than in mature milk.",
+        "D": "Colostrum is especially rich in immunoglobulins, particularly IgA, which provide passive immunity.",
+        "E": "Mature milk is the more watery milk; colostrum is the protein-rich early milk."
+      }
+    },
+    {
+      "id": "endorepro-lactation-005",
+      "question": "A 2-month-old girl is brought for a well-child visit. She was born at term and has been exclusively breastfed since birth. She received all recommended medications in the newborn nursery. Weight and length are at the 50th percentile, and she has 6 to 8 wet diapers daily. The mother asks whether her daughter needs any supplements. Which of the following is most appropriate to recommend?",
+      "answers": {
+        "A": "Iron drops beginning now",
+        "B": "No supplementation is needed",
+        "C": "Oral vitamin K drops daily",
+        "D": "Vitamin B12 drops daily",
+        "E": "Vitamin D 400 IU daily"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Breastmilk contains sufficient iron for infants, and iron from breastmilk is absorbed better than from cow's milk, so a thriving term infant does not need iron now.",
+        "B": "Although breastmilk is the ideal food, it is low in vitamin D, so exclusively breastfed infants need supplementation.",
+        "C": "All infants receive a single vitamin K injection after birth for coagulation; she already received her nursery medications, and daily drops are not the recommendation here.",
+        "D": "B12 supplementation is not routinely needed for a breastfed infant of a parent with a normal diet.",
+        "E": "Breastmilk is low in vitamin D, so infants who are exclusively fed human milk need 400 IU/day of vitamin D."
+      }
+    },
+    {
+      "id": "endorepro-lactation-006",
+      "question": "A 32-year-old woman is seen 10 days postpartum because her infant has regained little of his birth weight despite 10 to 12 feedings daily with a good latch confirmed by a lactation consultant. She notes that her breasts did not change in size during pregnancy and never feel full before feedings. Examination shows narrow, elongated breasts with large areolae, separated by 5 cm over the sternum. Which of the following is the most likely cause of her low milk supply?",
+      "answers": {
+        "A": "Engorgement from ineffective milk removal",
+        "B": "Infrequent feeding and breast emptying",
+        "C": "Insufficient glandular tissue",
+        "D": "Obstructed lactiferous duct",
+        "E": "Postpartum pituitary necrosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Engorgement makes the breasts full, firm and tender, the opposite of breasts that never feel full.",
+        "B": "Infrequent emptying is the most common cause of low supply, but she is feeding 10 to 12 times a day with a confirmed good latch.",
+        "C": "Widely spaced breasts (more than 4 cm apart), tubular shape with large areolae, and no size change in pregnancy are signs that the breasts lack enough glandular tissue to make sufficient milk.",
+        "D": "An obstructed duct presents as a painful, firm, focal mass, not as globally low supply with abnormal breast shape.",
+        "E": "Sheehan syndrome follows severe hemorrhage and causes complete failure to lactate with other hypopituitary symptoms, not a lifelong breast shape abnormality."
+      }
+    },
+    {
+      "id": "endorepro-lactation-007",
+      "question": "A 4-day-old boy born at 39 weeks is evaluated for yellow skin extending to his chest. He is exclusively breastfed, but the mother reports he falls asleep after a few minutes at the breast and feeds about 5 times per day. He has had 1 stool and 2 wet diapers in the past 24 hours. Blood types of mother and infant are both O positive, and direct antiglobulin test is negative. Laboratory studies are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Total bilirubin",
+          "14.2 mg/dL",
+          "varies by age in hours"
+        ],
+        [
+          "Direct (conjugated) bilirubin",
+          "0.4 mg/dL",
+          "< 1.0 mg/dL"
+        ],
+        [
+          "Hemoglobin",
+          "17.5 g/dL",
+          "14-22 g/dL"
+        ],
+        [
+          "Weight change from birth",
+          "-11%",
+          "< 10% loss"
+        ]
+      ],
+      "answers": {
+        "A": "Feed at the breast 8 to 12 times daily",
+        "B": "Give glucose water between breastfeedings",
+        "C": "Perform an exchange transfusion",
+        "D": "Stop breastfeeding permanently and give formula",
+        "E": "Supplement with water by dropper after feeds"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "This is breastfeeding jaundice: underfeeding in the first week slows the gut and increases bilirubin reabsorption, and it resolves with more frequent, effective feeding (8 to 12 times per 24 hours).",
+        "B": "Supplemental glucose water does not reduce breastfeeding jaundice and displaces breastmilk, further lowering supply.",
+        "C": "Exchange transfusion is reserved for severe or rapidly rising hyperbilirubinemia; this infant's level and course do not warrant it.",
+        "D": "Jaundice is not a contraindication to breastfeeding; the fix is more breastfeeding, with supplementation of pumped milk if needed.",
+        "E": "Water does not increase stooling of bilirubin and is not recommended; only increased milk intake reduces breastfeeding jaundice."
+      }
+    },
+    {
+      "id": "endorepro-lactation-008",
+      "question": "A 3-week-old girl is brought for a routine visit because her parents notice she still looks yellow. She was born at term, is exclusively breastfed 10 times a day, and has gained 32 g per day since regaining her birth weight. She has 4 yellow, seedy stools and 7 wet diapers daily. Physical examination shows mild scleral and facial jaundice and no hepatosplenomegaly. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Total bilirubin",
+          "11.8 mg/dL",
+          "< 1.5 mg/dL (adult)"
+        ],
+        [
+          "Direct (conjugated) bilirubin",
+          "0.3 mg/dL",
+          "< 1.0 mg/dL"
+        ],
+        [
+          "Hemoglobin",
+          "13.9 g/dL",
+          "10-18 g/dL"
+        ],
+        [
+          "Direct antiglobulin test",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Biliary atresia",
+        "B": "Breastfeeding jaundice",
+        "C": "Breastmilk jaundice",
+        "D": "Hemolysis from ABO incompatibility",
+        "E": "Physiologic jaundice of the newborn"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Biliary atresia causes a conjugated (direct) hyperbilirubinemia with pale stools, whereas this infant's direct bilirubin is normal.",
+        "B": "Breastfeeding jaundice occurs in the first week from underfeeding, with poor weight gain and few stools; this infant is gaining well.",
+        "C": "Breastmilk jaundice appears after the first week in a thriving breastfed infant, is unconjugated, lasts several weeks and rarely causes problems; it is a prolongation of physiologic jaundice.",
+        "D": "Hemolytic disease causes pathologic jaundice that rises faster and earlier, with anemia and a positive antiglobulin test, none of which are present.",
+        "E": "Physiologic jaundice peaks on day of life 3 to 4 and clears within 1 to 2 weeks, so it should have resolved by 3 weeks."
+      }
+    },
+    {
+      "id": "endorepro-lactation-009",
+      "question": "A 3-day-old boy has unconjugated hyperbilirubinemia that has risen into the treatment range. He is placed under blue-green phototherapy lights with his eyes shielded. Over the next 24 hours his serum bilirubin falls and his urine becomes darker, although his hepatic conjugating capacity is unchanged. Which of the following best explains how phototherapy lowers his bilirubin?",
+      "answers": {
+        "A": "Increased albumin binding of free bilirubin",
+        "B": "Induction of hepatic glucuronyl transferase activity",
+        "C": "Inhibition of intestinal beta-glucuronidase",
+        "D": "Isomerization of bilirubin to lumirubin",
+        "E": "Reduction of erythrocyte breakdown in the spleen"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Albumin carries unconjugated bilirubin to the liver, but phototherapy lowers bilirubin by changing its structure, not its binding.",
+        "B": "Phototherapy works in the skin, not by inducing the liver enzyme; his conjugating capacity is unchanged.",
+        "C": "Beta-glucuronidase deconjugates bilirubin in the gut for reabsorption, but light does not act on this enzyme.",
+        "D": "Light isomerizes bilirubin to lumirubin, which is more water soluble and can be excreted into bile and urine without conjugation; photo-oxidation to colorless products also helps.",
+        "E": "Shorter newborn red cell life span increases bilirubin production, but phototherapy does not change red cell turnover."
+      }
+    },
+    {
+      "id": "endorepro-lactation-010",
+      "question": "A 2-day-old girl born to a mother with blood type O positive has blood type A positive and a positive direct antiglobulin test. Jaundice appeared within the first 24 hours of life and has spread rapidly from the face to the legs. Total bilirubin is 26 mg/dL, almost all unconjugated. She has become lethargic and feeds poorly, and now has a high-pitched cry and arching of the back. If untreated, which of the following brain structures is most characteristically damaged by this process?",
+      "answers": {
+        "A": "Basal ganglia",
+        "B": "Corpus callosum",
+        "C": "Frontal cortex",
+        "D": "Occipital white matter",
+        "E": "Spinal cord anterior horn"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Kernicterus is neurologic damage from excess unconjugated bilirubin entering the brain and destroying neurons, characteristically in the basal ganglia (and cerebellum), leading to motor deficits, seizures and hearing loss.",
+        "B": "The corpus callosum is not a characteristic site of bilirubin deposition.",
+        "C": "Bilirubin toxicity spares the cortex relative to deep nuclei; cortical injury is more typical of hypoxic insults.",
+        "D": "Occipital white matter injury is classic for neonatal hypoglycemia, not hyperbilirubinemia.",
+        "E": "Anterior horn cell loss is seen in spinal muscular atrophy, not kernicterus."
+      }
+    },
+    {
+      "id": "endorepro-lactation-011",
+      "question": "A 30-year-old woman who is 3 weeks postpartum has a 2-day history of a painful, red area on her left breast with fever and myalgias. She has continued breastfeeding on cue, taken ibuprofen and used cool compresses, but her symptoms have worsened over the past 48 hours. She has no history of MRSA and no drug allergies. Examination shows a 6-cm wedge-shaped area of erythema, warmth and tenderness in the upper outer quadrant with no fluctuance. Vital signs are shown. Which of the following is the most appropriate addition to her management?",
+      "table": [
+        [
+          "Vital sign",
+          "Value"
+        ],
+        [
+          "Temperature",
+          "38.6 C (101.5 F)"
+        ],
+        [
+          "Pulse",
+          "98/min"
+        ],
+        [
+          "Blood pressure",
+          "118/74 mm Hg"
+        ],
+        [
+          "Respirations",
+          "16/min"
+        ]
+      ],
+      "answers": {
+        "A": "Clindamycin",
+        "B": "Dicloxacillin",
+        "C": "Fluconazole",
+        "D": "Nitrofurantoin",
+        "E": "Vancomycin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Clindamycin (or TMP-SMX) is chosen when there is MRSA risk; she has none, so the first-line agent is preferred.",
+        "B": "Mastitis with significant systemic symptoms or no improvement in 24 to 48 hours needs antibiotics; the usual cause is Staphylococcus aureus, and dicloxacillin is first line, with continued breast emptying.",
+        "C": "Fluconazole treats nipple candidiasis, which causes shooting nipple pain and a shiny pink areola, not fever with a wedge of erythema.",
+        "D": "Nitrofurantoin concentrates in urine for cystitis and does not reach therapeutic levels in breast tissue.",
+        "E": "IV vancomycin is reserved for severe infection, sepsis or progression despite oral antibiotics, which require admission; she is stable."
+      }
+    },
+    {
+      "id": "endorepro-lactation-012",
+      "question": "A 26-year-old woman who is 5 weeks postpartum reports a tender lump in her right breast for 2 days. She recently returned to work, wears a tight underwire bra and has been pumping less often than her infant fed. She is afebrile and feels well. Examination shows a 2-cm firm, tender mass in the right upper outer quadrant without overlying erythema, warmth or skin break. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Begin oral dicloxacillin",
+        "B": "Feed from the affected breast first",
+        "C": "Obtain a diagnostic mammogram",
+        "D": "Stop breastfeeding on the right side",
+        "E": "Switch to estrogen-containing contraception"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Antibiotics are for mastitis with significant systemic symptoms; she is afebrile with no erythema.",
+        "B": "This is an obstructed duct from ineffective emptying and constricting clothing; treatment is feeding from the affected breast first, changing positions, warm compresses and avoiding tight clothing, with lecithin as an option.",
+        "C": "A lump that appears acutely with reduced emptying in a lactating woman is an obstructed duct; imaging is for abscess concerns or persistence.",
+        "D": "Stopping drainage worsens milk backup and can lead to mastitis; the breast needs more emptying, not less.",
+        "E": "Systemic estrogen decreases milk supply and has no role in treating a blocked duct."
+      }
+    },
+    {
+      "id": "endorepro-lactation-013",
+      "question": "A 22-year-old woman on postpartum day 4 calls because both breasts became very swollen overnight. They are tender, warm, firm and enlarged with tight, shiny skin, and her newborn cannot latch because the areola is so full. She has no fever, focal mass or skin break. Which of the following is the most appropriate recommendation?",
+      "answers": {
+        "A": "Apply ice and bind the breasts tightly",
+        "B": "Begin a course of oral antibiotics",
+        "C": "Hand express or pump before latching",
+        "D": "Limit feeds to every 4 hours to rest the breasts",
+        "E": "Supplement with formula until swelling resolves"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Binding suppresses lactation and constricting clothing promotes obstructed ducts; engorgement is treated with milk removal.",
+        "B": "There is no fever or focal erythema to suggest mastitis; physiologic engorgement is not an infection.",
+        "C": "This is engorgement as milk comes in; treatment is milk removal, and when the baby cannot latch, hand expression or pumping softens the areola, with warm compresses or a shower to help.",
+        "D": "Infrequent milk removal causes and worsens engorgement and reduces long-term supply.",
+        "E": "Formula reduces nipple stimulation and milk removal, which worsens engorgement and lowers supply."
+      }
+    },
+    {
+      "id": "endorepro-lactation-014",
+      "question": "A 33-year-old woman who is 6 weeks postpartum reports severe, burning nipple pain that shoots through to her back during and after every feed. Pain began after a course of antibiotics for a urinary tract infection. Her 6-week-old son has white plaques on his tongue and buccal mucosa that do not scrape off easily. The appearance of her nipple and areola is shown. Which of the following is the most appropriate management?",
+      "image": {
+        "src": "images/lactation/014.jpg",
+        "caption": "The patient's nipple and areola",
+        "credit": "Slides p. 22"
+      },
+      "answers": {
+        "A": "Oral dicloxacillin for the mother only",
+        "B": "Stop breastfeeding until the infant's lesions clear",
+        "C": "Topical azole for mother, oral nystatin for infant",
+        "D": "Topical mupirocin for the mother only",
+        "E": "Valacyclovir for the mother and acyclovir for the infant"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Dicloxacillin treats staphylococcal mastitis, which causes fever and a wedge of erythema rather than shooting nipple pain with infant thrush.",
+        "B": "Breastfeeding continues during treatment of nipple candidiasis; stopping is unnecessary.",
+        "C": "Shooting nipple pain to the back with a shiny pink areola and infant thrush is Candida; the parent is treated with a topical azole (or gentian violet or oral fluconazole) and the infant with oral nystatin, while breastfeeding continues.",
+        "D": "Mupirocin treats bacterial skin infection, and treating only the mother would allow reinfection from the infant's thrush.",
+        "E": "HSV on the nipple causes vesicles and is a contraindication to feeding from that breast; this presentation is fungal."
+      }
+    },
+    {
+      "id": "endorepro-lactation-015",
+      "question": "A 25-year-old woman brings her 9-day-old son because of severe nipple pain and cracking with every feed. Despite feeding 10 times a day, he has not regained his birth weight. She notices he cannot stick his tongue out past his lips and makes a clicking sound while nursing. Examination of the infant's mouth while crying is shown. Which of the following is the most likely cause of the mother's nipple pain?",
+      "image": {
+        "src": "images/lactation/015.jpg",
+        "caption": "The infant's mouth while crying",
+        "credit": "Slides p. 17"
+      },
+      "answers": {
+        "A": "Ankyloglossia",
+        "B": "Inverted nipples",
+        "C": "Mammary candidiasis",
+        "D": "Obstructed duct",
+        "E": "Oral thrush"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A short, tight lingual frenulum (tongue tie) restricts tongue movement, preventing the tongue from covering the lower gum and forming a vacuum, which causes poor latch, nipple pain and poor milk transfer.",
+        "B": "Inverted nipples are a maternal finding that may need a nipple shield or pumping; the infant's restricted tongue is the abnormality here.",
+        "C": "Candida causes shooting pain to the back with a shiny pink areola, typically with infant thrush, not a restricted tongue.",
+        "D": "An obstructed duct causes a firm, tender breast mass, not nipple trauma with every latch.",
+        "E": "Thrush appears as white patches on the tongue; the image shows a tethered tongue without plaques."
+      }
+    },
+    {
+      "id": "endorepro-lactation-016",
+      "question": "A 6-day-old girl is brought to the emergency department with vomiting after every breastfeed, poor feeding and lethargy. She is jaundiced, and her liver is palpable 4 cm below the costal margin. Slit-lamp examination shows bilateral oil-droplet cataracts. Blood culture grows Escherichia coli. Urine is positive for reducing substances but negative on a glucose oxidase dipstick. In addition to antibiotics, which of the following is the most appropriate change in her feeding?",
+      "answers": {
+        "A": "Continue breastfeeding with more frequent feeds",
+        "B": "Continue breastfeeding with vitamin D supplements",
+        "C": "Give donor human milk instead of maternal milk",
+        "D": "Stop breast milk and use a lactose-free formula",
+        "E": "Supplement breastfeeding with cow's milk formula"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "More frequent feeding treats breastfeeding jaundice from underfeeding, not a metabolic disorder made worse by milk.",
+        "B": "Vitamin D is advised for breastfed infants, but continuing breast milk would keep delivering the galactose she cannot metabolize.",
+        "C": "Donor milk contains the same lactose, so it is equally harmful in galactosemia.",
+        "D": "Galactosemia in the infant is a contraindication to human milk feeding because breastmilk lactose is broken down to galactose; she needs a lactose-free (soy-based) formula.",
+        "E": "Standard cow's milk formula contains lactose and would also deliver galactose."
+      }
+    },
+    {
+      "id": "endorepro-lactation-017",
+      "question": "A 3-day-old boy is found difficult to arouse and has two brief episodes of apnea in the nursery. He is exclusively breastfed. His mother underwent cesarean delivery 3 days ago and has been taking an oral opioid for incision pain every 4 hours; she reports feeling unusually drowsy herself. The infant's vital signs improve after naloxone. Which of the following medications is the mother most likely taking?",
+      "answers": {
+        "A": "Acetaminophen",
+        "B": "Codeine",
+        "C": "Ibuprofen",
+        "D": "Ketorolac",
+        "E": "Ondansetron"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Acetaminophen is safe during lactation and does not cause sedation or respiratory depression.",
+        "B": "Codeine (like tramadol) is avoided in lactation because it can cause significant infant sleepiness and respiratory depression; in ultrarapid CYP2D6 metabolizers, much more morphine reaches the milk.",
+        "C": "Ibuprofen (Motrin) is safe in lactation and is not reversed by naloxone.",
+        "D": "Ketorolac is an NSAID compatible with breastfeeding and would not respond to naloxone.",
+        "E": "Ondansetron is an antiemetic compatible with breastfeeding and does not cause respiratory depression."
+      }
+    },
+    {
+      "id": "endorepro-lactation-018",
+      "question": "A 34-year-old woman who is 4 months postpartum and exclusively breastfeeding comes to the emergency department with sudden pleuritic chest pain and dyspnea. A CT pulmonary angiogram with iodinated contrast confirms a small pulmonary embolism, and she is started on anticoagulation. She asks how long she must wait before breastfeeding her infant again. Which of the following is the most appropriate advice?",
+      "answers": {
+        "A": "Continue breastfeeding as usual",
+        "B": "Pump and discard milk for 12 hours",
+        "C": "Pump and discard milk for 24 hours",
+        "D": "Stop breastfeeding for 48 hours",
+        "E": "Wean to formula permanently"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Breastfeeding can be continued without interruption after iodinated contrast or gadolinium, and the ionizing radiation of CT poses no risk to lactation.",
+        "B": "A 12-hour pump-and-dump break applies to some nuclear medicine studies, where radionuclides are excreted into milk, not to iodinated contrast.",
+        "C": "There is no need to discard milk after iodinated contrast; pumping and dumping unnecessarily is a barrier to breastfeeding.",
+        "D": "No interruption is needed after iodinated contrast; a 48-hour pause would risk her supply for no benefit.",
+        "E": "Neither the contrast nor the CT is a reason to stop breastfeeding."
+      }
+    },
+    {
+      "id": "endorepro-lactation-019",
+      "question": "A 28-year-old woman who is 6 weeks postpartum and exclusively breastfeeding comes for contraception counseling. She has no history of thromboembolism, migraine or hypertension, and she is a nonsmoker. She asks which method might reduce the amount of breast milk she makes. Which of the following methods is most likely to decrease her milk supply?",
+      "answers": {
+        "A": "Combined oral contraceptive pill",
+        "B": "Copper intrauterine device",
+        "C": "Etonogestrel subdermal implant",
+        "D": "Levonorgestrel intrauterine device",
+        "E": "Norethindrone progestin-only pill"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Combined pills contain estrogen, and data show that systemic estrogen decreases milk supply, so this is the method most likely to reduce it.",
+        "B": "The copper IUD is hormone free and has no effect on lactation.",
+        "C": "Concerns that progestin-containing methods decrease milk supply have not been substantiated.",
+        "D": "This progestin-only method has not been shown to decrease milk supply.",
+        "E": "Progestin-only pills are not associated with reduced milk supply."
+      }
+    },
+    {
+      "id": "endorepro-lactation-020",
+      "question": "A 30-year-old woman is 4 months postpartum and exclusively breastfeeds her son on demand day and night. She has had no menses since delivery and has not used contraception. A urine hCG test is negative, and serum LH and FSH are low. Which of the following best explains why she has not ovulated?",
+      "answers": {
+        "A": "Elevated oxytocin inhibiting ovarian follicles",
+        "B": "Excess estrogen suppressing pituitary LH release",
+        "C": "Persistent progesterone from the corpus luteum",
+        "D": "Premature ovarian insufficiency",
+        "E": "Prolactin suppressing pulsatile GnRH secretion"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Oxytocin causes milk ejection and uterine contraction; it does not suppress folliculogenesis.",
+        "B": "Estrogen is low, not high, during lactation; the suppression arises at the hypothalamus.",
+        "C": "Progesterone falls after delivery of the placenta and is not what keeps her anovulatory.",
+        "D": "Ovarian insufficiency would cause high FSH and LH, whereas hers are low.",
+        "E": "Suckling keeps prolactin high, and prolactin inhibits pulsatile GnRH secretion from the hypothalamus, lowering LH and FSH; exclusive breastfeeding in the first 6 months with amenorrhea makes pregnancy very unlikely."
+      }
+    }
+  ]
+}

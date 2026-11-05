@@ -1,0 +1,596 @@
+{
+  "lecture": "Labor & Delivery Complications",
+  "block": "endorepro",
+  "generated": "2026-11-05",
+  "questions": [
+    {
+      "id": "endorepro-labor-and-delivery-complications-001",
+      "question": "A 31-year-old woman, G3P2, at 39 weeks' gestation is admitted in active labor. Both prior deliveries were by cesarean, and she chose a trial of labor this time. Her cervix has been changing steadily. She suddenly reports constant, severe abdominal pain between contractions, and a small amount of vaginal bleeding is noted. The fetal heart rate falls to 80/min. On cervical exam, the fetal head, previously at +1 station, is now at -2 station. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Placenta accreta",
+        "B": "Placenta previa",
+        "C": "Placental abruption",
+        "D": "Umbilical cord prolapse",
+        "E": "Uterine rupture"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Placenta accreta presents as a placenta that fails to separate after the fetus is delivered, not as loss of fetal station during labor.",
+        "B": "A bleeding previa causes vaginal bleeding, but it would have been seen on prenatal ultrasound and does not make the presenting part rise out of the pelvis.",
+        "C": "Abruption causes painful bleeding and fetal distress, but it does not explain the fetal head moving up from +1 to -2 station.",
+        "D": "Cord prolapse causes sudden fetal bradycardia, but it does not cause constant maternal pain or loss of fetal station.",
+        "E": "A TOLAC with two prior cesareans, constant pain, bleeding, fetal bradycardia and loss of station (the fetus slipping through the torn uterine wall) is uterine rupture, an indication for emergent cesarean."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-002",
+      "question": "A 34-year-old woman, G9P7, delivers a 4.6-kg (10-lb 2-oz) infant vaginally under epidural anesthesia after a 14-hour labor augmented with oxytocin. An hour before delivery she developed a temperature of 38.7°C (101.7°F), and the fetal heart rate baseline rose to 170/min. Twenty minutes after placental delivery, she has bled 1,300 mL and the uterine fundus feels soft and boggy above the umbilicus. Which of the following features of her labor is LEAST likely to have contributed to this complication?",
+      "answers": {
+        "A": "Epidural anesthesia",
+        "B": "Fetal macrosomia",
+        "C": "High parity",
+        "D": "Intraamniotic infection",
+        "E": "Prolonged oxytocin use"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Epidural anesthesia is not a risk factor for postpartum hemorrhage; general anesthesia, which relaxes the uterus, is the anesthetic risk factor for atony.",
+        "B": "A macrosomic fetus over-distends the uterus, which then contracts poorly after delivery and causes atony.",
+        "C": "High parity is a classic risk factor for uterine atony and postpartum hemorrhage.",
+        "D": "Intraamniotic infection (chorioamnionitis) impairs myometrial contraction and is a risk factor for atony.",
+        "E": "Prolonged oxytocin exposure desensitizes the myometrium, raising the risk of atony after delivery."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-003",
+      "question": "A 36-year-old woman, G5P4, at 28 weeks' gestation has had four cesarean deliveries. Ultrasound shows an anterior placenta covering the internal cervical os, loss of the normal hypoechoic zone behind the placenta, and multiple irregular vascular spaces within the placenta giving a 'Swiss cheese' appearance. Which of the following best explains the pathogenesis of the condition suggested by these findings?",
+      "answers": {
+        "A": "Abnormal remodeling of maternal spiral arteries",
+        "B": "Ascending infection of the fetal membranes",
+        "C": "Failed decidualization at a prior uterine scar",
+        "D": "Premature separation of the placenta from the wall",
+        "E": "Trophoblast proliferation from paternal chromosomes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Failed spiral artery remodeling underlies preeclampsia and fetal growth restriction, not abnormally deep placental invasion.",
+        "B": "Ascending infection of the membranes is intraamniotic infection (chorioamnionitis), which does not cause the placenta to invade the myometrium.",
+        "C": "Prior cesarean scars leave a defect at the endometrial-myometrial interface; without normal decidua there, villi and trophoblast invade abnormally deep, producing placenta accreta spectrum.",
+        "D": "Premature separation of the placenta is abruption, the opposite problem from a placenta that is abnormally adherent.",
+        "E": "Trophoblast proliferation from paternal chromosomes describes a hydatidiform mole, not an abnormally invasive placenta."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-004",
+      "question": "A 27-year-old primigravida at 30 weeks' gestation is evaluated for a blood pressure of 164/112 mm Hg, confirmed 15 minutes later at 166/110 mm Hg. Her blood pressure was 112/70 mm Hg at 10 weeks. She has no headache, visual changes, or abdominal pain. Fetal heart rate tracing is reassuring and ultrasound shows normal growth and fluid. After her blood pressure is lowered with intravenous labetalol, laboratory studies show the following. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Platelets",
+          "182,000/µL",
+          "150,000–400,000/µL"
+        ],
+        [
+          "AST",
+          "28 U/L",
+          "8–40 U/L"
+        ],
+        [
+          "Creatinine",
+          "0.7 mg/dL",
+          "0.4–0.8 mg/dL (pregnancy)"
+        ],
+        [
+          "Urine protein:creatinine",
+          "0.9",
+          "<0.3"
+        ]
+      ],
+      "answers": {
+        "A": "Discharge with weekly outpatient blood pressure visits",
+        "B": "Immediate cesarean delivery",
+        "C": "Induction of labor today",
+        "D": "Inpatient corticosteroids and magnesium sulfate",
+        "E": "Termination of pregnancy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Severe-range blood pressures make this preeclampsia with severe features, which requires hospitalization rather than outpatient follow-up.",
+        "B": "Immediate delivery is reserved for unstable patients or those at 34 weeks or later; she and her fetus are stable at 30 weeks.",
+        "C": "Delivering now at 30 weeks would add avoidable prematurity when both patient and fetus are stable and expectant management is appropriate.",
+        "D": "At 24-34 weeks with a stable patient and fetus, severe preeclampsia is managed expectantly in hospital with BP control, corticosteroids for fetal lung maturity, magnesium for seizure prophylaxis, and serial labs and fetal monitoring.",
+        "E": "Termination versus ongoing management is the discussion at 20-24 weeks, not at 30 weeks with a viable, healthy fetus."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-005",
+      "question": "A 30-year-old woman, G2P1, at 35 weeks' gestation comes to the emergency department with right upper quadrant pain and nausea. Blood pressure is 158/104 mm Hg. Urine protein:creatinine ratio is 0.6. The fetal heart rate tracing is reassuring. Laboratory studies are shown. Which of the following is the most appropriate management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "10.1 g/dL",
+          "11–14 g/dL (pregnancy)"
+        ],
+        [
+          "Platelets",
+          "84,000/µL",
+          "150,000–400,000/µL"
+        ],
+        [
+          "AST",
+          "196 U/L",
+          "8–40 U/L"
+        ],
+        [
+          "ALT",
+          "214 U/L",
+          "8–40 U/L"
+        ],
+        [
+          "LDH",
+          "780 U/L",
+          "45–200 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Corticosteroids now and delivery after 48 hours",
+        "B": "Expectant management until 37 weeks",
+        "C": "Magnesium sulfate, BP control, and delivery",
+        "D": "Oral antihypertensive therapy and discharge home with follow-up",
+        "E": "Platelet transfusion and observation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Corticosteroids for lung maturity are part of expectant care before 34 weeks; at 35 weeks with HELLP, delivery should not be delayed.",
+        "B": "Expectant management to 37 weeks is for gestational hypertension or preeclampsia without severe features, and she has HELLP.",
+        "C": "Elevated LDH (hemolysis), transaminases more than twice normal and platelets under 100,000/µL are HELLP syndrome, a severe feature; at 34 weeks or later the plan is magnesium, BP control and delivery.",
+        "D": "Discharge is unsafe; HELLP syndrome is a severe feature of preeclampsia requiring inpatient care and delivery at this gestational age.",
+        "E": "Platelet transfusion does not treat the underlying disease; delivery is the definitive treatment of preeclampsia with severe features."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-006",
+      "question": "A 38-year-old woman, G3P2, at 32 weeks' gestation has had hypertension since before pregnancy, controlled on nifedipine. Baseline laboratory studies at 9 weeks were normal. Over the past week her nifedipine was increased twice, and today she has a persistent headache unrelieved by acetaminophen. Blood pressure is 168/108 mm Hg despite treatment. Laboratory studies compared with her baseline are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "9 weeks",
+          "Today"
+        ],
+        [
+          "Platelets",
+          "246,000/µL",
+          "168,000/µL"
+        ],
+        [
+          "Creatinine",
+          "0.6 mg/dL",
+          "1.3 mg/dL"
+        ],
+        [
+          "AST",
+          "22 U/L",
+          "34 U/L"
+        ],
+        [
+          "Urine protein:creatinine",
+          "0.08",
+          "0.7"
+        ]
+      ],
+      "answers": {
+        "A": "Eclampsia",
+        "B": "Gestational hypertension",
+        "C": "HELLP syndrome (hemolysis, elevated liver enzymes, low platelets)",
+        "D": "Preeclampsia superimposed on chronic hypertension",
+        "E": "Worsening chronic hypertension"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Eclampsia requires new-onset seizures, which she has not had.",
+        "B": "Gestational hypertension is new hypertension after 20 weeks; she has hypertension that predates pregnancy.",
+        "C": "HELLP requires hemolysis, transaminases twice normal and platelets under 100,000/µL, none of which are present.",
+        "D": "In chronic hypertension, rising BP with lab changes from baseline (new proteinuria, creatinine above 1.1 mg/dL), uncontrollable severe-range BP and new neurologic symptoms indicates superimposed preeclampsia with severe features.",
+        "E": "Worsening chronic hypertension raises BP without lab changes from baseline or new neurologic or respiratory findings; she has all three."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-007",
+      "question": "A 26-year-old primigravida at 34 weeks' gestation has a blood pressure of 146/94 mm Hg at a routine visit; 4 hours later it is 144/92 mm Hg. Her blood pressure at 10 weeks was 116/72 mm Hg. She has no headache, visual changes, or abdominal pain. Fetal growth is appropriate and nonstress testing is reactive. Laboratory studies are shown. Which of the following is the most appropriate management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Platelets",
+          "221,000/µL",
+          "150,000–400,000/µL"
+        ],
+        [
+          "AST",
+          "24 U/L",
+          "8–40 U/L"
+        ],
+        [
+          "Creatinine",
+          "0.6 mg/dL",
+          "0.4–0.8 mg/dL (pregnancy)"
+        ],
+        [
+          "Urine protein:creatinine",
+          "0.12",
+          "<0.3"
+        ]
+      ],
+      "answers": {
+        "A": "Close monitoring with delivery at 37 weeks",
+        "B": "Expectant management until 41 weeks",
+        "C": "Immediate cesarean delivery",
+        "D": "Magnesium sulfate and induction today",
+        "E": "Routine prenatal care without additional testing"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "New BP of 140/90 or more twice, 4 hours apart, after 20 weeks without proteinuria or severe features is gestational hypertension, followed with BP checks, fetal monitoring and serial labs until delivery at 37 weeks.",
+        "B": "Continuing past 37 weeks adds risk of progression to preeclampsia with severe features without benefit.",
+        "C": "Immediate cesarean is not indicated; she is stable without severe features, and hypertension alone is not an indication for cesarean.",
+        "D": "Magnesium and delivery now are for severe features at 34 weeks or later, and her BP is not in the severe range.",
+        "E": "Gestational hypertension needs close BP, laboratory and fetal surveillance, not routine care."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-008",
+      "question": "A 19-year-old primigravida at 37 weeks' gestation is brought to labor and delivery after a 1-minute generalized tonic-clonic seizure at home. She has no history of epilepsy or drug use. Blood pressure is 162/108 mm Hg and urine dipstick shows 3+ protein. She is now postictal but protecting her airway. Head CT is normal. Which of the following is the most appropriate drug to prevent a recurrent seizure?",
+      "answers": {
+        "A": "Carbamazepine",
+        "B": "Intravenous fosphenytoin",
+        "C": "Lamotrigine",
+        "D": "Levetiracetam",
+        "E": "Magnesium sulfate"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Carbamazepine is an oral maintenance antiepileptic for focal epilepsy, not treatment of eclamptic seizures.",
+        "B": "Fosphenytoin treats status epilepticus from other causes but is inferior to magnesium for preventing eclamptic seizures.",
+        "C": "Lamotrigine is a slowly titrated oral maintenance drug with no role in acute eclampsia.",
+        "D": "Levetiracetam is used for epilepsy but is not the drug of choice for seizures caused by preeclampsia.",
+        "E": "A new seizure with hypertension and proteinuria and no other cause is eclampsia; magnesium sulfate prevents recurrence, and delivery follows at this gestational age."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-009",
+      "question": "A 24-year-old primigravida at 39 weeks' gestation is in active labor 20 hours after spontaneous rupture of membranes. She has had seven cervical examinations. Her vital signs and laboratory results are shown. Purulent, foul-smelling fluid is seen at the cervix. The fetal heart rate baseline is 175/min. Her cervix is 7 cm dilated and progressing. She has no drug allergies. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Parameter",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "38.8°C (101.8°F)",
+          "36.5–37.5°C"
+        ],
+        [
+          "Pulse",
+          "112/min",
+          "60–100/min"
+        ],
+        [
+          "Blood pressure",
+          "118/72 mm Hg",
+          "<140/90 mm Hg"
+        ],
+        [
+          "Leukocyte count",
+          "21,000/µL",
+          "5,000–16,000/µL (labor)"
+        ]
+      ],
+      "answers": {
+        "A": "Ampicillin and gentamicin with continued labor",
+        "B": "Expectant observation without any antibiotic therapy",
+        "C": "Immediate cesarean delivery",
+        "D": "Oral antibiotics after delivery only",
+        "E": "Tocolysis to stop labor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Intrapartum fever, leukocytosis, purulent discharge and fetal tachycardia diagnose intraamniotic infection; treat with intrapartum IV antibiotics (ampicillin plus gentamicin) and acetaminophen, and allow vaginal delivery.",
+        "B": "Untreated intraamniotic infection risks fetal sepsis, pneumonia and meningitis and maternal sepsis; antibiotics are started intrapartum.",
+        "C": "Intraamniotic infection alone is not an indication for cesarean; she is progressing in labor.",
+        "D": "Delaying antibiotics until after delivery leaves the fetus and mother untreated during labor.",
+        "E": "Stopping labor prolongs exposure to infected amniotic fluid; delivery, by either route, is part of treatment."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-010",
+      "question": "A 29-year-old woman develops intrapartum fever, fetal tachycardia, and purulent cervical discharge during a long induction of labor at term. Her placenta shows dense neutrophilic infiltration of the membranes, and cultures grow mixed aerobic and anaerobic organisms typical of the vagina. The labor and delivery unit is reviewing practices to reduce this complication. Which of the following practices is most likely to lower the risk?",
+      "answers": {
+        "A": "Continuous electronic fetal monitoring",
+        "B": "Early amniotomy in latent labor",
+        "C": "Expectant care after term membrane rupture",
+        "D": "Restricting digital cervical examinations",
+        "E": "Routine episiotomy at delivery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Fetal monitoring detects fetal tachycardia but does nothing to prevent organisms ascending into the uterus.",
+        "B": "Rupturing membranes early opens a path for vaginal flora to ascend and lengthens the time membranes are ruptured.",
+        "C": "Prolonged ruptured membranes increase ascending infection; the lecture recommends active management of labor after rupture at term.",
+        "D": "Intraamniotic infection is polymicrobial and usually ascends from vaginal flora, so limiting cervical exams (with GBS screening and active management after rupture) reduces risk.",
+        "E": "Episiotomy is a perineal incision at delivery and does not affect infection of the amniotic cavity during labor."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-011",
+      "question": "A 28-year-old primigravida has a forceps-assisted vaginal delivery of a 4.1-kg infant. On inspection of the perineum, the tear extends through the perineal skin and muscles and partially through the external anal sphincter. Rectal examination shows the rectal mucosa and anal epithelium are intact. Which of the following best classifies this laceration?",
+      "answers": {
+        "A": "Cervical laceration",
+        "B": "First-degree perineal",
+        "C": "Fourth-degree perineal",
+        "D": "Second-degree perineal",
+        "E": "Third-degree perineal"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cervical lacerations are seen on speculum exam of the cervix and are not graded by depth.",
+        "B": "A first-degree laceration involves perineal skin only.",
+        "C": "A fourth-degree laceration extends through the sphincter complex into the anal epithelium, which is intact here.",
+        "D": "A second-degree laceration involves perineal muscles and skin but stops short of the anal sphincter.",
+        "E": "Extension into or through the anal sphincter complex with intact anal epithelium is a third-degree laceration, repaired in layers."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-012",
+      "question": "A 32-year-old woman, G2P1, delivers twins vaginally at 37 weeks' gestation after a pregnancy complicated by polyhydramnios. The placenta delivers intact 10 minutes later. Over the next 30 minutes she bleeds 1,200 mL. Her pulse is 118/min and blood pressure is 96/58 mm Hg. Bimanual examination shows a soft, enlarged uterus that firms briefly with massage. The cervix, vagina, and perineum have no lacerations, and the fundus is palpable in its normal position. Which of the following is the most likely cause of her bleeding?",
+      "answers": {
+        "A": "Amniotic fluid embolism",
+        "B": "Genital tract laceration",
+        "C": "Retained placental tissue",
+        "D": "Uterine atony",
+        "E": "Uterine inversion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Amniotic fluid embolism presents with sudden cardiorespiratory collapse and coagulopathy, not a soft uterus that responds to massage.",
+        "B": "Inspection found no cervical, vaginal or perineal lacerations.",
+        "C": "The placenta delivered intact, making retained tissue unlikely.",
+        "D": "Twins and polyhydramnios over-distend the uterus, which then fails to contract; a soft uterus that firms with massage is atony, the leading cause of PPH.",
+        "E": "Uterine inversion would leave the fundus absent from its normal position, often with a mass in the vagina."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-013",
+      "question": "A 25-year-old primigravida has heavy bleeding after an uncomplicated vaginal delivery. She has had heavy menstrual periods since menarche and prolonged bleeding after a dental extraction. The uterus is firm and well contracted, there are no lacerations, and the placenta is intact. Laboratory studies are shown. Which of the following is the most appropriate treatment for the cause of her bleeding?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Platelets",
+          "210,000/µL",
+          "150,000–400,000/µL"
+        ],
+        [
+          "PT",
+          "12 s",
+          "11–13.5 s"
+        ],
+        [
+          "PTT",
+          "44 s",
+          "25–35 s"
+        ],
+        [
+          "Fibrinogen",
+          "420 mg/dL",
+          "300–600 mg/dL (term)"
+        ],
+        [
+          "von Willebrand factor activity",
+          "28%",
+          "50–150%"
+        ]
+      ],
+      "answers": {
+        "A": "Carboprost",
+        "B": "Desmopressin",
+        "C": "Methylergonovine",
+        "D": "Oxytocin",
+        "E": "Vitamin K"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Carboprost is a prostaglandin uterotonic for atony; her uterus is already firm.",
+        "B": "Lifelong mucosal bleeding with a low von Willebrand factor and prolonged PTT is von Willebrand disease; the lecture treats PPH from VWD with desmopressin, which releases stored VWF.",
+        "C": "Methylergonovine is an ergot uterotonic for atony, which she does not have.",
+        "D": "Oxytocin treats or prevents atony and would not correct a coagulation defect.",
+        "E": "Vitamin K corrects deficiency of factors II, VII, IX and X, which would prolong the PT; her PT is normal."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-014",
+      "question": "A 33-year-old woman comes to the clinic 6 weeks after a vaginal delivery complicated by postpartum hemorrhage of 3,000 mL that required transfusion of 8 units of red cells. She has been unable to breastfeed because milk never came in. She reports fatigue and lightheadedness. Blood pressure is 92/60 mm Hg. Serum prolactin is low. Which of the following best explains her findings?",
+      "answers": {
+        "A": "Autoimmune destruction of the thyroid",
+        "B": "Ischemic necrosis of the anterior pituitary",
+        "C": "Lymphocytic autoimmune infiltration of the pituitary gland",
+        "D": "Prolactin-secreting pituitary adenoma",
+        "E": "Suppression of lactation by estrogen"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Autoimmune thyroiditis causes hypothyroidism but does not explain failure of lactation with low prolactin after hemorrhage.",
+        "B": "Massive postpartum hemorrhage can cause ischemic pituitary necrosis (Sheehan syndrome); loss of prolactin prevents lactation and loss of ACTH contributes to hypotension.",
+        "C": "Lymphocytic hypophysitis is autoimmune and occurs peripartum, but this patient's clear trigger is massive hemorrhage.",
+        "D": "A prolactinoma would raise prolactin and cause galactorrhea, not failure of lactation.",
+        "E": "Estrogen can suppress lactation, but she has no estrogen exposure and her prolactin is low."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-015",
+      "question": "A 30-year-old woman, G4P3, at 38 weeks' gestation is in early labor with a fetus whose presenting part is high and unengaged. Ultrasound earlier showed polyhydramnios. Artificial rupture of membranes is performed, and a large gush of fluid follows. Minutes later the fetal heart rate tracing shown is obtained. On vaginal examination, a soft, pulsating structure is felt in the vagina below the presenting part. Which of the following is the most appropriate next step in management?",
+      "image": {
+        "src": "images/labor-and-delivery-complications/015.png",
+        "caption": "Fetal heart rate (top) and uterine activity (bottom) after amniotomy",
+        "credit": "Slides p. 32"
+      },
+      "answers": {
+        "A": "Amnioinfusion and continued labor",
+        "B": "Attempt to manually replace the cord above the fetal head",
+        "C": "Elevate the presenting part until urgent cesarean",
+        "D": "Forceps-assisted vaginal delivery",
+        "E": "Oxytocin augmentation to speed labor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Amnioinfusion is itself a risk factor for cord prolapse and does not relieve cord compression from the presenting part.",
+        "B": "Pushing the cord back up is not the recommended maneuver; the presenting part is lifted off the cord instead.",
+        "C": "Amniotomy with an unengaged presenting part and polyhydramnios led to cord prolapse with fetal bradycardia; a gloved hand elevates the fetal head off the cord until urgent cesarean.",
+        "D": "Operative vaginal delivery requires full dilation and an engaged head; she is in early labor.",
+        "E": "Stronger contractions would push the presenting part harder onto the prolapsed cord and worsen fetal hypoxia."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-016",
+      "question": "A 29-year-old woman with gestational diabetes delivers the head of an estimated 4.4-kg fetus after a prolonged second stage. The head emerges, then retracts tightly against the perineum. Gentle downward traction on the fetal head fails to deliver the anterior shoulder. Additional staff have been called to the room. Which of the following is the most appropriate first maneuver?",
+      "answers": {
+        "A": "Cephalic replacement (Zavanelli)",
+        "B": "Clavicular fracture",
+        "C": "Gaskin maneuver with the patient on all fours",
+        "D": "Maternal hip hyperflexion (McRoberts)",
+        "E": "Posterior arm delivery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cephalic replacement followed by cesarean is a third-line, last-resort option.",
+        "B": "Deliberate clavicular fracture is a third-line option after all other maneuvers fail.",
+        "C": "The Gaskin maneuver is tried after the standard maneuvers have failed and been repeated.",
+        "D": "The turtle sign with failure of gentle traction is shoulder dystocia; after calling for help, McRoberts maneuver is first line.",
+        "E": "Delivery of the posterior arm is a second-line maneuver, after McRoberts and suprapubic pressure."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-017",
+      "question": "A 4.5-kg male newborn was delivered vaginally after a shoulder dystocia that required several maneuvers. On examination, his right arm hangs adducted and internally rotated, with the elbow extended, forearm pronated, and wrist flexed. Grasp is intact. The Moro reflex is absent on the right. Injury to which of the following structures most likely explains these findings?",
+      "answers": {
+        "A": "Lower trunk of the brachial plexus (C8-T1)",
+        "B": "Median nerve at the elbow",
+        "C": "Posterior cord of the brachial plexus at the axilla",
+        "D": "Radial nerve in the spiral groove",
+        "E": "Upper trunk of the brachial plexus (C5-C6)"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Lower trunk (Klumpke) injury causes a claw hand with weak grasp, not the waiter's tip posture.",
+        "B": "Median nerve injury impairs forearm pronation and thumb opposition rather than shoulder abduction and external rotation.",
+        "C": "Posterior cord injury affects the axillary and radial nerves, giving deltoid and wrist extensor weakness, not this posture.",
+        "D": "A spiral-groove radial injury causes wrist drop with preserved shoulder function, and is a humeral fracture complication.",
+        "E": "Traction on the head and neck in shoulder dystocia stretches the upper trunk (Erb palsy), producing the adducted, internally rotated arm of the waiter's tip posture with intact grasp."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-018",
+      "question": "A 32-year-old woman at 34 weeks' gestation comes to the emergency department 1 hour after smoking crack cocaine with painful vaginal bleeding. The uterus is firm, tender, and contracting every 1 to 2 minutes. The fetal heart rate tracing is non-reassuring. Ultrasound shows a fundal placenta well away from the cervix. Before any fluids or blood products are given, laboratory studies are shown. Which of the following best explains her coagulation abnormalities?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Hemoglobin",
+          "8.9 g/dL",
+          "11–14 g/dL (pregnancy)"
+        ],
+        [
+          "Platelets",
+          "72,000/µL",
+          "150,000–400,000/µL"
+        ],
+        [
+          "PT",
+          "17 s",
+          "11–13.5 s"
+        ],
+        [
+          "Fibrinogen",
+          "110 mg/dL",
+          "300–600 mg/dL (third trimester)"
+        ],
+        [
+          "D-dimer",
+          "Markedly elevated",
+          "Normal"
+        ]
+      ],
+      "answers": {
+        "A": "Antibody-mediated platelet destruction",
+        "B": "Consumption of clotting factors",
+        "C": "Dilution from crystalloid resuscitation",
+        "D": "Impaired hepatic factor synthesis",
+        "E": "Vitamin K deficiency"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Immune thrombocytopenia lowers platelets alone and does not lower fibrinogen or prolong the PT.",
+        "B": "Cocaine use, painful bleeding, tachysystole and a tender uterus with a normally placed placenta indicate abruption; the acute bleed activates coagulation and consumes clotting factors, causing DIC.",
+        "C": "Dilutional coagulopathy follows large-volume resuscitation, and she has not yet received fluids.",
+        "D": "Liver failure lowers factors gradually and would come with other signs of hepatic dysfunction, not acute fibrinogen consumption.",
+        "E": "Vitamin K deficiency prolongs the PT but does not lower fibrinogen or platelets."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-019",
+      "question": "A 31-year-old woman, G2P1, had a transabdominal ultrasound at 20 weeks that suggested a low-lying placenta; transvaginal ultrasound showed the placenta completely covering the internal cervical os. Repeat transvaginal ultrasound at 32 weeks shows the placenta still completely covering the os. She has had no bleeding, contractions, or abdominal pain, and fetal growth is normal. Her only prior delivery was vaginal. Which of the following is the most appropriate delivery plan?",
+      "answers": {
+        "A": "Expectant care until spontaneous labor",
+        "B": "Immediate cesarean delivery",
+        "C": "Induction of labor at 39 weeks",
+        "D": "Planned cesarean hysterectomy",
+        "E": "Scheduled cesarean at 36-37 weeks"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Labor would dilate the cervix and disrupt the placental attachment over it, causing hemorrhage.",
+        "B": "She is stable and not bleeding at 32 weeks, so immediate delivery adds prematurity without benefit.",
+        "C": "Vaginal birth is contraindicated in a persistent previa, and waiting to 39 weeks risks labor and bleeding.",
+        "D": "Cesarean hysterectomy is for placenta accreta spectrum; she has no prior uterine surgery or imaging signs of invasion.",
+        "E": "A previa persisting into the third trimester is delivered by scheduled cesarean at 36 0/7 to 37 6/7 weeks, before labor can separate the placenta."
+      }
+    },
+    {
+      "id": "endorepro-labor-and-delivery-complications-020",
+      "question": "A 37-year-old woman, G4P3, at 30 weeks' gestation has had three cesarean deliveries. Ultrasound shows an anterior placenta previa with loss of the hypoechoic retroplacental zone, multiple placental lacunae, and vessels bridging the uterine serosa and bladder wall. MRI confirms invasion through the myometrium to the bladder. Her hemoglobin is 10.2 g/dL. Which of the following is the most appropriate management?",
+      "answers": {
+        "A": "Cesarean with manual removal of the placenta",
+        "B": "Induction of labor at 39 weeks",
+        "C": "Planned cesarean hysterectomy, placenta left in situ",
+        "D": "Scheduled cesarean at 39 weeks",
+        "E": "Uterine artery embolization followed by vaginal birth at term"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Trying to peel an invasive placenta off the uterus causes massive hemorrhage; the placenta is left in place.",
+        "B": "Labor and vaginal birth are contraindicated with a placenta previa and an invasive placenta.",
+        "C": "Placenta percreta (accreta spectrum) is managed by maximizing hemoglobin and planned cesarean hysterectomy at 34 0/7 to 35 6/7 weeks with the placenta left in situ, by an accreta team at a level III or IV center.",
+        "D": "Waiting to 39 weeks risks labor or bleeding before a planned, staffed delivery; accreta delivery is planned at 34 to 35 weeks.",
+        "E": "Embolization alone does not remove an invasive placenta, and vaginal birth is contraindicated with previa."
+      }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "lecture": "TORCH Infections",
+  "block": "endorepro",
+  "generated": "2026-11-05",
+  "questions": [
+    {
+      "id": "endorepro-torch-infections-001",
+      "question": "A 27-year-old woman, gravida 1, para 0, at 10 weeks' gestation comes to the physician because of 1 week of fatigue, low-grade fever, and tender lumps in her neck. She recently adopted two outdoor cats and often eats rare steak. Temperature is 37.9°C (100.2°F). There are several tender, mobile posterior cervical lymph nodes. Serologic results are shown. Fetal ultrasonography is normal. Which of the following is the most appropriate pharmacotherapy at this time?",
+      "table": [
+        [
+          "Test",
+          "Result"
+        ],
+        [
+          "Toxoplasma IgM",
+          "Positive"
+        ],
+        [
+          "Toxoplasma IgG",
+          "Positive"
+        ],
+        [
+          "Toxoplasma IgG avidity",
+          "Low"
+        ],
+        [
+          "CMV IgM",
+          "Negative"
+        ],
+        [
+          "CMV IgG",
+          "Positive"
+        ]
+      ],
+      "answers": {
+        "A": "Acyclovir",
+        "B": "Pyrimethamine-sulfadiazine",
+        "C": "Spiramycin",
+        "D": "Trimethoprim-sulfamethoxazole",
+        "E": "Valganciclovir"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Acyclovir treats HSV and varicella; it has no activity against a protozoan such as Toxoplasma.",
+        "B": "Pyrimethamine-sulfadiazine (with folinic acid) is used for toxoplasmosis in the 2nd or 3rd trimester, not at 10 weeks.",
+        "C": "Recent primary toxoplasmosis (IgM positive, low-avidity IgG) acquired in the 1st trimester is treated with spiramycin to reduce transmission to the fetus.",
+        "D": "Trimethoprim-sulfamethoxazole is used for Pneumocystis and Toxoplasma prophylaxis in immunocompromised patients, not for primary infection in early pregnancy.",
+        "E": "Valganciclovir treats symptomatic congenital CMV in the infant; her CMV serology shows only past infection."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-002",
+      "question": "A 30-year-old woman at 8 weeks' gestation comes for her first prenatal visit. She works from home, has an indoor-outdoor cat, gardens on weekends, and enjoys rare beef. Serologic testing shows she is Toxoplasma IgG negative. She asks how to lower the chance that her baby will be born with hydrocephalus, chorioretinitis, and diffuse intracranial calcifications. Which of the following recommendations is most appropriate?",
+      "answers": {
+        "A": "Avoid contact with children who have a facial rash",
+        "B": "Have another person change the cat litter box",
+        "C": "Receive the MMR vaccine during this pregnancy",
+        "D": "Start valacyclovir at 36 weeks' gestation",
+        "E": "Undergo repeat syphilis screening at delivery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Avoiding children with a slapped-cheek rash lowers parvovirus B19 exposure, which causes hydrops, not the triad described.",
+        "B": "The triad describes congenital toxoplasmosis; oocysts in cat feces are a main source, so she should avoid changing litter, wash produce, and avoid undercooked meat.",
+        "C": "The MMR vaccine prevents rubella and is a live vaccine that is not given during pregnancy.",
+        "D": "Valacyclovir from 36 weeks is used to prevent neonatal HSV, not toxoplasmosis.",
+        "E": "Screening for syphilis at the first visit, third trimester, and delivery prevents congenital syphilis, not toxoplasmosis."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-003",
+      "question": "A 24-year-old woman at 8 weeks' gestation is found to have a new primary Toxoplasma gondii infection (positive IgM, low-avidity IgG) after cleaning a stray cat's litter box. Her older sister had a primary Toxoplasma infection at 32 weeks' gestation in a previous pregnancy. Neither received treatment. Compared with her sister's fetus, which of the following best describes the risk to this patient's fetus?",
+      "answers": {
+        "A": "Higher transmission risk and higher severity",
+        "B": "Higher transmission risk and lower severity",
+        "C": "Lower transmission risk and higher severity",
+        "D": "Lower transmission risk and lower severity",
+        "E": "No difference in transmission or severity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Disease is more severe early, but transmission is not higher early; untreated risk is 10–15% in the 1st trimester versus more than 60% in the 3rd.",
+        "B": "This describes the sister's 3rd-trimester infection: transmission is common (more than 60%) but disease is milder.",
+        "C": "In the 1st trimester the placenta transmits Toxoplasma less often (10–15%), but a fetus infected this early develops the most severe disease.",
+        "D": "Severity is greatest, not least, when the fetus is infected early in gestation.",
+        "E": "Both transmission risk and severity change with gestational age, in opposite directions."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-004",
+      "question": "A 2-day-old boy born at 38 weeks' gestation fails his newborn hearing screen in both ears. His birth weight is below the 5th percentile, and his head circumference is small. Examination shows jaundice, hepatosplenomegaly, and scattered purple petechiae. His mother, who works at a daycare center, had a mono-like illness during the first trimester. A head CT is shown. Which of the following is the most appropriate pharmacotherapy for this infant?",
+      "image": {
+        "src": "images/torch-infections/004.jpg",
+        "caption": "Noncontrast head CT of the newborn",
+        "credit": "Lecture slides p. 12"
+      },
+      "answers": {
+        "A": "Acyclovir",
+        "B": "Penicillin G",
+        "C": "Pyrimethamine-sulfadiazine",
+        "D": "Spiramycin",
+        "E": "Valganciclovir"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Acyclovir treats neonatal HSV and varicella, which cause vesicular skin lesions rather than periventricular calcifications and hearing loss.",
+        "B": "Penicillin G treats congenital syphilis, which presents with snuffles, a palms-and-soles rash, and bone lesions.",
+        "C": "Pyrimethamine-sulfadiazine treats congenital toxoplasmosis, which causes hydrocephalus and diffuse, not periventricular, calcifications.",
+        "D": "Spiramycin is given to the mother for 1st-trimester toxoplasmosis; it is not used for congenital CMV.",
+        "E": "Periventricular calcifications, failed hearing screen, microcephaly, and petechiae indicate symptomatic congenital CMV, treated with ganciclovir or valganciclovir."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-005",
+      "question": "A 25-year-old preschool teacher at 12 weeks' gestation has fever, malaise, and lymphadenopathy. Serologic results are shown. She declines amniocentesis. Her son is born at 39 weeks with a normal physical examination, and he passes his newborn hearing screen. The parents ask which problem their son is most at risk of developing over the next several years. Which of the following is the most likely answer?",
+      "table": [
+        [
+          "Test",
+          "6 weeks' gestation",
+          "12 weeks' gestation"
+        ],
+        [
+          "CMV IgG",
+          "Negative",
+          "Positive"
+        ],
+        [
+          "CMV IgM",
+          "Not done",
+          "Positive"
+        ]
+      ],
+      "answers": {
+        "A": "Bilateral cataracts",
+        "B": "Delayed hearing loss",
+        "C": "Hydrocephalus",
+        "D": "Interstitial keratitis",
+        "E": "Limb hypoplasia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cataracts are part of the congenital rubella triad and are present at birth.",
+        "B": "Seroconversion confirms primary maternal CMV; even infants asymptomatic at birth have a 15–20% risk of hearing loss, the most common late sequela of congenital CMV.",
+        "C": "Hydrocephalus is part of the congenital toxoplasmosis triad and is usually seen on prenatal ultrasound or at birth.",
+        "D": "Interstitial keratitis is part of Hutchinson triad in late congenital syphilis.",
+        "E": "Limb hypoplasia is a feature of congenital varicella syndrome and is present at birth."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-006",
+      "question": "A 29-year-old woman at 14 weeks' gestation calls because her 4-year-old nephew, who stayed at her home 2 days ago, developed an itchy vesicular rash today. She does not recall having chickenpox and has never been vaccinated. She is afebrile and has no rash. Serologic results are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Result"
+        ],
+        [
+          "Varicella-zoster IgG",
+          "Negative"
+        ],
+        [
+          "Rubella IgG",
+          "Positive"
+        ]
+      ],
+      "answers": {
+        "A": "Administer the live varicella vaccine now",
+        "B": "Begin oral valganciclovir prophylaxis",
+        "C": "Give varicella-zoster immune globulin",
+        "D": "Reassure her that no intervention is needed",
+        "E": "Schedule amniocentesis for VZV PCR now"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The varicella vaccine is live attenuated and cannot be given during pregnancy.",
+        "B": "Valganciclovir is used for congenital CMV in infants; it is not varicella prophylaxis.",
+        "C": "A seronegative pregnant patient exposed to varicella should receive VZIG; infection before 20 weeks carries the highest risk of congenital varicella syndrome, and adult varicella can cause pneumonia.",
+        "D": "She is nonimmune with a close exposure before 20 weeks, the window of highest risk for congenital varicella syndrome.",
+        "E": "Amniocentesis is used to diagnose fetal infection after maternal infection; she has only been exposed and has no illness."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-007",
+      "question": "A newborn girl is delivered at 37 weeks' gestation. At 13 weeks' gestation, her mother had fever and an itchy vesicular rash. The infant's left arm is short and thin with malformed digits, and she has chorioretinitis. Skin findings on the trunk are shown. The virus responsible for this infant's condition establishes latency in which of the following sites?",
+      "image": {
+        "src": "images/torch-infections/007.jpg",
+        "caption": "Skin of the infant's trunk",
+        "credit": "Lecture slides p. 36"
+      },
+      "answers": {
+        "A": "B lymphocytes",
+        "B": "Bone marrow progenitor cells",
+        "C": "Erythroid progenitor cells",
+        "D": "Monocytes",
+        "E": "Sensory dorsal root ganglia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "B lymphocytes are the latent reservoir of Epstein-Barr virus, not a TORCH organism.",
+        "B": "Bone marrow progenitor cells are a latent site of CMV, which causes periventricular calcifications and hearing loss.",
+        "C": "Parvovirus B19 targets erythroid progenitors via the P antigen but does not cause limb hypoplasia or scarring.",
+        "D": "Monocytes are a latent site of CMV.",
+        "E": "Dermatomal scarring and limb hypoplasia after 1st-trimester maternal chickenpox indicate congenital varicella syndrome; varicella-zoster virus stays latent in dorsal root ganglia and reactivates as shingles."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-008",
+      "question": "A 26-year-old woman comes to the physician because she plans to try to conceive. She has never had chickenpox and has never been vaccinated against it. Varicella IgG is negative. She is given the first of 2 vaccine doses and is told to wait more than 1 month after vaccination before trying to conceive and not to receive the vaccine if she becomes pregnant. Which of the following characteristics of this vaccine best explains this advice?",
+      "answers": {
+        "A": "Contains a live attenuated virus",
+        "B": "Contains inactivated whole virus",
+        "C": "Contains only a recombinant protein",
+        "D": "Is a polysaccharide conjugate",
+        "E": "Is an mRNA-based vaccine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The varicella vaccine is live attenuated, so the vaccine virus could in theory infect the fetus; it is given before conception and never during pregnancy.",
+        "B": "Inactivated vaccines cannot replicate and are not withheld in pregnancy for this reason.",
+        "C": "Recombinant protein subunit vaccines contain no replicating virus.",
+        "D": "Polysaccharide conjugate vaccines protect against encapsulated bacteria, not varicella.",
+        "E": "mRNA vaccines contain no replicating virus and are not the varicella vaccine."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-009",
+      "question": "A 32-year-old woman at 30 weeks' gestation comes to the emergency department with 2 days of fever and an itchy rash that began on her trunk. Her 6-year-old daughter had chickenpox 2 weeks ago. Examination shows crops of vesicles on red bases in different stages of healing. She has never been vaccinated against varicella. Which of the following complications is she or her pregnancy at greatest risk for?",
+      "answers": {
+        "A": "Congenital limb hypoplasia in the fetus",
+        "B": "Fetal hydrocephalus with calcifications",
+        "C": "Fetal nonimmune hydrops from anemia",
+        "D": "Neonatal cataracts and heart defects",
+        "E": "Severe maternal varicella pneumonia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Congenital varicella syndrome follows infection before 20 weeks; the risk is 0% after 28 weeks.",
+        "B": "Hydrocephalus with diffuse intracranial calcifications is congenital toxoplasmosis.",
+        "C": "Nonimmune hydrops from fetal anemia is caused by parvovirus B19.",
+        "D": "Cataracts and cardiac abnormalities are the triad of congenital rubella.",
+        "E": "Varicella in pregnant adults can cause pneumonia (10–20%, with high mortality), and the risk is higher in the 3rd trimester."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-010",
+      "question": "A 3-week-old boy is brought to the physician because of persistent nasal discharge and because he does not move his left arm, which seems painful. His mother had no prenatal care. Examination shows profuse nasal discharge, hepatosplenomegaly, and the rash shown on his soles; a similar rash is present on his palms. X-rays show osteochondritis of the long bones. Hemoglobin is 9.1 g/dL and platelet count is 72,000/mm3. Which of the following is the most appropriate treatment?",
+      "image": {
+        "src": "images/torch-infections/010.jpg",
+        "caption": "Soles of the infant's feet",
+        "credit": "Lecture slides p. 36"
+      },
+      "answers": {
+        "A": "Ceftriaxone IM for 7 days",
+        "B": "Doxycycline orally twice daily for 14 days",
+        "C": "IV acyclovir for 21 days",
+        "D": "IV aqueous penicillin G for 10 days",
+        "E": "Penicillin G benzathine IM once"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Ceftriaxone is not the treatment for congenital syphilis.",
+        "B": "Doxycycline is an alternative for penicillin-allergic nonpregnant adults with syphilis and is not used in neonates.",
+        "C": "Acyclovir treats neonatal HSV, which causes vesicles rather than snuffles and a palms-and-soles rash.",
+        "D": "Snuffles, a palms-and-soles rash, hepatosplenomegaly, pseudoparalysis from osteochondritis, anemia, and thrombocytopenia indicate early congenital syphilis, treated with IV aqueous crystalline penicillin G for 10–14 days.",
+        "E": "A single IM dose of benzathine penicillin treats primary or secondary syphilis in adults, not congenital syphilis."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-011",
+      "question": "A 9-year-old girl who was adopted at age 4 years is evaluated for worsening hearing and eye pain with sensitivity to light. Examination shows corneal clouding consistent with interstitial keratitis, a depressed nasal bridge, anterior bowing of both tibias, and the teeth shown. Her birth mother received no prenatal care. Which of the following would most likely have prevented this child's condition?",
+      "image": {
+        "src": "images/torch-infections/011.jpg",
+        "caption": "The child's incisors",
+        "credit": "Lecture slides p. 30"
+      },
+      "answers": {
+        "A": "Cesarean delivery to avoid genital contact",
+        "B": "Maternal MMR vaccination before conception",
+        "C": "Maternal penicillin after screening",
+        "D": "Maternal valacyclovir from 36 weeks",
+        "E": "Varicella-zoster immune globulin at birth"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Congenital syphilis is acquired mainly across the placenta, so cesarean delivery would not prevent it.",
+        "B": "MMR vaccination prevents congenital rubella, which causes cataracts, heart defects, and deafness but not notched teeth or saber shins.",
+        "C": "Hutchinson teeth, interstitial keratitis, and deafness (Hutchinson triad), saddle nose, and saber shins indicate late congenital syphilis, prevented by universal prenatal screening and penicillin treatment of the mother.",
+        "D": "Valacyclovir from 36 weeks prevents neonatal HSV.",
+        "E": "VZIG is used after varicella exposure and does not affect syphilis."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-012",
+      "question": "A 25-year-old woman with no prenatal care is diagnosed with secondary syphilis when she presents in labor at 37 weeks' gestation. She delivers a boy whose physical examination is normal. Laboratory results are shown. Which of the following findings most strongly indicates that the infant has congenital syphilis rather than passively acquired maternal antibody?",
+      "table": [
+        [
+          "Test",
+          "Mother",
+          "Infant"
+        ],
+        [
+          "RPR titer",
+          "1:16",
+          "1:128"
+        ],
+        [
+          "Treponemal antibody (TP-PA)",
+          "Positive",
+          "Positive"
+        ]
+      ],
+      "answers": {
+        "A": "Infant RPR titer fourfold above the mother's",
+        "B": "Infant treponemal IgG antibody positivity at birth",
+        "C": "Maternal RPR titer of 1:16 at delivery",
+        "D": "Maternal treponemal antibody positivity",
+        "E": "Normal infant physical examination"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Maternal IgG crosses the placenta, so an infant RPR titer at least 4 times the mother's means the infant is making his own antibody, indicating congenital infection.",
+        "B": "Treponemal IgG crosses the placenta, so a positive infant result can simply reflect maternal antibody.",
+        "C": "The maternal titer confirms maternal infection but does not show that the fetus was infected.",
+        "D": "Maternal treponemal antibodies remain positive for life and say nothing about fetal infection.",
+        "E": "About 70% of infants with congenital syphilis are asymptomatic at birth, so a normal examination does not exclude it."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-013",
+      "question": "A 31-year-old woman, gravida 2, para 1, at 24 weeks' gestation has a routine ultrasound that shows fetal skin edema, ascites, and a pleural effusion. Three weeks ago, her 5-year-old son had a bright red rash on his cheeks, and she had a mild flu-like illness with aching joints. Results are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Result"
+        ],
+        [
+          "Maternal antibody screen",
+          "Negative"
+        ],
+        [
+          "Parvovirus B19 IgM",
+          "Positive"
+        ],
+        [
+          "Parvovirus B19 IgG",
+          "Positive"
+        ],
+        [
+          "Fetal MCA peak systolic velocity",
+          "1.8 multiples of the median (elevated)"
+        ]
+      ],
+      "answers": {
+        "A": "Administer Rh(D) immune globulin",
+        "B": "Begin maternal IV acyclovir",
+        "C": "Perform intrauterine fetal transfusion",
+        "D": "Repeat ultrasound in 4 weeks and observe",
+        "E": "Start maternal spiramycin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Rh(D) immune globulin prevents alloimmunization; her antibody screen is negative, so this is nonimmune hydrops.",
+        "B": "Acyclovir treats HSV and varicella and does not treat parvovirus B19.",
+        "C": "Parvovirus B19 causes severe fetal anemia and nonimmune hydrops; the treatment is intrauterine fetal transfusion.",
+        "D": "Elevated MCA peak velocity shows severe fetal anemia with hydrops, which can lead to fetal demise if not treated.",
+        "E": "Spiramycin treats 1st-trimester maternal toxoplasmosis, which does not cause anemia-related hydrops."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-014",
+      "question": "A 28-year-old woman at 16 weeks' gestation reports that her 6-year-old son developed the rash shown after several days of low-grade fever. One week later she develops symmetric joint pain in her hands. At 20 weeks, fetal ultrasound shows ascites and skin edema, and Doppler studies suggest severe fetal anemia. The causative virus produces fetal anemia by binding which of the following host molecules?",
+      "image": {
+        "src": "images/torch-infections/014.jpg",
+        "caption": "Rash on the son's face",
+        "credit": "Lecture slides p. 35"
+      },
+      "answers": {
+        "A": "CD21 on B lymphocytes",
+        "B": "CD4 on helper T cells",
+        "C": "ICAM-1 on epithelial cells",
+        "D": "P antigen on red cell precursors",
+        "E": "Sialic acid on respiratory cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "CD21 is the receptor for Epstein-Barr virus.",
+        "B": "CD4 is the receptor used by HIV.",
+        "C": "ICAM-1 is the receptor for most rhinoviruses.",
+        "D": "Slapped-cheek rash (fifth disease) and fetal hydrops point to parvovirus B19, which binds the P antigen on red blood cell precursors and causes fetal anemia.",
+        "E": "Sialic acid is bound by influenza hemagglutinin."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-015",
+      "question": "A 30-year-old elementary school teacher at 15 weeks' gestation comes to the physician because several children in her class have had bright red rashes on their cheeks. She has had a mild flu-like illness and symmetric joint pain for 3 days. She is up to date on all vaccinations. Which of the following fetal complications is she at greatest risk for?",
+      "answers": {
+        "A": "Cataracts and cardiac malformations",
+        "B": "Dermatomal scarring with limb hypoplasia",
+        "C": "Hydrocephalus with diffuse calcifications",
+        "D": "Hydrops from severe fetal anemia",
+        "E": "Periventricular calcifications and deafness"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cataracts and cardiac abnormalities are congenital rubella, which her vaccination makes unlikely.",
+        "B": "Dermatomal scarring with limb hypoplasia is congenital varicella syndrome.",
+        "C": "Hydrocephalus with diffuse intracranial calcifications is congenital toxoplasmosis.",
+        "D": "Fifth disease is parvovirus B19, which causes severe fetal anemia and nonimmune hydrops, with the highest risk before 20 weeks, and no congenital malformations.",
+        "E": "Periventricular calcifications with hearing loss are congenital CMV."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-016",
+      "question": "A newborn boy is delivered at 38 weeks' gestation to a 29-year-old woman who recently immigrated and has never been vaccinated. At 9 weeks' gestation she had a low-grade fever and a pink rash that started on her face and spread to her trunk. The infant has the skin findings shown, cloudy lenses in both eyes, and a continuous machine-like murmur. He fails his newborn hearing screen. Which of the following best describes the causative organism?",
+      "image": {
+        "src": "images/torch-infections/016.jpg",
+        "caption": "Skin of the newborn",
+        "credit": "Lecture slides p. 38"
+      },
+      "answers": {
+        "A": "Enveloped linear double-stranded DNA virus",
+        "B": "Enveloped positive-sense ssRNA virus",
+        "C": "Nonenveloped single-stranded DNA virus",
+        "D": "Obligate intracellular protozoan",
+        "E": "Spirochete that cannot be cultured"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Enveloped dsDNA viruses of the Herpesviridae family (CMV, VZV, HSV) can cause a blueberry muffin rash (CMV) but not cataracts with a machine-like murmur.",
+        "B": "Blueberry muffin rash with the triad of cataracts, a cardiac abnormality, and deafness after 1st-trimester maternal infection indicates congenital rubella, an enveloped positive-sense single-stranded RNA virus.",
+        "C": "Parvovirus B19 is a nonenveloped ssDNA virus that causes fetal anemia and hydrops without malformations.",
+        "D": "Toxoplasma gondii causes a blueberry muffin rash with chorioretinitis, hydrocephalus, and intracranial calcifications, not cataracts and a murmur.",
+        "E": "Treponema pallidum causes snuffles and a palms-and-soles rash."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-017",
+      "question": "A 24-year-old woman comes to the physician because she plans to become pregnant in 6 months. She grew up abroad and has no vaccination records. She has no symptoms. Serologic testing shows that she is rubella IgG negative and varicella IgG positive. Which of the following is the most appropriate recommendation?",
+      "answers": {
+        "A": "Check rubella titers again during pregnancy",
+        "B": "Give MMR in the first trimester",
+        "C": "Give rubella immune globulin at conception",
+        "D": "Give the MMR vaccine now, before conceiving",
+        "E": "Start valacyclovir prophylaxis now"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Waiting until pregnancy leaves her nonimmune during the 1st trimester, when rubella carries a 90% risk of an affected fetus.",
+        "B": "MMR is a live vaccine and is not given during pregnancy.",
+        "C": "Immune globulin does not give lasting immunity and is not how congenital rubella is prevented.",
+        "D": "Congenital rubella has no treatment, so it is prevented by giving the MMR vaccine to nonimmune patients before pregnancy.",
+        "E": "Valacyclovir is used for HSV and has no role in rubella prevention."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-018",
+      "question": "A 12-day-old boy is brought to the emergency department because of poor feeding, lethargy, and a seizure. He was born at term by vaginal delivery. His mother first noticed the painful genital lesions shown 3 days before delivery; it was her first outbreak. Temperature is 38.4°C (101.1°F). Several vesicles are present on his scalp. Cerebrospinal fluid results are shown. Which of the following is the most appropriate initial management?",
+      "table": [
+        [
+          "CSF",
+          "Result",
+          "Reference range"
+        ],
+        [
+          "Leukocytes",
+          "85/mm3 (80% lymphocytes)",
+          "0–20/mm3"
+        ],
+        [
+          "Erythrocytes",
+          "150/mm3",
+          "0/mm3"
+        ],
+        [
+          "Protein",
+          "110 mg/dL",
+          "20–170 mg/dL"
+        ],
+        [
+          "Glucose",
+          "45 mg/dL (serum 80 mg/dL)",
+          "34–119 mg/dL"
+        ]
+      ],
+      "image": {
+        "src": "images/torch-infections/018.jpg",
+        "caption": "The mother's lesions, 3 days before delivery",
+        "credit": "Lecture slides p. 46"
+      },
+      "answers": {
+        "A": "IV acyclovir with lesion and CSF PCR",
+        "B": "IV ganciclovir with urine PCR",
+        "C": "IV penicillin G with CSF VDRL",
+        "D": "Pyrimethamine-sulfadiazine with folinic acid",
+        "E": "Varicella-zoster immune globulin"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A primary maternal outbreak near delivery, onset at 1–3 weeks, scalp vesicles, and encephalitis indicate neonatal HSV, treated with IV acyclovir after surface and CSF PCR.",
+        "B": "Ganciclovir and urine PCR are used for congenital CMV, which is present at birth and does not cause vesicles.",
+        "C": "Penicillin G treats congenital syphilis, which presents with snuffles and a palms-and-soles rash.",
+        "D": "Pyrimethamine-sulfadiazine treats congenital toxoplasmosis.",
+        "E": "VZIG is post-exposure prophylaxis for varicella; it does not treat established HSV infection."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-019",
+      "question": "A 26-year-old woman, gravida 1, para 0, at 39 weeks' gestation comes to the labor unit with regular contractions. Her membranes are intact. Two weeks ago she had her first-ever outbreak of painful genital vesicles, and PCR confirmed HSV-2. Examination shows several active ulcerated lesions on the labia. The fetal heart rate tracing is reassuring. Which of the following is the most appropriate delivery plan?",
+      "answers": {
+        "A": "Augment labor with oxytocin for vaginal birth",
+        "B": "Cesarean delivery before membranes rupture",
+        "C": "Forceps-assisted vaginal delivery",
+        "D": "Vaginal delivery after topical acyclovir",
+        "E": "Vaginal delivery with VZIG for the newborn"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Vaginal birth exposes the infant to the active lesions; about 85% of neonatal HSV is acquired by direct contact during delivery.",
+        "B": "Active lesions and a recent primary infection are indications for cesarean delivery to avoid intrapartum contact, the route of most neonatal HSV.",
+        "C": "Forceps delivery is still vaginal and can break the infant's skin, increasing exposure to virus.",
+        "D": "Topical acyclovir does not clear viral shedding from the birth canal.",
+        "E": "VZIG is for varicella exposure and offers no protection against HSV."
+      }
+    },
+    {
+      "id": "endorepro-torch-infections-020",
+      "question": "A 25-year-old woman at 20 weeks' gestation asks about the risk of passing genital herpes to her baby. Her first outbreak was 3 years ago, and she has had two recurrences since, the latest at 12 weeks' gestation. Her physician explains that her risk is low and plans valacyclovir from 36 weeks. In which of the following situations would the risk of neonatal HSV be highest?",
+      "answers": {
+        "A": "First-episode genital HSV at 10 weeks",
+        "B": "First-episode genital HSV at 37 weeks",
+        "C": "Recurrent genital HSV at 12 weeks",
+        "D": "Recurrent HSV on suppression from 36 weeks",
+        "E": "Seropositive for HSV-2 without lesions"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Transplacental (in utero) HSV transmission is rare, about 5% of cases, so an early primary infection carries much less risk to the newborn.",
+        "B": "Risk is highest (30–50%) with a primary maternal infection in the 3rd trimester, when the infant meets actively shedding virus during delivery.",
+        "C": "Recurrent maternal infection carries a low risk (less than 2%).",
+        "D": "Recurrent disease with valacyclovir suppression from 36 weeks is a low-risk situation; suppression is the standard prevention.",
+        "E": "Seropositivity without lesions reflects past infection, and recurrent maternal infection carries a risk of less than 2%."
+      }
+    }
+  ]
+}

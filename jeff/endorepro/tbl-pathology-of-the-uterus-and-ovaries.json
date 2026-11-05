@@ -1,0 +1,499 @@
+{
+  "lecture": "TBL - Pathology of the Uterus and Ovaries",
+  "block": "endorepro",
+  "generated": "2026-11-05",
+  "questions": [
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-001",
+      "question": "A 19-year-old woman comes to the emergency department because of vaginal spotting. She had a positive home pregnancy test and estimates she is 6 weeks pregnant. Transvaginal ultrasound shows no gestational sac. A dilation and curettage yields cystic, grape-like tissue. Microscopy shows markedly enlarged, edematous villi with central cisterns, circumferential trophoblastic proliferation, and no fetal tissue. Immunohistochemistry shows no p57 staining in villous stromal cell nuclei. Which of the following best explains the origin of this conceptus?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum β-hCG",
+          "120,000 mIU/mL",
+          "3,600–108,000 mIU/mL (week 6)"
+        ]
+      ],
+      "image": {
+        "src": "images/tbl-pathology-of-the-uterus-and-ovaries/001.jpg",
+        "caption": "Transvaginal ultrasound of the uterus",
+        "credit": "Slides p. 15"
+      },
+      "answers": {
+        "A": "Digynic triploidy from a diploid ovum",
+        "B": "Duplication of one sperm's genome in an empty ovum",
+        "C": "Fertilization of a normal ovum by two separate sperm",
+        "D": "Maternal meiotic nondisjunction causing trisomy",
+        "E": "Postzygotic loss of the paternal chromosome set"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A conceptus with two maternal sets would contain maternal DNA and stain for p57; this one has no maternal genetic material.",
+        "B": "Correct. Absent p57 (a maternally expressed gene) means no maternal DNA, so this is a complete mole; most complete moles form when one 23,X sperm fertilizes an empty ovum and duplicates to 46,XX.",
+        "C": "A normal ovum plus two sperm gives a triploid partial mole, which contains maternal DNA, stains for p57, and often has fetal tissue.",
+        "D": "Trisomy is a chromosomal-abnormality pregnancy; it retains maternal DNA (p57 positive) and lacks exuberant trophoblastic proliferation.",
+        "E": "Loss of the paternal set would leave only maternal DNA, so p57 would be strongly positive, the opposite of this finding."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-002",
+      "question": "A 27-year-old woman, gravida 2, para 1, undergoes dilation and curettage for a presumed missed abortion at 10 weeks' gestation. Pathology shows a mixture of enlarged chorionic villi with central cisterns and trophoblastic proliferation alongside fragments of fetal tissue. The villous stromal cell nuclei stain dark brown with p57 immunohistochemistry. Which of the following karyotypes is most likely in this tissue?",
+      "answers": {
+        "A": "45,X",
+        "B": "46,XX",
+        "C": "46,XY",
+        "D": "47,XY,+18",
+        "E": "69,XXY"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Monosomy X is a chromosomal-abnormality pregnancy without di-paternal input; it would not produce cisterns and trophoblastic proliferation.",
+        "B": "46,XX is the usual karyotype of a complete mole, which has no maternal DNA, so p57 would be negative and fetal tissue absent.",
+        "C": "46,XY complete moles arise from dispermy into an empty ovum; they also lack maternal DNA and would be p57 negative.",
+        "D": "Trisomy 18 retains maternal DNA but is not di-paternal, so it would not show molar villi with trophoblastic proliferation.",
+        "E": "Correct. Molar villi with fetal tissue and positive p57 (maternal DNA present) define a partial mole: a normal ovum fertilized by two sperm, giving a triploid karyotype such as 69,XXY."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-003",
+      "question": "A 20-year-old woman had a dilation and curettage for a complete hydatidiform mole 6 months ago and missed all follow-up visits. She now has progressive shortness of breath. Chest x-ray shows multiple rounded lung nodules. A core needle biopsy of one nodule shows hemorrhage and necrosis surrounding sheets of large, pleomorphic cells resembling cytotrophoblasts and syncytiotrophoblasts, with no chorionic villi; the cells stain strongly for β-hCG. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum β-hCG",
+          "150,000 mIU/mL",
+          "<5 mIU/mL (nonpregnant)"
+        ]
+      ],
+      "answers": {
+        "A": "Gestational choriocarcinoma",
+        "B": "Metastatic endometrial serous carcinoma",
+        "C": "Nongestational choriocarcinoma",
+        "D": "Placental site trophoblastic tumor",
+        "E": "Yolk sac tumor of the ovary"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Atypical trophoblasts without villi, with necrosis, hemorrhage, β-hCG reactivity and lung metastases after a complete mole, is metastatic gestational choriocarcinoma; more than half of cases follow a complete mole.",
+        "B": "Serous carcinoma is a p53-associated epithelial tumor of older women with papillae; it does not make β-hCG or follow a molar pregnancy.",
+        "C": "Nongestational choriocarcinoma is a germ cell tumor, usually part of a mixed germ cell tumor, not a sequel of a molar pregnancy.",
+        "D": "Placental site trophoblastic tumor is a different gestational trophoblastic neoplasm that typically produces only modest hCG, not this picture after a complete mole.",
+        "E": "Yolk sac tumor raises AFP and shows Schiller-Duval bodies; it does not produce β-hCG-staining trophoblasts."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-004",
+      "question": "A 22-year-old woman is diagnosed with metastatic gestational choriocarcinoma 6 months after evacuation of a complete hydatidiform mole. She has never received chemotherapy. Imaging shows two lung nodules, each under 3 cm, and no other lesions. Her findings for the modified WHO prognostic scoring system are shown. Which of the following is the most appropriate treatment?",
+      "table": [
+        [
+          "Risk factor",
+          "Patient finding"
+        ],
+        [
+          "Age",
+          "22 years"
+        ],
+        [
+          "Antecedent pregnancy",
+          "Complete mole"
+        ],
+        [
+          "Interval from pregnancy",
+          "6 months"
+        ],
+        [
+          "Pretreatment serum hCG",
+          "150,000 mIU/mL"
+        ],
+        [
+          "Largest tumor",
+          "2.5 cm"
+        ],
+        [
+          "Metastases",
+          "2, both in lung"
+        ],
+        [
+          "Prior failed chemotherapy",
+          "None"
+        ]
+      ],
+      "answers": {
+        "A": "Combination multiagent chemotherapy",
+        "B": "Hysterectomy without chemotherapy",
+        "C": "Observation with serial β-hCG",
+        "D": "Single-agent chemotherapy",
+        "E": "Whole-brain radiation therapy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Combination chemotherapy is required for a score of 7 or more, which predicts high risk of resistance to monotherapy; her score is 6.",
+        "B": "Choriocarcinoma is exquisitely chemosensitive and already metastatic, so surgery alone does not treat the lung disease.",
+        "C": "Observation suits post-molar surveillance, not established metastatic choriocarcinoma, which needs treatment.",
+        "D": "Correct. Scoring gives age <40 (0), mole (0), 4–6 month interval (1), hCG >10^5 (4), tumor <3 cm (0), lung metastases (0), 1–4 metastases (1), no prior chemotherapy (0) for a total of 6; a score of 0–6 predicts low risk of resistance to single-agent chemotherapy.",
+        "E": "She has no brain metastases; brain involvement would raise her score, but radiation is not the treatment for lung-only disease."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-005",
+      "question": "A 46-year-old woman with previously regular menses comes to her gynecologist because of 3 weeks of vaginal bleeding. Prior Pap tests have been normal. Pelvic examination shows a large adnexal mass. She undergoes total hysterectomy with bilateral salpingo-oophorectomy. Sections of the ovarian mass show sheets of cells with grooved, coffee-bean-shaped nuclei and the structure shown. This ovarian tumor most increases her risk for which of the following uterine lesions?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-uterus-and-ovaries/005.jpg",
+        "caption": "Ovarian mass, H&E",
+        "credit": "Slides p. 55"
+      },
+      "answers": {
+        "A": "Endometrial clear cell carcinoma",
+        "B": "Endometrial serous carcinoma",
+        "C": "Endometrioid endometrial carcinoma",
+        "D": "Gestational choriocarcinoma of uterus",
+        "E": "Uterine leiomyosarcoma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Clear cell carcinoma is a Type 2 endometrial carcinoma that arises in atrophy and is not driven by estrogen.",
+        "B": "Serous carcinoma arises in atrophic endometrium with TP53 mutation and has no relationship to hyperplasia or increased estrogen.",
+        "C": "Correct. Nuclear grooves and Call–Exner bodies identify an adult granulosa cell tumor, which raises systemic estrogen; unopposed estrogen causes endometrial hyperplasia that progresses to endometrioid carcinoma.",
+        "D": "Gestational choriocarcinoma arises from trophoblasts after a pregnancy, usually a complete mole, not from ovarian hormone excess.",
+        "E": "Leiomyosarcoma arises de novo from smooth muscle of the myometrium and is not linked to an estrogen-secreting ovarian tumor."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-006",
+      "question": "A 51-year-old woman has irregular vaginal bleeding and a solid 12-cm ovarian mass. Microscopy of the resected mass shows no normal cortex, medulla, or follicles; instead there is a diffuse proliferation of cells with longitudinal nuclear grooves and small rosette-like spaces filled with eosinophilic material that resemble poorly formed follicles. Her endometrium shows hyperplasia. The tumor cells recapitulate which normal ovarian cell, and which hormone does that cell normally secrete?",
+      "answers": {
+        "A": "Granulosa cell; estrogen",
+        "B": "Hofbauer cell; no hormone",
+        "C": "Oocyte; inhibin",
+        "D": "Syncytiotrophoblast; β-hCG",
+        "E": "Theca cell; androgen"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Nuclear grooves and Call–Exner bodies define adult granulosa cell tumor; in a follicle the inner granulosa layer secretes estrogen, which explains her endometrial hyperplasia and bleeding.",
+        "B": "Hofbauer cells are macrophages in the stroma of placental chorionic villi, not ovarian cells.",
+        "C": "The oocyte is surrounded by granulosa cells in a follicle but is not the cell these tumor cells resemble.",
+        "D": "Syncytiotrophoblasts are placental cells that make β-hCG; they form choriocarcinoma, not an ovarian sex cord tumor with Call–Exner bodies.",
+        "E": "Theca cells form the outer layer of the follicle and secrete androgen; they do not form Call–Exner bodies."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-007",
+      "question": "A 58-year-old nulliparous woman with obesity (BMI 41 kg/m²), type 2 diabetes mellitus, and hypertension has postmenopausal bleeding. Hysterectomy shows an endometrial tumor with the histology shown: crowded glands with no intervening stroma, nuclear hyperchromasia, stratification, and a high nuclear-to-cytoplasmic ratio, with nests of glands invading the myometrium. Which of the following best explains the pathogenesis of this tumor?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-uterus-and-ovaries/007.jpg",
+        "caption": "Endometrial tumor, H&E",
+        "credit": "Slides p. 65"
+      },
+      "answers": {
+        "A": "Di-paternal trophoblastic proliferation",
+        "B": "High-risk HPV oncoproteins E6 and E7",
+        "C": "Malignant transformation of a leiomyoma",
+        "D": "TP53 mutation in atrophic endometrium",
+        "E": "Unopposed estrogen driving hyperplasia"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Di-paternal genetic input causes molar pregnancy, a trophoblastic lesion with villi, not a glandular tumor of the endometrium.",
+        "B": "High-risk HPV drives cervical squamous lesions, not endometrioid carcinoma of the endometrium.",
+        "C": "This is an epithelial (glandular) tumor; leiomyosarcomas are smooth muscle tumors and arise de novo rather than from leiomyomas.",
+        "D": "TP53 mutation in atrophy causes Type 2 serous carcinoma, which shows papillae and severe atypia in thin, older women.",
+        "E": "Correct. Back-to-back (cribriform) glands without stroma are diagnostic of endometrioid carcinoma, a Type 1 tumor of obesity, diabetes, hypertension and nulliparity caused by unopposed estrogen acting through hyperplasia."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-008",
+      "question": "A 77-year-old thin woman has had 4 days of postmenopausal bleeding. Office biopsy attempts fail, and ultrasound shows a thickened endometrial stripe. Hysterectomy shows a highly cellular endometrial tumor with papillae that have central fibrovascular cores, severe nuclear atypia with prominent cherry-red nucleoli, and numerous mitoses. The surrounding uninvolved endometrium is thin and atrophic. Which of the following molecular alterations is most likely in this tumor?",
+      "answers": {
+        "A": "CTNNB1 (β-catenin) mutation",
+        "B": "FOXL2 mutation",
+        "C": "Microsatellite instability",
+        "D": "PTEN loss of function",
+        "E": "TP53 mutation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "β-catenin mutation is listed among the molecular changes of Type 1 (endometrioid) carcinoma, which arises from hyperplasia.",
+        "B": "FOXL2 mutation is characteristic of adult granulosa cell tumor of the ovary, not an endometrial carcinoma.",
+        "C": "Microsatellite instability is a feature of Type 1 endometrioid carcinoma, not of papillary high-grade tumors in atrophy.",
+        "D": "PTEN loss is the classic alteration of Type 1 endometrioid carcinoma associated with unopposed estrogen.",
+        "E": "Correct. Papillary architecture, severe atypia and cherry-red nucleoli arising in atrophic endometrium of an elderly thin woman indicate endometrial serous carcinoma, a Type 2 tumor associated with TP53 mutations."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-009",
+      "question": "A 61-year-old woman with obesity, hypertension, and type 2 diabetes mellitus has postmenopausal bleeding. Endometrial biopsy shows a carcinoma arising in a background of endometrial hyperplasia. Her 72-year-old neighbor, who is thin and has an atrophic endometrium, was recently diagnosed with a different type of endometrial carcinoma. Compared with the neighbor's tumor, this patient's tumor is most likely to do which of the following?",
+      "answers": {
+        "A": "Arise from endometrial intraepithelial carcinoma",
+        "B": "Behave indolently and spread via lymphatics",
+        "C": "Carry TP53 mutations with aneuploidy",
+        "D": "Show papillary growth with severe atypia",
+        "E": "Spread early through the peritoneal cavity"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Endometrial intraepithelial carcinoma is the precursor of Type 2 carcinoma; Type 1 arises from hyperplasia.",
+        "B": "Correct. Obesity, hypertension, diabetes and hyperplasia indicate Type 1 (endometrioid) carcinoma, which tends to be indolent and spreads via lymphatics; the neighbor's Type 2 tumor is aggressive.",
+        "C": "TP53 mutation and aneuploidy characterize Type 2 carcinoma arising in atrophy, the neighbor's likely tumor.",
+        "D": "Papillary architecture with severe atypia describes serous carcinoma, a Type 2 tumor.",
+        "E": "Intraperitoneal and lymphatic spread is typical of aggressive Type 2 carcinoma, not Type 1."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-010",
+      "question": "A 54-year-old woman has a sensation of pelvic fullness. Her uterus was small on examination 1 year ago but is now enlarged, and ultrasound shows a dominant intramural mass. Total hysterectomy shows the mass shown, which has a heterogeneous cut surface. Microscopy of the mass will most likely show which of the following findings?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-uterus-and-ovaries/010.jpg",
+        "caption": "Cut surface of the uterine mass",
+        "credit": "Slides p. 92"
+      },
+      "answers": {
+        "A": "Bland spindle cells resembling myometrium",
+        "B": "Intramural location without atypia",
+        "C": "Smooth muscle cells without mitoses",
+        "D": "Tumor cell necrosis with many mitoses",
+        "E": "Well-circumscribed rounded borders"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Bland spindle cells like normal myometrium describe a leiomyoma, whose cut surface is homogeneous white/tan.",
+        "B": "Intramural location only places a mass in the myometrium; it does not separate benign from malignant smooth muscle tumors.",
+        "C": "Both leiomyoma and leiomyosarcoma derive from smooth muscle; absent mitoses would point to a leiomyoma.",
+        "D": "Correct. A heterogeneous, hemorrhagic and necrotic mass is a leiomyosarcoma, which shows tumor cell necrosis, high cellularity, nuclear atypia and a high mitotic index.",
+        "E": "Rounded, well-circumscribed contours on microscopy are typical of a leiomyoma."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-011",
+      "question": "A 55-year-old woman known to have a small uterine fibroid for 10 years undergoes hysterectomy for a new, rapidly enlarging intramural mass. Pathology shows two separate lesions: the old 2-cm fibroid, composed of bland spindle cells without mitoses or necrosis, and a new 9-cm hypercellular mass with diffuse nuclear atypia, numerous mitoses, and tumor cell necrosis. She asks whether her old fibroid turned into cancer. Which of the following is the most accurate response?",
+      "answers": {
+        "A": "Her fibroid underwent malignant transformation",
+        "B": "Leiomyosarcoma arises de novo, not from a fibroid",
+        "C": "Most fibroids progress to sarcoma if left untreated",
+        "D": "Necrosis inside the fibroid seeded the sarcoma",
+        "E": "Unopposed estrogen transformed the fibroid"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The benign fibroid persists unchanged beside the new tumor; leiomyosarcomas do not arise from leiomyomas.",
+        "B": "Correct. Leiomyosarcomas arise de novo; the separate bland leiomyoma and the necrotic, mitotically active leiomyosarcoma are independent smooth muscle tumors.",
+        "C": "Leiomyomas are benign (5-year survival 100%) and do not progress to leiomyosarcoma.",
+        "D": "Necrosis is a feature of the malignant tumor itself, used to judge malignant potential, not a seed of transformation.",
+        "E": "Unopposed estrogen drives endometrial hyperplasia and endometrioid carcinoma, not conversion of a leiomyoma to a sarcoma."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-012",
+      "question": "A 50-year-old woman undergoes hysterectomy for an enlarging uterine mass. Microscopy shows an infiltrative malignant tumor composed of cells resembling endometrial stroma, with no glands or other epithelial component. Immunostains confirm a mesenchymal origin. Which of the following terms best classifies this tumor?",
+      "answers": {
+        "A": "Adenocarcinoma",
+        "B": "Carcinoma",
+        "C": "Gestational trophoblastic neoplasm",
+        "D": "Lymphoma",
+        "E": "Sarcoma"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Adenocarcinoma is a malignant glandular epithelial tumor, such as endometrioid carcinoma; this tumor has no epithelium.",
+        "B": "A carcinoma is a malignant epithelial tumor, the category of endometrioid and serous carcinomas, not of stromal tumors.",
+        "C": "Gestational trophoblastic neoplasms, such as choriocarcinoma, arise from trophoblasts of a pregnancy, not endometrial stroma.",
+        "D": "A lymphoma is a malignant hematopoietic tumor.",
+        "E": "Correct. A sarcoma is a malignant mesenchymal tumor; the uterus's mesenchymal components (myometrial smooth muscle and endometrial stroma) give rise to leiomyosarcoma and endometrial stromal sarcoma."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-013",
+      "question": "A 19-year-old woman at an estimated 6 weeks' gestation has vaginal spotting. Her serum β-hCG is above the normal range for gestational age, and ultrasound shows an intrauterine mass with many small cysts and no gestational sac. Evacuated tissue shows enlarged villi surrounded on all sides by a thick layer of proliferating, atypical cells arranged as an inner cell layer and an outer multinucleated layer. Which of the following cell populations is the main source of her elevated β-hCG?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum β-hCG",
+          "120,000 mIU/mL",
+          "3,600–108,000 mIU/mL (week 6)"
+        ]
+      ],
+      "answers": {
+        "A": "Decidual cells of the maternal endometrium",
+        "B": "Hofbauer cells in the villous stroma",
+        "C": "Theca lutein cells of the ovary",
+        "D": "Trophoblasts covering the chorionic villi",
+        "E": "Villous stromal cells around fetal vessels"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The decidua is maternal tissue that holds the maternal vessels supplying the intervillous space; it does not produce β-hCG.",
+        "B": "Hofbauer cells are macrophages within the villous stroma and do not secrete β-hCG.",
+        "C": "Theca cells respond to gonadotropins and make androgen; they are not the source of β-hCG.",
+        "D": "Correct. Trophoblasts (inner cytotrophoblasts, outer syncytiotrophoblasts) produce β-hCG; their exuberant circumferential proliferation in a complete mole drives β-hCG above the range for gestational age.",
+        "E": "Villous stromal cells form the core of the villus; in a mole they are the cells assessed for p57, not the source of hCG."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-014",
+      "question": "A 33-year-old woman has heavy vaginal bleeding 1 year after a term delivery. Serum β-hCG is markedly elevated, and ultrasound shows a hemorrhagic uterine mass. Curettage of the friable mass yields the tissue shown, which is extensively hemorrhagic and necrotic. Which of the following histologic findings best distinguishes this lesion from a complete hydatidiform mole?",
+      "image": {
+        "src": "images/tbl-pathology-of-the-uterus-and-ovaries/014.jpg",
+        "caption": "Curetted uterine tissue, H&E",
+        "credit": "Slides p. 38"
+      },
+      "answers": {
+        "A": "Absence of chorionic villi",
+        "B": "Circumferential trophoblast growth",
+        "C": "Elevated serum β-hCG level",
+        "D": "Negative p57 immunostaining",
+        "E": "Trophoblastic cytologic atypia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Gestational choriocarcinoma is a friable, hemorrhagic, necrotic mass of markedly atypical cytotrophoblasts, syncytiotrophoblasts and intermediate trophoblasts with no chorionic villi; a complete mole has large hydropic villi.",
+        "B": "Circumferential trophoblastic proliferation around villi is the hallmark of a molar pregnancy, so it cannot separate the two.",
+        "C": "Both lesions are trophoblastic and both raise serum β-hCG.",
+        "D": "Negative p57 marks absent maternal DNA, which defines a complete mole; it does not identify choriocarcinoma.",
+        "E": "Complete moles also show increased trophoblastic atypia, so atypia alone does not separate them."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-015",
+      "question": "A 24-year-old woman is diagnosed with gestational choriocarcinoma metastatic to both lungs, 5 months after a complete molar pregnancy. Biopsy shows atypical trophoblasts with hemorrhage and necrosis. She is anxious because a relative died of metastatic uterine leiomyosarcoma. Which of the following best explains why her expected prognosis is nonetheless generally good?",
+      "answers": {
+        "A": "Absence of hematogenous spread",
+        "B": "Confinement of tumor to lymphatics",
+        "C": "Exquisite chemosensitivity of the tumor",
+        "D": "Low mitotic activity of tumor cells",
+        "E": "Spontaneous regression after evacuation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Choriocarcinoma spreads widely through the blood, typically to lung, brain and liver, as in this patient.",
+        "B": "Her lung metastases show hematogenous spread; the tumor is not confined to lymphatics.",
+        "C": "Correct. Gestational choriocarcinoma is exquisitely chemosensitive, with a cure rate over 90% even when metastatic, unlike leiomyosarcoma (5-year survival about 50%).",
+        "D": "Choriocarcinoma is a rapidly invasive, highly proliferative malignancy, not one with low mitotic activity.",
+        "E": "Metastatic disease does not regress with uterine evacuation; it requires chemotherapy."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-016",
+      "question": "A 60-year-old woman with obesity and diabetes mellitus has postmenopausal bleeding. An endometrial biopsy is compared side by side with a normal proliferative endometrium from a 35-year-old. The pathologist notes an increased gland-to-stroma ratio and nuclear hyperchromasia with stratification in the patient's sample. Which additional histologic finding is diagnostic of the patient's most likely lesion?",
+      "answers": {
+        "A": "Back-to-back glands with no intervening stroma",
+        "B": "Evenly spaced round glands in abundant stroma",
+        "C": "Papillae with fibrovascular cores and large nucleoli",
+        "D": "Thin endometrium with sparse inactive glands",
+        "E": "Villi with central cisterns and trophoblasts"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Proliferation of back-to-back (cribriform) endometrial glands with loss of intervening stroma is diagnostic of endometrioid adenocarcinoma, the estrogen-driven tumor of this patient's risk profile.",
+        "B": "Evenly spaced uniform glands in stroma (\"donuts in a field\") describe normal proliferative endometrium.",
+        "C": "Papillae with prominent nucleoli describe serous carcinoma, a Type 2 tumor that arises in atrophy in thin women.",
+        "D": "A thin endometrium with sparse glands is normal atrophic endometrium, a common benign cause of postmenopausal bleeding.",
+        "E": "Villi with central cisterns and trophoblastic proliferation describe a molar pregnancy, not an endometrial tumor."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-017",
+      "question": "A 23-year-old woman undergoes uterine evacuation for a suspected molar pregnancy. The specimen shows hydropic villi with central cisterns, exuberant trophoblastic proliferation, and no fetal tissue. On p57 immunohistochemistry, the villous stromal cell nuclei do not stain, while maternal decidual cells in the same section stain dark brown. Which of the following properties of the p57 gene explains why its absence in the villi indicates a complete mole?",
+      "answers": {
+        "A": "Expression only from the paternal allele",
+        "B": "Location on the X chromosome",
+        "C": "Mitochondrial inheritance from the ovum",
+        "D": "Paternal imprinting with maternal expression",
+        "E": "Synthesis restricted to syncytiotrophoblasts"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "If p57 were expressed from the paternal allele, a di-paternal complete mole would stain strongly, not fail to stain.",
+        "B": "X-linked location would not make staining track maternal DNA, since complete moles can be 46,XX with paternal X chromosomes.",
+        "C": "p57 is a nuclear cyclin-dependent kinase inhibitor gene, not a mitochondrial gene.",
+        "D": "Correct. p57 is paternally imprinted and maternally expressed, so it marks maternal DNA; villi lacking p57 have no maternal genetic material, which defines a complete mole.",
+        "E": "The stain is read in villous stromal cell nuclei, and normal products of conception stain in multiple cell types."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-018",
+      "question": "A 74-year-old woman with a BMI of 19 kg/m² has postmenopausal bleeding. Hysterectomy shows an endometrial carcinoma with papillary and solid architecture, high-grade nuclear atypia, and frequent mitoses, arising in a background of atrophic endometrium. The tumor shows aberrant p53 staining. Which of the following patterns of spread is most characteristic of this tumor type?",
+      "answers": {
+        "A": "Direct extension only, without metastasis",
+        "B": "Hematogenous spread to lung and brain",
+        "C": "Intraperitoneal and lymphatic spread",
+        "D": "Lymphatic spread alone, with indolent course",
+        "E": "Perineural spread along pelvic nerves"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Type 2 endometrial carcinomas are aggressive and do not stay confined to direct extension.",
+        "B": "Hematogenous spread to lung, brain and liver is typical of gestational choriocarcinoma.",
+        "C": "Correct. A serous (Type 2) carcinoma arising in atrophy with p53 abnormality behaves aggressively with intraperitoneal and lymphatic spread.",
+        "D": "Indolent lymphatic spread describes Type 1 endometrioid carcinoma associated with unopposed estrogen.",
+        "E": "Perineural spread is not the characteristic route for endometrial carcinoma."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-019",
+      "question": "A 42-year-old woman has heavy menses and an enlarged, irregular uterus. Hysterectomy shows a 5-cm intramural mass with a homogeneous, white/tan cut surface. Microscopy shows a well-circumscribed lesion with rounded contours composed of bland spindle-shaped cells that resemble normal myometrium, with no cytologic atypia, no mitoses, and no necrosis. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Endometrial stromal sarcoma",
+        "B": "Leiomyoma",
+        "C": "Leiomyosarcoma",
+        "D": "Rhabdomyosarcoma",
+        "E": "Undifferentiated uterine sarcoma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Endometrial stromal sarcoma is a malignant tumor of the endometrial stromal component, not of bland smooth muscle cells.",
+        "B": "Correct. A well-circumscribed, homogeneous white/tan smooth muscle tumor without atypia, mitoses or necrosis is a benign leiomyoma (5-year survival 100%).",
+        "C": "Leiomyosarcoma is heterogeneous, hemorrhagic and necrotic, with high cellularity, high-grade atypia and a high mitotic index.",
+        "D": "Rhabdomyo- means skeletal muscle; a rhabdomyosarcoma is a malignant skeletal muscle tumor, not a bland smooth muscle lesion.",
+        "E": "Undifferentiated uterine sarcoma is a malignant mesenchymal tumor and would show marked atypia and mitoses."
+      }
+    },
+    {
+      "id": "endorepro-tbl-pathology-of-the-uterus-and-ovaries-020",
+      "question": "A 45-year-old woman has 3 weeks of vaginal bleeding, headaches, and hemoptysis. Her only pregnancy was an uncomplicated term delivery 15 years ago. Pelvic ultrasound shows no intrauterine pregnancy, and CT shows multiple hemorrhagic nodules in the lungs and brain. Laboratory results are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum β-hCG",
+          "80,000 mIU/mL",
+          "<5 mIU/mL (nonpregnant)"
+        ],
+        [
+          "Hemoglobin",
+          "9.8 g/dL",
+          "12–16 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Complete hydatidiform mole",
+        "B": "Endometrial serous carcinoma",
+        "C": "Gestational choriocarcinoma",
+        "D": "Leiomyosarcoma",
+        "E": "Partial hydatidiform mole"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A complete mole is an abnormal conceptus presenting early in a pregnancy, not 15 years after a term delivery with distant metastases.",
+        "B": "Serous carcinoma is a p53-associated epithelial tumor of older women; it does not secrete β-hCG.",
+        "C": "Correct. Gestational choriocarcinoma can follow a normal pregnancy (about 23% of cases), can present up to 40 years later, usually with vaginal bleeding, and metastasizes to lung, brain and liver while secreting β-hCG.",
+        "D": "Leiomyosarcoma is a smooth muscle malignancy of the myometrium and does not produce β-hCG.",
+        "E": "A partial mole is a triploid conceptus with fetal tissue found at evacuation, with minimal risk of choriocarcinoma."
+      }
+    }
+  ]
+}

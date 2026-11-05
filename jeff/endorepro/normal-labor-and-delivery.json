@@ -1,0 +1,452 @@
+{
+  "lecture": "Normal Labor and Delivery",
+  "block": "endorepro",
+  "generated": "2026-11-05",
+  "questions": [
+    {
+      "id": "endorepro-normal-labor-and-delivery-001",
+      "question": "A 26-year-old woman, gravida 1, para 0, at 40 weeks' gestation comes to labor and delivery because of contractions for the past 10 hours. Contractions are irregular, every 6 to 12 minutes. Membranes are intact and the fetal heart rate tracing is reassuring. Two cervical examinations are shown. Which of the following best describes her labor?",
+      "table": [
+        [
+          "Time",
+          "Dilation",
+          "Effacement",
+          "Station"
+        ],
+        [
+          "06:00",
+          "4 cm",
+          "70%",
+          "-2"
+        ],
+        [
+          "11:00",
+          "5 cm",
+          "80%",
+          "-2"
+        ]
+      ],
+      "answers": {
+        "A": "Arrest of dilation in the active phase",
+        "B": "Normal active phase of the first stage",
+        "C": "Normal latent phase of the first stage",
+        "D": "Prolonged latent phase of the first stage",
+        "E": "Protracted active phase of the first stage"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Arrest of dilation needs more than 6 cm of dilation with ruptured membranes and no change for 4 or more hours; she is 5 cm with intact membranes and is still changing.",
+        "B": "The active phase has regular, strong contractions and begins at about 6 cm; her contractions are irregular and she is 5 cm.",
+        "C": "Correct: before about 6 cm the patient is in the latent phase, where irregular contractions and gradual cervical change are expected, and 10 hours is well under the 20-hour limit for a primiparous patient.",
+        "D": "A prolonged latent phase in a first vaginal birth is more than 20 hours; she has been contracting for 10.",
+        "E": "Calling 1 cm in 5 hours protracted assumes active labor began at 3 cm (the old Friedman cutoff); active labor now starts at 6 cm, so the rate rules do not yet apply."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-002",
+      "question": "A 31-year-old woman, gravida 3, para 2 (two prior vaginal births), at 39 weeks' gestation has had irregular, painful contractions for 16 hours. She is uncomfortable but the fetal heart rate tracing is reassuring and membranes are intact. Her cervical examinations are shown. Which of the following best describes her labor?",
+      "table": [
+        [
+          "Time",
+          "Dilation",
+          "Effacement",
+          "Station"
+        ],
+        [
+          "Admission (hour 4)",
+          "3 cm",
+          "60%",
+          "-3"
+        ],
+        [
+          "Hour 16",
+          "4 cm",
+          "80%",
+          "-2"
+        ]
+      ],
+      "answers": {
+        "A": "Arrest of dilation",
+        "B": "Normal latent phase",
+        "C": "Prolonged latent phase",
+        "D": "Prolonged second stage",
+        "E": "Protracted active phase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Arrest of dilation applies only above 6 cm with ruptured membranes; she is 4 cm with intact membranes.",
+        "B": "16 hours would still be normal in a first vaginal birth (limit 20 hours), but the limit for a multiparous patient is 14 hours.",
+        "C": "Correct: in a multiparous patient the latent phase (irregular contractions, gradual change, below about 6 cm) is prolonged once it exceeds 14 hours; she is at 16 hours.",
+        "D": "The second stage starts at complete (10 cm) dilation; she is still in the first stage.",
+        "E": "Protraction (under 0.5 cm/hour) describes the active phase, which has not begun below 6 cm."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-003",
+      "question": "A 29-year-old woman, gravida 1, para 0, at 39 weeks' gestation is admitted in spontaneous labor with regular, strong contractions every 3 minutes. Membranes are intact. Cervical examinations are shown. The fetal heart rate tracing is reassuring. Which of the following best describes her labor?",
+      "table": [
+        [
+          "Time",
+          "Dilation",
+          "Effacement",
+          "Station"
+        ],
+        [
+          "12:00",
+          "6 cm",
+          "90%",
+          "-1"
+        ],
+        [
+          "16:00",
+          "7 cm",
+          "90%",
+          "-1"
+        ]
+      ],
+      "answers": {
+        "A": "Arrest of dilation",
+        "B": "Normal active phase",
+        "C": "Normal latent phase",
+        "D": "Prolonged latent phase",
+        "E": "Protracted active phase"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Arrest needs ruptured membranes and no cervical change for at least 4 hours; her membranes are intact and the cervix did change by 1 cm.",
+        "B": "Normal active labor dilates the cervix about 1-2 cm/hour; 0.25 cm/hour is too slow.",
+        "C": "Regular, strong contractions at 6 cm or more define active labor, not the latent phase.",
+        "D": "The latent phase ends at about 6 cm; she was already 6 cm with regular contractions, so she is in the active phase.",
+        "E": "Correct: she is in the active phase (6 cm or more, regular strong contractions), and 1 cm over 4 hours is 0.25 cm/hour, below the 0.5 cm/hour threshold for protraction."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-004",
+      "question": "A 33-year-old woman, gravida 2, para 1, at 40 weeks' gestation is in labor. Her membranes ruptured 6 hours ago. The cervix has been 7 cm dilated and 100% effaced on examinations 4.5 hours apart. Contractions occur every 3 minutes on the external tocodynamometer. The team is considering a diagnosis of arrest of dilation. Which of the following additional findings is needed to make this diagnosis now rather than after 6 hours without change?",
+      "answers": {
+        "A": "Adequate contractions on an intrauterine pressure catheter",
+        "B": "Confirmation that membranes have ruptured on speculum exam",
+        "C": "Contraction frequency of every 2 minutes on external monitor",
+        "D": "Fetal station of 0 or lower on cervical examination",
+        "E": "Soft cervical consistency on digital examination"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: arrest of dilation is no change for 4 or more hours with adequate contractions (or 6 or more with inadequate ones), and contraction strength, hence adequacy, can only be measured internally with an IUPC.",
+        "B": "Ruptured membranes are required, but she already has them; this does not decide between the 4-hour and 6-hour criteria.",
+        "C": "An external tocodynamometer measures frequency only; it cannot show whether contractions are strong enough to count as adequate.",
+        "D": "Station describes descent of the vertex relative to the ischial spines; it is not part of the definition of arrest of dilation.",
+        "E": "Consistency is part of the cervical assessment but has no role in the time criteria for arrest of dilation."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-005",
+      "question": "A 27-year-old woman, gravida 1, para 0, at 39 weeks' gestation reached complete dilation 2.5 hours ago and has been pushing since. She has an epidural. The fetal head has descended from station 0 to +2 during this time, and the fetal heart rate tracing is reassuring. Which of the following best describes her second stage of labor?",
+      "answers": {
+        "A": "Arrested because it has exceeded 2 hours",
+        "B": "Prolonged because pushing has exceeded 1 hour",
+        "C": "Protracted because descent is under 0.5 cm/hour",
+        "D": "Still in the active phase of the first stage",
+        "E": "Within the expected duration for a first birth"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Two hours is the usual allowance for a multiparous patient; a primiparous patient is allowed 3 hours.",
+        "B": "There is no 1-hour limit on pushing; the allowance is 3 hours for a first birth.",
+        "C": "The 0.5 cm/hour rule describes cervical dilation in the active phase of the first stage, not fetal descent in the second stage.",
+        "D": "The first stage ends at complete (10 cm) dilation; she reached it 2.5 hours ago and is in the second stage.",
+        "E": "Correct: the second stage (complete dilation to birth) is normally allowed up to 3 hours in a primiparous patient, longer with a dense epidural or malposition, and has no absolute maximum."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-006",
+      "question": "A 30-year-old woman, gravida 2, para 1, delivers a healthy infant vaginally. Eight minutes later there is a sudden gush of dark blood from the vagina, the umbilical cord protruding from the introitus lengthens by several centimeters, and the uterine fundus rises and becomes firm and globular on palpation. Her vital signs are normal. Which of the following events is most likely occurring?",
+      "answers": {
+        "A": "Atony of the lower uterine segment with hemorrhage",
+        "B": "Laceration of the cervix during expulsion",
+        "C": "Retention of a fragment of placental tissue",
+        "D": "Rupture of the uterus at the lower segment",
+        "E": "Separation of the placenta from the uterine wall"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Atony causes ongoing heavy bleeding with a boggy uterus; here the fundus is firm and the bleeding is a single gush.",
+        "B": "A laceration bleeds steadily despite a firm uterus and does not lengthen the cord or raise the fundus.",
+        "C": "A retained fragment is found by inspecting the delivered placenta; it does not produce the separation signs before the placenta has delivered.",
+        "D": "Uterine rupture presents with sudden pain, fetal distress and loss of station during labor, not with the orderly signs of placental separation.",
+        "E": "Correct: a gush of blood, lengthening of the cord, and rise of the fundus are the three signs of placental separation in the third stage, which normally lasts 5-10 minutes and up to 30."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-007",
+      "question": "A 24-year-old woman, gravida 1, para 0, at 40 weeks' gestation is in active labor. At 08:00 the fetal vertex is palpated 2 cm above the level of the ischial spines. At 11:00 the vertex is palpated 1 cm below the level of the ischial spines. Cervical dilation has progressed from 7 to 9 cm. Which of the following best describes the change in fetal station?",
+      "answers": {
+        "A": "From +2 to -1, descent past the spines",
+        "B": "From -2 to +1, ascent above the spines",
+        "C": "From -2 to +1, descent past the spines",
+        "D": "From 2 to 1, regression of station",
+        "E": "From 7 to 9, a change in station"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This reverses the sign convention: positive numbers are below (past) the ischial spines, not above them.",
+        "B": "The numbers are right, but moving from above to below the spines is descent, not ascent.",
+        "C": "Correct: station is the position of the vertex relative to the ischial spines in cm, negative above and positive below, so 2 cm above is -2 and 1 cm below is +1.",
+        "D": "Station is signed; ignoring the sign makes descent look like regression.",
+        "E": "7 and 9 cm are her cervical dilation, which is a separate part of the cervical assessment from station."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-008",
+      "question": "A 32-year-old woman, gravida 1, para 0, at 40 weeks' gestation has had slow progress in active labor. Ultrasound shows a cephalic fetus whose neck is moderately extended, so that the forehead leads into the pelvis. Which of the following changes in the fetus would most favor vaginal birth?",
+      "explanationImage": {
+        "src": "images/normal-labor-and-delivery/008-exp.png",
+        "caption": "Fetal attitude from fully flexed (A, vertex) through military (B) and brow (C) to fully extended (D, face), with the presenting head diameter",
+        "credit": "Slides p. 16"
+      },
+      "answers": {
+        "A": "Full extension of the fetal neck",
+        "B": "Full flexion of the fetal neck",
+        "C": "Moderate flexion of the fetal neck",
+        "D": "Rotation to an oblique fetal lie",
+        "E": "Rotation to occiput transverse"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Full extension is the face attitude; its diameter is small, but the head is unable to adjust well, so it is less favorable than vertex.",
+        "B": "Correct: full flexion is the vertex attitude, which presents the smallest anteroposterior diameter of the fetal head and is best for vaginal birth.",
+        "C": "Moderate flexion is the military attitude, which still presents a larger AP diameter than vertex.",
+        "D": "An oblique lie (fetus diagonal in the uterus) is not longitudinal and does not present the head favorably.",
+        "E": "Occiput transverse is a malposition that can prolong labor; it does not correct the brow attitude."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-009",
+      "question": "A 28-year-old woman, gravida 2, para 1, at 38 weeks' gestation has an ultrasound before a planned delivery. The fetal buttocks lie over the pelvic inlet. Both hips are flexed and both knees are extended, so the feet lie beside the fetal head. Which of the following best describes the fetal presentation?",
+      "answers": {
+        "A": "Cephalic presentation",
+        "B": "Complete breech",
+        "C": "Footling breech",
+        "D": "Frank breech",
+        "E": "Shoulder presentation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cephalic means the head is presenting; here the buttocks are over the inlet.",
+        "B": "A complete breech also presents the buttocks, but with the knees flexed.",
+        "C": "A footling breech presents one or both feet, not the buttocks.",
+        "D": "Correct: a frank breech has the buttocks presenting with the knees extended.",
+        "E": "A shoulder presents when the lie is transverse; this fetus is in a longitudinal lie."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-010",
+      "question": "A 35-year-old woman, gravida 4, para 3, at 37 weeks' gestation comes for a prenatal visit. Abdominal ultrasound shows the fetal head in the right maternal flank and the fetal buttocks in the left maternal flank, with the fetal spine running horizontally across the uterus. If she goes into labor in this position, which fetal part is most likely to present at the cervix?",
+      "answers": {
+        "A": "Buttocks",
+        "B": "Face",
+        "C": "Feet",
+        "D": "Shoulder",
+        "E": "Vertex"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The buttocks present in a breech presentation, which is a longitudinal lie.",
+        "B": "Face presentation is a cephalic, longitudinal lie with the neck fully extended.",
+        "C": "Feet present in a footling breech, which is also a longitudinal lie.",
+        "D": "Correct: a fetus lying side to side has a transverse lie, which gives a shoulder presentation.",
+        "E": "Vertex presentation is a cephalic, longitudinal lie with the neck fully flexed."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-011",
+      "question": "A 26-year-old woman, gravida 1, para 0, at 36 weeks' gestation has a pelvic examination to assess her bony pelvis. The examiner places the tip of the middle finger on the sacral promontory and marks where the inferior margin of the pubic symphysis meets the hand. Which of the following pelvic dimensions does this measurement chiefly serve to estimate?",
+      "answers": {
+        "A": "Anatomical conjugate",
+        "B": "Interspinous distance",
+        "C": "Oblique diameter",
+        "D": "Obstetric conjugate",
+        "E": "Transverse diameter"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The anatomical conjugate runs from the promontory to the upper pubic symphysis and is not the narrowest passage for the head.",
+        "B": "The interspinous distance is the width between the ischial spines, the landmark for station; it is not measured from the sacral promontory.",
+        "C": "The oblique diameter crosses the inlet diagonally and is not estimated from a promontory-to-symphysis measurement.",
+        "D": "Correct: the diagonal conjugate is the measurement made by hand on exam, and it is used to estimate the obstetric (true) conjugate, the narrowest fixed AP distance the head must pass through.",
+        "E": "The transverse diameter is the widest side-to-side distance of the inlet, not an anteroposterior measurement."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-012",
+      "question": "A 34-year-old woman, gravida 2, para 1, delivers a male infant in occiput anterior position. As the head passes under the pubic symphysis it extends and is delivered. Once free of the perineum, the occiput turns back to one side so the head lines up again with the fetal shoulders. Which cardinal movement of labor occurs next?",
+      "answers": {
+        "A": "Descent",
+        "B": "Expulsion",
+        "C": "Extension",
+        "D": "Flexion",
+        "E": "Internal rotation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Descent occurs early, with engagement and flexion, before the head reaches the pelvic floor.",
+        "B": "Correct: after restitution (external rotation) comes expulsion, delivery of the anterior shoulder, then the posterior shoulder and the body.",
+        "C": "Extension already delivered the head under the symphysis, just before the restitution described.",
+        "D": "Flexion happens as the head meets resistance early in descent, before internal rotation.",
+        "E": "Internal rotation turns the occiput toward the symphysis within the pelvis, before extension."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-013",
+      "question": "A 25-year-old woman, gravida 1, para 0, at 39 weeks' gestation is in the second stage of labor. The fetal head is well flexed at station +3. On examination the sagittal suture, previously in the transverse diameter of the pelvis, has turned so that the occiput now lies directly beneath the pubic symphysis. Which cardinal movement of labor will occur next?",
+      "answers": {
+        "A": "Descent",
+        "B": "Engagement",
+        "C": "Extension",
+        "D": "Flexion",
+        "E": "Restitution"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Descent has largely happened already; the head is at +3 and rotation is complete.",
+        "B": "Engagement, entry of the head into the pelvis, is the first cardinal movement.",
+        "C": "Correct: once internal rotation brings the occiput under the symphysis, the head extends to pass under it and out of the introitus.",
+        "D": "Flexion precedes internal rotation; the head is already well flexed.",
+        "E": "Restitution (external rotation) follows extension, after the head is delivered."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-014",
+      "question": "A 22-year-old woman at 41 weeks' gestation is given an oral anti-progestin, mifepristone, to prepare the cervix before induction of labor. Within 24 hours her uterus becomes more responsive to oxytocin and contractions begin. Which of the following best explains the increased uterine responsiveness?",
+      "answers": {
+        "A": "Increased fetal adrenal DHEAS production for estrogen synthesis",
+        "B": "Increased hCG signaling that adds myometrial gap junctions",
+        "C": "Increased relaxin action on the myometrium",
+        "D": "Release of contraction-associated protein genes from suppression",
+        "E": "Stimulation of oxytocin release from the posterior pituitary"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Fetal DHEAS feeds placental estrogen production, but an anti-progestin acts on progesterone signaling, not on the fetal adrenal.",
+        "B": "hCG decreases gap junction number and contraction frequency and force; it promotes quiescence.",
+        "C": "Relaxin inhibits myometrial contractions while softening the cervix; it does not explain greater responsiveness.",
+        "D": "Correct: progesterone keeps the uterus quiet by suppressing contraction-associated proteins (oxytocin receptors, connexins, prostaglandin receptors); blocking it lets these rise.",
+        "E": "Mifepristone acts at progesterone receptors; it raises responsiveness to oxytocin rather than oxytocin secretion."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-015",
+      "question": "A 30-year-old woman, gravida 1, para 0, is found at 20 weeks' gestation to be carrying a fetus with anencephaly and absent pituitary development. She declines termination. At 42 weeks she has not gone into labor, and maternal serum estriol has been persistently low. Which of the following best explains the failure of labor to begin?",
+      "answers": {
+        "A": "Excess progesterone from the corpus luteum",
+        "B": "Excess relaxin from the decidua and placenta",
+        "C": "Loss of hCG production by the trophoblast",
+        "D": "Loss of maternal posterior pituitary oxytocin release",
+        "E": "Too little fetal DHEAS for placental estrogen synthesis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The placenta, not the corpus luteum, makes progesterone late in pregnancy, and this fetus's defect lies in the fetal hypothalamus-pituitary-adrenal axis.",
+        "B": "Relaxin promotes quiescence, but nothing here suggests excess; low estriol points to the fetal adrenal pathway.",
+        "C": "hCG decreases contractions and normally falls before labor; losing it would favor labor, not prevent it.",
+        "D": "The maternal pituitary is normal; the defect is in the fetal hypothalamus-pituitary-adrenal axis.",
+        "E": "Correct: fetal hypothalamic CRH drives fetal ACTH and adrenal DHEAS, which the placenta turns into estrogen; without it, estrogen cannot upregulate contraction-associated proteins."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-016",
+      "question": "In a study of late-gestation fetal sheep, a drug selectively blocks cortisol synthesis in the fetal adrenal cortex while leaving DHEAS synthesis intact. Fetal ACTH is unchanged and placental estrogen production stays normal. Which of the following placental products would be expected to decrease?",
+      "answers": {
+        "A": "CRH, oxytocin, and prostaglandins",
+        "B": "Estriol, estrone, and estradiol",
+        "C": "hCG and human placental lactogen",
+        "D": "Progesterone and relaxin",
+        "E": "Prostacyclin and nitric oxide"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: fetal cortisol reaching the placenta increases placental oxytocin, prostaglandin and CRH production, and the CRH feeds back positively on the fetal pituitary.",
+        "B": "Placental estrogens come from fetal DHEAS, which is intact here, so estrogen production stays normal.",
+        "C": "hCG is a quiescence hormone of the placenta and is not the target of fetal cortisol in this pathway.",
+        "D": "These maintain quiescence; fetal cortisol is not described as their driver.",
+        "E": "These are phase 1 quiescence factors; fetal cortisol is described as raising the uterotonic and CRH output of the placenta, not these."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-017",
+      "question": "A 29-year-old woman, gravida 2, para 1, at 30 weeks' gestation is enrolled in a study measuring maternal plasma corticotropin-releasing hormone (CRH). Her CRH concentration is already at the level usually reached at 37 weeks. Her cervix is long and closed. Based on the proposed role of CRH, which of the following is she at increased risk of?",
+      "answers": {
+        "A": "Breech presentation at term",
+        "B": "Early onset of labor (preterm birth)",
+        "C": "Post-term pregnancy beyond 42 weeks",
+        "D": "Prolonged latent phase of labor",
+        "E": "Uterine atony after delivery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Presentation depends on the fetus's lie and orientation, not on CRH levels.",
+        "B": "Correct: placental CRH rises exponentially over the last 6-8 weeks and is thought to control the timing of labor, so an early rise points to early labor.",
+        "C": "An early CRH rise suggests labor will come sooner, not later; post-term pregnancy would fit a delayed rise.",
+        "D": "CRH is linked to the timing of labor onset, not to how long the latent phase lasts.",
+        "E": "Postpartum tone depends on retraction and oxytocin-driven contraction, not on the antenatal CRH curve."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-018",
+      "question": "A 31-year-old woman at 33 weeks' gestation reports pain over the front of her pelvis when walking and climbing stairs. Examination shows tenderness over the pubic symphysis, and imaging shows widening of the symphysis. A hormone made by the placenta, decidua, and corpus luteum is thought to contribute. The same hormone has which of the following additional effects?",
+      "answers": {
+        "A": "Increased gap junction number in myometrium",
+        "B": "Increased placental estrogen synthesis",
+        "C": "Inhibition of myometrial contractions",
+        "D": "Opening of myometrial calcium channels",
+        "E": "Stimulation of milk let-down"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gap junctions increase under estrogen in phase 2; relaxin's uterine action is to inhibit contractions.",
+        "B": "Placental estrogen is driven by fetal DHEAS, not by relaxin.",
+        "C": "Correct: relaxin lengthens the pubic ligament, softens the cervix, relaxes the vagina and inhibits myometrial contractions.",
+        "D": "Ligand-activated calcium channels are opened by prostaglandins and oxytocin in phase 3, causing contraction.",
+        "E": "Milk let-down is an oxytocin effect in phase 4, not a relaxin effect."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-019",
+      "question": "A 38-year-old woman, gravida 1, para 0, at 39 weeks' gestation has a cervical biopsy taken during a planned cesarean for breech presentation, as part of a study of cervical ripening. Her cervix was soft and 80% effaced before surgery. Compared with a biopsy from early pregnancy, which of the following changes in the cervical stroma is most likely?",
+      "answers": {
+        "A": "Decreased glycosaminoglycan content",
+        "B": "Decreased vascularity and stromal atrophy",
+        "C": "Loosely packed, disorganized collagen fibrils",
+        "D": "Reduced inflammatory cell infiltration",
+        "E": "Tightly packed, cross-linked collagen fibrils"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Glycosaminoglycans increase during ripening to soften the cervix; they are removed later, during involution.",
+        "B": "Ripening increases vascularity and causes stromal and glandular hypertrophy.",
+        "C": "Correct: during ripening, collagen-proteoglycan interactions leave collagen fibrils loosely packed and disorganized, raising tissue compliance.",
+        "D": "Inflammatory cell infiltration and cytokine production increase during ripening and degrade collagen.",
+        "E": "Tightly packed, cross-linked fibrils describe the firm cervix before ripening."
+      }
+    },
+    {
+      "id": "endorepro-normal-labor-and-delivery-020",
+      "question": "A 27-year-old woman, gravida 3, para 3, has a vaginal delivery after a long labor. The placenta delivers intact. Over the next 20 minutes she has continued heavy bleeding. On bimanual examination the uterine fundus is firm and thick, but the region just above the cervix is thin, stretched, and poorly contracted. No lacerations are found. Which of the following best explains the source of her bleeding?",
+      "answers": {
+        "A": "Atony of the lower uterine segment",
+        "B": "Failure of fundal myometrium to retract",
+        "C": "Persistent progesterone-driven quiescence",
+        "D": "Retained placenta from failed separation",
+        "E": "Unrepaired laceration of the perineum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the lower uterine segment is stretched thin by labor and does not contract well right away, so it can be a source of postpartum hemorrhage even with a firm fundus.",
+        "B": "The fundus is described as firm and thick; progressive retraction during labor leaves it able to regain tone.",
+        "C": "Progesterone is downregulated before labor; postpartum tone depends on oxytocin-driven contraction.",
+        "D": "The placenta delivered intact, which makes retained tissue unlikely.",
+        "E": "The examination found no lacerations."
+      }
+    }
+  ]
+}
