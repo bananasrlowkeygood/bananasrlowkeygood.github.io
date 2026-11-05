@@ -2,6 +2,11 @@
   "block": "endorepro",
   "lectures": [
     {
+      "file": "abnormal-first-trimester-pregnancies.json",
+      "name": "Abnormal First Trimester Pregnancies",
+      "count": 20
+    },
+    {
       "file": "abnormal-uterine-bleeding-and-pelvic-pain.json",
       "name": "Abnormal Uterine Bleeding and Pelvic Pain",
       "count": 20,
@@ -202,6 +207,21 @@
       ]
     },
     {
+      "file": "labor-and-delivery-complications.json",
+      "name": "Labor & Delivery Complications",
+      "count": 20
+    },
+    {
+      "file": "lactation.json",
+      "name": "Lactation",
+      "count": 20
+    },
+    {
+      "file": "likelihood-ratios.json",
+      "name": "Likelihood Ratios",
+      "count": 20
+    },
+    {
       "file": "lower-tract-gu-malignancy.json",
       "name": "Lower Tract GU Malignancy",
       "count": 20,
@@ -245,6 +265,11 @@
           "file": "10.08.26-CM_PHYS-Mechanisms-of-Obesity-and-Obesity-Management_Lent_Slides-fb1d4c37b3.pdf"
         }
       ]
+    },
+    {
+      "file": "normal-labor-and-delivery.json",
+      "name": "Normal Labor and Delivery",
+      "count": 20
     },
     {
       "file": "obesity-patient-panel.json",
@@ -577,6 +602,11 @@
       ]
     },
     {
+      "file": "tbl-pathology-of-the-uterus-and-ovaries.json",
+      "name": "TBL - Pathology of the Uterus and Ovaries",
+      "count": 20
+    },
+    {
       "file": "testicular-and-erectile-dysfunction.json",
       "name": "Testicular & Erectile Dysfunction",
       "count": 20,
@@ -590,6 +620,11 @@
           "file": "10.22.26-CM_Testicular-Erectile-Dysfunction_Jimbo_Slides-76a8f4ca1a.pdf"
         }
       ]
+    },
+    {
+      "file": "torch-infections.json",
+      "name": "TORCH Infections",
+      "count": 20
     },
     {
       "file": "transcription-and-nuclear-hormone-receptors.json",
