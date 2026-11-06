@@ -4,7 +4,17 @@
     {
       "file": "abnormal-first-trimester-pregnancies.json",
       "name": "Abnormal First Trimester Pregnancies",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.05.26-CM_Abnormal-First-Trimester-Pregnancies_Cullen_Notes-eb43bdcb4e.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.05.26-CM_Abnormal-First-Trimester-Pregnancies_Cullen_Slides-bb3395b28f.pdf"
+        }
+      ]
     },
     {
       "file": "abnormal-uterine-bleeding-and-pelvic-pain.json",
@@ -209,17 +219,47 @@
     {
       "file": "labor-and-delivery-complications.json",
       "name": "Labor & Delivery Complications",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.06.26-CM_Labor-Delivery-Complications_Cullen_Notes-d749f00dbe.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.06.26-CM_Labor-Delivery-Complications_Cullen_Slides-cbdd808948.pdf"
+        }
+      ]
     },
     {
       "file": "lactation.json",
       "name": "Lactation",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.06.26-CM_Lactation_Cullen_Notes-298bbfbe0d.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.06.26_CM_Lactation_Cullen_Slides-9c8a320815.pdf"
+        }
+      ]
     },
     {
       "file": "likelihood-ratios.json",
       "name": "Likelihood Ratios",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.04.26-EBM_Likelihood-Ratios_Cherney_Notes-d3efa1d71b.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.04.26-EBM_Likelihood-Ratios_Cherney_Slides-7b3a76dd52.pdf"
+        }
+      ]
     },
     {
       "file": "lower-tract-gu-malignancy.json",
@@ -269,7 +309,17 @@
     {
       "file": "normal-labor-and-delivery.json",
       "name": "Normal Labor and Delivery",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.05.26-PHYS_Normal-Labor-and-Delivery_Cullen_Notes-4cd8afab68.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.05.26-PHYS_Normal-Labor-and-Delivery_Cullen_Slides-916364e454.pdf"
+        }
+      ]
     },
     {
       "file": "obesity-patient-panel.json",
@@ -604,7 +654,17 @@
     {
       "file": "tbl-pathology-of-the-uterus-and-ovaries.json",
       "name": "TBL - Pathology of the Uterus and Ovaries",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.04.26-PATH_TBL---Pathology-of-the-Uterus-and-Ovaries_Ma_Notes-ac1b1bd51a.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.04.26-PATH_TBL---Pathology-of-the-Uterus-and-Ovaries_Ma_Slides_Answer-Key-94f7ddf1d3.pdf"
+        }
+      ]
     },
     {
       "file": "testicular-and-erectile-dysfunction.json",
@@ -624,7 +684,17 @@
     {
       "file": "torch-infections.json",
       "name": "TORCH Infections",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.06.26-INIM_TORCH_Infections_Gulerson_Notes-4311a3e3df.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.06.26-INIM_TORCH_Infections_Gulerson_Slides.v.11.05.26-c40a7a901b.pdf"
+        }
+      ]
     },
     {
       "file": "transcription-and-nuclear-hormone-receptors.json",
@@ -727,6 +797,17 @@
         {
           "label": "handout",
           "file": "Week_4_CBL-9b2d6a8a3a.pdf"
+        }
+      ]
+    },
+    {
+      "file": "week-5-cbl.json",
+      "name": "CBL Week 5: Pregnancy, Labor and Prenatal Care",
+      "count": 40,
+      "pdfs": [
+        {
+          "label": "handout",
+          "file": "Week_5_CBL-157f9c8ad9.pdf"
         }
       ]
     }
