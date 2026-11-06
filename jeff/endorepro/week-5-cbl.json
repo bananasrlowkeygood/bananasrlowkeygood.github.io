@@ -1,0 +1,933 @@
+{
+  "lecture": "CBL Week 5: Pregnancy, Labor and Prenatal Care",
+  "block": "endorepro",
+  "generated": "2026-11-06",
+  "questions": [
+    {
+      "id": "endorepro-week-5-cbl-001",
+      "question": "A 25-year-old woman comes for her first prenatal visit. She is unsure of the date of her last menstrual period. On abdominal examination the uterine fundus is palpable at the level of the umbilicus. Fetal heart tones are heard by Doppler. Which gestational age best fits this examination?",
+      "answers": {
+        "A": "12 weeks",
+        "B": "16 weeks",
+        "C": "20 weeks",
+        "D": "28 weeks",
+        "E": "36 weeks"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "At about 12 weeks the uterus first rises out of the pelvis and is felt just above the pubic symphysis.",
+        "B": "At 16 weeks the fundus lies roughly midway between the symphysis and the umbilicus.",
+        "C": "The fundus reaches the umbilicus at about 20 weeks; after that, fundal height in cm roughly equals gestational age in weeks.",
+        "D": "At 28 weeks the fundus is well above the umbilicus, about 28 cm from the symphysis.",
+        "E": "At about 36 weeks the fundus reaches the xiphoid process."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-002",
+      "question": "A 29-year-old woman at 30 weeks' gestation has an incidental finding on ultrasound: the right renal pelvis and upper ureter are dilated to the pelvic brim, while the left collecting system is nearly normal. She has no pain, fever, or hematuria. Which of the following best explains why the dilation is greater on the right?",
+      "answers": {
+        "A": "Congenital narrowing at the right ureteropelvic junction",
+        "B": "Greater progesterone sensitivity of the right ureter",
+        "C": "Reflux of urine up an incompetent right ureteral orifice",
+        "D": "Rightward rotation of the uterus compressing the right ureter",
+        "E": "Venous congestion from the left renal vein crossing the aorta"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A UPJ obstruction would cause dilation of the pelvis only, present before pregnancy, and not extend to the pelvic brim.",
+        "B": "Progesterone relaxes both ureters; it explains why both dilate, not why the right is worse.",
+        "C": "Vesicoureteral reflux is a congenital abnormality, not a normal change of pregnancy.",
+        "D": "The pregnant uterus usually rotates to the right (dextrorotation) and compresses the right ureter at the pelvic brim, so physiologic hydronephrosis is worse on the right.",
+        "E": "Left renal vein compression would affect the left side and does not dilate the ureter."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-003",
+      "question": "A 24-year-old primigravida in active labor at 40 weeks' gestation has cramping pain with each contraction; her cervix is 5 cm dilated. Anesthesia places an epidural to block the visceral afferents carrying pain from the contracting body of the uterus. At which spinal levels do these afferents enter the cord?",
+      "answers": {
+        "A": "C3–C5",
+        "B": "L4–S1",
+        "C": "S2–S4",
+        "D": "T10–L1",
+        "E": "T5–T9"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "C3–C5 is the phrenic nerve, which carries diaphragmatic pain referred to the shoulder.",
+        "B": "L4–S1 supplies the lower limb through the lumbosacral plexus and does not carry uterine pain.",
+        "C": "S2–S4 carries cervical pain (pelvic splanchnics) and perineal pain (pudendal nerve), which matter more late in labor, not pain from the uterine body.",
+        "D": "Pain from the uterine fundus and body travels with sympathetic fibers to T10–L1, the levels a first-stage labor epidural must cover.",
+        "E": "T5–T9 (greater splanchnic) carries foregut pain such as from the stomach or gallbladder."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-004",
+      "question": "A 30-year-old woman who is breastfeeding her 2-month-old infant has a 2-cm firm, mobile breast lump. Core biopsy shows crowded, dilated alveoli filled with pink secretion and lined by cells with large cytoplasmic vacuoles, with scant intervening stroma and no atypia. The fat in this secretion leaves the alveolar cells by which mechanism?",
+      "answers": {
+        "A": "Apocrine secretion",
+        "B": "Holocrine secretion",
+        "C": "Merocrine secretion",
+        "D": "Paracellular leak",
+        "E": "Receptor-mediated transcytosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Milk lipid droplets bud off the apical surface wrapped in a layer of plasma membrane, which is apocrine secretion.",
+        "B": "Holocrine secretion, in which the whole cell disintegrates, is how sebaceous glands work.",
+        "C": "Merocrine secretion (exocytosis of vesicles) releases the milk proteins, not the lipid droplets.",
+        "D": "Tight junctions between alveolar cells close during lactation; milk components do not leak between cells.",
+        "E": "Transcytosis moves IgA from plasma into milk; milk fat is made inside the alveolar cell."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-005",
+      "question": "A 32-year-old woman being evaluated for infertility has an endometrial biopsy on day 17 of a regular 28-day cycle. The glands are straight to slightly coiled, and many gland cells have clear vacuoles beneath their nuclei, pushing the nuclei toward the lumen. Which conclusion is best supported by this finding?",
+      "answers": {
+        "A": "Estrogen is unopposed by progesterone",
+        "B": "Implantation of an embryo has occurred",
+        "C": "Menstruation is about to begin",
+        "D": "Ovulation has occurred within the past few days",
+        "E": "The endometrium is in the proliferative phase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Unopposed estrogen produces proliferative or hyperplastic endometrium, with no secretory vacuoles.",
+        "B": "Implantation causes decidual change in the stroma, which is not described here.",
+        "C": "Premenstrual endometrium shows stromal breakdown, decidualized stroma and neutrophils, not early subnuclear vacuoles.",
+        "D": "Subnuclear glycogen vacuoles in the glands are the first histologic sign of progesterone action, so they show that ovulation has occurred.",
+        "E": "Proliferative glands are straight and tubular with mitoses and pseudostratified nuclei but no glycogen vacuoles."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-006",
+      "question": "A 23-year-old woman at 7 weeks' gestation has a laparoscopy for a bleeding corpus luteum cyst, and the cyst and the left ovary are removed. Ultrasound confirms a live intrauterine pregnancy. Which of the following is the most appropriate next step to support the pregnancy?",
+      "answers": {
+        "A": "Estradiol supplementation until delivery",
+        "B": "hCG injections until 20 weeks",
+        "C": "No treatment, because the placenta already makes enough progesterone",
+        "D": "Progesterone supplementation until about 10 weeks",
+        "E": "Weekly oxytocin antagonist until 12 weeks"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The loss is of progesterone support; estrogen is not what maintains early pregnancy, and the placenta will soon make it.",
+        "B": "hCG acts by stimulating the corpus luteum, which has been removed, so extra hCG would do nothing.",
+        "C": "The placenta does not take over progesterone production until about 8–10 weeks, so at 7 weeks it cannot yet support the pregnancy alone.",
+        "D": "The corpus luteum supplies progesterone until the luteal–placental shift at about 8–10 weeks, so progesterone is replaced until then.",
+        "E": "Oxytocin antagonists are tocolytics for preterm labor and do not replace progesterone."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-007",
+      "question": "A drug company is preparing the label for a new antiepileptic drug. The label must state whether pregnancy testing is needed before starting the drug, whether contraception is recommended during treatment, and whether the drug impairs fertility. Under the current FDA Pregnancy and Lactation Labeling Rule, this information belongs in which section?",
+      "answers": {
+        "A": "8.1 Pregnancy subsection of Use in Specific Populations",
+        "B": "8.2 Lactation subsection of Use in Specific Populations",
+        "C": "8.3 Females and Males of Reproductive Potential",
+        "D": "Boxed warning",
+        "E": "Pregnancy category X"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Section 8.1 holds the pregnancy risk summary, clinical considerations, data and exposure registry information.",
+        "B": "Section 8.2 covers drug levels in breast milk and effects on the breastfed infant.",
+        "C": "This section, new under the PLLR, covers pregnancy testing, contraception recommendations, and infertility related to the drug.",
+        "D": "A boxed warning flags serious risks but is not where the PLLR places testing, contraception and fertility information.",
+        "E": "The A/B/C/D/X letter categories were removed in 2015 because they were misread as a risk grade."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-008",
+      "question": "A 28-year-old woman with a missed abortion at 8 weeks' gestation is treated with buccal misoprostol and passes the pregnancy tissue after several hours of strong cramping. The receptor misoprostol binds in the myometrium is coupled to which G protein and first enzyme?",
+      "answers": {
+        "A": "Gi and inhibition of adenylyl cyclase",
+        "B": "Gq and activation of phospholipase C",
+        "C": "Gs and activation of adenylyl cyclase",
+        "D": "Gt and activation of cGMP phosphodiesterase",
+        "E": "No G protein; a receptor tyrosine kinase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Gi lowers cAMP; this is how some EP receptors and α2 receptors signal, but not the main contractile pathway described for misoprostol.",
+        "B": "Misoprostol, a PGE1 analog, acts on a Gq-coupled receptor that activates phospholipase C, producing IP3 and DAG and releasing Ca²⁺ to contract the myometrium.",
+        "C": "Gs raises cAMP, which relaxes uterine smooth muscle (as with β2 agonists), the opposite of misoprostol's effect.",
+        "D": "Transducin (Gt) works in retinal photoreceptors.",
+        "E": "Receptor tyrosine kinases bind growth factors and insulin, not prostaglandins."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-009",
+      "question": "Strips of human myometrium contract when exposed to a prostaglandin E analog. The contraction is blocked by a drug that prevents phosphorylation of the regulatory light chains of myosin. Which enzyme is this drug most likely inhibiting?",
+      "answers": {
+        "A": "Adenylyl cyclase",
+        "B": "Myosin light-chain kinase",
+        "C": "Myosin light-chain phosphatase",
+        "D": "Protein kinase G",
+        "E": "Sarcoplasmic Ca²⁺-ATPase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Adenylyl cyclase makes cAMP, which promotes relaxation; blocking it would not prevent contraction.",
+        "B": "Ca²⁺–calmodulin activates myosin light-chain kinase, which phosphorylates the myosin light chains so cross-bridges can cycle; blocking it prevents contraction.",
+        "C": "This phosphatase removes the phosphate and relaxes the muscle; inhibiting it would enhance contraction.",
+        "D": "Protein kinase G mediates nitric oxide–cGMP relaxation.",
+        "E": "SERCA pumps Ca²⁺ back into storage and ends contraction; it does not phosphorylate myosin."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-010",
+      "question": "A 33-year-old woman with multiple sclerosis has had two relapses in the past year. During her pregnancy she has no relapses, but 2 months after delivery she has a new episode of optic neuritis. Which change in pregnancy best explains her disease course?",
+      "answers": {
+        "A": "Higher maternal free cortisol eliminating autoreactive B cells",
+        "B": "Loss of innate immune responses in the mother",
+        "C": "Placental clearance of maternal autoantibodies",
+        "D": "Selective suppression of cell-mediated immunity",
+        "E": "Transfer of fetal regulatory T cells into the mother"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cortisol rises in pregnancy, but it does not eliminate B cells; humoral immunity is preserved.",
+        "B": "Innate immunity is preserved during pregnancy.",
+        "C": "The placenta transfers IgG to the fetus but does not remove maternal autoantibodies as a mechanism of remission.",
+        "D": "Progesterone and estrogen raise anti-inflammatory cytokines such as IL-10 and suppress cytotoxic cell-mediated immunity, so cell-mediated autoimmune diseases like MS often quiet in pregnancy and flare postpartum.",
+        "E": "Fetal cells do cross in small numbers, but this is not the explanation the physiology of pregnancy offers for remission."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-011",
+      "question": "A 35-year-old nulliparous woman at 32 weeks' gestation has new blood pressures of 164/108 and 160/110 mm Hg, headache, and proteinuria. She was normotensive before 20 weeks. Which abnormality, beginning early in pregnancy, is thought to start her disease?",
+      "answers": {
+        "A": "Implantation of the placenta over the cervical os",
+        "B": "Invasion of villi through the myometrium",
+        "C": "Maternal antibodies against paternal HLA on villi",
+        "D": "Premature separation of the placenta from the uterus",
+        "E": "Shallow invasion of spiral arteries by trophoblast"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Low implantation is placenta previa, which causes painless bleeding, not hypertension.",
+        "B": "Villi invading the myometrium is the placenta accreta spectrum.",
+        "C": "This is not the accepted first step of preeclampsia.",
+        "D": "Separation is placental abruption, which can follow hypertension but does not cause it.",
+        "E": "Shallow trophoblast invasion leaves the spiral arteries narrow and high-resistance; the later placental ischemia releases factors that damage the maternal endothelium."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-012",
+      "question": "A 30-year-old woman at 31 weeks' gestation has new hypertension and proteinuria. Her physician orders a serum test that measures the ratio of an anti-angiogenic protein released by the stressed placenta to a pro-angiogenic growth factor. Compared with a normal pregnancy, which result is expected?",
+      "answers": {
+        "A": "Decreased sFlt-1 and decreased free PlGF",
+        "B": "Decreased sFlt-1 and increased free PlGF",
+        "C": "Increased sFlt-1 and decreased free PlGF",
+        "D": "Increased sFlt-1 and increased free PlGF",
+        "E": "Unchanged sFlt-1 and increased free VEGF"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "In preeclampsia sFlt-1 is raised, not lowered.",
+        "B": "This is the healthy-pregnancy pattern; preeclampsia has the opposite.",
+        "C": "The ischemic placenta releases soluble fms-like tyrosine kinase-1 (sFlt-1), which binds and lowers free PlGF and VEGF, causing maternal endothelial dysfunction.",
+        "D": "sFlt-1 binds PlGF, so free PlGF falls as sFlt-1 rises.",
+        "E": "Free VEGF is reduced in preeclampsia because sFlt-1 traps it."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-013",
+      "question": "A 36-year-old woman at 33 weeks' gestation has blood pressure of 166/110 mm Hg and heavy proteinuria. After delivery her proteinuria persists for several weeks, and a renal biopsy is performed. A silver-stained section is shown. Which finding on electron microscopy is most likely?",
+      "image": {
+        "src": "images/week-5-cbl/013.jpg",
+        "caption": "Renal biopsy, silver stain",
+        "credit": "Week 5 CBL p. 27"
+      },
+      "answers": {
+        "A": "Basket-weave splitting of the basement membrane",
+        "B": "Mesangial IgA immune complex deposits",
+        "C": "Subepithelial deposits with basement membrane spikes",
+        "D": "Swollen endothelial cells blocking capillary lumens",
+        "E": "Thick basement membrane with mesangial nodules"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Splitting and lamination of the GBM is Alport syndrome.",
+        "B": "Mesangial IgA deposits are IgA nephropathy.",
+        "C": "Subepithelial deposits with spikes are membranous nephropathy.",
+        "D": "The hallmark renal lesion of preeclampsia is glomerular capillary endotheliosis: swollen endothelial cells occlude the capillary lumens, so the glomeruli look enlarged and bloodless.",
+        "E": "Nodular sclerosis with a thick GBM is diabetic nephropathy."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-014",
+      "question": "A 26-year-old woman delivers a small-for-gestational-age infant at 35 weeks' gestation. The placenta is small with several infarcts. A section of the decidua at the placental base is shown. Which condition did the mother most likely have during the pregnancy?",
+      "image": {
+        "src": "images/week-5-cbl/014.jpg",
+        "caption": "Decidua at the base of the placenta, H&E",
+        "credit": "Week 5 CBL p. 26"
+      },
+      "answers": {
+        "A": "Cytomegalovirus infection",
+        "B": "Gestational diabetes",
+        "C": "Placenta previa",
+        "D": "Preeclampsia",
+        "E": "Rh alloimmunization"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Congenital CMV causes chronic villitis with viral inclusions, not thick-walled decidual arteries.",
+        "B": "Diabetes tends to cause a large placenta and a large baby, not growth restriction with decidual vasculopathy.",
+        "C": "Previa is a problem of implantation site and causes painless bleeding, not arterial wall changes.",
+        "D": "Hypertrophic decidual vasculopathy, with thick muscular walls on spiral arteries that failed to remodel, is the hallmark placental finding of preeclampsia.",
+        "E": "Rh disease causes a large, pale, edematous placenta with fetal anemia and hydrops."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-015",
+      "question": "A 32-year-old woman at 34 weeks' gestation with preeclampsia has epigastric and right upper quadrant pain. Laboratory studies are shown. Which liver histology is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "9.4 g/dL",
+          "11.5–15.5 g/dL"
+        ],
+        [
+          "Platelets",
+          "68,000/mm³",
+          "150,000–400,000/mm³"
+        ],
+        [
+          "LDH",
+          "820 U/L",
+          "100–250 U/L"
+        ],
+        [
+          "AST",
+          "290 U/L",
+          "10–40 U/L"
+        ],
+        [
+          "ALT",
+          "240 U/L",
+          "7–56 U/L"
+        ],
+        [
+          "Glucose",
+          "94 mg/dL",
+          "70–100 mg/dL"
+        ],
+        [
+          "Peripheral smear",
+          "Schistocytes",
+          "None"
+        ]
+      ],
+      "answers": {
+        "A": "Diffuse microvesicular fat with little necrosis",
+        "B": "Fibrin deposits with necrosis and hemorrhage",
+        "C": "Ground-glass hepatocytes with portal lymphocytes",
+        "D": "Mallory bodies with neutrophil infiltrates",
+        "E": "Regenerative nodules within fibrous septa"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Microvesicular steatosis is acute fatty liver of pregnancy, which usually has hypoglycemia and liver failure rather than this hemolysis pattern.",
+        "B": "In HELLP syndrome, endothelial injury leads to fibrin deposition, hepatocellular necrosis and focal hemorrhage, which stretch the liver capsule and cause RUQ pain.",
+        "C": "Ground-glass hepatocytes indicate chronic hepatitis B.",
+        "D": "Mallory–Denk bodies with neutrophils suggest alcoholic hepatitis.",
+        "E": "Nodules within fibrous bands are cirrhosis, which takes years to develop."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-016",
+      "question": "A 22-year-old woman has a generalized seizure on postpartum day 2 after a pregnancy complicated by preeclampsia. Before the seizure she had a severe headache and blurred vision. Blood pressure is 178/116 mm Hg. An MRI of the brain is shown. Which mechanism best explains the imaging findings?",
+      "image": {
+        "src": "images/week-5-cbl/016.jpg",
+        "caption": "Axial T2-weighted MRI of the brain",
+        "credit": "Week 5 CBL p. 28"
+      },
+      "answers": {
+        "A": "Arterial embolism to both posterior cerebral arteries",
+        "B": "Bleeding from a ruptured berry aneurysm",
+        "C": "Clot in the superior sagittal sinus",
+        "D": "Failed autoregulation causing vasogenic edema",
+        "E": "Neuronal swelling from severe hypoglycemia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Embolic strokes cause cytotoxic edema confined to vascular territories and do not reverse with blood pressure control.",
+        "B": "A ruptured aneurysm causes subarachnoid blood and a thunderclap headache, not symmetric posterior edema.",
+        "C": "Venous sinus thrombosis can occur postpartum but causes edema and hemorrhage in a venous drainage pattern.",
+        "D": "Very high pressure overwhelms cerebral autoregulation and disrupts the blood–brain barrier, causing vasogenic edema mainly in the occipital and parietal lobes: posterior reversible encephalopathy syndrome.",
+        "E": "Hypoglycemic injury involves the cortex, basal ganglia and hippocampi and occurs with low glucose."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-017",
+      "question": "A 34-year-old woman at 36 weeks' gestation is brought in after a fall down stairs with sudden constant abdominal pain and dark vaginal bleeding. The uterus is firm and tender, and the fetal heart tracing shows recurrent late decelerations. At emergency cesarean delivery the uterine wall is purple-blue, with blood dissecting between the muscle fibers. This uterine finding most increases her risk for which complication right after delivery?",
+      "answers": {
+        "A": "Amniotic fluid embolism",
+        "B": "Hemorrhage from uterine atony",
+        "C": "Retained placenta adherent to the myometrium",
+        "D": "Rupture of a prior uterine scar",
+        "E": "Uterine inversion during placental delivery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Amniotic fluid embolism causes sudden cardiorespiratory collapse; it is not caused by blood in the myometrium.",
+        "B": "This is a Couvelaire uterus: blood infiltrating the myometrium keeps it from contracting, so massive postpartum hemorrhage can follow.",
+        "C": "Abnormal adherence is the accreta spectrum from absent decidua; here the placenta has separated.",
+        "D": "Uterine rupture occurs through a scar during labor; this patient's findings follow an abruption from trauma.",
+        "E": "Inversion follows excess cord traction on a fundal placenta."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-018",
+      "question": "A 26-year-old woman with type 1 diabetes since childhood learns she is 6 weeks pregnant. The pregnancy was unplanned, and her hemoglobin A1c is 11.2%. Which fetal anomaly is most strongly linked to her poor glycemic control?",
+      "answers": {
+        "A": "Ebstein anomaly",
+        "B": "Hypoplastic left heart syndrome",
+        "C": "Supravalvular aortic stenosis",
+        "D": "Tetralogy of Fallot with absent thymus",
+        "E": "Transposition of the great arteries"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Ebstein anomaly is classically linked to first-trimester lithium exposure.",
+        "B": "Hypoplastic left heart is not one of the classic defects of maternal diabetes.",
+        "C": "Supravalvular aortic stenosis is associated with Williams syndrome.",
+        "D": "Tetralogy with thymic aplasia suggests 22q11.2 deletion.",
+        "E": "Hyperglycemia during organogenesis in pregestational diabetes causes heart defects, classically transposition of the great arteries, along with VSD, truncus arteriosus and coarctation."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-019",
+      "question": "A newborn boy delivered at 39 weeks to a mother with poorly controlled gestational diabetes weighs 4,400 g. At 8 hours he looks ruddy and is jittery. Laboratory studies are shown. Which mechanism best explains his elevated hematocrit?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range (term newborn)"
+        ],
+        [
+          "Hematocrit",
+          "70%",
+          "42–65%"
+        ],
+        [
+          "Glucose",
+          "30 mg/dL",
+          "> 45 mg/dL"
+        ],
+        [
+          "Bilirubin",
+          "5.9 mg/dL",
+          "< 8 mg/dL at 24 h"
+        ]
+      ],
+      "answers": {
+        "A": "Delayed cord clamping at delivery",
+        "B": "Erythropoietin release driven by fetal hypoxemia",
+        "C": "Insulin acting directly on marrow erythroid cells",
+        "D": "Maternal red cells crossing the placenta",
+        "E": "Water loss from neonatal glucosuria"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Delayed clamping raises hematocrit slightly but does not explain the link to maternal diabetes.",
+        "B": "Fetal hyperinsulinemia raises metabolic rate and oxygen use; the resulting fetal hypoxemia raises erythropoietin and red cell production.",
+        "C": "The erythropoietic signal is hypoxemia-driven erythropoietin, not insulin itself.",
+        "D": "Maternal red cells do not cross the placenta in meaningful numbers.",
+        "E": "These infants are hypoglycemic, so they do not lose water through glucosuria."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-020",
+      "question": "A 2-day-old girl whose mother had poorly controlled pregestational diabetes is jittery and has a brief seizure. Serum glucose is 65 mg/dL. Laboratory studies are shown. Which mechanism best explains her low calcium?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range (newborn)"
+        ],
+        [
+          "Total calcium",
+          "6.5 mg/dL",
+          "8.0–10.5 mg/dL"
+        ],
+        [
+          "Magnesium",
+          "1.0 mg/dL",
+          "1.6–2.4 mg/dL"
+        ],
+        [
+          "Phosphorus",
+          "7.2 mg/dL",
+          "4.5–9.0 mg/dL"
+        ],
+        [
+          "PTH",
+          "Inappropriately low",
+          "—"
+        ]
+      ],
+      "answers": {
+        "A": "Excess calcitonin from the fetal thyroid",
+        "B": "Impaired fetal PTH release from low magnesium",
+        "C": "Maternal hypercalcemia suppressing fetal parathyroids",
+        "D": "Thymic and parathyroid aplasia",
+        "E": "Vitamin D deficiency from lack of sunlight"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Calcitonin plays little role in neonatal calcium balance.",
+        "B": "Maternal hyperglycemia increases urinary magnesium loss, so mother and fetus become hypomagnesemic, which impairs PTH secretion and causes neonatal hypocalcemia.",
+        "C": "Maternal hyperparathyroidism can cause neonatal hypocalcemia, but nothing suggests it here, and it would not explain the low magnesium.",
+        "D": "DiGeorge syndrome causes hypocalcemia with low PTH, but magnesium is normal and there is no link to maternal diabetes.",
+        "E": "Vitamin D deficiency causes later hypocalcemia and rickets, not day-2 hypocalcemia with hypomagnesemia."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-021",
+      "question": "A 1-day-old boy born to a mother with poorly controlled diabetes has tachypnea and a harsh systolic murmur. Echocardiography shows a markedly thickened interventricular septum with dynamic left ventricular outflow obstruction; the findings resolve over the next 6 months. Which process caused his heart findings?",
+      "answers": {
+        "A": "Fat and glycogen storage from fetal hyperinsulinemia",
+        "B": "Lysosomal glycogen storage from acid maltase deficiency",
+        "C": "Mutation in a sarcomeric myosin gene",
+        "D": "Pressure overload from aortic coarctation",
+        "E": "Viral myocarditis acquired in utero"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Fetal hyperinsulinemia drives fat and glycogen storage in myocardial cells, thickening the septum and walls; this hypertrophic cardiomyopathy is transient.",
+        "B": "Pompe disease causes progressive cardiomegaly with hypotonia; it does not resolve and is not linked to maternal diabetes.",
+        "C": "Familial hypertrophic cardiomyopathy is permanent; resolution within months points to a metabolic cause.",
+        "D": "Coarctation causes concentric LV hypertrophy with an arm–leg pressure gradient.",
+        "E": "Myocarditis causes a dilated, weak ventricle, not septal hypertrophy."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-022",
+      "question": "A 3-day-old boy born at term has fever, poor feeding and a bulging fontanelle. CSF Gram stain shows gram-positive cocci in chains. The organism is β-hemolytic and grows in the presence of bacitracin. Which bacterial component most directly protects it from complement and phagocytosis?",
+      "answers": {
+        "A": "M protein",
+        "B": "Pneumolysin",
+        "C": "Polysaccharide intercellular adhesin",
+        "D": "Protein A",
+        "E": "Sialic acid capsule"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "M protein is the antiphagocytic factor of group A streptococcus, which is bacitracin-sensitive.",
+        "B": "Pneumolysin is a toxin of S. pneumoniae, an α-hemolytic diplococcus.",
+        "C": "This biofilm adhesin belongs to coagulase-negative staphylococci, which grow in clusters.",
+        "D": "Protein A binds the Fc portion of IgG on S. aureus, which grows in clusters.",
+        "E": "Group B streptococcus (S. agalactiae) is a β-hemolytic, bacitracin-resistant coccus in chains; its sialic acid capsule inhibits complement and phagocytosis."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-023",
+      "question": "A 10-day-old girl born at term has fever and lethargy. CSF shows 2,100 leukocytes/mm³ (88% neutrophils), protein 230 mg/dL, and glucose 15 mg/dL. Gram stain shows gram-negative rods; culture grows a lactose-fermenting, oxidase-negative organism. Which virulence factor is most associated with this organism causing neonatal meningitis?",
+      "answers": {
+        "A": "Heat-labile enterotoxin",
+        "B": "K1 capsular antigen",
+        "C": "P fimbriae",
+        "D": "Shiga-like toxin",
+        "E": "Type III secretion system"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Heat-labile toxin raises enterocyte cAMP and causes watery diarrhea (ETEC).",
+        "B": "Escherichia coli strains with the K1 capsule cause neonatal meningitis; the capsule resists complement and phagocytosis.",
+        "C": "P fimbriae help uropathogenic E. coli bind the urinary tract and cause pyelonephritis.",
+        "D": "Shiga-like toxin (EHEC) causes bloody diarrhea and hemolytic uremic syndrome.",
+        "E": "Type III secretion drives enteric invasion by Shigella and Salmonella."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-024",
+      "question": "A 27-year-old woman at 33 weeks' gestation had a flu-like illness 2 weeks after eating unpasteurized cheese. Her newborn develops sepsis and meningitis on day 1. CSF shows short gram-positive rods that are catalase-positive and show tumbling motility in a wet mount. Which bacterial product allows this organism to escape from the phagosome of host cells?",
+      "answers": {
+        "A": "ActA",
+        "B": "Internalin",
+        "C": "Listeriolysin O",
+        "D": "Mycolic acid",
+        "E": "Polyglutamate capsule"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "ActA polymerizes host actin to push Listeria into neighboring cells; it acts after the organism is already in the cytoplasm.",
+        "B": "Internalins mediate entry into host cells, not escape from the phagosome.",
+        "C": "Listeria monocytogenes uses listeriolysin O, a pore-forming toxin, to break out of the phagosome into the cytoplasm.",
+        "D": "Mycolic acids form the waxy wall of Mycobacterium and Nocardia.",
+        "E": "A poly-D-glutamate capsule belongs to Bacillus anthracis."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-025",
+      "question": "A 31-year-old woman, gravida 2, para 1, at 36 weeks' gestation has a vaginal–rectal culture positive for group B streptococcus. She has no allergies and no symptoms, and her previous delivery was uncomplicated. Which of the following is the most appropriate management?",
+      "answers": {
+        "A": "Cesarean delivery at 39 weeks",
+        "B": "IV penicillin G at the onset of labor",
+        "C": "No treatment unless she becomes febrile",
+        "D": "Oral amoxicillin for 7 days now",
+        "E": "Repeat the culture at 38 weeks"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "GBS colonization is not an indication for cesarean delivery.",
+        "B": "GBS-positive patients get intrapartum IV penicillin G (or ampicillin) at labor or membrane rupture, ideally ≥4 hours before delivery, to prevent early-onset neonatal infection.",
+        "C": "Prophylaxis aims to prevent neonatal infection, so it is not withheld until maternal fever.",
+        "D": "Treating now does not prevent recolonization before delivery and is not recommended.",
+        "E": "One positive culture at 36–37 weeks is enough to give intrapartum prophylaxis."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-026",
+      "question": "A 26-year-old woman at 11 weeks' gestation has routine prenatal studies. She has no urinary symptoms and is afebrile. A clean-catch urine culture grows >100,000 CFU/mL of Escherichia coli. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Cystoscopy to look for a structural cause",
+        "B": "IV ceftriaxone with hospital admission",
+        "C": "No treatment because she has no symptoms",
+        "D": "Oral antibiotics with a repeat culture",
+        "E": "Repeat culture in the third trimester"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cystoscopy is not part of managing asymptomatic bacteriuria in pregnancy.",
+        "B": "Admission and IV antibiotics are for pyelonephritis, not uncomplicated bacteriuria.",
+        "C": "Asymptomatic bacteriuria is treated in pregnancy because urinary stasis raises the risk of progressing to pyelonephritis.",
+        "D": "A 5–7 day oral course (e.g., cephalexin or amoxicillin-clavulanate) with a repeat culture for test of cure is the standard approach.",
+        "E": "Waiting allows progression to pyelonephritis."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-027",
+      "question": "A 29-year-old woman at 22 weeks' gestation has a reactive RPR confirmed with a treponemal test. She has never been treated for syphilis. As a child she developed hives and wheezing after taking amoxicillin. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Azithromycin, single oral dose",
+        "B": "Ceftriaxone IM daily for 10 days instead of penicillin",
+        "C": "Doxycycline by mouth for 14 days after the first trimester",
+        "D": "Observation with a repeat RPR in 4 weeks",
+        "E": "Penicillin desensitization, then benzathine penicillin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Macrolide resistance is common in T. pallidum, and azithromycin does not reliably treat the fetus.",
+        "B": "Ceftriaxone is not an accepted alternative for syphilis in pregnancy.",
+        "C": "Tetracyclines are avoided in pregnancy because they affect fetal bones and teeth.",
+        "D": "Delay allows transplacental infection; treatment should not wait.",
+        "E": "Only penicillin reliably treats syphilis in pregnancy and prevents congenital syphilis, so a penicillin-allergic patient is desensitized and then given benzathine penicillin G."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-028",
+      "question": "A 30-year-old woman has a positive hepatitis B surface antigen at her first prenatal visit. Liver enzymes are normal, and she remains well through pregnancy. She delivers a healthy girl at 39 weeks. What should the newborn receive?",
+      "answers": {
+        "A": "HBIG plus hepatitis B vaccine within 12 hours",
+        "B": "Hepatitis B immune globulin alone at 1 month",
+        "C": "Hepatitis B vaccine alone at 2 months",
+        "D": "Oral lamivudine for 6 weeks from birth",
+        "E": "Testing for HBsAg first, then treatment if positive"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Infants of HBsAg-positive mothers get hepatitis B immune globulin and the first vaccine dose within 12 hours of birth (passive plus active immunity).",
+        "B": "HBIG alone, given late, does not prevent perinatal transmission.",
+        "C": "Delaying the vaccine and omitting HBIG leaves the infant unprotected when exposure is highest.",
+        "D": "Newborns do not receive antivirals; prevention is HBIG plus vaccine.",
+        "E": "Waiting for infection gives up prevention, and most perinatally infected infants develop chronic hepatitis B."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-029",
+      "question": "A 27-year-old woman, gravida 2, para 1, at 29 weeks' gestation is seen in November. She received Tdap in her previous pregnancy 3 years ago and has not had an influenza vaccine this season. Her rubella IgG was negative at the first visit. Which vaccines should she receive today?",
+      "answers": {
+        "A": "Inactivated influenza only, because Tdap was already given",
+        "B": "Live attenuated influenza and Tdap",
+        "C": "MMR, Tdap and inactivated influenza",
+        "D": "Tdap and inactivated influenza",
+        "E": "Tdap only, with influenza vaccine after delivery"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A prior Tdap does not change the recommendation; Tdap is given in every pregnancy.",
+        "B": "The live attenuated nasal influenza vaccine is contraindicated in pregnancy.",
+        "C": "MMR is a live vaccine and is contraindicated during pregnancy.",
+        "D": "Tdap is given in every pregnancy at 27–36 weeks, and inactivated influenza vaccine in any trimester during flu season; MMR waits until after delivery.",
+        "E": "Inactivated influenza vaccine is recommended during pregnancy, in any trimester."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-030",
+      "question": "A 21-year-old woman at 14 weeks' gestation has a negative rubella IgG on routine prenatal testing. She has no rash and no known exposure. Which plan for rubella protection is most appropriate?",
+      "answers": {
+        "A": "MMR vaccine after delivery, before discharge",
+        "B": "MMR vaccine today",
+        "C": "Monthly rubella immune globulin until delivery",
+        "D": "No action, because rubella has been eliminated",
+        "E": "Rubella-only vaccine in the second trimester"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Nonimmune pregnant patients get MMR postpartum, before hospital discharge, because live vaccines are contraindicated during pregnancy.",
+        "B": "MMR is a live vaccine and is not given during pregnancy.",
+        "C": "Immune globulin is not used as routine protection for nonimmune pregnant patients.",
+        "D": "Imported cases still occur, and vaccinating after delivery protects future pregnancies.",
+        "E": "Every rubella vaccine is live and contraindicated in pregnancy."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-031",
+      "question": "A 40-year-old woman at 17 weeks' gestation has a quadruple screen that is positive for trisomy 21. Her age-related risk before testing was 1 in 100. Test characteristics are shown. What is the approximate probability that her fetus has trisomy 21?",
+      "table": [
+        [
+          "Quadruple screen",
+          "Value"
+        ],
+        [
+          "Sensitivity for trisomy 21",
+          "81%"
+        ],
+        [
+          "Specificity for trisomy 21",
+          "95%"
+        ],
+        [
+          "Prior risk at age 40",
+          "1 in 100"
+        ]
+      ],
+      "answers": {
+        "A": "1%",
+        "B": "14%",
+        "C": "16%",
+        "D": "81%",
+        "E": "95%"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "1% is her prior risk; a positive result with an LR+ above 1 must raise it.",
+        "B": "LR+ = 0.81 ÷ (1 − 0.95) ≈ 16. Prior odds = 1/99 ≈ 0.010; post-test odds ≈ 0.16; probability = 0.16 ÷ 1.16 ≈ 14%.",
+        "C": "This mistakes the LR+ (about 16) for a percentage instead of applying it to the prior odds.",
+        "D": "81% is the sensitivity, the chance of a positive test if the fetus is affected, not the chance the fetus is affected after a positive test.",
+        "E": "95% is the specificity, which describes unaffected pregnancies."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-032",
+      "question": "A 24-year-old woman at 13 weeks' gestation is told her first-trimester combined screen is positive for trisomy 21. She asks whether this means her baby has Down syndrome. Which statement is most accurate?",
+      "answers": {
+        "A": "More likely affected than unaffected",
+        "B": "Most likely unaffected; diagnostic testing can tell",
+        "C": "The chance the baby is affected equals the test's sensitivity",
+        "D": "The result must be a false positive at her age",
+        "E": "The screen also rules out neural tube defects"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "With a low prior probability, the post-test probability stays well below 50% even after a positive screen.",
+        "B": "A positive screen raises her risk, but with her low prior risk most fetuses with this result are unaffected; CVS or amniocentesis confirms or excludes the diagnosis.",
+        "C": "Sensitivity is the chance of a positive test given disease, not the chance of disease given a positive test.",
+        "D": "Young age lowers the prior risk but cannot prove a result false.",
+        "E": "The first-trimester screen does not assess neural tube defects; only AFP on the quad screen does."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-033",
+      "question": "A 35-year-old woman at 10 weeks' gestation with a BMI of 48 kg/m² has cell-free DNA screening. The laboratory cannot report a result because the fetal fraction is 2.8%. Which interpretation is most accurate?",
+      "answers": {
+        "A": "The fetus has a normal chromosome complement",
+        "B": "The placenta has confined placental mosaicism",
+        "C": "The pregnancy began as twins with one demise",
+        "D": "The sample contains maternal tumor DNA",
+        "E": "Uninformative, with a higher aneuploidy risk"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A no-call gives no information about fetal chromosomes, so it cannot be read as normal.",
+        "B": "Confined placental mosaicism causes false-positive results, not a low fetal fraction.",
+        "C": "A vanishing twin causes false-positive cfDNA results, not a no-call.",
+        "D": "Maternal cancer can cause unusual positive results, not a low fetal fraction.",
+        "E": "Low fetal fraction (high BMI, early testing, twins) leads to a no-call, and a no-call carries a higher risk of aneuploidy, so follow-up testing is offered."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-034",
+      "question": "A blood sample for cell-free DNA screening is drawn into a standard EDTA tube and left unspun at room temperature for 3 days. A repeat sample spun within 6 hours shows a much higher fetal fraction. Which process best explains the falsely low fetal fraction in the first sample?",
+      "answers": {
+        "A": "Breakdown of fetal DNA by plasma nucleases",
+        "B": "Lysis of maternal white cells adding maternal DNA",
+        "C": "Methylation changes in placental DNA during storage",
+        "D": "Precipitation of DNA by EDTA",
+        "E": "Selective shortening of placental DNA fragments"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "EDTA binds the Mg²⁺ that nucleases need, so nuclease degradation is not the main problem in an EDTA tube.",
+        "B": "If maternal white cells are not removed promptly, they break open and release maternal DNA into the plasma, diluting the fetal fraction.",
+        "C": "Methylation patterns do not change in a stored blood tube.",
+        "D": "EDTA protects cfDNA by inhibiting nucleases; it does not precipitate it.",
+        "E": "Placental fragments are naturally short (about 142 bp); storage does not selectively shorten them."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-035",
+      "question": "A 28-year-old woman with regular 28-day cycles has a positive pregnancy test. The first day of her last menstrual period was February 3, 2026. Using Naegele's rule, what is her estimated date of delivery?",
+      "answers": {
+        "A": "December 10, 2026",
+        "B": "November 10, 2026",
+        "C": "November 17, 2026",
+        "D": "November 3, 2026",
+        "E": "October 27, 2026"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This adds 7 days and 10 months, overshooting by a month.",
+        "B": "Naegele's rule: first day of the LMP + 7 days − 3 months + 1 year, so February 3 → February 10 → November 10, 2026 (about LMP + 280 days).",
+        "C": "This adds 14 days instead of 7.",
+        "D": "This subtracts 3 months and adds a year but forgets to add 7 days.",
+        "E": "This subtracts 7 days instead of adding them."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-036",
+      "question": "A 30-year-old woman with moderate persistent asthma at 33 weeks' gestation has blood pressures of 162/108 and 158/110 mm Hg. Her preeclampsia workup is in progress, and treatment of the severe-range pressure is started. Which antihypertensive is most appropriate for her?",
+      "answers": {
+        "A": "Atenolol",
+        "B": "Enalapril",
+        "C": "Furosemide",
+        "D": "Labetalol",
+        "E": "Nifedipine"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Atenolol is avoided in pregnancy because it is linked to fetal growth restriction.",
+        "B": "ACE inhibitors are contraindicated in pregnancy because of fetal kidney toxicity.",
+        "C": "Diuretics reduce plasma volume and placental perfusion and do not treat severe hypertension in pregnancy.",
+        "D": "Labetalol blocks β2 as well as β1 and α1 receptors and can provoke bronchospasm, so it is avoided in asthma.",
+        "E": "Nifedipine, an L-type calcium channel blocker, is a first-line antihypertensive in pregnancy and is preferred when a β-blocker is unsafe, as in asthma."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-037",
+      "question": "A 34-year-old woman with chronic hypertension continued lisinopril after an unplanned conception and presents for her first prenatal visit at 24 weeks' gestation. Ultrasound shows severe oligohydramnios and small fetal kidneys. Which mechanism best explains the low amniotic fluid?",
+      "answers": {
+        "A": "Fetal anuria from blocked angiotensin II effects",
+        "B": "Leakage of fluid through ruptured membranes",
+        "C": "Maternal hypovolemia from natriuresis",
+        "D": "Obstruction of the fetal urethra by posterior valves",
+        "E": "Placental insufficiency from maternal hypotension"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In the 2nd–3rd trimesters, ACE inhibitors block fetal angiotensin II, which is needed to maintain fetal GFR; the resulting renal dysgenesis and oliguria cause oligohydramnios.",
+        "B": "Membrane rupture causes oligohydramnios but would not explain small fetal kidneys.",
+        "C": "ACE inhibitors cause only mild maternal natriuresis; the problem is in the fetal kidney.",
+        "D": "Posterior urethral valves cause enlarged, hydronephrotic kidneys and a distended bladder in a male fetus.",
+        "E": "Placental insufficiency can reduce fluid, but it would not cause renal dysgenesis."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-038",
+      "question": "A 29-year-old woman with chronic hypertension has taken methyldopa since early pregnancy. At 30 weeks' gestation she reports fatigue and dark urine. Laboratory studies are shown. Which mechanism best explains her findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "8.6 g/dL",
+          "11.5–15.5 g/dL"
+        ],
+        [
+          "Reticulocytes",
+          "7%",
+          "0.5–2.5%"
+        ],
+        [
+          "Platelets",
+          "240,000/mm³",
+          "150,000–400,000/mm³"
+        ],
+        [
+          "LDH",
+          "560 U/L",
+          "100–250 U/L"
+        ],
+        [
+          "Indirect bilirubin",
+          "3.1 mg/dL",
+          "0.2–0.8 mg/dL"
+        ],
+        [
+          "Direct Coombs (IgG)",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "Peripheral smear",
+          "Spherocytes",
+          "None"
+        ]
+      ],
+      "answers": {
+        "A": "Bone marrow suppression by the drug",
+        "B": "Drug-induced IgG against red cell antigens",
+        "C": "Microangiopathic hemolysis from preeclampsia",
+        "D": "Oxidant damage in G6PD-deficient red cells",
+        "E": "Physiologic dilution from plasma volume expansion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Marrow suppression would lower the reticulocyte count, not raise it.",
+        "B": "Methyldopa can induce IgG autoantibodies against red cell antigens, causing a positive direct Coombs test and warm autoimmune hemolytic anemia.",
+        "C": "HELLP would show schistocytes, thrombocytopenia and a negative Coombs test.",
+        "D": "G6PD hemolysis shows bite cells and Heinz bodies with a negative Coombs test.",
+        "E": "Dilutional anemia does not raise LDH or bilirubin or turn the Coombs test positive."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-039",
+      "question": "A 32-year-old woman with chronic hypertension has been treated with oral hydralazine throughout a prolonged course. She develops arthralgias, a malar-area rash and a pleuritic chest pain. Antinuclear antibodies are positive at a high titer. Which antibody is most likely to also be positive?",
+      "answers": {
+        "A": "Anti-centromere",
+        "B": "Anti-dsDNA",
+        "C": "Anti-histone",
+        "D": "Anti-Jo-1",
+        "E": "Anti-Smith"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anti-centromere antibodies are associated with limited systemic sclerosis (CREST).",
+        "B": "Anti-dsDNA is specific for systemic lupus and is usually negative in drug-induced lupus.",
+        "C": "Hydralazine can cause a drug-induced lupus-like syndrome, which is typically marked by anti-histone antibodies.",
+        "D": "Anti-Jo-1 is associated with polymyositis and dermatomyositis.",
+        "E": "Anti-Smith is specific for systemic lupus erythematosus, not the drug-induced form."
+      }
+    },
+    {
+      "id": "endorepro-week-5-cbl-040",
+      "question": "A 30-year-old woman at 28 weeks' gestation asks whether she can keep jogging 30 minutes a day. She feels well. An ultrasound last week showed the placenta completely covering the internal cervical os. Which is the most appropriate advice?",
+      "answers": {
+        "A": "Continue, keeping her heart rate below 140/min",
+        "B": "Continue, using the talk test to gauge intensity",
+        "C": "Stop aerobic exercise because of the previa",
+        "D": "Switch to scuba diving as low-impact exercise",
+        "E": "Switch to supine strength training instead"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Heart rate is unreliable for gauging intensity in pregnancy, and the issue here is a contraindication, not intensity.",
+        "B": "The talk test is the right way to gauge intensity for a patient who can exercise, but she has a contraindication.",
+        "C": "Placenta previa after 26 weeks is a contraindication to aerobic exercise in pregnancy, as are preeclampsia, ruptured membranes, preterm labor and cervical insufficiency.",
+        "D": "Scuba diving is unsafe in pregnancy regardless of placental position.",
+        "E": "Exercising flat on the back after 20 weeks lets the uterus compress the IVC and cause hypotension."
+      }
+    }
+  ]
+}
