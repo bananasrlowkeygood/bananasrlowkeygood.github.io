@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>stats</title>
+  <link rel="icon" href="../icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #eae6f0;
+      --ink: #14111a;
+      --ink-2: #4a4256;
+      --accent: #5c4f7a;
+      --accent-hi: #6e5f90;
+      --accent-lo: #3e3456;
+      --bar: #7c6ca8;
+      --bar-hi: #5c4f7a;
+      --light: #f0ecf8;
+      --muted: #8a83a3;
+      --card: rgba(255, 255, 255, 0.55);
+      --line: rgba(92, 79, 122, 0.18);
+      --good: #2f7d55;
+      --bad: #b23a48;
+      --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    }
+    body {
+      font-family: "Klee One", cursive;
+      background: var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding: 28px 16px 60px;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: -25%;
+      z-index: -1;
+      pointer-events: none;
+      background:
+        radial-gradient(34% 40% at 18% 22%, rgba(124, 108, 168, 0.26), transparent 62%),
+        radial-gradient(32% 38% at 84% 26%, rgba(170, 150, 210, 0.22), transparent 62%),
+        radial-gradient(40% 46% at 62% 86%, rgba(150, 170, 214, 0.18), transparent 64%);
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    main { max-width: 1100px; margin: 0 auto; }
+    .num, td.n, .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+    /* gate */
+    #gate { max-width: 420px; margin: 18vh auto 0; text-align: center; }
+    #gate h1 { font-size: 1.8rem; font-weight: 600; margin-bottom: 18px; }
+    .cmd {
+      display: flex; align-items: center; gap: 10px; height: 48px;
+      padding: 0 6px 0 14px; background: var(--card); border: 1px solid var(--line);
+      border-radius: 12px; box-shadow: 0 10px 30px rgba(70, 50, 110, 0.10);
+    }
+    .cmd:focus-within { border-color: var(--accent); }
+    .cmd span { font-family: var(--mono); font-size: 0.86rem; color: var(--accent); white-space: nowrap; }
+    .cmd input {
+      flex: 1; min-width: 0; border: none; outline: none; background: transparent;
+      font-family: var(--mono); font-size: 0.92rem; color: var(--ink);
+    }
+    button {
+      font-family: "Klee One", cursive; background: var(--accent); color: var(--light);
+      border: none; height: 34px; padding: 0 14px; border-radius: 9px; cursor: pointer; font-size: 0.9rem;
+    }
+    button:hover { background: var(--accent-hi); }
+    button:active { background: var(--accent-lo); }
+    button:disabled { background: #b9b6bf; color: #f4f3f6; cursor: default; }
+    .msg { min-height: 1.3em; margin-top: 12px; color: var(--bad); font-size: 0.9rem; }
+
+    /* header */
+    header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
+    header .left { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+    h1 { font-size: 1.7rem; font-weight: 600; }
+    .sub { color: var(--muted); font-size: 0.85rem; }
+    .chips { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+    .chip {
+      height: 30px; padding: 0 12px; border-radius: 15px; font-size: 0.85rem;
+      background: var(--card); color: var(--accent); border: 1px solid var(--line);
+    }
+    .chip:hover { background: #fff; }
+    .chip.on { background: var(--accent); color: var(--light); border-color: var(--accent); }
+
+    section { margin-top: 28px; }
+    h2 { font-size: 1.15rem; font-weight: 600; margin-bottom: 10px; }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+      padding: 14px 16px; box-shadow: 0 8px 24px rgba(70, 50, 110, 0.06);
+    }
+
+    /* tiles */
+    .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr)); gap: 10px; }
+    .tile .k { font-size: 0.82rem; color: var(--ink-2); }
+    .tile .v { font-family: var(--mono); font-size: 1.45rem; font-weight: 500; margin-top: 2px; }
+    .tile .d { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+    .v.good { color: var(--good); }
+    .v.bad { color: var(--bad); }
+
+    /* charts */
+    .charts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 10px; }
+    .chart .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+    .chart .t { font-size: 0.9rem; color: var(--ink-2); }
+    .chart .tot { font-family: var(--mono); font-size: 0.95rem; }
+    .chart svg { display: block; width: 100%; height: 110px; margin-top: 8px; overflow: visible; }
+    .chart .axis { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 0.68rem; color: var(--muted); margin-top: 4px; }
+    .chart rect.b { fill: var(--bar); }
+    .chart rect.hit { fill: transparent; }
+    .chart g:hover rect.b { fill: var(--bar-hi); }
+    .chart line.base { stroke: var(--line); stroke-width: 1; }
+
+    /* horizontal bars (funnel, versions) */
+    .hbars { display: grid; gap: 6px; }
+    .hrow { display: grid; grid-template-columns: minmax(120px, 190px) 1fr 90px; gap: 10px; align-items: center; font-size: 0.88rem; }
+    .hrow .track { height: 14px; border-radius: 4px; background: rgba(92, 79, 122, 0.08); overflow: hidden; }
+    .hrow .fill { height: 100%; background: var(--bar); border-radius: 0 4px 4px 0; min-width: 2px; }
+    .hrow .val { font-family: var(--mono); font-size: 0.8rem; text-align: right; color: var(--ink-2); }
+    .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(330px, 100%), 1fr)); gap: 10px; }
+
+    /* tables */
+    .tablewrap { overflow-x: auto; max-height: 520px; overflow-y: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+    th {
+      position: sticky; top: 0; background: #f3f0f8; text-align: left; font-weight: 600;
+      color: var(--ink-2); padding: 7px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; cursor: pointer;
+    }
+    th.n, td.n { text-align: right; }
+    td { padding: 6px 8px; border-bottom: 1px solid rgba(92, 79, 122, 0.08); white-space: nowrap; vertical-align: top; }
+    td.wrap { white-space: normal; min-width: 220px; max-width: 420px; word-break: break-word; }
+    tr.click { cursor: pointer; }
+    tr.click:hover td { background: rgba(255, 255, 255, 0.6); }
+    .props { font-family: var(--mono); font-size: 0.74rem; color: var(--ink-2); }
+    .tag { display: inline-block; padding: 1px 7px; border-radius: 6px; font-size: 0.74rem; background: rgba(92, 79, 122, 0.12); color: var(--accent-lo); }
+    .tag.server { background: rgba(47, 125, 85, 0.12); color: var(--good); }
+    .tag.web { background: rgba(178, 120, 30, 0.14); color: #7a5410; }
+    .tag.err { background: rgba(178, 58, 72, 0.12); color: var(--bad); }
+    .empty { color: var(--muted); font-size: 0.88rem; padding: 6px 0; }
+    .filterbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+    .filterbar input, .filterbar select {
+      height: 30px; border: 1px solid var(--line); border-radius: 8px; background: #fbfaff;
+      padding: 0 10px; font-family: var(--mono); font-size: 0.8rem; color: var(--ink); min-width: 0;
+    }
+    .note { color: var(--muted); font-size: 0.8rem; margin-top: 8px; }
+
+    #tip {
+      position: fixed; pointer-events: none; z-index: 10; background: #1f1a29; color: #f3effa;
+      font-family: var(--mono); font-size: 0.75rem; padding: 6px 9px; border-radius: 7px;
+      white-space: pre; opacity: 0; transition: opacity 0.08s;
+    }
+    @media (max-width: 560px) {
+      .hrow { grid-template-columns: 110px 1fr 70px; }
+      .tile .v { font-size: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="gate" hidden>
+      <h1>stats</h1>
+      <form class="cmd" id="gateForm" autocomplete="off">
+        <span>password:</span>
+        <input type="password" id="pw" autocomplete="current-password" autofocus>
+        <button type="submit">go</button>
+      </form>
+      <div class="msg" id="gateMsg"></div>
+    </div>
+
+    <div id="app" hidden>
+      <header>
+        <div class="left">
+          <a href="../">pdf occlusion</a>
+          <h1>stats</h1>
+          <span class="sub" id="asof"></span>
+        </div>
+        <div class="chips">
+          <button class="chip" data-range="7">7 days</button>
+          <button class="chip on" data-range="30">30 days</button>
+          <button class="chip" data-range="90">90 days</button>
+          <button class="chip" id="refresh">refresh</button>
+          <button class="chip" id="signout">sign out</button>
+        </div>
+      </header>
+
+      <section>
+        <div class="tiles" id="tiles"></div>
+      </section>
+
+      <section>
+        <h2>money</h2>
+        <div class="tiles" id="money"></div>
+        <div class="note" id="moneyNote"></div>
+      </section>
+
+      <section>
+        <h2>per day</h2>
+        <div class="charts" id="charts"></div>
+      </section>
+
+      <section class="two">
+        <div>
+          <h2>add-on funnel</h2>
+          <div class="card hbars" id="funnel"></div>
+        </div>
+        <div>
+          <h2>website funnel</h2>
+          <div class="card hbars" id="webFunnel"></div>
+        </div>
+      </section>
+
+      <section class="two">
+        <div>
+          <h2>versions</h2>
+          <div class="card hbars" id="versions"></div>
+          <div class="note" id="versionNote"></div>
+        </div>
+        <div>
+          <h2>updates</h2>
+          <div class="card tablewrap" id="updates"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>buttons</h2>
+        <div class="card tablewrap" id="clicks"></div>
+      </section>
+
+      <section>
+        <h2>computers</h2>
+        <div class="card tablewrap" id="clients"></div>
+      </section>
+
+      <section>
+        <h2>accounts</h2>
+        <div class="card tablewrap" id="accounts"></div>
+      </section>
+
+      <section>
+        <h2>auto-occlude runs</h2>
+        <div class="card tablewrap" id="jobs"></div>
+      </section>
+
+      <section>
+        <h2>payments</h2>
+        <div class="card tablewrap" id="payments"></div>
+      </section>
+
+      <section>
+        <h2>activity</h2>
+        <div class="card">
+          <div class="filterbar">
+            <select id="fSource">
+              <option value="">all sources</option>
+              <option value="addon">add-on</option>
+              <option value="web">website</option>
+              <option value="server">server</option>
+            </select>
+            <select id="fName"><option value="">all events</option></select>
+            <input id="fWho" placeholder="computer or email">
+            <button class="chip" id="fClear">clear</button>
+          </div>
+          <div class="tablewrap" id="feed"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>all events</h2>
+        <div class="card tablewrap" id="events"></div>
+      </section>
+    </div>
+  </main>
+  <div id="tip"></div>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const API = params.get("api") || "https://pdf-occlusion-api.pdf-occlusion.workers.dev";
+    const KEY = "po-stats-key";
+    let data = null;
+    let range = 30;
+
+    const $ = (id) => document.getElementById(id);
+    const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const fmt = (n) => (n == null ? "" : Number(n).toLocaleString("en-US"));
+    const usd = (n, d = 2) => (n == null ? "" : (n < 0 ? "-$" : "$") + Math.abs(n).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }));
+    const pct = (a, b) => (b ? Math.round((100 * a) / b) + "%" : "");
+    const dayKey = (ms) => new Date(ms).toLocaleDateString("en-CA");
+    const when = (ms) => {
+      if (!ms) return "";
+      const d = new Date(ms);
+      return d.toLocaleDateString("en-US", { month: "short", day: "numeric" }) + " " +
+        d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" }).toLowerCase();
+    };
+    const ago = (ms) => {
+      if (!ms) return "";
+      const s = (Date.now() - ms) / 1000;
+      if (s < 90) return "just now";
+      if (s < 3600) return Math.round(s / 60) + " min ago";
+      if (s < 86400) return Math.round(s / 3600) + " h ago";
+      return Math.round(s / 86400) + " d ago";
+    };
+    const short = (dev) => (!dev ? "" : dev.startsWith("w:") ? "browser " + dev.slice(2, 8) : "computer " + dev.slice(0, 6));
+    const who = (email, dev) => email || short(dev);
+    const parse = (p) => { try { return p ? JSON.parse(p) : null; } catch { return null; } };
+    const store = {
+      get() { try { return localStorage.getItem(KEY) || ""; } catch { return ""; } },
+      set(v) { try { v ? localStorage.setItem(KEY, v) : localStorage.removeItem(KEY); } catch {} },
+    };
+
+    // ---------------------------------------------------------------- load
+
+    async function load(pw) {
+      const res = await fetch(`${API}/v1/admin/stats?tz=${new Date().getTimezoneOffset()}`, {
+        headers: { authorization: `Bearer ${pw}` },
+      });
+      if (res.status === 401) throw new Error("wrong password");
+      if (!res.ok) throw new Error(`server said ${res.status}`);
+      return res.json();
+    }
+
+    async function start(pw) {
+      $("gateMsg").textContent = "";
+      try {
+        data = await load(pw);
+      } catch (e) {
+        store.set("");
+        $("app").hidden = true;
+        $("gate").hidden = false;
+        $("gateMsg").textContent = e.message === "Failed to fetch" ? "could not reach the server" : e.message;
+        $("pw").focus();
+        return;
+      }
+      store.set(pw);
+      $("gate").hidden = true;
+      $("app").hidden = false;
+      render();
+    }
+
+    $("gateForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const pw = $("pw").value.trim();
+      if (pw) start(pw);
+    });
+    $("signout").addEventListener("click", () => {
+      store.set("");
+      data = null;
+      $("pw").value = "";
+      $("app").hidden = true;
+      $("gate").hidden = false;
+      $("pw").focus();
+    });
+    $("refresh").addEventListener("click", async () => {
+      $("refresh").disabled = true;
+      await start(store.get());
+      $("refresh").disabled = false;
+    });
+    document.querySelectorAll("[data-range]").forEach((b) =>
+      b.addEventListener("click", () => {
+        range = Number(b.dataset.range);
+        document.querySelectorAll("[data-range]").forEach((x) => x.classList.toggle("on", x === b));
+        renderCharts();
+        renderTiles();
+      }),
+    );
+
+    // ---------------------------------------------------------------- money
+
+    const GROSS = new Set(["charge", "payment"]);
+    const REFUND = new Set(["refund", "payment_refund", "payment_failure_refund"]);
+    const PAYOUT = new Set(["payout", "payout_cancel", "payout_failure", "transfer", "transfer_cancel", "transfer_failure"]);
+
+    function money(sinceMs = 0) {
+      const s = data.stripe || {};
+      const txs = (s.transactions || []).filter((t) => !PAYOUT.has(t.type) && t.at >= sinceMs);
+      const gross = txs.filter((t) => GROSS.has(t.type)).reduce((a, t) => a + t.amount, 0);
+      const refunds = txs.filter((t) => REFUND.has(t.type)).reduce((a, t) => a + t.amount, 0);
+      const net = txs.reduce((a, t) => a + t.net, 0);
+      // everything between what was paid and what Stripe keeps for us is fees
+      return { gross, refunds, net, fees: gross + refunds - net, sales: txs.filter((t) => GROSS.has(t.type)).length };
+    }
+
+    function anthropic(sinceMs = 0) {
+      if (!sinceMs) return data.totals.cost || 0;
+      return data.jobs_daily.filter((r) => r.day >= dayKey(sinceMs)).reduce((a, r) => a + (r.cost || 0), 0);
+    }
+
+    // ---------------------------------------------------------------- tiles
+
+    function tile(k, v, d = "", cls = "") {
+      return `<div class="card tile"><div class="k">${esc(k)}</div><div class="v ${cls}">${v}</div><div class="d">${d}</div></div>`;
+    }
+
+    function sumDaily(name, field = "n") {
+      const since = dayKey(Date.now() - (range - 1) * 864e5);
+      return data.daily.filter((r) => r.name === name && r.day >= since).reduce((a, r) => a + r[field], 0);
+    }
+
+    function renderTiles() {
+      const t = data.totals;
+      const since = dayKey(Date.now() - (range - 1) * 864e5);
+      const jd = data.jobs_daily.filter((r) => r.day >= since);
+      const runs = jd.reduce((a, r) => a + r.runs, 0);
+      const pages = jd.reduce((a, r) => a + (r.pages || 0), 0);
+      const signups = data.signups.filter((r) => r.day >= since).reduce((a, r) => a + r.n, 0);
+      const lbl = `last ${range} days`;
+      $("tiles").innerHTML = [
+        tile("computers with the add-on", fmt(t.computers), `${fmt(t.computers_1d)} today, ${fmt(t.computers_7d)} this week`),
+        tile("pdfs opened", fmt(sumDaily("pdf_open")), `${lbl}, ${fmt(t.pdfs_opened)} all time`),
+        tile("auto-occlude opened", fmt(sumDaily("auto_occlude_open")), lbl),
+        tile("auto-occlude runs", fmt(runs), `${fmt(t.runs)} all time`),
+        tile("pages processed", fmt(pages), `${fmt(t.pages)} all time`),
+        tile("accounts", fmt(t.accounts), `${fmt(signups)} new, ${lbl}`),
+        tile("paying subscribers", fmt(t.subscribers), `${fmt(t.monthly)} monthly, ${fmt(t.yearly)} yearly`),
+        tile("paid at least once", fmt(t.customers), `${fmt(t.pack_holders)} hold pack pages`),
+        tile("website visitors", fmt(t.visitors), `${fmt(t.visitors_7d)} this week`),
+      ].join("");
+
+      const s = data.stripe || {};
+      const all = money(0), win = money(Date.now() - range * 864e5);
+      const aAll = anthropic(0), aWin = anthropic(Date.now() - (range - 1) * 864e5);
+      const profit = all.net - aAll;
+      $("money").innerHTML = s.error
+        ? tile("stripe", "unavailable", esc(s.error), "bad") +
+          tile("anthropic spend", usd(aAll), `${usd(aWin)} ${lbl}`)
+        : [
+            tile("earned", usd(all.gross), `${usd(win.gross)} ${lbl}, ${fmt(all.sales)} sales`),
+            tile("stripe fees", usd(all.fees), `${usd(win.fees)} ${lbl}`),
+            tile("refunds", usd(-all.refunds), `${usd(-win.refunds)} ${lbl}`),
+            tile("anthropic spend", usd(aAll), `${usd(aWin)} ${lbl}`),
+            tile("profit", usd(profit), `${usd(win.net - aWin)} ${lbl}`, profit >= 0 ? "good" : "bad"),
+            tile("stripe balance", usd(s.available ?? 0), `${usd(s.pending ?? 0)} pending`),
+          ].join("");
+      $("moneyNote").textContent =
+        "Anthropic spend is worked out from each run's token counts at list price, so evals run on the same key are not in it.";
+    }
+
+    // ---------------------------------------------------------------- charts
+
+    function days() {
+      const out = [];
+      for (let i = range - 1; i >= 0; i--) out.push(dayKey(Date.now() - i * 864e5));
+      return out;
+    }
+
+    function series(rows, pick) {
+      const m = new Map();
+      for (const r of rows) { const [k, v] = pick(r); if (k) m.set(k, (m.get(k) || 0) + (v || 0)); }
+      return m;
+    }
+
+    function chart(title, m, f = fmt) {
+      const ds = days();
+      const vals = ds.map((d) => m.get(d) || 0);
+      const max = Math.max(...vals, 0);
+      const total = vals.reduce((a, b) => a + b, 0);
+      const W = 100 / ds.length;
+      const gap = ds.length > 40 ? 0.15 : 0.35;
+      const bars = ds.map((d, i) => {
+        const h = max ? (vals[i] / max) * 100 : 0;
+        const label = new Date(d + "T12:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+        return `<g data-tip="${esc(label)}\n${esc(f(vals[i]))}">
+          <rect class="hit" x="${i * W}%" y="0" width="${W}%" height="100%"></rect>
+          ${vals[i] ? `<rect class="b" x="${i * W + gap}%" y="${100 - h}%" width="${Math.max(W - 2 * gap, 0.3)}%" height="${h}%" rx="2"></rect>` : ""}
+        </g>`;
+      }).join("");
+      const first = new Date(ds[0] + "T12:00").toLocaleDateString("en-US", { month: "short", day: "numeric" });
+      return `<div class="card chart">
+        <div class="top"><span class="t">${esc(title)}</span><span class="tot">${esc(f(total))}</span></div>
+        <svg preserveAspectRatio="none">${bars}<line class="base" x1="0" y1="100%" x2="100%" y2="100%"></line></svg>
+        <div class="axis"><span>${first}</span><span>max ${esc(f(max))}</span><span>today</span></div>
+      </div>`;
+    }
+
+    function renderCharts() {
+      const ev = (name, field = "n") => series(data.daily.filter((r) => r.name === name), (r) => [r.day, r[field]]);
+      const act = (src) => series(data.active.filter((r) => r.source === src), (r) => [r.day, r.d]);
+      const jd = (f) => series(data.jobs_daily, (r) => [r.day, r[f]]);
+      const txs = ((data.stripe || {}).transactions || []).filter((t) => !PAYOUT.has(t.type));
+      const rev = series(txs.filter((t) => GROSS.has(t.type)), (t) => [dayKey(t.at), t.amount]);
+      const fees = series(txs, (t) => [dayKey(t.at), GROSS.has(t.type) || REFUND.has(t.type) ? t.amount - t.net : -t.net]);
+      const usd2 = (n) => usd(n);
+      $("charts").innerHTML = [
+        chart("computers using the add-on", act("addon")),
+        chart("new computers", series(data.new_clients.filter((r) => r.kind === "addon"), (r) => [r.day, r.n])),
+        chart("pdfs opened", ev("pdf_open")),
+        chart("cards made", ev("cards_created")),
+        chart("auto-occlude opened", ev("auto_occlude_open")),
+        chart("auto-occlude runs", jd("runs")),
+        chart("pages processed", jd("pages")),
+        chart("sign-ups", series(data.signups, (r) => [r.day, r.n])),
+        chart("earned", rev, usd2),
+        chart("stripe fees", fees, usd2),
+        chart("anthropic spend", jd("cost"), usd2),
+        chart("website visitors", act("web")),
+        chart("errors", series(data.daily.filter((r) => /error/.test(r.name)), (r) => [r.day, r.n])),
+        chart("button presses", ev("click")),
+      ].join("");
+    }
+
+    // ---------------------------------------------------------------- funnels & versions
+
+    function hbars(rows, top) {
+      if (!rows.length) return `<div class="empty">nothing yet</div>`;
+      const max = top ?? Math.max(...rows.map((r) => r[1]), 1);
+      return rows.map(([k, v, extra]) => `<div class="hrow" data-tip="${esc(k)}\n${esc(fmt(v))}${extra ? "\n" + esc(extra) : ""}">
+        <span>${esc(k)}</span><div class="track"><div class="fill" style="width:${max ? (100 * v) / max : 0}%"></div></div>
+        <span class="val">${fmt(v)}${extra ? " " + esc(extra) : ""}</span></div>`).join("");
+    }
+
+    function renderFunnels() {
+      const f = data.funnel;
+      const steps = [
+        ["computers seen", f.seen], ["opened the window", f.opened_window], ["opened a pdf", f.opened_pdf],
+        ["made cards", f.made_cards], ["opened auto-occlude", f.opened_auto], ["signed in", f.signed_in],
+        ["ran auto-occlude", f.ran], ["paid", f.paid],
+      ].map(([k, v]) => [k, v, pct(v, f.seen)]);
+      $("funnel").innerHTML = hbars(steps, f.seen);
+      const w = [
+        ["visitors", f.web_visitors], ["saw pricing", f.web_pricing],
+      ].map(([k, v]) => [k, v, pct(v, f.web_visitors)]).concat([
+        ["accounts", data.totals.accounts], ["started checkout", f.web_checkout, pct(f.web_checkout, data.totals.accounts)],
+        ["bought", f.web_paid, pct(f.web_paid, data.totals.accounts)],
+      ]);
+      $("webFunnel").innerHTML = hbars(w, f.web_visitors);
+
+      $("versions").innerHTML = hbars(data.versions.map((r) => [
+        r.version + (r.version === data.latest_version ? " (latest)" : ""), r.n, `(${fmt(r.active)} active)`,
+      ]));
+      $("versionNote").textContent =
+        `Latest release ${data.latest_version || "not set"}. Auto-occlude needs ${data.min_version || "any version"} or newer. ` +
+        "Versions before 2026.11.09 send no statistics, so they are not counted here.";
+      $("updates").innerHTML = table(
+        [["when"], ["who"], ["from"], ["to"]],
+        data.updates.map((u) => { const p = parse(u.props) || {}; return [when(u.at), who(u.email, u.device), p.from, p.to]; }),
+      );
+    }
+
+    // ---------------------------------------------------------------- tables
+
+    // cols: [label, "n" for numbers]; rows: arrays of cell html/text
+    function table(cols, rows, opts = {}) {
+      if (!rows.length) return `<div class="empty">nothing yet</div>`;
+      const head = cols.map(([c, k], i) => `<th class="${k === "n" ? "n" : ""}" data-col="${i}">${esc(c)}</th>`).join("");
+      const body = rows.map((r, ri) => `<tr${opts.click ? ` class="click" data-row="${ri}"` : ""}>` +
+        r.map((v, i) => {
+          const k = cols[i][1];
+          const cell = v && typeof v === "object" ? v.html : esc(k === "n" && typeof v === "number" ? fmt(v) : v);
+          return `<td class="${k || ""}">${cell ?? ""}</td>`;
+        }).join("") + "</tr>").join("");
+      return `<table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+    }
+
+    function sortable(el) {
+      el.querySelectorAll("th").forEach((th) => th.addEventListener("click", () => {
+        const tb = el.querySelector("tbody");
+        const i = Number(th.dataset.col);
+        const dir = th.dataset.dir === "asc" ? "desc" : "asc";
+        th.dataset.dir = dir;
+        const num = (s) => { const n = parseFloat(s.replace(/[$,]/g, "")); return isNaN(n) ? null : n; };
+        [...tb.rows].sort((a, b) => {
+          const x = a.cells[i].textContent, y = b.cells[i].textContent;
+          const nx = num(x), ny = num(y);
+          const c = nx != null && ny != null ? nx - ny : x.localeCompare(y);
+          return dir === "asc" ? c : -c;
+        }).forEach((r) => tb.appendChild(r));
+      }));
+    }
+
+    function renderTables() {
+      $("clicks").innerHTML = table(
+        [["window"], ["button"], ["presses", "n"], ["computers", "n"], ["last"]],
+        data.clicks.map((c) => [c.win.replace("_", "-"), c.button, c.n, c.d, ago(c.last)]),
+      );
+
+      $("clients").innerHTML = table(
+        [["who"], ["os"], ["anki"], ["version"], ["first seen"], ["last seen"], ["pdfs", "n"], ["cards", "n"], ["auto-occlude", "n"], ["pages", "n"], ["last thing"]],
+        data.clients.map((c) => [who(c.email, c.device), c.os, c.anki, c.version, when(c.first_seen), ago(c.last_seen),
+          c.pdfs, c.cards, c.auto_opens, c.pages, (c.last_event || "").replace(/_/g, " ")]),
+        { click: true },
+      );
+      $("clients").querySelectorAll("tr.click").forEach((tr) => tr.addEventListener("click", () => {
+        $("fWho").value = data.clients[Number(tr.dataset.row)].device.slice(0, 6);
+        renderFeed();
+        $("feed").scrollIntoView({ behavior: "smooth", block: "center" });
+      }));
+
+      $("accounts").innerHTML = table(
+        [["email"], ["joined"], ["plan"], ["pack pages", "n"], ["free left", "n"], ["paid"], ["runs", "n"], ["pages", "n"], ["anthropic $", "n"], ["last run"], ["add-on linked", "n"], ["last seen"]],
+        data.accounts.map((a) => [a.email, when(a.created_at),
+          a.plan ? `${a.plan} (${a.plan_status})` : a.plan_status || "", a.pack_credits, a.free_left, a.customer ? "yes" : "",
+          a.runs, a.pages, usd(a.cost, 3), ago(a.last_run), a.linked, ago(a.last_seen)]),
+      );
+
+      $("jobs").innerHTML = table(
+        [["when"], ["who"], ["pdf"], ["pages", "n"], ["done", "n"], ["batches", "n"], ["paid with"], ["anthropic $", "n"]],
+        data.jobs.map((j) => [when(j.created_at), who(j.email, j.device), { html: `<span class="wrap">${esc(j.lecture)}</span>` },
+          j.slides_total, j.slides_done, j.batches, j.source, usd(j.cost_usd, 3)]),
+      );
+
+      const s = data.stripe || {};
+      $("payments").innerHTML = s.error
+        ? `<div class="empty">Stripe: ${esc(s.error)}</div>`
+        : table(
+            [["when"], ["type"], ["who"], ["what"], ["amount", "n"], ["fee", "n"], ["net", "n"], ["status"]],
+            (s.transactions || []).map((t) => [when(t.at), t.type.replace(/_/g, " "), t.email || "", t.description,
+              usd(t.amount), usd(t.fee), usd(t.net), t.status]),
+          );
+
+      $("events").innerHTML = table(
+        [["event"], ["source"], ["all time", "n"], ["last 30 days", "n"], ["computers", "n"], ["last"]],
+        data.event_names.map((e) => [e.name.replace(/_/g, " "), e.source, e.n, e.n30, e.d, ago(e.last)]),
+      );
+
+      const names = [...new Set(data.feed.map((e) => e.name))].sort();
+      $("fName").innerHTML = `<option value="">all events</option>` +
+        names.map((n) => `<option value="${esc(n)}">${esc(n.replace(/_/g, " "))}</option>`).join("");
+      ["clicks", "clients", "accounts", "jobs", "payments", "events", "updates"].forEach((id) => sortable($(id)));
+    }
+
+    function describe(e) {
+      const p = parse(e.props);
+      if (!p) return "";
+      if (e.name === "click") return `${p.button} (${String(p.window || "").replace("_", "-")})`;
+      return Object.entries(p).map(([k, v]) => `${k.replace(/_/g, " ")}: ${typeof v === "object" ? JSON.stringify(v) : v}`).join(", ");
+    }
+
+    function renderFeed() {
+      const src = $("fSource").value, name = $("fName").value, q = $("fWho").value.trim().toLowerCase();
+      const rows = data.feed.filter((e) =>
+        (!src || e.source === src) && (!name || e.name === name) &&
+        (!q || (e.email || "").toLowerCase().includes(q) || (e.device || "").startsWith(q) || (e.device || "").startsWith("w:" + q)));
+      $("feed").innerHTML = table(
+        [["when"], ["source"], ["who"], ["event"], ["details"]],
+        rows.map((e) => [when(e.at),
+          { html: `<span class="tag ${e.source}${/error/.test(e.name) ? " err" : ""}">${e.source === "addon" ? "add-on" : e.source === "web" ? "website" : "server"}</span>` },
+          who(e.email, e.device), e.name.replace(/_/g, " "), { html: `<span class="props">${esc(describe(e))}</span>` }]),
+      );
+    }
+    ["fSource", "fName"].forEach((id) => $(id).addEventListener("change", renderFeed));
+    $("fWho").addEventListener("input", renderFeed);
+    $("fClear").addEventListener("click", () => { $("fSource").value = ""; $("fName").value = ""; $("fWho").value = ""; renderFeed(); });
+
+    function render() {
+      $("asof").textContent = "updated " + when(data.now) +
+        (data.totals.tracking_since ? ", tracking since " + when(data.totals.tracking_since) : "");
+      renderTiles();
+      renderCharts();
+      renderFunnels();
+      renderTables();
+      renderFeed();
+    }
+
+    // ---------------------------------------------------------------- tooltip
+
+    const tip = $("tip");
+    document.addEventListener("mousemove", (e) => {
+      const t = e.target.closest && e.target.closest("[data-tip]");
+      if (!t) { tip.style.opacity = 0; return; }
+      tip.textContent = t.dataset.tip;
+      const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
+      tip.style.left = x + "px";
+      tip.style.top = e.clientY - tip.offsetHeight - 10 + "px";
+      tip.style.opacity = 1;
+    });
+
+    const saved = store.get();
+    if (saved) start(saved);
+    else { $("gate").hidden = false; $("pw").focus(); }
+  </script>
+</body>
+</html>
