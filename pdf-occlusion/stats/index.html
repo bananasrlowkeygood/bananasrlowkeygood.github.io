@@ -194,7 +194,6 @@
       <section>
         <h2>money</h2>
         <div class="tiles" id="money"></div>
-        <div class="note" id="moneyNote"></div>
       </section>
 
       <section>
@@ -217,7 +216,6 @@
         <div>
           <h2>versions</h2>
           <div class="card hbars" id="versions"></div>
-          <div class="note" id="versionNote"></div>
         </div>
         <div>
           <h2>updates</h2>
@@ -226,7 +224,7 @@
       </section>
 
       <section>
-        <h2>buttons</h2>
+        <h2>clicks</h2>
         <div class="card tablewrap" id="clicks"></div>
       </section>
 
@@ -292,16 +290,16 @@
     const when = (ms) => {
       if (!ms) return "";
       const d = new Date(ms);
-      return d.toLocaleDateString("en-US", { month: "short", day: "numeric" }) + " " +
-        d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" }).toLowerCase();
+      return (d.toLocaleDateString("en-US", { month: "short", day: "numeric" }) + ", " +
+        d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" })).toLowerCase();
     };
     const ago = (ms) => {
       if (!ms) return "";
       const s = (Date.now() - ms) / 1000;
       if (s < 90) return "just now";
-      if (s < 3600) return Math.round(s / 60) + " min ago";
-      if (s < 86400) return Math.round(s / 3600) + " h ago";
-      return Math.round(s / 86400) + " d ago";
+      if (s < 3600) return Math.round(s / 60) + "m ago";
+      if (s < 86400) return Math.round(s / 3600) + "h ago";
+      return Math.round(s / 86400) + "d ago";
     };
     const short = (dev) => (!dev ? "" : dev.startsWith("w:") ? "browser " + dev.slice(2, 8) : "computer " + dev.slice(0, 6));
     const who = (email, dev) => email || short(dev);
@@ -406,36 +404,33 @@
       const runs = jd.reduce((a, r) => a + r.runs, 0);
       const pages = jd.reduce((a, r) => a + (r.pages || 0), 0);
       const signups = data.signups.filter((r) => r.day >= since).reduce((a, r) => a + r.n, 0);
-      const lbl = `last ${range} days`;
       $("tiles").innerHTML = [
-        tile("computers with the add-on", fmt(t.computers), `${fmt(t.computers_1d)} today, ${fmt(t.computers_7d)} this week`),
-        tile("pdfs opened", fmt(sumDaily("pdf_open")), `${lbl}, ${fmt(t.pdfs_opened)} all time`),
-        tile("auto-occlude opened", fmt(sumDaily("auto_occlude_open")), lbl),
+        tile("computers", fmt(t.computers), `${fmt(t.computers_7d)} this week`),
+        tile("pdfs opened", fmt(sumDaily("pdf_open")), `${fmt(t.pdfs_opened)} all time`),
+        tile("auto-occlude opens", fmt(sumDaily("auto_occlude_open")), `${fmt(data.event_names.filter((e) => e.name === "auto_occlude_open").reduce((a, e) => a + e.n, 0))} all time`),
         tile("auto-occlude runs", fmt(runs), `${fmt(t.runs)} all time`),
-        tile("pages processed", fmt(pages), `${fmt(t.pages)} all time`),
-        tile("accounts", fmt(t.accounts), `${fmt(signups)} new, ${lbl}`),
-        tile("paying subscribers", fmt(t.subscribers), `${fmt(t.monthly)} monthly, ${fmt(t.yearly)} yearly`),
-        tile("paid at least once", fmt(t.customers), `${fmt(t.pack_holders)} hold pack pages`),
-        tile("website visitors", fmt(t.visitors), `${fmt(t.visitors_7d)} this week`),
+        tile("pages", fmt(pages), `${fmt(t.pages)} all time`),
+        tile("accounts", fmt(t.accounts), `${fmt(signups)} new`),
+        tile("subscribers", fmt(t.subscribers), `${fmt(t.monthly)} monthly, ${fmt(t.yearly)} yearly`),
+        tile("customers", fmt(t.customers), `${fmt(t.pack_holders)} with packs`),
+        tile("site visitors", fmt(t.visitors), `${fmt(t.visitors_7d)} this week`),
       ].join("");
 
       const s = data.stripe || {};
       const all = money(0), win = money(Date.now() - range * 864e5);
       const aAll = anthropic(0), aWin = anthropic(Date.now() - (range - 1) * 864e5);
-      const profit = all.net - aAll;
+      const profit = win.net - aWin;
+      const allTime = (n) => `${usd(n)} all time`;
       $("money").innerHTML = s.error
-        ? tile("stripe", "unavailable", esc(s.error), "bad") +
-          tile("anthropic spend", usd(aAll), `${usd(aWin)} ${lbl}`)
+        ? tile("stripe", "off", "not connected", "bad") + tile("anthropic", usd(aWin), allTime(aAll))
         : [
-            tile("earned", usd(all.gross), `${usd(win.gross)} ${lbl}, ${fmt(all.sales)} sales`),
-            tile("stripe fees", usd(all.fees), `${usd(win.fees)} ${lbl}`),
-            tile("refunds", usd(-all.refunds), `${usd(-win.refunds)} ${lbl}`),
-            tile("anthropic spend", usd(aAll), `${usd(aWin)} ${lbl}`),
-            tile("profit", usd(profit), `${usd(win.net - aWin)} ${lbl}`, profit >= 0 ? "good" : "bad"),
+            tile("earned", usd(win.gross), allTime(all.gross)),
+            tile("stripe fees", usd(win.fees), allTime(all.fees)),
+            tile("refunds", usd(-win.refunds), allTime(-all.refunds)),
+            tile("anthropic", usd(aWin), allTime(aAll)),
+            tile("profit", usd(profit), allTime(all.net - aAll), profit >= 0 ? "good" : "bad"),
             tile("stripe balance", usd(s.available ?? 0), `${usd(s.pending ?? 0)} pending`),
           ].join("");
-      $("moneyNote").textContent =
-        "Anthropic spend is worked out from each run's token counts at list price, so evals run on the same key are not in it.";
     }
 
     // ---------------------------------------------------------------- charts
@@ -461,7 +456,7 @@
       const gap = ds.length > 40 ? 0.15 : 0.35;
       const bars = ds.map((d, i) => {
         const h = max ? (vals[i] / max) * 100 : 0;
-        const label = new Date(d + "T12:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+        const label = new Date(d + "T12:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" }).toLowerCase();
         return `<g data-tip="${esc(label)}\n${esc(f(vals[i]))}">
           <rect class="hit" x="${i * W}%" y="0" width="${W}%" height="100%"></rect>
           ${vals[i] ? `<rect class="b" x="${i * W + gap}%" y="${100 - h}%" width="${Math.max(W - 2 * gap, 0.3)}%" height="${h}%" rx="2"></rect>` : ""}
@@ -471,7 +466,7 @@
       return `<div class="card chart">
         <div class="top"><span class="t">${esc(title)}</span><span class="tot">${esc(f(total))}</span></div>
         <svg preserveAspectRatio="none">${bars}<line class="base" x1="0" y1="100%" x2="100%" y2="100%"></line></svg>
-        <div class="axis"><span>${first}</span><span>max ${esc(f(max))}</span><span>today</span></div>
+        <div class="axis"><span>${first.toLowerCase()}</span><span>today</span></div>
       </div>`;
     }
 
@@ -484,20 +479,20 @@
       const fees = series(txs, (t) => [dayKey(t.at), GROSS.has(t.type) || REFUND.has(t.type) ? t.amount - t.net : -t.net]);
       const usd2 = (n) => usd(n);
       $("charts").innerHTML = [
-        chart("computers using the add-on", act("addon")),
+        chart("computers", act("addon")),
         chart("new computers", series(data.new_clients.filter((r) => r.kind === "addon"), (r) => [r.day, r.n])),
         chart("pdfs opened", ev("pdf_open")),
         chart("cards made", ev("cards_created")),
-        chart("auto-occlude opened", ev("auto_occlude_open")),
+        chart("auto-occlude opens", ev("auto_occlude_open")),
         chart("auto-occlude runs", jd("runs")),
-        chart("pages processed", jd("pages")),
+        chart("pages", jd("pages")),
         chart("sign-ups", series(data.signups, (r) => [r.day, r.n])),
         chart("earned", rev, usd2),
         chart("stripe fees", fees, usd2),
-        chart("anthropic spend", jd("cost"), usd2),
-        chart("website visitors", act("web")),
+        chart("anthropic", jd("cost"), usd2),
+        chart("site visitors", act("web")),
         chart("errors", series(data.daily.filter((r) => /error/.test(r.name)), (r) => [r.day, r.n])),
-        chart("button presses", ev("click")),
+        chart("clicks", ev("click")),
       ].join("");
     }
 
@@ -514,7 +509,7 @@
     function renderFunnels() {
       const f = data.funnel;
       const steps = [
-        ["computers seen", f.seen], ["opened the window", f.opened_window], ["opened a pdf", f.opened_pdf],
+        ["computers", f.seen], ["opened the add-on", f.opened_window], ["opened a pdf", f.opened_pdf],
         ["made cards", f.made_cards], ["opened auto-occlude", f.opened_auto], ["signed in", f.signed_in],
         ["ran auto-occlude", f.ran], ["paid", f.paid],
       ].map(([k, v]) => [k, v, pct(v, f.seen)]);
@@ -528,11 +523,8 @@
       $("webFunnel").innerHTML = hbars(w, f.web_visitors);
 
       $("versions").innerHTML = hbars(data.versions.map((r) => [
-        r.version + (r.version === data.latest_version ? " (latest)" : ""), r.n, `(${fmt(r.active)} active)`,
+        r.version + (r.version === data.latest_version ? " (latest)" : ""), r.n, "",
       ]));
-      $("versionNote").textContent =
-        `Latest release ${data.latest_version || "not set"}. Auto-occlude needs ${data.min_version || "any version"} or newer. ` +
-        "Versions before 2026.11.09 send no statistics, so they are not counted here.";
       $("updates").innerHTML = table(
         [["when"], ["who"], ["from"], ["to"]],
         data.updates.map((u) => { const p = parse(u.props) || {}; return [when(u.at), who(u.email, u.device), p.from, p.to]; }),
@@ -572,12 +564,12 @@
 
     function renderTables() {
       $("clicks").innerHTML = table(
-        [["window"], ["button"], ["presses", "n"], ["computers", "n"], ["last"]],
+        [["window"], ["button"], ["clicks", "n"], ["computers", "n"], ["last"]],
         data.clicks.map((c) => [c.win.replace("_", "-"), c.button, c.n, c.d, ago(c.last)]),
       );
 
       $("clients").innerHTML = table(
-        [["who"], ["os"], ["anki"], ["version"], ["first seen"], ["last seen"], ["pdfs", "n"], ["cards", "n"], ["auto-occlude", "n"], ["pages", "n"], ["last thing"]],
+        [["who"], ["os"], ["anki"], ["version"], ["first seen"], ["last seen"], ["pdfs", "n"], ["cards", "n"], ["auto-occlude", "n"], ["pages", "n"], ["last event"]],
         data.clients.map((c) => [who(c.email, c.device), c.os, c.anki, c.version, when(c.first_seen), ago(c.last_seen),
           c.pdfs, c.cards, c.auto_opens, c.pages, (c.last_event || "").replace(/_/g, " ")]),
         { click: true },
@@ -589,21 +581,21 @@
       }));
 
       $("accounts").innerHTML = table(
-        [["email"], ["joined"], ["plan"], ["pack pages", "n"], ["free left", "n"], ["paid"], ["runs", "n"], ["pages", "n"], ["anthropic $", "n"], ["last run"], ["add-on linked", "n"], ["last seen"]],
+        [["email"], ["joined"], ["plan"], ["pack pages", "n"], ["free pages", "n"], ["paid"], ["runs", "n"], ["pages", "n"], ["anthropic", "n"], ["last run"], ["linked", "n"], ["last seen"]],
         data.accounts.map((a) => [a.email, when(a.created_at),
           a.plan ? `${a.plan} (${a.plan_status})` : a.plan_status || "", a.pack_credits, a.free_left, a.customer ? "yes" : "",
           a.runs, a.pages, usd(a.cost, 3), ago(a.last_run), a.linked, ago(a.last_seen)]),
       );
 
       $("jobs").innerHTML = table(
-        [["when"], ["who"], ["pdf"], ["pages", "n"], ["done", "n"], ["batches", "n"], ["paid with"], ["anthropic $", "n"]],
+        [["when"], ["who"], ["pdf"], ["pages", "n"], ["done", "n"], ["batches", "n"], ["credit"], ["anthropic", "n"]],
         data.jobs.map((j) => [when(j.created_at), who(j.email, j.device), { html: `<span class="wrap">${esc(j.lecture)}</span>` },
           j.slides_total, j.slides_done, j.batches, j.source, usd(j.cost_usd, 3)]),
       );
 
       const s = data.stripe || {};
       $("payments").innerHTML = s.error
-        ? `<div class="empty">Stripe: ${esc(s.error)}</div>`
+        ? `<div class="empty">stripe not connected</div>`
         : table(
             [["when"], ["type"], ["who"], ["what"], ["amount", "n"], ["fee", "n"], ["net", "n"], ["status"]],
             (s.transactions || []).map((t) => [when(t.at), t.type.replace(/_/g, " "), t.email || "", t.description,
@@ -611,7 +603,7 @@
           );
 
       $("events").innerHTML = table(
-        [["event"], ["source"], ["all time", "n"], ["last 30 days", "n"], ["computers", "n"], ["last"]],
+        [["event"], ["source"], ["all time", "n"], ["30 days", "n"], ["computers", "n"], ["last"]],
         data.event_names.map((e) => [e.name.replace(/_/g, " "), e.source, e.n, e.n30, e.d, ago(e.last)]),
       );
 
@@ -645,8 +637,7 @@
     $("fClear").addEventListener("click", () => { $("fSource").value = ""; $("fName").value = ""; $("fWho").value = ""; renderFeed(); });
 
     function render() {
-      $("asof").textContent = "updated " + when(data.now) +
-        (data.totals.tracking_since ? ", tracking since " + when(data.totals.tracking_since) : "");
+      $("asof").textContent = "updated " + when(data.now);
       renderTiles();
       renderCharts();
       renderFunnels();
