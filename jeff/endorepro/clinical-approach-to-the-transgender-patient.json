@@ -1,0 +1,527 @@
+{
+  "lecture": "Clinical Approach to the Transgender Patient",
+  "block": "endorepro",
+  "generated": "2026-11-10",
+  "questions": [
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-001",
+      "question": "A 24-year-old patient who was assigned male at birth comes for a routine visit. She has identified as a woman since childhood, uses she/her pronouns, and has been in a relationship with a woman for 3 years. She asks her new physician to document that she is \"a woman who is attracted to women.\" Which of the following terms refers specifically to the second part of that statement?",
+      "answers": {
+        "A": "Gender expression",
+        "B": "Gender identity",
+        "C": "Gender role",
+        "D": "Sex assigned at birth",
+        "E": "Sexual orientation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Gender expression is how a person outwardly presents (feminine, masculine, other), a separate scale from attraction on the Gender Unicorn.",
+        "B": "Gender identity is her inner sense of self as a woman, the first part of her statement (who she goes to bed as), not whom she is attracted to.",
+        "C": "Gender roles are the behaviors, attributes and social roles a culture associates with men or women, not a person's attractions.",
+        "D": "Sex assigned at birth is based on genital anatomy and genetics (male, in her case) and says nothing about attraction.",
+        "E": "Sexual orientation is a person's sexual/romantic attractions and behaviors toward others: who a person goes to bed with, as opposed to gender identity, who they go to bed as."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-002",
+      "question": "A 30-year-old patient assigned female at birth tells their physician that they do not identify as a woman or as a man and use they/them pronouns. They feel comfortable in their body, report no anxiety or low mood about their anatomy, and are not interested in hormones or surgery. PHQ-9 score is 2. Which of the following terms best describes this patient's experience?",
+      "answers": {
+        "A": "Cis-gender identity",
+        "B": "Difference of sex development",
+        "C": "Gender dysphoria",
+        "D": "Gender identity disorder",
+        "E": "Gender incongruence"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cis-gender means gender identity aligns with birth sex; this patient's identity does not align with their assigned sex.",
+        "B": "A difference of sex development describes people born with atypical genitalia or dysgenic gonads, a difference in anatomy rather than identity.",
+        "C": "Gender dysphoria is distress arising from the conflict between physical or assigned gender and identified gender; this patient has no distress.",
+        "D": "Gender identity disorder is the outdated DSM-IV term, replaced by gender dysphoria in DSM-5 (2013), and it also implied distress.",
+        "E": "Gender incongruence is not identifying with one's physical or assigned gender and does not have to cause distress; ICD-11 now classes it as a sexual health condition."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-003",
+      "question": "A 19-year-old college student comes to urgent care with a sore throat. The electronic health record lists the legal name \"Michael\" and sex as male. In the waiting room the patient has long hair, wears makeup and a dress, and gave a different first name at check-in. Temperature is 37.9°C (100.2°F), and the oropharynx is mildly erythematous. Which of the following is the most appropriate way for the physician to begin the encounter?",
+      "answers": {
+        "A": "Address the patient by the legal name in the chart",
+        "B": "Ask the patient which name and pronouns they use",
+        "C": "Choose pronouns that match the patient's appearance",
+        "D": "Use pronouns that match the sex listed in the record",
+        "E": "Use they/them pronouns without raising the topic"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The legal name and sex in the record may not reflect the patient's identity; using them unasked risks the negative provider experiences reported by a third of transgender patients.",
+        "B": "Pronouns should reflect the gender a person identifies with, and providers should ask what gender the person identifies with and which pronouns they use.",
+        "C": "Appearance reflects gender expression, which does not reliably tell you a person's gender identity or pronouns.",
+        "D": "Pronouns should reflect the gender the person identifies with, not their birth sex as recorded in the chart.",
+        "E": "Although many transgender people use they/them, choosing it without asking is still a guess; the recommended approach is to ask."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-004",
+      "question": "A newborn is examined in the nursery 6 hours after an uncomplicated term vaginal delivery. Vital signs are normal. The external genitalia, shown below, are not clearly male or female. The parents ask what sex will be recorded on the birth certificate. Which of the following tests is most often required to designate this infant's birth sex?",
+      "image": {
+        "src": "images/clinical-approach-to-the-transgender-patient/004.jpg",
+        "caption": "External genitalia of the newborn",
+        "credit": "Slides p. 13"
+      },
+      "answers": {
+        "A": "Gene karyotyping",
+        "B": "Pelvic ultrasonography",
+        "C": "Serum electrolytes",
+        "D": "Serum testosterone",
+        "E": "Serum thyroid-stimulating hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Infants with a difference of sex development (atypical genitalia or dysgenic gonads) often require gene karyotyping to designate birth sex.",
+        "B": "Pelvic ultrasonography can show internal structures such as a uterus but does not establish the chromosomal sex on which designation often depends.",
+        "C": "Serum electrolytes are followed for salt wasting in some causes of atypical genitalia but do not designate sex.",
+        "D": "Serum testosterone reflects hormone output, which varies with the cause and the infant's age, and does not by itself determine sex.",
+        "E": "TSH screens for congenital hypothyroidism, which does not cause atypical genitalia or help designate sex."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-005",
+      "question": "A 7-year-old child born with atypical genitalia was found on karyotyping to be 46,XY and was assigned male at birth. For the past 2 years the child has consistently said \"I am a girl,\" asks to be called by a girl's name, and becomes upset when called a boy. Growth and development are otherwise normal. The parents ask how this fits with the karyotype result. Which of the following is the most accurate response?",
+      "answers": {
+        "A": "Gender identity is not predicted by a DSD or its karyotype",
+        "B": "Karyotype will predict gender identity once puberty begins",
+        "C": "Statements like this are unexpected in a child with a DSD",
+        "D": "The child's identity will come to match the external genitalia",
+        "E": "The karyotype result means the child's gender identity is male"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Karyotyping is used to designate birth sex in a difference of sex development, but a DSD does not predict gender identity, which is the person's inner sense of self.",
+        "B": "There is no age at which karyotype begins to predict gender identity; chromosomes inform birth-sex designation only.",
+        "C": "Because a DSD does not predict gender identity, an identity that differs from the assigned sex is not unexpected.",
+        "D": "Genital anatomy determines sex assigned at birth, not gender identity.",
+        "E": "The karyotype guided the sex assigned at birth; it does not determine the child's gender identity."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-006",
+      "question": "A 27-year-old transgender man (assigned female at birth) requests phalloplasty. He has had marked and sustained gender incongruence since adolescence and has taken testosterone continuously for 7 months with good effect. He began living socially as a man 3 months ago. He has well-controlled asthma and no psychiatric history, and he clearly explains the risks and alternatives of surgery. His primary care physician, who is experienced in transgender care, has written one letter of support. According to the WPATH Standards of Care version 8 (SOC8), which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Delay surgery until he has 12 months of hormone therapy",
+        "B": "Delay surgery until he has lived 12 months in his gender role",
+        "C": "Obtain a second letter from a mental health professional",
+        "D": "Proceed with surgical planning, as he meets SOC8 criteria",
+        "E": "Require a formal gender dysphoria diagnosis by a psychiatrist"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Twelve months of continuous hormone therapy was the SOC7 standard; SOC8 asks for at least 6 months, and he has 7.",
+        "B": "Twelve months of living in the gender role was required by SOC7; SOC8 no longer requires social transition.",
+        "C": "SOC7 recommended two letters from mental health professionals; under SOC8, if a letter is needed, one from a qualified health care professional is sufficient.",
+        "D": "He has marked and sustained incongruence, capacity to consent, well-controlled medical conditions, at least 6 months of hormones, and one letter, which meets SOC8 criteria.",
+        "E": "SOC8 requires a diagnosis before surgery only when it is necessary to access health care; the persistent, well-documented dysphoria criterion belonged to SOC7."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-007",
+      "question": "A 32-year-old transgender woman has taken estradiol and spironolactone continuously for 4 months and requests vaginoplasty. She has marked and sustained gender incongruence, no other medical or psychiatric conditions, the capacity to consent, and one letter of support from her primary care physician. Hormone therapy is consistent with her goals. Laboratory results are shown. According to the WPATH Standards of Care version 8 (SOC8), which of the following is the most appropriate next step?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Target range"
+        ],
+        [
+          "Estradiol",
+          "150 pg/mL",
+          "100–200 pg/mL"
+        ],
+        [
+          "Total testosterone",
+          "30 ng/dL",
+          "< 50 ng/dL"
+        ],
+        [
+          "Potassium",
+          "4.3 mEq/L",
+          "3.5–5.0 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Continue hormones and plan surgery in about 2 months",
+        "B": "Continue hormones for 8 more months before surgery",
+        "C": "Proceed to surgery now, since hormone levels are at target",
+        "D": "Stop hormones now so that surgery can be scheduled sooner",
+        "E": "Switch to orchiectomy, since vaginoplasty requires 2 years"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "SOC8 asks for a stable hormone regimen for at least 6 months before genital surgery, unless hormones are contraindicated or not in line with the patient's goals; she has 4 months.",
+        "B": "A total of 12 months of continuous hormones was the older SOC7 requirement.",
+        "C": "Reaching target levels does not replace the 6 months of stable therapy that SOC8 asks for before genital surgery.",
+        "D": "Stopping hormones would interrupt the continuous therapy SOC8 asks for and undo its effects; it does not speed eligibility.",
+        "E": "There is no 2-year requirement; orchiectomy is also genital gender-affirming surgery and falls under the same criteria."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-008",
+      "question": "A 25-year-old transgender woman has taken oral estradiol for 6 months. She reports breast growth and softer skin but is distressed by persistent coarse facial hair and spontaneous erections. Laboratory results are shown. Which of the following agents should be added to reduce the effects of her endogenous male sex hormones?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Target range"
+        ],
+        [
+          "Estradiol",
+          "120 pg/mL",
+          "100–200 pg/mL"
+        ],
+        [
+          "Total testosterone",
+          "410 ng/dL",
+          "< 50 ng/dL"
+        ],
+        [
+          "Potassium",
+          "4.1 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "0.8 mg/dL",
+          "0.6–1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Clomiphene",
+        "B": "Danazol",
+        "C": "Spironolactone",
+        "D": "Tamoxifen",
+        "E": "Testosterone cypionate"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Clomiphene blocks hypothalamic estrogen feedback, raising LH, FSH and testosterone, which would worsen her androgen effects.",
+        "B": "Danazol is a synthetic androgen derivative and would add androgenic effects such as hirsutism.",
+        "C": "Feminizing regimens add anti-androgens such as spironolactone (or 5α-reductase inhibitors) to reduce the effects of endogenous male sex hormones that estrogen alone has not suppressed.",
+        "D": "Tamoxifen antagonizes estrogen in breast tissue, which would oppose desired breast growth, and it does not reduce androgen effects.",
+        "E": "Testosterone is the basis of masculinizing hormone therapy and would oppose her goals."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-009",
+      "question": "A 41-year-old transgender woman has 2 days of swelling and pain in her left calf, which began after a 9-hour flight. Her medications are oral estradiol, spironolactone and finasteride for gender-affirming therapy, lisinopril for hypertension, and metformin for prediabetes. The left calf is 3 cm larger in circumference than the right, and compression ultrasonography shows a noncompressible left popliteal vein. Which of her medications most likely contributed to this condition?",
+      "answers": {
+        "A": "Estradiol",
+        "B": "Finasteride",
+        "C": "Lisinopril",
+        "D": "Metformin",
+        "E": "Spironolactone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Feminizing regimens increase the risk of VTE and vascular events because estrogen raises coagulation factor levels and coagulability.",
+        "B": "Finasteride, a 5α-reductase inhibitor, blocks conversion of testosterone to DHT and is not a cause of thrombosis.",
+        "C": "Lisinopril can cause cough, angioedema and hyperkalemia, not venous thrombosis.",
+        "D": "Metformin causes GI upset and rarely lactic acidosis; it does not promote thrombosis.",
+        "E": "Spironolactone is the anti-androgen in her regimen; its main risk is hyperkalemia, not VTE."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-010",
+      "question": "A 28-year-old transgender man has received intramuscular testosterone for 18 months. He reports intermittent headaches and facial flushing. He does not smoke and has no snoring or daytime sleepiness. Blood pressure is 128/80 mm Hg, and oxygen saturation is 98% on room air. The spleen is not palpable. Laboratory results are shown. Which of the following is the most likely cause of his laboratory abnormality?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hematocrit",
+          "55%",
+          "41–50%"
+        ],
+        [
+          "Hemoglobin",
+          "18.4 g/dL",
+          "13.5–17.5 g/dL"
+        ],
+        [
+          "Leukocyte count",
+          "7,200/mm³",
+          "4,500–11,000/mm³"
+        ],
+        [
+          "Platelet count",
+          "250,000/mm³",
+          "150,000–400,000/mm³"
+        ]
+      ],
+      "answers": {
+        "A": "Chronic hypoxemia from obstructive sleep apnea",
+        "B": "Erythropoietin-secreting renal tumor",
+        "C": "JAK2-mutated polycythemia vera",
+        "D": "Plasma volume contraction from dehydration",
+        "E": "Testosterone-induced erythrocytosis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "He has normal oxygen saturation and no snoring or daytime sleepiness, so hypoxemia-driven erythrocytosis is unlikely.",
+        "B": "An erythropoietin-secreting tumor is a rare cause and would not be the first explanation in a patient on testosterone; there is no flank mass or hematuria.",
+        "C": "Polycythemia vera typically raises leukocytes and platelets too and often causes splenomegaly; his other counts and spleen are normal.",
+        "D": "Relative polycythemia from dehydration needs a history of volume loss and would not explain flushing and headaches over months.",
+        "E": "Masculinizing regimens increase hematocrit (polycythemia), so hematocrit must be monitored in patients on testosterone."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-011",
+      "question": "A 35-year-old transgender woman who has taken estradiol and spironolactone for 5 years and her 33-year-old partner, a transgender man who has taken testosterone for 5 years, come in together for annual physicals. Both are normotensive nonsmokers with a BMI of 26 kg/m². Laboratory results are shown. Which adverse effect of gender-affirming hormone therapy is shared by both regimens and best explains the trend these two patients have in common?",
+      "table": [
+        [
+          "Test",
+          "Feminizing regimen",
+          "Masculinizing regimen",
+          "Reference range"
+        ],
+        [
+          "Fasting glucose",
+          "114 mg/dL",
+          "116 mg/dL",
+          "70–99 mg/dL"
+        ],
+        [
+          "Hemoglobin A1c",
+          "6.0%",
+          "6.1%",
+          "< 5.7%"
+        ],
+        [
+          "Hematocrit",
+          "39%",
+          "51%",
+          "36–50%"
+        ],
+        [
+          "Potassium",
+          "4.6 mEq/L",
+          "4.2 mEq/L",
+          "3.5–5.0 mEq/L"
+        ]
+      ],
+      "answers": {
+        "A": "Elevated hematocrit",
+        "B": "Hyperkalemia",
+        "C": "Increased insulin resistance",
+        "D": "Increased LDL cholesterol",
+        "E": "Venous thromboembolic disease"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A rising hematocrit is a risk of masculinizing regimens only, which is why only the partner on testosterone has a high-normal-to-high value.",
+        "B": "Hyperkalemia is a risk of spironolactone in feminizing regimens, and both potassium values are normal.",
+        "C": "Both feminizing and masculinizing regimens increase insulin resistance, fasting glucose and the risk of type 2 diabetes, matching the shared rise in glucose and HbA1c.",
+        "D": "Masculinizing regimens have a variable effect on cholesterol; a rise in LDL is not a consistent effect of both regimens.",
+        "E": "Increased VTE and vascular events are a risk of feminizing regimens, not of testosterone."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-012",
+      "question": "A 20-year-old transgender woman wants to begin feminizing hormone therapy. She has no medical problems, has never had children, and says she would like to have biological children \"someday.\" Physical examination shows normal male genitalia with testes of normal size. Which of the following is the most appropriate step before she starts estradiol?",
+      "answers": {
+        "A": "Advise that fertility reliably returns if hormones stop",
+        "B": "Defer hormone therapy until she completes childbearing",
+        "C": "Offer sperm banking before hormone therapy begins",
+        "D": "Recommend orchiectomy first to simplify her regimen",
+        "E": "Require sperm banking as a condition of treatment"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Whether infertility reverses after hormones stop is unknown, and patients should be told so.",
+        "B": "Gender-affirming care should not be withheld because of fertility plans; the approach is to counsel and offer preservation.",
+        "C": "Hormone therapy has adverse effects on fertility, so fertility preservation (sperm or oocyte banking) should be discussed and offered beforehand.",
+        "D": "Orchiectomy causes permanent infertility, which conflicts with her wish for biological children.",
+        "E": "Fertility preservation should be offered, not required; care should not be denied if a patient declines it."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-013",
+      "question": "A 38-year-old transgender woman who has taken estradiol and spironolactone for 3 years requests bilateral orchiectomy so that she can stop spironolactone. She has been counseled in detail that orchiectomy will cause permanent infertility and has been offered sperm banking twice; she declines, stating clearly that she does not want biological children. She meets all other WPATH SOC8 criteria. Which of the following is the most appropriate response?",
+      "answers": {
+        "A": "Decline surgery until she agrees to sperm banking",
+        "B": "Postpone surgery 1 year to reconsider fertility",
+        "C": "Proceed with orchiectomy after informed consent",
+        "D": "Refer her for psychiatric evaluation of the decision",
+        "E": "Require 12 more months of hormones before surgery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gender-affirming care should not be denied if the patient elects against fertility preservation.",
+        "B": "There is no required waiting period to reconsider fertility once a patient has been appropriately counseled.",
+        "C": "In an appropriately counseled patient, it is reasonable to proceed with gonadectomy without fertility preservation.",
+        "D": "Declining fertility preservation is not a sign of impaired capacity; she shows a fully informed decision, which is what SOC8 asks for.",
+        "E": "SOC8 asks for at least 6 months of hormone therapy, and she has 3 years."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-014",
+      "question": "A 26-year-old transgender man has taken testosterone for 14 months; his voice has deepened and he is satisfied with it. His 29-year-old friend, a transgender woman who has taken estradiol and spironolactone for 2 years and has completed a course of voice therapy, is frustrated that her voice is still low-pitched and asks about surgery. Which of the following best explains why vocal cord surgery is more often required for feminization than for masculinization?",
+      "answers": {
+        "A": "Estrogen thickens the vocal folds and lowers pitch",
+        "B": "Spironolactone directly lowers vocal fold pitch",
+        "C": "Testosterone acts sufficiently on vocal fold mucosa",
+        "D": "Vocal cord surgery is contraindicated in transgender men",
+        "E": "Voice therapy is ineffective in transgender men"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Estrogen does not thicken the vocal folds; the problem is that it does not reverse changes already made by testosterone at puberty.",
+        "B": "Spironolactone reduces the effects of endogenous androgens and does not lower vocal pitch.",
+        "C": "Vocal cord surgery is not frequently needed for masculinization because testosterone has sufficient effects on the vocal fold mucosa, whereas feminization may require surgery.",
+        "D": "Vocal cord surgery is not contraindicated in transgender men; it is simply rarely needed.",
+        "E": "Voice therapy, which works on speech patterns and communication behaviors, is available to any patient; it is not ineffective in transgender men."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-015",
+      "question": "A 31-year-old transgender man has taken testosterone for 3 years, and examination shows marked clitoral hypertrophy. He meets WPATH SOC8 criteria for genital surgery. His priorities are to be able to void while standing and to avoid a large donor-site scar; he says penetrative intercourse is not important to him. Which of the following procedures best fits his goals?",
+      "answers": {
+        "A": "Metoidioplasty with urethral lengthening",
+        "B": "Metoidioplasty without urethral lengthening",
+        "C": "Phalloplasty with a radial forearm free flap",
+        "D": "Scrotoplasty with testicular prostheses",
+        "E": "Vaginectomy without phallic construction"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Metoidioplasty uses the testosterone-hypertrophied clitoris (released from its suspensory ligaments) to create a micropenis, and urethral lengthening places the opening at the tip so he can void standing; most patients cannot penetrate, which he accepts.",
+        "B": "Without urethral lengthening, the urethral opening is not at the tip of the micropenis, so he could not void while standing.",
+        "C": "Phalloplasty uses pedicle or free skin flaps from the radial forearm, thigh or groin, leaving the donor-site scar he wants to avoid.",
+        "D": "Scrotoplasty and testicular prostheses help cosmesis but do not create a phallus that allows standing voiding.",
+        "E": "Vaginectomy removes the vagina but does not create a phallus or change how he voids."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-016",
+      "question": "A 34-year-old transgender man underwent masculinizing genital surgery with urethral lengthening 8 months ago. The donor site used for his reconstruction, photographed at the time of surgery, is shown. He now reports a progressively weaker, spraying urinary stream and straining to void. He has no fever, and no urine leaks from any opening other than the meatus. Laboratory and bladder scan results are shown. Which of the following is the most likely complication?",
+      "image": {
+        "src": "images/clinical-approach-to-the-transgender-patient/016.jpg",
+        "caption": "Donor site at the time of the patient's genital reconstruction",
+        "credit": "Slides p. 44"
+      },
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Urine leukocyte esterase",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "Urine nitrites",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "Post-void residual volume",
+          "180 mL",
+          "< 50 mL"
+        ]
+      ],
+      "answers": {
+        "A": "Loss of the phallus",
+        "B": "Neovaginal cavity stenosis",
+        "C": "Neovaginal-rectal fistula",
+        "D": "Urethral fistula",
+        "E": "Urethral stricture"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Loss of the phallus results from flap failure and would present with an ischemic or necrotic phallus, not obstructed voiding.",
+        "B": "Neovaginal cavity stenosis is a complication of vaginoplasty in transgender women.",
+        "C": "Neovaginal-rectal fistula is a complication of vaginoplasty and presents with stool or gas from the neovagina.",
+        "D": "A urethral fistula leaks urine from an abnormal opening along the shaft, which he does not have.",
+        "E": "The radial forearm donor site indicates phalloplasty, whose complications include urethral stricture: a narrowed lengthened urethra causes a weak, spraying stream, straining and a high post-void residual, one reason SOC8 recommends lifelong urological follow-up."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-017",
+      "question": "A 36-year-old transgender woman underwent vaginoplasty with creation of a neovaginal cavity by penile inversion 3 weeks ago; the operative note describes no intraoperative complications. For the past 4 days she has noticed gas and small amounts of foul-smelling brown material passing through the neovaginal opening. She is afebrile and voids normally with a strong stream. Which of the following complications is most likely?",
+      "answers": {
+        "A": "Intraoperative rectal injury",
+        "B": "Neovaginal cavity stenosis",
+        "C": "Neovaginal-rectal fistula",
+        "D": "Urethral fistula",
+        "E": "Urethral stenosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Intraoperative rectal injury happens and is recognized during the operation, which was documented as uncomplicated; her new symptoms point to a fistula.",
+        "B": "Neovaginal cavity stenosis narrows the cavity and makes dilation difficult; it does not cause stool or gas from the neovagina.",
+        "C": "A neovaginal-rectal fistula connects the rectum to the neovaginal cavity, so gas and stool pass through the neovaginal opening.",
+        "D": "A urethral fistula leaks urine, not gas or stool.",
+        "E": "Urethral stenosis causes a weak or obstructed stream, and she voids normally."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-018",
+      "question": "A 35-year-old transgender man has taken testosterone for 12 years and underwent bilateral mastectomy at age 25. He has not had a hysterectomy or any genital surgery. He is sexually active with men and has never smoked. His last preventive visit was 6 years ago. Which of the following cancer screening tests is most important to offer at this visit?",
+      "answers": {
+        "A": "Cervical cancer screening",
+        "B": "Colonoscopy",
+        "C": "Low-dose chest CT",
+        "D": "Prostate-specific antigen testing",
+        "E": "Testicular self-examination"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Transgender men need surveillance for breast and gynecologic cancers, especially regular cervical cancer screening when they have not had a hysterectomy.",
+        "B": "Average-risk colorectal screening does not start at age 35.",
+        "C": "Lung cancer screening with low-dose CT is for older patients with a heavy smoking history; he has never smoked.",
+        "D": "He has no prostate; prostate surveillance applies to transgender women, who keep their prostate.",
+        "E": "He has no testes; testicular examination is not relevant to his anatomy."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-019",
+      "question": "A 64-year-old transgender woman had vaginoplasty with creation of a neovaginal cavity (orchiectomy, penectomy, clitoroplasty, labiaplasty and urethrostomy) 20 years ago and continues to take estradiol. She asks whether she still needs any cancer screening related to her sex assigned at birth. Which of the following structures most likely remains in place and still warrants cancer surveillance?",
+      "answers": {
+        "A": "Corpora cavernosa",
+        "B": "Epididymides",
+        "C": "Penile urethra",
+        "D": "Prostate",
+        "E": "Testes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The corpora cavernosa are removed in the penectomy that is part of vaginoplasty.",
+        "B": "The epididymides are removed with the testes at orchiectomy.",
+        "C": "The penile urethra is shortened and rerouted by the urethrostomy and is not a target for cancer screening.",
+        "D": "Prostatectomy is not performed in feminizing surgery because of its morbidity, so transgender women need prostate cancer surveillance, although low testosterone may be protective.",
+        "E": "The testes were removed at orchiectomy."
+      }
+    },
+    {
+      "id": "endorepro-clinical-approach-to-the-transgender-patient-020",
+      "question": "A 23-year-old transgender man with a history of sexual assault comes for his first pelvic examination for cervical cancer screening. He appears anxious and is gripping the edge of the table. Before beginning, the physician says, \"I will ask your permission before touching each area, and if you ask me to stop at any point, I will stop immediately.\" This statement best reflects which principle of trauma-informed care?",
+      "answers": {
+        "A": "Collaboration and mutuality",
+        "B": "Cultural, historical, and gender issues",
+        "C": "Empowerment, voice, and choice",
+        "D": "Peer support",
+        "E": "Safety"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Collaboration during an exam means reviewing options for comfort and checking in periodically on how the patient is doing.",
+        "B": "This principle concerns attention to cultural, historical and gender factors, not handing control of the exam to the patient.",
+        "C": "Asking before touching, obtaining permission before proceeding, and stopping immediately when asked give the patient control, which is empowerment, voice and choice.",
+        "D": "Peer support means offering to have a trusted companion in the room during the exam.",
+        "E": "Safety during an exam means avoiding triggering language, staying within the patient's line of sight and keeping an appropriate distance."
+      }
+    }
+  ]
+}

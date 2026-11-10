@@ -1,0 +1,682 @@
+{
+  "lecture": "Endo Crescendo",
+  "block": "endorepro",
+  "generated": "2026-11-10",
+  "questions": [
+    {
+      "id": "endorepro-endo-crescendo-001",
+      "question": "A 4-year-old boy is brought to the office because of early development. Over the past 6 months he has developed pubic hair and his parents have noticed that both testes have enlarged. He has also had daily headaches for 2 months. Both testes measure 6 mL. Laboratory studies are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range (age 4)"
+        ],
+        [
+          "LH",
+          "2.0 mIU/mL",
+          "<0.2–1.3 mIU/mL"
+        ],
+        [
+          "FSH",
+          "3.1 mIU/mL",
+          "<0.2–1.5 mIU/mL"
+        ],
+        [
+          "Testosterone",
+          "185 ng/dL",
+          "<10 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "MRI of the adrenal glands",
+        "B": "MRI of the brain",
+        "C": "Scrotal ultrasonography",
+        "D": "Serum DHEAS measurement",
+        "E": "Serum estradiol measurement"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Adrenal imaging looks for an androgen-secreting adrenal tumor, which would suppress LH and would not enlarge both testes.",
+        "B": "A pubertal LH (above about 0.3 IU/L) with high testosterone and bilateral testicular enlargement means central, GnRH-dependent puberty. In boys this usually has an underlying CNS cause, and headache is a red flag, so brain MRI is next.",
+        "C": "Scrotal ultrasound looks for a Leydig cell tumor, a peripheral cause that suppresses LH and usually enlarges only one testis.",
+        "D": "DHEAS screens for an adrenal androgen source (adrenarche, adrenal tumor), which would leave LH suppressed rather than in the pubertal range.",
+        "E": "Estradiol is the key sex steroid measured in girls; in this boy the testosterone and LH have already localized the problem to the brain."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-002",
+      "question": "A 6-year-old boy is brought to the physician because of pubic hair, acne, and a growth spurt over the past 6 months. His height has crossed two percentile lines. The right testis is firm and measures 4 mL; the left testis measures 1.5 mL. Bone age is 9 years. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range (age 6)"
+        ],
+        [
+          "LH",
+          "<0.1 mIU/mL",
+          "<0.2–1.3 mIU/mL"
+        ],
+        [
+          "FSH",
+          "<0.1 mIU/mL",
+          "<0.2–1.5 mIU/mL"
+        ],
+        [
+          "Testosterone",
+          "210 ng/dL",
+          "<10 ng/dL"
+        ],
+        [
+          "17-Hydroxyprogesterone",
+          "45 ng/dL",
+          "<100 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Congenital adrenal hyperplasia",
+        "B": "Exogenous testosterone exposure",
+        "C": "Leydig cell tumor",
+        "D": "Pituitary macroadenoma",
+        "E": "Premature adrenarche"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "CAH (21-hydroxylase deficiency) raises adrenal androgens with a high 17-hydroxyprogesterone, and both testes stay prepubertal in size.",
+        "B": "Exogenous testosterone suppresses LH and FSH but leaves both testes small; it would not cause one firm, enlarged testis.",
+        "C": "High testosterone with suppressed LH and FSH means peripheral (GnRH-independent) precocious puberty. A single firm, enlarged testis points to a testosterone-secreting Leydig cell (sex cord-stromal) tumor.",
+        "D": "A pituitary tumor causing early puberty would raise LH and FSH and enlarge both testes, not suppress gonadotropins.",
+        "E": "Premature adrenarche gives mild DHEAS-driven pubic hair or body odor without rapid growth, marked testosterone elevation, or testicular change."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-003",
+      "question": "A 7-year-old girl is brought to the physician because of breast development that began at age 6, followed by pubic hair. Bone age is 10 years. Serum LH is 1.1 mIU/mL, in the pubertal range, and MRI of the brain is normal. Treatment is started with depot leuprolide every 3 months, and 6 months later her LH and estradiol are suppressed. Which of the following best explains the effect of this drug?",
+      "answers": {
+        "A": "Blockade of estrogen receptors in breast tissue",
+        "B": "Competitive blockade of pituitary GnRH receptors",
+        "C": "Continuous stimulation desensitizing gonadotrophs",
+        "D": "Inhibition of aromatase in ovarian granulosa cells",
+        "E": "Suppression of hypothalamic kisspeptin release"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Estrogen receptor blockade (a SERM or antiestrogen) would not lower LH and estradiol and does not treat the central cause.",
+        "B": "Competitive receptor blockade describes a GnRH antagonist; leuprolide is a GnRH agonist that initially stimulates the receptor.",
+        "C": "Leuprolide is a GnRH agonist. Continuous rather than pulsatile stimulation desensitizes pituitary gonadotrophs, so LH, FSH and sex steroids fall, which slows bone-age advance and preserves adult height.",
+        "D": "Aromatase inhibitors block estrogen synthesis in the ovary but would not suppress LH; the LH would rise from loss of feedback.",
+        "E": "Leuprolide acts on the pituitary GnRH receptor, not on kisspeptin neurons upstream of GnRH."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-004",
+      "question": "A 6-year-old girl is brought to the physician because of breast budding over the past 3 months. She has no pubic or axillary hair. Her mother, age 52, applies a topical estradiol gel daily for hot flashes and often hugs the child after applying it. Pelvic ultrasonography shows small, symmetric ovaries without a mass. Laboratory studies are shown. Which of the following is the most likely cause of her findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range (prepubertal)"
+        ],
+        [
+          "LH",
+          "<0.1 mIU/mL",
+          "<0.3 mIU/mL"
+        ],
+        [
+          "FSH",
+          "<0.2 mIU/mL",
+          "<1.0 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "38 pg/mL",
+          "<10 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Central precocious puberty",
+        "B": "Exogenous estrogen exposure",
+        "C": "Hypothalamic hamartoma",
+        "D": "Ovarian granulosa cell tumor",
+        "E": "Premature adrenarche"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Central precocious puberty raises LH into the pubertal range; here LH and FSH are suppressed.",
+        "B": "High estradiol with suppressed LH and FSH means a peripheral source, and transfer of her mother's estradiol gel is the exposure the history reveals. Asking about creams and pills is part of the precocious puberty history.",
+        "C": "A hypothalamic hamartoma causes central precocious puberty with pubertal LH, not suppressed gonadotropins.",
+        "D": "A granulosa cell tumor is a peripheral estrogen source, but it would usually show as an ovarian mass, and the ultrasound is normal.",
+        "E": "Premature adrenarche reflects early adrenal DHEAS and causes pubic hair or body odor, not breast development with high estradiol."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-005",
+      "question": "An 18-year-old woman comes to the office because of intense fatigue. Three months ago her TSH was 12 μU/mL with a low free T4, and she was started on levothyroxine; her thyroid tests are now normal, but she feels worse. She also reports nausea, a 5-kg weight loss, light-headedness on standing, lighter menses, and darkening of her skin. Blood pressure is 96/60 mm Hg supine and 82/54 mm Hg standing. The palmar creases and buccal mucosa are darkly pigmented. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "131 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "5.4 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Glucose",
+          "66 mg/dL",
+          "70–100 mg/dL"
+        ],
+        [
+          "TSH",
+          "2.1 μU/mL",
+          "0.4–4.2 μU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Ectopic ACTH-secreting tumor",
+        "B": "Persistent hypothyroidism",
+        "C": "Pituitary adenoma",
+        "D": "Primary adrenal insufficiency",
+        "E": "Secondary adrenal insufficiency"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Ectopic ACTH causes cortisol excess (Cushing syndrome) with hypertension and hypokalemia, the opposite of this picture.",
+        "B": "Her TSH and free T4 are now normal on levothyroxine, so hypothyroidism does not explain the new symptoms.",
+        "C": "A pituitary adenoma could cause secondary adrenal insufficiency, but low ACTH would give no hyperpigmentation and no hyperkalemia.",
+        "D": "Hyperpigmentation, hyperkalemia and orthostasis mean loss of both cortisol and aldosterone with high ACTH (cleaved from POMC with MSH), which is primary adrenal insufficiency. Autoimmune hypothyroidism plus Addison disease suggests polyglandular autoimmune syndrome type 2. Adrenal insufficiency should be excluded before levothyroxine, which speeds cortisol turnover.",
+        "E": "Secondary adrenal insufficiency has low ACTH and an intact renin-angiotensin-aldosterone system, so neither hyperpigmentation nor hyperkalemia occurs."
+      },
+      "explanationImage": {
+        "src": "images/endo-crescendo/005-exp.jpg",
+        "caption": "Hyperpigmentation in Addison disease: face (A) and palmar creases compared with a healthy control at far right (B), resolved after glucocorticoid and mineralocorticoid replacement (C)",
+        "credit": "Slides p. 17 (UpToDate, courtesy of André Lacroix, MD)"
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-006",
+      "question": "A 52-year-old woman with rheumatoid arthritis comes to the emergency department because of fatigue, nausea, and light-headedness for 10 days. She had taken prednisone 20 mg daily for the past year but stopped it 2 weeks ago when she ran out. Blood pressure is 100/64 mm Hg. Her skin is not hyperpigmented. Laboratory studies are shown. Which of the following is the most likely cause of her condition?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na+",
+          "132 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "4.3 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Cortisol, 8 AM",
+          "2.1 μg/dL",
+          "5–23 μg/dL"
+        ],
+        [
+          "ACTH",
+          "6 pg/mL",
+          "10–60 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Autoimmune destruction of both adrenal cortices",
+        "B": "Bilateral adrenal hemorrhage from sepsis",
+        "C": "Lymphocytic infiltration of the pituitary",
+        "D": "Nonfunctioning pituitary macroadenoma",
+        "E": "Suppression of the HPA axis by glucocorticoids"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Autoimmune adrenalitis is primary adrenal insufficiency, which would give a high ACTH, hyperkalemia and hyperpigmentation.",
+        "B": "Bilateral adrenal hemorrhage destroys the glands (primary insufficiency), so ACTH would be high, and it usually occurs with sepsis or anticoagulation.",
+        "C": "Hypophysitis can cause secondary adrenal insufficiency, but abrupt withdrawal of a year of prednisone is the far more likely cause here.",
+        "D": "A macroadenoma is a cause of secondary adrenal insufficiency, but nothing suggests mass effect, and the steroid history explains everything.",
+        "E": "Chronic high-dose glucocorticoid therapy is the most common cause of secondary adrenal insufficiency: exogenous steroid suppresses CRH and ACTH, the adrenals atrophy, and stopping abruptly leaves low cortisol with low ACTH and normal potassium."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-007",
+      "question": "A 45-year-old man undergoes transsphenoidal resection of a nonfunctioning pituitary macroadenoma. Three weeks later he reports fatigue, anorexia, and nausea. Blood pressure is 108/70 mm Hg. Serum sodium is 127 mEq/L, potassium 4.0 mEq/L, serum osmolality 262 mOsm/kg, and urine osmolality 480 mOsm/kg. Morning cortisol is 2.5 μg/dL, and ACTH is low. Which of the following best explains his hyponatremia?",
+      "answers": {
+        "A": "ADH excess from cortisol deficiency",
+        "B": "Aldosterone deficiency causing renal sodium loss",
+        "C": "Excess free water intake from thirst",
+        "D": "Natriuretic peptide release after brain injury",
+        "E": "Osmotic diuresis from hyperglycemia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In secondary adrenal insufficiency, loss of glucocorticoid increases ADH (AVP) release, so the kidney retains free water and concentrates the urine. This is why hyponatremia occurs in both primary and secondary adrenal insufficiency.",
+        "B": "Aldosterone is controlled by the renin-angiotensin system and is preserved in secondary adrenal insufficiency, as the normal potassium shows.",
+        "C": "Primary polydipsia produces dilute urine (osmolality well below serum), not the concentrated urine seen here.",
+        "D": "Cerebral salt wasting causes volume depletion from natriuresis, but his low cortisol with low ACTH gives a more direct explanation.",
+        "E": "Hyperglycemia lowers measured sodium by drawing water out of cells, but nothing suggests hyperglycemia; cortisol deficiency tends to lower glucose."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-008",
+      "question": "A 34-year-old man has 4 months of fatigue, salt craving, and darkening of his knuckles. Blood pressure is 98/62 mm Hg. Serum sodium is 129 mEq/L and potassium 5.9 mEq/L. Morning cortisol is 2 μg/dL, ACTH is 520 pg/mL, and cortisol 60 minutes after 250 μg of cosyntropin is 4 μg/dL. Which of the following is the most appropriate long-term treatment?",
+      "answers": {
+        "A": "Dexamethasone and oral spironolactone",
+        "B": "Fludrocortisone alone",
+        "C": "Hydrocortisone alone",
+        "D": "Hydrocortisone and fludrocortisone",
+        "E": "Prednisone and levothyroxine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Spironolactone blocks the mineralocorticoid receptor and would worsen his hyperkalemia and sodium loss.",
+        "B": "Fludrocortisone replaces aldosterone only; he also needs glucocorticoid replacement for the cortisol deficiency.",
+        "C": "Glucocorticoid alone is enough in secondary adrenal insufficiency, but this is primary (ACTH above 100 pg/mL, hyperkalemia), so aldosterone must also be replaced.",
+        "D": "Primary adrenal insufficiency loses both cortisol and aldosterone, so treatment is the lowest effective dose of hydrocortisone (split AM and PM) plus fludrocortisone, a medical-alert bracelet, and doubling or tripling the dose during illness.",
+        "E": "There is no evidence of hypothyroidism, and prednisone without a mineralocorticoid would not correct the aldosterone deficiency."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-009",
+      "question": "A 27-year-old woman comes to the office because she has been unable to conceive for 14 months. She took oral contraceptives from age 15 until she stopped them to conceive. Since then her menses have been light and occur every 2 to 3 months. She exercises 4 days a week, her weight has been stable, and her BMI is 23 kg/m². She takes only a prenatal vitamin. She has no galactorrhea, headaches, visual changes, or signs of virilization. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "hCG",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "TSH",
+          "1.99 μU/mL",
+          "0.4–4.2 μU/mL"
+        ],
+        [
+          "Prolactin",
+          "67 ng/mL",
+          "4–33.4 ng/mL"
+        ],
+        [
+          "Testosterone",
+          "39 ng/dL",
+          "13–71 ng/dL"
+        ],
+        [
+          "Estradiol",
+          "44 pg/mL",
+          "12.5–166 pg/mL (follicular)"
+        ],
+        [
+          "LH",
+          "4.8 mIU/mL",
+          "2.4–12.6 mIU/mL (follicular)"
+        ],
+        [
+          "FSH",
+          "2.6 mIU/mL",
+          "3.5–12.5 mIU/mL (follicular)"
+        ]
+      ],
+      "answers": {
+        "A": "Macroprolactinoma",
+        "B": "Microprolactinoma",
+        "C": "Ovarian failure",
+        "D": "Pregnancy",
+        "E": "Primary hypothyroidism"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Macroprolactinomas (larger than 1 cm) usually raise prolactin far higher, typically above about 250 ng/mL, and often cause headache or visual field loss from mass effect.",
+        "B": "Prolactin is mildly raised, pregnancy and hypothyroidism are excluded, and FSH is low-normal. Prolactin suppresses pulsatile GnRH, causing oligomenorrhea and infertility. A mild rise with no mass effect fits a small (under 1 cm) lactotroph adenoma; pituitary MRI after a repeat prolactin would confirm it.",
+        "C": "Ovarian failure removes estrogen and inhibin feedback and gives a markedly elevated FSH, not a low-normal one.",
+        "D": "hCG is negative, which excludes pregnancy as the cause of the high prolactin.",
+        "E": "Primary hypothyroidism can raise prolactin through high TRH, but her TSH is normal."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-010",
+      "question": "A 29-year-old woman has 8 months of amenorrhea and milky nipple discharge. She takes no medications, and a pregnancy test is negative. Serum prolactin is 140 ng/mL, TSH is normal, and LH, FSH, and estradiol are all low. Pituitary MRI shows a 7-mm adenoma. Which of the following best explains her amenorrhea?",
+      "answers": {
+        "A": "Direct inhibition of ovarian steroid synthesis",
+        "B": "Increased dopamine inhibiting gonadotrophs",
+        "C": "Inhibition of hypothalamic GnRH pulsatility",
+        "D": "Mass compression of gonadotroph cells",
+        "E": "Prolactin blockade of endometrial estrogen receptors"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "If the ovary were the target, loss of estrogen feedback would raise FSH and LH; here they are low, which points above the ovary.",
+        "B": "Dopamine normally inhibits prolactin secretion; a prolactinoma escapes dopamine control rather than increasing dopamine.",
+        "C": "Prolactin suppresses pulsatile GnRH release from the hypothalamus. Gonadotropins fall, estradiol falls, and ovulation and menses stop (hypogonadotropic hypogonadism).",
+        "D": "A 7-mm microadenoma is too small to compress the surrounding gonadotrophs; mass effect is a feature of large tumors.",
+        "E": "Low estradiol, not endometrial receptor blockade, is the cause; prolactin does not antagonize estrogen receptors."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-011",
+      "question": "A 31-year-old woman comes to the office because of irregular menses for 6 months. She also reports fatigue, constipation, cold intolerance, and a 4-kg weight gain. She takes no medications. Laboratory studies are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "hCG",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "Prolactin",
+          "52 ng/mL",
+          "4–33.4 ng/mL"
+        ],
+        [
+          "TSH",
+          "16 μU/mL",
+          "0.4–4.2 μU/mL"
+        ],
+        [
+          "Free T4",
+          "0.5 ng/dL",
+          "0.8–1.8 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Cabergoline therapy",
+        "B": "Levothyroxine therapy",
+        "C": "Pituitary MRI",
+        "D": "Repeat prolactin in 6 months",
+        "E": "Transsphenoidal surgery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A dopamine agonist treats a prolactinoma, but her prolactin rise is secondary to hypothyroidism and should resolve when that is treated.",
+        "B": "Primary hypothyroidism raises TRH, which stimulates lactotrophs and raises prolactin, and it independently disturbs menses. Treating the hypothyroidism with levothyroxine is the next step; prolactin should normalize.",
+        "C": "Pituitary imaging comes after secondary causes of high prolactin (pregnancy, thyroid disease, medications) have been excluded or treated.",
+        "D": "Waiting would leave symptomatic overt hypothyroidism untreated.",
+        "E": "Surgery is reserved for prolactinomas that fail medical therapy or cause severe mass effect, and she has no prolactinoma."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-012",
+      "question": "A 33-year-old woman comes to the office because she has been unable to conceive for 1 year. Her cycles have lengthened to every 45 to 90 days over the past 2 years, and she now has hot flashes and night sweats. BMI is 22 kg/m². She has no hirsutism or galactorrhea. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "hCG",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "FSH",
+          "62 mIU/mL",
+          "3.5–12.5 mIU/mL (follicular)"
+        ],
+        [
+          "LH",
+          "40 mIU/mL",
+          "2.4–12.6 mIU/mL (follicular)"
+        ],
+        [
+          "Estradiol",
+          "<20 pg/mL",
+          "12.5–166 pg/mL (follicular)"
+        ],
+        [
+          "Anti-Müllerian hormone",
+          "<0.1 ng/mL",
+          "1.0–4.0 ng/mL"
+        ],
+        [
+          "Prolactin",
+          "14 ng/mL",
+          "4–33.4 ng/mL"
+        ],
+        [
+          "TSH",
+          "1.8 μU/mL",
+          "0.4–4.2 μU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Functional hypothalamic amenorrhea",
+        "B": "Hyperprolactinemia",
+        "C": "Polycystic ovary syndrome (PMOS)",
+        "D": "Primary ovarian insufficiency",
+        "E": "Sheehan syndrome"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Functional hypothalamic amenorrhea lowers GnRH pulses, so FSH and LH are low or inappropriately normal, not elevated. It also usually follows low weight, stress, or heavy exercise.",
+        "B": "Her prolactin is normal; hyperprolactinemia would also lower FSH and LH rather than raise them.",
+        "C": "PMOS (formerly PCOS) causes oligo-ovulation with hyperandrogenism and a high LH:FSH ratio, a normal estradiol, and a normal or high AMH.",
+        "D": "Follicle depletion before age 40 removes estradiol and inhibin feedback, so FSH and LH climb to menopausal levels and AMH, made by granulosa cells of small follicles, is undetectable. This is primary ovarian insufficiency (premature ovarian failure).",
+        "E": "Sheehan syndrome is postpartum pituitary infarction, which gives low gonadotropins and follows obstetric hemorrhage."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-013",
+      "question": "A 55-year-old man with type 2 diabetes and hypertension has had abdominal pain and weight loss for 3 months. Blood pressure is 152/94 mm Hg on two drugs, and serum potassium is 4.2 mEq/L. CT of the abdomen and pelvis shows a 4.6 × 5.7 × 6.1-cm right adrenal mass with an unenhanced attenuation of 38 Hounsfield units and areas of cystic change; there are no other abnormalities. A contrast-enhanced image is shown. Which of the following blood tests is most appropriate?",
+      "image": {
+        "src": "images/endo-crescendo/013.jpg",
+        "caption": "Contrast-enhanced axial CT of the upper abdomen",
+        "credit": "Slides p. 27"
+      },
+      "answers": {
+        "A": "Plasma aldosterone",
+        "B": "Plasma catecholamines",
+        "C": "Plasma free metanephrines",
+        "D": "Plasma renin activity",
+        "E": "Serum random cortisol level"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Aldosterone is measured together with renin as a ratio, and mainly when hypertension comes with hypokalemia; it does not address the most dangerous possibility here.",
+        "B": "Catecholamines are released in bursts, so a single plasma level is a poor screen; their metabolites are measured instead.",
+        "C": "Every adrenal incidentaloma is screened for pheochromocytoma. This mass also looks like one: large, more than 10 HU, with cystic areas. Plasma free metanephrines have high sensitivity and negative predictive value, and pheo must be excluded before surgery or biopsy to avoid a hypertensive crisis.",
+        "D": "Renin is interpreted only as part of the aldosterone-to-renin ratio for hyperaldosteronism and is not the key test for this mass.",
+        "E": "A random cortisol does not screen for autonomous cortisol secretion; that requires the 1-mg overnight dexamethasone suppression test."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-014",
+      "question": "A 41-year-old woman has a 6-month history of episodes of pounding headache, palpitations, and drenching sweats lasting 15 minutes. Blood pressure is 168/104 mm Hg, and pulse is 96/min. Plasma normetanephrine is 4 times the upper limit of normal. CT shows a 4-cm left adrenal mass. Laparoscopic adrenalectomy is planned. Which of the following drugs should be started first?",
+      "answers": {
+        "A": "Hydrochlorothiazide",
+        "B": "Metoprolol",
+        "C": "Phenoxybenzamine",
+        "D": "Propranolol",
+        "E": "Spironolactone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A thiazide diuretic worsens the volume contraction typical of pheochromocytoma and does nothing to block α-adrenergic vasoconstriction.",
+        "B": "A β-blocker given before α-blockade leaves α-receptors unopposed, so catecholamines cause unchecked vasoconstriction and a hypertensive crisis. β-blockers are added only afterward, for tachycardia.",
+        "C": "Pheochromocytoma surgery requires 10–14 days of α-blockade first, typically phenoxybenzamine, increased every few days until blood pressure and paroxysms are controlled, to prevent intraoperative hypertensive crisis.",
+        "D": "Propranolol is a nonselective β-blocker and carries the same risk of unopposed α-stimulation if started before an α-blocker.",
+        "E": "Spironolactone treats hyperaldosteronism and does not block the effects of catecholamines."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-015",
+      "question": "A 58-year-old man undergoes CT for flank pain, which shows a kidney stone and an incidental 2.2-cm left adrenal mass. The mass is round and homogeneous with smooth margins, measures 4 Hounsfield units on unenhanced images, and shows 70% contrast washout at 10 minutes. Blood pressure is 124/78 mm Hg. Laboratory studies are shown. Which of the following is the most appropriate next step in management of the adrenal mass?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "K+",
+          "4.3 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Plasma free metanephrines",
+          "Normal",
+          "Normal"
+        ],
+        [
+          "Cortisol after 1-mg overnight dexamethasone",
+          "1.1 μg/dL",
+          "<1.8 μg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Fine-needle aspiration of the mass",
+        "B": "Laparoscopic adrenalectomy now",
+        "C": "MIBG scintigraphy of the abdomen",
+        "D": "Serial imaging and hormone testing",
+        "E": "Spironolactone and repeat potassium"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "FNA cannot distinguish benign from malignant adrenal cortical tissue and is not indicated for a benign-appearing mass.",
+        "B": "Surgery is for hormonally active masses or masses 4 cm or larger or with suspicious imaging; this one is small, benign-appearing and nonfunctional.",
+        "C": "MIBG scanning localizes a pheochromocytoma that has been confirmed biochemically; his metanephrines are normal.",
+        "D": "A nonfunctional mass under 4 cm with an adenoma phenotype (≤10 HU, homogeneous, ≥50% washout) is observed: repeat CT or MRI at 3–6, 12 and 24 months, repeat hormone testing yearly for at least 4 years, and surgery if it grows.",
+        "E": "He is normotensive with a normal potassium, so there is no evidence of hyperaldosteronism to treat."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-016",
+      "question": "A 47-year-old woman has an incidental 5.2-cm right adrenal mass on CT performed after a car accident. The mass is heterogeneous with irregular margins, measures 32 Hounsfield units on unenhanced images, and shows 25% contrast washout at 10 minutes. She has no history of cancer. Blood pressure, potassium, plasma free metanephrines, and a 1-mg overnight dexamethasone suppression test are all normal. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Fine-needle aspiration biopsy",
+        "B": "Mitotane chemotherapy",
+        "C": "Observation only",
+        "D": "Repeat CT in 12 months",
+        "E": "Right adrenalectomy"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "FNA cannot distinguish adrenocortical adenoma from carcinoma, so it would not change management, and it risks seeding a carcinoma.",
+        "B": "Mitotane is an adrenolytic drug used for adrenocortical carcinoma, not as a first step before tissue diagnosis.",
+        "C": "Observation is for nonfunctional masses under 4 cm with benign imaging features.",
+        "D": "Delaying 12 months is inappropriate for a mass whose size and imaging raise concern for carcinoma, which can grow more than 2 cm per year.",
+        "E": "A mass 4 cm or larger with indeterminate or malignant features (heterogeneous, irregular, more than 10 HU, under 50% washout) is removed even when nonfunctional, because of the risk of adrenocortical carcinoma. Pheochromocytoma has already been excluded."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-017",
+      "question": "A 48-year-old woman comes to the office because of a 2-year history of irregular menses. She has skipped periods intermittently, and most recently went 4 months without one, then began bleeding 3 weeks ago and has not stopped. The bleeding started light and has fluctuated from day to day. She reports hot flashes and insomnia. BMI is 23 kg/m², she has no medical history, and she takes no medications. She has always had normal-volume menses and has had no bleeding problems with procedures. Pelvic ultrasonography shows a normal-sized uterus without focal lesions. Which of the following is the most likely cause of her abnormal uterine bleeding?",
+      "answers": {
+        "A": "Coagulopathy",
+        "B": "Endometrial hyperplasia",
+        "C": "Endometrial polyp",
+        "D": "Ovulatory dysfunction",
+        "E": "Submucosal fibroid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Coagulopathy (most often von Willebrand disease) causes heavy menses since menarche and bleeding with procedures, which she does not have.",
+        "B": "Hyperplasia is possible after prolonged unopposed estrogen and is why she should have an endometrial biopsy at her age, but it is not the most likely cause.",
+        "C": "A polyp is a structural (PALM) cause that typically causes intermenstrual or postcoital bleeding and would often be seen as a focal lesion.",
+        "D": "In the menopausal transition, oocyte depletion makes cycles anovulatory. Estrogen continues without progesterone, the endometrium outgrows its blood supply and sheds irregularly, giving AUB-O.",
+        "E": "A submucosal fibroid causes regular heavy menstrual bleeding and would usually be seen on ultrasound."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-018",
+      "question": "A 48-year-old woman with 2 years of irregular cycles and 3 weeks of erratic bleeding undergoes endometrial biopsy, which shows disordered proliferative endometrium without atypia. She does not smoke, her blood pressure is 118/74 mm Hg, and she has no history of venous thromboembolism or migraine. TSH is normal. She wants medical treatment to control the bleeding. Which of the following is the most appropriate therapy?",
+      "answers": {
+        "A": "Desmopressin nasal spray",
+        "B": "Estradiol transdermal patch",
+        "C": "Levonorgestrel IUD",
+        "D": "Levothyroxine oral tablet",
+        "E": "Raloxifene oral tablet"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Desmopressin releases von Willebrand factor and is used for coagulopathy, mainly around surgery or delivery, not for anovulatory bleeding.",
+        "B": "Estrogen alone is unopposed estrogen, the very cause of the disordered proliferation, and would raise the risk of hyperplasia.",
+        "C": "Disordered proliferative endometrium reflects estrogen without progesterone. A progestin opposes estrogen-driven growth and then thins the endometrium. The levonorgestrel IUD does this locally, and a combined pill or oral norethindrone are other acceptable progestin options.",
+        "D": "Levothyroxine treats hypothyroidism, which has been excluded by a normal TSH.",
+        "E": "Raloxifene is a SERM used for osteoporosis; it does not supply the progestin effect needed to control anovulatory bleeding."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-019",
+      "question": "A 50-year-old woman had a levonorgestrel intrauterine device placed 2 years ago for abnormal uterine bleeding from ovulatory dysfunction. She has had no vaginal bleeding for 18 months. She now reports severe hot flashes, night sweats, insomnia, pain with intercourse, hair thinning, and difficulty concentrating. Which of the following hormone patterns is most likely in this patient?",
+      "answers": {
+        "A": "FSH decreased, estradiol decreased, AMH increased",
+        "B": "FSH decreased, estradiol increased, AMH increased",
+        "C": "FSH increased, estradiol decreased, AMH decreased",
+        "D": "FSH increased, estradiol decreased, AMH increased",
+        "E": "FSH increased, estradiol increased, AMH decreased"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Low FSH with low estradiol is a central (hypothalamic or pituitary) pattern, and a high AMH would mean a large follicle pool.",
+        "B": "Low FSH with high estradiol and AMH fits a healthy reproductive-age ovary (or exogenous estrogen), not menopause.",
+        "C": "Her symptoms are hypoestrogenic, and her lack of bleeding is due to the IUD, not menopause itself. Follicle depletion lowers AMH, inhibin and estradiol, and the loss of feedback from inhibin and estrogen raises FSH.",
+        "D": "AMH is made by granulosa cells of small follicles, so it falls, not rises, as follicles run out.",
+        "E": "Estradiol can be preserved early in the transition, but persistent severe vasomotor and genitourinary symptoms reflect low estradiol."
+      }
+    },
+    {
+      "id": "endorepro-endo-crescendo-020",
+      "question": "A 44-year-old woman notes that her menstrual cycles have shortened from 28 to 23 days over the past year, and she has occasional mild hot flashes. Laboratory studies on cycle day 3 are shown. Which of the following best explains the rise in her FSH?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "FSH",
+          "18 mIU/mL",
+          "3.5–12.5 mIU/mL (follicular)"
+        ],
+        [
+          "Estradiol",
+          "85 pg/mL",
+          "12.5–166 pg/mL (follicular)"
+        ],
+        [
+          "Anti-Müllerian hormone",
+          "0.4 ng/mL",
+          "1.0–4.0 ng/mL"
+        ],
+        [
+          "TSH",
+          "2.0 μU/mL",
+          "0.4–4.2 μU/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Decreased inhibin B from fewer follicles",
+        "B": "Increased estradiol clearance by the liver",
+        "C": "Increased GnRH pulse amplitude with aging",
+        "D": "Loss of luteal progesterone feedback",
+        "E": "Resistance of granulosa cells to estradiol"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Early in the menopausal transition, the shrinking follicle pool makes less inhibin B and AMH. With less inhibin to restrain it, FSH rises even while estradiol is still normal or high.",
+        "B": "Her estradiol is normal, so faster estradiol clearance does not explain the change; FSH is rising despite preserved estradiol.",
+        "C": "The primary change is in the ovary, not a hypothalamic increase in GnRH; the pituitary is responding to lost ovarian feedback.",
+        "D": "Luteal progesterone does fall in the transition, but the selective early rise in FSH is driven by loss of inhibin B.",
+        "E": "Granulosa cells respond to FSH, not estradiol; what fails is the number of follicles, not their sensitivity to estrogen."
+      }
+    }
+  ]
+}

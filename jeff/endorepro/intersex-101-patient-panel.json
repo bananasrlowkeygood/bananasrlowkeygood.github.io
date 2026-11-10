@@ -1,0 +1,463 @@
+{
+  "lecture": "Patient Panel: Intersex 101",
+  "block": "endorepro",
+  "generated": "2026-11-10",
+  "questions": [
+    {
+      "id": "endorepro-intersex-101-patient-panel-001",
+      "question": "A 2-day-old infant is noted to have atypical genitalia, and karyotype results are pending. During rounds, the resident's note reads \"ambiguous genitalia, disorder of sex development.\" The parents read the note in the patient portal and say the wording made them feel their child is \"broken.\" A survey of intersex patients and parents found that two-thirds had negative emotional experiences related to terminology. Which description of the infant's condition is most appropriate for the chart and for counseling?",
+      "answers": {
+        "A": "Ambiguous sex requiring urgent sex assignment",
+        "B": "Difference of sex development, atypical genitalia",
+        "C": "Disorder of sex development with ambiguous genitalia",
+        "D": "Male pseudohermaphroditism pending karyotype results",
+        "E": "Sex reversal pending a gonadal biopsy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Framing gender assignment as a 'social emergency' is the historical rationale that led to early surgery; it is neither neutral nor accurate.",
+        "B": "Correct: 'difference' (or 'variation') and 'atypical' are the neutral terms recommended in place of 'disorder' and 'ambiguous', which carry a negative connotation for most families.",
+        "C": "This is the wording that upset the family; 'disorder' and 'ambiguous' are the terms the lecture lists as having a negative connotation.",
+        "D": "'Hermaphrodite' and its variants are considered a slur by many intersex people and should not be used clinically.",
+        "E": "'Sex reversal' is not one of the neutral terms and implies a defect; it would likely provoke the same negative response."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-002",
+      "question": "A hospital quality-improvement team surveys 150 intersex patients and parents of intersex children. About two-thirds report a negative emotional experience caused by terminology used by clinicians, such as \"disorder,\" \"abnormal,\" and \"undervirilized.\" The team wants to know why this matters for health outcomes. Which consequence did most respondents in such surveys report?",
+      "answers": {
+        "A": "Better adherence to prescribed hormone therapy",
+        "B": "Better trust in their multidisciplinary team",
+        "C": "Changing or avoiding specialist care",
+        "D": "Higher demand for early genital surgery",
+        "E": "More frequent requests for genetic testing"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Patients who feel stigmatized tend to disengage from care, which would worsen, not improve, adherence.",
+        "B": "Stigmatizing language erodes trust; it does not build it, which is why nomenclature is a learning objective.",
+        "C": "Correct: 80% of respondents changed their care because of terminology, including 22% who stopped going for any specialist care and 14% who moved all care to a different hospital.",
+        "D": "Negative terminology was linked to avoiding care, not to seeking more surgery.",
+        "E": "The survey linked terminology to changes in where and whether patients sought care, not to genetic testing."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-003",
+      "question": "A 23-year-old woman establishes care with a new adult primary care physician. She says she was followed by a pediatric endocrinologist until age 17 for \"a hormone condition\" and had \"surgery as a baby,\" but she has not seen a specialist since. Her pediatric endocrinologist retired, and no records were sent to an adult clinic. She asks what her diagnosis actually is. Which barrier to care best explains her situation?",
+      "answers": {
+        "A": "Lack of adequate insurance coverage",
+        "B": "Low health literacy of the patient",
+        "C": "Over-frequent specialist follow-up visits",
+        "D": "Patient refusal of genetic counseling",
+        "E": "Poor pediatric-to-adult transitional care"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Nothing in the vignette points to cost; the gap arose when pediatric care ended without a handoff.",
+        "B": "She is asking appropriate questions; the information was never transferred to her or to an adult clinic.",
+        "C": "She has had no specialist follow-up for six years, the opposite of over-frequent care.",
+        "D": "She has not refused anything; she was never offered continued care after pediatrics.",
+        "E": "Correct: poor transitional care from pediatric to adult clinics is a named barrier; many intersex adults do not know their true diagnosis because of these care transitions."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-004",
+      "question": "A 34-year-old person with an intersex variation presents to establish primary care. As a child, they had both gonads removed after their parents were told \"with certainty\" that the gonads would become cancerous. They were never told a specific diagnosis and have taken hormones intermittently. They have no medical records with them. Laboratory studies are shown. Which is the most appropriate next step?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "LH",
+          "38 mIU/mL",
+          "2–15 mIU/mL"
+        ],
+        [
+          "FSH",
+          "52 mIU/mL",
+          "2–12 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "<10 pg/mL",
+          "30–400 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Advise that the old diagnosis is best left unexplored",
+        "B": "Arrange a genital exam with students present first",
+        "C": "Refer for genital reconstructive surgery evaluation",
+        "D": "Request old records and consider genetics referral",
+        "E": "Start empiric testosterone without further history"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This repeats the concealment model; clinicians should help patients understand a medical history that may have been withheld from them.",
+        "B": "An exam with observers before establishing trust ignores the medical gaze and the trauma many intersex patients carry.",
+        "C": "Nothing in the history calls for surgery; the gap is information, not anatomy.",
+        "D": "Correct: many intersex adults do not know their diagnosis, and the lecture's approach is to obtain old medical records and consider geneticist referral before planning hormonal management and cancer screening.",
+        "E": "Hormonal management depends on knowing the diagnosis and the patient's goals, which are not yet known."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-005",
+      "question": "A 30-year-old patient with Mayer-Rokitansky-Küster-Hauser syndrome, who has no uterus, arrives for a knee radiograph. The intake form lists her as female, and the front desk insists she complete a urine pregnancy test before imaging; when she explains, the clerk tells her it is \"policy for all females.\" She leaves without the radiograph and says this has happened at other clinics. Which intervention would most directly prevent this from recurring?",
+      "answers": {
+        "A": "Add more sex options to the intake form",
+        "B": "Assign all intersex patients to urology",
+        "C": "Educate front desk and office staff",
+        "D": "Refer the patient to a different hospital",
+        "E": "Require a karyotype before any imaging"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The lecture's point is that forms will not save us: any fixed category still carries assumptions (menstruates, has a cervix, XX), so the staff behavior must change.",
+        "B": "Moving care elsewhere is one of the harms these experiences cause, not a fix.",
+        "C": "Correct: poor education of front desk staff is a named barrier, and educating office staff (e.g., not every 'female' needs a pregnancy test) is a named way to make a practice accessible.",
+        "D": "Moving care elsewhere is one of the harms these experiences cause, not a fix.",
+        "E": "A karyotype does not tell anyone whether a patient has a uterus, and it adds a needless test."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-006",
+      "question": "A 14-year-old with a difference of sex development is seen separately by endocrinology, urology, gynecology, and genetics at three different hospitals. The family reports that the specialists have given conflicting advice about hormones and surgery, no one has addressed the teen's mood, and the family feels \"no one doctor can give us all the answers.\" Which change in care delivery would best address this?",
+      "answers": {
+        "A": "Adding more visits with each specialist",
+        "B": "Asking the family to choose a single specialist",
+        "C": "Coordinated multidisciplinary DSD clinic care",
+        "D": "Referral to the most experienced surgeon",
+        "E": "Transferring all care to the primary physician"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "More visits within a fragmented system add burden without coordinating the advice.",
+        "B": "No single specialty can cover all of these needs, which is the problem the family describes.",
+        "C": "Correct: a lack of multidisciplinary centers is a named barrier; a center with endocrinology, urology/gynecology, psychology, social work, genetics and a gender expert reduces fragmentation.",
+        "D": "Making surgery the organizing service ignores the psychological and hormonal needs and the controversy around surgery.",
+        "E": "Primary care alone cannot provide the specialist input; coordination, not consolidation in one generalist, is the goal."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-007",
+      "question": "A 27-year-old non-binary intersex patient who uses they/them pronouns establishes primary care. Their electronic record lists them as female. They report vaginoplasty in childhood and do not know which internal organs they have. The physician wants to decide which cancer screening tests are appropriate. Which approach is best?",
+      "answers": {
+        "A": "Base screening on the karyotype result alone",
+        "B": "Base screening on the patient's gender identity alone",
+        "C": "Base screening on the sex listed in the chart",
+        "D": "Inventory the organs present at birth and now",
+        "E": "Skip cancer screening until records arrive"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Karyotype does not reveal which organs were removed or are present after surgery.",
+        "B": "Gender identity does not determine which organs a person has, so it cannot set screening.",
+        "C": "Binary sex categories in records cause misinformation and can lead to wrong or denied care.",
+        "D": "Correct: an organ inventory (what you were born with, what you have now) drives anatomy-specific screening, and making it standard is a named way to make a practice accessible.",
+        "E": "Cancer screening is a stated consideration for intersex adults; it should be tailored, not skipped."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-008",
+      "question": "A 19-year-old intersex patient who uses they/them pronouns has missed three follow-up appointments. When reached by phone, they explain that at every visit, staff called them \"she\" and \"young lady\" despite their corrections, and they left feeling unwelcome. Respect for pronouns is a protective factor for the mental health of intersex youth. Which practice change is most appropriate?",
+      "answers": {
+        "A": "Address patients by their legal sex only",
+        "B": "Affirm gender identity and use stated pronouns",
+        "C": "Ask the patient to change legal documents first",
+        "D": "Assign pronouns based on the karyotype",
+        "E": "Avoid all pronouns and use surnames only"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Using the legal or chart sex over the patient's stated identity is what drove this patient away.",
+        "B": "Correct: affirming gender identity and respecting pronouns is a competency for all clinicians and a named way to make a practice more accessible to the LGBTQIA community.",
+        "C": "Respect for pronouns should not depend on paperwork; this places the burden on the patient.",
+        "D": "Karyotype does not determine gender identity; intersex people can have any gender identity.",
+        "E": "Avoiding the issue does not affirm the patient's identity and does not address the staff's misgendering."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-009",
+      "question": "A newborn is diagnosed with a difference of sex development. The geneticist and endocrinologist have explained the medical findings, and no surgery is planned. On day 3 the parents tell the nurse they feel completely alone, have never heard of anyone with this condition, and do not know how they will explain it to family. Which additional intervention is most appropriate now?",
+      "answers": {
+        "A": "Connect the family with intersex peer support",
+        "B": "Delay discussing support resources until puberty",
+        "C": "Keep the diagnosis private within the family",
+        "D": "Refer the parents for anxiolytic medication",
+        "E": "Schedule early genital surgery to ease worry"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: routine incorporation of peer support at the earliest possible time eases the overwhelming isolation and bewilderment families feel at diagnosis.",
+        "B": "Peer support works best at the earliest possible time, which is now.",
+        "C": "Secrecy is the concealment model, whose legacy is trauma and mistrust.",
+        "D": "Their distress comes from isolation; peer support addresses the cause directly.",
+        "E": "Easing parental anxiety was a historical rationale for surgery, but surgery is no longer the default, and unoperated children do well with family support."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-010",
+      "question": "A medical historian reviews operative notes from 1975 to 1995 on infants with atypical genitalia who underwent clitoral reduction, gonadectomy, or vaginoplasty in the first year of life. The notes describe gender assignment as a \"social emergency.\" In addition to easing parental anxiety and stigma, which argument for operating in infancy do these notes most likely cite?",
+      "answers": {
+        "A": "Gender identity is fixed by the karyotype",
+        "B": "Infant surgery has the lowest complication rate",
+        "C": "Infants can give assent to the procedure",
+        "D": "Randomized trials show benefit of early surgery",
+        "E": "Surgery at a young age would be forgotten"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The lecture shows the opposite: people with CAH and an XX karyotype do not all have a female gender identity.",
+        "B": "High complication rates (sexual dysfunction, stenosis, dyspareunia, incontinence) are an argument against surgery.",
+        "C": "Infants cannot consent or assent; inability to consent is an argument against early surgery.",
+        "D": "No randomized controlled trial has shown benefit of intersex surgery.",
+        "E": "Correct: the notion that surgery at a younger age would be less traumatic because the child would forget it is one of the two main arguments for early surgery."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-011",
+      "question": "A 24-year-old with congenital adrenal hyperplasia and a 46,XX karyotype was assigned female at birth and underwent clitoral reduction at 6 months of age. At a new visit, the patient says they now identify as male, wish the surgery had never been done, and feel their sex was \"already decided for me.\" Which argument in the surgical-management controversy does this case best illustrate?",
+      "answers": {
+        "A": "Easing parental anxiety and social stigma",
+        "B": "High rate of urinary complications",
+        "C": "Need to prevent gonadal malignancy",
+        "D": "Surgery is less traumatic when young",
+        "E": "Uncertain future gender identity"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This is an argument for early surgery, and the case shows its cost to the patient.",
+        "B": "Complications are an argument against surgery, but this patient's concern is gender identity, not urinary symptoms.",
+        "C": "Clitoral reduction does not involve the gonads, and malignancy is not the issue raised.",
+        "D": "This is an argument for early surgery that the patient's regret contradicts.",
+        "E": "Correct: because a child's gender identity is not known in infancy, early surgery risks mis-assignment; 14% of adults with CAH identified with the gender opposite their infant assignment."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-012",
+      "question": "A 31-year-old woman who underwent vaginoplasty in infancy reports dyspareunia, vaginal stenosis, and recurrent urinary tract infections. She asks whether research has shown that early genital surgery improves long-term outcomes. Her surgeon cites a 2007 report concluding that sexual function \"is difficult to assess until all patients reach sexual maturity.\" Which statement about the evidence base is most accurate?",
+      "answers": {
+        "A": "Modern techniques have eliminated complications",
+        "B": "Most studies report quality-of-life outcomes",
+        "C": "Outcome data are underpowered and incomplete",
+        "D": "Randomized trials show early surgery is superior",
+        "E": "Validated tools show normal sexual function"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Complication rates remain high (47% sexual dysfunction, 36% stenosis, 70% dyspareunia), and studies use techniques surgeons admit are obsolete.",
+        "B": "A 2024 systematic review found 0% of studies reported quality of life.",
+        "C": "Correct: studies are underpowered, heterogeneous, use obsolete techniques, focus on cosmesis, mostly lack validated tools, and none report quality of life; there is no RCT showing benefit.",
+        "D": "There is no randomized controlled trial showing the benefits of surgery.",
+        "E": "Most studies of female sexual function after surgery do not use validated tools."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-013",
+      "question": "The parents of a 6-month-old with atypical genitalia request vaginoplasty now. The surgeon notes that the procedure is irreversible and not needed for the infant's physical health. The hospital ethics consultant recommends deferring surgery so that the child, rather than the parents and doctors, can make the decision when old enough to participate. Which ethical principle is the consultant primarily protecting?",
+      "answers": {
+        "A": "Autonomy",
+        "B": "Beneficence",
+        "C": "Justice",
+        "D": "Nonmaleficence",
+        "E": "Veracity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the child cannot give informed consent for an irreversible procedure, and deferring protects their bodily autonomy, the principle the Human Rights Watch report and the lecture emphasize.",
+        "B": "Beneficence is about doing good for the patient; the consultant's stated reason is who makes the decision, not the expected benefit.",
+        "C": "Justice concerns fair distribution of care and resources, which is not the issue here.",
+        "D": "Avoiding harm (complications) also argues against surgery, but the consultant's reason is the child's right to decide.",
+        "E": "Veracity is truth-telling; nothing in the vignette involves withholding information."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-014",
+      "question": "A 16-year-old intersex adolescent is seen for depression screening. They had gonadectomy at age 2 and genital surgery at age 3. Their score indicates moderate depression, and they report passive suicidal thoughts. The clinician wants to strengthen factors associated with lower suicide risk in intersex people. Which factor is most strongly associated with reduced suicide risk?",
+      "answers": {
+        "A": "Completion of genital normalization surgery",
+        "B": "Early prophylactic gonadectomy",
+        "C": "Participation in change-attempt counseling",
+        "D": "Supportive parents and a best friend",
+        "E": "Withholding the diagnosis until adulthood"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Surgery is not protective; unoperated children with gender-atypical bodies do well with family support.",
+        "B": "A history of gonadectomy is associated with high suicidality, similar to adult survivors of child abuse.",
+        "C": "Change attempts and conversion therapy, experienced by 66% of intersex youth, are a risk factor for poor mental health.",
+        "D": "Correct: quality of parental care and having a best friend are associated with reduced suicide risk; parental and peer support are protective for intersex youth.",
+        "E": "Concealment leaves a legacy of trauma and mistrust of medical providers."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-015",
+      "question": "A pediatric urology group mails a satisfaction questionnaire about childhood genital surgery to all 200 consecutive adult patients from its practice; the survey is signed by the operating surgeon and returned to the surgeon's office. Results are shown. The group concludes that patients are highly satisfied with their surgery. Which type of bias most threatens this conclusion?",
+      "table": [
+        [
+          "Measure",
+          "Result"
+        ],
+        [
+          "Questionnaires mailed",
+          "200"
+        ],
+        [
+          "Questionnaires returned",
+          "58 (29%)"
+        ],
+        [
+          "Respondents \"satisfied\" or \"very satisfied\"",
+          "52 (90%)"
+        ]
+      ],
+      "answers": {
+        "A": "Design bias",
+        "B": "Interpretation bias",
+        "C": "Lead-time bias",
+        "D": "Response bias",
+        "E": "Selection bias"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Design bias is not asking the right questions; the main flaw here is who answered and how, not what was asked.",
+        "B": "Interpretation bias arises when authors draw conclusions their data do not support; the distortion here begins earlier, in who answered.",
+        "C": "Lead-time bias applies to screening studies that appear to prolong survival by earlier detection.",
+        "D": "Correct: questionnaires are more likely to be answered by satisfied patients, and responses returned to one's own surgeon are colored by the doctor-patient power imbalance.",
+        "E": "Selection bias ('cherry picking') means investigators chose a subset; here all consecutive patients were sent the survey."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-016",
+      "question": "A 2024 systematic review examines 71 studies of \"sex-normalizing\" surgeries on intersex children younger than 10 years. The reviewers note that studies chose outcomes that surgeons value rather than those that intersex people say matter to them. Selected findings are shown. Which type of bias do these findings best illustrate?",
+      "table": [
+        [
+          "Finding",
+          "Studies (%)"
+        ],
+        [
+          "Reported cosmetic outcome",
+          "38%"
+        ],
+        [
+          "Reported quality of life",
+          "0%"
+        ],
+        [
+          "Gave no rationale for timing of surgery",
+          "62%"
+        ],
+        [
+          "Did not acknowledge any controversy",
+          "52.1%"
+        ]
+      ],
+      "answers": {
+        "A": "Design bias",
+        "B": "Interpretation bias",
+        "C": "Recall bias",
+        "D": "Response bias",
+        "E": "Selection bias"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: design bias is not asking the right questions; measuring cosmesis while no study measured quality of life is a failure to ask what matters to patients.",
+        "B": "Interpretation bias is drawing unsupported conclusions from data; here the problem is which outcomes were measured at all.",
+        "C": "Recall bias comes from differences in how participants remember past exposures, which these findings do not describe.",
+        "D": "Response bias comes from who answers questionnaires and how; these findings concern study outcomes chosen by investigators.",
+        "E": "Selection bias is cherry picking participants; the issue here is the outcomes chosen, not the participants."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-017",
+      "question": "Investigators study 28 adults with congenital adrenal hyperplasia and a 46,XX karyotype, all assigned female in infancy. Their introduction states that \"for physicians it is obvious and unequivocal that a person with CAH and an XX karyotype has a female gender identity.\" Results are shown. The authors conclude that assigning female sex based on karyotype is appropriate for all such patients. Which bias best describes the authors' conclusion?",
+      "table": [
+        [
+          "Outcome",
+          "Result"
+        ],
+        [
+          "Participants",
+          "28 (24 virilizing, 4 salt-wasting)"
+        ],
+        [
+          "Identify with gender opposite infant assignment",
+          "14%"
+        ]
+      ],
+      "answers": {
+        "A": "Ascertainment bias",
+        "B": "Design bias",
+        "C": "Interpretation bias",
+        "D": "Misclassification bias",
+        "E": "Selection bias"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Ascertainment bias is a systematic difference in how outcomes are detected; the outcome was detected, then misread.",
+        "B": "The study did ask about gender identity; the flaw is in how the answer was interpreted.",
+        "C": "Correct: the authors' prior assumption shapes a conclusion their own data contradict (14% identify with the opposite gender), which is interpretation and communication bias.",
+        "D": "Nothing suggests participants were put in the wrong category; the 14% figure is the authors' own result.",
+        "E": "The cohort was not cherry-picked to support the conclusion; the conclusion ignores the cohort's data."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-018",
+      "question": "A research team plans a study of long-term outcomes in intersex adults. An intersex advocacy organization declines to help recruit, explaining that its members have repeatedly been denied participation at the study-design phase. The organization's guidelines require a community consultant to be involved from the project's inception, under the philosophy \"Nothing About Us Without Us.\" Which research approach best addresses these concerns?",
+      "answers": {
+        "A": "Case-control study of operated patients",
+        "B": "Community-based participatory research",
+        "C": "Retrospective review of operative charts",
+        "D": "Single-center cohort of cosmetic results",
+        "E": "Surgeon-administered satisfaction survey"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A case-control design does not by itself involve the community in choosing the questions.",
+        "B": "Correct: in CBPR, the intersex community helps design the methods, goals and sensitive language and decides which outcomes matter.",
+        "C": "Chart reviews measure what surgeons documented, not outcomes the community values.",
+        "D": "Focusing on cosmesis is the design flaw the lecture criticizes; quality of life is what patients value.",
+        "E": "This invites response bias from the power imbalance and excludes the community from design."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-019",
+      "question": "A 17-year-old intersex patient learned their diagnosis by reading old medical records, years after their parents were told it would be \"too traumatizing\" to know. As a child they had repeated genital exams with groups of residents and regular medical photography. At a teaching hospital visit, the attending suggests bringing six residents in for the genital exam because it is \"a great teaching case.\" The patient appears tense. Which is the most appropriate action?",
+      "answers": {
+        "A": "Ask the parents for consent and proceed if they agree",
+        "B": "Ask the patient privately about observers",
+        "C": "Limit the group to two residents and proceed",
+        "D": "Photograph the genitals for teaching instead",
+        "E": "Proceed, since teaching-hospital consent covers this"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The patient is the one examined, and making decisions over the patient's head repeats the paternalism they experienced.",
+        "B": "Correct: reducing the medical gaze and giving trauma-informed care means getting and confirming consent at each step and respecting the patient's power to say no.",
+        "C": "Fewer observers still treats the patient as a teaching moment without their consent.",
+        "D": "Medical photography for teaching was part of the trauma of past care and still needs consent.",
+        "E": "General consent does not replace asking; past 'parades' of residents are why intersex patients mistrust providers."
+      }
+    },
+    {
+      "id": "endorepro-intersex-101-patient-panel-020",
+      "question": "The parents of a 4-month-old with a difference of sex development ask whether their child's gonads must be removed. A relative told them that \"intersex gonads always turn into cancer,\" which is what intersex patients were once told with certainty. Which statement is the most accurate counseling?",
+      "answers": {
+        "A": "All intersex gonads eventually become malignant",
+        "B": "Gonads must be removed before the first birthday",
+        "C": "Malignancy risk equals that of the general population",
+        "D": "Malignancy risk is negligible in every DSD",
+        "E": "Risk varies widely by specific diagnosis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This is the historical claim the lecture refutes; it led to routine gonadectomy.",
+        "B": "Gonadectomy is not a uniform rule, and it carries harms, including an association with suicidality.",
+        "C": "Some DSD diagnoses do carry substantially raised risk, so this would also be inaccurate.",
+        "D": "Risk is high in some syndromes, so 'negligible in every DSD' is false.",
+        "E": "Correct: gonadal malignancy rates range from about 1% to 60% depending on the syndrome, so decisions should follow the specific diagnosis rather than a blanket rule."
+      }
+    }
+  ]
+}

@@ -15,7 +15,6 @@
         "obesity-patient-panel.json",
         "pituitary-and-hypothalamus.json",
         "chronic-complications-of-diabetes.json",
-        "clinical-skills-session-1.json",
         "week-1-cbl.json"
       ]
     },
@@ -90,6 +89,20 @@
         "labor-and-delivery-complications.json",
         "lactation.json",
         "week-5-cbl.json"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Week 6",
+      "dates": "11/9 \u2013 11/13",
+      "lectures": [
+        "complexities-of-abortion.json",
+        "evaluation-of-the-newborn.json",
+        "lower-tract-gu-embryology-and-differences-of-sex-development.json",
+        "intersex-101-patient-panel.json",
+        "clinical-approach-to-the-transgender-patient.json",
+        "endo-crescendo.json",
+        "clinical-skills-sessions-1-and-2.json"
       ]
     }
   ]

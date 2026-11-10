@@ -1,0 +1,520 @@
+{
+  "lecture": "Evaluation of the Newborn",
+  "block": "endorepro",
+  "generated": "2026-11-10",
+  "questions": [
+    {
+      "id": "endorepro-evaluation-of-the-newborn-001",
+      "question": "A 17-year-old boy is evaluated for shortness of breath with exertion. Examination shows blue discoloration of the lips and clubbing of the fingers. He was lost to follow-up after infancy. His neonatal records describe a 2/6 continuous murmur of machine-like quality, and a cardiology referral was never completed. Which hemodynamic change best explains his current cyanosis?",
+      "answers": {
+        "A": "Aortopulmonary flow increasing as systemic resistance rises",
+        "B": "Parallel circulations created by transposed great arteries",
+        "C": "Pulmonary pressure exceeding systemic, reversing the shunt",
+        "D": "Right ventricular outflow obstruction with a septal defect",
+        "E": "Tricuspid valve displacement with an enlarged right atrium"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Rising systemic resistance after birth drives left-to-right (aorta to pulmonary artery) flow through a PDA, which does not cause cyanosis; it is the early state before Eisenmenger physiology.",
+        "B": "Transposition of the great vessels causes cyanosis from birth, not a continuous machine-like murmur followed by cyanosis years later.",
+        "C": "Years of left-to-right flow through the PDA remodel the pulmonary vessels and cause pulmonary hypertension; once pulmonary resistance surpasses systemic, flow reverses to right-to-left (Eisenmenger syndrome), producing cyanosis and clubbing.",
+        "D": "Right ventricular outflow obstruction with a VSD describes tetralogy of Fallot, a cyanotic lesion that would not present with a continuous machine-like murmur.",
+        "E": "Tricuspid valve displacement describes Ebstein's anomaly, a cyanotic lesion linked to lithium exposure, not a continuous ductal murmur."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-002",
+      "question": "A 3-day-old girl born at term by vaginal delivery has lost 12% of her birthweight. She is exclusively breastfed and has a tight lingual frenulum that restricts tongue movement. She has had one wet diaper and no stools in the past day. Examination shows a round swelling over only the right parietal bone that does not cross suture lines, a sunken anterior fontanelle, and scleral icterus. Laboratory results are shown. Besides breakdown of blood in the scalp swelling, which mechanism contributes most to her hyperbilirubinemia?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Total bilirubin",
+          "15.8 mg/dL",
+          "varies by age in hours"
+        ],
+        [
+          "Direct (conjugated) bilirubin",
+          "0.5 mg/dL",
+          "<1.0 mg/dL"
+        ],
+        [
+          "Hemoglobin",
+          "17.0 g/dL",
+          "14–22 g/dL"
+        ],
+        [
+          "Direct antiglobulin (Coombs) test",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Antibody-mediated hemolysis from maternal IgG",
+        "B": "Biliary obstruction blocking conjugated bilirubin excretion",
+        "C": "Hepatocellular injury from a congenital infection",
+        "D": "Increased enterohepatic circulation from low stool output",
+        "E": "Placental transfer of maternal unconjugated bilirubin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alloimmune hemolysis (ABO or Rh incompatibility) gives a positive direct antiglobulin test, which is negative here.",
+        "B": "Biliary obstruction such as biliary atresia causes conjugated hyperbilirubinemia, which is always abnormal; her direct bilirubin is normal.",
+        "C": "Hepatocellular injury would raise conjugated bilirubin and usually brings other signs of congenital infection; nothing here suggests it.",
+        "D": "Ankyloglossia impairs breastfeeding, causing dehydration and little stool; bilirubin left in the gut is deconjugated and reabsorbed through the portal vein (enterohepatic circulation), adding to the load from the cephalohematoma.",
+        "E": "Bilirubin crossing from mother to fetus is cleared by the placenta before birth and does not explain a rising level on day 3."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-003",
+      "question": "A 2-day-old boy born at 39 weeks develops the rash shown on his trunk. He is feeding well, afebrile, and alert, with normal vital signs. The rest of the examination is normal. A Wright stain of material from one of the lesions is performed. Which finding is most likely?",
+      "image": {
+        "src": "images/evaluation-of-the-newborn/003.jpg",
+        "caption": "Trunk of the infant on day 2",
+        "credit": "Slides p. 41"
+      },
+      "answers": {
+        "A": "Eosinophils",
+        "B": "Gram-positive cocci in clusters",
+        "C": "Multinucleated giant cells",
+        "D": "Neutrophils",
+        "E": "Pseudohyphae and budding yeast"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A blotchy red rash in a well 2-day-old is erythema toxicum, a benign self-resolving rash whose Wright/Tzanck smear shows eosinophils (\"E tox\").",
+        "B": "Gram-positive cocci in clusters would suggest a staphylococcal skin infection, which would not fit a well, afebrile infant with a benign-appearing rash.",
+        "C": "Multinucleated giant cells point to a herpesvirus infection, which presents as vesicles in an ill-appearing neonate.",
+        "D": "Neutrophils on smear are the finding in pustular melanosis, the other benign newborn rash, which appears as small pustules that leave pigmented macules.",
+        "E": "Pseudohyphae and budding yeast indicate candidal infection, not a transient benign newborn rash."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-004",
+      "question": "A 1-day-old girl has green vomiting after each of her first three feeds. She was born at 38 weeks; the pregnancy was complicated by polyhydramnios. Her abdomen is not distended. An abdominal radiograph is shown. This condition is most strongly associated with which underlying disorder?",
+      "image": {
+        "src": "images/evaluation-of-the-newborn/004.jpg",
+        "caption": "Abdominal radiograph on day 1",
+        "credit": "Slides p. 31"
+      },
+      "answers": {
+        "A": "Congenital rubella",
+        "B": "Cystic fibrosis",
+        "C": "DiGeorge syndrome",
+        "D": "Trisomy 21",
+        "E": "Turner syndrome"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Congenital rubella is linked in the lecture to a PDA and a blueberry muffin rash, not to duodenal obstruction.",
+        "B": "Cystic fibrosis presents in the newborn as meconium ileus with a microcolon on contrast enema, not a double bubble.",
+        "C": "DiGeorge syndrome is associated with tetralogy of Fallot, not duodenal atresia.",
+        "D": "Bilious vomiting with a double bubble sign is duodenal atresia, which is associated with trisomy 21 (as is Hirschsprung disease).",
+        "E": "Turner syndrome is not associated with duodenal atresia; its classic cardiac lesion is coarctation of the aorta."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-005",
+      "question": "A 2-day-old boy born at term has not passed meconium since birth. His abdomen is progressively distended and he has begun to vomit. A contrast enema is performed and is shown. Which is the most appropriate next step to establish the underlying cause?",
+      "image": {
+        "src": "images/evaluation-of-the-newborn/005.jpg",
+        "caption": "Contrast enema on day 2",
+        "credit": "Slides p. 32"
+      },
+      "answers": {
+        "A": "Abdominal ultrasound of the pylorus",
+        "B": "Barium swallow with small-bowel follow-through",
+        "C": "Rectal suction biopsy",
+        "D": "Spinal ultrasound",
+        "E": "Sweat chloride testing"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Pyloric ultrasound evaluates a gastric outlet obstruction, which would not cause delayed passage of meconium or a small, unused colon.",
+        "B": "An upper GI study evaluates malrotation or proximal obstruction, not the cause of a microcolon with failure to pass meconium.",
+        "C": "Rectal suction biopsy diagnoses Hirschsprung disease, whose enema shows a transition point rather than a diffusely small colon.",
+        "D": "Spinal ultrasound evaluates occult spinal dysraphism (e.g., a tethered cord) suggested by sacral skin findings, not a bowel obstruction.",
+        "E": "Delayed meconium with a microcolon on contrast enema is meconium ileus, an early presentation of cystic fibrosis; the next step is a sweat test (and genetic testing)."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-006",
+      "question": "A 1-day-old boy is born at 37 weeks to a 30-year-old woman whose pregnancy was complicated by preeclampsia with severe features, for which she received an intravenous infusion during labor. The infant is markedly floppy when held in ventral suspension, with decreased muscle tone throughout. He has no dysmorphic features. Which additional finding is most likely in this infant?",
+      "answers": {
+        "A": "Bilious emesis after the first feed",
+        "B": "Delayed passage of meconium",
+        "C": "Hypertonia with hyperreflexia",
+        "D": "Hypoglycemia at 2 hours of life",
+        "E": "Jaundice within the first 12 hours"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bilious emesis indicates obstruction at or distal to the second part of the duodenum (e.g., duodenal atresia, malrotation), not a drug effect.",
+        "B": "Intrauterine magnesium exposure (magnesium sulfate for severe preeclampsia) causes both newborn hypotonia and delayed passage of meconium.",
+        "C": "Hypertonia and hyperreflexia are features of neonatal opioid withdrawal syndrome, the opposite of this infant's tone.",
+        "D": "Neonatal hypoglycemia risk factors are prematurity, SGA, LGA, infant of a diabetic mother and perinatal asphyxia, none of which applies here.",
+        "E": "Jaundice in the first 24 hours is always abnormal and suggests hemolysis such as ABO or Rh incompatibility, not magnesium exposure."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-007",
+      "question": "A 1-day-old boy is born at 40 weeks after a prolonged second stage of labor. He has a soft, boggy swelling over the vertex of the scalp that extends across the sagittal suture. He is feeding well, with normal vital signs and an open, flat anterior fontanelle. Where is the fluid that causes this swelling located?",
+      "answers": {
+        "A": "Beneath the periosteum of one parietal bone",
+        "B": "Epidural space between skull and dura",
+        "C": "Scalp soft tissue above the skull",
+        "D": "Subdural space beneath the dura",
+        "E": "Ventricular system of the brain"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Blood beneath the periosteum is a cephalohematoma, which does not cross suture lines and raises the risk of jaundice.",
+        "B": "An epidural collection lies inside the skull and would present with signs of increased intracranial pressure such as a bulging fontanelle, not a boggy external swelling.",
+        "C": "Swelling that crosses suture lines is caput succedaneum, edema in the scalp above the skull.",
+        "D": "A subdural hemorrhage is intracranial and would not produce a soft swelling of the scalp that crosses sutures.",
+        "E": "Intraventricular hemorrhage is a complication of prematurity and is not visible as scalp swelling."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-008",
+      "question": "A 1-day-old girl born at 41 weeks weighed 4400 g. Delivery was complicated by difficult extraction with traction on the arm. On examination, her right hand is held in a claw-like posture with weak grasp, while shoulder and elbow movement are preserved. Her right pupil is smaller than the left and the right eyelid droops. Which nerve roots were most likely injured?",
+      "answers": {
+        "A": "C5–C6 nerve roots",
+        "B": "C7 nerve root alone",
+        "C": "C8–T1 nerve roots",
+        "D": "Long thoracic nerve",
+        "E": "Radial nerve at the humerus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "C5–C6 injury is Erb palsy, which gives a \"waiter's tip\" posture with weak shoulder and elbow and a preserved grasp.",
+        "B": "An isolated C7 injury would weaken elbow and wrist extension, without a claw hand or Horner syndrome.",
+        "C": "Klumpke palsy (C8–T1) gives a claw hand and can include Horner syndrome (ptosis, miosis) because T1 carries the sympathetic outflow; macrosomia is a risk factor.",
+        "D": "Long thoracic nerve injury causes a winged scapula, not hand weakness or Horner syndrome.",
+        "E": "Radial nerve injury causes wrist drop without a claw hand or eye findings."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-009",
+      "question": "A 2-day-old girl is examined before discharge. She is her parents' first child, was in breech position throughout the third trimester, and the pregnancy was complicated by oligohydramnios. With the hip flexed, abducting the left thigh while lifting the greater trochanter forward produces a palpable clunk. Which is the most appropriate management?",
+      "answers": {
+        "A": "Closed reduction under general anesthesia",
+        "B": "Hip spica cast for 12 weeks",
+        "C": "Open surgical reduction",
+        "D": "Pavlik harness",
+        "E": "Reassurance and re-examination at 12 months"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Closed reduction under anesthesia is reserved for older infants or failure of harness treatment, not first-line care for a newborn.",
+        "B": "A spica cast follows a surgical or closed reduction; it is not the initial treatment of newborn hip instability.",
+        "C": "Open reduction is for late-diagnosed or refractory hip dysplasia, not a newborn with a positive Ortolani maneuver.",
+        "D": "A positive Ortolani maneuver in a firstborn girl with breech position and oligohydramnios indicates developmental dysplasia of the hip, treated with a Pavlik harness.",
+        "E": "An unstable hip found on newborn Ortolani or Barlow testing needs treatment, not watchful waiting."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-010",
+      "question": "A 2-hour-old boy born at 39 weeks by scheduled cesarean delivery, without labor, has a respiratory rate of 78/min with mild subcostal retractions. Oxygen saturation is 95% on room air. The amniotic fluid was clear and the mother's group B streptococcal screen was negative. By 36 hours of life his breathing has returned to normal without treatment. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Meconium aspiration syndrome",
+        "B": "Neonatal pneumonia",
+        "C": "Persistent pulmonary hypertension",
+        "D": "Respiratory distress syndrome",
+        "E": "Transient tachypnea of the newborn"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Meconium aspiration requires meconium-stained fluid and can cause persistent pulmonary hypertension; the fluid here was clear.",
+        "B": "Pneumonia would not resolve on its own within 36 hours, and the infant has no infection risk factors.",
+        "C": "Persistent pulmonary hypertension causes hypoxemia, often after meconium aspiration; this infant's saturation is normal.",
+        "D": "Respiratory distress syndrome is due to surfactant deficiency, with risk factors of prematurity and maternal diabetes; it does not resolve without support.",
+        "E": "Tachypnea (RR > 60) in a term infant born by C-section without labor that resolves on its own is transient tachypnea of the newborn."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-011",
+      "question": "A boy is born at 31 weeks to a 34-year-old woman with poorly controlled pregestational diabetes. Within minutes of birth he develops grunting, nasal flaring and intercostal retractions, with worsening oxygen requirement over the first hours. A chest radiograph at 2 hours is shown. Which mechanism best explains his condition?",
+      "image": {
+        "src": "images/evaluation-of-the-newborn/011.jpg",
+        "caption": "Chest radiograph at 2 hours of life",
+        "credit": "Slides p. 27"
+      },
+      "answers": {
+        "A": "Aspirated meconium obstructing the small airways",
+        "B": "Deficient surfactant raising surface tension",
+        "C": "Delayed clearance of fetal lung fluid",
+        "D": "Group B streptococcal infection of the alveoli",
+        "E": "Persistently high pulmonary vascular resistance"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Meconium aspiration occurs in term or post-term infants with meconium-stained fluid, not in a 31-week infant with diffuse granular opacities.",
+        "B": "Prematurity and maternal diabetes are the risk factors for respiratory distress syndrome; without surfactant, alveolar surface tension rises and compliance falls, so alveoli collapse, giving diffuse granular opacities and air bronchograms.",
+        "C": "Delayed clearance of lung fluid is transient tachypnea of the newborn, a self-limited condition of term infants born by C-section without labor.",
+        "D": "GBS pneumonia can cause respiratory distress, but the prematurity, maternal diabetes and classic radiograph point to surfactant deficiency.",
+        "E": "Persistent pulmonary hypertension causes hypoxemia, often after meconium aspiration, without the diffuse granular pattern shown."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-012",
+      "question": "A 2-day-old boy born at 38 weeks is lethargic, feeding poorly and has temperature instability. His mother was colonized with group B Streptococcus but delivered rapidly before receiving intrapartum antibiotics; membranes had been ruptured for 22 hours. Vital signs and laboratory results are shown. A blood culture has been drawn. Which is the most appropriate empiric antibiotic regimen?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "35.9 °C",
+          "36.5–37.5 °C"
+        ],
+        [
+          "Heart rate",
+          "176/min",
+          "120–160/min"
+        ],
+        [
+          "Respiratory rate",
+          "68/min",
+          "40–60/min"
+        ],
+        [
+          "Glucose",
+          "38 mg/dL",
+          ">45 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Acyclovir monotherapy",
+        "B": "Ampicillin and gentamicin",
+        "C": "Azithromycin monotherapy",
+        "D": "Ceftriaxone monotherapy",
+        "E": "Vancomycin monotherapy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Acyclovir treats neonatal HSV, which is not suggested by these bacterial sepsis risk factors and does not cover GBS, E. coli or Listeria.",
+        "B": "Temperature instability, tachypnea, hypoglycemia and lethargy with maternal GBS colonization, no prophylaxis and rupture of membranes > 18 hours suggest neonatal sepsis; empiric ampicillin and gentamicin cover GBS, E. coli and Listeria.",
+        "C": "Azithromycin treats chlamydial infection and does not cover the main bacterial causes of neonatal sepsis.",
+        "D": "Ceftriaxone alone does not cover Listeria, one of the three main pathogens of neonatal sepsis.",
+        "E": "Vancomycin alone does not cover gram-negative E. coli or Listeria."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-013",
+      "question": "A 2-hour-old boy born at 39 weeks weighs 4350 g (above the 90th percentile). His mother had poorly controlled diabetes during pregnancy. He is breastfeeding well and is alert, with normal tone and no jitteriness. A screening glucose result is shown. Which is the most appropriate initial management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Point-of-care glucose",
+          "34 mg/dL",
+          ">45 mg/dL"
+        ],
+        [
+          "Temperature",
+          "36.8 °C",
+          "36.5–37.5 °C"
+        ],
+        [
+          "Heart rate",
+          "142/min",
+          "120–160/min"
+        ]
+      ],
+      "answers": {
+        "A": "Diazoxide for presumed hyperinsulinism",
+        "B": "Intravenous glucose-containing fluids",
+        "C": "Observation with a recheck at 24 hours",
+        "D": "Oral dextrose and lactation support",
+        "E": "Subcutaneous octreotide injection"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Congenital hyperinsulinism is considered only when hypoglycemia fails to resolve; neonatal hypoglycemia is usually transient.",
+        "B": "Glucose-containing IV fluids are used if oral dextrose and feeding fail, not as the first step for an asymptomatic, feeding infant.",
+        "C": "Untreated neonatal hypoglycemia can cause significant neurologic and developmental impairment, and it can be asymptomatic, so a low value needs treatment now.",
+        "D": "An LGA infant of a diabetic mother needs glucose checks in the first 12–24 hours; first-line treatment is oral dextrose with lactation support and formula supplementation if needed.",
+        "E": "Octreotide is reserved for persistent hyperinsulinism and is not first-line treatment of transient neonatal hypoglycemia."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-014",
+      "question": "A 3-day-old boy born at 38 weeks has tremors, a persistent high-pitched cry, sneezing, loose stools and poor sleep. His mother took oxycodone daily throughout pregnancy. On examination he has increased tone and brisk reflexes. Temperature is 37.6 °C. Which is the most appropriate first-line management?",
+      "answers": {
+        "A": "Intramuscular naloxone",
+        "B": "Intravenous phenobarbital load",
+        "C": "Oral morphine taper",
+        "D": "Sublingual buprenorphine",
+        "E": "Swaddling and low stimulation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Naloxone would precipitate further withdrawal and is not a treatment for neonatal opioid withdrawal.",
+        "B": "Phenobarbital is not first-line for neonatal opioid withdrawal syndrome, which starts with nonpharmacologic care.",
+        "C": "Morphine is used for NOWS only when nonpharmacologic measures are not enough.",
+        "D": "Buprenorphine, like morphine, is a pharmacologic option reserved for when nonpharmacologic care fails.",
+        "E": "First-line treatment of NOWS is nonpharmacologic: swaddling, rocking, minimizing sensory and environmental stimulation, and high-calorie feeding."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-015",
+      "question": "A 1-day-old girl born at term has blue lips and mucous membranes that do not improve with supplemental oxygen. Echocardiography shows the septal leaflet of the tricuspid valve displaced toward the apex with a markedly enlarged right atrium. Her mother has bipolar disorder that was treated with the same mood stabilizer throughout pregnancy. Which medication did the mother most likely take?",
+      "answers": {
+        "A": "Carbamazepine",
+        "B": "Lithium",
+        "C": "Phenytoin",
+        "D": "Sertraline",
+        "E": "Valproate"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Carbamazepine is associated with neural tube defects, not Ebstein's anomaly.",
+        "B": "A displaced tricuspid valve with cyanosis is Ebstein's anomaly, a cyanotic heart defect associated with fetal lithium exposure.",
+        "C": "Phenytoin is an anticonvulsant, not a mood stabilizer for bipolar disorder, and is not linked to Ebstein's anomaly.",
+        "D": "Sertraline is an SSRI, not a mood stabilizer; fetal SSRI exposure is linked in the lecture to neonatal withdrawal, not Ebstein's anomaly.",
+        "E": "Valproate is associated with neural tube defects rather than tricuspid valve malformation."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-016",
+      "question": "A 6-hour-old boy born at 39 weeks to a mother with poorly controlled diabetes becomes deeply cyanotic. Oxygen saturation is 62% and does not improve with 100% oxygen. There is no respiratory distress. A chest radiograph is shown. Echocardiography shows the aorta arising from the right ventricle and the pulmonary artery from the left ventricle, with an intact ventricular septum and a small atrial septal opening. Which is the most appropriate immediate pharmacotherapy?",
+      "image": {
+        "src": "images/evaluation-of-the-newborn/016.jpg",
+        "caption": "Chest radiograph at 6 hours of life",
+        "credit": "Slides p. 23"
+      },
+      "answers": {
+        "A": "Indomethacin infusion",
+        "B": "Inhaled nitric oxide",
+        "C": "Intravenous ampicillin and gentamicin",
+        "D": "Prostaglandin E1 infusion",
+        "E": "Surfactant via endotracheal tube"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Indomethacin, a COX inhibitor, closes the ductus arteriosus, which would remove one of the few routes for blood mixing and worsen cyanosis.",
+        "B": "Inhaled nitric oxide treats persistent pulmonary hypertension, not a ductal-dependent structural lesion.",
+        "C": "Antibiotics treat sepsis but do nothing for the parallel circulations of transposition.",
+        "D": "Transposition of the great vessels (risk factor: infant of a poorly controlled diabetic mother) is ductal-dependent; prostaglandin E1 keeps the ductus arteriosus open so blood can mix, which is life-saving.",
+        "E": "Surfactant treats respiratory distress syndrome; this infant has cyanosis without respiratory distress."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-017",
+      "question": "A 6-day-old girl born at 28 weeks is in the neonatal intensive care unit. She has bounding peripheral pulses, a widened pulse pressure and a continuous machine-like murmur at the left upper sternal border. Echocardiography shows a large vessel connecting the aorta and the pulmonary artery with left-to-right flow and no structural heart disease. Which medication is most appropriate to close this vessel?",
+      "answers": {
+        "A": "Alprostadil",
+        "B": "Digoxin",
+        "C": "Indomethacin",
+        "D": "Propranolol",
+        "E": "Sildenafil"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Alprostadil is prostaglandin E1, which keeps the ductus arteriosus open and would worsen a large PDA.",
+        "B": "Digoxin may support a failing heart but does not close the ductus arteriosus.",
+        "C": "A large PDA that does not close spontaneously, common in premature infants, can be closed pharmacologically with indomethacin, a COX inhibitor; untreated it can lead to pulmonary hypertension and Eisenmenger syndrome.",
+        "D": "Propranolol does not affect ductal patency.",
+        "E": "Sildenafil lowers pulmonary vascular resistance and would not close the ductus."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-018",
+      "question": "A 9-day-old boy born at term is brought in for redness and watery-to-mucopurulent discharge from both eyes that began 2 days ago. Erythromycin ointment was applied to his eyes at birth. He is feeding well and afebrile. The mother had no prenatal care. Which is the most likely cause?",
+      "answers": {
+        "A": "Chemical irritation from eye prophylaxis",
+        "B": "Chlamydia trachomatis",
+        "C": "Herpes simplex virus",
+        "D": "Neisseria gonorrhoeae",
+        "E": "Staphylococcus aureus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Chemical conjunctivitis appears in the first 24 hours of life and was historically caused by silver nitrate, not erythromycin.",
+        "B": "Newborn conjunctivitis on days 5–14 of life is typically chlamydial; erythromycin ointment at birth is given to prevent gonococcal conjunctivitis.",
+        "C": "HSV conjunctivitis is not the timing-based diagnosis taught for this presentation and usually comes with vesicles or systemic illness.",
+        "D": "Gonococcal conjunctivitis appears on days 2–4 of life, earlier than this infant's onset.",
+        "E": "Staphylococcal conjunctivitis does not fit the classic day 5–14 timing of chlamydial infection in an infant without prenatal care."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-019",
+      "question": "A 1-day-old girl born at 39 weeks has a tuft of dark hair over the lower lumbar spine on routine examination. There is no visible protrusion or open lesion over the back. She moves all extremities symmetrically and has normal tone and reflexes. Her mother did not take prenatal vitamins. Which is the most appropriate next step?",
+      "answers": {
+        "A": "Lumbar puncture",
+        "B": "Neurosurgical closure",
+        "C": "Plain radiograph of the pelvis",
+        "D": "Reassurance only",
+        "E": "Spinal ultrasound"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Lumbar puncture evaluates infection or CSF abnormalities and has no role in assessing a skin marker of spinal dysraphism.",
+        "B": "Neurosurgical closure is for open defects such as a meningomyelocele; nothing here is open or protruding.",
+        "C": "A pelvic radiograph does not image the spinal cord and cannot show a tethered cord.",
+        "D": "Only a superficial sacral dimple within 2.5 cm of the anus with a visible base is benign; a tuft of hair over the spine needs evaluation.",
+        "E": "A tuft of hair over the spine suggests spina bifida occulta, which can hide a tethered cord that causes problems as the body grows; the next step is a spinal ultrasound."
+      }
+    },
+    {
+      "id": "endorepro-evaluation-of-the-newborn-020",
+      "question": "An 18-hour-old boy born at term is noted to be jaundiced. His mother's blood type is O positive and the infant's is A positive. He is breastfeeding well and has passed meconium. Laboratory results are shown. Which mechanism best explains his jaundice?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Total bilirubin",
+          "11.2 mg/dL",
+          "varies by age in hours"
+        ],
+        [
+          "Direct (conjugated) bilirubin",
+          "0.4 mg/dL",
+          "<1.0 mg/dL"
+        ],
+        [
+          "Hemoglobin",
+          "12.8 g/dL",
+          "14–22 g/dL"
+        ],
+        [
+          "Reticulocytes",
+          "9%",
+          "3–7%"
+        ],
+        [
+          "Direct antiglobulin (Coombs) test",
+          "Positive",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Biliary atresia blocking bilirubin excretion",
+        "B": "Increased enterohepatic circulation from poor feeding",
+        "C": "Maternal IgG antibodies crossing the placenta",
+        "D": "Maternal IgM antibodies crossing the placenta",
+        "E": "Physiologic immaturity of hepatic conjugation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Biliary atresia causes conjugated hyperbilirubinemia, which is always abnormal; this infant's direct bilirubin is normal.",
+        "B": "Poor feeding raises bilirubin through enterohepatic circulation, but this infant is feeding and stooling well and the Coombs test is positive.",
+        "C": "Jaundice in the first 24 hours is abnormal; with ABO incompatibility, anemia, reticulocytosis and a positive direct antiglobulin test, this is hemolytic disease of the newborn from maternal IgG crossing the placenta.",
+        "D": "IgM antibodies do not cross the placenta, so they cannot cause hemolytic disease of the newborn.",
+        "E": "Physiologic jaundice is unconjugated, peaks on days 3–5 and is not present in the first 24 hours with a positive Coombs test."
+      }
+    }
+  ]
+}

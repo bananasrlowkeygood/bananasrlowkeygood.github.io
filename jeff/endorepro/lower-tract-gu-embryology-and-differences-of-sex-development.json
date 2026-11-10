@@ -1,0 +1,586 @@
+{
+  "lecture": "Lower-Tract GU Embryology & Differences of Sex Development",
+  "block": "endorepro",
+  "generated": "2026-11-10",
+  "questions": [
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-001",
+      "question": "A 12-day-old infant is brought to the emergency department because of 3 days of forceful vomiting and poor feeding. She was born at term and has not regained her birth weight. Examination shows dry mucous membranes, an enlarged phallus, and partial fusion of the labioscrotal folds; no gonads are palpable. Pelvic ultrasonography shows a uterus. Laboratory studies are shown. A deficiency of which of the following enzymes is the most likely cause of this patient's condition?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Na+",
+          "126 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "7.0 mEq/L",
+          "3.5–5.5 mEq/L"
+        ],
+        [
+          "17-Hydroxyprogesterone",
+          "8,200 ng/dL",
+          "&lt;200 ng/dL"
+        ],
+        [
+          "Karyotype",
+          "46,XX",
+          ""
+        ]
+      ],
+      "answers": {
+        "A": "11β-Hydroxylase",
+        "B": "17α-Hydroxylase",
+        "C": "21-Hydroxylase",
+        "D": "3β-Hydroxysteroid dehydrogenase",
+        "E": "5α-Reductase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "11β-hydroxylase deficiency raises deoxycorticosterone, so it causes hypertension and volume expansion, not salt wasting with hyperkalemia.",
+        "B": "17α-hydroxylase deficiency blocks the path to androgens, so a 46,XX infant would not be virilized.",
+        "C": "21-hydroxylase deficiency (95% of CAH) blocks both cortisol and aldosterone synthesis; low aldosterone causes hyponatremia, hyperkalemia and hypovolemia, and precursors shunted to androgens virilize a 46,XX infant.",
+        "D": "3β-HSD deficiency blocks the early step common to all three pathways, so androgen excess and a markedly elevated 17-hydroxyprogesterone are not expected.",
+        "E": "5α-reductase deficiency undervirilizes a 46,XY infant by lowering DHT; it does not affect adrenal mineralocorticoids or cause salt wasting."
+      },
+      "explanationImage": {
+        "src": "images/lower-tract-gu-embryology-and-differences-of-sex-development/001-exp.png",
+        "caption": "Adrenal and gonadal steroid synthesis: 21-OH sits on both the mineralocorticoid and glucocorticoid branches",
+        "credit": "Slides p. 36"
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-002",
+      "question": "A 4-year-old girl is evaluated for pubic hair and acne. Her parents report rapid growth over the past year. Blood pressure is 128/86 mm Hg (above the 99th percentile for age). Examination shows clitoromegaly and pubic hair. Bone age is advanced. Karyotype is 46,XX. Laboratory studies are shown. Accumulation of which of the following substances best explains her blood pressure?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Na+",
+          "144 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K+",
+          "3.2 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Plasma renin activity",
+          "low",
+          "normal"
+        ],
+        [
+          "11-Deoxycortisol",
+          "elevated",
+          "normal"
+        ],
+        [
+          "Testosterone",
+          "elevated for age",
+          "prepubertal"
+        ]
+      ],
+      "answers": {
+        "A": "Aldosterone",
+        "B": "Angiotensin II",
+        "C": "Cortisol",
+        "D": "Deoxycorticosterone",
+        "E": "Dihydrotestosterone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Aldosterone synthesis needs 11β-hydroxylation of deoxycorticosterone, so aldosterone is low, not high, in 11β-hydroxylase deficiency.",
+        "B": "Renin and angiotensin II are suppressed by the volume expansion from deoxycorticosterone, so they do not drive her hypertension.",
+        "C": "Cortisol synthesis is blocked at 11β-hydroxylase, so cortisol is low and ACTH is high.",
+        "D": "In 11β-hydroxylase deficiency (5% of CAH, CYP11B1), deoxycorticosterone builds up proximal to the block and acts as a mineralocorticoid, causing hypertension.",
+        "E": "Excess androgens explain her virilization and advanced bone age, but androgens do not raise blood pressure."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-003",
+      "question": "A 16-year-old girl is evaluated for primary amenorrhea. She had bilateral inguinal hernia repairs at age 3 years, during which gonadal tissue was noted in both hernia sacs. Breast development is Tanner stage 4. Pelvic examination shows a short, blind-ending vagina. Pelvic ultrasonography shows no uterus. Karyotype is 46,XY. Serum testosterone is in the normal adult male range. Which of the following best explains the absence of a uterus in this patient?",
+      "answers": {
+        "A": "Absent SRY gene expression",
+        "B": "Deficient 5α-reductase activity",
+        "C": "Estrogen excess in utero",
+        "D": "Intact Sertoli cell AMH secretion",
+        "E": "Leydig cell testosterone deficiency"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Without SRY no testes would form, so the Müllerian ducts would persist (as in Swyer syndrome); this patient has testes.",
+        "B": "5α-reductase deficiency lowers DHT and undervirilizes the external genitalia; the uterus is absent in that condition too, but because of AMH, not because of the enzyme defect.",
+        "C": "Estrogen can block MIS action on the Müllerian ducts, so excess estrogen would favor a uterus, not its absence.",
+        "D": "In complete androgen insensitivity the testes are normal, so Sertoli cells secrete anti-Müllerian hormone and the Müllerian ducts regress even though androgens cannot act.",
+        "E": "Her testosterone is normal; the problem is the androgen receptor, not testosterone production."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-004",
+      "question": "A 17-year-old girl is evaluated because she has never had a menstrual period. Height is 165 cm (65 in). Breast and pubic hair development are Tanner stage 5. Pelvic examination shows a shallow vaginal pouch. Pelvic ultrasonography shows normal-appearing ovaries and no uterus. Serum FSH, LH and estradiol are within the normal range for a woman of reproductive age. Karyotype is 46,XX. Which of the following is the most appropriate next step in evaluation?",
+      "answers": {
+        "A": "Echocardiography",
+        "B": "Laparoscopic gonadal biopsy",
+        "C": "Renal ultrasonography",
+        "D": "Serum 17-hydroxyprogesterone",
+        "E": "Serum testosterone measurement"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Echocardiography screens for coarctation and bicuspid aortic valve in Turner syndrome, which would show short stature, absent puberty and high gonadotropins.",
+        "B": "Gonadal biopsy is used when the gonads may be ovotestes or streak gonads; her ovaries are normal on imaging and functioning.",
+        "C": "Mayer-Rokitansky-Küster-Hauser syndrome is congenital absence of the uterus and vagina with normal ovaries; one-third of patients have upper tract anomalies such as renal agenesis, pelvic kidney or horseshoe kidney.",
+        "D": "17-hydroxyprogesterone screens for CAH, which virilizes a 46,XX patient; her external genitalia and hormone levels are normal.",
+        "E": "Testosterone is measured to look for androgen insensitivity in a phenotypic female without a uterus, but her 46,XX karyotype already excludes it."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-005",
+      "question": "A 14-year-old girl is evaluated for short stature and absent breast development. Height is below the 1st percentile. Examination shows a webbed neck, a low posterior hairline and a broad chest with widely spaced nipples; mild clitoromegaly is present. Laboratory studies are shown. Pelvic ultrasonography shows a small uterus and bilateral streak gonads. Which of the following is the most appropriate management of her gonads?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "FSH",
+          "68 mIU/mL",
+          "1.5–12 mIU/mL"
+        ],
+        [
+          "LH",
+          "32 mIU/mL",
+          "1–9 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "&lt;10 pg/mL",
+          "20–80 pg/mL (pubertal)"
+        ],
+        [
+          "Karyotype",
+          "45,X/46,XY",
+          ""
+        ]
+      ],
+      "answers": {
+        "A": "Bilateral gonadectomy",
+        "B": "Bilateral orchiopexy",
+        "C": "Oocyte cryopreservation only",
+        "D": "Serial ultrasound surveillance",
+        "E": "Unilateral gonadectomy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "In Turner syndrome, Y-chromosome material predisposes the streak gonads to virilization and gonadoblastoma, so they are removed early.",
+        "B": "Orchiopexy brings a functioning testis into the scrotum; streak gonads have no function worth preserving and carry tumor risk.",
+        "C": "Early oocyte cryopreservation is considered in Turner syndrome before ovarian failure, but with Y material the streak gonads must still be removed because of gonadoblastoma risk.",
+        "D": "Surveillance alone is inadequate when Y material is present because gonadoblastoma risk warrants removal.",
+        "E": "Both streak gonads carry the Y-related gonadoblastoma risk, so removing one leaves the other at risk."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-006",
+      "question": "A 17-year-old boy is evaluated for breast enlargement that has progressed over 2 years. He is 191 cm (6 ft 3 in) tall with long arms and legs and sparse facial hair. Examination shows bilateral gynecomastia and small, firm testes. Laboratory studies are shown. Which of the following best explains his breast enlargement?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Testosterone",
+          "290 ng/dL",
+          "300–1000 ng/dL"
+        ],
+        [
+          "LH",
+          "24 mIU/mL",
+          "1.5–9 mIU/mL"
+        ],
+        [
+          "FSH",
+          "45 mIU/mL",
+          "1.5–12 mIU/mL"
+        ],
+        [
+          "Karyotype",
+          "47,XXY",
+          ""
+        ]
+      ],
+      "answers": {
+        "A": "Excess pituitary prolactin secretion",
+        "B": "hCG-secreting testicular germ cell tumor",
+        "C": "Increased estradiol:testosterone ratio",
+        "D": "Peripheral aromatase enzyme deficiency",
+        "E": "Testicular adrenal rest tissue growth"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hyperprolactinemia would lower gonadotropins, but his LH and FSH are high.",
+        "B": "An hCG-secreting tumor would be suggested by a testicular mass and elevated hCG; his testes are small and firm without a mass.",
+        "C": "In Klinefelter syndrome (47,XXY), hyalinized seminiferous tubules leave testosterone low-normal with high gonadotropins, and the increased estradiol:testosterone ratio causes gynecomastia.",
+        "D": "Aromatase deficiency would lower estrogen, which would not cause gynecomastia.",
+        "E": "Testicular adrenal rest tumors occur in males with CAH from prolonged ACTH stimulation; they do not cause gynecomastia and his karyotype points elsewhere."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-007",
+      "question": "A 29-year-old man and his wife are seen for infertility after 2 years of trying to conceive. He is tall and has small, firm testes. Two semen analyses show no sperm. Karyotype is 47,XXY. He asks whether he could father a biologic child. Which of the following is the most appropriate approach?",
+      "answers": {
+        "A": "Intrauterine insemination with his semen",
+        "B": "Microdissection TESE with ICSI",
+        "C": "Testosterone therapy then repeat analysis",
+        "D": "Use of donor sperm only",
+        "E": "Varicocele repair then repeat analysis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Insemination needs ejaculated sperm; his semen analyses show azoospermia.",
+        "B": "Up to 50% of men with Klinefelter syndrome have viable sperm on micro-TESE, and intracytoplasmic sperm injection is needed to achieve paternity.",
+        "C": "Androgen supplementation treats hypogonadism in select patients but does not restore sperm in hyalinized seminiferous tubules.",
+        "D": "Up to 50% of men with Klinefelter syndrome have viable sperm on micro testicular sperm extraction, so biologic paternity is possible.",
+        "E": "Varicocele repair addresses a vascular cause of low sperm counts; his azoospermia comes from seminiferous tubule degeneration."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-008",
+      "question": "A newborn is evaluated for atypical genitalia. Examination shows a small phallus resembling an enlarged clitoris, perineal hypospadias, partial labioscrotal fusion, and a short, blind-ending vaginal pouch. A gonad is palpable in each labioscrotal fold. Pelvic ultrasonography shows no uterus. Karyotype is 46,XY. Results of an hCG stimulation test are shown. Which of the following structures most likely developed normally in this patient?",
+      "table": [
+        [
+          "Test (after hCG)",
+          "Value",
+          "Reference"
+        ],
+        [
+          "Testosterone",
+          "elevated",
+          "normal male response"
+        ],
+        [
+          "Dihydrotestosterone",
+          "low",
+          "normal male response"
+        ],
+        [
+          "Testosterone:DHT ratio",
+          "28:1",
+          "&lt;20:1"
+        ]
+      ],
+      "answers": {
+        "A": "Fallopian tubes",
+        "B": "Fully fused scrotum",
+        "C": "Penile urethra",
+        "D": "Prostate gland",
+        "E": "Seminal vesicles"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Müllerian structures are absent because Sertoli cells make AMH normally in 5α-reductase deficiency.",
+        "B": "Fusion of the labioscrotal swellings into a scrotum is DHT-dependent, so fusion is only partial here.",
+        "C": "Closure of the urethra over the urethral groove depends on DHT, which is low, so the patient has perineal hypospadias.",
+        "D": "The prostate grows from the urogenital sinus under DHT, so it is underdeveloped in 5α-reductase deficiency.",
+        "E": "The seminal vesicles, with the epididymis and vas deferens, come from the Wolffian ducts and depend on testosterone, which is present; in 5α-reductase deficiency only DHT-dependent structures fail."
+      },
+      "explanationImage": {
+        "src": "images/lower-tract-gu-embryology-and-differences-of-sex-development/008-exp.png",
+        "caption": "Testosterone-dependent (black) vs DHT-dependent (stippled) structures; right panel shows the pattern when DHT is lacking",
+        "credit": "Slides p. 10"
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-009",
+      "question": "A 2-year-old boy undergoes repair of a right inguinal hernia and orchiopexy for a right undescended testis. During surgery, a small uterus and bilateral fallopian tubes are found in the hernia sac attached to the testis. His external genitalia are typical male with a normal-sized penis and a normally placed urethral meatus. Karyotype is 46,XY. A defect in which of the following is the most likely cause of these findings?",
+      "answers": {
+        "A": "Androgen receptor",
+        "B": "Luteinizing hormone receptor",
+        "C": "MIS (AMH) signaling",
+        "D": "Sex-determining region Y",
+        "E": "Steroid 5α-reductase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Androgen receptor defects undervirilize the external genitalia; his genitalia are fully male and Müllerian structures would be absent.",
+        "B": "An LH receptor defect blocks Leydig cell testosterone production, causing undervirilized genitalia rather than normal male genitalia.",
+        "C": "Persistent Müllerian duct syndrome is a 46,XY male with typical male genitalia and internal Müllerian structures from a mutation in MIS (AMH) or its receptor; it is often found at hernia repair or orchiopexy (hernia uteri inguinale).",
+        "D": "Loss of SRY function prevents testis formation altogether, giving streak gonads and a female phenotype (Swyer syndrome).",
+        "E": "5α-reductase deficiency causes atypical external genitalia from low DHT, and Müllerian structures are absent."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-010",
+      "question": "A 16-year-old girl is evaluated for absent breast development and no menstrual periods. Height is at the 50th percentile. She has sparse pubic hair and Tanner stage 1 breasts. External genitalia are typical female. Pelvic ultrasonography shows a small uterus and no identifiable ovaries. Laboratory studies are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "FSH",
+          "92 mIU/mL",
+          "1.5–12 mIU/mL"
+        ],
+        [
+          "LH",
+          "40 mIU/mL",
+          "1–9 mIU/mL"
+        ],
+        [
+          "Estradiol",
+          "&lt;10 pg/mL",
+          "20–80 pg/mL (pubertal)"
+        ],
+        [
+          "Karyotype",
+          "46,XY",
+          ""
+        ]
+      ],
+      "answers": {
+        "A": "Bilateral orchiopexy of the gonads",
+        "B": "Cyclic estrogen-progestin alone",
+        "C": "Laparoscopic removal of streak gonads",
+        "D": "Oral dexamethasone suppression therapy",
+        "E": "Reassurance and repeat in 1 year"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Orchiopexy preserves a functioning testis; she has dysgenetic streak gonads with no testicular function.",
+        "B": "Cyclic hormone replacement is part of treatment, but the streak gonads must also be removed because a Y chromosome carries gonadoblastoma risk.",
+        "C": "This is 46,XY complete gonadal dysgenesis (Swyer syndrome): an SRY abnormality leaves streak gonads with an increased risk of gonadoblastoma, so they are removed, then cyclic hormones are given.",
+        "D": "Dexamethasone suppresses ACTH-driven adrenal androgens in CAH; this patient has hypogonadism, not androgen excess.",
+        "E": "Elevated gonadotropins with absent estrogen show gonadal failure, not constitutional delay, and the gonads carry tumor risk."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-011",
+      "question": "A newborn is evaluated for atypical genitalia. Examination shows a phallus of intermediate size with hypospadias. A gonad is palpable in the right labioscrotal fold; no gonad is palpable on the left. Pelvic ultrasonography shows a hemi-uterus on the left. Laparoscopy shows a testis on the right with an ipsilateral vas deferens and a streak gonad on the left with a fallopian tube. This patient is at greatest risk for which of the following gonadal tumors?",
+      "answers": {
+        "A": "Embryonal carcinoma",
+        "B": "Gonadoblastoma",
+        "C": "Leydig cell tumor",
+        "D": "Teratoma",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Embryonal carcinoma is a germ cell tumor of the testis, but the characteristic tumor of streak or dysgenetic gonads with Y material is gonadoblastoma.",
+        "B": "Mixed gonadal dysgenesis (usually 45,X/46,XY: testis on one side, streak gonad on the other) carries a 15–35% risk of gonadal tumors, gonadoblastoma and dysgerminoma, arising in the streak gonad or dysgenetic testis.",
+        "C": "Leydig and Sertoli cell tumors are the testicular tumors associated with Klinefelter syndrome.",
+        "D": "Teratoma is a germ cell tumor of normally formed gonads; streak gonads with Y material characteristically give rise to gonadoblastoma.",
+        "E": "Yolk sac tumor is a testicular germ cell tumor of young children, but it is not the characteristic tumor of streak or dysgenetic gonads."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-012",
+      "question": "A 2-year-old child is evaluated for an abdominal mass found by the parents during bathing. At birth, the child had atypical genitalia with a testis on one side and a streak gonad on the other; karyotype was 45,X/46,XY. Blood pressure is elevated. Urinalysis shows 3+ protein. CT of the abdomen shows bilateral renal masses. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Denys-Drash syndrome",
+        "B": "Mayer-Rokitansky-Küster-Hauser syndrome",
+        "C": "Persistent Müllerian duct syndrome",
+        "D": "Swyer syndrome",
+        "E": "Turner syndrome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Denys-Drash syndrome is the triad of genital abnormality (mixed gonadal dysgenesis), Wilms tumor with a higher incidence of bilateral tumors, and nephropathy (proteinuria, hypertension, renal failure).",
+        "B": "MRKH is a 46,XX with absent uterus and vagina and sometimes renal agenesis or ectopy, but no tumors or atypical genitalia.",
+        "C": "PMDS is a 46,XY male with typical male genitalia and internal Müllerian structures; it has no link to Wilms tumor.",
+        "D": "Swyer syndrome is 46,XY with bilateral streak gonads and a female phenotype; its tumor risk is gonadoblastoma, not Wilms tumor.",
+        "E": "Turner syndrome has renal anomalies such as horseshoe kidney, duplication and malrotation, but not Wilms tumor with nephropathy."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-013",
+      "question": "A 31-year-old woman, gravida 2, para 1, comes for prenatal care. Her first child has salt-wasting congenital adrenal hyperplasia due to 21-hydroxylase deficiency. Both parents are confirmed carriers. She began oral dexamethasone at 6 weeks' gestation. Chorionic villus sampling at 10 weeks shows a 46,XY karyotype. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Add fludrocortisone to the regimen",
+        "B": "Discontinue dexamethasone",
+        "C": "Double the dexamethasone dose",
+        "D": "Maintain dexamethasone to term",
+        "E": "Repeat sampling by amniocentesis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Fludrocortisone treats salt wasting after birth; it has no role in suppressing fetal adrenal androgens.",
+        "B": "Prenatal dexamethasone crosses the placenta to prevent virilization of an affected female; for a 46,XY fetus it is stopped, since XY patients do not require prenatal treatment.",
+        "C": "A higher dose adds maternal side effects without benefit to a male fetus.",
+        "D": "Dexamethasone is continued only for a 46,XX fetus that is CYP21-positive; a male fetus does not need prenatal treatment.",
+        "E": "Amniocentesis is the second-trimester option; the karyotype from CVS already answers the question."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-014",
+      "question": "A 3-week-old infant is evaluated for atypical genitalia. Examination shows a phallus with hypospadias and asymmetric labioscrotal folds; a gonad is palpable on the right only. Pelvic ultrasonography shows a uterus. Laboratory studies are shown. Laparoscopic biopsy of the right gonad shows well-developed seminiferous tubules in one region and primordial follicles in another. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "17-Hydroxyprogesterone",
+          "normal",
+          "normal for age"
+        ],
+        [
+          "Testosterone",
+          "elevated for a female infant",
+          ""
+        ],
+        [
+          "Na+ / K+",
+          "138 / 4.6 mEq/L",
+          "135–145 / 3.5–5.5 mEq/L"
+        ],
+        [
+          "Karyotype",
+          "46,XX",
+          ""
+        ]
+      ],
+      "answers": {
+        "A": "46,XX testicular DSD",
+        "B": "Congenital adrenal hyperplasia",
+        "C": "Maternal virilizing syndrome",
+        "D": "Mixed gonadal dysgenesis",
+        "E": "Ovotesticular DSD"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "46,XX testicular DSD (SRY translocation) gives testes only, with typical male genitalia in most and no uterus.",
+        "B": "CAH would show a markedly elevated 17-hydroxyprogesterone and ovaries, not testicular tissue.",
+        "C": "Maternal androgen exposure virilizes a 46,XX fetus that has normal ovaries on biopsy.",
+        "D": "Mixed gonadal dysgenesis has a testis and a contralateral streak gonad, usually with a 45,X/46,XY karyotype; it does not contain ovarian follicles.",
+        "E": "Ovotesticular DSD has both testicular tissue (seminiferous tubules) and ovarian tissue (primordial follicles), as an ovotestis or a separate ovary and testis; 46,XX is the most common karyotype and most have a uterus."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-015",
+      "question": "A 32-year-old man is evaluated for infertility. He has typical male external genitalia, mild gynecomastia, and small testes. He is of average height. Semen analysis shows azoospermia. Serum LH and FSH are elevated and testosterone is low-normal. Karyotype is 46,XX. FISH shows SRY material on one X chromosome. Which of the following best explains his testicular development?",
+      "answers": {
+        "A": "Aromatase deficiency in utero",
+        "B": "Maternal androgen exposure",
+        "C": "Meiotic non-disjunction of X",
+        "D": "Mutation of the AMH receptor",
+        "E": "Translocation of SRY onto X"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Aromatase deficiency is a non-CAH cause of androgen excess that virilizes a 46,XX fetus with ovaries; it does not produce testes.",
+        "B": "Maternal androgens virilize the external genitalia of a 46,XX fetus but cannot turn the gonads into testes.",
+        "C": "Meiotic non-disjunction classically produces 47,XXY Klinefelter syndrome, which would show on karyotype.",
+        "D": "AMH receptor mutation causes persistent Müllerian duct syndrome in a 46,XY male.",
+        "E": "In 46,XX testicular DSD, translocation of SRY onto the X chromosome drives testis formation without a normal Y; patients resemble Klinefelter syndrome, are all infertile, and gain nothing from assisted reproduction."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-016",
+      "question": "A term newborn is examined in the nursery. The phallus measures 3.0 cm in stretched length with a urethral meatus at the tip. The scrotum is well-formed and rugated, but no gonads are palpable in the scrotum, inguinal canals or perineum. The infant is feeding well and vital signs are normal. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Electrolytes, 17-OHP and karyotype",
+        "B": "Observation and re-examination at 6 months",
+        "C": "Orchiopexy before 12 months of age",
+        "D": "Reassure the parents",
+        "E": "Testosterone injection trial"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Bilateral nonpalpable gonads in a newborn with a phallus may be a virilized 46,XX infant with CAH, which is life-threatening and needs immediate evaluation with electrolytes, 17-hydroxyprogesterone and karyotype.",
+        "B": "Waiting is reasonable for one undescended testis in a normal boy, but bilateral nonpalpable gonads need a DSD evaluation now.",
+        "C": "Surgery comes only after the karyotype and adrenal status are known; this infant may have no testes at all.",
+        "D": "Bilateral nonpalpable gonads always warrant a DSD evaluation because salt-wasting CAH can cause adrenal crisis in the first weeks of life.",
+        "E": "Exogenous androgen does not address the immediate question of whether this is a 46,XX infant with CAH."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-017",
+      "question": "A newborn boy is examined in the nursery. The urethral meatus opens on the ventral surface of the distal penile shaft. The foreskin is incomplete ventrally and drapes over the glans dorsally, and the penis curves ventrally on erection. Both testes are palpable in a normal scrotum. Failure of which of the following processes is the most likely cause of this condition?",
+      "answers": {
+        "A": "Elongation of the genital tubercle",
+        "B": "Fusion of the labioscrotal swellings",
+        "C": "Regression of the Müllerian ducts",
+        "D": "Testicular descent into the scrotum",
+        "E": "Ventral fusion of the urethral folds"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The genital tubercle elongated normally, since he has a normal-sized penis.",
+        "B": "The urogenital (labioscrotal) swellings fused normally, since he has a normal scrotum.",
+        "C": "Müllerian duct regression shapes the internal organs and does not affect the urethral meatus.",
+        "D": "Both testes are descended; cryptorchidism with hypospadias would raise concern for a DSD.",
+        "E": "Hypospadias is failure of ventral urethral and preputial fusion, leaving an ectopic meatus (most on the distal shaft), chordee (ventral curvature) and a dorsal hooded foreskin."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-018",
+      "question": "A 6-week-old infant with typical female external genitalia is evaluated for bilateral inguinal masses. Ultrasonography shows the masses are testes. Karyotype is 46,XY. Serum testosterone is very low and LH is markedly elevated; both are unchanged after hCG stimulation. Genetic testing shows a loss-of-function mutation in the LH receptor gene. Which of the following internal findings is most likely?",
+      "answers": {
+        "A": "Neither uterus nor vas deferens",
+        "B": "Uterus and fallopian tubes, no vas",
+        "C": "Uterus with vas deferens and epididymis",
+        "D": "Vas deferens and a hemi-uterus",
+        "E": "Vas deferens and epididymis, no uterus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Sertoli cells still secrete AMH, so the Müllerian ducts regress, but without Leydig cell testosterone the Wolffian ducts do not form the epididymis, vas deferens and seminal vesicles.",
+        "B": "A uterus would need absent AMH; the Sertoli cells in these testes still secrete AMH.",
+        "C": "Both duct systems persist only when AMH action is missing and testosterone is present, as in persistent Müllerian duct syndrome.",
+        "D": "A unilateral Müllerian remnant with a contralateral Wolffian duct is the pattern of mixed gonadal dysgenesis, not a receptor defect.",
+        "E": "Wolffian structures need testosterone from Leydig cells, which cannot respond to LH here."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-019",
+      "question": "A 15-year-old girl is evaluated for short stature and absent breast development. She had puffy hands and feet at birth. Examination shows a webbed neck and cubitus valgus. Serum FSH and LH are elevated and estradiol is low. Karyotype is 45,X. Pelvic ultrasonography shows a uterus and bilateral streak ovaries. Which of the following processes best explains her ovarian findings?",
+      "answers": {
+        "A": "Androgen-induced follicular atresia",
+        "B": "Antibody-mediated oophoritis",
+        "C": "Deficient pituitary gonadotropin release",
+        "D": "In utero apoptosis of oocytes",
+        "E": "Persistent anti-Müllerian hormone action"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Androgen excess is not present; her ovaries failed from loss of oocytes, not androgen exposure.",
+        "B": "Autoimmune ovarian failure occurs after a period of normal ovarian function; her ovaries were streaks from before puberty.",
+        "C": "Her FSH and LH are elevated, showing primary ovarian failure rather than a pituitary cause.",
+        "D": "In Turner syndrome the follicular cells that surround and protect the oocytes are inadequate, so oocytes undergo apoptosis in utero and few or none remain at birth, leaving streak ovaries.",
+        "E": "AMH acts on the Müllerian ducts, not the ovary, and she has a uterus, showing no AMH effect."
+      }
+    },
+    {
+      "id": "endorepro-lower-tract-gu-embryology-and-differences-of-sex-development-020",
+      "question": "A 24-year-old man with 21-hydroxylase deficiency is evaluated for testicular discomfort. He has missed many doses of his hydrocortisone over the past 2 years. Examination shows firm, nontender nodules in both testes. Scrotal ultrasonography shows bilateral hypoechoic lesions near the mediastinum testis. Serum ACTH and 17-hydroxyprogesterone are markedly elevated. Tumor markers are normal. Which of the following is the most appropriate initial management?",
+      "answers": {
+        "A": "Bilateral radical orchiectomy",
+        "B": "Intensified dexamethasone therapy",
+        "C": "Observation without treatment change",
+        "D": "Platinum-based chemotherapy",
+        "E": "Scrotal radiation therapy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Radical orchiectomy is for testicular cancer; these lesions are benign, and testis-sparing excision is considered only if medical therapy fails.",
+        "B": "Testicular adrenal rest tumors are benign growths driven by prolonged ACTH stimulation; suppressing ACTH with dexamethasone can shrink them or make them resolve.",
+        "C": "His ACTH is markedly elevated from poor adherence, and lowering it is what treats these tumors.",
+        "D": "Chemotherapy treats germ cell tumors, which these benign adrenal rest tumors are not.",
+        "E": "Radiation is not used for benign adrenal rest tumors and would harm fertility."
+      }
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "lecture": "Complexities of Abortion",
+  "block": "endorepro",
+  "generated": "2026-11-10",
+  "questions": [
+    {
+      "id": "endorepro-complexities-of-abortion-001",
+      "question": "A 20-year-old woman, gravida 0, presents for IUD placement. She reports unprotected intercourse 6 weeks ago and a late period. The medical assistant runs a urine hCG as part of the routine pre-insertion workup without telling the patient, and it is positive. When the physician enters, the patient asks, \"What test? Nobody told me you were checking that.\" Which step of patient-centered pregnancy options counseling was skipped?",
+      "answers": {
+        "A": "Assessing the patient's feelings about the result",
+        "B": "Introducing the options of ending or continuing",
+        "C": "Preparing the patient and getting consent",
+        "D": "Recognizing the clinician's own biases beforehand",
+        "E": "Validating and normalizing the patient's emotions"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Assessing feelings is step 3 and comes after the result is shared; it was not the step missed here.",
+        "B": "Introducing options is part of step 4, after feelings are assessed and validated; it had not yet been reached.",
+        "C": "Step 1 is preparing the patient for the pregnancy test and obtaining consent, so the patient is aware of the test before it is run; her surprise shows this was skipped.",
+        "D": "Recognizing biases is step 2, done before entering the room; nothing in the vignette shows a bias problem.",
+        "E": "Validating and normalizing is step 4 and responds to the patient's reaction to the result, not to how the test was ordered."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-002",
+      "question": "A 17-year-old girl is seen in the emergency department for 2 days of nausea and breast tenderness. Her urine hCG is positive. She came alone and has not mentioned whether she has a partner or whether she wants to be pregnant. The physician returns to give her the result. Which opening statement best follows patient-centered options counseling?",
+      "answers": {
+        "A": "\"Congratulations, your test shows that you're expecting a baby.\"",
+        "B": "\"Don't worry, there are many ways we can help you fix this.\"",
+        "C": "\"Given your age, you'll probably want to think carefully about your options.\"",
+        "D": "\"I'm so sorry to tell you, but the pregnancy test was positive.\"",
+        "E": "\"Your pregnancy test came back positive, which means you are pregnant.\""
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Congratulating her assumes the news is joyful, which the lecture lists as an assumption to avoid.",
+        "B": "Saying the pregnancy needs \"fixing\" assumes it is undesired; an unintended pregnancy is not necessarily undesired.",
+        "C": "Bringing up her age assumes a teen pregnancy is not desired, another assumption the lecture warns against.",
+        "D": "Apologizing assumes this will be a difficult or sad time, which may not be how she feels.",
+        "E": "The first counseling move is to be clear and neutral: state the result and what it means, then pause for her response."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-003",
+      "question": "A 38-year-old woman, gravida 6 para 5, has an unexpected positive pregnancy test at a clinic visit for back pain. Before the physician goes in to discuss the result, the resident says, \"She already has five kids, so she definitely won't want this one. Let's lead with the abortion referral.\" Which error in options counseling is the resident making?",
+      "answers": {
+        "A": "Assuming the pregnancy is undesired",
+        "B": "Failing to obtain consent for testing",
+        "C": "Failing to pause for her response",
+        "D": "Offering options before validation",
+        "E": "Using stigmatizing abortion terms"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The resident assumes a patient with many children doesn't want more, which the lecture explicitly lists under \"do not assume\"; bias should be recognized before entering the room.",
+        "B": "Consent for the test is step 1; nothing suggests the test was run without her knowledge.",
+        "C": "Pausing happens after the result is given in the room; the resident's error comes before the conversation starts.",
+        "D": "Introducing options too early would be a sequencing error in the room, but the problem here is the assumption behind it.",
+        "E": "The resident's words are not stigmatizing terminology such as \"baby\" or \"late term\"; the issue is the assumption about her wishes."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-004",
+      "question": "A 26-year-old woman at 7 weeks' gestation by ultrasound chooses to end her pregnancy with medication. In clinic she swallows a single tablet. She is instructed to place four tablets of a second drug in her cheeks 24 hours later and to expect cramping and bleeding afterward. Which mechanism best describes the tablet she swallowed in clinic?",
+      "answers": {
+        "A": "Agonism at oxytocin receptors",
+        "B": "Agonism at prostaglandin E1 receptors",
+        "C": "Antagonism at progesterone receptors",
+        "D": "Inhibition of aromatase activity",
+        "E": "Inhibition of dihydrofolate reductase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Oxytocin agonism stimulates contractions, but neither abortion medication in the protocol is an oxytocin analogue.",
+        "B": "PGE1 agonism describes misoprostol, the second drug taken buccally 24 hours later, not the oral first-day drug.",
+        "C": "The first drug, taken orally on day 1, is mifepristone, a progesterone receptor antagonist that causes endometrial breakdown and detachment and primes prostaglandin receptors.",
+        "D": "Aromatase inhibition lowers estrogen synthesis and is not part of the medication abortion regimen.",
+        "E": "Dihydrofolate reductase inhibition is methotrexate's mechanism, used for ectopic pregnancy, not the mifepristone-misoprostol protocol."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-005",
+      "question": "A 29-year-old woman at 6 weeks' gestation takes mifepristone. Over the next day the drug initiates breakdown of the endometrium, the embryo detaches, and serum hCG begins to fall. A fall in progesterone then causes further endometrial breakdown, increased uterine contractility, and cervical softening. Which event directly links the fall in hCG to the fall in progesterone?",
+      "answers": {
+        "A": "Atrophy of the corpus luteum",
+        "B": "Expulsion of the placenta",
+        "C": "Increased hypothalamic GnRH release",
+        "D": "Rise in serum estradiol",
+        "E": "Suppression of pituitary LH"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Without hCG from the detached embryo, the corpus luteum atrophies, and progesterone from it declines, which drives further breakdown, contractility and cervical softening.",
+        "B": "Expulsion is the final step of the cascade, after progesterone has already fallen, so it cannot cause the fall.",
+        "C": "GnRH changes are not part of this cascade; the link is between the embryo's hCG and the corpus luteum.",
+        "D": "A rise in estradiol is not shown in the cascade and would not explain the drop in progesterone.",
+        "E": "LH is not the trophic signal for the corpus luteum in early pregnancy; hCG from the embryo is, and its fall is what matters here."
+      },
+      "explanationImage": {
+        "src": "images/complexities-of-abortion/005-exp.jpg",
+        "caption": "Mifepristone (RU 486) cascade: endometrial breakdown and detachment, falling hCG, corpus luteum atrophy, falling progesterone, contraction and cervical softening, expulsion",
+        "credit": "Slides p. 27"
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-006",
+      "question": "A 24-year-old woman at 6 weeks' gestation calls the clinic 5 hours after placing misoprostol buccally, 24 hours after taking mifepristone. She soaked about 2 pads per hour for the first 3 hours; bleeding has now slowed to moderate. She felt hot and had chills starting 2 hours after the dose, and she has cramping and nausea. She comes in to be checked. Which is the most appropriate next step?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "38.2 °C",
+          "36.1–37.2 °C"
+        ],
+        [
+          "Heart rate",
+          "92 /min",
+          "60–100 /min"
+        ],
+        [
+          "Blood pressure",
+          "118/74 mm Hg",
+          "90–120/60–80 mm Hg"
+        ],
+        [
+          "Hemoglobin",
+          "12.4 g/dL",
+          "12.0–16.0 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Admission for IV broad-spectrum antibiotics",
+        "B": "Emergency uterine aspiration",
+        "C": "Packed red blood cell transfusion",
+        "D": "Reassurance, ibuprofen, and an antiemetic",
+        "E": "Serum beta-hCG measurement today"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Fever is common with misoprostol and only becomes concerning if it persists beyond 8 to 12 hours; at 5 hours it does not suggest infection.",
+        "B": "Heavy bleeding of about 2 pads per hour for under 4 hours, then moderate bleeding, is the expected course and does not require aspiration.",
+        "C": "Her bleeding is within the expected pattern and she is hemodynamically stable, so transfusion is not indicated.",
+        "D": "Heavy bleeding for under 4 hours, short-lived fever, nausea and cramping are expected after misoprostol; pain is treated with ibuprofen and GI effects with antiemetics.",
+        "E": "Beta-hCG is used for follow-up about 1 week later to confirm completion; a level today would not guide care."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-007",
+      "question": "A 29-year-old woman had a medication abortion with mifepristone and misoprostol for an ultrasound-confirmed intrauterine pregnancy at 7 weeks. She chose follow-up with serum beta-hCG. One week later she feels well; her bleeding has become light spotting. Which is the best interpretation of her results?",
+      "table": [
+        [
+          "Test",
+          "Day 1 (before mifepristone)",
+          "Day 8"
+        ],
+        [
+          "Serum beta-hCG",
+          "24,000 mIU/mL",
+          "3,600 mIU/mL"
+        ],
+        [
+          "Hemoglobin",
+          "13.1 g/dL",
+          "12.6 g/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Continuing intrauterine pregnancy",
+        "B": "Ectopic pregnancy missed on earlier ultrasound",
+        "C": "Expected course after complete abortion",
+        "D": "Gestational trophoblastic disease",
+        "E": "Retained pregnancy tissue"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A continuing pregnancy would show hCG rising or plateauing, not falling by more than 80%.",
+        "B": "Her earlier ultrasound confirmed an intrauterine pregnancy, and a steep fall in hCG does not suggest an ectopic.",
+        "C": "Serum beta-hCG 1 week after medication abortion should fall by about 80%; her 85% fall with only light spotting is consistent with completion.",
+        "D": "Trophoblastic disease would cause an abnormally high or persistent hCG, not a normal fall.",
+        "E": "Retained tissue would be suggested by an hCG fall well short of 80% with ongoing bleeding, which she does not have."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-008",
+      "question": "A 31-year-old woman whose last menstrual period was 5½ weeks ago has a positive home pregnancy test and wants to discuss her options. She has no pain or bleeding. Transvaginal ultrasound findings are shown. Which is the best interpretation?",
+      "table": [
+        [
+          "Finding",
+          "Result"
+        ],
+        [
+          "Intrauterine gestational sac",
+          "Present"
+        ],
+        [
+          "Yolk sac",
+          "Present"
+        ],
+        [
+          "Fetal pole",
+          "Not seen"
+        ],
+        [
+          "Adnexa",
+          "No masses, no free fluid"
+        ]
+      ],
+      "answers": {
+        "A": "Anembryonic pregnancy",
+        "B": "Confirmed intrauterine pregnancy",
+        "C": "Ectopic pregnancy",
+        "D": "Molar pregnancy",
+        "E": "Pregnancy of unknown location (PUL)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Absence of a fetal pole is expected at 5½ weeks, since the fetal pole appears around 6 weeks; it does not yet suggest an anembryonic pregnancy.",
+        "B": "A gestational sac with a yolk sac in the uterus is a confirmed intrauterine pregnancy; the yolk sac appears around 5.5 weeks and the fetal pole around 6 weeks.",
+        "C": "An intrauterine gestational sac with a yolk sac makes an ectopic pregnancy very unlikely.",
+        "D": "A molar pregnancy would not show a normal gestational sac with a yolk sac.",
+        "E": "Pregnancy of unknown location means no pregnancy is seen on ultrasound; here an intrauterine sac with a yolk sac is seen."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-009",
+      "question": "A 23-year-old woman with regular cycles has a positive home pregnancy test; her last menstrual period was 6 weeks ago. She requests medication abortion through a telehealth visit, and no ultrasound is available near her home. She has had no vaginal bleeding or pelvic pain, has no history of ectopic pregnancy or tubal surgery, and has no IUD. Which step can safely take the place of ultrasound before she is prescribed medication?",
+      "answers": {
+        "A": "Diagnostic laparoscopy",
+        "B": "Ectopic pregnancy screening questions",
+        "C": "Examination under anesthesia",
+        "D": "Serial serum hCG measurements over 1 week",
+        "E": "Serum progesterone level"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Laparoscopy is an invasive surgical diagnosis and is not a substitute for ultrasound before early abortion.",
+        "B": "Ultrasound can be safely bypassed for early abortion by asking ectopic pregnancy screening questions, which ensure a low risk of ectopic pregnancy.",
+        "C": "An examination under anesthesia adds risk and does not confirm pregnancy location.",
+        "D": "Serial hCG levels are used to evaluate a pregnancy of unknown location, not as the lecture's replacement for ultrasound before medication abortion.",
+        "E": "A single progesterone level does not establish pregnancy location or dating."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-010",
+      "question": "A 30-year-old woman, gravida 2 para 1, presents in Pennsylvania at 18 weeks' gestation by ultrasound with an undesired pregnancy. She is medically healthy and has completed state-required counseling and the waiting period. She prefers a procedure in clinic rather than a labor process. Which method is most appropriate at this gestational age?",
+      "answers": {
+        "A": "Dilation and evacuation",
+        "B": "Electric uterine aspiration",
+        "C": "Manual uterine aspiration",
+        "D": "Methotrexate and misoprostol",
+        "E": "Mifepristone alone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Second-trimester and later abortion is done by dilation and evacuation (D&E) or labor induction; she prefers a procedure, so D&E fits.",
+        "B": "Electric uterine aspiration (D&C) is a first-trimester procedure.",
+        "C": "Manual uterine aspiration is also a first-trimester method.",
+        "D": "Methotrexate is used for ectopic pregnancy and is not part of the abortion methods taught here.",
+        "E": "Mifepristone alone is not a complete regimen; it is paired with misoprostol, and at 18 weeks medications would mean a labor induction, which she does not want."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-011",
+      "question": "A 22-year-old woman presents to a Pennsylvania clinic at 8 weeks' gestation with an ultrasound-confirmed intrauterine pregnancy and asks to end the pregnancy today. She is medically healthy, not married, and has private insurance. She has decided on medication abortion. Which requirement must be met before the abortion can begin?",
+      "answers": {
+        "A": "Judicial bypass hearing",
+        "B": "Parental consent",
+        "C": "Signed consent 24 hours beforehand",
+        "D": "Spousal consent",
+        "E": "Ultrasound showing cardiac activity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Judicial bypass is a route around parental consent for minors; she is an adult.",
+        "B": "Pennsylvania's parental consent requirement applies only to minors.",
+        "C": "Pennsylvania has a 24-hour waiting period: she must complete a consent 24 hours before the abortion begins, so it cannot start today.",
+        "D": "Spousal consent was one of the provisions at issue in Casey, but it is not among Pennsylvania's current restrictions listed in the lecture.",
+        "E": "Ultrasound documentation of cardiac activity is not a Pennsylvania requirement; her intrauterine pregnancy is already confirmed."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-012",
+      "question": "A 27-year-old woman at 9 weeks' gestation in Pennsylvania wants an abortion. She is enrolled in Medicaid. The pregnancy resulted from consensual intercourse, and continuing it poses no threat to her life. She asks whether her insurance will pay. Which provision explains why Medicaid will not cover it?",
+      "answers": {
+        "A": "Affordable Care Act",
+        "B": "EMTALA",
+        "C": "Hyde Amendment",
+        "D": "Title X",
+        "E": "TRAP law"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The Affordable Care Act is not the provision the lecture names for the Medicaid abortion restriction.",
+        "B": "EMTALA concerns emergency care, as in the Moyle/Idaho cases, not Medicaid payment for abortion.",
+        "C": "Because of the Hyde Amendment, Medicaid funds do not cover abortion unless the pregnancy results from rape or incest or threatens the patient's life.",
+        "D": "Title X is not the restriction the lecture names for Medicaid abortion coverage.",
+        "E": "A TRAP law (Targeted Restriction on Abortion Providers) regulates facilities, such as Pennsylvania's ambulatory surgical center rule, not insurance coverage."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-013",
+      "question": "A 16-year-old girl in Pennsylvania comes to an adolescent clinic alone. She has had two sexual partners in the past year, wants reliable contraception, and is worried about a possible sexually transmitted infection. Her urine hCG is positive, and after counseling she says she would like to end the pregnancy. Which of the following requires her parent's consent under Pennsylvania law?",
+      "answers": {
+        "A": "Chlamydia testing",
+        "B": "Copper IUD placement",
+        "C": "Emergency contraception",
+        "D": "Gonorrhea treatment",
+        "E": "Procedural abortion"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "STI testing for minors does not require parental consent in Pennsylvania.",
+        "B": "Contraception, including an IUD, does not require parental consent for minors.",
+        "C": "Emergency contraception is contraception, which minors can obtain without parental consent.",
+        "D": "STI treatment for minors does not require parental consent.",
+        "E": "Pennsylvania requires parental consent for minors seeking abortion, in contrast to contraception and STI care."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-014",
+      "question": "A 25-year-old woman presents to a Pennsylvania clinic requesting an abortion. She had irregular periods and did not recognize the pregnancy until recently. She is healthy, and continuing the pregnancy poses no threat to her life. Dating findings are shown. Which Pennsylvania restriction most directly prevents her from obtaining an abortion in the state?",
+      "table": [
+        [
+          "Measure",
+          "Result"
+        ],
+        [
+          "Gestational age by ultrasound biometry",
+          "24 weeks 2 days"
+        ],
+        [
+          "Fetal cardiac activity",
+          "Present"
+        ],
+        [
+          "Placenta",
+          "Posterior, normal"
+        ]
+      ],
+      "answers": {
+        "A": "Ambulatory surgical center rule",
+        "B": "Gestational age limit",
+        "C": "Mandatory counseling",
+        "D": "Reasons ban",
+        "E": "Twenty-four-hour waiting period"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The ambulatory surgical center rule limits where abortions can be done but does not by itself bar her.",
+        "B": "Pennsylvania's gestational age limit is 23 weeks 6 days; at 24 weeks 2 days she is past it.",
+        "C": "Mandatory counseling must be completed but would not prevent an abortion at an eligible gestational age.",
+        "D": "Pennsylvania's reasons ban prohibits sex-selective abortion, which is not her reason.",
+        "E": "The 24-hour waiting period delays the abortion by a day but does not bar it."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-015",
+      "question": "In 1985, a 28-year-old woman at 10 weeks' gestation lives in a state that has passed a law banning all abortions except to save the pregnant person's life. Her physician tells her the law will not be enforced because it conflicts with the Supreme Court decision then in force. Which principle of that decision makes the law unconstitutional?",
+      "answers": {
+        "A": "Federal funds must cover abortion",
+        "B": "No restriction may be an undue burden",
+        "C": "Spousal consent must be obtained first",
+        "D": "States may not interfere before viability",
+        "E": "States may restrict abortion without any limit"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "No landmark decision required federal funds to cover abortion; Medicaid coverage is restricted by the Hyde Amendment.",
+        "B": "The undue burden standard came later, from Planned Parenthood v Casey in 1992.",
+        "C": "Spousal consent was a provision at issue in Casey, not a principle of Roe.",
+        "D": "Roe v Wade (1973), based on a constitutional right to privacy under the 14th Amendment's Due Process Clause, held that a state cannot interfere with abortion access until the fetus is viable.",
+        "E": "Unlimited state restriction is the effect of Dobbs (2022), which did not exist in 1985."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-016",
+      "question": "In 2010, a 19-year-old woman in a state that requires a 24-hour waiting period before abortion challenges the law, arguing it forces her to make two trips to a distant clinic. The court decides the case by asking whether the requirement places an \"undue burden\" on people seeking abortion. Which Supreme Court decision established this standard?",
+      "answers": {
+        "A": "Dobbs v Jackson Women's Health",
+        "B": "Eisenstadt v Baird",
+        "C": "Griswold v Connecticut",
+        "D": "Planned Parenthood v Casey",
+        "E": "Roe v Wade"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dobbs (2022) overturned Roe and Casey and removed the undue burden limit on state restrictions.",
+        "B": "Eisenstadt v Baird (1972) made contraception legal for unmarried individuals.",
+        "C": "Griswold v Connecticut (1965) made contraception legal for married couples.",
+        "D": "Planned Parenthood v Casey (1992) upheld Roe but let states restrict abortion as long as restrictions did not place an undue burden on the person seeking it.",
+        "E": "Roe v Wade (1973) barred state interference before viability; it did not set the undue burden test."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-017",
+      "question": "In 2023, a 32-year-old woman in Mississippi at 16 weeks' gestation cannot obtain an abortion in her state. The 15-week ban that started the case was upheld in 2022 in a decision that overturned Roe and Casey. Which reasoning did the Supreme Court give for that decision?",
+      "answers": {
+        "A": "Commerce Clause bars federal abortion rules",
+        "B": "Due Process Clause does not address abortion",
+        "C": "Equal Protection Clause allows abortion bans",
+        "D": "Fetal viability now occurs at 15 weeks",
+        "E": "Right to privacy covers only contraception"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The Commerce Clause was not the basis of Dobbs.",
+        "B": "In Dobbs v Jackson Women's Health (2022), the Court reasoned that the Due Process Clause did not address abortion specifically, so states may restrict abortion without limitation.",
+        "C": "The Equal Protection Clause was not the rationale given in Dobbs.",
+        "D": "Dobbs did not redefine viability; it removed viability as the limit on state restrictions.",
+        "E": "Dobbs did not rest on limiting privacy to contraception, though its reasoning raises questions about other rights such as same-sex and interracial marriage."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-018",
+      "question": "A 27-year-old woman at 16 weeks' gestation in Idaho presents with heavy vaginal bleeding and fever. Her physicians believe ending the pregnancy is needed to stabilize her, but treatment is delayed while the hospital seeks legal review under the state's abortion ban. A related Supreme Court case asked whether such a ban can override federal law and deny pregnant patients emergency care. Under which federal law did that ruling reinstate protections?",
+      "table": [
+        [
+          "Measure",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Temperature",
+          "38.6 °C",
+          "36.1–37.2 °C"
+        ],
+        [
+          "Heart rate",
+          "118 /min",
+          "60–100 /min"
+        ],
+        [
+          "Blood pressure",
+          "92/58 mm Hg",
+          "90–120/60–80 mm Hg"
+        ],
+        [
+          "Leukocyte count",
+          "18,000 /mm³",
+          "4,500–11,000 /mm³"
+        ]
+      ],
+      "answers": {
+        "A": "Comstock Act",
+        "B": "EMTALA",
+        "C": "HIPAA",
+        "D": "Hyde Amendment",
+        "E": "Title X"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The Comstock Act was not the federal law at issue in Moyle/Idaho v United States.",
+        "B": "Moyle v United States / Idaho v United States reinstated EMTALA protections for emergency care for now, but did not secure them; the delay described is the \"pause for legality.\"",
+        "C": "HIPAA governs health information privacy, which relates to disclosures to law enforcement, not emergency stabilization.",
+        "D": "The Hyde Amendment restricts Medicaid funding of abortion and does not guarantee emergency care.",
+        "E": "Title X was not the law at issue in the emergency-care case."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-019",
+      "question": "A 24-year-old woman comes to the emergency department with moderate vaginal bleeding and cramping. She tells the physician she took mifepristone and misoprostol she obtained online at 8 weeks' gestation. Her vital signs are normal and her hemoglobin is 12.2 g/dL. A police officer in the waiting room asks the physician whether she took abortion pills. According to the AMA and ACOG, what is the most appropriate response?",
+      "answers": {
+        "A": "Answer the officer's questions fully",
+        "B": "Confirm it only if she is clinically stable",
+        "C": "Disclose it once a warrant is described",
+        "D": "Refuse to share her reproductive history",
+        "E": "Share it because it involved medication"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Answering fully would disclose protected health information, which AMA and ACOG call inconsistent with professional standards of ethical conduct.",
+        "B": "Her clinical stability does not change the ethics of disclosing her reproductive health care to police.",
+        "C": "The lecture's point is that disclosing a patient's interest, intent or prior experience with reproductive health care to police is unethical.",
+        "D": "AMA and ACOG hold that disclosing protected health information to law enforcement about a patient's reproductive health care would be inconsistent with professional ethical standards; self-managed abortion is also a harm reduction approach.",
+        "E": "Medication use does not create a duty to disclose; the WHO supports first-trimester self-managed medication abortion."
+      }
+    },
+    {
+      "id": "endorepro-complexities-of-abortion-020",
+      "question": "A 34-year-old woman at 8 weeks' gestation by ultrasound wants to end her pregnancy. She is medically healthy. She shares a small apartment with roommates and does not want to have cramping, heavy bleeding, and passage of tissue at home. She wants the abortion completed in a single visit. Which option best fits her preferences?",
+      "answers": {
+        "A": "Dilation and evacuation",
+        "B": "Labor induction",
+        "C": "Mifepristone followed by misoprostol",
+        "D": "Misoprostol alone at home",
+        "E": "Uterine aspiration in clinic"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Dilation and evacuation is used in the second trimester and later; she is at 8 weeks.",
+        "B": "Labor induction is a second-trimester and later method.",
+        "C": "Medication abortion involves cramping, bleeding and passage of tissue at home, which she wants to avoid.",
+        "D": "Any misoprostol regimen at home causes the home bleeding and tissue passage she wants to avoid.",
+        "E": "Procedural abortion by uterine aspiration is faster, can be done in one visit, and involves less bleeding and discomfort at home."
+      }
+    }
+  ]
+}
