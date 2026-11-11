@@ -104,7 +104,8 @@
     .v.bad { color: var(--bad); }
 
     /* charts */
-    .charts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 10px; }
+    .charts { display: flex; flex-wrap: wrap; gap: 10px; }
+    .charts > .chart { flex: 1 1 300px; min-width: 0; }
     .chart .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
     .chart .t { font-size: 0.9rem; color: var(--ink-2); }
     .chart .tot { font-family: var(--mono); font-size: 0.95rem; }
@@ -159,7 +160,7 @@
       font-family: var(--mono); font-size: 0.75rem; padding: 6px 9px; border-radius: 7px;
       white-space: pre; opacity: 0; transition: opacity 0.08s;
     }
-    .four { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 10px; align-items: start; }
+    .four { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 10px; align-items: start; }
     @media (max-width: 560px) {
       .tile .v { font-size: 1.2rem; }
     }
@@ -225,7 +226,7 @@
           <span class="sub" id="asof"></span>
         </div>
         <div class="chips">
-          <button class="chip on" id="hideMe">hide me</button>
+          <button class="chip on" id="hideMe">hide tests</button>
           <button class="chip" id="refresh">refresh</button>
           <button class="chip" id="signout">sign out</button>
         </div>
@@ -268,6 +269,10 @@
           <h2>website</h2>
           <div class="card hbars" id="webFunnel"></div>
         </div>
+        <div>
+          <h2>versions</h2>
+          <div class="card hbars" id="versions"></div>
+        </div>
       </section>
 
       <section>
@@ -285,17 +290,6 @@
         <div class="charts" id="charts"></div>
       </section>
 
-      <section class="two">
-        <div>
-          <h2>versions</h2>
-          <div class="card hbars" id="versions"></div>
-        </div>
-        <div>
-          <h2>updates</h2>
-          <div class="card tablewrap" id="updates"></div>
-        </div>
-      </section>
-
       <section>
         <h2>accounts</h2>
         <div class="card tablewrap" id="accounts"></div>
@@ -309,6 +303,10 @@
       <section>
         <details class="raw">
           <summary>raw data</summary>
+          <section>
+            <h2>updates</h2>
+            <div class="card tablewrap" id="updates"></div>
+          </section>
           <section>
             <h2>clicks</h2>
             <div class="card tablewrap" id="clicks"></div>
@@ -604,19 +602,24 @@
       const txs = txList();
       const rev = series(txs.filter((t) => GROSS.has(t.type)), (t) => [dayKey(t.at), t.amount]);
       const usd2 = (n) => usd(n);
-      $("charts").innerHTML = [
-        chart("computers", act("addon")),
-        chart("new computers", series(data.new_clients.filter((r) => r.kind === "addon"), (r) => [r.day, r.n])),
-        chart("pdfs opened", ev("pdf_open")),
-        chart("cards made", ev("cards_created")),
-        chart("auto-occlude runs", jd("runs")),
-        chart("auto-occlude pages", jd("pages")),
-        chart("new accounts", series(data.signups, (r) => [r.day, r.n])),
-        chart("earned", rev, usd2),
-        chart("anthropic", jd("cost"), usd2),
-        chart("site visitors", act("web")),
-        chart("problems", series(data.daily.filter((r) => /error|out_of_pages/.test(r.name)), (r) => [r.day, r.n])),
-      ].join("");
+      const list = [
+        ["computers", act("addon")],
+        ["new computers", series(data.new_clients.filter((r) => r.kind === "addon"), (r) => [r.day, r.n])],
+        ["pdfs opened", ev("pdf_open")],
+        ["cards made", ev("cards_created")],
+        ["auto-occlude runs", jd("runs")],
+        ["auto-occlude pages", jd("pages")],
+        ["new accounts", series(data.signups, (r) => [r.day, r.n])],
+        ["earned", rev, usd2],
+        ["anthropic", jd("cost"), usd2],
+        ["site visitors", act("web")],
+        ["problems", series(data.daily.filter((r) => /error|out_of_pages/.test(r.name)), (r) => [r.day, r.n])],
+      ];
+      // begin at the first day any chart has something
+      let first = dayKey(Date.now());
+      for (const [, m] of list) for (const [d, v] of m) if (v && d < first) first = d;
+      range = Math.min(90, Math.max(3, Math.round((new Date(dayKey(Date.now()) + "T12:00") - new Date(first + "T12:00")) / 864e5) + 1));
+      $("charts").innerHTML = list.map(([t, m, f]) => chart(t, m, f)).join("");
     }
 
     // ---------------------------------------------------------------- funnels & versions
@@ -658,7 +661,7 @@
       ]), f.web_visitors);
 
       $("versions").innerHTML = hbars(data.versions.map((r) => [
-        r.version + (r.version === data.latest_version ? " (latest)" : ""), r.n, r.active ? `${r.active} active` : "",
+        r.version + (r.version === data.latest_version ? " (latest)" : ""), r.n, r.active && r.active !== r.n ? `${r.active} active` : "",
       ]));
       $("updates").innerHTML = table(
         [["when"], ["who"], ["from"], ["to"]],
@@ -953,8 +956,6 @@
 
     function render() {
       applyView();
-      // charts cover every day since tracking began
-      range = Math.min(90, Math.max(7, Math.ceil((data.now - (data.totals.tracking_since || data.now)) / 864e5) + 1));
       $("asof").textContent = "updated " + when(data.now);
       renderTiles();
       renderRuns();
