@@ -94,17 +94,43 @@
     {
       "file": "clinical-approach-to-the-transgender-patient.json",
       "name": "Clinical Approach to the Transgender Patient",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.12.26-CM_Clinical-Approach-to-the-Transgender-Patient_Chung_Notes-db75287594.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.12.26-CM_Clinical-Approach-to-the-Transgender-Patient_Chung_Slides-0008090a86.pdf"
+        }
+      ]
     },
     {
       "file": "clinical-skills-sessions-1-and-2.json",
       "name": "Clinical Skills Sessions 1 and 2: Pelvic, Breast, Diabetic Foot, Thyroid, Male GU & Rectal Exams",
-      "count": 40
+      "count": 40,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "Endo-Uro-Repro-Block-Clinical-Skills-Sessions-1-2-Notes---2026-2027-9dfe89b28d.pdf"
+        }
+      ]
     },
     {
       "file": "complexities-of-abortion.json",
       "name": "Complexities of Abortion",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.10.26-CM_Complexities-of-Abortion_Vinekar_Notes-c03950b8f1.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.10.26-CM_Complexities-of-Abortion_Vinekar_Slides.v.10.28.26-6dcb20d509.pdf"
+        }
+      ]
     },
     {
       "file": "contraception-and-abortion-pharmacology.json",
@@ -139,7 +165,13 @@
     {
       "file": "endo-crescendo.json",
       "name": "Endo Crescendo",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "answers",
+          "file": "11.13.2026_CM_Endo-Crescendo_Simon_CullenNOANSWERS-b955aa0b5c.pdf"
+        }
+      ]
     },
     {
       "file": "estrogens-and-progestins.json",
@@ -159,7 +191,17 @@
     {
       "file": "evaluation-of-the-newborn.json",
       "name": "Evaluation of the Newborn",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.10.26-CM_Evaluation-of-the-Newborn_Unno_Notes-1faa03104a.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.10.26-CM_Evaluation-of-the-Newborn_Unno_Slides-d473a6cf91.pdf"
+        }
+      ]
     },
     {
       "file": "foundations-of-pelvis-and-perineum.json",
@@ -239,7 +281,17 @@
     {
       "file": "intersex-101-patient-panel.json",
       "name": "Patient Panel: Intersex 101",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "11.12.26-HSS_Patient-Panel_Intersex_101_Wong_Notes-28049b4f28.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "11.12.26-HSS_Patient-Panel_Intersex-101_Wong_Slides-8fb6dcd3cf.pdf"
+        }
+      ]
     },
     {
       "file": "labor-and-delivery-complications.json",
@@ -289,7 +341,17 @@
     {
       "file": "lower-tract-gu-embryology-and-differences-of-sex-development.json",
       "name": "Lower-Tract GU Embryology & Differences of Sex Development",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "handout",
+          "file": "11.10.26-CM_Lower-Tract-GU-Embryology-Differences-of-Sex-Development_Ramachandra-47cfd67085.pdf"
+        },
+        {
+          "label": "handout",
+          "file": "11.10.26-CM_Lower-Tract-GU-Embryology-Differences-of-Sex-Development_Ramachandra-ea6b1eb41f.pdf"
+        }
+      ]
     },
     {
       "file": "lower-tract-gu-malignancy.json",
