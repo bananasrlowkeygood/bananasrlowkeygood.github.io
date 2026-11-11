@@ -151,6 +151,7 @@
       height: 30px; border: 1px solid var(--line); border-radius: 8px; background: #fbfaff;
       padding: 0 10px; font-family: var(--mono); font-size: 0.8rem; color: var(--ink); min-width: 0;
     }
+    .filterbar input { flex: 1 1 200px; }
     .note { color: var(--muted); font-size: 0.8rem; margin-top: 8px; }
 
     #tip {
@@ -244,7 +245,7 @@
         <div class="card">
           <div class="filterbar">
             <select id="pStatus"><option value="">everyone</option></select>
-            <input id="pWho" placeholder="email, computer or os">
+            <input id="pWho" placeholder="search">
           </div>
           <div class="tablewrap" id="people"></div>
         </div>
@@ -323,7 +324,7 @@
                   <option value="server">server</option>
                 </select>
                 <select id="fName"><option value="">all events</option></select>
-                <input id="fWho" placeholder="computer or email">
+                <input id="fWho" placeholder="search">
                 <button class="chip" id="fClear">clear</button>
               </div>
               <div class="tablewrap" id="feed"></div>
