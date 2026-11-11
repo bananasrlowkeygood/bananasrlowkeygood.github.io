@@ -49,7 +49,7 @@
     }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    main { max-width: 1100px; margin: 0 auto; }
+    main { max-width: 1440px; margin: 0 auto; }
     .num, td.n, .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 
     /* gate */
@@ -96,7 +96,7 @@
     }
 
     /* tiles */
-    .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr)); gap: 10px; }
+    .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr)); gap: 10px; }
     .tile .k { font-size: 0.82rem; color: var(--ink-2); }
     .tile .v { font-family: var(--mono); font-size: 1.45rem; font-weight: 500; margin-top: 2px; }
     .tile .d { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
@@ -116,22 +116,27 @@
     .chart line.base { stroke: var(--line); stroke-width: 1; }
 
     /* horizontal bars (funnel, versions) */
-    .hbars { display: grid; gap: 6px; }
-    .hrow { display: grid; grid-template-columns: minmax(120px, 190px) 1fr 90px; gap: 10px; align-items: center; font-size: 0.88rem; }
+    .hbars { display: grid; grid-template-columns: max-content minmax(40px, 1fr) max-content; gap: 6px 10px; align-items: center; }
+    .hrow { display: contents; font-size: 0.88rem; }
+    .hrow > span:first-child { font-size: 0.88rem; }
     .hrow .track { height: 14px; border-radius: 4px; background: rgba(92, 79, 122, 0.08); overflow: hidden; }
     .hrow .fill { height: 100%; background: var(--bar); border-radius: 0 4px 4px 0; min-width: 2px; }
     .hrow .val { font-family: var(--mono); font-size: 0.8rem; text-align: right; color: var(--ink-2); }
     .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(330px, 100%), 1fr)); gap: 10px; }
 
     /* tables */
-    .tablewrap { overflow-x: auto; max-height: 520px; overflow-y: auto; }
+    .tablewrap { overflow-x: auto; max-height: 520px; overflow-y: auto; padding-top: 0; }
     table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
     th {
       position: sticky; top: 0; background: #f3f0f8; text-align: left; font-weight: 600;
       color: var(--ink-2); padding: 7px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; cursor: pointer;
     }
     th.n, td.n { text-align: right; }
-    td { padding: 6px 8px; border-bottom: 1px solid rgba(92, 79, 122, 0.08); white-space: nowrap; vertical-align: top; }
+    td { padding: 5px 8px; border-bottom: 1px solid rgba(92, 79, 122, 0.08); white-space: normal; overflow-wrap: anywhere; vertical-align: top; }
+    td.n, td.nw { white-space: nowrap; overflow-wrap: normal; }
+    table { table-layout: auto; }
+    @media (max-width: 1000px) { .lo { display: none; } }
+    @media (max-width: 600px) { .xs { display: none; } td, th { padding-left: 5px; padding-right: 5px; } }
     td.wrap { white-space: normal; min-width: 220px; max-width: 420px; word-break: break-word; }
     tr.click { cursor: pointer; }
     tr.click:hover td { background: rgba(255, 255, 255, 0.6); }
@@ -153,10 +158,50 @@
       font-family: var(--mono); font-size: 0.75rem; padding: 6px 9px; border-radius: 7px;
       white-space: pre; opacity: 0; transition: opacity 0.08s;
     }
+    .four { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 10px; align-items: start; }
     @media (max-width: 560px) {
-      .hrow { grid-template-columns: 110px 1fr 70px; }
       .tile .v { font-size: 1.2rem; }
     }
+
+    /* status pills */
+    .pill { display: inline-block; padding: 1px 8px; border-radius: 9px; font-size: 0.76rem; background: rgba(92, 79, 122, 0.10); color: var(--ink-2); }
+    .pill.good { background: rgba(47, 125, 85, 0.13); color: var(--good); }
+    .pill.bad { background: rgba(178, 58, 72, 0.12); color: var(--bad); }
+    .pill.warm { background: rgba(178, 120, 30, 0.14); color: #7a5410; }
+    .pill.paid { background: var(--accent); color: var(--light); }
+    span.wrap { white-space: normal; }
+
+    /* person drawer */
+    #shade { position: fixed; inset: 0; background: rgba(20, 17, 26, 0.18); z-index: 19; opacity: 0; pointer-events: none; transition: opacity 0.15s; }
+    #shade.open { opacity: 1; pointer-events: auto; }
+    #drawer {
+      position: fixed; top: 0; right: 0; bottom: 0; width: min(600px, 100%); z-index: 20;
+      background: #f5f2fa; border-left: 1px solid var(--line); box-shadow: -18px 0 40px rgba(70, 50, 110, 0.14);
+      overflow-y: auto; padding: 22px 22px 60px; transform: translateX(105%); transition: transform 0.18s ease;
+    }
+    #drawer.open { transform: none; }
+    #drawer .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+    #drawer h3 { font-size: 1.3rem; font-weight: 600; word-break: break-word; }
+    #drawer .facts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(130px, 100%), 1fr)); gap: 8px; margin: 14px 0 6px; }
+    #drawer .fact { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 7px 10px; }
+    #drawer .fact .k { font-size: 0.74rem; color: var(--muted); }
+    #drawer .fact .v { font-family: var(--mono); font-size: 0.86rem; margin-top: 1px; word-break: break-word; }
+    .tl .day { font-weight: 600; margin: 18px 0 6px; color: var(--ink-2); }
+    .tl .ev { display: grid; grid-template-columns: 70px 1fr; gap: 10px; padding: 3px 0; font-size: 0.86rem; align-items: baseline; }
+    .tl .t { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); text-align: right; }
+    .tl .ev.good .w { color: var(--good); font-weight: 600; }
+    .tl .ev.bad .w { color: var(--bad); font-weight: 600; }
+    .tl .ev.key .w { font-weight: 600; }
+    .tl .ev.web .w::before { content: "website: "; color: #7a5410; }
+    .tl .ev.server .w::before { content: "server: "; color: var(--good); }
+    .tl .gap { margin: 4px 0 4px 80px; font-size: 0.74rem; color: var(--muted); border-left: 2px dotted var(--line); padding: 4px 0 4px 10px; }
+    .tl .x { color: var(--muted); font-family: var(--mono); font-size: 0.74rem; }
+
+    details.raw > summary { cursor: pointer; font-size: 1.15rem; font-weight: 600; list-style: none; }
+    details.raw > summary::-webkit-details-marker { display: none; }
+    details.raw > summary::before { content: "▸ "; color: var(--accent); }
+    details.raw[open] > summary::before { content: "▾ "; }
+    details.raw section { margin-top: 18px; }
   </style>
 </head>
 <body>
@@ -179,9 +224,7 @@
           <span class="sub" id="asof"></span>
         </div>
         <div class="chips">
-          <button class="chip" data-range="7">7 days</button>
-          <button class="chip on" data-range="30">30 days</button>
-          <button class="chip" data-range="90">90 days</button>
+          <button class="chip on" id="hideMe">hide me</button>
           <button class="chip" id="refresh">refresh</button>
           <button class="chip" id="signout">sign out</button>
         </div>
@@ -189,6 +232,46 @@
 
       <section>
         <div class="tiles" id="tiles"></div>
+      </section>
+
+      <section>
+        <h2>auto-occlude runs</h2>
+        <div class="card tablewrap" id="runs"></div>
+      </section>
+
+      <section>
+        <h2>people</h2>
+        <div class="card">
+          <div class="filterbar">
+            <select id="pStatus"><option value="">everyone</option></select>
+            <input id="pWho" placeholder="email, computer or os">
+          </div>
+          <div class="tablewrap" id="people"></div>
+        </div>
+      </section>
+
+      <section class="four">
+        <div>
+          <h2>auto-occlude</h2>
+          <div class="card hbars" id="autoFunnel"></div>
+        </div>
+        <div>
+          <h2>add-on</h2>
+          <div class="card hbars" id="addonFunnel"></div>
+        </div>
+        <div>
+          <h2>sign-in</h2>
+          <div class="card hbars" id="signinFunnel"></div>
+        </div>
+        <div>
+          <h2>website</h2>
+          <div class="card hbars" id="webFunnel"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>problems</h2>
+        <div class="card tablewrap" id="problems"></div>
       </section>
 
       <section>
@@ -203,17 +286,6 @@
 
       <section class="two">
         <div>
-          <h2>add-on funnel</h2>
-          <div class="card hbars" id="funnel"></div>
-        </div>
-        <div>
-          <h2>website funnel</h2>
-          <div class="card hbars" id="webFunnel"></div>
-        </div>
-      </section>
-
-      <section class="two">
-        <div>
           <h2>versions</h2>
           <div class="card hbars" id="versions"></div>
         </div>
@@ -224,23 +296,8 @@
       </section>
 
       <section>
-        <h2>clicks</h2>
-        <div class="card tablewrap" id="clicks"></div>
-      </section>
-
-      <section>
-        <h2>computers</h2>
-        <div class="card tablewrap" id="clients"></div>
-      </section>
-
-      <section>
         <h2>accounts</h2>
         <div class="card tablewrap" id="accounts"></div>
-      </section>
-
-      <section>
-        <h2>auto-occlude runs</h2>
-        <div class="card tablewrap" id="jobs"></div>
       </section>
 
       <section>
@@ -249,29 +306,50 @@
       </section>
 
       <section>
-        <h2>activity</h2>
-        <div class="card">
-          <div class="filterbar">
-            <select id="fSource">
-              <option value="">all sources</option>
-              <option value="addon">add-on</option>
-              <option value="web">website</option>
-              <option value="server">server</option>
-            </select>
-            <select id="fName"><option value="">all events</option></select>
-            <input id="fWho" placeholder="computer or email">
-            <button class="chip" id="fClear">clear</button>
-          </div>
-          <div class="tablewrap" id="feed"></div>
-        </div>
-      </section>
-
-      <section>
-        <h2>all events</h2>
-        <div class="card tablewrap" id="events"></div>
+        <details class="raw">
+          <summary>raw data</summary>
+          <section>
+            <h2>clicks</h2>
+            <div class="card tablewrap" id="clicks"></div>
+          </section>
+          <section>
+            <h2>activity</h2>
+            <div class="card">
+              <div class="filterbar">
+                <select id="fSource">
+                  <option value="">all sources</option>
+                  <option value="addon">add-on</option>
+                  <option value="web">website</option>
+                  <option value="server">server</option>
+                </select>
+                <select id="fName"><option value="">all events</option></select>
+                <input id="fWho" placeholder="computer or email">
+                <button class="chip" id="fClear">clear</button>
+              </div>
+              <div class="tablewrap" id="feed"></div>
+            </div>
+          </section>
+          <section>
+            <h2>all events</h2>
+            <div class="card tablewrap" id="events"></div>
+          </section>
+        </details>
       </section>
     </div>
   </main>
+
+  <div id="shade"></div>
+  <aside id="drawer" aria-hidden="true">
+    <div class="top">
+      <div>
+        <h3 id="dWho"></h3>
+        <div class="sub" id="dSub"></div>
+      </div>
+      <button class="chip" id="dClose">close</button>
+    </div>
+    <div class="facts" id="dFacts"></div>
+    <div class="tl" id="dTimeline"></div>
+  </aside>
   <div id="tip"></div>
 
   <script>
@@ -280,30 +358,42 @@
     const KEY = "po-stats-key";
     let data = null;
     let range = 30;
+    // what the page shows: everything, or everything but the owner's own accounts
+    let V = { jobs: [], clients: [], accounts: [] };
+    let hideMe = true;
+    try { hideMe = localStorage.getItem("po-stats-hide-me") !== "0"; } catch {}
+    function applyView() {
+      const keep = (r) => !(hideMe && r.me);
+      V = { jobs: data.jobs.filter(keep), clients: data.clients.filter(keep), accounts: data.accounts.filter(keep) };
+    }
 
     const $ = (id) => document.getElementById(id);
     const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
     const fmt = (n) => (n == null ? "" : Number(n).toLocaleString("en-US"));
     const usd = (n, d = 2) => (n == null ? "" : (n < 0 ? "-$" : "$") + Math.abs(n).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }));
     const pct = (a, b) => (b ? Math.round((100 * a) / b) + "%" : "");
+    const plural = (n, one, many = one + "s") => `${fmt(n)} ${Number(n) === 1 ? one : many}`;
     const dayKey = (ms) => new Date(ms).toLocaleDateString("en-CA");
+    const clock = (ms) => new Date(ms).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" }).toLowerCase();
     const when = (ms) => {
       if (!ms) return "";
       const d = new Date(ms);
-      return (d.toLocaleDateString("en-US", { month: "short", day: "numeric" }) + ", " +
-        d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" })).toLowerCase();
+      return (d.toLocaleDateString("en-US", { month: "short", day: "numeric" }) + ", " + clock(ms)).toLowerCase();
     };
-    const ago = (ms) => {
-      if (!ms) return "";
-      const s = (Date.now() - ms) / 1000;
-      if (s < 90) return "just now";
-      if (s < 3600) return Math.round(s / 60) + "m ago";
-      if (s < 86400) return Math.round(s / 3600) + "h ago";
-      return Math.round(s / 86400) + "d ago";
+    const dur = (ms) => {
+      const s = Math.max(0, Math.round(ms / 1000));
+      if (s < 60) return `${s} s`;
+      const m = Math.round(s / 60);
+      if (m < 60) return `${m} min`;
+      const h = Math.floor(m / 60);
+      if (h < 48) return m % 60 ? `${h} h ${m % 60} min` : `${h} h`;
+      return `${Math.round(h / 24)} days`;
     };
+    const ago = (ms) => (!ms ? "" : Date.now() - ms < 90e3 ? "just now" : dur(Date.now() - ms) + " ago");
     const short = (dev) => (!dev ? "" : dev.startsWith("w:") ? "browser " + dev.slice(2, 8) : "computer " + dev.slice(0, 6));
     const who = (email, dev) => email || short(dev);
     const parse = (p) => { try { return p ? JSON.parse(p) : null; } catch { return null; } };
+    const pill = (text, cls = "") => ({ html: `<span class="pill ${cls}">${esc(text)}</span>` });
     const store = {
       get() { try { return localStorage.getItem(KEY) || ""; } catch { return ""; } },
       set(v) { try { v ? localStorage.setItem(KEY, v) : localStorage.removeItem(KEY); } catch {} },
@@ -311,19 +401,17 @@
 
     // ---------------------------------------------------------------- load
 
-    async function load(pw) {
-      const res = await fetch(`${API}/v1/admin/stats?tz=${new Date().getTimezoneOffset()}`, {
-        headers: { authorization: `Bearer ${pw}` },
-      });
+    async function get(path, pw) {
+      const res = await fetch(API + path, { headers: { authorization: `Bearer ${pw}` } });
       if (res.status === 401) throw new Error("wrong password");
-      if (!res.ok) throw new Error(`server said ${res.status}`);
+      if (!res.ok) { const e = new Error(`server said ${res.status}`); e.status = res.status; throw e; }
       return res.json();
     }
 
     async function start(pw) {
       $("gateMsg").textContent = "";
       try {
-        data = await load(pw);
+        data = await get(`/v1/admin/stats?tz=${new Date().getTimezoneOffset()}`, pw);
       } catch (e) {
         store.set("");
         $("app").hidden = true;
@@ -346,24 +434,67 @@
     $("signout").addEventListener("click", () => {
       store.set("");
       data = null;
+      closePerson();
       $("pw").value = "";
       $("app").hidden = true;
       $("gate").hidden = false;
       $("pw").focus();
+    });
+    $("hideMe").classList.toggle("on", hideMe);
+    $("hideMe").addEventListener("click", () => {
+      hideMe = !hideMe;
+      try { localStorage.setItem("po-stats-hide-me", hideMe ? "1" : "0"); } catch {}
+      $("hideMe").classList.toggle("on", hideMe);
+      render();
     });
     $("refresh").addEventListener("click", async () => {
       $("refresh").disabled = true;
       await start(store.get());
       $("refresh").disabled = false;
     });
-    document.querySelectorAll("[data-range]").forEach((b) =>
-      b.addEventListener("click", () => {
-        range = Number(b.dataset.range);
-        document.querySelectorAll("[data-range]").forEach((x) => x.classList.toggle("on", x === b));
-        renderCharts();
-        renderTiles();
-      }),
-    );
+
+    // ---------------------------------------------------------------- derived
+
+    // per computer: its runs, and whether any run was later turned into cards
+    function runsByDevice() {
+      const m = new Map();
+      for (const j of V.jobs) {
+        if (!j.device) continue;
+        const r = m.get(j.device) || { runs: 0, first: Infinity, made: false };
+        r.runs++;
+        r.first = Math.min(r.first, j.created_at);
+        if (j.cards_at) r.made = true;
+        m.set(j.device, r);
+      }
+      return m;
+    }
+
+    const STATUSES = [
+      ["paying", "paid"],
+      ["ran auto-occlude, made cards", "good"],
+      ["ran auto-occlude, no cards yet", "bad"],
+      ["signed in, never ran", "warm"],
+      ["gave up signing in", "bad"],
+      ["opened auto-occlude", ""],
+      ["makes cards by hand", "good"],
+      ["opened a pdf", ""],
+      ["installed only", ""],
+    ];
+
+    function status(c, rb) {
+      const r = rb.get(c.device);
+      const runs = c.runs ?? r?.runs ?? 0;
+      const made = c.last_cards && c.first_run ? c.last_cards >= c.first_run : !!r?.made;
+      if (c.customer) return STATUSES[0];
+      if (runs && made) return STATUSES[1];
+      if (runs) return STATUSES[2];
+      if (c.email) return STATUSES[3];
+      if (c.sign_in_tries) return STATUSES[4];
+      if (c.auto_opens) return STATUSES[5];
+      if (c.cards) return STATUSES[6];
+      if (c.pdfs) return STATUSES[7];
+      return STATUSES[8];
+    }
 
     // ---------------------------------------------------------------- money
 
@@ -371,13 +502,16 @@
     const REFUND = new Set(["refund", "payment_refund", "payment_failure_refund"]);
     const PAYOUT = new Set(["payout", "payout_cancel", "payout_failure", "transfer", "transfer_cancel", "transfer_failure"]);
 
+    // the owner's own purchases are tests: their money is not earned, but
+    // what they cost (stripe's fee) still counts
+    const real = (t) => (t.me ? { ...t, amount: 0, net: -t.fee } : t);
+    const txList = () => ((data.stripe || {}).transactions || []).filter((t) => !PAYOUT.has(t.type)).map(real);
+
     function money(sinceMs = 0) {
-      const s = data.stripe || {};
-      const txs = (s.transactions || []).filter((t) => !PAYOUT.has(t.type) && t.at >= sinceMs);
+      const txs = txList().filter((t) => t.at >= sinceMs);
       const gross = txs.filter((t) => GROSS.has(t.type)).reduce((a, t) => a + t.amount, 0);
       const refunds = txs.filter((t) => REFUND.has(t.type)).reduce((a, t) => a + t.amount, 0);
       const net = txs.reduce((a, t) => a + t.net, 0);
-      // everything between what was paid and what Stripe keeps for us is fees
       return { gross, refunds, net, fees: gross + refunds - net, sales: txs.filter((t) => GROSS.has(t.type)).length };
     }
 
@@ -392,43 +526,35 @@
       return `<div class="card tile"><div class="k">${esc(k)}</div><div class="v ${cls}">${v}</div><div class="d">${d}</div></div>`;
     }
 
-    function sumDaily(name, field = "n") {
-      const since = dayKey(Date.now() - (range - 1) * 864e5);
-      return data.daily.filter((r) => r.name === name && r.day >= since).reduce((a, r) => a + r[field], 0);
-    }
-
     function renderTiles() {
       const t = data.totals;
-      const since = dayKey(Date.now() - (range - 1) * 864e5);
-      const jd = data.jobs_daily.filter((r) => r.day >= since);
-      const runs = jd.reduce((a, r) => a + r.runs, 0);
-      const pages = jd.reduce((a, r) => a + (r.pages || 0), 0);
-      const signups = data.signups.filter((r) => r.day >= since).reduce((a, r) => a + r.n, 0);
+      const week = Date.now() - 7 * 864e5;
+      const runs = V.jobs;
+      const made = runs.filter((j) => j.cards_at).length;
+      const paying = data.accounts.filter((a) => a.customer && !a.me);
+      const subscribed = paying.filter((a) => a.plan && ["active", "trialing"].includes(a.plan_status)).length;
+      const all = money(0), wk = money(week);
+      const aAll = anthropic(0), aWk = anthropic(week);
+      const s = data.stripe || {};
+      const profit = (s.error ? 0 : all.net) - aAll;
       $("tiles").innerHTML = [
-        tile("computers", fmt(t.computers), `${fmt(t.computers_7d)} this week`),
-        tile("pdfs opened", fmt(sumDaily("pdf_open")), `${fmt(t.pdfs_opened)} all time`),
-        tile("auto-occlude opens", fmt(sumDaily("auto_occlude_open")), `${fmt(data.event_names.filter((e) => e.name === "auto_occlude_open").reduce((a, e) => a + e.n, 0))} all time`),
-        tile("auto-occlude runs", fmt(runs), `${fmt(t.runs)} all time`),
-        tile("pages", fmt(pages), `${fmt(t.pages)} all time`),
-        tile("accounts", fmt(t.accounts), `${fmt(signups)} new`),
-        tile("subscribers", fmt(t.subscribers), `${fmt(t.monthly)} monthly, ${fmt(t.yearly)} yearly`),
-        tile("customers", fmt(t.customers), `${fmt(t.pack_holders)} with packs`),
-        tile("site visitors", fmt(t.visitors), `${fmt(t.visitors_7d)} this week`),
+        tile("computers", fmt(V.clients.length), `${fmt(t.computers_1d)} active today`),
+        tile("auto-occlude runs", fmt(runs.length), `${fmt(runs.filter((j) => j.created_at >= week).length)} this week`),
+        tile("runs turned into cards", runs.length ? `${made} of ${runs.length}` : "0", runs.length ? pct(made, runs.length) : "", runs.length && made < runs.length ? "bad" : ""),
+        tile("accounts", fmt(V.accounts.length), `${fmt(V.accounts.filter((a) => a.created_at >= week).length)} this week`),
+        tile("paying", fmt(paying.length), `${fmt(subscribed)} subscribed, ${fmt(paying.filter((a) => a.pack_credits > 0).length)} with packs`),
+        tile("profit", usd(profit), `${usd((s.error ? 0 : wk.net) - aWk)} this week`, profit >= 0 ? "good" : "bad"),
       ].join("");
 
-      const s = data.stripe || {};
-      const all = money(0), win = money(Date.now() - range * 864e5);
-      const aAll = anthropic(0), aWin = anthropic(Date.now() - (range - 1) * 864e5);
-      const profit = win.net - aWin;
-      const allTime = (n) => `${usd(n)} all time`;
+      const thisWeek = (n) => `${usd(n)} this week`;
       $("money").innerHTML = s.error
-        ? tile("stripe", "off", "not connected", "bad") + tile("anthropic", usd(aWin), allTime(aAll))
+        ? tile("stripe", "off", "not connected", "bad") + tile("anthropic", usd(aAll), thisWeek(aWk))
         : [
-            tile("earned", usd(win.gross), allTime(all.gross)),
-            tile("stripe fees", usd(win.fees), allTime(all.fees)),
-            tile("refunds", usd(-win.refunds), allTime(-all.refunds)),
-            tile("anthropic", usd(aWin), allTime(aAll)),
-            tile("profit", usd(profit), allTime(all.net - aAll), profit >= 0 ? "good" : "bad"),
+            tile("earned", usd(all.gross), thisWeek(wk.gross)),
+            tile("stripe fees", usd(all.fees), thisWeek(wk.fees)),
+            tile("refunds", usd(-all.refunds), thisWeek(-wk.refunds)),
+            tile("anthropic", usd(aAll), thisWeek(aWk)),
+            tile("profit", usd(profit), thisWeek(wk.net - aWk), profit >= 0 ? "good" : "bad"),
             tile("stripe balance", usd(s.available ?? 0), `${usd(s.pending ?? 0)} pending`),
           ].join("");
     }
@@ -474,25 +600,21 @@
       const ev = (name, field = "n") => series(data.daily.filter((r) => r.name === name), (r) => [r.day, r[field]]);
       const act = (src) => series(data.active.filter((r) => r.source === src), (r) => [r.day, r.d]);
       const jd = (f) => series(data.jobs_daily, (r) => [r.day, r[f]]);
-      const txs = ((data.stripe || {}).transactions || []).filter((t) => !PAYOUT.has(t.type));
+      const txs = txList();
       const rev = series(txs.filter((t) => GROSS.has(t.type)), (t) => [dayKey(t.at), t.amount]);
-      const fees = series(txs, (t) => [dayKey(t.at), GROSS.has(t.type) || REFUND.has(t.type) ? t.amount - t.net : -t.net]);
       const usd2 = (n) => usd(n);
       $("charts").innerHTML = [
         chart("computers", act("addon")),
         chart("new computers", series(data.new_clients.filter((r) => r.kind === "addon"), (r) => [r.day, r.n])),
         chart("pdfs opened", ev("pdf_open")),
         chart("cards made", ev("cards_created")),
-        chart("auto-occlude opens", ev("auto_occlude_open")),
         chart("auto-occlude runs", jd("runs")),
-        chart("pages", jd("pages")),
-        chart("sign-ups", series(data.signups, (r) => [r.day, r.n])),
+        chart("auto-occlude pages", jd("pages")),
+        chart("new accounts", series(data.signups, (r) => [r.day, r.n])),
         chart("earned", rev, usd2),
-        chart("stripe fees", fees, usd2),
         chart("anthropic", jd("cost"), usd2),
         chart("site visitors", act("web")),
-        chart("errors", series(data.daily.filter((r) => /error/.test(r.name)), (r) => [r.day, r.n])),
-        chart("clicks", ev("click")),
+        chart("problems", series(data.daily.filter((r) => /error|out_of_pages/.test(r.name)), (r) => [r.day, r.n])),
       ].join("");
     }
 
@@ -500,30 +622,42 @@
 
     function hbars(rows, top) {
       if (!rows.length) return `<div class="empty">nothing yet</div>`;
-      const max = top ?? Math.max(...rows.map((r) => r[1]), 1);
+      const max = top ?? Math.max(...rows.map((r) => r[1] || 0), 1);
       return rows.map(([k, v, extra]) => `<div class="hrow" data-tip="${esc(k)}\n${esc(fmt(v))}${extra ? "\n" + esc(extra) : ""}">
-        <span>${esc(k)}</span><div class="track"><div class="fill" style="width:${max ? (100 * v) / max : 0}%"></div></div>
+        <span>${esc(k)}</span><div class="track"><div class="fill" style="width:${max ? (100 * (v || 0)) / max : 0}%"></div></div>
         <span class="val">${fmt(v)}${extra ? " " + esc(extra) : ""}</span></div>`).join("");
+    }
+
+    // each step as a share of the step before it
+    function steps(list) {
+      return list.map(([k, v], i) => [k, v ?? 0, i ? pct(v ?? 0, list[i - 1][1] ?? 0) : ""]);
     }
 
     function renderFunnels() {
       const f = data.funnel;
-      const steps = [
-        ["computers", f.seen], ["opened the add-on", f.opened_window], ["opened a pdf", f.opened_pdf],
-        ["made cards", f.made_cards], ["opened auto-occlude", f.opened_auto], ["signed in", f.signed_in],
-        ["ran auto-occlude", f.ran], ["paid", f.paid],
-      ].map(([k, v]) => [k, v, pct(v, f.seen)]);
-      $("funnel").innerHTML = hbars(steps, f.seen);
-      const w = [
-        ["visitors", f.web_visitors], ["saw pricing", f.web_pricing],
-      ].map(([k, v]) => [k, v, pct(v, f.web_visitors)]).concat([
-        ["accounts", data.totals.accounts], ["started checkout", f.web_checkout, pct(f.web_checkout, data.totals.accounts)],
-        ["bought", f.web_paid, pct(f.web_paid, data.totals.accounts)],
-      ]);
-      $("webFunnel").innerHTML = hbars(w, f.web_visitors);
+      const rb = runsByDevice();
+      const opened = V.clients.filter((c) => c.auto_opens);
+      const ran = V.clients.filter((c) => rb.get(c.device));
+      $("autoFunnel").innerHTML = hbars(steps([
+        ["opened it", opened.length],
+        ["signed in", opened.filter((c) => c.email).length],
+        ["ran it", ran.length],
+        ["made the cards", ran.filter((c) => rb.get(c.device).made).length],
+        ["ran it again", ran.filter((c) => rb.get(c.device).runs >= 2).length],
+        ["paid", ran.filter((c) => c.customer).length],
+      ]), opened.length);
+      $("addonFunnel").innerHTML = hbars(steps([
+        ["installed", f.seen], ["opened the add-on", f.opened_window], ["opened a pdf", f.opened_pdf], ["made cards", f.made_cards],
+      ]), f.seen);
+      $("signinFunnel").innerHTML = f.web_link == null ? `<div class="empty">nothing yet</div>` : hbars(steps([
+        ["opened the link page", f.web_link], ["signed in with google", f.web_signed_in], ["linked anki", f.web_linked],
+      ]), f.web_link);
+      $("webFunnel").innerHTML = hbars(steps([
+        ["visitors", f.web_visitors], ["saw pricing", f.web_pricing], ["started checkout", f.web_checkout], ["bought", f.web_paid],
+      ]), f.web_visitors);
 
       $("versions").innerHTML = hbars(data.versions.map((r) => [
-        r.version + (r.version === data.latest_version ? " (latest)" : ""), r.n, "",
+        r.version + (r.version === data.latest_version ? " (latest)" : ""), r.n, r.active ? `${r.active} active` : "",
       ]));
       $("updates").innerHTML = table(
         [["when"], ["who"], ["from"], ["to"]],
@@ -536,12 +670,13 @@
     // cols: [label, "n" for numbers]; rows: arrays of cell html/text
     function table(cols, rows, opts = {}) {
       if (!rows.length) return `<div class="empty">nothing yet</div>`;
-      const head = cols.map(([c, k], i) => `<th class="${k === "n" ? "n" : ""}" data-col="${i}">${esc(c)}</th>`).join("");
-      const body = rows.map((r, ri) => `<tr${opts.click ? ` class="click" data-row="${ri}"` : ""}>` +
+      const cls = ([, k, x]) => [k || "", x || ""].join(" ").trim();
+      const head = cols.map((col, i) => `<th class="${col[1] === "n" ? "n" : ""} ${col[2] || ""}" data-col="${i}">${esc(col[0])}</th>`).join("");
+      const body = rows.map((r, ri) => `<tr${opts.keys ? ` class="click" data-key="${esc(opts.keys[ri])}"` : ""}>` +
         r.map((v, i) => {
           const k = cols[i][1];
           const cell = v && typeof v === "object" ? v.html : esc(k === "n" && typeof v === "number" ? fmt(v) : v);
-          return `<td class="${k || ""}">${cell ?? ""}</td>`;
+          return `<td class="${cls(cols[i])}">${cell ?? ""}</td>`;
         }).join("") + "</tr>").join("");
       return `<table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
     }
@@ -562,62 +697,104 @@
       }));
     }
 
+    // rows whose data-key is a computer open that person
+    function clickable(el) {
+      el.querySelectorAll("tr.click").forEach((tr) => tr.addEventListener("click", () => tr.dataset.key && openPerson(tr.dataset.key)));
+    }
+
+    const DENSITY = { fewer: "fewer", balanced: "balanced", more: "more" };
+
+    function renderRuns() {
+      const rows = V.jobs.map((j) => {
+        const asked = parse(j.asked) || {};
+        const placed = parse(j.placed) || {};
+        let outcome;
+        if (j.cards_at) outcome = { html: `<span class="pill good" data-tip="${esc(dur(j.cards_at - j.created_at))} after the run">${esc(plural(j.cards, "card"))}</span>` };
+        else if (placed.stage) outcome = pill("failed", "bad");
+        else if (j.asked === undefined || j.created_at < (data.totals.tracking_since || 0)) outcome = "";
+        else outcome = { html: `<span class="pill bad" data-tip="last seen ${esc(ago(j.device_last))}">not yet</span>` };
+        return [
+          when(j.created_at), who(j.email, j.device), { html: `<span class="wrap">${esc(j.lecture)}</span>` },
+          j.slides_done === j.slides_total ? j.slides_total : `${j.slides_done} of ${j.slides_total}`,
+          placed.cards ?? "", placed.dropped || "", j.asked_at ? dur(j.created_at - j.asked_at) : "", DENSITY[asked.density] || asked.density || "", asked.custom_chars ? "yes" : "",
+          outcome, j.free_left ?? "", usd(j.cost_usd, 2),
+        ];
+      });
+      $("runs").innerHTML = table(
+        [["when", "nw"], ["who"], ["pdf"], ["pages", "n", "xs"], ["boxes", "n", "xs"], ["skipped", "n", "lo"], ["prep", "n", "lo"], ["density", "", "lo"], ["custom", "", "lo"], ["cards", "nw"], ["free left", "n", "lo"], ["cost", "n", "lo"]],
+        rows, { keys: V.jobs.map((j) => j.device || "") },
+      );
+      clickable($("runs"));
+    }
+
+    function renderPeople() {
+      const rb = runsByDevice();
+      const sel = $("pStatus");
+      if (sel.options.length === 1) sel.innerHTML += STATUSES.map(([s]) => `<option>${esc(s)}</option>`).join("");
+      const want = sel.value, q = $("pWho").value.trim().toLowerCase();
+      const list = V.clients.map((c) => ({ c, st: status(c, rb) })).filter(({ c, st }) =>
+        (!want || st[0] === want) &&
+        (!q || (c.email || "").toLowerCase().includes(q) || c.device.startsWith(q) || (c.os || "").toLowerCase().includes(q)));
+      $("people").innerHTML = table(
+        [["who"], ["status"], ["os", "", "lo"], ["version", "", "lo"], ["first seen", "nw", "lo"], ["last seen", "nw"], ["pdfs", "n", "xs"], ["cards", "n", "xs"], ["runs", "n", "xs"], ["pages", "n", "lo"], ["free left", "n", "lo"]],
+        list.map(({ c, st }) => [who(c.email, c.device), pill(st[0], st[1]), c.os, c.version, when(c.first_seen), ago(c.last_seen),
+          c.pdfs, c.cards, c.runs ?? rb.get(c.device)?.runs ?? 0, c.pages, c.email ? c.free_left ?? "" : ""]),
+        { keys: list.map(({ c }) => c.device) },
+      );
+      sortable($("people"));
+      clickable($("people"));
+    }
+    $("pStatus").addEventListener("change", renderPeople);
+    $("pWho").addEventListener("input", renderPeople);
+
+    function renderProblems() {
+      const rows = data.problems || data.feed.filter((e) => /error|out_of_pages/.test(e.name) ||
+        ((e.name === "sign_in_result" || e.name === "link_result") && (parse(e.props) || {}).result === "error"));
+      $("problems").innerHTML = table(
+        [["when", "nw"], ["where", "nw"], ["who"], ["what"]],
+        rows.map((e) => [when(e.at), { html: tag(e) }, who(e.email, e.device), { html: `<span class="wrap">${esc(say(e))}</span>` }]),
+        { keys: rows.map((e) => (e.device && !e.device.startsWith("w:") ? e.device : "")) },
+      );
+      clickable($("problems"));
+    }
+
+    function tag(e) {
+      return `<span class="tag ${e.source}${/error/.test(e.name) ? " err" : ""}">${e.source === "addon" ? "add-on" : e.source === "web" ? "website" : "server"}</span>`;
+    }
+
     function renderTables() {
       $("clicks").innerHTML = table(
         [["window"], ["button"], ["clicks", "n"], ["computers", "n"], ["last"]],
         data.clicks.map((c) => [c.win.replace("_", "-"), c.button, c.n, c.d, ago(c.last)]),
       );
 
-      $("clients").innerHTML = table(
-        [["who"], ["os"], ["anki"], ["version"], ["first seen"], ["last seen"], ["pdfs", "n"], ["cards", "n"], ["auto-occlude", "n"], ["pages", "n"], ["last event"]],
-        data.clients.map((c) => [who(c.email, c.device), c.os, c.anki, c.version, when(c.first_seen), ago(c.last_seen),
-          c.pdfs, c.cards, c.auto_opens, c.pages, (c.last_event || "").replace(/_/g, " ")]),
-        { click: true },
-      );
-      $("clients").querySelectorAll("tr.click").forEach((tr) => tr.addEventListener("click", () => {
-        $("fWho").value = data.clients[Number(tr.dataset.row)].device.slice(0, 6);
-        renderFeed();
-        $("feed").scrollIntoView({ behavior: "smooth", block: "center" });
-      }));
-
       $("accounts").innerHTML = table(
-        [["email"], ["joined"], ["plan"], ["pack pages", "n"], ["free pages", "n"], ["paid"], ["runs", "n"], ["pages", "n"], ["anthropic", "n"], ["last run"], ["linked", "n"], ["last seen"]],
-        data.accounts.map((a) => [a.email, when(a.created_at),
+        [["email"], ["joined", "nw"], ["plan", "", "lo"], ["pack pages", "n", "xs"], ["free pages", "n", "xs"], ["paid", "", "lo"], ["runs", "n"], ["pages", "n", "xs"], ["anthropic", "n", "lo"], ["last run", "nw", "lo"], ["linked", "n", "lo"], ["last seen", "nw"]],
+        V.accounts.map((a) => [a.email, when(a.created_at),
           a.plan ? `${a.plan} (${a.plan_status})` : a.plan_status || "", a.pack_credits, a.free_left, a.customer ? "yes" : "",
           a.runs, a.pages, usd(a.cost, 3), ago(a.last_run), a.linked, ago(a.last_seen)]),
+        { keys: V.accounts.map((a) => V.clients.find((c) => c.email === a.email)?.device || "") },
       );
-
-      $("jobs").innerHTML = table(
-        [["when"], ["who"], ["pdf"], ["pages", "n"], ["done", "n"], ["batches", "n"], ["credit"], ["anthropic", "n"]],
-        data.jobs.map((j) => [when(j.created_at), who(j.email, j.device), { html: `<span class="wrap">${esc(j.lecture)}</span>` },
-          j.slides_total, j.slides_done, j.batches, j.source, usd(j.cost_usd, 3)]),
-      );
+      clickable($("accounts"));
 
       const s = data.stripe || {};
       $("payments").innerHTML = s.error
         ? `<div class="empty">stripe not connected</div>`
         : table(
-            [["when"], ["type"], ["who"], ["what"], ["amount", "n"], ["fee", "n"], ["net", "n"], ["status"]],
+            [["when", "nw"], ["type", "", "lo"], ["who"], ["what"], ["amount", "n"], ["fee", "n", "lo"], ["net", "n"], ["status", "nw"]],
             (s.transactions || []).map((t) => [when(t.at), t.type.replace(/_/g, " "), t.email || "", t.description,
-              usd(t.amount), usd(t.fee), usd(t.net), t.status]),
+              usd(t.amount), usd(t.fee), usd(t.net), t.me ? pill("test") : t.status]),
           );
 
       $("events").innerHTML = table(
-        [["event"], ["source"], ["all time", "n"], ["30 days", "n"], ["computers", "n"], ["last"]],
+        [["event"], ["source", "", "xs"], ["all time", "n"], ["30 days", "n", "xs"], ["computers", "n"], ["last", "nw", "xs"]],
         data.event_names.map((e) => [e.name.replace(/_/g, " "), e.source, e.n, e.n30, e.d, ago(e.last)]),
       );
 
       const names = [...new Set(data.feed.map((e) => e.name))].sort();
       $("fName").innerHTML = `<option value="">all events</option>` +
         names.map((n) => `<option value="${esc(n)}">${esc(n.replace(/_/g, " "))}</option>`).join("");
-      ["clicks", "clients", "accounts", "jobs", "payments", "events", "updates"].forEach((id) => sortable($(id)));
-    }
-
-    function describe(e) {
-      const p = parse(e.props);
-      if (!p) return "";
-      if (e.name === "click") return `${p.button} (${String(p.window || "").replace("_", "-")})`;
-      return Object.entries(p).map(([k, v]) => `${k.replace(/_/g, " ")}: ${typeof v === "object" ? JSON.stringify(v) : v}`).join(", ");
+      ["clicks", "accounts", "payments", "events", "updates", "runs", "problems"].forEach((id) => sortable($(id)));
     }
 
     function renderFeed() {
@@ -626,21 +803,164 @@
         (!src || e.source === src) && (!name || e.name === name) &&
         (!q || (e.email || "").toLowerCase().includes(q) || (e.device || "").startsWith(q) || (e.device || "").startsWith("w:" + q)));
       $("feed").innerHTML = table(
-        [["when"], ["source"], ["who"], ["event"], ["details"]],
-        rows.map((e) => [when(e.at),
-          { html: `<span class="tag ${e.source}${/error/.test(e.name) ? " err" : ""}">${e.source === "addon" ? "add-on" : e.source === "web" ? "website" : "server"}</span>` },
-          who(e.email, e.device), e.name.replace(/_/g, " "), { html: `<span class="props">${esc(describe(e))}</span>` }]),
+        [["when", "nw"], ["source", "nw"], ["who"], ["what"]],
+        rows.map((e) => [when(e.at), { html: tag(e) }, who(e.email, e.device), { html: `<span class="wrap">${esc(say(e))}</span>` }]),
+        { keys: rows.map((e) => (e.device && !e.device.startsWith("w:") ? e.device : "")) },
       );
+      clickable($("feed"));
     }
     ["fSource", "fName"].forEach((id) => $(id).addEventListener("change", renderFeed));
     $("fWho").addEventListener("input", renderFeed);
     $("fClear").addEventListener("click", () => { $("fSource").value = ""; $("fName").value = ""; $("fWho").value = ""; renderFeed(); });
 
+    // ---------------------------------------------------------------- events in words
+
+    const STAGE = { no_code: "no code", signed_out: "not signed in", signed_in: "signed in, not linked", linked: "linked" };
+
+    function say(e) {
+      const p = parse(e.props) || {};
+      switch (e.name) {
+        case "first_seen": return e.source === "web" ? "first visit" : "installed the add-on";
+        case "anki_open": return "opened anki";
+        case "anki_close": return "closed anki";
+        case "announcement_shown": return "saw the announcement";
+        case "announcement_choice": return p.opened ? "opened pdf occlusion from the announcement" : "dismissed the announcement";
+        case "dialog_open": return "opened pdf occlusion";
+        case "pdf_open": return `opened a pdf, ${plural(p.pages, "page")}${p.reopened ? ", reopened" : ""}`;
+        case "click": return e.source === "web"
+          ? `pressed “${p.button}” on ${p.page}`
+          : `pressed “${p.button}”${p.window && p.window !== "main" ? " in " + String(p.window).replace(/_/g, "-") : ""}`;
+        case "auto_occlude_open": return "opened auto-occlude";
+        case "auto_occlude_closed": return "closed auto-occlude";
+        case "auto_occlude_start": return `started auto-occlude on ${plural(p.pages, "page")}, ${p.density || "balanced"}${p.custom_chars ? ", own instructions" : ""}${p.use_notes ? ", with notes" : ""}`;
+        case "auto_occlude_done": return `auto-occlude placed ${plural(p.cards, "box", "boxes")} on ${plural(p.slides, "slide")}${p.dropped ? `, ${fmt(p.dropped)} skipped` : ""}${p.complete === false ? ", stopped early" : ""}`;
+        case "auto_occlude_error": return `auto-occlude failed at ${p.stage}${p.status ? ` (${p.status})` : ""}${p.message ? ": " + p.message : ""}`;
+        case "cards_created": return `created ${plural(p.cards, "card")}${p.canceled ? ", stopped early" : ""}`;
+        case "sign_in_start": return "pressed sign in";
+        case "sign_in_done": return "anki is signed in";
+        case "sign_in_cancel": return `gave up signing in after ${dur((p.seconds || 0) * 1000)}`;
+        case "sign_out": return "signed out";
+        case "update_started": return `started updating to ${p.to}`;
+        case "update_finished": return p.ok === false ? `update to ${p.to} failed` : `updated to ${p.to}`;
+        case "updated": return `now on ${p.to}${p.from ? ` (was ${p.from})` : ""}`;
+        case "error": return `error in ${String(p.where || "").replace(/_/g, " ")}: ${p.message || ""}`;
+        case "page_view": return `opened ${p.path}`;
+        case "sign_in_result":
+          if (p.result === "ok") return "signed in with google";
+          if (p.result === "closed") return p.code === "auth/cancelled-popup-request" ? "google window replaced by a second one" : "closed the google window";
+          if (p.result === "redirect") return "google sign-in switched to a full-page redirect";
+          return `google sign-in failed: ${p.code || p.message}`;
+        case "link_result": return p.result === "ok" ? "linked anki to the account" : `linking failed: ${p.message}`;
+        case "link_left": return `left the link page after ${dur((p.seconds || 0) * 1000)}, ${STAGE[p.stage] || p.stage}`;
+        case "signup": return "account created";
+        case "addon_linked": return `account linked to ${p.label}`;
+        case "job_start": return `run started, ${plural(p.pages, "page")}`;
+        case "batch_done": return `finished ${plural(p.pages, "page")} (${usd(p.cost, 3)})`;
+        case "out_of_pages": return `out of pages: needed ${fmt(p.pages)}, had ${fmt(p.pages_left)}`;
+        case "api_error": return `refused ${p.path} (${p.status}): ${p.message}`;
+        case "checkout_start": return `started checkout for ${p.product}`;
+        case "purchase": return `bought ${p.product}${p.amount ? ` for ${usd(p.amount)}` : ""}`;
+        case "subscription": return `subscription ${p.status}${p.product ? ` (${p.product})` : ""}`;
+        default: return e.name.replace(/_/g, " ") + (e.props ? ": " + Object.entries(p).map(([k, v]) => `${k.replace(/_/g, " ")} ${typeof v === "object" ? JSON.stringify(v) : v}`).join(", ") : "");
+      }
+    }
+
+    const GOOD = new Set(["cards_created", "auto_occlude_done", "purchase", "sign_in_done", "signup"]);
+    const KEYEV = new Set(["auto_occlude_start", "pdf_open", "first_seen", "addon_linked", "checkout_start"]);
+    const isBad = (e) => /error|out_of_pages|sign_in_cancel/.test(e.name) ||
+      ((e.name === "sign_in_result" || e.name === "link_result") && (parse(e.props) || {}).result === "error");
+
+    // ---------------------------------------------------------------- one person
+
+    let personSeq = 0;
+
+    async function openPerson(device) {
+      const seq = ++personSeq;
+      const c = V.clients.find((x) => x.device === device) || { device };
+      $("dWho").textContent = who(c.email, device);
+      $("dSub").textContent = [c.os, c.anki ? "anki " + c.anki : "", c.version ? "add-on " + c.version : ""].filter(Boolean).join(", ");
+      $("dFacts").innerHTML = "";
+      $("dTimeline").innerHTML = `<div class="empty">loading</div>`;
+      $("drawer").classList.add("open");
+      $("drawer").setAttribute("aria-hidden", "false");
+      $("shade").classList.add("open");
+      let events, jobs, client = c;
+      try {
+        const r = await get(`/v1/admin/person?device=${encodeURIComponent(device)}`, store.get());
+        events = r.events; jobs = r.jobs; client = { ...c, ...r.client };
+      } catch {
+        // older server: only what the recent feed holds
+        events = data.feed.filter((e) => e.device === device || (c.email && e.email === c.email)).sort((a, b) => a.at - b.at);
+        jobs = V.jobs.filter((j) => j.device === device);
+      }
+      if (seq !== personSeq) return;
+      const st = status({ ...c, ...client }, runsByDevice());
+      const fact = (k, v) => (v === "" || v == null ? "" : `<div class="fact"><div class="k">${esc(k)}</div><div class="v">${esc(v)}</div></div>`);
+      $("dFacts").innerHTML = [
+        `<div class="fact" style="grid-column: span 2"><div class="k">status</div><div class="v"><span class="pill ${st[1]}">${esc(st[0])}</span></div></div>`,
+        fact("first seen", when(client.first_seen)),
+        fact("last seen", ago(client.last_seen)),
+        fact("account", client.email ? "since " + when(client.joined || c.joined) : "none"),
+        fact("free pages left", client.email ? client.free_left : ""),
+        fact("plan", client.plan ? `${client.plan} (${client.plan_status})` : client.pack_credits ? `${client.pack_credits} pack pages` : ""),
+        fact("runs", jobs.length ? `${jobs.length}, ${fmt(jobs.reduce((a, j) => a + (j.slides_done || 0), 0))} pages` : "0"),
+        fact("anthropic", jobs.length ? usd(jobs.reduce((a, j) => a + (j.cost_usd || 0), 0), 2) : ""),
+      ].join("");
+      $("dTimeline").innerHTML = timeline(events);
+    }
+
+    function timeline(events) {
+      if (!events.length) return `<div class="empty">no events</div>`;
+      // merge each run's batches into one line, and repeats in the same second
+      const lines = [];
+      for (const e of events) {
+        const p = parse(e.props) || {};
+        const last = lines[lines.length - 1];
+        if (e.name === "batch_done" && last?.e.name === "batch_done" && (parse(last.e.props) || {}).job === p.job) {
+          last.batches++; last.pages += p.pages || 0; last.cost += p.cost || 0; last.end = e.at;
+          continue;
+        }
+        if (last && last.e.name === e.name && last.e.props === e.props && last.e.source === e.source && e.at - last.e.at < 2000) { last.times++; continue; }
+        lines.push({ e, times: 1, batches: 1, pages: p.pages || 0, cost: p.cost || 0, end: e.at });
+      }
+      let out = "", day = "", prev = 0;
+      for (const l of lines) {
+        const e = l.e;
+        const d = new Date(e.at).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" }).toLowerCase();
+        if (d !== day) { out += `<div class="day">${esc(d)}</div>`; day = d; }
+        else if (e.at - prev > 10 * 60e3) out += `<div class="gap">${esc(dur(e.at - prev))} later</div>`;
+        prev = l.end;
+        const text = e.name === "batch_done"
+          ? `finished ${plural(l.pages, "page")} in ${plural(l.batches, "batch", "batches")} over ${dur(l.end - e.at + 1)} (${usd(l.cost, 2)})`
+          : say(e);
+        const cls = [e.source === "web" ? "web" : e.source === "server" ? "server" : "",
+          isBad(e) ? "bad" : GOOD.has(e.name) ? "good" : KEYEV.has(e.name) ? "key" : ""].join(" ");
+        out += `<div class="ev ${cls}"><span class="t">${esc(clock(e.at))}</span><span class="w">${esc(text)}${l.times > 1 ? ` <span class="x">×${l.times}</span>` : ""}</span></div>`;
+      }
+      return out;
+    }
+
+    function closePerson() {
+      personSeq++;
+      $("drawer").classList.remove("open");
+      $("drawer").setAttribute("aria-hidden", "true");
+      $("shade").classList.remove("open");
+    }
+    $("dClose").addEventListener("click", closePerson);
+    $("shade").addEventListener("click", closePerson);
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closePerson(); });
+
     function render() {
+      applyView();
+      // charts cover every day since tracking began
+      range = Math.min(90, Math.max(7, Math.ceil((data.now - (data.totals.tracking_since || data.now)) / 864e5) + 1));
       $("asof").textContent = "updated " + when(data.now);
       renderTiles();
-      renderCharts();
+      renderRuns();
+      renderPeople();
       renderFunnels();
+      renderProblems();
+      renderCharts();
       renderTables();
       renderFeed();
     }
