@@ -1,0 +1,457 @@
+{
+  "lecture": "Genetic Testing Essentials",
+  "block": "endorepro",
+  "generated": "2026-11-14",
+  "questions": [
+    {
+      "id": "endorepro-genetic-testing-essentials-001",
+      "question": "A 31-year-old woman, G1P0, at 7 weeks' gestation by a certain last menstrual period asks for cell-free DNA screening at her first prenatal visit. Ultrasound confirms a viable intrauterine pregnancy. Her physician advises waiting several weeks before drawing the sample. Which of the following best explains why the test is unreliable at this gestational age?",
+      "answers": {
+        "A": "Fetal cfDNA is cleared from maternal blood within seconds",
+        "B": "Fetal cell-free DNA is too long to be sequenced before 10 weeks",
+        "C": "Maternal hematopoietic DNA is not yet released into plasma",
+        "D": "The placental share of cell-free DNA has not yet reached about 4%",
+        "E": "The placenta is not yet genetically identical to the fetus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cell-free DNA has a half-life of about 15 minutes, and continuous apoptosis keeps a steady-state level, so clearance is not the limitation.",
+        "B": "Cell-free DNA fragments are about 150 bp at any gestational age, already short enough for NGS without further cutting.",
+        "C": "Maternal hematopoietic cells are the main source of cfDNA throughout pregnancy; their DNA is the background, not the missing piece.",
+        "D": "Proper analysis needs a fetal fraction of at least about 4%, which requires enough placental growth and is reached around 10 weeks.",
+        "E": "In most pregnancies the placenta is genetically identical to the fetus from the start; that is why placental cfDNA can stand in for fetal DNA."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-002",
+      "question": "A 34-year-old woman at 12 weeks' gestation has blood drawn for cell-free DNA screening. The laboratory reports that most of the cell-free DNA in her plasma is maternal rather than fetal. From which source does the majority of cell-free DNA in her plasma most likely derive?",
+      "answers": {
+        "A": "Apoptotic maternal hematopoietic cells",
+        "B": "Circulating intact fetal nucleated red cells",
+        "C": "Desquamated maternal endometrial cells",
+        "D": "Necrotic maternal hepatocytes",
+        "E": "Syncytiotrophoblast of the placenta"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Most cell-free DNA in a pregnant person comes from apoptotic hematopoietic cells, which shed ~150 bp DNA fragments.",
+        "B": "Cell-free DNA is fragmented DNA outside cells; intact fetal cells are not its source and are not what the test measures.",
+        "C": "The endometrium is not described as a meaningful contributor to plasma cfDNA.",
+        "D": "Hepatocyte death is not the lecture's source of cfDNA; most comes from blood-forming cells.",
+        "E": "The placenta contributes only about 10% of cfDNA at 10–20 weeks; it is the fetal fraction, not the majority."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-003",
+      "question": "A 29-year-old woman at 11 weeks' gestation has blood drawn for cell-free DNA screening at a rural clinic. The tube contains no anticoagulant or preservative, and the whole-blood sample sits at room temperature for 2 days before the plasma is separated. The laboratory reports an unusually low fetal fraction. Which of the following best explains this result?",
+      "answers": {
+        "A": "Fetal cfDNA degraded because its half-life is about 15 minutes",
+        "B": "Hemolysis released fetal hemoglobin that inhibited sequencing",
+        "C": "Maternal white cells leaked their DNA into the plasma",
+        "D": "Placental cells in the tube continued to undergo apoptosis",
+        "E": "The sample lacked Mg2+, which nucleases need to preserve DNA"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The 15-minute half-life describes clearance from the circulation, not loss in a collection tube.",
+        "B": "Fetal hemoglobin interference is not a mechanism the lecture describes for cfDNA testing.",
+        "C": "White cells must be removed before they leak maternal DNA into plasma; added maternal DNA dilutes the fetal fraction.",
+        "D": "There are essentially no placental cells in a maternal blood draw, so they would not add fetal DNA after collection.",
+        "E": "Nucleases require Mg2+ to degrade DNA; EDTA is added to bind Mg2+ and protect cfDNA, not to supply it."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-004",
+      "question": "A 33-year-old woman at 11 weeks' gestation has cell-free DNA screening. Her results are shown below. What is the most likely fetal karyotype?",
+      "table": [
+        [
+          "Fetal fraction",
+          "Chr. 13",
+          "Chr. 18",
+          "Chr. 21",
+          "Chr. X",
+          "Chr. Y"
+        ],
+        [
+          "6%",
+          "1.00",
+          "1.00",
+          "1.03",
+          "0.97",
+          "0.03"
+        ]
+      ],
+      "answers": {
+        "A": "45,X",
+        "B": "46,XY",
+        "C": "47,XX,+21",
+        "D": "47,XXY",
+        "E": "47,XY,+21"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "45,X would show reduced X signal with no Y signal; here a Y signal is present.",
+        "B": "A normal male would show chromosome 21 at 1.00; the extra 3% for chromosome 21 matches one extra fetal copy.",
+        "C": "A female fetus would give an X signal of 1.00 and no Y signal.",
+        "D": "47,XXY would show a normal X signal of 1.00 together with Y signal.",
+        "E": "With a 6% fetal fraction each fetal chromosome adds 3%, so 1.03 for chr 21 means trisomy 21, and reduced X plus a Y signal means a male: 47,XY,+21."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-005",
+      "question": "A 36-year-old woman at 12 weeks' gestation has cell-free DNA screening. Her results are shown below. What is the most likely fetal karyotype?",
+      "table": [
+        [
+          "Fetal fraction",
+          "Chr. 13",
+          "Chr. 18",
+          "Chr. 21",
+          "Chr. X",
+          "Chr. Y"
+        ],
+        [
+          "5%",
+          "1.00",
+          "1.00",
+          "1.00",
+          "1.00",
+          "0.03"
+        ]
+      ],
+      "answers": {
+        "A": "45,X",
+        "B": "46,XX",
+        "C": "46,XY",
+        "D": "47,XXY",
+        "E": "47,XYY"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "45,X would lower the X signal and show no Y signal.",
+        "B": "A normal female fetus would show no Y signal.",
+        "C": "A normal male fetus has one X, so the X signal would fall below 1.00 (fetal X contributes half the usual dose).",
+        "D": "An X signal of 1.00 means the fetus has two X chromosomes, and the Y signal means it also has a Y: 47,XXY (Klinefelter syndrome).",
+        "E": "47,XYY has a single X, so the X signal would be reduced, as in any male."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-006",
+      "question": "A 38-year-old woman at 11 weeks' gestation receives a cell-free DNA report indicating a high risk of trisomy 18. She is distressed and asks whether her baby definitely has the condition. Which of the following is the most appropriate statement about her result?",
+      "answers": {
+        "A": "It is diagnostic because NGS reads each base with 0.1% error",
+        "B": "It is diagnostic once repeated a second time with the same test",
+        "C": "It is a screening result that needs confirmation by CVS or amniocentesis",
+        "D": "It is a screening result that is confirmed by a repeat at 20 weeks",
+        "E": "It rules in trisomy 18 because the fetal fraction exceeds 4%"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Per-base accuracy does not make cfDNA diagnostic; the signal comes largely from placental DNA and is a risk estimate.",
+        "B": "Repeating a screening test does not turn it into a diagnostic test.",
+        "C": "cfDNA is a screening test; a positive result must be confirmed with a diagnostic test such as CVS or amniocentesis with karyotyping or aCGH.",
+        "D": "Repeating cfDNA later remains screening; confirmation requires direct fetal or placental sampling.",
+        "E": "A fetal fraction ≥4% only means the sample can be analyzed; it does not make the result diagnostic."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-007",
+      "question": "A public-health committee is choosing a newborn test for congenital adrenal hyperplasia that will be applied to every asymptomatic infant, with all positives followed by confirmatory testing. Which test property should be prioritized?",
+      "answers": {
+        "A": "High analytic precision",
+        "B": "High positive predictive value",
+        "C": "High sensitivity",
+        "D": "High specificity",
+        "E": "Low cost per true positive"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Repeatability matters for any assay, but it is not the property that separates screening from diagnostic tests.",
+        "B": "PPV depends on prevalence and is not the design target; screening tolerates false positives because positives are confirmed.",
+        "C": "Screening tests, like the 17-OHP newborn screen, must minimize false negatives, so high sensitivity is the priority.",
+        "D": "Specificity matters most for diagnostic tests that establish a definitive diagnosis.",
+        "E": "Cost is not the property the lecture ties to screening versus diagnostic tests."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-008",
+      "question": "A genetics laboratory is sequencing cell-free DNA by an Illumina next generation sequencing workflow. Linker sequences have been ligated onto the patient DNA fragments, and the library has been loaded onto a flow cell coated with oligonucleotides. Which step comes next and produces clusters (polonies) of identical DNA?",
+      "answers": {
+        "A": "Cutting the DNA into fragments of 200 to 500 base pairs",
+        "B": "Hybridizing labeled patient and reference DNA to a microarray",
+        "C": "In situ PCR with primers bound to the flow cell surface",
+        "D": "Removing the fluorophore and the 3′-protecting group",
+        "E": "Restriction digestion followed by heat denaturation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Fragmentation happens first, and cfDNA skips it because it is already fragmented.",
+        "B": "Competitive hybridization of two labeled DNAs is aCGH, not NGS.",
+        "C": "Repeated amplification using the flow cell's surface-bound oligonucleotides as primers (in situ PCR) builds polonies of identical copies.",
+        "D": "Removing the label and deprotecting the 3′-OH happens during sequencing by synthesis, after the polonies exist.",
+        "E": "Restriction digestion and denaturation are SNP-microarray preparation steps."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-009",
+      "question": "During Illumina sequencing by synthesis, a polymerase extends a primer annealed to a polony. Each cycle, the instrument images the flow cell and records exactly one new base per cluster. Which feature of the added nucleotides ensures that only a single base is incorporated per cycle?",
+      "answers": {
+        "A": "A 3′-protecting group on each nucleotide",
+        "B": "A biotin tag that anchors each nucleotide",
+        "C": "A dideoxy sugar that permanently ends the chain",
+        "D": "An identical fluorophore on all four nucleotides",
+        "E": "Methylation of the incorporated base"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Each labeled dNTP carries a 3′-protecting group, so extension stops after one base until the group is removed and the cycle repeats.",
+        "B": "A biotin anchor is not part of this method; the template is attached via the flow cell oligonucleotides.",
+        "C": "A permanent chain terminator would end sequencing; Illumina's block is reversible so the next cycle can proceed.",
+        "D": "Each of the four bases carries a different fluorophore, which is how the base is identified.",
+        "E": "Methylation plays no role in sequencing by synthesis."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-010",
+      "question": "A laboratory sequences a patient sample by NGS. Reads are about 300–600 bases long with an error rate of about 0.1% per base, and some regions are read far more often than others. To make the reported sequence reliable, the lab sequences each region in both directions many times. Which parameter is being increased?",
+      "answers": {
+        "A": "Coverage",
+        "B": "Fetal fraction",
+        "C": "Probe length",
+        "D": "Read length",
+        "E": "Stringency"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Coverage is the average number of reads per position; aiming for 50- to 400-fold coverage corrects for the per-base error rate and uneven read distribution.",
+        "B": "Fetal fraction is the share of cfDNA from the placenta, not a sequencing parameter.",
+        "C": "Probe length is a microarray design feature.",
+        "D": "Read length is set by the instrument (about 300–600 bases) and is not raised by re-reading the same region.",
+        "E": "Stringency describes microarray washing conditions."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-011",
+      "question": "A newborn with ambiguous genitalia and salt wasting has CYP21A2 sequenced by NGS. The report lists one known pathogenic variant and a second missense change that has not been classified as benign or pathogenic in clinical databases. How is the second change best described?",
+      "answers": {
+        "A": "Benign polymorphism",
+        "B": "Copy number variation",
+        "C": "Sequencing error",
+        "D": "Uniparental disomy",
+        "E": "Variant of unknown significance"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A benign variant is one already known to be harmless; this change is unclassified.",
+        "B": "A CNV is a change in the amount of a DNA region, detected by aCGH, not a single missense change.",
+        "C": "High coverage corrects random errors; a reproducible missense call is a real variant.",
+        "D": "UPD is inheritance of both copies of a region from one parent, seen as lost heterozygosity on a SNP array.",
+        "E": "A variant whose effect is not known is a VUS; VUS are common in NGS reports and raise ethical issues about reporting."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-012",
+      "question": "A probe on a DNA microarray is designed to detect a single-base substitution. When the probe hybridizes to a perfectly matched target, the duplex melts at 50°C; when the target carries one mismatched base, the duplex melts at 40°C. Which probe design gives the greatest discrimination between these two targets while still binding only one site in the genome?",
+      "answers": {
+        "A": "A 4-nucleotide probe",
+        "B": "A 20-nucleotide probe",
+        "C": "A 500-nucleotide probe",
+        "D": "A 5,000-nucleotide probe",
+        "E": "A whole-chromosome paint probe"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A 4-mer occurs about once every 256 bases, so it would bind thousands of sites in the genome.",
+        "B": "A ~20-nucleotide probe matches only a handful of sites per genome (1 in 4^20), yet is short enough that a single mismatch impairs hybridization.",
+        "C": "Long probes are barely affected by a single mismatch, so they act as copy number probes, not SNP probes.",
+        "D": "A very long probe tolerates single mismatches and cannot distinguish the two targets.",
+        "E": "A chromosome paint probe detects whole chromosomes, not single-base changes."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-013",
+      "question": "A fetus with multiple anomalies on ultrasound has amniocentesis, and DNA from cultured amniocytes is analyzed by array comparative genomic hybridization. Patient DNA is labeled green and reference DNA red. At one cluster of probes the spots appear predominantly red. What does this finding indicate in that region?",
+      "answers": {
+        "A": "Balanced translocation in the fetus",
+        "B": "Deletion in the fetal DNA",
+        "C": "Duplication in the fetal DNA",
+        "D": "Inversion in the fetal DNA",
+        "E": "Normal copy number"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Balanced translocations do not change the amount of DNA, so aCGH cannot detect them.",
+        "B": "Red means the reference outcompetes the patient at that probe: 1 patient copy against 2 reference copies, a deletion.",
+        "C": "A duplication gives more green patient DNA (3:2), so the spot looks green.",
+        "D": "Inversions do not change DNA quantity and are invisible to aCGH.",
+        "E": "Equal amounts of green and red give a yellow spot."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-014",
+      "question": "An infant with developmental delay undergoes aCGH. The plot of log2(patient/reference) shows many consecutive probes on the long arm of chromosome 6 clustered around the value below. What is the most likely finding?",
+      "table": [
+        [
+          "Region",
+          "Mean log2 ratio",
+          "Number of probes"
+        ],
+        [
+          "6q (shaded)",
+          "+0.6",
+          "~400"
+        ],
+        [
+          "Rest of chr 6",
+          "0.0",
+          "~3,000"
+        ]
+      ],
+      "answers": {
+        "A": "Deletion of one copy of 6q",
+        "B": "Duplication of 6q",
+        "C": "Loss of both copies of 6q",
+        "D": "Triploidy",
+        "E": "Uniparental disomy of 6q"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Losing one copy gives a ratio of 1/2 and a log2 of −1.",
+        "B": "Three patient copies against two reference copies give a ratio of 1.5, whose log2 is about +0.6: a duplication.",
+        "C": "Loss of both copies would leave no patient signal at those probes, far below −1.",
+        "D": "aCGH uses a fixed amount of patient DNA, so triploidy keeps all ratios near 0 and cannot be detected.",
+        "E": "UPD keeps 2 copies (log2 = 0); it is detected by a SNP array, not aCGH."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-015",
+      "question": "A couple has had three first-trimester miscarriages. Both partners have normal aCGH results, but the father's karyotype shows a balanced reciprocal translocation between chromosomes 11 and 22. Why did aCGH miss this abnormality?",
+      "answers": {
+        "A": "aCGH lacks probes near the breakpoints on 11 and 22",
+        "B": "aCGH needs dividing cells, which were not cultured",
+        "C": "Digested DNA loses sequence context and the dosage is unchanged",
+        "D": "The rearranged segments are smaller than 50,000 bp",
+        "E": "The translocation causes uniparental disomy of chromosome 22"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Probe placement is not the problem; even dense probes would see normal amounts of every region.",
+        "B": "Microarray analysis does not require dividing cells; karyotyping does.",
+        "C": "aCGH digests the DNA, losing positional context, and a balanced translocation does not change the amount of any region, so the ratio stays 1.",
+        "D": "Whole-arm segments are far larger than the ~50 kb limit; size is not why it was missed.",
+        "E": "A balanced translocation in a carrier does not cause UPD, and UPD would not explain an aCGH result either."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-016",
+      "question": "A fetus has a nuchal abnormality on ultrasound. aCGH on cultured amniocytes is normal across all chromosomes, but a karyotype shows 69 chromosomes. Which property of aCGH best explains why it missed this diagnosis?",
+      "answers": {
+        "A": "It cannot detect changes smaller than 50,000 bp",
+        "B": "It is performed with a fixed amount of patient DNA",
+        "C": "It lacks probes near the centromeres",
+        "D": "It loses context when DNA is digested",
+        "E": "It requires a reference DNA labeled with a dye"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Triploidy affects whole chromosomes, far above the resolution limit.",
+        "B": "aCGH loads a fixed amount of patient DNA (quantified by absorbance), so when every chromosome is tripled all ratios stay at 1 and triploidy is invisible.",
+        "C": "Missing centromeric probes explain a gap in the plot, not a missed whole-genome change.",
+        "D": "Loss of context explains why balanced translocations and inversions are missed, not triploidy.",
+        "E": "The competing reference is how aCGH works; it is not the reason triploidy is missed."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-017",
+      "question": "A child is evaluated on a SNP microarray. Over one region of chromosome 4, the total fluorescence intensity drops to half the normal level, and the B allele frequency plot for that region is shown below. Which genotype pattern explains these results?",
+      "table": [
+        [
+          "Region of chr 4",
+          "Copy number from intensity",
+          "B allele frequencies seen"
+        ],
+        [
+          "Flanking regions",
+          "2",
+          "0, 0.5, 1"
+        ],
+        [
+          "Affected region",
+          "1",
+          "0 and 1 only"
+        ]
+      ],
+      "answers": {
+        "A": "Copy-neutral loss of heterozygosity from UPD",
+        "B": "Duplication of the region (AAA to BBB)",
+        "C": "Hemizygosity from a deletion (A− or B−)",
+        "D": "Homozygous deletion of the region (−−)",
+        "E": "Normal heterozygosity at most SNPs"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "UPD keeps the copy number at 2; here the intensity shows only 1 copy.",
+        "B": "A duplication gives 3 copies, with B allele frequencies of 0, 1/3, 2/3 and 1.",
+        "C": "With one copy each SNP is A− or B−, so it can never be heterozygous: BAF only at 0 and 1, with half the intensity.",
+        "D": "Losing both copies leaves no signal for the region at all.",
+        "E": "Normal heterozygosity would put many points at 0.5."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-018",
+      "question": "A hypotonic infant with feeding difficulty is evaluated for Prader-Willi syndrome. A SNP microarray of chromosome 15 shows normal fluorescence intensity throughout, but the B allele frequency plot for the whole chromosome shows points only near 0 and 1, with none at 0.5. Which abnormality is most likely?",
+      "answers": {
+        "A": "Balanced translocation involving 15q",
+        "B": "Deletion of 15q",
+        "C": "Duplication of 15q",
+        "D": "Trisomy 15",
+        "E": "Uniparental disomy of chromosome 15"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "A balanced translocation leaves both copy number and heterozygosity unchanged.",
+        "B": "A deletion lowers the intensity to 1 copy; here intensity is normal.",
+        "C": "A duplication raises intensity to 3 copies and gives BAF values at 1/3 and 2/3.",
+        "D": "Trisomy raises the intensity and gives BAF values at 1/3 and 2/3.",
+        "E": "Two copies with no heterozygosity means both chromosomes came from one parent; UPD matters here because 15q contains imprinted genes."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-019",
+      "question": "A 30-year-old woman has a child with an autosomal recessive disorder although only she carries the disease allele; the father's DNA is normal at that locus. Paternity is confirmed. A SNP microarray of the child shows normal copy number over the disease gene region. Which additional finding on that array best explains the child's disease?",
+      "answers": {
+        "A": "B allele frequency at 0, 0.5 and 1",
+        "B": "B allele frequency at 0, 1/3, 2/3 and 1",
+        "C": "B allele frequency only at 0 and 1",
+        "D": "Fluorescence intensity of one copy",
+        "E": "Fluorescence intensity of three copies"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Points at 0.5 mean heterozygosity, so the child would carry one allele from each parent.",
+        "B": "Values at 1/3 and 2/3 indicate 3 copies, which contradicts the normal copy number.",
+        "C": "Maternal UPD gives two copies of the mother's allele with no heterozygosity (BAF only at 0 and 1), unmasking a recessive allele.",
+        "D": "One copy would be a deletion, which the normal copy number excludes.",
+        "E": "Three copies would be a duplication, which the normal copy number excludes."
+      }
+    },
+    {
+      "id": "endorepro-genetic-testing-essentials-020",
+      "question": "A 37-year-old woman at 16 weeks' gestation had a cell-free DNA screen suggesting trisomy 21. She now wants a diagnostic test that samples the amniotic sac and can also measure AFP. Which test does she want, and how is the sample analyzed?",
+      "answers": {
+        "A": "Amniocentesis, analyzed by karyotyping and aCGH",
+        "B": "Amniocentesis, analyzed by next generation sequencing",
+        "C": "Chorionic villus sampling, analyzed by karyotyping",
+        "D": "Maternal blood cfDNA, analyzed by next generation sequencing",
+        "E": "Maternal blood cfDNA, analyzed by SNP microarray"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Amniocentesis (after about 15 weeks) samples the amniotic sac, is diagnostic, uses karyotyping and aCGH, and can also measure AFP.",
+        "B": "In the lecture's comparison, NGS is the method for cfDNA, while amniocytes go to karyotyping and aCGH.",
+        "C": "CVS samples the placenta (after about 10 weeks) and does not measure AFP.",
+        "D": "cfDNA is the screening test she has already had; it cannot confirm the diagnosis.",
+        "E": "cfDNA is a screening test analyzed by NGS, not a diagnostic test."
+      }
+    }
+  ]
+}

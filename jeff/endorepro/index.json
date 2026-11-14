@@ -219,6 +219,11 @@
       ]
     },
     {
+      "file": "genetic-testing-essentials.json",
+      "name": "Genetic Testing Essentials",
+      "count": 20
+    },
+    {
       "file": "genetic-testing-in-pregnancy.json",
       "name": "Genetic Testing in Pregnancy",
       "count": 20,
@@ -921,7 +926,13 @@
     {
       "file": "week-6-cbl.json",
       "name": "CBL Week 6: Urogenital Embryology, DSD and CAH",
-      "count": 16
+      "count": 16,
+      "pdfs": [
+        {
+          "label": "handout",
+          "file": "Week_6_CBL-63aca0c4ba.pdf"
+        }
+      ]
     }
   ]
 }
