@@ -221,7 +221,17 @@
     {
       "file": "genetic-testing-essentials.json",
       "name": "Genetic Testing Essentials",
-      "count": 20
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "10.30.26-BCM_Genetic-Testing-Essentials_Scott_Notes-95cb5146ad.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "10.30.26-BCM_Genetic-Testing-Essentials_Scott_Slides-f1e8488b4b.pdf"
+        }
+      ]
     },
     {
       "file": "genetic-testing-in-pregnancy.json",
