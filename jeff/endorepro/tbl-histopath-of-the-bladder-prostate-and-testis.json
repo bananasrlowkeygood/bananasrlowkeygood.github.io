@@ -1,0 +1,415 @@
+{
+  "lecture": "TBL - Histopath of the Bladder, Prostate, & Testis",
+  "block": "endorepro",
+  "generated": "2026-11-14",
+  "questions": [
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-001",
+      "question": "A 70-year-old man has painless gross hematuria. He has a 50-pack-year smoking history. Urinalysis shows red blood cells without leukocytes or bacteria. Cystoscopy shows a single exophytic tumor with frond-like projections on the lateral bladder wall. A biopsy of the lesion is shown. Which of the following best describes the structure at the center of each projection?",
+      "image": { "src": "images/tbl-histopath-of-the-bladder-prostate-and-testis/001.png", "caption": "Biopsy of the bladder lesion, H&E", "credit": "TBL slides p. 12" },
+      "answers": {
+        "A": "Detrusor smooth muscle bundles extending upward",
+        "B": "Fibrovascular core supporting proliferating cells",
+        "C": "Glandular lumen lined by mucin-producing cells",
+        "D": "Keratin pearl formed by squamous differentiation",
+        "E": "Lymphoid follicle with a reactive germinal center"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The detrusor (muscularis propria) lies deep in the bladder wall, and the tumor's relationship to it is used for staging, but it does not form the core of papillae.",
+        "B": "Papillary urothelial carcinoma grows as fronds of cohesive urothelial cells draped over a central fibrovascular core, the vessel-containing scaffold of every papillary tumor.",
+        "C": "Glandular differentiation can occur in urothelial carcinoma, but the core of a papilla is connective tissue and vessels, not a gland lumen.",
+        "D": "Keratin pearls mark squamous cell carcinoma, which is rare in the bladder outside schistosomiasis-endemic regions.",
+        "E": "Lymphoid follicles are not part of papillary architecture; the fronds are built on stroma and blood vessels."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-002",
+      "question": "A 68-year-old man undergoes transurethral resection of a papillary bladder tumor found during workup of painless hematuria. Pathology shows low-grade papillary urothelial carcinoma. Tumor cells extend into the lamina propria. Bundles of detrusor muscle are present in the specimen and are free of tumor. Which of the following is the most important implication of the finding in the detrusor muscle?",
+      "answers": {
+        "A": "Cystectomy is required because of the grade of the tumor",
+        "B": "Lymph node metastasis is already present at diagnosis",
+        "C": "Squamous differentiation within the tumor is excluded",
+        "D": "The tumor is classified as urothelial carcinoma in situ",
+        "E": "The tumor is non-muscle-invasive, with a better prognosis"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Cystectomy is the treatment for muscle-invasive disease; this tumor stops at the lamina propria and spares the detrusor.",
+        "B": "Absence of muscle invasion argues for a lower stage; nothing in the specimen indicates nodal spread.",
+        "C": "Whether detrusor is invaded says nothing about squamous or glandular differentiation, which is judged on the tumor cells themselves.",
+        "D": "Carcinoma in situ is a flat lesion confined to the urothelium; this tumor is papillary and already invades the lamina propria.",
+        "E": "Bladder cancer is staged by depth of invasion; tumor that has not reached the muscularis propria (detrusor) has a better prognosis and does not require cystectomy."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-003",
+      "question": "A 61-year-old man has painless hematuria. He never smoked. For 30 years he worked in a plant manufacturing aniline dyes. Ten years ago he received a prolonged course of an alkylating agent for granulomatosis with polyangiitis. Cystoscopy shows a papillary bladder mass. Which of the following best explains his risk for this tumor?",
+      "answers": {
+        "A": "Aromatic amine and cyclophosphamide exposure",
+        "B": "Chronic Schistosoma haematobium infection",
+        "C": "Germline mutation in the APC tumor suppressor",
+        "D": "Persistent urachal remnant at the bladder dome",
+        "E": "Prior pelvic radiation for prostate carcinoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Industrial aryl amines (dye and rubber workers) and long-term cyclophosphamide are both established risk factors for urothelial carcinoma, alongside smoking.",
+        "B": "Schistosomiasis causes bladder cancer in endemic parts of Africa, and most of those tumors are squamous cell carcinomas; he has no exposure history.",
+        "C": "APC mutations cause familial adenomatous polyposis and colorectal cancer, not urothelial carcinoma.",
+        "D": "Urachal remnants give rise to adenocarcinoma at the bladder dome, not a lateral papillary urothelial tumor, and are unrelated to his exposures.",
+        "E": "Pelvic irradiation is a risk factor, but he has no history of radiation."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-004",
+      "question": "A 52-year-old man who grew up in rural Egypt has hematuria and suprapubic discomfort. He has had recurrent episodes of blood in the urine since childhood. Cystoscopy shows a large ulcerated bladder mass, and calcified ova are seen in the bladder wall on biopsy. Which of the following tumor types is most likely?",
+      "answers": {
+        "A": "Embryonal rhabdomyosarcoma",
+        "B": "Leiomyosarcoma of the bladder wall",
+        "C": "Low-grade papillary urothelial carcinoma",
+        "D": "Primary bladder adenocarcinoma",
+        "E": "Squamous cell carcinoma"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Embryonal rhabdomyosarcoma is a bladder tumor of infants and children, not adults with schistosomiasis.",
+        "B": "Leiomyosarcoma is a rare malignant mesenchymal bladder tumor without a link to schistosomiasis.",
+        "C": "Urothelial carcinoma is the most common bladder tumor overall, but in schistosomiasis-endemic Africa most bladder cancers are squamous.",
+        "D": "Primary bladder adenocarcinoma is rare and not the characteristic tumor of chronic schistosomal irritation.",
+        "E": "Chronic Schistosoma haematobium infection causes squamous metaplasia and then squamous cell carcinoma, the majority of bladder cancers in endemic regions."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-005",
+      "question": "A 75-year-old man has a weak urinary stream, nocturia three times a night, and a sense of incomplete emptying. His PSA has been stable at 4 ng/mL for years. He dies of urosepsis after presenting with a distended bladder. At autopsy, the prostate is enlarged with multiple tan nodules compressing the prostatic urethra, and the bladder wall is thickened. Which region of the prostate gave rise to these nodules?",
+      "answers": {
+        "A": "Anterior fibromuscular stroma",
+        "B": "Central zone around the ejaculatory ducts",
+        "C": "Peripheral zone at the posterolateral aspect",
+        "D": "Seminal vesicles at the base of the gland",
+        "E": "Transition zone surrounding the urethra"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterior fibromuscular stroma is not the site where hyperplastic nodules arise.",
+        "B": "The central zone is only occasionally involved and is not the main origin of BPH nodules.",
+        "C": "The posterolateral peripheral zone is the most common site of prostate adenocarcinoma, palpable on rectal exam, not of BPH.",
+        "D": "The seminal vesicles are separate structures; their involvement is a staging feature of prostate cancer (pT3b).",
+        "E": "BPH arises in the transition zone around the prostatic urethra, so its nodules compress the urethra and cause outflow obstruction with bladder wall hypertrophy."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-006",
+      "question": "A 66-year-old man has urinary hesitancy and nocturia. Rectal exam shows a smooth, symmetrically enlarged, rubbery prostate. He is started on finasteride, and over the next year his prostate volume decreases. In which cells is the enzyme targeted by this drug chiefly located in the prostate?",
+      "answers": {
+        "A": "Basal cells of the prostatic acini",
+        "B": "Hepatocytes of the liver",
+        "C": "Luminal secretory epithelial cells",
+        "D": "Stromal cells of the prostate",
+        "E": "Urothelial cells of the prostatic urethra"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Basal cells form the outer layer of benign glands and are a diagnostic marker (lost in carcinoma), not the main source of 5α-reductase.",
+        "B": "Type 1 5α-reductase is found in skin and liver, but the prostatic enzyme that drives BPH is type 2 in stromal cells.",
+        "C": "Epithelial cells respond to DHT through androgen receptors but are not the main site of type 2 5α-reductase.",
+        "D": "Type 2 5α-reductase in prostatic stromal cells converts testosterone to DHT; finasteride blocks it, lowering DHT and shrinking the gland.",
+        "E": "Urothelium lines the prostatic urethra but does not make the DHT that drives prostatic growth."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-007",
+      "question": "A 72-year-old man with lower urinary tract symptoms has a transurethral resection. The prostate chips show enlarged nodules of crowded glands with papillary infoldings and nodules of cellular spindle-cell stroma. The glands keep a lobular arrangement, and each gland has an inner columnar layer and an outer flattened layer. Glassy, laminated eosinophilic bodies are present in some lumens. Which finding most reliably supports a benign diagnosis?",
+      "answers": {
+        "A": "Cellular stromal nodules with abundant capillaries",
+        "B": "Columnar luminal cells with basally placed nuclei",
+        "C": "Laminated eosinophilic bodies within gland lumens",
+        "D": "Outer layer of basal cells surrounding each gland",
+        "E": "Papillary infoldings of the glandular epithelium"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Stromal hyperplasia is part of BPH, but the stroma is not what separates benign glands from cancer.",
+        "B": "Columnar cells with basal nuclei are typical of benign acini but can be mimicked by well-differentiated carcinoma.",
+        "C": "Corpora amylacea are a normal finding from desquamated cells and are not the key discriminating feature.",
+        "D": "Benign prostatic glands have two cell layers; the outer basal cell layer is absent in prostate adenocarcinoma, so pathologists look for it specifically.",
+        "E": "Papillary infoldings are seen in hyperplastic glands but are not as decisive as the presence of basal cells."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-008",
+      "question": "A 64-year-old man asks about his diagnosis of benign prostatic hyperplasia. He wonders whether it might turn into cancer and why his brother, who was castrated before puberty for a childhood condition, never developed the same symptoms. Which of the following statements is most accurate?",
+      "answers": {
+        "A": "BPH arises from GCNIS-like precursors within the glands",
+        "B": "BPH depends on androgens and is not a premalignant lesion",
+        "C": "BPH is caused by estrogen excess and progresses to cancer",
+        "D": "BPH results from loss of basal cells and evolves to carcinoma",
+        "E": "BPH reflects clonal neoplasia and becomes invasive with time"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Germ cell neoplasia in situ is the precursor of testicular germ cell tumors, not of prostatic hyperplasia.",
+        "B": "DHT drives glandular and stromal growth in BPH, so it is rare after prepubertal castration; BPH is hormonally dependent and not premalignant.",
+        "C": "The lecture frames BPH as androgen (DHT) driven, and it does not progress to adenocarcinoma.",
+        "D": "Loss of basal cells is a feature of prostate adenocarcinoma; hyperplastic glands keep their basal layer.",
+        "E": "BPH is a regulated increase in cell number (hyperplasia), not a clonal neoplasm, and it does not invade."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-009",
+      "question": "A 62-year-old man with well-controlled hypertension has a PSA that has risen steadily over 3 years. Rectal exam shows a firm area on the left side of the prostate. Transrectal biopsy is performed. Laboratory results are shown. Which of the following histologic findings is most specific for the diagnosis that explains these findings?",
+      "table": [
+        ["Year", "PSA (ng/mL)"],
+        ["2023", "3.1"],
+        ["2024", "4.6"],
+        ["2025", "6.2"],
+        ["2026", "8.4"]
+      ],
+      "answers": {
+        "A": "Corpora amylacea in the lumens of large acini",
+        "B": "Lobular glands with papillary luminal infoldings",
+        "C": "Nodules of hyperplastic fibromuscular stroma",
+        "D": "Small glands lined by a single cell layer only",
+        "E": "Urothelium lining a compressed central channel"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Corpora amylacea are a normal feature of benign prostatic glands.",
+        "B": "Lobular glands with infoldings are the architecture of benign hyperplasia; cancer disrupts lobular architecture and infiltrates.",
+        "C": "Stromal nodules are a component of BPH, which is a common noncancerous cause of PSA elevation.",
+        "D": "Prostate adenocarcinoma forms infiltrating small glands lined by one layer of cells because the basal cell layer is lost; blue mucin may be seen in the lumens.",
+        "E": "Urothelium lining a compressed channel describes the prostatic urethra narrowed by transition-zone BPH."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-010",
+      "question": "A 63-year-old man undergoes radical prostatectomy for adenocarcinoma. Most of the tumor consists of small, well-formed, separate glands with stroma between them. A smaller component consists of fused, back-to-back glands forming sieve-like (cribriform) structures. No solid sheets or comedonecrosis are seen. Which Gleason score should be reported?",
+      "answers": {
+        "A": "3 + 3 = 6",
+        "B": "3 + 4 = 7",
+        "C": "4 + 3 = 7",
+        "D": "4 + 5 = 9",
+        "E": "5 + 3 = 8"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "3 + 3 would mean no pattern 4 at all, but the cribriform glands are pattern 4.",
+        "B": "The most common pattern (well-formed separate glands) is pattern 3 and the second most common (cribriform, fused glands) is pattern 4, giving 3 + 4 = 7, intermediate grade.",
+        "C": "4 + 3 would require cribriform pattern 4 to be the predominant component, which it is not.",
+        "D": "Pattern 5 requires no gland formation (solid sheets, single cells, cords, or comedonecrosis), which is absent.",
+        "E": "The predominant pattern is listed first and pattern 5 is not present."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-011",
+      "question": "A 69-year-old man has prostate adenocarcinoma on biopsy. One core shows sheets of tumor cells with no gland formation and solid nests with central necrosis. Another core shows fused glands with a cribriform pattern. How does the component without glands affect the grading of this tumor?",
+      "explanationImage": { "src": "images/tbl-histopath-of-the-bladder-prostate-and-testis/011-exp.jpg", "caption": "Solid nest of carcinoma with central comedonecrosis, Gleason pattern 5", "credit": "TBL slides p. 43" },
+      "answers": {
+        "A": "It is assigned Gleason pattern 1, the lowest grade",
+        "B": "It is assigned Gleason pattern 3, an intermediate grade",
+        "C": "It is assigned Gleason pattern 5, the highest grade",
+        "D": "It is excluded because Gleason grades glands only",
+        "E": "It is reported separately as ductal carcinoma"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Patterns 1 to 3 are separated, well-formed glands, the opposite of solid growth.",
+        "B": "Pattern 3 consists of well-formed separate infiltrating glands with intervening stroma.",
+        "C": "Absence of gland formation (solid sheets, cords, single cells, or comedonecrosis) defines Gleason pattern 5, the least differentiated and most aggressive pattern.",
+        "D": "Gleason grading scores the degree of gland formation, so loss of glands is graded, not ignored.",
+        "E": "Ductal carcinoma is a separate epithelial subtype; solid growth with comedonecrosis in acinar adenocarcinoma is graded as pattern 5."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-012",
+      "question": "A 65-year-old man undergoes radical prostatectomy for a Gleason 3 + 4 adenocarcinoma. Microscopy shows tumor glands wrapping around a nerve inside the gland. In another section, tumor cells extend through the dense fibrocollagenous layer around the gland into adjacent fat. The seminal vesicles and the inked margins are free of tumor. Which finding determines this patient's pathologic T stage?",
+      "answers": {
+        "A": "Clear inked margins of resection",
+        "B": "Extension through the prostatic capsule",
+        "C": "Intraprostatic perineural invasion",
+        "D": "Pattern 4 as the secondary pattern",
+        "E": "Uninvolved seminal vesicles"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Margin status is reported to judge completeness of excision, but it does not define the T category.",
+        "B": "Tumor breaching the prostatic capsule is extraprostatic extension, which makes it pT3a rather than organ-confined pT2.",
+        "C": "Perineural invasion is common and is not an independent prognostic factor, although extensive invasion suggests spread outside the capsule.",
+        "D": "The Gleason pattern sets the grade, not the stage.",
+        "E": "Seminal vesicle invasion would make the tumor pT3b; their being uninvolved does not by itself set the stage."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-013",
+      "question": "A 33-year-old man has a left testicular mass he found on self-examination, with vague tenderness. Ultrasound shows a 5.0 cm well-circumscribed solid mass confined to the testis. Serum markers are shown. After orchiectomy, the cut surface is fleshy and tan with small foci of necrosis, and microscopy is shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        ["Test", "Result"],
+        ["α-fetoprotein (AFP)", "Normal"],
+        ["β-hCG", "Mildly elevated"],
+        ["Lactate dehydrogenase (LDH)", "Elevated"]
+      ],
+      "image": { "src": "images/tbl-histopath-of-the-bladder-prostate-and-testis/013.jpg", "caption": "Orchiectomy specimen, H&E", "credit": "TBL slides p. 58" },
+      "answers": {
+        "A": "Choriocarcinoma",
+        "B": "Diffuse large B-cell lymphoma",
+        "C": "Embryonal carcinoma",
+        "D": "Seminoma",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Choriocarcinoma secretes very high hCG and shows syncytiotrophoblast and cytotrophoblast, often with hemorrhage, not monotonous clear cells.",
+        "B": "Lymphoma is the most common testicular tumor in men over 60 and occurs with systemic disease; it does not produce hormones such as hCG.",
+        "C": "Embryonal carcinoma grows in sheets of cells with a high nucleus-to-cytoplasm ratio and indistinct borders, often raising AFP.",
+        "D": "Sheets and nests of monotonous cells with clear cytoplasm, divided by fibrous septa containing lymphocytes, with normal AFP and mild hCG (from scattered syncytial giant cells) is seminoma.",
+        "E": "Yolk sac tumor almost always raises serum AFP and occurs mainly in children younger than 3 years."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-014",
+      "question": "A 2-year-old boy is brought in because his mother noticed a firm, painless swelling of his right testis. Ultrasound shows a solid intratesticular mass. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["α-fetoprotein (AFP)", "1,850 ng/mL", "<10 ng/mL (age-adjusted)"],
+        ["β-hCG", "<2 mIU/mL", "<2 mIU/mL"],
+        ["LDH", "260 U/L", "140–280 U/L"]
+      ],
+      "answers": {
+        "A": "Choriocarcinoma",
+        "B": "Mature teratoma",
+        "C": "Mixed germ cell tumor",
+        "D": "Seminoma",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Choriocarcinoma secretes high hCG but no AFP, the opposite of this marker pattern.",
+        "B": "Teratoma can occur in children, but it is defined by tissues from more than one germ layer and does not usually produce a marked AFP elevation.",
+        "C": "Mixed germ cell tumors occur in young adults, about 10 years younger than patients with pure seminoma, not in toddlers.",
+        "D": "Seminoma affects adults, and significant AFP elevation never occurs with pure seminoma.",
+        "E": "Yolk sac tumor is the most common testicular germ cell tumor in children (mainly under 3 years) and is almost always associated with elevated serum AFP."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-015",
+      "question": "A 26-year-old man has a testicular mass, bilateral breast enlargement, and hemoptysis. Chest imaging shows multiple pulmonary nodules. Laboratory studies are shown. Which tumor component best explains these findings?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["β-hCG", "185,000 mIU/mL", "<2 mIU/mL"],
+        ["α-fetoprotein (AFP)", "6 ng/mL", "<10 ng/mL"],
+        ["LDH", "640 U/L", "140–280 U/L"]
+      ],
+      "answers": {
+        "A": "Choriocarcinoma",
+        "B": "Embryonal carcinoma",
+        "C": "Seminoma",
+        "D": "Teratoma",
+        "E": "Yolk sac tumor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Choriocarcinoma secretes very high hCG without AFP; hCG can cause gynecomastia, and choriocarcinoma (pure or mixed) imparts a poor prognosis with early hematogenous spread.",
+        "B": "Embryonal carcinoma may contain syncytial giant cells that modestly raise hCG, not to this level, and often raises AFP.",
+        "C": "Seminoma can cause only a modest hCG rise from syncytial giant cells.",
+        "D": "Teratoma does not secrete hCG; a large teratoma component is a favorable prognostic sign.",
+        "E": "Yolk sac tumor raises AFP, which is normal here."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-016",
+      "question": "A 24-year-old man undergoes orchiectomy for a testicular mass. Microscopy shows two distinct components. One consists of sheets of large, crowded cells with a high nucleus-to-cytoplasm ratio and indistinct cell borders. The other contains islands of cartilage. How is this tumor best classified?",
+      "answers": {
+        "A": "Mixed nonseminomatous germ cell tumor",
+        "B": "Pure seminoma with cartilaginous metaplasia",
+        "C": "Sex cord-stromal tumor of Leydig cell type",
+        "D": "Testicular leiomyosarcoma with chondroid areas",
+        "E": "Testicular lymphoma with reactive stroma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Embryonal carcinoma (crowded sheets, high N:C ratio) plus teratoma (cartilage, a tissue from another germ layer) makes a mixed nonseminomatous germ cell tumor, which may also contain yolk sac tumor or choriocarcinoma.",
+        "B": "Seminoma is made of monotonous clear cells with lymphocyte-rich septa; cartilage indicates teratoma, not metaplasia in a seminoma.",
+        "C": "Leydig cell tumors are sex cord-stromal tumors made of polygonal cells with eosinophilic cytoplasm, not embryonal carcinoma and cartilage.",
+        "D": "Leiomyosarcoma is a mesenchymal tumor of spindle cells; it is not one of the major testicular tumor types.",
+        "E": "Lymphoma affects mainly men over 60 and consists of sheets of lymphoid cells without cartilage."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-017",
+      "question": "A 30-year-old man undergoes orchiectomy for a testicular mass. Microscopy of the tumor sampled initially shows only seminoma. Before surgery, serum AFP was 480 ng/mL (reference <10 ng/mL), and β-hCG was mildly elevated. What is the most appropriate interpretation?",
+      "answers": {
+        "A": "Elevated AFP is expected in pure seminoma",
+        "B": "Hepatic metastasis from seminoma explains the AFP",
+        "C": "Mild hCG elevation excludes a nonseminoma",
+        "D": "The tumor should be treated as a nonseminoma",
+        "E": "The AFP should be ignored once histology is seen"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Significant AFP elevation never occurs with pure seminoma.",
+        "B": "Seminoma cells do not make AFP even when they metastasize; the AFP points to a nonseminomatous component.",
+        "C": "Mild hCG elevation occurs with seminoma or embryonal carcinoma containing syncytial giant cells and does not exclude a nonseminoma.",
+        "D": "A tumor that looks like pure seminoma but has elevated AFP should be considered a nonseminomatous germ cell tumor, and the specimen should be sampled extensively to find the AFP-producing component.",
+        "E": "Serum markers are part of diagnosis and staging; an elevated AFP changes management."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-018",
+      "question": "A 29-year-old man has an orchiectomy for a testicular germ cell tumor. Serum markers were drawn before surgery, and the urologist plans to repeat them after surgery, during chemotherapy, and during surveillance. Three years later, all imaging is negative, but one marker that was elevated before surgery is rising again. Which marker is most likely to be the only abnormal finding in recurrent disease and best reflects overall tumor burden?",
+      "answers": {
+        "A": "Alkaline phosphatase",
+        "B": "Alpha-fetoprotein",
+        "C": "Beta-hCG",
+        "D": "Lactate dehydrogenase",
+        "E": "Prostate-specific antigen"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Alkaline phosphatase is not one of the three serum markers used for testicular germ cell tumors.",
+        "B": "AFP is tied to yolk sac tumor and other nonseminomatous components rather than overall tumor burden.",
+        "C": "hCG reflects trophoblastic elements; markedly high levels carry a poor prognosis, but it is not the burden marker.",
+        "D": "LDH is elevated in about half of men with germ cell tumors, rises with tumor burden (over 2000 U/L suggests bulky disease), and may be the only abnormal marker in about 10% of persistent or recurrent disease.",
+        "E": "PSA is a prostate marker and has no role in testicular germ cell tumors."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-019",
+      "question": "A 37-year-old man has a pure seminoma removed by radical orchiectomy. The tumor measures 4.2 cm and is confined to the testis, including the rete testis. There is no lymphovascular invasion, and the epididymis, hilar soft tissue, tunica vaginalis, and spermatic cord are free of tumor. Which pathologic T category applies?",
+      "answers": {
+        "A": "pT1a",
+        "B": "pT1b",
+        "C": "pT2",
+        "D": "pT3",
+        "E": "pT4"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "pT1a applies to pure seminoma limited to the testis and smaller than 3 cm.",
+        "B": "A pure seminoma limited to the testis without lymphovascular invasion is pT1, and because it is 3 cm or larger it is subclassified as pT1b.",
+        "C": "pT2 requires lymphovascular invasion or invasion of the hilar soft tissue, epididymis, or the mesothelium over the tunica albuginea.",
+        "D": "pT3 requires direct invasion of the spermatic cord soft tissue.",
+        "E": "pT4 requires invasion of the scrotum."
+      }
+    },
+    {
+      "id": "endorepro-tbl-histopath-of-the-bladder-prostate-and-testis-020",
+      "question": "A 31-year-old man has an orchiectomy for a testicular mass. Sections of the adjacent seminiferous tubules show large atypical cells lined up along the periphery of the tubules, with central nuclei, prominent nucleoli, and abundant clear cytoplasm. These cells stain for OCT3/4. What is the significance of this finding?",
+      "answers": {
+        "A": "It is a normal stage of spermatogenesis near the basement membrane",
+        "B": "It is reactive change of Sertoli cells adjacent to a mass",
+        "C": "It is the in situ precursor of testicular germ cell tumors",
+        "D": "It is tumor spread through lymphatics of the spermatic cord",
+        "E": "It represents Leydig cell hyperplasia from elevated hCG"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Normal spermatogonia sit at the periphery, but they are small with dense nuclei and do not express OCT3/4 like these large atypical cells.",
+        "B": "Sertoli cells support germ cells and do not become large atypical OCT3/4-positive cells.",
+        "C": "Germ cell neoplasia in situ (GCNIS) shows large atypical clear cells in the spermatogonial niche along the tubule periphery, is OCT3/4 positive, and is the precursor of germ cell tumors (pTis).",
+        "D": "Lymphatic spread would be seen in vessels and cord soft tissue, not as cells lining seminiferous tubules.",
+        "E": "Leydig cells lie in the interstitium between tubules, not along the inside of the tubule periphery."
+      }
+    }
+  ]
+}
