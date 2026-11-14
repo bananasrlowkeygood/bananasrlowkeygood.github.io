@@ -1,0 +1,382 @@
+{
+  "lecture": "CBL Week 6: Urogenital Embryology, DSD and CAH",
+  "block": "endorepro",
+  "generated": "2026-11-14",
+  "questions": [
+    {
+      "id": "endorepro-week-6-cbl-001",
+      "question": "A 19-year-old man has had hypertension since age 14 that has not responded to spironolactone. His father also had early-onset hypertension. Blood pressure is 162/98 mm Hg. Laboratory studies show the values below. Which drug is most likely to correct his blood pressure and potassium?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "K⁺",
+          "2.9 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "HCO₃⁻",
+          "31 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Plasma renin activity",
+          "Suppressed",
+          "0.5–4.0 ng/mL/h"
+        ],
+        [
+          "Aldosterone",
+          "2 ng/dL",
+          "4–31 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Amiloride",
+        "B": "Dexamethasone",
+        "C": "Fludrocortisone",
+        "D": "Hydrochlorothiazide",
+        "E": "Lisinopril"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Liddle syndrome is a gain-of-function ENaC mutation, so blocking the channel directly with amiloride corrects the sodium retention and potassium loss.",
+        "B": "Dexamethasone treats glucocorticoid-remediable aldosteronism, in which aldosterone is high, not suppressed as here.",
+        "C": "Fludrocortisone is a mineralocorticoid agonist; it would worsen sodium retention and hypokalemia.",
+        "D": "A thiazide increases distal sodium delivery and would worsen the hypokalemia without addressing the overactive channel.",
+        "E": "ACE inhibition lowers angiotensin II and aldosterone, but renin and aldosterone are already suppressed and the defect lies downstream in the channel."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-002",
+      "question": "A 47-year-old woman with a 2-cm left adrenal adenoma has hypertension, a serum potassium of 2.8 mEq/L and a bicarbonate of 33 mEq/L. Aldosterone is elevated and renin is suppressed. Which renal cell and transporter is most directly responsible for her metabolic alkalosis?",
+      "answers": {
+        "A": "Principal cell ENaC channel",
+        "B": "Principal cell ROMK channel",
+        "C": "Proximal tubule Na⁺/H⁺ exchanger",
+        "D": "α-Intercalated cell H⁺-ATPase",
+        "E": "β-Intercalated cell pendrin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Aldosterone-driven ENaC causes sodium retention and a lumen-negative potential, explaining hypertension rather than direct acid secretion.",
+        "B": "ROMK secretes K⁺ and explains the hypokalemia, not the H⁺ loss.",
+        "C": "The proximal Na⁺/H⁺ exchanger is regulated mainly by angiotensin II, not by aldosterone in this setting.",
+        "D": "Aldosterone increases H⁺-ATPase activity in α-intercalated cells, so excess aldosterone drives H⁺ loss and metabolic alkalosis.",
+        "E": "β-intercalated cells secrete bicarbonate; their activity would lower, not raise, serum bicarbonate."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-003",
+      "question": "A 62-year-old man is admitted after 3 days of vomiting and diarrhea. Blood pressure is 88/54 mm Hg and his mucous membranes are dry. Plasma renin is markedly elevated. Which combination of signals best explains the rise in renin?",
+      "answers": {
+        "A": "High ADH acting on juxtaglomerular V2 receptors",
+        "B": "High angiotensin II feedback and high afferent pressure",
+        "C": "High ANP and low renal sympathetic tone",
+        "D": "Low macula densa NaCl, renal β₁ input",
+        "E": "Low serum potassium sensed by the glomerulosa"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "ADH acts on V2 receptors in the collecting duct to retain water; it is not the trigger for renin release.",
+        "B": "Afferent arteriolar pressure is low in hypovolemia, which stimulates renin; high pressure would suppress it.",
+        "C": "ANP inhibits renin release, and volume depletion lowers ANP while raising sympathetic tone.",
+        "D": "Hypovolemia lowers renal perfusion and NaCl delivery to the macula densa, and reflex sympathetic activity stimulates renin through β₁ receptors on juxtaglomerular cells.",
+        "E": "Potassium acts on the zona glomerulosa to stimulate aldosterone, not on juxtaglomerular cells to release renin."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-004",
+      "question": "A 34-year-old woman starts high-dose prednisone for an asthma exacerbation. Two days later her complete blood count shows the values below. Which mechanism best explains the rise in her neutrophil count?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Neutrophils",
+          "11,800/µL",
+          "1,800–7,700/µL"
+        ],
+        [
+          "Lymphocytes",
+          "600/µL",
+          "1,000–4,800/µL"
+        ],
+        [
+          "Eosinophils",
+          "0/µL",
+          "0–450/µL"
+        ]
+      ],
+      "answers": {
+        "A": "Bone marrow response to bacterial infection",
+        "B": "Detachment of neutrophils from vessel walls",
+        "C": "Increased apoptosis of circulating neutrophils",
+        "D": "Release of neutrophils sequestered in the spleen",
+        "E": "Suppression of G-CSF production by lymphocytes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Infection is not suggested; the coinciding drop in lymphocytes and eosinophils points to a glucocorticoid effect.",
+        "B": "Glucocorticoids make marginated neutrophils let go of the endothelium, so the circulating count rises while lymphocytes and eosinophils fall.",
+        "C": "Glucocorticoids actually delay neutrophil apoptosis; more apoptosis would lower the count.",
+        "D": "Splenic release explains a post-splenectomy or epinephrine response pattern, not the steroid pattern with eosinopenia.",
+        "E": "Suppressing G-CSF would lower, not raise, neutrophil production."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-005",
+      "question": "A 52-year-old man with untreated primary adrenal insufficiency develops septic shock. Despite fluids and high-dose norepinephrine his blood pressure stays at 74/40 mm Hg. Within an hour of IV hydrocortisone, his pressure responds to the same norepinephrine dose. Which action of cortisol best explains this?",
+      "answers": {
+        "A": "Activation of renal mineralocorticoid receptors",
+        "B": "Increase in endothelial nitric oxide release",
+        "C": "Increase in red blood cell mass",
+        "D": "Stimulation of phospholipase A₂ activity",
+        "E": "Up-regulation of vascular α₁ receptors"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Mineralocorticoid effects on sodium and volume take longer and do not explain the restored response to norepinephrine.",
+        "B": "More nitric oxide would cause vasodilation and worsen hypotension.",
+        "C": "Changes in red cell mass take weeks and would not restore vasopressor responsiveness within an hour.",
+        "D": "Cortisol inhibits phospholipase A₂ (via lipocortin); it does not stimulate it.",
+        "E": "Cortisol up-regulates α₁ receptors on vascular smooth muscle, making vessels responsive to catecholamines, a permissive effect that works within hours."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-006",
+      "question": "A 50-year-old woman with primary hyperaldosteronism undergoes adrenal vein sampling through the femoral vein. The interventional radiologist samples the right adrenal vein directly from the IVC. To sample the left adrenal vein, which vessel must the catheter enter first?",
+      "answers": {
+        "A": "Hemiazygos vein",
+        "B": "Left common iliac vein",
+        "C": "Left gonadal vein",
+        "D": "Left inferior phrenic artery",
+        "E": "Left renal vein"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The hemiazygos system drains the posterior thoracic wall, not the adrenal gland.",
+        "B": "The left common iliac vein drains the pelvis and lower limb, far below the adrenal.",
+        "C": "The left gonadal vein also drains into the left renal vein but does not receive the adrenal vein.",
+        "D": "The inferior phrenic artery gives the superior suprarenal arteries; it is arterial and not on a venous route.",
+        "E": "The left suprarenal vein drains into the left renal vein, whereas the right drains directly into the IVC."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-007",
+      "question": "A 58-year-old man undergoes left adrenalectomy for a pheochromocytoma. The surgeon ligates three arteries supplying the gland: one from the aorta, one from the renal artery and one entering its superior pole. The superior artery is a branch of which vessel?",
+      "answers": {
+        "A": "Celiac trunk",
+        "B": "Gonadal artery",
+        "C": "Inferior phrenic artery",
+        "D": "Splenic artery",
+        "E": "Superior mesenteric artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The celiac trunk supplies foregut organs; its branches do not supply the adrenal.",
+        "B": "The gonadal artery arises from the aorta below the renal arteries and descends to the gonad.",
+        "C": "The superior suprarenal arteries arise from the inferior phrenic artery; the middle arises from the aorta and the inferior from the renal artery.",
+        "D": "The splenic artery runs along the pancreas to the spleen and does not supply the adrenal.",
+        "E": "The SMA supplies midgut structures and does not give suprarenal branches."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-008",
+      "question": "A 2-week-old phenotypically female infant is admitted with vomiting and shock. Karyotype is 46,XY. Sodium is 122 mEq/L and potassium 7.1 mEq/L. Cortisol, aldosterone, 17-hydroxyprogesterone, DHEA and testosterone are all low. Imaging shows massively enlarged adrenal glands that appear lipid-filled. A defect in which protein is most likely?",
+      "answers": {
+        "A": "11β-Hydroxylase (CYP11B1)",
+        "B": "17α-Hydroxylase (CYP17A1)",
+        "C": "21-Hydroxylase (CYP21A2)",
+        "D": "5α-Reductase type 2",
+        "E": "StAR (cholesterol transport)"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "11β-Hydroxylase deficiency causes hypertension with high DOC and high androgens.",
+        "B": "17α-Hydroxylase deficiency causes hypertension and hypokalemia from excess DOC, not salt wasting.",
+        "C": "21-Hydroxylase deficiency raises 17-hydroxyprogesterone and androgens, virilizing a 46,XX infant.",
+        "D": "5α-Reductase deficiency affects DHT only; cortisol and aldosterone are normal and there is no salt wasting.",
+        "E": "Without StAR, cholesterol cannot reach the inner mitochondrial membrane, so every steroid is low and cholesterol esters accumulate in huge yellow glands (lipoid CAH)."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-009",
+      "question": "A geneticist explains to parents that their child's 21-hydroxylase deficiency is caused by a CYP21A2 variant that is identical to sequence found in a nearby nonfunctional gene in the HLA region on chromosome 6p. Which mechanism most commonly produces such mutations?",
+      "answers": {
+        "A": "Expansion of a trinucleotide repeat",
+        "B": "Gene conversion from the adjacent pseudogene",
+        "C": "Loss of parental imprinting",
+        "D": "New point mutation in the father's sperm",
+        "E": "Uniparental disomy of chromosome 6"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Trinucleotide repeat expansion causes disorders such as Huntington disease and fragile X, not CAH.",
+        "B": "About three quarters of CYP21A2 mutations arise when harmful sequence from the 98%-identical pseudogene CYP21A1P is copied into the active gene.",
+        "C": "Imprinting defects cause Prader-Willi or Angelman syndrome; CAH is a simple autosomal recessive disorder.",
+        "D": "De novo mutations account for only 1–2% of CAH alleles.",
+        "E": "Uniparental disomy is a rare cause of recessive disease and does not explain sequence copied from a neighbouring gene."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-010",
+      "question": "A couple's first child has classic salt-wasting 21-hydroxylase deficiency. Their second child, a 6-year-old girl, is healthy with normal genitalia and normal 17-hydroxyprogesterone. What is the probability that this unaffected daughter is a carrier?",
+      "answers": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "2/3",
+        "D": "3/4",
+        "E": "1"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "1/4 is the chance that any child of two carriers is affected, not the carrier risk of an unaffected sibling.",
+        "B": "1/2 is the carrier risk for any child of two carriers before knowing the child is unaffected.",
+        "C": "Of the three unaffected outcomes of a carrier × carrier cross (1 normal, 2 carriers), two are carriers, so the risk is 2/3.",
+        "D": "3/4 is the chance that a child is unaffected, not that an unaffected child is a carrier.",
+        "E": "Certainty would apply only to a child of an affected parent, not to a sibling."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-011",
+      "question": "A 46,XX newborn with 21-hydroxylase deficiency has clitoromegaly and labial fusion. The mother asks why her own normal cortisol did not prevent the baby's adrenal glands from overproducing androgens during pregnancy. Which factor best explains this?",
+      "answers": {
+        "A": "Fetal adrenals lack glucocorticoid receptors",
+        "B": "Fetal CBG binds all transferred cortisol",
+        "C": "Maternal ACTH cannot cross the placenta",
+        "D": "Placental 11β-HSD2 inactivates maternal cortisol",
+        "E": "Placental aromatase converts fetal cortisol"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Feedback on fetal ACTH occurs at the hypothalamus and pituitary, not in the adrenal.",
+        "B": "Binding proteins do not explain the lack of feedback; the cortisol is enzymatically inactivated before reaching the fetus.",
+        "C": "Maternal ACTH not crossing is true but irrelevant; the issue is the fetus's own ACTH, which stays high.",
+        "D": "Placental 11β-HSD2 turns maternal cortisol into inactive cortisone, so fetal ACTH stays high and drives the fetal adrenal to make androgens during genital development.",
+        "E": "Placental aromatase converts androgens to estrogens; it protects the mother from virilization and does not act on cortisol."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-012",
+      "question": "A term infant is born after a prolonged second stage of labor. The Apgar score is 3 at 1 minute and 6 at 5 minutes after stimulation and brief bag-mask ventilation. Which is the most appropriate next step regarding the Apgar score?",
+      "answers": {
+        "A": "Repeat it every 5 minutes up to 20 minutes",
+        "B": "Repeat it once at 1 hour of life",
+        "C": "Repeat it only after cord gas results return",
+        "D": "Stop scoring because the score improved",
+        "E": "Use it to predict long-term neurologic outcome"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "When the 5-minute Apgar score is below 7, scoring continues every 5 minutes up to 20 minutes to document the response to resuscitation.",
+        "B": "Apgar scoring is done in the first 20 minutes; there is no 1-hour score.",
+        "C": "Cord gases add information but do not replace the timed Apgar reassessments.",
+        "D": "Improvement is reassuring, but a score below 7 at 5 minutes still requires repeated scoring.",
+        "E": "For an individual infant, the Apgar score cannot predict neurologic outcome or prove that hypoxia occurred."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-013",
+      "question": "A newborn with atypical genitalia undergoes FISH for the SRY gene on peripheral blood cells. After the cells are fixed on a slide, the slide is heated before the fluorescent SRY probe is added. What is the purpose of the heating step?",
+      "answers": {
+        "A": "Amplify the SRY sequence for detection",
+        "B": "Bind the cells firmly to the slide",
+        "C": "Counterstain the nuclei for microscopy",
+        "D": "Remove probe that has not hybridized",
+        "E": "Separate DNA into single strands"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "FISH does not amplify DNA; amplification is the basis of PCR.",
+        "B": "Fixation and mounting happen before denaturation and do not need heat to bind cells.",
+        "C": "Counterstaining (e.g., DAPI) is the last step before fluorescence microscopy.",
+        "D": "Unbound probe is removed by washing after hybridization, not by the heating step.",
+        "E": "Heat denatures the double-stranded DNA so the labeled single-stranded probe can hybridize to a complementary SRY sequence if present."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-014",
+      "question": "A 12-day-old boy is brought in with poor feeding, vomiting and lethargy. Newborn screen shows a markedly elevated 17-hydroxyprogesterone. He receives a saline bolus and high-dose IV hydrocortisone. Why is fludrocortisone not required during this acute phase?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Na⁺",
+          "121 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "K⁺",
+          "7.4 mEq/L",
+          "3.5–6.0 mEq/L"
+        ],
+        [
+          "Glucose",
+          "48 mg/dL",
+          "70–100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "High renin restores aldosterone within hours",
+        "B": "Maternal aldosterone still protects the infant",
+        "C": "Neonatal kidneys do not respond to mineralocorticoids",
+        "D": "Normal saline alone corrects the aldosterone deficit",
+        "E": "Stress-dose cortisol overwhelms 11β-HSD2"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Renin is already high in salt-wasting CAH; the adrenal cannot make aldosterone however high renin rises.",
+        "B": "Maternal aldosterone protects only before birth, which is why the crisis appears in the first weeks of life.",
+        "C": "Infant kidneys are relatively resistant to mineralocorticoids, so maintenance fludrocortisone doses are high, not unnecessary.",
+        "D": "Saline restores volume and sodium but does not replace aldosterone action on potassium and acid excretion.",
+        "E": "At stress doses, hydrocortisone overwhelms renal 11β-HSD2 and binds the mineralocorticoid receptor, providing enough mineralocorticoid effect; fludrocortisone is started as the dose is tapered."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-015",
+      "question": "A 5-year-old girl with classic 21-hydroxylase deficiency takes oral hydrocortisone and fludrocortisone. She develops a fever of 39.0°C from an ear infection but is drinking and keeping down her medicines. What change to her treatment is most appropriate?",
+      "answers": {
+        "A": "Double or triple the hydrocortisone dose",
+        "B": "Double the fludrocortisone dose",
+        "C": "Hold fludrocortisone until she recovers",
+        "D": "Keep both doses the same",
+        "E": "Switch to once-daily dexamethasone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Sick-day rules: the hydrocortisone dose is doubled or tripled during fever, GI illness, surgery or trauma to cover the stress cortisol she cannot make.",
+        "B": "Mineralocorticoid needs do not rise with stress, so the fludrocortisone dose is unchanged.",
+        "C": "Stopping fludrocortisone risks salt wasting; it is continued during illness.",
+        "D": "Keeping usual doses risks adrenal crisis because she cannot mount a stress cortisol response.",
+        "E": "Long-acting glucocorticoids such as dexamethasone are avoided in children because they suppress growth."
+      }
+    },
+    {
+      "id": "endorepro-week-6-cbl-016",
+      "question": "A 7-year-old boy with salt-wasting 21-hydroxylase deficiency has been on hydrocortisone since infancy. Over the past year his growth velocity has fallen and his face has become round. Serum 17-hydroxyprogesterone is now fully normal. What is the most likely explanation for these findings?",
+      "answers": {
+        "A": "A testicular adrenal rest tumor",
+        "B": "Glucocorticoid overtreatment",
+        "C": "Glucocorticoid undertreatment",
+        "D": "Mineralocorticoid overtreatment",
+        "E": "Poor adherence to fludrocortisone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "TARTs come from prolonged high ACTH, which suggests undertreatment rather than overtreatment.",
+        "B": "Aiming for a normal 17-OHP means overtreatment, which causes iatrogenic Cushing features and poor growth.",
+        "C": "Undertreatment causes androgen excess with rapid growth, advanced bone age and a high 17-OHP.",
+        "D": "Too much fludrocortisone causes hypertension, edema and suppressed renin, not a cushingoid face.",
+        "E": "Missing fludrocortisone leads to high renin, hyponatremia and poor weight gain, not cushingoid features."
+      }
+    }
+  ]
+}
