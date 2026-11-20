@@ -507,12 +507,14 @@
     // Files in a block folder that describe it rather than hold questions.
     const MANIFESTS = ['index.json', 'weeks.json', 'gate.json'];
 
-    // The block this page is for. Neurology is parked rather than gone: its
-    // questions and everyone's history with them are still there, and adding
-    // { id: 'neuro', name: 'Neurology' } here brings it back.
-    const BLOCKS = [
-      { id: 'endorepro', name: 'Endo / Repro' },
-    ];
+    // The blocks this page is for. Finished blocks are parked rather than gone:
+    // their questions and everyone's history with them are still there, and
+    // adding { id: 'endorepro', name: 'Endo / Repro' } or
+    // { id: 'neuro', name: 'Neurology' } here brings one back.
+    const BLOCKS = [];
+
+    // Shown while no block is running.
+    const BETWEEN_BLOCKS = 'Waiting for MSK / Derm to start';
 
     // A block's lectures, from its index.json (rebuilt on every push by
     // build_index.py). The GitHub API is only a fallback: it is rate-limited
@@ -767,6 +769,12 @@
 
     async function init() {
       const container = document.getElementById('blocks');
+      if (!BLOCKS.length) {
+        const card = document.createElement('div');
+        card.className = 'side-card';   // not a block-card: those get stats painted in
+        card.innerHTML = `<div class="block-row"><div class="block-left"><div class="block-name">${BETWEEN_BLOCKS}</div></div></div>`;
+        container.appendChild(card);
+      }
       for (const block of BLOCKS) {
         const [lectures, weeks] = await Promise.all([loadBlock(block), loadWeeks(block)]);
         const total = lectures.reduce((s, l) => s + (l.count || 0), 0);
