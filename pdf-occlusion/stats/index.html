@@ -996,7 +996,7 @@
         case "text_format": return `formatted text: ${p.kind}`;
         case "billing_portal": return "opened billing";
         case "account_deleted": return "deleted the account";
-        case "api_error": return `refused ${p.path} (${p.status}): ${p.message}`;
+        case "api_error": return `refused ${p.path} (${p.status}): ${p.message}${p.detail ? " (" + p.detail + ")" : ""}`;
         case "checkout_start": return `started checkout for ${p.product}`;
         case "purchase": return `bought ${p.product}${p.amount ? ` for ${usd(p.amount)}` : ""}`;
         case "subscription": return `subscription ${p.status}${p.product ? ` (${p.product})` : ""}`;
