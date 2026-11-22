@@ -445,10 +445,11 @@
       return res.json();
     }
 
-    async function start(pw) {
+    // the server reuses a load for 10 minutes; fresh skips that (Refresh)
+    async function start(pw, fresh = false) {
       $("gateMsg").textContent = "";
       try {
-        data = await get(`/v1/admin/stats?tz=${new Date().getTimezoneOffset()}`, pw);
+        data = await get(`/v1/admin/stats?tz=${new Date().getTimezoneOffset()}${fresh ? "&fresh=1" : ""}`, pw);
       } catch (e) {
         store.set("");
         $("app").hidden = true;
@@ -486,7 +487,7 @@
     });
     $("refresh").addEventListener("click", async () => {
       $("refresh").disabled = true;
-      await start(store.get());
+      await start(store.get(), true);
       $("refresh").disabled = false;
     });
 
