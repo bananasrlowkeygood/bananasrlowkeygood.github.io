@@ -626,8 +626,10 @@
         tile("Questions Written", fmt(questions), qz.length ? `${(questions / qz.length).toFixed(1)} a quiz` : ""),
         tile("Quiz Credits Charged", fmt(sum(qz, (q) => q.credits)), unpaid ? `${plural(unpaid, "quiz", "quizzes")} from before credits` : ""),
         tile("Model Cost per Quiz", costed.length ? usd(cost / costed.length, 3) : "", costedQ ? `${usd(cost / costedQ, 4)} per question` : ""),
-        tile("Quiz Pictures", fmt(t.quiz_images ?? 0), t.quiz_images ? `${mb(t.quiz_image_bytes)} in ${plural(t.quiz_image_quizzes, "quiz", "quizzes")}` : ""),
-        tile("Database", t.db_bytes ? mb(t.db_bytes) : "", t.db_bytes ? `${pct(t.quiz_image_bytes || 0, t.db_bytes)} is quiz pictures` : ""),
+        tile("Quiz Pictures", fmt(t.quiz_images ?? 0), t.quiz_images ? `in ${plural(t.quiz_image_quizzes, "quiz", "quizzes")}` : ""),
+        tile("Picture Storage", mb(t.r2_bytes ?? t.quiz_image_bytes ?? 0), t.r2_bytes_cap ? `${pct(t.r2_bytes || 0, t.r2_bytes_cap)} of the ${mb(t.r2_bytes_cap)} cap` : ""),
+        tile("Picture Writes", fmt(t.r2_month_writes ?? 0), t.r2_writes_cap ? `this month, ${pct(t.r2_month_writes || 0, t.r2_writes_cap)} of the ${fmt(t.r2_writes_cap)} cap` : ""),
+        tile("Database", t.db_bytes ? mb(t.db_bytes) : "", ""),
       ].join("");
 
       // aggregates arrive split by whether they are the owner's
