@@ -1,0 +1,155 @@
+{
+  "block": "msk",
+  "lectures": [
+    {
+      "file": "common-lower-limb-musculoskeletal-injuries.json",
+      "name": "Common Lower Limb Musculoskeletal Injuries",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.04-CM-Common-Lower-Limb-MSK-Injuries---Notes-e33c076e42.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.04-CM-Common-Lower-Limb-MSK-Injuries---Slides-a5f09ff6b4.pdf"
+        }
+      ]
+    },
+    {
+      "file": "drugs-that-affect-bone-mineral-homeostasis.json",
+      "name": "Drugs That Affect Bone Mineral Homeostasis",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.01-PHARM-Drugs-That-Affect-Bone-Mineral-Homeostasis---Notes-5d50a545df.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.01-PHARM-Drugs-That-Affect-Bone-Mineral-Homeostasis---Slides-ebd0ce991c.pdf"
+        }
+      ]
+    },
+    {
+      "file": "eating-disorders-patient-panel.json",
+      "name": "Eating Disorders Patient Panel",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.01-WEL-Eating-Disorders-Patient-Panel---Notes-1731166976.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.01-WEL-Eating-Disorders-Patient-Panel---Slides-a2f71625a3.pdf"
+        }
+      ]
+    },
+    {
+      "file": "fractures.json",
+      "name": "Fractures",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.03-CM-Fractures---Notes-84491ed5a7.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.03-CM-Fractures---Slides-80101345ae.pdf"
+        }
+      ]
+    },
+    {
+      "file": "gluteal-region-and-hip.json",
+      "name": "The Gluteal Region and Hip",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.01-ANAT-MSK-1-Gluteal-Region-and-Hip---Narrative-Notes-942573ea7a.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.01-ANAT-MSK-1-Gluteal-Region-and-Hip---Slides-9813542a45.pdf"
+        }
+      ]
+    },
+    {
+      "file": "histology-lab-cartilage-and-bone.json",
+      "name": "Histology Lab: Cartilage and Bone",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.02-ANAT-Histology-Lab-Cartilage-and-Bone---Notes-0589f30ed5.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.02-ANAT-Histology-Lab-Cartilage-and-Bone---Slides-0e45517246.pdf"
+        }
+      ]
+    },
+    {
+      "file": "leg-and-foot.json",
+      "name": "The Leg and Foot",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.03-ANAT-MSK-3-Leg-and-Foot---Narrative-Notes-7e74d15655.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.03-ANAT-MSK-3-Leg-and-Foot---Slides-2dfe215e22.pdf"
+        }
+      ]
+    },
+    {
+      "file": "metabolic-bone-disease.json",
+      "name": "Metabolic Bone Disease",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.01-CM-Metabolic-Bone-Disease---Notes-bec84e61a3.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.01-CM-Metabolic-Bone-Disease---Slides-eb22fd7905.pdf"
+        }
+      ]
+    },
+    {
+      "file": "seronegative-spondyloarthropathies.json",
+      "name": "Seronegative Spondyloarthropathies",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.04-CM-Seronegative-Spondyloarthropathies---Notes-12cee0c4b3.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.04-CM-Seronegative-Spondyloarthropathies---Slides-717b3bbdc8.pdf"
+        }
+      ]
+    },
+    {
+      "file": "thigh-and-knee.json",
+      "name": "MSK Part 2: The Thigh and Knee",
+      "count": 20,
+      "pdfs": [
+        {
+          "label": "notes",
+          "file": "12.03-ANAT-MSK-2-Thigh-and-Knee---Narrative-Notes-3a6cc914cb.pdf"
+        },
+        {
+          "label": "slides",
+          "file": "12.03-ANAT-MSK-2-Thigh-and-Knee---Slides-5a5f4e7ba8.pdf"
+        }
+      ]
+    }
+  ]
+}

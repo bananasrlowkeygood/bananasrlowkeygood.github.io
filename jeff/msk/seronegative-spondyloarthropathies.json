@@ -1,0 +1,505 @@
+{
+  "lecture": "Seronegative Spondyloarthropathies",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "questions": [
+    {
+      "id": "msk-seronegative-spondyloarthropathies-001",
+      "question": "A 26-year-old man comes to the physician because of low back pain for the past 2 years. The pain began gradually, is worst on waking with about an hour of stiffness, and often wakes him in the second half of the night. It eases after he plays basketball but not when he rests on the couch. He also notes buttock pain that alternates between the left and right sides. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Result",
+          "Reference range"
+        ],
+        [
+          "Rheumatoid factor",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "Anti-CCP antibody",
+          "Negative",
+          "Negative"
+        ],
+        [
+          "ESR",
+          "38 mm/h",
+          "0–15 mm/h"
+        ],
+        [
+          "CRP",
+          "2.4 mg/dL",
+          "<0.5 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Ankylosing spondylitis",
+        "B": "Degenerative disc disease",
+        "C": "Lumbar disc herniation",
+        "D": "Lumbar spinal stenosis",
+        "E": "Rheumatoid arthritis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Insidious onset before 40, prolonged morning stiffness, night pain and improvement with exercise but not rest are inflammatory back pain, and alternating buttock pain with seronegative raised inflammatory markers points to axial spondyloarthritis.",
+        "B": "Degenerative back pain is mechanical: it worsens with activity, improves with rest and does not raise CRP or ESR.",
+        "C": "Disc herniation causes acute mechanical pain, often with radicular symptoms, that worsens with flexion and activity rather than improving with exercise.",
+        "D": "Stenosis causes neurogenic claudication in older adults that is relieved by sitting or bending forward, not morning stiffness in a young man.",
+        "E": "Rheumatoid arthritis is a symmetric small-joint polyarthritis that spares the lumbar spine and is usually RF or anti-CCP positive."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-002",
+      "question": "A 31-year-old man has had low back pain for 5 months that began at age 30. The pain improves with exercise, worsens with rest and is accompanied by morning stiffness. HLA-B27 testing is positive. Radiographs and MRI of the sacroiliac joints are normal. According to the ASAS classification criteria for axial spondyloarthritis, which of the following additional findings would allow him to be classified as having axial spondyloarthritis?",
+      "answers": {
+        "A": "Elevated serum uric acid",
+        "B": "Heel enthesitis",
+        "C": "Horizontal lumbar osteophytes",
+        "D": "Positive antinuclear antibody",
+        "E": "Positive rheumatoid factor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hyperuricemia relates to gout and is not one of the ASAS spondyloarthritis features.",
+        "B": "With no sacroiliitis on imaging he needs HLA-B27 plus at least two other SpA features; inflammatory back pain is one, and heel enthesitis supplies the second.",
+        "C": "Horizontal osteophytes are a sign of degenerative disc disease, not of spondyloarthritis.",
+        "D": "ANA points toward connective tissue disease such as lupus and is not an ASAS SpA feature.",
+        "E": "Spondyloarthropathies are seronegative; a positive RF is not an SpA feature and suggests rheumatoid arthritis."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-003",
+      "question": "A 29-year-old man with ankylosing spondylitis asks how his HLA-B27 allele causes disease. One proposed mechanism is that HLA-B27 heavy chains misfold in the endoplasmic reticulum of antigen-presenting cells, which increases production of a cytokine that drives Th17 cells to produce IL-17. Which of the following cytokines is most likely increased?",
+      "answers": {
+        "A": "IL-10",
+        "B": "IL-2",
+        "C": "IL-23",
+        "D": "IL-4",
+        "E": "Interferon-γ"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "IL-10 is an anti-inflammatory cytokine that dampens, rather than drives, Th17 responses.",
+        "B": "IL-2 drives T-cell proliferation in general and is not the cytokine linked to misfolded HLA-B27.",
+        "C": "Misfolded HLA-B27 in the ER increases IL-23, which drives Th17 cells to make IL-17, the axis targeted by IL-23 and IL-17 inhibitors.",
+        "D": "IL-4 drives Th2 differentiation and allergic responses, not the Th17 axis of spondyloarthritis.",
+        "E": "Interferon-γ is the signature Th1 cytokine and is not the one proposed to rise with misfolded HLA-B27."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-004",
+      "question": "A 23-year-old man comes to the clinic because of a painful, swollen right knee and burning on urination for 4 days. Four weeks ago, after eating undercooked chicken at a barbecue, he had fever, abdominal cramps and bloody diarrhea that resolved over a week. Examination shows a warm knee effusion and bilateral conjunctival injection. Which of the following organisms most likely triggered this condition?",
+      "answers": {
+        "A": "Campylobacter jejuni",
+        "B": "Enterotoxigenic Escherichia coli",
+        "C": "Giardia lamblia",
+        "D": "Norovirus",
+        "E": "Vibrio cholerae"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Bloody diarrhea after undercooked poultry followed about 4 weeks later by arthritis, urethritis and conjunctivitis is reactive arthritis triggered by Campylobacter, one of the enteric triggers.",
+        "B": "ETEC causes watery traveler's diarrhea, not bloody diarrhea, and is not one of the lecture's reactive arthritis triggers.",
+        "C": "Giardia causes greasy, non-bloody diarrhea from contaminated water and is not a trigger of reactive arthritis.",
+        "D": "Norovirus causes short-lived vomiting and watery diarrhea and is not associated with reactive arthritis.",
+        "E": "Cholera causes profuse rice-water diarrhea, not bloody diarrhea, and is not a reactive arthritis trigger."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-005",
+      "question": "A 22-year-old man comes to the physician because of a swollen left ankle and right knee for 1 week. Five weeks ago he had a penile discharge and dysuria after sex with a new partner, which went untreated. Examination shows bilateral conjunctival injection and the lesions on his sole shown. Which of the following organisms most likely triggered this condition?",
+      "image": {
+        "src": "images/seronegative-spondyloarthropathies/005.jpg",
+        "caption": "Sole of the patient's foot",
+        "credit": "Slides p. 22"
+      },
+      "answers": {
+        "A": "Borrelia burgdorferi",
+        "B": "Chlamydia trachomatis",
+        "C": "Staphylococcus aureus",
+        "D": "Treponema pallidum",
+        "E": "Trichomonas vaginalis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lyme arthritis follows a tick bite and erythema migrans, not urethritis, and does not cause these sole lesions.",
+        "B": "Urethritis followed weeks later by oligoarthritis, conjunctivitis and keratoderma blennorrhagicum is reactive arthritis, and Chlamydia trachomatis is its main genitourinary trigger.",
+        "C": "S. aureus causes septic monoarthritis with fever, not a sterile oligoarthritis with conjunctivitis after urethritis.",
+        "D": "Secondary syphilis can cause a palmoplantar rash, but not this post-urethritis triad of arthritis and conjunctivitis.",
+        "E": "Trichomonas causes urethritis or vaginitis but is not a recognized trigger of reactive arthritis."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-006",
+      "question": "A 25-year-old man has had pain at the back of both heels for 2 weeks. Three weeks before that he had bloody diarrhea from Shigella. He also has a swollen left knee and red eyes. Examination shows tenderness where the Achilles tendon attaches to the calcaneus. Which of the following structures is the primary site of inflammation causing his heel pain?",
+      "answers": {
+        "A": "Articular cartilage",
+        "B": "Bursa",
+        "C": "Enthesis",
+        "D": "Synovial membrane",
+        "E": "Tendon sheath"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Cartilage loss is a feature of osteoarthritis and is not tender to palpation at the tendon attachment.",
+        "B": "Bursitis can sit nearby, but the tenderness here is at the point where tendon meets bone.",
+        "C": "Achilles insertion pain after enteric infection is enthesitis, inflammation where tendon, ligament or fascia inserts into bone, a hallmark of spondyloarthropathy.",
+        "D": "Synovitis causes joint swelling, as in his knee, but the heel pain is at a tendon insertion, not in a joint.",
+        "E": "Tenosynovitis inflames the sheath along the tendon, not its attachment to bone."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-007",
+      "question": "A 52-year-old woman comes to the physician because of pain and swelling of a toe for 4 months that has not improved with ibuprofen; she has had to buy larger shoes. She has had painful, swollen DIP joints in the past. There are well-demarcated red plaques with silvery scale on her shins and back. Rheumatoid factor and ANA are negative. Her foot is shown. Which of the following best explains the toe swelling?",
+      "image": {
+        "src": "images/seronegative-spondyloarthropathies/007.jpg",
+        "caption": "The patient's foot",
+        "credit": "Notes p. 3"
+      },
+      "answers": {
+        "A": "Destruction of the joint",
+        "B": "Infection of the joint",
+        "C": "Soft tissue swelling",
+        "D": "Synovitis of one joint",
+        "E": "Urate crystal deposition"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Joint destruction occurs in arthritis mutilans, but the swelling here involves the whole digit, not one joint.",
+        "B": "She is afebrile with a 4-month course; septic arthritis is acute and confined to one joint.",
+        "C": "This is dactylitis of psoriatic arthritis: the whole digit swells from flexor tendon, tendon sheath and adjacent soft tissue involvement.",
+        "D": "In synovitis the swelling is confined to the joint, whereas in dactylitis the entire digit is swollen.",
+        "E": "Gout causes acute episodic monoarthritis, often of the first MTP, not months of sausage-like swelling of a whole toe."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-008",
+      "question": "A 47-year-old man has had pain and swelling of several finger joints for 6 months. He has a 10-year history of scaly plaques on his elbows. His hand is shown; the swollen joints are asymmetric and mostly distal. Which of the following laboratory profiles is most likely?",
+      "image": {
+        "src": "images/seronegative-spondyloarthropathies/008.jpg",
+        "caption": "The patient's hand",
+        "credit": "Notes p. 3"
+      },
+      "answers": {
+        "A": "Negative RF, negative anti-CCP",
+        "B": "Negative RF, positive anti-dsDNA",
+        "C": "Positive anti-centromere antibody",
+        "D": "Positive RF, negative anti-CCP",
+        "E": "Positive RF, positive anti-CCP"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Psoriatic arthritis, with DIP disease and nail changes, is a seronegative spondyloarthropathy: RF and anti-CCP are negative.",
+        "B": "Anti-dsDNA is specific for lupus, whose arthritis is non-erosive and not DIP-predominant with nail changes.",
+        "C": "Anti-centromere antibodies mark limited systemic sclerosis, which causes sclerodactyly, not DIP arthritis with nail changes.",
+        "D": "A positive RF points toward rheumatoid arthritis, which spares the DIP joints.",
+        "E": "Seropositivity for both is the profile of rheumatoid arthritis, a symmetric MCP and PIP disease."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-009",
+      "question": "A 28-year-old woman with Crohn disease has had a painful, swollen right knee for 2 weeks. Her knee pain began at the same time as her current flare of abdominal pain and diarrhea, and a similar episode occurred during a flare last year. Joint aspirate shows no crystals and a negative Gram stain. Which of the following is the most appropriate treatment to improve her arthritis?",
+      "answers": {
+        "A": "Allopurinol",
+        "B": "Colchicine",
+        "C": "Hydroxychloroquine",
+        "D": "Infliximab",
+        "E": "Prolonged high-dose naproxen"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Allopurinol lowers urate in gout and has no role in IBD-associated arthritis.",
+        "B": "Colchicine treats crystal arthritis and has no role here; the aspirate shows no crystals.",
+        "C": "Hydroxychloroquine is used in lupus and mild RA and does not control Crohn disease.",
+        "D": "Large-joint arthritis that flares with the bowel disease improves when the underlying IBD is treated, and a TNF inhibitor treats both.",
+        "E": "NSAIDs relieve joint symptoms but do not treat the underlying bowel inflammation that drives this arthritis."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-010",
+      "question": "A 30-year-old man with 3 years of inflammatory back pain comes to the emergency department because of a painful, red right eye for 2 days. He reports blurred vision and marked sensitivity to light. Examination shows redness concentrated around the cornea and a small, sluggish pupil; the left eye is normal. Which of the following is required to confirm the most likely diagnosis?",
+      "answers": {
+        "A": "Fluorescein staining",
+        "B": "Fundoscopic examination",
+        "C": "Schirmer test",
+        "D": "Slit lamp examination",
+        "E": "Tonometry"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Fluorescein shows corneal abrasions or ulcers but cannot see inflammatory cells in the anterior chamber.",
+        "B": "Fundoscopy views the retina and optic disc, not the anterior chamber where this inflammation lies.",
+        "C": "The Schirmer test measures tear production for dry eye, as in Sjögren syndrome.",
+        "D": "Acute unilateral painful red eye with photophobia in spondyloarthritis is anterior uveitis, and slit lamp examination is required to make the diagnosis.",
+        "E": "Tonometry measures intraocular pressure for glaucoma; it does not diagnose uveitis."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-011",
+      "question": "A 58-year-old man with ankylosing spondylitis for 30 years has a routine examination. He has marked thoracic kyphosis. An ECG is obtained; results are shown. Which of the following additional findings is most likely on cardiac examination?",
+      "table": [
+        [
+          "ECG finding",
+          "Result",
+          "Reference range"
+        ],
+        [
+          "Rhythm",
+          "Sinus",
+          ""
+        ],
+        [
+          "Heart rate",
+          "64/min",
+          "60–100/min"
+        ],
+        [
+          "PR interval",
+          "260 ms",
+          "120–200 ms"
+        ],
+        [
+          "QRS duration",
+          "90 ms",
+          "<120 ms"
+        ]
+      ],
+      "answers": {
+        "A": "Diastolic decrescendo murmur",
+        "B": "Holosystolic apical murmur",
+        "C": "Mid-systolic click",
+        "D": "Opening snap with diastolic rumble",
+        "E": "Pericardial friction rub"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "AS causes aortitis and aortic regurgitation alongside conduction disease such as first-degree AV block, giving an early diastolic decrescendo murmur.",
+        "B": "A holosystolic apical murmur is mitral regurgitation, not the aortic disease typical of AS.",
+        "C": "A mid-systolic click is mitral valve prolapse, which is not linked to spondyloarthritis.",
+        "D": "An opening snap and rumble mark rheumatic mitral stenosis.",
+        "E": "A friction rub suggests pericarditis, which is not a classic cardiac feature of AS."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-012",
+      "question": "A 48-year-old man with long-standing ankylosing spondylitis has had increasing shortness of breath on exertion. He has never smoked. Chest expansion is markedly reduced. Chest x-ray shows clear lungs. Pulmonary function testing results are shown. Which of the following best explains these findings?",
+      "table": [
+        [
+          "Test",
+          "Result (% predicted)"
+        ],
+        [
+          "FVC",
+          "62%"
+        ],
+        [
+          "FEV1",
+          "65%"
+        ],
+        [
+          "FEV1/FVC",
+          "0.84"
+        ],
+        [
+          "TLC",
+          "68%"
+        ],
+        [
+          "DLCO",
+          "95%"
+        ]
+      ],
+      "answers": {
+        "A": "Airway obstruction from bronchial inflammation",
+        "B": "Alveolar destruction from emphysema",
+        "C": "Chest wall restriction from spinal fusion",
+        "D": "Diffuse lower lobe interstitial fibrosis",
+        "E": "Respiratory muscle weakness from myositis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Airway obstruction lowers the FEV1/FVC ratio, which is normal here.",
+        "B": "Emphysema is obstructive with a low DLCO and high TLC, unlike these results.",
+        "C": "Thoracic spine involvement stiffens the chest wall and reduces chest expansion, giving extrinsic restrictive disease with a normal DLCO.",
+        "D": "ILD in AS is rare, involves the upper lobes and would lower DLCO and show on chest x-ray.",
+        "E": "Myositis is not a feature of spondyloarthritis and would usually come with limb weakness."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-013",
+      "question": "A 61-year-old man with ankylosing spondylitis for 35 years slips on ice and falls backward, hitting his head. He comes to the emergency department because of neck pain. He has no weakness or numbness, and neurologic examination is normal. Cervical radiographs are hard to interpret because of extensive fusion. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Discharge with NSAIDs and follow-up",
+        "B": "Flexion-extension radiographs",
+        "C": "Outpatient physical therapy",
+        "D": "Rigid immobilization and CT",
+        "E": "Trigger point injection"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Even minor trauma can fracture the brittle ankylosed spine, and discharge risks spinal cord injury.",
+        "B": "Flexion-extension views move a possibly fractured spine and can cause cord injury.",
+        "C": "Mobilizing an unstable fracture is dangerous; imaging must come first.",
+        "D": "AS patients with neck or back pain after even minor trauma must be strictly immobilized until thorough imaging is done.",
+        "E": "Attributing the pain to muscle spasm misses a fracture, the key danger in the ankylosed spine."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-014",
+      "question": "A 52-year-old man with ankylosing spondylitis has a DEXA scan for osteoporosis screening. Results are shown. Radiographs show extensive syndesmophytes throughout the lumbar spine. Which of the following best explains the difference between his spine and hip results?",
+      "table": [
+        [
+          "Site",
+          "T-score"
+        ],
+        [
+          "Lumbar spine L1–L4",
+          "+0.4"
+        ],
+        [
+          "Femoral neck",
+          "−2.7"
+        ],
+        [
+          "Total hip",
+          "−2.5"
+        ]
+      ],
+      "answers": {
+        "A": "Higher bone turnover in the femoral neck",
+        "B": "Ossification falsely raising spinal BMD",
+        "C": "Osteomalacia confined to the hip",
+        "D": "Protective effect of NSAIDs on vertebrae",
+        "E": "True preservation of vertebral bone mass"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Turnover differences do not explain a normal spine beside an osteoporotic hip in AS.",
+        "B": "Syndesmophytes and ligament ossification add bone in the scan path, falsely increasing spinal BMD and hiding spinal osteoporosis.",
+        "C": "Osteomalacia is a generalized mineralization defect, not one limited to the hip.",
+        "D": "NSAIDs do not selectively protect vertebral bone density.",
+        "E": "Vertebral bone loss is common in AS; the normal spinal value is an artifact."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-015",
+      "question": "A 27-year-old man has had low back pain and morning stiffness for 8 months that improve with exercise. CRP is elevated and HLA-B27 is positive. Examination shows tenderness over both sacroiliac joints. Radiographs of the sacroiliac joints are normal. Which of the following is the most appropriate next step in evaluation?",
+      "answers": {
+        "A": "Bone scintigraphy",
+        "B": "CT of the sacroiliac joints",
+        "C": "MRI of the sacroiliac joints",
+        "D": "Repeat radiographs in 5 years",
+        "E": "Ultrasound of the sacroiliac joints"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Bone scans are nonspecific and are not the test of choice for early sacroiliitis.",
+        "B": "CT shows erosions and sclerosis, which are structural changes of established disease, and cannot see active inflammation.",
+        "C": "Plain films turn positive only in advanced disease; MRI is far more sensitive and specific and shows bone marrow edema and erosions early.",
+        "D": "Waiting for radiographic change delays diagnosis while inflammation can be seen now on MRI.",
+        "E": "Ultrasound cannot image the deep sacroiliac joint and bone marrow."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-016",
+      "question": "A 44-year-old man has had back pain and progressive stiffness for 20 years and has never seen a physician for it. He now cannot bend forward or turn his trunk. An anteroposterior radiograph of his lumbar spine is shown. Which of the following best describes the process that produced the bony bridges between his vertebrae?",
+      "image": {
+        "src": "images/seronegative-spondyloarthropathies/016.jpg",
+        "caption": "AP radiograph of the lumbar spine",
+        "credit": "Notes p. 4"
+      },
+      "answers": {
+        "A": "Horizontal bone spurs from disc degeneration",
+        "B": "Ligament ossification after inflammation",
+        "C": "Lytic destruction by metastatic tumor",
+        "D": "Osteoid overproduction from osteoblastoma",
+        "E": "Periosteal reaction to vertebral infection"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Degenerative osteophytes grow horizontally from the vertebral margins, unlike the vertical bridges shown.",
+        "B": "Untreated AS forms vertical syndesmophytes by bony overgrowth of the spinal ligaments after inflammation, fusing into a bamboo spine.",
+        "C": "Metastases destroy bone and would not form smooth vertical bridges at every level.",
+        "D": "Osteoblastoma is a solitary tumor, not a multilevel fusion.",
+        "E": "Spondylodiscitis from infection is focal and destructive, not a smooth fusion of the whole lumbar spine."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-017",
+      "question": "A 34-year-old man with ankylosing spondylitis still has back pain and stiffness despite full doses of two different NSAIDs. His physician plans to start adalimumab. He emigrated from the Philippines 6 years ago. Which of the following tests should be done before the first dose?",
+      "answers": {
+        "A": "Anti-dsDNA antibody",
+        "B": "HLA-B27 genotyping",
+        "C": "Interferon-γ release assay",
+        "D": "Serum uric acid",
+        "E": "Thiopurine methyltransferase activity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Anti-dsDNA tests for lupus and is not required before starting a TNF inhibitor.",
+        "B": "HLA-B27 adds nothing once AS is diagnosed and does not affect TNF-inhibitor safety.",
+        "C": "TNF inhibitors can reactivate latent tuberculosis, so TB exposure must be checked before starting one.",
+        "D": "Uric acid is relevant to gout, not to biologic safety.",
+        "E": "TPMT is checked before azathioprine or 6-mercaptopurine, not before TNF inhibitors."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-018",
+      "question": "A 29-year-old man has ankylosing spondylitis with back pain, morning stiffness and reduced lumbar flexion. He has no peripheral joint swelling. Despite two NSAIDs at full dose for 3 months, his symptoms persist. Which of the following medications is most likely to improve his spinal symptoms?",
+      "answers": {
+        "A": "Hydroxychloroquine",
+        "B": "Leflunomide",
+        "C": "Methotrexate",
+        "D": "Secukinumab",
+        "E": "Sulfasalazine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Hydroxychloroquine is not effective for axial spondyloarthritis.",
+        "B": "Conventional DMARDs like leflunomide help only peripheral joint disease and do not work for axial disease.",
+        "C": "Methotrexate is used only for peripheral joint disease in SpA; it does not work for axial disease.",
+        "D": "IL-17 inhibitors such as secukinumab, like TNF inhibitors, improve spine mobility and pain in AS after NSAIDs fail.",
+        "E": "Sulfasalazine, like other conventional DMARDs, is used only for peripheral arthritis in SpA."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-019",
+      "question": "A 33-year-old man with ankylosing spondylitis starts a TNF inhibitor. His rheumatologist wants a simple bedside measurement, repeated at each visit, to track changes in lumbar spine flexibility over time. Which of the following is the most appropriate test?",
+      "answers": {
+        "A": "FABER test",
+        "B": "Gaenslen test",
+        "C": "Modified Schober test",
+        "D": "Occiput-to-wall test",
+        "E": "Straight leg raise test"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "FABER provokes sacroiliac joint pain; it does not measure lumbar flexibility.",
+        "B": "Gaenslen's test provokes SI joint pain but is nonspecific and does not quantify lumbar motion.",
+        "C": "The modified Schober test measures lumbar spine flexibility (abnormal under 15 cm from a 10 cm mark) and is useful for monitoring progression.",
+        "D": "Occiput-to-wall measures cervical mobility and thoracic kyphosis, not lumbar flexion.",
+        "E": "Straight leg raise tests for lumbar nerve root irritation, not spinal flexibility."
+      }
+    },
+    {
+      "id": "msk-seronegative-spondyloarthropathies-020",
+      "question": "A 35-year-old man comes to the physician because of low back pain for 5 days that began after he lifted a heavy box. The pain is worse with activity and better when he lies still, and he has no morning stiffness. He has no eye, skin or bowel symptoms. Before the visit, his primary care physician ordered an HLA-B27 test, which is positive. Which of the following is the most appropriate interpretation of this result?",
+      "answers": {
+        "A": "It confirms ankylosing spondylitis",
+        "B": "It mandates sacroiliac joint MRI now",
+        "C": "It raises risk but is not diagnostic",
+        "D": "It rules out reactive arthritis",
+        "E": "It warrants starting a TNF inhibitor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "HLA-B27 is not diagnostic; most carriers never develop disease, and his pain is mechanical.",
+        "B": "An MRI is not needed for acute mechanical pain because of an HLA-B27 result alone.",
+        "C": "HLA-B27 increases the risk of spondyloarthropathy but does not diagnose it; with mechanical back pain and no SpA features it does not change management.",
+        "D": "A positive HLA-B27 makes reactive arthritis more, not less, likely; it cannot rule it out.",
+        "E": "Biologics treat established spondyloarthritis, not an isolated genetic marker."
+      }
+    }
+  ]
+}

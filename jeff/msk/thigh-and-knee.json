@@ -1,0 +1,478 @@
+{
+  "lecture": "MSK Part 2: The Thigh and Knee",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "questions": [
+    {
+      "id": "msk-thigh-and-knee-001",
+      "question": "A 19-year-old woman who plays collegiate soccer plants her right foot and pivots sharply to change direction. She hears a 'pop,' falls to the ground, and within an hour the knee is swollen and feels unstable. With the patient supine and the knee flexed to about 25 degrees, the examiner stabilizes the distal femur and pulls the proximal tibia forward; the tibia moves excessively and the endpoint feels soft. Which normal function has been lost in this patient's knee?",
+      "answers": {
+        "A": "Cushioning of the lateral tibial plateau",
+        "B": "Resisting anterior translation of the tibia",
+        "C": "Resisting posterior translation of the tibia",
+        "D": "Resisting valgus force on the knee",
+        "E": "Resisting varus force on the knee"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The lateral meniscus cushions the lateral plateau; a meniscal tear does not cause anterior tibial translation on the Lachman test.",
+        "B": "A plant-and-twist injury in a young female athlete with a positive Lachman test (anterior translation, soft endpoint at 20 to 30 degrees) indicates an ACL tear, and the ACL resists anterior displacement of the tibia on the femur.",
+        "C": "Resisting posterior translation is the job of the PCL, which would be tested with the posterior drawer or posterior sag test.",
+        "D": "The MCL resists valgus force; its injury causes medial opening under valgus stress, not anterior translation.",
+        "E": "The LCL resists varus force; its injury causes lateral opening under varus stress, not anterior translation."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-002",
+      "question": "A 34-year-old man is brought to the emergency department after a head-on motor vehicle collision in which his right shin struck the dashboard. His right knee is swollen and painful. With the patient supine and both hips and knees flexed to 90 degrees, the right tibial tuberosity drops behind the level of the femoral condyles, while the left tibia sits about 1 cm anterior to the femur. The injured ligament normally attaches superiorly to which structure?",
+      "answers": {
+        "A": "Gerdy tubercle of the tibia",
+        "B": "Head of the fibula",
+        "C": "Lateral femoral condyle",
+        "D": "Medial femoral condyle",
+        "E": "Tibial tuberosity"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Gerdy tubercle is the insertion of the iliotibial tract, which stabilizes the lateral knee and is not tested by the posterior sag sign.",
+        "B": "The head of the fibula receives the lateral collateral ligament, which resists varus force.",
+        "C": "The lateral femoral condyle is the femoral attachment of the ACL, which runs anterior to posterior and externally (APEX).",
+        "D": "A dashboard blow to the anterior tibia with a positive posterior sag sign indicates a PCL tear; the PCL runs posterior to anterior and internally (PAIN) to attach to the medial femoral condyle.",
+        "E": "The tibial tuberosity receives the patellar ligament, part of the knee extensor mechanism."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-003",
+      "question": "A 27-year-old man is injured while skiing when his left ski catches and a strong force drives his planted left knee medially while his body rotates. Examination shows a large effusion, a positive Lachman test, and medial joint opening when valgus stress is applied. MRI confirms complete tears of two ligaments. A third structure is torn as well; it is classically injured with these two ligaments because it is attached directly to one of them. Which structure is this?",
+      "answers": {
+        "A": "Iliotibial tract",
+        "B": "Lateral collateral ligament",
+        "C": "Lateral meniscus",
+        "D": "Medial meniscus",
+        "E": "Posterior cruciate ligament"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The iliotibial tract stabilizes the lateral knee and inserts on Gerdy tubercle; it is not attached to the MCL or ACL.",
+        "B": "The LCL resists varus force and would not be torn by valgus stress.",
+        "C": "The lateral meniscus is not attached to the MCL; although later studies find it often torn with ACL plus MCL injuries, the classic triad is defined by the attachment named in the stem.",
+        "D": "Valgus stress on a planted, rotating knee tears the ACL and MCL, and the medial meniscus, which is attached to the MCL, completes the classic unhappy triad.",
+        "E": "The PCL is injured by a blow to the anterior tibia or hyperflexion, not by valgus stress with rotation."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-004",
+      "question": "A 22-year-old football player is struck on the outside of his right knee by a tackler while his foot is planted. He has pain and tenderness along the medial side of the knee. With the knee in slight flexion, the examiner pushes the knee medially while pulling the ankle laterally, and the medial joint line opens more than on the uninjured side. The Lachman test and posterior drawer test are normal. Which ligament is most likely injured?",
+      "answers": {
+        "A": "Anterior cruciate ligament",
+        "B": "Lateral collateral ligament",
+        "C": "Medial collateral ligament",
+        "D": "Patellar ligament",
+        "E": "Posterior cruciate ligament"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "An ACL tear causes a positive Lachman test, which is normal here.",
+        "B": "The LCL resists varus force (applied to the medial knee) and would open the lateral joint line.",
+        "C": "A blow to the lateral knee produces valgus stress, which the MCL resists; its tear lets the medial joint line open under valgus testing.",
+        "D": "Patellar ligament rupture causes loss of knee extension, not medial joint laxity.",
+        "E": "A PCL tear causes a positive posterior drawer test, which is normal here."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-005",
+      "question": "A 16-year-old trips over a tree root while hiking and lands with full force on the front of his right knee. An x-ray shows a displaced transverse fracture of the largest sesamoid bone in the body. He is unable to perform a straight-leg raise. Which movement is most likely to be weak?",
+      "answers": {
+        "A": "Abduction of the thigh at the hip",
+        "B": "Adduction of the thigh at the hip",
+        "C": "Extension of the leg at the knee",
+        "D": "Flexion of the leg at the knee",
+        "E": "Medial rotation of the thigh at the hip"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Hip abduction is done mainly by the gluteus medius and minimus and does not depend on the patella.",
+        "B": "Hip adduction is done by the medial thigh muscles (obturator nerve), which do not attach to the patella.",
+        "C": "The patella sits in the quadriceps tendon, which continues as the patellar ligament to the tibial tuberosity; a displaced fracture disrupts the quadriceps, the extensors of the leg at the knee.",
+        "D": "Knee flexion is done by the hamstrings and gastrocnemius, which do not act through the patella.",
+        "E": "Medial rotation at the hip is done by the gluteus medius, minimus, and tensor fasciae latae."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-006",
+      "question": "A 15-year-old boy feels a sudden sharp pain in the front of his right hip while kicking a soccer ball. Afterward he has weakness both when lifting the thigh forward at the hip and when straightening the knee against resistance. Pelvic x-ray shows a small bony fragment pulled away from the anterior inferior iliac spine. Which muscle has most likely avulsed its origin?",
+      "answers": {
+        "A": "Iliopsoas",
+        "B": "Rectus femoris",
+        "C": "Sartorius",
+        "D": "Vastus intermedius",
+        "E": "Vastus lateralis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The iliopsoas flexes the hip but does not extend the knee, and it inserts on the lesser trochanter rather than arising from the AIIS.",
+        "B": "The rectus femoris arises from the AIIS and is the only quadriceps muscle that crosses the hip, so it both flexes the thigh at the hip and extends the leg at the knee.",
+        "C": "The sartorius flexes the hip but flexes, rather than extends, the knee.",
+        "D": "The vastus intermedius arises from the femoral shaft and crosses only the knee, so it cannot flex the hip.",
+        "E": "The vastus lateralis arises from the greater trochanter region and only extends the knee."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-007",
+      "question": "A 63-year-old woman with long-standing osteoarthritis of the left knee has a 2-month history of fullness and aching behind that knee that worsens with squatting and limits full flexion. The swelling is shown. There is no calf tenderness or pitting edema. Ultrasound shows a fluid-filled sac emerging between the semimembranosus and the medial head of the gastrocnemius and communicating with the joint. Which process best explains this mass?",
+      "image": {
+        "src": "images/thigh-and-knee/007.jpg",
+        "caption": "Posterior view of both knees",
+        "credit": "Slides p. 37"
+      },
+      "answers": {
+        "A": "Herniation of the knee's synovial cavity",
+        "B": "Inflammation of the pes anserinus",
+        "C": "Occlusive thrombus in the popliteal vein",
+        "D": "Rupture of the medial meniscus",
+        "E": "Varicosity of the small saphenous vein"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "A Baker (popliteal) cyst is a protrusion of the knee's synovial cavity into the popliteal fossa, usually between the semimembranosus and medial head of the gastrocnemius, and is associated with degenerative or inflammatory joint disease.",
+        "B": "Pes anserinus inflammation causes point tenderness at the proximomedial tibia, not a fluid sac in the popliteal fossa.",
+        "C": "A popliteal DVT is the key differential, but it would show a noncompressible vein rather than a sac communicating with the joint.",
+        "D": "A meniscal tear causes joint-line pain and mechanical symptoms, not a fluid-filled sac outside the joint.",
+        "E": "A small saphenous varicosity is a superficial tortuous vein in the posterior leg, not a joint-communicating sac."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-008",
+      "question": "A 14-year-old sprinter feels a pop in his left groin while driving out of the starting blocks. He now has marked weakness when trying to lift the left thigh toward the chest while seated, and pain with resisted hip flexion. An x-ray shows an avulsed bony fragment from the lesser trochanter of the femur. Which muscle is most likely affected?",
+      "answers": {
+        "A": "Gluteus medius",
+        "B": "Iliopsoas",
+        "C": "Obturator externus",
+        "D": "Rectus femoris",
+        "E": "Sartorius"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The gluteus medius abducts and medially rotates the thigh and attaches to the greater trochanter.",
+        "B": "The iliopsoas, formed by the psoas major and iliacus, inserts on the lesser trochanter and is the strongest flexor of the thigh at the hip.",
+        "C": "The obturator externus laterally rotates the thigh and does not insert on the lesser trochanter.",
+        "D": "The rectus femoris flexes the hip but arises from the AIIS and inserts via the quadriceps tendon on the tibial tuberosity.",
+        "E": "The sartorius flexes the hip but arises from the ASIS and inserts on the medial tibia as part of the pes anserinus."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-009",
+      "question": "A 68-year-old man on warfarin develops right groin and flank pain. CT shows a large right retroperitoneal hematoma compressing the lumbar plexus branch that runs lateral to the femoral artery under the inguinal ligament. Manual muscle testing of the right lower limb is shown. Which additional finding is most likely?",
+      "table": [
+        [
+          "Movement",
+          "Right",
+          "Left"
+        ],
+        [
+          "Hip flexion",
+          "4/5",
+          "5/5"
+        ],
+        [
+          "Hip adduction",
+          "5/5",
+          "5/5"
+        ],
+        [
+          "Knee extension",
+          "2/5",
+          "5/5"
+        ],
+        [
+          "Knee flexion",
+          "5/5",
+          "5/5"
+        ],
+        [
+          "Ankle dorsiflexion",
+          "5/5",
+          "5/5"
+        ]
+      ],
+      "answers": {
+        "A": "Loss of sensation over the lateral leg",
+        "B": "Loss of sensation over the medial leg",
+        "C": "Loss of sensation over the plantar foot",
+        "D": "Loss of sensation over the posterior leg",
+        "E": "Loss of sensation over the small inferomedial thigh"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The lateral leg is supplied by branches of the common fibular nerve, not the femoral nerve.",
+        "B": "Weak knee extension with milder hip flexion weakness localizes to the femoral nerve (L2 to L4), whose saphenous branch supplies the skin of the medial leg below the knee.",
+        "C": "The plantar foot is in the tibial nerve's dermatome.",
+        "D": "The posterior leg is supplied by the sural nerves, from the tibial and common fibular nerves.",
+        "E": "A small inferomedial thigh patch is the obturator nerve's territory, and hip adduction is normal here."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-010",
+      "question": "A 55-year-old woman undergoes pelvic lymph node dissection for endometrial cancer. Postoperatively she has difficulty bringing her right thigh toward the midline and reports numbness over a small area of the inner thigh. A nerve that passes through the obturator canal is found to have been transected. Which of the following muscles would continue to function normally?",
+      "answers": {
+        "A": "Adductor brevis",
+        "B": "Adductor magnus, adductor part",
+        "C": "Adductor magnus, hamstring part",
+        "D": "Gracilis",
+        "E": "Obturator externus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The adductor brevis is a medial compartment muscle innervated by the obturator nerve.",
+        "B": "The adductor part of the adductor magnus adducts the thigh and is innervated by the obturator nerve.",
+        "C": "The hamstring part of the adductor magnus is innervated by the tibial nerve, like the true hamstrings, and extends the thigh at the hip, so it is spared by an obturator nerve injury.",
+        "D": "The gracilis is innervated by the obturator nerve.",
+        "E": "The obturator externus is innervated by the obturator nerve."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-011",
+      "question": "A 30-year-old man has a gunshot wound to the posterior mid-thigh. Exploration shows that the tibial component of the sciatic nerve is transected while the common fibular component is intact. Weak knee flexion persists on examination. Which posterior thigh muscle is most likely still able to flex his knee?",
+      "answers": {
+        "A": "Biceps femoris, long head",
+        "B": "Biceps femoris, short head",
+        "C": "Hamstring part of adductor magnus",
+        "D": "Semimembranosus",
+        "E": "Semitendinosus"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The long head of the biceps femoris is a true hamstring innervated by the tibial nerve.",
+        "B": "The short head of the biceps femoris arises from the femur, crosses only the knee, and is innervated by the common fibular nerve, so it survives a tibial nerve injury.",
+        "C": "The hamstring part of the adductor magnus is innervated by the tibial nerve and acts mainly as a hip extensor.",
+        "D": "The semimembranosus is a true hamstring innervated by the tibial nerve.",
+        "E": "The semitendinosus is a true hamstring innervated by the tibial nerve."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-012",
+      "question": "A 45-year-old woman who recently increased her running mileage has 3 weeks of pain on the inner side of her right knee. There is point tenderness about 5 cm below the medial joint line over the proximomedial tibia, where a conjoined tendon of three thigh muscles inserts. Ligament testing is normal. The muscles forming this tendon are innervated by which set of nerves?",
+      "answers": {
+        "A": "Femoral, obturator, and common fibular",
+        "B": "Femoral, obturator, and tibial",
+        "C": "Femoral, tibial, and common fibular",
+        "D": "Obturator, tibial, and common fibular",
+        "E": "Superior gluteal, femoral, and tibial"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "No pes anserinus muscle is innervated by the common fibular nerve, which supplies only the short head of the biceps femoris in the thigh.",
+        "B": "The pes anserinus is formed by the sartorius (femoral), gracilis (obturator), and semitendinosus (tibial), one muscle from each thigh compartment.",
+        "C": "This set omits the obturator nerve, which supplies the gracilis.",
+        "D": "This set omits the femoral nerve, which supplies the sartorius.",
+        "E": "The superior gluteal nerve supplies the gluteus medius, minimus, and tensor fasciae latae, none of which form the pes anserinus."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-013",
+      "question": "A 38-year-old man who sits for long periods has 4 months of deep right buttock pain with shooting pain down the back of the thigh. Pain worsens with passive internal rotation of the flexed hip, and lumbar MRI is normal. Electromyography suggests compression of the common fibular component of the sciatic nerve in the gluteal region. Which anatomic variant most likely predisposes him to this condition?",
+      "answers": {
+        "A": "Accessory obturator nerve supplying pectineus",
+        "B": "Common fibular nerve passing superior to piriformis",
+        "C": "Common fibular nerve passing through piriformis",
+        "D": "Sciatic nerve exiting inferior to piriformis",
+        "E": "Tibial nerve exiting superior to piriformis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "An accessory obturator nerve innervates the pectineus and has nothing to do with gluteal nerve compression.",
+        "B": "A common fibular nerve above the piriformis is mainly at risk from intragluteal injections.",
+        "C": "When the common fibular nerve passes through the piriformis, a spasming piriformis can compress it, causing piriformis syndrome with shooting pain down the posterior limb.",
+        "D": "Exit of the whole sciatic nerve inferior to the piriformis is the usual anatomy and is not a predisposing variant.",
+        "E": "The tibial nerve normally exits below the piriformis; the clinically relevant variants involve the common fibular nerve."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-014",
+      "question": "A 61-year-old man with suspected pulmonary hypertension is scheduled for right heart catheterization through the right groin. The operator palpates the femoral pulse just below the inguinal ligament and plans to enter the vessel that the great saphenous vein drains into. Which structure lies immediately lateral to the vessel being accessed?",
+      "answers": {
+        "A": "Femoral artery",
+        "B": "Femoral nerve",
+        "C": "Great saphenous vein",
+        "D": "Lymphatic vessels",
+        "E": "Profunda femoral artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Right heart access is through the femoral vein, and in the femoral triangle (NAVEL, lateral to medial) the femoral artery lies immediately lateral to the vein.",
+        "B": "The femoral nerve is the most lateral structure, lateral to the artery rather than directly beside the vein.",
+        "C": "The great saphenous vein joins the femoral vein from the superficial tissue through the saphenous hiatus; it is not the structure lateral to it.",
+        "D": "The lymphatic vessels lie most medially, medial to the empty space beside the vein.",
+        "E": "The profunda femoral artery leaves the posterior aspect of the femoral artery and runs deep, not immediately lateral to the vein."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-015",
+      "question": "A 58-year-old woman has a painful bulge in her right groin that appeared after she lifted a heavy box. On examination the bulge lies below the inguinal ligament, immediately medial to the femoral pulse, and cannot be reduced. CT shows a loop of small bowel. Through which opening has the bowel herniated?",
+      "answers": {
+        "A": "Adductor hiatus",
+        "B": "Deep inguinal ring",
+        "C": "Femoral canal",
+        "D": "Hesselbach triangle",
+        "E": "Saphenous hiatus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The adductor hiatus is a gap in the adductor magnus at the distal thigh that carries the femoral vessels to the popliteal fossa.",
+        "B": "Herniation through the deep inguinal ring is an indirect inguinal hernia, which lies above the inguinal ligament.",
+        "C": "A femoral hernia passes deep to the inguinal ligament through the femoral canal, the empty space medial to the femoral vein, and is more common in people with estrogen-driven development.",
+        "D": "A hernia through Hesselbach triangle is a direct inguinal hernia, a bulge through the transversalis fascia above the inguinal ligament.",
+        "E": "The saphenous hiatus is an opening in the fascia lata for the great saphenous vein, not the site of bowel herniation."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-016",
+      "question": "A 14-year-old girl has a large Ewing sarcoma of the femur that encases and narrows the femoral artery and vein at about the level of the mid-thigh, within the adductor canal. During examination of the affected limb, the orthopedic oncologist is most likely to find a decreased pulse in which artery?",
+      "answers": {
+        "A": "Deep femoral artery",
+        "B": "External iliac artery",
+        "C": "Inferior epigastric artery",
+        "D": "Perforating arteries",
+        "E": "Popliteal artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The deep femoral artery branches from the femoral artery in the femoral triangle, proximal to the narrowing.",
+        "B": "The external iliac artery lies above the inguinal ligament, upstream of the tumor.",
+        "C": "The inferior epigastric artery arises from the external iliac artery in the abdominal wall, upstream of the tumor.",
+        "D": "The perforating arteries come from the deep femoral artery, which branches off proximal to the narrowing.",
+        "E": "The femoral artery continues through the adductor hiatus to become the popliteal artery, so narrowing at mid-thigh reduces flow downstream in the popliteal artery."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-017",
+      "question": "A 67-year-old woman undergoing total knee replacement receives a regional nerve block. Under ultrasound, local anesthetic is injected at mid-thigh deep to the sartorius, in the space bounded laterally by the vastus medialis and medially by the adductors, next to the femoral artery. Afterward she has numbness of the skin over the medial leg below the knee. Which nerve accounts for this sensory loss?",
+      "answers": {
+        "A": "Lateral sural nerve",
+        "B": "Medial sural nerve",
+        "C": "Obturator nerve",
+        "D": "Saphenous nerve",
+        "E": "Tibial nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The lateral sural nerve arises from the common fibular nerve in the popliteal fossa and supplies the posterior leg.",
+        "B": "The medial sural nerve arises from the tibial nerve in the popliteal fossa and supplies the posterior leg.",
+        "C": "The obturator nerve runs in the medial compartment and supplies a small area of the medial thigh, not the leg.",
+        "D": "The adductor canal carries the femoral vessels, the nerve to vastus medialis, and the saphenous nerve, a cutaneous femoral branch to the medial leg below the knee.",
+        "E": "The tibial nerve runs in the posterior thigh and popliteal fossa, not in the adductor canal."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-018",
+      "question": "A 52-year-old woman who works long shifts standing as a cashier sees a vascular surgeon for swollen, tortuous veins in the skin of the distal medial thigh and medial leg. The veins worsen at the end of the day and are not accompanied by any palpable artery. Duplex ultrasound shows reflux through incompetent valves. Into which deep vein does the affected superficial vein normally drain?",
+      "answers": {
+        "A": "External iliac vein",
+        "B": "Femoral vein",
+        "C": "Popliteal vein",
+        "D": "Posterior tibial vein",
+        "E": "Profunda femoral vein"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The external iliac vein is the continuation of the femoral vein above the inguinal ligament; the great saphenous vein joins below it.",
+        "B": "Varicosities of the medial thigh and leg involve the great saphenous vein, which passes through the saphenous hiatus to drain into the femoral vein in the femoral triangle.",
+        "C": "The popliteal vein receives the small saphenous vein, which drains the posterior leg.",
+        "D": "The posterior tibial vein is a deep vein of the leg that does not receive the great saphenous vein.",
+        "E": "The profunda femoral vein is a deep vein accompanying the deep femoral artery and does not receive superficial veins."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-019",
+      "question": "A 71-year-old woman is on postoperative day 4 after a hip fracture repair and has been mostly bedbound. She develops swelling of the entire left thigh and calf. Compression ultrasound shows a noncompressible vein that runs within the muscular compartments of the thigh beside an artery of the same name. Laboratory results are shown. Which complication of this condition is most immediately life-threatening?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "D-dimer",
+          "3.8 µg/mL FEU",
+          "< 0.5 µg/mL FEU"
+        ],
+        [
+          "Hemoglobin",
+          "10.9 g/dL",
+          "12.0–15.5 g/dL"
+        ],
+        [
+          "Platelets",
+          "245,000/µL",
+          "150,000–400,000/µL"
+        ],
+        [
+          "Heart rate",
+          "104/min",
+          "60–100/min"
+        ]
+      ],
+      "answers": {
+        "A": "Chronic venous insufficiency",
+        "B": "Compartment syndrome",
+        "C": "Pulmonary embolism",
+        "D": "Superficial thrombophlebitis",
+        "E": "Varicose veins"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Chronic venous insufficiency is a long-term consequence of incompetent valves, not an immediate threat to life.",
+        "B": "Compartment syndrome results from rising pressure within a fascial compartment after trauma or reperfusion and is not the typical complication of DVT.",
+        "C": "A thrombus in a deep vein (here the femoral vein, with stasis from immobility) can embolize through the right heart to the lungs as a pulmonary embolism, which can cause sudden death.",
+        "D": "Superficial thrombophlebitis involves superficial veins, which run in the skin without companion arteries.",
+        "E": "Varicose veins are a disorder of superficial veins with incompetent valves, not a complication of deep vein thrombosis."
+      }
+    },
+    {
+      "id": "msk-thigh-and-knee-020",
+      "question": "A 25-year-old motorcyclist sustains a posterior dislocation of the right knee, which is reduced in the emergency department. Thirty minutes later the right foot is cool and pale. Pulse examination is shown. The injured vessel entered the region behind the knee by passing through a gap in the adductor magnus and gives off branches that anastomose around the knee. Which vessel is most likely injured?",
+      "table": [
+        [
+          "Pulse",
+          "Right",
+          "Left"
+        ],
+        [
+          "Femoral",
+          "2+",
+          "2+"
+        ],
+        [
+          "Popliteal",
+          "Absent",
+          "2+"
+        ],
+        [
+          "Dorsalis pedis",
+          "Absent",
+          "2+"
+        ],
+        [
+          "Posterior tibial",
+          "Absent",
+          "2+"
+        ]
+      ],
+      "answers": {
+        "A": "Deep femoral artery",
+        "B": "Lateral circumflex femoral artery",
+        "C": "Popliteal artery",
+        "D": "Popliteal vein",
+        "E": "Small saphenous vein"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The deep femoral artery arises in the femoral triangle and supplies the thigh; the femoral pulse is normal and the deficit begins below it.",
+        "B": "The lateral circumflex femoral artery is a branch of the deep femoral artery near the hip.",
+        "C": "The femoral artery becomes the popliteal artery after passing through the adductor hiatus and gives genicular branches around the knee; it runs in the popliteal fossa and is injured in knee dislocation, abolishing distal pulses.",
+        "D": "The popliteal vein runs superficial to the artery in the fossa, but injury to a vein would not abolish arterial pulses.",
+        "E": "The small saphenous vein is a superficial vein draining into the popliteal vein and does not affect arterial pulses."
+      }
+    }
+  ]
+}

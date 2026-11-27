@@ -1,0 +1,478 @@
+{
+  "lecture": "Fractures",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "questions": [
+    {
+      "id": "msk-fractures-001",
+      "question": "A 34-year-old man is brought to the emergency department after a skiing accident in which his left ski caught in the snow while his body kept turning. He has severe distal thigh pain and cannot bear weight. Distal pulses and sensation are intact. An AP radiograph of the left femur is shown. Which mechanism of injury best explains this fracture pattern?",
+      "image": {
+        "src": "images/fractures/001.jpg",
+        "caption": "AP radiograph, left femur",
+        "credit": "Slides p. 7"
+      },
+      "answers": {
+        "A": "Compression force along the bone's long axis",
+        "B": "Direct impact at an angle to the bone",
+        "C": "Direct impact perpendicular to the bone",
+        "D": "Repetitive overload of normal bone",
+        "E": "Rotational force applied to the bone"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Axial compression produces an impacted (compression) fracture, with fragments driven into each other, as in vertebral bodies.",
+        "B": "An angled direct blow produces an oblique fracture, a single straight line at an angle, not a line spiralling around the shaft.",
+        "C": "A direct blow at right angles to the shaft produces a transverse fracture, a line straight across the bone.",
+        "D": "Repetitive overload causes a stress (hairline) fracture, not a displaced fracture after a single twisting injury.",
+        "E": "Correct. The long, helical fracture line winding around the shaft is a spiral fracture, produced by torque, as when the body twists over a planted ski."
+      }
+    },
+    {
+      "id": "msk-fractures-002",
+      "question": "A 16-year-old soccer player feels a sudden pop and sharp pain at the outer aspect of his knee while forcefully pivoting away from an opponent. He has point tenderness over the lateral knee but no deformity, and the skin is intact. An AP radiograph of the knee is shown; the arrow marks the abnormality. Which fracture type is shown?",
+      "image": {
+        "src": "images/fractures/002.jpg",
+        "caption": "AP radiograph, knee",
+        "credit": "Slides p. 9"
+      },
+      "answers": {
+        "A": "Avulsion",
+        "B": "Comminuted",
+        "C": "Spiral",
+        "D": "Stress",
+        "E": "Torus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A small bony fragment pulled off the edge of the bone (arrow) is an avulsion fracture: a sudden forceful pull on a tendon or ligament while the bone moves the opposite way.",
+        "B": "A comminuted fracture has multiple fragments across the bone, usually from large forces, not a single small fleck at an attachment site.",
+        "C": "A spiral fracture winds around the shaft of a long bone after torque; the femoral shaft here is intact.",
+        "D": "A stress fracture is a hairline crack from repetitive overload, not a displaced fragment after one sudden pull.",
+        "E": "A torus (buckle) fracture is a pediatric bulge of the cortex on the compression side; it does not separate a fragment."
+      }
+    },
+    {
+      "id": "msk-fractures-003",
+      "question": "A 6-year-old girl falls onto her outstretched hand at the playground. She has wrist pain and mild swelling, and the skin is intact. Radiographs show a bulge in the dorsal cortex of the distal radial metaphysis, where the compressive force acted; the opposite (convex) cortex is intact and there is no fracture line through the growth plate. Which fracture type is this?",
+      "answers": {
+        "A": "Greenstick fracture",
+        "B": "Salter type I fracture",
+        "C": "Stress fracture",
+        "D": "Torus fracture",
+        "E": "Transverse fracture"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A greenstick fracture breaks the cortex on the tension side and leaves the concave side intact; here the disruption is on the compression side.",
+        "B": "A Salter type I fracture runs straight across the growth plate, which this film shows is not involved.",
+        "C": "A stress fracture is a hairline fracture from repetitive overload, not a buckle after a single fall.",
+        "D": "Correct. A torus (buckle) fracture disrupts the cortex on the side of the compressive force with the convex side intact; children's porous, flexible bone buckles instead of breaking through.",
+        "E": "A transverse fracture is a complete break straight across the bone from a perpendicular impact; here the opposite cortex is intact."
+      }
+    },
+    {
+      "id": "msk-fractures-004",
+      "question": "A 12-year-old boy injures his ankle sliding into base. Radiographs show a fracture line that runs along part of the distal tibial growth plate and then exits upward through the metaphysis; the epiphysis is not involved. Distal pulses and sensation are intact. Why is referral to an orthopedic specialist most important for this injury?",
+      "answers": {
+        "A": "Avascular necrosis of the talus is likely",
+        "B": "Compartment syndrome is the usual outcome",
+        "C": "Nonunion occurs in most such fractures",
+        "D": "Open reduction is always required at once",
+        "E": "Risk of growth arrest or asymmetry"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Avascular necrosis of the talus relates to talar fractures with tenuous blood supply, not to a fracture through the tibial growth plate.",
+        "B": "Compartment syndrome can follow any fracture with swelling but is not the specific reason growth plate injuries go to orthopedics.",
+        "C": "Nonunion is a risk at sites like the scaphoid, hamate, femoral neck, tibia and talus, but it is not the typical outcome of a growth plate fracture.",
+        "D": "Growth plate fractures need specialist management, but the reason given in the lecture is risk to growth, not that every case needs immediate open surgery.",
+        "E": "Correct. This is a Salter type II fracture (through the growth plate and above it); Salter fractures need orthopedic management because inappropriate treatment can cause growth arrest or asymmetric bone growth."
+      }
+    },
+    {
+      "id": "msk-fractures-005",
+      "question": "A 25-year-old man is brought to the emergency department after a motorcycle crash. The primary survey is completed and he is hemodynamically stable. His right lower leg is deformed, and there is a 2-cm laceration over the mid-tibia with bone visible in the wound. Dorsalis pedis pulse and foot sensation are intact. His last tetanus immunization was 12 years ago. In addition to immobilization, which is the most appropriate management?",
+      "table": [
+        [
+          "Vital sign",
+          "Value"
+        ],
+        [
+          "Blood pressure",
+          "128/78 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "96/min"
+        ],
+        [
+          "Respiratory rate",
+          "18/min"
+        ],
+        [
+          "SpO2",
+          "98% on room air"
+        ]
+      ],
+      "answers": {
+        "A": "Antibiotics, tetanus, irrigation and debridement",
+        "B": "Cast application and outpatient orthopedic follow-up",
+        "C": "Closed reduction and long-leg splint only",
+        "D": "MRI of the tibia before any further treatment",
+        "E": "Tetanus booster and primary wound closure in the ED"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Any break in the skin makes this an open fracture, with increased risk of osteomyelitis; it needs immobilization, a tetanus booster, antibiotics, and irrigation and debridement, with surgical intervention.",
+        "B": "Casting and routine follow-up suits a simple closed fracture; an open fracture needs infection prevention and surgery.",
+        "C": "Reduction and splinting alone leave the wound contaminated and miss antibiotics, tetanus prophylaxis and debridement.",
+        "D": "Advanced imaging is reserved for a suspected fracture with negative radiographs; it should not delay care of an obvious open fracture.",
+        "E": "Closing the wound without antibiotics and debridement traps contamination and raises the risk of osteomyelitis."
+      }
+    },
+    {
+      "id": "msk-fractures-006",
+      "question": "A 15-month-old boy is brought to the emergency department with right leg swelling after tripping while running after the family dog. He began walking a few months ago, has no past medical history or developmental delay, and appears well. The only finding is swelling of the distal right leg; distal pulses and capillary refill are normal. Which is the most appropriate next step?",
+      "answers": {
+        "A": "MRI of the right tibia and ankle",
+        "B": "Radiograph of the tibia, lateral view only",
+        "C": "Radiographs of the tibia, AP and lateral",
+        "D": "Reduction of the leg and application of a cast",
+        "E": "Referral to the Department of Human Services"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "MRI is reserved for when radiographs are negative and the exam still suggests fracture; plain films come first.",
+        "B": "A single view can miss a fracture; at least 2 views are required.",
+        "C": "Correct. Radiographs are the first study; they should include the entire bone in at least 2 views, and the child is neurovascularly intact, so imaging comes before immobilization.",
+        "D": "Imaging comes before immobilization in a neurovascularly intact patient, and nothing yet shows a fracture to reduce.",
+        "E": "An ambulatory toddler with a plausible low-energy mechanism and no red flags does not warrant a report; red flags include non-ambulatory age, multiple, posterior rib or sternal fractures."
+      }
+    },
+    {
+      "id": "msk-fractures-007",
+      "question": "A 15-month-old girl who recently learned to walk is evaluated for distal right leg swelling after a minor trip. AP and lateral radiographs of the right tibia are read as normal. On re-examination, she has point tenderness over the distal right tibia and refuses to bear weight on that leg. Which is the most appropriate next step?",
+      "answers": {
+        "A": "Cast and repeat radiographs in 2 weeks",
+        "B": "Discharge without immobilization and reassure",
+        "C": "Obtain an MRI of the tibia and ankle today",
+        "D": "Order a 3-view radiograph series of the tibia",
+        "E": "Reduce the fracture under sedation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A fracture may not be visible at first; with point tenderness, immobilize and repeat radiographs in about 2 weeks, when healing callus makes it visible.",
+        "B": "Point tenderness with refusal to bear weight suggests an occult fracture that should be immobilized, not dismissed.",
+        "C": "Advanced imaging is not the routine next step in a young child when casting and repeat films will answer the question.",
+        "D": "An extra oblique view adds little right after a normal 2-view study; the fracture becomes visible later with callus.",
+        "E": "There is no visible displaced fracture to reduce; reduction is for displacement that interferes with function."
+      }
+    },
+    {
+      "id": "msk-fractures-008",
+      "question": "A 40-year-old woman with a nondisplaced closed tibial shaft fracture is seen for follow-up 2.5 weeks after injury. She is in a cast and her pain is improving. A new radiograph shows faint new tissue bridging the fracture site that was not visible on the initial films. Periosteal cells and fibroblasts in granulation tissue are forming cartilage at the site. Which phase of fracture healing is she in?",
+      "answers": {
+        "A": "Bone remodeling",
+        "B": "Hard callus formation",
+        "C": "Hematoma and inflammation",
+        "D": "Nonunion",
+        "E": "Soft callus formation"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Remodeling, from about 2-3 months up to 2 years, gradually reshapes healed bone back toward its pre-injury shape.",
+        "B": "Hard callus forms at about 3-6 weeks, when osteoblasts turn the soft callus into hard bone.",
+        "C": "The hematoma (inflammation) phase lasts from injury to about 2 weeks; the hematoma becomes granulation tissue but is not yet visible as callus.",
+        "D": "Nonunion is failure to heal after more than 6 months, not a normal phase at 2.5 weeks.",
+        "E": "Correct. At 2-3 weeks, periosteal cells and fibroblasts form cartilage and a fibrous matrix, the soft callus; this is when callus first becomes visible on radiographs."
+      }
+    },
+    {
+      "id": "msk-fractures-009",
+      "question": "A 22-year-old man has a closed tibial shaft fracture reduced and placed in a long-leg cast. Six hours later he reports severe, worsening leg pain not relieved by IV opioids. Passive dorsiflexion of his toes markedly worsens the pain, and he reports tingling on the dorsum of the foot. The dorsalis pedis pulse is palpable. Which is the most appropriate next step?",
+      "table": [
+        [
+          "Vital sign",
+          "Value"
+        ],
+        [
+          "Temperature",
+          "37.0 °C"
+        ],
+        [
+          "Blood pressure",
+          "136/84 mm Hg"
+        ],
+        [
+          "Heart rate",
+          "110/min"
+        ],
+        [
+          "Capillary refill (toes)",
+          "2 seconds"
+        ]
+      ],
+      "answers": {
+        "A": "Elevate the leg and increase opioid dosing",
+        "B": "Observe until the distal pulse is lost",
+        "C": "Obtain a duplex ultrasound for DVT",
+        "D": "Remove the cast and perform fasciotomy",
+        "E": "Repeat radiographs to check alignment"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Pain out of proportion that persists despite opioids is the warning sign; more analgesia delays treatment.",
+        "B": "Pulselessness is a late finding that usually leads to amputation; waiting for it is harmful.",
+        "C": "DVT is a complication of trauma and immobilization, but pain with passive stretch and paresthesia in a fresh cast point to compartment syndrome.",
+        "D": "Correct. Pain with passive stretch and paresthesia indicate compartment syndrome, a clinical diagnosis; treatment is immediate cast removal and fasciotomy.",
+        "E": "Repeat films check reduction but do not address rising compartment pressure that is reducing perfusion."
+      }
+    },
+    {
+      "id": "msk-fractures-010",
+      "question": "A 6-year-old boy falls from monkey bars onto his outstretched arm. He has a swollen, deformed right elbow, and radiographs show a displaced supracondylar humerus fracture. His right hand is cool and pale, the radial pulse is not palpable, and capillary refill is delayed. Injury to which artery is most likely?",
+      "answers": {
+        "A": "Axillary artery",
+        "B": "Brachial artery",
+        "C": "Popliteal artery",
+        "D": "Subclavian artery",
+        "E": "Ulnar artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The axillary artery is at risk with proximal humerus fractures, not with fractures just above the elbow.",
+        "B": "Correct. The brachial artery runs anterior to the distal humerus and is the artery at risk in supracondylar fractures; treatment is immediate reduction and immobilization in a neurovascularly intact position.",
+        "C": "The popliteal artery is at risk with tibial fractures around the knee, not in the arm.",
+        "D": "The subclavian artery is at risk with clavicle fractures.",
+        "E": "The ulnar artery is a distal branch; a supracondylar fracture compromises the brachial artery above its division."
+      }
+    },
+    {
+      "id": "msk-fractures-011",
+      "question": "A 45-year-old man falls from a ladder onto his left arm. Radiographs show a closed, displaced fracture of the mid-shaft of the left humerus. On examination he cannot extend his wrist or fingers and has decreased sensation over the dorsum of the hand between the thumb and index finger. Elbow flexion is normal. Which nerve is most likely injured?",
+      "answers": {
+        "A": "Axillary nerve",
+        "B": "Median nerve",
+        "C": "Musculocutaneous nerve",
+        "D": "Radial nerve",
+        "E": "Ulnar nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The axillary nerve is at risk with proximal humerus fractures and causes deltoid weakness and lateral shoulder numbness.",
+        "B": "The median nerve can be injured with humeral and supracondylar fractures, but it causes loss of thumb opposition and palmar numbness, not wrist drop.",
+        "C": "Musculocutaneous injury weakens elbow flexion, which is normal here.",
+        "D": "Correct. The radial nerve wraps around the humeral shaft and is the nerve most often injured with shaft fractures, causing wrist drop and dorsal hand numbness.",
+        "E": "The ulnar nerve can be injured with distal humerus fractures but causes clawing and medial hand numbness, not wrist drop."
+      }
+    },
+    {
+      "id": "msk-fractures-012",
+      "question": "A 26-year-old woman is seen 2 months after a nondisplaced distal radius fracture that was treated in a splint. She reports burning pain in the right hand so severe that she cannot hold a pencil, and light touch is painful. On examination, the dorsum of the right hand and wrist is edematous and bluish, the skin is cooler and shinier than on the left, and the nails show new ridging. Radiographs show a healing fracture in good alignment. Which is the most likely diagnosis?",
+      "answers": {
+        "A": "Cellulitis of the hand",
+        "B": "Chronic regional pain syndrome",
+        "C": "Compartment syndrome of the forearm",
+        "D": "Deep vein thrombosis of the arm",
+        "E": "Nonunion of the distal radius"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cellulitis causes warmth, erythema and fever, not allodynia with trophic skin and nail changes weeks after a fracture.",
+        "B": "Correct. Pain out of proportion to the injury with allodynia, autonomic changes (color, edema, temperature difference) and trophic changes (skin, nails, hair) after a fracture is CRPS.",
+        "C": "Compartment syndrome is an acute complication within hours to days of injury, not 2 months later.",
+        "D": "DVT can cause swelling but not allodynia, burning pain, or trophic nail and skin changes.",
+        "E": "Nonunion is failure to heal after more than 6 months, and the radiograph shows good healing."
+      }
+    },
+    {
+      "id": "msk-fractures-013",
+      "question": "A 38-year-old man has burning pain, allodynia, sweating and color change of his left foot 10 weeks after a casted ankle fracture. Radiographs show a healed fracture. He has been keeping the foot elevated and avoiding all movement because touch is painful. Which management is most appropriate?",
+      "answers": {
+        "A": "Gabapentin and desensitization therapy",
+        "B": "Long-term scheduled opioid analgesics",
+        "C": "Open reduction and internal fixation",
+        "D": "Reapplication of a cast for 6 more weeks",
+        "E": "Urgent fasciotomy of the foot"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CRPS is treated with PT/OT for desensitization and range of motion, neuropathic pain drugs (gabapentinoids or tricyclics), a possible short course of oral steroids, and psychology.",
+        "B": "Opioids are not among the CRPS treatments taught and do not address the neuropathic pain or the disuse.",
+        "C": "The fracture has healed; surgery treats nonunion or unstable fractures, not CRPS.",
+        "D": "Prolonged immobilization worsens CRPS; avoiding it is part of prevention.",
+        "E": "Fasciotomy treats acute compartment syndrome, not a chronic pain syndrome weeks after injury."
+      }
+    },
+    {
+      "id": "msk-fractures-014",
+      "question": "A 58-year-old woman with a nondisplaced distal radius fracture after a fall is placed in a splint. She asks what she can do to lower her risk of chronic pain complications. Which measure is most likely to reduce her risk of chronic regional pain syndrome?",
+      "answers": {
+        "A": "Daily oral vitamin C",
+        "B": "Daily scheduled NSAIDs for 3 months",
+        "C": "Prolonged strict immobilization",
+        "D": "Short course of oral prednisone",
+        "E": "Weekly oral alendronate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Vitamin C 500 mg daily, together with avoiding prolonged immobilization, is the prevention strategy for CRPS after fracture.",
+        "B": "Chronic NSAID use is avoided after fractures because it may impair bone healing, and it does not prevent CRPS.",
+        "C": "Prolonged immobilization increases the risk of CRPS; it should be avoided.",
+        "D": "A short steroid course is a CRPS treatment option, not routine prevention; glucocorticoids also impair bone healing.",
+        "E": "A bisphosphonate treats osteoporosis to prevent future fractures; it does not prevent CRPS."
+      }
+    },
+    {
+      "id": "msk-fractures-015",
+      "question": "A 29-year-old man who smokes a pack of cigarettes daily fell on his outstretched hand 8 months ago and was treated in a thumb spica cast for a nondisplaced scaphoid waist fracture. He still has wrist pain and tenderness in the anatomic snuffbox. Radiographs show a persistent fracture line with sclerotic edges and no bridging bone. Which is the most appropriate management?",
+      "answers": {
+        "A": "Closed reduction and repeat casting",
+        "B": "Gabapentin and desensitization therapy",
+        "C": "Observation with repeat films in 1 year",
+        "D": "Open reduction and internal fixation",
+        "E": "Short course of oral glucocorticoids"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Further casting is unlikely to work after more than 6 months without union, especially at a site with tenuous blood supply.",
+        "B": "These treat CRPS, which causes neuropathic pain with autonomic and trophic changes, not a persistent fracture line.",
+        "C": "An un-united fracture after 8 months is a nonunion and will not reliably heal with time.",
+        "D": "Correct. Failure to heal after more than 6 months is a nonunion; the scaphoid is a high-risk site (tenuous blood supply), smoking adds risk, and treatment is open reduction and fixation.",
+        "E": "Glucocorticoids impair bone healing and are not a treatment for nonunion."
+      }
+    },
+    {
+      "id": "msk-fractures-016",
+      "question": "A 52-year-old woman with rheumatoid arthritis has a closed tibial shaft fracture that is healing slowly; at 5 months, radiographs show little bridging callus. She does not smoke or drink alcohol. Her medications include several chronic drugs. Which of her medications is most likely contributing to impaired fracture healing?",
+      "answers": {
+        "A": "Atorvastatin",
+        "B": "Hydrochlorothiazide",
+        "C": "Lisinopril",
+        "D": "Methotrexate",
+        "E": "Metoprolol"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Statins are not among the drugs listed as affecting bone healing.",
+        "B": "Thiazide diuretics are not among the drugs that impair bone healing.",
+        "C": "ACE inhibitors are not known to impair fracture healing.",
+        "D": "Correct. Methotrexate is among the drugs that impair bone healing, with NSAIDs, glucocorticoids, fluoroquinolones, gentamicin, cyclophosphamide, doxorubicin and tetracycline.",
+        "E": "Beta blockers are not among the drugs that impair bone healing."
+      }
+    },
+    {
+      "id": "msk-fractures-017",
+      "question": "A 68-year-old man with a history of prostate cancer treated 4 years ago feels a crack in his right upper arm while lifting a bag of groceries. He reports 6 kg weight loss and fatigue over 3 months. Radiographs show a fracture through a lytic lesion in the proximal humeral shaft. Laboratory studies are shown. Which is the most appropriate next step in evaluation?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Hemoglobin",
+          "10.8 g/dL",
+          "13.5-17.5 g/dL"
+        ],
+        [
+          "Calcium",
+          "11.2 mg/dL",
+          "8.5-10.5 mg/dL"
+        ],
+        [
+          "Alkaline phosphatase",
+          "310 U/L",
+          "40-130 U/L"
+        ],
+        [
+          "Creatinine",
+          "1.0 mg/dL",
+          "0.6-1.2 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Casting with routine orthopedic follow-up in 6 weeks",
+        "B": "CBC, BMP, vitamin D and advanced imaging",
+        "C": "Dual-energy x-ray absorptiometry only",
+        "D": "Repeat radiographs in 2 weeks",
+        "E": "Skeletal survey and social work referral"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Treating it as a simple traumatic fracture misses the red flags for an underlying malignancy.",
+        "B": "Correct. A low-force fracture through abnormal bone with a cancer history and constitutional symptoms is a pathologic fracture; workup includes CBC, BMP with calcium and phosphorus, vitamin D, and advanced imaging for suspected malignancy.",
+        "C": "Bone density testing screens for osteoporosis but does not evaluate a lytic lesion or metastasis.",
+        "D": "Repeat films are for a suspected fracture not seen initially; here the fracture and an abnormal lesion are already visible.",
+        "E": "A skeletal survey with a report to child services is the workup for suspected child abuse, not an adult pathologic fracture."
+      }
+    },
+    {
+      "id": "msk-fractures-018",
+      "question": "A 3-month-old boy is brought to the emergency department because he cries when picked up. His parents say he rolled off the couch yesterday. He cannot yet roll over on his own. Chest radiograph shows healing fractures of the left posterior 5th through 7th ribs. He is otherwise well appearing. Which is the most appropriate next step?",
+      "answers": {
+        "A": "Discharge with a follow-up visit in 1 week",
+        "B": "Order a CT scan of the chest",
+        "C": "Prescribe analgesics and a rib binder",
+        "D": "Skeletal survey and Human Services report",
+        "E": "Vitamin D level and reassurance of parents"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Any fracture in a non-ambulatory infant, especially posterior rib fractures, needs further workup and a report, not discharge.",
+        "B": "CT adds little to the management of known rib fractures; the priority is finding other fractures and protecting the child.",
+        "C": "Symptom care alone misses the red flags for non-accidental trauma.",
+        "D": "Correct. A fracture in a non-ambulatory child and posterior rib fractures are red flags for non-accidental trauma; report to the Department of Human Services and obtain a skeletal survey, labs for metabolic bone disease, and an eye exam.",
+        "E": "Labs to rule out metabolic bone disease are part of the workup, but reassurance without a report and skeletal survey is unsafe."
+      }
+    },
+    {
+      "id": "msk-fractures-019",
+      "question": "A 5-year-old boy falls off his bicycle onto his left arm. He has pain and swelling of the forearm. There is gross deformity of the mid-forearm but no wound or break in the skin, and radial pulse and hand sensation are intact. A radiograph of the left forearm is shown. Which best describes this fracture?",
+      "image": {
+        "src": "images/fractures/019.jpg",
+        "caption": "Radiograph, left forearm",
+        "credit": "Slides p. 38"
+      },
+      "answers": {
+        "A": "Closed displaced, angulated oblique ulnar fracture",
+        "B": "Closed greenstick fracture of the distal radial shaft",
+        "C": "Closed nondisplaced transverse radial fracture",
+        "D": "Closed torus fracture of the distal ulnar metaphysis",
+        "E": "Open comminuted ulnar shaft fracture"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The skin is intact (closed), the break is in the mid-shaft of the ulna, the line runs at an angle (oblique), and the fragments are both shifted and tilted (displaced and angulated).",
+        "B": "A greenstick fracture leaves the concave cortex intact; here the bone is broken through with a gap and offset.",
+        "C": "The fracture line is angled, not straight across, and the fragments are clearly shifted and tilted.",
+        "D": "A torus fracture is a buckle of the cortex near the metaphysis without a complete break; this is a complete mid-shaft fracture.",
+        "E": "There is no break in the skin, so it is not open, and there is one fracture line rather than multiple fragments."
+      }
+    },
+    {
+      "id": "msk-fractures-020",
+      "question": "An 82-year-old woman is brought in after a fall from standing in her kitchen. She has right groin pain and cannot walk. Her right leg appears shorter than the left and is held in an abnormal position. She has never had bone density testing. An AP pelvic radiograph is shown; the arrow marks the abnormality. After surgical repair, which intervention is most important to prevent future fractures of this kind?",
+      "image": {
+        "src": "images/fractures/020.jpg",
+        "caption": "AP pelvic radiograph",
+        "credit": "Slides p. 28"
+      },
+      "answers": {
+        "A": "Annual skeletal survey radiographs",
+        "B": "Daily vitamin C supplementation",
+        "C": "Long-term scheduled NSAID therapy",
+        "D": "Osteoporosis screening and treatment",
+        "E": "Prolonged bed rest after hospital discharge"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Skeletal surveys look for occult fractures in suspected child abuse; they do not prevent fractures.",
+        "B": "Vitamin C after a fracture helps prevent CRPS, not further insufficiency fractures.",
+        "C": "Chronic NSAIDs may impair bone healing and do not prevent fractures.",
+        "D": "Correct. A low-energy hip fracture in an older adult is an insufficiency fracture; prevention is osteoporosis screening and intervention.",
+        "E": "Prolonged immobilization raises the risk of DVT, PE, contractures and muscle atrophy and does not prevent fractures."
+      }
+    }
+  ]
+}

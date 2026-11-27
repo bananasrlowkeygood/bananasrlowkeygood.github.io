@@ -1,0 +1,652 @@
+{
+  "lecture": "Metabolic Bone Disease",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "questions": [
+    {
+      "id": "msk-metabolic-bone-disease-001",
+      "question": "A 30-year-old man has an iliac crest bone biopsy as part of a research study. At one remodeling site, osteoclasts have finished excavating a resorption cavity. Mononuclear cells of probable monocyte/macrophage lineage now line the cavity and a glycoprotein-rich cement line is being deposited on the resorbed surface. Which phase of the remodeling cycle will occur next at this site?",
+      "answers": {
+        "A": "Formation",
+        "B": "Mineralization",
+        "C": "Quiescence",
+        "D": "Resorption",
+        "E": "Reversal"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: the cement line is laid down in the reversal phase, and new osteoblasts adhere to it and begin the formation phase.",
+        "B": "Mineralization of new osteoid begins about two weeks after it is laid down, so it follows formation rather than reversal.",
+        "C": "The prolonged resting period with flattened lining cells comes after formation is complete, not directly after reversal.",
+        "D": "Resorption by osteoclasts has already finished at this site; it starts each cycle rather than following reversal.",
+        "E": "The mononuclear cells and cement line described are the reversal phase itself, which is under way, not the next step."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-002",
+      "question": "A 64-year-old postmenopausal woman is started on a monoclonal antibody for osteoporosis. The drug binds a ligand that osteocytes and osteoblasts express and that must engage its receptor on monocyte-derived precursor cells for them to become mature bone-resorbing cells. Which molecule does this drug most likely bind?",
+      "answers": {
+        "A": "Bone morphogenetic protein",
+        "B": "FGF23",
+        "C": "RANKL",
+        "D": "Sclerostin",
+        "E": "Wnt ligand"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "BMPs promote osteoblast differentiation, so blocking them would not reduce osteoclast formation.",
+        "B": "FGF23 acts on the kidney to cause phosphate wasting and has no direct role in osteoclast generation.",
+        "C": "Correct: RANKL from osteocytes and osteoblasts binds RANK on osteoclast precursors and drives osteoclastogenesis; blocking it reduces resorption.",
+        "D": "Sclerostin is an osteocyte product that regulates osteoblast generation by inhibiting Wnt signaling, not osteoclast formation.",
+        "E": "Wnt signaling drives osteoblast differentiation; blocking it would reduce bone formation, not osteoclast generation."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-003",
+      "question": "A 62-year-old postmenopausal woman comes to the emergency department after tripping at home and falling from standing height onto her left side. Radiographs show a left femoral neck fracture. She has no other medical problems. After surgical repair, DXA scanning is performed. Which of the following is the most accurate diagnosis?",
+      "table": [
+        [
+          "DXA site",
+          "T-score"
+        ],
+        [
+          "Lumbar spine",
+          "−1.8"
+        ],
+        [
+          "Right total hip",
+          "−2.1"
+        ]
+      ],
+      "answers": {
+        "A": "Normal bone density",
+        "B": "Osteomalacia",
+        "C": "Osteopenia",
+        "D": "Osteoporosis",
+        "E": "Paget disease of bone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Her T-scores are below −1, and her hip fracture from a standing fall is a fragility fracture regardless.",
+        "B": "Osteomalacia is a mineralization defect suggested by bone pain, proximal weakness, low phosphate and Looser zones, none of which is described.",
+        "C": "Her T-scores fall in the osteopenic range, but a fragility fracture establishes osteoporosis whatever the T-score.",
+        "D": "Correct: a hip fracture from a fall from standing height is a fragility fracture, which defines osteoporosis even when T-scores are above −2.5.",
+        "E": "Paget disease is focal accelerated remodeling with elevated alkaline phosphatase and pagetic radiographic changes, not a low-trauma fracture with diffusely low BMD."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-004",
+      "question": "A 66-year-old woman comes for a health maintenance visit. She has never had a fracture and has not taken any bone-active medication. She smokes half a pack of cigarettes daily and her mother had a hip fracture at age 78. DXA scanning and a US-adapted FRAX calculation are performed. Which of the following best describes her bone density category and whether pharmacologic therapy is indicated?",
+      "table": [
+        [
+          "Measurement",
+          "Result"
+        ],
+        [
+          "Lumbar spine T-score",
+          "−1.6"
+        ],
+        [
+          "Femoral neck T-score",
+          "−2.2"
+        ],
+        [
+          "FRAX 10-yr major osteoporotic fracture",
+          "23%"
+        ],
+        [
+          "FRAX 10-yr hip fracture",
+          "2.4%"
+        ]
+      ],
+      "answers": {
+        "A": "Normal density; no therapy",
+        "B": "Osteopenia; no therapy yet",
+        "C": "Osteopenia; therapy indicated",
+        "D": "Osteoporosis; no therapy yet",
+        "E": "Osteoporosis; therapy indicated"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Her lowest T-score is −2.2, below the normal cutoff of −1.",
+        "B": "A T-score between −1 and −2.5 alone would not mandate therapy, but her FRAX major osteoporotic fracture risk exceeds the 20% threshold.",
+        "C": "Correct: with a T-score between −1 and −2.5, treatment is indicated when the 10-year FRAX risk is at least 20% for major osteoporotic fracture or 3% for hip fracture; her major risk is 23%.",
+        "D": "None of her T-scores is −2.5 or lower and she has had no fragility fracture, so she does not meet the definition of osteoporosis.",
+        "E": "Therapy is indicated, but her T-scores place her in the osteopenic range, not the osteoporotic range."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-005",
+      "question": "A 34-year-old woman has a wrist fracture after a minor fall. She has regular menses, has had chronic intermittent diarrhea and a 6-kg weight loss over 2 years, and takes no medications. DXA shows a lumbar spine Z-score of −2.4 and a femoral neck Z-score of −2.2. Which of the following is the most appropriate next step in management?",
+      "answers": {
+        "A": "Begin oral alendronate",
+        "B": "Calculate a FRAX score",
+        "C": "Repeat DXA in 2 years",
+        "D": "Start teriparatide injections",
+        "E": "Test for secondary causes"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Antiresorptive therapy before identifying the cause of premature bone loss could miss a treatable condition such as malabsorption with vitamin D deficiency.",
+        "B": "FRAX is validated only for untreated patients aged 40 to 90, so it does not apply to this 34-year-old.",
+        "C": "Waiting 2 years ignores a fragility fracture and a strikingly low Z-score with clues to a secondary cause.",
+        "D": "Anabolic therapy is not first-line before secondary causes such as vitamin D deficiency from malabsorption are excluded and treated.",
+        "E": "Correct: a Z-score of −2 or lower in a premenopausal woman is below the expected range for age and should prompt a search for secondary causes, here suggested by malabsorptive symptoms (e.g., celiac disease)."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-006",
+      "question": "A 23-year-old woman who runs competitively has a tibial stress fracture after increasing her training mileage. She has had no menstrual period for 14 months and her BMI is 17.5 kg/m². She takes no medications. DXA shows a lumbar spine Z-score of −2.3. Which of the following is the most likely cause of her low bone density?",
+      "answers": {
+        "A": "Estrogen deficiency",
+        "B": "Glucocorticoid excess",
+        "C": "Hyperparathyroidism",
+        "D": "Type I collagen defect",
+        "E": "Vitamin D receptor defect"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: athletic amenorrhea (like anorexia nervosa) causes hypogonadism, and loss of estrogen is a secondary cause of osteoporosis.",
+        "B": "Glucocorticoid-induced osteoporosis requires chronic corticosteroid use or Cushing syndrome, which is not described.",
+        "C": "Hyperparathyroidism would present with hypercalcemia, kidney stones or high PTH rather than amenorrhea and low body weight.",
+        "D": "Osteogenesis imperfecta from type I collagen mutations presents in childhood with recurrent fractures, blue sclerae and dental abnormalities.",
+        "E": "Vitamin D receptor dysfunction (VDDR II) causes calcipenic rickets in early childhood, not adult amenorrhea with low weight."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-007",
+      "question": "A 72-year-old woman with Paget disease of the pelvis and right femur, diagnosed 3 years ago, comes for follow-up. She walks a mile daily and has had no recent immobilization. She reports fatigue and constipation. Laboratory studies are shown. Which of the following best explains her serum calcium?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Calcium",
+          "11.3 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "Phosphorus",
+          "2.3 mg/dL",
+          "2.5–4.5 mg/dL"
+        ],
+        [
+          "Intact PTH",
+          "96 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "25-hydroxyvitamin D",
+          "34 ng/mL",
+          "30–100 ng/mL"
+        ],
+        [
+          "Alkaline phosphatase",
+          "210 U/L",
+          "40–120 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Expected finding in active Paget disease",
+        "B": "Immobilization-related bone resorption",
+        "C": "Secondary hyperparathyroidism",
+        "D": "Tumor-induced osteomalacia",
+        "E": "Unrelated primary hyperparathyroidism"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Serum calcium and phosphorus are normal in most patients with Paget disease; hypercalcemia is not an expected feature.",
+        "B": "She is fully ambulatory, so immobilization cannot explain the hypercalcemia.",
+        "C": "Secondary hyperparathyroidism (e.g., from vitamin D deficiency) raises PTH to correct a low calcium, so serum calcium would not be elevated; her vitamin D is normal.",
+        "D": "Tumor-induced osteomalacia causes FGF23-mediated renal phosphate wasting with low phosphate and normal calcium, not hypercalcemia.",
+        "E": "Correct: serum calcium is normal in most patients with Paget disease, so hypercalcemia with an inappropriately high PTH in an ambulatory patient points to a second disorder such as primary hyperparathyroidism."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-008",
+      "question": "A 15-month-old boy is brought for evaluation of bowed legs. He was exclusively breastfed without supplements until 12 months of age and rarely goes outdoors. Examination shows widened wrists and beading along the costochondral junctions. Laboratory studies are shown. Which of the following best explains his serum phosphate concentration?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Calcium",
+          "8.6 mg/dL",
+          "8.8–10.8 mg/dL"
+        ],
+        [
+          "Phosphorus",
+          "3.0 mg/dL",
+          "3.8–6.5 mg/dL"
+        ],
+        [
+          "Alkaline phosphatase",
+          "980 U/L",
+          "150–420 U/L"
+        ],
+        [
+          "Intact PTH",
+          "142 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "25-hydroxyvitamin D",
+          "7 ng/mL",
+          "30–100 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Generalized proximal tubular dysfunction",
+        "B": "Increased FGF23 from a PHEX variant",
+        "C": "PTH-mediated renal phosphaturia",
+        "D": "Reduced PTH-mediated bone resorption",
+        "E": "Tumor secretion of FGF23"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Fanconi syndrome would also cause glucosuria with normal plasma glucose, aminoaciduria and proximal RTA, and would not explain the low vitamin D.",
+        "B": "X-linked hypophosphatemia causes FGF23-mediated phosphate wasting with a normal vitamin D level and typically normal PTH.",
+        "C": "Correct: vitamin D deficiency lowers calcitriol and intestinal calcium absorption, causing secondary hyperparathyroidism, and high PTH causes phosphaturia and hypophosphatemia.",
+        "D": "PTH is elevated here, which increases rather than reduces bone resorption, and resorption would release rather than remove phosphate.",
+        "E": "Tumor-induced osteomalacia is an acquired adult disorder with a normal vitamin D level, not nutritional rickets in a toddler."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-009",
+      "question": "A 3-year-old girl is evaluated for progressive bowing of the legs and short stature despite a normal diet and adequate vitamin D supplementation. Her mother had leg-straightening surgery as a child and has short stature. Laboratory studies show the values listed, and urinary phosphate excretion is inappropriately high. Increased circulating levels of which of the following is most likely responsible for her condition?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Calcium",
+          "9.4 mg/dL",
+          "8.8–10.8 mg/dL"
+        ],
+        [
+          "Phosphorus",
+          "2.6 mg/dL",
+          "3.8–6.5 mg/dL"
+        ],
+        [
+          "Alkaline phosphatase",
+          "690 U/L",
+          "150–420 U/L"
+        ],
+        [
+          "Intact PTH",
+          "48 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "25-hydroxyvitamin D",
+          "38 ng/mL",
+          "30–100 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Calcitonin",
+        "B": "FGF23",
+        "C": "Osteoprotegerin",
+        "D": "Parathyroid hormone",
+        "E": "Sclerostin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Calcitonin lowers serum calcium by inhibiting osteoclasts and does not cause renal phosphate wasting or rickets.",
+        "B": "Correct: X-linked hypophosphatemia, inherited dominantly, results from loss-of-function PHEX variants that raise FGF23, which inhibits renal sodium/phosphate cotransporters and causes phosphate wasting.",
+        "C": "Osteoprotegerin is a decoy receptor for RANKL that reduces osteoclast activation; it does not affect renal phosphate handling.",
+        "D": "Her PTH is normal, which argues against PTH-driven phosphaturia such as the secondary hyperparathyroidism of vitamin D deficiency.",
+        "E": "Sclerostin regulates osteoblast generation and does not cause renal phosphate wasting."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-010",
+      "question": "A 4-year-old boy with rickets is found to have a loss-of-function variant in the PHEX gene. His serum phosphate is low with high urinary phosphate excretion, and serum calcium, PTH and 25-hydroxyvitamin D are normal. Which of the following is the most appropriate treatment?",
+      "answers": {
+        "A": "Alendronate",
+        "B": "Calcitriol and phosphate",
+        "C": "Calcium carbonate alone",
+        "D": "Cholecalciferol, high dose",
+        "E": "Surgical tumor resection"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bisphosphonates reduce bone resorption and do not correct renal phosphate wasting or the mineralization defect.",
+        "B": "Correct: X-linked hypophosphatemia is treated with calcitriol and phosphate (or burosumab), replacing the phosphate lost through FGF23-mediated wasting.",
+        "C": "Calcium alone treats calcipenic rickets from calcium deficiency, but this child's calcium is normal and his problem is phosphate loss.",
+        "D": "High-dose vitamin D treats nutritional vitamin D deficiency; his 25-hydroxyvitamin D is already normal.",
+        "E": "Tumor resection cures tumor-induced osteomalacia, an acquired disorder, not a hereditary PHEX variant."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-011",
+      "question": "A 48-year-old man has 2 years of diffuse bone pain, proximal muscle weakness and difficulty rising from a chair. He had normal growth and no childhood bone disease. Imaging shows several pseudofractures and a small, slow-growing soft-tissue mass in the right thigh. Serum calcium, PTH and 25-hydroxyvitamin D are normal; serum phosphate is low with high urinary phosphate and a markedly elevated FGF23. Which of the following is the most effective treatment for his bone disease?",
+      "answers": {
+        "A": "Alendronate therapy",
+        "B": "Complete tumor resection",
+        "C": "High-dose vitamin D",
+        "D": "Oral calcium supplements",
+        "E": "Teriparatide therapy"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Bisphosphonates reduce resorption but do not stop FGF23-driven phosphate wasting, so they do not treat osteomalacia.",
+        "B": "Correct: tumor-induced osteomalacia is caused by FGF23 from a usually benign phosphaturic mesenchymal tumor; complete removal eliminates the FGF23 source and cures the disorder.",
+        "C": "His 25-hydroxyvitamin D is normal, so vitamin D replacement does not address the cause.",
+        "D": "His calcium is normal; the defect is renal phosphate wasting, which calcium does not correct.",
+        "E": "Anabolic therapy treats osteoporosis, not an FGF23-mediated mineralization defect."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-012",
+      "question": "A 6-year-old boy is evaluated for leg bowing and poor growth. Urinalysis shows 3+ glucose; serum glucose is 92 mg/dL. Urine amino acids are elevated and there is low-molecular-weight proteinuria. Additional laboratory studies are shown. A defect in which part of the nephron is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Phosphorus",
+          "2.4 mg/dL",
+          "3.8–6.5 mg/dL"
+        ],
+        [
+          "Bicarbonate",
+          "15 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Chloride",
+          "112 mEq/L",
+          "98–106 mEq/L"
+        ],
+        [
+          "Calcium",
+          "9.3 mg/dL",
+          "8.8–10.8 mg/dL"
+        ],
+        [
+          "Serum glucose",
+          "92 mg/dL",
+          "70–100 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Collecting duct",
+        "B": "Distal convoluted tubule",
+        "C": "Glomerulus",
+        "D": "Proximal tubule",
+        "E": "Thick ascending limb"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Collecting duct disorders (e.g., distal RTA, nephrogenic diabetes insipidus) do not cause glucosuria or aminoaciduria.",
+        "B": "Distal convoluted tubule defects alter sodium, calcium and magnesium handling but do not cause generalized wasting of glucose, amino acids and phosphate.",
+        "C": "Glomerular disease causes albuminuria or nephritic findings, not selective tubular wasting with normal plasma glucose.",
+        "D": "Correct: Fanconi syndrome is generalized proximal tubular dysfunction causing phosphaturia, renal glucosuria with normal plasma glucose, aminoaciduria, tubular proteinuria and proximal RTA, leading to phosphopenic rickets.",
+        "E": "Thick ascending limb defects (e.g., Bartter syndrome) cause salt wasting and hypokalemic alkalosis, not glucosuria, aminoaciduria or acidosis."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-013",
+      "question": "A 20-month-old girl has rickets with bowed legs, hypotonia and a recent hypocalcemic seizure despite a normal diet and daily vitamin D supplements. Her parents are first cousins. Laboratory studies are shown. A deficiency of which of the following is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Calcium",
+          "7.4 mg/dL",
+          "8.8–10.8 mg/dL"
+        ],
+        [
+          "Phosphorus",
+          "3.1 mg/dL",
+          "3.8–6.5 mg/dL"
+        ],
+        [
+          "Intact PTH",
+          "188 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "25-hydroxyvitamin D",
+          "41 ng/mL",
+          "30–100 ng/mL"
+        ],
+        [
+          "1,25-dihydroxyvitamin D",
+          "8 pg/mL",
+          "20–80 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Calcium-sensing receptor",
+        "B": "Hepatic 25-hydroxylase",
+        "C": "PHEX endopeptidase",
+        "D": "Renal 1α-hydroxylase",
+        "E": "Vitamin D receptor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Calcium-sensing receptor defects alter the PTH set point and do not produce rickets with low calcitriol.",
+        "B": "25-hydroxylase deficiency would cause a low 25-hydroxyvitamin D level, but hers is normal.",
+        "C": "PHEX variants cause X-linked hypophosphatemia with FGF23-mediated phosphate wasting, normal calcium and normal PTH, not hypocalcemic seizures.",
+        "D": "Correct: VDDR I is deficiency of renal 1α-hydroxylase, which converts 25-hydroxyvitamin D to 1,25-dihydroxyvitamin D, so 25(OH)D is normal while calcitriol is low.",
+        "E": "Vitamin D receptor dysfunction (VDDR II) causes end-organ resistance, in which calcitriol would be high rather than low."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-014",
+      "question": "A 31-year-old man with a seizure disorder treated with phenytoin for 10 years has diffuse bone pain and proximal muscle weakness. He eats a varied diet and works outdoors. Serum calcium is 8.3 mg/dL, phosphate is 2.4 mg/dL, alkaline phosphatase and PTH are elevated, and 25-hydroxyvitamin D is 9 ng/mL. Which of the following best explains his vitamin D level?",
+      "answers": {
+        "A": "Defective 25-hydroxylation of vitamin D",
+        "B": "End-organ resistance to calcitriol",
+        "C": "FGF23-mediated phosphate wasting",
+        "D": "Inadequate sunlight exposure",
+        "E": "Loss of renal 1α-hydroxylase activity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: phenytoin (like liver disease) impairs 25-hydroxylation of vitamin D, lowering 25-hydroxyvitamin D and causing calcipenic osteomalacia.",
+        "B": "End-organ resistance (VDDR II) presents in childhood with high calcitriol, and would not lower 25-hydroxyvitamin D.",
+        "C": "FGF23-mediated wasting (XLH, tumor-induced osteomalacia) lowers phosphate with a normal 25-hydroxyvitamin D.",
+        "D": "He works outdoors and eats a varied diet, so sunlight and dietary deficiency are unlikely.",
+        "E": "1α-hydroxylase acts after 25-hydroxylation; its loss lowers calcitriol but leaves 25-hydroxyvitamin D normal."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-015",
+      "question": "A 42-year-old woman who wears full-body covering and rarely goes outdoors has 1 year of fatigue, aching bone pain, a waddling gait and difficulty rising from a seated position. She was referred to a neurologist for suspected myopathy, but electromyography was unrevealing. Pelvic radiograph shows a radiolucent line along the medial (concave) side of the femoral neck. Laboratory studies are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Calcium",
+          "8.4 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "Phosphorus",
+          "2.2 mg/dL",
+          "2.5–4.5 mg/dL"
+        ],
+        [
+          "Alkaline phosphatase",
+          "260 U/L",
+          "40–120 U/L"
+        ],
+        [
+          "Intact PTH",
+          "121 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "25-hydroxyvitamin D",
+          "6 ng/mL",
+          "30–100 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Osteogenesis imperfecta",
+        "B": "Osteomalacia",
+        "C": "Osteopetrosis",
+        "D": "Osteoporosis",
+        "E": "Paget disease of bone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Osteogenesis imperfecta is a type I collagen disorder that presents in childhood with fractures and blue sclerae, without low vitamin D or high PTH.",
+        "B": "Correct: vitamin D deficiency in an adult causes osteomalacia, which mimics myopathy and produces Looser zones (pseudofractures) along the concave femoral neck, with secondary hyperparathyroidism and low phosphate.",
+        "C": "Osteopetrosis is an osteoclast disorder with abnormally dense bones, not pseudofractures with abnormal mineral labs.",
+        "D": "Osteoporosis is clinically silent until a fracture and has normal calcium, phosphate, PTH and alkaline phosphatase.",
+        "E": "Paget disease usually starts after 55, shows focal overgrowth with high alkaline phosphatase, and has normal calcium and phosphorus."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-016",
+      "question": "A 6-year-old boy is brought for evaluation after his second long-bone fracture from minor falls. Examination shows a broad forehead, discolored teeth with poor enamel, and hyperextensible joints. His eyes are shown. Serum calcium, phosphate, PTH and 25-hydroxyvitamin D are normal. A mutation affecting which of the following is most likely?",
+      "image": {
+        "src": "images/metabolic-bone-disease/016.jpg",
+        "caption": "Eyes of the patient",
+        "credit": "Slides p. 44"
+      },
+      "answers": {
+        "A": "Fibrillin-1",
+        "B": "PHEX endopeptidase",
+        "C": "Type I collagen",
+        "D": "Type III collagen",
+        "E": "Vitamin D receptor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Fibrillin-1 mutations cause Marfan syndrome, with tall stature, lens dislocation and aortic root dilation rather than recurrent fractures and blue sclerae.",
+        "B": "PHEX variants cause X-linked hypophosphatemia with low serum phosphate and rickets, but his phosphate is normal.",
+        "C": "Correct: osteogenesis imperfecta, a primary osteoblast disease from type I collagen mutations, causes fragile bones, hyperextensible joints, dental abnormalities and blue sclerae.",
+        "D": "Type III collagen defects cause vascular Ehlers-Danlos syndrome, with arterial and visceral rupture rather than brittle bones.",
+        "E": "Vitamin D receptor dysfunction causes calcipenic rickets with hypocalcemia and high PTH, which he does not have."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-017",
+      "question": "A 9-year-old girl has had three fractures of the femur and forearm after minor trauma. Radiographs show diffusely and abnormally dense bones throughout the skeleton. Serum calcium and phosphate are normal. Impaired function of which cell type is the primary cause of her condition?",
+      "answers": {
+        "A": "Chondrocytes",
+        "B": "Osteoblasts",
+        "C": "Osteoclasts",
+        "D": "Osteocytes",
+        "E": "Parathyroid chief cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Chondrocyte disorders affect the growth plate and cause short stature (e.g., achondroplasia), not diffusely dense, fragile bones.",
+        "B": "Osteoblast disease (osteogenesis imperfecta) causes fragile bones with osteopenia, not increased density.",
+        "C": "Correct: osteopetrosis is a primary osteoclast disease; osteoclasts cannot resorb bone, so bones become abnormally dense yet fracture easily.",
+        "D": "Osteocytes coordinate remodeling but are not the primary defect in a disease of failed resorption.",
+        "E": "Parathyroid disease would produce abnormal serum calcium and phosphate, which are normal here."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-018",
+      "question": "A 60-year-old man has 6 months of aching pain in the left hip and thigh. He has no history of trauma. Laboratory studies are shown, and a radiograph of the left proximal femur is obtained. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Calcium",
+          "9.6 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "Phosphorus",
+          "3.4 mg/dL",
+          "2.5–4.5 mg/dL"
+        ],
+        [
+          "Alkaline phosphatase",
+          "418 U/L",
+          "40–120 U/L"
+        ],
+        [
+          "Intact PTH",
+          "41 pg/mL",
+          "10–65 pg/mL"
+        ]
+      ],
+      "image": {
+        "src": "images/metabolic-bone-disease/018.jpg",
+        "caption": "Radiograph of the left proximal femur",
+        "credit": "Notes p. 3 (study question 6)"
+      },
+      "answers": {
+        "A": "Osteomalacia",
+        "B": "Osteopetrosis",
+        "C": "Osteoporosis",
+        "D": "Paget disease of bone",
+        "E": "Primary hyperparathyroidism"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Osteomalacia causes low phosphate, high PTH and Looser zones rather than a thickened, coarsely trabeculated, enlarged bone.",
+        "B": "Osteopetrosis causes diffusely dense bones from childhood rather than focal bone enlargement in an older adult.",
+        "C": "Osteoporosis is silent until fracture and has a normal alkaline phosphatase.",
+        "D": "Correct: Paget disease, typically after age 55, causes focal accelerated remodeling with an enlarged, deformed bone, thickened cortex and coarse trabeculae, and an elevated alkaline phosphatase with normal calcium and phosphorus.",
+        "E": "Primary hyperparathyroidism causes hypercalcemia and high PTH, but his calcium is normal."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-019",
+      "question": "A 67-year-old man with symptomatic Paget disease of the pelvis and tibia begins drug treatment. His physician plans to follow a laboratory test to judge whether disease activity is responding. Which of the following is the most useful test to follow?",
+      "answers": {
+        "A": "Bone-specific alkaline phosphatase",
+        "B": "Intact parathyroid hormone",
+        "C": "Serum 25-hydroxyvitamin D",
+        "D": "Serum calcium",
+        "E": "Serum phosphorus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct: bone-specific alkaline phosphatase reflects osteoblast activity and is elevated in active Paget disease, so it is the test followed to judge activity and treatment response.",
+        "B": "PTH is normal in uncomplicated Paget disease and does not track remodeling activity.",
+        "C": "25-hydroxyvitamin D reflects vitamin D stores, not the rate of pagetic bone turnover.",
+        "D": "Serum calcium is normal in most patients with Paget disease and does not track activity.",
+        "E": "Serum phosphorus is normal in most patients with Paget disease and does not track activity."
+      }
+    },
+    {
+      "id": "msk-metabolic-bone-disease-020",
+      "question": "A 70-year-old man has gradually worsening hearing loss in both ears, headaches, and a hat size that has increased over several years. Serum alkaline phosphatase is 512 U/L (reference 40–120 U/L) with normal calcium and phosphorus. Skull radiographs show areas of thickened, disorganized bone. Biopsy of an affected area shows numerous giant osteoclasts, active osteoblasts and bone with a mosaic pattern. Which of the following best describes the primary abnormality in his disease?",
+      "answers": {
+        "A": "Defective mineralization of preformed osteoid",
+        "B": "Estrogen-driven loss of trabecular bone",
+        "C": "Failure of osteoclasts to resorb bone",
+        "D": "Overactive osteoclasts, then chaotic formation",
+        "E": "Type I collagen defect in osteoblasts"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Defective mineralization of osteoid is osteomalacia, which causes low phosphate and Looser zones rather than focal overgrowth.",
+        "B": "Estrogen-driven trabecular loss is postmenopausal osteoporosis, which is silent until fracture and has normal alkaline phosphatase.",
+        "C": "Failure of osteoclast resorption is osteopetrosis, which produces diffusely dense bone from childhood.",
+        "D": "Correct: in Paget disease, localized uncontrolled formation of large, highly active osteoclasts increases resorption, followed by intense but chaotic osteoblastic activity, producing enlarged mosaic bone; skull and cochlear involvement cause headache and hearing loss.",
+        "E": "A type I collagen defect is osteogenesis imperfecta, which presents in childhood with fractures and blue sclerae."
+      }
+    }
+  ]
+}

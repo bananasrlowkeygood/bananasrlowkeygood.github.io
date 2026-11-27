@@ -1,0 +1,596 @@
+{
+  "lecture": "Drugs That Affect Bone Mineral Homeostasis",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "questions": [
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-001",
+      "question": "A 65-year-old woman with mild hypocalcemia and vitamin D deficiency is started on cholecalciferol 50,000 IU once weekly for 10 weeks, followed by a daily maintenance dose. She also takes omeprazole for reflux. Her physician wants a single laboratory test to decide whether her vitamin D stores have been adequately replaced. Which of the following serum measurements is most appropriate?",
+      "answers": {
+        "A": "1,25-dihydroxyvitamin D",
+        "B": "25-hydroxyvitamin D",
+        "C": "Ionized calcium",
+        "D": "Parathyroid hormone",
+        "E": "Urinary calcium"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Calcitriol is tightly regulated by PTH, phosphate and FGF-23 and can be normal or high in deficiency, so it is not used to assess vitamin D status.",
+        "B": "25(OH)D is the stable circulating storage form and the most accurate indicator of vitamin D status; it is the level monitored to judge adequacy of replacement.",
+        "C": "Ionized calcium is kept in range by PTH and can be normal despite persistent vitamin D deficiency, so it does not reflect vitamin D stores.",
+        "D": "PTH rises secondarily in vitamin D deficiency but is influenced by calcium, phosphate and renal function, so it is an indirect and nonspecific marker.",
+        "E": "Urinary calcium is used to detect hypercalciuria or vitamin D excess, not to confirm that deficiency has been corrected."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-002",
+      "question": "A 72-year-old woman with osteopenia is advised to take a calcium supplement because her dietary intake is about 600 mg/day. She has long-standing gastroesophageal reflux treated with daily pantoprazole and usually skips breakfast. She asks which preparation will be absorbed best given her medications. Which of the following is the most appropriate choice?",
+      "answers": {
+        "A": "Calcium carbonate at bedtime",
+        "B": "Calcium carbonate with meals",
+        "C": "Calcium citrate, fasting or with food",
+        "D": "IV calcium gluconate infusion",
+        "E": "Single 1500 mg daily carbonate dose"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Calcium carbonate needs an acidic environment for absorption, so taking it on an empty stomach while on a proton pump inhibitor would give poor absorption.",
+        "B": "Taking carbonate with meals helps in patients with normal acid secretion, but acid suppression with a PPI still limits its absorption.",
+        "C": "Calcium citrate is well absorbed in the fasting state and does not depend on gastric acid, so it is preferred in achlorhydria or with acid-reducing drugs.",
+        "D": "IV calcium is reserved for symptomatic hypocalcemia, not routine supplementation for osteoporosis prevention.",
+        "E": "Doses above 500 mg should be divided because absorption plateaus at higher single doses, and carbonate is still poorly absorbed with a PPI."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-003",
+      "question": "A 70-year-old woman with osteoporosis started a new weekly oral medication 3 weeks ago. Today she reports burning retrosternal pain and pain on swallowing that began after she took her last dose with a sip of water and lay back down in bed. Endoscopy shows a discrete ulcer in the distal esophagus. Which of the following best explains her symptoms?",
+      "answers": {
+        "A": "Direct mucosal injury from alendronate",
+        "B": "Hypercalcemia from teriparatide",
+        "C": "Immunosuppression from denosumab",
+        "D": "Rebound acid from calcium carbonate",
+        "E": "Thromboembolism from raloxifene"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Oral bisphosphonates cause pill esophagitis when they lodge in the esophagus; taking them with a full glass of water and staying upright for 30 minutes prevents it.",
+        "B": "Teriparatide is a daily subcutaneous injection; its common effects are hypercalcemia and hypercalciuria, not esophageal ulceration.",
+        "C": "Denosumab is a subcutaneous injection every 6 months; it slightly raises infection risk but does not injure the esophagus.",
+        "D": "Calcium can cause acid rebound and dyspepsia, but not a discrete esophageal ulcer after a weekly dose taken lying down.",
+        "E": "Raloxifene increases venous thromboembolism risk; it does not cause pill esophagitis."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-004",
+      "question": "A 78-year-old woman with osteoporosis and a prior vertebral compression fracture needs pharmacologic therapy. She has stage 4 chronic kidney disease from long-standing diabetes. She has no history of cardiovascular events, malignancy or esophageal disease. Laboratory results are shown. Which of the following is the most appropriate treatment?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Creatinine clearance",
+          "22 mL/min",
+          ">90 mL/min"
+        ],
+        [
+          "Calcium",
+          "9.2 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "25(OH)D",
+          "34 ng/mL",
+          "30–100 ng/mL"
+        ],
+        [
+          "Phosphate",
+          "4.4 mg/dL",
+          "2.5–4.5 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Alendronate weekly",
+        "B": "Calcitonin nasal spray",
+        "C": "Denosumab every 6 months",
+        "D": "Raloxifene daily",
+        "E": "Zoledronic acid infusion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Bisphosphonates are renally cleared and contraindicated when creatinine clearance is below 35 mL/min.",
+        "B": "Calcitonin is a mixed, less effective agent with no significant BMD increase and only vertebral fracture reduction; it is not preferred here.",
+        "C": "Denosumab is not cleared by the kidney, so it can be used when CrCl is below 35 mL/min; serum calcium should be checked about 10 days after a dose in CKD.",
+        "D": "Raloxifene is a second- or third-line option that reduces only vertebral fractures and adds VTE risk.",
+        "E": "IV zoledronic acid is still a bisphosphonate and is contraindicated with creatinine clearance below 35 mL/min."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-005",
+      "question": "A 69-year-old woman is evaluated for severe osteoporosis after a fragility fracture of the wrist; her lumbar spine T-score is -3.8. Eight months ago she had an ischemic stroke from which she has largely recovered. She has no history of cancer, radiation, Paget disease or hyperparathyroidism, and alkaline phosphatase is normal. Her physician wants the most effective bone-building therapy that is safe for her. Which of the following is most appropriate?",
+      "answers": {
+        "A": "Alendronate",
+        "B": "Denosumab",
+        "C": "Raloxifene",
+        "D": "Romosozumab",
+        "E": "Teriparatide"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alendronate is anti-resorptive, not anabolic; anabolic agents are preferred first for severe osteoporosis.",
+        "B": "Denosumab is anti-resorptive; it does not build new bone the way anabolic agents do.",
+        "C": "Raloxifene is a less effective SERM that also increases venous thromboembolism risk.",
+        "D": "Romosozumab carries a black box warning for MI, stroke and cardiovascular death and should not be started within a year of a stroke.",
+        "E": "Teriparatide is an anabolic PTH analog without cardiovascular warnings; she has none of its osteosarcoma-related contraindications."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-006",
+      "question": "A 64-year-old woman has severe osteoporosis with two vertebral compression fractures despite 3 years of compliant alendronate therapy. At age 30 she received mantle-field radiation for Hodgkin lymphoma. She has no history of myocardial infarction or stroke. Her physician wants to start an anabolic agent. Which of the following is the most appropriate choice?",
+      "answers": {
+        "A": "Abaloparatide",
+        "B": "Calcitonin",
+        "C": "Denosumab",
+        "D": "Romosozumab",
+        "E": "Teriparatide"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Abaloparatide is a PTHrP analog that increased osteosarcoma in animal studies; prior radiation exposure is a contraindication.",
+        "B": "Calcitonin is not anabolic in practice; it gives no significant BMD gain and only modest vertebral benefit.",
+        "C": "Denosumab is anti-resorptive, not anabolic, and would not meet the goal of building bone.",
+        "D": "Romosozumab is an anti-sclerostin antibody without an osteosarcoma warning; with no recent MI or stroke, it is appropriate here.",
+        "E": "Teriparatide, like abaloparatide, is contraindicated after radiation exposure because of osteosarcoma risk."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-007",
+      "question": "A 74-year-old woman with osteoporosis received subcutaneous injections every 6 months for 4 years with good BMD gains. She stopped treatment a year ago because she wanted a \"drug holiday.\" She now presents with acute back pain, and imaging shows three new vertebral compression fractures. The drug she stopped acted by which of the following mechanisms?",
+      "answers": {
+        "A": "Activating the PTH1 receptor",
+        "B": "Binding RANKL",
+        "C": "Inhibiting farnesyl pyrophosphate synthase",
+        "D": "Neutralizing sclerostin",
+        "E": "Stimulating the estrogen receptor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "PTH1 receptor agonists (teriparatide, abaloparatide) are daily injections given for up to 2 years, not every 6 months.",
+        "B": "Denosumab binds RANKL, blocking osteoclast formation, function and survival; its effects reverse quickly after stopping, so it has no drug holiday.",
+        "C": "Nitrogen-containing bisphosphonates persist in bone, so stopping them does not cause immediate bone loss.",
+        "D": "Romosozumab is given monthly for 12 months only and must be followed by an antiresorptive.",
+        "E": "Raloxifene is a daily oral SERM, not a twice-yearly injection."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-008",
+      "question": "A researcher studies osteoclasts exposed to alendronate in culture. The drug is taken up by resorbing osteoclasts, which then lose their ruffled border and undergo apoptosis. Analysis shows that small GTP-binding proteins such as Rho, Rac and cdc42 can no longer be prenylated. Inhibition of which of the following enzymes best explains these findings?",
+      "answers": {
+        "A": "1-alpha hydroxylase",
+        "B": "Adenylyl cyclase",
+        "C": "Farnesyl pyrophosphate synthase",
+        "D": "HMG-CoA reductase",
+        "E": "Tartrate-resistant acid phosphatase"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "1-alpha hydroxylase converts 25(OH)D to calcitriol in the kidney; it is unrelated to protein prenylation.",
+        "B": "Adenylyl cyclase generates cAMP downstream of the PTH1 receptor; it is the pathway used by teriparatide and abaloparatide.",
+        "C": "Nitrogen-containing bisphosphonates inhibit farnesyl pyrophosphate synthase, blocking prenylation of GTP-binding proteins needed for osteoclast function and survival.",
+        "D": "HMG-CoA reductase is upstream in the same mevalonate pathway but is the target of statins, not bisphosphonates.",
+        "E": "This is an osteoclast marker enzyme; bisphosphonates do not act by inhibiting it."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-009",
+      "question": "A 71-year-old man has had dull, aching left hip and pelvic pain for a year, worse at night. Serum calcium and phosphate are normal, and alkaline phosphatase is markedly elevated. A pelvic radiograph is shown. Which of the following is the most effective treatment for his condition?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "9.6 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "Phosphate",
+          "3.4 mg/dL",
+          "2.5–4.5 mg/dL"
+        ],
+        [
+          "Alkaline phosphatase",
+          "620 U/L",
+          "40–120 U/L"
+        ]
+      ],
+      "image": {
+        "src": "images/drugs-that-affect-bone-mineral-homeostasis/009.jpg",
+        "caption": "AP radiograph of the pelvis",
+        "credit": "Slides p. 36"
+      },
+      "answers": {
+        "A": "Alendronate daily for 6 months",
+        "B": "Calcitonin-salmon nasal spray",
+        "C": "Cinacalcet daily",
+        "D": "Teriparatide daily",
+        "E": "Zoledronic acid, single IV dose"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Oral alendronate is an approved option for Paget disease but is less effective than a single dose of IV zoledronic acid.",
+        "B": "Calcitonin has limited bone efficacy and the nasal form is not preferred; bisphosphonates are first-line for Paget disease.",
+        "C": "Cinacalcet lowers PTH in hyperparathyroidism; it does not treat the osteoclast overactivity of Paget disease.",
+        "D": "Paget disease is a contraindication to teriparatide because of osteosarcoma risk.",
+        "E": "Paget disease begins with overactive osteoclastic resorption; a single IV dose of zoledronic acid is the most effective bisphosphonate and also reduces pain."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-010",
+      "question": "A 76-year-old woman has had several months of dull ache in her right thigh. While walking on level ground she felt a sudden snap and fell. A radiograph of the right femur is shown, demonstrating a transverse fracture of the subtrochanteric shaft with minimal comminution. Her medication history is most likely to include which of the following?",
+      "image": {
+        "src": "images/drugs-that-affect-bone-mineral-homeostasis/010.jpg",
+        "caption": "Radiograph of the right femur",
+        "credit": "Slides p. 33"
+      },
+      "answers": {
+        "A": "Alendronate for 9 years",
+        "B": "Calcium carbonate for 9 years",
+        "C": "Raloxifene for 9 years",
+        "D": "Teriparatide for 18 months",
+        "E": "Vitamin D3 for 9 years"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Atypical femur fractures become more common with longer bisphosphonate use, particularly beyond about 8–10 years.",
+        "B": "Calcium supplements cause constipation, hypercalcemia or milk-alkali syndrome, not atypical femur fractures.",
+        "C": "Raloxifene reduces vertebral fractures and raises VTE risk; it is not linked to atypical femur fractures in this lecture.",
+        "D": "Teriparatide is anabolic; its concerns are hypercalcemia, hyperuricemia and osteosarcoma in animals.",
+        "E": "Vitamin D excess causes hypercalcemia and bone demineralization, not a transverse atypical shaft fracture."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-011",
+      "question": "A 58-year-old postmenopausal woman has a lumbar spine T-score of -2.6 and no prior fractures. Her mother and sister had invasive breast cancer, and she would like a medication that might also lower her own risk. She has no history of liver disease. Her physician chooses an oral agent that acts as an estrogen agonist in bone. Which of the following is the most important risk to discuss before starting it?",
+      "answers": {
+        "A": "Atypical femur fracture",
+        "B": "Hypercalcemia",
+        "C": "Myocardial infarction",
+        "D": "Osteosarcoma",
+        "E": "Venous thromboembolism"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Atypical femur fracture is linked to long-term bisphosphonate use, not raloxifene.",
+        "B": "Hypercalcemia is a common effect of teriparatide and abaloparatide, not SERMs.",
+        "C": "MI and stroke are the black box warning for romosozumab, not raloxifene.",
+        "D": "Osteosarcoma was seen in animal studies of teriparatide and abaloparatide.",
+        "E": "Raloxifene is a SERM that reduces vertebral fractures and invasive breast cancer risk but increases venous thromboembolic events."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-012",
+      "question": "A 67-year-old woman with severe osteoporosis began daily subcutaneous injections of an anabolic agent 2 months ago. She now presents with an exquisitely painful, red, swollen first metatarsophalangeal joint. Laboratory results are shown. Which of the following medications is most likely responsible?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Uric acid",
+          "9.4 mg/dL",
+          "2.5–7.0 mg/dL"
+        ],
+        [
+          "Calcium",
+          "10.8 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "24-h urine calcium",
+          "340 mg/day",
+          "<250 mg/day"
+        ]
+      ],
+      "answers": {
+        "A": "Alendronate",
+        "B": "Denosumab",
+        "C": "Raloxifene",
+        "D": "Romosozumab",
+        "E": "Teriparatide"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Alendronate causes pill esophagitis, musculoskeletal pain and rarely ocular inflammation; it does not raise uric acid.",
+        "B": "Denosumab is given every 6 months and is associated with hypocalcemia and infection, not hyperuricemia.",
+        "C": "Raloxifene causes hot flashes, leg cramps, edema and VTE, and it is an oral pill.",
+        "D": "Romosozumab is a monthly injection whose common effects are joint pain and headache; the lecture does not link it to hyperuricemia.",
+        "E": "Teriparatide is a daily subcutaneous injection that can raise serum uric acid (precipitating gout) and commonly causes hypercalcemia and hypercalciuria."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-013",
+      "question": "A 30-year-old man has a parathyroid adenoma with persistently elevated PTH, hypercalcemia and low bone density on DEXA. A 68-year-old woman with severe osteoporosis gains substantial bone density on a once-daily injection of recombinant PTH(1-34). Which of the following best explains why the same hormone causes bone loss in the first patient and bone gain in the second?",
+      "answers": {
+        "A": "Chronic PTH drives resorption; daily pulses drive formation",
+        "B": "Endogenous PTH binds osteoclasts, while the drug binds osteoblasts",
+        "C": "Recombinant PTH blocks RANKL, while endogenous PTH induces it",
+        "D": "Recombinant PTH lacks the ability to raise calcitriol",
+        "E": "The adenoma secretes PTHrP rather than PTH"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "This is the PTH paradox: chronic elevation drives osteoclast activity, whereas brief once-daily peaks stimulate osteoblasts more than resorption, making teriparatide anabolic.",
+        "B": "Both endogenous PTH and teriparatide act on PTH1 receptors on osteoblasts; osteoclasts are activated indirectly.",
+        "C": "Recombinant PTH does not block RANKL; osteoblast activation by PTH analogs actually increases RANKL, explaining their small resorptive effect.",
+        "D": "Teriparatide shares PTH's actions, and hypercalcemia is its most common side effect; loss of calcitriol effect does not explain anabolism.",
+        "E": "Parathyroid adenomas secrete PTH; PTHrP is secreted by some cancers and causes humoral hypercalcemia of malignancy."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-014",
+      "question": "A 79-year-old woman has primary hyperparathyroidism with recurrent symptomatic hypercalcemia. Because of severe heart failure she is not a candidate for parathyroidectomy. She is started on an oral drug that lowers her serum calcium to the normal range within weeks, although repeat DEXA a year later shows no improvement in bone density. Laboratory values before treatment are shown. This drug most likely acts by which of the following mechanisms?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "12.1 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "148 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "Phosphate",
+          "2.2 mg/dL",
+          "2.5–4.5 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Activating the calcium-sensing receptor",
+        "B": "Binding RANKL on osteoblasts",
+        "C": "Blocking the distal Na/Cl cotransporter",
+        "D": "Inhibiting farnesyl pyrophosphate synthase",
+        "E": "Stimulating renal calcitonin receptors"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Cinacalcet is a calcimimetic that activates the parathyroid CaR, decreasing PTH secretion and serum calcium, but it does not improve bone density.",
+        "B": "Denosumab binds RANKL; it reduces resorption but is not used to lower PTH in hyperparathyroidism.",
+        "C": "Thiazides decrease urinary calcium and could worsen hypercalcemia in hyperparathyroidism.",
+        "D": "Bisphosphonates inhibit osteoclasts; they do not lower PTH and would be expected to raise bone density.",
+        "E": "Calcitonin lowers calcium transiently (tachyphylaxis within 48 hours) and is not an oral long-term therapy for hyperparathyroidism."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-015",
+      "question": "A 44-year-old man has had three episodes of calcium oxalate nephrolithiasis. DEXA shows osteopenia at the lumbar spine. He takes no medications or supplements. Laboratory results are shown. Which of the following is the most appropriate pharmacotherapy?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Serum calcium",
+          "8.7 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "62 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "24-h urine calcium",
+          "390 mg/day",
+          "<250 mg/day"
+        ],
+        [
+          "25(OH)D",
+          "38 ng/mL",
+          "30–100 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Calcitriol",
+        "B": "Cinacalcet",
+        "C": "Furosemide",
+        "D": "Hydrochlorothiazide",
+        "E": "Teriparatide"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Calcitriol increases intestinal calcium absorption and would worsen hypercalciuria and stone risk.",
+        "B": "Cinacalcet lowers PTH in primary hyperparathyroidism; his calcium and PTH are not elevated.",
+        "C": "Loop diuretics increase urinary calcium excretion and would worsen his stones.",
+        "D": "Idiopathic hypercalciuria (hypercalciuria, low-normal calcium, high-normal PTH) is treated with thiazides, which decrease urinary calcium and increase BMD.",
+        "E": "Teriparatide commonly causes hypercalciuria and is not indicated for osteopenia from idiopathic hypercalciuria."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-016",
+      "question": "A 40-year-old woman has bone pain and proximal muscle weakness. Imaging reveals a small mesenchymal tumor in her thigh that secretes large amounts of a bone-derived hormone. Her serum phosphate is low and her 1,25-dihydroxyvitamin D is inappropriately low. Which of the following renal effects of this hormone best explains her hypophosphatemia?",
+      "answers": {
+        "A": "Decreased activity of NaPi 2a and 2c co-transporters",
+        "B": "Decreased activity of the Na/K/2Cl transporter",
+        "C": "Increased activity of 1-alpha hydroxylase",
+        "D": "Increased activity of the calcium-sensing receptor",
+        "E": "Increased distal Na/Cl cotransport"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "FGF-23 suppresses the NaPi 2a/2c co-transporters, increasing urinary phosphate excretion, and also suppresses 1-alpha hydroxylase, lowering calcitriol.",
+        "B": "Blocking Na/K/2Cl in the loop of Henle (loop diuretics) increases calcium excretion, not phosphate wasting.",
+        "C": "FGF-23 suppresses, not stimulates, 1-alpha hydroxylase; increased activity would raise calcitriol and phosphate absorption.",
+        "D": "CaR activation in the parathyroid lowers PTH; it does not explain phosphate wasting with low calcitriol.",
+        "E": "Na/Cl cotransport in the distal tubule (the thiazide target) affects calcium reabsorption, not phosphate."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-017",
+      "question": "A 66-year-old man with squamous cell carcinoma of the lung presents with confusion and polyuria. His serum calcium is 15.2 mg/dL. He is given IV saline and subcutaneous calcitonin-salmon every 12 hours, and his calcium falls over the first day. By day 3, despite continued calcitonin, his calcium begins to rise again. Which of the following best explains the loss of effect?",
+      "table": [
+        [
+          "Test",
+          "Day 1",
+          "Day 3",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "15.2 mg/dL",
+          "13.9 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "PTH",
+          "6 pg/mL",
+          "5 pg/mL",
+          "10–65 pg/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Antibody formation against salmon protein",
+        "B": "Increased renal clearance of calcitonin",
+        "C": "Rising PTH secretion from the parathyroid",
+        "D": "Suppression of calcitriol synthesis",
+        "E": "Tachyphylaxis to calcitonin"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Neutralizing antibodies take longer to develop and are not the reason calcitonin's effect is limited to the first 48 hours.",
+        "B": "Calcitonin clearance does not change in this way; the loss of response is at the receptor level.",
+        "C": "His hypercalcemia is PTH-independent, and PTH would be suppressed by high calcium.",
+        "D": "Calcitonin does decrease calcitriol synthesis, but this would lower, not raise, serum calcium.",
+        "E": "Calcitonin is useful early in severe hypercalcemia, but its efficacy is limited to about 48 hours because of tachyphylaxis."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-018",
+      "question": "A 63-year-old man with a 50-pack-year smoking history has a central lung mass. He presents with fatigue, constipation and polyuria. Labs show calcium 13.4 mg/dL, phosphate 2.1 mg/dL, suppressed PTH and a normal 25(OH)D. A peptide secreted by the tumor is responsible, and an analog of the same peptide is used as an anabolic osteoporosis drug. Which of the following best describes this peptide's actions compared with PTH?",
+      "answers": {
+        "A": "Acts mainly by blocking RANKL on osteoclasts",
+        "B": "Increases intestinal calcium more than PTH",
+        "C": "Inhibits renal phosphate excretion like FGF-23",
+        "D": "Shares renal and bone effects but has little gut effect",
+        "E": "Stimulates parathyroid chief cells to release PTH"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Blocking RANKL describes denosumab, which reduces resorption and lowers calcium.",
+        "B": "PTHrP weakly stimulates calcitriol production, so it has minimal effect on intestinal calcium absorption.",
+        "C": "FGF-23 increases, not inhibits, phosphate excretion, and PTHrP is not FGF-23.",
+        "D": "PTHrP (the target of abaloparatide's analog design) stimulates renal calcium reabsorption and bone resorption like PTH but has minimal effect on intestinal calcium absorption; it causes humoral hypercalcemia of malignancy.",
+        "E": "PTH is suppressed in humoral hypercalcemia of malignancy because high calcium inhibits the parathyroid."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-019",
+      "question": "A 74-year-old man with chronic dyspepsia has been chewing large amounts of calcium carbonate antacid tablets daily for several months, along with drinking milk to soothe his stomach. He now presents with headache, nausea, irritability and weakness. Laboratory results are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "13.1 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "Bicarbonate",
+          "36 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "2.3 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "PTH",
+          "8 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "25(OH)D",
+          "42 ng/mL",
+          "30–100 ng/mL"
+        ]
+      ],
+      "answers": {
+        "A": "Humoral hypercalcemia of malignancy",
+        "B": "Milk-alkali syndrome",
+        "C": "Primary hyperparathyroidism",
+        "D": "Thiazide-induced hypercalcemia",
+        "E": "Vitamin D intoxication"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This would show hypercalcemia with suppressed PTH from PTHrP, without a history of heavy calcium ingestion explaining metabolic alkalosis.",
+        "B": "Very high, chronic calcium carbonate intake causes milk-alkali syndrome: hypercalcemia, metabolic alkalosis and renal impairment.",
+        "C": "Primary hyperparathyroidism causes hypercalcemia with high PTH and low phosphate, not metabolic alkalosis with suppressed PTH.",
+        "D": "Thiazides decrease urinary calcium excretion, but he takes no diuretic and the alkalosis reflects alkali ingestion.",
+        "E": "Vitamin D excess causes hypercalcemia with a high 25(OH)D level, which is normal here."
+      }
+    },
+    {
+      "id": "msk-drugs-that-affect-bone-mineral-homeostasis-020",
+      "question": "A 52-year-old woman read online that vitamin D prevents cancer and has been taking 50,000 IU of cholecalciferol daily for 6 months. She now has confusion, polyuria, excessive thirst, vomiting and muscle weakness. Laboratory results are shown. Which of the following best explains her hypercalcemia?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Calcium",
+          "13.6 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "25(OH)D",
+          "260 ng/mL",
+          "30–100 ng/mL"
+        ],
+        [
+          "PTH",
+          "7 pg/mL",
+          "10–65 pg/mL"
+        ],
+        [
+          "24-h urine calcium",
+          "420 mg/day",
+          "<250 mg/day"
+        ]
+      ],
+      "answers": {
+        "A": "Excess FGF-23 suppressing calcitriol",
+        "B": "Excess vitamin D increasing gut calcium absorption",
+        "C": "PTH-mediated bone resorption",
+        "D": "PTHrP secretion by an occult tumor",
+        "E": "Reduced urinary calcium excretion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "FGF-23 lowers calcitriol and phosphate; it would not cause hypercalcemia.",
+        "B": "Vitamin D intoxication causes hypercalcemia and hypercalciuria because calcitriol is the most potent stimulant of intestinal calcium transport and bone resorption.",
+        "C": "PTH is suppressed here, so the hypercalcemia is PTH-independent.",
+        "D": "PTHrP would raise calcium with low PTH, but her markedly elevated 25(OH)D points to vitamin D excess.",
+        "E": "Her urine calcium is high, not low; reduced excretion is the effect of thiazides."
+      }
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "lecture": "Common Lower Limb Musculoskeletal Injuries",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "pdfs": [
+    {
+      "label": "notes",
+      "file": "12.04-CM-Common-Lower-Limb-MSK-Injuries---Notes-e33c076e42.pdf"
+    },
+    {
+      "label": "slides",
+      "file": "12.04-CM-Common-Lower-Limb-MSK-Injuries---Slides-a5f09ff6b4.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-001",
+      "question": "A 24-year-old woman comes to the emergency department 1 hour after rolling her right ankle while landing from a basketball rebound. She heard a pop and has swelling over the lateral ankle. She limped four steps into the department without help and can do so again in the examination room. Examination findings are shown. Which of the following is the most appropriate next step in management?",
+      "table": [
+        [
+          "Finding",
+          "Result"
+        ],
+        [
+          "Tenderness anterior to the lateral malleolus",
+          "Present"
+        ],
+        [
+          "Tenderness at posterior edge or tip of lateral malleolus",
+          "Absent"
+        ],
+        [
+          "Tenderness at base of 5th metatarsal",
+          "Absent"
+        ],
+        [
+          "Weight bearing (immediately and in ED)",
+          "Four steps, both times"
+        ],
+        [
+          "Ecchymosis",
+          "Mild, lateral ankle"
+        ]
+      ],
+      "answers": {
+        "A": "Ankle MRI to grade the sprain",
+        "B": "Ankle radiographs before treatment",
+        "C": "Conservative care without imaging",
+        "D": "Short leg cast for 6 weeks",
+        "E": "Surgical lateral ligament repair"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Grading of a lateral ankle sprain is clinical (pain, laxity, weight bearing, anterior drawer); MRI is not part of the initial workup.",
+        "B": "Under the Ottawa Ankle Rules, X-rays are needed only with malleolar or midfoot pain plus bony tenderness at the posterior edge/tip of the lateral malleolus or base of the 5th metatarsal, or inability to bear weight; she has none of these.",
+        "C": "She meets no Ottawa criterion, so no imaging is needed and a lateral ankle sprain is treated conservatively with PRICEMM.",
+        "D": "Prolonged immobilization is not used; the ankle is mobilized early through its available range of motion.",
+        "E": "Surgery is not needed for most ankle sprains and is reserved for severe sprains in professional athletes."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-002",
+      "question": "A 31-year-old man twists his left foot inward stepping off a curb. In the emergency department he has swelling and pain over the lateral ankle and midfoot. He was able to walk to his car immediately after the injury and walks with a limp in the department. There is ecchymosis below the lateral malleolus and pain with passive inversion. Which additional finding would make radiographs indicated?",
+      "answers": {
+        "A": "Ecchymosis spreading onto the dorsum of the foot",
+        "B": "Increased laxity on the anterior drawer test",
+        "C": "Moderate edema over the lateral ankle",
+        "D": "Pain with resisted ankle dorsiflexion",
+        "E": "Tenderness at the base of the 5th metatarsal"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Ecchymosis is a typical sign of a lateral ankle sprain and is not an Ottawa criterion.",
+        "B": "A positive anterior drawer test points to ATFL injury (grade II or III sprain); it is not a criterion for X-rays.",
+        "C": "Edema occurs with all grades of sprain and does not trigger imaging under the Ottawa Ankle Rules.",
+        "D": "Pain with movement is nonspecific and is not part of the Ottawa Ankle Rules.",
+        "E": "With midfoot-zone pain, bony tenderness at the base of the 5th metatarsal (or inability to bear weight) meets the Ottawa Ankle Rules for X-rays."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-003",
+      "question": "A 19-year-old college soccer player has lateral ankle pain after his foot rolled into plantarflexion and inversion during a tackle. There is ecchymosis and swelling anterior to the lateral malleolus. The maneuver shown produces more forward movement of the foot than on the uninjured side. Injury to which of the following structures is most likely responsible for this finding?",
+      "image": {
+        "src": "images/common-lower-limb-musculoskeletal-injuries/003.jpg",
+        "caption": "Examination maneuver on the injured ankle",
+        "credit": "Slides p. 9"
+      },
+      "answers": {
+        "A": "Anterior talofibular ligament",
+        "B": "Calcaneofibular ligament",
+        "C": "Deltoid ligament",
+        "D": "Peroneus longus tendon",
+        "E": "Posterior talofibular ligament"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior drawer test (pulling the foot forward) stresses the ATFL, the first and most commonly injured ankle ligament in plantarflexion-inversion injuries.",
+        "B": "The CFL tears only after the ATFL with greater force and is stressed more by inversion (talar tilt) than by forward translation.",
+        "C": "The deltoid (medial) ligament is injured by eversion, not plantarflexion-inversion.",
+        "D": "A tendon is not tested by passive anterior translation of the foot; the drawer test assesses ligamentous laxity.",
+        "E": "The PTFL is the last lateral ligament to tear and is involved only with severe force."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-004",
+      "question": "A 22-year-old woman sprains her ankle hiking. Two days later she has moderate pain, moderate edema, local tenderness, and ecchymosis over the lateral ankle. Walking is painful but possible. The anterior drawer test shows some laxity compared with the other side, with a firm end point. Which of the following best describes the ligament injury?",
+      "answers": {
+        "A": "Complete ligament disruption",
+        "B": "Incomplete ligament tear",
+        "C": "Microscopic ligament tear",
+        "D": "Osteochondral fracture of talus",
+        "E": "Tendon avulsion from fibula"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A complete (grade III) tear gives severe pain, instability, and usually inability to bear weight or walk.",
+        "B": "Moderate pain and edema, ecchymosis, some laxity, painful weight bearing, and a positive anterior drawer test define a grade II (incomplete) tear.",
+        "C": "A grade I (microscopic) tear has mild edema and tenderness, no laxity, and walking with minimal pain.",
+        "D": "Nothing in the presentation suggests a bony injury; laxity on the drawer test reflects ligament injury.",
+        "E": "Laxity on anterior drawer reflects ATFL injury, not a tendon avulsion."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-005",
+      "question": "A 19-year-old college soccer player has his third lateral ankle sprain in 4 years. Examination after the acute phase shows ankle dorsiflexion limited to neutral with the knee extended, and he sways markedly when balancing on the injured leg with his eyes closed. Which rehabilitation plan is most likely to reduce his risk of another sprain?",
+      "answers": {
+        "A": "Calf stretching with balance training",
+        "B": "Hamstring stretching with quadriceps work",
+        "C": "Lateral ligament surgical reconstruction",
+        "D": "Rigid bracing with activity restriction",
+        "E": "Strict rest with cast immobilization"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Short gastrocnemius/soleus (limited dorsiflexion) and reduced proprioception/balance are risk factors for sprain, and stretching plus proprioceptive training addresses both.",
+        "B": "These target patellofemoral mechanics, not the ankle sprain risk factors he shows.",
+        "C": "Surgery is not needed for most ankle sprains; his recurrences have correctable risk factors.",
+        "D": "Restricting activity does not correct limited dorsiflexion or poor proprioception, and exercise reduces recurrence.",
+        "E": "Immobilization worsens mobility and proprioception; rehab should start early (week one for grade I and II)."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-006",
+      "question": "A 17-year-old female cross-country runner has 3 months of gradually worsening pain at the front of both knees, worse on stairs and after sitting through a movie. She sometimes feels the knee give way while walking. Examination findings are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Finding",
+          "Result"
+        ],
+        [
+          "Q angle",
+          "19° bilaterally"
+        ],
+        [
+          "Knee effusion",
+          "Minimal"
+        ],
+        [
+          "Crepitus with knee extension",
+          "Present"
+        ],
+        [
+          "Medial joint line tenderness",
+          "Absent"
+        ],
+        [
+          "Tibial tubercle tenderness",
+          "Absent"
+        ],
+        [
+          "McMurray and Lachman tests",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior cruciate ligament tear",
+        "B": "Medial collateral ligament sprain",
+        "C": "Medial meniscus tear",
+        "D": "Osgood-Schlatter disease",
+        "E": "Patellofemoral syndrome"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "An ACL tear follows an acute injury with a pop and swelling within 2 hours, not insidious bilateral pain.",
+        "B": "An MCL sprain follows valgus stress and causes medial joint line tenderness, not gradual anterior knee pain.",
+        "C": "A meniscal tear causes joint line tenderness, edema over 2-3 days, locking, and a positive McMurray test.",
+        "D": "Osgood-Schlatter disease is on the differential for anterior knee pain but localizes to the tibial tubercle, which is not tender here.",
+        "E": "Gradual anterior knee pain, giving way, crepitus, minimal effusion, and a large Q angle in a young female reflect a patellar tracking problem."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-007",
+      "question": "A 16-year-old girl and her twin brother both play varsity basketball with the same training load. Only she develops anterior knee pain diagnosed as patellofemoral syndrome. Her quadriceps strength is normal. Which of the following best explains her greater risk?",
+      "answers": {
+        "A": "Deeper femoral trochlear groove",
+        "B": "Higher medial patellar retinacular tension",
+        "C": "Larger Q angle pulling patella laterally",
+        "D": "Shorter patellar tendon length",
+        "E": "Weaker hip adductor muscles"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A deeper groove increases patellar stability; a shallow groove (larger sulcus angle) predisposes to PFS.",
+        "B": "Tension in the medial retinaculum would pull the patella medially, opposing the lateral drift of PFS.",
+        "C": "Biological females typically have a larger Q angle, which increases the lateral pull on the patella and the risk of PFS and dislocation.",
+        "D": "Patellar tendon length is not the explanation the lecture gives for the sex difference in PFS.",
+        "E": "Weakness of the hip abductors and extensors, not adductors, affects patellar alignment."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-008",
+      "question": "A 15-year-old cross-country runner has had several episodes of her patella dislocating laterally during training; she has pushed it back each time. Imaging shows a shallow trochlear groove. In which knee position is her patella least stable?",
+      "answers": {
+        "A": "120 degrees of knee flexion",
+        "B": "45 degrees of knee flexion",
+        "C": "90 degrees of knee flexion",
+        "D": "Full knee extension",
+        "E": "Full knee flexion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Near full flexion the patella sits deep in the trochlear groove, supported by the lateral femoral condyle.",
+        "B": "With flexion the patella glides inferiorly and deeper into the trochlear groove, so it is more stable here than in extension.",
+        "C": "At 90° the patella is well seated between the femoral condyles.",
+        "D": "In full extension the patella glides superiorly into the most shallow part of the trochlear groove, where it has the least contact with the femur.",
+        "E": "In full flexion the patella is pulled deep into the trochlear groove and is held from lateral drift by the lateral femoral condyle."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-009",
+      "question": "A 20-year-old man with patellofemoral syndrome has a lateral pull on his patella. His hip flexes only to 50 degrees during a passive straight leg raise with the knee extended. Through which pathway does this finding most likely contribute to his patellar maltracking?",
+      "answers": {
+        "A": "Biceps femoris tethered to the iliotibial band",
+        "B": "Hamstring insertion directly on the patella",
+        "C": "Increased posterior translation of the tibia",
+        "D": "Semimembranosus traction on medial meniscus",
+        "E": "Shortened rectus femoris compressing the patella"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Connective tissue joins the biceps femoris to the ITB, which attaches to the lateral patellar retinaculum, so a short biceps femoris indirectly pulls the patella laterally.",
+        "B": "The hamstrings do not insert on the patella; their effect on it is indirect.",
+        "C": "Posterior tibial translation is a cruciate ligament issue and does not explain lateral patellar pull.",
+        "D": "This would affect the medial meniscus, not the lateral pull on the patella.",
+        "E": "A tight rectus femoris is tested with the knee flexed, not by straight leg raise, and does not pull the patella laterally."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-010",
+      "question": "A 22-year-old woman with anterior knee pain is examined in the side-lying position as shown. When the examiner lets go, her upper leg stays elevated instead of dropping toward the table. Shortening of which structure is most likely, and is linked to her patella through the lateral patellar retinaculum?",
+      "image": {
+        "src": "images/common-lower-limb-musculoskeletal-injuries/010.jpg",
+        "caption": "Side-lying examination of the hip and thigh",
+        "credit": "Slides p. 31"
+      },
+      "answers": {
+        "A": "Biceps femoris muscle",
+        "B": "Gastrocnemius muscle",
+        "C": "Iliotibial band",
+        "D": "Medial patellar retinaculum",
+        "E": "Rectus femoris muscle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The biceps femoris affects the patella through the ITB and is assessed with a passive straight leg raise, not this test.",
+        "B": "A short gastrocnemius limits ankle dorsiflexion and is a risk factor for ankle sprain, not tested here.",
+        "C": "This is Ober's test; a leg that fails to drop indicates a short ITB, which pulls the patella laterally via the lateral patellar retinaculum.",
+        "D": "Tightness here would not limit hip adduction and would pull the patella medially.",
+        "E": "Rectus femoris length is assessed with the knee flexed in prone or Thomas position, not by side-lying adduction."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-011",
+      "question": "A 16-year-old girl has anterior knee pain. When she stands, her kneecaps point inward; when she walks, she actively turns her lower legs outward by contracting her biceps femoris to straighten her gait. Her Q angle is 20 degrees. Which underlying condition best explains her knee pain?",
+      "answers": {
+        "A": "Genu varum with bowing of both tibias",
+        "B": "Hip anteversion with compensatory tibial rotation",
+        "C": "Medial meniscus tear with knee locking",
+        "D": "Osgood-Schlatter disease of the tubercle",
+        "E": "Pes cavus with rigid, supinated, high-arched feet"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Genu varum reduces, rather than increases, the Q angle.",
+        "B": "Hip anteversion medially rotates the whole limb; compensatory lateral tibial rotation by the biceps femoris increases the Q angle and causes PFS.",
+        "C": "A meniscal tear causes joint line tenderness and locking, not a gait compensation that raises the Q angle.",
+        "D": "This causes tibial tubercle pain and does not explain inward-pointing patellae with compensatory tibial rotation.",
+        "E": "A high-arched, supinated foot is the opposite of the pronation that increases the Q angle."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-012",
+      "question": "A 28-year-old woman has anterior knee pain diagnosed as patellofemoral syndrome. Standing examination shows flattened medial arches with the feet rolling inward and the tibias internally rotated. Quadriceps strength is normal and the iliotibial band has normal length. Which intervention most directly addresses the cause of her knee pain?",
+      "answers": {
+        "A": "Custom foot orthotics",
+        "B": "Hinged knee brace",
+        "C": "Lateral retinacular release",
+        "D": "Medial patellar glides",
+        "E": "Standing lateral pelvic shift"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Foot pronation (pes planus) internally rotates the tibia and increases the Q angle; orthotics correct pronation and reduce lateral patellar drift.",
+        "B": "Bracing can help PFS but does not correct the foot pathomechanics driving her maltracking.",
+        "C": "Release is only for extreme cases that failed conservative care and is usually unsuccessful long term.",
+        "D": "Medial glides stretch a short lateral patellar retinaculum, which is not her problem.",
+        "E": "This stretches a short ITB, which is normal in her."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-013",
+      "question": "A 17-year-old boy has 4 months of anterior knee pain. Examination shows good patellar alignment, normal ITB length, and normal foot posture, but he cannot perform a single-leg squat because of knee extensor weakness. Which of the following is the most appropriate initial management?",
+      "answers": {
+        "A": "Arthroscopic debridement",
+        "B": "Complete rest from activity",
+        "C": "Knee immobilizer for four weeks of rest",
+        "D": "Lateral retinacular release",
+        "E": "Quadriceps strengthening program"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Arthroscopy has no role as initial treatment of PFS.",
+        "B": "Rest alone does not correct the quadriceps weakness that drives patellar maltracking.",
+        "C": "Immobilization worsens quadriceps weakness.",
+        "D": "Surgery is reserved for extreme cases that failed conservative care and has variable, usually poor, long-term results.",
+        "E": "Quadriceps strengthening (with hip extensor and abductor work) is the key treatment for most patients with PFS."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-014",
+      "question": "A 21-year-old woman with patellofemoral syndrome is examined supine. The patella sits lateral to the center of the trochlear groove, and its lateral border is tilted down toward the lateral femoral condyle. Hip flexibility, ITB length, and hamstring length are normal. Which home stretch is most appropriate?",
+      "answers": {
+        "A": "Hip flexion with knee straight",
+        "B": "Lateral patellar glides",
+        "C": "Medial patellar glides",
+        "D": "Standing calf stretch",
+        "E": "Standing lateral pelvic shift"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This elongates the hamstrings, which are normal in her.",
+        "B": "Gliding the patella laterally would worsen her lateral displacement.",
+        "C": "Lateral displacement and tilt indicate a short lateral patellar retinaculum, which is stretched by gliding the patella medially.",
+        "D": "Calf stretching restores ankle dorsiflexion after ankle sprain and does not address patellar position.",
+        "E": "This stretches a short ITB, but her ITB length is normal."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-015",
+      "question": "A 20-year-old football player is struck on the outer side of his planted left knee. He has pain on the inner side of the knee and walks with a limp. The examiner performs the maneuver shown with the knee flexed to 30 degrees; this reproduces his pain and the joint opens on the medial side. Lachman and McMurray tests are negative. Which structure is most likely injured?",
+      "image": {
+        "src": "images/common-lower-limb-musculoskeletal-injuries/015.jpg",
+        "caption": "Examination maneuver on the injured knee",
+        "credit": "Slides p. 43"
+      },
+      "answers": {
+        "A": "Anterior cruciate ligament",
+        "B": "Lateral collateral ligament",
+        "C": "Medial collateral ligament",
+        "D": "Medial meniscus",
+        "E": "Posterior cruciate ligament"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "ACL injury is detected by increased anterior translation on the Lachman or anterior drawer test, which is negative.",
+        "B": "The LCL resists varus, not valgus, stress and would cause lateral pain.",
+        "C": "A valgus force to the knee tears the MCL; the valgus stress test at 30° of flexion isolates the MCL and is positive with pain or medial instability.",
+        "D": "A meniscal tear gives a positive McMurray test, locking, and edema over 2-3 days.",
+        "E": "The PCL is not stressed by valgus force and is not part of this test."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-016",
+      "question": "A 23-year-old rugby player has an isolated left MCL sprain from a valgus blow. Findings are shown. Which of the following is the most appropriate management?",
+      "table": [
+        [
+          "Finding",
+          "Result"
+        ],
+        [
+          "Valgus stress test, 30° flexion",
+          "Pain, mild medial laxity, firm end point"
+        ],
+        [
+          "Valgus stress test, full extension",
+          "Stable"
+        ],
+        [
+          "Lachman test",
+          "Negative"
+        ],
+        [
+          "McMurray test",
+          "Negative"
+        ],
+        [
+          "Effusion",
+          "Small, confined within the joint"
+        ]
+      ],
+      "answers": {
+        "A": "Arthroscopic medial meniscectomy",
+        "B": "Conservative care, weight bearing as tolerated",
+        "C": "Cylinder cast in extension for 6 weeks",
+        "D": "Open surgical repair of the MCL",
+        "E": "Strict non-weight bearing on crutches for 6 weeks"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The McMurray test is negative, and the meniscus does not need surgery here.",
+        "B": "Isolated MCL sprains of any grade are treated conservatively; grade I-II patients bear weight as tolerated with early ROM and strengthening.",
+        "C": "Immobilization is not used; early knee movement is encouraged in the acute phase.",
+        "D": "Surgery adds no benefit in isolated MCL injuries regardless of severity.",
+        "E": "Only grade III sprains are kept non-weight bearing, and only for 2 weeks."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-017",
+      "question": "A 19-year-old football player is hit on the lateral side of his knee while his foot is planted and his body rotates. His knee swells markedly within 2 hours. He has medial joint line tenderness, laxity on valgus stress at 30 degrees, and increased anterior tibial translation on Lachman testing. Which additional structure is most likely injured?",
+      "answers": {
+        "A": "Lateral collateral ligament",
+        "B": "Lateral meniscus",
+        "C": "Medial meniscus",
+        "D": "Patellar tendon",
+        "E": "Posterior cruciate ligament"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The LCL resists varus stress and is not injured by a valgus force.",
+        "B": "The unhappy triad involves the medial meniscus, which is firmly attached to the MCL; the lateral meniscus is not part of it.",
+        "C": "Valgus stress plus rotation causes the unhappy triad: MCL, ACL, and the medial meniscus, which is strongly attached to the MCL and capsule and less mobile.",
+        "D": "Patellar tendon injury is not produced by valgus-rotation stress.",
+        "E": "The PCL is not part of the unhappy triad and is not tested by the Lachman test."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-018",
+      "question": "A 35-year-old woman twisted her right knee while squatting in the garden. The knee swelled slowly over the next few days, and she now cannot fully straighten it. She has pain when squatting and tenderness along the medial joint line. Lachman test is negative. Her symptom timeline is shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Time after injury",
+          "Swelling",
+          "Other"
+        ],
+        [
+          "2 hours",
+          "None",
+          "Able to walk"
+        ],
+        [
+          "Day 1",
+          "Mild",
+          "Medial knee pain"
+        ],
+        [
+          "Day 3",
+          "Moderate",
+          "Cannot fully extend knee"
+        ]
+      ],
+      "answers": {
+        "A": "Anterior cruciate ligament tear",
+        "B": "Medial collateral ligament sprain",
+        "C": "Medial meniscus tear",
+        "D": "Patellar dislocation",
+        "E": "Patellofemoral syndrome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "An ACL tear produces marked swelling within 2 hours and a positive Lachman test.",
+        "B": "An MCL sprain follows valgus stress and causes valgus laxity, not locking.",
+        "C": "Edema developing over 2-3 days, joint line tenderness, locking (inability to fully extend), and pain with squatting are signs of a meniscal tear.",
+        "D": "Patellar dislocation causes the patella to shift laterally, not delayed swelling with locking.",
+        "E": "PFS has insidious anterior knee pain with minimal effusion and no locking."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-019",
+      "question": "A 26-year-old man undergoes arthroscopy for a medial meniscus tear. The surgeon describes a longitudinal tear in the inner, central portion of the meniscus, far from the joint capsule. Which of the following best explains why this tear is unlikely to heal on its own?",
+      "answers": {
+        "A": "Absent blood supply in that zone",
+        "B": "Excess mobility of medial meniscus",
+        "C": "Fragment displaced into joint",
+        "D": "Lack of MCL attachment",
+        "E": "Persistent valgus loading of knee"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The inner (white) zone of the meniscus is avascular and incapable of healing; only the peripheral red and red-white zones have blood supply.",
+        "B": "The medial meniscus is less mobile, not more, because of its firm attachment to the MCL and capsule.",
+        "C": "A displaced fragment defines a bucket handle tear, which is not described here.",
+        "D": "The medial meniscus is strongly attached to the MCL; that attachment raises injury risk, not healing failure.",
+        "E": "Valgus loading injures the MCL; it does not determine meniscal healing potential."
+      }
+    },
+    {
+      "id": "msk-common-lower-limb-musculoskeletal-injuries-020",
+      "question": "A 17-year-old female soccer player felt a pop when she planted her foot and cut sharply to change direction without contact. Her knee swelled within 2 hours. The examiner performs the maneuver shown, with the knee in slight flexion, and feels markedly more forward movement of the tibia than on the other side, without a firm end point. Loss of which function best explains this finding?",
+      "image": {
+        "src": "images/common-lower-limb-musculoskeletal-injuries/020.jpg",
+        "caption": "Examination maneuver on the injured knee",
+        "credit": "Slides p. 54"
+      },
+      "answers": {
+        "A": "Resisting anterior tibial translation",
+        "B": "Resisting posterior tibial translation",
+        "C": "Resisting tibial external rotation",
+        "D": "Resisting valgus moment at knee",
+        "E": "Resisting varus moment at knee"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The ACL controls anterior translation of the tibia on the femur; the Lachman test shown detects excess translation after an ACL tear.",
+        "B": "Posterior translation is restrained by the PCL, which the Lachman test does not assess.",
+        "C": "The ACL controls internal, not external, rotation of the tibia.",
+        "D": "Valgus moments are controlled mainly by the MCL, tested by valgus stress.",
+        "E": "Varus stress is resisted by the LCL, not tested by anterior translation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "lecture": "Histology Lab: Cartilage and Bone",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "questions": [
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-001",
+      "question": "A 16-year-old girl who runs track asks how her knees tolerate the repeated impact of sprinting. Her physician explains that the articular cartilage covering the femoral condyles deforms under each footstrike and then recovers its shape. A representative section of this cartilage type is shown. Which component of the tissue is chiefly responsible for its resilience to compressive load?",
+      "image": {"src": "images/histology-lab-cartilage-and-bone/001.jpg", "caption": "Representative section of the same cartilage type, H&E", "credit": "Lecture slides p. 11"},
+      "answers": {
+        "A": "Abundant elastic fibers running through the matrix",
+        "B": "Calcium phosphate deposited as hydroxyapatite",
+        "C": "Hydrated aggregates of aggrecan and hyaluronan",
+        "D": "Multiadhesive glycoproteins anchoring the cells",
+        "E": "Thick bundles of type I collagen fibers"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Elastic fibers give reversible flexibility to elastic cartilage of the ear and epiglottis; they are absent from articular hyaline cartilage.",
+        "B": "Hydroxyapatite gives bone its rigidity and compressive strength; articular cartilage is not mineralized.",
+        "C": "Negatively charged sulfate and carboxyl groups on the GAGs of aggrecan bind large amounts of water, and these hydrated proteoglycan aggregates let cartilage bear weight and spring back.",
+        "D": "Multiadhesive glycoproteins bind chondrocytes and collagen to the matrix but do not provide compressive resilience.",
+        "E": "Thick type I collagen bundles characterize fibrocartilage; hyaline cartilage collagen is type II fibrils, which provide tensile strength rather than compressive resilience."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-002",
+      "question": "A 63-year-old man with a long smoking history undergoes total laryngectomy for squamous cell carcinoma. The pathologist samples uninvolved cartilage from the specimen. On H&E, chondrocytes sit in lacunae within a matrix that contains fine, wispy, branching fibers, shown below. An elastin stain highlights the fibers strongly. From which structure was this cartilage most likely taken?",
+      "image": {"src": "images/histology-lab-cartilage-and-bone/002.jpg", "caption": "Uninvolved cartilage from the laryngectomy specimen, H&E", "credit": "Lecture slides p. 12"},
+      "answers": {
+        "A": "Arytenoid cartilage",
+        "B": "Cricoid cartilage",
+        "C": "Epiglottis",
+        "D": "Thyroid cartilage",
+        "E": "Tracheal ring"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The arytenoid cartilages are listed in the lecture as hyaline cartilage, which has a smooth matrix without elastic fibers.",
+        "B": "The cricoid cartilage is hyaline cartilage, so an elastin stain would not show abundant fibers.",
+        "C": "The epiglottis is elastic cartilage, whose matrix adds branching elastic fibers to the hyaline components to give flexible support.",
+        "D": "The thyroid cartilage is hyaline cartilage, providing structural support for the larynx rather than flexibility.",
+        "E": "Tracheal rings are hyaline cartilage with a glassy matrix and no elastic fibers."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-003",
+      "question": "A 41-year-old man has low back pain radiating down his left leg after lifting a heavy box. MRI shows a herniated L5-S1 intervertebral disc, and he undergoes discectomy. A section of the removed tissue, stained with Alcian blue, shows dense parallel fiber bundles with rows of rounded cells in lacunae between them, shown below. Which cell type secretes most of the fiber bundles seen in this tissue?",
+      "image": {"src": "images/histology-lab-cartilage-and-bone/003.jpg", "caption": "Discectomy specimen, Alcian blue", "credit": "Lecture slides p. 12"},
+      "answers": {
+        "A": "Chondroblasts",
+        "B": "Chondrocytes",
+        "C": "Fibroblasts",
+        "D": "Osteoblasts",
+        "E": "Osteocytes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Chondroblasts arise in the perichondrium, which fibrocartilage lacks, and they produce cartilage matrix rather than the large type I collagen bundles.",
+        "B": "Chondrocytes in fibrocartilage are the rounded cells in lacunae; they secrete type II collagen and aggrecan, not the dominant fiber bundles.",
+        "C": "Fibrocartilage contains fibroblasts flattened between collagen fibers, and they secrete its large type I collagen bundles (and versican).",
+        "D": "Osteoblasts secrete type I collagen as osteoid in bone, not in an intervertebral disc.",
+        "E": "Osteocytes are mature bone cells in lacunae of mineralized matrix and are not actively secreting matrix."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-004",
+      "question": "A 52-year-old woman undergoes biopsy of a thick costal cartilage. The section shows chondrocytes in lacunae deep within a matrix rich in type II collagen and proteoglycans. Blood vessels are seen only in the dense connective tissue capsule at the edge of the specimen and none within the cartilage itself. How do the chondrocytes at the center of this cartilage obtain nutrients?",
+      "answers": {
+        "A": "Cell processes in canaliculi linked by gap junctions",
+        "B": "Diffusion through the hydrated cartilage matrix",
+        "C": "Sinusoids of adjacent red bone marrow",
+        "D": "Vessels running in central Haversian canals",
+        "E": "Vessels running in perpendicular Volkmann canals"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Canaliculi and gap junctions connect osteocytes in mineralized bone; chondrocytes have no such network.",
+        "B": "Cartilage is avascular, and its high ratio of type II collagen to water-binding GAGs lets nutrients diffuse from perichondrial vessels to the chondrocytes.",
+        "C": "Marrow vessels nourish the trabeculae of spongy bone, not cartilage.",
+        "D": "Haversian canals carry the vessels of osteons in compact bone, which cartilage does not have.",
+        "E": "Volkmann canals connect Haversian canals in compact bone and are not found in cartilage."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-005",
+      "question": "A 9-year-old boy dies in a motor vehicle collision, and sections of his costal cartilage are examined at autopsy. Deep in the cartilage, away from the surface capsule, many lacunae contain clusters of two to four chondrocytes, each cluster surrounded by darker-staining matrix. Which process produced these clusters?",
+      "answers": {
+        "A": "Appositional growth from the perichondrium",
+        "B": "Endochondral replacement by bone",
+        "C": "Interstitial growth by chondrocyte division",
+        "D": "Mesenchymal condensation into a nodule",
+        "E": "Shrinkage artifact during tissue processing"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Appositional growth adds new cartilage on the surface from perichondrial chondroblasts, which are flattened and do not form deep clusters.",
+        "B": "Endochondral ossification replaces a cartilage model with bone and would show bone and marrow, not chondrocyte clusters.",
+        "C": "Interstitial growth is division of mature chondrocytes within the matrix, producing isogenous groups that then secrete matrix around themselves.",
+        "D": "A chondrogenic nodule of mesenchymal cells starts cartilage formation in the embryo; it does not create isogenous groups in established cartilage.",
+        "E": "Shrinkage makes a single chondrocyte look shriveled within a partly empty lacuna; it does not create clusters of cells."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-006",
+      "question": "A 34-year-old woman tears the medial meniscus of her knee playing soccer. During arthroscopy, the surgeon notes that the meniscus has no surrounding connective tissue capsule, unlike the hyaline cartilage of her trachea. Histology of the meniscus shows thick type I collagen bundles with chondrocytes in rows. Which other skeletal tissue also lacks this capsule?",
+      "answers": {
+        "A": "Articular cartilage of the femoral condyles",
+        "B": "Auricular cartilage of the external ear",
+        "C": "Costal cartilage of the anterior ribs",
+        "D": "Cricoid cartilage of the larynx",
+        "E": "Epiglottic cartilage of the larynx"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The capsule is the perichondrium; fibrocartilage (the meniscus) lacks it, and among hyaline cartilages articular cartilage (and the epiphyseal plates) also lack it.",
+        "B": "The external ear is elastic cartilage, which is covered by perichondrium.",
+        "C": "Costal cartilage is hyaline cartilage covered by perichondrium.",
+        "D": "The cricoid cartilage is hyaline cartilage with a perichondrium.",
+        "E": "The epiglottis is elastic cartilage, which is bound by perichondrium like most hyaline cartilage."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-007",
+      "question": "A 27-year-old man sustains a full-thickness defect of the articular cartilage of his femoral condyle in a skiing accident. The defect is managed without cartilage transplantation. Arthroscopic biopsy of the healed defect 2 years later shows dense collagen bundles with scattered chondrocytes and fibroblasts. Which tissue most likely fills the defect?",
+      "answers": {
+        "A": "Elastic cartilage",
+        "B": "Fibrocartilage",
+        "C": "Hyaline cartilage",
+        "D": "Lamellar bone",
+        "E": "Woven bone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Elastic cartilage contains chondroblasts and chondrocytes with elastic fibers and is not a repair tissue.",
+        "B": "Cartilage has very limited repair capability and commonly heals with a scar of fibrocartilage, whose cell types are chondrocytes and fibroblasts.",
+        "C": "Articular hyaline cartilage lacks perichondrium and has very limited growth in adults, so it does not regenerate across a full-thickness defect.",
+        "D": "Lamellar bone has osteocytes in lacunae within mineralized matrix, not fibroblasts and chondrocytes in collagen bundles.",
+        "E": "Woven bone is immature, unorganized bone with osteocytes, not a collagenous tissue containing chondrocytes."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-008",
+      "question": "A 30-year-old woman has persistent pain over the front of her pelvis after a difficult vaginal delivery. Imaging suggests injury to the pubic symphysis. Biopsy of the joint tissue shows rows of chondrocytes between large type I collagen bundles. Immunostaining shows that the fibroblasts in the tissue secrete a large proteoglycan that forms aggregates with hyaluronan. Which proteoglycan are the fibroblasts secreting?",
+      "answers": {
+        "A": "Aggrecan",
+        "B": "Chondroitin sulfate",
+        "C": "Hyaluronan",
+        "D": "Keratan sulfate",
+        "E": "Versican"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Aggrecan is the proteoglycan secreted by chondrocytes in all cartilage types, not by the fibroblasts of fibrocartilage.",
+        "B": "Chondroitin sulfate is a GAG chain carried on aggrecan, not a proteoglycan secreted by fibroblasts.",
+        "C": "Hyaluronan is the linear GAG that the proteoglycans bind to form aggregates, not the proteoglycan itself.",
+        "D": "Keratan sulfate is a GAG chain on aggrecan, not a fibroblast-secreted proteoglycan.",
+        "E": "Fibrocartilage fibroblasts secrete large amounts of versican, which binds hyaluronan to form proteoglycan aggregates, distinguishing it from other cartilage."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-009",
+      "question": "A 58-year-old man has a tracheal resection for stenosis after prolonged intubation. A section of a tracheal ring stained with H&E shows chondrocytes in lacunae, singly and in clusters. A narrow rim of darker, more densely staining matrix surrounds each cluster and each single cell, while paler matrix fills the space between them. What is the darker-staining rim?",
+      "answers": {
+        "A": "Inter-territorial matrix",
+        "B": "Osteoid seam",
+        "C": "Perichondrium",
+        "D": "Resorption bay",
+        "E": "Territorial matrix"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Inter-territorial matrix is the lighter-staining matrix that fills the areas between isogenous groups and single chondrocytes.",
+        "B": "An osteoid seam is unmineralized bone matrix laid down by osteoblasts, not a feature of cartilage.",
+        "C": "Perichondrium is the dense irregular connective tissue covering the outer surface of the cartilage, not a rim around each cell.",
+        "D": "A resorption bay is the pit on a bone surface where an osteoclast has resorbed bone.",
+        "E": "Territorial matrix is the denser matrix surrounding a single chondrocyte or isogenous group, and it stains darker on H&E."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-010",
+      "question": "A 57-year-old woman has kidney stones and bone pain. Laboratory studies are shown. Neck imaging shows a parathyroid adenoma. A bone biopsy shows increased numbers of the large cell shown, which lies in a shallow pit on the bone surface. Binding of which molecule to its receptor on this cell directly activates it?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Calcium", "11.8 mg/dL", "8.5–10.5 mg/dL"],
+        ["Phosphate", "2.1 mg/dL", "2.5–4.5 mg/dL"],
+        ["Parathyroid hormone", "142 pg/mL", "10–65 pg/mL"]
+      ],
+      "image": {"src": "images/histology-lab-cartilage-and-bone/010.jpg", "caption": "Bone biopsy, H&E", "credit": "Lecture slides p. 31 (label covered)"},
+      "answers": {
+        "A": "Calcitriol at the vitamin D receptor",
+        "B": "Osteoprotegerin at its decoy receptor",
+        "C": "Parathyroid hormone at the PTH receptor",
+        "D": "RANK ligand at the RANK receptor",
+        "E": "Versican at the hyaluronan receptor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Calcitriol acts mainly on other cells and is not named in the lecture as a direct activator of osteoclasts.",
+        "B": "Osteoprotegerin inhibits osteoclasts indirectly; it does not activate them.",
+        "C": "Parathyroid hormone stimulates osteoclasts only indirectly, so its effect on this multinucleated cell is not direct.",
+        "D": "The cell is an osteoclast in a resorption bay, and osteoclasts are directly activated through RANK; PTH excess raises their activity indirectly.",
+        "E": "Versican is a proteoglycan of fibrocartilage and has no role in osteoclast activation."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-011",
+      "question": "A 61-year-old woman has a bone biopsy as part of an evaluation for unusually dense bones on radiographs. Compared with an age-matched control, her biopsy shows normal numbers of osteoblasts and osteocytes but very few active multinucleated cells in resorption bays. Her osteoblasts are found to overproduce a secreted protein that indirectly blocks the activity of these resorbing cells. Which protein is overproduced?",
+      "answers": {
+        "A": "Matrix metalloproteinase",
+        "B": "Osteoprotegerin",
+        "C": "Parathyroid hormone",
+        "D": "Type I collagen",
+        "E": "Versican"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Matrix metalloproteinases degrade bone matrix and would increase, not reduce, bone breakdown.",
+        "B": "Osteoprotegerin (OPG) indirectly inhibits osteoclasts, so excess OPG leaves few active osteoclasts and dense bone.",
+        "C": "Parathyroid hormone indirectly stimulates osteoclasts and is made by the parathyroid glands, not osteoblasts.",
+        "D": "Type I collagen is the main organic matrix secreted by osteoblasts and does not regulate osteoclasts.",
+        "E": "Versican is secreted by fibroblasts in fibrocartilage and has no role in osteoclast regulation."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-012",
+      "question": "A 3-year-old boy has frequent infections, anemia, and bones that fracture easily despite appearing abnormally dense on radiographs. Genetic testing shows a defect in the differentiation of granulocyte/macrophage progenitor cells in his bone marrow. Bone biopsy shows thick, unremodeled bone. Which bone cell type is most directly deficient?",
+      "answers": {
+        "A": "Chondroblasts",
+        "B": "Osteoblasts",
+        "C": "Osteoclasts",
+        "D": "Osteocytes",
+        "E": "Osteoprogenitor cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Chondroblasts come from mesenchymal cells of the perichondrium, not from hematopoietic progenitors.",
+        "B": "Osteoblasts come from progenitor cells in the periosteum and endosteum, a lineage separate from the marrow's granulocyte/macrophage cells.",
+        "C": "Osteoclasts form by fusion of granulocyte/macrophage progenitor cells from bone marrow, so this defect leaves bone unresorbed and unremodeled.",
+        "D": "Osteocytes are osteoblasts trapped in mineralized matrix and do not derive from hematopoietic cells.",
+        "E": "Osteoprogenitor cells reside in the inner layer of the periosteum and the endosteum and are not hematopoietic."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-013",
+      "question": "A fetus is stillborn at 22 weeks' gestation, and sections of developing bone are examined at autopsy. The image shows a row of cuboidal, basophilic cells with single nuclei (arrows) lining a spicule of bone. A thin pale band separates these cells from the deeply eosinophilic bone beneath them. What are these cells laying down?",
+      "image": {"src": "images/histology-lab-cartilage-and-bone/013.jpg", "caption": "Developing bone, H&E", "credit": "Lecture slides p. 30"},
+      "answers": {
+        "A": "Aggrecan-rich cartilage matrix",
+        "B": "Elastic fibers and type II collagen",
+        "C": "Hydroxyapatite crystals alone",
+        "D": "Unmineralized type I collagen matrix",
+        "E": "Versican and type I collagen bundles"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Aggrecan-rich matrix is made by chondrocytes in cartilage, not by cells lining a bone spicule.",
+        "B": "Elastic fibers with type II collagen make up elastic cartilage matrix, not new bone.",
+        "C": "Mineral is deposited into the collagen matrix after it is laid down; the pale band is matrix that has not yet mineralized.",
+        "D": "The cells are active osteoblasts, which secrete type I collagen and other proteins as osteoid, the new unmineralized bone matrix between osteoblasts and mineralized bone.",
+        "E": "Versican and thick type I collagen bundles are secreted by fibroblasts in fibrocartilage."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-014",
+      "question": "A 45-year-old man is confined to bed for 10 weeks after spinal cord injury. Bone density of his lower limbs falls sharply, and laboratory studies are shown. Cells embedded in lacunae within his bone, connected to one another by processes in canaliculi, are thought to sense the loss of mechanical loading and trigger breakdown of bone. Which molecules released in response to this loss of stress degrade the bone?",
+      "table": [
+        ["Test", "Value", "Reference Range"],
+        ["Serum calcium", "10.4 mg/dL", "8.5–10.5 mg/dL"],
+        ["24-hour urine calcium", "390 mg/day", "100–300 mg/day"],
+        ["Parathyroid hormone", "12 pg/mL", "10–65 pg/mL"]
+      ],
+      "answers": {
+        "A": "Hydroxyapatite crystals",
+        "B": "Matrix metalloproteinases",
+        "C": "Osteoprotegerin",
+        "D": "Type I collagen fibrils",
+        "E": "Versican aggregates"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Hydroxyapatite is the mineral being lost from bone, not an agent that degrades it.",
+        "B": "Osteocytes play a mechanosensory role: decreased mechanical stress leads to matrix metalloproteinases that degrade bone, raising urine calcium while PTH stays low.",
+        "C": "Osteoprotegerin indirectly inhibits osteoclasts and would reduce, not increase, bone breakdown.",
+        "D": "Type I collagen is the organic matrix of bone that is broken down, not the degrading agent.",
+        "E": "Versican is a fibrocartilage proteoglycan and plays no role in bone degradation."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-015",
+      "question": "A 72-year-old woman's femoral diaphysis is sampled at autopsy and prepared as a ground section, which keeps only the inorganic material, so the spaces once occupied by cells and vessels fill with trapped air and appear black. The image shows concentric rings of lamellae, small dark spaces between the lamellae, and very fine dark lines radiating from these spaces. In living bone, how did cells in the small dark spaces receive nutrients from the blood?",
+      "image": {"src": "images/histology-lab-cartilage-and-bone/015.jpg", "caption": "Ground section of the femoral diaphysis", "credit": "Lecture slides p. 18"},
+      "answers": {
+        "A": "Diffusion through avascular hydrated matrix",
+        "B": "Marrow vessels lining trabecular surfaces",
+        "C": "Periosteal vessels via Sharpey's fibers",
+        "D": "Processes in canaliculi from central canal vessels",
+        "E": "Volkmann canals opening directly into each lacuna"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Diffusion through a hydrated matrix nourishes chondrocytes in avascular cartilage; mineralized bone matrix does not allow this.",
+        "B": "Marrow vessels nourish the trabeculae of spongy bone, which lacks osteons; this section shows compact bone with concentric lamellae.",
+        "C": "Sharpey's fibers are collagen bundles anchoring the periosteum to bone and do not carry nutrients to osteocytes.",
+        "D": "The dark spaces are lacunae of osteocytes; their processes run in canaliculi and link by gap junctions to neighbors, passing nutrients from vessels in the central Haversian canal.",
+        "E": "Volkmann canals connect adjacent Haversian canals and do not open into individual lacunae."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-016",
+      "question": "A 66-year-old man's tibial shaft is studied in cross section after amputation for trauma. Each osteon has a central canal containing a vessel. The pathologist points to a wider channel that runs perpendicular to the central canals, connects two of them, and cuts straight across the lamellae without any concentric lamellae of its own. What is this channel?",
+      "answers": {
+        "A": "Canaliculus",
+        "B": "Haversian canal",
+        "C": "Interstitial lamella",
+        "D": "Resorption bay",
+        "E": "Volkmann canal"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Canaliculi are tiny channels for osteocyte processes between lacunae, far smaller than a vascular channel.",
+        "B": "A Haversian canal is the central canal of an osteon and is surrounded by concentric lamellae.",
+        "C": "An interstitial lamella is a fragment of an old osteon between intact osteons, not a channel.",
+        "D": "A resorption bay is a pit on a bone surface where an osteoclast has resorbed bone.",
+        "E": "Volkmann canals run perpendicular to Haversian canals, connect their vascular networks, and cut across lamellae rather than being surrounded by them."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-017",
+      "question": "A 78-year-old woman's femur is examined at autopsy. Cross sections of the cortex show complete osteons with central canals. Between the osteons are irregular, angular fragments of lamellae that have no central canal of their own. These fragments are not at the inner or outer surface of the bone. What do these fragments represent?",
+      "answers": {
+        "A": "Circumferential lamellae at the periosteal surface",
+        "B": "Osteoid not yet mineralized by osteoblasts",
+        "C": "Remnants of old osteons partly remodeled",
+        "D": "Trabeculae of spongy bone within the cortex",
+        "E": "Woven bone forming new Haversian systems"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Circumferential lamellae are bands running along the inner and outer surfaces of compact bone, not fragments between osteons.",
+        "B": "Osteoid is new unmineralized matrix found between osteoblasts and mineralized bone, not angular lamellar fragments.",
+        "C": "Interstitial lamellae are fragments of old Haversian systems that underwent partial remodeling, filling the spaces between intact osteons.",
+        "D": "Trabeculae are branching spicules of spongy bone separated by marrow spaces, not fragments within the cortex.",
+        "E": "Woven bone is unorganized immature bone and lacks the lamellar arrangement described."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-018",
+      "question": "A 49-year-old woman has an iliac crest bone marrow biopsy to evaluate anemia. The section, shown below, contains a branching pink spicule of lamellar bone with osteocytes in lacunae but no Haversian canals. The spicule is surrounded by hematopoietic cells and fat cells. How are the osteocytes within this spicule nourished?",
+      "image": {"src": "images/histology-lab-cartilage-and-bone/018.jpg", "caption": "Iliac crest biopsy, H&E", "credit": "Lecture slides p. 35"},
+      "answers": {
+        "A": "Diffusion from a covering perichondrium",
+        "B": "Nutrient artery branches in central canals",
+        "C": "Periosteal arteries entering via Volkmann canals",
+        "D": "Synovial fluid from the adjacent joint cavity",
+        "E": "Vessels of the surrounding marrow spaces"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Perichondrium covers cartilage, not bone trabeculae.",
+        "B": "Central (Haversian) canals belong to osteons of compact bone, which spongy bone lacks.",
+        "C": "Volkmann canals connect Haversian canals in compact bone; trabeculae have no such canal system.",
+        "D": "Synovial fluid bathes articular cartilage and does not supply trabecular bone.",
+        "E": "The spicule is a trabecula of spongy bone, which has no Haversian systems and is nourished by vessels in the surrounding marrow."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-019",
+      "question": "A 4-year-old boy has had six long-bone fractures after minor falls. He has blue sclerae, and genetic testing shows a mutation that reduces production of normal type I collagen. His serum calcium and phosphate are normal, and bone mineral content per unit of collagen is normal. Which mechanical property of his bone is most directly reduced?",
+      "answers": {
+        "A": "Calcium storage capacity",
+        "B": "Compressive strength",
+        "C": "Hematopoietic capacity",
+        "D": "Rigidity",
+        "E": "Tensile strength"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Calcium and phosphate storage is a function of bone's inorganic mineral, which is preserved here.",
+        "B": "Compressive strength comes from the inorganic hydroxyapatite mineral, which is normal per unit of collagen.",
+        "C": "Hematopoiesis happens in red marrow and is not a mechanical property of bone matrix.",
+        "D": "Rigidity is conferred by the mineral component, not by collagen.",
+        "E": "Bone's organic matrix, mostly type I collagen, gives it flexibility and tensile strength, so defective collagen makes bone brittle."
+      }
+    },
+    {
+      "id": "msk-histology-lab-cartilage-and-bone-020",
+      "question": "A 23-year-old military recruit develops a tibial stress fracture after weeks of marching. Biopsy of the cortex shows remodeling tunnels. At the leading tip of each tunnel, large multinucleated cells bore through old bone. Behind them, the tunnel narrows as rings of new lamellae are laid down from the outside inward around a central blood vessel. Which cells line the narrowing part of the tunnel?",
+      "answers": {
+        "A": "Chondrocytes",
+        "B": "Fibroblasts",
+        "C": "Osteoblasts",
+        "D": "Osteoclasts",
+        "E": "Osteocytes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Chondrocytes make cartilage matrix and do not form lamellar bone.",
+        "B": "Fibroblasts lie in the outer layer of the periosteum and in fibrocartilage, not in cortical remodeling tunnels.",
+        "C": "The closing cone is lined by osteoblasts, which fill the tunnel with concentric lamellae inward around the central vessel to form a new osteon.",
+        "D": "Osteoclasts form the cutting cone at the leading tip that removes old bone, not the closing cone.",
+        "E": "Osteocytes are mature cells trapped in mineralized matrix and are not actively secreting matrix."
+      }
+    }
+  ]
+}

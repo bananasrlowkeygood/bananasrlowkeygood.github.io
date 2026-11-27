@@ -1,0 +1,480 @@
+{
+  "lecture": "The Gluteal Region and Hip",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "questions": [
+    {
+      "id": "msk-gluteal-region-and-hip-001",
+      "question": "An 89-year-old woman with osteoporosis and metastatic breast carcinoma is found on the floor of her home several hours after a fall. Her right lower limb is painful and she cannot bear weight. Radiographs show a displaced fracture of the femoral neck, and follow-up imaging weeks later shows darkening and early collapse of the femoral head. Injury to which artery best explains the femoral head findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "DEXA T-score (femoral neck)",
+          "-3.1",
+          "≥ -1.0"
+        ],
+        [
+          "Calcium",
+          "10.9 mg/dL",
+          "8.5–10.5 mg/dL"
+        ],
+        [
+          "Alkaline phosphatase",
+          "210 U/L",
+          "40–130 U/L"
+        ]
+      ],
+      "answers": {
+        "A": "Inferior gluteal artery",
+        "B": "Lateral circumflex femoral artery",
+        "C": "Medial circumflex femoral artery",
+        "D": "Obturator artery",
+        "E": "Superior gluteal artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Its branches join the anastomosis around the proximal femur, but they are too small to be the femoral head's main supply.",
+        "B": "It helps form the anastomosis around the proximal femur and supplies the trochanters, but it is not the main supplier of the femoral head and neck.",
+        "C": "It runs close to the femoral neck and provides most of the blood to the femoral head, so a neck fracture can tear it and cause avascular necrosis.",
+        "D": "It leaves the pelvis through the obturator canal to supply the medial compartment of the thigh, not the femoral head.",
+        "E": "It exits above the piriformis to supply the gluteal muscles and is far from the femoral neck."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-002",
+      "question": "An 84-year-old woman of small build with frailty and deconditioning falls at home and sustains a femoral neck fracture. She undergoes hemiarthroplasty but is largely bedbound for weeks afterward. Her family asks why hip fractures in older adults carry such a high mortality within the first year even though the fracture itself is not life-threatening. Which of the following best explains this?",
+      "table": [
+        [
+          "Day after surgery",
+          "Mobility",
+          "Finding"
+        ],
+        [
+          "Day 3",
+          "Bed to chair only",
+          "Calf swelling"
+        ],
+        [
+          "Day 9",
+          "Bedbound",
+          "Sacral pressure ulcer"
+        ],
+        [
+          "Day 14",
+          "Bedbound",
+          "Fever, right lower lobe infiltrate"
+        ]
+      ],
+      "answers": {
+        "A": "Avascular necrosis of the head",
+        "B": "Complications of immobility",
+        "C": "Fat embolism from the marrow",
+        "D": "Hemorrhage from the fracture",
+        "E": "Sciatic nerve injury"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Avascular necrosis causes pain, collapse, and arthritis of the joint, but it is not what drives the high one-year mortality.",
+        "B": "Prolonged immobility leads to rapid muscle loss, worsening deconditioning, clots, pneumonia, dehydration, and pressure ulcers, which account for the high mortality.",
+        "C": "Fat embolism is a rare early event after long-bone fracture and is not the main reason for death over the following year.",
+        "D": "Bleeding from a femoral neck fracture is limited and is not the usual cause of later death.",
+        "E": "The sciatic nerve exits below the piriformis and is not typically injured by a femoral neck fracture; nerve injury would not explain mortality."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-003",
+      "question": "During a Timed Up & Go test, a 93-year-old woman takes a long time to rise from her chair and must push off the armrests with both hands. Once standing she walks at a normal pace with a level pelvis. Her physician suspects weakness of the muscle that is the strongest extensor of the hip when starting from a flexed, seated position. Which nerve innervates this muscle?",
+      "answers": {
+        "A": "Femoral nerve",
+        "B": "Inferior gluteal nerve",
+        "C": "Obturator nerve",
+        "D": "Superior gluteal nerve",
+        "E": "Tibial nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The femoral nerve supplies hip flexors and knee extensors such as rectus femoris and sartorius, not the main hip extensor.",
+        "B": "The gluteus maximus, the strongest hip extensor when rising from a chair, is innervated by the inferior gluteal nerve (L5, S1, S2).",
+        "C": "The obturator nerve supplies the hip adductors of the medial thigh, not the hip extensor used in rising from a chair.",
+        "D": "The superior gluteal nerve supplies the gluteus medius, minimus, and TFL; weakness would tilt the pelvis while walking, which she does not show.",
+        "E": "The tibial part of the sciatic nerve supplies the hamstrings, which extend the hip but are not the main extensor from a seated position."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-004",
+      "question": "A 22-year-old performer practices side splits before a show, rapidly abducting both thighs at the hip as far as possible. After a forceful attempt she feels a deep pulling sensation at the anteroinferior aspect of both hip joints. Which ligament is under maximal tension during this movement?",
+      "answers": {
+        "A": "Iliofemoral ligament",
+        "B": "Ischiofemoral ligament",
+        "C": "Ligament of the head of the femur",
+        "D": "Pubofemoral ligament",
+        "E": "Transverse acetabular ligament"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The iliofemoral (Y) ligament runs superiorly and anteriorly and, with the ischiofemoral ligament, resists hyperextension rather than abduction.",
+        "B": "The ischiofemoral ligament lies posteroinferiorly and resists hyperextension, not hyperabduction.",
+        "C": "This small intracapsular ligament tethers the fovea to the acetabulum and is not the main restraint on abduction.",
+        "D": "The pubofemoral ligament runs at the anteroinferior joint from pubis to femur and resists hyperabduction, so it is tightest in a side split.",
+        "E": "It closes the inferior gap of the acetabular labrum and does not limit abduction of the thigh."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-005",
+      "question": "A 41-year-old woman receives an intragluteal injection of penicillin G benzathine for primary syphilis. Two days later she returns with an abnormal gait. When she stands on her left lower limb, her right hip stays level. When she stands on her right lower limb, her left hip sags. Sensation over the buttock and thigh is normal. Which nerve was most likely injured?",
+      "answers": {
+        "A": "Left inferior gluteal nerve",
+        "B": "Left superior gluteal nerve",
+        "C": "Right inferior gluteal nerve",
+        "D": "Right sciatic nerve",
+        "E": "Right superior gluteal nerve"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Inferior gluteal nerve injury weakens the gluteus maximus and hip extension; it does not cause the pelvis to drop while standing on one limb.",
+        "B": "A left-sided lesion would make the right hip sag when she stands on the left limb, the opposite of what is seen.",
+        "C": "This would weaken hip extension on the right, such as rising from a chair, rather than causing a pelvic drop.",
+        "D": "Sciatic injury affects the hamstrings, leg, and foot and causes sensory loss, not a pelvic drop with intact sensation.",
+        "E": "The right gluteus medius, minimus, and TFL fail to hold the pelvis level when she stands on the right limb, so the unsupported left side sags (Trendelenburg gait)."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-006",
+      "question": "A 35-year-old man receives an intramuscular injection into the gluteal region, placed in the lower medial part of the buttock just below the level of the piriformis. Two days later he reports numbness over the lower buttock, the back of the thigh, and the popliteal fossa. Strength in hip extension, knee flexion, and all foot movements is normal. Which nerve was most likely injured?",
+      "answers": {
+        "A": "Common fibular nerve",
+        "B": "Inferior gluteal nerve",
+        "C": "Posterior femoral cutaneous nerve",
+        "D": "Superior cluneal nerves",
+        "E": "Superior gluteal nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Injury to the common fibular nerve would cause weakness of foot dorsiflexion and sensory loss on the leg, not isolated posterior thigh numbness.",
+        "B": "The inferior gluteal nerve is purely muscular to the gluteus maximus; injury would weaken hip extension without numbness.",
+        "C": "This purely cutaneous nerve exits below the piriformis and supplies the lower buttock (via the inferior cluneal nerves), posterior thigh, and popliteal fossa.",
+        "D": "These arise from dorsal rami and supply the upper buttock, not the posterior thigh or popliteal fossa.",
+        "E": "The superior gluteal nerve exits above the piriformis, has no cutaneous territory, and would cause a Trendelenburg gait."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-007",
+      "question": "A nurse is preparing to give a 55-year-old man an intramuscular injection of a biologic agent into the gluteal region. She wants to avoid the superior gluteal vessels and nerve exiting above the piriformis and the sciatic nerve and other bundles exiting below it. Into which part of the gluteal region should the injection be given?",
+      "answers": {
+        "A": "Inferolateral quadrant",
+        "B": "Inferomedial quadrant",
+        "C": "Midpoint of the buttock",
+        "D": "Superolateral quadrant",
+        "E": "Superomedial quadrant"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The lower half of the buttock lies over the structures exiting below the piriformis, including the sciatic nerve.",
+        "B": "This area overlies the sciatic, pudendal, and inferior gluteal structures and is the most dangerous site.",
+        "C": "The center of the buttock lies near the piriformis, where the gluteal neurovascular bundles emerge.",
+        "D": "The superolateral quadrant has few neurovascular bundles and is the preferred safe area for intragluteal injections.",
+        "E": "The superomedial area overlies the greater sciatic foramen and the superior gluteal vessels and nerve."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-008",
+      "question": "A 24-year-old man is brought to the emergency department after a high-speed head-on motor vehicle collision in which his knee struck the dashboard. He has severe left hip pain. A radiograph of the left hip is shown. On inspection, in which position is the left lower limb most likely held?",
+      "table": [
+        [
+          "Vital sign",
+          "Value"
+        ],
+        [
+          "Heart rate",
+          "118/min"
+        ],
+        [
+          "Blood pressure",
+          "104/66 mm Hg"
+        ],
+        [
+          "Respiratory rate",
+          "22/min"
+        ],
+        [
+          "SpO2",
+          "97% on room air"
+        ]
+      ],
+      "image": {
+        "src": "images/gluteal-region-and-hip/008.jpg",
+        "caption": "Anteroposterior radiograph of the left hip",
+        "credit": "Slides p. 14"
+      },
+      "answers": {
+        "A": "Lengthened, abducted, laterally rotated",
+        "B": "Lengthened, adducted, medially rotated",
+        "C": "Shortened, abducted, laterally rotated",
+        "D": "Shortened, adducted, laterally rotated",
+        "E": "Shortened, adducted, medially rotated"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "This position is typical of an anterior hip dislocation, which is much less common than posterior dislocation.",
+        "B": "A posteriorly displaced femoral head shortens the limb rather than lengthening it.",
+        "C": "Shortening with lateral rotation is more typical of a displaced femoral neck fracture than of a posterior dislocation.",
+        "D": "A posterior dislocation rotates the limb medially, not laterally.",
+        "E": "The femoral head has been driven posteriorly out of the acetabulum, so the limb is held shortened, adducted, and medially rotated."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-009",
+      "question": "A 30-year-old woman is a passenger in a car that brakes suddenly; her knee strikes the dashboard. In the emergency department she is found to have a posterior dislocation of the right hip. At the moment of impact, in which position was her hip most likely held to allow the femoral head to be driven out of the acetabulum?",
+      "answers": {
+        "A": "Extended and abducted",
+        "B": "Extended and adducted",
+        "C": "Flexed and abducted",
+        "D": "Flexed and adducted",
+        "E": "Neutral and laterally rotated"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "In extension and abduction the femoral head is well seated and the iliofemoral ligament is taut, so posterior dislocation is unlikely.",
+        "B": "An extended hip keeps the femoral head well covered by the acetabulum and is not the usual position for posterior dislocation.",
+        "C": "Abduction pushes the femoral head toward the deeper part of the acetabulum and makes posterior dislocation less likely.",
+        "D": "An axial force through a flexed and adducted hip, as in a dashboard injury, drives the femoral head posteriorly out of the acetabulum.",
+        "E": "A neutral, laterally rotated hip is not the classic position for a dashboard-type posterior dislocation."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-010",
+      "question": "A 48-year-old woman who recently began running long distances has had 3 weeks of pain over the lateral side of her right hip. The pain is worse when she lies on that side at night. Examination shows a stiff, achy hip and focal point tenderness directly over the bony prominence on the lateral proximal femur. Range of motion is otherwise preserved. Inflammation of which structure is most likely?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Leukocyte count",
+          "7,200/mm³",
+          "4,500–11,000/mm³"
+        ],
+        [
+          "ESR",
+          "12 mm/h",
+          "0–20 mm/h"
+        ],
+        [
+          "Serum uric acid",
+          "4.8 mg/dL",
+          "2.4–6.0 mg/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Acetabular labrum",
+        "B": "Greater trochanteric bursa",
+        "C": "Iliopectineal bursa",
+        "D": "Iliotibial tract",
+        "E": "Ischial bursa"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Labral injury causes deep groin pain with catching and is not felt as point tenderness over the lateral femur.",
+        "B": "This bursa overlies the greater trochanter; repetitive motion inflames it, causing lateral hip pain and point tenderness at that site.",
+        "C": "This bursa overlies the anterior femoral head, so its inflammation causes anterior hip or groin tenderness.",
+        "D": "The IT tract runs down the lateral thigh to the tibia; this patient's tenderness is localized to the bony prominence.",
+        "E": "The ischial bursa overlies the ischial tuberosity, so tenderness would be in the lower buttock, worse with sitting."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-011",
+      "question": "A 52-year-old man who drives a truck for 10 hours a day reports months of aching pain in the lower part of his left buttock that is worst while seated. He has point tenderness, mild swelling, and erythema over the bony prominence that bears weight when he sits. Hip motion is full. Inflammation of which structure is most likely?",
+      "answers": {
+        "A": "Acetabular labrum",
+        "B": "Greater trochanteric bursa",
+        "C": "Iliopectineal bursa",
+        "D": "Ischial bursa",
+        "E": "Sacrotuberous ligament"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Labral pathology produces deep groin pain and mechanical symptoms, not superficial swelling of the lower buttock.",
+        "B": "This bursa causes lateral hip tenderness over the greater trochanter, not lower buttock pain with sitting.",
+        "C": "This bursa lies anterior to the hip joint over the femoral head, so it causes anterior pain.",
+        "D": "The ischial bursa overlies the ischial tuberosity, the part of the pelvis we sit on, so prolonged sitting irritates it.",
+        "E": "This ligament attaches to the ischial tuberosity but is a dense ligament, not a fluid-filled sac that becomes swollen and erythematous."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-012",
+      "question": "A 70-year-old man slips backward on ice; his right foot catches and his thigh is forced backward behind his trunk at the hip. The joint does not dislocate. Which hip ligaments are the main restraints that resist this movement?",
+      "answers": {
+        "A": "Iliofemoral and ischiofemoral",
+        "B": "Iliofemoral and pubofemoral",
+        "C": "Ischiofemoral and pubofemoral",
+        "D": "Labrum and head ligament",
+        "E": "Transverse and pubofemoral"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "These two ligaments screw the femoral head into the acetabulum and together resist hyperextension of the thigh at the hip.",
+        "B": "The iliofemoral ligament resists hyperextension, but the pubofemoral ligament resists hyperabduction.",
+        "C": "The ischiofemoral ligament resists hyperextension, but the pubofemoral ligament mainly limits abduction.",
+        "D": "The acetabular labrum and ligament of the head of the femur deepen and tether the joint but are not the main restraints on extension.",
+        "E": "The transverse acetabular ligament closes the labrum inferiorly, and the pubofemoral ligament resists hyperabduction, not hyperextension."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-013",
+      "question": "A 46-year-old woman with a pelvic tumor undergoes preoperative embolization in which only the posterior division of the right internal iliac artery is occluded. The anterior division is preserved. Which artery is most likely to lose its blood flow?",
+      "answers": {
+        "A": "Inferior gluteal artery",
+        "B": "Inferior rectal artery",
+        "C": "Internal pudendal artery",
+        "D": "Obturator artery",
+        "E": "Superior gluteal artery"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The inferior gluteal artery arises from the anterior division and would be spared.",
+        "B": "The inferior rectal artery comes off the internal pudendal artery, an anterior-division branch, so it would be spared.",
+        "C": "The internal pudendal artery arises from the anterior division and would be spared.",
+        "D": "The obturator artery arises from the anterior division and would be spared.",
+        "E": "The superior gluteal artery arises from the posterior division of the internal iliac artery and exits above the piriformis to supply the gluteal muscles."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-014",
+      "question": "A 29-year-old woman in labor is to receive a pudendal nerve block. The obstetrician explains that after exiting the greater sciatic foramen below the piriformis, the pudendal nerve and internal pudendal vessels curve around a bony landmark to pass through the lesser sciatic foramen into the perineum. Which landmark is palpated to guide the injection?",
+      "answers": {
+        "A": "Greater trochanter",
+        "B": "Iliac crest",
+        "C": "Ischial spine",
+        "D": "Ischial tuberosity",
+        "E": "Pubic tubercle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The greater trochanter is on the lateral proximal femur and is far from the course of the pudendal nerve.",
+        "B": "The iliac crest is the upper edge of the ala of the ilium and is unrelated to the pudendal nerve.",
+        "C": "The pudendal nerve and vessels pass posterior to the ischial spine, which separates the greater and lesser sciatic foramina, on their way to the perineum.",
+        "D": "The ischial tuberosity is the sitting bone and attachment of the sacrotuberous ligament, inferior to the pudendal nerve's turn.",
+        "E": "The pubic tubercle is an anterior landmark for the inguinal ligament, not the pudendal nerve."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-015",
+      "question": "A 63-year-old woman has a large pelvic sidewall mass that compresses the small gap at the superomedial border of the membrane filling the obturator foramen. The artery passing through this gap is occluded. Blood flow to which region is most directly reduced?",
+      "answers": {
+        "A": "Anterior compartment of thigh",
+        "B": "Gluteal region",
+        "C": "Medial compartment of thigh",
+        "D": "Perineum",
+        "E": "Posterior compartment of thigh"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior thigh is supplied mainly by the femoral artery and its branches, not by the vessel in the obturator canal.",
+        "B": "The gluteal region is supplied by the superior and inferior gluteal arteries passing through the greater sciatic foramen.",
+        "C": "The obturator artery passes through the obturator canal to supply part of the medial compartment of the thigh, together with the deep femoral artery.",
+        "D": "The perineum is supplied by the internal pudendal artery, which enters through the lesser sciatic foramen.",
+        "E": "The posterior thigh is supplied mainly by perforating branches of the deep femoral artery."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-016",
+      "question": "A 38-year-old man undergoes surgery in the gluteal region, during which the nerve exiting the greater sciatic foramen immediately above the piriformis is cut. Afterward he walks with a Trendelenburg gait. In addition to weakness of hip abduction and medial rotation, he has mild weakness of hip flexion. Loss of which muscle best explains the weakness of hip flexion?",
+      "answers": {
+        "A": "Gluteus maximus",
+        "B": "Iliopsoas",
+        "C": "Piriformis",
+        "D": "Quadratus femoris",
+        "E": "Tensor fasciae latae"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The gluteus maximus is supplied by the inferior gluteal nerve and is a hip extensor, not a flexor.",
+        "B": "The iliopsoas is a strong hip flexor but is supplied by lumbar ventral rami, not the superior gluteal nerve.",
+        "C": "The piriformis is a lateral rotator supplied by the nerve to piriformis.",
+        "D": "The quadratus femoris is a lateral rotator supplied by the nerve to quadratus femoris.",
+        "E": "The superior gluteal nerve supplies the TFL, which abducts and medially rotates the hip and, because it sits anteriorly, also assists hip flexion."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-017",
+      "question": "A 45-year-old man has a posterior approach to the hip, after which the nerve that exits the greater sciatic foramen just below the piriformis and supplies the largest, most superficial gluteal muscle is found to be injured. He has difficulty climbing stairs and rising from a squat. Besides hip extension, which action at the hip is most likely weakened?",
+      "answers": {
+        "A": "Abduction",
+        "B": "Adduction",
+        "C": "Flexion",
+        "D": "Lateral rotation",
+        "E": "Medial rotation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Abduction is performed by the gluteus medius, minimus, and TFL via the superior gluteal nerve.",
+        "B": "Adduction is performed by the medial thigh muscles, mostly via the obturator nerve.",
+        "C": "The gluteus maximus is an extensor; flexion is performed by muscles such as iliopsoas and rectus femoris.",
+        "D": "The gluteus maximus, supplied by the inferior gluteal nerve, both extends and laterally rotates the thigh at the hip.",
+        "E": "Medial rotation is performed by the gluteus medius, minimus, and TFL, not the gluteus maximus."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-018",
+      "question": "A 15-year-old sprinter feels a pop in his left groin as he drives out of the starting blocks. He now has pain and marked weakness when he tries to flex the hip while seated. Radiographs show an avulsion fracture of the smaller, inferomedial bony projection of the proximal femur. Which muscle's attachment has been avulsed?",
+      "answers": {
+        "A": "Gluteus maximus",
+        "B": "Gluteus medius",
+        "C": "Iliopsoas",
+        "D": "Obturator internus",
+        "E": "Piriformis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The gluteus maximus attaches to the gluteal tuberosity and extends the hip.",
+        "B": "The gluteus medius attaches to the greater trochanter and abducts the hip.",
+        "C": "The iliopsoas, a strong hip flexor, attaches to the lesser trochanter, which matches the avulsed fragment and the weak hip flexion.",
+        "D": "The obturator internus attaches to the greater trochanter and laterally rotates the hip.",
+        "E": "The piriformis attaches to the greater trochanter and laterally rotates the hip."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-019",
+      "question": "A 26-year-old woman has a pelvic MRI after a hip injury. The radiologist points out a small normal indentation on the medial surface of the femoral head and notes that the structure attaching there appears intact. The structure runs from this indentation to the inferior edge of the acetabulum. Which structure is it?",
+      "answers": {
+        "A": "Acetabular labrum",
+        "B": "Iliofemoral ligament",
+        "C": "Ligament of head of femur",
+        "D": "Pubofemoral ligament",
+        "E": "Transverse acetabular ligament"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The labrum is a C-shaped fibrocartilage rim around the acetabulum and does not attach to the femoral head.",
+        "B": "The iliofemoral ligament runs outside the joint from the ilium to the femur, not to the femoral head.",
+        "C": "The ligament of the head of the femur attaches at the fovea, the small pit in the femoral head, and tethers it to the acetabulum.",
+        "D": "The pubofemoral ligament runs from the pubis to the femur outside the joint and resists hyperabduction.",
+        "E": "This ligament bridges the inferior ends of the acetabular labrum and does not attach to the femoral head."
+      }
+    },
+    {
+      "id": "msk-gluteal-region-and-hip-020",
+      "question": "A 67-year-old man undergoes cardiac catheterization through a puncture of the right femoral artery just below the inguinal ligament. The catheter is advanced proximally and passes deep to the inguinal ligament into the pelvis. Into which artery does the catheter pass directly?",
+      "answers": {
+        "A": "Common iliac artery",
+        "B": "External iliac artery",
+        "C": "Internal iliac artery",
+        "D": "Obturator artery",
+        "E": "Profunda femoral artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The common iliac artery divides into the internal and external iliac arteries and is reached only after passing through the external iliac.",
+        "B": "The femoral artery is the continuation of the external iliac artery, renamed once it passes deep to the inguinal ligament.",
+        "C": "The internal iliac supplies the pelvis and gluteal region and does not continue as the femoral artery.",
+        "D": "The obturator artery is an internal iliac branch that leaves the pelvis through the obturator canal.",
+        "E": "The profunda (deep) femoral artery is a branch of the femoral artery in the thigh, distal to the puncture site."
+      }
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "lecture": "Eating Disorders Patient Panel",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "questions": [
+    {
+      "id": "msk-eating-disorders-patient-panel-001",
+      "question": "A 17-year-old girl is brought to her pediatrician after losing 11 kg over 6 months. She restricts intake to one small meal daily, says she is terrified of becoming fat, and believes her thighs are 'huge.' For the past 4 months she has also had weekly episodes of eating large amounts of food with a sense of loss of control, followed by self-induced vomiting. Her BMI is 15.6 kg/m². Vital signs are shown. Which of the following is the most likely diagnosis?",
+      "table": [
+        [
+          "Vital sign",
+          "Value"
+        ],
+        [
+          "Heart rate",
+          "46/min"
+        ],
+        [
+          "Blood pressure",
+          "88/54 mm Hg"
+        ],
+        [
+          "Temperature",
+          "35.8 °C (96.4 °F)"
+        ]
+      ],
+      "answers": {
+        "A": "Anorexia nervosa, binge-eating/purging type",
+        "B": "Anorexia nervosa, restricting type",
+        "C": "Binge eating disorder",
+        "D": "Bulimia nervosa",
+        "E": "Purging disorder"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Significantly low body weight with fear of weight gain and body image disturbance is anorexia nervosa, and recurrent binging or purging in the last 3 months makes it the binge-eating/purging subtype.",
+        "B": "The restricting subtype requires no recurrent binge eating or purging in the last 3 months; this patient binges and vomits weekly.",
+        "C": "Binge eating disorder has no compensatory behavior such as vomiting and is not diagnosed in a patient at significantly low weight.",
+        "D": "Bulimia nervosa is not diagnosed when the binge-purge behavior occurs during anorexia nervosa; a significantly low body weight points to anorexia.",
+        "E": "Purging disorder (an OSFED) is purging without binge eating in someone who does not meet criteria for anorexia; she binges and is significantly underweight."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-002",
+      "question": "A 22-year-old woman comes to the physician for heartburn and a sore throat. She reports episodes about three times a week over the past 6 months in which she eats an entire pizza and a carton of ice cream within an hour and feels she cannot stop, after which she induces vomiting. She is ashamed and says her weight decides how she feels about herself. BMI is 23 kg/m². Examination shows bilateral painless swelling anterior to the ears and calluses over the knuckles of the dominant hand. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Anorexia nervosa, binge-eating/purging type",
+        "B": "Avoidant/restrictive food intake disorder",
+        "C": "Binge eating disorder",
+        "D": "Bulimia nervosa",
+        "E": "Other specified feeding or eating disorder"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This subtype requires a significantly low body weight; her BMI is normal.",
+        "B": "ARFID is a failure to meet nutritional needs from low interest, sensory aversion or fear of consequences, without binge eating or body image concerns.",
+        "C": "Binge eating disorder shares recurrent binges with loss of control but has no compensatory behavior such as vomiting.",
+        "D": "Recurrent binges with loss of control plus compensatory vomiting at least weekly for 3 months, with self-evaluation driven by weight, at normal weight, is bulimia nervosa; parotid swelling and Russell's sign fit.",
+        "E": "OSFED applies when full criteria are not met (for example, behaviors less than weekly); she meets full criteria for a specific disorder."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-003",
+      "question": "A 44-year-old man comes to the physician because of fatigue. Over the past year he has had episodes at least weekly of eating very rapidly until uncomfortably full, often alone because he is embarrassed by how much he eats, and he feels disgusted with himself afterward. He denies vomiting, laxative use, fasting, or compensatory exercise. BMI is 34 kg/m². Which of the following conditions is most likely to be associated with this patient's eating disorder?",
+      "answers": {
+        "A": "Gallbladder disease",
+        "B": "Lanugo",
+        "C": "Parotid gland enlargement",
+        "D": "Pseudo-Bartter syndrome",
+        "E": "Tooth enamel erosion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Binge eating disorder (binges with distress and no compensation) is associated with conditions of average or higher body weight, including gallbladder disease, hypertension, hypercholesterolemia, sleep apnea and osteoarthritis.",
+        "B": "Lanugo is a finding of the starvation state of anorexia nervosa, not of binge eating disorder.",
+        "C": "Parotid swelling is a sign of recurrent self-induced vomiting in bulimia nervosa; he does not purge.",
+        "D": "Pseudo-Bartter syndrome follows the cessation of chronic purging, which this patient does not do.",
+        "E": "Enamel erosion results from repeated exposure to gastric acid with vomiting, as in bulimia nervosa."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-004",
+      "question": "An 8-year-old boy is brought to the physician because he has refused all solid foods for 5 months, since he choked on a piece of chicken at a restaurant. He drinks milk and eats yogurt and applesauce. He has dropped from the 50th to the 10th percentile for weight, and his parents have started giving him oral nutritional supplements. He says he wants to grow bigger and has no concerns about his body shape. There is no history of gastrointestinal disease. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Anorexia nervosa, restricting type",
+        "B": "Avoidant/restrictive food intake disorder",
+        "C": "Binge eating disorder",
+        "D": "Bulimia nervosa",
+        "E": "Unspecified feeding or eating disorder"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Anorexia nervosa requires fear of weight gain and body image disturbance, which this boy lacks.",
+        "B": "Fear-based (aversive) food refusal after choking, with faltering growth and supplement dependence but no body image disturbance, is ARFID.",
+        "C": "Binge eating disorder involves recurrent episodes of eating large amounts with loss of control, not restriction.",
+        "D": "Bulimia nervosa requires binge eating and compensatory behaviors driven by weight and shape concerns.",
+        "E": "The unspecified category is for a disorder that does not meet criteria for a specific one; he meets ARFID criteria."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-005",
+      "question": "A 19-year-old college swimmer is referred after losing 20 kg over 8 months, from 94 kg to 74 kg, by strictly limiting meals. She has intense fear of gaining weight, weighs herself many times daily, and says she still looks 'enormous.' She denies binge eating or purging. Her BMI is now 25 kg/m². Heart rate is 48/min and she has orthostatic dizziness. The physician documents that she meets every criterion for anorexia nervosa except low body weight. Which of the following is the most appropriate diagnosis?",
+      "answers": {
+        "A": "Anorexia nervosa, restricting type",
+        "B": "Avoidant/restrictive food intake disorder",
+        "C": "Bulimia nervosa",
+        "D": "Other specified feeding or eating disorder",
+        "E": "Unspecified feeding or eating disorder"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Anorexia nervosa requires a significantly low body weight; her BMI is in the normal range.",
+        "B": "ARFID excludes disturbance in how body weight or shape is experienced, which is prominent here.",
+        "C": "Bulimia nervosa requires recurrent binge eating and compensatory behaviors, which she denies.",
+        "D": "Atypical anorexia nervosa (all features but weight not below normal) is an OSFED, used when the clinician states why full criteria are not met; its severity equals that of the defined disorders, as her bradycardia shows.",
+        "E": "The unspecified diagnosis is used when the clinician does not state why criteria are not met; here the reason is documented."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-006",
+      "question": "A 21-year-old woman tells her physician that for the past 7 months she has made herself vomit after most ordinary meals because she is afraid of gaining weight. She denies ever eating unusually large amounts of food or feeling out of control while eating. She does not restrict intake otherwise. BMI is 22 kg/m². Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Anorexia nervosa, binge-eating/purging type",
+        "B": "Binge eating disorder",
+        "C": "Bulimia nervosa",
+        "D": "Night eating syndrome",
+        "E": "Purging disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Anorexia nervosa requires significantly low body weight; her BMI is normal.",
+        "B": "Binge eating disorder requires binge episodes and has no compensatory behavior; she purges without binging.",
+        "C": "Bulimia nervosa requires recurrent binge eating episodes in addition to compensatory behaviors.",
+        "D": "Night eating syndrome is excessive eating after the evening meal or after waking from sleep, not purging after normal meals.",
+        "E": "Purging without binge eating, in someone not meeting anorexia criteria, is purging disorder, a form of OSFED."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-007",
+      "question": "A 20-year-old man reports that, over the past 4 months, he has had episodes about twice a month of eating a very large amount of food within 2 hours while feeling unable to stop, followed by several hours of running to 'burn it off.' His self-worth depends heavily on his body shape. BMI is 23 kg/m². He is diagnosed with other specified feeding or eating disorder. Which feature of his history most directly prevents a diagnosis of bulimia nervosa?",
+      "answers": {
+        "A": "Episodes occur less than once a week",
+        "B": "Male sex of the patient",
+        "C": "No self-induced vomiting at any time",
+        "D": "Normal body mass index",
+        "E": "Symptom duration of 4 months"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Bulimia nervosa requires binges and compensatory behaviors on average at least once a week for 3 months; less frequent behavior is bulimia of low frequency, an OSFED.",
+        "B": "Eating disorders occur in all genders; sex is not a diagnostic criterion.",
+        "C": "Compensatory behaviors include excessive exercise and fasting, not only vomiting, so exercise satisfies that criterion.",
+        "D": "Bulimia nervosa is typically diagnosed at normal or higher weight; a normal BMI is expected.",
+        "E": "The duration criterion is 3 months, which he has met."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-008",
+      "question": "A 24-year-old woman with a 6-year history of bulimia nervosa with daily self-induced vomiting enters an outpatient program and stops purging completely. Ten days later she returns, distressed, with a 3-kg weight gain and bilateral pitting edema of the ankles. Cardiac, renal and hepatic evaluations are normal. Which of the following best explains her new findings?",
+      "answers": {
+        "A": "Aldosterone-driven salt and water retention",
+        "B": "Congestive heart failure from cardiomyopathy",
+        "C": "Hypoalbuminemia from protein malnutrition",
+        "D": "Myxedema from primary hypothyroidism",
+        "E": "Nephrotic-range protein loss in urine"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Pseudo-Bartter syndrome: chronic purging causes volume depletion and RAAS activation, and when purging stops, persistently high aldosterone retains salt and water, causing edema.",
+        "B": "Cardiac evaluation is normal, and failure would not arise because purging stopped.",
+        "C": "Her hepatic evaluation is normal, and the edema is timed to the cessation of purging rather than to a fall in intake.",
+        "D": "Hypothyroidism causes nonpitting myxedema and would not begin abruptly with the end of purging.",
+        "E": "Renal evaluation is normal; nephrotic syndrome would show heavy proteinuria."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-009",
+      "question": "A 26-year-old woman with bulimia nervosa (binging and vomiting several times weekly) and major depressive disorder asks her physician for an antidepressant. She is very worried about weight gain and asks for the medication 'least likely to make me gain weight.' Which of the following medications carries the greatest risk of a serious adverse event in this patient?",
+      "answers": {
+        "A": "Bupropion",
+        "B": "Citalopram",
+        "C": "Escitalopram",
+        "D": "Fluoxetine",
+        "E": "Sertraline"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Bupropion (Wellbutrin) carries a high seizure risk in patients with inadequate intake or binging and purging, as electrolyte disturbances lower the seizure threshold further.",
+        "B": "Citalopram is an SSRI without the specific seizure risk that makes bupropion dangerous with purging.",
+        "C": "Escitalopram is an SSRI and is not specifically contraindicated in bulimia nervosa.",
+        "D": "Fluoxetine is an SSRI commonly used in bulimia nervosa and does not carry bupropion's seizure risk.",
+        "E": "Sertraline is an SSRI without the seizure risk that bupropion carries with purging."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-010",
+      "question": "A 20-year-old woman with anorexia nervosa has had amenorrhea for 10 months. Her previous physician started a combined oral contraceptive 'to regulate her cycles,' and she now has a monthly withdrawal bleed. She continues to restrict intake, and her BMI is unchanged at 16 kg/m². A DEXA scan shows bone density lower than one done a year earlier. Which of the following best explains the continued bone loss?",
+      "answers": {
+        "A": "Bleeding masks hypothalamic amenorrhea",
+        "B": "Contraceptive-induced vitamin D malabsorption",
+        "C": "Estrogen excess from the contraceptive",
+        "D": "Primary hyperparathyroidism",
+        "E": "Primary ovarian insufficiency"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Oral contraceptives produce a monthly bleed that masks the hypothalamic amenorrhea of the eating disorder, but they do not repair or maintain bone density lost to low estrogen.",
+        "B": "Oral contraceptives do not cause vitamin D malabsorption.",
+        "C": "Estrogen protects bone; excess estrogen would not cause bone loss.",
+        "D": "There is no evidence of hypercalcemia; her bone loss is explained by the eating disorder.",
+        "E": "Her amenorrhea is hypothalamic, from restriction, not primary ovarian failure."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-011",
+      "question": "A 17-year-old girl with type 1 diabetes mellitus has had three admissions for diabetic ketoacidosis in 6 months and has lost 7 kg. Her insulin pump downloads show long gaps in bolus dosing. She says she 'can't stand' how she looks and that skipping doses is 'the only thing that keeps the weight off.' Laboratory results on this admission are shown. Which of the following best explains her recurrent ketoacidosis?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Glucose",
+          "512 mg/dL",
+          "70–100 mg/dL"
+        ],
+        [
+          "Bicarbonate",
+          "11 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Serum ketones",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "Hemoglobin A1c",
+          "12.8%",
+          "<5.7%"
+        ]
+      ],
+      "answers": {
+        "A": "Deliberate insulin omission",
+        "B": "Insulin antibody formation",
+        "C": "Insulin pump malfunction",
+        "D": "Lipohypertrophy at infusion sites",
+        "E": "Occult urinary tract infection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Diabulimia is intentionally skipping or underdosing insulin to lose weight, and recurrent DKA is its warning sign.",
+        "B": "Insulin antibodies are rare and would not explain dosing gaps that she links to weight control.",
+        "C": "The downloads show missed boluses, not delivery failure, and she describes skipping doses deliberately.",
+        "D": "Lipohypertrophy causes erratic absorption, not intentional omission tied to body image.",
+        "E": "Infection can precipitate DKA, but nothing here suggests it, and her history explains all three episodes."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-012",
+      "question": "A 29-year-old man who trains for marathons comes to the physician because of difficulty seeing at night. Over the past year he has adopted a 'clean eating' plan that has progressively removed all oils, nuts, dairy and meat, and he feels intense guilt when he deviates from his rules. His weight is stable. He bruises easily, and prothrombin time is prolonged. Which of the following nutrient deficiencies best explains his findings?",
+      "answers": {
+        "A": "Fat-soluble vitamins",
+        "B": "Vitamin B1 (thiamine)",
+        "C": "Vitamin B12 (cobalamin)",
+        "D": "Vitamin B3 (niacin)",
+        "E": "Vitamin B9 (folate)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Eliminating dietary fat removes the ability to absorb vitamins A, D, E and K, explaining night blindness (A) and a prolonged PT (K); his rigid 'clean' eating is orthorexia.",
+        "B": "Thiamine deficiency causes beriberi and Wernicke encephalopathy, not night blindness or coagulopathy.",
+        "C": "Vitamin B12 deficiency causes megaloblastic anemia and neuropathy, not night blindness or a prolonged PT.",
+        "D": "Niacin deficiency causes dermatitis, diarrhea and dementia.",
+        "E": "Folate deficiency causes megaloblastic anemia, not night blindness or a prolonged PT."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-013",
+      "question": "An 18-year-old woman with anorexia nervosa, restricting type, has fatigue and cold intolerance. BMI is 15 kg/m², and she has been eating about 600 kcal/day. Thyroid studies are shown. Which of the following is the most appropriate management of her thyroid findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "TSH",
+          "1.1 µU/mL",
+          "0.4–4.0 µU/mL"
+        ],
+        [
+          "Free T4",
+          "0.9 ng/dL",
+          "0.8–1.8 ng/dL"
+        ],
+        [
+          "Total T3",
+          "52 ng/dL",
+          "80–200 ng/dL"
+        ]
+      ],
+      "answers": {
+        "A": "Begin methimazole therapy",
+        "B": "Begin oral levothyroxine therapy",
+        "C": "Begin oral liothyronine therapy",
+        "D": "Nutritional rehabilitation alone",
+        "E": "Radioactive iodine uptake scan"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Methimazole treats hyperthyroidism; her TSH is normal and her T3 is low.",
+        "B": "Her TSH is normal; the pattern is sick euthyroid syndrome from starvation, and thyroid hormone would treat a lab value rather than the cause.",
+        "C": "A low T3 in starvation is an adaptation (sick euthyroid syndrome), not true hypothyroidism, so T3 replacement is not indicated.",
+        "D": "Sick euthyroid syndrome (low T3 with normal TSH) in malnutrition resolves with refeeding; the lecture stresses that it can skew thyroid results in eating disorders.",
+        "E": "An uptake scan evaluates hyperthyroidism and is not indicated for this pattern."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-014",
+      "question": "A 23-year-old woman tells her physician that she has made herself vomit once or twice daily for a year. She has no symptoms today. BMI is 24 kg/m², and vital signs and examination are normal. A colleague suggests that, because her weight is normal and she feels well, laboratory testing can wait until she loses weight or develops symptoms. Which of the following is the most appropriate next step?",
+      "answers": {
+        "A": "Defer testing until her weight decreases",
+        "B": "Order a CMP with magnesium and phosphorus",
+        "C": "Order a DEXA scan alone",
+        "D": "Reassure her and follow up in 1 year",
+        "E": "Start fluoxetine and recheck in 6 weeks"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Medical testing in eating disorders should not depend on weight status; most patients with eating disorders are not underweight.",
+        "B": "Medical testing should not depend on weight or reported symptoms; daily purging warrants a CMP with magnesium and phosphorus, among other tests.",
+        "C": "A DEXA scan does not assess the immediate electrolyte danger of daily purging.",
+        "D": "Reassurance ignores the medical risk of daily purging, which can be present without symptoms.",
+        "E": "Medication without a medical evaluation misses possible dangerous electrolyte abnormalities."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-015",
+      "question": "A 20-year-old woman with an eating disorder has generalized weakness. Laboratory results are shown. Which of the following compensatory behaviors best explains these findings?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference range"
+        ],
+        [
+          "Sodium",
+          "136 mEq/L",
+          "135–145 mEq/L"
+        ],
+        [
+          "Potassium",
+          "2.8 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Chloride",
+          "88 mEq/L",
+          "98–107 mEq/L"
+        ],
+        [
+          "Bicarbonate",
+          "34 mEq/L",
+          "22–28 mEq/L"
+        ],
+        [
+          "Urine chloride",
+          "8 mEq/L",
+          ">25 mEq/L in euvolemia"
+        ]
+      ],
+      "answers": {
+        "A": "Diuretic misuse",
+        "B": "Excessive endurance exercise",
+        "C": "Fasting",
+        "D": "Laxative misuse",
+        "E": "Self-induced vomiting"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Diuretics also cause hypokalemic metabolic alkalosis, but urine chloride is high during diuretic action, not low.",
+        "B": "Exercise alone does not produce hypokalemic, hypochloremic metabolic alkalosis.",
+        "C": "Fasting tends to cause ketosis and a mild metabolic acidosis, not alkalosis with low urine chloride.",
+        "D": "Laxatives cause loss of bicarbonate-rich stool, typically giving hypokalemia with a metabolic acidosis.",
+        "E": "Vomiting loses gastric HCl, causing hypochloremic metabolic alkalosis with hypokalemia and a low urine chloride."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-016",
+      "question": "A 15-year-old girl is brought to the physician by her mother, who is concerned about weight loss. The girl skips breakfast and lunch, runs 10 km daily, and denies binging or purging. She says she is 'still too fat.' Vital signs are shown. Her hands and feet are cool and bluish. Which of the following additional findings is most likely on examination?",
+      "table": [
+        [
+          "Vital sign",
+          "Value"
+        ],
+        [
+          "Heart rate",
+          "42/min"
+        ],
+        [
+          "Blood pressure",
+          "84/50 mm Hg"
+        ],
+        [
+          "Temperature",
+          "35.5 °C (95.9 °F)"
+        ],
+        [
+          "BMI",
+          "14.9 kg/m²"
+        ]
+      ],
+      "answers": {
+        "A": "Acanthosis nigricans",
+        "B": "Lanugo",
+        "C": "Moon facies",
+        "D": "Parotid gland enlargement",
+        "E": "Pretibial myxedema"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Acanthosis nigricans is associated with insulin resistance and higher body weight, not starvation.",
+        "B": "Lanugo, hair growth on the body and face, is a physical finding of the starvation state of anorexia nervosa, along with bradycardia, hypotension, hypothermia and cyanotic extremities.",
+        "C": "Moon facies are a sign of glucocorticoid excess (Cushing syndrome).",
+        "D": "Parotid swelling is a sign of recurrent vomiting; she denies purging.",
+        "E": "Pretibial myxedema is specific to Graves disease."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-017",
+      "question": "A 19-year-old woman with bulimia nervosa has not improved after 3 months of being told to 'stop purging.' She discloses that she was sexually abused as a child. She has nightmares and intrusive memories of the abuse, avoids places that remind her of it, startles easily, and says purging is 'the only thing that makes me feel numb.' Which comorbid condition is most likely?",
+      "answers": {
+        "A": "Generalized anxiety disorder",
+        "B": "Major depressive disorder",
+        "C": "Obsessive-compulsive disorder",
+        "D": "Panic disorder",
+        "E": "Post-traumatic stress disorder"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "GAD is excessive, hard-to-control worry about many things, not trauma-linked intrusions and avoidance.",
+        "B": "Depression involves low mood and anhedonia; it does not explain flashbacks, avoidance and hyperarousal tied to a trauma.",
+        "C": "OCD is intrusive obsessions relieved by repetitive compulsions, not trauma memories.",
+        "D": "Panic disorder is recurrent unexpected panic attacks with worry about further attacks.",
+        "E": "Intrusive memories, nightmares, avoidance and hyperarousal after abuse are PTSD, a common eating disorder comorbidity; the eating disorder numbs the distress, which is why treating only the behavior fails."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-018",
+      "question": "A 18-year-old woman with anorexia nervosa, restricting type, drinks 8 cups of black coffee and uses a nicotine vape throughout the day. She is not anxious about the coffee or nicotine, has no history of ADHD, and says she uses both mostly between meals she skips. Her resting heart rate is 104/min. Which of the following is the most likely purpose of her stimulant use?",
+      "answers": {
+        "A": "Appetite suppression",
+        "B": "Improved academic focus",
+        "C": "Relief of constipation",
+        "D": "Self-treatment of fatigue",
+        "E": "Withdrawal avoidance"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Nicotine and caffeine are stimulants often used to suppress appetite in eating disorders, so their use should be asked about along with drugs and alcohol.",
+        "B": "Nothing in the history suggests she uses them to study or focus.",
+        "C": "Coffee can stimulate bowel movement, but she links use to skipped meals, not to bowel symptoms.",
+        "D": "Fatigue is possible in starvation, but she ties use to skipped meals rather than to tiredness.",
+        "E": "Withdrawal may maintain use, but it does not explain why she uses them during skipped meals."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-019",
+      "question": "A 16-year-old boy is diagnosed with anorexia nervosa, restricting type, after a sports physical shows bradycardia and weight loss. He is medically stable for outpatient care. His parents ask what treatment approach is most likely to help him recover. Which of the following is the most appropriate recommendation?",
+      "answers": {
+        "A": "Antidepressant medication as the sole treatment",
+        "B": "Dietitian meal plan without psychotherapy",
+        "C": "Instructions to 'just eat' with weekly weighing",
+        "D": "Team-based psychotherapy with monitoring",
+        "E": "Watchful waiting until his weight falls further"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Psychopharmacology can help, particularly for comorbid psychiatric conditions, but it is not the core of treatment.",
+        "B": "Nutrition alone does not address the psychological forces maintaining the disorder.",
+        "C": "Treating the behavior alone risks removing his only coping strategy and does not address its causes.",
+        "D": "The most effective treatment combines psychotherapy with ongoing medical and nutritional monitoring by a collaborating team: therapist, dietitian, psychiatrist and physician.",
+        "E": "Early diagnosis and intervention significantly enhance recovery; waiting worsens outcomes."
+      }
+    },
+    {
+      "id": "msk-eating-disorders-patient-panel-020",
+      "question": "A 34-year-old woman who wakes nearly every night and cannot fall back asleep until she eats a large snack has been doing this most nights for 6 months. She also eats a large share of her daily intake after dinner. She feels distressed and is tired at work. She does not binge with a sense of loss of control and does not purge. Her sleep schedule is regular, and there is no other medical or psychiatric explanation. Which of the following is the most likely diagnosis?",
+      "answers": {
+        "A": "Binge eating disorder",
+        "B": "Bulimia nervosa",
+        "C": "Night eating syndrome",
+        "D": "Purging disorder",
+        "E": "Unspecified feeding or eating disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Binge eating disorder requires discrete binges with loss of control, which she denies.",
+        "B": "Bulimia nervosa requires binge eating and compensatory behaviors.",
+        "C": "Eating after awakening from sleep or excessive eating after the evening meal, causing distress and not explained by other disorders or the sleep-wake cycle, is night eating syndrome, a form of OSFED.",
+        "D": "Purging disorder is purging without binge eating; she does not purge.",
+        "E": "The unspecified label is used when the clinician does not state the reason; her pattern fits a specific named OSFED presentation."
+      }
+    }
+  ]
+}

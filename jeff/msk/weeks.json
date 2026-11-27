@@ -1,0 +1,22 @@
+{
+  "block": "msk",
+  "weeks": [
+    {
+      "id": "1",
+      "name": "Week 1",
+      "dates": "11/30 – 12/4",
+      "lectures": [
+        "gluteal-region-and-hip.json",
+        "metabolic-bone-disease.json",
+        "drugs-that-affect-bone-mineral-homeostasis.json",
+        "eating-disorders-patient-panel.json",
+        "histology-lab-cartilage-and-bone.json",
+        "thigh-and-knee.json",
+        "leg-and-foot.json",
+        "fractures.json",
+        "common-lower-limb-musculoskeletal-injuries.json",
+        "seronegative-spondyloarthropathies.json"
+      ]
+    }
+  ]
+}

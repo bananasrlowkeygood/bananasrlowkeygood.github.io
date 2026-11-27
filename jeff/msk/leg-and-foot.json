@@ -1,0 +1,495 @@
+{
+  "lecture": "The Leg and Foot",
+  "block": "msk",
+  "generated": "2026-11-27",
+  "questions": [
+    {
+      "id": "msk-leg-and-foot-001",
+      "question": "A 28-year-old man slips on ice while running for a trolley and feels a \"pop\" in his ankle as his foot rolls under him. He has immediate pain and swelling over the lateral ankle, anterior and inferior to the lateral malleolus, and the ankle feels unstable. Radiographs show no fracture. Which ligament is most likely torn?",
+      "answers": {
+        "A": "Anterior talofibular ligament",
+        "B": "Deltoid ligament",
+        "C": "Long plantar ligament",
+        "D": "Posterior talofibular ligament",
+        "E": "Spring ligament"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Hyperinversion stresses the lateral ligaments, and the anterior talofibular ligament, running from the fibula to the talus, is the most commonly sprained ligament of the ankle.",
+        "B": "The deltoid (medial collateral) ligaments are on the medial side and resist eversion, so they are injured by hypereversion with medial pain.",
+        "C": "The long plantar ligament runs on the sole from the calcaneus to the metatarsal bases and supports the arches, not the lateral ankle.",
+        "D": "The posterior talofibular ligament is a lateral ligament but is much less frequently injured than the anterior talofibular ligament.",
+        "E": "The spring (calcaneonavicular) ligament is on the plantar medial foot and supports the medial longitudinal arch."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-002",
+      "question": "A 20-year-old man jumps from a second-story window on a dare and lands on his feet. He has severe heel pain and cannot bear weight. Radiographs show a comminuted fracture of the bone that articulates with the talus at the subtalar joint, with displacement of its superoposterior fragment. Which action at the ankle is most likely to be weak?",
+      "answers": {
+        "A": "Dorsiflexion",
+        "B": "Eversion",
+        "C": "Inversion",
+        "D": "Plantar flexion",
+        "E": "Toe adduction"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dorsiflexion is done by the anterior compartment muscles, which insert on the dorsal foot and toes, not on the heel.",
+        "B": "Eversion is done by the fibularis muscles, which insert on the metatarsals and medial cuneiform, not on the calcaneus.",
+        "C": "Inversion is done by the tibialis anterior, extensor hallucis longus and tibialis posterior, none of which insert on the posterior calcaneus.",
+        "D": "The fractured calcaneus receives the Achilles tendon of the gastrocnemius, soleus and plantaris on its superoposterior surface, so plantar flexion is weakened.",
+        "E": "Toe adduction is done by the adductor hallucis and plantar interossei at the metatarsophalangeal joints, not by a heel attachment."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-003",
+      "question": "A 29-year-old woman at 28 weeks' gestation reports bilateral ankle swelling and tingling and burning in the soles of both feet for 3 weeks. The dorsum of each foot has normal sensation. Tapping just inferior and posterior to the medial malleolus reproduces the burning in her sole. Compression of which nerve best explains her symptoms?",
+      "table": [
+        [
+          "Finding",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Blood pressure",
+          "118/72 mm Hg",
+          "< 140/90 mm Hg"
+        ],
+        [
+          "Ankle edema",
+          "2+ bilateral pitting",
+          "None"
+        ],
+        [
+          "Urine protein",
+          "Negative",
+          "Negative"
+        ]
+      ],
+      "answers": {
+        "A": "Common fibular nerve",
+        "B": "Deep fibular nerve",
+        "C": "Saphenous nerve",
+        "D": "Superficial fibular nerve",
+        "E": "Tibial nerve"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The common fibular nerve winds around the fibular neck and supplies the anterolateral leg and dorsum of the foot, which are spared here.",
+        "B": "The deep fibular nerve supplies skin only in the webspace between digits 1 and 2 and does not pass behind the medial malleolus.",
+        "C": "The saphenous nerve runs with the great saphenous vein anterior to the medial malleolus and supplies the medial leg and foot, not the sole.",
+        "D": "The superficial fibular nerve supplies the anterolateral leg and dorsum of the foot, which have normal sensation.",
+        "E": "The tibial nerve passes through the tarsal tunnel behind the medial malleolus, where swelling compresses it, and its plantar and calcaneal branches supply the sole (tarsal tunnel syndrome)."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-004",
+      "question": "A 44-year-old woman with burning pain in the sole of her right foot undergoes surgical decompression. The surgeon incises a sheet of connective tissue running from the medial malleolus to the calcaneus that normally holds the deep posterior compartment tendons against the ankle and prevents them from bowstringing. Which structure was incised?",
+      "answers": {
+        "A": "Deep transverse metatarsal ligament",
+        "B": "Deltoid ligament",
+        "C": "Flexor retinaculum",
+        "D": "Plantar aponeurosis",
+        "E": "Superior extensor retinaculum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The deep transverse metatarsal ligaments join the distal ends of the metatarsals and support the transverse arch, far from the ankle.",
+        "B": "The deltoid ligament also lies on the medial ankle, but it binds tibia to tarsal bones to resist eversion rather than roofing the tarsal tunnel.",
+        "C": "The flexor retinaculum forms the roof of the tarsal tunnel; dividing it releases pressure on the tibial nerve, and retinacula hold tendons near joints to prevent bowstringing.",
+        "D": "The plantar aponeurosis runs from the calcaneus to the proximal phalanges on the sole and gives the arches recoil; it is not over the medial ankle.",
+        "E": "The superior extensor retinaculum holds the anterior compartment tendons on the front of the ankle, not the medial tunnel contents."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-005",
+      "question": "A 37-year-old man has a laceration just posterior and inferior to the medial malleolus from a fall onto broken glass. Exploration of the wound shows that the most posterior structure passing beneath the flexor retinaculum has been completely divided, while the neurovascular bundle just anterior to it is intact. Which action is most likely to be lost?",
+      "answers": {
+        "A": "Abduction of the big toe",
+        "B": "Dorsiflexion of the foot",
+        "C": "Eversion of the foot",
+        "D": "Flexion of the big toe at the interphalangeal joint",
+        "E": "Flexion of toes 2 through 5 at the DIP joints"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Abduction of the big toe is done by the abductor hallucis, an intrinsic muscle of the sole that does not pass through the tarsal tunnel.",
+        "B": "Dorsiflexion is done by the anterior compartment muscles, whose tendons cross the front of the ankle.",
+        "C": "Eversion is done by the fibularis muscles, whose tendons pass behind the lateral malleolus.",
+        "D": "The flexor hallucis longus tendon is the most posterior structure in the tarsal tunnel and is the muscle that flexes the hallux at its interphalangeal joint.",
+        "E": "The flexor digitorum longus does this, but its tendon lies anterior to the neurovascular bundle, just behind the tibialis posterior."
+      },
+      "explanationImage": {
+        "src": "images/leg-and-foot/005-exp.jpg",
+        "caption": "Tarsal tunnel contents, anterior to posterior",
+        "credit": "Slides p. 20"
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-006",
+      "question": "A 48-year-old man sustains a crush injury to the right leg at work. Radiographs show fractures of the tibia and fibula. Four hours later the front of the leg is tense and he has severe pain and burning that worsen with passive plantar flexion of the toes. Compartment pressures are shown. Which pulse is most likely to be diminished?",
+      "table": [
+        [
+          "Compartment",
+          "Pressure",
+          "Reference Range"
+        ],
+        [
+          "Anterior",
+          "52 mm Hg",
+          "< 10 mm Hg"
+        ],
+        [
+          "Lateral",
+          "14 mm Hg",
+          "< 10 mm Hg"
+        ],
+        [
+          "Superficial posterior",
+          "8 mm Hg",
+          "< 10 mm Hg"
+        ],
+        [
+          "Deep posterior",
+          "9 mm Hg",
+          "< 10 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "Dorsalis pedis",
+        "B": "Femoral",
+        "C": "Fibular",
+        "D": "Popliteal",
+        "E": "Posterior tibial"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The anterior compartment contains the anterior tibial artery, which continues as the dorsalis pedis on the dorsum of the foot, so that pulse falls first.",
+        "B": "The femoral pulse is proximal to the injured compartment and is unaffected by pressure in the leg.",
+        "C": "The fibular artery runs in the deep posterior compartment, which has normal pressure here, and it is not a palpable pulse site.",
+        "D": "The popliteal artery is proximal to the branching of the leg arteries and lies outside the involved compartment.",
+        "E": "The posterior tibial artery runs in the posterior compartment, whose pressure is normal, and is felt behind the medial malleolus."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-007",
+      "question": "A 31-year-old woman is hit on the lateral side of the leg by a car bumper. Over the next several hours she develops severe pain in the leg. A cross-section at mid-leg is shown, and the compartment marked by the arrow has a measured pressure of 48 mm Hg. Which deficit is she most likely to develop if the pressure is not relieved?",
+      "table": [
+        [
+          "Finding",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Marked compartment pressure",
+          "48 mm Hg",
+          "< 10 mm Hg"
+        ],
+        [
+          "Creatine kinase",
+          "6,800 U/L",
+          "40–200 U/L"
+        ]
+      ],
+      "image": {
+        "src": "images/leg-and-foot/007.jpg",
+        "caption": "Mid-leg cross-section; anterior is up, lateral is to the left",
+        "credit": "Slides p. 45"
+      },
+      "answers": {
+        "A": "Loss of dorsiflexion and numbness between toes 1 and 2",
+        "B": "Loss of eversion and numbness of the dorsum of the foot",
+        "C": "Loss of knee extension and numbness of the medial leg",
+        "D": "Loss of plantar flexion and numbness of the sole",
+        "E": "Loss of toe abduction and numbness of the heel"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This is the deep fibular nerve in the anterior compartment, which lies in front of the interosseous membrane, not in the marked compartment.",
+        "B": "The arrow marks the lateral compartment (fibularis longus and brevis), which contains the superficial fibular nerve, supplying the everters and the skin of the anterolateral leg and dorsum of the foot.",
+        "C": "This would follow femoral and saphenous nerve injury; the saphenous nerve runs subcutaneously on the medial leg.",
+        "D": "This is the tibial nerve, which runs with the posterior tibial vessels in the posterior compartment.",
+        "E": "Toe abduction depends on plantar intrinsic muscles supplied by the plantar branches of the tibial nerve, which is not in the marked compartment."
+      },
+      "explanationImage": {
+        "src": "images/leg-and-foot/007-exp.jpg",
+        "caption": "Labelled mid-leg cross-section",
+        "credit": "Slides p. 46"
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-008",
+      "question": "A 24-year-old man is struck on the lateral knee during a soccer game. Radiographs show a fracture just below the head of the fibula. On examination he cannot dorsiflex the foot or extend the toes, but eversion strength is normal. Sensation is most likely reduced in which area?",
+      "answers": {
+        "A": "Anterolateral leg",
+        "B": "Lateral border of the sole",
+        "C": "Medial heel",
+        "D": "Posterolateral leg",
+        "E": "Webspace between digits 1 and 2"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The anterolateral leg is supplied by the superficial fibular nerve, which is intact because eversion is normal.",
+        "B": "The lateral sole is supplied by the lateral plantar branch of the tibial nerve, which does not cross the fibular neck.",
+        "C": "The heel is supplied by calcaneal branches of the tibial nerve.",
+        "D": "The posterolateral leg lies in the tibial nerve's territory (medial sural nerve).",
+        "E": "Weak dorsiflexion with intact eversion points to the deep fibular nerve, the branch most often hurt in fibular neck fractures, and its only skin territory is this webspace."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-009",
+      "question": "A 56-year-old man has a complete laceration of the tibial nerve in the popliteal fossa during knee surgery. Three months later he cannot plantar flex the foot. When asked to tilt the sole of his foot inward, he can still do so weakly. Which muscle is most likely producing this movement?",
+      "answers": {
+        "A": "Fibularis brevis",
+        "B": "Fibularis longus",
+        "C": "Fibularis tertius",
+        "D": "Tibialis anterior",
+        "E": "Tibialis posterior"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The fibularis brevis is supplied by the superficial fibular nerve but everts rather than inverts the foot.",
+        "B": "The fibularis longus is also an everter and plantar flexor supplied by the superficial fibular nerve.",
+        "C": "The fibularis tertius is supplied by the deep fibular nerve but everts and dorsiflexes the foot.",
+        "D": "The tibialis anterior is supplied by the deep fibular nerve, spared here, and inverts as well as dorsiflexes because it inserts on the first metatarsal and medial cuneiform.",
+        "E": "The tibialis posterior is a strong inverter, but it is supplied by the tibial nerve, which is transected."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-010",
+      "question": "A 35-year-old woman has a stab wound to the front of the leg that transects the deep fibular nerve but spares the superficial fibular nerve. Testing shows weak dorsiflexion and toe extension, and eversion is slightly weaker than on the other side. Loss of which muscle best explains the eversion weakness?",
+      "answers": {
+        "A": "Extensor digitorum brevis",
+        "B": "Fibularis brevis",
+        "C": "Fibularis longus",
+        "D": "Fibularis tertius",
+        "E": "Tibialis anterior"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The extensor digitorum brevis is supplied by the deep fibular nerve but only assists toe extension; it does not evert.",
+        "B": "The fibularis brevis everts, but it is supplied by the intact superficial fibular nerve.",
+        "C": "The fibularis longus everts, but it is supplied by the intact superficial fibular nerve.",
+        "D": "The fibularis tertius is the only everter supplied by the deep fibular nerve, so its loss slightly weakens eversion.",
+        "E": "The tibialis anterior is supplied by the deep fibular nerve but inverts rather than everts."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-011",
+      "question": "A 19-year-old woman rolls her ankle stepping off a curb. She has point tenderness over the bony prominence on the lateral border of the midfoot, and resisted eversion is painful at that spot. Radiographs show a small avulsed fragment from the tuberosity of the fifth metatarsal. The tendon of which muscle most likely pulled off this fragment?",
+      "answers": {
+        "A": "Extensor digitorum longus",
+        "B": "Fibularis brevis",
+        "C": "Fibularis longus",
+        "D": "Tibialis anterior",
+        "E": "Tibialis posterior"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The extensor digitorum longus inserts on the distal phalanges of digits 2–5 and dorsiflexes rather than everts.",
+        "B": "The fibularis brevis stays on the lateral foot and inserts on the tuberosity of the fifth metatarsal, and it everts the foot.",
+        "C": "The fibularis longus wraps under the foot to insert on the first metatarsal and medial cuneiform.",
+        "D": "The tibialis anterior inserts on the first metatarsal and medial cuneiform and inverts the foot.",
+        "E": "The tibialis posterior inserts on the plantar tarsals and metatarsals 2–4 and inverts the foot."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-012",
+      "question": "A 66-year-old man has difficulty starting to bend his knee after standing with it fully straight. Examination shows that the femur fails to rotate laterally on the tibia by the usual few degrees at the start of flexion. MRI shows atrophy of a small muscle in the floor of the popliteal fossa supplied by the tibial nerve. Which muscle is affected?",
+      "answers": {
+        "A": "Gastrocnemius",
+        "B": "Plantaris",
+        "C": "Popliteus",
+        "D": "Soleus",
+        "E": "Tibialis posterior"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The gastrocnemius crosses the knee from the femoral condyles and flexes it, but it does not unlock the knee by rotating the femur.",
+        "B": "The plantaris is a thin muscle with a long tendon that weakly plantar flexes and has a proprioceptive role at the knee.",
+        "C": "The popliteus laterally rotates the femur about 5 degrees at the start of flexion, unlocking the extended knee.",
+        "D": "The soleus arises from the soleal line of the tibia and does not cross the knee.",
+        "E": "The tibialis posterior is a deep plantar flexor and inverter of the foot and does not act on the knee."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-013",
+      "question": "A 42-year-old woman has a lesion of the lateral plantar nerve after a puncture wound of the lateral sole. Over the next months, toes 3 through 5 rest flexed at the interphalangeal joints and she cannot straighten them actively, although the toes extend normally at the metatarsophalangeal joints. Loss of which muscles best explains this finding?",
+      "answers": {
+        "A": "Dorsal interossei",
+        "B": "Extensor digitorum brevis",
+        "C": "Flexor digiti minimi",
+        "D": "Flexor digitorum brevis",
+        "E": "Lumbricals"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The dorsal interossei abduct the toes at the metatarsophalangeal joints; they do not extend the interphalangeal joints.",
+        "B": "The extensor digitorum brevis is supplied by the deep fibular nerve and is unaffected by a plantar nerve lesion.",
+        "C": "The flexor digiti minimi is supplied by the lateral plantar nerve but flexes the fifth toe at the metatarsophalangeal joint; it does not extend any joint.",
+        "D": "The flexor digitorum brevis flexes the toes and is supplied by the medial plantar nerve.",
+        "E": "The lumbricals cross the PIP and DIP joints dorsally and are the main extensors there; those of digits 3–5 are supplied by the lateral plantar nerve."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-014",
+      "question": "A 50-year-old man steps on a nail and develops numbness of the medial sole. Nerve conduction studies localize the injury to the medial plantar nerve, with the lateral plantar nerve intact. On strength testing of the intrinsic foot muscles, which muscle is most likely to be weak?",
+      "answers": {
+        "A": "Abductor digiti minimi",
+        "B": "Abductor hallucis",
+        "C": "Adductor hallucis",
+        "D": "Plantar interossei",
+        "E": "Quadratus plantae"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The abductor digiti minimi is supplied by the lateral plantar nerve.",
+        "B": "The abductor hallucis is one of the few plantar muscles supplied by the medial plantar nerve, along with the flexor digitorum brevis, flexor hallucis brevis and second lumbrical.",
+        "C": "The adductor hallucis acts on the big toe but is supplied by the lateral plantar nerve.",
+        "D": "The plantar interossei are supplied by the lateral plantar nerve.",
+        "E": "The quadratus plantae is supplied by the lateral plantar nerve."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-015",
+      "question": "A 27-year-old woman has a lateral plantar nerve injury. She can no longer move her second toe away from its resting position either toward the big toe or toward the third toe, and she cannot spread toes 3 and 4 laterally. The second toe can still flex and extend. Loss of which muscles best explains these findings?",
+      "answers": {
+        "A": "Dorsal interossei",
+        "B": "Extensor digitorum brevis",
+        "C": "Flexor digitorum brevis",
+        "D": "Lumbricals",
+        "E": "Plantar interossei"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Abduction is measured from a line through the second digit, so the second toe has two dorsal interossei (one each side) and toes 3 and 4 have one each, all supplied by the lateral plantar nerve.",
+        "B": "The extensor digitorum brevis extends toes 2–4 and is supplied by the deep fibular nerve.",
+        "C": "The flexor digitorum brevis flexes toes 2–5 to the PIP joints and is supplied by the medial plantar nerve.",
+        "D": "The lumbricals flex the metatarsophalangeal joints and extend the interphalangeal joints; they do not move toes sideways.",
+        "E": "The plantar interossei adduct toes 3–5 toward the second digit; there is none for the second toe."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-016",
+      "question": "A 58-year-old woman notices that the inner side of her left foot has gradually flattened against the floor over 2 years. Standing radiographs show collapse of the medial longitudinal arch with a normal lateral longitudinal arch and transverse arch. MRI shows a tear of a plantar ligament whose main role is support of this arch alone. Which ligament is torn?",
+      "answers": {
+        "A": "Calcaneonavicular (spring) ligament",
+        "B": "Deep transverse metatarsal ligament",
+        "C": "Long plantar ligament",
+        "D": "Short plantar ligament",
+        "E": "Superficial transverse metatarsal ligament"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The spring ligament connects the calcaneus to the navicular and primarily supports the medial longitudinal arch.",
+        "B": "The deep transverse metatarsal ligaments connect the distal metatarsals and support the transverse arch.",
+        "C": "The long plantar ligament supports all three arches, so a tear would not affect the medial arch alone.",
+        "D": "The short plantar ligament connects the calcaneus to the cuboid and supports the lateral longitudinal and transverse arches.",
+        "E": "This ligament ties together the digital slips of the plantar aponeurosis at the toes and is not the main support of the medial arch."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-017",
+      "question": "A 61-year-old woman has progressive flattening of her right foot and pain along a tendon that curves behind the medial malleolus. She cannot rise onto her toes on that foot, and resisted inversion with the foot plantar flexed is weak and painful. Dysfunction of which muscle's tendon best explains her findings?",
+      "answers": {
+        "A": "Fibularis brevis",
+        "B": "Fibularis longus",
+        "C": "Flexor hallucis longus",
+        "D": "Tibialis anterior",
+        "E": "Tibialis posterior"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "The fibularis brevis tendon passes behind the lateral malleolus, and the muscle everts the foot.",
+        "B": "The fibularis longus passes behind the lateral malleolus and everts; it supports the transverse arch.",
+        "C": "The flexor hallucis longus passes behind the medial malleolus but mainly flexes the big toe and is not a main inverter.",
+        "D": "The tibialis anterior inverts and supports the medial arch but runs in front of the ankle and dorsiflexes.",
+        "E": "The tibialis posterior is the most anterior tendon in the tarsal tunnel, plantar flexes and inverts the foot, and its broad insertion supports the arches."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-018",
+      "question": "A 34-year-old man is found after lying on his right leg for many hours following an opioid overdose. He has severe leg pain out of proportion to examination, pain on passive stretch of the toes, and a cool, pale foot with paresthesias. Laboratory results are shown. Which is the most appropriate next step in management?",
+      "table": [
+        [
+          "Test",
+          "Value",
+          "Reference Range"
+        ],
+        [
+          "Creatine kinase",
+          "24,000 U/L",
+          "40–200 U/L"
+        ],
+        [
+          "Potassium",
+          "5.6 mEq/L",
+          "3.5–5.0 mEq/L"
+        ],
+        [
+          "Creatinine",
+          "1.9 mg/dL",
+          "0.6–1.2 mg/dL"
+        ],
+        [
+          "Posterior compartment pressure",
+          "55 mm Hg",
+          "< 10 mm Hg"
+        ]
+      ],
+      "answers": {
+        "A": "Compression wrap and elevation",
+        "B": "Emergent fasciotomy",
+        "C": "Intravenous heparin infusion",
+        "D": "Observation with serial examinations",
+        "E": "Oral prednisone taper"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Compression would raise compartment pressure further, and elevating the limb lowers arterial inflow.",
+        "B": "Compartment syndrome is an orthopedic emergency; incising the skin and deep fascia of each tense compartment relieves the pressure.",
+        "C": "Anticoagulation treats arterial or venous thrombosis, which is not the cause of the pressure here.",
+        "D": "Waiting risks permanent nerve damage and muscle necrosis once neurovascular compromise is present.",
+        "E": "Steroids treat inflammatory myositis, which is not the problem in an acutely high-pressure compartment."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-019",
+      "question": "A 23-year-old woman sprains her ankle while walking downhill in high-heeled shoes, which hold the foot in plantar flexion. She notes that she has never sprained it while walking uphill, when the foot is dorsiflexed. Which feature of the talocrural joint best explains why it is less stable in her heeled position?",
+      "answers": {
+        "A": "Deltoid ligament slack in plantar flexion",
+        "B": "Subtalar joint locking in plantar flexion",
+        "C": "Talus narrower posteriorly than anteriorly",
+        "D": "Tibial plateau tilting the talus medially",
+        "E": "Weight borne mainly by the fibula"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The deltoid ligament resists eversion on the medial side; its tension does not explain lateral instability in plantar flexion.",
+        "B": "The subtalar joint allows inversion and eversion; it is not where the hinge's stability comes from.",
+        "C": "The trochlea of the talus is broader anteriorly, so in plantar flexion the narrow posterior part sits loosely between the malleoli.",
+        "D": "The tibial plateau is the knee surface of the tibia and plays no part in the ankle mortise.",
+        "E": "The tibia, not the fibula, is the weight-bearing bone of the leg."
+      }
+    },
+    {
+      "id": "msk-leg-and-foot-020",
+      "question": "A 67-year-old man has an occlusion that begins just after the anterior tibial artery branches from the popliteal artery and blocks the short vessel that continues from that point. The dorsalis pedis pulse is preserved. Muscles of which compartments of the leg are most likely to become ischemic?",
+      "answers": {
+        "A": "Anterior and lateral",
+        "B": "Anterior only",
+        "C": "Posterior and lateral",
+        "D": "Posterior only",
+        "E": "Superficial posterior only"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The anterior compartment is fed by the anterior tibial artery, which is open, as shown by the preserved dorsalis pedis pulse.",
+        "B": "The anterior tibial artery arises before the block and continues as the dorsalis pedis, so the anterior compartment keeps its supply.",
+        "C": "The blocked tibial-fibular trunk gives the posterior tibial artery (posterior compartment) and the fibular artery, whose perforating branches supply the lateral compartment.",
+        "D": "The posterior compartment would be ischemic, but the fibular artery also arises from the trunk and supplies the lateral compartment.",
+        "E": "The whole posterior compartment, deep as well as superficial, loses the posterior tibial artery, and the lateral compartment loses the fibular artery."
+      }
+    }
+  ]
+}
